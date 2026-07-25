@@ -457,15 +457,17 @@ img { max-width: 100%; display: block; }
 .sidebar-list li:first-child { padding-top: 0; }
 .sidebar-list { list-style: none; }
 
-/* Ad slot placeholders (base version — inactive) */
+/* Ad slot placeholders — hidden from visitors until real AdSense code
+   replaces the text inside. Change to `display: flex` once you paste
+   in your actual <ins class="adsbygoogle"> snippet from AdSense. */
 .ad-slot {
+  display: none;
   border: 1px dashed var(--border);
   border-radius: var(--radius);
   color: var(--text-faint);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 90px;

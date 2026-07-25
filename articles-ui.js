@@ -50,22 +50,14 @@ const TTNArticlesUI = (() => {
     return `<div class="news-item-thumb-fallback thumb-${category}" style="${style}">${TREND_ICON}</div>`;
   }
 
-  function openArticle(id) {
-    const article = TTN_ARTICLES.find((a) => a.id === id);
-    if (!article) return;
-    const html = `
-      ${articleThumbHtml(article, 180)}
-      <div class="news-modal-meta">
-        <span class="ttn-original-badge">TTN Original</span>
-        <span class="source">${article.author}</span> · ${fmtDate(article.date)}
-      </div>
-      <h2>${article.title}</h2>
-      ${article.body.map((p) => `<p>${p}</p>`).join("")}
-      ${tickerChipsHtml(article)}
-      <p class="news-modal-note">This is original analysis written by TTN, not aggregated from a third party. It is provided for informational purposes only and is not investment advice.</p>
-    `;
-    TTNNews.openCustomModal(html);
-  }
+  // Maps each article id to its standalone page (needed so link previews on
+  // X/social and Google indexing see a real, unique URL per article instead
+  // of everything pointing at index.html).
+  const ARTICLE_PAGES = {
+    "fed-policy-2026": "fed-policy-2026.html",
+    "bitcoin-halving-cycles": "bitcoin-halving-cycles.html",
+    "gold-hedge-explainer": "gold-hedge-explainer.html",
+  };
 
   async function render() {
     const el = document.getElementById("ttn-articles");
@@ -76,19 +68,13 @@ const TTNArticlesUI = (() => {
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
         <span class="ttn-original-badge">TTN Original</span>
-        <h3><a href="#" class="analysis-open" data-id="${a.id}">${a.title}</a></h3>
+        <h3><a href="${ARTICLE_PAGES[a.id] || "#"}">${a.title}</a></h3>
         <p>${a.dek}</p>
         <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
         ${tickerChipsHtml(a)}
       </article>`
     ).join("");
 
-    el.querySelectorAll(".analysis-open").forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        openArticle(link.dataset.id);
-      });
-    });
     attachTickerHandlers(el);
   }
 

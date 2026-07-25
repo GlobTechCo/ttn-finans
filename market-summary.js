@@ -28,7 +28,7 @@ const TTNMarketSummary = (() => {
     const sentiment =
       up.length > down.length ? "broadly higher" : up.length < down.length ? "broadly lower" : "mixed";
 
-    let text = `Tracked assets are trading ${sentiment} right now — ${up.length} up, ${down.length} down out of ${tracked.length}. `;
+    let text = `Tracked assets are trading ${sentiment} right now: ${up.length} up, ${down.length} down out of ${tracked.length}. `;
 
     if (biggestMover) {
       text += `${biggestMover.label} is the biggest mover, ${biggestMover.changePct >= 0 ? "up" : "down"} ${Math.abs(
