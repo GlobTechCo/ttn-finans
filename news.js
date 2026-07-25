@@ -514,6 +514,29 @@ const TTNNews = (() => {
       .trim();
   }
 
+  // Law firms constantly push "investors should inquire about a class
+  // action" press releases through the same wires as real financial news
+  // whenever a stock drops. These aren't journalism, they're attorney
+  // solicitation, and they clutter the feed. Filtered out by keyword match
+  // rather than by source, since they get syndicated under normal outlet
+  // bylines (Business Insider, PR Newswire, etc.) rather than a distinct
+  // source name we could just exclude.
+  const LEGAL_SOLICITATION_PATTERNS = [
+    /class action/i,
+    /investor rights/i,
+    /securities fraud/i,
+    /shareholder rights/i,
+    /encourages .{0,40}investors to/i,
+    /investors who (lost|suffered)/i,
+    /(rosen|pomerantz|bragar eagel|kessler topaz|glancy prongay|levi ?& ?korsinsky|schall law|faruqi|kahn swick|johnson fistel|bronstein.{0,15}gewirtz|robbins geller|hagens berman) (law firm|llp|encourages|reminds|announces|files|is investigating)/i,
+    /is investigating (claims|whether)/i,
+    /law firm.{0,30}(investigation|investors)/i,
+  ];
+  function isLegalSolicitation(item) {
+    const text = `${item.title} ${item.desc || ""}`;
+    return LEGAL_SOLICITATION_PATTERNS.some((re) => re.test(text));
+  }
+
   function dedupeItems(items) {
     const seenLinks = new Set();
     const seenTitles = new Set();
@@ -566,7 +589,7 @@ const TTNNews = (() => {
     const combined = [...feedResults.flat(), ...finnhubResults, ...currentsResults, ...apitubeResults]
       .filter((i) => i.title)
       .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    allItems = balanceBySource(dedupeItems(combined));
+    allItems = balanceBySource(dedupeItems(combined.filter((i) => !isLegalSolicitation(i))));
 
     if (!allItems.length) {
       allItems = fallbackItems();
