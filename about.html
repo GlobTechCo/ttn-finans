@@ -3,110 +3,89 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — AutoGlob</title>
-<meta name="description" content="AutoGlob covers the automotive world in full — supercars, classics and forgotten brands. Here's why we exist.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About — AutoGlob">
-<meta property="og:description" content="AutoGlob covers the automotive world in full — supercars, classics and forgotten brands. Here's why we exist.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/logo.png">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/about.html">
-<meta property="og:site_name" content="AutoGlob">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="About — AutoGlob">
-<meta name="twitter:description" content="AutoGlob covers the automotive world in full — supercars, classics and forgotten brands. Here's why we exist.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/logo.png">
-
-<link rel="icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.css?v=7">
+<title>About Us - TTN</title>
+<meta name="description" content="About TTN, a real-time financial news and market data platform.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="index.html" class="brand">
-      <img src="logo.png" alt="AutoGlob" class="brand-logo-img">
-    </a>
-    <nav class="main-nav" id="mainNav">
-      <a href="index.html#latest">News</a>
-      <a href="index.html#latest">Reviews</a>
-      <a href="index.html#latest">Test Drives</a>
-      <a href="index.html#latest">Tips &amp; Guides</a>
-      <a href="about.html" class="active">About Us</a>
-    </nav>
-    <div class="header-actions">
-      <button class="icon-btn search-btn" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
 </header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
 
-<div class="container static-page">
-  <p class="breadcrumb"><a href="index.html">Home</a> / About</p>
-  <h1 class="page-title">About AutoGlob</h1>
-  <p class="updated">Time &amp; Road — Stories Behind The Machines</p>
+<div class="static-page">
+  <h1>About TTN</h1>
+  <p>
+    TTN is an experimental financial media platform that tracks key
+    market indicators in real time (Bitcoin, Ethereum, S&amp;P 500,
+    Nasdaq, Gold, EUR/USD) and aggregates up-to-date financial news
+    from established public sources.
+  </p>
 
-  <div class="prose">
-    <p>AutoGlob exists for one reason: most car writing either drowns you in spec sheets or oversells you on hype. We wanted something in between — stories about machines that treat the reader as someone who actually cares how and why things were built the way they were.</p>
+  <h2>What we do</h2>
+  <ul>
+    <li>Display live quotes for six major market indicators.</li>
+    <li>Aggregate news from vetted financial sources, always linking back to the original article.</li>
+    <li>Automatically detect tickers mentioned in news stories, so you can jump straight to a chart.</li>
+    <li>Provide interactive charts powered by TradingView for every asset.</li>
+    <li>Offer free financial calculators (compound interest, currency conversion, crypto P&amp;L, loans).</li>
+  </ul>
 
-    <p>We cover three things, on purpose. Supercars, because the engineering at the extreme edge of what's possible tells you something about where the whole industry is headed. Classics, because the cars that have already proven themselves worth preserving deserve more than a nostalgic caption. And forgotten brands, because some of the most interesting stories in automotive history belong to companies that didn't survive to tell them.</p>
+  <h2>What we don't do</h2>
+  <p>
+    We do not rewrite other outlets' articles or present them as our
+    own content. Every news item links back to its original source.
+  </p>
 
-    <h2>What we actually do</h2>
-    <p>Every piece we publish tries to answer a simple question: why does this machine matter, beyond the numbers? That means original reporting where we can get it, careful research where we can't, and an editorial line that stays skeptical of both manufacturer press releases and internet hype cycles in equal measure.</p>
+  <h2>Advertising &amp; affiliate disclosure</h2>
+  <p>
+    TTN may display advertising, including through Google AdSense,
+    and may include affiliate links to third-party brokers and
+    exchanges. If you sign up through one of these links, we may
+    earn a commission at no extra cost to you. See our
+    <a href="privacy.html" style="color:var(--accent);">Privacy Policy</a>
+    for details.
+  </p>
 
-    <h2>What we don't do</h2>
-    <ul>
-      <li>We don't accept payment in exchange for favorable coverage.</li>
-      <li>We don't publish spec-sheet rewrites disguised as reviews.</li>
-      <li>We don't pretend every new release is the most important car ever built.</li>
-    </ul>
+  <h2>Disclaimer</h2>
+  <p>
+    Content on TTN is provided for informational purposes only and
+    does not constitute investment, financial, or legal advice.
+    Please consult a qualified professional before making any
+    financial decisions.
+  </p>
 
-    <h2>Get in touch</h2>
-    <p>Have a story, a correction, or a car we should know about? Reach the editorial team through our social channels linked in the footer below.</p>
-  </div>
+  <h2>Contact</h2>
+  <p>
+    Questions, corrections, or partnership inquiries? Reach us at
+    <a href="mailto:ttnfinance87@gmail.com" style="color:var(--accent);">ttnfinance87@gmail.com</a>
+  </p>
 </div>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand">
-          <img src="logo.png" alt="AutoGlob" class="brand-logo-img">
-        </a>
-        <p>The automotive world in full — supercars, classics and forgotten brands. Stories, culture, value and market.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#latest">Latest</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Categories</h4>
-        <ul>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Reviews</a></li>
-          <li><a href="#">Test Drives</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="cookies.html">Cookie Policy</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 AutoGlob. All rights reserved.</span>
-      <span>Made for people who read the whole story.</span>
-    </div>
+<footer>
+  <p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
+    <a href="privacy.html">Privacy Policy</a>
   </div>
 </footer>
-
-<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
 </body>
 </html>
