@@ -3,132 +3,282 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TTN - Real-Time Financial News &amp; Markets</title>
-<meta name="description" content="TTN: financial news, live crypto, index, gold and forex quotes with interactive charts.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<title>AutoGlob — The World of Cars Without Borders</title>
+<meta name="description" content="Latest news, honest reviews and useful tips for drivers from all around the world.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AutoGlob — The World of Cars Without Borders">
+<meta property="og:description" content="Latest news, honest reviews and useful tips for drivers from all around the world.">
+<meta property="og:image" content="https://globtechco.github.io/ttn-finans/logo.png">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/">
+<meta property="og:site_name" content="AutoGlob">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AutoGlob — The World of Cars Without Borders">
+<meta name="twitter:description" content="Latest news, honest reviews and useful tips for drivers from all around the world.">
+<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/logo.png">
+
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
-<header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
-  <div class="search-box">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    <input id="search-input" type="text" placeholder="Search news or ticker (BTC, AAPL...)">
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="AutoGlob" class="brand-logo-img">
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#latest">News</a>
+      <a href="index.html#latest">Reviews</a>
+      <a href="index.html#latest">Test Drives</a>
+      <a href="index.html#latest">Tips &amp; Guides</a>
+      <a href="about.html">About Us</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-btn" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
-<script>
-  document.getElementById("nav-toggle").addEventListener("click", () => {
-    document.getElementById("nav-links").classList.toggle("open");
-  });
-</script>
 
-<div class="tv-ticker-tape-wrap" id="ticker-strip">
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
+<section class="hero">
+  <div class="hero-photo">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80" alt="Sports car on a mountain road">
   </div>
-</div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-{
-  "symbols": [
-    { "proName": "BINANCE:BTCUSDT", "title": "Bitcoin" },
-    { "proName": "BINANCE:ETHUSDT", "title": "Ethereum" },
-    { "proName": "FOREXCOM:SPXUSD", "title": "S&P 500" },
-    { "proName": "FOREXCOM:NSXUSD", "title": "Nasdaq" },
-    { "proName": "TVC:GOLD", "title": "Gold" },
-    { "proName": "FX:EURUSD", "title": "EUR/USD" }
-  ],
-  "showSymbolLogo": true,
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "en"
-}
-</script>
-<!-- chart-panel is inserted dynamically by chart.js -->
-
-<div class="market-summary" id="market-summary">
-  <div class="market-summary-head">
-    <span class="section-title" style="margin-bottom:0;">Market Snapshot</span>
-    <span id="market-summary-stamp" class="market-summary-stamp"></span>
+  <div class="hero-stripes">
+    <div class="beam beam-red"></div>
+    <div class="beam beam-cyan"></div>
+    <div class="tick tick-red"></div>
+    <div class="tick tick-cyan"></div>
   </div>
-  <p id="market-summary-text">Loading snapshot…</p>
-</div>
+  <div class="container">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Welcome to AutoGlob</p>
+      <h1>The world of cars<span>without borders</span></h1>
+      <p>Latest news, honest reviews and useful tips for drivers from all around the world.</p>
+      <a href="#latest" class="hero-btn">Explore More <span>→</span></a>
+    </div>
+  </div>
+</section>
 
-<main class="container">
-  <section>
-    <div class="section-title">Top Story</div>
-    <article class="featured" id="featured-article">
-      <div class="featured-body">
-        <div class="skeleton skel-line" style="width:40%"></div>
-        <div class="skeleton skel-line" style="height:26px;width:90%;margin-top:10px;"></div>
-        <div class="skeleton skel-line" style="width:75%"></div>
-      </div>
-    </article>
-
-    <div class="section-title">TTN Analysis</div>
-    <div class="analysis-grid" id="ttn-articles">
-      <div class="analysis-card"><div class="skeleton skel-line" style="width:60%"></div></div>
+<div class="container page-layout">
+  <main>
+    <div class="section-heading" id="latest">
+      <h2>Latest Stories</h2>
+      <a href="#" class="view-all">View all →</a>
     </div>
 
-    <div class="section-title">News Feed</div>
-    <div class="news-feed" id="news-feed">
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
+    <div class="article-grid featured-first">
+
+      <article class="card">
+        <a href="bugatti-chiron.html">
+          <div class="card-media">
+            <span class="badge-pill b-red">News</span>
+            <img src="bugatti-exterior.jpg" alt="Bugatti Tourbillon exterior">
+          </div>
+        </a>
+        <div class="card-body">
+          <h3><a href="bugatti-chiron.html">The Chiron Era Is Over. Its Hybrid V16 Successor Doesn't Share a Single Part With It.</a></h3>
+          <p>After eight years and 500 cars, Bugatti's quad-turbo W16 has retired. The Tourbillon that replaces it runs a naturally aspirated V16 built with Cosworth.</p>
+          <span class="card-date">Jul 21, 2026</span>
+          <a href="bugatti-chiron.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="duesenberg-1934-restoration.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=700&q=80" alt="Vintage 1930s classic car"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="duesenberg-1934-restoration.html">Inside the Restoration of a 1934 Duesenberg</a></h3>
+          <p>Four years, one workshop, and a devotion to getting every rivet right.</p>
+          <span class="card-date">Jul 15, 2026</span>
+          <a href="duesenberg-1934-restoration.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="delorean-before-time-machine.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1494905998402-395d579af36f?w=700&q=80" alt="Classic sports car on winding road"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="delorean-before-time-machine.html">DeLorean Before the Time Machine: The Company That Almost Wasn't</a></h3>
+          <p>Long before pop culture, there was a factory in Belfast and a very risky bet.</p>
+          <span class="card-date">Jul 12, 2026</span>
+          <a href="delorean-before-time-machine.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="used-ev-prices-fell.html">
+          <div class="card-media">
+            <span class="badge-pill b-red">News</span><img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=700&q=80" alt="Modern electric car on highway"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="used-ev-prices-fell.html">Why Used EV Prices Just Fell Off a Cliff</a></h3>
+          <p>Battery anxiety, fast depreciation, and what it means for buyers this year.</p>
+          <span class="card-date">Jul 19, 2026</span>
+          <a href="used-ev-prices-fell.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="group-b-rally-era.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1605559911160-a3d95d213904?w=700&q=80" alt="Rally car in dust cloud"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="group-b-rally-era.html">Group B: The Rally Era That Was Too Fast to Live</a></h3>
+          <p>Banned after four seasons, its cars are now worth more than houses.</p>
+          <span class="card-date">Jul 10, 2026</span>
+          <a href="group-b-rally-era.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="1960s-dashboards-design.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=700&q=80" alt="Classic car dashboard detail"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="1960s-dashboards-design.html">The Instrument Panel as Art: A Study of 1960s Dashboards</a></h3>
+          <p>Before touchscreens, designers treated the dash like a piece of furniture.</p>
+          <span class="card-date">Jul 8, 2026</span>
+          <a href="1960s-dashboards-design.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="naturally-aspirated-v12-holdouts.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=700&q=80" alt="Sports car engine bay"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="naturally-aspirated-v12-holdouts.html">Naturally Aspirated, By Choice: The Holdouts Building V12s in 2026</a></h3>
+          <p>A handful of small manufacturers refuse to give up the sound.</p>
+          <span class="card-date">Jul 20, 2026</span>
+          <a href="naturally-aspirated-v12-holdouts.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="tucker-car-too-honest-detroit.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1580414057403-c5f451f30e1c?w=700&q=80" alt="Junkyard classic car"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="tucker-car-too-honest-detroit.html">Tucker: The Car That Was Too Honest for Detroit</a></h3>
+          <p>Only 51 were built. The story behind them explains why.</p>
+          <span class="card-date">Jul 5, 2026</span>
+          <a href="tucker-car-too-honest-detroit.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="classic-car-auction-hammer-price.html">
+          <div class="card-media">
+            <span class="badge-pill b-cyan">Reviews</span><img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=700&q=80" alt="Car auction house"></div>
+        </a>
+        <div class="card-body">
+          <h3><a href="classic-car-auction-hammer-price.html">Inside a Classic Car Auction: What Actually Drives the Hammer Price</a></h3>
+          <p>Provenance, paint, and paperwork — the three things that matter most.</p>
+          <span class="card-date">Jul 3, 2026</span>
+          <a href="classic-car-auction-hammer-price.html" class="read-more">Read More <span>→</span></a>
+        </div>
+      </article>
+
     </div>
-  </section>
+  </main>
 
-  <aside>
-    <div class="ad-slot">Ad slot (sidebar)</div>
-
-    <div class="sidebar-block">
-      <div class="section-title" style="margin-bottom:12px;">Trending</div>
-      <ul class="sidebar-list" id="trending-list">
-        <li style="color:var(--text-faint);font-size:13px;">Loading…</li>
+  <aside class="sidebar">
+    <div class="widget">
+      <h3>Trending Now</h3>
+      <ul class="widget-list">
+        <li><a href="bugatti-chiron.html"><span class="rank">01</span> The Chiron Era Is Over — Here's What Replaces It</a></li>
+        <li><a href="used-ev-prices-fell.html"><span class="rank">02</span> Why Used EV Prices Just Fell Off a Cliff</a></li>
+        <li><a href="group-b-rally-era.html"><span class="rank">03</span> Group B: The Rally Era That Was Too Fast to Live</a></li>
+        <li><a href="tucker-car-too-honest-detroit.html"><span class="rank">04</span> Tucker: The Car That Was Too Honest for Detroit</a></li>
       </ul>
     </div>
 
-    <div class="sidebar-block">
-      <div class="section-title" style="margin-bottom:12px;">About TTN</div>
-      <p style="font-size:13px;color:var(--text-dim);line-height:1.5;">
-        TTN aggregates real-time financial news and market data:
-        crypto, indices, gold, forex. Click any ticker to open
-        its interactive chart.
-      </p>
+    <div class="ad-slot">
+      <p class="ad-label">Advertisement</p>
+      <!-- AdSense unit placeholder -->
+      <ins class="adsbygoogle"
+           style="display:block; min-height:250px;"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="0000000000"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </div>
+
+    <div class="widget">
+      <h3>Browse by Category</h3>
+      <div class="tag-cloud">
+        <a href="#" class="tag">News</a>
+        <a href="#" class="tag">Reviews</a>
+        <a href="#" class="tag">Test Drives</a>
+        <a href="#" class="tag">Tips & Guides</a>
+        <a href="#" class="tag">Market</a>
+        <a href="#" class="tag">Culture</a>
+        <a href="#" class="tag">Reviews</a>
+      </div>
+    </div>
+
+    <div class="widget newsletter-widget">
+      <h3>The Glovebox</h3>
+      <p>One story a week, straight from the workshop. No spam, ever.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="your@email.com" required aria-label="Email address">
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
     </div>
   </aside>
-</main>
+</div>
 
-<footer>
-  <p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> ·
-    <a href="brokers.html">Brokers</a> ·
-    <a href="about.html">About</a> ·
-    <a href="privacy.html">Privacy Policy</a>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="logo.png" alt="AutoGlob" class="brand-logo-img">
+        </a>
+        <p>The automotive world in full — supercars, classics and forgotten brands. Stories, culture, value and market.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#latest">Latest</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Test Drives</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AutoGlob. All rights reserved.</span>
+      <span>Made for people who read the whole story.</span>
+    </div>
   </div>
 </footer>
 
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-<script src="https://s3.tradingview.com/tv.js"></script>
-<script src="config.js"></script>
-<script src="articles.js"></script>
-<script src="chart.js"></script>
-<script src="tickers.js"></script>
-<script src="news.js"></script>
-<script src="market-summary.js"></script>
-<script src="articles-ui.js"></script>
-<script src="app.js"></script>
-<script src="consent.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
