@@ -314,7 +314,7 @@ const TTNNews = (() => {
             { headers: { Authorization: TTN_CONFIG.PEXELS_KEY } }
           );
           const data = await res.json();
-          const urls = (data.photos || []).map((p) => p.src?.large).filter(Boolean);
+          const urls = (data.photos || []).map((p) => p.src?.medium).filter(Boolean);
           categoryPhotoCache[category] = urls.length ? urls : null;
         } catch (e) {
           categoryPhotoCache[category] = null;
