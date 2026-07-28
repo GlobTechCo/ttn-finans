@@ -57,6 +57,7 @@ const TTN_CONFIG = {
     stocks: "stock market trading screen",
     forex: "currency exchange money",
     gold: "gold bars bullion",
+    oil: "oil tanker crude petroleum",
     general: "financial newspaper business",
   },
 

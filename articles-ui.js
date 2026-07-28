@@ -33,6 +33,7 @@ const TTNArticlesUI = (() => {
 
   function categoryForArticle(article) {
     const tickers = article.tickers || [];
+    if (article.id?.includes("oil")) return "oil";
     if (tickers.some((t) => ["BTC", "ETH"].includes(t))) return "crypto";
     if (tickers.includes("GOLD")) return "gold";
     if (tickers.includes("EUR/USD")) return "forex";
@@ -63,8 +64,9 @@ const TTNArticlesUI = (() => {
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
-    await TTNNews.resolveCategoryPhotos(TTN_ARTICLES.map(categoryForArticle));
-    el.innerHTML = TTN_ARTICLES.map(
+    const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
+    await TTNNews.resolveCategoryPhotos(sorted.map(categoryForArticle));
+    el.innerHTML = sorted.map(
       (a) => `
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
