@@ -57,6 +57,7 @@ const TTNArticlesUI = (() => {
     "fed-policy-2026": "fed-policy-2026.html",
     "bitcoin-halving-cycles": "bitcoin-halving-cycles.html",
     "gold-hedge-explainer": "gold-hedge-explainer.html",
+    "oil-shock-market-ripple": "oil-shock-market-ripple.html",
   };
 
   async function render() {
