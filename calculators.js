@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       } catch (e) {
         if (attempt === endpoints.length - 1) {
-          subEl.textContent = "Rate temporarily unavailable — check your connection and try again";
+          subEl.textContent = "Rate temporarily unavailable. Check your connection and try again";
           resultEl.textContent = "—";
         } else {
           await new Promise((r) => setTimeout(r, 400)); // brief pause before trying the next endpoint
@@ -197,13 +197,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const usdValue = cryptoToUsd(amount, from);
     if (usdValue == null) {
-      subEl.textContent = "Price temporarily unavailable — check your connection and try again";
+      subEl.textContent = "Price temporarily unavailable. Check your connection and try again";
       resultEl.textContent = "—";
       return;
     }
     const result = usdToCrypto(usdValue, to);
     if (result == null) {
-      subEl.textContent = "Price temporarily unavailable — check your connection and try again";
+      subEl.textContent = "Price temporarily unavailable. Check your connection and try again";
       resultEl.textContent = "—";
       return;
     }

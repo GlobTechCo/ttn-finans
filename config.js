@@ -58,6 +58,8 @@ const TTN_CONFIG = {
     forex: "currency exchange money",
     gold: "gold bars bullion",
     oil: "oil tanker crude petroleum",
+    chips: "semiconductor microchip technology",
+    bonds: "stock market graph decline",
     general: "financial newspaper business",
   },
 

@@ -34,6 +34,8 @@ const TTNArticlesUI = (() => {
   function categoryForArticle(article) {
     const tickers = article.tickers || [];
     if (article.id?.includes("oil")) return "oil";
+    if (article.id?.includes("ai-capex")) return "chips";
+    if (article.id?.includes("treasury-yields")) return "bonds";
     if (tickers.some((t) => ["BTC", "ETH"].includes(t))) return "crypto";
     if (tickers.includes("GOLD")) return "gold";
     if (tickers.includes("EUR/USD")) return "forex";
@@ -59,6 +61,8 @@ const TTNArticlesUI = (() => {
     "bitcoin-halving-cycles": "bitcoin-halving-cycles.html",
     "gold-hedge-explainer": "gold-hedge-explainer.html",
     "oil-shock-market-ripple": "oil-shock-market-ripple.html",
+    "ai-capex-nasdaq-correction": "ai-capex-nasdaq-correction.html",
+    "treasury-yields-spike-2026": "treasury-yields-spike-2026.html",
   };
 
   async function render() {
