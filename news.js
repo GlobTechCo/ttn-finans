@@ -153,6 +153,17 @@ const TTNNews = (() => {
     return (tmp.textContent || tmp.innerText || "").trim();
   }
 
+  // Safely escape text for use inside an HTML attribute (e.g. alt="...").
+  // Needed because headline titles can contain quotes or & that would
+  // otherwise break out of the attribute.
+  function escapeAttr(text) {
+    return String(text || "")
+      .replace(/&/g, "&amp;")
+      .replace(/"/g, "&quot;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
   function extractFirstImage(html) {
     if (!html) return null;
     const tmp = document.createElement("div");
@@ -348,13 +359,13 @@ const TTNNews = (() => {
       // characters would break out of a quoted HTML attribute. Instead we
       // mark the img with data attributes and wire up error handling in
       // JS after it's inserted (see attachThumbFallbacks).
-      return `<img class="${cls}" src="${item.image}" alt="" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
+      return `<img class="${cls}" src="${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     }
     // Source gave us no photo — use a relevant Pexels stock photo if we
     // have one cached for this category, so cards rarely show a plain icon.
     const categoryPhoto = pickCategoryPhoto(category, item.link || item.title || "");
     if (categoryPhoto) {
-      return `<img class="${cls}" src="${categoryPhoto}" alt="" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
+      return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     }
     const fallbackCls = size === "lg" ? "featured-img" : "news-item-thumb-fallback";
     return `<div class="${fallbackCls} thumb-${category}">${TREND_ICON}</div>`;
@@ -636,5 +647,6 @@ const TTNNews = (() => {
     getAllItems,
     resolveCategoryPhotos,
     getCategoryPhoto: (category, key) => pickCategoryPhoto(category, key || category),
+    escapeAttr,
   };
 })();

@@ -46,6 +46,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/earnings-beat-miss-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/bitcoin-etf-institutional-adoption.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>

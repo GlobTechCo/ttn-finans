@@ -48,7 +48,7 @@ const TTNArticlesUI = (() => {
     const photo = TTNNews.getCategoryPhoto(category, article.id);
     const style = `width:100%;height:${heightPx}px;border-radius:${heightPx > 150 ? "0" : "5px"};${heightPx <= 150 ? "margin-bottom:12px;" : ""}`;
     if (photo) {
-      return `<img src="${photo}" alt="" loading="lazy" style="${style}object-fit:cover;">`;
+      return `<img src="${photo}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
     }
     return `<div class="news-item-thumb-fallback thumb-${category}" style="${style}">${TREND_ICON}</div>`;
   }
@@ -63,6 +63,9 @@ const TTNArticlesUI = (() => {
     "oil-shock-market-ripple": "oil-shock-market-ripple.html",
     "ai-capex-nasdaq-correction": "ai-capex-nasdaq-correction.html",
     "treasury-yields-spike-2026": "treasury-yields-spike-2026.html",
+    "stablecoins-explained-depeg-risk": "stablecoins-explained-depeg-risk.html",
+    "earnings-beat-miss-explained": "earnings-beat-miss-explained.html",
+    "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
   };
 
   async function render() {

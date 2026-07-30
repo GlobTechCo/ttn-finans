@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Stablecoins Actually Work, and What Makes One 'Depeg' - TTN</title>
+<meta name="description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Stablecoins Actually Work, and What Makes One 'Depeg'">
+<meta property="og:description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
+<meta property="og:image" content="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Stablecoins Actually Work, and What Makes One 'Depeg'">
+<meta name="twitter:description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How Stablecoins Actually Work, and What Makes One 'Depeg'",
+  "description": "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.",
+  "image": ["https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-07-31",
+  "dateModified": "2026-07-31",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>How Stablecoins Actually Work, and What Makes One 'Depeg'</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Jul 31, 2026</p>
+  <img src="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="How Stablecoins Actually Work, and What Makes One 'Depeg'" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.</p>
+  <p>Fiat-collateralized stablecoins like USDT and USDC work by holding real-world reserves, mostly cash and short-term US Treasury bills, roughly equal to the number of tokens in circulation. Both issuers publish regular attestations from accounting firms listing exactly what backs the supply. In theory, if everyone tried to redeem their tokens for dollars at once, the issuer should have the reserves on hand to cover it. This model is the most straightforward of the three main stablecoin designs and, so far, the most durable, but 'holding reserves' still leaves room for exactly where and how those reserves are held to matter quite a bit.</p>
+  <p>The two other designs carry different tradeoffs. Crypto-collateralized stablecoins, like Sky's DAI, are backed by other cryptocurrencies locked up in excess of the stablecoin's value, so a drop in the collateral's price has a buffer before the peg is threatened. Algorithmic stablecoins tried to skip collateral almost entirely, maintaining their peg through code and market incentives rather than a reserve of real assets sitting behind each token. That last category is where the most catastrophic failure in stablecoin history happened.</p>
+  <p>TerraUSD, known as UST, was an algorithmic stablecoin that maintained its dollar peg through a paired token called LUNA rather than holding dollar reserves. In May 2022, large sales of UST broke the delicate arbitrage relationship between the two tokens, LUNA's price collapsed, and the mechanism meant to defend the peg instead accelerated the collapse in what's often described as a death spiral. The episode wiped out roughly 40 to 50 billion dollars in value within about 72 hours and remains the clearest evidence that an algorithmic peg with no real collateral behind it has a structural failure mode that collateral-backed designs don't share in the same way.</p>
+  <p>Fiat-backed stablecoins have had their own, much less severe, wobbles. In March 2023, Circle disclosed that roughly 3.3 billion dollars of USDC's reserves, about 8 percent of the total, were held at Silicon Valley Bank when regulators shut it down. USDC briefly traded as low as 0.87 dollars before US authorities guaranteed SVB depositors in full and the peg was restored within days. USDT has had its own brief wobbles too, including a dip to roughly 0.94 dollars during the acute panic of the Terra collapse, even though Tether's own reserves had nothing to do with what was happening at Terra. That distinction matters: a stablecoin can lose its peg briefly just from market panic and thin liquidity, separate from any actual problem with what backs it, and the two situations carry very different levels of real risk.</p>
+  <p>It's worth being precise about the different categories of depeg risk rather than treating them as one thing. Reserve risk is about whether the assets backing the token are real, liquid, and accessible, the USDC-at-SVB scenario. Panic-driven risk is about temporary imbalances in trading pools during high-stress moments, which tends to resolve once conditions calm down, as both the USDT and USDC episodes eventually did. Algorithmic-design risk, the UST scenario, is structural rather than temporary, since there's no real collateral sitting behind the token to fall back on when confidence breaks.</p>
+  <p>Regulation has tightened noticeably since these episodes. The GENIUS Act, passed in 2025, established a federal framework requiring stablecoin issuers to hold specific categories of reserves and publish regular disclosures, part of why the sector has grown to more than 300 billion dollars in total supply while shifting even further toward the fiat-collateralized model that's held up best historically.</p>
+  <p>The practical takeaway: not all stablecoins carry the same risk just because they're all priced at one dollar. Fiat-backed tokens from issuers that publish regular, credible attestations have historically recovered quickly from brief wobbles, while purely algorithmic designs have shown they can fail permanently and without warning. When using a stablecoin for anything beyond a quick trade, like TTN's Crypto Converter, it's worth knowing which category it falls into and what's actually sitting behind it.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>BTC</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>
