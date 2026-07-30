@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TTN Analysis - All Original Articles</title>
+<meta name="description" content="Every TTN Original article in one place: analysis on Fed policy, crypto, gold, oil, and markets.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/analysis.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="TTN Analysis - All Original Articles">
+<meta property="og:description" content="Every TTN Original article in one place: analysis on Fed policy, crypto, gold, oil, and markets.">
+<meta property="og:image" content="https://images.pexels.com/photos/4960438/pexels-photo-4960438.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/analysis.html">
+<meta property="og:site_name" content="TTN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TTN Analysis - All Original Articles">
+<meta name="twitter:description" content="Every TTN Original article in one place: analysis on Fed policy, crypto, gold, oil, and markets.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/4960438/pexels-photo-4960438.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <h1>TTN Analysis</h1>
+  <p>Original, in-house analysis. Not aggregated from a third party.</p>
+  <div id="analysis-archive"></div>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="articles.js"></script>
+<script src="news.js"></script>
+<script src="articles-archive.js"></script>
+<script src="consent.js"></script>
+</body>
+</html>

@@ -118,7 +118,7 @@ const TTN_ARTICLES = [
     title: "How Stablecoins Actually Work, and What Makes One 'Depeg'",
     dek: "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.",
     author: "TTN Research Desk",
-    date: "2026-07-31",
+    date: "2026-07-30",
     tickers: ["BTC"],
     body: [
       "Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.",
@@ -136,7 +136,7 @@ const TTN_ARTICLES = [
     title: "Why Stocks Sometimes Fall After a Strong Earnings Beat",
     dek: "A company can beat every number Wall Street expected and still see its stock drop the same day. Here's the mechanism behind one of investing's most common points of confusion.",
     author: "TTN Research Desk",
-    date: "2026-08-01",
+    date: "2026-07-30",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "It's one of the most common sources of confusion during earnings season, visible almost weekly in TTN's own news feed: a company reports revenue and profit above what analysts expected, a clean 'beat' by every headline number, and the stock falls anyway. The reaction can look irrational from the outside, but it follows a consistent, explainable logic once you understand what the market is actually pricing.",
@@ -155,7 +155,7 @@ const TTN_ARTICLES = [
     title: "How Bitcoin ETFs Changed Who Actually Owns Bitcoin",
     dek: "Spot Bitcoin ETFs launched in January 2024 and have since pulled in over $2,000 institutional holders. Here's what changed structurally, and what the shift does and doesn't mean for price.",
     author: "TTN Research Desk",
-    date: "2026-08-02",
+    date: "2026-07-30",
     tickers: ["BTC"],
     body: [
       "When the first US spot Bitcoin ETFs launched in January 2024, the pitch was straightforward: let investors get direct Bitcoin price exposure through an ordinary brokerage account, without setting up crypto wallets or dealing with self-custody. More than two years later, the effect on who actually holds Bitcoin has been substantial enough that it's worth separating from the price swings that tend to dominate the headlines.",

@@ -341,6 +341,34 @@ img { max-width: 100%; display: block; }
   padding: 16px;
   position: relative;
 }
+.view-all-analysis {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  padding: 10px;
+  color: var(--accent);
+  font-size: 13px;
+  border: 1px dashed var(--accent-dim);
+  border-radius: var(--radius);
+}
+.view-all-analysis:hover { background: var(--surface); }
+.analysis-list-item {
+  display: flex;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.analysis-list-item:last-child { border-bottom: none; }
+.analysis-list-item img, .analysis-list-item .news-item-thumb-fallback {
+  width: 96px;
+  height: 72px;
+  border-radius: var(--radius);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.analysis-list-item h3 { font-size: 15px; margin: 4px 0 6px; line-height: 1.35; }
+.analysis-list-item h3 a:hover { color: var(--accent); }
+.analysis-list-item p { font-size: 13px; color: var(--text-faint); margin: 0 0 6px; }
 .analysis-card h3 {
   font-size: 15px;
   line-height: 1.35;

@@ -68,12 +68,15 @@ const TTNArticlesUI = (() => {
     "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
   };
 
+  const HOMEPAGE_LIMIT = 4;
+
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
     const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
-    await TTNNews.resolveCategoryPhotos(sorted.map(categoryForArticle));
-    el.innerHTML = sorted.map(
+    const shown = sorted.slice(0, HOMEPAGE_LIMIT);
+    await TTNNews.resolveCategoryPhotos(shown.map(categoryForArticle));
+    el.innerHTML = shown.map(
       (a) => `
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
@@ -84,6 +87,13 @@ const TTNArticlesUI = (() => {
         ${tickerChipsHtml(a)}
       </article>`
     ).join("");
+
+    if (sorted.length > HOMEPAGE_LIMIT) {
+      el.insertAdjacentHTML(
+        "afterend",
+        `<a href="analysis.html" class="view-all-analysis">View all ${sorted.length} articles &rarr;</a>`
+      );
+    }
 
     attachTickerHandlers(el);
   }
