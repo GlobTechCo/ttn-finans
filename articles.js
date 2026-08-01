@@ -173,7 +173,7 @@ const TTN_ARTICLES = [
     title: "What Actually Moves EUR/USD: The Interest Rate Differential Explained",
     dek: "EUR/USD is the world's most traded currency pair, and one number explains most of its big moves: the gap between Fed and ECB interest rates. Here's how that gap works.",
     author: "TTN Research Desk",
-    date: "2026-08-03T09:00:00",
+    date: "2026-08-01T09:00:00",
     tickers: ["EUR/USD"],
     body: [
       "EUR/USD is the most heavily traded currency pair in the world, and the single factor that explains most of its larger swings is a number most casual observers never look at directly: the gap between the Federal Reserve's policy rate and the European Central Bank's policy rate, commonly called the interest rate differential. Understanding this mechanism explains far more about day-to-day moves in TTN's Currency Converter than watching headlines about the euro or the dollar in isolation.",
@@ -191,7 +191,7 @@ const TTN_ARTICLES = [
     title: "How Leverage Liquidation Actually Works, and Why It Feels So Sudden",
     dek: "A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.",
     author: "TTN Research Desk",
-    date: "2026-08-03T11:00:00",
+    date: "2026-08-01T11:00:00",
     tickers: ["BTC", "ETH"],
     body: [
       "Leverage lets a trader control a position larger than the cash they've actually put up, using that cash as collateral for the rest, and it's the mechanism behind the leverage field in TTN's own Crypto Profit/Loss calculator. The upside is straightforward to understand: gains get magnified. What surprises a lot of newer traders is how quickly the same magnification works in reverse, and why crypto liquidations in particular tend to feel more sudden and less forgiving than the margin calls people associate with traditional stock trading.",
