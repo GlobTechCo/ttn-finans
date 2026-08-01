@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Leverage Liquidation Actually Works, and Why It Feels So Sudden - TTN</title>
+<meta name="description" content="A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Leverage Liquidation Actually Works, and Why It Feels So Sudden">
+<meta property="og:description" content="A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.">
+<meta property="og:image" content="https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/crypto-liquidation-leverage-explained.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/crypto-liquidation-leverage-explained.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Leverage Liquidation Actually Works, and Why It Feels So Sudden">
+<meta name="twitter:description" content="A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How Leverage Liquidation Actually Works, and Why It Feels So Sudden",
+  "description": "A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.",
+  "image": ["https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-08-03T11:00:00",
+  "dateModified": "2026-08-03T11:00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/crypto-liquidation-leverage-explained.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>How Leverage Liquidation Actually Works, and Why It Feels So Sudden</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 3, 2026</p>
+  <img src="https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="How Leverage Liquidation Actually Works, and Why It Feels So Sudden" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>Leverage lets a trader control a position larger than the cash they've actually put up, using that cash as collateral for the rest, and it's the mechanism behind the leverage field in TTN's own Crypto Profit/Loss calculator. The upside is straightforward to understand: gains get magnified. What surprises a lot of newer traders is how quickly the same magnification works in reverse, and why crypto liquidations in particular tend to feel more sudden and less forgiving than the margin calls people associate with traditional stock trading.</p>
+  <p>The basic math is worth walking through concretely. A trader who deposits 1,000 dollars and opens a position at 10x leverage controls 10,000 dollars of exposure. If the underlying asset moves 5 percent in their favor, the position gains 500 dollars, a 50 percent return on the original 1,000 dollars before fees. The same 5 percent move against the position produces the mirror-image loss: 500 dollars gone, half the original collateral wiped out on a move that would have been a minor, unremarkable 5 percent swing for someone holding the asset with no leverage at all. At 20x leverage, that same 5 percent move against the position wipes out the entire deposit.</p>
+  <p>Liquidation is what happens when losses consume enough of the collateral that the exchange can no longer guarantee the loan behind the position is covered. At that point, the platform automatically closes the position, selling the underlying collateral to cover what's owed, without asking permission first. This isn't a discretionary decision made by a human at the exchange; it's handled by an automated risk engine continuously monitoring every open leveraged position on the platform, checking in real time whether each one still has enough collateral to stay open.</p>
+  <p>Many exchanges do offer a warning stage before outright liquidation, called a margin call, where the platform flags that a position's collateral buffer has fallen close to the danger zone and gives the trader a chance to add more funds or reduce the position size voluntarily. But this warning isn't universal or guaranteed. Some platforms and some fast-moving market conditions skip straight to liquidation with no advance notice at all, particularly when a price move is sharp enough that the risk engine has to act immediately to prevent losses from exceeding what the trader's collateral can cover. This is a meaningful difference from traditional stock margin accounts in the US, where regulated brokers are generally required to issue a margin call before force-selling a position.</p>
+  <p>Direction matters for which side of a trade gets hit. A long position, betting the price goes up, gets liquidated if the price falls to the position's liquidation threshold. A short position, betting the price goes down, gets liquidated if the price rises to its own threshold instead. Isolated margin ties collateral to a single specific trade, so a liquidation on that position doesn't touch funds elsewhere in the account, while cross margin shares a single collateral pool across multiple open positions, which can either delay liquidation, since a profitable position elsewhere can offset losses, or spread damage across positions that would otherwise have been fine on their own.</p>
+  <p>One pattern worth understanding, since it shows up regularly during the kind of sharp market moves TTN's news feed covers, is the liquidation cascade. When a price move is large enough to trigger a wave of liquidations at similar price levels, the forced selling from those liquidations itself pushes the price further in the same direction, which can then trigger the next tier of liquidation thresholds, compounding the move. Reports have documented liquidation volumes exceeding a billion dollars in a single day during sharp crypto sell-offs, and a meaningful share of a fast, violent price move can be liquidation-driven forced selling rather than purely new information entering the market.</p>
+  <p>It's also worth being clear about what a margin call can and can't do. Adding more collateral in response to a margin call buys time and moves the liquidation threshold further away, but it doesn't fix a position that's simply wrong about market direction. If the underlying trade thesis was flawed, adding funds usually just delays the same outcome rather than preventing it, which is why risk management for leveraged positions generally focuses on position sizing and stop-loss discipline going in, rather than relying on the ability to add funds after the fact.</p>
+  <p>The practical takeaway for anyone using TTN's Crypto P&L calculator: the leverage number isn't just a multiplier on potential profit, it's a direct, proportional multiplier on how small a price move it takes to wipe out the position entirely. Running the numbers at a given leverage level before opening a real position, which the calculator makes easy to do, is a more useful exercise than most people give it credit for.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>

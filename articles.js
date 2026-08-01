@@ -9,7 +9,7 @@ const TTN_ARTICLES = [
     title: "How Fed Policy Shifts Ripple Through Stocks, Bonds, and Crypto",
     dek: "A look at why interest-rate decisions move nearly every asset class TTN tracks, and how to read the signals.",
     author: "TTN Research Desk",
-    date: "2026-07-15",
+    date: "2026-07-15T09:00:00",
     tickers: ["S&P 500", "NASDAQ", "BTC"],
     body: [
       "Interest rate decisions from the Federal Reserve are one of the few events that reliably move stocks, bonds, gold, and crypto on the same day. Eight times a year, the Federal Open Market Committee meets to decide whether to raise, cut, or hold the federal funds rate. Traders don't just react to the decision itself; they react to the wording of the statement and the tone of the press conference that follows. Understanding the underlying mechanism helps explain why markets can swing several percent on what looks, on paper, like a fairly technical announcement.",
@@ -27,7 +27,7 @@ const TTN_ARTICLES = [
     title: "What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't",
     dek: "Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.",
     author: "TTN Research Desk",
-    date: "2026-06-28",
+    date: "2026-06-28T09:00:00",
     tickers: ["BTC", "ETH"],
     body: [
       "Roughly every four years, Bitcoin's block reward, the amount of new BTC paid to miners for confirming transactions, is cut in half. This 'halving' is written directly into Bitcoin's code and happens automatically after every 210,000 blocks are mined, based purely on block count rather than a calendar date or market conditions. It's one of the few genuinely predictable, non-negotiable events in an otherwise famously unpredictable market.",
@@ -46,7 +46,7 @@ const TTN_ARTICLES = [
     title: "Is Gold Still a Hedge? What the Metal Actually Protects Against",
     dek: "Gold's reputation as a 'safe haven' gets repeated often, but a hedge against what, exactly? Breaking down the three scenarios where gold tends to hold up.",
     author: "TTN Research Desk",
-    date: "2026-06-10",
+    date: "2026-06-10T09:00:00",
     tickers: ["GOLD", "EUR/USD"],
     body: [
       "\"Gold is a hedge\" is one of the most repeated lines in finance, but it's rarely explained what it's actually a hedge against. Gold doesn't behave like a single, uniform 'safe asset.' It responds to different economic pressures in different ways, and lumping all of that under one vague label makes it harder to use the metal sensibly in a portfolio. There are three distinct scenarios worth separating, plus a few situations where gold's reputation doesn't hold up as well as its marketing suggests.",
@@ -64,7 +64,7 @@ const TTN_ARTICLES = [
     title: "Why Oil Shocks From the Middle East Ripple Into Stocks, Gold, and the Dollar",
     dek: "Renewed conflict in the Middle East has pushed oil prices sharply higher and rattled stocks. Here's the mechanism connecting a crude oil spike to the other assets TTN tracks.",
     author: "TTN Research Desk",
-    date: "2026-07-28",
+    date: "2026-07-28T09:00:00",
     tickers: ["S&P 500", "NASDAQ", "GOLD", "EUR/USD"],
     body: [
       "Oil doesn't sit on TTN's ticker strip the way Bitcoin or gold do, but when it spikes, it moves nearly everything that does. Late July 2026 has been a clear example: escalating conflict between the US and Iran, along with attacks on tankers in the Red Sea claimed by Houthi militants, pushed crude prices sharply higher and dragged major stock indices down on the same trading days. Understanding why oil has this outsized reach across unrelated-looking assets is worth more than just watching the headline barrel price.",
@@ -82,7 +82,7 @@ const TTN_ARTICLES = [
     title: "The AI Capex Debate: Why a Chip Stock Selloff Turned Into a Nasdaq Correction",
     dek: "Nasdaq has slid roughly 10% from its record high as chip stocks tumble worldwide. Here's the debate over AI data center spending driving the selloff, and the arguments on both sides.",
     author: "TTN Research Desk",
-    date: "2026-07-29",
+    date: "2026-07-29T09:00:00",
     tickers: ["NASDAQ", "S&P 500", "BTC"],
     body: [
       "Nasdaq has slid into a technical correction, down roughly 10 to 11 percent from its recent record high, and the epicenter of the selloff has been chip stocks. South Korea's SK Hynix fell nearly 15 percent in a single session, Samsung Electronics dropped more than 13 percent, and US names including Micron, Intel, and AMD followed with sharp declines of their own. Behind the sudden move is a debate that's been simmering for a while but is now getting a much harder look: are the hyperscalers spending too much, too fast, on AI infrastructure with too little proof it will pay off.",
@@ -100,7 +100,7 @@ const TTN_ARTICLES = [
     title: "Why Treasury Yields Are Spiking to Multi-Decade Highs, and What It Means Beyond Bonds",
     dek: "Long-dated Treasury yields have jumped to levels not seen since 2007, even as the Fed holds rates steady. Here's what's driving the bond market and why it matters for stocks, gold, and the dollar.",
     author: "TTN Research Desk",
-    date: "2026-07-30",
+    date: "2026-07-30T09:00:00",
     tickers: ["S&P 500", "NASDAQ", "GOLD"],
     body: [
       "The 30-year Treasury yield has climbed above 5.2 percent, its highest level since 2007, and the 10-year has pushed past 4.67 percent, even though the Federal Reserve just chose to hold its short-term policy rate steady. That combination, a central bank standing pat while long-term borrowing costs surge anyway, is unusual enough that it's worth unpacking what's actually driving it and why the bond market can move so differently from what the Fed itself is doing.",
@@ -118,7 +118,7 @@ const TTN_ARTICLES = [
     title: "How Stablecoins Actually Work, and What Makes One 'Depeg'",
     dek: "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.",
     author: "TTN Research Desk",
-    date: "2026-07-30",
+    date: "2026-07-30T11:00:00",
     tickers: ["BTC"],
     body: [
       "Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.",
@@ -136,7 +136,7 @@ const TTN_ARTICLES = [
     title: "Why Stocks Sometimes Fall After a Strong Earnings Beat",
     dek: "A company can beat every number Wall Street expected and still see its stock drop the same day. Here's the mechanism behind one of investing's most common points of confusion.",
     author: "TTN Research Desk",
-    date: "2026-07-30",
+    date: "2026-07-30T13:00:00",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "It's one of the most common sources of confusion during earnings season, visible almost weekly in TTN's own news feed: a company reports revenue and profit above what analysts expected, a clean 'beat' by every headline number, and the stock falls anyway. The reaction can look irrational from the outside, but it follows a consistent, explainable logic once you understand what the market is actually pricing.",
@@ -155,7 +155,7 @@ const TTN_ARTICLES = [
     title: "How Bitcoin ETFs Changed Who Actually Owns Bitcoin",
     dek: "Spot Bitcoin ETFs launched in January 2024 and have since pulled in over $2,000 institutional holders. Here's what changed structurally, and what the shift does and doesn't mean for price.",
     author: "TTN Research Desk",
-    date: "2026-07-30",
+    date: "2026-07-30T15:00:00",
     tickers: ["BTC"],
     body: [
       "When the first US spot Bitcoin ETFs launched in January 2024, the pitch was straightforward: let investors get direct Bitcoin price exposure through an ordinary brokerage account, without setting up crypto wallets or dealing with self-custody. More than two years later, the effect on who actually holds Bitcoin has been substantial enough that it's worth separating from the price swings that tend to dominate the headlines.",
@@ -166,6 +166,42 @@ const TTN_ARTICLES = [
       "The ETF wrapper also opened the door to a second layer of financial products that didn't exist for Bitcoin before: options trading on the ETFs themselves. Listed options on funds like IBIT gave institutions and sophisticated traders standard tools, like hedging a position or generating income by selling covered calls, that were previously difficult or impossible to apply to Bitcoin directly. This matters for adoption in a quieter but meaningful way: many institutional mandates and risk frameworks simply require the ability to hedge a position before it can be held at any real size, so the existence of a liquid options market around the ETFs removed another practical barrier that had nothing to do with Bitcoin's price or technology at all.",
       "It's worth being careful about what this structural shift does and doesn't prove about price direction. ETF inflows are one demand channel among several, alongside retail trading, corporate treasury purchases, and offshore markets, and attributing any single price move purely to 'institutional buying' oversimplifies a market with multiple, often larger, forces at work simultaneously. A survey of institutional decision-makers found a majority already hold crypto exposure and most expect to increase allocations over the next year, which speaks to a growing base of steady, structural demand, but that's a different claim than saying ETF flows alone determine where the price goes next.",
       "The practical takeaway: spot Bitcoin ETFs solved a real access problem and meaningfully broadened who can hold Bitcoin through normal, regulated channels, which is a durable structural change regardless of where the price sits on any given day. Whether that translates into steadier, more resilient demand over time, as some of the survey data suggests, or simply gives short-term traders another liquid vehicle to move in and out of, is still an open question that only plays out over the next several market cycles.",
+    ],
+  },
+  {
+    id: "eur-usd-rate-differential-explained",
+    title: "What Actually Moves EUR/USD: The Interest Rate Differential Explained",
+    dek: "EUR/USD is the world's most traded currency pair, and one number explains most of its big moves: the gap between Fed and ECB interest rates. Here's how that gap works.",
+    author: "TTN Research Desk",
+    date: "2026-08-03T09:00:00",
+    tickers: ["EUR/USD"],
+    body: [
+      "EUR/USD is the most heavily traded currency pair in the world, and the single factor that explains most of its larger swings is a number most casual observers never look at directly: the gap between the Federal Reserve's policy rate and the European Central Bank's policy rate, commonly called the interest rate differential. Understanding this mechanism explains far more about day-to-day moves in TTN's Currency Converter than watching headlines about the euro or the dollar in isolation.",
+      "The core logic is simple. Holding a currency that pays a higher interest rate is more attractive than holding one that pays less, all else being equal, because parking money in that currency's government debt or bank deposits earns more. As of mid-2026, the Fed's target range sits at 3.50 to 3.75 percent while the ECB's deposit rate sits meaningfully lower, a gap of roughly 150 to 160 basis points. That gap makes dollar-denominated assets more attractive to yield-seeking capital than euro-denominated ones, all else equal, which tends to support the dollar and pressure EUR/USD lower. When the gap narrows, that advantage shrinks and the euro tends to gain relative to the dollar.",
+      "This dynamic is the basis for what's called a carry trade: borrowing in a lower-yielding currency, in this case the euro, and investing the proceeds in a higher-yielding one, the dollar, pocketing the difference in interest rates as profit, before accounting for hedging costs and the risk that the exchange rate itself moves against the position. Large institutional trading desks run strategies built explicitly around this gap, which is part of why rate differential news, not just the headline rate decision itself, moves the pair so directly.",
+      "The 2025-2026 period offers a clear real-world illustration. EUR/USD climbed from lows near 1.02 in early 2025 to the 1.17 to 1.18 range by mid-2026, a roughly 13 percent move, largely tracking a rate differential that compressed from over 300 basis points at its widest to roughly 150 to 160 basis points as the Fed cut rates several times while the ECB held steady for an extended stretch. Every 50 basis points of narrowing in the differential has, according to some bank research, added a few hundred pips to EUR/USD historically, though that relationship is an average, not a fixed rule that holds precisely every time.",
+      "It's worth understanding that the effect isn't perfectly linear, and this is a genuinely useful nuance rather than a technicality. When the Fed's rate is already relatively low, each additional rate cut represents a larger proportional reduction in dollar yield than the same-sized cut would when rates were higher, meaning the same 25 or 50 basis point move can carry more weight on the currency pair the further along an easing cycle goes. This is part of why EUR/USD forecasts built purely on 'X more cuts equals Y more pips' tend to undersell the later cuts in a cycle relative to the earlier ones.",
+      "The rate differential framework can also get overridden, at least temporarily, by events that have nothing to do with monetary policy. The 2026 escalation in the Middle East, covered in an earlier TTN piece on oil shocks, is a clear example: renewed conflict and an oil price spike reignited inflation concerns on both sides of the Atlantic, complicating the clean 'Fed cuts more, ECB holds' narrative that had driven the pair for much of the prior year, and triggering safe-haven dollar demand that can push EUR/USD lower even while the underlying rate story would otherwise argue for euro strength. Geopolitical risk-off flows and interest rate differentials can point in opposite directions at the same time, and when they do, the risk-off flow often wins in the short term even if the rate story reasserts itself later.",
+      "There's also a political dimension worth being aware of rather than treated as noise. Central bank leadership changes can shift market expectations about the future path of rates well before any actual policy vote happens, since traders price in the anticipated tilt of a new decision-maker immediately rather than waiting for confirmation. A Fed chair widely expected to be more dovish than their predecessor, for example, can move the rate differential narrative even before taking office, simply through the market repricing its own rate-cut expectations.",
+      "The practical takeaway for anyone using TTN's Currency Converter: a EUR/USD move worth checking twice is one that happens around a Fed or ECB rate decision, or around news that shifts expectations for either bank's future path, since these are the events most likely to move the rate differential that ultimately drives the pair. A move on an otherwise quiet news day is more likely to be shorter-term positioning or noise than a shift in the underlying fundamental story.",
+    ],
+  },
+  {
+    id: "crypto-liquidation-leverage-explained",
+    title: "How Leverage Liquidation Actually Works, and Why It Feels So Sudden",
+    dek: "A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.",
+    author: "TTN Research Desk",
+    date: "2026-08-03T11:00:00",
+    tickers: ["BTC", "ETH"],
+    body: [
+      "Leverage lets a trader control a position larger than the cash they've actually put up, using that cash as collateral for the rest, and it's the mechanism behind the leverage field in TTN's own Crypto Profit/Loss calculator. The upside is straightforward to understand: gains get magnified. What surprises a lot of newer traders is how quickly the same magnification works in reverse, and why crypto liquidations in particular tend to feel more sudden and less forgiving than the margin calls people associate with traditional stock trading.",
+      "The basic math is worth walking through concretely. A trader who deposits 1,000 dollars and opens a position at 10x leverage controls 10,000 dollars of exposure. If the underlying asset moves 5 percent in their favor, the position gains 500 dollars, a 50 percent return on the original 1,000 dollars before fees. The same 5 percent move against the position produces the mirror-image loss: 500 dollars gone, half the original collateral wiped out on a move that would have been a minor, unremarkable 5 percent swing for someone holding the asset with no leverage at all. At 20x leverage, that same 5 percent move against the position wipes out the entire deposit.",
+      "Liquidation is what happens when losses consume enough of the collateral that the exchange can no longer guarantee the loan behind the position is covered. At that point, the platform automatically closes the position, selling the underlying collateral to cover what's owed, without asking permission first. This isn't a discretionary decision made by a human at the exchange; it's handled by an automated risk engine continuously monitoring every open leveraged position on the platform, checking in real time whether each one still has enough collateral to stay open.",
+      "Many exchanges do offer a warning stage before outright liquidation, called a margin call, where the platform flags that a position's collateral buffer has fallen close to the danger zone and gives the trader a chance to add more funds or reduce the position size voluntarily. But this warning isn't universal or guaranteed. Some platforms and some fast-moving market conditions skip straight to liquidation with no advance notice at all, particularly when a price move is sharp enough that the risk engine has to act immediately to prevent losses from exceeding what the trader's collateral can cover. This is a meaningful difference from traditional stock margin accounts in the US, where regulated brokers are generally required to issue a margin call before force-selling a position.",
+      "Direction matters for which side of a trade gets hit. A long position, betting the price goes up, gets liquidated if the price falls to the position's liquidation threshold. A short position, betting the price goes down, gets liquidated if the price rises to its own threshold instead. Isolated margin ties collateral to a single specific trade, so a liquidation on that position doesn't touch funds elsewhere in the account, while cross margin shares a single collateral pool across multiple open positions, which can either delay liquidation, since a profitable position elsewhere can offset losses, or spread damage across positions that would otherwise have been fine on their own.",
+      "One pattern worth understanding, since it shows up regularly during the kind of sharp market moves TTN's news feed covers, is the liquidation cascade. When a price move is large enough to trigger a wave of liquidations at similar price levels, the forced selling from those liquidations itself pushes the price further in the same direction, which can then trigger the next tier of liquidation thresholds, compounding the move. Reports have documented liquidation volumes exceeding a billion dollars in a single day during sharp crypto sell-offs, and a meaningful share of a fast, violent price move can be liquidation-driven forced selling rather than purely new information entering the market.",
+      "It's also worth being clear about what a margin call can and can't do. Adding more collateral in response to a margin call buys time and moves the liquidation threshold further away, but it doesn't fix a position that's simply wrong about market direction. If the underlying trade thesis was flawed, adding funds usually just delays the same outcome rather than preventing it, which is why risk management for leveraged positions generally focuses on position sizing and stop-loss discipline going in, rather than relying on the ability to add funds after the fact.",
+      "The practical takeaway for anyone using TTN's Crypto P&L calculator: the leverage number isn't just a multiplier on potential profit, it's a direct, proportional multiplier on how small a price move it takes to wipe out the position entirely. Running the numbers at a given leverage level before opening a real position, which the calculator makes easy to do, is a more useful exercise than most people give it credit for.",
     ],
   },
 ];

@@ -14,6 +14,8 @@
     "stablecoins-explained-depeg-risk": "stablecoins-explained-depeg-risk.html",
     "earnings-beat-miss-explained": "earnings-beat-miss-explained.html",
     "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
+    "eur-usd-rate-differential-explained": "eur-usd-rate-differential-explained.html",
+    "crypto-liquidation-leverage-explained": "crypto-liquidation-leverage-explained.html",
   };
 
   function categoryForArticle(article) {
@@ -29,7 +31,7 @@
   }
 
   function fmtDate(iso) {
-    return new Date(iso + "T00:00:00").toLocaleDateString("en-US", {
+    return new Date(iso).toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
       year: "numeric",

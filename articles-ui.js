@@ -66,6 +66,8 @@ const TTNArticlesUI = (() => {
     "stablecoins-explained-depeg-risk": "stablecoins-explained-depeg-risk.html",
     "earnings-beat-miss-explained": "earnings-beat-miss-explained.html",
     "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
+    "eur-usd-rate-differential-explained": "eur-usd-rate-differential-explained.html",
+    "crypto-liquidation-leverage-explained": "crypto-liquidation-leverage-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;
