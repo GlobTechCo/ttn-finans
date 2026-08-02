@@ -16,6 +16,9 @@
     "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
     "eur-usd-rate-differential-explained": "eur-usd-rate-differential-explained.html",
     "crypto-liquidation-leverage-explained": "crypto-liquidation-leverage-explained.html",
+    "vix-fear-index-explained": "vix-fear-index-explained.html",
+    "short-squeeze-mechanics-explained": "short-squeeze-mechanics-explained.html",
+    "dollar-cost-averaging-vs-lump-sum": "dollar-cost-averaging-vs-lump-sum.html",
   };
 
   function categoryForArticle(article) {
