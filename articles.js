@@ -10,6 +10,7 @@ const TTN_ARTICLES = [
     dek: "A look at why interest-rate decisions move nearly every asset class TTN tracks, and how to read the signals.",
     author: "TTN Research Desk",
     date: "2026-07-15T09:00:00",
+    image: "https://images.pexels.com/photos/6534073/pexels-photo-6534073.jpeg",
     tickers: ["S&P 500", "NASDAQ", "BTC"],
     body: [
       "Interest rate decisions from the Federal Reserve are one of the few events that reliably move stocks, bonds, gold, and crypto on the same day. Eight times a year, the Federal Open Market Committee meets to decide whether to raise, cut, or hold the federal funds rate. Traders don't just react to the decision itself; they react to the wording of the statement and the tone of the press conference that follows. Understanding the underlying mechanism helps explain why markets can swing several percent on what looks, on paper, like a fairly technical announcement.",
@@ -28,6 +29,7 @@ const TTN_ARTICLES = [
     dek: "Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.",
     author: "TTN Research Desk",
     date: "2026-06-28T09:00:00",
+    image: "https://images.pexels.com/photos/7788006/pexels-photo-7788006.jpeg",
     tickers: ["BTC", "ETH"],
     body: [
       "Roughly every four years, Bitcoin's block reward, the amount of new BTC paid to miners for confirming transactions, is cut in half. This 'halving' is written directly into Bitcoin's code and happens automatically after every 210,000 blocks are mined, based purely on block count rather than a calendar date or market conditions. It's one of the few genuinely predictable, non-negotiable events in an otherwise famously unpredictable market.",
@@ -47,6 +49,7 @@ const TTN_ARTICLES = [
     dek: "Gold's reputation as a 'safe haven' gets repeated often, but a hedge against what, exactly? Breaking down the three scenarios where gold tends to hold up.",
     author: "TTN Research Desk",
     date: "2026-06-10T09:00:00",
+    image: "https://images.pexels.com/photos/8442330/pexels-photo-8442330.jpeg",
     tickers: ["GOLD", "EUR/USD"],
     body: [
       "\"Gold is a hedge\" is one of the most repeated lines in finance, but it's rarely explained what it's actually a hedge against. Gold doesn't behave like a single, uniform 'safe asset.' It responds to different economic pressures in different ways, and lumping all of that under one vague label makes it harder to use the metal sensibly in a portfolio. There are three distinct scenarios worth separating, plus a few situations where gold's reputation doesn't hold up as well as its marketing suggests.",
@@ -65,6 +68,7 @@ const TTN_ARTICLES = [
     dek: "Renewed conflict in the Middle East has pushed oil prices sharply higher and rattled stocks. Here's the mechanism connecting a crude oil spike to the other assets TTN tracks.",
     author: "TTN Research Desk",
     date: "2026-07-28T09:00:00",
+    image: "https://images.pexels.com/photos/15945856/pexels-photo-15945856.jpeg",
     tickers: ["S&P 500", "NASDAQ", "GOLD", "EUR/USD"],
     body: [
       "Oil doesn't sit on TTN's ticker strip the way Bitcoin or gold do, but when it spikes, it moves nearly everything that does. Late July 2026 has been a clear example: escalating conflict between the US and Iran, along with attacks on tankers in the Red Sea claimed by Houthi militants, pushed crude prices sharply higher and dragged major stock indices down on the same trading days. Understanding why oil has this outsized reach across unrelated-looking assets is worth more than just watching the headline barrel price.",
@@ -83,6 +87,7 @@ const TTN_ARTICLES = [
     dek: "Nasdaq has slid roughly 10% from its record high as chip stocks tumble worldwide. Here's the debate over AI data center spending driving the selloff, and the arguments on both sides.",
     author: "TTN Research Desk",
     date: "2026-07-29T09:00:00",
+    image: "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg",
     tickers: ["NASDAQ", "S&P 500", "BTC"],
     body: [
       "Nasdaq has slid into a technical correction, down roughly 10 to 11 percent from its recent record high, and the epicenter of the selloff has been chip stocks. South Korea's SK Hynix fell nearly 15 percent in a single session, Samsung Electronics dropped more than 13 percent, and US names including Micron, Intel, and AMD followed with sharp declines of their own. Behind the sudden move is a debate that's been simmering for a while but is now getting a much harder look: are the hyperscalers spending too much, too fast, on AI infrastructure with too little proof it will pay off.",
@@ -101,6 +106,7 @@ const TTN_ARTICLES = [
     dek: "Long-dated Treasury yields have jumped to levels not seen since 2007, even as the Fed holds rates steady. Here's what's driving the bond market and why it matters for stocks, gold, and the dollar.",
     author: "TTN Research Desk",
     date: "2026-07-30T09:00:00",
+    image: "https://images.pexels.com/photos/7054384/pexels-photo-7054384.jpeg",
     tickers: ["S&P 500", "NASDAQ", "GOLD"],
     body: [
       "The 30-year Treasury yield has climbed above 5.2 percent, its highest level since 2007, and the 10-year has pushed past 4.67 percent, even though the Federal Reserve just chose to hold its short-term policy rate steady. That combination, a central bank standing pat while long-term borrowing costs surge anyway, is unusual enough that it's worth unpacking what's actually driving it and why the bond market can move so differently from what the Fed itself is doing.",
@@ -119,6 +125,7 @@ const TTN_ARTICLES = [
     dek: "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.",
     author: "TTN Research Desk",
     date: "2026-07-30T11:00:00",
+    image: "https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg",
     tickers: ["BTC"],
     body: [
       "Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.",
@@ -137,6 +144,7 @@ const TTN_ARTICLES = [
     dek: "A company can beat every number Wall Street expected and still see its stock drop the same day. Here's the mechanism behind one of investing's most common points of confusion.",
     author: "TTN Research Desk",
     date: "2026-07-30T13:00:00",
+    image: "https://images.pexels.com/photos/102152/pexels-photo-102152.jpeg",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "It's one of the most common sources of confusion during earnings season, visible almost weekly in TTN's own news feed: a company reports revenue and profit above what analysts expected, a clean 'beat' by every headline number, and the stock falls anyway. The reaction can look irrational from the outside, but it follows a consistent, explainable logic once you understand what the market is actually pricing.",
@@ -156,6 +164,7 @@ const TTN_ARTICLES = [
     dek: "Spot Bitcoin ETFs launched in January 2024 and have since pulled in over $2,000 institutional holders. Here's what changed structurally, and what the shift does and doesn't mean for price.",
     author: "TTN Research Desk",
     date: "2026-07-30T15:00:00",
+    image: "https://images.pexels.com/photos/4451945/pexels-photo-4451945.jpeg",
     tickers: ["BTC"],
     body: [
       "When the first US spot Bitcoin ETFs launched in January 2024, the pitch was straightforward: let investors get direct Bitcoin price exposure through an ordinary brokerage account, without setting up crypto wallets or dealing with self-custody. More than two years later, the effect on who actually holds Bitcoin has been substantial enough that it's worth separating from the price swings that tend to dominate the headlines.",
@@ -174,6 +183,7 @@ const TTN_ARTICLES = [
     dek: "EUR/USD is the world's most traded currency pair, and one number explains most of its big moves: the gap between Fed and ECB interest rates. Here's how that gap works.",
     author: "TTN Research Desk",
     date: "2026-08-01T09:00:00",
+    image: "https://images.pexels.com/photos/4386149/pexels-photo-4386149.jpeg",
     tickers: ["EUR/USD"],
     body: [
       "EUR/USD is the most heavily traded currency pair in the world, and the single factor that explains most of its larger swings is a number most casual observers never look at directly: the gap between the Federal Reserve's policy rate and the European Central Bank's policy rate, commonly called the interest rate differential. Understanding this mechanism explains far more about day-to-day moves in TTN's Currency Converter than watching headlines about the euro or the dollar in isolation.",
@@ -192,6 +202,7 @@ const TTN_ARTICLES = [
     dek: "A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.",
     author: "TTN Research Desk",
     date: "2026-08-01T11:00:00",
+    image: "https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg",
     tickers: ["BTC", "ETH"],
     body: [
       "Leverage lets a trader control a position larger than the cash they've actually put up, using that cash as collateral for the rest, and it's the mechanism behind the leverage field in TTN's own Crypto Profit/Loss calculator. The upside is straightforward to understand: gains get magnified. What surprises a lot of newer traders is how quickly the same magnification works in reverse, and why crypto liquidations in particular tend to feel more sudden and less forgiving than the margin calls people associate with traditional stock trading.",
@@ -210,6 +221,7 @@ const TTN_ARTICLES = [
     dek: "The VIX gets mentioned constantly whenever markets get volatile, but few people know what it's actually calculating or why it moves the way it does. Here's the mechanism behind Wall Street's most-watched fear gauge.",
     author: "TTN Research Desk",
     date: "2026-08-02T09:00:00",
+    image: "https://images.pexels.com/photos/29611783/pexels-photo-29611783.jpeg",
     tickers: ["S&P 500"],
     body: [
       "The VIX, formally the CBOE Volatility Index, shows up in financial headlines constantly, especially during stretches like the one TTN has covered recently, from the Nasdaq's AI-driven correction to the Treasury yield spike. Most people know it as the market's 'fear gauge' without knowing what it actually measures or why it moves the way it does, which makes it easy to misread.",
@@ -229,6 +241,7 @@ const TTN_ARTICLES = [
     dek: "Short squeezes produce some of the most dramatic single-stock price moves in markets. Here's the mechanical chain reaction behind them, separate from the hype that usually surrounds them.",
     author: "TTN Research Desk",
     date: "2026-08-02T11:00:00",
+    image: "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Short squeezes produce some of the most dramatic single-stock price moves in markets, capable of sending a stock up double or triple digits in a matter of days on no fundamental news at all. The mechanics behind them are straightforward once broken down step by step, and understanding the mechanism explains why these events happen suddenly, why they can reverse just as fast, and why they're driven by market structure rather than a company's actual business.",
@@ -247,6 +260,7 @@ const TTN_ARTICLES = [
     dek: "Spreading out an investment feels safer than putting it all in at once. Decades of market data say the opposite is usually true, and here's the nuance behind why both strategies still have a real place.",
     author: "TTN Research Desk",
     date: "2026-08-02T13:00:00",
+    image: "https://images.pexels.com/photos/4056856/pexels-photo-4056856.jpeg",
     tickers: ["S&P 500"],
     body: [
       "Anyone with a lump sum to invest, a bonus, an inheritance, savings finally ready to put to work, tends to face the same question: put it all in now, or spread it out over several months. Dollar-cost averaging, investing equal amounts on a regular schedule rather than all at once, feels intuitively safer, and it's the default advice given to new investors constantly. Decades of market data tell a more specific story than 'safer,' one worth understanding before assuming the cautious-sounding option is automatically the better one, and it connects directly to the kind of long-horizon math TTN's own Compound Interest calculator is built to illustrate.",
@@ -257,6 +271,63 @@ const TTN_ARTICLES = [
       "There's also a behavioral dimension that the raw return numbers don't capture. Loss aversion, the well-documented tendency for the pain of a loss to outweigh the pleasure of an equivalent gain by roughly two to one, makes watching a large lump-sum investment drop immediately after being deployed psychologically difficult for many investors, even when it's statistically the higher-expected-return choice. Morningstar's research on the gap between fund returns and actual investor returns found that the average equity fund investor underperformed the funds they were invested in by about 1.7 percentage points annually over the past decade, largely due to poorly timed entries and exits, often driven by exactly this kind of emotional reaction rather than a rational strategy shift.",
       "That behavioral reality is why the honest answer isn't purely mathematical. A strategy that an investor actually sticks with through a downturn, rather than abandoning in a moment of panic, can outperform a theoretically optimal strategy the investor doesn't have the temperament to hold. Dollar-cost averaging functions as a kind of psychological safety net for money that wasn't previously invested, particularly for an investor who knows from experience that watching a fresh investment drop would tempt them to sell at exactly the wrong moment.",
       "The practical takeaway: the data leans toward putting a lump sum to work immediately for an investor who can genuinely tolerate short-term volatility without deviating from their plan, since that approach has historically won more often and by a real, if moderate, margin. For an investor who knows they'd be tempted to bail during a downturn, dollar-cost averaging into the market over a period of months is a reasonable, evidence-informed trade-off, spending a small, quantifiable statistical edge in exchange for a strategy that's actually easier to stick with under stress.",
+    ],
+  },
+  {
+    id: "correlation-breakdown-diversification",
+    title: "Why Diversification Sometimes Fails Exactly When You Need It Most",
+    dek: "Stocks, bonds, gold, and crypto are supposed to zig when others zag. Here's why that relationship can break down during the exact moments diversification is meant to protect you.",
+    author: "TTN Research Desk",
+    date: "2026-08-03T09:00:00",
+    image: "https://images.pexels.com/photos/12920750/pexels-photo-12920750.jpeg",
+    tickers: ["S&P 500", "GOLD", "BTC"],
+    body: [
+      "Diversification, holding a mix of assets that don't all move in the same direction at once, is one of the most repeated pieces of investing advice, and for good reason: over long stretches, it genuinely reduces how much a portfolio swings for a given level of expected return. What gets discussed far less is that the relationships diversification depends on aren't fixed. They can compress sharply during exactly the periods an investor most needs protection, a pattern that's been visible repeatedly across the events TTN has covered recently.",
+      "The clearest recent illustration is 2022. For most of the post-financial-crisis decade, stocks and bonds had a reliably negative or near-zero correlation, when stocks fell, bonds tended to hold up or even gain, cushioning a mixed portfolio. In 2022, that relationship broke: the correlation between US stocks and bonds spiked to roughly 0.89, among the highest readings in years, as both asset classes fell together, driven by the same underlying force, the Fed's aggressive rate hikes, hitting both at once rather than being separate, offsetting risks. A traditional 60/40 stock-bond portfolio still suffered a roughly 25 percent drawdown that year, on par with the depths of 2008, precisely because the diversification it was designed to provide temporarily stopped working.",
+      "The pattern isn't unique to stocks and bonds. Research examining 2025 and 2026 specifically found that periods of acute stress, the tariff shock, the AI-valuation selloff covered in TTN's own piece on Nasdaq's correction, and the Middle East escalation covered in TTN's oil shock piece, each produced what analysts describe as correlation convergence: stocks, credit, commodities, and even traditionally defensive assets like gold and crypto moved together rather than offsetting each other. The common thread across these episodes is that when the underlying driver is broad, systemic uncertainty rather than a problem specific to one asset class, that uncertainty tends to hit most risk-bearing assets at once, temporarily erasing the low correlations that normally justify holding a diversified mix.",
+      "It's worth being precise about which assets held up better than others during these specific episodes, since the pattern isn't total. Gold initially rallied during the 2026 Iran-related escalation, consistent with its crisis-demand behavior covered in TTN's gold piece, before itself experiencing some volatility later as investors scrambled for pure liquidity rather than any specific asset. Crypto's behavior during past systemic shocks has been more consistently disappointing for diversification purposes: correlation between mainstream financial assets and cryptocurrencies rose from around 60 percent to 90 percent during the market stress following Russia's invasion of Ukraine, and major cryptocurrencies failed to act as a reliable hedge during the COVID-19 crash either, undercutting the 'digital gold' framing during the exact moments it would have mattered most.",
+      "There's a more encouraging, less-discussed side to this too. Correlations aren't permanently broken, they cycle. Morningstar's research found the stock-bond correlation coefficient fell back to just 0.11, barely positive, over the period from the start of 2025 through mid-2026, a sharp reversal from 2022's 0.66 reading for that year. Diversification that looked dead in 2022 was quietly working again within a few years, which is the actual lesson: correlations shift with the dominant macro driver of the moment, they don't move in one direction permanently.",
+      "BlackRock's research adds a useful, more granular point: even during the recent stretch of elevated stock-bond correlation, gold and Bitcoin maintained a low correlation to equities and, notably, a low correlation to each other as well, only about 0.10. Assets whose returns are driven by genuinely different underlying forces, monetary policy for bonds, crisis-demand and central bank buying for gold, adoption and liquidity cycles for Bitcoin, tend to be more resilient diversifiers than assets that are all fundamentally repriced by the same variable, like an interest rate, even when they're conventionally described as being in 'different asset classes.'",
+      "None of this is an argument against diversification. A portfolio that held only stocks in 2022 fared considerably worse than a 60/40 mix, even with bonds temporarily correlated to equities, since some cushioning is still better than none. It's an argument for understanding what diversification actually protects against: it reduces risk over full market cycles and across a range of scenarios, but it isn't a guarantee that every asset in a portfolio will behave independently during any specific crisis, particularly one driven by a single, broad macro shock that touches nearly everything at once.",
+      "The practical takeaway for anyone building a mix of the assets TTN tracks: understanding why each asset is supposed to zig when others zag, monetary policy exposure for bonds, crisis and currency demand for gold, adoption cycles for crypto, is more useful than simply assuming a mix of different asset names automatically means real diversification. When multiple assets in a portfolio share the same underlying driver, even if they're labeled as different asset classes, they can move together exactly when that shared driver comes under stress.",
+    ],
+  },
+  {
+    id: "crypto-taxes-us-explained",
+    title: "How Crypto Taxes Actually Work in the US",
+    dek: "The IRS treats crypto as property, not currency, which has specific, practical consequences most new investors don't find out about until tax season. Here's the mechanism, plain and simple.",
+    author: "TTN Research Desk",
+    date: "2026-08-03T11:00:00",
+    image: "https://images.pexels.com/photos/6863250/pexels-photo-6863250.jpeg",
+    tickers: ["BTC"],
+    body: [
+      "One detail trips up more new crypto investors than almost anything else: the IRS doesn't treat cryptocurrency as currency at all. Under IRS guidance dating back to 2014, crypto is classified as property, the same broad category as stocks or real estate, and that single classification decision is the source of nearly every practical tax rule that follows, including some that surprise people who assume crypto works like cash.",
+      "Because crypto is property, you don't owe tax simply for buying or holding it. Tax is triggered specifically by a 'disposal,' and the IRS interprets that term broadly. Selling crypto for dollars is an obvious disposal, but trading one crypto for another, swapping Bitcoin for Ethereum, for example, also counts as a taxable event, as does spending crypto directly on goods or services. Each of these requires calculating a gain or loss versus your original cost basis, even if no cash ever touched a bank account in the process, which is a common source of confusion for investors who assume a crypto-to-crypto trade is somehow off the IRS's radar.",
+      "The single most consequential number in crypto tax planning is the one-year holding period. Crypto sold within a year of acquiring it generates short-term capital gains, taxed at ordinary federal income tax rates ranging from 10 to 37 percent, the same brackets that apply to salary. Crypto held for more than a year before being sold qualifies for long-term capital gains treatment instead, taxed at 0, 15, or 20 percent depending on income, a meaningfully lower rate. On a large gain, crossing that one-year line can be worth tens of thousands of dollars in tax savings, which is why many crypto tax advisors treat the purchase date of each holding as one of the most important numbers to track carefully.",
+      "There's a second, separate tax category worth distinguishing from capital gains: ordinary income. Crypto received through mining, staking rewards, or airdrops is taxed as ordinary income at its fair market value on the day it's received, regardless of holding period, since it wasn't purchased at all. If that same crypto is later sold, a second, separate taxable event occurs, a capital gain or loss measured against the value already reported as income when it was first received. Missing this two-step structure, treating staking rewards as tax-free until sold, for example, is a common and costly mistake.",
+      "High earners face one more layer worth knowing about: the Net Investment Income Tax, an additional 3.8 percent that applies to investment income, capital gains included, once modified adjusted gross income crosses 200,000 dollars for single filers or 250,000 dollars for married couples filing jointly. This stacks on top of whatever capital gains rate already applies, short-term or long-term.", 
+      "Losses aren't purely bad news at tax time. Capital losses can offset capital gains dollar for dollar, and if losses exceed gains, up to 3,000 dollars of the excess can offset ordinary income in a given year, with any remainder carried forward to future tax years. Crypto currently has a genuine, if possibly temporary, advantage over stocks here: the wash-sale rule, which normally blocks investors from claiming a loss if they buy back a nearly identical position within 30 days, does not currently apply to crypto the way it applies to stocks, though this is a rule under active discussion in Congress and isn't guaranteed to stay this way indefinitely.",
+      "Reporting requirements have tightened noticeably starting in 2026. Centralized US exchanges are now required to report customer transactions directly to the IRS via a new form, 1099-DA, similar to how stock brokers have long reported trades via Form 1099-B. This removes much of the ambiguity that previously let some crypto investors assume smaller transactions might go unnoticed, and it makes keeping accurate personal records, matching what an exchange reports, all the more important, since discrepancies between an investor's own filing and an exchange's 1099-DA are now a much more visible mismatch to the IRS than in prior years.",
+      "The practical takeaway: every disposal of crypto, not just a cash-out to dollars, is a potentially taxable event, the one-year holding mark is worth planning around deliberately given the size of the rate difference, and mining, staking, or airdropped crypto creates a tax obligation the moment it's received, independent of what happens to it afterward. None of this is a substitute for a tax professional experienced with crypto, particularly for anyone with more complex activity like DeFi or cross-chain swaps, but understanding the basic mechanism makes it far easier to keep the records that professional will eventually need.",
+    ],
+  },
+  {
+    id: "cpi-inflation-explained",
+    title: "CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means",
+    dek: "Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.",
+    author: "TTN Research Desk",
+    date: "2026-08-03T13:00:00",
+    image: "https://images.pexels.com/photos/5951182/pexels-photo-5951182.jpeg",
+    tickers: ["S&P 500"],
+    body: [
+      "Every month, a single inflation number moves markets, and TTN's own piece on Fed policy already covered why that number matters so much for stocks, bonds, gold, and crypto. What gets less attention is that 'the inflation number' is actually several distinct measures, and the specific one being quoted changes what the report is actually saying, sometimes significantly.",
+      "The Consumer Price Index, CPI, is the most widely reported inflation measure, published monthly by the Bureau of Labor Statistics. It tracks the average change in prices paid by urban consumers for a fixed 'basket' of goods and services, weighted to reflect how a typical household actually spends money, everything from groceries and gasoline to rent and medical care. As of June 2026, headline CPI stood at 3.5 percent year-over-year.",
+      "That 'headline' label matters, because it's specifically distinguished from core CPI, which strips out food and energy prices entirely. The reasoning is straightforward: food and energy prices are volatile for reasons that often have nothing to do with the broader economy, a war affecting oil supply, a bad harvest season, a refinery outage, and including them can make the headline number swing sharply on noise rather than genuine, sustained inflation trends. Core CPI stood at 2.6 percent in the same June 2026 reading, a full percentage point below headline, illustrating just how much energy price swings, oil prices specifically, were distorting the topline figure at that moment, a dynamic directly connected to the oil shock TTN covered separately.",
+      "There's a third measure worth knowing, and it's arguably the most important one for market watchers specifically: the Personal Consumption Expenditures price index, PCE, and its 'core' version that also excludes food and energy. The Fed's official 2 percent inflation target is set in core PCE terms, not CPI, which is a genuinely useful distinction, since CPI is what gets reported in headlines but PCE is what the central bank is actually responding to when it sets policy. The two measures normally track fairly close to each other, with PCE historically running somewhat lower than CPI due to differences in methodology and the categories of spending each one covers, though that relationship isn't fixed. In early 2026, it briefly reversed, with PCE running higher than CPI by one of the widest margins since the 1980s, partly due to a temporary distortion in shelter-cost data tied to the government shutdown in late 2025.",
+      "Why does the Fed prefer PCE over CPI specifically? Beyond drawing from broader spending data, PCE adjusts for substitution, the way consumers actually shift spending when relative prices change, buying more chicken and less beef when beef prices spike, for example, while CPI uses a more fixed basket that updates less frequently. This makes PCE a somewhat smoother, more behaviorally realistic gauge of the inflation households are actually experiencing, even though it's reported with less fanfare and gets far less media attention than the monthly CPI release.",
+      "A fourth term worth recognizing without going deep into it: the Producer Price Index, PPI, which measures prices at the wholesale level, what producers themselves pay, rather than what end consumers pay. PPI is watched partly because producer-level price changes often show up in consumer prices with a lag, giving PPI some value as a leading indicator, though the relationship isn't perfectly reliable or immediate.",
+      "It's worth being clear about what all of this means practically rather than getting lost in acronyms. When headline CPI and core CPI move in noticeably different directions, as they did in the June 2026 reading, that gap itself is informative: a headline number pulled down mainly by falling energy prices tells a different, generally less concerning story than a core number that's actually accelerating, even if the single topline figure reported in a news alert looks similar either way. Reading past the single headline percentage to check whether core is moving the same direction is a quick, meaningful upgrade over reacting to the topline number alone.",
+      "The practical takeaway for anyone reading an inflation headline in TTN's news feed: check whether the story is citing headline or core, and if possible, whether it's citing CPI or PCE, since the Fed's own reaction function is built around core PCE specifically. A headline CPI number that looks alarming can be driven almost entirely by an energy price swing that core PCE, the measure that actually shapes the next rate decision, barely reflects at all.",
     ],
   },
 ];

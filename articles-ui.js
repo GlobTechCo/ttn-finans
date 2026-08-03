@@ -31,26 +31,13 @@ const TTNArticlesUI = (() => {
 
   const TREND_ICON = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,5"/><polyline points="15,5 21,5 21,11"/></svg>`;
 
-  function categoryForArticle(article) {
-    const tickers = article.tickers || [];
-    if (article.id?.includes("oil")) return "oil";
-    if (article.id?.includes("ai-capex")) return "chips";
-    if (article.id?.includes("treasury-yields")) return "bonds";
-    if (tickers.some((t) => ["BTC", "ETH"].includes(t))) return "crypto";
-    if (tickers.includes("GOLD")) return "gold";
-    if (tickers.includes("EUR/USD")) return "forex";
-    if (tickers.length) return "stocks";
-    return "general";
-  }
-
   function articleThumbHtml(article, heightPx) {
-    const category = categoryForArticle(article);
-    const photo = TTNNews.getCategoryPhoto(category, article.id);
     const style = `width:100%;height:${heightPx}px;border-radius:${heightPx > 150 ? "0" : "5px"};${heightPx <= 150 ? "margin-bottom:12px;" : ""}`;
-    if (photo) {
-      return `<img src="${photo}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
+    if (article.image) {
+      const thumbSrc = `${article.image}?auto=compress&cs=tinysrgb&w=400&h=${heightPx * 3}&fit=crop`;
+      return `<img src="${thumbSrc}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
     }
-    return `<div class="news-item-thumb-fallback thumb-${category}" style="${style}">${TREND_ICON}</div>`;
+    return `<div class="news-item-thumb-fallback thumb-general" style="${style}">${TREND_ICON}</div>`;
   }
 
   // Maps each article id to its standalone page (needed so link previews on
@@ -71,6 +58,9 @@ const TTNArticlesUI = (() => {
     "vix-fear-index-explained": "vix-fear-index-explained.html",
     "short-squeeze-mechanics-explained": "short-squeeze-mechanics-explained.html",
     "dollar-cost-averaging-vs-lump-sum": "dollar-cost-averaging-vs-lump-sum.html",
+    "correlation-breakdown-diversification": "correlation-breakdown-diversification.html",
+    "crypto-taxes-us-explained": "crypto-taxes-us-explained.html",
+    "cpi-inflation-explained": "cpi-inflation-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;
@@ -80,7 +70,6 @@ const TTNArticlesUI = (() => {
     if (!el) return;
     const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
-    await TTNNews.resolveCategoryPhotos(shown.map(categoryForArticle));
     el.innerHTML = shown.map(
       (a) => `
       <article class="analysis-card">

@@ -19,19 +19,10 @@
     "vix-fear-index-explained": "vix-fear-index-explained.html",
     "short-squeeze-mechanics-explained": "short-squeeze-mechanics-explained.html",
     "dollar-cost-averaging-vs-lump-sum": "dollar-cost-averaging-vs-lump-sum.html",
+    "correlation-breakdown-diversification": "correlation-breakdown-diversification.html",
+    "crypto-taxes-us-explained": "crypto-taxes-us-explained.html",
+    "cpi-inflation-explained": "cpi-inflation-explained.html",
   };
-
-  function categoryForArticle(article) {
-    const tickers = article.tickers || [];
-    if (article.id?.includes("oil")) return "oil";
-    if (article.id?.includes("ai-capex")) return "chips";
-    if (article.id?.includes("treasury-yields")) return "bonds";
-    if (tickers.some((t) => ["BTC", "ETH"].includes(t))) return "crypto";
-    if (tickers.includes("GOLD")) return "gold";
-    if (tickers.includes("EUR/USD")) return "forex";
-    if (tickers.length) return "stocks";
-    return "general";
-  }
 
   function fmtDate(iso) {
     return new Date(iso).toLocaleDateString("en-US", {
@@ -41,18 +32,16 @@
     });
   }
 
-  async function render() {
+  function render() {
     const el = document.getElementById("analysis-archive");
     if (!el || typeof TTN_ARTICLES === "undefined") return;
     const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
-    await TTNNews.resolveCategoryPhotos(sorted.map(categoryForArticle));
 
     el.innerHTML = sorted
       .map((a) => {
-        const photo = TTNNews.getCategoryPhoto(categoryForArticle(a), a.id);
-        const img = photo
-          ? `<img src="${photo}" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
-          : `<div class="news-item-thumb-fallback thumb-${categoryForArticle(a)}"></div>`;
+        const img = a.image
+          ? `<img src="${a.image}?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
+          : `<div class="news-item-thumb-fallback thumb-general"></div>`;
         return `
         <div class="analysis-list-item">
           ${img}
