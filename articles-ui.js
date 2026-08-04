@@ -61,6 +61,9 @@ const TTNArticlesUI = (() => {
     "correlation-breakdown-diversification": "correlation-breakdown-diversification.html",
     "crypto-taxes-us-explained": "crypto-taxes-us-explained.html",
     "cpi-inflation-explained": "cpi-inflation-explained.html",
+    "options-calls-puts-explained": "options-calls-puts-explained.html",
+    "stock-buybacks-explained": "stock-buybacks-explained.html",
+    "prediction-markets-explained": "prediction-markets-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;

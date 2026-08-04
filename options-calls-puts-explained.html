@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Options Basics: What Calls and Puts Actually Mean - TTN</title>
+<meta name="description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Options Basics: What Calls and Puts Actually Mean">
+<meta property="og:description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
+<meta property="og:image" content="https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Options Basics: What Calls and Puts Actually Mean">
+<meta name="twitter:description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Options Basics: What Calls and Puts Actually Mean",
+  "description": "Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.",
+  "image": ["https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-08-04T09:00:00",
+  "dateModified": "2026-08-04T09:00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>Options Basics: What Calls and Puts Actually Mean</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 4, 2026</p>
+  <img src="https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="Options Basics: What Calls and Puts Actually Mean" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>Financial coverage increasingly references what options markets are pricing in for a stock, a habit that's become especially common around earnings season, when headlines ask whether a company can pull off a turnaround 'according to options.' Understanding what an option actually is makes that kind of coverage far more useful, even for a reader who never plans to trade one directly.</p>
+  <p>An option is a contract that gives its buyer the right, but not the obligation, to buy or sell 100 shares of a specific stock at a predetermined price, called the strike price, by a specific expiration date. That 'right, not obligation' distinction is the whole concept in miniature: unlike simply buying or shorting a stock outright, an option buyer can choose to walk away and let the contract expire worthless if the trade doesn't work out, losing only what they paid for the contract, called the premium.</p>
+  <p>There are two basic types. A call option gives the buyer the right to buy the stock at the strike price, and buyers purchase calls when they expect the price to rise. A put option gives the buyer the right to sell the stock at the strike price, and buyers purchase puts when they expect the price to fall, or when they want to protect shares they already own against a decline. A concrete example: if a stock trades at 100 dollars and a trader buys a call with a 105 strike expiring in 30 days for a 2 dollar premium, the contract costs 200 dollars total, since each contract covers 100 shares. If the stock climbs to 115 before expiration, the option is worth at least 10 dollars per share, a 1,000 dollar payoff on a 200 dollar bet. If the stock stays below 105, the option simply expires worthless, and the loss is capped at the 200 dollars paid, no matter how far the stock might have fallen instead.</p>
+  <p>That asymmetry, capped downside for the buyer, a much larger potential payoff if the bet is right, is the main reason options get used for speculation. But it's just as often used for the opposite purpose: protection. An investor holding shares of a stock they don't want to sell can buy a put as a form of insurance, guaranteeing a minimum sale price no matter how far the stock falls, in exchange for paying the premium. This hedging use is a large part of why options markets exist at all, not purely as a speculative casino, and it's a distinction worth keeping in mind when options activity gets described in the news as purely a bet.</p>
+  <p>A few terms show up constantly in this kind of coverage and are worth being able to translate on sight. In-the-money means the option would be profitable to exercise right now, a call with a strike below the current stock price, or a put with a strike above it. Out-of-the-money means the opposite, and at-the-money means the strike and the current price are roughly equal. Implied volatility, often shortened to IV, reflects how large a price swing the options market is currently pricing in for the stock, and it tends to spike ahead of high-uncertainty events like earnings reports, which is part of why options premiums get noticeably more expensive right before a company reports results.</p>
+  <p>This connects directly to a pattern TTN covered in its earnings piece: an earnings reaction that would normally look strong can still underwhelm if the options market had already priced in an even larger move. When a headline says 'options are pricing in an 8 percent move' ahead of an earnings report, that's a direct, real-time readout of how much uncertainty, and therefore how large a swing, sophisticated traders expect, which is a genuinely different and often more current signal than a Wall Street analyst's published price target.</p>
+  <p>It's worth being clear about the risk side too, particularly since options are frequently described in the press as simply 'leveraged bets,' which is accurate but incomplete. Buying a call or put has a capped, known maximum loss, the premium paid, which is actually less risky in one specific sense than owning the stock outright, where the loss in dollar terms could be larger on a big enough decline. Selling options, however, is a different and considerably riskier position: a trader who sells, or 'writes,' a call without already owning the underlying shares takes on a loss that grows without any theoretical ceiling if the stock keeps climbing, since they're obligated to deliver shares at the strike price regardless of how high the market price has gone.</p>
+  <p>The practical takeaway for anyone reading TTN's news feed: when a story references what 'options are saying' about a stock, it's typically referring to implied volatility or the ratio of call buying to put buying, both of which reflect what traders are actually willing to pay real money to bet on, a genuinely different and often faster-moving signal than analyst commentary. Understanding the basic call-versus-put, buyer-versus-seller distinction is enough to read that kind of coverage correctly without needing to open a trading account at all.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>
