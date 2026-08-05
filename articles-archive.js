@@ -25,6 +25,9 @@
     "options-calls-puts-explained": "options-calls-puts-explained.html",
     "stock-buybacks-explained": "stock-buybacks-explained.html",
     "prediction-markets-explained": "prediction-markets-explained.html",
+    "ipo-process-explained": "ipo-process-explained.html",
+    "market-cap-explained": "market-cap-explained.html",
+    "insider-selling-explained": "insider-selling-explained.html",
   };
 
   function fmtDate(iso) {
