@@ -144,7 +144,7 @@ const TTN_ARTICLES = [
     dek: "A company can beat every number Wall Street expected and still see its stock drop the same day. Here's the mechanism behind one of investing's most common points of confusion.",
     author: "TTN Research Desk",
     date: "2026-07-30T13:00:00",
-    image: "https://images.pexels.com/photos/102152/pexels-photo-102152.jpeg",
+    image: "https://images.pexels.com/photos/25589797/pexels-photo-25589797.jpeg",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "It's one of the most common sources of confusion during earnings season, visible almost weekly in TTN's own news feed: a company reports revenue and profit above what analysts expected, a clean 'beat' by every headline number, and the stock falls anyway. The reaction can look irrational from the outside, but it follows a consistent, explainable logic once you understand what the market is actually pricing.",
@@ -374,7 +374,7 @@ const TTN_ARTICLES = [
     dek: "Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.",
     author: "TTN Research Desk",
     date: "2026-08-04T13:00:00",
-    image: "https://images.pexels.com/photos/33968/pexels-photo-33968.jpeg",
+    image: "https://images.pexels.com/photos/7594401/pexels-photo-7594401.jpeg",
     tickers: ["S&P 500"],
     body: [
       "Prediction markets, platforms where people trade contracts tied to the outcome of a real-world event, have moved from a niche curiosity into a genuinely large financial category. Global trading volume on these platforms reached roughly 51 billion dollars in 2025 and is projected to climb toward 240 billion dollars in 2026, and financial coverage now routinely cites what Kalshi or Polymarket traders are pricing in for Fed decisions, economic data releases, and corporate events alongside more traditional sources like analyst forecasts.",
