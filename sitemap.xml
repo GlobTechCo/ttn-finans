@@ -136,6 +136,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://globtechco.github.io/ttn-finans/nonfarm-payrolls-jobs-report-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/mergers-acquisitions-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>

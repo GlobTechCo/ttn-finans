@@ -67,6 +67,9 @@ const TTNArticlesUI = (() => {
     "ipo-process-explained": "ipo-process-explained.html",
     "market-cap-explained": "market-cap-explained.html",
     "insider-selling-explained": "insider-selling-explained.html",
+    "nonfarm-payrolls-jobs-report-explained": "nonfarm-payrolls-jobs-report-explained.html",
+    "mergers-acquisitions-explained": "mergers-acquisitions-explained.html",
+    "yield-curve-inversion-recession-signal": "yield-curve-inversion-recession-signal.html",
   };
 
   const HOMEPAGE_LIMIT = 4;
