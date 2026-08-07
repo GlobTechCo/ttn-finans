@@ -31,6 +31,9 @@
     "nonfarm-payrolls-jobs-report-explained": "nonfarm-payrolls-jobs-report-explained.html",
     "mergers-acquisitions-explained": "mergers-acquisitions-explained.html",
     "yield-curve-inversion-recession-signal": "yield-curve-inversion-recession-signal.html",
+    "dxy-dollar-index-explained": "dxy-dollar-index-explained.html",
+    "sector-rotation-explained": "sector-rotation-explained.html",
+    "etf-creation-redemption-mechanism": "etf-creation-redemption-mechanism.html",
   };
 
   function fmtDate(iso) {

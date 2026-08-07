@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How ETFs Actually Get Created and Redeemed - TTN</title>
+<meta name="description" content="An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="How ETFs Actually Get Created and Redeemed">
+<meta property="og:description" content="An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.">
+<meta property="og:image" content="https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/etf-creation-redemption-mechanism.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/etf-creation-redemption-mechanism.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How ETFs Actually Get Created and Redeemed">
+<meta name="twitter:description" content="An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How ETFs Actually Get Created and Redeemed",
+  "description": "An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.",
+  "image": ["https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-08-07T13:00:00",
+  "dateModified": "2026-08-07T13:00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/etf-creation-redemption-mechanism.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>How ETFs Actually Get Created and Redeemed</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 7, 2026</p>
+  <img src="https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="How ETFs Actually Get Created and Redeemed" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>An exchange-traded fund trades on a stock exchange just like an ordinary share, which makes it easy to assume it works exactly like one. It doesn't, in one specific and important way: unlike a company's stock, where the total share count is relatively fixed and only changes through deliberate corporate actions, an ETF's share count can expand or contract every single trading day based on demand. That flexibility runs through a process called creation and redemption, and it's the mechanism that keeps an ETF's market price closely tethered to the actual value of what it holds, the concept covered from the demand side in TTN's earlier piece on Bitcoin ETF adoption.</p>
+  <p>The key players in this process are called authorized participants, large institutional broker-dealers specifically approved by the ETF issuer to create and redeem shares directly with the fund. Ordinary investors never interact with this part of the process at all; when someone buys shares of an ETF through a brokerage account, they're simply trading with another investor on the open exchange, the same as buying any listed stock. Authorized participants operate one level up, in what's called the primary market, dealing directly with the fund issuer rather than on the exchange.</p>
+  <p>Creation works like this: when there's more buying demand for an ETF than there are shares available on the exchange, an authorized participant assembles a large basket of the underlying securities the ETF is designed to hold, in their correct proportional weightings, and delivers that basket directly to the fund issuer. In exchange, the issuer creates and hands over a large, fixed block of new ETF shares, called a creation unit, typically representing 25,000 to 250,000 shares depending on the fund. The authorized participant then sells those newly created shares on the open exchange to meet the demand that prompted the whole process.</p>
+  <p>Redemption is the same process in reverse. When there's more selling pressure than buying interest, an authorized participant buys up a large block of ETF shares on the exchange, roughly the size of a creation unit, and delivers them back to the issuer. In exchange, the issuer hands over the underlying basket of securities, which the authorized participant can then sell separately in the open market, or in some structures, receive an equivalent amount of cash instead.</p>
+  <p>This entire mechanism exists because it creates a built-in arbitrage incentive that keeps an ETF's exchange price closely aligned with its net asset value, the actual per-share worth of everything the fund holds. If an ETF's market price rises meaningfully above its net asset value, an authorized participant can profit by assembling the cheaper underlying basket, exchanging it for a creation unit at the issuer's official value, and selling those shares at the higher market price, a trade that itself adds supply to the market and pushes the price back down toward fair value. If the ETF trades at a discount to its net asset value instead, the same trade runs in reverse, buying cheap ETF shares and redeeming them for the more valuable underlying basket, which removes shares from the market and pushes the price back up. This self-correcting mechanism is a meaningful structural advantage ETFs have over closed-end funds, which lack this process entirely and can trade at persistent, sometimes large premiums or discounts to their actual underlying value with no equivalent force pulling them back in line.</p>
+  <p>There's a genuine efficiency argument behind who bears the cost of all this. In a traditional mutual fund, when new investors put money in or existing investors cash out, the fund itself often has to buy or sell securities to accommodate them, and the resulting trading costs get spread across all shareholders, including ones who did nothing but hold their existing position. In the ETF structure, the authorized participant bears the direct trading costs of assembling or breaking apart the underlying basket, a cost structure that keeps ongoing shareholders more insulated from the trading activity of others entering or exiting the fund.</p>
+  <p>It's worth being aware of the risk sitting underneath this otherwise elegant mechanism: it depends entirely on authorized participants actually being willing and able to do this work, particularly during periods of acute market stress. If every AP tied to a given fund steps back, whether from capital constraints, extreme volatility, or a specific concern about the fund's underlying holdings, the creation and redemption process can seize up, and the ETF can begin trading more like a closed-end fund, with its price drifting away from net asset value simply because the usual corrective mechanism isn't functioning. This is rare and has historically been limited mostly to smaller, less liquid funds or brief windows of extreme market dislocation, but it's a real structural dependency worth knowing about rather than assuming the arbitrage mechanism is bulletproof under every possible condition.</p>
+  <p>The practical takeaway: the creation and redemption process, invisible to an ordinary investor simply buying shares through a brokerage app, is the actual reason an ETF's price generally stays close to the value of what it holds, day after day, without anyone needing to manually intervene. It's also why ETF share counts shown in fund data change constantly, reflecting real, continuous supply adjustments rather than anything resembling a fixed number of shares outstanding the way a company's stock has.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>BTC</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>
