@@ -73,6 +73,9 @@ const TTNArticlesUI = (() => {
     "dxy-dollar-index-explained": "dxy-dollar-index-explained.html",
     "sector-rotation-explained": "sector-rotation-explained.html",
     "etf-creation-redemption-mechanism": "etf-creation-redemption-mechanism.html",
+    "ism-pmi-explained": "ism-pmi-explained.html",
+    "fed-funds-futures-rate-odds-explained": "fed-funds-futures-rate-odds-explained.html",
+    "analyst-ratings-price-targets-explained": "analyst-ratings-price-targets-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;

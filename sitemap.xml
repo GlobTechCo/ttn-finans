@@ -166,6 +166,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://globtechco.github.io/ttn-finans/ism-pmi-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/fed-funds-futures-rate-odds-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/analyst-ratings-price-targets-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
