@@ -37,6 +37,9 @@
     "ism-pmi-explained": "ism-pmi-explained.html",
     "fed-funds-futures-rate-odds-explained": "fed-funds-futures-rate-odds-explained.html",
     "analyst-ratings-price-targets-explained": "analyst-ratings-price-targets-explained.html",
+    "fed-independence-structure-explained": "fed-independence-structure-explained.html",
+    "put-call-ratio-options-sentiment-explained": "put-call-ratio-options-sentiment-explained.html",
+    "unemployment-rate-u3-u6-participation-explained": "unemployment-rate-u3-u6-participation-explained.html",
   };
 
   function fmtDate(iso) {
