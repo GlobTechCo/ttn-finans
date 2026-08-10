@@ -40,6 +40,9 @@
     "fed-independence-structure-explained": "fed-independence-structure-explained.html",
     "put-call-ratio-options-sentiment-explained": "put-call-ratio-options-sentiment-explained.html",
     "unemployment-rate-u3-u6-participation-explained": "unemployment-rate-u3-u6-participation-explained.html",
+    "currency-intervention-explained": "currency-intervention-explained.html",
+    "corporate-bonds-explained": "corporate-bonds-explained.html",
+    "money-market-funds-vs-savings-explained": "money-market-funds-vs-savings-explained.html",
   };
 
   function fmtDate(iso) {
