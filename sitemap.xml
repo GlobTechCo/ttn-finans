@@ -211,6 +211,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://globtechco.github.io/ttn-finans/weekly-jobless-claims-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/circular-ai-financing-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>

@@ -43,6 +43,9 @@
     "currency-intervention-explained": "currency-intervention-explained.html",
     "corporate-bonds-explained": "corporate-bonds-explained.html",
     "money-market-funds-vs-savings-explained": "money-market-funds-vs-savings-explained.html",
+    "weekly-jobless-claims-explained": "weekly-jobless-claims-explained.html",
+    "circular-ai-financing-explained": "circular-ai-financing-explained.html",
+    "bitcoin-51-percent-attack-forks-explained": "bitcoin-51-percent-attack-forks-explained.html",
   };
 
   function fmtDate(iso) {

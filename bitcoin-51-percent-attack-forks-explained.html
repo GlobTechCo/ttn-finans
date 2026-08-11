@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means - TTN</title>
+<meta name="description" content="A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means">
+<meta property="og:description" content="A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.">
+<meta property="og:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means">
+<meta name="twitter:description" content="A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means",
+  "description": "A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.",
+  "image": ["https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-08-11T13:00:00",
+  "dateModified": "2026-08-11T13:00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 11, 2026</p>
+  <img src="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>A reported network attack on Bitcoin made headlines this week, alongside news that a competing node software's proposed rule change, a so-called soft fork, failed to gain enough miner support to take hold, with Bitcoin's main chain continuing to produce blocks normally throughout. Untangling what actually happened requires understanding a few core mechanisms behind how Bitcoin reaches agreement on which transactions are valid in the first place, concepts that rarely get explained plainly even though they underpin the security of the entire network TTN's earlier crypto coverage has referenced.</p>
+  <p>Bitcoin has no central authority deciding which transactions are legitimate. Instead, it relies on a mechanism called proof-of-work, where miners compete to solve a computationally difficult puzzle, and whoever solves it first gets to add the next block of transactions to the chain and collect a reward, the same block reward covered in TTN's earlier piece on Bitcoin's halving cycles. Every participant in the network, both miners and ordinary users running what's called a full node, independently follows a simple rule to determine which version of the transaction history is the real one: the chain representing the greatest total accumulated computational work is considered valid, commonly summarized as the longest-chain rule, though it's actually based on total cumulative difficulty rather than simply the number of blocks.</p>
+  <p>A fork happens whenever there's a change to the rules nodes use to validate blocks and transactions, and forks come in two structurally different types worth distinguishing clearly. A soft fork tightens the existing rules in a way that's backward-compatible: blocks that follow the new, stricter rules are still considered valid by nodes still running the old software, so the network can stay unified even if adoption of the new rules is gradual and uneven. A hard fork loosens or fundamentally changes the rules in a way that isn't backward-compatible, meaning nodes running the old software will reject blocks that follow the new rules entirely, which can split the network into two permanently separate chains if the community doesn't reach unified agreement, exactly what happened when Bitcoin Cash split off from Bitcoin's main chain in 2017.</p>
+  <p>This week's episode involved a proposed soft fork from Bitcoin Knots, a full node software that's an alternative to the more widely run Bitcoin Core, attempting to introduce a new rule set. Because a soft fork's tighter rules only actually take effect on the network if a sufficient share of miners adopt and begin enforcing them, and reporting indicated this particular proposal stalled well short of the support it needed, the attempted rule change simply failed to activate. This is the system working roughly as designed, not a flaw in it: a rule change without broad miner buy-in doesn't get to unilaterally impose itself on the rest of the network, which is precisely the safeguard that requires broad consensus before Bitcoin's validation rules can change at all.</p>
+  <p>The 51% attack, the specific threat referenced in this week's reporting, describes a genuinely different and more serious scenario: a single miner or coordinated group gaining control of more than half the network's total computational power, called hash rate. With that majority in hand, an attacker could, in theory, prevent specific transactions from confirming, effectively censoring them, or execute what's called a double-spend, reversing their own already-confirmed transaction and spending the same coins a second time. It's worth being precise about what a 51% attack cannot do even in the worst case: it doesn't let an attacker steal coins from other people's wallets, create new coins out of nothing, or alter transactions that don't belong to them, since those actions would require breaking the underlying cryptography itself, a separate and vastly harder problem than simply out-computing the rest of the network.</p>
+  <p>The practical barrier that's kept 51% attacks against Bitcoin specifically from ever succeeding is the sheer scale of computational power now securing the network. Acquiring and running enough mining hardware to briefly out-compute the combined output of every other miner on Bitcoin's network globally would cost an amount widely estimated in the billions of dollars, and successfully pulling it off would likely crash the value of the very asset the attacker was trying to profit from in the process, a self-defeating economic outcome that's part of why 51% attacks have historically been carried out against smaller, far less secure proof-of-work chains with a fraction of Bitcoin's total mining power, rather than against Bitcoin itself.</p>
+  <p>The practical takeaway for anyone reading a headline about a Bitcoin 'network attack' in TTN's news feed: a failed soft fork proposal from an alternative node software reflects the consensus mechanism functioning as intended, requiring broad agreement before any rule change takes hold, and is a meaningfully different, far less severe event than an actual 51% attack, which remains a largely theoretical threat against Bitcoin's main chain specifically given the enormous, and growing, computational cost required to attempt one.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>BTC</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>
