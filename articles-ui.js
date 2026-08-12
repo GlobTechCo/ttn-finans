@@ -85,6 +85,9 @@ const TTNArticlesUI = (() => {
     "weekly-jobless-claims-explained": "weekly-jobless-claims-explained.html",
     "circular-ai-financing-explained": "circular-ai-financing-explained.html",
     "bitcoin-51-percent-attack-forks-explained": "bitcoin-51-percent-attack-forks-explained.html",
+    "nfib-small-business-optimism-explained": "nfib-small-business-optimism-explained.html",
+    "private-credit-shadow-banking-explained": "private-credit-shadow-banking-explained.html",
+    "defi-basics-explained": "defi-basics-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;

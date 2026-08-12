@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work - TTN</title>
+<meta name="description" content="Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work">
+<meta property="og:description" content="Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.">
+<meta property="og:image" content="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/defi-basics-explained.html">
+<meta property="og:site_name" content="TTN">
+
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/defi-basics-explained.html">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work">
+<meta name="twitter:description" content="Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work",
+  "description": "Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.",
+  "image": ["https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "datePublished": "2026-08-12T13:00:00",
+  "dateModified": "2026-08-12T13:00:00",
+  "author": {
+    "@type": "Organization",
+    "name": "TTN Research Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TTN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://globtechco.github.io/ttn-finans/defi-basics-explained.html"
+  }
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="calculators.html">Calculators</a>
+    <a href="brokers.html">Brokers</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+</header>
+<script>
+  document.getElementById("nav-toggle").addEventListener("click", () => {
+    document.getElementById("nav-links").classList.toggle("open");
+  });
+</script>
+
+<div class="static-page">
+  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
+  <span class="ttn-original-badge">TTN Original</span>
+  <h1>DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work</h1>
+  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 12, 2026</p>
+  <img src="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <p>Decentralized finance, commonly shortened to DeFi, refers to financial applications, lending, trading, borrowing, earning interest, built on public blockchains and run through smart contracts rather than a bank, broker, or exchange. Total value locked across DeFi protocols has grown from roughly 40 billion dollars in early 2023 to more than 120 billion dollars in early 2026, and understanding the basic mechanics behind lending and trading in this system explains what's actually happening when a transaction executes with no company on the other side of it at all.</p>
+  <p>The foundation is the smart contract: a self-executing program deployed on a blockchain that automatically carries out the terms of an agreement once its conditions are met, with no human approval step required. Connect a crypto wallet, approve a transaction, and the contract executes directly, without a bank branch, a broker's order desk, or a market's opening and closing hours to work around. That same automation, no discretionary human in the loop, is both DeFi's core innovation and the source of most of its distinct risks, since there's typically no help desk to call if a transaction is signed incorrectly or a smart contract contains a bug.</p>
+  <p>DeFi lending, the largest single category by total value locked, works through pooled liquidity rather than a bank matching individual borrowers to individual depositors. Users supply crypto assets into a shared lending pool and earn interest on what they deposit; borrowers post their own crypto as collateral and draw a loan against it. The overwhelming majority of DeFi lending is over-collateralized, meaning a borrower must post collateral worth more than the loan itself, commonly 150 percent or higher depending on the protocol and asset, a structural difference from most traditional lending, where a borrower's income and credit history, not simply a larger pile of assets already in hand, typically stand behind the loan. Interest rates on these pools adjust algorithmically based on real-time supply and demand within the pool itself, rather than being set by a bank's own credit committee.</p>
+  <p>Decentralized exchanges, DEXs, handle trading through a mechanism called an automated market maker, or AMM, which is genuinely different from how a traditional stock exchange matches buyers and sellers. Instead of an order book pairing individual buy and sell orders, an AMM relies on liquidity pools: pairs of two different tokens, deposited by users called liquidity providers, that traders swap against directly using a pricing formula built into the smart contract itself. Liquidity providers earn a share of the trading fees generated by swaps through their specific pool, in proportion to how much of that pool's total liquidity they've supplied.</p>
+  <p>It's worth understanding the specific risk liquidity providers take on in exchange for those fees, since it's a genuinely non-obvious concept: impermanent loss. Because an AMM's pricing formula automatically rebalances a pool's two assets as trading happens, a liquidity provider can end up, at the moment they withdraw, holding a mix of assets worth less than if they had simply held the original two assets separately without ever depositing them into the pool at all, particularly if the price of one asset in the pair moves sharply relative to the other while their funds sat deposited. The loss is called 'impermanent' because it can shrink or reverse if prices move back toward where they started, but it becomes fully realized and permanent the moment liquidity is actually withdrawn at an unfavorable price ratio.</p>
+  <p>There's a further category worth knowing, since it illustrates just how different DeFi's toolkit is from anything available in traditional finance: the flash loan. A flash loan lets a borrower access effectively any amount of crypto with zero collateral, on the sole condition that the entire loan is borrowed and fully repaid within a single blockchain transaction, typically executed in a fraction of a second. If the loan isn't repaid by the end of that same transaction, the entire transaction is automatically reversed as if it never happened, a form of instant, code-enforced collateral that has no real equivalent in traditional lending, where a loan can't simply be undone after the fact if repayment doesn't occur.</p>
+  <p>The security risks in this space are real and worth stating plainly rather than downplaying. Because DeFi protocols are code, they can contain exploitable bugs, and a specific class of attack, sometimes involving flash loans as the tool that supplies an attacker with the enormous, temporary capital needed to manipulate a pool's pricing within a single transaction, has been responsible for some of the largest DeFi losses on record, including a roughly 197 million dollar exploit of the Euler lending protocol in 2023. Unlike a traditional bank, which carries deposit insurance and, ultimately, institutional and regulatory backstops, most DeFi protocols offer no equivalent safety net if a smart contract is exploited, placing the responsibility for evaluating a protocol's audit history and track record substantially on the user.</p>
+  <p>The practical takeaway for anyone encountering DeFi terminology in TTN's crypto coverage: lending protocols like Aave and Compound and AMM-based exchanges like Uniswap replace the discretionary decision-making of a bank loan officer or an exchange's order-matching engine with pooled liquidity and algorithmic pricing, executed automatically and without an intermediary. That automation removes a layer of gatekeeping that exists in traditional finance, but it also removes the safety nets that layer typically provides, a genuine tradeoff rather than a strictly better or worse system than the one it's built to replace.</p>
+  <div class="article-tickers">
+    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+  </div>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
+    This is original analysis written by TTN, not aggregated from a third party.
+    It is provided for informational purposes only and is not investment advice.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+  <div>
+    <a href="calculators.html">Calculators</a> &middot;
+    <a href="brokers.html">Brokers</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="consent.js"></script>
+</body>
+</html>
