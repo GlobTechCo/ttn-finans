@@ -49,6 +49,9 @@
     "nfib-small-business-optimism-explained": "nfib-small-business-optimism-explained.html",
     "private-credit-shadow-banking-explained": "private-credit-shadow-banking-explained.html",
     "defi-basics-explained": "defi-basics-explained.html",
+    "take-private-leveraged-buyout-explained": "take-private-leveraged-buyout-explained.html",
+    "us-budget-deficit-national-debt-explained": "us-budget-deficit-national-debt-explained.html",
+    "credit-default-swaps-explained": "credit-default-swaps-explained.html",
   };
 
   function fmtDate(iso) {
