@@ -52,6 +52,9 @@
     "take-private-leveraged-buyout-explained": "take-private-leveraged-buyout-explained.html",
     "us-budget-deficit-national-debt-explained": "us-budget-deficit-national-debt-explained.html",
     "credit-default-swaps-explained": "credit-default-swaps-explained.html",
+    "yen-carry-trade-explained": "yen-carry-trade-explained.html",
+    "ppi-producer-price-index-explained": "ppi-producer-price-index-explained.html",
+    "bitcoin-mining-economics-explained": "bitcoin-mining-economics-explained.html",
   };
 
   function fmtDate(iso) {
