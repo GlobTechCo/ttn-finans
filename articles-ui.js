@@ -94,6 +94,9 @@ const TTNArticlesUI = (() => {
     "yen-carry-trade-explained": "yen-carry-trade-explained.html",
     "ppi-producer-price-index-explained": "ppi-producer-price-index-explained.html",
     "bitcoin-mining-economics-explained": "bitcoin-mining-economics-explained.html",
+    "consumer-sentiment-index-explained": "consumer-sentiment-index-explained.html",
+    "secondary-stock-offerings-dilution-explained": "secondary-stock-offerings-dilution-explained.html",
+    "smaller-company-acquiring-bigger-company-explained": "smaller-company-acquiring-bigger-company-explained.html",
   };
 
   const HOMEPAGE_LIMIT = 4;
