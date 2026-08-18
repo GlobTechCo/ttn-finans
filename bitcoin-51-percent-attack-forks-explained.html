@@ -10,7 +10,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means">
 <meta property="og:description" content="A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.">
-<meta property="og:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta property="og:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg">
 <meta property="og:url" content="https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html">
 <meta property="og:site_name" content="TTN">
 
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means">
 <meta name="twitter:description" content="A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.">
-<meta name="twitter:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
+<meta name="twitter:image" content="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg">
 
 <script type="application/ld+json">
 {
@@ -28,7 +28,7 @@
   "@type": "NewsArticle",
   "headline": "How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means",
   "description": "A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.",
-  "image": ["https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"],
+  "image": ["https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg"],
   "datePublished": "2026-08-11T13:00:00",
   "dateModified": "2026-08-11T13:00:00",
   "author": {
@@ -40,7 +40,7 @@
     "name": "TTN",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+      "url": "https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg"
     }
   },
   "mainEntityOfPage": {
@@ -78,7 +78,7 @@
   <span class="ttn-original-badge">TTN Original</span>
   <h1>How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means</h1>
   <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 11, 2026</p>
-  <img src="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop" alt="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <img src="https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg" alt="How Bitcoin's Consensus Actually Works, and What a '51% Attack' Really Means" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
   <p>A reported network attack on Bitcoin made headlines this week, alongside news that a competing node software's proposed rule change, a so-called soft fork, failed to gain enough miner support to take hold, with Bitcoin's main chain continuing to produce blocks normally throughout. Untangling what actually happened requires understanding a few core mechanisms behind how Bitcoin reaches agreement on which transactions are valid in the first place, concepts that rarely get explained plainly even though they underpin the security of the entire network TTN's earlier crypto coverage has referenced.</p>
   <p>Bitcoin has no central authority deciding which transactions are legitimate. Instead, it relies on a mechanism called proof-of-work, where miners compete to solve a computationally difficult puzzle, and whoever solves it first gets to add the next block of transactions to the chain and collect a reward, the same block reward covered in TTN's earlier piece on Bitcoin's halving cycles. Every participant in the network, both miners and ordinary users running what's called a full node, independently follows a simple rule to determine which version of the transaction history is the real one: the chain representing the greatest total accumulated computational work is considered valid, commonly summarized as the longest-chain rule, though it's actually based on total cumulative difficulty rather than simply the number of blocks.</p>
   <p>A fork happens whenever there's a change to the rules nodes use to validate blocks and transactions, and forks come in two structurally different types worth distinguishing clearly. A soft fork tightens the existing rules in a way that's backward-compatible: blocks that follow the new, stricter rules are still considered valid by nodes still running the old software, so the network can stay unified even if adoption of the new rules is gradual and uneven. A hard fork loosens or fundamentally changes the rules in a way that isn't backward-compatible, meaning nodes running the old software will reject blocks that follow the new rules entirely, which can split the network into two permanently separate chains if the community doesn't reach unified agreement, exactly what happened when Bitcoin Cash split off from Bitcoin's main chain in 2017.</p>

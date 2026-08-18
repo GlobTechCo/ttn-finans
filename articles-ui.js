@@ -43,61 +43,6 @@ const TTNArticlesUI = (() => {
   // Maps each article id to its standalone page (needed so link previews on
   // X/social and Google indexing see a real, unique URL per article instead
   // of everything pointing at index.html).
-  const ARTICLE_PAGES = {
-    "fed-policy-2026": "fed-policy-2026.html",
-    "bitcoin-halving-cycles": "bitcoin-halving-cycles.html",
-    "gold-hedge-explainer": "gold-hedge-explainer.html",
-    "oil-shock-market-ripple": "oil-shock-market-ripple.html",
-    "ai-capex-nasdaq-correction": "ai-capex-nasdaq-correction.html",
-    "treasury-yields-spike-2026": "treasury-yields-spike-2026.html",
-    "stablecoins-explained-depeg-risk": "stablecoins-explained-depeg-risk.html",
-    "earnings-beat-miss-explained": "earnings-beat-miss-explained.html",
-    "bitcoin-etf-institutional-adoption": "bitcoin-etf-institutional-adoption.html",
-    "eur-usd-rate-differential-explained": "eur-usd-rate-differential-explained.html",
-    "crypto-liquidation-leverage-explained": "crypto-liquidation-leverage-explained.html",
-    "vix-fear-index-explained": "vix-fear-index-explained.html",
-    "short-squeeze-mechanics-explained": "short-squeeze-mechanics-explained.html",
-    "dollar-cost-averaging-vs-lump-sum": "dollar-cost-averaging-vs-lump-sum.html",
-    "correlation-breakdown-diversification": "correlation-breakdown-diversification.html",
-    "crypto-taxes-us-explained": "crypto-taxes-us-explained.html",
-    "cpi-inflation-explained": "cpi-inflation-explained.html",
-    "options-calls-puts-explained": "options-calls-puts-explained.html",
-    "stock-buybacks-explained": "stock-buybacks-explained.html",
-    "prediction-markets-explained": "prediction-markets-explained.html",
-    "ipo-process-explained": "ipo-process-explained.html",
-    "market-cap-explained": "market-cap-explained.html",
-    "insider-selling-explained": "insider-selling-explained.html",
-    "nonfarm-payrolls-jobs-report-explained": "nonfarm-payrolls-jobs-report-explained.html",
-    "mergers-acquisitions-explained": "mergers-acquisitions-explained.html",
-    "yield-curve-inversion-recession-signal": "yield-curve-inversion-recession-signal.html",
-    "dxy-dollar-index-explained": "dxy-dollar-index-explained.html",
-    "sector-rotation-explained": "sector-rotation-explained.html",
-    "etf-creation-redemption-mechanism": "etf-creation-redemption-mechanism.html",
-    "ism-pmi-explained": "ism-pmi-explained.html",
-    "fed-funds-futures-rate-odds-explained": "fed-funds-futures-rate-odds-explained.html",
-    "analyst-ratings-price-targets-explained": "analyst-ratings-price-targets-explained.html",
-    "fed-independence-structure-explained": "fed-independence-structure-explained.html",
-    "put-call-ratio-options-sentiment-explained": "put-call-ratio-options-sentiment-explained.html",
-    "unemployment-rate-u3-u6-participation-explained": "unemployment-rate-u3-u6-participation-explained.html",
-    "currency-intervention-explained": "currency-intervention-explained.html",
-    "corporate-bonds-explained": "corporate-bonds-explained.html",
-    "money-market-funds-vs-savings-explained": "money-market-funds-vs-savings-explained.html",
-    "weekly-jobless-claims-explained": "weekly-jobless-claims-explained.html",
-    "circular-ai-financing-explained": "circular-ai-financing-explained.html",
-    "bitcoin-51-percent-attack-forks-explained": "bitcoin-51-percent-attack-forks-explained.html",
-    "nfib-small-business-optimism-explained": "nfib-small-business-optimism-explained.html",
-    "private-credit-shadow-banking-explained": "private-credit-shadow-banking-explained.html",
-    "defi-basics-explained": "defi-basics-explained.html",
-    "take-private-leveraged-buyout-explained": "take-private-leveraged-buyout-explained.html",
-    "us-budget-deficit-national-debt-explained": "us-budget-deficit-national-debt-explained.html",
-    "credit-default-swaps-explained": "credit-default-swaps-explained.html",
-    "yen-carry-trade-explained": "yen-carry-trade-explained.html",
-    "ppi-producer-price-index-explained": "ppi-producer-price-index-explained.html",
-    "bitcoin-mining-economics-explained": "bitcoin-mining-economics-explained.html",
-    "consumer-sentiment-index-explained": "consumer-sentiment-index-explained.html",
-    "secondary-stock-offerings-dilution-explained": "secondary-stock-offerings-dilution-explained.html",
-    "smaller-company-acquiring-bigger-company-explained": "smaller-company-acquiring-bigger-company-explained.html",
-  };
 
   const HOMEPAGE_LIMIT = 4;
 
@@ -111,7 +56,7 @@ const TTNArticlesUI = (() => {
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
         <span class="ttn-original-badge">TTN Original</span>
-        <h3><a href="${ARTICLE_PAGES[a.id] || "#"}">${a.title}</a></h3>
+        <h3><a href="${a.id}.html">${a.title}</a></h3>
         <p>${a.dek}</p>
         <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
         ${tickerChipsHtml(a)}

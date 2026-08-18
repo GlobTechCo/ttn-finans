@@ -6,13 +6,13 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -282,6 +282,21 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/smaller-company-acquiring-bigger-company-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/13f-filings-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/strategic-petroleum-reserve-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/central-bank-policy-divergence-explained.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
