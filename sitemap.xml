@@ -376,6 +376,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://globtechco.github.io/ttn-finans/treasury-general-account-liquidity-explained.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
