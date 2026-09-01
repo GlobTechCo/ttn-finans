@@ -88,7 +88,7 @@
   <p>It's worth adding a note of caution about over-reading any single quarter's results from this trio, the same caution that applies to any earnings report covered in TTN's piece on beats and misses. Forward guidance, what management says about the months ahead regarding pricing, traffic trends, and trade-down behavior, generally carries more information than the quarter that already closed, since the backward-looking numbers reflect spending decisions that already happened, while guidance reflects what these companies, with among the best real-time visibility into consumer behavior of any businesses in the country, actually expect going forward.</p>
   <p>The practical takeaway for anyone reading a retail earnings headline from this trio in TTN's news feed: checking the comp-sales-versus-margin combination and the specific Walmart-versus-Target comparison described above gives a considerably more precise read on genuine consumer health than either company's standalone beat-or-miss headline, and forward guidance on trade-down behavior and pricing trends is generally more useful for understanding where the consumer story is headed than the already-reported quarter's results alone.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

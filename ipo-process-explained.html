@@ -88,7 +88,7 @@
   <p>It's also worth being clear-eyed about IPO risk generally, separate from any single company's story. Financial advisors consistently frame IPOs as a small-position asset class rather than a core holding, given how much of the price in the first several months reflects hype, scarcity, and underwriter positioning rather than a fully settled market view of the business, something that typically only emerges gradually as more quarters of public reporting accumulate and the lock-up-driven supply overhang clears.</p>
   <p>The practical takeaway for anyone reading IPO coverage in TTN's news feed: the headline offer price and the first-day pop or drop are only the very beginning of a company's public trading history, shaped heavily by underwriter pricing decisions and institutional allocation, not yet by the kind of broad, settled market judgment that develops over the following several quarters of earnings reports and lock-up expirations.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

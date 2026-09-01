@@ -89,7 +89,7 @@
   <p>A practical point for anyone trying to use the VIX day to day: it isn't something you can invest in directly, since it's a calculated index, not a security. Exposure comes through VIX futures, options, or exchange-traded products built on those instruments, all of which carry their own separate risks and behave differently from the index itself over time, particularly since VIX futures don't move one-to-one with the spot VIX number that gets quoted in headlines.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets during a volatile stretch: the VIX is a real-time diagnostic of how much fear is priced into the options market, not a trading signal to act on by itself. A rising VIX alongside falling stocks generally confirms genuine, broad-based anxiety, worth taking seriously when sizing positions or reviewing hedges, while an elevated VIX that's already started drifting lower, even gradually, is often a sign that the most acute phase of a scare has already passed.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

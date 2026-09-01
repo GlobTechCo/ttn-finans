@@ -88,7 +88,7 @@
   <p>There's an international dimension worth knowing too, connecting directly to TTN's earlier piece on central bank divergence. The European Central Bank president, the Bank of England governor, and the Bank of Japan governor typically attend alongside the Fed chair, and any divergence in tone between these central bankers on the pace of policy normalization can move currency markets and cross-border capital flows independent of whatever the Fed chair specifically says, since Jackson Hole functions as a rare moment when several major central bankers' current thinking becomes publicly comparable within the same few days.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets around this year's symposium: many professional traders deliberately reduce position sizes heading into the keynote address specifically because of this track record of outsized, sometimes counterintuitive reactions, and reassess only once the remarks are actually delivered and parsed. The speech itself doesn't change any policy rate on the day it's given, but given its history of reshaping rate-cut odds and market expectations before the next scheduled FOMC meeting, treating Jackson Hole as a genuine, calendar-marked risk event, alongside earnings season and the monthly jobs report, rather than a minor academic sideshow is the more accurate way to read it.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

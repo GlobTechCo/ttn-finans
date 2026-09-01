@@ -88,7 +88,7 @@
   <p>It's worth being direct about why this weekly cadence matters for markets specifically, beyond simply being interesting economic trivia. Since jobless claims arrive between payrolls releases, they function as the most current, real-time confirmation or contradiction of the broader labor market narrative the market is currently pricing, feeding directly into the same Fed funds futures pricing covered in TTN's earlier piece. A sudden, sustained rise in claims between payrolls reports can shift rate-cut odds meaningfully before the next monthly jobs report even arrives, since it's often the freshest genuine data point the market has to work with in the interim.</p>
   <p>The practical takeaway for anyone reading a jobless claims headline in TTN's news feed: a single week's number, especially one influenced by a holiday or severe weather in a populous state, deserves real skepticism, while a sustained multi-week move in the four-week average, particularly one crossing the roughly 434,000 threshold in either direction, is a more genuine signal worth taking seriously. Checking whether initial claims and continuing claims are telling the same story, or diverging in the specific way described above, adds a level of nuance that the single headline claims number alone doesn't capture.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

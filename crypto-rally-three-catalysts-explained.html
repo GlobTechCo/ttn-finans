@@ -88,7 +88,7 @@
   <p>There's a genuine caution worth adding, consistent with the honest, uncertain tone TTN's Bitcoin ETF and CLARITY Act pieces have both maintained. As recently as August 17, just before this rally began, coverage described crypto prices as still 'down slightly' with analysts actively debating whether the broader bear market had even bottomed yet, a reminder that a sharp multi-week rally doesn't retroactively settle a debate about the underlying trend that was genuinely open just days earlier. The SEC's own proposal remains just that, a proposal open for public comment before any final rule takes effect, and the CLARITY Act itself, as TTN's earlier piece detailed, still awaits a full Senate vote rather than final passage.</p>
   <p>The practical takeaway for anyone reading crypto price coverage in TTN's news feed following a sharp move like this one: checking whether a rally is being driven by a single, potentially reversible catalyst or by multiple, structurally different factors moving together, regulatory, legislative, and macro liquidity conditions all improving at once in this case, gives a considerably better sense of how durable the move is likely to be than the single headline percentage gain on its own.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

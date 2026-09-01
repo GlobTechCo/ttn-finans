@@ -88,7 +88,7 @@
   <p>It's also worth being careful about how long these effects typically last. Oil shocks tied to a specific geopolitical event tend to partially reverse if the underlying conflict de-escalates or shipping routes stabilize, since a large part of the price move reflects a risk premium for potential future disruption rather than an actual, sustained cut to oil supply. Traders who treat every spike as the start of a permanent new regime have historically been wrong more often than not, though this doesn't mean every spike reverses quickly either. It depends heavily on whether the underlying conflict actually widens or fades.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets: a Middle East oil headline is rarely just an energy story. It's worth checking how the S&P 500 and Nasdaq are splitting by sector rather than just their headline move, whether gold is catching a genuine crisis bid or just drifting, and whether EUR/USD is showing the energy-import-exposure effect described above. Treating oil-driven days as a single, uniform 'risk off' event misses most of the more useful detail sitting just underneath the headline number.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>GOLD</b></span> <span class="article-ticker-tag"><b>EUR/USD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span> <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

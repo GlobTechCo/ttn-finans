@@ -88,7 +88,7 @@
   <p>It's worth being clear about what all of this means practically rather than getting lost in acronyms. When headline CPI and core CPI move in noticeably different directions, as they did in the June 2026 reading, that gap itself is informative: a headline number pulled down mainly by falling energy prices tells a different, generally less concerning story than a core number that's actually accelerating, even if the single topline figure reported in a news alert looks similar either way. Reading past the single headline percentage to check whether core is moving the same direction is a quick, meaningful upgrade over reacting to the topline number alone.</p>
   <p>The practical takeaway for anyone reading an inflation headline in TTN's news feed: check whether the story is citing headline or core, and if possible, whether it's citing CPI or PCE, since the Fed's own reaction function is built around core PCE specifically. A headline CPI number that looks alarming can be driven almost entirely by an energy price swing that core PCE, the measure that actually shapes the next rate decision, barely reflects at all.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

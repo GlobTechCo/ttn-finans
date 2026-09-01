@@ -88,7 +88,7 @@
   <p>It's worth being fair to the other side of the risk assessment too, since the trade hasn't fully unwound despite years of warnings that it might. As of mid-2026, most analysis characterizes the situation as 'risk accumulating without full escalation,' meaning the conditions for a further, larger unwind are building, narrowing rate differentials, a strengthening structural case for holding yen domestically, but a full-scale unwind on the scale of August 2024 hadn't yet recurred. Trades this large and this entrenched can persist through periods of gradually shifting fundamentals for longer than the underlying logic alone would suggest, right up until a specific catalyst, a surprise BOJ move or a weak US data print, triggers the same kind of rapid unwind seen previously.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets: a sudden, sharp move in USD/JPY, particularly one coinciding with a BOJ policy surprise or unexpectedly weak US economic data, is worth checking against broader risk-asset behavior, since a genuine carry trade unwind tends to show up as simultaneous stress across currencies, US equities, and global bond markets rather than staying contained to the currency pair itself, exactly the kind of correlated, cross-asset event that can make diversification fail precisely when it's needed most.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span> <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

@@ -88,7 +88,7 @@
   <p>It's also worth being aware of what small business owners themselves report as their biggest concerns underneath the headline number, since these specific problem categories often shift the story more than the composite score does. Labor quality and the cost or availability of insurance have both featured prominently as top-cited concerns in recent readings, with insurance costs in particular reaching levels last seen in December 2018, a detail that speaks to a specific, structural cost pressure on small businesses that a single optimism number doesn't capture on its own.</p>
   <p>The practical takeaway for anyone reading an NFIB headline in TTN's news feed: the ten-point breakdown behind the single composite score is worth more than the score itself, since a headline gain driven by hard components like hiring plans and capital spending signals something meaningfully different, and generally more durable, than the same-sized gain driven by soft components like sales expectations and general business-condition optimism.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

@@ -88,7 +88,7 @@
   <p>There's a broader context worth holding onto: the labor market needs to add roughly 100,000 to 150,000 jobs a month just to keep pace with population growth and hold the unemployment rate steady, not to actually improve it. A headline figure below that range, even if positive, can represent a labor market quietly losing ground in per-capita terms, while a headline number within or above it can represent genuine expansion, a distinction that a simple positive-versus-negative read of the payroll number misses entirely.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets around the first Friday of the month: the size of the surprise relative to consensus, not the raw number, is what typically drives the immediate market reaction, and a jobs report's effect on stocks depends heavily on how it shifts expectations for the Fed's next move, which is why a 'bad' jobs report and a stock market rally on the very same morning is a recurring pattern rather than a contradiction.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

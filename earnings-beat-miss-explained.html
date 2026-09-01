@@ -89,7 +89,7 @@
   <p>None of this means the headline beat or miss is meaningless, only that it's the first data point in a longer chain, not the final verdict. The size of the beat relative to both official consensus and unofficial market positioning, the guidance that follows, and the broader setup going into the report all combine to determine the actual reaction, which is why the same-sized beat can send two different stocks in opposite directions on the same earnings day.</p>
   <p>The practical takeaway for anyone reading TTN's news feed during earnings season: the headline 'beat' or 'miss' framing in a story's title is a starting point, not the full picture. It's worth checking what a company said about guidance and how the stock had already traded in the days leading into the report before treating the initial price reaction as a verdict on the quarter itself.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

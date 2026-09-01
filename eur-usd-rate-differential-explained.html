@@ -88,7 +88,7 @@
   <p>There's also a political dimension worth being aware of rather than treated as noise. Central bank leadership changes can shift market expectations about the future path of rates well before any actual policy vote happens, since traders price in the anticipated tilt of a new decision-maker immediately rather than waiting for confirmation. A Fed chair widely expected to be more dovish than their predecessor, for example, can move the rate differential narrative even before taking office, simply through the market repricing its own rate-cut expectations.</p>
   <p>The practical takeaway for anyone using TTN's Currency Converter: a EUR/USD move worth checking twice is one that happens around a Fed or ECB rate decision, or around news that shifts expectations for either bank's future path, since these are the events most likely to move the rate differential that ultimately drives the pair. A move on an otherwise quiet news day is more likely to be shorter-term positioning or noise than a shift in the underlying fundamental story.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

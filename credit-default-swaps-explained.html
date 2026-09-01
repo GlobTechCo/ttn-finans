@@ -88,7 +88,7 @@
   <p>There's a related index worth knowing about for tracking broad market stress rather than any single company: the CDX index, which bundles CDS contracts across a basket of investment-grade or high-yield companies into a single tradable measure of average credit risk across an entire market segment. A widening CDX reading functions similarly to a rising VIX, covered in TTN's earlier piece, a broad-based signal that credit investors as a group are pricing in more risk across many issuers simultaneously, rather than a concern isolated to one specific company.</p>
   <p>The practical takeaway for anyone encountering a CDS-spread reference in TTN's coverage: a widening spread on a specific company's debt is a real-money signal that credit investors are actively paying more to insure against that company's default, often moving before a formal ratings downgrade or a stock price decline reflects the same underlying concern, which is precisely why analysts increasingly cite CDS spreads as an early warning indicator worth watching alongside, not instead of, the more familiar signals of credit ratings and bond yields.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

@@ -88,7 +88,7 @@
   <p>The ratio can also be calculated for a single stock rather than the market as a whole, using that stock's own option chain data, which shifts the interpretation somewhat. An individual stock's put/call ratio is more sensitive to company-specific catalysts, an upcoming earnings report, a pending FDA decision, a litigation outcome, than to the broader fear-and-greed dynamic that drives the index-level reading, so a single stock's extreme reading is worth checking against known upcoming events before assuming it reflects the same kind of crowd psychology the broad market version captures.</p>
   <p>The practical takeaway for anyone encountering a put/call ratio reading in TTN's coverage: check whether the reported figure is the Equity-Only or Total ratio before drawing any conclusion, treat single-day extremes as noise rather than a signal, and remember that at genuine extremes, this indicator has historically worked best read as a contrarian gauge of crowded positioning rather than a straightforward measure of which direction the crowd will ultimately be proven right about.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

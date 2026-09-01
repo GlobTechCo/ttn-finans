@@ -88,7 +88,7 @@
   <p>It's worth adding a note of caution about how long moves like this typically last. Bond yields can overshoot sharply in a short window and then partially retrace once the initial shock, in this case an oil-driven inflation scare, works through the data without turning into a sustained inflation problem. Treating any single spike as a permanent new regime for borrowing costs has historically been an overreaction more often than not, though that's a tendency, not a guarantee, and a genuine sustained rise in inflation expectations would be a different and more serious story.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets: when a headline says yields are spiking, the more useful question isn't just how high they went, but why. An inflation-and-debt-driven spike, like the current one, tends to be a warning sign worth watching across stocks, gold, and the dollar together, while a growth-driven rise in yields is a meaningfully different and generally less concerning story, even if the size of the move on a chart looks identical either way.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

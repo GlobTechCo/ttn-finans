@@ -88,7 +88,7 @@
   <p>The relationship with Fed policy runs through the same rate-differential mechanism covered in TTN's EUR/USD piece, just aggregated across a basket instead of a single pair. When the Fed holds rates relatively higher than other major central banks, DXY tends to rise as yield-seeking capital favors dollar assets, and it tends to fall as that gap narrows. A stronger DXY also has real consequences for non-US central banks, since a rapidly appreciating dollar effectively imports inflation into other economies by making their own dollar-denominated imports more expensive, sometimes pressuring those central banks to tighten policy of their own simply to defend their currency, independent of their own domestic inflation picture.</p>
   <p>The practical takeaway for anyone encountering a DXY headline in TTN's coverage: it's a genuinely useful, widely-watched shorthand for dollar strength, particularly against Europe, Japan, and the UK, but its outdated, Euro-heavy basket means it can miss real dollar moves against major modern trading partners like China and Mexico entirely. Checking whether a DXY move is being driven primarily by EUR/USD, which it usually is, is a quick way to know exactly what part of the global currency picture the headline number is actually describing.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

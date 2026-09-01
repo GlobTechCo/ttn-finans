@@ -88,7 +88,7 @@
   <p>It's worth being careful about what this structural shift does and doesn't prove about price direction. ETF inflows are one demand channel among several, alongside retail trading, corporate treasury purchases, and offshore markets, and attributing any single price move purely to 'institutional buying' oversimplifies a market with multiple, often larger, forces at work simultaneously. A survey of institutional decision-makers found a majority already hold crypto exposure and most expect to increase allocations over the next year, which speaks to a growing base of steady, structural demand, but that's a different claim than saying ETF flows alone determine where the price goes next.</p>
   <p>The practical takeaway: spot Bitcoin ETFs solved a real access problem and meaningfully broadened who can hold Bitcoin through normal, regulated channels, which is a durable structural change regardless of where the price sits on any given day. Whether that translates into steadier, more resilient demand over time, as some of the survey data suggests, or simply gives short-term traders another liquid vehicle to move in and out of, is still an open question that only plays out over the next several market cycles.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

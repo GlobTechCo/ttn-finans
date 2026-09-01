@@ -88,7 +88,7 @@
   <p>It's worth adding an important qualifier that keeps this mechanism from being a simple, reliable trading signal on its own: the reverse repo facility, or RRP, mentioned in the net liquidity formula above, acts as a buffer that can absorb much of a TGA rebuild's impact. When the RRP facility is holding a large balance, the Treasury can rebuild the TGA substantially by draining money market funds' RRP holdings instead of pulling directly from bank reserves, muting the effect on the banking system specifically. Since the RRP buffer was largely exhausted through 2025, current TGA swings have been transmitting more directly and forcefully into bank reserves and, from there, into the broader financial conditions covered across TTN's Fed policy and global bond yield pieces, than they would have in a period when RRP absorbed more of the shock.</p>
   <p>The practical takeaway for anyone reading a TGA-related headline in TTN's news feed: this week's specific detail, that funding the Treasury's buyback program from the General Account rather than from fresh, separate bond issuance, matters because it changes how the operation affects bank reserves and overall market liquidity, not just how it affects the specific yields on the bonds being repurchased. TGA flows function as a regime filter for financial conditions, useful for understanding whether liquidity is currently a tailwind or a headwind for risk assets broadly, rather than a precise, standalone signal for timing any single trade.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

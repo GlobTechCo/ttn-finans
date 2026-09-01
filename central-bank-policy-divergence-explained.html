@@ -88,7 +88,7 @@
   <p>It's worth watching for the scenario where this divergence could resolve rather than continue widening, since it's not necessarily a permanent state. If the oil shock proves severe enough to tip one or more major economies into outright recession, growth concerns have historically tended to override inflation worries across the board, pushing multiple central banks toward cutting in unison regardless of where inflation sits, a pattern that played out broadly across major economies during the 2008 financial crisis. Whether the current divergence widens further or eventually converges back toward a shared, growth-driven response depends heavily on how the underlying geopolitical situation develops, a genuinely open question none of the affected central banks can control directly.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets across multiple currencies simultaneously: central bank divergence, not the absolute rate level at any single institution, is often the more important driver of currency moves, and checking which direction each relevant central bank's own trajectory is shifting, not simply where its policy rate currently sits, gives a more complete picture of the currency and cross-asset moves that a shared global shock like the current oil disruption can still produce very different, and sometimes conflicting, policy paths.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

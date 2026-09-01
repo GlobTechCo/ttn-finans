@@ -88,7 +88,7 @@
   <p>The connection to the assets TTN tracks runs through more than just the bond market itself. One recent analysis noted the 10-year-10-year forward rate, a measure of where markets expect 10-year yields to sit a decade from now, has surged above its 2008 financial crisis peak, framing this as markets pricing in structurally higher rates well beyond the current cycle, a dynamic that pressures the same discount-rate mechanism behind stock valuations covered in TTN's Fed policy piece, pushes gold in mixed directions depending on whether the move reads as inflation-driven crisis demand or simply higher competing yields, and adds to the equity-market volatility TTN's news feed has captured through repeated sessions of stocks falling alongside rising yields rather than the more historically typical pattern of the two moving in opposite directions.</p>
   <p>The practical takeaway for anyone reading a bond-yield headline in TTN's news feed: when yields are rising in one country alone, checking that country's specific fiscal and monetary situation is the right first step. When yields are rising across the US, Japan, Germany, France, and the UK simultaneously, as they have been through much of August 2026, the more useful question is what shared global force, an oil shock, a structural shift in who's willing to buy long-term debt, or both together, is driving markets everywhere at once, rather than searching for a explanation specific to any single government's balance sheet.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

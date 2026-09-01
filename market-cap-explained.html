@@ -88,7 +88,7 @@
   <p>It's equally worth being skeptical of market cap milestones as investment signals on their own. Crossing a round number like 1 trillion, 2 trillion, or 3 trillion dollars is a media-friendly threshold, not a fundamental change in the business, and a company's shares don't become mechanically more or less attractively priced simply for having crossed a psychologically round number. The more useful question sitting behind any market cap headline is whether the valuation is justified by the growth and profitability the market is pricing in, not the size of the number itself.</p>
   <p>The practical takeaway for anyone reading a market cap milestone in TTN's news feed: it's a legitimate, real-time gauge of aggregate investor conviction, worth taking seriously as a reflection of collective expectations, but it's neither a company's cash balance, a literal acquisition price, nor evidence on its own that a stock is fairly valued at that level. Checking enterprise value and the growth assumptions embedded in the current price gives a considerably fuller picture than the market cap headline alone.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

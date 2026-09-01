@@ -88,7 +88,7 @@
   <p>It's worth noting that yields on both products move together with broader interest rate conditions, tracking Fed policy fairly closely, though not identically or instantly. Both money market fund yields and high-yield savings rates have come down from highs above 5.5 percent in 2024 as the Fed's rate-cutting cycle proceeded, and both would be expected to decline further if the Fed continues easing, a reminder that neither product locks in today's rate the way, for example, a fixed-term certificate of deposit does.</p>
   <p>The practical takeaway: for cash sitting inside a brokerage account awaiting investment, a money market fund is usually the natural default and typically requires no separate action to use. For a standalone emergency fund or near-term savings goal kept apart from investment accounts, a high-yield savings account's FDIC insurance offers a more straightforward, absolute form of principal protection. Both are appropriate homes for idle cash that's not ready to be invested, and the choice between them comes down mainly to where the money already lives and how much the FDIC-versus-SIPC distinction matters for a given investor's peace of mind.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

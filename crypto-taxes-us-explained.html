@@ -88,7 +88,7 @@
   <p>Reporting requirements have tightened noticeably starting in 2026. Centralized US exchanges are now required to report customer transactions directly to the IRS via a new form, 1099-DA, similar to how stock brokers have long reported trades via Form 1099-B. This removes much of the ambiguity that previously let some crypto investors assume smaller transactions might go unnoticed, and it makes keeping accurate personal records, matching what an exchange reports, all the more important, since discrepancies between an investor's own filing and an exchange's 1099-DA are now a much more visible mismatch to the IRS than in prior years.</p>
   <p>The practical takeaway: every disposal of crypto, not just a cash-out to dollars, is a potentially taxable event, the one-year holding mark is worth planning around deliberately given the size of the rate difference, and mining, staking, or airdropped crypto creates a tax obligation the moment it's received, independent of what happens to it afterward. None of this is a substitute for a tax professional experienced with crypto, particularly for anyone with more complex activity like DeFi or cross-chain swaps, but understanding the basic mechanism makes it far easier to keep the records that professional will eventually need.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

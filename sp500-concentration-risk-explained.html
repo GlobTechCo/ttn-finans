@@ -88,7 +88,7 @@
   <p>It's worth adding historical context on how this kind of narrow leadership has resolved in the past, without assuming today's situation must follow the same path. Research examining prior concentration episodes found that when market weakness has hit mega-cap leaders specifically, it has, at times, actually created room for broader market participation, with the equal-weight index briefly outperforming the cap-weighted one as capital rotated away from the most crowded, highest-weighted names, a version of the sector rotation dynamic TTN's earlier piece covered, just playing out at the level of a handful of dominant companies rather than entire sectors. Whether today's elevated concentration normalizes gradually, resolves through a sharp rotation, or persists for an extended stretch the way it has at various points over the past decade remains a genuinely open question no single data point can answer in advance.</p>
   <p>The practical takeaway for anyone watching the S&P 500 or Nasdaq in TTN's coverage: a single company's earnings report, Nvidia's this week being the clearest current example, can move an entire index disproportionately to its actual share of the broader economy specifically because of how market-cap weighting works, and checking whether a reported index move is broad-based or concentrated in a handful of names, using a tool like the equal-weight comparison described above, gives a considerably clearer picture of underlying market health than the single headline percentage change alone.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

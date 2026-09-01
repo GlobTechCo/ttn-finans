@@ -88,7 +88,7 @@
   <p>It's worth being clear-eyed about the real risk in this structure, separate from the return potential that draws private equity firms to it. A company loaded with new acquisition debt has less room for error than the same company operating with a conservative, low-debt balance sheet; a downturn in the business, an unexpected cost shock, or an interest rate environment that makes refinancing that debt more expensive can turn a heavily-levered company into a distressed one considerably faster than would happen without the added debt load, a dynamic some of the most well-known LBO failures in history have illustrated.</p>
   <p>The practical takeaway for anyone reading a take-private headline in TTN's news feed: the reported buyout premium is only part of the story. The debt structure behind the deal, how much leverage is being used and how the target company's own cash flow is expected to service it, is what actually determines whether a take-private transaction turns out to be a disciplined, value-creating restructuring or a fragile balance sheet waiting for the next economic wobble to expose it.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

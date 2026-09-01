@@ -88,7 +88,7 @@
   <p>It's also worth being fair to the strategic logic even while the financing skepticism is warranted, since the two questions are genuinely separate. GameStop pledged roughly 2 billion dollars in annual cost savings within 12 months of closing if the deal succeeded, and CEO Ryan Cohen has previously demonstrated a willingness to hold substantial cash reserves and pursue unconventional capital allocation, a track record that gives the proposal more credibility as a genuine strategic intention than a pure publicity stunt, even if the specific financing math as initially disclosed left real, unresolved questions.</p>
   <p>The practical takeaway for anyone reading a size-mismatched acquisition headline in TTN's news feed: a smaller company proposing to acquire a larger one is structurally possible specifically because a purchase price can be assembled from cash, debt, and newly issued stock rather than requiring the acquirer's own existing market value to cover the full amount, but checking whether the debt financing behind such a deal is a committed facility or merely a preliminary 'highly confident' letter, and whether the disclosed cash and debt actually add up to the full offer price without relying on an unspecified stock issuance gap, is the fastest way to judge whether an ambitious-sounding bid is genuinely financeable or still largely aspirational.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

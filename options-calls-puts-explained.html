@@ -88,7 +88,7 @@
   <p>It's worth being clear about the risk side too, particularly since options are frequently described in the press as simply 'leveraged bets,' which is accurate but incomplete. Buying a call or put has a capped, known maximum loss, the premium paid, which is actually less risky in one specific sense than owning the stock outright, where the loss in dollar terms could be larger on a big enough decline. Selling options, however, is a different and considerably riskier position: a trader who sells, or 'writes,' a call without already owning the underlying shares takes on a loss that grows without any theoretical ceiling if the stock keeps climbing, since they're obligated to deliver shares at the strike price regardless of how high the market price has gone.</p>
   <p>The practical takeaway for anyone reading TTN's news feed: when a story references what 'options are saying' about a stock, it's typically referring to implied volatility or the ratio of call buying to put buying, both of which reflect what traders are actually willing to pay real money to bet on, a genuinely different and often faster-moving signal than analyst commentary. Understanding the basic call-versus-put, buyer-versus-seller distinction is enough to read that kind of coverage correctly without needing to open a trading account at all.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

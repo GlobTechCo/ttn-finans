@@ -88,7 +88,7 @@
   <p>It's worth being honest about the limits of using sector rotation as a forecasting tool, since it's considerably easier to identify after the fact than to predict in advance. Structural rotations tied to genuine, sustained shifts in interest rate cycles or major technology transitions can persist for up to three years, while other rotations reverse within weeks once the specific catalyst driving them fades. Recognizing that rotation is happening explains a confusing set of same-week headlines well after the fact; it doesn't reliably tell you which sector leads next, since that depends on how the underlying catalyst, in this case the AI-capex debate, actually resolves.</p>
   <p>The practical takeaway for anyone reading sector-specific headlines in TTN's news feed: before treating a sharp sector decline as evidence of broad market trouble, it's worth checking what other sectors are doing in the same window. Money moving from one crowded corner of the market into a previously overlooked one is a normal, healthy feature of how markets function, and it looks considerably less alarming once it's recognized as rotation rather than mistaken for a broader retreat from risk.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

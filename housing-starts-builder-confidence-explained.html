@@ -88,7 +88,7 @@
   <p>It's worth adding the regional dimension too, since national averages can mask meaningfully different conditions across the country. NAHB's regional breakdowns have shown considerable divergence through 2026, with some regions posting sharper declines than others in the same reporting month, a reminder that a national housing headline can obscure real differences in local affordability, employment conditions, and housing supply that a single composite number doesn't capture.</p>
   <p>The practical takeaway for anyone reading a housing-data headline in TTN's news feed: builder confidence is the earliest link in a sequential chain that leads permits, which lead starts, by one to three months at each stage, making the NAHB index worth checking first for an early read on where the more official, more market-moving permits and starts data is likely headed next, rather than waiting for the harder Census Bureau numbers to confirm a shift that builder sentiment may have already been signaling for months.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

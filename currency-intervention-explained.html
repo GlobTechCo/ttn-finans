@@ -89,7 +89,7 @@
   <p>There's also a technical concept worth knowing, called sterilization, that determines whether an intervention has lasting effects on a country's broader money supply or stays narrowly targeted at the exchange rate alone. When a central bank intervenes, it can simultaneously conduct an offsetting domestic transaction to neutralize the effect on its money supply, keeping the intervention's impact contained specifically to the currency market rather than spilling over into broader monetary conditions and inflation. Unsterilized intervention, by contrast, does let the domestic money supply shift, which can compound or work against the central bank's other policy goals depending on the direction.</p>
   <p>The practical takeaway for anyone reading a currency intervention headline in TTN's coverage: the size of the reported intervention matters less than whether it's working with or against the currency's underlying trend and fundamentals. An intervention smoothing volatility in a currency that was broadly stable to begin with has a strong historical track record of success; one trying to reverse a currency's established direction against the grain of interest rate differentials and trade fundamentals has a considerably weaker one, regardless of how large the reported firepower behind it sounds.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

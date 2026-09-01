@@ -89,7 +89,7 @@
   <p>It's also worth being fair to the more measured view, since not every private credit warning has played out as a full-blown crisis. Direct bank lending to private credit funds, the channel that would most directly transmit stress back into the traditional, more systemically important banking system, remains a relatively small share of total bank assets according to Federal Reserve data, even though it has grown substantially since 2020. The interconnection is real and worth monitoring, particularly as AI-related private credit exposure grows, but it isn't yet the kind of scale that clearly threatens the core banking system the way subprime mortgage exposure eventually did in 2008.</p>
   <p>The practical takeaway for anyone reading a private-credit-financed AI deal in TTN's news feed: the involvement of major, well-capitalized asset managers lends a deal credibility and speed, but private credit's inherent liquidity mismatch and its growing concentration in AI-adjacent lending are genuine, actively-discussed risk factors within the industry itself, not just outside skepticism, and watching default rates and fund redemption activity in this specific corner of finance is a meaningful complement to watching the AI capex debate playing out in public equity markets.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

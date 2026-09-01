@@ -88,7 +88,7 @@
   <p>It's also worth understanding why these two views, the Fed's own dots and the market's futures pricing, can diverge in the first place, since it isn't simply that one side is wrong. FOMC members are stating their own individual policy intentions based on the economic data they currently expect to see unfold, while futures traders are pricing in a probability-weighted blend of many possible paths, including scenarios where incoming data forces the Fed to deviate from its own stated plan entirely. A gap between the two is less a prediction of who's right and more a real-time gauge of how much uncertainty the market is pricing into the months ahead, which tends to widen specifically around periods of unusual economic ambiguity, like the current stretch following the oil-driven inflation resurgence TTN covered separately.</p>
   <p>The practical takeaway for anyone encountering a Fed-odds headline in TTN's coverage: a stated probability like '62 percent odds of a hike' is a legitimate, real-time readout of futures market positioning, not a forecast guaranteed to be right, and it's worth remembering that this number can and does swing significantly within days of a single major data release, which is precisely why markets can react so sharply to reports that, on their own, might seem like a single data point rather than a fundamental shift in the outlook.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

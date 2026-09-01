@@ -87,7 +87,7 @@
   <p>The practical barrier that's kept 51% attacks against Bitcoin specifically from ever succeeding is the sheer scale of computational power now securing the network. Acquiring and running enough mining hardware to briefly out-compute the combined output of every other miner on Bitcoin's network globally would cost an amount widely estimated in the billions of dollars, and successfully pulling it off would likely crash the value of the very asset the attacker was trying to profit from in the process, a self-defeating economic outcome that's part of why 51% attacks have historically been carried out against smaller, far less secure proof-of-work chains with a fraction of Bitcoin's total mining power, rather than against Bitcoin itself.</p>
   <p>The practical takeaway for anyone reading a headline about a Bitcoin 'network attack' in TTN's news feed: a failed soft fork proposal from an alternative node software reflects the consensus mechanism functioning as intended, requiring broad agreement before any rule change takes hold, and is a meaningfully different, far less severe event than an actual 51% attack, which remains a largely theoretical threat against Bitcoin's main chain specifically given the enormous, and growing, computational cost required to attempt one.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -105,6 +105,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

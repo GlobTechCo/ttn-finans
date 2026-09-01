@@ -88,7 +88,7 @@
   <p>That behavioral reality is why the honest answer isn't purely mathematical. A strategy that an investor actually sticks with through a downturn, rather than abandoning in a moment of panic, can outperform a theoretically optimal strategy the investor doesn't have the temperament to hold. Dollar-cost averaging functions as a kind of psychological safety net for money that wasn't previously invested, particularly for an investor who knows from experience that watching a fresh investment drop would tempt them to sell at exactly the wrong moment.</p>
   <p>The practical takeaway: the data leans toward putting a lump sum to work immediately for an investor who can genuinely tolerate short-term volatility without deviating from their plan, since that approach has historically won more often and by a real, if moderate, margin. For an investor who knows they'd be tempted to bail during a downturn, dollar-cost averaging into the market over a period of months is a reasonable, evidence-informed trade-off, spending a small, quantifiable statistical edge in exchange for a strategy that's actually easier to stick with under stress.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

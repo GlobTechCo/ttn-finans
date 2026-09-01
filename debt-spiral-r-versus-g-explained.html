@@ -88,7 +88,7 @@
   <p>There's a useful, less-discussed distortion worth knowing about that complicates the picture further: inflation's effect on the ratio itself. Because debt-to-GDP compares nominal debt, unadjusted for inflation, against nominal GDP, higher inflation mechanically shrinks the ratio over time even without paying down a single dollar of actual debt, since the economy's nominal size grows with inflation while most existing fixed-rate debt doesn't. This creates a genuine, if ethically fraught, incentive worth being aware of: a government facing an unfavorable r-g gap has some ability to improve its ratio through higher inflation rather than through the primary-surplus route CBO's projections assume, though this comes with its own serious costs, the inflation dynamics covered extensively across TTN's CPI, PPI, and Fed policy pieces, and eventually feeds back into higher r itself as lenders demand more compensation for that same inflation risk.</p>
   <p>The practical takeaway for anyone reading a national debt headline in TTN's news feed: the size of the debt in trillions is less informative on its own than the current and projected relationship between the average interest rate the government pays and the economy's growth rate. When r sits below g, a large and even growing debt load can remain genuinely sustainable; when r sits above g, as CBO now projects for the years ahead, avoiding a self-reinforcing spiral requires a specific, calculable primary surplus that current fiscal policy is not on track to deliver, which is the concrete, checkable difference between an optimistic 'we'll grow out of it' framing and a genuine structural warning.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

@@ -88,7 +88,7 @@
   <p>It's also worth noting the other side of this trade professionally: sophisticated short sellers manage squeeze risk deliberately, often by hedging a short position with call options that gain value if the stock unexpectedly spikes, capping the potential damage from exactly this scenario rather than holding an uncapped, unhedged short and hoping a squeeze never happens.</p>
   <p>The practical takeaway for anyone reading about a stock making an unusual, seemingly unexplainable move in TTN's news feed: checking whether a stock had unusually high short interest going into the move is a quick way to tell whether a spike is more likely a genuine reassessment of the business or a mechanical short squeeze that's likely to partially unwind once the forced buying is finished.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

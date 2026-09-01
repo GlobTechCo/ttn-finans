@@ -88,7 +88,7 @@
   <p>A recent, notable example: Berkshire Hathaway, run by a company famous for capital discipline, resumed share buybacks in March 2026 after not repurchasing any stock since mid-2024, a move new CEO Greg Abel announced directly on CNBC. For a company sitting on enormous cash reserves with limited attractive acquisition targets at the time, resuming buybacks was framed as simply the most disciplined available use of that capital, illustrating the 'return excess cash when there's nothing better to do with it' logic buyback defenders describe.</p>
   <p>The practical takeaway for anyone reading a buyback headline in TTN's news feed: the size of a buyback announcement alone says relatively little without context. Whether the company is financially healthy, whether it's buying at a reasonable valuation relative to its own history, and whether the buyback is funded by real free cash flow rather than new debt are the details that actually determine whether a specific buyback program is likely to benefit shareholders or simply flatter a headline earnings number.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

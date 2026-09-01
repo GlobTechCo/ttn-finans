@@ -89,7 +89,7 @@
   <p>There's a currency effect worth being aware of too. A strong PMI reading is generally read as positive for the US dollar, since it signals a healthier domestic economy relative to trading partners, which connects directly to the interest-rate-differential mechanism TTN covered in its pieces on EUR/USD and the dollar index, a resilient PMI print can shift expectations for how long the Fed holds rates elevated, which in turn moves the currency markets that track those rate expectations closely.</p>
   <p>The practical takeaway for anyone watching TTN's tracked assets on PMI release days: the 50 threshold is the fastest way to read the headline, but the sub-indexes, prices paid for inflation signals, new orders for forward demand, employment as an early Nonfarm Payrolls preview, often carry more specific, actionable information than the composite number alone, and checking whether manufacturing and services are telling the same story or diverging is a quick gut-check on how broadly a given economic trend actually extends.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

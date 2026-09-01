@@ -88,7 +88,7 @@
   <p>None of this is an argument against diversification. A portfolio that held only stocks in 2022 fared considerably worse than a 60/40 mix, even with bonds temporarily correlated to equities, since some cushioning is still better than none. It's an argument for understanding what diversification actually protects against: it reduces risk over full market cycles and across a range of scenarios, but it isn't a guarantee that every asset in a portfolio will behave independently during any specific crisis, particularly one driven by a single, broad macro shock that touches nearly everything at once.</p>
   <p>The practical takeaway for anyone building a mix of the assets TTN tracks: understanding why each asset is supposed to zig when others zag, monetary policy exposure for bonds, crisis and currency demand for gold, adoption cycles for crypto, is more useful than simply assuming a mix of different asset names automatically means real diversification. When multiple assets in a portfolio share the same underlying driver, even if they're labeled as different asset classes, they can move together exactly when that shared driver comes under stress.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span> <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span> <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

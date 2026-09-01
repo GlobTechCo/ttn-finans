@@ -89,7 +89,7 @@
   <p>One more angle worth considering is how halvings interact with broader Bitcoin adoption cycles rather than acting in isolation. Each halving so far has landed at a different stage of the asset's maturity. The 2012 halving happened when Bitcoin was still a niche experiment with minimal liquidity, while the most recent halvings occurred alongside spot ETF approvals, corporate treasury adoption, and vastly deeper institutional market infrastructure. Comparing price reactions across these very different market environments as if they were repeated trials of the same experiment is part of what makes the stock-to-flow style analysis less reliable than it first appears, since the conditions surrounding each halving have never actually been held constant.</p>
   <p>The honest summary is this: halvings are a real, mechanical, verifiable change to Bitcoin's supply issuance, and the historical correlation with subsequent price increases is genuinely worth knowing as part of the broader picture. But treating it as a guaranteed formula, where a halving happens and price simply quadruples, ignores both the small sample size behind that pattern and the many other, often larger, forces moving crypto markets at the same time. A useful frame is to think of the halving as one input among many, not a standalone trading signal.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

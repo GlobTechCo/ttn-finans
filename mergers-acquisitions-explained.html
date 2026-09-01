@@ -88,7 +88,7 @@
   <p>It's also worth distinguishing between a genuine merger of equals and what's often labeled a merger for public relations purposes. True mergers, where two comparably sized companies combine governance and equity roughly evenly, are rare in practice. Far more common is one company acquiring another and taking control, with the word 'merger' used publicly to soften the transition for employees, ease regulatory review, or preserve the acquired company's brand reputation, even though the underlying transaction functions as an acquisition.</p>
   <p>The practical takeaway for anyone reading M&A coverage in TTN's news feed: the size of the premium and the specificity of the disclosed synergy targets are better indicators of a deal's likely success than the strategic story alone, since a vague pitch about 'combining strengths' with no measurable synergy commitment has historically been a weaker signal than a deal where management discloses concrete, trackable targets they can be held accountable to in the quarters that follow.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

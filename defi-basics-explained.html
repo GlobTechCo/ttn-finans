@@ -88,7 +88,7 @@
   <p>The security risks in this space are real and worth stating plainly rather than downplaying. Because DeFi protocols are code, they can contain exploitable bugs, and a specific class of attack, sometimes involving flash loans as the tool that supplies an attacker with the enormous, temporary capital needed to manipulate a pool's pricing within a single transaction, has been responsible for some of the largest DeFi losses on record, including a roughly 197 million dollar exploit of the Euler lending protocol in 2023. Unlike a traditional bank, which carries deposit insurance and, ultimately, institutional and regulatory backstops, most DeFi protocols offer no equivalent safety net if a smart contract is exploited, placing the responsibility for evaluating a protocol's audit history and track record substantially on the user.</p>
   <p>The practical takeaway for anyone encountering DeFi terminology in TTN's crypto coverage: lending protocols like Aave and Compound and AMM-based exchanges like Uniswap replace the discretionary decision-making of a bank loan officer or an exchange's order-matching engine with pooled liquidity and algorithmic pricing, executed automatically and without an intermediary. That automation removes a layer of gatekeeping that exists in traditional finance, but it also removes the safety nets that layer typically provides, a genuine tradeoff rather than a strictly better or worse system than the one it's built to replace.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

@@ -88,7 +88,7 @@
   <p>Regulation has tightened noticeably since these episodes. The GENIUS Act, passed in 2025, established a federal framework requiring stablecoin issuers to hold specific categories of reserves and publish regular disclosures, part of why the sector has grown to more than 300 billion dollars in total supply while shifting even further toward the fiat-collateralized model that's held up best historically.</p>
   <p>The practical takeaway: not all stablecoins carry the same risk just because they're all priced at one dollar. Fiat-backed tokens from issuers that publish regular, credible attestations have historically recovered quickly from brief wobbles, while purely algorithmic designs have shown they can fail permanently and without warning. When using a stablecoin for anything beyond a quick trade, like TTN's Crypto Converter, it's worth knowing which category it falls into and what's actually sitting behind it.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

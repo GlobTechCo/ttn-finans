@@ -88,7 +88,7 @@
   <p>It's worth being precise about what a disclosed block trade does and doesn't tell an outside observer, since this connects directly to the correct, cautious way to read this kind of news. A block trade report alone doesn't reveal which side, buyer or seller, initiated the transaction or what specific reasoning drove it, meaning it's neither inherently a bullish nor a bearish signal on its own. In the Situational Awareness case specifically, the direction and motivation were unusually clear because Griffin's own letter explained the full context, a forced liquidation on one side and a firm with the balance sheet to absorb it on the other, but that level of disclosed context is the exception rather than the norm for block trade reporting generally.</p>
   <p>The practical takeaway for anyone reading about a large, disclosed institutional transaction in TTN's news feed: block trades exist specifically to let genuinely enormous positions change hands, in this case an entire forced liquidation, without the visible, cascading price crash that routing the same volume through ordinary public market orders would produce, and the mechanism itself is a routine, load-bearing part of how institutional markets function day to day, not a signal in isolation about where any specific stock is headed next.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

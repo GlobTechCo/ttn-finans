@@ -88,7 +88,7 @@
   <p>It's also worth being clear about what a margin call can and can't do. Adding more collateral in response to a margin call buys time and moves the liquidation threshold further away, but it doesn't fix a position that's simply wrong about market direction. If the underlying trade thesis was flawed, adding funds usually just delays the same outcome rather than preventing it, which is why risk management for leveraged positions generally focuses on position sizing and stop-loss discipline going in, rather than relying on the ability to add funds after the fact.</p>
   <p>The practical takeaway for anyone using TTN's Crypto P&L calculator: the leverage number isn't just a multiplier on potential profit, it's a direct, proportional multiplier on how small a price move it takes to wipe out the position entirely. Running the numbers at a given leverage level before opening a real position, which the calculator makes easy to do, is a more useful exercise than most people give it credit for.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

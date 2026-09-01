@@ -88,7 +88,7 @@
   <p>The market reaction to legislative progress on this bill offers a useful, real-time gauge of how much the industry believes regulatory clarity itself, independent of any single company's business results, drives crypto asset prices. This connects directly to TTN's earlier piece on Bitcoin ETF adoption: institutional capital has repeatedly cited regulatory uncertainty as a barrier to larger allocations, and a bill that would give exchanges, brokers, and institutional participants a clear, statutory registration path rather than an inferred one addresses precisely that barrier, at least for participants willing to wait for the bill to actually become law rather than react to momentum alone.</p>
   <p>The practical takeaway for anyone reading a crypto-legislation headline in TTN's news feed: a bill passing one chamber of Congress, or even clearing a committee vote, is a genuine, meaningful step, but it is not the same as final passage and enactment, and price reactions to legislative momentum should be read as the market pricing in a probability of eventual passage, not a certainty. Checking specifically whether coverage is describing House passage, a committee vote, or full Senate approval is the fastest way to gauge how far the CLARITY Act actually is from becoming enforceable law.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span> <span class="article-ticker-tag"><b>ETH</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

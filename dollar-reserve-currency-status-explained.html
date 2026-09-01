@@ -88,7 +88,7 @@
   <p>It's worth being fair to the case for continuity too, since credible alternatives to the dollar remain genuinely limited despite these pressures. China's renminbi, the most frequently cited potential rival, is used in a considerably smaller share of global reserves and trade settlement, constrained by capital controls and a financial market nowhere near as deep or open as the US Treasury market. The euro faces its own structural limitation: the eurozone lacks a single, unified fiscal authority issuing one common bond the way the US Treasury does, fragmenting what would otherwise be a more competitive alternative pool of safe assets. Cryptocurrencies, despite substantial growth covered across TTN's crypto pieces, remain too volatile and too limited in transaction volume to plausibly replace the dollar's core reserve function in the near term. Most serious analyses conclude a single currency dethroning the dollar outright remains unlikely in the near term, even as gradual, incremental diversification away from dollar concentration continues.</p>
   <p>The practical takeaway for anyone reading a dollar-dominance or de-dollarization headline in TTN's news feed: this is a genuinely slow-moving structural story, not a switch that flips overnight, and the more useful signals to watch are incremental, central banks' gold purchases as a diversification move, gradual shifts in the currency composition of global reserves reported quarterly by the IMF, and the pace of alternative payment systems being built by countries seeking to reduce dollar dependence, rather than any single headline suggesting the dollar's reserve status is at imminent risk.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

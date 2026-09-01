@@ -88,7 +88,7 @@
   <p>The connection to the assets TTN tracks runs through more than the affected companies alone. Tariffs function economically similar to a tax increase on the goods they cover, which is why they show up as a genuine input into the CPI and PPI inflation measures TTN's earlier pieces have covered, and by raising costs while simultaneously creating economic uncertainty, they can complicate the Fed's policy calculus in a way similar to the oil-driven inflation shock TTN's other pieces have described, price pressure and growth concerns pulling monetary policy in opposing directions at once. US tariff and excise tax collections reached roughly 190 billion dollars in the first nine months of 2025 alone, more than double the same period the year before, a real fiscal effect worth connecting to TTN's earlier piece on the US budget deficit, even as that same 190 billion dollars represents costs ultimately distributed across importers, consumers, and exporters through the incidence mechanism described above.</p>
   <p>The practical takeaway for anyone reading a tariff headline in TTN's news feed: 'who pays' is not a settled, one-word answer, it's a distribution that depends on how easily buyers can substitute away from the tariffed good and how much pricing power the foreign exporter holds. Checking which specific goods a new tariff covers, and how many alternative suppliers exist for those goods, is a more useful way to estimate the likely real-world impact than accepting either 'the foreign country pays' or 'consumers pay' as a complete answer on its own.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

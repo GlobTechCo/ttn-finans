@@ -88,7 +88,7 @@
   <p>This is worth connecting directly to TTN's earlier piece on the US budget deficit: a Treasury buyback is a market-functioning tool, not a fiscal one, and Treasury officials themselves have consistently described it as routine debt management rather than an attempt to solve the deficit or the elevated interest costs covered in that earlier piece. The national debt has now crossed 39 trillion dollars, with annual interest costs exceeding 1 trillion dollars, a structural pressure that a liquidity-focused buyback operation, however large, doesn't directly address.</p>
   <p>The practical takeaway for anyone reading a Treasury buyback headline in TTN's news feed: the announcement is a genuine, market-moving signal that the Treasury is actively managing stress in a specific, targeted segment of the bond market, and the immediate yield reaction reflects real, if likely temporary, relief in that segment specifically. It's a tool aimed at market liquidity and functioning, not a reduction in the underlying debt or deficit dynamics that TTN's earlier pieces on the budget deficit and global bond yields have covered, and the same borrowing pressure the buyback is meant to ease tends to resurface elsewhere in the Treasury's broader issuance schedule.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

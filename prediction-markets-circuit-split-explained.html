@@ -88,7 +88,7 @@
   <p>It's worth noting the practical stakes behind this legal fight, since they explain why both sides are litigating so aggressively rather than settling into a compromise. Roughly 75 percent of the activity on Kalshi this year has come from sports-related contracts specifically, according to data cited by industry researchers, meaning a ruling that strips sports contracts specifically out of federal protection would threaten the large majority of the platform's current business, even if that same ruling wouldn't necessarily disturb the state legal status of prediction markets on elections or economic data, the categories more central to TTN's earlier piece on Fed-related market pricing, which haven't been the direct subject of these particular state gambling lawsuits.</p>
   <p>The practical takeaway for anyone reading a prediction-markets legal headline in TTN's news feed: a single circuit court ruling, even one as significant as this one, settles the law only within that circuit's own geographic footprint, not nationally, and the existence of a genuine circuit split is itself the strongest possible signal that the underlying legal question remains genuinely unresolved until either Congress acts through legislation like the CLARITY Act or the Supreme Court agrees to hear the case and issue a nationally binding ruling, a process that typically takes many months from the point a circuit split first emerges.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

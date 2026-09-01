@@ -88,7 +88,7 @@
   <p>It's worth adding real context on where the alarm threshold actually sits, since 'deficit' headlines can otherwise blur into an undifferentiated sense of concern without a concrete reference point. Some fiscal analysts point to a sustained 10-year Treasury yield above roughly 5.5 percent, a level last seen in 2000, as a threshold where debt-servicing costs could become genuinely difficult to manage without significant policy changes, drawing historical comparisons to the UK's 1976 fiscal crisis and Greece's debt crisis beginning in 2010, both cases where persistent deficits eventually forced abrupt, externally-imposed fiscal adjustment once bond markets lost confidence in a government's ability to manage its debt path.</p>
   <p>The practical takeaway for anyone reading a deficit headline in TTN's coverage: the deficit's dollar size alone matters less than whether it's coming in larger or smaller than what bond market participants had already built into their expectations, and whether the trend in net interest costs as a share of federal revenue is stabilizing or continuing to climb. Both are more directly tied to the yield moves TTN tracks than the raw deficit figure reported in any single headline.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

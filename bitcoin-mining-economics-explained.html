@@ -88,7 +88,7 @@
   <p>There's a balance-sheet dimension worth knowing too, since many miners hold a substantial Bitcoin treasury rather than selling everything they mine immediately. Riot held roughly 17,722 Bitcoin as of a recent quarter-end, worth over 1.5 billion dollars at then-current prices, meaning a mining company's stock price reflects not just its ongoing production economics but also, to a real degree, its accumulated Bitcoin holdings marked to whatever the current price happens to be, adding a second layer of Bitcoin-price sensitivity on top of the operational mining business itself.</p>
   <p>The practical takeaway for anyone reading a Bitcoin miner earnings headline in TTN's news feed: production volume alone, the number of Bitcoin mined in a quarter, tells an incomplete story without knowing the cost per coin behind that production, since a miner producing more Bitcoin at a high cost can be considerably less healthy than a smaller, more efficient operator, and checking a company's power strategy and diversification into non-mining compute is an increasingly relevant part of assessing whether a given miner is built to withstand the next several halving cycles.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>BTC</b></span>
+    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

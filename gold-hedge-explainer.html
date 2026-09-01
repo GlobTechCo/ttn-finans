@@ -88,7 +88,7 @@
   <p>It's also worth briefly addressing the comparison to Bitcoin, sometimes marketed as 'digital gold.' Both are non-yielding, supply-constrained assets that some investors use as an inflation or currency hedge. But they behave quite differently in practice. Gold has centuries of trading history and tends to be far less volatile, while Bitcoin has shown a much stronger tendency in recent years to trade like a high-beta risk asset, particularly around Fed policy decisions, rather than a defensive one. Treating the two as interchangeable hedges overstates how similarly they actually behave.</p>
   <p>Taken together, treating gold as a hedge against inflation, currency risk, and acute financial crises, rather than a hedge against everything including everyday market noise, is a more accurate and more useful way to think about its role in a portfolio. It's a tool suited to specific jobs, not a universal insurance policy.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>GOLD</b></span> <span class="article-ticker-tag"><b>EUR/USD</b></span>
+    <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span> <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

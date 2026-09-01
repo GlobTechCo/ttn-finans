@@ -22,7 +22,8 @@ const TTNChart = (() => {
       </div>`;
 
     const strip = document.getElementById("ticker-strip");
-    strip.insertAdjacentElement("afterend", panel);
+    const anchor = strip || document.querySelector(".topnav") || document.body;
+    anchor.insertAdjacentElement("afterend", panel);
 
     panel.querySelector("#chart-panel-close").addEventListener("click", close);
     return panel;

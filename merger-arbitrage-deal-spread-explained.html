@@ -88,7 +88,7 @@
   <p>There's a useful, quantifiable way to think about the annualized return this strategy targets, worth knowing for anyone trying to judge whether a reported spread looks attractive. An 8 dollar spread on a 92 dollar stock represents roughly an 8.7 percent gross return if the deal closes as announced; if the expected time to closing is six months, that return effectively doubles on an annualized basis, since the capital is only committed for half a year, not a full one. But this annualized figure is a best-case estimate contingent on the deal actually closing on schedule, and any slippage in the regulatory timeline, or an outright deal break, changes the realized return dramatically, in the PayPal case, to an outright loss for anyone who bought in anticipating the deal would materialize.</p>
   <p>The practical takeaway for anyone reading an M&A speculation or deal-collapse headline in TTN's news feed: a target's stock price sitting below an acquirer's offer, or below rumored deal terms, isn't a market error, it's a direct, continuously updating readout of how confident the market is that the transaction actually closes, and a sudden, sharp drop like PayPal's this week is the spread's implied deal-probability collapsing toward zero all at once, the same mechanism that makes merger arbitrage a genuine, if risky, professional strategy rather than simply 'buying a stock because it might get acquired.'</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

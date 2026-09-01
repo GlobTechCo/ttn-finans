@@ -88,7 +88,7 @@
   <p>There's a historical example worth knowing that illustrates how sharply this kind of trade can reverse. Brazil's Selic rate swung from a pandemic-era low of 2 percent through an aggressive 1,175 basis-point hiking campaign in 2022, then eased back toward 10.50 percent by mid-2024, before turning to renewed tightening as inflation reaccelerated and the real depreciated sharply, a single multi-year cycle containing both an enormous carry opportunity and, at its turning points, the kind of rapid currency moves that can punish anyone caught on the wrong side of a leveraged carry position when sentiment shifts.</p>
   <p>The practical takeaway for anyone reading an emerging-market rate headline in TTN's news feed: the size of a country's policy rate alone doesn't tell you whether it represents a genuine, attractive yield opportunity or simply compensation for currency and fiscal risk roughly proportional to that same headline number. Checking the real rate, the policy rate minus actual or expected inflation, and being explicit about how much currency depreciation would be needed to erase the yield advantage entirely, is a considerably more reliable way to judge an emerging-market carry opportunity than comparing headline interest rates across countries at face value.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>EUR/USD</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FX:EURUSD" data-label="EUR/USD"><b>EUR/USD</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

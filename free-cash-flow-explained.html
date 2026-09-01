@@ -88,7 +88,7 @@
   <p>Research from S&P Global examining this relationship over nearly two decades found that companies in the top quintile by free cash flow yield meaningfully outperformed those in the bottom quintile over the full period studied, a data point consistent with the broader thesis that cash generation, not just reported accounting profit, tends to be rewarded by markets over sufficiently long horizons, even though any single year's stock performance can diverge from this pattern for many other reasons.</p>
   <p>The practical takeaway for anyone evaluating a company mentioned in TTN's news feed: comparing net income to free cash flow over several years, rather than trusting either figure from a single quarter alone, is a genuinely useful diagnostic. Consistently growing free cash flow alongside growing revenue is one of the more reliable signs of a fundamentally healthy business, while earnings that keep rising alongside declining or persistently disappointing free cash flow is a combination worth investigating rather than accepting at face value, since it suggests the accounting story and the cash reality underneath it have started to diverge.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

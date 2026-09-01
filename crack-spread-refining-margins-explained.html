@@ -88,7 +88,7 @@
   <p>It's worth knowing that professional traders and refiners themselves treat the crack spread as a tradable, hedgeable instrument in its own right, not just an analytical concept. A refiner can hedge against the crack spread narrowing by simultaneously buying crude oil futures and selling refined product futures, locking in a specific margin regardless of which direction absolute prices move afterward, the same kind of directional hedging logic covered in TTN's earlier piece on options. A trader with the opposite view, expecting the spread to widen further, can take the reverse position, going long refined products and short crude.</p>
   <p>The practical takeaway for anyone reading a refiner-stock headline in TTN's news feed: a refiner's earnings and share price depend on the crack spread, not the absolute level of crude oil prices, which is precisely why Valero, Marathon Petroleum, and Phillips 66 have posted such strong gains during a stretch when crude prices themselves have been volatile rather than steadily climbing. Checking the crack spread directly, rather than assuming refiner performance simply tracks crude oil headlines, is a more accurate way to understand what's actually driving this specific corner of the energy sector.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

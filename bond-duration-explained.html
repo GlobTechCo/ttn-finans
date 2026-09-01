@@ -89,7 +89,7 @@
   <p>It's worth being direct about the practical use of this concept for anyone actually positioning a portfolio around a rate view, since this is precisely the logic institutional bond managers apply. An investor who expects rates to fall would want longer-duration bonds specifically, to maximize the price appreciation that decline would produce. An investor worried about further rate increases, the scenario behind much of TTN's coverage of the recent global bond selloff and rising term premiums, would want to shift toward shorter-duration holdings specifically to minimize the price damage a continued rate rise would inflict, even at the cost of accepting a lower current yield in exchange for that reduced sensitivity.</p>
   <p>The practical takeaway for anyone reading a bond-market headline in TTN's news feed: duration is the single number that explains why a given change in interest rates produces such different price reactions across bonds of different maturities and coupon structures, and it's the concrete, quantifiable mechanism underneath nearly every 'long-term yields moved more than short-term yields' pattern TTN's Treasury, TIPS, and yield curve coverage has described without stating the underlying multiplier directly.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>GOLD</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD"><b>GOLD</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -107,6 +107,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

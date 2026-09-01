@@ -88,7 +88,7 @@
   <p>There are real, measurable market signals worth watching as this debate plays out, beyond just competing narratives. Credit default swap spreads on some AI-linked debt have widened as these deals have accumulated, a market-based signal that some investors are pricing in genuine additional risk tied to this financing structure, separate from and in addition to ordinary stock price volatility. Nvidia shares themselves fell roughly 4.5 percent on the day reports of the expanded OpenAI financing discussions emerged, suggesting at least part of the market reads this specific pattern of deal-making as a risk factor rather than pure good news, even for the company doing the financing.</p>
   <p>The practical takeaway for anyone reading an AI-financing headline in TTN's news feed: the size of a reported AI infrastructure deal matters less than whether the capital funding it traces back to independent sources or cycles back to the same small group of interconnected companies. A deal disclosure that specifies the financing source clearly is worth more analytically than a large headline number alone, and watching whether AI revenue growth across the sector continues outpacing the debt being taken on to fund it, mentioned as the key question in TTN's earlier AI capex piece, remains the most direct way to judge whether this financing structure proves sound or fragile.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>NASDAQ</b></span> <span class="article-ticker-tag"><b>S&P 500</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>

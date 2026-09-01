@@ -88,7 +88,7 @@
   <p>There's also a disclosure mechanism worth knowing about for anyone who wants to check the details themselves rather than relying on a headline's framing: insider transactions are reported to the SEC on Form 4, typically within two business days of the trade, and these filings, publicly available and searchable, indicate whether a given sale was made under a 10b5-1 plan. That single data point, buried in the filing rather than the headline, is usually the most useful piece of context missing from insider-selling news coverage.</p>
   <p>The practical takeaway for anyone reading an insider-selling headline in TTN's news feed: check whether the sale falls under a pre-scheduled 10b5-1 plan before treating it as a signal, watch for cluster selling by multiple insiders rather than a single well-known figure's routine diversification, and weigh any insider buying more heavily than an equivalent-sized insider sale, since the ordinary, non-informational reasons to sell simply don't apply in reverse.</p>
   <div class="article-tickers">
-    <span class="article-ticker-tag"><b>S&P 500</b></span> <span class="article-ticker-tag"><b>NASDAQ</b></span>
+    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
   </div>
   <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
     This is original analysis written by TTN, not aggregated from a third party.
@@ -106,6 +106,16 @@
   </div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="config.js"></script>
+<script src="chart.js"></script>
+<script>
+  document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+    tag.style.cursor = "pointer";
+    tag.addEventListener("click", () => {
+      TTNChart.open(tag.dataset.tv, tag.dataset.label);
+    });
+  });
+</script>
 <script src="consent.js"></script>
 </body>
 </html>
