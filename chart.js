@@ -39,6 +39,13 @@ const TTNChart = (() => {
     }
     currentSymbol = tvSymbol;
 
+    // Update visible state first, so a problem loading the external
+    // TradingView script (e.g. a page missing the script tag, or the
+    // script failing to load) still leaves the panel visibly open
+    // and scrolled to, instead of silently doing nothing.
+    panel.classList.add("open");
+    panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
     // Fully replace the container node (not just clear its innerHTML) —
     // TradingView's widget script doesn't always reinitialize cleanly in a
     // reused container, which is why switching tickers could get stuck
@@ -48,25 +55,26 @@ const TTNChart = (() => {
     freshContainer.id = "tv-chart-container";
     oldContainer.replaceWith(freshContainer);
 
-    /* eslint-disable no-undef */
-    new TradingView.widget({
-      autosize: true,
-      symbol: tvSymbol,
-      interval: "60",
-      timezone: "Etc/UTC",
-      theme: "dark",
-      style: "1",
-      locale: "en",
-      toolbar_bg: "#12161b",
-      enable_publishing: false,
-      hide_top_toolbar: false,
-      hide_legend: false,
-      save_image: false,
-      container_id: "tv-chart-container",
-    });
-
-    panel.classList.add("open");
-    panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    try {
+      /* eslint-disable no-undef */
+      new TradingView.widget({
+        autosize: true,
+        symbol: tvSymbol,
+        interval: "60",
+        timezone: "Etc/UTC",
+        theme: "dark",
+        style: "1",
+        locale: "en",
+        toolbar_bg: "#12161b",
+        enable_publishing: false,
+        hide_top_toolbar: false,
+        hide_legend: false,
+        save_image: false,
+        container_id: "tv-chart-container",
+      });
+    } catch (e) {
+      freshContainer.textContent = "Chart failed to load. Please refresh the page and try again.";
+    }
   }
 
   function close() {
