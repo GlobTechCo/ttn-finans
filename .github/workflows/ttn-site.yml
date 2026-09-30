@@ -1,0 +1,65 @@
+name: TTN Finance - Validate and Refresh
+
+on:
+  push:
+    branches:
+      - main
+      - repair/ttn-premium
+    paths-ignore:
+      - sitemap.xml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ttn-site-\${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Validate required files
+        shell: bash
+        run: |
+          set -e
+          test -f index.html
+          test -f robots.txt
+          test -f sitemap.xml
+          echo "Core files OK"
+      - name: Generate sitemap from HTML pages
+        shell: python
+        run: |
+          from pathlib import Path
+          from xml.sax.saxutils import escape
+          base = "https://globtechco.github.io/ttn-finans/"
+          excluded = {"404.html"}
+          pages = sorted(p for p in Path(".").glob("*.html") if p.name not in excluded)
+          def priority(name):
+              if name == "index.html": return "1.0"
+              if name in {"analysis.html", "calculators.html"}: return "0.8"
+              if name in {"brokers.html", "about.html", "privacy.html"}: return "0.5"
+              return "0.7"
+          def freq(name):
+              if name == "index.html": return "hourly"
+              if name in {"analysis.html", "calculators.html"}: return "weekly"
+              return "monthly"
+          urls = []
+          for page in pages:
+              loc = base if page.name == "index.html" else base + page.name
+              urls.append("  <url>\n    <loc>" + escape(loc) + "</loc>\n    <changefreq>" + freq(page.name) + "</changefreq>\n    <priority>" + priority(page.name) + "</priority>\n  </url>")
+          sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + '\n</urlset>\n'
+          Path("sitemap.xml").write_text(sitemap, encoding="utf-8")
+          print(f"Generated sitemap with {len(pages)} HTML pages")
+      - name: Commit refreshed sitemap
+        shell: bash
+        run: |
+          if git diff --quiet -- sitemap.xml; then echo "Sitemap is already current"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "chore: refresh sitemap"
+          git push
