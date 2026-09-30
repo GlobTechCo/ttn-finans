@@ -40,29 +40,6 @@ const TTN_CONFIG = {
   // Works without a key too, just with a lower daily limit
   RSS2JSON_KEY: "", // <-- paste your key here (optional)
 
-  // Free Pexels key — guarantees a real, relevant photo on every news card
-  // even when the source's own RSS feed has no image at all (common with
-  // Seeking Alpha, Investing.com, and others). Without a key, cards with
-  // no source photo fall back to a plain icon instead.
-  // Sign up: https://www.pexels.com/api/ (free, no card required)
-  PEXELS_KEY: "egFatky8LlcBGp4hdoSNHslhOcGbX4m7wZr3x4Nptc2HKWlZv6NQjkgn", // <-- paste your key here (optional but recommended)
-
-  // Price refresh interval (ms)
-  PRICE_REFRESH_MS: 45000,
-
-  // Search terms used to pull a relevant Pexels stock photo per news
-  // category when the source itself provides no image
-  CATEGORY_PHOTO_QUERIES: {
-    crypto: "cryptocurrency bitcoin coins",
-    stocks: "stock market trading screen",
-    forex: "currency exchange money",
-    gold: "gold bars bullion",
-    oil: "oil tanker crude petroleum",
-    chips: "semiconductor microchip technology",
-    bonds: "stock market graph decline",
-    general: "financial newspaper business",
-  },
-
   // Tickers shown in the top strip
   TICKERS: [
     {
