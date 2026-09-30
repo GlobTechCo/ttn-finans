@@ -1,22 +1,20 @@
 /**
- * TTN — renders the "TTN Analysis" section (original, in-house articles).
- * Unlike the aggregated news feed, these open with their FULL text in the
- * modal, since TTN owns this content outright.
+ * TTN — renders the “TTN Analysis” section.
  */
 const TTNArticlesUI = (() => {
   function fmtDate(dateStr) {
-    return new Date(dateStr).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    return new Date(dateStr).toLocaleDateString("en-US", {
+      month: "short", day: "numeric", year: "numeric"
+    });
   }
 
   function tickerChipsHtml(article) {
     if (!article.tickers?.length) return "";
-    return `<div class="article-tickers">${article.tickers
-      .map((label) => {
-        const entry = TTN_CONFIG.TICKER_DICTIONARY.find((d) => d.label === label);
-        if (!entry) return "";
-        return `<span class="article-ticker-tag" data-tv="${entry.tvSymbol}" data-label="${label}"><b>${label}</b></span>`;
-      })
-      .join("")}</div>`;
+    return `<div class="article-tickers">${article.tickers.map((label) => {
+      const entry = TTN_CONFIG.TICKER_DICTIONARY.find((d) => d.label === label);
+      if (!entry) return "";
+      return `<span class="article-ticker-tag" data-tv="${entry.tvSymbol}" data-label="${label}"><b>${label}</b></span>`;
+    }).join("")}</div>`;
   }
 
   function attachTickerHandlers(root) {
@@ -33,26 +31,20 @@ const TTNArticlesUI = (() => {
 
   function articleThumbHtml(article, heightPx) {
     const style = `width:100%;height:${heightPx}px;border-radius:${heightPx > 150 ? "0" : "5px"};${heightPx <= 150 ? "margin-bottom:12px;" : ""}`;
-    if (article.image) {
-      const thumbSrc = /^https?:\/\//i.test(article.image) ? `${article.image}?auto=compress&cs=tinysrgb&w=400&h=${heightPx * 3}&fit=crop` : article.image;
-      return `<img src="${thumbSrc}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
-    }
-    return `<div class="news-item-thumb-fallback thumb-general" style="${style}">${TREND_ICON}</div>`;
+    const src = article.image || "assets/editorial/finance-editorial.svg";
+    return `<img src="${src}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;" onerror="this.onerror=null;this.src='assets/editorial/finance-editorial.svg';">`;
   }
 
-  // Maps each article id to its standalone page (needed so link previews on
-  // X/social and Google indexing see a real, unique URL per article instead
-  // of everything pointing at index.html).
-
-  async function resolveCategoryPhotos() { return; }\n\n  const HOMEPAGE_LIMIT = 4;
+  const HOMEPAGE_LIMIT = 4;
 
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
+
     const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
-    el.innerHTML = shown.map(
-      (a) => `
+
+    el.innerHTML = shown.map((a) => `
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
         <span class="ttn-original-badge">TTN Original</span>
@@ -60,12 +52,10 @@ const TTNArticlesUI = (() => {
         <p>${a.dek}</p>
         <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
         ${tickerChipsHtml(a)}
-      </article>`
-    ).join("");
+      </article>`).join("");
 
     if (sorted.length > HOMEPAGE_LIMIT) {
-      el.insertAdjacentHTML(
-        "afterend",
+      el.insertAdjacentHTML("afterend",
         `<a href="analysis.html" class="view-all-analysis">View all ${sorted.length} articles &rarr;</a>`
       );
     }
