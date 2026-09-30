@@ -861,3 +861,17 @@ body.modal-open { overflow: hidden; }
   .search-box { min-width: 0; flex: 1 1 100%; order: 3; }
   .brand small { display: none; }
 }
+
+/* TTN editorial data visual */
+.editorial-chart{margin:34px 0;padding:20px 20px 16px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface-2)}
+.editorial-chart-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+.editorial-chart-kicker{font:700 10px/1 var(--font-display);letter-spacing:1.6px;color:var(--accent)}
+.editorial-chart h3{margin:7px 0 0;font-size:17px}
+.editorial-chart-note{font-size:11px;color:var(--text-faint);white-space:nowrap}
+.editorial-chart svg{width:100%;height:auto;margin-top:14px}
+.editorial-chart .grid{stroke:var(--border);stroke-width:1}
+.editorial-chart .series{fill:none;stroke:var(--accent);stroke-width:5;stroke-linecap:round}
+.editorial-chart .point{fill:var(--accent)}
+.editorial-chart text{fill:var(--text-faint);font:11px var(--font-display)}
+.editorial-chart p{margin:8px 0 0;font-size:11px;color:var(--text-faint)}
+@media(max-width:600px){.editorial-chart{padding:15px}.editorial-chart-head{display:block}.editorial-chart-note{display:block;margin-top:8px}}
