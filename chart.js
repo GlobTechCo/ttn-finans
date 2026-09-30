@@ -55,25 +55,44 @@ const TTNChart = (() => {
     freshContainer.id = "tv-chart-container";
     oldContainer.replaceWith(freshContainer);
 
-    try {
-      /* eslint-disable no-undef */
-      new TradingView.widget({
-        autosize: true,
-        symbol: tvSymbol,
-        interval: "60",
-        timezone: "Etc/UTC",
-        theme: "dark",
-        style: "1",
-        locale: "en",
-        toolbar_bg: "#12161b",
-        enable_publishing: false,
-        hide_top_toolbar: false,
-        hide_legend: false,
-        save_image: false,
-        container_id: "tv-chart-container",
-      });
-    } catch (e) {
-      freshContainer.textContent = "Chart failed to load. Please refresh the page and try again.";
+    const render = () => {
+      if (currentSymbol !== tvSymbol) return true;
+      if (typeof TradingView === "undefined" || typeof TradingView.widget !== "function") return false;
+      freshContainer.textContent = "";
+      try {
+        new TradingView.widget({
+          autosize: true,
+          symbol: tvSymbol,
+          interval: "60",
+          timezone: "Etc/UTC",
+          theme: "dark",
+          style: "1",
+          locale: "en",
+          toolbar_bg: "#12161b",
+          enable_publishing: false,
+          hide_top_toolbar: false,
+          hide_legend: false,
+          save_image: false,
+          container_id: "tv-chart-container",
+        });
+        return true;
+      } catch (e) {
+        return false;
+      }
+    };
+
+    if (!render()) {
+      freshContainer.textContent = "Loading chart…";
+      let attempts = 0;
+      const retry = window.setInterval(() => {
+        attempts += 1;
+        if (render() || attempts >= 30 || currentSymbol !== tvSymbol) {
+          window.clearInterval(retry);
+          if (currentSymbol === tvSymbol && attempts >= 30 && typeof TradingView === "undefined") {
+            freshContainer.textContent = "Chart is temporarily unavailable. Please try again.";
+          }
+        }
+      }, 250);
     }
   }
 
