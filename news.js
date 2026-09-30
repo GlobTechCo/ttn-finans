@@ -310,63 +310,27 @@ const TTNNews = (() => {
     return "stocks";
   }
 
-  const categoryPhotoCache = {}; // category -> array of photo URLs
+  // Local editorial artwork keeps the site fast, consistent and independent of stock-photo APIs.
+  const LOCAL_CATEGORY_ART = {
+    crypto: "assets/editorial/crypto.svg",
+    stocks: "assets/editorial/stocks.svg",
+    forex: "assets/editorial/macro.svg",
+    gold: "assets/editorial/commodities.svg",
+    general: "assets/editorial/finance-editorial.svg",
+  };
 
-  async function resolveCategoryPhotos(categories) {
-    if (!TTN_CONFIG.PEXELS_KEY) return;
-    const needed = [...new Set(categories)].filter((c) => !(c in categoryPhotoCache));
-    if (!needed.length) return;
-    await Promise.all(
-      needed.map(async (category) => {
-        const query = TTN_CONFIG.CATEGORY_PHOTO_QUERIES[category] || TTN_CONFIG.CATEGORY_PHOTO_QUERIES.general;
-        try {
-          const res = await fetch(
-            `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=24&orientation=landscape`,
-            { headers: { Authorization: TTN_CONFIG.PEXELS_KEY } }
-          );
-          const data = await res.json();
-          const urls = (data.photos || []).map((p) => p.src?.medium).filter(Boolean);
-          categoryPhotoCache[category] = urls.length ? urls : null;
-        } catch (e) {
-          categoryPhotoCache[category] = null;
-        }
-      })
-    );
+  function pickCategoryPhoto(category) {
+    return LOCAL_CATEGORY_ART[category] || LOCAL_CATEGORY_ART.general;
   }
 
-  // Simple stable hash so the same item always picks the same photo from
-  // the pool (no flicker on re-render) while different items spread out
-  // across the available photos instead of all sharing photo #1.
-  function stableIndex(key, poolSize) {
-    let hash = 0;
-    for (let i = 0; i < key.length; i++) {
-      hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
-    }
-    return hash % poolSize;
-  }
-
-  function pickCategoryPhoto(category, key) {
-    const pool = categoryPhotoCache[category];
-    if (!pool || !pool.length) return null;
-    return pool[stableIndex(key, pool.length)];
-  }
 
   function thumbHtml(item, size) {
     const cls = size === "lg" ? "featured-img" : "news-item-thumb";
     const category = categoryFor(item);
-    if (item.image) {
-      // No inline onerror attribute here on purpose — the SVG's own quote
-      // characters would break out of a quoted HTML attribute. Instead we
-      // mark the img with data attributes and wire up error handling in
-      // JS after it's inserted (see attachThumbFallbacks).
-      return `<img class="${cls}" src="${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
-    }
-    // Source gave us no photo — use a relevant Pexels stock photo if we
-    // have one cached for this category, so cards rarely show a plain icon.
-    const categoryPhoto = pickCategoryPhoto(category, item.link || item.title || "");
-    if (categoryPhoto) {
-      return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
-    }
+    // News images are intentionally local: external publisher/stock images are not
+    // used as presentation assets, which keeps the visual system consistent.
+    const categoryPhoto = pickCategoryPhoto(category);
+    return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     const fallbackCls = size === "lg" ? "featured-img" : "news-item-thumb-fallback";
     return `<div class="${fallbackCls} thumb-${category}">${TREND_ICON}</div>`;
   }
