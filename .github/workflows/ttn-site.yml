@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ttn-site-\${{ github.ref }}
+  group: ttn-site-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -22,6 +22,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check pillow
       - name: Validate required files
         shell: bash
         run: |
@@ -29,37 +35,70 @@ jobs:
           test -f index.html
           test -f robots.txt
           test -f sitemap.xml
-          echo "Core files OK"
+          test -f articles.js
+          test -f articles-ui.js
+          test -f chart.js
+          echo 'Core files OK'
+      - name: Generate first-party social image and remove external image dependencies
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          from PIL import Image, ImageDraw, ImageFont
+          out = Path('assets/editorial/ttn-social.png')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          W, H = 1200, 630
+          img = Image.new('RGB', (W, H), (10, 14, 18))
+          d = ImageDraw.Draw(img)
+          for x in range(0, W, 60): d.line((x, 0, x, H), fill=(28, 37, 45), width=1)
+          for y in range(0, H, 60): d.line((0, y, W, y), fill=(28, 37, 45), width=1)
+          points = [(80,470),(190,430),(280,455),(380,340),(500,380),(610,275),(710,310),(825,190),(940,225),(1080,105)]
+          d.line(points, fill=(83,220,190), width=7)
+          for x,y in points: d.ellipse((x-7,y-7,x+7,y+7), fill=(83,220,190))
+          try:
+              big = ImageFont.truetype('DejaVuSans-Bold.ttf', 68)
+              small = ImageFont.truetype('DejaVuSans.ttf', 25)
+          except OSError:
+              big = small = ImageFont.load_default()
+          d.text((80,65), 'TTN FINANCE', fill=(245,248,250), font=big)
+          d.text((84,145), 'Markets · Analysis · Data', fill=(160,174,184), font=small)
+          img.save(out, 'PNG', optimize=True)
+          social = 'https://globtechco.github.io/ttn-finans/assets/editorial/ttn-social.png'
+          count = 0
+          for path in Path('.').glob('*.html'):
+              text = path.read_text(encoding='utf-8')
+              new = re.sub(r'https://images\\.pexels\\.com/[^\"\'<> )]+', social, text)
+              if new != text:
+                  path.write_text(new, encoding='utf-8')
+                  count += 1
+          print(f'Generated {out} and normalized {count} HTML files')
       - name: Generate sitemap from HTML pages
         shell: python
         run: |
           from pathlib import Path
           from xml.sax.saxutils import escape
-          base = "https://globtechco.github.io/ttn-finans/"
-          excluded = {"404.html"}
-          pages = sorted(p for p in Path(".").glob("*.html") if p.name not in excluded)
+          base = 'https://globtechco.github.io/ttn-finans/'
+          pages = sorted(p for p in Path('.').glob('*.html') if p.name != '404.html')
           def priority(name):
-              if name == "index.html": return "1.0"
-              if name in {"analysis.html", "calculators.html"}: return "0.8"
-              if name in {"brokers.html", "about.html", "privacy.html"}: return "0.5"
-              return "0.7"
+              if name == 'index.html': return '1.0'
+              if name in {'analysis.html','calculators.html'}: return '0.8'
+              if name in {'brokers.html','about.html','privacy.html'}: return '0.5'
+              return '0.7'
           def freq(name):
-              if name == "index.html": return "hourly"
-              if name in {"analysis.html", "calculators.html"}: return "weekly"
-              return "monthly"
+              if name == 'index.html': return 'hourly'
+              if name in {'analysis.html','calculators.html'}: return 'weekly'
+              return 'monthly'
           urls = []
           for page in pages:
-              loc = base if page.name == "index.html" else base + page.name
-              urls.append("  <url>\n    <loc>" + escape(loc) + "</loc>\n    <changefreq>" + freq(page.name) + "</changefreq>\n    <priority>" + priority(page.name) + "</priority>\n  </url>")
-          sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + '\n</urlset>\n'
-          Path("sitemap.xml").write_text(sitemap, encoding="utf-8")
-          print(f"Generated sitemap with {len(pages)} HTML pages")
-      - name: Commit refreshed sitemap
+              loc = base if page.name == 'index.html' else base + page.name
+              urls.append('  <url>\n    <loc>' + escape(loc) + '</loc>\n    <changefreq>' + freq(page.name) + '</changefreq>\n    <priority>' + priority(page.name) + '</priority>\n  </url>')
+          Path('sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(urls) + '\n</urlset>\n', encoding='utf-8')
+      - name: Commit automated fixes
         shell: bash
         run: |
-          if git diff --quiet -- sitemap.xml; then echo "Sitemap is already current"; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sitemap.xml
-          git commit -m "chore: refresh sitemap"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/editorial/ttn-social.png '*.html' sitemap.xml
+          if git diff --cached --quiet; then echo 'No generated changes'; exit 0; fi
+          git commit -m 'chore: normalize social assets and refresh sitemap'
           git push
