@@ -39,6 +39,14 @@ jobs:
           test -f articles-ui.js
           test -f chart.js
           echo 'Core files OK'
+      - name: Validate JavaScript syntax
+        shell: bash
+        run: |
+          set -e
+          for file in *.js; do
+            node --check "$file"
+          done
+          echo 'JavaScript syntax OK'
       - name: Generate first-party social image and remove external image dependencies
         shell: python
         run: |
