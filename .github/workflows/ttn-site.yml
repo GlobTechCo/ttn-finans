@@ -75,7 +75,7 @@ jobs:
           count = 0
           for path in Path('.').glob('*.html'):
               text = path.read_text(encoding='utf-8')
-              new = re.sub(r"https://images\\.pexels\\.com/[^\"'<> )]+", social, text)
+              new = re.sub(r"https://images\.pexels\.com/[^\"'<> )]+", social, text)
               if new != text:
                   path.write_text(new, encoding='utf-8')
                   count += 1
