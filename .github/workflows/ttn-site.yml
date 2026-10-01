@@ -18,6 +18,7 @@ concurrency:
 
 jobs:
   validate-and-refresh:
+    if: ${{ github.actor != 'github-actions[bot]' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -80,6 +81,15 @@ jobs:
                   path.write_text(new, encoding='utf-8')
                   count += 1
           print(f'Generated {out} and normalized {count} HTML files')
+      - name: Fail if external Pexels images remain
+        shell: bash
+        run: |
+          set -e
+          if grep -R -n --include='*.html' 'images\.pexels\.com' .; then
+            echo 'External Pexels image URLs remain in HTML.'
+            exit 1
+          fi
+          echo 'No external Pexels image URLs found'
       - name: Generate sitemap from HTML pages
         shell: python
         run: |
