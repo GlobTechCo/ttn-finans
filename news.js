@@ -439,6 +439,7 @@ const TTNNews = (() => {
     el.innerHTML = sorted
       .map(([label, count]) => {
         const entry = TTN_CONFIG.TICKER_DICTIONARY.find((d) => d.label === label);
+        if (!entry || !entry.tvSymbol) return "";
         return `<li><a href="#" class="trending-tag" data-tv="${entry.tvSymbol}" data-label="${label}">${label} <span style="color:var(--text-faint);">· ${count} mention${count === 1 ? "" : "s"}</span></a></li>`;
       })
       .join("");
