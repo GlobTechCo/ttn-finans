@@ -331,8 +331,6 @@ const TTNNews = (() => {
     // used as presentation assets, which keeps the visual system consistent.
     const categoryPhoto = pickCategoryPhoto(category);
     return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
-    const fallbackCls = size === "lg" ? "featured-img" : "news-item-thumb-fallback";
-    return `<div class="${fallbackCls} thumb-${category}">${TREND_ICON}</div>`;
   }
 
   function attachThumbFallbacks(root) {
@@ -476,7 +474,6 @@ const TTNNews = (() => {
       );
     });
     await resolveTickerPrices(filtered.slice(0, 13));
-    await resolveCategoryPhotos(filtered.slice(0, 13).map((i) => categoryFor(i)));
     renderFeatured(filtered[0]);
     renderFeed(filtered.slice(1));
   }
@@ -571,7 +568,6 @@ const TTNNews = (() => {
     }
 
     await resolveTickerPrices(allItems.slice(0, 13));
-    await resolveCategoryPhotos(allItems.slice(0, 13).map((i) => categoryFor(i)));
     renderFeatured(allItems[0]);
     renderFeed(allItems.slice(1, 13));
     renderTrending();
@@ -609,7 +605,6 @@ const TTNNews = (() => {
     openCustomModal,
     getTrending,
     getAllItems,
-    resolveCategoryPhotos,
     getCategoryPhoto: (category, key) => pickCategoryPhoto(category, key || category),
     escapeAttr,
   };
