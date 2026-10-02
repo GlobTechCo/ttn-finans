@@ -21,7 +21,7 @@
     el.innerHTML = sorted
       .map((a) => {
         const img = a.image
-          ? `<img src="${a.image}?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
+          ? `<img src="${a.image}" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy" decoding="async">`
           : `<div class="news-item-thumb-fallback thumb-general"></div>`;
         return `
         <div class="analysis-list-item">
