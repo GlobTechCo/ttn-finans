@@ -1,7 +1,7 @@
 name: Generate TTN Original image
 on:
   push:
-    branches: [test/ttn-original-oil-inflation]
+    branches: [main]
     paths: ['assets/editorial/ttn-oil-inflation-2026.svg']
   workflow_dispatch:
 permissions:
