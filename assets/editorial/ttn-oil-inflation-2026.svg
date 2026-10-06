@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0b0e12"/>
+<g stroke="#1c232c" stroke-width="1" opacity=".75">
+<line x1="0" y1="0" x2="0" y2="630"/><line x1="80" y1="0" x2="80" y2="630"/><line x1="160" y1="0" x2="160" y2="630"/><line x1="240" y1="0" x2="240" y2="630"/><line x1="320" y1="0" x2="320" y2="630"/><line x1="400" y1="0" x2="400" y2="630"/><line x1="480" y1="0" x2="480" y2="630"/><line x1="560" y1="0" x2="560" y2="630"/><line x1="640" y1="0" x2="640" y2="630"/><line x1="720" y1="0" x2="720" y2="630"/><line x1="800" y1="0" x2="800" y2="630"/><line x1="880" y1="0" x2="880" y2="630"/><line x1="960" y1="0" x2="960" y2="630"/><line x1="1040" y1="0" x2="1040" y2="630"/><line x1="1120" y1="0" x2="1120" y2="630"/>
+<line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="70" x2="1200" y2="70"/><line x1="0" y1="140" x2="1200" y2="140"/><line x1="0" y1="210" x2="1200" y2="210"/><line x1="0" y1="280" x2="1200" y2="280"/><line x1="0" y1="350" x2="1200" y2="350"/><line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="490" x2="1200" y2="490"/><line x1="0" y1="560" x2="1200" y2="560"/>
+</g>
+<text x="70" y="78" fill="#f0a500" font-family="Arial,sans-serif" font-size="25" font-weight="700">TTN  |  MARKET WATCH</text>
+<text x="70" y="165" fill="#e8eaed" font-family="Arial,sans-serif" font-size="72" font-weight="700">OIL NEAR $100</text>
+<text x="70" y="225" fill="#e8eaed" font-family="Arial,sans-serif" font-size="48" font-weight="700">THE NEW INFLATION RISK</text>
+<text x="70" y="285" fill="#8b93a1" font-family="Arial,sans-serif" font-size="29">Energy costs meet sticky inflation and high bond yields.</text>
+<rect x="70" y="350" width="270" height="64" rx="10" fill="#12171d" stroke="#2b333e"/>
+<text x="94" y="391" fill="#e8eaed" font-family="Arial,sans-serif" font-size="25" font-weight="700">BRENT  ≈  $100</text>
+<rect x="360" y="350" width="290" height="64" rx="10" fill="#12171d" stroke="#2b333e"/>
+<text x="384" y="391" fill="#e8eaed" font-family="Arial,sans-serif" font-size="25" font-weight="700">US PCE  3.4% YoY</text>
+<g transform="translate(880 120)">
+<rect x="0" y="25" width="190" height="340" rx="28" fill="#151a20" stroke="#55606e" stroke-width="5"/>
+<ellipse cx="95" cy="25" rx="95" ry="27" fill="#1c232c" stroke="#697583" stroke-width="5"/>
+<ellipse cx="95" cy="365" rx="95" ry="27" fill="#101419" stroke="#55606e" stroke-width="5"/>
+<line x1="22" y1="100" x2="168" y2="100" stroke="#39434f" stroke-width="5"/>
+<line x1="22" y1="195" x2="168" y2="195" stroke="#39434f" stroke-width="5"/>
+<line x1="22" y1="290" x2="168" y2="290" stroke="#39434f" stroke-width="5"/>
+</g>
+<polyline points="650,510 710,480 770,495 830,440 890,455 950,395 1010,410 1070,335 1135,300" fill="none" stroke="#f0a500" stroke-width="8"/>
+<g fill="#f0a500">
+<circle cx="650" cy="510" r="7"/><circle cx="710" cy="480" r="7"/><circle cx="770" cy="495" r="7"/><circle cx="830" cy="440" r="7"/><circle cx="890" cy="455" r="7"/><circle cx="950" cy="395" r="7"/><circle cx="1010" cy="410" r="7"/><circle cx="1070" cy="335" r="7"/><circle cx="1135" cy="300" r="7"/>
+</g>
+<text x="70" y="570" fill="#5b6472" font-family="Arial,sans-serif" font-size="20" font-weight="700">TTN ORIGINAL  •  OCTOBER 6, 2026</text>
+</svg>
