@@ -1511,4 +1511,21 @@ const TTN_ARTICLES = [
       "The practical takeaway for anyone reading an inflation headline in TTN's news feed following an energy shock: the first month's jump in headline CPI is the easy, direct, and largely unavoidable part of the story. The more consequential question, whether that shock triggers a genuine, lasting second-round effect through transportation costs and eventually wages, unfolds over the following six to twelve months, and depends far more on how anchored inflation expectations and labor market conditions already were before the shock hit than on the size of the initial oil price spike itself.",
     ],
   },
+  {
+    id: "oil-below-100-bond-yields-market-warning",
+    title: "Oil Fell Below $100. Why Bond Yields Are Still the Bigger Market Warning",
+    dek: "Brent crude slipped back below $100 a barrel as supply fears eased, but U.S. Treasury yields remained near multi-decade highs. The combination matters more than either headline alone.",
+    author: "TTN Research Desk",
+    date: "2026-10-06T12:00:00+03:00",
+    image: "assets/editorial/oil-below-100-bond-yields-market-warning.png",
+    tickers: ["S&P 500", "NASDAQ"],
+    body: [
+      "Oil prices moved back below $100 a barrel as Middle East exports increased and emergency supply measures reduced immediate shortage fears, but the move has not been matched by a comparable decline in long-term Treasury yields.",
+      "The U.S. 10-year Treasury yield remained around 5.28% while the 30-year yield stayed near 5.64%. That matters because long-term borrowing costs reflect more than the latest oil move: investors are also pricing persistent inflation, government borrowing and the compensation required to hold long-duration debt.",
+      "Lower crude prices can reduce the immediate inflation shock through gasoline, diesel and other energy-sensitive costs. But they do not automatically solve the slower inflation-and-bond problem, which is why falling oil and elevated yields can coexist.",
+      "Investors are effectively watching two inflation clocks at once. Energy prices move quickly, while wages, services prices and long-term bond yields adjust more slowly. The second clock is still telling markets that inflation and fiscal risks have not disappeared.",
+      "The equity rally adds an important counterpoint. European stocks rose and U.S. technology shares remained strong as investors looked toward third-quarter earnings, with expectations for strong earnings growth helping support valuations.",
+      "The practical takeaway is that oil below $100 is a relief signal, not a complete all-clear. A more durable improvement would be visible if long-term Treasury yields also moved materially lower. If oil falls while yields stay high, markets are still pricing a broader inflation-and-fiscal problem."
+    ],
+  },
 ];
