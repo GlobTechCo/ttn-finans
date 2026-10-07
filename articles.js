@@ -585,7 +585,7 @@ const TTN_ARTICLES = [
     author: "TTN Research Desk",
     date: "2026-08-08T11:00:00",
     image: "https://images.pexels.com/photos/31738798/pexels-photo-31738798.jpeg",
-    tickers: ["S&P 500", "GOLD"],
+    tickers: ["OIL", "S&P 500", "GOLD"],
     body: [
       "Financial coverage routinely states a precise number, 'markets are pricing in a 62 percent chance of a rate hike next month', well before the Federal Reserve has made any announcement at all. That figure isn't a poll or a guess. It's calculated directly from real money changing hands in the futures market, and understanding the mechanism behind it, most commonly accessed through the CME Group's FedWatch Tool, changes how much weight that kind of headline deserves.",
       "The underlying instrument is the 30-Day Federal Funds futures contract, traded on the Chicago Mercantile Exchange. These contracts are priced using a simple convention: 100 minus the market's expected average federal funds rate for that specific month. If a contract for a given month is priced at 96.25, the market is collectively pricing in an average effective federal funds rate of roughly 3.75 percent for that month. Because this price is set by real buyers and sellers actively trading the contract, not by a survey of opinions, it reflects actual capital being risked on a specific rate outcome, the same kind of real-money signal covered in TTN's piece on prediction markets.",
