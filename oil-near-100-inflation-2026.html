@@ -8,7 +8,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Oil Near $100 Is Rewriting the Inflation Story">
 <meta property="og:description" content="Oil is back near $100 a barrel while US inflation remains elevated and long-term Treasury yields sit near multi-decade highs. The risk is no longer just gasoline prices.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/ttn-oil-inflation-2026.png">
+<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/ttn-oil-inflation-2026.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://globtechco.github.io/ttn-finans/oil-near-100-inflation-2026.html">
@@ -50,7 +50,7 @@
 <span class="ttn-original-badge">TTN Original</span>
 <h1>Oil Near $100 Is Rewriting the Inflation Story</h1>
 <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Oct 6, 2026</p>
-<img src="assets/editorial/ttn-oil-inflation-2026.png" width="1200" height="630" alt="TTN editorial graphic about oil near $100, inflation and Treasury yields" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);">
+<img src="assets/editorial/ttn-oil-inflation-2026.png" width="1200" height="630" alt="TTN editorial photograph of an oil refinery and pumpjack at sunset" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);">
 
 <p>Oil is back near a level that changes the macroeconomic conversation. Brent crude was around $99.91 a barrel on October 6 after briefly moving above $100, while US Treasury yields retreated slightly from multi-decade highs. The important story is not simply that fuel has become more expensive. It is that an energy shock is arriving at the same time as inflation is still above the Federal Reserve's comfort zone and investors are demanding unusually high compensation to hold long-term government debt.</p>
 
@@ -76,6 +76,11 @@
 
 <p><strong>TTN takeaway:</strong> watch the duration of the oil shock, not just the headline barrel price. A brief move through $100 is manageable. A prolonged period near $100 combined with sticky services inflation and elevated long-term yields would be a much more consequential macroeconomic event.</p>
 
+<div class="article-tickers" style="margin:26px 0 18px;">
+  <span class="article-ticker-tag" data-tv="TVC:USOIL" data-label="OIL" role="button" tabindex="0"><b>OIL</b></span>
+  <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500" role="button" tabindex="0"><b>S&P 500</b></span>
+  <span class="article-ticker-tag" data-tv="TVC:GOLD" data-label="GOLD" role="button" tabindex="0"><b>GOLD</b></span>
+</div>
 <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">This is original analysis written by TTN, based on publicly reported market and economic data available on Oct 6, 2026. It is provided for informational purposes only and is not investment advice.</p>
 </div>
 <footer>
@@ -86,5 +91,14 @@
 <script src="https://s3.tradingview.com/tv.js"></script>
 <script src="config.js"></script><script src="chart.js"></script>
 <script src="consent.js"></script>
+<script>
+document.querySelectorAll(".article-ticker-tag").forEach(tag => {
+  const open = () => {
+    if (window.TTNChart && typeof TTNChart.open === "function") TTNChart.open(tag.dataset.tv, tag.dataset.label);
+  };
+  tag.addEventListener("click", open);
+  tag.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+});
+</script>
 </body>
 </html>
