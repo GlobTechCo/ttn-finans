@@ -1517,7 +1517,7 @@ const TTN_ARTICLES = [
     dek: "Oil is back near $100 while US inflation remains elevated and long-term Treasury yields sit near multi-decade highs. The risk is no longer just gasoline prices.",
     author: "TTN Research Desk",
     date: "2026-10-06T09:00:00",
-    image: "assets/editorial/ttn-oil-inflation-2026.jpg",
+    image: "https://images.pexels.com/photos/10396411/pexels-photo-10396411.jpeg",
     tickers: ["OIL", "S&P 500", "GOLD"],
     body: [
       "Oil is back near a level that changes the macroeconomic conversation. Brent crude was around $99.91 a barrel on October 6 after briefly moving above $100, while US Treasury yields retreated slightly from multi-decade highs. The important story is not simply that fuel has become more expensive. It is that an energy shock is arriving at the same time as inflation is still above the Federal Reserve's comfort zone and investors are demanding unusually high compensation to hold long-term government debt.",

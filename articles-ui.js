@@ -34,7 +34,7 @@ const TTNArticlesUI = (() => {
   function articleThumbHtml(article, heightPx) {
     const style = `width:100%;height:${heightPx}px;border-radius:${heightPx > 150 ? "0" : "5px"};${heightPx <= 150 ? "margin-bottom:12px;" : ""}`;
     if (article.image) {
-      const thumbSrc = `${article.image}?auto=compress&cs=tinysrgb&w=400&h=${heightPx * 3}&fit=crop`;
+      const thumbSrc = /^https?:\/\//i.test(article.image) ? `${article.image}?auto=compress&cs=tinysrgb&w=400&h=${heightPx * 3}&fit=crop` : article.image;
       return `<img src="${thumbSrc}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
     }
     return `<div class="news-item-thumb-fallback thumb-general" style="${style}">${TREND_ICON}</div>`;
