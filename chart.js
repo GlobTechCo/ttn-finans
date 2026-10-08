@@ -55,9 +55,10 @@ const TTNChart = (() => {
     freshContainer.id = "tv-chart-container";
     oldContainer.replaceWith(freshContainer);
 
-    try {
-      /* eslint-disable no-undef */
-      new TradingView.widget({
+    const build = () => {
+      try {
+        if (!window.TradingView || typeof window.TradingView.widget !== "function") throw new Error("TradingView unavailable");
+        new TradingView.widget({
         autosize: true,
         symbol: tvSymbol,
         interval: "60",
@@ -71,9 +72,28 @@ const TTNChart = (() => {
         hide_legend: false,
         save_image: false,
         container_id: "tv-chart-container",
-      });
-    } catch (e) {
-      freshContainer.textContent = "Chart failed to load. Please refresh the page and try again.";
+        });
+      } catch (e) {
+        freshContainer.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-faint);font-size:13px;">Chart failed to load. Please refresh the page.</div>';
+      }
+    };
+
+    if (window.TradingView && typeof window.TradingView.widget === "function") {
+      build();
+    } else {
+      let loader = document.getElementById("ttn-tv-loader");
+      if (!loader) {
+        loader = document.createElement("script");
+        loader.id = "ttn-tv-loader";
+        loader.src = "https://s3.tradingview.com/tv.js";
+        loader.onload = build;
+        loader.onerror = () => {
+          freshContainer.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text-faint);font-size:13px;">TradingView could not be loaded. Check the connection and try again.</div>';
+        };
+        document.head.appendChild(loader);
+      } else {
+        loader.addEventListener("load", build, { once: true });
+      }
     }
   }
 
