@@ -104,5 +104,22 @@ const TTNChart = (() => {
     document.querySelectorAll(".ticker-cell.active").forEach((c) => c.classList.remove("active"));
   }
 
+  // Article ticker tags use the same chart panel. Event delegation keeps this
+  // working on standalone article pages and avoids depending on page-specific JS.
+  document.addEventListener("click", (event) => {
+    const tag = event.target.closest && event.target.closest(".article-ticker-tag");
+    if (!tag) return;
+    event.preventDefault();
+    open(tag.dataset.tv, tag.dataset.label || tag.textContent.trim());
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const tag = event.target.closest && event.target.closest(".article-ticker-tag");
+    if (!tag) return;
+    event.preventDefault();
+    open(tag.dataset.tv, tag.dataset.label || tag.textContent.trim());
+  });
+
   return { open, close };
 })();
