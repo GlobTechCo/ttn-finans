@@ -861,3 +861,26 @@ body.modal-open { overflow: hidden; }
   .search-box { min-width: 0; flex: 1 1 100%; order: 3; }
   .brand small { display: none; }
 }
+
+
+/* TTN Original article hero: preserve the full photograph on every screen */
+.article-hero-image {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: var(--radius);
+  margin: 16px 0;
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 600px) {
+  .article-hero-image {
+    width: 100%;
+    height: auto !important;
+    max-height: none;
+    object-fit: contain;
+  }
+}
