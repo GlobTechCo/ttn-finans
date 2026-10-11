@@ -1701,7 +1701,7 @@ const TTN_ARTICLES = [
     "dek": "The test for corporate AI agents is not whether a demo works, but whether the system reduces costs or raises revenue after oversight and integration are included.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:00:00",
-    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "image": "assets/editorial/ai-agents-enterprise-roi-2026.svg",
     "tickers": [
       "NASDAQ",
       "S&P 500"
@@ -1729,7 +1729,7 @@ const TTN_ARTICLES = [
     "dek": "A faster processor cannot deliver its full value without the surrounding infrastructure. The bottlenecks are spreading across the AI supply chain.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:05:00",
-    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "image": "assets/editorial/ai-chips-bottlenecks-2026.svg",
     "tickers": [
       "NASDAQ",
       "S&P 500"
@@ -1757,7 +1757,7 @@ const TTN_ARTICLES = [
     "dek": "AI tools promise faster administration and customer service, but smaller firms need a clear method to measure benefits and protect sensitive information.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:10:00",
-    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "image": "assets/editorial/small-business-ai-adoption-2026.svg",
     "tickers": [
       "NASDAQ",
       "S&P 500"
