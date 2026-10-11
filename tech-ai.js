@@ -1,8 +1,8 @@
 /* Original TTN technology section; independent of external news aggregation. */
 (()=>{const el=document.getElementById("tech-ai-archive");if(!el||typeof TTN_ARTICLES==="undefined")return;
-const terms=/\b(ai|artificial intelligence|semiconductor|chip|gpu|nvidia|hyperscaler|data center|data centers|quantum|robot|cloud computing|big tech|tech stock)\b/i;
+const techIds=new Set(["ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
 const escape=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const articles=TTN_ARTICLES.filter(a=>terms.test(a.title+" "+a.dek)).sort((a,b)=>new Date(b.date)-new Date(a.date));
+const articles=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
 const datetime=d=>{const n=new Date(d);return Number.isNaN(n.valueOf())?"":n.toISOString().slice(0,10)};
 el.innerHTML=articles.length?articles.map(a=>{
  const date=datetime(a.date), url=encodeURIComponent(a.id)+".html";
