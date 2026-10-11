@@ -1,0 +1,200 @@
+[
+  {
+    "article": "ai-inference-unit-economics-2026",
+    "file": "ai-inference-unit-economics-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Close view of an engineer measuring power consumption of GPU servers in a real server room, laptop on service cart, server cabling and power meters.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 269540,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "enterprise-ai-data-security-2026",
+    "file": "enterprise-ai-data-security-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Corporate security analyst in a bright secure operations office, authentication hardware key and encrypted enterprise storage appliance on desk, racks behind glass.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 182972,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-search-publisher-economics-2026",
+    "file": "ai-search-publisher-economics-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Modern independent newsroom, editor researching on laptop beside printed newspaper proofs and notebook, ordinary workday, sunlight from side window.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 234474,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "robotics-ai-factory-roi-2026",
+    "file": "robotics-ai-factory-roi-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Industrial robot arm handling a machined metal component on a factory production line, technician checking operation from outside safety enclosure.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 267612,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-data-center-electricity-demand-2026",
+    "file": "ai-data-center-electricity-demand-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Wide exterior of a large contemporary data center next to electricity substation and transmission lines, clear daylight, realistic industrial infrastructure.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 493014,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-capex-nasdaq-correction",
+    "file": "ai-capex-nasdaq-correction.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Financial analyst reviewing investment performance at an office desk, monitor with unobtrusive generic downward financial chart and data center construction visible through distant window.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 198812,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "circular-ai-financing-explained",
+    "file": "circular-ai-financing-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Investment committee discussing technology funding around conference table, financial documents and a real unbranded accelerator circuit board on the table.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 202812,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-monetization-gap-explained",
+    "file": "ai-monetization-gap-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Technology finance manager comparing operating expenses and invoices at a desk facing a data center server aisle through glass, calculator and paper ledger.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 192256,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-agents-enterprise-roi-2026",
+    "file": "ai-agents-enterprise-roi-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Two office operations staff comparing automated workflow results on desktop computers, checklist and project documents on desk, authentic ordinary office.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 206476,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "ai-chips-bottlenecks-2026",
+    "file": "ai-chips-bottlenecks-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Detailed close-up of a real server accelerator motherboard with memory chips, optical networking cables and liquid cooling tubes in an open rack, technically plausible.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 375776,
+    "disclosure": "AI-generated editorial image."
+  },
+  {
+    "article": "small-business-ai-adoption-2026",
+    "file": "small-business-ai-adoption-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "scenePrompt": "Owner of a small independent shop using a laptop at a packing workstation, inventory shelves and shipping parcels in background, daylight.",
+    "style": "Photorealistic editorial image, neutral lighting, no logos, overlays or watermarks",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 244788,
+    "disclosure": "AI-generated editorial image."
+  }
+]

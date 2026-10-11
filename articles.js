@@ -10,7 +10,7 @@ const TTN_ARTICLES = [
   "dek": "The financial test for generative AI is the cost of reliably completing real customer tasks, not just the expense of training a model.",
   "author": "TTN Research Desk",
   "date": "2026-10-12T09:00:00",
-  "image": "assets/editorial/ai-inference-unit-economics-2026.svg",
+  "image": "assets/editorial/ai-inference-unit-economics-2026.webp",
   "tickers": [
     "NASDAQ",
     "S&P 500"
@@ -40,7 +40,7 @@ const TTN_ARTICLES = [
   "dek": "AI assistants become useful by accessing business information. Permissions, audit logs and human approvals determine whether that value is safe to realize.",
   "author": "TTN Research Desk",
   "date": "2026-10-12T10:00:00",
-  "image": "assets/editorial/enterprise-ai-data-security-2026.svg",
+  "image": "assets/editorial/enterprise-ai-data-security-2026.webp",
   "tickers": [
     "NASDAQ",
     "S&P 500"
@@ -71,7 +71,7 @@ const TTN_ARTICLES = [
   "dek": "Answer-first search can help users, but it also changes how publishers earn money when readers receive information without opening the original page.",
   "author": "TTN Research Desk",
   "date": "2026-10-12T11:00:00",
-  "image": "assets/editorial/ai-search-publisher-economics-2026.svg",
+  "image": "assets/editorial/ai-search-publisher-economics-2026.webp",
   "tickers": [
     "NASDAQ",
     "S&P 500"
@@ -102,7 +102,7 @@ const TTN_ARTICLES = [
   "dek": "New AI-powered robotics promise flexibility, but the return on investment depends on uptime, integration and the cost of each task completed.",
   "author": "TTN Research Desk",
   "date": "2026-10-12T12:00:00",
-  "image": "assets/editorial/robotics-ai-factory-roi-2026.svg",
+  "image": "assets/editorial/robotics-ai-factory-roi-2026.webp",
   "tickers": [
     "NASDAQ",
     "S&P 500"
@@ -133,7 +133,7 @@ const TTN_ARTICLES = [
     "dek": "Electricity demand, grid connections and the cost of power are changing the economics of AI infrastructure.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T09:00:00",
-    "image": "assets/editorial/ai-power-grid-photo-2026.svg",
+    "image": "assets/editorial/ai-data-center-electricity-demand-2026.webp",
     "tickers": [
       "NASDAQ",
       "S&P 500"
@@ -241,7 +241,7 @@ const TTN_ARTICLES = [
     dek: "Nasdaq has slid roughly 10% from its record high as chip stocks tumble worldwide. Here's the debate over AI data center spending driving the selloff, and the arguments on both sides.",
     author: "TTN Research Desk",
     date: "2026-07-29T09:00:00",
-    image: "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg",
+    image: "assets/editorial/ai-capex-nasdaq-correction.webp",
     tickers: ["NASDAQ", "S&P 500", "BTC"],
     body: [
       "Nasdaq has slid into a technical correction, down roughly 10 to 11 percent from its recent record high, and the epicenter of the selloff has been chip stocks. South Korea's SK Hynix fell nearly 15 percent in a single session, Samsung Electronics dropped more than 13 percent, and US names including Micron, Intel, and AMD followed with sharp declines of their own. Behind the sudden move is a debate that's been simmering for a while but is now getting a much harder look: are the hyperscalers spending too much, too fast, on AI infrastructure with too little proof it will pay off.",
@@ -910,7 +910,7 @@ const TTN_ARTICLES = [
     dek: "Nvidia is reportedly weighing a $250 billion guarantee for an OpenAI data center, on top of a separate $350 billion chip-purchase financing deal. Here's the mechanism behind 'circular' AI financing, and why critics say it can obscure real demand.",
     author: "TTN Research Desk",
     date: "2026-08-11T11:00:00",
-    image: "https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg",
+    image: "assets/editorial/circular-ai-financing-explained.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Building on TTN's earlier coverage of the AI capex debate behind Nasdaq's correction, one specific financing structure has drawn particular scrutiny in recent weeks: Nvidia reportedly weighing roughly 250 billion dollars in financial guarantees for an OpenAI data center project, on top of a separate arrangement potentially financing 350 billion dollars of OpenAI's purchases of Nvidia's own chips. Understanding the mechanism behind what critics call 'circular financing' explains why a chipmaker helping fund its own customer's purchases raises a specific, well-defined red flag rather than simply looking unusual.",
@@ -1614,7 +1614,7 @@ const TTN_ARTICLES = [
     dek: "AI spending is easy to track. Whether that investment earns an adequate return is harder to establish. Here are the numbers investors should watch.",
     author: "TTN Research Desk",
     date: "2026-09-05T09:00:00",
-    image: "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg",
+    image: "assets/editorial/ai-monetization-gap-explained.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "The race to build artificial intelligence infrastructure is entering a more demanding phase. Buying advanced chips and securing space in data centers is only the beginning. For investors, the harder question is whether businesses can turn that expensive capacity into revenue that lasts long enough to earn back the investment.",
@@ -1701,7 +1701,7 @@ const TTN_ARTICLES = [
     "dek": "The test for corporate AI agents is not whether a demo works, but whether the system reduces costs or raises revenue after oversight and integration are included.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:00:00",
-    "image": "assets/editorial/ai-agents-enterprise-roi-2026.svg",
+    "image": "assets/editorial/ai-agents-enterprise-roi-2026.webp",
     "tickers": [
       "NASDAQ",
       "S&P 500"
@@ -1729,7 +1729,7 @@ const TTN_ARTICLES = [
     "dek": "A faster processor cannot deliver its full value without the surrounding infrastructure. The bottlenecks are spreading across the AI supply chain.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:05:00",
-    "image": "assets/editorial/ai-chips-bottlenecks-2026.svg",
+    "image": "assets/editorial/ai-chips-bottlenecks-2026.webp",
     "tickers": [
       "NASDAQ",
       "S&P 500"
@@ -1757,7 +1757,7 @@ const TTN_ARTICLES = [
     "dek": "AI tools promise faster administration and customer service, but smaller firms need a clear method to measure benefits and protect sensitive information.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:10:00",
-    "image": "assets/editorial/small-business-ai-adoption-2026.svg",
+    "image": "assets/editorial/small-business-ai-adoption-2026.webp",
     "tickers": [
       "NASDAQ",
       "S&P 500"
