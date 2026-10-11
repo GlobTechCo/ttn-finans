@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Electricity infrastructure behind artificial intelligence data centers</title>
+<desc id="desc">Editorial illustration showing a practical data center building, electrical substations, transmission towers and overhead power lines in daylight.</desc>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dbeaf3"/><stop offset="1" stop-color="#f7fafc"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#30465f"/><stop offset="1" stop-color="#192b3c"/></linearGradient><linearGradient id="wall" x2="1" y2="1"><stop stop-color="#f5f8fb"/><stop offset="1" stop-color="#b7c7d4"/></linearGradient><pattern id="vents" width="28" height="18" patternUnits="userSpaceOnUse"><path d="M4 2h18M4 8h18M4 14h18" stroke="#6b8292" stroke-width="3"/></pattern></defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<path d="M0 390 Q220 355 430 393T835 382T1200 375V675H0Z" fill="#d7e1db"/>
+<path d="M0 479 Q400 463 650 480T1200 463V675H0Z" fill="#9cae9e"/>
+<path d="M0 535H1200V675H0Z" fill="#b1bac0"/>
+<g fill="none" stroke="#5d6f78" stroke-width="5" stroke-linecap="round" opacity=".85"><path d="M92 378 130 180 175 378M115 255h45M105 300h62M96 345h74M99 335l69-90M169 335l-70-90"/><path d="M950 384 986 125 1036 384M961 257h64M969 204h56M962 322h70M962 322l67-118M1031 322l-60-118"/><path d="M130 180Q550 260 986 125M151 255Q590 310 986 205M175 378Q598 400 950 384" stroke-width="3"/></g>
+<path d="M0 572 365 518 1200 535V675H0Z" fill="#7c8991"/>
+<path d="M0 590 365 544 1200 555" stroke="#dde3e9" stroke-width="8" fill="none" opacity=".8"/>
+<g><path d="M285 468V284L740 238 956 280V498L738 554Z" fill="#8296a6"/><path d="M285 284 742 238 742 553 285 503Z" fill="url(#wall)"/><path d="M742 238 956 280V498L742 553Z" fill="#8b9daa"/><path d="M316 317 703 283V478L316 496Z" fill="url(#glass)"/><path d="M333 334 687 305V460L333 476Z" fill="url(#vents)" opacity=".5"/><path d="M759 299 936 334V472L759 526Z" fill="#43586a"/><path d="M778 332 914 355V461L778 500Z" fill="url(#vents)" opacity=".85"/><path d="M274 283 742 230 964 272" stroke="#eff5f7" stroke-width="14" fill="none"/><path d="M284 503 742 553 957 497" stroke="#4e6575" stroke-width="13" fill="none"/></g>
+<g><path d="M50 515 232 485 233 549 51 575Z" fill="#dfe6e9" stroke="#647a85" stroke-width="5"/><rect x="79" y="521" width="27" height="32" fill="#3c586b"/><rect x="123" y="510" width="27" height="34" fill="#3c586b"/><rect x="169" y="501" width="27" height="35" fill="#3c586b"/><path d="M48 578 240 551" stroke="#283f50" stroke-width="7"/></g>
+<g fill="none" stroke="#425768" stroke-width="6"><path d="M1060 522V410M1121 531V411M1029 414H1160M1030 444H1152M1060 410V381M1121 411V382"/></g>
+<g fill="#d9e5e9" stroke="#687c88" stroke-width="3"><rect x="1020" y="440" width="55" height="76" rx="3"/><rect x="1095" y="437" width="60" height="89" rx="3"/></g>
+<path d="M0 629 1200 615" stroke="#edf1f2" stroke-width="3" opacity=".65"/>
+<rect x="0" y="633" width="1200" height="42" fill="#102a45" opacity=".9"/><rect x="35" y="647" width="4" height="16" fill="#65b1dc"/><text x="52" y="661" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#fff">TTN ORIGINAL</text><text x="1155" y="661" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#d2e5f3">AI INFRASTRUCTURE</text>
+</svg>

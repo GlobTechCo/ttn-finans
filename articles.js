@@ -5,6 +5,37 @@
  */
 const TTN_ARTICLES = [
   {
+    "id": "ai-data-center-electricity-demand-2026",
+    "title": "AI Data Centers Have a Power Problem. Here Is What the Numbers Mean for Investors",
+    "dek": "Electricity demand, grid connections and the cost of power are changing the economics of AI infrastructure.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T09:00:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "An artificial intelligence data center can be designed around the most advanced processors on the market and still face a basic obstacle: getting enough electricity to run them. As technology companies invest in additional computing capacity, the availability, price and reliability of power are becoming as important to project economics as the chips themselves.",
+      "The scale of the change is substantial, although forecasts are not a promise that every planned facility will be built. In its 2025 Energy and AI report, the International Energy Agency estimated that data centers used roughly 415 terawatt-hours of electricity worldwide in 2024. Its base case projected demand rising to about 945 terawatt-hours by 2030, just under 3% of global electricity consumption.",
+      "A growing share of the U.S. grid",
+      "The United States faces particularly concentrated pressure. A Lawrence Berkeley National Laboratory report published in June 2026 estimated that data centers could account for 11.8% of U.S. electricity use by 2030. Its scenario range was 9.5% to 15.3%. These are model-based estimates, not metered consumption for 2030, and depend on future equipment shipments, efficiency and cooling requirements.",
+      "That distinction matters to investors. The demand for AI services may continue growing even if electricity consumption rises more slowly than expected. More efficient processors, better utilization, changes to model design and delays to construction can all alter the outcome. A forecast of power demand is a planning tool, not a revenue forecast for every data center developer.",
+      "Why a connection can matter more than a building",
+      "Large data centers need dependable access to transmission lines, substations and other infrastructure. A company may be able to finance a building and order servers faster than a utility can complete upgrades to the surrounding grid. If a facility is delayed, committed capital can sit idle while interest expense, property costs and contractual obligations continue.",
+      "Power costs also vary significantly by location. Two facilities with similar computing equipment can face different economics depending on local electricity tariffs, cooling conditions, grid congestion and available generation. A low headline power price is of limited value if the required capacity cannot be delivered when the facility is ready.",
+      "The business of supplying AI power",
+      "Electric utilities, grid equipment manufacturers, cooling suppliers and construction companies can all benefit from higher investment in computing infrastructure. But rising demand does not automatically translate into higher profit for any one supplier. Utilities may need regulatory approval before recovering construction expenses through rates. Equipment manufacturers may face capacity constraints of their own. Developers can misjudge how quickly contracted demand will turn into occupancy.",
+      "The allocation of costs is also a public policy question. New transmission facilities and generation projects have to be paid for. Regulators and utilities must decide what portion belongs with a large new customer and what portion, if any, is shared across other customers. Those decisions will influence both household electricity bills and the economics of data center expansion.",
+      "What investors should actually watch",
+      "Corporate announcements about future spending often receive more attention than the underlying project terms. The more useful questions are whether a project has secured an enforceable power agreement, when capacity is expected to become available, who bears the cost of grid upgrades and what happens if demand falls short.",
+      "For data center owners, cash flow after capital expenditure is an essential check on growth claims. For utilities, investors should examine regulatory filings, allowed returns, customer concentration and the timing of infrastructure recovery. For chipmakers, the key issue is whether customers can deploy purchased equipment on schedule and keep it economically productive.",
+      "A constraint, not a verdict",
+      "The electricity challenge does not prove that the AI boom will fail. It does mean that expanding AI computing is an industrial undertaking, with the same exposure to construction schedules, physical infrastructure and financing costs that affect other capital-intensive businesses. As the market moves beyond its initial enthusiasm for computing power, the companies that turn equipment and electricity into dependable customer revenue will have the stronger economic case.",
+      "Sources and further reading"
+    ]
+  },
+  {
     id: "fed-policy-2026",
     title: "How Fed Policy Shifts Ripple Through Stocks, Bonds, and Crypto",
     dek: "A look at why interest-rate decisions move nearly every asset class TTN tracks, and how to read the signals.",
@@ -1456,21 +1487,28 @@ const TTN_ARTICLES = [
   },
   {
     id: "ai-monetization-gap-explained",
-    title: "The AI Monetization Gap: Is Revenue Actually Catching Up to Spending?",
-    dek: "Hyperscalers are on pace to spend hundreds of billions more on AI infrastructure than the revenue it's currently generating. Here's how analysts actually measure that gap, and the specific number that determines whether today's AI buildout looks more like the early internet or the dot-com bust.",
+    title: "The AI Revenue Test: What Big Tech Must Prove After the Data Center Spending Boom",
+    dek: "AI spending is easy to track. Whether that investment earns an adequate return is harder to establish. Here are the numbers investors should watch.",
     author: "TTN Research Desk",
     date: "2026-09-05T09:00:00",
     image: "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
-      "Building on TTN's earlier pieces on AI capex and circular financing, the debate over AI spending has increasingly converged on one specific question that moves beyond simply how much is being spent: is the revenue AI is generating actually catching up to that spending, or is the gap between the two still widening. Wall Street analysts have started attaching real numbers to this question, and the framework they use to measure it is worth understanding directly, since it's more precise than the general 'AI bubble' debate that dominates most headlines.",
-      "One widely cited estimate from Bain & Company projects that by 2030, AI companies could face a shortfall of roughly 800 billion dollars between the computing capacity they're building and the revenue actually generated from it, even after accounting for expected efficiency gains. Sequoia Capital partner David Cahn has run a related version of this math specifically for the current moment, calculating what's needed for hyperscaler AI investments to earn a reasonable return: roughly 800 billion dollars in AI revenue would be required just to justify the infrastructure spending already committed for 2025 alone, a figure Cahn describes as the actual size of the gap between the AI narrative and current revenue reality.",
-      "It's worth being precise about how analysts actually calculate whether this gap is closing or widening, since the mechanism is more specific than simply comparing two large numbers. The comparison generally runs revenue growth rates for AI-specific products and services against the growth rate of capital expenditure on AI infrastructure over the same period. When capex grows meaningfully faster than the revenue it's meant to eventually produce, the gap widens in dollar terms even if both figures are technically growing, which is precisely the pattern several 2026 analyses have flagged: infrastructure spending commitments from the largest hyperscalers have outpaced disclosed AI-specific revenue growth in most recent quarters, even as those same companies report genuinely strong percentage growth in AI-related revenue lines.",
-      "There's a depreciation dimension worth connecting directly to TTN's earlier AI capex piece, since it adds a second, compounding pressure to the monetization question beyond the initial spending itself. As the massive data center buildout completed over the past two years moves from the construction phase into active operation, accounting depreciation charges on that hardware are beginning to show up on income statements at meaningful scale, sometimes described as a 'depreciation wall.' Specialized AI chips depreciate faster than most conventional data center hardware given how quickly newer, more capable chip generations arrive, meaning the accounting cost of the infrastructure already built is set to rise substantially over the next several years regardless of whether AI revenue growth keeps pace, a real, scheduled cost pressure layered directly on top of the monetization gap itself.",
-      "It's worth being fair to the case that a widening gap doesn't automatically signal failure, since large-scale infrastructure buildouts have historically run ahead of monetization before eventually catching up. The most frequently cited historical parallel is the late-1990s fiber-optic buildout: telecom companies laid vastly more fiber-optic cable than there was demand to use at the time, a buildout that looked like massive overinvestment and preceded the dot-com crash, yet that same fiber infrastructure was gradually filled and put to productive use over the following decade as internet usage caught up, ultimately underpinning the modern internet economy. Whether today's AI buildout resembles that eventual-payoff pattern, or resembles a buildout that never gets used at anything close to its built capacity, is precisely the open question the monetization-gap framework is trying to answer in real time rather than only in hindsight.",
-      "There's a genuinely useful distinction worth knowing for separating these two historical outcomes as they unfold, rather than waiting years to find out which one applies: unit economics per workload. Rather than tracking aggregate revenue against aggregate spending, some analysts instead look at whether the cost of serving a specific AI workload, a chatbot query, an image generation request, a coding assistant completion, is falling over time as chips get more efficient and models get better optimized, even while the specific price customers pay for that workload might be falling too due to competition. A buildout where per-unit costs are falling fast enough to eventually support profitable pricing, even before company-wide revenue fully catches up to today's aggregate spending, looks structurally more like the fiber-optic outcome; one where per-unit costs stay stubbornly high looks more like a buildout searching for a monetization model that hasn't yet arrived.",
-      "It's worth connecting this directly to the equity market moves TTN's earlier pieces on the Nasdaq correction and sector rotation have covered. Bank of America's Fund Manager Survey has repeatedly identified 'AI bubble' concerns as the single most commonly cited tail risk among professional investors surveyed throughout 2026, ahead of inflation, geopolitical conflict, and Fed policy uncertainty. That positioning matters practically: a market where a large share of professional investors already expect disappointment tends to react more sharply, in either direction, to fresh monetization data than a market caught by surprise, since expectations are already primed to interpret new information through that specific lens.",
-      "The practical takeaway for anyone reading an AI earnings or capex headline in TTN's news feed: the headline capex or revenue growth percentage matters less on its own than whether the dollar gap between the two is narrowing or widening over successive quarters, and whether per-unit costs of delivering AI workloads are falling fast enough to eventually close that gap through efficiency, rather than requiring revenue alone to somehow catch up to spending that's already been committed.",
+      "The race to build artificial intelligence infrastructure is entering a more demanding phase. Buying advanced chips and securing space in data centers is only the beginning. For investors, the harder question is whether businesses can turn that expensive capacity into revenue that lasts long enough to earn back the investment.",
+      "A crowded balance sheet",
+      "A data center requires more than processors. Operators must pay for buildings, power connections, cooling, networking and staff. Hardware is purchased before customers necessarily commit to using it. This creates a gap between cash spent today and income that may arrive over several years.",
+      "That gap is easy to obscure with headline figures. Capital expenditure measures investment in long-lived assets. Cloud revenue may include established services that have little to do with generative AI. Even rapidly growing AI sales do not, on their own, prove that a particular facility or fleet of chips is profitable.",
+      "The question of utilization",
+      "A processor that sits idle still consumes capital. The commercial test is how consistently customers use that capacity, what they pay and how much it costs to serve them. Revenue per unit of computing capacity and the share of contracted demand are more informative than the number of chips installed.",
+      "The calculation differs across businesses. A cloud provider charges for computing resources. A software company may bundle AI tools into an existing subscription. A model developer may charge per request. Each faces a different mix of pricing pressure, electricity costs and demands for fresh hardware. Treating them as one AI market can conceal those differences.",
+      "Depreciation meets technological change",
+      "Accounting adds another complication. Companies generally spread the expense of equipment across its estimated useful life, even though the cash left the business at the time of purchase. If newer processors deliver meaningfully better performance or energy efficiency, older machines may become commercially less attractive before they physically fail.",
+      "That does not make an expensive buildout a mistake. Infrastructure businesses often invest well ahead of demand. But it means investors need to examine the assumptions behind depreciation schedules, replacement cycles and projected margins rather than relying solely on reported earnings growth.",
+      "How to judge the return",
+      "The most useful comparison is not AI spending versus AI revenue in the abstract. It is the incremental cash generated by new services, after operating expenses and future reinvestment, against the capital required to provide them. Where companies do not disclose those figures separately, uncertainty is part of the investment case and should be acknowledged.",
+      "Investors can still look for signals: improving free cash flow after capital spending, higher utilization, recurring customer contracts, transparent cloud margins and management commentary that distinguishes AI demand from ordinary computing demand. None is definitive alone. Together they help show whether capacity is becoming a business rather than merely an impressive engineering project.",
+      "The real test",
+      "Artificial intelligence may reshape how companies work and still disappoint shareholders who paid too much for expected growth. Equally, years of heavy investment may eventually support profitable services at enormous scale. The outcome will be decided less by the next spending announcement than by what customers keep paying for once the novelty has passed.",
     ],
   },
   {
@@ -1533,5 +1571,89 @@ const TTN_ARTICLES = [
       "Investors are not simply deciding whether oil is expensive. They are deciding whether an energy shock is becoming embedded in the broader inflation process at exactly the moment when government borrowing costs are already unusually high. If the answer is yes, the result could be a longer period of restrictive financial conditions even without another dramatic move in the policy rate.",
       "TTN takeaway: watch the duration of the oil shock, not just the headline barrel price. A brief move through $100 is manageable. A prolonged period near $100 combined with sticky services inflation and elevated long-term yields would be a much more consequential macroeconomic event."
     ],
+  },
+  {
+    "id": "ai-agents-enterprise-roi-2026",
+    "title": "AI Agents Are Entering the Workplace. Where Is the Return on Investment?",
+    "dek": "The test for corporate AI agents is not whether a demo works, but whether the system reduces costs or raises revenue after oversight and integration are included.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:00:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "An AI agent that books a meeting, checks an invoice or answers a customer can look remarkably capable in a demonstration. For a business deciding whether to deploy the technology at scale, the harder question is economic: does it complete enough useful work, reliably enough, to justify the total cost?",
+      "AI agents generally combine a language model with access to software tools and a sequence of actions. Unlike a basic chatbot, an agent may retrieve records, update a workflow and hand work to another system. That ability expands the potential value, but it also raises the cost of testing, permissions and supervision.",
+      "The cost calculation is larger than the model bill",
+      "Vendors often quote a price for tokens, requests or seats. Those charges are only one part of the investment. Enterprises may have to clean up internal data, connect older systems, redesign approval processes, train employees, audit outputs and respond to mistakes. Sensitive workflows require permission controls and logs that make actions traceable.",
+      "The relevant denominator is not the number of conversations. It is the number of tasks completed to the required quality standard. If an agent handles 1,000 requests but employees must review or correct half of them, the labor saving may be far smaller than the headline automation rate suggests.",
+      "Reliability is a financial variable",
+      "Some errors are inexpensive: an internal summary can be rewritten. Others can create regulatory, contractual or reputational risk. A financial-services firm may reasonably demand tighter verification for payment instructions than a retailer requires for product descriptions. That difference changes the economics of deployment.",
+      "Businesses should test performance on representative real-world cases, including unusual requests and failed integrations. A useful pilot records completion time, error rates, escalation frequency and human review minutes, not only subjective employee satisfaction.",
+      "Who captures the value?",
+      "Software providers may gain revenue by charging for agent capabilities, but customers can resist price increases if outcomes remain uncertain. Cloud providers may collect usage fees regardless of whether a particular customer earns an adequate return. Consulting and systems-integration firms can benefit from implementation complexity, although customers will ultimately seek simpler operations.",
+      "For investors, sales growth tied to AI features is only a starting point. Gross margins, customer retention, deployment costs and evidence of sustained usage offer a clearer picture. A product sold as an add-on may not create much durable value if customers cancel it after experimentation.",
+      "The practical scorecard",
+      "The strongest proof would be a controlled comparison: the same kind of work performed before and after deployment, adjusted for quality, case complexity and changes in staffing. Track the full cost per successfully completed task, the proportion escalated to humans and the time required to resolve failures.",
+      "AI agents may reshape office workflows, but adoption alone is not proof of productivity. The companies best positioned to benefit are those that can turn experimental capabilities into measurable, repeatable operational improvements."
+    ]
+  },
+  {
+    "id": "ai-chips-bottlenecks-2026",
+    "title": "Beyond AI Chips: Why Networking, Memory and Cooling Matter to the Boom",
+    "dek": "A faster processor cannot deliver its full value without the surrounding infrastructure. The bottlenecks are spreading across the AI supply chain.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:05:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "AI infrastructure is often discussed as a race to build or buy the fastest accelerator. Yet a chip sitting idle while it waits for data, network capacity or cooling cannot generate the performance its buyer expected. The economics of an AI cluster depend on the entire system rather than one component.",
+      "Training and serving large AI models require movement of enormous quantities of information. Accelerators need access to high-bandwidth memory, fast communication with neighboring processors and storage systems able to keep them supplied. Congestion at any step can reduce useful throughput.",
+      "Why the surrounding hardware matters",
+      "High-bandwidth memory sits close to processors and helps feed demanding workloads. Network switches, optical links and interconnects connect equipment distributed across racks. Cooling equipment removes heat generated by dense computing systems. Each category has its own manufacturing capacity, engineering tradeoffs and lead times.",
+      "A data center operator may install more accelerators and still discover that application performance falls short of the theoretical total. The reasons can include software inefficiency, limited memory capacity, network latency and the time required to coordinate jobs across machines. Utilization therefore matters as much as installed computing capacity.",
+      "Energy and thermal limits",
+      "Compute density increases the amount of electricity and cooling required in a small physical area. Traditional air cooling remains suitable for many workloads, but operators of high-density systems may turn to liquid cooling. That decision introduces new plumbing, monitoring, maintenance and facility-design requirements.",
+      "Cooling is not a separate issue from financial performance. Systems that operate below expected output because of thermal constraints can produce less revenue while continuing to incur power and depreciation expense. Retrofitting an existing site can also demand additional capital.",
+      "The investment implications",
+      "Growth in AI spending can create opportunities for memory producers, networking suppliers, electrical-equipment manufacturers and cooling specialists. But a company participating in a fast-growing market is not guaranteed to earn strong returns. Competition, supply expansions and bargaining power can erode margins even as shipments rise.",
+      "Buyers must compare the total cost of delivering a unit of useful computing work, not simply the purchase price of a processor. Software improvements can sometimes increase throughput without a proportional increase in hardware. Conversely, an inexpensive system that wastes energy or demands frequent intervention can cost more to operate.",
+      "What to measure",
+      "Investors evaluating infrastructure providers should examine order conversion, manufacturing capacity, customer concentration, margins and delivery schedules. For data center operators, watch the relationship among capital spending, utilization, operating expense and customer revenue.",
+      "The AI hardware cycle is broader than chips. The most valuable infrastructure is the combination that performs real workloads reliably, at a competitive cost and with a reasonable return on invested capital."
+    ]
+  },
+  {
+    "id": "small-business-ai-adoption-2026",
+    "title": "Small Businesses Are Testing AI. Productivity Gains Will Depend on the Details",
+    "dek": "AI tools promise faster administration and customer service, but smaller firms need a clear method to measure benefits and protect sensitive information.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:10:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "A small business may not be building its own AI model, but it can already use one to draft customer replies, organize appointments or summarize lengthy documents. For firms operating with limited staff, saving even a few hours a week could be meaningful. Whether those hours translate into improved profit is a different question.",
+      "Many small companies have little spare capacity for a lengthy technology rollout. A simple subscription is attractive because it avoids major upfront spending. Yet setup time, data quality, staff training and ongoing oversight can determine whether an inexpensive tool actually reduces costs.",
+      "Start with one repeatable process",
+      "A practical starting point is a task that happens often, has a clear quality standard and can be reviewed without substantial effort. Examples include preparing a first draft of routine correspondence, classifying incoming inquiries or creating a summary of non-sensitive internal notes.",
+      "Owners should document the baseline before adopting a tool: how long a task takes, how frequently errors occur and what the work costs. Then they can compare results during a limited pilot. Measuring saved minutes is useful, but checking accuracy and customer outcomes is essential.",
+      "The hidden workload",
+      "Generated text may contain incorrect details, and a plausible answer can take time to verify. An automation that produces ten drafts quickly may save little if a manager must inspect every line. A failed integration can also leave employees maintaining parallel manual and automated processes.",
+      "For sensitive customer and financial records, firms need to understand what information a service processes, where it is stored and which employees can access it. Contracts and vendor policies matter. Staff should have clear instructions about what cannot be entered into a general-purpose tool.",
+      "Pricing, dependence and competition",
+      "Subscription fees are easy to see; switching costs are harder to estimate. If a business restructures workflows around one vendor, a later price increase or product change could create disruption. Exportable records, clear procedures and the ability to switch providers can reduce that risk.",
+      "Some savings may also be competed away. If AI makes it cheaper for many businesses to produce similar marketing materials or answer routine requests, customers may expect faster service without paying more. The advantage may come less from owning an AI tool than from combining it with distinctive expertise and dependable execution.",
+      "A realistic decision framework",
+      "Evaluate three outcomes together: time saved after review, change in error or rework rates, and effect on revenue or customer satisfaction. Include subscription fees and employee training. If the improvement remains meaningful after those costs, a wider rollout may make sense.",
+      "AI can be useful to small firms without being revolutionary. The soundest investments solve a specific operational problem, preserve accountability and demonstrate measurable benefits before expanding."
+    ]
   },
 ];

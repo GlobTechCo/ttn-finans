@@ -3,16 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TTN - Real-Time Financial News &amp; Markets</title>
-<meta name="description" content="TTN: financial news, live crypto, index, gold and forex quotes with interactive charts.">
+<title>TTN Finance | Financial News, Market Analysis & AI</title>
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="description" content="TTN Finance covers financial news, original market analysis, AI and technology, with live crypto, stock index, gold and forex data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="canonical" href="https://globtechco.github.io/ttn-finans/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="TTN - Real-Time Financial News & Markets">
-<meta property="og:description" content="TTN: financial news, live crypto, index, gold and forex quotes with interactive charts.">
+<meta property="og:title" content="TTN Finance | Financial News, Market Analysis & AI">
+<meta property="og:description" content="TTN Finance covers financial news, original market analysis, AI and technology, with live crypto, stock index, gold and forex data.">
 <meta property="og:image" content="https://images.pexels.com/photos/4960438/pexels-photo-4960438.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -22,11 +23,13 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="TTN - Real-Time Financial News & Markets">
-<meta name="twitter:description" content="TTN: financial news, live crypto, index, gold and forex quotes with interactive charts.">
+<meta name="twitter:title" content="TTN Finance | Financial News, Market Analysis & AI">
+<meta name="twitter:description" content="TTN Finance covers financial news, original market analysis, AI and technology, with live crypto, stock index, gold and forex data.">
 <meta name="twitter:image" content="https://images.pexels.com/photos/4960438/pexels-photo-4960438.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=630&amp;fit=crop">
 <meta name="twitter:image:alt" content="Financial market data and analysis editorial image">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="editorial-theme.css">
+<script src="editorial-theme.js" defer></script>
 </head>
 <body>
 
@@ -35,6 +38,7 @@
   <nav class="nav-links" id="nav-links">
     <a href="index.html">Home</a>
     <a href="analysis.html">Analysis</a>
+    <a href="tech-ai.html">Tech &amp; AI</a>
     <a href="calculators.html">Calculators</a>
     <a href="brokers.html">Brokers</a>
     <a href="about.html">About</a>
@@ -100,6 +104,9 @@
       <div class="analysis-card"><div class="skeleton skel-line" style="width:60%"></div></div>
     </div>
 
+    <div class="section-title">Tech &amp; AI <a href="tech-ai.html" style="margin-left:auto;text-transform:none;letter-spacing:0;">View all →</a></div>
+    <div class="tech-ai-grid" id="tech-ai-home"><p class="tech-ai-intro">Research and original reporting on AI, chips and technology businesses.</p></div>
+
     <div class="section-title">News Feed</div>
     <div class="news-feed" id="news-feed">
       <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
@@ -148,6 +155,7 @@
 <script src="news.js"></script>
 <script src="market-summary.js"></script>
 <script src="articles-ui.js"></script>
+<script src="tech-ai-home.js"></script>
 <script src="app.js"></script>
 <script src="consent.js"></script>
 </body>
