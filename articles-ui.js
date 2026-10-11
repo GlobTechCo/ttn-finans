@@ -57,7 +57,7 @@ const TTNArticlesUI = (() => {
       (a) => `
       <article class="analysis-card">
         ${articleThumbHtml(a, 110)}
-        <span class="ttn-original-badge">TTN Original</span>
+        <span class="ttn-original-badge">Market Analysis</span>
         <h3><a href="${a.id}.html">${a.title}</a></h3>
         <p>${a.dek}</p>
         <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
