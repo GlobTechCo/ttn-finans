@@ -1138,7 +1138,7 @@ const TTN_ARTICLES = [
     dek: "Intel shares dropped more than 3% after announcing a $15 billion stock offering to fund AI-driven growth, even though the company framed it as a sign of strength. Here's how secondary offerings and share dilution actually work.",
     author: "TTN Research Desk",
     date: "2026-08-15T11:00:00",
-    image: "https://images.pexels.com/photos/34862859/pexels-photo-34862859.jpeg",
+    image: "assets/editorial/secondary-stock-offerings-dilution-explained.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Intel shares fell more than 3 percent in premarket trading after the company announced a common stock offering to raise 15 billion dollars, intended to support capital expenditures and working capital as the chipmaker described a 'strong and sustainable demand environment' driven by the AI boom. The stock declining on what the company framed as a growth-supporting move is a pattern that shows up constantly with this type of transaction, called a secondary or follow-on offering, and understanding the mechanism explains why the market's reaction often runs opposite to a company's own framing.",
@@ -1157,7 +1157,7 @@ const TTN_ARTICLES = [
     dek: "GameStop, worth roughly $11 billion, offered $56 billion to acquire eBay, a company nearly four times its size. Here's the financing mechanics that make an offer like this possible on paper, and the real gap Wall Street immediately flagged.",
     author: "TTN Research Desk",
     date: "2026-08-15T13:00:00",
-    image: "https://images.pexels.com/photos/30915372/pexels-photo-30915372.jpeg",
+    image: "assets/editorial/smaller-company-acquiring-bigger-company-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "GameStop, with a market capitalization a little over 11 billion dollars, submitted an unsolicited, non-binding proposal to acquire eBay, a company worth roughly four times its size, for approximately 56 billion dollars, sending analysts across Wall Street scrambling to explain how a smaller company can even structurally propose buying a considerably larger one. Building on the leveraged buyout mechanics covered in TTN's earlier take-private piece, the answer lies in how an acquisition's purchase price gets assembled from pieces that don't all have to come from the acquirer's own existing size.",
@@ -1176,7 +1176,7 @@ const TTN_ARTICLES = [
     dek: "Berkshire Hathaway just disclosed a $17 billion addition to its Alphabet stake, but the trade itself may have happened months earlier. Here's how 13F filings work, and the built-in lag that makes them a backward-looking snapshot rather than a live signal.",
     author: "TTN Research Desk",
     date: "2026-08-17T09:00:00",
-    image: "https://images.pexels.com/photos/8152735/pexels-photo-8152735.jpeg",
+    image: "assets/editorial/13f-filings-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Berkshire Hathaway's disclosure of a 17 billion dollar addition to its Alphabet stake made headlines this week, part of a familiar pattern in financial coverage: a filing reveals what a famous investor bought, and the story gets covered as fresh news. Understanding the actual mechanism behind Form 13F, the filing responsible for these headlines, explains why 'what Berkshire bought' is often considerably older information than the headline suggests, a nuance that applies just as directly to the institutional Bitcoin ETF holdings covered in TTN's earlier piece.",
@@ -1195,7 +1195,7 @@ const TTN_ARTICLES = [
     dek: "The US oil reserve built to buffer the country against supply shocks now sits below half its total capacity, the lowest level since 1983. Here's the mechanism behind an SPR release, and what it can and can't actually do to oil prices.",
     author: "TTN Research Desk",
     date: "2026-08-17T11:00:00",
-    image: "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg",
+    image: "assets/editorial/strategic-petroleum-reserve-explained.webp",
     tickers: ["GOLD"],
     body: [
       "Building on TTN's earlier piece on the Middle East oil shock, one specific policy tool keeps showing up in coverage of the current energy standoff: the Strategic Petroleum Reserve, the US government's emergency crude oil stockpile, now sitting at roughly 308 million barrels, less than half its 714 million barrel capacity and the lowest level since 1983. Understanding how a release actually works, and what it can and can't accomplish, explains why officials reach for this tool during a crisis and why it doesn't solve every kind of supply problem.",
@@ -1214,7 +1214,7 @@ const TTN_ARTICLES = [
     dek: "The Fed is on hold, the ECB is under pressure to keep tightening, and the Bank of England faces its own separate inflation test, all reacting to the same oil shock from fundamentally different starting points. Here's why one global event can push central banks apart rather than together.",
     author: "TTN Research Desk",
     date: "2026-08-17T13:00:00",
-    image: "https://images.pexels.com/photos/17163664/pexels-photo-17163664.jpeg",
+    image: "assets/editorial/central-bank-policy-divergence-explained.webp",
     tickers: ["EUR/USD", "GOLD"],
     body: [
       "The Federal Reserve, Bank of England, and European Central Bank are each confronting the same underlying problem, elevated energy prices tied to the Middle East conflict TTN has covered extensively, yet arriving at meaningfully different policy responses. The Fed is expected to hold through September before potentially raising rates later, the ECB faces criticism for tightening into a weak eurozone economy, and the BOE braces for inflation data expected to rebound. Understanding why one shared shock produces divergent central bank behavior, rather than a coordinated response, explains a dynamic that shows up constantly in the currency and rate-differential pieces TTN has covered.",
@@ -1233,7 +1233,7 @@ const TTN_ARTICLES = [
     dek: "The US 30-year yield just hit its highest since 2007, but so did Japan's 10-year, Germany's Bund, and the UK's 30-year gilt, all within the same week. Here's why a global, synchronized bond selloff is a genuinely different story than any one country's fiscal problems.",
     author: "TTN Research Desk",
     date: "2026-08-19T09:00:00",
-    image: "https://images.pexels.com/photos/8828607/pexels-photo-8828607.jpeg",
+    image: "assets/editorial/global-bond-yield-synchronization-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Building directly on TTN's earlier pieces on the US Treasury yield spike and the yield curve, the move that's actually been unfolding through August 2026 is bigger than any single country's bond market. The US 30-year Treasury yield pushed above 5.3 percent, its highest since 2007, in the same week Japan's 10-year government bond climbed to levels not seen since 1996, German Bund yields hit their highest since 2011, and UK 30-year gilt yields crossed 5 percent for the longest stretch in nearly two decades. This is a synchronized global selloff, and understanding why it's happening everywhere at once, rather than treating it as separate national stories, changes how the underlying cause should be read.",
@@ -1252,7 +1252,7 @@ const TTN_ARTICLES = [
     dek: "These three retailers report earnings in the same week almost every August, and traders treat the results as a more current read on the US consumer than official government data. Here's the specific comparisons analysts actually watch inside the numbers.",
     author: "TTN Research Desk",
     date: "2026-08-19T11:00:00",
-    image: "https://images.pexels.com/photos/5380919/pexels-photo-5380919.jpeg",
+    image: "assets/editorial/retailer-earnings-consumer-bellwether-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Home Depot, Target, and Walmart report earnings in the same week almost every August, and the combined event gets treated by traders as a more current, granular read on the US consumer than the official government data covered in TTN's earlier pieces on retail sales and consumer sentiment. Consumer spending makes up the majority of US GDP, and unlike a government survey or a monthly statistical release, these three retailers are reporting actual transaction data, what tens of millions of real shoppers spent, on what, and at what price, collected continuously right up until the numbers are announced.",
@@ -1271,7 +1271,7 @@ const TTN_ARTICLES = [
     dek: "A company can report a healthy profit while quietly running out of actual cash, and free cash flow is the metric that catches the gap. Here's how it's calculated, and why professional investors often trust it more than the headline earnings number.",
     author: "TTN Research Desk",
     date: "2026-08-19T13:00:00",
-    image: "https://images.pexels.com/photos/6694916/pexels-photo-6694916.jpeg",
+    image: "assets/editorial/free-cash-flow-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Net income, the headline profit figure behind the earnings beats and misses covered in TTN's earlier piece, is the number financial media and quarterly coverage are built around. Professional investors, particularly value-oriented ones, often weight a considerably less publicized figure more heavily: free cash flow, the actual cash a business generates after covering what it needs to spend just to keep operating and maintain its physical assets. Understanding why free cash flow is harder to manipulate than net income, and what a persistent gap between the two actually signals, adds a genuinely useful layer beneath the headline profit number most coverage stops at.",
@@ -1290,7 +1290,7 @@ const TTN_ARTICLES = [
     dek: "The Treasury announced it will more than double its long-term bond repurchases, and 30-year yields immediately dropped. Here's the mechanism behind a Treasury buyback, and why it manages market stress without actually shrinking the national debt.",
     author: "TTN Research Desk",
     date: "2026-08-20T09:00:00",
-    image: "https://images.pexels.com/photos/12504957/pexels-photo-12504957.jpeg",
+    image: "assets/editorial/treasury-debt-buyback-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "The Treasury Department announced this week it will more than double the size of its long-term debt buyback operations, from a maximum of 2 billion dollars per operation to at least 4 billion, targeting the 10-to-20-year and 20-to-30-year portion of the bond market specifically. The announcement immediately pushed 30-year Treasury yields down roughly 10 basis points to 5.18 percent, a meaningful one-day move for a market this size, and it connects directly to the global bond yield story TTN's earlier pieces have covered. Understanding the actual mechanism behind a Treasury buyback, and its real limits, explains why officials reached for this specific tool now.",
@@ -1309,7 +1309,7 @@ const TTN_ARTICLES = [
     dek: "Valero and Marathon Petroleum have roughly doubled in 2026 while crude oil prices have been volatile, not steadily rising. Here's the crack spread, the refining margin driving the disconnect, and why it's arguably a better inflation signal than crude prices alone.",
     author: "TTN Research Desk",
     date: "2026-08-20T11:00:00",
-    image: "https://images.pexels.com/photos/15970032/pexels-photo-15970032.jpeg",
+    image: "assets/editorial/crack-spread-refining-margins-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Valero and Marathon Petroleum have each roughly doubled in value during 2026, and Phillips 66 has climbed about 85 percent, sharp gains that might look confusing alongside the volatile, headline-grabbing crude oil story TTN's earlier oil shock piece covered. Refiners don't simply profit when crude oil rises; they profit from the gap between what they pay for crude and what they can sell refined products for, a spread that's currently sitting at genuinely unusual levels, and understanding that gap explains a story that's been running somewhat separately from the crude price headlines themselves.",
@@ -1328,7 +1328,7 @@ const TTN_ARTICLES = [
     dek: "President Trump is pushing Congress to pass crypto market structure legislation, and Bitcoin jumped on the news. Here's what the CLARITY Act would actually do, why the SEC and CFTC turf war it aims to resolve matters, and where the bill currently stands.",
     author: "TTN Research Desk",
     date: "2026-08-20T13:00:00",
-    image: "https://images.pexels.com/photos/14902679/pexels-photo-14902679.jpeg",
+    image: "assets/editorial/clarity-act-crypto-legislation-explained.webp",
     tickers: ["BTC", "ETH"],
     body: [
       "Bitcoin jumped this week as President Trump pressed Congress to pass a crypto market structure bill, with the White House hosting industry executives to build momentum behind the push. The legislation at the center of this, formally the Digital Asset Market Clarity Act, commonly shortened to the CLARITY Act, aims to resolve a regulatory turf war that's shaped nearly every piece of crypto coverage TTN has published, from stablecoins to Bitcoin ETFs to DeFi. Understanding what the bill would actually do explains why its passage matters considerably more to the crypto market than a typical piece of financial legislation.",
@@ -1347,7 +1347,7 @@ const TTN_ARTICLES = [
     dek: "A 30-year TIPS auction this week produced the highest real yield since 2001. Here's how inflation-protected Treasury bonds actually work, and what that record yield is telling investors about where rates and inflation are headed.",
     author: "TTN Research Desk",
     date: "2026-08-21T09:00:00",
-    image: "https://images.pexels.com/photos/8175147/pexels-photo-8175147.jpeg",
+    image: "assets/editorial/tips-inflation-protected-bonds-explained.webp",
     tickers: ["GOLD", "S&P 500"],
     body: [
       "A 30-year Treasury Inflation-Protected Securities auction this week produced a real yield of 2.973 percent, the highest for that maturity since October 2001, falling just short of the psychologically significant 3 percent mark only because the Treasury's own debt buyback program, covered in TTN's earlier piece, briefly pushed yields down before the auction. Understanding what TIPS actually are, and what a real yield this high is signaling, connects several threads TTN has covered separately: the CPI mechanism, the Treasury yield spike, and the term premium behind the recent global bond selloff.",
@@ -1366,7 +1366,7 @@ const TTN_ARTICLES = [
     dek: "Homebuilder sentiment has posted its worst multi-month stretch in years, and the housing data chain behind it tends to lead the broader economy by months. Here's how NAHB confidence, permits, and starts fit together as one of the fastest-reacting signals to rate changes.",
     author: "TTN Research Desk",
     date: "2026-08-21T11:00:00",
-    image: "https://images.pexels.com/photos/27938317/pexels-photo-27938317.jpeg",
+    image: "assets/editorial/housing-starts-builder-confidence-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Homebuilder Toll Brothers flagged softer fourth-quarter delivery guidance this week, one data point inside a broader housing story that's been running through much of 2026: the NAHB/Wells Fargo Housing Market Index posted its 27th consecutive negative reading in July, with builders citing ongoing affordability challenges even as mortgage rates have eased somewhat from their peaks. Housing makes up a comparatively small direct share of US GDP, but the data chain behind it functions as one of the fastest, earliest-reacting economic signals available, and understanding how its three main components connect explains why analysts weight this sector's data more heavily than its GDP share alone would suggest.",
@@ -1385,7 +1385,7 @@ const TTN_ARTICLES = [
     dek: "The dollar has anchored the global financial system for 80 years, granting the US what economists call an 'exorbitant privilege.' Here's what that status actually means in practice, and the specific, gradual ways it could genuinely erode.",
     author: "TTN Research Desk",
     date: "2026-08-21T13:00:00",
-    image: "https://images.pexels.com/photos/30517083/pexels-photo-30517083.jpeg",
+    image: "assets/editorial/dollar-reserve-currency-status-explained.webp",
     tickers: ["EUR/USD", "GOLD"],
     body: [
       "Nearly every piece TTN has published on currencies, from the dollar index to the euro-dollar rate differential to the recent global bond selloff, ultimately rests on a foundational fact rarely explained directly: the dollar's status as the world's primary reserve currency, a role it's held for more than 80 years. Understanding what that status actually confers, and the specific, gradual ways economists believe it could genuinely erode, fills in the background assumption behind nearly all of TTN's currency coverage.",
