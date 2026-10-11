@@ -78,3 +78,21 @@ body{background:var(--bg)}
 @keyframes ttn-tape-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.ttn-ticker-track{animation:none}.ttn-ticker-window{overflow-x:auto;mask-image:none}}
 @media(max-width:750px){.ttn-ticker-attribution{display:none}.ttn-ticker-label{padding:0 11px;font-size:10px}.ttn-ticker-item{min-width:167px;padding:14px 12px}}
+
+/* 2026 TTN Finance masthead: premium typographic identity */
+.ttn-wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;min-width:220px;text-decoration:none!important}
+.ttn-wordmark-symbol{display:flex;align-items:flex-end;gap:3px;height:39px;width:40px;padding:6px;border-radius:10px;background:linear-gradient(135deg,#2566b5,#102e53);box-shadow:0 5px 18px rgba(17,77,149,.19)}
+.ttn-wordmark-symbol i{display:block;width:7px;border-radius:2px 2px 0 0;background:#fff;transform:skew(-9deg)}
+.ttn-wordmark-symbol i:nth-child(1){height:12px;opacity:.65}.ttn-wordmark-symbol i:nth-child(2){height:21px;opacity:.85}.ttn-wordmark-symbol i:nth-child(3){height:28px;background:#8dd7ff}
+.ttn-wordmark-name{display:flex;flex-direction:column;align-items:flex-start;color:var(--text);font:800 26px/1 "Inter",sans-serif;letter-spacing:-.085em}
+.ttn-wordmark-accent{display:inline;color:var(--accent)}
+.ttn-wordmark-name{display:block}
+.ttn-wordmark-name small{display:block;font:700 9px/1.55 "Inter",sans-serif;letter-spacing:.13em;color:var(--text-dim);margin-top:4px}
+.ttn-wordmark-name small span{font-weight:500;letter-spacing:.06em}
+.ttn-tradingview-band{min-height:56px;display:flex;align-items:center;background:var(--surface);border-bottom:1px solid var(--border);overflow:hidden}
+.ttn-market-band-label{height:54px;display:flex;align-items:center;gap:9px;padding:0 22px 0 24px;flex:0 0 auto;color:var(--text-dim);border-right:1px solid var(--border);font:700 10px "Inter",sans-serif;letter-spacing:.15em}
+.ttn-market-band-label i{display:inline-block;height:7px;width:7px;background:var(--up);border-radius:50%}
+.ttn-tv-content{min-width:0;flex:1;overflow:hidden}
+.ttn-tv-content tv-ticker-tape{display:block;min-height:54px;width:100%;color-scheme:light}
+html[data-theme="dark"] .ttn-tv-content tv-ticker-tape{color-scheme:dark}
+@media(max-width:750px){.ttn-wordmark{min-width:unset;gap:8px}.ttn-wordmark-symbol{width:35px;height:36px}.ttn-wordmark-name{font-size:24px}.ttn-wordmark-name small span{display:none}.ttn-market-band-label{padding:0 12px;font-size:9px}}
