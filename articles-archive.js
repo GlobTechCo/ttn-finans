@@ -13,15 +13,18 @@
     });
   }
 
+  // Keep Tech & AI exclusively in its own archive; do not remove source articles.
+  const TECH_AI_IDS = new Set(["ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
+
   function render() {
     const el = document.getElementById("analysis-archive");
     if (!el || typeof TTN_ARTICLES === "undefined") return;
-    const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
 
     el.innerHTML = sorted
       .map((a) => {
         const img = a.image
-          ? `<img src="${a.image}?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
+          ? `<img src="${a.image.startsWith("http") ? a.image + "?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" : a.image}" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
           : `<div class="news-item-thumb-fallback thumb-general"></div>`;
         return `
         <div class="analysis-list-item">
