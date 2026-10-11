@@ -680,7 +680,7 @@ const TTN_ARTICLES = [
     dek: "Tech stocks fell sharply while healthcare and financials hit fresh highs in the same week. That's not a contradiction, it's sector rotation, and understanding it changes how a scary-looking headline should actually be read.",
     author: "TTN Research Desk",
     date: "2026-08-07T11:00:00",
-    image: "https://images.pexels.com/photos/5834234/pexels-photo-5834234.jpeg",
+    image: "assets/editorial/sector-rotation-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "In late July 2026, semiconductor and memory-chip stocks tumbled for a fourth straight day, with the VanEck Semiconductor ETF off more than 3 percent as Micron and AMD each fell over 8 percent, while in the very same stretch, healthcare and financials stocks hit fresh intraday all-time highs. Treated in isolation, those two headlines look contradictory. Understood together, they describe one of the most common and least well-explained patterns in markets: sector rotation, money moving between parts of the market rather than leaving it.",
@@ -699,7 +699,7 @@ const TTN_ARTICLES = [
     dek: "An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.",
     author: "TTN Research Desk",
     date: "2026-08-07T13:00:00",
-    image: "https://images.pexels.com/photos/33785776/pexels-photo-33785776.jpeg",
+    image: "assets/editorial/etf-creation-redemption-mechanism.webp",
     tickers: ["BTC"],
     body: [
       "An exchange-traded fund trades on a stock exchange just like an ordinary share, which makes it easy to assume it works exactly like one. It doesn't, in one specific and important way: unlike a company's stock, where the total share count is relatively fixed and only changes through deliberate corporate actions, an ETF's share count can expand or contract every single trading day based on demand. That flexibility runs through a process called creation and redemption, and it's the mechanism that keeps an ETF's market price closely tethered to the actual value of what it holds, the concept covered from the demand side in TTN's earlier piece on Bitcoin ETF adoption.",
@@ -718,7 +718,7 @@ const TTN_ARTICLES = [
     dek: "Long before GDP or jobs data confirms a trend, a monthly survey of purchasing managers often catches it first. Here's how the ISM PMI works, and why a single number above or below 50 carries so much weight.",
     author: "TTN Research Desk",
     date: "2026-08-08T09:00:00",
-    image: "https://images.pexels.com/photos/31091544/pexels-photo-31091544.jpeg",
+    image: "assets/editorial/ism-pmi-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Two of the least flashy economic reports on the calendar, the ISM Manufacturing PMI and ISM Services PMI, released on the first and third business days of each month respectively, are also among the earliest reads investors get on where the economy is actually headed. Both come from the Institute for Supply Management, a nonprofit that surveys purchasing and supply executives at hundreds of companies, and both distill that survey into a single, closely watched number with one simple threshold at its center.",
@@ -738,7 +738,7 @@ const TTN_ARTICLES = [
     dek: "Financial headlines routinely cite a precise percentage chance of a rate hike or cut before the Fed has said a word. Here's the futures market mechanism behind that number, and how to read it correctly.",
     author: "TTN Research Desk",
     date: "2026-08-08T11:00:00",
-    image: "https://images.pexels.com/photos/31738798/pexels-photo-31738798.jpeg",
+    image: "assets/editorial/fed-funds-futures-rate-odds-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Financial coverage routinely states a precise number, 'markets are pricing in a 62 percent chance of a rate hike next month', well before the Federal Reserve has made any announcement at all. That figure isn't a poll or a guess. It's calculated directly from real money changing hands in the futures market, and understanding the mechanism behind it, most commonly accessed through the CME Group's FedWatch Tool, changes how much weight that kind of headline deserves.",
@@ -757,7 +757,7 @@ const TTN_ARTICLES = [
     dek: "A Wall Street price target sounds like a precise prediction, but it's built on assumptions that can shift within weeks. Here's how analyst ratings actually work, and the real, documented gap between confidence and accuracy.",
     author: "TTN Research Desk",
     date: "2026-08-08T13:00:00",
-    image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
+    image: "assets/editorial/analyst-ratings-price-targets-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Headlines citing a specific price target, 'Deutsche Bank maintains buy rating, $255 target', or an upgrade or downgrade between firms show up constantly in financial news, and TTN's own feed carries them regularly. These figures sound precise and authoritative, but understanding how they're actually built, and how accurate they've historically been, changes how much weight a single analyst call deserves.",
@@ -776,7 +776,7 @@ const TTN_ARTICLES = [
     dek: "Renewed political pressure on individual Fed officials has put central bank independence back in the headlines. Here's how the Fed is actually structured to resist that pressure, and why markets react so sharply when that structure looks threatened.",
     author: "TTN Research Desk",
     date: "2026-08-09T09:00:00",
-    image: "https://images.pexels.com/photos/18689702/pexels-photo-18689702.jpeg",
+    image: "assets/editorial/fed-independence-structure-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Renewed political pressure on individual Federal Reserve officials has put a question back in the headlines that markets generally prefer to treat as settled: how independent is the Fed, really, and what happens if that independence comes under genuine strain. Understanding the specific structural mechanisms that insulate the Fed from short-term political pressure, and why markets react so sharply whenever those mechanisms look threatened, explains a category of headline risk that's distinct from ordinary monetary policy news.",
@@ -795,7 +795,7 @@ const TTN_ARTICLES = [
     dek: "A single ratio compares how many investors are betting on a decline versus a rally, and professional traders often read extreme readings backwards. Here's how the put/call ratio works, and why crowded sentiment can be a warning sign.",
     author: "TTN Research Desk",
     date: "2026-08-09T11:00:00",
-    image: "https://images.pexels.com/photos/28504954/pexels-photo-28504954.jpeg",
+    image: "assets/editorial/put-call-ratio-options-sentiment-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Building on the basic mechanics of calls and puts covered in TTN's earlier options piece, there's a widely-watched sentiment gauge built directly from that same options activity: the put/call ratio, a single number that compares how much money is flowing into bearish bets versus bullish ones across the market on any given day, published daily by the CBOE.",
@@ -814,7 +814,7 @@ const TTN_ARTICLES = [
     dek: "The headline unemployment rate can drop for a genuinely good reason, or for a troubling one, and the number alone doesn't tell you which. Here's the fuller set of labor market measures that explains the difference.",
     author: "TTN Research Desk",
     date: "2026-08-09T13:00:00",
-    image: "https://images.pexels.com/photos/9832716/pexels-photo-9832716.jpeg",
+    image: "assets/editorial/unemployment-rate-u3-u6-participation-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "TTN's earlier piece on the monthly jobs report covered why Nonfarm Payrolls moves markets so sharply, but that report actually contains a second, equally important figure that gets far less scrutiny: the unemployment rate itself, and specifically, the fact that it can fall for reasons that range from genuinely encouraging to actively concerning, with the headline number alone giving no indication of which.",
@@ -833,7 +833,7 @@ const TTN_ARTICLES = [
     dek: "A historic intervention reportedly helped shield US Treasuries and steady the dollar this week. Here's the mechanism behind how a central bank moves a currency by force, and why research shows it works far better in some situations than others.",
     author: "TTN Research Desk",
     date: "2026-08-10T09:00:00",
-    image: "https://images.pexels.com/photos/29769669/pexels-photo-29769669.jpeg",
+    image: "assets/editorial/currency-intervention-explained.webp",
     tickers: ["EUR/USD"],
     body: [
       "Reports of a historic currency intervention helping shield US Treasuries and steady markets this week put a less-discussed tool back in the spotlight: the ability of a central bank or finance ministry to directly step into the foreign exchange market and move a currency by force, rather than simply through the interest-rate-differential channel covered in TTN's earlier EUR/USD and dollar index pieces.",
@@ -853,7 +853,7 @@ const TTN_ARTICLES = [
     dek: "Alphabet raised $25 billion in a single bond sale, and Oracle raised even more earlier this year, both largely to fund AI infrastructure. Here's how corporate bond issuance actually works, and what it reveals about a company's finances.",
     author: "TTN Research Desk",
     date: "2026-08-10T11:00:00",
-    image: "https://images.pexels.com/photos/5716053/pexels-photo-5716053.jpeg",
+    image: "assets/editorial/corporate-bonds-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Alphabet raised roughly 25 billion dollars in a single bond sale spanning ten different maturities, from two years out to 40, pulling in an estimated 115 billion dollars in investor demand, one of the largest corporate bond deals of the year, trailing only Oracle's even larger 2026 issuance. Both raises were driven substantially by the same force covered in TTN's piece on the Nasdaq's AI-driven correction: funding the enormous capital expenditure buildout behind AI infrastructure. Understanding how corporate bond issuance actually works explains why a cash-generating giant like Alphabet borrows tens of billions rather than simply paying for this buildout directly.",
@@ -872,7 +872,7 @@ const TTN_ARTICLES = [
     dek: "Both promise a safe place to earn real interest on cash you're not ready to invest, but they work through genuinely different mechanisms with different protections. Here's how each one actually functions.",
     author: "TTN Research Desk",
     date: "2026-08-10T13:00:00",
-    image: "https://images.pexels.com/photos/18274050/pexels-photo-18274050.jpeg",
+    image: "assets/editorial/money-market-funds-vs-savings-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Sitting on cash waiting to be invested, or set aside for a near-term goal, used to mean earning close to nothing in a traditional bank account. With the national average savings account still paying around 0.6 percent APY as of early 2026, two alternatives have become the default parking spot for idle cash instead: high-yield savings accounts and money market funds, both capable of paying yields several times higher, but through genuinely different mechanisms worth understanding before choosing between them.",
@@ -891,7 +891,7 @@ const TTN_ARTICLES = [
     dek: "While Nonfarm Payrolls only arrives once a month, jobless claims land every single Thursday, giving markets a far higher-frequency read on layoffs. Here's how to read the weekly number without overreacting to its noise.",
     author: "TTN Research Desk",
     date: "2026-08-11T09:00:00",
-    image: "https://images.pexels.com/photos/5417669/pexels-photo-5417669.jpeg",
+    image: "assets/editorial/weekly-jobless-claims-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "TTN's earlier piece on Nonfarm Payrolls covered why that single monthly report moves markets so sharply, but payrolls only arrives once a month. Between those releases, there's a considerably higher-frequency labor market gauge that updates every single Thursday: jobless claims, published by the Department of Labor, offering a far more current read on layoffs than waiting weeks for the next payrolls report allows.",
@@ -929,7 +929,7 @@ const TTN_ARTICLES = [
     dek: "A reported network attack on Bitcoin made headlines this week, alongside a failed software proposal that split node operators. Here's how Bitcoin's underlying consensus mechanism, forks, and the theoretical 51% attack actually work.",
     author: "TTN Research Desk",
     date: "2026-08-11T13:00:00",
-    image: "https://images.pexels.com/photos/6771007/pexels-photo-6771007.jpeg",
+    image: "assets/editorial/bitcoin-51-percent-attack-forks-explained.webp",
     tickers: ["BTC"],
     body: [
       "A reported network attack on Bitcoin made headlines this week, alongside news that a competing node software's proposed rule change, a so-called soft fork, failed to gain enough miner support to take hold, with Bitcoin's main chain continuing to produce blocks normally throughout. Untangling what actually happened requires understanding a few core mechanisms behind how Bitcoin reaches agreement on which transactions are valid in the first place, concepts that rarely get explained plainly even though they underpin the security of the entire network TTN's earlier crypto coverage has referenced.",
@@ -947,7 +947,7 @@ const TTN_ARTICLES = [
     dek: "Small businesses employ roughly half the US private workforce, and one monthly survey tracks how confident their owners actually feel. Here's what the NFIB Small Business Optimism Index measures, and why its ten components matter more than the single headline number.",
     author: "TTN Research Desk",
     date: "2026-08-12T09:00:00",
-    image: "https://images.pexels.com/photos/36729739/pexels-photo-36729739.jpeg",
+    image: "assets/editorial/nfib-small-business-optimism-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "The NFIB Small Business Optimism Index rose to 99.8 in the latest reading, its best level since August 2025 and above its 52-year average of 98.0, with a notable 20 percent of owners saying they plan to create new jobs over the next three months, the highest reading since October 2022. Small businesses account for roughly half of the US private workforce, and this monthly survey, compiled by the National Federation of Independent Business, offers a read on their confidence that's genuinely distinct from the large-company data behind most other indicators TTN's coverage has referenced.",
@@ -966,7 +966,7 @@ const TTN_ARTICLES = [
     dek: "Nvidia partnered with six of the world's largest asset managers this week to help fund AI infrastructure buildouts. Here's how private credit actually works, why it exploded after 2008, and why some of its own biggest names have compared it to conditions before the subprime crisis.",
     author: "TTN Research Desk",
     date: "2026-08-12T11:00:00",
-    image: "https://images.pexels.com/photos/4515802/pexels-photo-4515802.jpeg",
+    image: "assets/editorial/private-credit-shadow-banking-explained.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Nvidia this week partnered with six of the largest asset managers in the world, Apollo Global Management, Blackstone, BlackRock, Brookfield Asset Management, Goldman Sachs, and KKR, to help mobilize capital for AI infrastructure buildouts, a deal that sits squarely inside a corner of finance that's grown enormously over the past decade but remains genuinely unfamiliar to most people outside the industry: private credit. Understanding how this market actually works explains why it's become the default financing tool behind an increasing share of the AI capital spending covered in TTN's earlier pieces.",
@@ -986,7 +986,7 @@ const TTN_ARTICLES = [
     dek: "Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.",
     author: "TTN Research Desk",
     date: "2026-08-12T13:00:00",
-    image: "https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg",
+    image: "assets/editorial/defi-basics-explained.webp",
     tickers: ["BTC", "ETH"],
     body: [
       "Decentralized finance, commonly shortened to DeFi, refers to financial applications, lending, trading, borrowing, earning interest, built on public blockchains and run through smart contracts rather than a bank, broker, or exchange. Total value locked across DeFi protocols has grown from roughly 40 billion dollars in early 2023 to more than 120 billion dollars in early 2026, and understanding the basic mechanics behind lending and trading in this system explains what's actually happening when a transaction executes with no company on the other side of it at all.",
@@ -1005,7 +1005,7 @@ const TTN_ARTICLES = [
     dek: "Wendy's shares jumped 13% this week on reports that investor Nelson Peltz is preparing a buyout bid to take the company private. Here's the leveraged buyout mechanism behind deals like this, and why it puts the target company's own balance sheet on the hook.",
     author: "TTN Research Desk",
     date: "2026-08-13T09:00:00",
-    image: "https://images.pexels.com/photos/8730987/pexels-photo-8730987.jpeg",
+    image: "assets/editorial/take-private-leveraged-buyout-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Wendy's shares jumped more than 13 percent this week after the Financial Times reported that Nelson Peltz's Trian Fund Management, working with co-investors Flynn Group and BlueFive Capital, is preparing a bid to take the fast-food chain private. A 'take-private' deal reverses the IPO process covered in TTN's earlier piece, removing a company from public stock exchanges entirely, and it's almost always executed through a specific financing structure worth understanding: the leveraged buyout, or LBO.",
@@ -1024,7 +1024,7 @@ const TTN_ARTICLES = [
     dek: "The federal deficit surged to its highest level since March 2021 this July, and it's become a genuine factor behind rising Treasury yields, not just a talking point. Here's the actual mechanism connecting government borrowing to the bond market TTN tracks.",
     author: "TTN Research Desk",
     date: "2026-08-13T11:00:00",
-    image: "https://images.pexels.com/photos/6580465/pexels-photo-6580465.jpeg",
+    image: "assets/editorial/us-budget-deficit-national-debt-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "The US budget deficit surged in July 2026 to its highest level since March 2021, part of a fiscal year expected to run a deficit of roughly 2 trillion dollars, one of the largest in the country's history. TTN's earlier piece on the recent Treasury yield spike touched on this connection briefly; here's the fuller mechanism behind how government borrowing actually shows up in the bond market, and why it's become a genuine, actively-discussed factor rather than just background noise.",
@@ -1043,7 +1043,7 @@ const TTN_ARTICLES = [
     dek: "TTN's earlier piece on circular AI financing mentioned widening credit default swap spreads on AI-linked debt as a market warning signal. Here's what a CDS actually is, and why its price moving is often the fastest real-money read on rising default risk.",
     author: "TTN Research Desk",
     date: "2026-08-13T13:00:00",
-    image: "https://images.pexels.com/photos/10341357/pexels-photo-10341357.jpeg",
+    image: "assets/editorial/credit-default-swaps-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "TTN's earlier piece on circular AI financing mentioned that credit default swap spreads on some AI-linked corporate debt had widened as private-credit deals accumulated, cited as a market-based signal that some investors were pricing in genuine additional risk. Understanding what a credit default swap actually is, and why its price moving is often one of the fastest real-money reads on changing default risk, fills in a mechanism that gets referenced constantly in financial coverage without much explanation of how it actually works.",
@@ -1062,7 +1062,7 @@ const TTN_ARTICLES = [
     dek: "Analysts describe the yen carry trade as financing anywhere from $4 trillion to $20 trillion in global positions, including a slice of the S&P 500 itself. Here's how it works, and why its past unwinds have crashed markets in hours.",
     author: "TTN Research Desk",
     date: "2026-08-14T09:00:00",
-    image: "https://images.pexels.com/photos/36790143/pexels-photo-36790143.jpeg",
+    image: "assets/editorial/yen-carry-trade-explained.webp",
     tickers: ["EUR/USD", "S&P 500"],
     body: [
       "Building on the interest-rate-differential mechanism covered in TTN's earlier EUR/USD piece, there's a version of that same trade involving the Japanese yen that operates on a genuinely enormous scale, estimated by some analysts at anywhere from 4 trillion to 20 trillion dollars depending on how broadly it's measured. The yen carry trade has quietly financed a meaningful share of global risk-asset buying for decades, and its past unwinds have been sharp enough to crash markets within hours.",
@@ -1081,7 +1081,7 @@ const TTN_ARTICLES = [
     dek: "PPI lands weeks before CPI covers the same ground, tracking what producers get paid rather than what consumers pay. Here's why it functions as an early warning system for the inflation data that moves TTN's tracked assets.",
     author: "TTN Research Desk",
     date: "2026-08-14T11:00:00",
-    image: "https://images.pexels.com/photos/13974251/pexels-photo-13974251.jpeg",
+    image: "assets/editorial/ppi-producer-price-index-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "TTN's earlier piece on CPI covered the difference between headline and core inflation as consumers experience it. There's a related report that typically lands a day or two before or after CPI each month, tracking the same underlying inflation story from the opposite end of the supply chain: the Producer Price Index, which measures what domestic producers are actually paid for their output, rather than what consumers pay at the register.",
@@ -1100,7 +1100,7 @@ const TTN_ARTICLES = [
     dek: "Riot Platforms shares jumped over 12% this week on strong earnings, mining nearly 1,600 Bitcoin in a single quarter. Here's the underlying economics that separate a profitable public Bitcoin miner from a struggling one.",
     author: "TTN Research Desk",
     date: "2026-08-14T13:00:00",
-    image: "https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg",
+    image: "assets/editorial/bitcoin-mining-economics-explained.webp",
     tickers: ["BTC"],
     body: [
       "Riot Platforms shares jumped more than 12 percent in extended trading this week after the Bitcoin mining company reported a 14 percent year-over-year revenue increase and produced 1,587 Bitcoin during the quarter, up from 1,426 a year earlier. Building on the proof-of-work mechanism covered in TTN's earlier piece on Bitcoin consensus, publicly traded mining companies like Riot and Marathon Digital turn that same computational competition into an actual business, and the economics separating a profitable miner from a struggling one come down to a few specific, measurable numbers.",
@@ -1119,7 +1119,7 @@ const TTN_ARTICLES = [
     dek: "Consumer sentiment cratered to 51.0 this month as retail sales unexpectedly fell, even with the S&P 500 hitting fresh record highs. Here's what the University of Michigan's survey actually measures, and why the disconnect between the two isn't as strange as it looks.",
     author: "TTN Research Desk",
     date: "2026-08-15T09:00:00",
-    image: "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg",
+    image: "assets/editorial/consumer-sentiment-index-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Consumer sentiment fell sharply to 51.0 in August, down from 55.2 in July, even as the S&P 500 closed at a fresh all-time high the same week and Friday's retail sales data showed spending unexpectedly falling 0.6 percent against expectations for a 0.1 percent gain. Untangling how a survey of ordinary households and the record-setting stock market can move in such visibly different directions at the same time explains both what this specific indicator measures and why it sometimes diverges sharply from the assets TTN tracks daily.",
@@ -1176,7 +1176,7 @@ const TTN_ARTICLES = [
     dek: "Berkshire Hathaway just disclosed a $17 billion addition to its Alphabet stake, but the trade itself may have happened months earlier. Here's how 13F filings work, and the built-in lag that makes them a backward-looking snapshot rather than a live signal.",
     author: "TTN Research Desk",
     date: "2026-08-17T09:00:00",
-    image: "assets/editorial/13f-filings-explained.webp",
+    image: "assets/editorial/13f-filings-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Berkshire Hathaway's disclosure of a 17 billion dollar addition to its Alphabet stake made headlines this week, part of a familiar pattern in financial coverage: a filing reveals what a famous investor bought, and the story gets covered as fresh news. Understanding the actual mechanism behind Form 13F, the filing responsible for these headlines, explains why 'what Berkshire bought' is often considerably older information than the headline suggests, a nuance that applies just as directly to the institutional Bitcoin ETF holdings covered in TTN's earlier piece.",
@@ -1271,7 +1271,7 @@ const TTN_ARTICLES = [
     dek: "A company can report a healthy profit while quietly running out of actual cash, and free cash flow is the metric that catches the gap. Here's how it's calculated, and why professional investors often trust it more than the headline earnings number.",
     author: "TTN Research Desk",
     date: "2026-08-19T13:00:00",
-    image: "assets/editorial/free-cash-flow-explained.webp",
+    image: "assets/editorial/free-cash-flow-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Net income, the headline profit figure behind the earnings beats and misses covered in TTN's earlier piece, is the number financial media and quarterly coverage are built around. Professional investors, particularly value-oriented ones, often weight a considerably less publicized figure more heavily: free cash flow, the actual cash a business generates after covering what it needs to spend just to keep operating and maintain its physical assets. Understanding why free cash flow is harder to manipulate than net income, and what a persistent gap between the two actually signals, adds a genuinely useful layer beneath the headline profit number most coverage stops at.",
@@ -1290,7 +1290,7 @@ const TTN_ARTICLES = [
     dek: "The Treasury announced it will more than double its long-term bond repurchases, and 30-year yields immediately dropped. Here's the mechanism behind a Treasury buyback, and why it manages market stress without actually shrinking the national debt.",
     author: "TTN Research Desk",
     date: "2026-08-20T09:00:00",
-    image: "assets/editorial/treasury-debt-buyback-explained.webp",
+    image: "assets/editorial/treasury-debt-buyback-explained-editorial.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "The Treasury Department announced this week it will more than double the size of its long-term debt buyback operations, from a maximum of 2 billion dollars per operation to at least 4 billion, targeting the 10-to-20-year and 20-to-30-year portion of the bond market specifically. The announcement immediately pushed 30-year Treasury yields down roughly 10 basis points to 5.18 percent, a meaningful one-day move for a market this size, and it connects directly to the global bond yield story TTN's earlier pieces have covered. Understanding the actual mechanism behind a Treasury buyback, and its real limits, explains why officials reached for this specific tool now.",
@@ -1404,7 +1404,7 @@ const TTN_ARTICLES = [
     dek: "Nasdaq halted a five-day slide simply waiting for Nvidia's earnings this week. Here's how index weighting works, why the top 10 stocks now make up roughly 40% of the S&P 500, and what that concentration means for anyone who assumes an index fund is automatically diversified.",
     author: "TTN Research Desk",
     date: "2026-08-22T09:00:00",
-    image: "assets/editorial/sp500-concentration-risk-explained.webp",
+    image: "assets/editorial/sp500-concentration-risk-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "The Nasdaq 100 halted a five-day slide this week largely by waiting: traders held off making major moves ahead of Nvidia's earnings report, a single company's results treated as consequential enough to shape sentiment across an index built from 100 different businesses. This isn't a fluke of investor psychology; it's a direct, mechanical consequence of how the S&P 500 and Nasdaq are actually built, and understanding the weighting mechanism explains why a headline like 'the market rose today' can really mean 'a handful of companies rose today.'",
@@ -1423,7 +1423,7 @@ const TTN_ARTICLES = [
     dek: "US national debt just crossed $40 trillion, and Treasury Secretary Bessent says the country can grow its way out of it while others warn of a debt spiral. Here's the specific arithmetic, built around one comparison, that actually determines which claim is right.",
     author: "TTN Research Desk",
     date: "2026-08-22T11:00:00",
-    image: "assets/editorial/debt-spiral-r-versus-g-explained.webp",
+    image: "assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "US national debt crossed 40 trillion dollars this week, having more than doubled in less than a decade, prompting Treasury Secretary Bessent to argue the country can 'grow our way out of that,' while other economists have warned the trajectory increasingly resembles the early stages of what's technically called a debt spiral. Building directly on TTN's earlier pieces on the budget deficit and global bond yields, both claims can actually be evaluated with a specific, well-defined piece of arithmetic economists use to judge debt sustainability, rather than treated as a matter of pure opinion.",
@@ -1556,7 +1556,7 @@ const TTN_ARTICLES = [
     dek: "A 2-year Treasury and a 30-year Treasury react to the same rate news in wildly different ways, and one number explains exactly how much. Here's what duration actually measures, and why it's been the quiet mechanism behind nearly every bond story TTN has covered.",
     author: "TTN Research Desk",
     date: "2026-08-27T09:00:00",
-    image: "assets/editorial/bond-duration-explained.webp",
+    image: "assets/editorial/bond-duration-explained-editorial.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Nearly every piece TTN has published on bonds, the Treasury yield spike, the yield curve inversion, TIPS, the global bond selloff, has referenced the fact that longer-term bonds move more sharply than shorter-term ones for the same change in interest rates, without fully explaining the single number that quantifies exactly how much more. That number is duration, and understanding it directly fills in the mechanical foundation underneath essentially all of TTN's bond coverage.",
@@ -1576,7 +1576,7 @@ const TTN_ARTICLES = [
     dek: "PayPal shares slumped as much as 16% after Advent and Stripe abandoned their pursuit of the company. Here's the merger arbitrage spread that had been pricing in the deal, and why professionals call this strategy 'picking up pennies in front of a bulldozer.'",
     author: "TTN Research Desk",
     date: "2026-08-28T09:00:00",
-    image: "assets/editorial/merger-arbitrage-deal-spread-explained.webp",
+    image: "assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "PayPal shares slumped as much as 16 percent this week after reports that Advent International and Stripe had abandoned their pursuit of the company, erasing a takeover premium the stock had been carrying since acquisition speculation first emerged. Building on TTN's earlier piece on how mergers create or destroy value, this specific pattern, a target's stock falling sharply the moment a deal collapses, is the visible endpoint of a strategy institutional investors run constantly and rarely explain in plain terms: merger arbitrage.",

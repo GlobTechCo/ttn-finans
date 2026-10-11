@@ -10,7 +10,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work">
 <meta property="og:description" content="Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.">
-<meta property="og:image" content="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg">
+<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/defi-basics-explained.webp">
 <meta property="og:url" content="https://globtechco.github.io/ttn-finans/defi-basics-explained.html">
 <meta property="og:site_name" content="TTN">
 
@@ -20,40 +20,20 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work">
 <meta name="twitter:description" content="Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.">
-<meta name="twitter:image" content="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg">
+<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/defi-basics-explained.webp">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work",
-  "description": "Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.",
-  "image": ["https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg"],
-  "datePublished": "2026-08-12T13:00:00",
-  "dateModified": "2026-08-12T13:00:00",
-  "author": {
-    "@type": "Organization",
-    "name": "TTN Research Desk"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "TTN",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://globtechco.github.io/ttn-finans/defi-basics-explained.html"
-  }
-}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work", "description": "Decentralized finance replaces banks and exchanges with self-executing code, and now holds well over $100 billion in user deposits. Here's how DeFi lending and trading actually function, mechanically, without a bank or broker in the middle.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/defi-basics-explained.webp", "width": 1920, "height": 1080, "caption": "Software developer reviewing a generic decentralized finance application at a laptop with hardware security device nearby (AI-generated editorial image)"}, "datePublished": "2026-08-12T13:00:00", "dateModified": "2026-08-12T13:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/defi-basics-explained.html"}}</script>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="editorial-theme.css">
 <script src="editorial-theme.js" defer></script>
+<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/defi-basics-explained.webp">
+<meta property="og:image:type" content="image/webp">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:image:alt" content="Software developer reviewing a generic decentralized finance application at a laptop with hardware security device nearby">
+<meta name="twitter:image:alt" content="Software developer reviewing a generic decentralized finance application at a laptop with hardware security device nearby">
 </head>
 <body>
 
@@ -81,7 +61,7 @@
   <span class="ttn-original-badge">TTN Original</span>
   <h1>DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work</h1>
   <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 12, 2026</p>
-  <img src="https://images.pexels.com/photos/14354106/pexels-photo-14354106.jpeg" alt="DeFi Basics: How Lending Protocols and Automated Market Makers Actually Work" style="width:100%;border-radius:var(--radius);margin:16px 0;border:1px solid var(--border);" onerror="this.style.display='none'">
+  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/defi-basics-explained.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Software developer reviewing a generic decentralized finance application at a laptop with hardware security device nearby"><figcaption>AI-generated editorial image.</figcaption></figure>
   <p>Decentralized finance, commonly shortened to DeFi, refers to financial applications, lending, trading, borrowing, earning interest, built on public blockchains and run through smart contracts rather than a bank, broker, or exchange. Total value locked across DeFi protocols has grown from roughly 40 billion dollars in early 2023 to more than 120 billion dollars in early 2026, and understanding the basic mechanics behind lending and trading in this system explains what's actually happening when a transaction executes with no company on the other side of it at all.</p>
   <p>The foundation is the smart contract: a self-executing program deployed on a blockchain that automatically carries out the terms of an agreement once its conditions are met, with no human approval step required. Connect a crypto wallet, approve a transaction, and the contract executes directly, without a bank branch, a broker's order desk, or a market's opening and closing hours to work around. That same automation, no discretionary human in the loop, is both DeFi's core innovation and the source of most of its distinct risks, since there's typically no help desk to call if a transaction is signed incorrectly or a smart contract contains a bug.</p>
   <p>DeFi lending, the largest single category by total value locked, works through pooled liquidity rather than a bank matching individual borrowers to individual depositors. Users supply crypto assets into a shared lending pool and earn interest on what they deposit; borrowers post their own crypto as collateral and draw a loan against it. The overwhelming majority of DeFi lending is over-collateralized, meaning a borrower must post collateral worth more than the loan itself, commonly 150 percent or higher depending on the protocol and asset, a structural difference from most traditional lending, where a borrower's income and credit history, not simply a larger pile of assets already in hand, typically stand behind the loan. Interest rates on these pools adjust algorithmically based on real-time supply and demand within the pool itself, rather than being set by a bank's own credit committee.</p>
