@@ -1572,4 +1572,88 @@ const TTN_ARTICLES = [
       "TTN takeaway: watch the duration of the oil shock, not just the headline barrel price. A brief move through $100 is manageable. A prolonged period near $100 combined with sticky services inflation and elevated long-term yields would be a much more consequential macroeconomic event."
     ],
   },
+  {
+    "id": "ai-agents-enterprise-roi-2026",
+    "title": "AI Agents Are Entering the Workplace. Where Is the Return on Investment?",
+    "dek": "The test for corporate AI agents is not whether a demo works, but whether the system reduces costs or raises revenue after oversight and integration are included.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:00:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "An AI agent that books a meeting, checks an invoice or answers a customer can look remarkably capable in a demonstration. For a business deciding whether to deploy the technology at scale, the harder question is economic: does it complete enough useful work, reliably enough, to justify the total cost?",
+      "AI agents generally combine a language model with access to software tools and a sequence of actions. Unlike a basic chatbot, an agent may retrieve records, update a workflow and hand work to another system. That ability expands the potential value, but it also raises the cost of testing, permissions and supervision.",
+      "The cost calculation is larger than the model bill",
+      "Vendors often quote a price for tokens, requests or seats. Those charges are only one part of the investment. Enterprises may have to clean up internal data, connect older systems, redesign approval processes, train employees, audit outputs and respond to mistakes. Sensitive workflows require permission controls and logs that make actions traceable.",
+      "The relevant denominator is not the number of conversations. It is the number of tasks completed to the required quality standard. If an agent handles 1,000 requests but employees must review or correct half of them, the labor saving may be far smaller than the headline automation rate suggests.",
+      "Reliability is a financial variable",
+      "Some errors are inexpensive: an internal summary can be rewritten. Others can create regulatory, contractual or reputational risk. A financial-services firm may reasonably demand tighter verification for payment instructions than a retailer requires for product descriptions. That difference changes the economics of deployment.",
+      "Businesses should test performance on representative real-world cases, including unusual requests and failed integrations. A useful pilot records completion time, error rates, escalation frequency and human review minutes, not only subjective employee satisfaction.",
+      "Who captures the value?",
+      "Software providers may gain revenue by charging for agent capabilities, but customers can resist price increases if outcomes remain uncertain. Cloud providers may collect usage fees regardless of whether a particular customer earns an adequate return. Consulting and systems-integration firms can benefit from implementation complexity, although customers will ultimately seek simpler operations.",
+      "For investors, sales growth tied to AI features is only a starting point. Gross margins, customer retention, deployment costs and evidence of sustained usage offer a clearer picture. A product sold as an add-on may not create much durable value if customers cancel it after experimentation.",
+      "The practical scorecard",
+      "The strongest proof would be a controlled comparison: the same kind of work performed before and after deployment, adjusted for quality, case complexity and changes in staffing. Track the full cost per successfully completed task, the proportion escalated to humans and the time required to resolve failures.",
+      "AI agents may reshape office workflows, but adoption alone is not proof of productivity. The companies best positioned to benefit are those that can turn experimental capabilities into measurable, repeatable operational improvements."
+    ]
+  },
+  {
+    "id": "ai-chips-bottlenecks-2026",
+    "title": "Beyond AI Chips: Why Networking, Memory and Cooling Matter to the Boom",
+    "dek": "A faster processor cannot deliver its full value without the surrounding infrastructure. The bottlenecks are spreading across the AI supply chain.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:05:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "AI infrastructure is often discussed as a race to build or buy the fastest accelerator. Yet a chip sitting idle while it waits for data, network capacity or cooling cannot generate the performance its buyer expected. The economics of an AI cluster depend on the entire system rather than one component.",
+      "Training and serving large AI models require movement of enormous quantities of information. Accelerators need access to high-bandwidth memory, fast communication with neighboring processors and storage systems able to keep them supplied. Congestion at any step can reduce useful throughput.",
+      "Why the surrounding hardware matters",
+      "High-bandwidth memory sits close to processors and helps feed demanding workloads. Network switches, optical links and interconnects connect equipment distributed across racks. Cooling equipment removes heat generated by dense computing systems. Each category has its own manufacturing capacity, engineering tradeoffs and lead times.",
+      "A data center operator may install more accelerators and still discover that application performance falls short of the theoretical total. The reasons can include software inefficiency, limited memory capacity, network latency and the time required to coordinate jobs across machines. Utilization therefore matters as much as installed computing capacity.",
+      "Energy and thermal limits",
+      "Compute density increases the amount of electricity and cooling required in a small physical area. Traditional air cooling remains suitable for many workloads, but operators of high-density systems may turn to liquid cooling. That decision introduces new plumbing, monitoring, maintenance and facility-design requirements.",
+      "Cooling is not a separate issue from financial performance. Systems that operate below expected output because of thermal constraints can produce less revenue while continuing to incur power and depreciation expense. Retrofitting an existing site can also demand additional capital.",
+      "The investment implications",
+      "Growth in AI spending can create opportunities for memory producers, networking suppliers, electrical-equipment manufacturers and cooling specialists. But a company participating in a fast-growing market is not guaranteed to earn strong returns. Competition, supply expansions and bargaining power can erode margins even as shipments rise.",
+      "Buyers must compare the total cost of delivering a unit of useful computing work, not simply the purchase price of a processor. Software improvements can sometimes increase throughput without a proportional increase in hardware. Conversely, an inexpensive system that wastes energy or demands frequent intervention can cost more to operate.",
+      "What to measure",
+      "Investors evaluating infrastructure providers should examine order conversion, manufacturing capacity, customer concentration, margins and delivery schedules. For data center operators, watch the relationship among capital spending, utilization, operating expense and customer revenue.",
+      "The AI hardware cycle is broader than chips. The most valuable infrastructure is the combination that performs real workloads reliably, at a competitive cost and with a reasonable return on invested capital."
+    ]
+  },
+  {
+    "id": "small-business-ai-adoption-2026",
+    "title": "Small Businesses Are Testing AI. Productivity Gains Will Depend on the Details",
+    "dek": "AI tools promise faster administration and customer service, but smaller firms need a clear method to measure benefits and protect sensitive information.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T12:10:00",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "A small business may not be building its own AI model, but it can already use one to draft customer replies, organize appointments or summarize lengthy documents. For firms operating with limited staff, saving even a few hours a week could be meaningful. Whether those hours translate into improved profit is a different question.",
+      "Many small companies have little spare capacity for a lengthy technology rollout. A simple subscription is attractive because it avoids major upfront spending. Yet setup time, data quality, staff training and ongoing oversight can determine whether an inexpensive tool actually reduces costs.",
+      "Start with one repeatable process",
+      "A practical starting point is a task that happens often, has a clear quality standard and can be reviewed without substantial effort. Examples include preparing a first draft of routine correspondence, classifying incoming inquiries or creating a summary of non-sensitive internal notes.",
+      "Owners should document the baseline before adopting a tool: how long a task takes, how frequently errors occur and what the work costs. Then they can compare results during a limited pilot. Measuring saved minutes is useful, but checking accuracy and customer outcomes is essential.",
+      "The hidden workload",
+      "Generated text may contain incorrect details, and a plausible answer can take time to verify. An automation that produces ten drafts quickly may save little if a manager must inspect every line. A failed integration can also leave employees maintaining parallel manual and automated processes.",
+      "For sensitive customer and financial records, firms need to understand what information a service processes, where it is stored and which employees can access it. Contracts and vendor policies matter. Staff should have clear instructions about what cannot be entered into a general-purpose tool.",
+      "Pricing, dependence and competition",
+      "Subscription fees are easy to see; switching costs are harder to estimate. If a business restructures workflows around one vendor, a later price increase or product change could create disruption. Exportable records, clear procedures and the ability to switch providers can reduce that risk.",
+      "Some savings may also be competed away. If AI makes it cheaper for many businesses to produce similar marketing materials or answer routine requests, customers may expect faster service without paying more. The advantage may come less from owning an AI tool than from combining it with distinctive expertise and dependable execution.",
+      "A realistic decision framework",
+      "Evaluate three outcomes together: time saved after review, change in error or rework rates, and effect on revenue or customer satisfaction. Include subscription fees and employee training. If the improvement remains meaningful after those costs, a wider rollout may make sense.",
+      "AI can be useful to small firms without being revolutionary. The soundest investments solve a specific operational problem, preserve accountability and demonstrate measurable benefits before expanding."
+    ]
+  },
 ];
