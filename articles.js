@@ -5,6 +5,37 @@
  */
 const TTN_ARTICLES = [
   {
+    "id": "ai-data-center-electricity-demand-2026",
+    "title": "AI Data Centers Have a Power Problem. Here Is What the Numbers Mean for Investors",
+    "dek": "Electricity demand, grid connections and the cost of power are changing the economics of AI infrastructure.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-11T09:00:00",
+    "image": "",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "body": [
+      "An artificial intelligence data center can be designed around the most advanced processors on the market and still face a basic obstacle: getting enough electricity to run them. As technology companies invest in additional computing capacity, the availability, price and reliability of power are becoming as important to project economics as the chips themselves.",
+      "The scale of the change is substantial, although forecasts are not a promise that every planned facility will be built. In its 2025 Energy and AI report, the International Energy Agency estimated that data centers used roughly 415 terawatt-hours of electricity worldwide in 2024. Its base case projected demand rising to about 945 terawatt-hours by 2030, just under 3% of global electricity consumption.",
+      "A growing share of the U.S. grid",
+      "The United States faces particularly concentrated pressure. A Lawrence Berkeley National Laboratory report published in June 2026 estimated that data centers could account for 11.8% of U.S. electricity use by 2030. Its scenario range was 9.5% to 15.3%. These are model-based estimates, not metered consumption for 2030, and depend on future equipment shipments, efficiency and cooling requirements.",
+      "That distinction matters to investors. The demand for AI services may continue growing even if electricity consumption rises more slowly than expected. More efficient processors, better utilization, changes to model design and delays to construction can all alter the outcome. A forecast of power demand is a planning tool, not a revenue forecast for every data center developer.",
+      "Why a connection can matter more than a building",
+      "Large data centers need dependable access to transmission lines, substations and other infrastructure. A company may be able to finance a building and order servers faster than a utility can complete upgrades to the surrounding grid. If a facility is delayed, committed capital can sit idle while interest expense, property costs and contractual obligations continue.",
+      "Power costs also vary significantly by location. Two facilities with similar computing equipment can face different economics depending on local electricity tariffs, cooling conditions, grid congestion and available generation. A low headline power price is of limited value if the required capacity cannot be delivered when the facility is ready.",
+      "The business of supplying AI power",
+      "Electric utilities, grid equipment manufacturers, cooling suppliers and construction companies can all benefit from higher investment in computing infrastructure. But rising demand does not automatically translate into higher profit for any one supplier. Utilities may need regulatory approval before recovering construction expenses through rates. Equipment manufacturers may face capacity constraints of their own. Developers can misjudge how quickly contracted demand will turn into occupancy.",
+      "The allocation of costs is also a public policy question. New transmission facilities and generation projects have to be paid for. Regulators and utilities must decide what portion belongs with a large new customer and what portion, if any, is shared across other customers. Those decisions will influence both household electricity bills and the economics of data center expansion.",
+      "What investors should actually watch",
+      "Corporate announcements about future spending often receive more attention than the underlying project terms. The more useful questions are whether a project has secured an enforceable power agreement, when capacity is expected to become available, who bears the cost of grid upgrades and what happens if demand falls short.",
+      "For data center owners, cash flow after capital expenditure is an essential check on growth claims. For utilities, investors should examine regulatory filings, allowed returns, customer concentration and the timing of infrastructure recovery. For chipmakers, the key issue is whether customers can deploy purchased equipment on schedule and keep it economically productive.",
+      "A constraint, not a verdict",
+      "The electricity challenge does not prove that the AI boom will fail. It does mean that expanding AI computing is an industrial undertaking, with the same exposure to construction schedules, physical infrastructure and financing costs that affect other capital-intensive businesses. As the market moves beyond its initial enthusiasm for computing power, the companies that turn equipment and electricity into dependable customer revenue will have the stronger economic case.",
+      "Sources and further reading"
+    ]
+  },
+  {
     id: "fed-policy-2026",
     title: "How Fed Policy Shifts Ripple Through Stocks, Bonds, and Crypto",
     dek: "A look at why interest-rate decisions move nearly every asset class TTN tracks, and how to read the signals.",
