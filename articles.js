@@ -10,7 +10,7 @@ const TTN_ARTICLES = [
     "dek": "Electricity demand, grid connections and the cost of power are changing the economics of AI infrastructure.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T09:00:00",
-    "image": "",
+    "image": "assets/editorial/ai-data-center-power-grid.svg",
     "tickers": [
       "NASDAQ",
       "S&P 500"
