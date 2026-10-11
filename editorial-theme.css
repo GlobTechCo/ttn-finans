@@ -121,3 +121,20 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 .ttn-sidebar-article h3 a{color:var(--text);text-decoration:none}
 .ttn-sidebar-article h3 a:hover{color:var(--accent)}
 .ttn-sidebar-article time{font-size:11px;color:var(--text-faint)}
+
+/* Real editorial cards: thumbnail visible on both landing page and Tech & AI archive */
+.tech-ai-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.tech-ai-card{padding:0;overflow:hidden;display:flex;flex-direction:column;border-radius:9px}
+.tech-ai-card-media{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--surface-2)}
+.tech-ai-card-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.tech-ai-card:hover .tech-ai-card-media img{transform:scale(1.025)}
+.tech-ai-card-content{padding:17px 20px 20px;flex:1}
+.tech-ai-card-content h3{margin:13px 0 9px}
+.tech-ai-card-content h3 a{color:var(--text);text-decoration:none}
+.tech-ai-card-meta{margin-top:14px!important;color:var(--text-faint)!important;font-size:12px!important}
+.ttn-sidebar-article{display:grid;grid-template-columns:114px minmax(0,1fr);gap:12px;align-items:start}
+.ttn-sidebar-thumb{display:block;overflow:hidden;border-radius:5px;background:var(--surface-2);aspect-ratio:16/10}
+.ttn-sidebar-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ttn-sidebar-copy{min-width:0}
+.ttn-sidebar-article h3{margin:4px 0 7px;line-height:1.34}
+@media(max-width:700px){.tech-ai-grid{grid-template-columns:1fr}.ttn-sidebar-article{grid-template-columns:100px minmax(0,1fr)}}
