@@ -10,3 +10,15 @@ html[data-theme="dark"]{--bg:#101a29;--surface:#162337;--surface-2:#1c2d44;--bor
 .tech-ai-card p{color:var(--text-dim);font-size:13px}
 .tech-ai-intro{max-width:720px;color:var(--text-dim);font-size:15px;margin:8px 0 24px}
 @media(max-width:700px){.tech-ai-grid{grid-template-columns:1fr}.theme-switch{order:2}.nav-links{gap:14px}}
+
+/* Theme consistency and text contrast */
+html[data-theme="light"] .ttn-original-badge{color:#fff}
+html[data-theme="dark"] .ttn-original-badge{color:#0b1726}
+html[data-theme="light"] .broker-cta,html[data-theme="light"] .news-modal-source-link,html[data-theme="light"] #cookie-accept{color:#fff}
+html[data-theme="dark"] .broker-cta,html[data-theme="dark"] .news-modal-source-link,html[data-theme="dark"] #cookie-accept{color:#081321}
+html[data-theme="light"] .skeleton{background:linear-gradient(90deg,#edf1f6 25%,#dfe7ef 37%,#edf1f6 63%);background-size:400% 100%}
+html[data-theme="light"] .news-item:hover{border-color:#92a9c2}
+html[data-theme="dark"] .news-item:hover{border-color:#64809d}
+html[data-theme="light"] .thumb-crypto{background:linear-gradient(135deg,#d7d6f9,#b1c8f9)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media(max-width:700px){.theme-switch{margin-left:auto}.topnav{gap:8px}.tech-ai-card{padding:16px}}
