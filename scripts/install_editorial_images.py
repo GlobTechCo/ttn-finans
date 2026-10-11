@@ -16,7 +16,7 @@ MAPPING={
     "circular-ai-financing-explained":"assets/editorial/ai-infrastructure-investment.webp",
 }
 def replace_meta(html,key,value,property_name="property"):
-    pat=r'(<meta\\s+'+property_name+r'="'+re.escape(key)+r'"\\s+content=")[^"]*(")'
+    pat=r'(<meta\s+'+property_name+r'="'+re.escape(key)+r'"\s+content=")[^"]*(")'
     return re.sub(pat,lambda m:m.group(1)+value+m.group(2),html,count=1)
 def migrate():
     missing=[path for path in MAPPING.values() if not (ROOT/path).is_file()]
@@ -28,26 +28,26 @@ def migrate():
         page=ROOT/(slug+".html")
         if not page.is_file(): raise SystemExit("Missing article page; no files changed: "+str(page))
         old=page.read_text(encoding="utf-8")
-        new=re.sub(r'(<img\\b[^>]*\\bsrc=")https://images\\.pexels\\.com/[^"]+(")',lambda m:m.group(1)+image+m.group(2),old,count=1)
+        new=re.sub(r'(<img\b[^>]*\bsrc=")https://images\.pexels\.com/[^"]+(")',lambda m:m.group(1)+image+m.group(2),old,count=1)
         if '<img ' not in new or 'src="'+image+'"' not in new:
             # New articles may correctly have no image at all.
             position=new.find('<h1>')
             if position<0: raise SystemExit("Missing H1: "+slug)
             stop=new.find('</h1>',position)
-            new=new[:stop+5]+'\\n<img class="article-hero-image" src="'+image+'" loading="eager" decoding="async" width="1200" height="675" alt="Editorial illustration of '+slug.replace("-"," ")+'">'+new[stop+5:]
+            new=new[:stop+5]+'\n<img class="article-hero-image" src="'+image+'" loading="eager" decoding="async" width="1200" height="675" alt="Editorial illustration of '+slug.replace("-"," ")+'">'+new[stop+5:]
         full=BASE+image
         new=replace_meta(new,"og:image",full)
         new=replace_meta(new,"twitter:image",full,"name")
-        if '<meta property="og:image"' not in new:new=new.replace('</head>','<meta property="og:image" content="'+full+'">\\n</head>')
-        if '<meta name="twitter:image"' not in new:new.replace('</head>','<meta name="twitter:image" content="'+full+'">\\n</head>')
+        if '<meta property="og:image"' not in new:new=new.replace('</head>','<meta property="og:image" content="'+full+'">\n</head>')
+        if '<meta name="twitter:image"' not in new:new=new.replace('</head>','<meta name="twitter:image" content="'+full+'">\n</head>')
         # Update JSON-LD image only when present, otherwise preserve unrelated publisher metadata.
-        new=re.sub(r'("image"\\s*:\\s*)\\[?\\s*"https://images\\.pexels\\.com/[^"]+"\\s*\\]?',lambda m:m.group(1)+'"'+full+'"',new)
+        new=re.sub(r'("image"\s*:\s*)\[?\s*"https://images\.pexels\.com/[^"]+"\s*\]?',lambda m:m.group(1)+'"'+full+'"',new)
         start=js.find('id: "'+slug+'"')
         if start<0:raise SystemExit("Not found in article catalog: "+slug)
-        nxt=js.find('\\n  {',start+6)
+        nxt=js.find('\n  {',start+6)
         if nxt<0:nxt=len(js)
         part=js[start:nxt]
-        part,count=re.subn(r'(image:\\s*")[^"]+(")',lambda m:m.group(1)+image+m.group(2),part,count=1)
+        part,count=re.subn(r'(image:\s*")[^"]+(")',lambda m:m.group(1)+image+m.group(2),part,count=1)
         if count==0:raise SystemExit("Image entry not found for "+slug)
         js=js[:start]+part+js[nxt:]
         plan.append((page,new))
