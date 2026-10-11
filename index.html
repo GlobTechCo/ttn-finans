@@ -56,28 +56,7 @@
   });
 </script>
 
-<div class="tv-ticker-tape-wrap" id="ticker-strip">
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-  </div>
-</div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-{
-  "symbols": [
-    { "proName": "BINANCE:BTCUSDT", "title": "Bitcoin" },
-    { "proName": "BINANCE:ETHUSDT", "title": "Ethereum" },
-    { "proName": "FOREXCOM:SPXUSD", "title": "S&P 500" },
-    { "proName": "FOREXCOM:NSXUSD", "title": "Nasdaq" },
-    { "proName": "TVC:GOLD", "title": "Gold" },
-    { "proName": "FX:EURUSD", "title": "EUR/USD" }
-  ],
-  "showSymbolLogo": true,
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "en"
-}
-</script>
+<div class="tv-ticker-tape-wrap" id="ticker-strip" aria-label="Market price ticker"></div>
 <!-- chart-panel is inserted dynamically by chart.js -->
 
 <div class="market-summary" id="market-summary">
@@ -152,6 +131,7 @@
 <script src="articles.js"></script>
 <script src="chart.js"></script>
 <script src="tickers.js"></script>
+<script src="market-tape.js"></script>
 <script src="news.js"></script>
 <script src="market-summary.js"></script>
 <script src="articles-ui.js"></script>
