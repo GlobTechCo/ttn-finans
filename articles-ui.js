@@ -44,12 +44,14 @@ const TTNArticlesUI = (() => {
   // X/social and Google indexing see a real, unique URL per article instead
   // of everything pointing at index.html).
 
+  // Tech & AI has its own exclusive homepage/archive section.
+  const TECH_AI_IDS = new Set(["ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
   const HOMEPAGE_LIMIT = 4;
 
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
-    const sorted = [...TTN_ARTICLES].sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
     el.innerHTML = shown.map(
       (a) => `
@@ -66,7 +68,7 @@ const TTNArticlesUI = (() => {
     if (sorted.length > HOMEPAGE_LIMIT) {
       el.insertAdjacentHTML(
         "afterend",
-        `<a href="analysis.html" class="view-all-analysis">View all ${sorted.length} articles &rarr;</a>`
+        `<a href="analysis.html" class="view-all-analysis">View all ${sorted.length} market analysis articles &rarr;</a>`
       );
     }
 
