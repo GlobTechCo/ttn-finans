@@ -4,6 +4,129 @@
  * news feed, the full text lives here and can be shown on-site directly.
  */
 const TTN_ARTICLES = [
+{
+  "id": "ai-inference-unit-economics-2026",
+  "title": "The Cost of Running AI: Why Inference Economics Matter More Than a Model Demo",
+  "dek": "The financial test for generative AI is the cost of reliably completing real customer tasks, not just the expense of training a model.",
+  "author": "TTN Research Desk",
+  "date": "2026-10-12T09:00:00",
+  "image": "assets/editorial/ai-inference-unit-economics-2026.svg",
+  "tickers": [
+    "NASDAQ",
+    "S&P 500"
+  ],
+  "body": [
+    "An artificial intelligence model may be expensive to train, but training is only the start of its commercial life. Every time a customer asks a question, generates a report or runs an automated workflow, the system incurs inference costs. For products used millions of times, those recurring costs can determine whether rapid adoption becomes a sustainable business.",
+    "From model training to daily service",
+    "Training creates a model; inference delivers the product customers actually use. Investors examining an AI software company need to distinguish the headline cost of building a model from the ongoing cost of serving its users. A provider can demonstrate impressive growth in requests while spending nearly as much to supply the service as it collects in subscription revenue.",
+    "Requests have different resource requirements. A brief classification question and an assistant reviewing a lengthy contract do not require the same amount of processing. Input size, generated output, selected model and the number of tool calls all matter. An AI agent that retries a task several times can multiply its computing bill even when a customer pays for only one outcome.",
+    "The unit that matters",
+    "Providers frequently advertise prices per million tokens. That is a useful technical unit, but it says little about the economics of an entire workflow. A more meaningful measure is the full cost per successfully completed task, including model calls, retries, human review and any work required to correct errors.",
+    "Suppose an automated process appears to cost ten cents per task. If one in five tasks requires a staff member to spend several minutes correcting the result, the total operating cost may be much higher. A more capable but expensive model could be cheaper overall if it significantly reduces rework. Comparisons must use the same quality requirements.",
+    "How businesses can lower the bill",
+    "Some workloads can be routed to smaller models, repeated information can be cached, and software can avoid unnecessary requests. Infrastructure providers can improve throughput through better scheduling and hardware utilization. Each optimization introduces tradeoffs in accuracy, latency or engineering complexity, so testing under realistic conditions matters more than theoretical savings.",
+    "Flat-rate subscription plans offer customers predictability but expose vendors to heavy usage by a minority of accounts. Usage-based plans protect vendors yet make budgets harder to forecast. Hybrid pricing, combining a base subscription with transparent limits, may better align costs and customer value. The right arrangement depends on whether usage is steady or highly variable.",
+    "Who captures the margin?",
+    "The cloud operator owns costly infrastructure, the model developer supplies intelligence, and the application provider turns it into a workflow. Each layer faces different capital needs and negotiating power. A strong AI market does not guarantee that all three earn equally attractive margins, particularly when price competition transfers efficiency gains to customers.",
+    "What investors should watch",
+    "The strongest disclosures connect AI revenue to customer retention, computing expense, gross margin and usage that continues beyond an initial trial. A rising number of users is encouraging; a falling cost per successful task with stable quality is stronger evidence of a durable business. Companies should also explain how inference demand affects capital spending and future depreciation.",
+    "The takeaway",
+    "Generative AI can create substantial value even when individual providers struggle to capture it. The long-term winners are likely to be companies that repeatedly deliver useful results at a cost comfortably below what customers are willing to pay. That financial test is less glamorous than a model benchmark, but more relevant to shareholders."
+  ]
+},
+{
+  "id": "enterprise-ai-data-security-2026",
+  "title": "Corporate AI Has a Data Problem: The Security Rules Behind Real Adoption",
+  "dek": "AI assistants become useful by accessing business information. Permissions, audit logs and human approvals determine whether that value is safe to realize.",
+  "author": "TTN Research Desk",
+  "date": "2026-10-12T10:00:00",
+  "image": "assets/editorial/enterprise-ai-data-security-2026.svg",
+  "tickers": [
+    "NASDAQ",
+    "S&P 500"
+  ],
+  "body": [
+    "An AI assistant can summarize documents, search customer records and update internal systems. These capabilities make it useful to a company, but they also increase the consequences of mistakes. A model connected to confidential data and business software is not merely a chatbot: it is a new route through which information can be accessed and actions can be performed.",
+    "Why existing permissions still matter",
+    "Employees already have different rights to payroll records, customer contracts, product plans and financial statements. An AI search system should preserve those boundaries. The fact that a document is included in a searchable index must not automatically mean every employee can ask the model to summarize its contents.",
+    "Permissions need to apply when information is retrieved, not merely when a user opens the assistant. Systems should check which records the requesting person is authorized to see and prevent the model from receiving material outside that scope. This is an engineering requirement as well as a compliance question.",
+    "Agents need narrower authority",
+    "Reading an invoice, preparing a payment instruction and submitting that payment are three different activities. A business may safely allow an AI system to help with the first two while requiring explicit human approval for the third. Restricted tools, spending limits and confirmation screens reduce the risk of accidental or unauthorized actions.",
+    "Prompt injection is an operational risk",
+    "A malicious document or website can contain instructions intended to redirect an assistant away from its legitimate task. This is known as prompt injection. A system asked to summarize an untrusted page should not treat text on that page as permission to disclose internal data or execute new tool commands. Good defenses depend on separating instructions from data and enforcing tool permissions outside the model.",
+    "No single instruction to 'ignore malicious text' eliminates the problem. Organizations need controlled integrations, tests with adversarial examples and clear fallback behavior when a system cannot determine whether an action is authorized. Sensitive actions should remain reviewable even if ordinary low-risk steps are automated.",
+    "Auditability has a direct financial value",
+    "If an automated process makes a consequential mistake, a company needs to know who initiated the request, what information was retrieved, which tools were used and what the system returned. Useful logs make investigations possible and help firms distinguish model errors from missing data, employee mistakes or flawed workflow design.",
+    "Vendor decisions are governance decisions",
+    "Procurement teams should examine data retention, use of information for model training, incident reporting, subcontractors and the geographic handling of records. A provider suitable for drafting public marketing material may not be suitable for processing private financial or medical information. Businesses should evaluate a vendor against the actual sensitivity of each workflow.",
+    "What this means for AI companies",
+    "Enterprise customers may pay more for integrations with identity systems, permission-aware search, audit trails and controlled approval processes. These features add engineering cost but can reduce the expense of customer onboarding and prevent failed deployments. Investors should examine whether security capabilities contribute to renewals, rather than assuming every new AI feature creates durable revenue.",
+    "The takeaway",
+    "Corporate AI will advance when useful automation can be trusted with real business processes. Reliability and governance are not decorative extras added after a successful demo. They are part of the product's cost, competitiveness and ability to earn long-term customer revenue."
+  ]
+},
+{
+  "id": "ai-search-publisher-economics-2026",
+  "title": "AI Search Is Changing the Economics of the Open Web",
+  "dek": "Answer-first search can help users, but it also changes how publishers earn money when readers receive information without opening the original page.",
+  "author": "TTN Research Desk",
+  "date": "2026-10-12T11:00:00",
+  "image": "assets/editorial/ai-search-publisher-economics-2026.svg",
+  "tickers": [
+    "NASDAQ",
+    "S&P 500"
+  ],
+  "body": [
+    "For years, the economics of online publishing followed a familiar exchange. Search engines helped people discover articles, guides and tools. Publishers invested in that work, while advertising, subscriptions and direct sales helped pay for it. AI-generated answers introduce a new possibility: some users may get what they need before clicking through to a publisher.",
+    "Why clicks are part of the business model",
+    "A visit gives a publisher an opportunity to show an advertisement, explain its expertise, sell a subscription or develop a relationship with a reader. Losing a click is not necessarily the same as losing revenue, but for businesses funded mainly by display advertising, traffic is an important input. Changes to search results can therefore affect the economics of creating new material.",
+    "Not every search behaves the same way. A straightforward factual question may be answered in a paragraph. A person comparing financial products, researching a large purchase or evaluating a complex technical decision may still want original documents, evidence and independent analysis. Publishers should avoid treating all referral traffic as interchangeable.",
+    "Original reporting is expensive to replace",
+    "An AI answer can restate information, but original reporting often requires interviews, public-record research, expert review or data collection. If the organizations that create those inputs cannot earn enough to continue producing them, the information ecosystem may become less useful over time. That is a broader economic concern than the ranking of any single website.",
+    "How publishers should respond",
+    "Useful strategies include publishing distinctive reporting, showing primary sources, maintaining recognizable author and editorial information and offering tools or datasets that readers cannot get from a short summary. Publishing more generic pages simply to target more keywords is unlikely to create a durable competitive advantage.",
+    "Newsrooms and independent sites can also diversify how people find them. Direct visits, newsletters, bookmarks, social platforms and repeat readership make a publisher less dependent on any one referral channel. However, diversification takes time; it cannot immediately replace a large traffic decline.",
+    "What analytics need to measure",
+    "Publishers should watch organic-search visits, impressions, click-through rates, engaged time and revenue per visit together. A change in traffic may reflect a different mix of queries rather than a uniform loss of audience. Comparing pages that answer simple questions with pages offering detailed original analysis can reveal which types of content remain valuable.",
+    "The role of attribution",
+    "Links and clear citations help readers check where information originated and can provide a path toward the reporting behind an answer. They are not a complete solution to the funding problem, because appearing as a source does not guarantee a click or payment. Licensing agreements and other commercial arrangements may emerge, but their economics are likely to vary widely by publisher.",
+    "The lesson for financial publishers",
+    "For a financial information site, accuracy, transparent sourcing and clear distinctions between reporting and opinion are especially important. A page that explains uncertainty, methods and consequences can offer something more useful than a quick market headline. That is a better foundation for loyal readership than a volume-based strategy built around interchangeable summaries.",
+    "The takeaway",
+    "AI search may make information easier to access while changing who receives the economic value generated by that information. Sustainable publishers will need to offer work worth seeking out directly and measure whether audience attention converts into a business capable of funding the next story."
+  ]
+},
+{
+  "id": "robotics-ai-factory-roi-2026",
+  "title": "Robots Meet AI: The Difficult Economics of Automating a Factory",
+  "dek": "New AI-powered robotics promise flexibility, but the return on investment depends on uptime, integration and the cost of each task completed.",
+  "author": "TTN Research Desk",
+  "date": "2026-10-12T12:00:00",
+  "image": "assets/editorial/robotics-ai-factory-roi-2026.svg",
+  "tickers": [
+    "NASDAQ",
+    "S&P 500"
+  ],
+  "body": [
+    "A factory robot repeating a fixed movement is not new. Manufacturers have used industrial automation for decades. What makes the latest wave of AI-enabled robotics interesting is the possibility that a machine could adapt to more variable environments, identify unfamiliar objects and handle work that historically required frequent human intervention.",
+    "The difference between a demonstration and production",
+    "A convincing robotics video can show a machine finishing a difficult task once. A manufacturer needs it to complete the same task reliably over thousands of shifts, alongside people and other equipment. Minor failures, downtime, maintenance and a need for supervision can change the financial case even when the underlying technology works.",
+    "The full investment extends beyond the purchase price of the robot. Companies may need sensors, safety systems, charging equipment, redesigned production areas, software integration and employee training. In some facilities, stopping an existing production line to install automation carries a major opportunity cost.",
+    "Measuring unit economics",
+    "A useful starting metric is total cost per acceptable unit of output. The numerator should include equipment depreciation, energy, software fees, maintenance, engineering support and human supervision. The denominator should count work that passes the factory's quality requirements, not merely movements completed by a robot.",
+    "Utilization matters. An expensive machine that runs one shift a day may produce a poor return even if it performs well during that shift. A less sophisticated machine operating predictably across multiple shifts can offer a stronger economic result. The comparison needs to reflect the plant's actual working pattern.",
+    "Safety and operating constraints",
+    "Robots operating near employees need tested protective measures and clear procedures for unusual conditions. Physical systems can cause harm when they fail, which means safety cannot be treated like a software feature that is patched after launch. Human oversight, controlled testing and maintenance records remain essential.",
+    "Where AI could add value",
+    "AI perception and planning may help robots manage changing objects, inspect products, transport materials or assist with tasks that are difficult to script in advance. But every added capability introduces more things to test. A flexible robot has value only when that flexibility offsets its higher system and operating costs.",
+    "Who benefits from spending",
+    "Automation projects can benefit component makers, industrial software vendors, sensor suppliers and systems integrators. Competition may lower selling prices, while customers may demand guarantees about uptime and performance. Equipment shipments alone cannot establish that suppliers or their clients will earn attractive returns.",
+    "How to evaluate a pilot",
+    "A credible pilot compares work completed before and after installation, accounts for quality and downtime and records how often employees must intervene. Companies should assess the payback period under realistic demand, not just under ideal 24-hour utilization assumptions. Smaller improvements in safety and consistency can also matter, provided they are measured rather than assumed.",
+    "The takeaway",
+    "AI-enabled robotics could expand the range of factory work that can be automated. The commercial winners, however, will be determined by reliable output, manageable integration costs and a credible return on invested capital—not by the most impressive demonstration."
+  ]
+},
   {
     "id": "ai-data-center-electricity-demand-2026",
     "title": "AI Data Centers Have a Power Problem. Here Is What the Numbers Mean for Investors",
