@@ -1404,7 +1404,7 @@ const TTN_ARTICLES = [
     dek: "Nasdaq halted a five-day slide simply waiting for Nvidia's earnings this week. Here's how index weighting works, why the top 10 stocks now make up roughly 40% of the S&P 500, and what that concentration means for anyone who assumes an index fund is automatically diversified.",
     author: "TTN Research Desk",
     date: "2026-08-22T09:00:00",
-    image: "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg",
+    image: "assets/editorial/sp500-concentration-risk-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "The Nasdaq 100 halted a five-day slide this week largely by waiting: traders held off making major moves ahead of Nvidia's earnings report, a single company's results treated as consequential enough to shape sentiment across an index built from 100 different businesses. This isn't a fluke of investor psychology; it's a direct, mechanical consequence of how the S&P 500 and Nasdaq are actually built, and understanding the weighting mechanism explains why a headline like 'the market rose today' can really mean 'a handful of companies rose today.'",
@@ -1423,7 +1423,7 @@ const TTN_ARTICLES = [
     dek: "US national debt just crossed $40 trillion, and Treasury Secretary Bessent says the country can grow its way out of it while others warn of a debt spiral. Here's the specific arithmetic, built around one comparison, that actually determines which claim is right.",
     author: "TTN Research Desk",
     date: "2026-08-22T11:00:00",
-    image: "https://images.pexels.com/photos/7111954/pexels-photo-7111954.jpeg",
+    image: "assets/editorial/debt-spiral-r-versus-g-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "US national debt crossed 40 trillion dollars this week, having more than doubled in less than a decade, prompting Treasury Secretary Bessent to argue the country can 'grow our way out of that,' while other economists have warned the trajectory increasingly resembles the early stages of what's technically called a debt spiral. Building directly on TTN's earlier pieces on the budget deficit and global bond yields, both claims can actually be evaluated with a specific, well-defined piece of arithmetic economists use to judge debt sustainability, rather than treated as a matter of pure opinion.",
@@ -1442,7 +1442,7 @@ const TTN_ARTICLES = [
     dek: "The Jackson Hole Economic Symposium isn't an official policy meeting, yet its keynote speech has triggered some of the sharpest single-day market moves of the past two decades. Here's why an informal gathering carries that much weight.",
     author: "TTN Research Desk",
     date: "2026-08-23T09:00:00",
-    image: "https://images.pexels.com/photos/16847589/pexels-photo-16847589.jpeg",
+    image: "assets/editorial/jackson-hole-symposium-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Every August, the world's most powerful central bankers trade boardrooms for a rustic conference center in Jackson Hole, Wyoming, for an event that isn't an official policy meeting at all, yet has repeatedly moved markets more sharply than some actual Federal Open Market Committee decisions covered in TTN's earlier Fed policy piece. Understanding why an informal academic symposium carries this much weight explains one of the more unusual, calendar-driven volatility events markets face each year.",
@@ -1461,7 +1461,7 @@ const TTN_ARTICLES = [
     dek: "US-Canada trade talks collapsed this week, with retaliatory tariffs set to begin September 8. Here's the mechanism behind who really pays a tariff, and why the honest answer is more complicated than either 'the foreign country' or 'the consumer.'",
     author: "TTN Research Desk",
     date: "2026-08-24T09:00:00",
-    image: "https://images.pexels.com/photos/6595779/pexels-photo-6595779.jpeg",
+    image: "assets/editorial/tariffs-who-actually-pays-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "US-Canada trade talks collapsed this week, with Canadian Prime Minister Mark Carney announcing retaliatory tariffs set to take effect September 8. Headlines describing who tariffs 'target' can make it sound as though the named country simply writes a check to the country imposing them. The actual mechanism runs through ordinary businesses first, and tracing that mechanism explains why economists spend so much energy correcting a genuinely persistent misconception about how tariffs work.",
@@ -1480,7 +1480,7 @@ const TTN_ARTICLES = [
     dek: "Bitcoin jumped from roughly $64,000 to nearly $78,000 in a matter of days. Here's how a legislative push, a new SEC rulebook, and a Treasury bond operation converged into one of the sharpest crypto moves of the year.",
     author: "TTN Research Desk",
     date: "2026-08-24T11:00:00",
-    image: "https://images.pexels.com/photos/8175569/pexels-photo-8175569.jpeg",
+    image: "assets/editorial/crypto-rally-three-catalysts-explained.webp",
     tickers: ["BTC", "ETH"],
     body: [
       "Bitcoin climbed from roughly 64,000 dollars in early August to nearly 78,000 dollars by August 21, a move of more than 20 percent in under three weeks, with Ethereum and XRP posting even sharper single-day gains along the way. A rally this size and this fast rarely traces back to one clean cause, and this one is a useful case study in exactly that: three genuinely separate developments, a legislative push, a new regulatory framework, and a bond market operation, landed in close succession and reinforced each other.",
@@ -1499,7 +1499,7 @@ const TTN_ARTICLES = [
     dek: "Citadel unwound over 80% of a massive, forced hedge fund liquidation through more than 100 separate trades, without the stock prices involved visibly crashing. Here's the block trade mechanism that makes moving that much money quietly possible.",
     author: "TTN Research Desk",
     date: "2026-08-24T13:00:00",
-    image: "https://images.pexels.com/photos/4577716/pexels-photo-4577716.jpeg",
+    image: "assets/editorial/block-trades-dark-pools-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Citadel founder Ken Griffin disclosed in a client letter this week that his firm had unwound more than 80 percent of the risk from a massive portfolio it acquired from a hedge fund called Situational Awareness, which had been forced to sell its entire public stock position after facing steep losses. Citadel executed the unwind through more than 100 separate block trades worth over 4 billion dollars in market value, an operation of this size accomplished without the kind of visible, market-wide price crash that dumping billions of dollars of stock onto the open market all at once would typically cause. The mechanism behind how that's actually possible is worth understanding directly.",
@@ -1518,7 +1518,7 @@ const TTN_ARTICLES = [
     dek: "Yields fell for a second straight day this week on reports the Treasury might tap its $1 trillion account at the Fed to fund bond buybacks. Here's how the TGA works, and why economists call it a hidden lever on market liquidity separate from anything the Fed itself decides.",
     author: "TTN Research Desk",
     date: "2026-08-25T09:00:00",
-    image: "https://images.pexels.com/photos/14866072/pexels-photo-14866072.jpeg",
+    image: "assets/editorial/treasury-general-account-liquidity-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "The 10-year Treasury yield fell for a second consecutive day this week after CNBC reported the Treasury Department could use its roughly 1 trillion dollar General Account to help fund the debt buyback operation covered in TTN's earlier piece. That single detail, which specific account the money comes from, might sound like a technicality, but it points to a genuinely important, under-explained piece of financial plumbing: the Treasury General Account, a mechanism economists increasingly describe as a hidden lever on market liquidity that operates independently of anything the Federal Reserve itself decides.",
@@ -1537,7 +1537,7 @@ const TTN_ARTICLES = [
     dek: "Brazil just cut rates for a fourth straight meeting, yet its policy rate still sits at 14%, among the highest of any major economy. Here's the emerging-market carry trade this gap creates, and the specific number that separates a genuine yield advantage from an illusion.",
     author: "TTN Research Desk",
     date: "2026-08-26T09:00:00",
-    image: "https://images.pexels.com/photos/8571281/pexels-photo-8571281.jpeg",
+    image: "assets/editorial/emerging-market-carry-trade-explained.webp",
     tickers: ["EUR/USD", "GOLD"],
     body: [
       "Brazil's central bank cut its benchmark Selic rate to 14.00 percent this month, the fourth consecutive quarter-point reduction from a 15.00 percent peak, and even after four straight cuts, that rate remains among the highest of any major economy, dwarfing the Fed's 3.50-to-3.75 percent range covered throughout TTN's rate coverage. This gap is the foundation of one of the largest, most consequential trades in emerging-market finance, and building directly on TTN's earlier piece on the yen carry trade, it's worth walking through why a considerably riskier version of that same trade draws global capital toward markets like Brazil, and the specific number that determines when it stops working.",
@@ -1556,7 +1556,7 @@ const TTN_ARTICLES = [
     dek: "A 2-year Treasury and a 30-year Treasury react to the same rate news in wildly different ways, and one number explains exactly how much. Here's what duration actually measures, and why it's been the quiet mechanism behind nearly every bond story TTN has covered.",
     author: "TTN Research Desk",
     date: "2026-08-27T09:00:00",
-    image: "https://images.pexels.com/photos/6289070/pexels-photo-6289070.jpeg",
+    image: "assets/editorial/bond-duration-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Nearly every piece TTN has published on bonds, the Treasury yield spike, the yield curve inversion, TIPS, the global bond selloff, has referenced the fact that longer-term bonds move more sharply than shorter-term ones for the same change in interest rates, without fully explaining the single number that quantifies exactly how much more. That number is duration, and understanding it directly fills in the mechanical foundation underneath essentially all of TTN's bond coverage.",
@@ -1576,7 +1576,7 @@ const TTN_ARTICLES = [
     dek: "PayPal shares slumped as much as 16% after Advent and Stripe abandoned their pursuit of the company. Here's the merger arbitrage spread that had been pricing in the deal, and why professionals call this strategy 'picking up pennies in front of a bulldozer.'",
     author: "TTN Research Desk",
     date: "2026-08-28T09:00:00",
-    image: "https://images.pexels.com/photos/36633901/pexels-photo-36633901.jpeg",
+    image: "assets/editorial/merger-arbitrage-deal-spread-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "PayPal shares slumped as much as 16 percent this week after reports that Advent International and Stripe had abandoned their pursuit of the company, erasing a takeover premium the stock had been carrying since acquisition speculation first emerged. Building on TTN's earlier piece on how mergers create or destroy value, this specific pattern, a target's stock falling sharply the moment a deal collapses, is the visible endpoint of a strategy institutional investors run constantly and rarely explain in plain terms: merger arbitrage.",
@@ -1595,7 +1595,7 @@ const TTN_ARTICLES = [
     dek: "The Ninth Circuit just ruled states can regulate prediction markets as gambling, directly contradicting an April ruling from the Third Circuit. Here's what a 'circuit split' actually means, and why this one strikes at the legal foundation TTN's earlier prediction markets piece was built on.",
     author: "TTN Research Desk",
     date: "2026-08-30T09:00:00",
-    image: "https://images.pexels.com/photos/33678872/pexels-photo-33678872.jpeg",
+    image: "assets/editorial/prediction-markets-circuit-split-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "The Ninth Circuit Court of Appeals ruled Friday that Nevada can regulate Kalshi's sports-related prediction market contracts as gambling, directly contradicting an April ruling from the Third Circuit that found only the federal Commodity Futures Trading Commission has jurisdiction over the same kind of contracts. TTN's earlier piece on prediction markets touched on Kalshi's status as a CFTC-regulated exchange, a legal classification that's precisely what this new ruling calls into question. Understanding what a circuit split actually means, and why this particular one cuts to the core of how these platforms are allowed to operate, explains why legal analysts now consider a Supreme Court showdown all but inevitable.",
@@ -1640,7 +1640,7 @@ const TTN_ARTICLES = [
     dek: "A CEO transition can send a stock up or down within hours of the announcement, often before the new leader has made a single decision. Here's what the data actually shows about how much CEO changes move share prices, and which kind of transition matters most.",
     author: "TTN Research Desk",
     date: "2026-09-05T11:00:00",
-    image: "https://images.pexels.com/photos/20297117/pexels-photo-20297117.jpeg",
+    image: "assets/editorial/ceo-succession-stock-impact-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "A CEO succession announcement can move a company's stock within hours, often before the incoming leader has made a single substantive decision, purely on the market's read of what the change signals. Understanding what the data actually shows about the size and direction of these moves, and which specific factors drive the difference between a rally and a selloff, explains a recurring pattern in markets that gets covered constantly but rarely quantified.",
@@ -1659,7 +1659,7 @@ const TTN_ARTICLES = [
     dek: "The first jump in gas prices from an oil shock is only the direct effect. Here's the slower, second-round mechanism, running through transportation costs and wages, that determines whether a temporary energy spike turns into a lasting inflation problem.",
     author: "TTN Research Desk",
     date: "2026-09-05T13:00:00",
-    image: "https://images.pexels.com/photos/11116153/pexels-photo-11116153.jpeg",
+    image: "assets/editorial/second-round-inflation-effects-explained.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "TTN's earlier pieces on the Middle East oil shock and CPI explained why an energy spike shows up quickly in headline inflation. What those pieces touched on more briefly is a slower, more consequential mechanism economists watch just as closely: the second-round effect, the delayed, indirect way an initial energy shock spreads into the broader price level over the following months, and the specific factor that determines whether it fades quickly or turns into a lasting problem.",
@@ -1678,7 +1678,7 @@ const TTN_ARTICLES = [
     dek: "Oil is back near $100 while US inflation remains elevated and long-term Treasury yields sit near multi-decade highs. The risk is no longer just gasoline prices.",
     author: "TTN Research Desk",
     date: "2026-10-06T09:00:00",
-    image: "assets/editorial/ttn-oil-inflation-2026.jpg",
+    image: "assets/editorial/oil-near-100-inflation-2026.webp",
     tickers: ["OIL", "S&P 500", "GOLD"],
     body: [
       "Oil is back near a level that changes the macroeconomic conversation. Brent crude was around $99.91 a barrel on October 6 after briefly moving above $100, while US Treasury yields retreated slightly from multi-decade highs. The important story is not simply that fuel has become more expensive. It is that an energy shock is arriving at the same time as inflation is still above the Federal Reserve's comfort zone and investors are demanding unusually high compensation to hold long-term government debt.",

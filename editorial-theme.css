@@ -141,3 +141,6 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 
 /* Original Tech & AI photography: preserve full-resolution 16:9 framing. */
 .tech-ai-editorial-figure{margin:24px 0}.tech-ai-editorial-figure .article-hero-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:8px}.tech-ai-editorial-figure figcaption{margin-top:7px;font-size:12px;color:var(--muted,#6b7280)}
+
+/* TTN Original editorial photography. */
+.ttn-editorial-figure{margin:24px 0}.ttn-editorial-figure .article-hero-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:8px}.ttn-editorial-figure figcaption{margin-top:7px;font-size:12px;color:var(--text-faint,#6b7280)}
