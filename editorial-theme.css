@@ -96,3 +96,15 @@ body{background:var(--bg)}
 .ttn-tv-content tv-ticker-tape{display:block;min-height:54px;width:100%;color-scheme:light}
 html[data-theme="dark"] .ttn-tv-content tv-ticker-tape{color-scheme:dark}
 @media(max-width:750px){.ttn-wordmark{min-width:unset;gap:8px}.ttn-wordmark-symbol{width:35px;height:36px}.ttn-wordmark-name{font-size:24px}.ttn-wordmark-name small span{display:none}.ttn-market-band-label{padding:0 12px;font-size:9px}}
+
+/* Approved brand from TTN Finance visual reference, October 2026 */
+.topnav .ttn-brand-clean{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;min-width:244px;text-decoration:none!important;flex-shrink:0}
+.ttn-brand-title{display:flex;align-items:baseline;gap:5px;white-space:nowrap;font-family:Inter,Arial,sans-serif;font-size:clamp(26px,2.45vw,37px);font-weight:800;line-height:1.05;letter-spacing:-.048em}
+.ttn-brand-ttn{color:#112b51}
+.ttn-brand-finance{color:#0662d7}
+.ttn-brand-tagline{display:block;font-family:Inter,Arial,sans-serif;font-size:11px;line-height:1.4;font-weight:400;letter-spacing:-.025em;color:#697992;white-space:nowrap;padding-left:3px}
+html[data-theme="dark"] .ttn-brand-ttn{color:#f0f5ff}
+html[data-theme="dark"] .ttn-brand-finance{color:#71adff}
+html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
+@media(max-width:950px){.topnav .ttn-brand-clean{min-width:auto}.ttn-brand-title{font-size:28px}.ttn-brand-tagline{font-size:10px}}
+@media(max-width:450px){.ttn-brand-title{font-size:25px}.ttn-brand-tagline{font-size:9px}}
