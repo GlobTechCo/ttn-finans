@@ -49,3 +49,32 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 .static-page>img,.static-page>.article-hero-image{width:100%;height:auto;object-fit:contain;border-radius:8px;max-height:none}
 .static-page .article-tickers{margin:22px 0}
 @media(max-width:700px){.static-page{padding:30px 18px 58px}.static-page>h1{font-size:clamp(1.8rem,7vw,2.4rem)}.static-page>p{line-height:1.7}}
+
+/* TTN editorial visual system — consistent across light and dark themes */
+:root{--ttn-shadow:0 12px 34px rgba(24,54,89,.07)}
+html[data-theme="dark"]{--ttn-shadow:0 14px 36px rgba(0,0,0,.22)}
+body{background:var(--bg)}
+.container{gap:28px}
+.featured,.analysis-card,.news-item,.sidebar-block,.market-summary,.tech-ai-card{border-color:var(--border);box-shadow:var(--ttn-shadow)}
+.section-title{color:var(--text)}
+.topnav{box-shadow:0 1px 0 var(--border)}
+.search-box:focus-within{border-color:var(--accent)}
+/* First-party market tape. No TradingView iframe in the header. */
+.tv-ticker-tape-wrap{display:flex;align-items:center;min-height:61px;background:var(--surface);border-bottom:1px solid var(--border);overflow:hidden;color:var(--text)}
+.ttn-ticker-label{display:flex;align-items:center;gap:9px;flex:0 0 auto;padding:0 21px;font:700 11px/1.2 "IBM Plex Mono",monospace;letter-spacing:.11em;color:var(--text-dim);border-right:1px solid var(--border);height:38px}
+.ttn-live-dot{height:7px;width:7px;border-radius:50%;background:var(--up);box-shadow:0 0 0 3px color-mix(in srgb,var(--up) 15%,transparent)}
+.ttn-ticker-window{overflow:hidden;flex:1;min-width:0;mask-image:linear-gradient(to right,transparent,#000 2%,#000 98%,transparent)}
+.ttn-ticker-track{display:flex;align-items:stretch;width:max-content;animation:ttn-tape-scroll 43s linear infinite}
+.ttn-ticker-window:hover .ttn-ticker-track,.ttn-ticker-window:focus-within .ttn-ticker-track{animation-play-state:paused}
+.ttn-ticker-item{display:flex;align-items:center;gap:10px;white-space:nowrap;min-width:188px;padding:16px 18px;background:transparent;border:0;border-right:1px solid var(--border);cursor:pointer;font:inherit;text-align:left;color:var(--text)}
+.ttn-ticker-item:hover,.ttn-ticker-item:focus-visible{background:var(--surface-2)}
+.ttn-ticker-name{font-size:12px;font-weight:600;color:var(--text-dim)}
+.ttn-ticker-value{font:600 13px "IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.ttn-ticker-change{font:700 11px "IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.ttn-ticker-item.up .ttn-ticker-change{color:var(--up)}
+.ttn-ticker-item.down .ttn-ticker-change{color:var(--down)}
+.ttn-ticker-item.unavailable .ttn-ticker-value{color:var(--text-faint)}
+.ttn-ticker-attribution{color:var(--text-faint);font-size:10px;padding:0 15px;white-space:nowrap}
+@keyframes ttn-tape-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ttn-ticker-track{animation:none}.ttn-ticker-window{overflow-x:auto;mask-image:none}}
+@media(max-width:750px){.ttn-ticker-attribution{display:none}.ttn-ticker-label{padding:0 11px;font-size:10px}.ttn-ticker-item{min-width:167px;padding:14px 12px}}
