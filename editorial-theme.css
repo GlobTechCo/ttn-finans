@@ -1,7 +1,7 @@
 /* TTN editorial design: shared palette and accessible theme switch */
 :root{--bg:#f6f8fb;--surface:#fff;--surface-2:#eef2f7;--border:#dce3ec;--text:#122238;--text-dim:#4e6076;--text-faint:#64748b;--accent:#1359a8;--accent-dim:#aac8e9;--up:#087b58;--down:#c53645;--font-display:"Inter",Arial,sans-serif;color-scheme:light}
 html[data-theme="dark"]{--bg:#101a29;--surface:#162337;--surface-2:#1c2d44;--border:#33445b;--text:#f0f5fc;--text-dim:#b7c6d9;--text-faint:#9eafc3;--accent:#79b9ff;--accent-dim:#365e89;--up:#3cddb0;--down:#ff7e88;color-scheme:dark}
-.theme-switch{border:1px solid var(--border);background:var(--surface-2);color:var(--text);padding:8px 10px;border-radius:6px;cursor:pointer;font:600 12px Inter,sans-serif;white-space:nowrap}
+.theme-switch{display:inline-flex;align-items:center;gap:0;min-height:34px;border:1px solid var(--border);background:transparent;color:var(--text-dim);padding:3px;border-radius:2px;cursor:pointer;font:600 10px Inter,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;flex-shrink:0}
 .theme-switch:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .tech-ai-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 36px}
 .tech-ai-card{background:var(--surface);border:1px solid var(--border);padding:18px;border-radius:8px}
@@ -179,3 +179,6 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 }
 html[data-theme="light"] #ticker-strip{color-scheme:light}
 html[data-theme="dark"] #ticker-strip{color-scheme:dark}
+
+/* Restrained, text-only appearance selector across desktop and mobile. */
+.theme-switch-option{display:block;padding:6px 9px;line-height:1.2;border-radius:1px}.theme-switch-option.is-active{background:var(--text);color:var(--surface)}.theme-switch:hover{border-color:var(--text-dim)}.theme-switch:focus-visible{outline:2px solid var(--text);outline-offset:3px}
