@@ -163,6 +163,10 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 #ticker-strip tv-ticker-tape{
   display:block;width:100%;min-height:58px;
   --tv-widget-background-color:var(--surface);
+  --tv-widget-hover-background-color:var(--surface-2);
+  --tv-widget-border-color:var(--border);
+  --tv-widget-attribution-border-color:var(--border);
+  --tv-widget-link-color:var(--accent);
   --tv-widget-popup-background-color:var(--surface);
   --tv-widget-text-color:var(--text);
   --tv-widget-price-text-color:var(--text);
