@@ -14,7 +14,7 @@ const TTNArticlesUI = (() => {
       .map((label) => {
         const entry = TTN_CONFIG.TICKER_DICTIONARY.find((d) => d.label === label);
         if (!entry) return "";
-        return `<span class="article-ticker-tag" data-tv="${entry.tvSymbol}" data-label="${label}"><b>${label}</b></span>`;
+        return `<span class="article-ticker-tag" role="button" tabindex="0" data-tv="${entry.tvSymbol}" data-label="${label}"><b>${label}</b></span>`;
       })
       .join("")}</div>`;
   }

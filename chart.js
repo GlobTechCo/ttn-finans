@@ -104,6 +104,24 @@ const TTNChart = (() => {
     document.querySelectorAll(".ticker-cell.active").forEach((c) => c.classList.remove("active"));
   }
 
+  // TradingView web components expose a cancelable symbol-navigation event.
+  // Keep ticker-tape charts on TTN, using the same panel as article tickers.
+  document.addEventListener("tv-link-open", (event) => {
+    if (event.detail?.context?.widget !== "tv-ticker-tape") return;
+    const symbol = event.detail.context.symbol;
+    if (typeof symbol !== "string" || !symbol.includes(":")) return;
+    event.preventDefault();
+    const labels = {
+      "FOREXCOM:SPXUSD": "S&P 500",
+      "FOREXCOM:NSXUSD": "Nasdaq",
+      "CMCMARKETS:GOLD": "Gold",
+      "BITSTAMP:BTCUSD": "Bitcoin",
+      "BITSTAMP:ETHUSD": "Ethereum",
+      "FX:EURUSD": "EUR/USD",
+    };
+    open(symbol, labels[symbol] || symbol.split(":").pop());
+  });
+
   // Article ticker tags use the same chart panel. Event delegation keeps this
   // working on standalone article pages and avoids depending on page-specific JS.
   document.addEventListener("click", (event) => {
