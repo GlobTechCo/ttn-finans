@@ -182,3 +182,12 @@ html[data-theme="dark"] #ticker-strip{color-scheme:dark}
 
 /* Restrained, text-only appearance selector across desktop and mobile. */
 .theme-switch-option{display:block;padding:6px 9px;line-height:1.2;border-radius:1px}.theme-switch-option.is-active{background:var(--text);color:var(--surface)}.theme-switch:hover{border-color:var(--text-dim)}.theme-switch:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+
+/* Consistent editorial hover and readable article ticker labels in both themes. */
+.analysis-card{transition:border-color .15s ease,transform .15s ease}
+.analysis-card:hover,.analysis-card:focus-within,.tech-ai-card:focus-within{border-color:var(--accent);transform:translateY(-2px)}
+.article-ticker-tag{color:var(--accent)}
+.article-ticker-tag b{color:var(--accent)}
+.article-ticker-tag:hover{border-color:var(--accent)}
+@media(max-width:700px){.analysis-card:hover,.analysis-card:focus-within,.tech-ai-card:focus-within{transform:none}}
+@media(prefers-reduced-motion:reduce){.analysis-card,.tech-ai-card,.tech-ai-card-media img,.article-ticker-tag{transition:none}.analysis-card:hover,.analysis-card:focus-within,.tech-ai-card:hover,.tech-ai-card:focus-within,.tech-ai-card:hover .tech-ai-card-media img,.article-ticker-tag:hover{transform:none}}
