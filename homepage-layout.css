@@ -8,6 +8,7 @@
 .home-editorial-section .section-title{margin-bottom:18px}
 .home-editorial-section .analysis-grid,.home-editorial-section .tech-ai-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-bottom:18px}
 .home-editorial-section .analysis-card{display:flex;flex-direction:column}
+.home-editorial-section .analysis-card .ttn-original-badge{align-self:flex-start}
 .home-editorial-section .analysis-card .news-meta{margin-top:auto;padding-top:10px}
 .home-editorial-section .analysis-card h3{font-size:17px;line-height:1.4}
 .home-editorial-section .analysis-card>img{height:150px!important;aspect-ratio:16/9}
