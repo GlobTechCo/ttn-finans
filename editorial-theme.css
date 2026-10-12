@@ -159,7 +159,7 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 .chart-panel{scroll-margin-top:80px}
 
 /* Quotes and asset logos use TradingView; colors follow TTN exactly. */
-#ticker-strip .ttn-live-tape{flex:1;min-width:0;overflow:hidden}
+#ticker-strip .ttn-live-tape{flex:1;min-width:0;height:58px;overflow:hidden}
 #ticker-strip tv-ticker-tape{
   display:block;width:100%;min-height:58px;
   --tv-widget-background-color:var(--surface);
