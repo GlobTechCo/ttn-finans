@@ -44,7 +44,7 @@ const TTNChart = (() => {
     // script failing to load) still leaves the panel visibly open
     // and scrolled to, instead of silently doing nothing.
     panel.classList.add("open");
-    panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
 
     // Fully replace the container node (not just clear its innerHTML) —
     // TradingView's widget script doesn't always reinitialize cleanly in a
@@ -56,6 +56,7 @@ const TTNChart = (() => {
     oldContainer.replaceWith(freshContainer);
 
     const build = () => {
+      if (currentSymbol !== tvSymbol || document.getElementById("tv-chart-container") !== freshContainer) return;
       try {
         if (!window.TradingView || typeof window.TradingView.widget !== "function") throw new Error("TradingView unavailable");
         new TradingView.widget({
@@ -138,6 +139,15 @@ const TTNChart = (() => {
     event.preventDefault();
     open(tag.dataset.tv, tag.dataset.label || tag.textContent.trim());
   });
+
+  function prepareTags() {
+    document.querySelectorAll(".article-ticker-tag").forEach((tag) => {
+      tag.setAttribute("role", "button");
+      tag.setAttribute("tabindex", "0");
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", prepareTags);
+  else prepareTags();
 
   return { open, close };
 })();
