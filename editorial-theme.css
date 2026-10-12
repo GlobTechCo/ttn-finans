@@ -157,3 +157,21 @@ html[data-theme="dark"] .ttn-brand-tagline{color:#a4b1c6}
 @media(max-width:750px){.ttn-ticker-item{min-width:200px}}
 @media(prefers-reduced-motion:reduce){.ttn-ticker-group[aria-hidden="true"]{display:none}}
 .chart-panel{scroll-margin-top:80px}
+
+/* Quotes and asset logos use TradingView; colors follow TTN exactly. */
+#ticker-strip .ttn-live-tape{flex:1;min-width:0;overflow:hidden}
+#ticker-strip tv-ticker-tape{
+  display:block;width:100%;min-height:58px;
+  --tv-widget-background-color:var(--surface);
+  --tv-widget-popup-background-color:var(--surface);
+  --tv-widget-text-color:var(--text);
+  --tv-widget-price-text-color:var(--text);
+  --tv-widget-accent-color:var(--accent);
+  --tv-widget-positive-color:var(--up);
+  --tv-widget-negative-color:var(--down);
+  --tv-widget-font-family:Inter,Arial,sans-serif;
+  --tv-widget-tooltip-text-color:var(--text);
+  --tv-widget-tooltip-background-color:var(--surface-2);
+}
+html[data-theme="light"] #ticker-strip{color-scheme:light}
+html[data-theme="dark"] #ticker-strip{color-scheme:dark}
