@@ -1,92 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Options Basics: What Calls and Puts Actually Mean - TTN</title>
-<meta name="description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Calls, Puts and the Price of an Option | TTN Finance</title>
+<meta content="The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="Options Basics: What Calls and Puts Actually Mean">
-<meta property="og:description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html">
-
+<meta content="article" property="og:type"/>
+<meta content="Calls, Puts and the Price of an Option" property="og:title"/>
+<meta content="The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Options Basics: What Calls and Puts Actually Mean">
-<meta name="twitter:description" content="Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Options Basics: What Calls and Puts Actually Mean", "description": "Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter (AI-generated editorial image)"}, "datePublished": "2026-08-04T09:00:00", "dateModified": "2026-08-04T09:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="Close editorial view of a broker&#x27;s hands discussing printed option payoff sketches at a client-service counter">
-<meta name="twitter:image:alt" content="Close editorial view of a broker&#x27;s hands discussing printed option payoff sketches at a client-service counter">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Calls, Puts and the Price of an Option" name="twitter:title"/>
+<meta content="The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter" property="og:image:alt"/>
+<meta content="Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Calls, Puts and the Price of an Option", "description": "The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller.", "datePublished": "2026-08-04T09:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/options-calls-puts-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter (AI-generated editorial image)"}, "citation": ["https://www.optionseducation.org/optionsoverview/options-basics"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>Options Basics: What Calls and Puts Actually Mean</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 4, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/options-calls-puts-explained-editorial.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Close editorial view of a broker&#x27;s hands discussing printed option payoff sketches at a client-service counter"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Financial coverage increasingly references what options markets are pricing in for a stock, a habit that's become especially common around earnings season, when headlines ask whether a company can pull off a turnaround 'according to options.' Understanding what an option actually is makes that kind of coverage far more useful, even for a reader who never plans to trade one directly.</p>
-  <p>An option is a contract that gives its buyer the right, but not the obligation, to buy or sell 100 shares of a specific stock at a predetermined price, called the strike price, by a specific expiration date. That 'right, not obligation' distinction is the whole concept in miniature: unlike simply buying or shorting a stock outright, an option buyer can choose to walk away and let the contract expire worthless if the trade doesn't work out, losing only what they paid for the contract, called the premium.</p>
-  <p>There are two basic types. A call option gives the buyer the right to buy the stock at the strike price, and buyers purchase calls when they expect the price to rise. A put option gives the buyer the right to sell the stock at the strike price, and buyers purchase puts when they expect the price to fall, or when they want to protect shares they already own against a decline. A concrete example: if a stock trades at 100 dollars and a trader buys a call with a 105 strike expiring in 30 days for a 2 dollar premium, the contract costs 200 dollars total, since each contract covers 100 shares. If the stock climbs to 115 before expiration, the option is worth at least 10 dollars per share, a 1,000 dollar payoff on a 200 dollar bet. If the stock stays below 105, the option simply expires worthless, and the loss is capped at the 200 dollars paid, no matter how far the stock might have fallen instead.</p>
-  <p>That asymmetry, capped downside for the buyer, a much larger potential payoff if the bet is right, is the main reason options get used for speculation. But it's just as often used for the opposite purpose: protection. An investor holding shares of a stock they don't want to sell can buy a put as a form of insurance, guaranteeing a minimum sale price no matter how far the stock falls, in exchange for paying the premium. This hedging use is a large part of why options markets exist at all, not purely as a speculative casino, and it's a distinction worth keeping in mind when options activity gets described in the news as purely a bet.</p>
-  <p>A few terms show up constantly in this kind of coverage and are worth being able to translate on sight. In-the-money means the option would be profitable to exercise right now, a call with a strike below the current stock price, or a put with a strike above it. Out-of-the-money means the opposite, and at-the-money means the strike and the current price are roughly equal. Implied volatility, often shortened to IV, reflects how large a price swing the options market is currently pricing in for the stock, and it tends to spike ahead of high-uncertainty events like earnings reports, which is part of why options premiums get noticeably more expensive right before a company reports results.</p>
-  <p>This connects directly to a pattern TTN covered in its earnings piece: an earnings reaction that would normally look strong can still underwhelm if the options market had already priced in an even larger move. When a headline says 'options are pricing in an 8 percent move' ahead of an earnings report, that's a direct, real-time readout of how much uncertainty, and therefore how large a swing, sophisticated traders expect, which is a genuinely different and often more current signal than a Wall Street analyst's published price target.</p>
-  <p>It's worth being clear about the risk side too, particularly since options are frequently described in the press as simply 'leveraged bets,' which is accurate but incomplete. Buying a call or put has a capped, known maximum loss, the premium paid, which is actually less risky in one specific sense than owning the stock outright, where the loss in dollar terms could be larger on a big enough decline. Selling options, however, is a different and considerably riskier position: a trader who sells, or 'writes,' a call without already owning the underlying shares takes on a loss that grows without any theoretical ceiling if the stock keeps climbing, since they're obligated to deliver shares at the strike price regardless of how high the market price has gone.</p>
-  <p>The practical takeaway for anyone reading TTN's news feed: when a story references what 'options are saying' about a stock, it's typically referring to implied volatility or the ratio of call buying to put buying, both of which reflect what traders are actually willing to pay real money to bet on, a genuinely different and often faster-moving signal than analyst commentary. Understanding the basic call-versus-put, buyer-versus-seller distinction is enough to read that kind of coverage correctly without needing to open a trading account at all.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>Calls, Puts and the Price of an Option</h1><p class="article-dek">The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Aug 4, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/options-calls-puts-explained-editorial.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<section class="editorial-body"><p>An option buyer pays for a right that expires. A call provides the right to buy the underlying asset at the strike price; a put provides the right to sell it, subject to the contract's terms.</p>
+<p>The seller takes the other side of that right and may have an obligation when the contract is exercised. The strike, expiration, contract size and exercise style determine what the holder can do. They should be read before comparing a quoted premium with the share price.</p>
+<p>At expiration, a standard call's intrinsic value depends on how far the underlying price is above its strike. For a put, it depends on how far the price is below the strike. A profitable movement in the underlying is not enough for the buyer if it fails to cover the premium and costs.</p>
+<p>Before expiration, remaining time and implied volatility influence the option's price. An earnings announcement can reduce uncertainty afterward, lowering that volatility component even if the stock moves in the direction the buyer expected.</p>
+<p>A standalone option buyer can lose the premium paid. Sellers' risks vary with the position; an uncovered call can generate very large losses as the underlying price rises. Multi-leg strategies and early assignment add complications that a simple payoff illustration omits.</p>
+<p>Option prices show the cost of taking or transferring particular risks. They do not provide a direct promise that a stock will move by a stated amount or in a stated direction.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://www.optionseducation.org/optionsoverview/options-basics" rel="noopener">Options Industry Council: Contract rights and obligations</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="S&amp;P 500" data-tv="FOREXCOM:SPXUSD" role="button" tabindex="0"><b>S&amp;P 500</b></span> <span class="article-ticker-tag" data-label="NASDAQ" data-tv="FOREXCOM:NSXUSD" role="button" tabindex="0"><b>NASDAQ</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>

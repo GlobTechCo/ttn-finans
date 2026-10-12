@@ -1,93 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't - TTN</title>
-<meta name="description" content="Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bitcoin Halvings Change Supply, Not the Rules of Valuation | TTN Finance</title>
+<meta content="The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't">
-<meta property="og:description" content="Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html">
-
+<meta content="article" property="og:type"/>
+<meta content="Bitcoin Halvings Change Supply, Not the Rules of Valuation" property="og:title"/>
+<meta content="The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't">
-<meta name="twitter:description" content="Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't", "description": "Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp", "width": 1920, "height": 1080, "caption": "Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse (AI-generated editorial image)"}, "datePublished": "2026-06-28T09:00:00", "dateModified": "2026-06-28T09:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse">
-<meta name="twitter:image:alt" content="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Bitcoin Halvings Change Supply, Not the Rules of Valuation" name="twitter:title"/>
+<meta content="The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse" property="og:image:alt"/>
+<meta content="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Bitcoin Halvings Change Supply, Not the Rules of Valuation", "description": "The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs.", "datePublished": "2026-06-28T09:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/bitcoin-halving-cycles.webp", "width": 1920, "height": 1080, "caption": "Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse (AI-generated editorial image)"}, "citation": ["https://developer.bitcoin.org/devguide/block_chain.html"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>What Bitcoin's Halving Cycles Actually Tell Us, and What They Don't</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Jun 28, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/bitcoin-halving-cycles.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Roughly every four years, Bitcoin's block reward, the amount of new BTC paid to miners for confirming transactions, is cut in half. This 'halving' is written directly into Bitcoin's code and happens automatically after every 210,000 blocks are mined, based purely on block count rather than a calendar date or market conditions. It's one of the few genuinely predictable, non-negotiable events in an otherwise famously unpredictable market.</p>
-  <p>The mechanics are straightforward. Bitcoin launched with a block reward of 50 BTC. The first halving cut that to 25, the second to 12.5, the third to 6.25, and so on, each event permanently reducing the rate at which new bitcoin enters circulation. This continues until the reward effectively rounds to zero, expected sometime around the year 2140, at which point no new bitcoin will be created and miners will rely entirely on transaction fees for revenue. The total supply is capped at 21 million coins, and the halving schedule is the mechanism that enforces that cap gradually rather than all at once.</p>
-  <p>The pattern that gets the most attention from traders is this: in Bitcoin's history so far, price has tended to rise substantially in the 12 to 18 months following a halving. The simple explanation is supply and demand. New coin issuance drops sharply overnight while demand, at least historically, kept growing or held steady, and reduced new supply hitting the market can support price if buying pressure stays constant or increases. This logic has been popularized under the name 'stock-to-flow,' a model that attempts to predict Bitcoin's price based on the ratio of existing supply to new issuance, drawing a loose analogy to how scarcity has historically supported the value of gold and other commodities.</p>
-  <p>But it's worth being precise about what this pattern does and doesn't prove, and where the stock-to-flow style reasoning runs into trouble. Bitcoin has only had four halvings as of 2026, which is a very small sample size to draw firm conclusions from. Four data points isn't nearly enough to call something a reliable law of markets, no matter how clean the chart looks in hindsight. Statisticians would call this overfitting: finding a pattern that explains past data well but has little genuine predictive power, because there simply hasn't been enough independent data to test it properly.</p>
-  <p>Each halving also happened alongside other major shifts that had nothing to do with the halving mechanism itself, including growing institutional adoption, the launch of spot Bitcoin ETFs, evolving regulatory frameworks in major economies, macroeconomic cycles, and shifts in global liquidity conditions. Untangling how much of any post-halving rally came from reduced supply versus these other, larger forces is genuinely difficult, and probably impossible to do with real statistical confidence. It's entirely possible that halvings coincided with rallies driven mainly by unrelated adoption cycles, rather than causing those rallies directly.</p>
-  <p>There's also a case, grounded in basic market theory, that markets are efficient enough by now to have priced in a scheduled, publicly known event well in advance. A halving isn't a surprise. The exact block height at which it will occur has been known for years, so in theory its effects on supply should already be reflected in the price before it happens, at least partially, as forward-looking traders position themselves ahead of time rather than waiting for the event itself. If that's true, the 'halving pump' narrative may be partly a story that gets told after the fact to explain a rally that had other causes.</p>
-  <p>It's also worth noting what halvings do to the mining industry itself, since this is often overlooked in price-focused discussions. A sudden 50% cut to block rewards can squeeze the profitability of mining operations, particularly smaller or less efficient ones, sometimes forcing consolidation or temporary drops in network hash rate until the difficulty adjustment mechanism rebalances things. This is a real, structural effect of halvings that's separate from, and arguably more certain than, any price prediction.</p>
-  <p>One more angle worth considering is how halvings interact with broader Bitcoin adoption cycles rather than acting in isolation. Each halving so far has landed at a different stage of the asset's maturity. The 2012 halving happened when Bitcoin was still a niche experiment with minimal liquidity, while the most recent halvings occurred alongside spot ETF approvals, corporate treasury adoption, and vastly deeper institutional market infrastructure. Comparing price reactions across these very different market environments as if they were repeated trials of the same experiment is part of what makes the stock-to-flow style analysis less reliable than it first appears, since the conditions surrounding each halving have never actually been held constant.</p>
-  <p>The honest summary is this: halvings are a real, mechanical, verifiable change to Bitcoin's supply issuance, and the historical correlation with subsequent price increases is genuinely worth knowing as part of the broader picture. But treating it as a guaranteed formula, where a halving happens and price simply quadruples, ignores both the small sample size behind that pattern and the many other, often larger, forces moving crypto markets at the same time. A useful frame is to think of the halving as one input among many, not a standalone trading signal.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span> <span class="article-ticker-tag" data-tv="BINANCE:ETHUSDT" data-label="ETH"><b>ETH</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>Bitcoin Halvings Change Supply, Not the Rules of Valuation</h1><p class="article-dek">The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Jun 28, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/bitcoin-halving-cycles.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<section class="editorial-body"><p>Bitcoin's halving is a supply event with a known rule: the subsidy paid for a valid block falls after each 210,000-block interval. The calendar date is approximate because blocks do not arrive at perfectly fixed intervals.</p>
+<p>The subsidy began at 50 bitcoin per block and halves in successive steps. Transaction fees are separate from that subsidy. The schedule reduces new issuance; it does not remove coins already held by users or change the number offered for sale on exchanges.</p>
+<p>A smaller flow of newly issued coins can matter to the balance between buying and selling. It cannot establish a price target. Demand, liquidity, leverage, access to markets and holders' willingness to sell can change by more than the reduction in issuance.</p>
+<p>Historical comparisons also contain a small number of halving events, each occurring in a different market. An observed price increase afterward cannot isolate the halving from changes in adoption, financing conditions or speculation. A pattern is a research question, not a guaranteed cycle.</p>
+<p>Miners face a direct adjustment: less subsidy for the same successful block, before changes in fees and the bitcoin price. Their ability to absorb it depends on power costs, equipment efficiency and their share of network computing power. Difficulty adjustments influence competition but do not guarantee profitability.</p>
+<p>The issuance schedule can be checked in the protocol. Claims about the next rally require a separate argument about demand and valuation. Combining those two questions is what turns a predictable technical event into an unreliable investment forecast.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://developer.bitcoin.org/devguide/block_chain.html" rel="noopener">Bitcoin Developer Guide: Block chain and proof of work</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="BTC" data-tv="BINANCE:BTCUSDT" role="button" tabindex="0"><b>BTC</b></span> <span class="article-ticker-tag" data-label="ETH" data-tv="BINANCE:ETHUSDT" role="button" tabindex="0"><b>ETH</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>

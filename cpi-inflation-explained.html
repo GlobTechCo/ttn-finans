@@ -1,92 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means - TTN</title>
-<meta name="description" content="Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Reading CPI: Headline Inflation, Core and the Price Level | TTN Finance</title>
+<meta content="A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means">
-<meta property="og:description" content="Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html">
-
+<meta content="article" property="og:type"/>
+<meta content="Reading CPI: Headline Inflation, Core and the Price Level" property="og:title"/>
+<meta content="A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means">
-<meta name="twitter:description" content="Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means", "description": "Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp", "width": 1920, "height": 1080, "caption": "Shopper comparing ordinary grocery prices in an American supermarket aisle (AI-generated editorial image)"}, "datePublished": "2026-08-03T13:00:00", "dateModified": "2026-08-03T13:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="Shopper comparing ordinary grocery prices in an American supermarket aisle">
-<meta name="twitter:image:alt" content="Shopper comparing ordinary grocery prices in an American supermarket aisle">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Reading CPI: Headline Inflation, Core and the Price Level" name="twitter:title"/>
+<meta content="A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Shopper comparing ordinary grocery prices in an American supermarket aisle" property="og:image:alt"/>
+<meta content="Shopper comparing ordinary grocery prices in an American supermarket aisle" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Reading CPI: Headline Inflation, Core and the Price Level", "description": "A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release.", "datePublished": "2026-08-03T13:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/cpi-inflation-explained.webp", "width": 1920, "height": 1080, "caption": "Shopper comparing ordinary grocery prices in an American supermarket aisle (AI-generated editorial image)"}, "citation": ["https://www.bls.gov/cpi/questions-and-answers.htm", "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>CPI Explained: What 'Headline' vs 'Core' Inflation Actually Means</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 3, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/cpi-inflation-explained.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Shopper comparing ordinary grocery prices in an American supermarket aisle"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Every month, a single inflation number moves markets, and TTN's own piece on Fed policy already covered why that number matters so much for stocks, bonds, gold, and crypto. What gets less attention is that 'the inflation number' is actually several distinct measures, and the specific one being quoted changes what the report is actually saying, sometimes significantly.</p>
-  <p>The Consumer Price Index, CPI, is the most widely reported inflation measure, published monthly by the Bureau of Labor Statistics. It tracks the average change in prices paid by urban consumers for a fixed 'basket' of goods and services, weighted to reflect how a typical household actually spends money, everything from groceries and gasoline to rent and medical care. As of June 2026, headline CPI stood at 3.5 percent year-over-year.</p>
-  <p>That 'headline' label matters, because it's specifically distinguished from core CPI, which strips out food and energy prices entirely. The reasoning is straightforward: food and energy prices are volatile for reasons that often have nothing to do with the broader economy, a war affecting oil supply, a bad harvest season, a refinery outage, and including them can make the headline number swing sharply on noise rather than genuine, sustained inflation trends. Core CPI stood at 2.6 percent in the same June 2026 reading, a full percentage point below headline, illustrating just how much energy price swings, oil prices specifically, were distorting the topline figure at that moment, a dynamic directly connected to the oil shock TTN covered separately.</p>
-  <p>There's a third measure worth knowing, and it's arguably the most important one for market watchers specifically: the Personal Consumption Expenditures price index, PCE, and its 'core' version that also excludes food and energy. The Fed's official 2 percent inflation target is set in core PCE terms, not CPI, which is a genuinely useful distinction, since CPI is what gets reported in headlines but PCE is what the central bank is actually responding to when it sets policy. The two measures normally track fairly close to each other, with PCE historically running somewhat lower than CPI due to differences in methodology and the categories of spending each one covers, though that relationship isn't fixed. In early 2026, it briefly reversed, with PCE running higher than CPI by one of the widest margins since the 1980s, partly due to a temporary distortion in shelter-cost data tied to the government shutdown in late 2025.</p>
-  <p>Why does the Fed prefer PCE over CPI specifically? Beyond drawing from broader spending data, PCE adjusts for substitution, the way consumers actually shift spending when relative prices change, buying more chicken and less beef when beef prices spike, for example, while CPI uses a more fixed basket that updates less frequently. This makes PCE a somewhat smoother, more behaviorally realistic gauge of the inflation households are actually experiencing, even though it's reported with less fanfare and gets far less media attention than the monthly CPI release.</p>
-  <p>A fourth term worth recognizing without going deep into it: the Producer Price Index, PPI, which measures prices at the wholesale level, what producers themselves pay, rather than what end consumers pay. PPI is watched partly because producer-level price changes often show up in consumer prices with a lag, giving PPI some value as a leading indicator, though the relationship isn't perfectly reliable or immediate.</p>
-  <p>It's worth being clear about what all of this means practically rather than getting lost in acronyms. When headline CPI and core CPI move in noticeably different directions, as they did in the June 2026 reading, that gap itself is informative: a headline number pulled down mainly by falling energy prices tells a different, generally less concerning story than a core number that's actually accelerating, even if the single topline figure reported in a news alert looks similar either way. Reading past the single headline percentage to check whether core is moving the same direction is a quick, meaningful upgrade over reacting to the topline number alone.</p>
-  <p>The practical takeaway for anyone reading an inflation headline in TTN's news feed: check whether the story is citing headline or core, and if possible, whether it's citing CPI or PCE, since the Fed's own reaction function is built around core PCE specifically. A headline CPI number that looks alarming can be driven almost entirely by an energy price swing that core PCE, the measure that actually shapes the next rate decision, barely reflects at all.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>Reading CPI: Headline Inflation, Core and the Price Level</h1><p class="article-dek">A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Aug 3, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="Shopper comparing ordinary grocery prices in an American supermarket aisle" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/cpi-inflation-explained.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<section class="editorial-body"><p>Inflation can slow while prices continue rising. A lower rate of increase means the price level is climbing less quickly; it does not mean the earlier increases have been reversed.</p>
+<p>The Consumer Price Index measures changes in prices paid by urban consumers for a defined basket of goods and services. Household experiences differ because households do not all buy that basket in the same proportions or live in the same market.</p>
+<p>Headline CPI includes food and energy. Core CPI excludes those categories to help analyze less volatile movements. The exclusion does not make fuel or groceries unimportant to families, and it does not remove every volatile price from the calculation.</p>
+<p>Monthly and annual comparisons answer different questions. The annual rate incorporates eleven months before the latest observation and can change because an unusual earlier month drops out. Seasonally adjusted monthly figures are useful for examining recent momentum but remain subject to revisions and noise.</p>
+<p>The Fed's longer-run inflation objective is expressed in the PCE price index, a different measure with different coverage and weights. Policymakers consider a range of inflation and labor-market evidence; no single core reading mechanically dictates a rate decision.</p>
+<p>A clear inflation report names the index, period and adjustment used, then identifies the components responsible for the change. Without those details, two accurate percentages can appear to describe opposite developments.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://www.bls.gov/cpi/questions-and-answers.htm" rel="noopener">US BLS: CPI definitions and methods</a></li><li><a href="https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm" rel="noopener">Federal Reserve: Monetary policy and its transmission</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="S&amp;P 500" data-tv="FOREXCOM:SPXUSD" role="button" tabindex="0"><b>S&amp;P 500</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>

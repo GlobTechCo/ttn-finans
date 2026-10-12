@@ -1,92 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>What a Company's Market Cap Actually Tells You, and What It Doesn't - TTN</title>
-<meta name="description" content="Amazon just crossed $3 trillion in market capitalization, a headline number that gets repeated constantly but rarely explained. Here's what market cap actually measures, and the ways it can be genuinely misleading.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Market Capitalization Is a Share Valuation, Not a Cash Balance | TTN Finance</title>
+<meta content="Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="What a Company's Market Cap Actually Tells You, and What It Doesn't">
-<meta property="og:description" content="Amazon just crossed $3 trillion in market capitalization, a headline number that gets repeated constantly but rarely explained. Here's what market cap actually measures, and the ways it can be genuinely misleading.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/market-cap-explained.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/market-cap-explained.html">
-
+<meta content="article" property="og:type"/>
+<meta content="Market Capitalization Is a Share Valuation, Not a Cash Balance" property="og:title"/>
+<meta content="Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/market-cap-explained.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/market-cap-explained.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="What a Company's Market Cap Actually Tells You, and What It Doesn't">
-<meta name="twitter:description" content="Amazon just crossed $3 trillion in market capitalization, a headline number that gets repeated constantly but rarely explained. Here's what market cap actually measures, and the ways it can be genuinely misleading.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "What a Company's Market Cap Actually Tells You, and What It Doesn't", "description": "Amazon just crossed $3 trillion in market capitalization, a headline number that gets repeated constantly but rarely explained. Here's what market cap actually measures, and the ways it can be genuinely misleading.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "Ground-level exterior of a stock-exchange-style stone building in a busy financial district (AI-generated editorial image)"}, "datePublished": "2026-08-05T11:00:00", "dateModified": "2026-08-05T11:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/market-cap-explained.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="Ground-level exterior of a stock-exchange-style stone building in a busy financial district">
-<meta name="twitter:image:alt" content="Ground-level exterior of a stock-exchange-style stone building in a busy financial district">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Market Capitalization Is a Share Valuation, Not a Cash Balance" name="twitter:title"/>
+<meta content="Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Ground-level exterior of a stock-exchange-style stone building in a busy financial district" property="og:image:alt"/>
+<meta content="Ground-level exterior of a stock-exchange-style stone building in a busy financial district" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Market Capitalization Is a Share Valuation, Not a Cash Balance", "description": "Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis.", "datePublished": "2026-08-05T11:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/market-cap-explained.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/market-cap-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "Ground-level exterior of a stock-exchange-style stone building in a busy financial district (AI-generated editorial image)"}, "citation": ["https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>What a Company's Market Cap Actually Tells You, and What It Doesn't</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 5, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/market-cap-explained-editorial.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Ground-level exterior of a stock-exchange-style stone building in a busy financial district"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Amazon crossed 3 trillion dollars in market capitalization for the first time in early August 2026, a headline figure that gets repeated constantly in financial coverage without much explanation of what it actually represents. Market cap is simple to calculate, a company's current share price multiplied by its total number of outstanding shares, but that simplicity hides a few genuinely important nuances worth understanding before treating it as a full measure of a company's size or worth.</p>
-  <p>The basic mechanism is straightforward: if a company has 10 billion shares outstanding trading at 300 dollars each, its market cap is 3 trillion dollars. This number moves constantly throughout the trading day as the share price changes, even though the number of shares outstanding stays relatively fixed between reporting periods, which is why market cap headlines can shift by tens of billions of dollars in a single session purely from price movement, with nothing about the underlying business having changed at all.</p>
-  <p>It's important to understand what market cap is not. It isn't the amount of cash a company holds, isn't a measure of annual revenue or profit, and critically, isn't what the company could actually be sold for in its entirety. Buying every single outstanding share at the current market price would almost certainly push that price up substantially before the purchase was complete, a dynamic called price impact, since a company's daily trading volume represents only a small fraction of its total shares outstanding. Market cap is a real-time snapshot of what the market is valuing the marginal share at, extrapolated across the whole company, not a literal for-sale price for the business as a going concern.</p>
-  <p>A related and more precise metric worth knowing is enterprise value, which adjusts market cap by adding total debt and subtracting cash and cash equivalents. Enterprise value answers a somewhat different question: what would it actually cost to acquire the entire company, including taking on its debts and getting access to its cash. A company with a large market cap but also enormous debt can have a considerably higher enterprise value than its market cap alone suggests, while a cash-rich, debt-free company can have an enterprise value meaningfully lower than its market cap, since an acquirer would effectively get that cash back. This is why professional valuation work, particularly in mergers and acquisitions, typically leans on enterprise value rather than market cap alone.</p>
-  <p>Market cap size also comes with conventional tiers that show up constantly in fund names and news coverage: large-cap generally refers to companies above roughly 10 billion dollars, mid-cap falls between 2 and 10 billion, and small-cap covers companies below 2 billion, with the exact cutoffs varying somewhat by index provider. These tiers matter beyond labeling, since large-cap stocks are the ones eligible for inclusion in indices like the S&P 500, which in turn determines whether trillions of dollars in index funds and ETFs are structurally required to hold the stock at all, a mechanical demand source separate from any individual investor's opinion of the company.</p>
-  <p>There's a genuine analytical point buried in a large market cap that's worth taking seriously rather than dismissing as just a big number: a 3 trillion dollar valuation reflects the market's current collective judgment about the present value of everything the company is expected to earn, indefinitely, discounted back to today, the same discount-rate mechanism TTN covered in its piece on Fed policy. A company reaching that threshold means a very large number of sophisticated investors, collectively controlling enormous capital, currently believe its future cash flows justify that price, which is a meaningfully different and more grounded statement than simply 'the stock went up a lot.'</p>
-  <p>It's equally worth being skeptical of market cap milestones as investment signals on their own. Crossing a round number like 1 trillion, 2 trillion, or 3 trillion dollars is a media-friendly threshold, not a fundamental change in the business, and a company's shares don't become mechanically more or less attractively priced simply for having crossed a psychologically round number. The more useful question sitting behind any market cap headline is whether the valuation is justified by the growth and profitability the market is pricing in, not the size of the number itself.</p>
-  <p>The practical takeaway for anyone reading a market cap milestone in TTN's news feed: it's a legitimate, real-time gauge of aggregate investor conviction, worth taking seriously as a reflection of collective expectations, but it's neither a company's cash balance, a literal acquisition price, nor evidence on its own that a stock is fairly valued at that level. Checking enterprise value and the growth assumptions embedded in the current price gives a considerably fuller picture than the market cap headline alone.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span> <span class="article-ticker-tag" data-tv="FOREXCOM:NSXUSD" data-label="NASDAQ"><b>NASDAQ</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>Market Capitalization Is a Share Valuation, Not a Cash Balance</h1><p class="article-dek">Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Aug 5, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="Ground-level exterior of a stock-exchange-style stone building in a busy financial district" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/market-cap-explained-editorial.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<aside class="editorial-note" style="font-size:13px;color:var(--text-dim);border-left:3px solid var(--accent);padding:10px 14px;margin:20px 0;"><strong>Editorial update, October 12, 2026:</strong> This article has been revised as an explainer. Earlier market figures or event descriptions that were not adequately sourced have been removed or qualified.</aside><section class="editorial-body"><p>A company's market capitalization is the quoted value of its outstanding equity. It is not the cash the company has raised, the money on its balance sheet or the amount every shareholder could realize in a simultaneous sale.</p>
+<p>The basic calculation is share price multiplied by shares outstanding. In a hypothetical company with 100 million shares at $20 each, market capitalization is $2 billion. A price change alters that figure without requiring the company to receive any money.</p>
+<p>Share counts can differ across reported measures. Diluted earnings-per-share calculations may include instruments that can become shares, while an index may use only the shares available to public investors. Multiple share classes require attention to their particular rights and prices.</p>
+<p>Enterprise value is a related measure that commonly adds debt and subtracts cash, with adjustments for other claims where relevant. It aims to put differently financed businesses on a more comparable basis, but its definition and the valuation multiple used still need checking.</p>
+<p>Size labels such as small-cap and large-cap vary by index provider and mandate. Crossing a threshold can affect eligibility for a fund without indicating that the underlying company's operating performance changed that day.</p>
+<p>A milestone in quoted value is a market observation. Assessing whether that value is reasonable requires an argument about earnings, assets, growth, risk and the claims held by other providers of capital.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide" rel="noopener">SEC: Reading financial statements</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="S&amp;P 500" data-tv="FOREXCOM:SPXUSD" role="button" tabindex="0"><b>S&amp;P 500</b></span> <span class="article-ticker-tag" data-label="NASDAQ" data-tv="FOREXCOM:NSXUSD" role="button" tabindex="0"><b>NASDAQ</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>

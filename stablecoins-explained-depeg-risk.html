@@ -1,92 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How Stablecoins Actually Work, and What Makes One 'Depeg' - TTN</title>
-<meta name="description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Stablecoin's Peg Depends on Its Backing and Redemption | TTN Finance</title>
+<meta content="A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="How Stablecoins Actually Work, and What Makes One 'Depeg'">
-<meta property="og:description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html">
-
+<meta content="article" property="og:type"/>
+<meta content="A Stablecoin's Peg Depends on Its Backing and Redemption" property="og:title"/>
+<meta content="A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How Stablecoins Actually Work, and What Makes One 'Depeg'">
-<meta name="twitter:description" content="USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "How Stablecoins Actually Work, and What Makes One 'Depeg'", "description": "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp", "width": 1920, "height": 1080, "caption": "Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace (AI-generated editorial image)"}, "datePublished": "2026-07-30T11:00:00", "dateModified": "2026-07-30T11:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace">
-<meta name="twitter:image:alt" content="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="A Stablecoin's Peg Depends on Its Backing and Redemption" name="twitter:title"/>
+<meta content="A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace" property="og:image:alt"/>
+<meta content="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "A Stablecoin's Peg Depends on Its Backing and Redemption", "description": "A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.", "datePublished": "2026-07-30T11:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/stablecoins-explained-depeg-risk.webp", "width": 1920, "height": 1080, "caption": "Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace (AI-generated editorial image)"}, "citation": ["https://www.circle.com/transparency"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>How Stablecoins Actually Work, and What Makes One 'Depeg'</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Jul 30, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/stablecoins-explained-depeg-risk.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.</p>
-  <p>Fiat-collateralized stablecoins like USDT and USDC work by holding real-world reserves, mostly cash and short-term US Treasury bills, roughly equal to the number of tokens in circulation. Both issuers publish regular attestations from accounting firms listing exactly what backs the supply. In theory, if everyone tried to redeem their tokens for dollars at once, the issuer should have the reserves on hand to cover it. This model is the most straightforward of the three main stablecoin designs and, so far, the most durable, but 'holding reserves' still leaves room for exactly where and how those reserves are held to matter quite a bit.</p>
-  <p>The two other designs carry different tradeoffs. Crypto-collateralized stablecoins, like Sky's DAI, are backed by other cryptocurrencies locked up in excess of the stablecoin's value, so a drop in the collateral's price has a buffer before the peg is threatened. Algorithmic stablecoins tried to skip collateral almost entirely, maintaining their peg through code and market incentives rather than a reserve of real assets sitting behind each token. That last category is where the most catastrophic failure in stablecoin history happened.</p>
-  <p>TerraUSD, known as UST, was an algorithmic stablecoin that maintained its dollar peg through a paired token called LUNA rather than holding dollar reserves. In May 2022, large sales of UST broke the delicate arbitrage relationship between the two tokens, LUNA's price collapsed, and the mechanism meant to defend the peg instead accelerated the collapse in what's often described as a death spiral. The episode wiped out roughly 40 to 50 billion dollars in value within about 72 hours and remains the clearest evidence that an algorithmic peg with no real collateral behind it has a structural failure mode that collateral-backed designs don't share in the same way.</p>
-  <p>Fiat-backed stablecoins have had their own, much less severe, wobbles. In March 2023, Circle disclosed that roughly 3.3 billion dollars of USDC's reserves, about 8 percent of the total, were held at Silicon Valley Bank when regulators shut it down. USDC briefly traded as low as 0.87 dollars before US authorities guaranteed SVB depositors in full and the peg was restored within days. USDT has had its own brief wobbles too, including a dip to roughly 0.94 dollars during the acute panic of the Terra collapse, even though Tether's own reserves had nothing to do with what was happening at Terra. That distinction matters: a stablecoin can lose its peg briefly just from market panic and thin liquidity, separate from any actual problem with what backs it, and the two situations carry very different levels of real risk.</p>
-  <p>It's worth being precise about the different categories of depeg risk rather than treating them as one thing. Reserve risk is about whether the assets backing the token are real, liquid, and accessible, the USDC-at-SVB scenario. Panic-driven risk is about temporary imbalances in trading pools during high-stress moments, which tends to resolve once conditions calm down, as both the USDT and USDC episodes eventually did. Algorithmic-design risk, the UST scenario, is structural rather than temporary, since there's no real collateral sitting behind the token to fall back on when confidence breaks.</p>
-  <p>Regulation has tightened noticeably since these episodes. The GENIUS Act, passed in 2025, established a federal framework requiring stablecoin issuers to hold specific categories of reserves and publish regular disclosures, part of why the sector has grown to more than 300 billion dollars in total supply while shifting even further toward the fiat-collateralized model that's held up best historically.</p>
-  <p>The practical takeaway: not all stablecoins carry the same risk just because they're all priced at one dollar. Fiat-backed tokens from issuers that publish regular, credible attestations have historically recovered quickly from brief wobbles, while purely algorithmic designs have shown they can fail permanently and without warning. When using a stablecoin for anything beyond a quick trade, like TTN's Crypto Converter, it's worth knowing which category it falls into and what's actually sitting behind it.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="BINANCE:BTCUSDT" data-label="BTC"><b>BTC</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>A Stablecoin's Peg Depends on Its Backing and Redemption</h1><p class="article-dek">A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Jul 30, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/stablecoins-explained-depeg-risk.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<section class="editorial-body"><p>A token designed to trade at one dollar can still trade below it. The promise concerns a target value; its credibility depends on the assets and processes supporting redemption, and on whether holders can use them when markets are under pressure.</p>
+<p>A reserve-backed issuer typically holds assets against outstanding tokens. Cash and short-term government securities can support redemption, but asset quality, custody, legal claims and access to banks still matter. An attestation is evidence about a stated scope and date, not a guarantee against every future loss.</p>
+<p>Not every holder can redeem directly with an issuer on the same terms. Eligibility requirements, minimum sizes and banking access can leave smaller holders relying on an exchange or trading pool. Its market price can diverge from the issuer's redemption value when liquidity deteriorates.</p>
+<p>Other designs use crypto collateral, reserve assets, algorithmic mechanisms or combinations of them. Overcollateralization can provide a buffer, but volatile collateral and delayed liquidation can exhaust it. A design supported mainly by confidence in a related token faces a different feedback problem if both lose value together.</p>
+<p>A depeg may reflect doubts about backing, restricted redemption or a temporary imbalance in trading demand. Those causes require different evidence. A later recovery does not establish that the initial risk was imaginary or that another issuer would recover in the same circumstances.</p>
+<p>Before treating a stablecoin balance as a cash substitute, examine the reserve disclosures, who may redeem, and the legal terms governing a failed redemption. The one-dollar label alone cannot answer those questions.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://www.circle.com/transparency" rel="noopener">Circle: Reserve disclosures and redemption background</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="BTC" data-tv="BINANCE:BTCUSDT" role="button" tabindex="0"><b>BTC</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>

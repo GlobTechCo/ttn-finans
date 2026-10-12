@@ -1,92 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prediction Markets Explained: How Kalshi and Polymarket Turn Beliefs Into Prices - TTN</title>
-<meta name="description" content="Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Prediction-Market Price Is an Estimate With Frictions | TTN Finance</title>
+<meta content="Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs." name="description"/>
 <!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:title" content="Prediction Markets Explained: How Kalshi and Polymarket Turn Beliefs Into Prices">
-<meta property="og:description" content="Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.">
-<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp">
-<meta property="og:url" content="https://globtechco.github.io/ttn-finans/prediction-markets-explained.html">
-<meta property="og:site_name" content="TTN">
-
-<link rel="canonical" href="https://globtechco.github.io/ttn-finans/prediction-markets-explained.html">
-
+<meta content="article" property="og:type"/>
+<meta content="A Prediction-Market Price Is an Estimate With Frictions" property="og:title"/>
+<meta content="Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs." property="og:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp" property="og:image"/>
+<meta content="https://globtechco.github.io/ttn-finans/prediction-markets-explained.html" property="og:url"/>
+<meta content="TTN" property="og:site_name"/>
+<link href="https://globtechco.github.io/ttn-finans/prediction-markets-explained.html" rel="canonical"/>
 <!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Prediction Markets Explained: How Kalshi and Polymarket Turn Beliefs Into Prices">
-<meta name="twitter:description" content="Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.">
-<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp">
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Prediction Markets Explained: How Kalshi and Polymarket Turn Beliefs Into Prices", "description": "Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.", "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room (AI-generated editorial image)"}, "datePublished": "2026-08-04T13:00:00", "dateModified": "2026-08-04T13:00:00", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/prediction-markets-explained.html"}}</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="editorial-theme.css">
-<script src="editorial-theme.js" defer></script>
-<meta property="og:image:secure_url" content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp">
-<meta property="og:image:type" content="image/webp">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
-<meta property="og:image:alt" content="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room">
-<meta name="twitter:image:alt" content="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room">
-</head>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="A Prediction-Market Price Is an Estimate With Frictions" name="twitter:title"/>
+<meta content="Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs." name="twitter:description"/>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp" name="twitter:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="editorial-theme.css" rel="stylesheet"/>
+<script defer="" src="editorial-theme.js"></script>
+<meta content="https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room" property="og:image:alt"/>
+<meta content="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room" name="twitter:image:alt"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "A Prediction-Market Price Is an Estimate With Frictions", "description": "Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs.", "datePublished": "2026-08-04T13:00:00", "dateModified": "2026-10-12T08:38:47+00:00", "inLanguage": "en-US", "author": {"@type": "Organization", "name": "TTN Research Desk"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/prediction-markets-explained.html"}, "image": {"@type": "ImageObject", "url": "https://globtechco.github.io/ttn-finans/assets/editorial/prediction-markets-explained-editorial.webp", "width": 1920, "height": 1080, "caption": "University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room (AI-generated editorial image)"}, "citation": ["https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html"]}</script></head>
 <body>
-
 <header class="topnav">
-  <a href="index.html" class="brand"><span class="dot">●</span> TTN <small>market watch</small></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a>
-    <a href="about.html">About</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
 </header>
 <script>
   document.getElementById("nav-toggle").addEventListener("click", () => {
     document.getElementById("nav-links").classList.toggle("open");
   });
 </script>
-
-<div class="static-page">
-  <p><a href="index.html" style="color:var(--text-faint);font-size:13px;">&larr; Back to TTN</a></p>
-  <span class="ttn-original-badge">TTN Original</span>
-  <h1>Prediction Markets Explained: How Kalshi and Polymarket Turn Beliefs Into Prices</h1>
-  <p style="color:var(--text-faint);font-size:13px;">TTN Research Desk &middot; Aug 4, 2026</p>
-  <figure class="ttn-editorial-figure"><img class="article-hero-image" src="assets/editorial/prediction-markets-explained-editorial.webp" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room"><figcaption>AI-generated editorial image.</figcaption></figure>
-  <p>Prediction markets, platforms where people trade contracts tied to the outcome of a real-world event, have moved from a niche curiosity into a genuinely large financial category. Global trading volume on these platforms reached roughly 51 billion dollars in 2025 and is projected to climb toward 240 billion dollars in 2026, and financial coverage now routinely cites what Kalshi or Polymarket traders are pricing in for Fed decisions, economic data releases, and corporate events alongside more traditional sources like analyst forecasts.</p>
-  <p>The mechanism is simpler than it might sound. A prediction market contract typically pays exactly 1 dollar if a specific outcome happens, and 0 dollars if it doesn't. If a contract for 'the Fed cuts rates at its next meeting' trades at 40 cents, that price is a direct, real-time readout of the market's collective estimate that there's roughly a 40 percent chance it happens, since a rational buyer would only pay 40 cents for something with a 40 percent chance of being worth a dollar. As new information arrives, whether it's an economic data release, a Fed official's comment, or breaking news, traders buy and sell, and the price adjusts in real time to reflect the market's updated collective belief.</p>
-  <p>This structure is genuinely different from traditional betting, even though the two get compared constantly. A sportsbook sets its own odds and takes the other side of every bet directly, profiting from a built-in margin regardless of the outcome. A prediction market is closer to a financial exchange: prices are set entirely by traders buying and selling against each other, with the platform simply matching orders and collecting a fee, similar in structure to how a stock exchange operates rather than how a bookmaker does. Whether this distinction matters for regulatory purposes has been genuinely contested; in the US, Kalshi operates as a federally regulated exchange under the Commodity Futures Trading Commission, which is a meaningfully different legal status than an offshore sports betting site.</p>
-  <p>The single most-cited example of these markets working well came from the 2024 US presidential election, when Polymarket showed noticeably higher odds of a Trump victory than most traditional polling averages throughout the final stretch of the race, a gap that proved directionally accurate once results came in. Research comparing prediction market data to polling has generally found markets performing competitively with, and in some specific cases outperforming, traditional polls and expert forecasts, largely because market prices aggregate the beliefs of participants who have real money riding on being right, not just an opinion being volunteered for free.</p>
-  <p>It's worth being precise about where these markets currently draw the most volume, since it isn't primarily the economic and political questions that get the most media attention. Sports made up roughly 87 percent of Kalshi's trading volume as of March 2026, and both major platforms saw a further surge tied to World Cup betting activity. Economic and Fed-related contracts, the category most directly relevant to TTN's coverage, are a smaller but genuinely useful slice of total volume, valuable less for their size and more for offering a continuously updating, real-money probability estimate for events that used to be judged mainly by anecdote or a single analyst's published forecast.</p>
-  <p>There's a resolution risk worth understanding, particularly for less clear-cut questions. Kalshi resolves outcomes through centralized staff decisions under published criteria, with CFTC oversight as a backstop, a structure that's less technologically elegant than a fully automated system but considerably more predictable from a legal standpoint. Polymarket, built on blockchain infrastructure, experienced several high-profile resolution disputes during the 2024 election cycle when a contract's real-world outcome was more contested or ambiguous than its rules had anticipated, a reminder that even a well-designed market can struggle when the underlying question turns out to be less black-and-white than it looked when the contract was created.</p>
-  <p>Institutional participation has grown alongside retail interest. Estimates suggest roughly 40 percent of Kalshi's trading volume now comes from institutions rather than individual retail traders, a notable shift for a category that started as a largely retail-driven novelty, and one that's part of why financial media increasingly treats prediction market pricing as a legitimate data point rather than a sideshow.</p>
-  <p>The practical takeaway for anyone encountering a 'prediction markets are pricing in X percent odds of Y' headline: treat it the way you'd treat any other real-time market price, a genuine, money-backed aggregation of current belief that updates constantly, useful specifically because it reflects what traders are willing to risk real capital on, but still just one input among several, not a certainty, and subject to the same kind of resolution and liquidity risks that apply to any relatively young financial market.</p>
-  <div class="article-tickers">
-    <span class="article-ticker-tag" data-tv="FOREXCOM:SPXUSD" data-label="S&P 500"><b>S&P 500</b></span>
-  </div>
-  <p style="font-size:12px;color:var(--text-faint);margin-top:24px;">
-    This is original analysis written by TTN, not aggregated from a third party.
-    It is provided for informational purposes only and is not investment advice.
-  </p>
-</div>
-
+<main class="static-page"><p><a href="analysis.html">← Market Analysis</a></p><span class="ttn-original-badge">TTN Original · Analysis</span>
+<h1>A Prediction-Market Price Is an Estimate With Frictions</h1><p class="article-dek">Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs.</p>
+<p style="font-size:13px;color:var(--text-faint);">TTN Research Desk · Published Aug 4, 2026 · Updated Oct 12, 2026</p>
+<figure class="ttn-editorial-figure"><img alt="University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room" class="article-hero-image" decoding="async" fetchpriority="high" height="1080" loading="eager" src="assets/editorial/prediction-markets-explained-editorial.webp" width="1920"/><figcaption>AI-generated editorial image.</figcaption></figure>
+<section class="editorial-body"><p>A contract that pays one dollar if an event occurs can trade at a fraction of that amount. Its price is often read as a probability, but that interpretation depends on the contract, the participants and the costs of trading.</p>
+<p>The settlement question must be defined precisely. Which event counts, which source decides it and when does the payment occur? A broad headline can conceal narrow terms that determine whether a seemingly correct prediction receives the payoff.</p>
+<p>Trading gives participants a financial reason to respond to information. It does not make the crowd representative or remove incentives to hedge. Limited liquidity, transaction costs, position constraints and participants' different risk preferences can all affect prices.</p>
+<p>A polling average measures responses from a sampled population. A contract price measures the price accepted in a trading market. Comparing them as competing forecasts requires attention to the date, outcome definition and uncertainty rather than selecting one successful example after the event.</p>
+<p>Legal access and regulatory treatment can vary with the product and jurisdiction. A platform's marketing description is not sufficient to establish which rules apply to a particular contract or participant.</p>
+<p>Read the settlement terms before interpreting the chart. Price changes can reflect fresh information, a large order or a change in market liquidity; explaining one of those movements requires evidence beyond its direction.</p>
+</section>
+<section class="editorial-sources"><h2>Sources and methodology</h2><p>Primary references for the definitions, methods and risks discussed above. Examples labeled hypothetical or illustrative are not current market quotations.</p><ul><li><a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html" rel="noopener">CFTC: Risks of virtual-currency trading</a></li></ul></section>
+<div class="article-tickers"><span class="article-ticker-tag" data-label="S&amp;P 500" data-tv="FOREXCOM:SPXUSD" role="button" tabindex="0"><b>S&amp;P 500</b></span> </div>
+<p style="font-size:12px;color:var(--text-faint);margin-top:24px;">TTN analysis for informational purposes. This article is not investment, tax or legal advice.</p></main>
 <footer>
-  <p>&copy; <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
-  <div>
-    <a href="calculators.html">Calculators</a> &middot;
-    <a href="brokers.html">Brokers</a> &middot;
-    <a href="about.html">About</a> &middot;
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
     <a href="privacy.html">Privacy Policy</a>
-  </div>
+</div>
 </footer>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script src="https://s3.tradingview.com/tv.js"></script>
