@@ -30,7 +30,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="editorial-theme.css?v=restrained-theme-20261012">
 <script src="editorial-theme.js?v=restrained-theme-20261012" defer></script>
-</head>
+<link rel="stylesheet" href="homepage-layout.css?v=20261012"></head>
 <body>
 
 <header class="topnav">
@@ -67,8 +67,8 @@
   <p id="market-summary-text">Loading snapshot…</p>
 </div>
 
-<main class="container">
-  <section>
+<main class="container home-layout">
+<div class="home-top-row"><section aria-label="Top story">
     <div class="section-title">Top Story</div>
     <article class="featured" id="featured-article">
       <div class="featured-body">
@@ -78,22 +78,7 @@
       </div>
     </article>
 
-    <h2 class="section-title">Market Analysis <a href="analysis.html" style="margin-left:auto;text-transform:none;letter-spacing:0;">View all →</a></h2>
-    <div class="analysis-grid" id="ttn-articles">
-      <div class="analysis-card"><div class="skeleton skel-line" style="width:60%"></div></div>
-    </div>
-
-    <h2 class="section-title">Tech &amp; AI <a href="tech-ai.html" style="margin-left:auto;text-transform:none;letter-spacing:0;">View all →</a></h2>
-    <div class="tech-ai-grid" id="tech-ai-home"><p class="tech-ai-intro">Research and original reporting on AI, chips and technology businesses.</p></div>
-
-    <div class="section-title">News Feed</div>
-    <div class="news-feed" id="news-feed">
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
-      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
-    </div>
-  </section>
-
+</section>
   <aside>
     <div class="sidebar-block">
       <div class="section-title" style="margin-bottom:12px;">Trending</div>
@@ -111,6 +96,32 @@
       </p>
     </div>
   </aside>
+</div>
+<section class="home-editorial-section" aria-label="TTN original market analysis">
+    <h2 class="section-title">Market Analysis <a href="analysis.html" style="margin-left:auto;text-transform:none;letter-spacing:0;">View all →</a></h2>
+    <div class="analysis-grid" id="ttn-articles">
+      <div class="analysis-card"><div class="skeleton skel-line" style="width:60%"></div></div>
+    </div>
+
+</section>
+<section class="home-editorial-section" aria-label="Technology and artificial intelligence">
+    <h2 class="section-title">Tech &amp; AI <a href="tech-ai.html" style="margin-left:auto;text-transform:none;letter-spacing:0;">View all →</a></h2>
+    <div class="tech-ai-grid" id="tech-ai-home"><p class="tech-ai-intro">Research and original reporting on AI, chips and technology businesses.</p></div>
+
+</section>
+<div class="home-news-row"><section aria-label="Aggregated financial news">
+    <div class="section-title">News Feed</div>
+    <div class="news-feed" id="news-feed">
+      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
+      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
+      <div class="news-item"><div class="skeleton skel-line" style="width:30%"></div><div class="skeleton skel-line" style="width:95%;height:16px;"></div></div>
+    </div>
+</section>
+<aside class="home-news-rail" aria-label="Financial tools and reading"><div class="home-rail-sticky">
+<section class="sidebar-block"><h2 class="section-title">Financial tools</h2><p class="home-rail-intro">Turn your assumptions into a plan.</p><a class="home-tool-feature" href="retirement-calculator.html"><span class="home-rail-kicker">RETIREMENT PLANNING</span><strong>Will your savings cover retirement?</strong><span>Compare inflation, fees and monthly contributions.</span></a><ul class="home-resource-list"><li><a href="compound-interest-calculator.html">Compound interest calculator</a></li><li><a href="loan-payment-calculator.html">Loan payment calculator</a></li><li><a href="currency-converter.html">Currency converter</a></li></ul><a class="home-rail-link" href="calculators.html">All calculators →</a></section>
+<section class="sidebar-block"><h2 class="section-title">Understand the markets</h2><ul class="home-resource-list"><li><a href="dollar-cost-averaging-vs-lump-sum.html">Monthly investing or a lump sum?</a></li><li><a href="bond-duration-explained.html">Why bond prices move with rates</a></li><li><a href="cpi-inflation-explained.html">Reading an inflation report</a></li></ul><a class="home-rail-link" href="analysis.html">Explore Market Analysis →</a></section>
+</div></aside>
+</div>
 </main>
 
 <section class="static-page" style="padding-top:24px;padding-bottom:24px"><h2>Will your retirement savings cover your plan?</h2><p>Estimate your savings gap and monthly contribution with inflation and fees included. <a href="retirement-calculator.html">Try the retirement planning calculator →</a></p></section><footer>

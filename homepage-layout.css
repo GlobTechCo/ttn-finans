@@ -1,0 +1,37 @@
+/* Section-based editorial grid: a sidebar only where it has useful content. */
+.home-layout{display:block}
+.home-top-row,.home-news-row{display:grid;grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:32px;align-items:start}
+.home-top-row{margin-bottom:36px}
+.home-top-row>section,.home-news-row>section{min-width:0}
+.home-top-row .featured{margin-bottom:0}
+.home-editorial-section{margin:0 0 36px;padding-top:22px;border-top:1px solid var(--border)}
+.home-editorial-section .section-title{margin-bottom:18px}
+.home-editorial-section .analysis-grid,.home-editorial-section .tech-ai-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-bottom:18px}
+.home-editorial-section .analysis-card{display:flex;flex-direction:column}
+.home-editorial-section .analysis-card .news-meta{margin-top:auto;padding-top:10px}
+.home-editorial-section .analysis-card h3{font-size:17px;line-height:1.4}
+.home-editorial-section .analysis-card>img{height:150px!important;aspect-ratio:16/9}
+.home-editorial-section .tech-ai-card-media{height:auto;aspect-ratio:16/9}
+.home-editorial-section .tech-ai-card-content{padding:16px}
+.home-editorial-section .tech-ai-card h3{font-size:17px;line-height:1.4}
+.home-editorial-section .tech-ai-card p{font-size:13px;line-height:1.65}
+.home-editorial-section .tech-ai-card-meta{margin-top:auto}
+.home-editorial-section .view-all-analysis{margin:0}
+.home-news-row{padding-top:24px;border-top:1px solid var(--border);align-items:stretch}
+.home-news-rail{min-width:0}
+.home-rail-sticky{position:sticky;top:92px}
+.home-rail-intro{font-size:13px;color:var(--text-dim);margin:0 0 16px}
+.home-tool-feature{display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--border);background:var(--surface-2);color:var(--text);text-decoration:none;margin-bottom:12px}
+.home-rail-kicker{font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--accent)}
+.home-tool-feature strong{font-size:18px;line-height:1.35;letter-spacing:-.025em}
+.home-tool-feature>span:last-child{font-size:12px;line-height:1.5;color:var(--text-dim)}
+.home-tool-feature:hover{border-color:var(--accent)}
+.home-resource-list{list-style:none;padding:0;margin:0}
+.home-resource-list li{padding:12px 0;border-bottom:1px solid var(--border)}
+.home-resource-list a{color:var(--text);font-size:13px;line-height:1.5;text-decoration:none;font-weight:600}
+.home-resource-list a:hover,.home-rail-link:hover{color:var(--accent);text-decoration:underline}
+.home-rail-link{display:inline-block;margin-top:16px;color:var(--accent);font-size:12px;font-weight:600;text-decoration:none}
+@media(max-width:1050px){.home-editorial-section .analysis-grid,.home-editorial-section .tech-ai-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-top-row,.home-news-row{grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr);gap:24px}}
+@media(max-width:800px){.home-top-row,.home-news-row{grid-template-columns:minmax(0,1fr)}.home-top-row>aside{display:grid;grid-template-columns:1fr 1fr;gap:20px}.home-rail-sticky{position:static;display:grid;grid-template-columns:1fr 1fr;gap:20px}.home-top-row .sidebar-block,.home-rail-sticky .sidebar-block{margin-bottom:0}.home-news-rail{margin-top:12px}}
+@media(max-width:560px){.home-editorial-section .analysis-grid,.home-editorial-section .tech-ai-grid,.home-top-row>aside,.home-rail-sticky{grid-template-columns:minmax(0,1fr)}.home-top-row{margin-bottom:24px}.home-editorial-section{margin-bottom:24px}.home-editorial-section .analysis-card>img{height:auto!important;aspect-ratio:16/9}.home-editorial-section .tech-ai-card h3,.home-editorial-section .analysis-card h3{font-size:19px}}
+@media(max-height:740px) and (min-width:801px){.home-rail-sticky{position:static}}
