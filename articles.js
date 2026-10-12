@@ -1,5 +1,62 @@
-/* TTN original explainers and analysis. Editorially revised October 12, 2026. */
+/* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
+  {
+    "id": "sp500-narrow-rally-earnings-test-2026",
+    "title": "The S&P 500 Rally Is Narrow. Earnings Will Test Its Strength",
+    "dek": "Index gains can disguise weaker participation. This week’s chipmaker results will test the earnings story, while broader company forecasts will show whether leadership is spreading.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-12T15:25:10+03:00",
+    "dateModified": "2026-10-12T15:25:10+03:00",
+    "image": "assets/editorial/sp500-narrow-rally-earnings-test-2026.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "The S&P 500’s advance is delivering a different experience depending on which stocks an investor owns. Reuters reported on October 12 that the index had gained 14% in 2026 while more than four in ten of its current members were down for the year. Its calculation excludes companies removed from the index during 2026. The finding describes uneven participation, not a forecast of where stocks will go next.",
+      "That distinction matters as companies begin reporting quarterly results. A rising benchmark can reflect exceptional performance by large businesses without signaling improving conditions across corporate America. The test for this earnings season is whether more companies can support their forecasts, rather than whether the index can print another high.",
+      "The conventional S&P 500 gives companies different influence according to their float-adjusted market value. Counting rising and falling stocks answers a different question from calculating that weighted index return. A large constituent can offset declines in several smaller ones, so the two measures can disagree without either being misleading.",
+      "Consider a deliberately simplified, hypothetical two-stock index: one company has an 80% starting weight and rises 10%; the other has a 20% weight and falls 10%. Ignoring dividends and other adjustments, the index gains 6%, even though half its members decline. The real S&P 500 is much more complex, but the arithmetic explains why an index gain is not the average investor’s stock-selection experience.",
+      "S&P Dow Jones Indices offers an alternative lens through its S&P 500 Equal Weight Index. It uses the same companies and resets each company to approximately 0.2% at quarterly rebalances. Comparing its performance with the standard benchmark over the same period helps show how much the biggest companies are driving the result.",
+      "Equal weighting is not a neutral replacement or a promise of better returns. It changes company and sector exposures, and weights drift between rebalances. Comparisons also need to use consistent price-return or total-return series. The useful question is whether performance is spreading, not which construction can be declared universally superior.",
+      "Two closely watched semiconductor reports arrive this week. ASML says it will publish third-quarter results on October 14; TSMC has scheduled its third-quarter earnings conference for October 15. Neither result has been released at the time of publication. They provide different views of the investment cycle: equipment demand at ASML and chip manufacturing at TSMC.",
+      "For the technology earnings story, a revenue increase alone will not settle the argument. The more useful evidence will be the outlook for demand, the costs of meeting it and the cash retained after investment. A company can expand sales while requiring more capital, or produce strong current results while offering a less reassuring forecast.",
+      "ASML and TSMC are not S&P 500 constituents. Their reports can nevertheless inform expectations for customers, suppliers and competitors represented in U.S. portfolios. That makes them evidence about the semiconductor cycle, rather than direct additions to the S&P 500’s reported earnings.",
+      "Strong chipmaker reports would not by themselves prove that the broader rally is healthier. For that, investors would also need evidence outside the leading technology businesses: credible revenue expectations, margins supported by operations and cash flow that does not rely on a temporary release of working capital. One upbeat sector cannot answer every other sector’s questions.",
+      "The distinction between a beat and an improvement matters here. A company may exceed a recently lowered analyst estimate while still forecasting weaker business. Another may miss a headline earnings figure because of a disclosed one-time expense while maintaining its operating outlook. Assessing the full release is more informative than sorting reports into winners and losers by one number.",
+      "Guidance should therefore be read against both the company’s previous outlook and the assumptions investors were using before the report. Management’s forecast is a claim about the future, not a realized result. Orders, pricing, customer demand and disclosed costs can help assess how credible that claim is.",
+      "A simple breadth review can follow three strands over consistent periods: how the equal-weight benchmark performs relative to the standard index; whether gains reach more sectors and companies; and whether companies outside the leaders improve their outlooks. Those observations need not turn together. Rising share prices without stronger business expectations may reflect a change in valuation rather than a recovery in operations.",
+      "For fund holders, the number of holdings is only part of the exposure question. Several funds can own many of the same leading stocks. Looking at their largest positions and sector weights can reveal overlap that their different names do not. Investor.gov notes that an index fund follows a chosen index and still carries the risks associated with the securities it holds.",
+      "Narrow leadership can continue if the leaders keep delivering results that justify their valuations. It can also become less narrow if other businesses improve. Weak participation does not supply a reliable date for a reversal. It does mean that the earnings of the companies doing the most work deserve scrutiny alongside the health of those left behind.",
+      "This week’s reports will begin to separate those possibilities. The stronger signal would be a combination of resilient leaders and improving expectations elsewhere. If the same small group provides almost all the good news, a rising S&P 500 will still describe the benchmark accurately—but it will remain an incomplete account of the market beneath it."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 12, 2026: breadth analysis of current S&P 500 members",
+        "url": "https://www.reuters.com/business/wall-streets-big-narrow-rally-4-10-sp-stocks-are-down-this-year-2026-10-12/"
+      },
+      {
+        "label": "S&P Dow Jones Indices: S&P 500 methodology and overview",
+        "url": "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-us-indices.pdf"
+      },
+      {
+        "label": "S&P Dow Jones Indices: S&P 500 Equal Weight Index",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500-equal-weight-index/"
+      },
+      {
+        "label": "ASML: official third-quarter reporting schedule",
+        "url": "https://www.investor.asml.com/quarterly-results"
+      },
+      {
+        "label": "TSMC: official third-quarter earnings conference",
+        "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+      },
+      {
+        "label": "Investor.gov: index funds and their risks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4"
+      }
+    ]
+  },
   {
     "id": "ai-inference-unit-economics-2026",
     "title": "AI Inference: The Cost Behind Every Completed Task",
