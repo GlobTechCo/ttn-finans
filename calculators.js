@@ -1,231 +1,107 @@
-/**
- * TTN — financial calculators
- */
+/* Shared calculators: standalone tools and the calculator directory. */
 document.addEventListener("DOMContentLoaded", () => {
-  const fmt = (v) =>
-    v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-
-  /* ---------- 1. Compound interest ---------- */
-  function calcCompound() {
-    const principal = parseFloat(document.getElementById("ci-principal").value) || 0;
-    const monthly = parseFloat(document.getElementById("ci-monthly").value) || 0;
-    const rate = (parseFloat(document.getElementById("ci-rate").value) || 0) / 100;
-    const years = parseFloat(document.getElementById("ci-years").value) || 0;
-
-    const monthlyRate = rate / 12;
-    const months = years * 12;
-    let balance = principal;
-    let totalContributed = principal;
-
-    for (let i = 0; i < months; i++) {
-      balance = balance * (1 + monthlyRate) + monthly;
-      totalContributed += monthly;
-    }
-
-    const growth = balance - totalContributed;
-    document.getElementById("ci-result").textContent = `$${fmt(balance)}`;
-    document.getElementById("ci-sub").textContent =
-      `Contributed: $${fmt(totalContributed)} · Growth: $${fmt(growth)}`;
+  const el = (id) => document.getElementById(id);
+  const number = (id) => { const v = el(id).value.trim(); return v === "" ? NaN : Number(v); };
+  const fmt = (v, digits = 2) => v.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  function result(prefix, value, detail, color = "") {
+    el(prefix + "-result").textContent = value;
+    el(prefix + "-result").style.color = color;
+    el(prefix + "-sub").textContent = detail;
   }
-  ["ci-principal", "ci-monthly", "ci-rate", "ci-years"].forEach((id) =>
-    document.getElementById(id).addEventListener("input", calcCompound)
-  );
-  calcCompound();
+  function invalid(prefix, detail) { result(prefix, "—", detail); }
+  function bind(ids, fn, event = "input") { ids.forEach((id) => el(id).addEventListener(event, fn)); }
+  const money = (v) => "$" + fmt(v);
 
-  /* ---------- 2. Currency converter (live via Frankfurter) ---------- */
-  let fxRateCache = {}; // "EUR_USD" -> rate
-
-  async function calcFx() {
-    const amount = parseFloat(document.getElementById("fx-amount").value) || 0;
-    const from = document.getElementById("fx-from").value;
-    const to = document.getElementById("fx-to").value;
-    const subEl = document.getElementById("fx-sub");
-    const resultEl = document.getElementById("fx-result");
-
-    if (from === to) {
-      resultEl.textContent = `${fmt(amount)} ${to}`;
-      subEl.textContent = "Rate 1:1 (same currency)";
-      return;
+  if (el("ci-principal")) {
+    function calc() {
+      const p = number("ci-principal"), c = number("ci-monthly"), rate = number("ci-rate"), years = number("ci-years"), months = Math.round(years * 12);
+      if (![p,c,rate,years].every(Number.isFinite) || p < 0 || c < 0 || rate <= -100 || rate > 1000 || years < 0 || years > 60 || Math.abs(years * 12 - months) > 0.00001) return invalid("ci", "Enter nonnegative amounts, a rate above −100%, and a horizon of 0–60 years in whole months.");
+      const r = rate / 1200;
+      const factor = Math.pow(1 + r, months);
+      const balance = r === 0 ? p + c * months : p * factor + c * Math.expm1(months * Math.log1p(r)) / r;
+      const contributed = p + c * months;
+      if (!Number.isFinite(balance)) return invalid("ci", "These values exceed the calculation range.");
+      result("ci", money(balance), `Contributed: ${money(contributed)} · Growth: ${money(balance - contributed)}`);
     }
-
-    const cacheKey = `${from}_${to}`;
-    if (fxRateCache[cacheKey]) {
-      resultEl.textContent = `${fmt(amount * fxRateCache[cacheKey])} ${to}`;
-      subEl.textContent = `1 ${from} = ${fxRateCache[cacheKey].toFixed(4)} ${to}`;
-      return;
+    bind(["ci-principal","ci-monthly","ci-rate","ci-years"], calc); calc();
+  }
+  if (el("loan-amount")) {
+    function calc() {
+      const p = number("loan-amount"), rate = number("loan-rate"), n = number("loan-term");
+      if (![p,rate,n].every(Number.isFinite) || p < 0 || rate < 0 || rate > 1000 || !Number.isInteger(n) || n < 1 || n > 1200) return invalid("loan", "Enter a nonnegative loan amount and rate, and a whole-number term of 1–1,200 months.");
+      const r = rate / 1200;
+      const payment = r === 0 ? p / n : p * r / -Math.expm1(-n * Math.log1p(r));
+      if (!Number.isFinite(payment)) return invalid("loan", "These values exceed the calculation range.");
+      result("loan", money(payment), `Total: ${money(payment * n)} · Interest: ${money(payment * n - p)}`);
     }
-
-    subEl.textContent = "Loading rate…";
-    const endpoints = [
-      `https://api.frankfurter.app/latest?from=${from}&to=${to}`,
-      `https://api.frankfurter.dev/v1/latest?base=${from}&symbols=${to}`,
-      `https://api.frankfurter.app/latest?from=${from}&to=${to}`,
-    ];
-    for (let attempt = 0; attempt < endpoints.length; attempt++) {
+    bind(["loan-amount","loan-rate","loan-term"], calc); calc();
+  }
+  if (el("pnl-entry")) {
+    function calc() {
+      const entry = number("pnl-entry"), current = number("pnl-current"), amount = number("pnl-amount"), leverage = number("pnl-leverage");
+      if (![entry,current,amount,leverage].every(Number.isFinite) || entry <= 0 || current < 0 || amount < 0 || leverage < 1 || leverage > 125) return invalid("pnl", "Entry price must be above zero; amounts must be nonnegative and leverage must be 1–125x.");
+      const pct = (current - entry) / entry * leverage, pnl = amount * pct;
+      if (!Number.isFinite(pnl)) return invalid("pnl", "These values exceed the calculation range.");
+      result("pnl", (pnl < 0 ? "−" : "+") + money(Math.abs(pnl)), `${pct >= 0 ? "+" : ""}${fmt(pct * 100)}% · Leverage ${leverage}x` + (pct <= -1 ? " · Theoretical loss; liquidation rules are not modeled." : ""), pnl >= 0 ? "var(--up)" : "var(--down)");
+    }
+    bind(["pnl-entry","pnl-current","pnl-amount","pnl-leverage"], calc); calc();
+  }
+  async function json(url) {
+    const response = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    if (!response.ok) throw new Error("Data request failed");
+    return response.json();
+  }
+  if (el("fx-amount")) {
+    const cache = new Map(); let version = 0;
+    async function calc() {
+      const request = ++version, amount = number("fx-amount"), from = el("fx-from").value, to = el("fx-to").value;
+      if (!Number.isFinite(amount) || amount < 0) return invalid("fx", "Enter an amount of zero or more.");
+      if (from === to) return result("fx", `${fmt(amount)} ${to}`, "Rate 1:1 (same currency)");
+      const key = from + "_" + to;
+      let quote = cache.get(key);
+      result("fx", "—", "Loading daily reference rate…");
       try {
-        const res = await fetch(endpoints[attempt]);
-        const data = await res.json();
-        const rate = data.rates[to];
-        if (!rate) throw new Error("no rate in response");
-        fxRateCache[cacheKey] = rate;
-        resultEl.textContent = `${fmt(amount * rate)} ${to}`;
-        subEl.textContent = `1 ${from} = ${rate.toFixed(4)} ${to}`;
-        return;
-      } catch (e) {
-        if (attempt === endpoints.length - 1) {
-          subEl.textContent = "Rate temporarily unavailable. Check your connection and try again";
-          resultEl.textContent = "—";
-        } else {
-          await new Promise((r) => setTimeout(r, 400)); // brief pause before trying the next endpoint
+        if (!quote || Date.now() - quote.fetched > 300000) {
+          const data = await json(`https://api.frankfurter.dev/v2/rate/${from.toLowerCase()}/${to.toLowerCase()}`);
+          if (!Number.isFinite(data.rate) || data.rate <= 0) throw new Error("Invalid rate");
+          quote = { rate: data.rate, date: data.date, fetched: Date.now() }; cache.set(key, quote);
         }
-      }
+        if (request !== version) return;
+        const converted = amount * quote.rate;
+        if (!Number.isFinite(converted)) return invalid("fx", "This amount exceeds the calculation range.");
+        result("fx", `${fmt(converted)} ${to}`, `1 ${from} = ${fmt(quote.rate, 4)} ${to} · Reference date: ${quote.date}`);
+      } catch (error) { if (request === version) invalid("fx", "Could not load the rate. Use Retry rate to try again."); }
     }
+    bind(["fx-amount"], calc); bind(["fx-from","fx-to"], calc, "change");
+    el("fx-swap").addEventListener("click", () => { const a = el("fx-from"), b = el("fx-to"); [a.value,b.value] = [b.value,a.value]; calc(); });
+    el("fx-retry")?.addEventListener("click", () => { cache.clear(); calc(); }); calc();
   }
-  let fxDebounce;
-  document.getElementById("fx-amount").addEventListener("input", () => {
-    clearTimeout(fxDebounce);
-    fxDebounce = setTimeout(calcFx, 350);
-  });
-  document.getElementById("fx-from").addEventListener("change", calcFx);
-  document.getElementById("fx-to").addEventListener("change", calcFx);
-  document.getElementById("fx-swap").addEventListener("click", () => {
-    const from = document.getElementById("fx-from");
-    const to = document.getElementById("fx-to");
-    [from.value, to.value] = [to.value, from.value];
-    calcFx();
-  });
-  calcFx();
-
-  /* ---------- 3. Crypto P&L ---------- */
-  function calcPnl() {
-    const entry = parseFloat(document.getElementById("pnl-entry").value) || 0;
-    const current = parseFloat(document.getElementById("pnl-current").value) || 0;
-    const amount = parseFloat(document.getElementById("pnl-amount").value) || 0;
-    const leverage = parseFloat(document.getElementById("pnl-leverage").value) || 1;
-
-    if (entry <= 0) return;
-    const priceChangePct = (current - entry) / entry;
-    const pnl = amount * priceChangePct * leverage;
-    const pnlPct = priceChangePct * leverage * 100;
-
-    const resultEl = document.getElementById("pnl-result");
-    resultEl.textContent = `${pnl >= 0 ? "+" : ""}$${fmt(pnl)}`;
-    resultEl.style.color = pnl >= 0 ? "var(--up)" : "var(--down)";
-    document.getElementById("pnl-sub").textContent =
-      `${pnlPct >= 0 ? "+" : ""}${pnlPct.toFixed(2)}% · Leverage ${leverage}x`;
+  if (el("crypto-amount")) {
+    let prices, fetched = 0, pending, version = 0;
+    async function quote() {
+      if (prices && Date.now() - fetched < 60000) return prices;
+      if (!pending) pending = json("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd")
+        .then((data) => {
+          const next = { USD: 1, BTC: data.bitcoin?.usd, ETH: data.ethereum?.usd };
+          if (![next.BTC,next.ETH].every((v) => Number.isFinite(v) && v > 0)) throw new Error("Invalid price");
+          prices = next; fetched = Date.now(); return next;
+        }).finally(() => { pending = null; });
+      return pending;
+    }
+    async function calc() {
+      const request = ++version, amount = number("crypto-amount"), from = el("crypto-from").value, to = el("crypto-to").value;
+      if (!Number.isFinite(amount) || amount < 0) return invalid("crypto", "Enter an amount of zero or more.");
+      if (from === to) return result("crypto", `${fmt(amount, to === "USD" ? 2 : 8)} ${to}`, "Rate 1:1 (same asset)");
+      result("crypto", "—", "Loading price…");
+      try {
+        const p = await quote(); if (request !== version) return;
+        const converted = amount * p[from] / p[to];
+        if (!Number.isFinite(converted)) return invalid("crypto", "This amount exceeds the calculation range.");
+        result("crypto", `${fmt(converted, to === "USD" ? 2 : 8)} ${to}`, `BTC: ${money(p.BTC)} · ETH: ${money(p.ETH)} · Fetched ${new Date(fetched).toLocaleTimeString("en-US")}`);
+      } catch (error) { if (request === version) invalid("crypto", "Could not load prices. Use Retry prices to try again."); }
+    }
+    bind(["crypto-amount"], calc); bind(["crypto-from","crypto-to"], calc, "change");
+    el("crypto-swap").addEventListener("click", () => { const a = el("crypto-from"), b = el("crypto-to"); [a.value,b.value] = [b.value,a.value]; calc(); });
+    el("crypto-retry")?.addEventListener("click", () => { prices = null; fetched = 0; calc(); }); calc();
   }
-  ["pnl-entry", "pnl-current", "pnl-amount", "pnl-leverage"].forEach((id) =>
-    document.getElementById(id).addEventListener("input", calcPnl)
-  );
-  calcPnl();
-
-  /* ---------- 4. Loan / EMI calculator ---------- */
-  function calcLoan() {
-    const principal = parseFloat(document.getElementById("loan-amount").value) || 0;
-    const annualRate = (parseFloat(document.getElementById("loan-rate").value) || 0) / 100;
-    const months = parseFloat(document.getElementById("loan-term").value) || 1;
-
-    const monthlyRate = annualRate / 12;
-    let payment;
-    if (monthlyRate === 0) {
-      payment = principal / months;
-    } else {
-      payment =
-        (principal * monthlyRate * Math.pow(1 + monthlyRate, months)) /
-        (Math.pow(1 + monthlyRate, months) - 1);
-    }
-    const totalPaid = payment * months;
-    const totalInterest = totalPaid - principal;
-
-    document.getElementById("loan-result").textContent = `$${fmt(payment)}`;
-    document.getElementById("loan-sub").textContent =
-      `Total: $${fmt(totalPaid)} · Extra cost: $${fmt(totalInterest)}`;
-  }
-  ["loan-amount", "loan-rate", "loan-term"].forEach((id) =>
-    document.getElementById(id).addEventListener("input", calcLoan)
-  );
-  calcLoan();
-
-  /* ---------- 5. Crypto converter (live via CoinGecko) ---------- */
-  const cryptoIds = { BTC: "bitcoin", ETH: "ethereum" };
-  let cryptoPriceCache = {}; // "BTC" -> price in USD
-
-  async function fetchCryptoPrices() {
-    const needed = Object.keys(cryptoIds).filter((sym) => !(sym in cryptoPriceCache));
-    if (!needed.length) return;
-    const ids = needed.map((sym) => cryptoIds[sym]).join(",");
-    try {
-      const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd`);
-      const data = await res.json();
-      needed.forEach((sym) => {
-        cryptoPriceCache[sym] = data[cryptoIds[sym]]?.usd || null;
-      });
-    } catch (e) {
-      needed.forEach((sym) => (cryptoPriceCache[sym] = null));
-    }
-  }
-
-  function cryptoToUsd(amount, symbol) {
-    if (symbol === "USD") return amount;
-    const price = cryptoPriceCache[symbol];
-    return price ? amount * price : null;
-  }
-
-  function usdToCrypto(usdAmount, symbol) {
-    if (symbol === "USD") return usdAmount;
-    const price = cryptoPriceCache[symbol];
-    return price ? usdAmount / price : null;
-  }
-
-  async function calcCrypto() {
-    const amount = parseFloat(document.getElementById("crypto-amount").value) || 0;
-    const from = document.getElementById("crypto-from").value;
-    const to = document.getElementById("crypto-to").value;
-    const subEl = document.getElementById("crypto-sub");
-    const resultEl = document.getElementById("crypto-result");
-
-    if (from === to) {
-      resultEl.textContent = `${fmt(amount)} ${to}`;
-      subEl.textContent = "Same asset";
-      return;
-    }
-
-    if (Object.keys(cryptoIds).some((sym) => !(sym in cryptoPriceCache))) {
-      subEl.textContent = "Loading price…";
-      await fetchCryptoPrices();
-    }
-
-    const usdValue = cryptoToUsd(amount, from);
-    if (usdValue == null) {
-      subEl.textContent = "Price temporarily unavailable. Check your connection and try again";
-      resultEl.textContent = "—";
-      return;
-    }
-    const result = usdToCrypto(usdValue, to);
-    if (result == null) {
-      subEl.textContent = "Price temporarily unavailable. Check your connection and try again";
-      resultEl.textContent = "—";
-      return;
-    }
-
-    const decimals = to === "USD" ? 2 : 8;
-    resultEl.textContent = `${result.toLocaleString("en-US", { maximumFractionDigits: decimals })} ${to}`;
-    if (from === "USD" && cryptoPriceCache[to]) {
-      subEl.textContent = `1 ${to} = $${fmt(cryptoPriceCache[to])}`;
-    } else if (to === "USD" && cryptoPriceCache[from]) {
-      subEl.textContent = `1 ${from} = $${fmt(cryptoPriceCache[from])}`;
-    } else {
-      subEl.textContent = `Live CoinGecko price`;
-    }
-  }
-  document.getElementById("crypto-amount").addEventListener("input", calcCrypto);
-  document.getElementById("crypto-from").addEventListener("change", calcCrypto);
-  document.getElementById("crypto-to").addEventListener("change", calcCrypto);
-  document.getElementById("crypto-swap").addEventListener("click", () => {
-    const from = document.getElementById("crypto-from");
-    const to = document.getElementById("crypto-to");
-    [from.value, to.value] = [to.value, from.value];
-    calcCrypto();
-  });
-  calcCrypto();
 });

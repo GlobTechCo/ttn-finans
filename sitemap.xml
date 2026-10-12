@@ -13,6 +13,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -441,4 +442,9 @@
   <url><loc>https://globtechco.github.io/ttn-finans/ai-search-publisher-economics-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://globtechco.github.io/ttn-finans/robotics-ai-factory-roi-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://globtechco.github.io/ttn-finans/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://globtechco.github.io/ttn-finans/currency-converter.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://globtechco.github.io/ttn-finans/loan-payment-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://globtechco.github.io/ttn-finans/compound-interest-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://globtechco.github.io/ttn-finans/crypto-converter.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
 </urlset>

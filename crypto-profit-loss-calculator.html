@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Profit &amp; Loss Calculator | TTN Finance</title>
+<meta name="description" content="Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TTN Finance">
+<meta property="og:title" content="Crypto Profit &amp; Loss Calculator | TTN Finance">
+<meta property="og:description" content="Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.">
+<meta property="og:url" content="https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html">
+<meta property="og:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/crypto-liquidation-leverage-explained-editorial.webp">
+<meta property="og:image:type" content="image/webp">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:image:alt" content="Editorial illustration for Crypto Profit &amp; Loss Calculator">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Crypto Profit &amp; Loss Calculator | TTN Finance">
+<meta name="twitter:description" content="Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.">
+<meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/editorial/crypto-liquidation-leverage-explained-editorial.webp">
+<meta name="twitter:image:alt" content="Editorial illustration for Crypto Profit &amp; Loss Calculator">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="editorial-theme.css">
+<script src="editorial-theme.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html#page", "url": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html", "name": "Crypto Profit & Loss Calculator", "description": "Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.", "inLanguage": "en", "dateModified": "2026-10-12", "mainEntity": {"@id": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html#tool"}}, {"@type": "WebApplication", "@id": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html#tool", "name": "Crypto Profit & Loss Calculator", "url": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html", "description": "Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript and a modern web browser.", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "TTN Finance", "url": "https://globtechco.github.io/ttn-finans/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://globtechco.github.io/ttn-finans/"}, {"@type": "ListItem", "position": 2, "name": "Financial Calculators", "item": "https://globtechco.github.io/ttn-finans/calculators.html"}, {"@type": "ListItem", "position": 3, "name": "Crypto Profit & Loss Calculator", "item": "https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html"}]}]}</script>
+</head><body><header class="topnav">
+<a class="brand" href="index.html"><span class="dot">●</span> TTN <small>market watch</small></a>
+<nav class="nav-links" id="nav-links">
+<a href="index.html">Home</a>
+<a href="analysis.html">Analysis</a>
+<a href="tech-ai.html">Tech &amp; AI</a>
+<a href="calculators.html">Calculators</a>
+<a href="brokers.html">Brokers</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+</nav>
+<button aria-label="Menu" class="nav-toggle" id="nav-toggle">☰</button>
+</header>
+<main class="static-page" style="max-width:960px;">
+<nav aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="calculators.html">Calculators</a> / Crypto Profit &amp; Loss Calculator</nav>
+<h1>Crypto Profit &amp; Loss Calculator</h1><p>Calculate the theoretical profit or loss of a long crypto position using entry price, current price, investment amount and leverage.</p>
+<noscript><p>Enable JavaScript to calculate results. The method and assumptions are explained below.</p></noscript>
+<div class="calc-card">
+
+<p class="calc-desc">Theoretical long-position P&amp;L, excluding fees and liquidation</p>
+<div class="calc-row">
+<div class="calc-field">
+<label for="pnl-entry">Entry price ($)</label>
+<input id="pnl-entry" min="0" step="any" type="number" value="60000"/>
+</div>
+<div class="calc-field">
+<label for="pnl-current">Current price ($)</label>
+<input id="pnl-current" min="0" step="any" type="number" value="65000"/>
+</div>
+</div>
+<div class="calc-row">
+<div class="calc-field">
+<label for="pnl-amount">Investment amount ($)</label>
+<input id="pnl-amount" min="0" step="any" type="number" value="1000"/>
+</div>
+<div class="calc-field">
+<label for="pnl-leverage">Leverage</label>
+<input id="pnl-leverage" max="125" min="1" step="any" type="number" value="1"/>
+</div>
+</div>
+<div aria-atomic="true" aria-live="polite" class="calc-result">
+<div class="label">Profit / loss</div>
+<div class="big" id="pnl-result">—</div>
+<div class="sub" id="pnl-sub"></div>
+</div>
+</div>
+<section><h2>How this calculator works</h2><p>Enter the entry price, current price, investment amount and leverage for a long position. The result shows theoretical profit or loss in dollars and as a percentage of the invested amount.</p><p>Investment amount is treated as margin when leverage exceeds 1x. The calculation assumes the position remains open and excludes fees, funding payments, slippage and liquidation. It does not model short positions. A large leveraged loss may trigger liquidation before the displayed theoretical loss occurs.</p><p>Profit or loss = investment amount × leverage × (current price − entry price) ÷ entry price. An entry price of $60,000, current price of $65,000 and $1,000 investment at 1x gives about $83.33 profit before costs. At 2x, the theoretical profit is about $166.67.</p></section>
+<section><h2>Common questions</h2><details><summary>Does this calculate a liquidation price?</summary><p>No. Liquidation depends on the exchange’s maintenance margin, fees and collateral rules, which this calculator does not model.</p></details><details><summary>Can I use it for a short position?</summary><p>No. This tool models a long position: price increases generate gains and price decreases generate losses.</p></details></section>
+<p>Related reading: <a href="crypto-liquidation-leverage-explained.html">Read the TTN explanation</a>.</p>
+<section><h2>More financial tools</h2><p><a href="currency-converter.html">Currency Converter</a> · <a href="loan-payment-calculator.html">Loan Payment Calculator</a> · <a href="compound-interest-calculator.html">Compound Interest Calculator</a> · <a href="crypto-converter.html">Bitcoin &amp; Ethereum Converter</a></p></section>
+<p style="font-size:12px;color:var(--text-faint);">TTN Finance · Updated October 12, 2026. Estimates are for information only and are not financial advice.</p>
+</main><footer>
+<p>© <span id="year"></span> TTN. Data provided "as is" and does not constitute investment advice.</p>
+<div>
+<a href="calculators.html">Calculators</a> ·
+    <a href="brokers.html">Brokers</a> ·
+    <a href="about.html">About</a> ·
+    <a href="privacy.html">Privacy Policy</a>
+</div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.getElementById('nav-toggle').addEventListener('click',()=>document.getElementById('nav-links').classList.toggle('open'));</script>
+<script src="calculators.js?v=calculator-seo-20261012"></script><script src="consent.js"></script>
+</body></html>
