@@ -369,9 +369,9 @@
   },
   {
     "article": "central-bank-policy-divergence-explained",
-    "file": "assets/editorial/central-bank-policy-divergence-explained.webp",
+    "file": "assets/editorial/central-bank-policy-divergence-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Foreign exchange analyst comparing US and European economic reports at a daylight office workstation. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article central-bank-policy-divergence-explained. Scene and exact composition: Editorial still-life of euro, British pound and US dollar banknotes separated into three distinct piles at a bank currency-counting station; realistic equipment, diagonal camera angle, no laptop. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -381,7 +381,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 188866
+    "bytes": 196382
   },
   {
     "article": "strategic-petroleum-reserve-explained",
@@ -417,9 +417,9 @@
   },
   {
     "article": "smaller-company-acquiring-bigger-company-explained",
-    "file": "assets/editorial/smaller-company-acquiring-bigger-company-explained.webp",
+    "file": "assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Executives of a modest company reviewing an acquisition proposal in their working office, production facility beyond window. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article smaller-company-acquiring-bigger-company-explained. Scene and exact composition: Two business owners inspecting large industrial manufacturing machinery in a working factory, standing beside a production line holding a clipboard, natural factory daylight, no conference table. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -429,13 +429,13 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 199768
+    "bytes": 214402
   },
   {
     "article": "secondary-stock-offerings-dilution-explained",
-    "file": "assets/editorial/secondary-stock-offerings-dilution-explained.webp",
+    "file": "assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Corporate finance team examining share issuance prospectus documents in a modern office, laptop and financial calculator. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article secondary-stock-offerings-dilution-explained. Scene and exact composition: Detailed still-life of a real unbranded semiconductor wafer in its carrier beside a public company financing prospectus, photographed in a clean industrial lab, no people seated at desks. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -445,7 +445,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 194556
+    "bytes": 259888
   },
   {
     "article": "consumer-sentiment-index-explained",
@@ -513,9 +513,9 @@
   },
   {
     "article": "credit-default-swaps-explained",
-    "file": "assets/editorial/credit-default-swaps-explained.webp",
+    "file": "assets/editorial/credit-default-swaps-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Credit risk analyst reviewing corporate debt contracts and credit spread data on a professional desk, restrained real finance setting. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article credit-default-swaps-explained. Scene and exact composition: Tight editorial photograph of credit-risk contract paperwork, a rubber stamp and reading glasses on a legal review table, hands holding one document, no face or monitors. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -525,7 +525,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 177812
+    "bytes": 223416
   },
   {
     "article": "us-budget-deficit-national-debt-explained",
@@ -545,9 +545,9 @@
   },
   {
     "article": "take-private-leveraged-buyout-explained",
-    "file": "assets/editorial/take-private-leveraged-buyout-explained.webp",
+    "file": "assets/editorial/take-private-leveraged-buyout-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Investment partners discussing acquisition financing in a glass office boardroom, financial documents and realistic notebooks. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article take-private-leveraged-buyout-explained. Scene and exact composition: Wide exterior of an unbranded corporate headquarters office building with an access-controlled entrance at normal daytime, realistic business architecture, no boardroom or office desk. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -557,7 +557,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 171066
+    "bytes": 421824
   },
   {
     "article": "defi-basics-explained",
@@ -577,9 +577,9 @@
   },
   {
     "article": "private-credit-shadow-banking-explained",
-    "file": "assets/editorial/private-credit-shadow-banking-explained.webp",
+    "file": "assets/editorial/private-credit-shadow-banking-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Private lending analysts evaluating a business loan packet at a restrained finance office conference table. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article private-credit-shadow-banking-explained. Scene and exact composition: Corporate lender touring an unfinished data-center construction site with a construction manager wearing safety gear, bright ordinary daylight and exposed steel infrastructure; standing outdoor scene, no meeting table. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -589,7 +589,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 180402
+    "bytes": 299044
   },
   {
     "article": "nfib-small-business-optimism-explained",
@@ -705,9 +705,9 @@
   },
   {
     "article": "put-call-ratio-options-sentiment-explained",
-    "file": "assets/editorial/put-call-ratio-options-sentiment-explained.webp",
+    "file": "assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Options analyst reviewing transaction volume on two adjacent monitors, printed risk sheet and note taking, natural office scene. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article put-call-ratio-options-sentiment-explained. Scene and exact composition: Side-angle macro photograph of a desktop options trading keyboard and a hand using a calculator beside a printed market volume sheet, screen mostly out of frame, no portrait. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -717,7 +717,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 193554
+    "bytes": 185022
   },
   {
     "article": "fed-independence-structure-explained",
@@ -737,9 +737,9 @@
   },
   {
     "article": "analyst-ratings-price-targets-explained",
-    "file": "assets/editorial/analyst-ratings-price-targets-explained.webp",
+    "file": "assets/editorial/analyst-ratings-price-targets-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Research analyst annotating company valuation report with a pencil and calculator beside a laptop, close editorial workspace. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article analyst-ratings-price-targets-explained. Scene and exact composition: Overhead still-life of annotated equity research pages, a red pencil and a small valuation calculator, clear paper texture on a blue-grey desk mat, no people or monitors. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -749,7 +749,7 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 171024
+    "bytes": 319636
   },
   {
     "article": "ism-pmi-explained",
@@ -769,9 +769,9 @@
   },
   {
     "article": "fed-funds-futures-rate-odds-explained",
-    "file": "assets/editorial/fed-funds-futures-rate-odds-explained.webp",
+    "file": "assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Rates trader comparing interest rate contracts across two unbranded terminal displays, modest finance desk and daylight. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article fed-funds-futures-rate-odds-explained. Scene and exact composition: Tight editorial detail of a rates trader's handwritten calendar notes beside a terminal keyboard and desk telephone, hand entering an order, no full face or seated analyst composition. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -781,29 +781,29 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 214608
+    "bytes": 182012
   },
   {
     "article": "etf-creation-redemption-mechanism",
-    "file": "assets/editorial/etf-creation-redemption-mechanism.webp",
+    "file": "assets/editorial/etf-creation-redemption-mechanism-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Investment operations specialists reconciling a basket of securities on professional computer workstations, real back office. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article etf-creation-redemption-mechanism. Scene and exact composition: High-angle wide documentary photograph of a bank securities settlement operations room, several staff standing between rows of counters and terminals, emphasis on workflow and room, no lone analyst portrait. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
-      941
+      940
     ],
     "outputSize": [
       1920,
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 198570
+    "bytes": 340094
   },
   {
     "article": "sector-rotation-explained",
-    "file": "assets/editorial/sector-rotation-explained.webp",
+    "file": "assets/editorial/sector-rotation-explained-editorial.webp",
     "source": "OpenAI built-in image generation",
-    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Portfolio manager reviewing technology and industrial company reports side by side on an office desk, balanced realistic scene. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article sector-rotation-explained. Scene and exact composition: Wide documentary photograph of industrial factory roofs in the foreground and a contemporary technology office campus farther back, realistic daytime environment contrasting industries, no desk. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
     "nativeSize": [
       1672,
       941
@@ -813,6 +813,422 @@
       1080
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
-    "bytes": 172704
+    "bytes": 521938
+  },
+  {
+    "article": "dxy-dollar-index-explained",
+    "file": "assets/editorial/dxy-dollar-index-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: US dollar notes in focus on a foreign exchange workstation with assorted international currency notes farther back. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 238688
+  },
+  {
+    "article": "yield-curve-inversion-recession-signal",
+    "file": "assets/editorial/yield-curve-inversion-recession-signal.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Economist comparing short and long bond maturity charts on a desk monitor, papers and pencil in foreground, neutral light. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 185396
+  },
+  {
+    "article": "mergers-acquisitions-explained",
+    "file": "assets/editorial/mergers-acquisitions-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Two company management teams reviewing acquisition documents across a conference table, thoughtful real-world negotiation. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 185088
+  },
+  {
+    "article": "nonfarm-payrolls-jobs-report-explained",
+    "file": "assets/editorial/nonfarm-payrolls-jobs-report-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Workers arriving at an American factory entrance during a normal weekday, wide documentary photograph showing real employment activity. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 246206
+  },
+  {
+    "article": "insider-selling-explained",
+    "file": "assets/editorial/insider-selling-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Close view of executive's hands reviewing a share ownership disclosure filing beside an unbranded laptop, quiet office. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 127544
+  },
+  {
+    "article": "market-cap-explained",
+    "file": "assets/editorial/market-cap-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article market-cap-explained. Scene and exact composition: Ground-level exterior of a stock-exchange-style stone building in a busy financial district, pedestrians for scale, neutral daytime architecture photo, no office desk. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 398962
+  },
+  {
+    "article": "ipo-process-explained",
+    "file": "assets/editorial/ipo-process-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article ipo-process-explained. Scene and exact composition: Wide editorial scene of an illustrative unbranded stock-exchange opening-bell podium with a small company team, restrained expressions, normal bright institutional lighting, no claim of a specific real listing. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 169462
+  },
+  {
+    "article": "prediction-markets-explained",
+    "file": "assets/editorial/prediction-markets-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article prediction-markets-explained. Scene and exact composition: University research group discussing probability forecasts while standing around a whiteboard in a bright seminar room, indistinct diagrams, candid documentary scene, no seated laptop meeting. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 174268
+  },
+  {
+    "article": "stock-buybacks-explained",
+    "file": "assets/editorial/stock-buybacks-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article stock-buybacks-explained. Scene and exact composition: Wide rear-of-room photograph of a shareholder annual meeting in an ordinary corporate auditorium, audience and small distant stage, no readable brand or banner; no conference table. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 176266
+  },
+  {
+    "article": "options-calls-puts-explained",
+    "file": "assets/editorial/options-calls-puts-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article options-calls-puts-explained. Scene and exact composition: Close editorial view of a broker's hands discussing printed option payoff sketches at a client-service counter, other people softly out of focus in a wide bright brokerage hall, no visible monitor. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 180154
+  },
+  {
+    "article": "cpi-inflation-explained",
+    "file": "assets/editorial/cpi-inflation-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Shopper comparing ordinary grocery prices in an American supermarket aisle, cart with bread, milk and produce, natural retail lighting. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 302562
+  },
+  {
+    "article": "correlation-breakdown-diversification",
+    "file": "assets/editorial/correlation-breakdown-diversification-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article correlation-breakdown-diversification. Scene and exact composition: Overhead editorial photograph of a broad assortment of physical investment reports, bond documents and commodity market paperwork spread across a round table; two hands organizing the papers, no faces or monitor. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 320780
+  },
+  {
+    "article": "crypto-taxes-us-explained",
+    "file": "assets/editorial/crypto-taxes-us-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Accountant reviewing tax return documents with a client, calculator and generic digital asset transaction ledger on laptop. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 173244
+  },
+  {
+    "article": "dollar-cost-averaging-vs-lump-sum",
+    "file": "assets/editorial/dollar-cost-averaging-vs-lump-sum.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Personal investor organizing monthly savings envelopes beside a calendar and laptop on a home desk, believable daily finance scene. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 204418
+  },
+  {
+    "article": "short-squeeze-mechanics-explained",
+    "file": "assets/editorial/short-squeeze-mechanics-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Trader pointing at a sharply rising generic price chart on a desktop monitor, authentic financial office with natural daylight. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 182888
+  },
+  {
+    "article": "vix-fear-index-explained",
+    "file": "assets/editorial/vix-fear-index-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article vix-fear-index-explained. Scene and exact composition: Extreme close-up of a genuine options trading display with an indistinct volatility graph reflected faintly in an analyst's glasses, face mostly outside frame, focus on screen and reflection. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 154888
+  },
+  {
+    "article": "crypto-liquidation-leverage-explained",
+    "file": "assets/editorial/crypto-liquidation-leverage-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article crypto-liquidation-leverage-explained. Scene and exact composition: Side-angle close editorial photograph of hands using a hardware security wallet and an unbranded risk dashboard on a tablet at a standing workspace, no seated trader or large monitors. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 130842
+  },
+  {
+    "article": "eur-usd-rate-differential-explained",
+    "file": "assets/editorial/eur-usd-rate-differential-explained.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Macro detail of euro and US dollar notes arranged beside a bank foreign exchange desk calculator, natural light. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 251678
+  },
+  {
+    "article": "bitcoin-etf-institutional-adoption",
+    "file": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article bitcoin-etf-institutional-adoption. Scene and exact composition: Wide documentary photograph of an investment custodian's secure operations facility with staff walking through a bright glass corridor and controlled doors, no desk portrait. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 278912
+  },
+  {
+    "article": "stablecoins-explained-depeg-risk",
+    "file": "assets/editorial/stablecoins-explained-depeg-risk.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Laptop with generic digital wallet interface beside US dollar banknotes and a hardware security key on a real workspace. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 206874
+  },
+  {
+    "article": "earnings-beat-miss-explained",
+    "file": "assets/editorial/earnings-beat-miss-explained-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article earnings-beat-miss-explained. Scene and exact composition: Close view of printed quarterly earnings documents held in an investor's hands in front of a softly blurred stock-exchange floor, no desk, no prominent readable text. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 142740
+  },
+  {
+    "article": "oil-shock-market-ripple",
+    "file": "assets/editorial/oil-shock-market-ripple.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Oil tanker at a commercial petroleum terminal with refinery infrastructure in the distance, neutral daylight, realistic working port. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 500554
+  },
+  {
+    "article": "treasury-yields-spike-2026",
+    "file": "assets/editorial/treasury-yields-spike-2026.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Bond market professional at a desk comparing a printed yield table with financial terminal displays, subtle chart, daylight. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 227150
+  },
+  {
+    "article": "gold-hedge-explainer",
+    "file": "assets/editorial/gold-hedge-explainer.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Close editorial photograph of physical gold bars in a secure vault drawer, authentic gold texture and security infrastructure. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 227192
+  },
+  {
+    "article": "bitcoin-halving-cycles",
+    "file": "assets/editorial/bitcoin-halving-cycles.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: one individual editorial photograph for a financial explainer article. Scene: Bitcoin mining technician inspecting successive rows of ASIC mining units in a warehouse, metal rack detail and realistic cabling. Produce one finished landscape 16:9 high-resolution 1920x1080 photograph, sharp authentic textures, realistic proportions, neutral natural lighting and restrained documentary camera style. No illustration, no computer-rendered appearance, no cinematic treatment, no glowing graphics, no overlaid text, no watermark or advertising. Screens and documents can show indistinct plausible details but no prominent legible headlines. Illustrative scene rather than evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 331502
+  },
+  {
+    "article": "fed-policy-2026",
+    "file": "assets/editorial/fed-policy-2026-editorial.webp",
+    "source": "OpenAI built-in image generation",
+    "prompt": "Use case: photorealistic-natural. Asset: individually composed editorial photograph for financial article fed-policy-2026. Scene and exact composition: Wide realistic street-level photograph of a neoclassical American central bank building, early weekday pedestrians walking across foreground, neutral daylight, architecture dominates, no office desk. Make this distinctly different from generic finance photographs of a seated man at a monitor. Use the specified environment, camera angle, subject scale and framing. One finished landscape 16:9 1920x1080 high-resolution photographic image, realistic materials and human anatomy, neutral natural light. No illustration, no cinematic effects, no holograms, no advertising, no watermark or overlaid headline. Avoid prominent legible brand names or invented text. Generated illustrative scene, not evidence of a specific event.",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1920,
+      1080
+    ],
+    "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
+    "bytes": 424336
   }
 ]

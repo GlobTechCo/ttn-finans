@@ -164,7 +164,7 @@ const TTN_ARTICLES = [
     dek: "A look at why interest-rate decisions move nearly every asset class TTN tracks, and how to read the signals.",
     author: "TTN Research Desk",
     date: "2026-07-15T09:00:00",
-    image: "https://images.pexels.com/photos/6534073/pexels-photo-6534073.jpeg",
+    image: "assets/editorial/fed-policy-2026-editorial.webp",
     tickers: ["S&P 500", "NASDAQ", "BTC"],
     body: [
       "Interest rate decisions from the Federal Reserve are one of the few events that reliably move stocks, bonds, gold, and crypto on the same day. Eight times a year, the Federal Open Market Committee meets to decide whether to raise, cut, or hold the federal funds rate. Traders don't just react to the decision itself; they react to the wording of the statement and the tone of the press conference that follows. Understanding the underlying mechanism helps explain why markets can swing several percent on what looks, on paper, like a fairly technical announcement.",
@@ -183,7 +183,7 @@ const TTN_ARTICLES = [
     dek: "Bitcoin's supply schedule is one of the most-discussed patterns in crypto. Here's what the historical pattern shows, and where the theory runs into limits.",
     author: "TTN Research Desk",
     date: "2026-06-28T09:00:00",
-    image: "https://images.pexels.com/photos/7788006/pexels-photo-7788006.jpeg",
+    image: "assets/editorial/bitcoin-halving-cycles.webp",
     tickers: ["BTC", "ETH"],
     body: [
       "Roughly every four years, Bitcoin's block reward, the amount of new BTC paid to miners for confirming transactions, is cut in half. This 'halving' is written directly into Bitcoin's code and happens automatically after every 210,000 blocks are mined, based purely on block count rather than a calendar date or market conditions. It's one of the few genuinely predictable, non-negotiable events in an otherwise famously unpredictable market.",
@@ -203,7 +203,7 @@ const TTN_ARTICLES = [
     dek: "Gold's reputation as a 'safe haven' gets repeated often, but a hedge against what, exactly? Breaking down the three scenarios where gold tends to hold up.",
     author: "TTN Research Desk",
     date: "2026-06-10T09:00:00",
-    image: "https://images.pexels.com/photos/8442330/pexels-photo-8442330.jpeg",
+    image: "assets/editorial/gold-hedge-explainer.webp",
     tickers: ["GOLD", "EUR/USD"],
     body: [
       "\"Gold is a hedge\" is one of the most repeated lines in finance, but it's rarely explained what it's actually a hedge against. Gold doesn't behave like a single, uniform 'safe asset.' It responds to different economic pressures in different ways, and lumping all of that under one vague label makes it harder to use the metal sensibly in a portfolio. There are three distinct scenarios worth separating, plus a few situations where gold's reputation doesn't hold up as well as its marketing suggests.",
@@ -222,7 +222,7 @@ const TTN_ARTICLES = [
     dek: "Renewed conflict in the Middle East has pushed oil prices sharply higher and rattled stocks. Here's the mechanism connecting a crude oil spike to the other assets TTN tracks.",
     author: "TTN Research Desk",
     date: "2026-07-28T09:00:00",
-    image: "https://images.pexels.com/photos/15945856/pexels-photo-15945856.jpeg",
+    image: "assets/editorial/oil-shock-market-ripple.webp",
     tickers: ["S&P 500", "NASDAQ", "GOLD", "EUR/USD"],
     body: [
       "Oil doesn't sit on TTN's ticker strip the way Bitcoin or gold do, but when it spikes, it moves nearly everything that does. Late July 2026 has been a clear example: escalating conflict between the US and Iran, along with attacks on tankers in the Red Sea claimed by Houthi militants, pushed crude prices sharply higher and dragged major stock indices down on the same trading days. Understanding why oil has this outsized reach across unrelated-looking assets is worth more than just watching the headline barrel price.",
@@ -260,7 +260,7 @@ const TTN_ARTICLES = [
     dek: "Long-dated Treasury yields have jumped to levels not seen since 2007, even as the Fed holds rates steady. Here's what's driving the bond market and why it matters for stocks, gold, and the dollar.",
     author: "TTN Research Desk",
     date: "2026-07-30T09:00:00",
-    image: "https://images.pexels.com/photos/7054384/pexels-photo-7054384.jpeg",
+    image: "assets/editorial/treasury-yields-spike-2026.webp",
     tickers: ["S&P 500", "NASDAQ", "GOLD"],
     body: [
       "The 30-year Treasury yield has climbed above 5.2 percent, its highest level since 2007, and the 10-year has pushed past 4.67 percent, even though the Federal Reserve just chose to hold its short-term policy rate steady. That combination, a central bank standing pat while long-term borrowing costs surge anyway, is unusual enough that it's worth unpacking what's actually driving it and why the bond market can move so differently from what the Fed itself is doing.",
@@ -279,7 +279,7 @@ const TTN_ARTICLES = [
     dek: "USDT and USDC are meant to always be worth exactly one dollar. Here's the mechanism behind that promise, and the handful of ways it has broken down in the past.",
     author: "TTN Research Desk",
     date: "2026-07-30T11:00:00",
-    image: "https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg",
+    image: "assets/editorial/stablecoins-explained-depeg-risk.webp",
     tickers: ["BTC"],
     body: [
       "Stablecoins are the plumbing most crypto trading actually runs on, including TTN's own Crypto Converter, and the two biggest, Tether's USDT and Circle's USDC, together hold roughly 270 billion dollars in circulation. The promise behind both is simple to state: one token should always be redeemable for one US dollar. The mechanism behind that promise, and what happens when it breaks, is worth understanding before treating a stablecoin balance as functionally identical to cash in a bank account.",
@@ -298,7 +298,7 @@ const TTN_ARTICLES = [
     dek: "A company can beat every number Wall Street expected and still see its stock drop the same day. Here's the mechanism behind one of investing's most common points of confusion.",
     author: "TTN Research Desk",
     date: "2026-07-30T13:00:00",
-    image: "https://images.pexels.com/photos/25589797/pexels-photo-25589797.jpeg",
+    image: "assets/editorial/earnings-beat-miss-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "It's one of the most common sources of confusion during earnings season, visible almost weekly in TTN's own news feed: a company reports revenue and profit above what analysts expected, a clean 'beat' by every headline number, and the stock falls anyway. The reaction can look irrational from the outside, but it follows a consistent, explainable logic once you understand what the market is actually pricing.",
@@ -318,7 +318,7 @@ const TTN_ARTICLES = [
     dek: "Spot Bitcoin ETFs launched in January 2024 and have since pulled in over $2,000 institutional holders. Here's what changed structurally, and what the shift does and doesn't mean for price.",
     author: "TTN Research Desk",
     date: "2026-07-30T15:00:00",
-    image: "https://images.pexels.com/photos/4451945/pexels-photo-4451945.jpeg",
+    image: "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
     tickers: ["BTC"],
     body: [
       "When the first US spot Bitcoin ETFs launched in January 2024, the pitch was straightforward: let investors get direct Bitcoin price exposure through an ordinary brokerage account, without setting up crypto wallets or dealing with self-custody. More than two years later, the effect on who actually holds Bitcoin has been substantial enough that it's worth separating from the price swings that tend to dominate the headlines.",
@@ -337,7 +337,7 @@ const TTN_ARTICLES = [
     dek: "EUR/USD is the world's most traded currency pair, and one number explains most of its big moves: the gap between Fed and ECB interest rates. Here's how that gap works.",
     author: "TTN Research Desk",
     date: "2026-08-01T09:00:00",
-    image: "https://images.pexels.com/photos/4386149/pexels-photo-4386149.jpeg",
+    image: "assets/editorial/eur-usd-rate-differential-explained.webp",
     tickers: ["EUR/USD"],
     body: [
       "EUR/USD is the most heavily traded currency pair in the world, and the single factor that explains most of its larger swings is a number most casual observers never look at directly: the gap between the Federal Reserve's policy rate and the European Central Bank's policy rate, commonly called the interest rate differential. Understanding this mechanism explains far more about day-to-day moves in TTN's Currency Converter than watching headlines about the euro or the dollar in isolation.",
@@ -356,7 +356,7 @@ const TTN_ARTICLES = [
     dek: "A leveraged crypto position can go from open to fully wiped out in seconds, with no warning on some platforms. Here's the mechanism behind liquidation, and why it moves faster than in traditional markets.",
     author: "TTN Research Desk",
     date: "2026-08-01T11:00:00",
-    image: "https://images.pexels.com/photos/31650949/pexels-photo-31650949.jpeg",
+    image: "assets/editorial/crypto-liquidation-leverage-explained-editorial.webp",
     tickers: ["BTC", "ETH"],
     body: [
       "Leverage lets a trader control a position larger than the cash they've actually put up, using that cash as collateral for the rest, and it's the mechanism behind the leverage field in TTN's own Crypto Profit/Loss calculator. The upside is straightforward to understand: gains get magnified. What surprises a lot of newer traders is how quickly the same magnification works in reverse, and why crypto liquidations in particular tend to feel more sudden and less forgiving than the margin calls people associate with traditional stock trading.",
@@ -375,7 +375,7 @@ const TTN_ARTICLES = [
     dek: "The VIX gets mentioned constantly whenever markets get volatile, but few people know what it's actually calculating or why it moves the way it does. Here's the mechanism behind Wall Street's most-watched fear gauge.",
     author: "TTN Research Desk",
     date: "2026-08-02T09:00:00",
-    image: "https://images.pexels.com/photos/29611783/pexels-photo-29611783.jpeg",
+    image: "assets/editorial/vix-fear-index-explained-editorial.webp",
     tickers: ["S&P 500"],
     body: [
       "The VIX, formally the CBOE Volatility Index, shows up in financial headlines constantly, especially during stretches like the one TTN has covered recently, from the Nasdaq's AI-driven correction to the Treasury yield spike. Most people know it as the market's 'fear gauge' without knowing what it actually measures or why it moves the way it does, which makes it easy to misread.",
@@ -395,7 +395,7 @@ const TTN_ARTICLES = [
     dek: "Short squeezes produce some of the most dramatic single-stock price moves in markets. Here's the mechanical chain reaction behind them, separate from the hype that usually surrounds them.",
     author: "TTN Research Desk",
     date: "2026-08-02T11:00:00",
-    image: "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg",
+    image: "assets/editorial/short-squeeze-mechanics-explained.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Short squeezes produce some of the most dramatic single-stock price moves in markets, capable of sending a stock up double or triple digits in a matter of days on no fundamental news at all. The mechanics behind them are straightforward once broken down step by step, and understanding the mechanism explains why these events happen suddenly, why they can reverse just as fast, and why they're driven by market structure rather than a company's actual business.",
@@ -414,7 +414,7 @@ const TTN_ARTICLES = [
     dek: "Spreading out an investment feels safer than putting it all in at once. Decades of market data say the opposite is usually true, and here's the nuance behind why both strategies still have a real place.",
     author: "TTN Research Desk",
     date: "2026-08-02T13:00:00",
-    image: "https://images.pexels.com/photos/4056856/pexels-photo-4056856.jpeg",
+    image: "assets/editorial/dollar-cost-averaging-vs-lump-sum.webp",
     tickers: ["S&P 500"],
     body: [
       "Anyone with a lump sum to invest, a bonus, an inheritance, savings finally ready to put to work, tends to face the same question: put it all in now, or spread it out over several months. Dollar-cost averaging, investing equal amounts on a regular schedule rather than all at once, feels intuitively safer, and it's the default advice given to new investors constantly. Decades of market data tell a more specific story than 'safer,' one worth understanding before assuming the cautious-sounding option is automatically the better one, and it connects directly to the kind of long-horizon math TTN's own Compound Interest calculator is built to illustrate.",
@@ -433,7 +433,7 @@ const TTN_ARTICLES = [
     dek: "Stocks, bonds, gold, and crypto are supposed to zig when others zag. Here's why that relationship can break down during the exact moments diversification is meant to protect you.",
     author: "TTN Research Desk",
     date: "2026-08-03T09:00:00",
-    image: "https://images.pexels.com/photos/12920750/pexels-photo-12920750.jpeg",
+    image: "assets/editorial/correlation-breakdown-diversification-editorial.webp",
     tickers: ["S&P 500", "GOLD", "BTC"],
     body: [
       "Diversification, holding a mix of assets that don't all move in the same direction at once, is one of the most repeated pieces of investing advice, and for good reason: over long stretches, it genuinely reduces how much a portfolio swings for a given level of expected return. What gets discussed far less is that the relationships diversification depends on aren't fixed. They can compress sharply during exactly the periods an investor most needs protection, a pattern that's been visible repeatedly across the events TTN has covered recently.",
@@ -452,7 +452,7 @@ const TTN_ARTICLES = [
     dek: "The IRS treats crypto as property, not currency, which has specific, practical consequences most new investors don't find out about until tax season. Here's the mechanism, plain and simple.",
     author: "TTN Research Desk",
     date: "2026-08-03T11:00:00",
-    image: "https://images.pexels.com/photos/6863250/pexels-photo-6863250.jpeg",
+    image: "assets/editorial/crypto-taxes-us-explained.webp",
     tickers: ["BTC"],
     body: [
       "One detail trips up more new crypto investors than almost anything else: the IRS doesn't treat cryptocurrency as currency at all. Under IRS guidance dating back to 2014, crypto is classified as property, the same broad category as stocks or real estate, and that single classification decision is the source of nearly every practical tax rule that follows, including some that surprise people who assume crypto works like cash.",
@@ -471,7 +471,7 @@ const TTN_ARTICLES = [
     dek: "Inflation reports get boiled down to a single headline number, but that number is really several different measures layered together. Here's what each one is actually counting, and why the Fed cares more about one than the others.",
     author: "TTN Research Desk",
     date: "2026-08-03T13:00:00",
-    image: "https://images.pexels.com/photos/5951182/pexels-photo-5951182.jpeg",
+    image: "assets/editorial/cpi-inflation-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Every month, a single inflation number moves markets, and TTN's own piece on Fed policy already covered why that number matters so much for stocks, bonds, gold, and crypto. What gets less attention is that 'the inflation number' is actually several distinct measures, and the specific one being quoted changes what the report is actually saying, sometimes significantly.",
@@ -490,7 +490,7 @@ const TTN_ARTICLES = [
     dek: "Financial news increasingly quotes 'what the options market is saying' about a stock. Here's what a call and a put actually are, and how to read that kind of coverage without needing a trading account.",
     author: "TTN Research Desk",
     date: "2026-08-04T09:00:00",
-    image: "https://images.pexels.com/photos/16594725/pexels-photo-16594725.jpeg",
+    image: "assets/editorial/options-calls-puts-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Financial coverage increasingly references what options markets are pricing in for a stock, a habit that's become especially common around earnings season, when headlines ask whether a company can pull off a turnaround 'according to options.' Understanding what an option actually is makes that kind of coverage far more useful, even for a reader who never plans to trade one directly.",
@@ -509,7 +509,7 @@ const TTN_ARTICLES = [
     dek: "S&P 500 companies spent roughly a trillion dollars buying back their own shares last year, more than they paid out in dividends. Here's the mechanism behind buybacks, and the real debate over whether they help or hurt.",
     author: "TTN Research Desk",
     date: "2026-08-04T11:00:00",
-    image: "https://images.pexels.com/photos/15297703/pexels-photo-15297703.jpeg",
+    image: "assets/editorial/stock-buybacks-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "A stock buyback, also called a share repurchase, is when a company uses its own cash to purchase shares of its own stock on the open market, then typically retires them, permanently reducing the total number of shares outstanding. S&P 500 companies spent roughly a trillion dollars on buybacks in 2025 alone, more than they paid out in dividends for the fifth straight year, making buybacks the dominant way large US companies now return cash to shareholders.",
@@ -528,7 +528,7 @@ const TTN_ARTICLES = [
     dek: "Prediction markets have grown from a niche experiment into a fast-growing part of financial media coverage, with Fed decisions and economic data now priced alongside sports and politics. Here's how the mechanism actually works.",
     author: "TTN Research Desk",
     date: "2026-08-04T13:00:00",
-    image: "https://images.pexels.com/photos/7594401/pexels-photo-7594401.jpeg",
+    image: "assets/editorial/prediction-markets-explained-editorial.webp",
     tickers: ["S&P 500"],
     body: [
       "Prediction markets, platforms where people trade contracts tied to the outcome of a real-world event, have moved from a niche curiosity into a genuinely large financial category. Global trading volume on these platforms reached roughly 51 billion dollars in 2025 and is projected to climb toward 240 billion dollars in 2026, and financial coverage now routinely cites what Kalshi or Polymarket traders are pricing in for Fed decisions, economic data releases, and corporate events alongside more traditional sources like analyst forecasts.",
@@ -547,7 +547,7 @@ const TTN_ARTICLES = [
     dek: "SpaceX's stock has swung sharply since its June IPO, including an 8 percent premarket drop on its first earnings report as a public company. Here's the mechanical process behind a company going public, and why the opening price rarely tells the full story.",
     author: "TTN Research Desk",
     date: "2026-08-05T09:00:00",
-    image: "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg",
+    image: "assets/editorial/ipo-process-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "An initial public offering is the process by which a private company sells shares to the public for the first time and begins trading on a stock exchange. It converts private ownership into a tradable stock, raises fresh capital for the company, and, on the first trading day, sets an opening market price. What that first price actually reflects, and how it's arrived at, is worth understanding before treating a stock's IPO-day move as a verdict on the company itself.",
@@ -566,7 +566,7 @@ const TTN_ARTICLES = [
     dek: "Amazon just crossed $3 trillion in market capitalization, a headline number that gets repeated constantly but rarely explained. Here's what market cap actually measures, and the ways it can be genuinely misleading.",
     author: "TTN Research Desk",
     date: "2026-08-05T11:00:00",
-    image: "https://images.pexels.com/photos/35118250/pexels-photo-35118250.jpeg",
+    image: "assets/editorial/market-cap-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Amazon crossed 3 trillion dollars in market capitalization for the first time in early August 2026, a headline figure that gets repeated constantly in financial coverage without much explanation of what it actually represents. Market cap is simple to calculate, a company's current share price multiplied by its total number of outstanding shares, but that simplicity hides a few genuinely important nuances worth understanding before treating it as a full measure of a company's size or worth.",
@@ -585,7 +585,7 @@ const TTN_ARTICLES = [
     dek: "A CEO selling billions in company stock makes for an alarming headline, but the vast majority of insider sales happen on a pre-scheduled plan set months in advance. Here's how to tell the difference, and which kind of insider activity actually carries a signal.",
     author: "TTN Research Desk",
     date: "2026-08-05T13:00:00",
-    image: "https://images.pexels.com/photos/33000099/pexels-photo-33000099.jpeg",
+    image: "assets/editorial/insider-selling-explained.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "A headline announcing that a company's CEO or founder has filed to sell billions of dollars in stock tends to trigger an immediate reaction: does this person know something the rest of the market doesn't? The honest answer is that most of the time, the filing alone tells you far less than it seems to, and understanding the mechanism behind how large insider sales actually happen changes how that kind of headline should be read.",
@@ -604,7 +604,7 @@ const TTN_ARTICLES = [
     dek: "The monthly Nonfarm Payrolls report is one of the single most market-moving releases on the calendar, capable of swinging stocks, bonds, and the dollar within minutes. Here's what it actually measures and why markets react so sharply.",
     author: "TTN Research Desk",
     date: "2026-08-06T09:00:00",
-    image: "https://images.pexels.com/photos/5439148/pexels-photo-5439148.jpeg",
+    image: "assets/editorial/nonfarm-payrolls-jobs-report-explained.webp",
     tickers: ["S&P 500", "NASDAQ", "GOLD"],
     body: [
       "On the first Friday of most months, at 8:30am Eastern, the Bureau of Labor Statistics releases a single report that reliably moves stocks, bonds, currencies, and commodities within minutes of publication, often more sharply than an entire week of ordinary trading. That report is Nonfarm Payrolls, commonly shortened to NFP, and understanding what it measures and why markets react the way they do explains a recurring pattern of volatility that has little to do with any individual company.",
@@ -623,7 +623,7 @@ const TTN_ARTICLES = [
     dek: "A reported $400 billion pharmaceutical megadeal between AstraZeneca and Bristol Myers Squibb has investors weighing the same question every M&A deal raises: does combining two companies actually create value, or just look like it does on paper?",
     author: "TTN Research Desk",
     date: "2026-08-06T11:00:00",
-    image: "https://images.pexels.com/photos/33175650/pexels-photo-33175650.jpeg",
+    image: "assets/editorial/mergers-acquisitions-explained.webp",
     tickers: ["S&P 500"],
     body: [
       "Reports that AstraZeneca and Bristol Myers Squibb have been in talks for months over a deal that could create a 400 billion dollar pharmaceutical giant sent both stocks moving in opposite directions the moment the news broke, Bristol Myers Squibb rising more than 4 percent while AstraZeneca's American depositary receipts fell nearly 6 percent. That immediate, opposite reaction is a pattern worth understanding, since it shows up in nearly every major acquisition, and it reveals something real about how the market actually judges these deals.",
@@ -642,7 +642,7 @@ const TTN_ARTICLES = [
     dek: "An inverted yield curve has preceded every US recession since 1955 but one. Here's what it actually means for short-term rates to exceed long-term ones, and why the signal's most recent reading broke a 45-year-old pattern.",
     author: "TTN Research Desk",
     date: "2026-08-06T13:00:00",
-    image: "https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg",
+    image: "assets/editorial/yield-curve-inversion-recession-signal.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Among the dozens of indicators economists track, few get as much attention as the yield curve, specifically the spread between the 10-year and 2-year US Treasury yields, known as the 2s10s. Every sustained inversion of this spread, meaning the shorter-term yield rising above the longer-term one, has preceded a US recession going back to 1955 with only a single exception in that entire span, a track record that's earned it a place as one of the most closely watched recession signals in markets, even among people who couldn't explain the mechanism behind it.",
@@ -661,7 +661,7 @@ const TTN_ARTICLES = [
     dek: "The dollar index reduces the entire foreign exchange market to a single number, and one currency accounts for more than half of how it's calculated. Here's the mechanism, and why EUR/USD drives most of its daily moves.",
     author: "TTN Research Desk",
     date: "2026-08-07T09:00:00",
-    image: "https://images.pexels.com/photos/29916107/pexels-photo-29916107.jpeg",
+    image: "assets/editorial/dxy-dollar-index-explained.webp",
     tickers: ["EUR/USD"],
     body: [
       "The US Dollar Index, commonly quoted as DXY, condenses the entire foreign exchange market into a single scrolling number, and financial coverage treats it as shorthand for 'the dollar' broadly. That shorthand is useful but incomplete, since DXY measures the dollar against a specific, aging basket of only six currencies, and understanding what's actually inside that basket explains both why the index moves the way it does and where it can mislead.",
@@ -680,7 +680,7 @@ const TTN_ARTICLES = [
     dek: "Tech stocks fell sharply while healthcare and financials hit fresh highs in the same week. That's not a contradiction, it's sector rotation, and understanding it changes how a scary-looking headline should actually be read.",
     author: "TTN Research Desk",
     date: "2026-08-07T11:00:00",
-    image: "assets/editorial/sector-rotation-explained.webp",
+    image: "assets/editorial/sector-rotation-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "In late July 2026, semiconductor and memory-chip stocks tumbled for a fourth straight day, with the VanEck Semiconductor ETF off more than 3 percent as Micron and AMD each fell over 8 percent, while in the very same stretch, healthcare and financials stocks hit fresh intraday all-time highs. Treated in isolation, those two headlines look contradictory. Understood together, they describe one of the most common and least well-explained patterns in markets: sector rotation, money moving between parts of the market rather than leaving it.",
@@ -699,7 +699,7 @@ const TTN_ARTICLES = [
     dek: "An ETF's share count isn't fixed the way a stock's is, and that flexibility is precisely what keeps its price tethered to the value of what it actually holds. Here's the creation and redemption mechanism behind that, step by step.",
     author: "TTN Research Desk",
     date: "2026-08-07T13:00:00",
-    image: "assets/editorial/etf-creation-redemption-mechanism.webp",
+    image: "assets/editorial/etf-creation-redemption-mechanism-editorial.webp",
     tickers: ["BTC"],
     body: [
       "An exchange-traded fund trades on a stock exchange just like an ordinary share, which makes it easy to assume it works exactly like one. It doesn't, in one specific and important way: unlike a company's stock, where the total share count is relatively fixed and only changes through deliberate corporate actions, an ETF's share count can expand or contract every single trading day based on demand. That flexibility runs through a process called creation and redemption, and it's the mechanism that keeps an ETF's market price closely tethered to the actual value of what it holds, the concept covered from the demand side in TTN's earlier piece on Bitcoin ETF adoption.",
@@ -738,7 +738,7 @@ const TTN_ARTICLES = [
     dek: "Financial headlines routinely cite a precise percentage chance of a rate hike or cut before the Fed has said a word. Here's the futures market mechanism behind that number, and how to read it correctly.",
     author: "TTN Research Desk",
     date: "2026-08-08T11:00:00",
-    image: "assets/editorial/fed-funds-futures-rate-odds-explained.webp",
+    image: "assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp",
     tickers: ["S&P 500", "GOLD"],
     body: [
       "Financial coverage routinely states a precise number, 'markets are pricing in a 62 percent chance of a rate hike next month', well before the Federal Reserve has made any announcement at all. That figure isn't a poll or a guess. It's calculated directly from real money changing hands in the futures market, and understanding the mechanism behind it, most commonly accessed through the CME Group's FedWatch Tool, changes how much weight that kind of headline deserves.",
@@ -757,7 +757,7 @@ const TTN_ARTICLES = [
     dek: "A Wall Street price target sounds like a precise prediction, but it's built on assumptions that can shift within weeks. Here's how analyst ratings actually work, and the real, documented gap between confidence and accuracy.",
     author: "TTN Research Desk",
     date: "2026-08-08T13:00:00",
-    image: "assets/editorial/analyst-ratings-price-targets-explained.webp",
+    image: "assets/editorial/analyst-ratings-price-targets-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Headlines citing a specific price target, 'Deutsche Bank maintains buy rating, $255 target', or an upgrade or downgrade between firms show up constantly in financial news, and TTN's own feed carries them regularly. These figures sound precise and authoritative, but understanding how they're actually built, and how accurate they've historically been, changes how much weight a single analyst call deserves.",
@@ -795,7 +795,7 @@ const TTN_ARTICLES = [
     dek: "A single ratio compares how many investors are betting on a decline versus a rally, and professional traders often read extreme readings backwards. Here's how the put/call ratio works, and why crowded sentiment can be a warning sign.",
     author: "TTN Research Desk",
     date: "2026-08-09T11:00:00",
-    image: "assets/editorial/put-call-ratio-options-sentiment-explained.webp",
+    image: "assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp",
     tickers: ["S&P 500"],
     body: [
       "Building on the basic mechanics of calls and puts covered in TTN's earlier options piece, there's a widely-watched sentiment gauge built directly from that same options activity: the put/call ratio, a single number that compares how much money is flowing into bearish bets versus bullish ones across the market on any given day, published daily by the CBOE.",
@@ -966,7 +966,7 @@ const TTN_ARTICLES = [
     dek: "Nvidia partnered with six of the world's largest asset managers this week to help fund AI infrastructure buildouts. Here's how private credit actually works, why it exploded after 2008, and why some of its own biggest names have compared it to conditions before the subprime crisis.",
     author: "TTN Research Desk",
     date: "2026-08-12T11:00:00",
-    image: "assets/editorial/private-credit-shadow-banking-explained.webp",
+    image: "assets/editorial/private-credit-shadow-banking-explained-editorial.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Nvidia this week partnered with six of the largest asset managers in the world, Apollo Global Management, Blackstone, BlackRock, Brookfield Asset Management, Goldman Sachs, and KKR, to help mobilize capital for AI infrastructure buildouts, a deal that sits squarely inside a corner of finance that's grown enormously over the past decade but remains genuinely unfamiliar to most people outside the industry: private credit. Understanding how this market actually works explains why it's become the default financing tool behind an increasing share of the AI capital spending covered in TTN's earlier pieces.",
@@ -1005,7 +1005,7 @@ const TTN_ARTICLES = [
     dek: "Wendy's shares jumped 13% this week on reports that investor Nelson Peltz is preparing a buyout bid to take the company private. Here's the leveraged buyout mechanism behind deals like this, and why it puts the target company's own balance sheet on the hook.",
     author: "TTN Research Desk",
     date: "2026-08-13T09:00:00",
-    image: "assets/editorial/take-private-leveraged-buyout-explained.webp",
+    image: "assets/editorial/take-private-leveraged-buyout-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "Wendy's shares jumped more than 13 percent this week after the Financial Times reported that Nelson Peltz's Trian Fund Management, working with co-investors Flynn Group and BlueFive Capital, is preparing a bid to take the fast-food chain private. A 'take-private' deal reverses the IPO process covered in TTN's earlier piece, removing a company from public stock exchanges entirely, and it's almost always executed through a specific financing structure worth understanding: the leveraged buyout, or LBO.",
@@ -1043,7 +1043,7 @@ const TTN_ARTICLES = [
     dek: "TTN's earlier piece on circular AI financing mentioned widening credit default swap spreads on AI-linked debt as a market warning signal. Here's what a CDS actually is, and why its price moving is often the fastest real-money read on rising default risk.",
     author: "TTN Research Desk",
     date: "2026-08-13T13:00:00",
-    image: "assets/editorial/credit-default-swaps-explained.webp",
+    image: "assets/editorial/credit-default-swaps-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "TTN's earlier piece on circular AI financing mentioned that credit default swap spreads on some AI-linked corporate debt had widened as private-credit deals accumulated, cited as a market-based signal that some investors were pricing in genuine additional risk. Understanding what a credit default swap actually is, and why its price moving is often one of the fastest real-money reads on changing default risk, fills in a mechanism that gets referenced constantly in financial coverage without much explanation of how it actually works.",
@@ -1138,7 +1138,7 @@ const TTN_ARTICLES = [
     dek: "Intel shares dropped more than 3% after announcing a $15 billion stock offering to fund AI-driven growth, even though the company framed it as a sign of strength. Here's how secondary offerings and share dilution actually work.",
     author: "TTN Research Desk",
     date: "2026-08-15T11:00:00",
-    image: "assets/editorial/secondary-stock-offerings-dilution-explained.webp",
+    image: "assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp",
     tickers: ["NASDAQ", "S&P 500"],
     body: [
       "Intel shares fell more than 3 percent in premarket trading after the company announced a common stock offering to raise 15 billion dollars, intended to support capital expenditures and working capital as the chipmaker described a 'strong and sustainable demand environment' driven by the AI boom. The stock declining on what the company framed as a growth-supporting move is a pattern that shows up constantly with this type of transaction, called a secondary or follow-on offering, and understanding the mechanism explains why the market's reaction often runs opposite to a company's own framing.",
@@ -1157,7 +1157,7 @@ const TTN_ARTICLES = [
     dek: "GameStop, worth roughly $11 billion, offered $56 billion to acquire eBay, a company nearly four times its size. Here's the financing mechanics that make an offer like this possible on paper, and the real gap Wall Street immediately flagged.",
     author: "TTN Research Desk",
     date: "2026-08-15T13:00:00",
-    image: "assets/editorial/smaller-company-acquiring-bigger-company-explained.webp",
+    image: "assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp",
     tickers: ["S&P 500", "NASDAQ"],
     body: [
       "GameStop, with a market capitalization a little over 11 billion dollars, submitted an unsolicited, non-binding proposal to acquire eBay, a company worth roughly four times its size, for approximately 56 billion dollars, sending analysts across Wall Street scrambling to explain how a smaller company can even structurally propose buying a considerably larger one. Building on the leveraged buyout mechanics covered in TTN's earlier take-private piece, the answer lies in how an acquisition's purchase price gets assembled from pieces that don't all have to come from the acquirer's own existing size.",
@@ -1214,7 +1214,7 @@ const TTN_ARTICLES = [
     dek: "The Fed is on hold, the ECB is under pressure to keep tightening, and the Bank of England faces its own separate inflation test, all reacting to the same oil shock from fundamentally different starting points. Here's why one global event can push central banks apart rather than together.",
     author: "TTN Research Desk",
     date: "2026-08-17T13:00:00",
-    image: "assets/editorial/central-bank-policy-divergence-explained.webp",
+    image: "assets/editorial/central-bank-policy-divergence-explained-editorial.webp",
     tickers: ["EUR/USD", "GOLD"],
     body: [
       "The Federal Reserve, Bank of England, and European Central Bank are each confronting the same underlying problem, elevated energy prices tied to the Middle East conflict TTN has covered extensively, yet arriving at meaningfully different policy responses. The Fed is expected to hold through September before potentially raising rates later, the ECB faces criticism for tightening into a weak eurozone economy, and the BOE braces for inflation data expected to rebound. Understanding why one shared shock produces divergent central bank behavior, rather than a coordinated response, explains a dynamic that shows up constantly in the currency and rate-differential pieces TTN has covered.",
