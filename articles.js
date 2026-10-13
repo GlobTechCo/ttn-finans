@@ -344,7 +344,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "fed-policy-2026",
@@ -459,7 +459,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "ai-capex-nasdaq-correction",
@@ -488,7 +488,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "treasury-yields-spike-2026",
@@ -521,7 +521,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "stablecoins-explained-depeg-risk",
@@ -891,7 +891,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "prediction-markets-explained",
@@ -946,7 +946,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "market-cap-explained",
@@ -974,7 +974,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "insider-selling-explained",
@@ -1145,7 +1145,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "etf-creation-redemption-mechanism",
@@ -1369,7 +1369,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "corporate-bonds-explained",
@@ -1401,7 +1401,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "money-market-funds-vs-savings-explained",
@@ -1459,7 +1459,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "circular-ai-financing-explained",
@@ -1487,7 +1487,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "bitcoin-51-percent-attack-forks-explained",
@@ -1514,7 +1514,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "nfib-small-business-optimism-explained",
@@ -1541,7 +1541,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "private-credit-shadow-banking-explained",
@@ -1569,7 +1569,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "defi-basics-explained",
@@ -1625,7 +1625,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "us-budget-deficit-national-debt-explained",
@@ -1653,7 +1653,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "credit-default-swaps-explained",
@@ -1768,7 +1768,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "consumer-sentiment-index-explained",
@@ -1795,7 +1795,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "secondary-stock-offerings-dilution-explained",
@@ -1827,7 +1827,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "smaller-company-acquiring-bigger-company-explained",
@@ -1855,7 +1855,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "13f-filings-explained",
@@ -1883,7 +1883,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "strategic-petroleum-reserve-explained",
@@ -1914,7 +1914,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "central-bank-policy-divergence-explained",
@@ -1942,7 +1942,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "global-bond-yield-synchronization-explained",
@@ -1974,7 +1974,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "retailer-earnings-consumer-bellwether-explained",
@@ -2057,7 +2057,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "crack-spread-refining-margins-explained",
@@ -2085,7 +2085,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "clarity-act-crypto-legislation-explained",
@@ -2113,7 +2113,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "tips-inflation-protected-bonds-explained",
@@ -2141,7 +2141,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "housing-starts-builder-confidence-explained",
@@ -2172,7 +2172,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "dollar-reserve-currency-status-explained",
@@ -2228,7 +2228,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "debt-spiral-r-versus-g-explained",
@@ -2256,7 +2256,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "jackson-hole-symposium-explained",
@@ -2316,7 +2316,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "crypto-rally-three-catalysts-explained",
@@ -2344,7 +2344,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "block-trades-dark-pools-explained",
@@ -2372,7 +2372,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "treasury-general-account-liquidity-explained",
@@ -2400,7 +2400,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "emerging-market-carry-trade-explained",
@@ -2428,7 +2428,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "bond-duration-explained",
@@ -2484,7 +2484,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "prediction-markets-circuit-split-explained",
@@ -2511,7 +2511,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "ai-monetization-gap-explained",
@@ -2644,7 +2644,7 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": "Revised as an explainer; unsupported market figures and event descriptions removed or qualified."
+    "editorialNote": null
   },
   {
     "id": "ai-agents-enterprise-roi-2026",
