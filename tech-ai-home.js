@@ -1,6 +1,6 @@
 /* Featured original technology analyses. No changes to TTNNews/news feed. */
 (()=>{function init(){const el=document.getElementById("tech-ai-home");if(!el||typeof TTN_ARTICLES==="undefined")return;
-const techIds=new Set(["ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
+const techIds=new Set(["anthropic-ai-self-replication-iot-2026","broadcom-ai-networking-ocp-2026","ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
 const safe=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const selected=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,4);
 const articleUrl=a=>encodeURIComponent(a.id)+".html";

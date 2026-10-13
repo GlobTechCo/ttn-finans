@@ -14,7 +14,7 @@
   }
 
   // Keep Tech & AI exclusively in its own archive; do not remove source articles.
-  const TECH_AI_IDS = new Set(["ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
+  const TECH_AI_IDS = new Set(["anthropic-ai-self-replication-iot-2026","broadcom-ai-networking-ocp-2026","ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
 
   function render() {
     const el = document.getElementById("analysis-archive");
