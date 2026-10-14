@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "method": "Compared current TTN image contact sheet with Reuters news photo captions and Apple official product images. Rejected repeated office portraits and the existing wafer motif. Inspected selected covers at full resolution.",
+  "referenceSources": [
+    "https://www.reuters.com/business/finance/bank-america-profit-hurt-by-12-billion-fine-over-anti-money-laundering-2026-10-14/",
+    "https://www.reuters.com/world/asia-pacific/chinas-exports-surge-363-yy-september-imports-up-31-2026-10-14/",
+    "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+  ],
+  "articles": [
+    {
+      "id": "us-cpi-september-2026-energy",
+      "image": "assets/editorial/us-cpi-september-2026-energy.webp",
+      "brief": "Parallel fuel-pump islands under a canopy at an American gasoline station",
+      "mode": "built-in imagegen",
+      "documentary": false
+    },
+    {
+      "id": "bank-of-america-q3-2026-results",
+      "image": "assets/editorial/bank-of-america-q3-2026-results.webp",
+      "brief": "A conceptual U.S. bank entrance with limestone columns, glass doors and an American flag",
+      "mode": "built-in imagegen",
+      "documentary": false
+    },
+    {
+      "id": "china-september-2026-export-surge",
+      "image": "assets/editorial/china-september-2026-export-surge.webp",
+      "brief": "Rows of new cars awaiting loading onto a roll-on roll-off cargo ship at an export terminal",
+      "mode": "built-in imagegen",
+      "documentary": false
+    },
+    {
+      "id": "asml-q3-2026-ai-demand",
+      "image": "assets/editorial/asml-q3-2026-ai-demand.webp",
+      "brief": "Large precision manufacturing equipment inside a pristine semiconductor cleanroom",
+      "mode": "built-in imagegen",
+      "documentary": false
+    },
+    {
+      "id": "apple-homeview-siri-ai-2026",
+      "image": "assets/editorial/apple-homeview-siri-ai-2026.webp",
+      "brief": "A silver Apple HomeView, based on the official product reference, on a kitchen countertop",
+      "mode": "built-in imagegen",
+      "documentary": false
+    },
+    {
+      "id": "scaleway-amd-sweden-ai-supercomputer",
+      "image": "assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp",
+      "brief": "A conceptual Nordic data center beside pine forest and autumn birch trees",
+      "mode": "built-in imagegen",
+      "documentary": false
+    }
+  ],
+  "rejectedMotifs": [
+    "Cropped fuel nozzle and car",
+    "Incorrect car-to-pump positioning",
+    "Circular silicon wafer already present in TTN",
+    "Repeated office meetings and similar portraits"
+  ]
+}

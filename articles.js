@@ -1,6 +1,244 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-cpi-september-2026-energy",
+    "title": "U.S. Inflation Reaches 3.7% as Gasoline Drives September’s Increase",
+    "dek": "The September CPI report puts energy back at the center of the inflation debate. Core prices also rose, leaving the Fed with more than a fuel-price problem.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/us-cpi-september-2026-energy.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "U.S. consumer inflation accelerated to 3.7% in the year through September, up from 3.4% in August, the Bureau of Labor Statistics reported on October 14. The monthly increase was 0.6% after seasonal adjustment. Gasoline accounted for more than half of that monthly advance, making the price at the pump the clearest source of renewed pressure.",
+      "The report complicates any simple claim that inflation is either an energy shock or a broader problem. Prices excluding food and energy rose 0.3% in September and 2.6% over the year. Households face the full basket of costs; policymakers also need to understand which pressures may persist.",
+      "Gasoline prices increased 9.1% over the month, while the overall energy index rose 5.2%. Shelter increased 0.4%. Food prices were unchanged overall, with groceries slightly cheaper and meals away from home slightly more expensive. The release does not describe every household expense moving in the same direction.",
+      "That unevenness matters for businesses as well as consumers. A household with a long commute feels a fuel increase differently from one that rarely drives. A delivery business can face immediate pressure even if the goods it carries have not become more expensive. An aggregate index is a weighted measure, not a bill sent to each customer.",
+      "A sudden fuel increase can also change spending choices before wages or other prices adjust. Consumers may defer a discretionary purchase to cover transportation costs. The effect on a company depends on its customers and margins, rather than on inflation alone.",
+      "Removing food and energy is useful for looking past volatile components. It does not remove those costs from ordinary life. Nor does it establish that the remaining price increases will continue at the same pace. Headline and core inflation should be read together, with attention to their different purposes.",
+      "For investors, a month of higher core prices deserves scrutiny without being mechanically extrapolated into a full year. The monthly rate and the twelve-month rate measure different periods. Seasonal adjustment also matters when comparing one month with the next.",
+      "A business can pass through higher costs, absorb them or reduce another expense. Those choices affect margins and demand differently. The next earnings reports should reveal more about that response than a blanket assumption that higher prices benefit every company with pricing power.",
+      "The Federal Reserve defines its longer-run 2% inflation objective using the personal consumption expenditures price index, not CPI. The two measures are related but have different coverage and weights. Comparing today’s CPI figure directly with the Fed’s target as though they were the same series skips that distinction.",
+      "The new report is evidence for the policy debate, not an announced rate decision. A credible assessment also needs employment, activity and subsequent inflation readings. Market expectations can change immediately; the committee’s decision comes through its own process.",
+      "Borrowers and savers therefore face a change in uncertainty rather than a guaranteed change in every interest rate. Mortgage offers, deposit rates and bond yields can respond differently, reflecting maturity, competition and credit risk.",
+      "The immediate question is whether the fuel shock fades or persists. The broader question is whether companies and workers adapt in ways that make price pressure harder to reverse. September’s figures establish the starting point; they do not settle either question.",
+      "For now, the reading is uncomfortable in two respects. Energy is imposing a visible cost on households, and the core measure has not supplied a clean offset. The next useful evidence will be whether that combination repeats, and how much demand weakens as consumers pay the bill."
+    ],
+    "sources": [
+      {
+        "label": "BLS, October 14: September 2026 CPI release",
+        "url": "https://www.bls.gov/news.release/cpi.htm"
+      },
+      {
+        "label": "Federal Reserve: its inflation objective and PCE measure",
+        "url": "https://www.federalreserve.gov/faqs/economy_14419.htm"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "bank-of-america-q3-2026-results",
+    "title": "Bank of America’s Earnings Miss Extends Beyond Its Settlement Charge",
+    "dek": "A regulatory charge explains part of the quarterly profit decline. The adjusted earnings miss leaves a separate question about the strength of the operating business.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/bank-of-america-q3-2026-results.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "Bank of America reported third-quarter results on October 14 with a problem that cannot be explained entirely by a large regulatory charge. Reuters reported profit of $6.9 billion, against $8.3 billion a year earlier, and a $1.2 billion settlement charge. Excluding the charge, earnings of $1.08 a share still fell short of the $1.10 analyst estimate compiled by LSEG.",
+      "The distinction between the reported and adjusted result is the important starting point. The charge affected the quarter. The adjusted miss raises a separate issue: whether the bank’s recurring businesses are delivering what investors expected.",
+      "An adjusted earnings figure can help isolate an unusual expense, provided the adjustment is clearly identified. It cannot make the expense disappear from shareholders’ economic experience. Cash paid, capital consumed and work required to resolve the underlying issue can matter beyond the quarter in which a charge is recognized.",
+      "The useful comparison is therefore twofold. Reported results show what happened under the accounting rules. A carefully reconciled adjusted result helps examine the operating performance without the specified item. Neither should replace the other.",
+      "Investors should also keep the estimate comparison in proportion. Missing a forecast by two cents does not independently establish a deteriorating franchise. It does establish that removing the disclosed charge is insufficient to describe the quarter as an earnings beat.",
+      "A diversified bank earns money through activities with different sensitivities. Lending depends on funding costs, loan demand and credit quality. Trading and advisory businesses respond to client activity and transaction timing. A strong result in one area can coexist with weakness elsewhere.",
+      "The practical task is to determine which lines changed, why they changed and whether those conditions are likely to persist. A delayed transaction is different from a lost client. More volatile markets do not automatically produce better trading revenue if customers are unwilling to transact.",
+      "Comparisons need the same reporting basis and period. A quarter-on-quarter improvement and a year-on-year decline can both be true. Mixing adjusted figures for one period with reported figures for another creates a comparison the underlying disclosures do not support.",
+      "The idea that higher rates always help banks is incomplete. An asset can earn more interest while customers demand better returns on deposits. Loan growth can slow as financing becomes less affordable. The bank’s balance-sheet structure determines how those effects interact.",
+      "Credit performance must be considered separately from the interest spread. A loan producing attractive income today may also require a larger allowance for future losses. Neither a change in provisions nor a single delinquency reading should be treated as a complete forecast of consumer stress.",
+      "The SEC’s financial-statement guide points readers toward the notes and management discussion for material assumptions and trends. For a bank, those disclosures help connect the headline result to funding, credit and other obligations.",
+      "Management’s next explanations need to separate the cost of the settlement from the resources required to improve controls, and distinguish temporary business weakness from a revised operating outlook. Those questions do not have to produce the same answer.",
+      "Bank of America’s result is a reminder that an unusual expense can dominate a headline without fully explaining the earnings picture. Assessing the quarter requires both the cost already recognized and the performance of the businesses expected to generate the next dollar of profit."
+    ],
+    "sources": [
+      {
+        "label": "Bank of America: October 14 earnings announcement",
+        "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/10/bank-of-america-reports-third-quarter-2026-financial-results.html"
+      },
+      {
+        "label": "Reuters, October 14: quarterly results and analyst comparison",
+        "url": "https://www.reuters.com/business/finance/bank-america-profit-hurt-by-12-billion-fine-over-anti-money-laundering-2026-10-14/"
+      },
+      {
+        "label": "SEC: financial statements and their notes",
+        "url": "https://www.sec.gov/investor/pubs/begfinstmtguide.htm"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "china-september-2026-export-surge",
+    "title": "China’s Export Surge Widens the Gap Between Trade Strength and Domestic Demand",
+    "dek": "September exports jumped 36.3% in dollar terms. The trade figures show strong overseas demand, but they cannot establish the health of Chinese household spending.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/china-september-2026-export-surge.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "China’s September exports rose 36.3% from a year earlier in dollar terms, while imports increased 31.0%, Reuters reported on October 14, citing customs data. The monthly trade surplus reached $133.53 billion, taking the January–September total to $938.11 billion. AP independently reported the same export growth and rounded surplus figures.",
+      "The release is strong evidence of overseas demand for Chinese goods. It is much weaker evidence about household demand inside China. That distinction matters when a large trade number is used to tell a broad story about the economy.",
+      "Exports record goods sold abroad. They can support production and employment without demonstrating that Chinese households are spending more. A manufacturer may benefit from foreign orders while businesses serving local consumers face a different environment.",
+      "Imports also need interpretation. Goods brought into the country can be inputs for products later exported, capital equipment or purchases for final domestic use. A large import increase does not, on its own, identify which demand has strengthened.",
+      "For company analysis, the question is where the revenue ultimately comes from. A supplier with Chinese customers may still depend on overseas end users if those customers are exporters. Geographic labels can conceal a shared source of demand.",
+      "The reported export growth is in dollar value. That can reflect changes in quantities, prices, product mix and exchange rates. It should not be described as an identical increase in the number of goods shipped.",
+      "A deliberately simple hypothetical example shows the difference. Selling 100 units at $10 produces $1,000 of revenue. Selling the same 100 units at $12 produces $1,200: value has increased 20%, while volume has not increased at all. Real trade data contains many products and other adjustments, but the distinction remains.",
+      "Year-on-year growth also compares with a particular base period. An unusually weak or strong prior month can affect the percentage without telling the whole story about the current level of activity. A broader assessment should compare consistent periods and examine composition.",
+      "The merchandise trade surplus is the difference between exports and imports. It is not a direct measure of household welfare or the profits retained by exporters. Firms can expand sales while facing thin margins, costly financing or exposure to a small group of buyers.",
+      "The distribution of benefits also matters abroad. Importing businesses can gain access to competitive inputs, while competing producers may face pressure. A single national balance cannot summarize the experience of each industry.",
+      "A policy response can alter those economics even if global demand stays strong. Tariffs, product requirements and procurement rules affect landed costs and market access. The relevant assessment is the rule actually in force for a given product, rather than a general assumption about trade friction.",
+      "For investors, the follow-up evidence lies in orders, margins, receivables and customer concentration. A factory shipping more goods is a meaningful observation. Whether that growth produces dependable cash and can survive a change in market access is a separate test.",
+      "September’s figures make export strength impossible to ignore. They do not remove the need to examine domestic demand, nor do they guarantee that the same pace will continue. The most useful reading is a differentiated one: strong cross-border sales, with the durability and distribution of their benefits still to be measured."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 14: Chinese customs trade figures",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-exports-surge-363-yy-september-imports-up-31-2026-10-14/"
+      },
+      {
+        "label": "AP, October 14: independent coverage of the trade release",
+        "url": "https://apnews.com/article/db43e08437b65f65c2ead64c82f9b990"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "asml-q3-2026-ai-demand",
+    "title": "ASML’s Record Quarter Strengthens the AI Demand Case, With Supply Still Constrained",
+    "dek": "Record sales and a higher annual outlook support the semiconductor investment story. Customer interest years ahead remains different from revenue already earned.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/asml-q3-2026-ai-demand.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "ASML reported record third-quarter sales of €11.662 billion and net income of €4.960 billion on October 14. Its gross margin was 57.5%. The chip-equipment supplier forecast full-year revenue of €44 billion to €45 billion, providing fresh evidence that the infrastructure behind the AI boom is generating substantial business.",
+      "The result is more informative than a capacity announcement because it includes revenue already recognized. It still needs to be read alongside the supply constraints and future assumptions described by management.",
+      "ASML expects fourth-quarter sales of €14.2 billion to €15.2 billion. Management also says some customers have expressed interest in orders for 2029 and 2030, and that currently planned supply would not fully meet expected demand in 2027 and 2028. It is investigating additional capacity beyond previously communicated plans.",
+      "Those statements occupy different positions in the business cycle. Completed sales are historical results. Quarterly guidance is a forecast. Interest in equipment several years out is an indication of customer planning, not equivalent to a completed sale or cash received.",
+      "Keeping that hierarchy intact is particularly important in an investment boom. The longer the planning horizon, the more opportunity there is for financing, technology or end-user demand to change before equipment is delivered.",
+      "The release reports €3.289 billion of installed-base management sales, covering service and field options. This is a different source of business from delivering new systems: an equipment supplier can earn revenue by helping existing machines remain useful and productive.",
+      "That distinction has economic consequences. A customer considering expansion can compare the benefits of an upgrade with a new installation. The decision depends on the process, available space, production targets and cost. More demand need not translate into new-machine purchases in a fixed proportion.",
+      "For investors, separating those revenue streams can make a quarterly result easier to understand. A change in sales mix may affect margins, and the timing of major system deliveries can make a simple comparison between quarters less informative than it appears.",
+      "A supplier’s decision to raise output is earlier than the physical delivery of additional equipment. Skilled labor, specialized components and customer installation schedules can determine how quickly a plan becomes usable production capacity.",
+      "A useful review therefore follows milestones rather than only the size of the ambition. Manufacturing output, shipments, installation and customer acceptance each provide different evidence. Where a company recognizes revenue in that process also matters when comparing disclosures.",
+      "The same discipline applies to buyers. A foundry can order equipment for a future fab while the associated power, building and production process are still being prepared. Orders express a commitment; the finished operation must still justify it.",
+      "ASML’s results strengthen the argument that customers are spending on semiconductor capacity. They do not establish the returns earned by every company purchasing AI services or building data centers. The economics of the supplier and the economics of the final user are connected, but they are not identical.",
+      "The next test is whether investment can be converted into productive capacity at a pace that supports both customer returns and supplier growth. This quarter supplies concrete evidence of sales. The commitments reaching toward 2030 deserve to be watched as commitments, with their execution still ahead."
+    ],
+    "sources": [
+      {
+        "label": "ASML, October 14: official third-quarter results",
+        "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+      },
+      {
+        "label": "Reuters, October 14: independent coverage of ASML results",
+        "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "apple-homeview-siri-ai-2026",
+    "title": "Apple HomeView Makes Personalized AI a Shared-Household Test",
+    "dek": "Apple’s $299 home hub brings Siri AI into a communal space. Recognizing a user is only the first step toward acting correctly on that person’s information.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/apple-homeview-siri-ai-2026.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "Apple introduced HomeView on October 13, taking its personalized AI strategy into a space where a single screen may serve several people. The company says the seven-inch home hub starts at $299 in the United States and becomes available on November 13. Tabletop and wall-mounted versions are offered.",
+      "The product’s most consequential challenge is not displaying a weather forecast. It is deciding whose information is relevant, what a request permits and which actions are appropriate when several members of a household use the same device.",
+      "Apple says HomeView recognizes up to six users and can present personal content through Siri AI, with compatible Apple Intelligence-enabled devices providing personal context. Reuters reports that private-data access requires the user’s iPhone on the same home network, and that Apple says the hub itself does not retain that private data.",
+      "These are announced capabilities and privacy claims, not findings from a TTN product test. Launch demonstrations establish what the company intends the experience to do. Daily use will establish how reliably it handles less orderly situations.",
+      "Shared use raises questions a private phone does not face in the same way. A visitor can be within hearing range. One person can ask a question after another has touched the screen. The cost of selecting the wrong context can exceed the inconvenience of an irrelevant answer.",
+      "Identifying a person is one part of an interaction. Determining whether that person is permitted to view information or complete an action is another. An assistant can recognize a voice correctly and still misunderstand the scope of a request.",
+      "A hypothetical household example makes the issue concrete. Turning on a shared light is different from displaying a private message on a kitchen screen. Both requests may be convenient, but they need different treatment of access and visibility. This is a general design distinction, not a report of a HomeView failure.",
+      "A product evaluation should therefore examine how the system behaves at boundaries: guests, interruptions, ambiguous references and requests involving another person’s records. A polished demonstration with one speaker cannot resolve all of those cases.",
+      "The purchase price is only one part of the decision. Buyers also need compatible devices, support for the functions they intend to use and a clear understanding of which tasks work when another device or service is unavailable.",
+      "The appropriate test is a routine the household actually repeats. An assistant that completes that routine consistently can justify its place in the home. A broader list of possible features may matter less if the few essential ones require frequent correction.",
+      "Privacy should be judged with similar specificity. Where information is processed, what is retained and who can access it are distinct questions. A reassuring general label is less useful than documented behavior for a particular feature.",
+      "A communal assistant earns trust by choosing the right context and completing the intended task. More fluent conversation does not compensate for exposing the wrong information or acting on a mistaken instruction.",
+      "HomeView gives Apple a tangible product through which to demonstrate its AI strategy. The stronger evidence will come after shipping: repeatable household tasks, understandable permission boundaries and users who need less intervention to obtain a correct result. Until then, the announcement is a product promise with a defined price and release date."
+    ],
+    "sources": [
+      {
+        "label": "Apple, October 13: HomeView announcement, specifications and availability",
+        "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+      },
+      {
+        "label": "Reuters, October 13: launch reporting and privacy discussion",
+        "url": "https://www.reuters.com/business/retail-consumer/apples-homeview-brings-personalized-siri-smart-home-takes-amazon-google-2026-10-13/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "scaleway-amd-sweden-ai-supercomputer",
+    "title": "Scaleway’s Sweden Project Gives European AI Buyers Another Hardware Choice",
+    "dek": "The announced AMD-based supercomputer broadens Scaleway’s infrastructure portfolio. For customers, software compatibility and operating terms matter alongside accelerator capacity.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-14T16:04:58+03:00",
+    "image": "assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "Scaleway announced an AI supercomputer project in Sweden on October 13, its first deployment of that kind outside France. The company says the system will use AMD Instinct MI355X accelerators and the ROCm software ecosystem. The announcement adds another prospective source of AI computing capacity for European customers.",
+      "For buyers, the significance is the additional architecture and supplier choice. It is not yet evidence that moving an existing workload will be easy or that the new capacity will offer the lowest cost for every task.",
+      "Scaleway names Bull for cluster integration, Giga Computing for servers, HPE Networking for Ethernet, VAST Data for the data platform and Motul for cooling fluid. The list underscores that the project depends on several layers working together, rather than on GPUs alone.",
+      "The company describes the infrastructure as designed for demanding AI workloads. That is a stated objective. Customers still need information about service availability, allocations and the configuration they will actually be able to use.",
+      "A component specification and a cloud service are different products. The latter includes the software environment, network behavior, storage and operational support that determine whether a customer can complete its work.",
+      "A team with an established workload may have code, tools and staff experience tied to its current platform. An alternative can create negotiating room and reduce dependence, but converting that option into a usable service requires validation.",
+      "A sensible comparison holds the task and quality standard constant. It measures completed work, errors, engineering time and operating costs. Comparing advertised hardware prices while ignoring the work required to adapt a system can produce an attractive saving that never materializes.",
+      "Testing also needs to distinguish training from inference and small experiments from sustained production. A configuration that works for a demonstration may face different bottlenecks when jobs run continuously or several teams share capacity.",
+      "Scaleway places the project within its expansion in Sweden and links the location to the country’s electricity mix. Geographic location is relevant to infrastructure planning. It does not by itself establish a complete legal, security or operational boundary for a customer’s data.",
+      "Contracts, administrator access, support arrangements, backups and the software supply chain need separate consideration. A buyer should be able to identify who can act on the system and under what conditions, rather than assuming that a national address answers every control question.",
+      "The same care applies to environmental claims. Evaluating a workload requires an appropriate boundary for electricity use and the service being compared. A favorable location is part of that assessment, not a substitute for measuring the operation.",
+      "The next meaningful milestones are a clear service timetable, accessible capacity and evidence from customers running representative workloads. None can be inferred solely from a partnership announcement.",
+      "The project gives European AI companies another option to examine as demand for computing grows. Its commercial value will depend on how well that option works in practice: compatible software, reliable delivery and operating terms that remain attractive after the transition costs are counted."
+    ],
+    "sources": [
+      {
+        "label": "Scaleway, October 13: Sweden supercomputer announcement",
+        "url": "https://www.scaleway.com/en/news/scaleway-expands-ai-infrastructure-in-europe-with-new-amd-instinct-gpu-based-supercomputer-in-sweden/"
+      },
+      {
+        "label": "Reuters, October 13: independent coverage of the Sweden project",
+        "url": "https://www.reuters.com/business/media-telecom/scaleway-build-amd-powered-ai-supercomputer-sweden-2026-10-13/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "imf-ai-growth-outlook-2026",
     "title": "The IMF’s Growth Upgrade Has an AI Dependency",
     "dek": "AI investment supports the latest global outlook. The harder question is how much resilience remains if spending slows or borrowing becomes more expensive.",
