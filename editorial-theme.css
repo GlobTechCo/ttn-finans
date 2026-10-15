@@ -191,3 +191,14 @@ html[data-theme="dark"] #ticker-strip{color-scheme:dark}
 .article-ticker-tag:hover{border-color:var(--accent)}
 @media(max-width:700px){.analysis-card:hover,.analysis-card:focus-within,.tech-ai-card:focus-within{transform:none}}
 @media(prefers-reduced-motion:reduce){.analysis-card,.tech-ai-card,.tech-ai-card-media img,.article-ticker-tag{transition:none}.analysis-card:hover,.analysis-card:focus-within,.tech-ai-card:hover,.tech-ai-card:focus-within,.tech-ai-card:hover .tech-ai-card-media img,.article-ticker-tag:hover{transform:none}}
+
+/* Compact, keyboard-accessible article references. */
+.static-page .editorial-sources{margin:18px 0 22px;padding:12px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);font-size:13px;line-height:1.5;color:var(--text-muted,var(--text))}
+.static-page .editorial-sources summary{cursor:pointer;font-weight:600;min-height:24px;overflow-wrap:anywhere}
+.static-page .editorial-sources summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.static-page .editorial-sources ul{margin:10px 0 0;padding-left:18px;display:grid;gap:6px}
+.static-page .editorial-sources li{margin:0;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.static-page .editorial-sources a{font-size:inherit}
+@media print{.static-page .editorial-sources>ul{display:block!important}}
+
+.static-page .editorial-sources p{font-size:13px;line-height:1.5;margin:10px 0}
