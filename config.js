@@ -142,6 +142,8 @@ const TTN_CONFIG = {
   // coingeckoId lets extra crypto tickers pull a live price independently of TICKERS.
   // Entries with neither only show a live % if a Finnhub key is set (stock quotes).
   TICKER_DICTIONARY: [
+    { match: ["coreweave", "crwv"], label: "CRWV", tvSymbol: "NASDAQ:CRWV" },
+    { match: ["tsmc", "taiwan semiconductor"], label: "TSM", tvSymbol: "NYSE:TSM" },
     { match: ["bitcoin", "btc"], label: "BTC", tvSymbol: "BINANCE:BTCUSDT", trackedId: "btc" },
     { match: ["ethereum", "eth", "ether"], label: "ETH", tvSymbol: "BINANCE:ETHUSDT", trackedId: "eth" },
     { match: ["tesla", "tsla"], label: "TSLA", tvSymbol: "NASDAQ:TSLA" },

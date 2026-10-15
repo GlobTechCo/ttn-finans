@@ -1,6 +1,274 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "bitcoin-ether-selloff-liquidations-october-15-2026",
+    "title": "Bitcoin Breaks Below $80,000 as Inflation Shock and AI Selloff Hit Crypto",
+    "dek": "Bitcoin lost 3.5% over 24 hours at a Thursday morning snapshot. Ether suffered heavier forced selling as ETF withdrawals and a broader retreat from risk weakened the market.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:59+03:00",
+    "dateModified": "2026-10-15T18:15:59+03:00",
+    "image": "assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "body": [
+      "Bitcoin fell below $80,000 on Thursday for the first time in a month, extending a selloff that followed Wednesday’s U.S. inflation report and spread alongside losses in AI stocks. At 9:54 a.m. EDT on October 15, CoinDesk reported a price of $79,950, down 3.5% over the preceding 24 hours. That is a time-stamped market snapshot, not a closing price.",
+      "The retreat was harsher in Ether. In a separate report published at 12:25 a.m. EDT, CoinDesk put Bitcoin’s rolling daily decline near 3% and Ether’s above 6%. The different observation times matter: those percentages should not be treated as simultaneous quotes from the later U.S. session.",
+      "CoinDesk, citing CoinGlass data checked during Asian morning trading, reported about $483 million in Bitcoin and Ether futures liquidations over 24 hours. Ether accounted for roughly $286 million, against $197 million for Bitcoin. Those figures describe positions forcibly closed, rather than an equivalent amount of investor cash disappearing.",
+      "Liquidations can turn an initial decline into additional selling. A leveraged buyer must maintain collateral; when that cushion becomes insufficient, the exchange can close the position. That selling does not require a fresh change in the trader’s view. It follows the financing rules of the position.",
+      "The imbalance is evidence of heavier forced closures in Ether. It is consistent with leverage amplifying the relative decline, although liquidation totals do not establish why the initial selling began or explain every difference between the two assets. They also do not show that Ether’s network suffered an operational failure.",
+      "Farside’s table shows $261.4 million of net withdrawals from U.S. spot Bitcoin ETFs on October 14, following $175.7 million of net inflows on October 13. Fidelity’s FBTC and BlackRock’s IBIT accounted for most of Wednesday’s withdrawals. The two-day net is therefore negative $85.7 million, calculated from those reported totals.",
+      "A daily ETF flow measures net creations and redemptions. It is not the same as exchange trading volume, and it cannot identify all the investors behind a transaction. Wednesday’s withdrawals show that this channel was not providing a net inflow at a moment when prices were under pressure.",
+      "CoinDesk’s Thursday morning market report linked the retreat to a broader reduction in risk exposure after the inflation surprise. It also documented falling Treasury yields and rising gold. That combination rules out a neat account in which cryptocurrency was simply tracking a continuously rising U.S. bond yield throughout Thursday.",
+      "Investors can first reassess the risk of tighter monetary policy and then seek government bonds as equities weaken. The order of events matters. A bond rally later in the session does not erase the earlier inflation shock, but neither should the earlier shock be used to describe every subsequent market move.",
+      "The last day’s evidence points to several pressures working together: a less comfortable policy outlook, a retreat in speculative assets, ETF withdrawals and forced futures closures. No single dataset proves the contribution of each. A durable stabilization would require more than reclaiming a round number; it would need buying that persists after the forced selling subsides."
+    ],
+    "sources": [
+      {
+        "label": "CoinDesk live coverage, October 15: Bitcoin below $80,000",
+        "url": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens"
+      },
+      {
+        "label": "CoinDesk, October 15: Bitcoin and Ether futures liquidations",
+        "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide"
+      },
+      {
+        "label": "Farside Investors: daily U.S. spot Bitcoin ETF flows",
+        "url": "https://farside.co.uk/btc/"
+      },
+      {
+        "label": "CoinDesk, October 15: risk assets fall while bonds and gold rise",
+        "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "us-inflation-retail-sales-september-2026",
+    "title": "U.S. Producer Prices Jump 1.3% as Retail Sales Offer an Uneven Growth Signal",
+    "dek": "Thursday’s reports combine stronger price pressure with higher dollar sales. The distinction between spending more and buying more is central to the economic outlook.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:58+03:00",
+    "dateModified": "2026-10-15T18:15:58+03:00",
+    "image": "assets/editorial/us-inflation-retail-sales-september-2026.webp",
+    "tickers": [
+      "S&P 500",
+      "NASDAQ"
+    ],
+    "body": [
+      "U.S. producer prices rose 1.3% in September, the largest monthly increase since March 2022, while retail and food-services sales increased 0.8%. The reports released on October 15 leave markets facing an awkward combination: businesses are receiving higher prices, and consumers are spending more dollars, without a clear indication that the extra spending represents equally strong growth in purchases.",
+      "The Bureau of Labor Statistics put annual producer-price inflation at 6.3%. Goods prices rose 2.6% over the month and services prices increased 0.8%. Excluding food, energy and trade services, the index rose 0.5% monthly and 5.0% annually. That narrower measure is distinct from an index excluding only food and energy.",
+      "The BLS said energy accounted for more than 80% of September’s increase in final-demand goods prices. Producer gasoline prices jumped 20.3%. The release also showed a 3.4% increase in transportation and warehousing services. These are producer-side measures, not increases that can be assigned directly to a household’s next bill.",
+      "A delivery company buying fuel, a distributor buying transport and a retailer buying inventory face different contracts and timing. Some costs reset quickly; others are fixed for a period. Whether the final customer pays more depends on those arrangements, competition and the ability of a business to absorb a narrower margin.",
+      "That is why a producer-price jump is evidence of pressure rather than a mechanical forecast for the next consumer inflation release. A company might charge more, reduce a promotion, change its supplier or accept lower profit. The same input shock can produce different outcomes across those businesses.",
+      "The Census Bureau estimated September retail and food-services sales at $745.0 billion, up 6.3% from a year earlier. August’s monthly increase was revised to 1.3% from 1.1%. The figures adjust for seasonal and calendar effects, but not for changes in prices.",
+      "Consider a hypothetical store selling 100 identical items at $10 each in one month and $10.80 the next. Revenue rises 8% even if the number sold is unchanged. That example is not an estimate of September’s actual sales volumes; it illustrates why a dollar-sales report cannot settle the question on its own.",
+      "Reuters reported that the retail control group, excluding autos, gasoline, building materials and food services, increased just 0.1% after a stronger August. That gives the headline increase a less convincing claim to broad consumer momentum, although a single monthly control-group reading is not a verdict on the entire economy.",
+      "Retailers’ next reports can provide evidence the aggregate releases cannot: transaction counts, units per basket, promotional spending and gross margins. Rising sales with falling units would describe a different business environment from rising sales supported by more customers.",
+      "For manufacturers and transport operators, the relevant comparison is the price they receive against the costs they pay. A higher selling-price index does not guarantee a higher profit margin. The timing of cost increases can leave earnings exposed even when revenue looks strong.",
+      "Thursday’s figures make it harder to argue that price pressure has faded cleanly. They also make it risky to call the consumer uniformly strong from the sales headline. The next test is how much of September’s dollar growth survives adjustment for prices, and how much of the cost increase businesses can pass on without losing orders."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 15: U.S. producer prices rise sharply",
+        "url": "https://www.reuters.com/business/us-producer-prices-post-largest-increase-4-12-years-september-2026-10-15/"
+      },
+      {
+        "label": "Reuters, October 15: September retail sales",
+        "url": "https://www.reuters.com/business/us-retail-sales-beat-expectations-september-higher-gasoline-prices-2026-10-15/"
+      },
+      {
+        "label": "BLS: September 2026 Producer Price Index release",
+        "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
+      },
+      {
+        "label": "U.S. Census Bureau: September advance retail sales",
+        "url": "https://www.census.gov/retail/marts/www/marts_current.pdf"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "coreweave-ai-debt-selloff-2026",
+    "title": "CoreWeave’s Selloff Turns the AI Boom Into a Financing Test",
+    "dek": "After a drop of more than 15% on Wednesday, further pressure on CoreWeave put the timing of debt payments and future customer cash at the center of the AI trade.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:57+03:00",
+    "dateModified": "2026-10-15T18:15:57+03:00",
+    "image": "assets/editorial/coreweave-ai-debt-selloff-2026.webp",
+    "tickers": [
+      "NASDAQ",
+      "NVDA",
+      "CRWV"
+    ],
+    "body": [
+      "CoreWeave’s shares and bonds fell again on Thursday after its stock lost more than 15% on Wednesday, bringing the financing of the AI buildout into sharp focus. Reuters reported roughly $50 billion in debt and a yield above 16% on one bond issue during Thursday trading. Those are market signals of increased concern, not an announcement that the company has defaulted.",
+      "The immediate issue is the gap between building computing capacity and collecting the cash it is expected to generate. Strong demand can support a long-term business while leaving a company exposed to the cost of funding construction, equipment and operations before customers pay.",
+      "The concern has spread beyond one borrower. Reuters reported that five-year default-protection spreads for Oracle were quoted at 288 basis points on Thursday, up from 260 a week earlier, while CoreWeave’s exceeded 1,000 basis points. Such prices reflect the cost of transferring credit risk; they should not be read as a certain prediction of a default.",
+      "In an internal memo seen by Reuters, chief executive Mike Intrator argued that the company’s backlog more than supported its debt obligations. Reuters also cited a reported second-quarter revenue backlog of $104.2 billion and more than $25 billion of net new customer commitments in the third quarter. Those are management’s support for its position, rather than a guarantee that every commitment is equivalent to cash available today.",
+      "A backlog is economically useful only as it turns into delivered services, recognized revenue and collections. Debt has its own schedule. Interest and principal can become due before the corresponding customer payment arrives. The question is whether financing remains available across that interval on terms the business can sustain.",
+      "Consider a hypothetical infrastructure supplier with a five-year customer contract and a payment to an equipment vendor due this quarter. The contract may be attractive, but it does not automatically pay that invoice. The supplier still needs cash, credit or a payment arrangement. That illustration does not describe the terms of any particular CoreWeave agreement.",
+      "A falling bond price raises the yield demanded by a new buyer of that bond. It does not, by itself, rewrite the coupon on all existing fixed-rate debt. The immediate economic effect depends on whether the borrower needs fresh funds, faces floating-rate payments or must refinance a maturity.",
+      "The distinction cuts both ways. A company with adequate liquidity and distant maturities has more room to respond than one facing imminent funding needs. But new borrowing can become more expensive even if the outstanding fixed-rate bonds continue to pay the same coupon.",
+      "For shareholders, expensive financing matters because creditors have contractual claims on cash. Revenue can grow while less remains available to equity holders. A computing business therefore has to be assessed on the cash required to deliver its growth, as well as the size of the market it serves.",
+      "The broader AI trade contains several different businesses: chip manufacturing, cloud rental, software and infrastructure construction. They do not share identical funding needs or profit margins. A financing problem in one part of that chain should not be treated as evidence that every AI product has stopped selling.",
+      "It can still affect the chain. If a capacity provider becomes more cautious about expansion, equipment orders, construction schedules and customers’ deployment plans may need adjustment. That is a possible transmission mechanism, not confirmation that specific orders have been cancelled.",
+      "CoreWeave’s next disclosures will be judged on liquidity, the schedule of obligations and the conversion of contracted business into cash. Thursday’s selloff shows that investors are demanding more assurance about those links. A large backlog is part of the answer; the calendar attached to it matters just as much."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 15: CoreWeave shares and bonds slide",
+        "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/"
+      },
+      {
+        "label": "Reuters, October 14: CEO memo defends the backlog",
+        "url": "https://www.reuters.com/business/coreweave-ceo-notes-strong-backlog-memo-reassure-staff-over-market-scrutiny-2026-10-14/"
+      },
+      {
+        "label": "Financial Times, October 15: CoreWeave bond-market scrutiny",
+        "url": "https://www.ft.com/content/8171ef4a-b291-4375-bc85-87bee0f8bf7b"
+      },
+      {
+        "label": "Reuters, October 15: rising default-insurance costs across AI companies",
+        "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "tsmc-q3-2026-ai-chip-demand",
+    "title": "TSMC Posts Record Profit but Turns Cautious on 2027 as AI Shares Slide",
+    "dek": "A 68.7% profit increase and higher sales guidance meet a deteriorating market mood. Management’s caution for next year separates strong chip demand from wider economic risks.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:56+03:00",
+    "dateModified": "2026-10-15T18:15:56+03:00",
+    "image": "assets/editorial/tsmc-q3-2026-ai-chip-demand.webp",
+    "tickers": [
+      "TSM",
+      "NVDA"
+    ],
+    "body": [
+      "TSMC posted another record quarterly profit on October 15 but warned that macroeconomic uncertainty warranted caution in planning for 2027, according to Reuters. That combination put a limit on the reassurance investors could take from the report during the broader AI-stock selloff: current chip demand remained strong, while management was not treating the next year as free of risk.",
+      "Net income rose 68.7% from a year earlier to NT$763.06 billion on revenue of NT$1,494.24 billion, the company reported. The results show business reaching the chip factory; they cannot by themselves establish the profitability of the applications those chips will eventually run.",
+      "Revenue in U.S. dollars was $46.72 billion, up 41.2% from a year earlier. The company’s reported revenue growth in New Taiwan dollars was 50.9%. Those are different currency presentations of the business, not competing estimates that can be substituted without explanation.",
+      "The company said 2-nanometer shipments represented 8% of quarterly wafer revenue, with 3-nanometer at 33%. Technologies at 7 nanometers and below accounted for 79%. Gross margin was 66.4%. The process mix offers a more concrete measure of advanced manufacturing activity than a forecast about how many people might eventually use AI software.",
+      "Process names are not a direct measure of the value of an entire finished system. Chip design, packaging, memory, networking and software all affect what customers can do with the silicon. The manufacturing mix is important evidence, but it is one part of a longer production chain.",
+      "A customer also needs the right chip in the right quantity at the right time. Capacity on a process that does not fit a particular design is not interchangeable with capacity on one that does. That makes the composition of a manufacturer’s output relevant alongside its headline revenue.",
+      "TSMC forecast fourth-quarter revenue of $52.3 billion to $54.3 billion and a gross margin of 65% to 67%. That puts the revenue midpoint at $53.3 billion, about 14.1% above the third quarter, calculated from the company’s figures. The fourth-quarter numbers remain guidance, rather than revenue already earned.",
+      "The distinction matters when using supplier results to assess the AI cycle. Current sales support a claim that manufacturing demand has been strong. Guidance adds management’s view of what comes next. Neither removes the possibility of later changes in customers’ orders, capacity needs or financing.",
+      "For an infrastructure buyer, the business decision sits further down the chain. It must convert access to chips into computing services customers want, at prices that cover equipment, power, operations and capital. TSMC can earn a manufacturing margin before that downstream investment has delivered its ultimate return.",
+      "That timing helps explain why a favorable supplier report does not settle every concern behind a market selloff. Investors in a manufacturer, a cloud operator and an AI application developer own different claims on different cash flows. They can reasonably reassess them in different directions.",
+      "A manufacturer’s quarterly growth also should not be read as proof that all of its sales are attributable to AI. Its technology serves multiple uses. The results provide evidence about advanced-chip production without supplying a complete breakdown of the eventual economic value created by each customer.",
+      "The next useful comparison is between the factory’s expansion and the pace at which customers deploy, use and pay for the resulting computing capacity. TSMC has delivered a strong quarter and expects another step up. Whether the rest of the AI industry earns enough to sustain that pace remains a separate question."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 15: TSMC’s caution for 2027 after record earnings",
+        "url": "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
+      },
+      {
+        "label": "Financial Times, October 15: TSMC earnings and AI demand",
+        "url": "https://www.ft.com/content/bf6808c6-ce2d-444f-86c9-a9b557b36a47"
+      },
+      {
+        "label": "TSMC: third-quarter 2026 earnings release and guidance",
+        "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+      },
+      {
+        "label": "TSMC: October 15 financial release",
+        "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "ftc-openai-anthropic-safety-subpoenas-2026",
+    "title": "FTC Seeks OpenAI and Anthropic Safety Records as AI Scrutiny Intensifies",
+    "dek": "Reported document demands bring safety incidents, safeguards and public claims into focus. The inquiry is a step in gathering evidence, not a finding of wrongdoing.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:55+03:00",
+    "dateModified": "2026-10-15T18:15:55+03:00",
+    "image": "assets/editorial/ftc-openai-anthropic-safety-subpoenas-2026.webp",
+    "tickers": [],
+    "body": [
+      "The Federal Trade Commission has sought records from OpenAI and Anthropic about safety incidents and consumer protections, according to Reuters’ October 15 account of reporting by Axios. The reported demands cover safeguards, marketing and privacy materials. They mark a concrete evidence-gathering step in the scrutiny of powerful AI systems, without establishing that either developer has violated the law.",
+      "A separate Reuters update at 13:49 UTC on Thursday said the administration’s new AI task force was scheduled to meet that day, citing an FTC spokesperson. The planned meeting adds a policy discussion alongside the reported document demands. A scheduled meeting is not evidence that the group has already issued new rules or reached a decision.",
+      "The news moves the discussion toward records that could show what a company knew, what it tested and how it described the resulting product. A general commitment to safe AI is different from documentation of how a particular system behaved under a particular set of conditions.",
+      "The FTC explains that civil investigative demands are tools for obtaining information during investigations. Its guidance also cautions that receiving one does not necessarily mean the recipient is the target. An investigation and a legal finding are distinct stages. TTN has not reviewed the reported company-specific demands and does not infer their full scope from the news accounts.",
+      "That boundary matters because a headline about compulsory documents can be mistaken for a concluded case. The information could support further action, narrow a concern or require more investigation. The public reports do not justify predicting which outcome will follow.",
+      "They also do not establish that a broad prohibition on AI products has been imposed. The immediate reported development concerns the collection of evidence. Any subsequent allegation, settlement or court ruling would need to be evaluated on its own terms.",
+      "For a product that can take actions, useful evidence would include the permissions it held, the instructions it received, the systems it could reach and the controls applied to its output. These are examples of the questions a technical review should resolve, rather than a claim that each appears in the FTC’s demands.",
+      "A failed test in an isolated environment and an unauthorized action affecting an outside service are not interchangeable events. The setting, authorization and actual consequences matter. So does the distinction between what an underlying model can generate and what a deployed agent is allowed to execute.",
+      "The same care is needed when assessing a developer’s public description. A safeguard that reduces a measured failure rate does not necessarily eliminate that failure. A test result from one version of a system does not automatically describe every later version or every customer configuration.",
+      "A company considering an AI deployment needs enough information to set its own access controls and respond to mistakes. The relevant question is often whether a proposed workflow can be monitored, interrupted and reconstructed after an unexpected action.",
+      "For example, a hypothetical assistant drafting a refund recommendation has a different authority boundary from one that can send the payment. A record of which action was permitted and who approved it makes those workflows distinguishable. This is a deployment consideration, not an account of an incident involving either company.",
+      "Procurement teams therefore have a reason to examine safety documentation alongside model performance. That does not require assuming that every autonomous feature is unsuitable. It requires matching the evidence and controls to the authority being granted.",
+      "The next significant development will be what becomes publicly established about the inquiry and the companies’ responses. Until then, the reported requests are important because they seek underlying records. They do not substitute for the findings those records may eventually support."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 15: FTC document demands reported by Axios",
+        "url": "https://www.reuters.com/business/us-ftc-subpoenas-openai-anthropic-over-consumer-harms-axios-reports-2026-10-15/"
+      },
+      {
+        "label": "Axios, October 15: reporting on the FTC inquiry",
+        "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+      },
+      {
+        "label": "FTC: investigative and enforcement authority",
+        "url": "https://www.ftc.gov/about-ftc/mission/enforcement-authority"
+      },
+      {
+        "label": "FTC: what civil investigative demands mean",
+        "url": "https://www.ftc.gov/business-guidance/blog/2025/03/did-your-business-receive-cid-ftc-means-business"
+      },
+      {
+        "label": "Reuters, October 15 at 13:49 UTC: U.S. AI task force meeting scheduled",
+        "url": "https://www.reuters.com/world/us/trumps-ai-task-force-meet-thursday-ftc-spokesperson-says-2026-10-15/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "cohere-aisle-cybersecurity-deal-2026",
+    "title": "Cohere Signs AISLE Acquisition Letter as AI Security Moves Into the Model Stack",
+    "dek": "The proposed deal would bring autonomous vulnerability research closer to Cohere’s model development. Finding a bug and safely deploying its fix remain different tasks.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-15T18:15:54+03:00",
+    "dateModified": "2026-10-15T18:15:54+03:00",
+    "image": "assets/editorial/cohere-aisle-cybersecurity-deal-2026.webp",
+    "tickers": [],
+    "body": [
+      "Cohere and cybersecurity startup AISLE announced a letter of intent on October 15 for Cohere to acquire AISLE, bringing automated vulnerability research closer to the development of enterprise AI models. The companies described a proposed transaction. They did not announce that the acquisition had closed, and Reuters reported that financial terms were not disclosed.",
+      "The move addresses a practical problem for businesses adopting more capable AI systems: the software they depend on still needs to be examined, patched and operated safely. A model that can produce useful code creates value only if the surrounding process can distinguish a valid fix from a change that introduces a new failure.",
+      "Cohere said AISLE’s work would support security and threat detection, monitoring of agents and deployment in private or isolated environments. AISLE said its Prague headquarters would become Cohere’s Prague office when the transaction completes. Those are announced intentions, rather than evidence that every integration is already available to customers.",
+      "Cohere also cited more than 500 previously unknown vulnerabilities assigned CVEs across more than 100 codebases in AISLE’s first year. The figure is a company-reported record of discoveries; it is not a measurement of every flaw in those projects or the proportion an automated system would find in a new customer’s software.",
+      "The commercial proposition is more specific than adding a generic chatbot to a security dashboard. It is to combine model capability with the systems needed to search code, validate a suspected problem and help produce a remedy. The proposed acquisition makes that combination part of Cohere’s platform strategy.",
+      "A vulnerability finding has to be reproducible and relevant. A plausible explanation from a model is not enough if a maintainer cannot confirm the underlying defect. An automated process can generate a large volume of findings while leaving a human team with a larger verification queue.",
+      "The next step is harder still: fixing a defect without breaking the behavior people rely on. A patch may remove one unsafe operation while changing compatibility, performance or a public interface. Those tradeoffs make testing and review part of the product’s value, rather than administrative work that can be assumed away.",
+      "For a hypothetical payments application, a security change that prevents valid transactions would create a different operational problem. The aim is not simply to minimize the number of warnings. It is to reduce exposure while preserving the required function of the system. That example does not describe an AISLE customer or a reported product defect.",
+      "Enterprises also need to decide which source code, credentials and production systems an automated reviewer can access. Private deployment can change where processing takes place, but the customer still has to define permissions, review outputs and manage updates.",
+      "Evidence from a purchase evaluation should therefore include confirmed findings, the time required to validate them and the work needed to put fixes into use. A faster first scan is useful, but it is not the same as a shorter path to a safely deployed patch.",
+      "Cohere’s announcement puts cybersecurity closer to the center of its enterprise offering. The proposed deal’s value will depend on whether that proximity improves verified results for customers. The immediate news is the acquisition letter; the next test is the combination’s delivery, not the ambition expressed around it."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 15: Cohere’s proposed AISLE acquisition",
+        "url": "https://www.reuters.com/legal/transactional/cohere-moves-buy-ai-cybersecurity-startup-aisle-2026-10-15/"
+      },
+      {
+        "label": "Cohere, October 15: proposed transaction announcement",
+        "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai"
+      },
+      {
+        "label": "AISLE, October 15: letter of intent and planned integration",
+        "url": "https://aisle.com/blog/aisle-and-cohere-to-join-forces"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "us-cpi-september-2026-energy",
     "title": "U.S. Inflation Reaches 3.7% as Gasoline Drives September’s Increase",
     "dek": "The September CPI report puts energy back at the center of the inflation debate. Core prices also rose, leaving the Fed with more than a fuel-price problem.",
