@@ -202,3 +202,9 @@ html[data-theme="dark"] #ticker-strip{color-scheme:dark}
 @media print{.static-page .editorial-sources>ul{display:block!important}}
 
 .static-page .editorial-sources p{font-size:13px;line-height:1.5;margin:10px 0}
+
+/* Contextual article links must remain recognizable without hover. */
+.static-page .editorial-body a{color:#2563eb;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+[data-theme="dark"] .static-page .editorial-body a{color:#80b3ff}
+.static-page .editorial-body a:hover{text-decoration-thickness:2px}
+.static-page .editorial-body a:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
