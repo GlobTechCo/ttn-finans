@@ -1462,6 +1462,28 @@
       "bytes": 185396,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html?card=ccf90fa2fac2"
+    },
+    {
+      "page": "us-fiscal-2026-deficit-nearly-two-trillion.html",
+      "source": "assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp",
+      "image": "assets/social/us-fiscal-2026-deficit-nearly-two-trillion-ad61c7a2f01a.webp",
+      "sha256": "ad61c7a2f01a2e0163a75709ed786650eb92b4eb0e565eb902f413b7b9b9f352",
+      "width": 1672,
+      "height": 941,
+      "bytes": 491272,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-fiscal-2026-deficit-nearly-two-trillion.html?card=ad61c7a2f01a"
+    },
+    {
+      "page": "tesla-fsd-class-certification-appeal-october-2026.html",
+      "source": "assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp",
+      "image": "assets/social/tesla-fsd-class-certification-appeal-october-2026-f3eeddb1757e.webp",
+      "sha256": "f3eeddb1757e043ddf3fb4b44e0854dc5229d0df4ac54e085f813bd4423f2b2d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 426418,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tesla-fsd-class-certification-appeal-october-2026.html?card=f3eeddb1757e"
     }
   ]
 }

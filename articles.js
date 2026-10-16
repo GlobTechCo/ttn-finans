@@ -1,6 +1,77 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-fiscal-2026-deficit-nearly-two-trillion",
+    "title": "US Budget Deficit Reaches $1.99 Trillion as Debt Costs Mount",
+    "dek": "The annual shortfall widened despite higher receipts. The figures put the cost of financing government back at the center of the fiscal debate.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T23:22:28+03:00",
+    "dateModified": "2026-10-16T23:22:28+03:00",
+    "image": "assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp",
+    "tickers": [],
+    "body": [
+      "The United States recorded a $1.99 trillion budget deficit for fiscal 2026, up from $1.78 trillion a year earlier and the largest shortfall in five years, Reuters reported Friday, citing Treasury figures. Debt-service spending reached $1.36 trillion, up 12%. The fiscal year ended September 30.",
+      "Tariff refunds and spending increases helped widen the gap, according to the report. The release is an annual accounting result. It does not, by itself, establish how bond investors traded after the figures appeared.",
+      "The Congressional Budget Office’s February outlook projected a fiscal 2026 deficit of roughly $1.9 trillion. That earlier estimate provides a benchmark for the newly reported outcome, rather than an independent confirmation of Friday’s Treasury figures. Forecasts and recorded results answer different questions: one describes an expected path under stated assumptions, while the other records what happened.",
+      "The distinction also limits conclusions about policy. Comparing a final result with a rounded forecast cannot isolate the effect of a single spending program, tax change or economic development. That requires examining the underlying receipts and outlays on a consistent basis.",
+      "CBO defines a deficit as annual government spending in excess of revenue. Federal debt measures accumulated borrowing at a point in time. A deficit therefore adds to borrowing needs, but the annual shortfall is not the same figure as the outstanding debt.",
+      "Another distinction matters when comparing forecasts. Debt held by the public excludes Treasury obligations to the government’s own accounts. Gross federal debt includes those internal holdings. Mixing the two measures can create a misleading impression about the scale or speed of a change.",
+      "TTN’s assessment is that the interest bill deserves attention alongside the headline deficit: it represents a cost of servicing earlier borrowing, rather than a new service delivered to households. A budget debate focused only on newly announced programs misses that distinction.",
+      "The next meaningful comparison is between the detailed annual results and updated projections using the same definitions. One year’s shortfall does not determine the next auction yield or the Federal Reserve’s next decision. It does provide a firmer starting point for judging future tax and spending proposals. TTN’s guide to deficits and national debt explains those measures in more detail."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 16, 18:03 UTC: fiscal 2026 results, citing Treasury figures",
+        "url": "https://www.reuters.com/world/us/us-fiscal-2026-budget-deficit-rises-199-trillion-largest-5-years-2026-10-16/"
+      },
+      {
+        "label": "Congressional Budget Office: February 2026 budget projections; historical forecast for comparison",
+        "url": "https://www.cbo.gov/topics/budget"
+      },
+      {
+        "label": "Congressional Budget Office: definitions of deficit, debt and the federal fiscal year",
+        "url": "https://www.cbo.gov/publication/57660"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "tesla-fsd-class-certification-appeal-october-2026",
+    "title": "Tesla Wins Appeal Over FSD Class Certification; Advertising Claims Remain Unresolved",
+    "dek": "The Ninth Circuit vacated certification of three California classes, finding that buyers’ exposure to a disputed hardware claim could not be presumed across the group.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T23:22:27+03:00",
+    "dateModified": "2026-10-16T23:22:27+03:00",
+    "image": "assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp",
+    "tickers": [],
+    "body": [
+      "A US appeals court on Friday vacated an order allowing California Tesla buyers to pursue three classes of claims about the company’s Full Self-Driving hardware representations. The decision returns the case to the district court for further proceedings. It does not decide whether the challenged advertising was truthful.",
+      "The Ninth Circuit’s memorandum centers on exposure to a statement about the vehicles’ hardware capabilities. The panel found that the lower court had improperly inferred that the statement reached buyers across the proposed classes.",
+      "The lower court had compared the statement on Tesla’s website with information printed on a product label. The appeals panel rejected that comparison: purchasing the software did not require every buyer to pass through the relevant Autopilot webpage. Inferring exposure therefore required assumptions about both visiting the page and seeing the statement.",
+      "The panel also found the website-traffic evidence insufficient to establish that all members saw the representation. Because exposure was dispositive, it did not address whether the proposed damages model was proper. It vacated certification of both damages classes and the class seeking injunctive relief.",
+      "Reuters reported that Tesla denied the underlying claims and did not immediately comment on the decision. The plaintiffs’ lawyers disagreed with the panel’s assessment. The advertising allegations remain contested; Friday’s ruling resolves how the proposed group was certified, not the merits of every buyer’s complaint.",
+      "The memorandum is nonprecedential, subject to the circuit’s applicable rule.",
+      "Separately, Tesla’s current support documentation describes FSD (Supervised) as driver assistance requiring active supervision. It says the enabled features do not make the vehicle autonomous. Availability depends on hardware, configuration, software version and region.",
+      "Those present-day operating instructions serve a different purpose from the historical marketing claims in the lawsuit. A customer’s responsibility when using the system and the evidence needed to group buyers in litigation are separate issues. Neither can be resolved simply by citing the other.",
+      "TTN’s earlier report on Slovakia’s approval of Tesla driver assistance concerns market access. This US ruling concerns class certification. Keeping those developments distinct avoids implying that a court procedure either authorizes driverless operation or withdraws a regulatory approval."
+    ],
+    "sources": [
+      {
+        "label": "Ninth Circuit, LoSavio v. Tesla, No. 25-7927: October 16 memorandum and remand order",
+        "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/gdvzgjyxbpw/Tesla%20class%20order%2020261016.pdf"
+      },
+      {
+        "label": "Reuters, October 16, 19:06 UTC: ruling and parties’ responses",
+        "url": "https://www.reuters.com/business/media-telecom/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims-2026-10-16/"
+      },
+      {
+        "label": "Tesla Support: current Full Self-Driving (Supervised) description and limitations",
+        "url": "https://www.tesla.com/support/fsd"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "fund-flows-stocks-bonds-cash-october-2026",
     "title": "Investors Add $64.5 Billion to Stock Funds While Pulling Money From Cash",
     "dek": "BofA’s weekly figures show buying across equities and bonds. The reporting window ends Wednesday, so the data cannot establish how investors responded to later market swings.",
