@@ -1,6 +1,68 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "exxon-refining-margin-preview-third-quarter-2026",
+    "title": "Exxon Sees a $4.5 Billion Refining Lift, Not a Final Earnings Result",
+    "dek": "The third-quarter preview shows how refining can offset weaker oil-price effects. Investors still need the complete October 30 results.",
+    "image": "assets/editorial/exxon-refining-margin-preview-third-quarter-2026.webp",
+    "sources": [
+      {
+        "label": "Reuters, October 16: refining earnings preview and reporting date",
+        "url": "https://www.reuters.com/business/energy/exxonmobil-signals-lower-third-quarter-earnings-2026-10-16/"
+      },
+      {
+        "label": "ExxonMobil Form 8-K, reproduced by StockTitan: selected quarterly earnings factors and limitations",
+        "url": "https://www.stocktitan.net/sec-filings/XOM/8-k-exxon-mobil-holdings-corp-reports-material-event-c785be742981.html"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T23:08:05+00:00",
+    "dateModified": "2026-10-16T23:08:05+00:00",
+    "tickers": [],
+    "body": [
+      "ExxonMobil expects stronger refining margins to add about $4.5 billion to third-quarter Energy Products earnings compared with the second quarter. That is a change in one earnings driver, not a forecast of total company profit or the amount the refining business earned.",
+      "Reuters reported the preview on October 16, ahead of full results scheduled for October 30. This article examines that earlier announcement; it is not a newly released earnings report.",
+      "The company’s selected-factor filing, reproduced by StockTitan, puts the combined margin contribution across its businesses at $4.4 billion. It includes the $4.5 billion Energy Products improvement, a $600 million drag in Chemical Products and a $500 million gain in Specialty Products. Those components add up to the stated total.",
+      "The same disclosure estimates a $1.3 billion negative effect from liquids prices and a $300 million benefit from gas prices. These are comparisons with the previous quarter, expressed in US dollars, rather than year-over-year growth rates. The filing cautions that its selected estimates are not an estimate of complete quarterly earnings.",
+      "TTN’s analysis: an oil producer and a refiner do not have identical economics. Production earns revenue from selling crude. A refinery buys or receives feedstock and sells finished fuels, so the relationship between input and product prices matters. An integrated company combines those exposures; a weaker outcome in one activity need not translate directly into the same change across the group.",
+      "That distinction is why adding a refining-margin benefit to an earlier company profit figure is not a reliable earnings forecast. The remaining businesses, operating performance and other accounting items still have to be included. A large positive bridge item can coexist with offsets elsewhere.",
+      "Investors should separate three questions on October 30: what the company earned, which changes were recurring, and how those earnings translated into cash. The preview answers none of those questions completely. It supplies a useful directional signal, not a substitute for the financial statements.",
+      "The broader lesson is to avoid treating an oil-price headline as a complete model for an integrated energy business. TTN’s guide to second-round inflation effects also explains why a price shock and its later economic consequences are different measurements."
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "anthropic-everwind-canada-data-center-lease-2026",
+    "title": "Anthropic Signs Canadian Data-Center Lease With EverWind",
+    "dek": "The Claude developer is the tenant at Point Tupper. EverWind’s investment plan covers both the proposed campus and new wind generation, not an Anthropic payment.",
+    "image": "assets/editorial/anthropic-everwind-canada-data-center-lease-2026.webp",
+    "sources": [
+      {
+        "label": "Reuters, October 16, 22:53 UTC: Anthropic executive confirms first Canadian data-center agreement",
+        "url": "https://www.reuters.com/legal/litigation/anthropic-signs-lease-first-canadian-data-center-2026-10-16/"
+      },
+      {
+        "label": "EverWind, October 16: official campus and renewable-energy investment announcement",
+        "url": "https://everwindfuels.com/2026/10/everwind-announces-10-billion-investment-in-point-tupper-data-centre-campus-and-renewable-energy-portfolio-across-nova-scotia/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T23:08:05+00:00",
+    "dateModified": "2026-10-16T23:08:05+00:00",
+    "tickers": [],
+    "body": [
+      "Anthropic, the developer of the Claude AI assistant, has signed a lease with EverWind for data-center capacity at Point Tupper, Nova Scotia. Reuters reported the company executive’s confirmation at 6:53 p.m. Eastern on October 16, describing it as Anthropic’s first Canadian data-center agreement.",
+      "EverWind had announced the campus investment earlier Friday with an unnamed frontier AI developer as the initial tenant. The later Reuters report identifies Anthropic. It does not mean the entire project was first announced that evening, or that the data center is already operating.",
+      "EverWind is an energy and infrastructure developer. Its official announcement sets out more than C$10 billion in planned private investment at its existing Point Tupper industrial site and in new Nova Scotia wind generation. The breakdown includes more than C$8 billion for the campus and C$2 billion for the wind portfolio.",
+      "Those are Canadian-dollar development figures across the project portfolio. They are not a disclosed lease payment by Anthropic, nor a reported amount already spent. EverWind says the initial campus phase has a long-term lease with a frontier AI developer; the later identification supplies the customer’s name.",
+      "TTN’s analysis: naming a customer makes a proposed infrastructure project more concrete than an announcement of available land alone. It indicates an intended user for capacity. But a signed lease and delivered computing power remain different milestones. Construction, electricity arrangements and commissioning must still be evaluated separately from the customer agreement.",
+      "The wind component also deserves its own scrutiny. Investment in generation does not, by itself, establish that a campus will have uninterrupted power at every hour. The relevant questions include delivery schedules and how electricity reaches the site, not just the size of a spending commitment.",
+      "For users of AI services, a Canadian capacity agreement is not automatically a promise that every Canadian customer’s information will stay in Canada. Any such claim needs explicit service terms and technical commitments. Neither the tenant’s identity nor the investment headline establishes that outcome.",
+      "The next useful evidence will be project milestones and specific operating commitments, rather than another repetition of the investment total. The financing distinction is similar to the one explored in TTN’s coverage of AI infrastructure borrowing: planned capacity and the money needed to deliver it are related, but not interchangeable."
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "faa-controller-pay-workforce-reforms-october-2026",
     "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
     "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
