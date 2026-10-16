@@ -1,6 +1,82 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-import-prices-september-2026-inflation",
+    "title": "US Import Prices Jump 1.1%, Bringing Inflation Pressure Beyond Oil",
+    "dek": "September import prices rose faster than expected. A broad increase in nonfuel goods adds to the cost pressure facing American businesses.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T15:53:40+03:00",
+    "dateModified": "2026-10-16T15:53:40+03:00",
+    "image": "assets/editorial/us-import-prices-september-2026-inflation.webp",
+    "tickers": [],
+    "body": [
+      "The cost of goods entering the United States rose sharply in September, adding a fresh source of pressure on businesses already weighing higher domestic prices against customers’ willingness to pay.",
+      "Import prices increased 1.1% from August and 8.1% from a year earlier, the Bureau of Labor Statistics reported on Friday. The monthly reading exceeded the 0.8% increase economists expected in a Reuters poll. August’s increase was revised down to 0.5% from 0.7%.",
+      "For companies buying goods abroad, the difficult part is the breadth of the increase. Fuel was a major contributor, but removing it does not remove the problem.",
+      "Fuel import prices climbed 4.8% in September. Nonfuel imports rose 0.7% for the month and 6% over the year. Within finished goods, capital goods increased 0.9%, consumer goods excluding vehicles rose 0.4%, and vehicles, parts and engines gained 0.3%, according to the BLS.",
+      "Those categories matter at different stages of the economy. More expensive machinery can raise the cost of expanding a factory. Higher prices for consumer imports can squeeze a retailer’s margin before a shopper sees any change on the shelf.",
+      "Neither outcome is automatic. A company may absorb an increase, renegotiate supply contracts, change suppliers or raise its selling prices. The choice depends on competition, existing inventories and whether customers can postpone a purchase.",
+      "Import prices exclude tariffs. They should therefore be read as a measure of changing prices for imported goods, rather than a complete measure of what a US business pays to bring them into the country.",
+      "They also are not consumer inflation. Imported components may pass through several businesses before becoming a finished product, and some goods in the index are bought for investment rather than household consumption. Adding the import-price increase to the CPI would double-count parts of the same supply chain and mix different measures.",
+      "The report follows this week’s consumer-price release and producer-price and retail-sales figures. Read together, they let investors examine costs at the border, prices charged by domestic producers and the prices households ultimately face.",
+      "For the Federal Reserve, this release adds evidence about goods costs; it does not settle the next interest-rate decision on its own. Policymakers still have to weigh employment, demand and the persistence of inflation.",
+      "For investors, earnings reports offer a more immediate check. An importer holding its profit forecast while input costs rise needs an explanation: stronger pricing, cheaper alternatives or productivity gains. A company reporting higher sales also needs scrutiny if the increase comes mainly from charging more rather than selling more.",
+      "The useful distinction over the coming weeks is between businesses that can protect margins without losing customers and those forced to choose between the two. September’s import-price report makes that choice harder."
+    ],
+    "sources": [
+      {
+        "label": "BLS: September 2026 import and export prices, released October 16 at 8:30 a.m. ET",
+        "url": "https://www.bls.gov/news.release/ximpim.nr0.htm"
+      },
+      {
+        "label": "Reuters: US import prices increase more than expected, October 16, 12:39 UTC",
+        "url": "https://www.reuters.com/business/us-import-prices-increase-more-than-expected-september-2026-10-16/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "germany-nvidia-industrial-ai-agreement-2026",
+    "title": "Germany Prepares Nvidia AI Pact as Factories Become the Next Test",
+    "dek": "Government sources say an industrial AI agreement is due next week. The details will show how Germany plans to turn computing capacity into factory applications.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T15:53:39+03:00",
+    "dateModified": "2026-10-16T15:53:39+03:00",
+    "image": "assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp",
+    "tickers": [
+      "NVDA"
+    ],
+    "body": [
+      "Germany plans to announce an industrial AI agreement with Nvidia next week, Reuters reported Friday, citing government sources. Other partners will participate.",
+      "Handelsblatt first reported the plan, including robotics, autonomous driving and industrial models. Friday’s report adds government-source confirmation of the planned announcement.",
+      "The practical question is what a manufacturer will be able to do under the agreement that it cannot readily do today. Access to computing is one part of that answer. Making it useful on a production line is another.",
+      "Nvidia announced a Germany-based industrial AI cloud in June 2025, describing a planned system with 10,000 GPUs for manufacturing applications including engineering, simulation, factory digital twins and robotics. That earlier announcement provides context; its capacity figures should not be treated as the specifications of next week’s agreement.",
+      "The distinction matters because another partnership headline does not, by itself, establish how much additional computing will be available, who will pay for it or when industrial customers will gain access.",
+      "For a smaller manufacturer, a usable service with predictable costs may matter more than a large national computing total. A system that requires extensive custom integration can remain out of reach even when the hardware exists.",
+      "A chatbot can be judged by its answers. A robot also has to deal with motion, contact and the limits of its surroundings. Nvidia’s Isaac Sim software lets developers build and test AI-driven robots in simulated physical environments before running them in the real world.",
+      "Simulation offers a way to examine a task without repeatedly stopping a production line. It does not make real-world validation optional. A useful assessment would ask whether an application reduces errors or downtime, how much supervision it needs and what happens when conditions change.",
+      "That puts factory operators, software integrators and equipment suppliers at the centre of the commercial case. Buying chips is a measurable expense. Establishing a reliable process that earns back that expense takes longer.",
+      "The first details to examine are the participating organisations, their funding commitments, access terms and deployment timetable. Those will help distinguish an immediately usable programme from an agreement to develop one.",
+      "A second test is whether customers can identify concrete applications and the costs of running them. Training a model once and operating an industrial service continuously involve different spending decisions.",
+      "TTN’s analysis of the financing behind the AI buildout explains why infrastructure announcements also need a demand test. In manufacturing, that test is especially tangible: fewer defective parts, less downtime or a process that becomes cheaper to run. Next week’s terms will show how closely Germany’s plan is tied to those outcomes."
+    ],
+    "sources": [
+      {
+        "label": "Reuters: Germany to unveil Nvidia AI agreement next week, October 16, 11:02 UTC",
+        "url": "https://www.reuters.com/world/europe/germany-unveil-nvidia-ai-agreement-next-week-government-sources-say-2026-10-16/"
+      },
+      {
+        "label": "Nvidia: industrial AI cloud announcement, June 11, 2025; background",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-builds-worlds-first-industrial-ai-cloud-to-advance-european-manufacturing"
+      },
+      {
+        "label": "Nvidia Isaac Sim documentation: robotics simulation; technical background",
+        "url": "https://docs.isaacsim.omniverse.nvidia.com/5.1.0/overview/overview.html"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "indonesia-msci-downgrade-stock-selloff-2026",
     "title": "Indonesia Stocks Plunge as MSCI Puts Emerging-Market Status at Risk",
     "dek": "A proposed move to standalone status threatens Indonesia’s place in global equity benchmarks. The market has already repriced a decision that remains under consultation.",

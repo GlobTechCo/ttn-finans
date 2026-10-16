@@ -1,0 +1,32 @@
+[
+  {
+    "article": "us-import-prices-september-2026-inflation",
+    "source": "exec-9ddd365d-1eba-4c6e-bcf3-be94b2dd1bac.png",
+    "asset": "assets/editorial/us-import-prices-september-2026-inflation.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Container freight moving through a terminal, with logistics staff working behind a safety barrier.",
+    "documentary": false,
+    "newsWindowUTC": [
+      "2026-10-16T09:46:00Z",
+      "2026-10-16T12:46:00Z"
+    ],
+    "sourcePublishedUTC": "2026-10-16T12:39:00Z",
+    "review": "Full image inspected; generic illustrative location, no claim of actual event or company facility."
+  },
+  {
+    "article": "germany-nvidia-industrial-ai-agreement-2026",
+    "source": "exec-09b0a07f-5078-4003-8578-d77cc2aea5c9.png",
+    "asset": "assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Editorial collage of the Nvidia logo, a German flag and a robotics technician observing an industrial robot inside a safety enclosure.",
+    "documentary": false,
+    "newsWindowUTC": [
+      "2026-10-16T09:46:00Z",
+      "2026-10-16T12:46:00Z"
+    ],
+    "sourcePublishedUTC": "2026-10-16T11:02:00Z",
+    "review": "Full image inspected; generic illustrative location, no claim of actual event or company facility."
+  }
+]

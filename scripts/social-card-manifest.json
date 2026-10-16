@@ -705,6 +705,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/ftc-openai-anthropic-safety-subpoenas-2026.html?card=3ee0810d52be"
     },
     {
+      "page": "germany-nvidia-industrial-ai-agreement-2026.html",
+      "source": "assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp",
+      "image": "assets/social/germany-nvidia-industrial-ai-agreement-2026-9d5ab56dad16.webp",
+      "sha256": "9d5ab56dad167733e3da925ebc0b1f9612deadeec80521462d3058bdb46de940",
+      "width": 1672,
+      "height": 941,
+      "bytes": 256656,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/germany-nvidia-industrial-ai-agreement-2026.html?card=9d5ab56dad16"
+    },
+    {
       "page": "global-bond-yield-synchronization-explained.html",
       "source": "assets/editorial/global-bond-yield-synchronization-explained.webp",
       "image": "assets/social/global-bond-yield-synchronization-explained-d25f2667b005.webp",
@@ -1297,6 +1308,17 @@
       "bytes": 476710,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/us-cpi-september-2026-energy.html?card=e29eb1b4ffa9"
+    },
+    {
+      "page": "us-import-prices-september-2026-inflation.html",
+      "source": "assets/editorial/us-import-prices-september-2026-inflation.webp",
+      "image": "assets/social/us-import-prices-september-2026-inflation-58513b918944.webp",
+      "sha256": "58513b918944489ce4dd426c2f2abed661650a9885fd1cfa9c668faa7ef41df1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 385692,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-import-prices-september-2026-inflation.html?card=58513b918944"
     },
     {
       "page": "us-inflation-retail-sales-september-2026.html",
