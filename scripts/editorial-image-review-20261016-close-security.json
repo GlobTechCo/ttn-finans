@@ -1,0 +1,34 @@
+[
+  {
+    "article": "wall-street-close-october-16-2026-ai-selloff",
+    "asset": "assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp",
+    "width": 1672,
+    "height": 941,
+    "documentary": false,
+    "sourceImage": "generated_images/exec-ae7388d4-08cd-4d1d-a65a-3a7354a52e14.png",
+    "visualReview": "Inspected generated image. Anonymous illustrative people and settings; no claim to portray a named company, actual event or specific product.",
+    "freshness": {
+      "eventTime": "2026-10-16T20:00:00Z",
+      "firstDispatch": "2026-10-16T11:01:00Z",
+      "substantiveUpdate": "2026-10-16T20:33:00Z",
+      "withinHour": true,
+      "note": "The new event is the completed 16:00 EDT session and finalized weekly figures, not the original morning dispatch."
+    }
+  },
+  {
+    "article": "softbank-allied-universal-security-robots-talks-2026",
+    "asset": "assets/editorial/softbank-allied-universal-security-robots-talks-2026.webp",
+    "width": 1672,
+    "height": 940,
+    "documentary": false,
+    "sourceImage": "generated_images/exec-230144af-788c-45d7-85ed-ac9e3d98281b.png",
+    "visualReview": "Inspected generated image. Anonymous illustrative people and settings; no claim to portray a named company, actual event or specific product.",
+    "freshness": {
+      "firstKnownCoverage": "Earlier than 2026-10-16T19:29:03Z; Investing.com first publication is earlier still.",
+      "reutersDispatch": "2026-10-16T20:04:40Z",
+      "withinHour": false,
+      "fallback": true,
+      "note": "Published as a verified reserve alternative, not a fresh last-hour event. Bloomberg report is attributed; talks are unconfirmed by the companies."
+    }
+  }
+]

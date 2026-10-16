@@ -1,6 +1,85 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "wall-street-close-october-16-2026-ai-selloff",
+    "title": "Nasdaq Falls 4.5% for the Week as AI Stocks Slide Into Friday’s Close",
+    "dek": "The S&P 500 also finished lower, while the Dow held a weekly gain. The closing figures show the selloff remained concentrated enough to produce sharply different index results.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T00:00:40+03:00",
+    "dateModified": "2026-10-17T00:00:40+03:00",
+    "image": "assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp",
+    "tickers": [
+      "NVDA",
+      "AVGO",
+      "CRWV"
+    ],
+    "body": [
+      "US stocks closed lower Friday, leaving the Nasdaq Composite down about 4.5% for the week while the Dow Jones Industrial Average retained a weekly gain. The Nasdaq finished at 26,140.03, down 2.1% on the day; the S&P 500 fell 1.1% to 7,659.44. The Dow slipped 0.3% to 52,002.41, according to the Associated Press’s closing figures.",
+      "The completed session, ending at 4 p.m. Eastern on October 16, is the new development. Morning dispatches and intraday prices cannot establish these final daily and weekly results. The closing numbers are a historical snapshot, not live weekend quotes.",
+      "Reuters reported that AI cloud operator CoreWeave dropped 12%, extending its five-session decline to roughly 25%. Broadcom fell 4.5%, while the Philadelphia semiconductor index lost 3.8% and recorded an eighth consecutive decline. The report linked investor concerns to AI financing and borrowing costs; it does not establish one cause for every trade.",
+      "Investopedia’s post-close update put the Nasdaq’s weekly decline at 4.5%, ending a four-week winning streak. It reported a roughly 2% weekly S&P 500 decline, against a 0.7% gain for the Dow. Those rounded figures describe a clear divergence, even though all three benchmarks fell Friday.",
+      "TTN’s assessment is that the contrast matters more than treating the session as a uniform retreat from every US company. A portfolio’s result depends on what it owns and how heavily each holding is weighted. An index headline cannot describe every investor’s exposure.",
+      "The SEC’s investor guidance notes that mutual funds and exchange-traded funds can make diversification easier, but a narrowly focused fund need not be diversified. Owning several vehicles also does not, by itself, establish that their underlying holdings differ. That is a useful distinction when multiple funds emphasize the same technology businesses.",
+      "Friday’s close provides a completed measurement of the week, not a verdict on the eventual profitability of AI. The commercial question remains whether operating cash generation can justify the capital committed to building capacity. TTN’s earlier report on CoreWeave’s financing pressures explains the background to that concern.",
+      "The next results season can supply evidence on revenue, spending and funding commitments. Until then, the weekly split between the Nasdaq and Dow is a reason to examine concentration rather than assume every part of the market delivered the same outcome."
+    ],
+    "sources": [
+      {
+        "label": "Associated Press: final October 16 index levels and weekly changes",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c27809783ae3230b44c26e5ee4bea056"
+      },
+      {
+        "label": "Reuters: morning market dispatch updated with the completed session; closing update shown at 20:33 UTC",
+        "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/"
+      },
+      {
+        "label": "Investopedia, October 16, 16:18 EDT: completed weekly performance and end of Nasdaq winning streak",
+        "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10162026-12176848"
+      },
+      {
+        "label": "SEC Investor.gov: diversification and the limits of narrowly focused funds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "softbank-allied-universal-security-robots-talks-2026",
+    "title": "SoftBank Explores Allied Universal Purchase as Security Work Becomes an AI Target",
+    "dek": "Reported talks concern a large physical-security business, not a signed acquisition or a confirmed robot rollout. The quoted equity value differs from a debt-inclusive transaction estimate.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T00:00:39+03:00",
+    "dateModified": "2026-10-17T00:00:39+03:00",
+    "image": "assets/editorial/softbank-allied-universal-security-robots-talks-2026.webp",
+    "tickers": [],
+    "body": [
+      "SoftBank is considering buying Allied Universal, the US physical-security services provider, according to Bloomberg reporting cited by Reuters on Friday. Deliberations remain preliminary, with no final decision on a deal or price. Reuters said SoftBank declined to comment and Allied Universal did not immediately respond.",
+      "The report connects the possible purchase with Masayoshi Son’s interest in applying AI-powered robots to security work. It is not an announcement that guards are being replaced, nor confirmation that the companies have agreed on an automation program.",
+      "Investing.com’s account of the Bloomberg report describes a potential equity valuation of as much as $18 billion. Adding roughly $12 billion of publicly traded debt brings the debt-inclusive figure close to $30 billion. Neither figure should be presented as a signed purchase price.",
+      "Equity value describes the value attributed to owners’ shares. A debt-inclusive measure addresses a different part of the transaction. Without agreed terms and disclosed financing, comparing the two headlines as if they represented rival bids would be misleading.",
+      "Allied Universal’s own materials describe security services spanning early data-center development through live operations. The company says it has experience across more than 50 million square feet of projects since 2014. Its offering combines trained personnel, access and visitor management, integrated security systems and centralized monitoring.",
+      "That description establishes an existing commercial activity, not a forecast for the proposed acquisition. It also shows why security cannot be reduced to a single patrol task: the service must work across construction, commissioning and ongoing operations, with different access requirements at each stage.",
+      "TTN’s assessment is that a security-services network could offer an automation developer something software alone cannot provide: customer relationships and operating settings in which to evaluate performance. That opportunity would still need to be tested against reliability, supervision and the cost of handling exceptions.",
+      "A robot that completes a routine inspection does not necessarily replace every duty performed by the employee on that shift. The relevant comparison is the full service delivered, including what happens when equipment fails or an unexpected situation requires judgment. TTN’s analysis of robotics economics explores that broader cost calculation.",
+      "The immediate milestone is a confirmed transaction announcement, not an assumed deployment date. Until then, the report describes an exploration of a possible acquisition. Earlier coverage appeared before the latest hour; this article is a verified background alternative rather than a claim that the talks first emerged in that window."
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 16, 20:04 UTC: preliminary talks reported by Bloomberg; company responses",
+        "url": "https://www.reuters.com/business/media-telecom/softbank-weighs-18-billion-acquisition-allied-universal-bloomberg-news-reports-2026-10-16/"
+      },
+      {
+        "label": "Investing.com: earlier October 16 coverage, before the latest-hour window; equity and debt distinction",
+        "url": "https://ca.investing.com/news/stock-market-news/softbank-weighs-30-billion-allied-universal-deal-as-son-eyes-security-robots-4885771"
+      },
+      {
+        "label": "Allied Universal: primary description of existing data-center security operations; not confirmation of acquisition talks",
+        "url": "https://www.aus.com/security-resources/factsheets/national-data-center-security-solutions"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "us-fiscal-2026-deficit-nearly-two-trillion",
     "title": "US Budget Deficit Reaches $1.99 Trillion as Debt Costs Mount",
     "dek": "The annual shortfall widened despite higher receipts. The figures put the cost of financing government back at the center of the fiscal debate.",
