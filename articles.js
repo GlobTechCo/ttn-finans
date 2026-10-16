@@ -1,6 +1,40 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ai-investment-central-banks-interest-rates-2026",
+    "title": "AI Spending Puts Higher Borrowing Costs on Central Banks’ Radar",
+    "dek": "A fresh warning from policymakers shifts the focus from AI share prices to the cost of financing the wider economy.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T17:10:49+03:00",
+    "dateModified": "2026-10-16T17:10:49+03:00",
+    "image": "assets/editorial/ai-investment-central-banks-interest-rates-2026.webp",
+    "tickers": [],
+    "body": [
+      "The AI investment boom is becoming a monetary-policy question. Central bankers gathering in Bangkok warned that spending on computing and supporting infrastructure can lift demand before the promised productivity gains arrive, Reuters reported Friday.",
+      "Fed Chair Kevin Warsh described that timing imbalance, while ECB policymaker Martins Kazaks linked the race for investment funds to higher financing costs. Their comments do not announce a new rate decision. They raise a broader question: how much economic restraint a given interest rate now provides.",
+      "Building infrastructure requires money and resources upfront. The potential return comes later. If many projects compete for financing at once, the price of borrowing can become part of the constraint on expansion.",
+      "The same project may eventually help businesses produce more with fewer resources. That is why a technology can hold out the prospect of lower costs in the future while creating pressure on costs during construction. Treating those two phases as identical misses the timing problem policymakers are discussing.",
+      "There is no single interest-rate consequence that follows mechanically from AI spending. Higher productivity, stronger saving, weaker demand elsewhere or cancelled projects could change the balance. The policy question is about the whole economy, not the size of one company’s investment budget.",
+      "The Federal Reserve’s explanation of neutral interest rates describes a benchmark consistent with sustainable economic activity and stable inflation. It is estimated rather than directly observed, and it can shift as economic conditions change. That conceptual explanation is background, not a current Fed estimate.",
+      "If the neutral benchmark moves higher, an unchanged policy rate can provide less restraint than before. But estimating that shift is difficult. A bond-market move or an announcement of new spending cannot establish a precise new neutral rate on its own.",
+      "For businesses, the distinction between policy rates and actual financing terms also matters. A company’s borrowing cost includes its own credit risk. A risky borrower can face more expensive financing even when government bond yields decline.",
+      "TTN’s reporting on CoreWeave’s debt pressures examines the company-level side of that problem. The wider AI financing buildout adds the question of who supplies the capital and on what terms.",
+      "For investors evaluating a new project, the useful checks are practical: when spending begins, when customers start paying and whether financing lasts long enough to bridge the gap. A large eventual market does not pay interest bills during construction.",
+      "Friday’s debate broadens the lens. The challenge is no longer only whether AI can produce valuable services. It is also whether the investment needed to deliver them can be financed without putting too much pressure on the rest of the economy."
+    ],
+    "sources": [
+      {
+        "label": "Reuters: central bankers discuss AI investment and borrowing costs, October 16, 13:28 UTC",
+        "url": "https://www.reuters.com/business/finance/central-bankers-eye-higher-rates-ai-boom-fuels-scramble-cash-2026-10-16/"
+      },
+      {
+        "label": "Federal Reserve: explanation of neutral interest rates, September 12, 2018; background only",
+        "url": "https://www.federalreserve.gov/newsevents/speech/brainard20180912a.htm"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "iphone-duo-preorder-delays-january-2027",
     "title": "iPhone Duo Orders Slip Into 2027 Soon After Preorders Open",
     "dek": "Apple’s first foldable starts at $1,999. Reported January delivery estimates leave buyers facing a wait, but do not reveal how many phones Apple has sold.",

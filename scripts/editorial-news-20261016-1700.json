@@ -1,6 +1,6 @@
 {
   "slot": "2026-10-16T17:00:00+03:00",
-  "status": "iphone-published-macro-pending",
+  "status": "published",
   "newsCheckedAt": "2026-10-16T16:55:00+03:00",
   "articles": [
     {
@@ -160,6 +160,7 @@
     "2026-10-16T13:10:00Z"
   ],
   "publishedArticles": {
-    "iphone-duo-preorder-delays-january-2027": "https://globtechco.github.io/ttn-finans/iphone-duo-preorder-delays-january-2027.html"
+    "iphone-duo-preorder-delays-january-2027": "https://globtechco.github.io/ttn-finans/iphone-duo-preorder-delays-january-2027.html",
+    "ai-investment-central-banks-interest-rates-2026": "https://globtechco.github.io/ttn-finans/ai-investment-central-banks-interest-rates-2026.html"
   }
 }
