@@ -86,7 +86,7 @@
       "tickers": [
         "AAPL"
       ],
-      "alt": "Reference-based editorial product illustration of Apple’s folding iPhone Duo, with the Apple logo visible.",
+      "alt": "AI-generated editorial illustration based on Apple’s official iPhone Duo product image, showing the Star White model.",
       "sources": [
         {
           "label": "The Verge: iPhone Duo delivery estimates, October 16, 13:10 UTC",
@@ -153,8 +153,8 @@
     }
   ],
   "publicationInstructions": "At the 17:00 Kyiv slot publish this prepared pair after brief revalidation. Use existing article HTML as template; update catalog, all four Tech ID sets as applicable, cache versions, sitemap, SEO and immutable social cards. These are drafts, not yet published articles. Avoid making another pair for the same slot. Keep actual publication timestamps honest. Once verified live, mark this queue completed with canonical URLs.",
-  "imageReview": "Both full generated images visually inspected. Macro still life is generic. Apple image is a reference-based product illustration using Apple event screenshot; not an actual event photograph. Record AI illustration provenance in schema without visible caption.",
-  "imageReference": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/apple-event-september-2026-452-10-57-30.jpg",
+  "imageReview": "Apple cover regenerated from official Apple Newsroom product image and explicitly approved by the user on October 16, 2026. Use this approved image for article, homepage and immutable social card. Macro cover unchanged.",
+  "imageReference": "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large.jpg",
   "sourceTimesUTC": [
     "2026-10-16T13:28:00Z",
     "2026-10-16T13:10:00Z"
