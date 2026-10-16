@@ -83,7 +83,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:17+03:00",
     "dateModified": "2026-10-16T10:42:17+03:00",
-    "image": "assets/editorial/meta-muse-spark-open-coding-model-2026-menlo-park-v2.webp",
+    "image": "assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp",
     "tickers": [
       "META"
     ],
@@ -131,7 +131,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:16+03:00",
     "dateModified": "2026-10-16T10:42:16+03:00",
-    "image": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-bay-view-v2.webp",
+    "image": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp",
     "tickers": [
       "GOOGL"
     ],

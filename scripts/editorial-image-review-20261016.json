@@ -26,30 +26,32 @@
   },
   {
     "article": "meta-muse-spark-open-coding-model-2026",
-    "source": "exec-30ae0354-3742-409e-84c9-985fcce76ae3.png",
-    "asset": "assets/editorial/meta-muse-spark-open-coding-model-2026-menlo-park-v2.webp",
+    "source": "exec-8bc5baa1-40cb-4e2f-a9bc-88e536419e22.png",
+    "asset": "assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp",
     "width": 1672,
     "height": 941,
-    "alt": "Reference-based view of Meta’s Menlo Park campus entrance and headquarters sign",
-    "people": "Reference-led architectural view; no staged crowd added",
+    "alt": "Reference-based view of Meta’s Grand Canal Square office entrance in Dublin with a visible Meta sign and people on the steps",
+    "people": "Contextual pedestrians entering or leaving office",
     "documentary": false,
-    "location": "Meta campus entrance at 1 Hacker Way, Menlo Park, California",
-    "architecturalReference": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
-    "referenceCredit": "LPS.1 / Wikimedia Commons",
-    "referenceLicense": "https://creativecommons.org/publicdomain/zero/1.0/"
+    "location": "Meta office entrance, 4–5 Grand Canal Square, Dublin; archival architectural reference photographed May 26, 2022",
+    "architecturalReference": "https://www.gettyimages.co.uk/detail/news-photo/entrance-to-the-meta-europe-building-with-its-logo-and-the-news-photo/2221301027",
+    "referenceCredit": "JC Milhet / Hans Lucas / AFP via Getty Images, May 26, 2022",
+    "referenceLicense": null,
+    "userApproved": "2026-10-16T11:38:09+03:00"
   },
   {
     "article": "google-news-ai-pilot-publisher-licensing-2026",
-    "source": "exec-311d896d-c829-4cf0-855d-90aee798f0df.png",
-    "asset": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-bay-view-v2.webp",
+    "source": "exec-9eb821f4-b776-4db6-ba64-a5a9c850abbc.png",
+    "asset": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp",
     "width": 1672,
     "height": 941,
-    "alt": "Reference-based architectural view of Google’s Bay View campus in Mountain View, California",
-    "people": "Reference-led architectural view; no staged crowd added",
+    "alt": "Reference-based view of Google’s Pancras Square entrance with its white Google wordmark and pedestrians",
+    "people": "Contextual pedestrians entering or leaving office",
     "documentary": false,
-    "location": "Google Bay View campus, Mountain View, California",
-    "architecturalReference": "https://bay-view-campus-opening.prezly.com/bay-view-office-opening",
-    "referenceCredit": "Iwan Baan / Google press imagery",
-    "referenceLicense": null
+    "location": "Google office entrance, Pancras Square, London; architectural reference photographed February 20, 2023",
+    "architecturalReference": "https://commons.wikimedia.org/wiki/File:Google_offices_by_Pancras_Square_-_geograph.org.uk_-_7418327.jpg",
+    "referenceCredit": "Hugh Venables / Geograph / Wikimedia Commons",
+    "referenceLicense": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "userApproved": "2026-10-16T11:38:09+03:00"
   }
 ]
