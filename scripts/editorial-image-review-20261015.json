@@ -54,13 +54,16 @@
     },
     {
       "article": "cohere-aisle-cybersecurity-deal-2026",
-      "generatedSource": "exec-d6ffec57-4c7d-49ab-af2d-4abced71289e.png",
-      "alt": "Cohere and AISLE names in a restrained green software-security editorial graphic",
+      "generatedSource": "exec-a27e07fc-9d87-4345-887a-2e0525d8d1b9.png",
+      "alt": "Cohere logo above an editorial illustration of software code and a security padlock",
       "dimensions": [
         1672,
         941
       ],
-      "review": "Full image decoded; composition visually inspected; distinct subject; no public generation caption."
+      "review": "Full image decoded; composition visually inspected; distinct subject; no public generation caption.",
+      "asset": "assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp",
+      "userApproved": "2026-10-16T11:32:06+03:00",
+      "approvalScope": "Cohere cover only; Google and Meta previews and proposed text remain unapproved"
     }
   ],
   "brandReferences": [

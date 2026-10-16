@@ -401,7 +401,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:54+03:00",
     "dateModified": "2026-10-15T18:15:54+03:00",
-    "image": "assets/editorial/cohere-aisle-cybersecurity-deal-2026.webp",
+    "image": "assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp",
     "tickers": [],
     "body": [
       "Cohere and cybersecurity startup AISLE announced a letter of intent on October 15 for Cohere to acquire AISLE, bringing automated vulnerability research closer to the development of enterprise AI models. The companies described a proposed transaction. They did not announce that the acquisition had closed, and Reuters reported that financial terms were not disclosed.",

@@ -1,5 +1,9 @@
 # TTN editorial image policy
 
+- After the user requests a correction to a generated image, produce and show the revised preview first. Wait for explicit approval of that specific preview before replacing any website, homepage or social-card image. Agreement to this workflow is not approval of an unseen image.
+- Check company recognition at article-card size. For office imagery, prefer a documented entrance/facade angle with its authentic installed brand sign clearly readable. A distant aerial view or an unmarked facade is insufficient when the company is the story. Do not invent a sign to solve this: find another documented location or angle.
+- For unfamiliar companies, the headline and short deck must explain the company's role, the concrete event and why readers should care in plain English. Do not lead with unexplained company names, acronyms, financing jargon or phrases such as "model stack" when the news is an acquisition of software-security tools.
+
 - Select the subject for the specific article before choosing a scene. Avoid recurring office-table scenes, interchangeable people and decorative technology hardware.
 - When depicting a named company, bank, office, campus or identifiable city architecture, identify the real location and obtain documentary photographic references. Record the source and location. Preserve the actual building form, facade, installed signage and surrounding layout. Do not substitute an invented building or place a company logo on a generic monitor, tablet or paper as a default illustration.
 - Inspect the generated result against the reference before publication. A recognizable logo does not establish that the architecture is accurate. Reject unsupported architectural additions. Record any remaining uncertainty; do not describe a generated reconstruction as a documentary photograph or an image of the reported event.
