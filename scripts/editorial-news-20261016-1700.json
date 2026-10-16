@@ -1,6 +1,6 @@
 {
   "slot": "2026-10-16T17:00:00+03:00",
-  "status": "prepared-not-published",
+  "status": "iphone-published-macro-pending",
   "newsCheckedAt": "2026-10-16T16:55:00+03:00",
   "articles": [
     {
@@ -158,5 +158,8 @@
   "sourceTimesUTC": [
     "2026-10-16T13:28:00Z",
     "2026-10-16T13:10:00Z"
-  ]
+  ],
+  "publishedArticles": {
+    "iphone-duo-preorder-delays-january-2027": "https://globtechco.github.io/ttn-finans/iphone-duo-preorder-delays-january-2027.html"
+  }
 }

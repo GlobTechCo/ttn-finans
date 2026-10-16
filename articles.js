@@ -1,6 +1,42 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "iphone-duo-preorder-delays-january-2027",
+    "title": "iPhone Duo Orders Slip Into 2027 Soon After Preorders Open",
+    "dek": "Apple’s first foldable starts at $1,999. Reported January delivery estimates leave buyers facing a wait, but do not reveal how many phones Apple has sold.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T17:06:39+03:00",
+    "dateModified": "2026-10-16T17:06:39+03:00",
+    "image": "assets/editorial/iphone-duo-preorder-delays-january-2027.webp",
+    "tickers": [
+      "AAPL"
+    ],
+    "body": [
+      "Buyers ordering Apple’s first foldable iPhone may have to wait until next year. The Verge reported Friday that delivery estimates for every iPhone Duo configuration had moved to late January, less than an hour after preorders opened.",
+      "Apple’s US store lists the phone from $1,999 for 256GB and says store availability begins October 23. Those are different timelines: a launch date does not guarantee that a new online order will arrive that day.",
+      "A delayed delivery estimate measures the gap between orders and available supply for a particular sales channel. It does not disclose either number. A small launch allocation can produce a long wait, just as unusually strong demand can.",
+      "That makes the early backlog a useful sign of constrained availability, but insufficient evidence for a record-breaking launch. Apple would need to provide shipment, sales or production information before investors could quantify the result.",
+      "Delivery windows can also move as orders are cancelled, inventory is reassigned or production changes. Buyers should treat a reported estimate as a snapshot and check the date attached to their own configuration before paying.",
+      "The Duo introduces a folding format to Apple’s phone range. Apple describes a 7.6-inch inner display and a 5.4-inch outer display, with a titanium frame and hinge cover. Its US store offers Night Sky and Star White finishes.",
+      "The commercial question goes beyond whether enthusiasts want the first units. At this price, the phone needs to offer a reason to choose it over an ordinary flagship phone, a tablet or keeping an existing device for another year.",
+      "A larger inner display can change how a phone is used, but specifications alone do not establish the everyday benefit. Software layout, comfort, durability and the practical experience of switching between screens will matter after customers receive it.",
+      "For customers, the immediate issue is availability through their chosen channel, followed by the full price and any conditions attached to a carrier offer. A headline discount should not be confused with an unconditional reduction in the phone’s cost.",
+      "For investors, sustained demand after launch will be more informative than the first delivery-date change. Evidence about output and shipments will help show whether the queue reflects a supply bottleneck, a broader buying cycle or some combination.",
+      "The next checkpoints are the October 23 store launch and subsequent delivery estimates. For now, the early queue establishes a wait for online buyers. It leaves the size and durability of demand an open question."
+    ],
+    "sources": [
+      {
+        "label": "The Verge: iPhone Duo delivery estimates, October 16, 13:10 UTC",
+        "url": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay"
+      },
+      {
+        "label": "Apple US store: iPhone Duo prices and launch availability",
+        "url": "https://www.apple.com/shop/buy-iphone/iphone-duo"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "us-import-prices-september-2026-inflation",
     "title": "US Import Prices Jump 1.1%, Bringing Inflation Pressure Beyond Oil",
     "dek": "September import prices rose faster than expected. A broad increase in nonfuel goods adds to the cost pressure facing American businesses.",
