@@ -1,6 +1,79 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "faa-controller-pay-workforce-reforms-october-2026",
+    "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
+    "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T00:59:43+03:00",
+    "dateModified": "2026-10-17T00:59:43+03:00",
+    "image": "assets/editorial/faa-controller-pay-workforce-reforms-october-2026.webp",
+    "tickers": [],
+    "body": [
+      "The Federal Aviation Administration and the National Air Traffic Controllers Association have agreed to a 2.8% pay increase tied to changes in how controllers’ work is tracked and scheduled, the Transportation Department announced October 16. The increase takes effect October 18 and is retroactive to the beginning of the year.",
+      "The department said Congress had linked additional pay to measurable operational-efficiency improvements. Reuters reported the agreement at 5 p.m. Eastern, initially citing the Wall Street Journal and saying it could not immediately verify that account. The department’s own release confirms the agreement and supplies its operational details.",
+      "The agreement introduces badge-based time tracking at air traffic facilities. Local managers and union representatives will develop shift guidelines using expected workload and operational requirements. Controller reassignments will also place greater emphasis on locations with the most severe staffing needs, according to the department.",
+      "Those are changes to how the existing workforce is deployed. They should not be read as an announcement that every understaffed facility has received additional certified controllers. The department presents the reforms as a route to better coverage, not evidence that the intended operational gains have already occurred.",
+      "TTN’s assessment is that the important economic distinction is between compensation and available capacity. Better pay can support a workforce, while scheduling determines whether the right personnel are available when demand peaks. Neither measure alone establishes that flight delays will fall.",
+      "For scale, a 2.8% increase on an illustrative $100,000 annual pay amount equals $2,800 before taxes. That calculation is not an estimate of any controller’s earnings or back pay; individual compensation and applicable pay rules determine the actual amount.",
+      "The practical test will be whether the changes improve coverage at constrained facilities without simply moving shortages elsewhere. The agreement establishes the rules and the pay increase. Demonstrating better performance requires subsequent operating evidence. TTN’s guide to wages and price pressures explains why one occupational pay settlement is not a national inflation measure."
+    ],
+    "sources": [
+      {
+        "label": "US Department of Transportation, October 16: official agreement, reforms and effective date",
+        "url": "https://www.transportation.gov/briefing-room/trumps-transportation-department-air-traffic-controller-union-announce-28-pay"
+      },
+      {
+        "label": "Reuters, October 16, 21:00 UTC: initial report citing the Wall Street Journal",
+        "url": "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-reach-deal-with-faa-28-pay-rise-wsj-reports-2026-10-16/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "whatsapp-impostor-google-play-app-verification-2026",
+    "title": "Reported WhatsApp Impostor Highlights the Limits of App-Store Search",
+    "dek": "Earlier October 16 reporting described a lookalike listing appearing above the genuine app for some users. Its present availability is unconfirmed; Google’s own guidance provides checks that remain useful.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T00:59:42+03:00",
+    "dateModified": "2026-10-17T00:59:42+03:00",
+    "image": "assets/editorial/whatsapp-impostor-google-play-app-verification-2026.webp",
+    "tickers": [],
+    "body": [
+      "A lookalike WhatsApp listing reportedly appeared in Google Play’s sponsored search results above the genuine messaging app for some users, according to Android Authority and The Verge on October 16. This is earlier reporting, not a newly confirmed incident from the latest hour. Its current availability has not been established.",
+      "Android Authority reported that the listing used the developer name Agment Assets sallu, copied the genuine app’s presentation and showed more than 500,000 downloads. It also said the sponsored placement did not appear in every search. The Verge reported that Google had not immediately responded to its request for comment.",
+      "The reported download count describes the listing at the time journalists examined it. It is not a verified count of people harmed, stolen accounts or compromised phones. The coverage does not, by itself, establish what the software did after installation.",
+      "The linked listing could not be retrieved during TTN’s check. That is not enough to conclude that Google removed it worldwide: store availability and access can vary. Without a company statement or broader confirmation, a removal claim would go beyond the evidence.",
+      "For someone seeking WhatsApp, its official download page provides a separate starting point rather than relying solely on a sponsored search position. TTN’s assessment is that an app’s name and artwork are insufficient identity checks when the reported problem is imitation of those same features.",
+      "Google says Play Protect checks apps before download and periodically scans installed software for potentially harmful behavior. It can warn about, disable or remove harmful apps, and Google recommends keeping it enabled. Those are protective capabilities, not a promise that any particular listing is authentic.",
+      "Google also provides a way to report an app through its Play help guidance. Reporting a suspicious listing and checking the publisher address different questions from scanning installed code: who is offering the software, and whether it exhibits harmful behavior.",
+      "The episode is best understood as a distribution and identity-verification issue, not proof of a flaw in WhatsApp’s encryption. TTN’s coverage of data-access controls discusses the broader distinction between trusting a service’s security and deciding which software should receive access in the first place."
+    ],
+    "sources": [
+      {
+        "label": "Android Authority, October 16, 07:20 EDT: original reporting on the lookalike listing and download count",
+        "url": "https://www.androidauthority.com/fake-whatsapp-app-3724337/"
+      },
+      {
+        "label": "The Verge, October 16, 15:02 UTC: independent coverage and request for Google comment",
+        "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android"
+      },
+      {
+        "label": "Google Play Help: Play Protect capabilities and settings",
+        "url": "https://support.google.com/googleplay/answer/2812853?hl=en"
+      },
+      {
+        "label": "Google Play Help: reporting an app or review",
+        "url": "https://support.google.com/googleplay/answer/2853570?hl=en"
+      },
+      {
+        "label": "WhatsApp: official download page",
+        "url": "https://www.whatsapp.com/download"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "wall-street-close-october-16-2026-ai-selloff",
     "title": "Nasdaq Falls 4.5% for the Week as AI Stocks Slide Into Friday’s Close",
     "dek": "The S&P 500 also finished lower, while the Dow held a weekly gain. The closing figures show the selloff remained concentrated enough to produce sharply different index results.",
