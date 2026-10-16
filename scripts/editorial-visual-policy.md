@@ -1,0 +1,8 @@
+# TTN editorial image policy
+
+- Select the subject for the specific article before choosing a scene. Avoid recurring office-table scenes, interchangeable people and decorative technology hardware.
+- When depicting a named company, bank, office, campus or identifiable city architecture, identify the real location and obtain documentary photographic references. Record the source and location. Preserve the actual building form, facade, installed signage and surrounding layout. Do not substitute an invented building or place a company logo on a generic monitor, tablet or paper as a default illustration.
+- Inspect the generated result against the reference before publication. A recognizable logo does not establish that the architecture is accurate. Reject unsupported architectural additions. Record any remaining uncertainty; do not describe a generated reconstruction as a documentary photograph or an image of the reported event.
+- Include people when they belong in the scene: customers and staff in shops, pedestrians in urban settings, and people working where relevant. Use varied ages, appearances, clothing and compositions. Neither remove people categorically nor force them into every image. For reference-faithful architecture, retain the documented setting and avoid fabricating an event or crowd.
+- Prefer neutral natural lighting and realistic proportions. Keep original brand geometry and colors where those signs exist in the reference. Respect image source terms and place necessary credits in the compact references section.
+- Use distinct versioned cover filenames when replacing images, regenerate immutable social card URLs, and verify both article and homepage asset references. Keep earlier social assets available for existing posts.

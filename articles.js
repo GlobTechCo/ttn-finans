@@ -7,7 +7,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:19+03:00",
     "dateModified": "2026-10-16T10:42:19+03:00",
-    "image": "assets/editorial/indonesia-msci-downgrade-stock-selloff-2026.webp",
+    "image": "assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp",
     "tickers": [],
     "body": [
       "Indonesian shares plunged on October 16 after MSCI proposed removing the country from its emerging-market classification, turning concerns about market governance into an immediate threat to international investment demand. Reuters reported an intraday decline of as much as 11.4% in the Jakarta benchmark, following an opening fall that triggered a 30-minute trading halt. That is a session low reported during trading, not a closing result.",
@@ -83,7 +83,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:17+03:00",
     "dateModified": "2026-10-16T10:42:17+03:00",
-    "image": "assets/editorial/meta-muse-spark-open-coding-model-2026.webp",
+    "image": "assets/editorial/meta-muse-spark-open-coding-model-2026-menlo-park-v2.webp",
     "tickers": [
       "META"
     ],
@@ -131,7 +131,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:16+03:00",
     "dateModified": "2026-10-16T10:42:16+03:00",
-    "image": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026.webp",
+    "image": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-bay-view-v2.webp",
     "tickers": [
       "GOOGL"
     ],

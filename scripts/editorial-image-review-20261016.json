@@ -1,14 +1,17 @@
 [
   {
     "article": "indonesia-msci-downgrade-stock-selloff-2026",
-    "source": "exec-e0f31f16-da18-413d-838f-1631f2eba74b.png",
-    "asset": "assets/editorial/indonesia-msci-downgrade-stock-selloff-2026.webp",
-    "width": 1672,
-    "height": 941,
-    "alt": "Indonesian flag and pedestrians among office towers in a conceptual Jakarta business district scene",
-    "people": "Contextual pedestrians",
-    "logoSource": null,
-    "documentary": false
+    "source": "exec-e864db4f-220c-4e3f-8116-29f55f37c8f3.png",
+    "asset": "assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp",
+    "width": 1774,
+    "height": 887,
+    "alt": "Reference-based view of the Indonesia Stock Exchange facade and surrounding towers in Jakarta",
+    "people": "Reference-led architectural view; no staged crowd added",
+    "documentary": false,
+    "location": "Indonesia Stock Exchange building, Jakarta, Indonesia",
+    "architecturalReference": "https://commons.wikimedia.org/wiki/File:Gedung-bursa-efek-1_(1).jpg",
+    "referenceCredit": "Bursa Efek Indonesia / Wikimedia Commons",
+    "referenceLicense": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   {
     "article": "dollar-treasury-yields-ai-financing-october-16-2026",
@@ -23,24 +26,30 @@
   },
   {
     "article": "meta-muse-spark-open-coding-model-2026",
-    "source": "exec-da6eaef6-92c4-4151-a722-3bcd28608129.png",
-    "asset": "assets/editorial/meta-muse-spark-open-coding-model-2026.webp",
+    "source": "exec-30ae0354-3742-409e-84c9-985fcce76ae3.png",
+    "asset": "assets/editorial/meta-muse-spark-open-coding-model-2026-menlo-park-v2.webp",
     "width": 1672,
     "height": 941,
-    "alt": "Software engineer at a workstation with the official Meta logo on a monitor",
-    "people": "Software engineer",
-    "logoSource": "https://dev.meta.ai/logo/meta-logo-with-text.svg",
-    "documentary": false
+    "alt": "Reference-based view of Meta’s Menlo Park campus entrance and headquarters sign",
+    "people": "Reference-led architectural view; no staged crowd added",
+    "documentary": false,
+    "location": "Meta campus entrance at 1 Hacker Way, Menlo Park, California",
+    "architecturalReference": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg",
+    "referenceCredit": "LPS.1 / Wikimedia Commons",
+    "referenceLicense": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   {
     "article": "google-news-ai-pilot-publisher-licensing-2026",
-    "source": "exec-4321f7bc-9712-4d53-8285-e64da435bdcf.png",
-    "asset": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026.webp",
+    "source": "exec-311d896d-c829-4cf0-855d-90aee798f0df.png",
+    "asset": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-bay-view-v2.webp",
     "width": 1672,
     "height": 941,
-    "alt": "Tablet displaying the official Google logo on a copy desk with journalists working in the background",
-    "people": "Two journalists in newsroom",
-    "logoSource": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-    "documentary": false
+    "alt": "Reference-based architectural view of Google’s Bay View campus in Mountain View, California",
+    "people": "Reference-led architectural view; no staged crowd added",
+    "documentary": false,
+    "location": "Google Bay View campus, Mountain View, California",
+    "architecturalReference": "https://bay-view-campus-opening.prezly.com/bay-view-office-opening",
+    "referenceCredit": "Iwan Baan / Google press imagery",
+    "referenceLicense": null
   }
 ]
