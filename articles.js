@@ -1,6 +1,90 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ny-fed-services-prices-october-2026",
+    "title": "New York Fed Survey Finds Faster Price Increases as Service Activity Falls",
+    "dek": "Regional service firms reported their fastest selling-price increases since 2022. The October survey adds a warning about costs, but is not a national inflation reading.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T18:11:36+03:00",
+    "dateModified": "2026-10-16T18:11:36+03:00",
+    "image": "assets/editorial/ny-fed-services-prices-october-2026.webp",
+    "tickers": [],
+    "body": [
+      "Service businesses in the New York region are reporting an uncomfortable combination: weaker activity and more widespread increases in the prices they charge. The Federal Reserve Bank of New York’s October Business Leaders Survey, released Friday, found selling-price increases at their fastest pace since 2022.",
+      "The activity index fell 12 points to minus 20.7. The prices-received index rose to 36.3, while the prices-paid measure stood at 70.0. Employment was flat, and expectations for activity over the next six months turned negative.",
+      "Those readings describe how broadly conditions are changing among respondents. They do not mean output fell 20.7% or that selling prices rose 36.3%. Confusing an index with a percentage change would greatly overstate what the report establishes.",
+      "The survey covers service firms in New York, northern New Jersey and southwestern Connecticut. Responses were collected October 2–9. It therefore describes conditions reported earlier this month, rather than a real-time response to Friday’s market moves.",
+      "The distinction matters for anyone trying to read the report as a forecast. A business can report higher costs even while its own sales weaken. Whether those costs reach customers depends on its ability to raise prices, its competitors and the alternatives available to buyers.",
+      "The New York Fed’s methodology asks executives about recent and expected changes. Its regional sample is useful for detecting pressure points, but cannot stand in for the national consumer-price index. The size of each company’s price increase is a separate question from how many companies report one.",
+      "TTN’s coverage of September import prices examines costs at the border. This survey looks at a different part of the economy: businesses providing services. The two reports cannot be added together to calculate an inflation rate.",
+      "The combination is still worth watching. An importer may face a higher bill for goods, while a service provider faces pressure elsewhere in its operating budget. A broad inflation problem can persist through several channels even when one particular cost begins to ease.",
+      "For a business, the immediate test is whether a price increase protects profit after accounting for any loss of customers. Higher revenue alone may reflect higher prices rather than more transactions. Margins, customer volumes and cash collection help separate those possibilities.",
+      "A policymaker must weigh both sides of this report. Weak activity can signal reduced demand; persistent pricing pressure can complicate efforts to bring inflation down. Neither observation, by itself, supplies a complete national diagnosis.",
+      "Investors should compare subsequent service-sector surveys, employment data and official price measures before treating the regional result as a turning point. TTN’s guide to second-round inflation explains why the persistence and spread of cost increases matter beyond the original shock.",
+      "The practical message from Friday’s release is narrow but useful: slower business activity has not eliminated pricing pressure among these regional service firms. The next evidence to watch is whether that combination persists and appears in broader national data."
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve Bank of New York: October 2026 Business Leaders Survey, primary report",
+        "url": "https://www.newyorkfed.org/medialibrary/media/survey/business_leaders/2026/202610_blsreport.pdf"
+      },
+      {
+        "label": "New York Fed: survey scope, methodology and release calendar",
+        "url": "https://www.newyorkfed.org/survey/business_leaders/bls_overview.html"
+      },
+      {
+        "label": "Reuters: report on the survey, October 16, 14:34 UTC",
+        "url": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "tesla-slovakia-assisted-driving-approval-2026",
+    "title": "Slovakia Approves Tesla Driver Assistance as European Rollout Expands",
+    "dek": "Slovakia has recognized provisional approval for Tesla’s supervised driving system. The decision opens a path to rollout, while drivers remain responsible for the vehicle.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-16T18:11:35+03:00",
+    "dateModified": "2026-10-16T18:11:35+03:00",
+    "image": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
+    "tickers": [
+      "TSLA"
+    ],
+    "body": [
+      "Slovakia has authorized the use of Tesla’s supervised driving-assistance software, adding another national approval to the company’s European expansion. Tesla said rollout would begin soon, Reuters reported Friday.",
+      "The Slovak transport ministry said it had recognized the system’s provisional type approval. Its statement identifies the technology as Full Self-Driving (Supervised), an advanced assistance package, and explicitly says the driver remains fully responsible for driving.",
+      "That distinction belongs at the center of the announcement. Permission to use supervised assistance does not mean permission to leave the driver’s seat empty, stop monitoring traffic or operate a driverless taxi service.",
+      "According to the ministry, the Dutch RDW authority issued provisional approval in April, which other member states can recognize for their own territory. Slovakia said it had taken that step on Friday. National recognition and a blanket authorization across the European Union are different milestones.",
+      "The ministry describes a camera- and neural-network-based system that can assist with accelerating, braking, steering, lane changes and intersections. It also says the system monitors driver attention and can issue warnings or deactivate when the driver is inattentive.",
+      "Reuters reported last week that Tesla had begun using the name Tesla Assisted Driving on European websites. American readers will recognize the related US branding, Full Self-Driving (Supervised). A change in the product’s name does not remove the requirement for an attentive driver.",
+      "Tesla’s support documentation says availability depends on factors including vehicle configuration, hardware, software version and region. Vehicles also need a software update before the features become available. The approval headline therefore does not establish that every Slovak Tesla owner can activate the system immediately.",
+      "The company’s statement that rollout would begin soon should be read as a plan, not a confirmed delivery date for a particular car. Owners need the eligibility and activation information attached to their own vehicle. US subscription terms should not be assumed to apply to Slovakia.",
+      "For the wider technology business, the distinction is commercially important. Regulatory access creates an opportunity to sell software, but does not reveal how many drivers will subscribe, how often they will use it or how many will retain it after trying it.",
+      "Useful evidence will include confirmed customer availability, eligible hardware, local terms and the actual functions enabled. Those details are more informative than treating every national authorization as a completed deployment.",
+      "The same gap between access and commercial results appears in TTN’s reporting on Germany’s planned industrial AI agreement with Nvidia. Announcements can expand the market for a technology before its operational and financial results are measurable.",
+      "Slovakia’s decision removes a regulatory barrier within that country. It does not settle the separate questions of EU-wide access, driverless operation or customer adoption. For now, the next concrete milestone is the rollout Tesla says will follow."
+    ],
+    "sources": [
+      {
+        "label": "Slovak Ministry of Transport: recognition of provisional Tesla FSD approval, October 16, 2026",
+        "url": "https://www.mindop.sk/media/tlacove-spravy/detail/slovensko-umoznilo-ciastocne-autonomne-riadenie-aut"
+      },
+      {
+        "label": "Reuters: Tesla says Slovakia approved the system and rollout will begin soon, October 16, 14:31 UTC",
+        "url": "https://www.reuters.com/business/tesla-receives-approval-self-driving-tech-slovakia-2026-10-16/"
+      },
+      {
+        "label": "Tesla Support: Full Self-Driving (Supervised), driver responsibilities and feature availability",
+        "url": "https://www.tesla.com/support/fsd"
+      },
+      {
+        "label": "Reuters: European naming change to Tesla Assisted Driving, October 9; background",
+        "url": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/"
+      }
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "ai-investment-central-banks-interest-rates-2026",
     "title": "AI Spending Puts Higher Borrowing Costs on Central Banks’ Radar",
     "dek": "A fresh warning from policymakers shifts the focus from AI share prices to the cost of financing the wider economy.",

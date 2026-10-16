@@ -947,6 +947,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/nonfarm-payrolls-jobs-report-explained.html?card=8a8c8153512b"
     },
     {
+      "page": "ny-fed-services-prices-october-2026.html",
+      "source": "assets/editorial/ny-fed-services-prices-october-2026.webp",
+      "image": "assets/social/ny-fed-services-prices-october-2026-486f875de674.webp",
+      "sha256": "486f875de674a40ad8d216a9727ad06bb62541c96c692daaa831e7401bf71ccb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 386296,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ny-fed-services-prices-october-2026.html?card=486f875de674"
+    },
+    {
       "page": "oil-near-100-inflation-2026.html",
       "source": "assets/editorial/oil-near-100-inflation-2026.webp",
       "image": "assets/social/oil-near-100-inflation-2026-f1488751117b.webp",
@@ -1242,6 +1253,17 @@
       "bytes": 375776,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/tech-ai.html?card=5a38668b17d6"
+    },
+    {
+      "page": "tesla-slovakia-assisted-driving-approval-2026.html",
+      "source": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
+      "image": "assets/social/tesla-slovakia-assisted-driving-approval-2026-af6b320a430b.webp",
+      "sha256": "af6b320a430b2ad5d9fcef49b7c50f8480522d9d783de922fa34da54cac6bb91",
+      "width": 1672,
+      "height": 941,
+      "bytes": 496886,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tesla-slovakia-assisted-driving-approval-2026.html?card=af6b320a430b"
     },
     {
       "page": "tips-inflation-protected-bonds-explained.html",
