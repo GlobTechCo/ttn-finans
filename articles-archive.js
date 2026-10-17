@@ -1,6 +1,7 @@
 /* Market Analysis archive; cards and navigation share the Tech & AI component. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "replit-openai-preferred-partner-claude-choice-2026",
     "ai-agents-websites-block-access-2026",
     "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",

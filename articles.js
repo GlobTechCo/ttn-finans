@@ -1,6 +1,152 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "replit-openai-preferred-partner-claude-choice-2026",
+    "title": "Replit Favors OpenAI for Agent While Keeping Claude Available",
+    "dek": "The coding platform’s preferred partnership leaves room for competing models. Its documentation shows why the default and the available choices are different decisions.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T16:44:36-04:00",
+    "dateModified": "2026-10-17T16:44:36-04:00",
+    "image": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026.webp",
+    "tickers": [],
+    "body": [
+      "Replit favors OpenAI for Agent while retaining access to Anthropic models, CEO Amjad Masad clarified, according to an updated TechCrunch report Saturday.",
+      "Replit’s own documentation supports the distinction between a preferred provider and an exclusive one. Its model selector lists options from both developers, with availability depending on the mode, subscription, account settings and rollout. Users should check the choices actually shown in their account before assuming that a model mentioned elsewhere is available to them.",
+      "The preferred-partner description concerns the default experience. The presence of other models in the product remains a separate, verifiable feature.",
+      "The OpenAI relationship predates the clarification",
+      "Replit announced its OpenAI-powered Free Mode in August. That announcement presented a way to handle routine tasks within a subscription, alongside more demanding modes for larger projects. The October clarification therefore sits within an existing product strategy.",
+      "The August launch also made clear that Free Mode was a product mode with usage limits. Its name should not be taken to mean unlimited access to every feature or model without a subscription. The announcement distinguished routine work from more complex tasks that could require other modes.",
+      "Those distinctions matter when comparing AI coding products. A headline subscription price, a model name and the cost of finishing an application describe different parts of the purchase. The practical bill depends on the work requested, the mode used and the amount of supervision still required.",
+      "Automatic routing and manual choice coexist",
+      "Replit’s documentation describes automatic routing that chooses models according to a task’s complexity, quality requirements and cost. It also describes manual model selection for eligible users in Power and Max modes. Free Mode uses automatic routing without a manual model selector.",
+      "The company allows users to adjust reasoning effort on supported models. Its documentation says more effort can raise costs on difficult work, while simpler requests may gain little from it. The highest setting is therefore a resource decision, not a guarantee that every task will produce a better result.",
+      "For a customer, the useful distinction is control. Automatic selection can remove a decision from each request. Manual selection makes it possible to test a particular model against the customer’s own code, instructions and acceptance criteria. Neither approach removes the need to verify the resulting software.",
+      "The surrounding software affects the result",
+      "In a September engineering article, Replit explained how it coordinates models, tools and delegated tasks inside Agent. The company described choosing different levels of capability and reusing working context as ways to balance the quality of a completed task against its cost.",
+      "Replit also published benchmark results for that system. They are company-reported evaluations under specified conditions. They do not establish that the same configuration will be the best choice for every customer’s repository or that all competing products were tested on equal terms.",
+      "The broader implication is that selecting a model does not determine the whole experience. How an application supplies context, handles tool errors, tests a change and returns unfinished work to the user can affect both reliability and cost. TTN’s analysis of <a href=\"ai-inference-unit-economics-2026.html\">AI inference economics</a> examines why the cost per completed task is more useful than a token price alone.",
+      "What businesses should compare",
+      "TTN’s assessment is that customers should evaluate the workflow they intend to use: a representative bug fix, a change to an existing service or the creation of a small application. The comparison should record completion, required corrections, elapsed time and total cost under the relevant account settings.",
+      "Access to business information is a separate consideration. A preferred model relationship does not by itself explain which data an employee may expose or which actions an agent may take. Those controls remain part of deployment, as discussed in TTN’s guide to <a href=\"enterprise-ai-data-security-2026.html\">enterprise AI access permissions</a>.",
+      "Replit continues to offer a choice of providers while developing its default experience. The commercial significance lies in how that arrangement performs for actual customer work. Saturday’s clarification does not establish exclusive supply, a universal model ranking or a quantified saving for users."
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: October 17 update to its October 16 report; supplier clarification",
+        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      },
+      {
+        "label": "Replit: model selection, automatic routing, availability and reasoning effort",
+        "url": "https://docs.replit.com/features/agent/model-selector"
+      },
+      {
+        "label": "Replit: August 18 Free Mode announcement, updated August 19",
+        "url": "https://replit.com/blog/replit-introduces-free-mode"
+      },
+      {
+        "label": "Replit: September 29 engineering explanation and company-reported evaluations",
+        "url": "https://replit.com/blog/free-the-models"
+      }
+    ]
+  },
+  {
+    "id": "richard-heart-turkey-detention-confirmed-2026",
+    "title": "Turkey Confirms Richard Heart’s Detention and Reports $7.15 Million Cash Seizure",
+    "dek": "The announcement adds official details to the Istanbul operation involving the HEX founder. His detention, Finland’s allegations and the dismissed US securities case are separate legal developments.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T16:44:36-04:00",
+    "dateModified": "2026-10-17T16:44:36-04:00",
+    "image": "assets/editorial/richard-heart-turkey-detention-confirmed-2026.webp",
+    "tickers": [],
+    "body": [
+      "Turkey’s justice minister has confirmed the detention of Richard Heart, the founder of crypto projects HEX and PulseChain, and reported the seizure of $7.15 million in cash and six cold wallets during related searches in Istanbul.",
+      "The Block published the confirmation at 2:14 PM EDT on October 17 and updated its report four minutes later. According to that report, Justice Minister Akın Gürlek said the operation took place on October 14. The minister’s announcement provides an account of an operation carried out three days earlier.",
+      "Heart, whose legal name is Richard James Schueler, was detained with his wife. Three people described as his bodyguards were subsequently detained, the minister said. The Block reported that searches covered 15 addresses and that examination of the seized materials was continuing.",
+      "Cash and wallets are different categories of evidence",
+      "The reported cash total should not be read as a valuation of cryptocurrency held in the six wallets. The account reviewed for this article does not establish their balances, ownership of every associated asset or whether investigators obtained control of any funds.",
+      "A wallet device, access to its contents and a legally established claim over those contents are different things. The number of devices seized cannot be converted into an estimate of recoverable crypto assets. Nor does a seizure announcement establish that any particular token holder will receive compensation. TTN’s guide to <a href=\"bitcoin-etf-institutional-adoption.html\">how a Bitcoin ETF changes ownership and custody</a> discusses a separate structure in which custody and the investor’s legal interest also need to be distinguished.",
+      "Those limits are material to the financial interpretation of the news. The available information describes an investigation and physical seizures. It does not provide a court-approved accounting of assets available for restitution.",
+      "The Finnish allegations predate the Istanbul operation",
+      "Finland’s public broadcaster Yle reported in September 2024 that police suspected Schueler of aggravated tax evasion. Its report described the case as an investigation into alleged unpaid taxes. That investigation predates the Istanbul operation by more than two years.",
+      "The Block’s Saturday account says an Interpol Red Notice had been issued on Finland’s behalf in December 2024, relating to suspected tax evasion and assault. These remain allegations. Detention is not a conviction.",
+      "Interpol explains that a Red Notice asks police to locate and provisionally arrest a person pending extradition, surrender or similar proceedings. Countries apply their own laws when deciding what action to take. The notice itself does not settle guilt or determine the outcome of a national case.",
+      "The US securities case followed a separate path",
+      "The SEC previously pursued a civil lawsuit involving Heart and his crypto projects. A US federal judge dismissed that case in 2025 on jurisdictional grounds, as reported at the time by The Block.",
+      "That ruling concerned whether the SEC had established sufficient connections to the United States for the case to proceed. It did not decide the underlying fraud and securities allegations on their merits. Equally, the existence of those allegations should not be presented as a current US criminal conviction.",
+      "Keeping the proceedings separate avoids two misleading conclusions: that dismissal of the SEC case resolved every allegation worldwide, or that the Turkish detention proves the SEC’s earlier claims. Neither follows from the records reviewed here.",
+      "The outstanding questions concern the legal basis for continued detention, any extradition request, the identification of assets and the next court proceedings. Saturday’s confirmation supplies more detail about the operation. It does not resolve those questions or establish a recovery outcome for investors."
+    ],
+    "sources": [
+      {
+        "label": "The Block: October 17 ministerial confirmation, published 2:14 PM EDT and updated 2:18 PM EDT",
+        "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+      },
+      {
+        "label": "Yle: September 17, 2024 reporting on the Finnish investigation",
+        "url": "https://yle.fi/a/74-20111931"
+      },
+      {
+        "label": "Interpol: general explanation of Red Notices",
+        "url": "https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices"
+      },
+      {
+        "label": "The Block: March 1, 2025 report on dismissal of the separate US civil case",
+        "url": "https://www.theblock.co/news/regulation/2025-03-01-us-judge-dismisses-secs-lawsuit-against-richard-heart-and-hex-pulsechain-on-jurisdictional-grounds-344078"
+      }
+    ]
+  },
+  {
+    "id": "okxice-stock-token-issuer-objections-2026",
+    "title": "Broadcom, Verizon and CoreWeave Object to Stock Tokens on OKXICE",
+    "dek": "Nine companies have filed objections with the proposed trading venue, highlighting the gap between regulatory permission and corporate acceptance of tokenized shares.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T16:44:36-04:00",
+    "dateModified": "2026-10-17T16:44:36-04:00",
+    "image": "assets/editorial/okxice-stock-token-issuer-objections-2026.webp",
+    "tickers": [],
+    "body": [
+      "Broadcom, Verizon and CoreWeave are among nine companies that have objected to tokenized versions of their shares being offered on OKXICE, according to the venue’s public notice. The objections put an early limit on the roster of stocks available to a venture seeking to move part of the US equity market onto blockchain infrastructure.",
+      "The Block reported the objections at 3:56 PM EDT on October 17. The underlying notice is dated October 15. The companies did not announce a coordinated decision on Saturday.",
+      "The notice also names Cerebras Systems, AppLovin, Applied Digital, Rocket Lab, Applied Optoelectronics and UnitedHealth Group. It identifies the objectors without explaining each company’s reasons. An objection to this venue does not, on its own, establish opposition to every possible form of tokenized stock trading.",
+      "A new trading channel meets issuer resistance",
+      "OKXICE’s disclosure describes a joint venture owned equally by Intercontinental Exchange Holdings and OKC USA Holding. Its proposed model uses permissioned liquidity pools, with tokenized shares paired against supported stablecoins. Participants must pass identity and sanctions checks before gaining access.",
+      "That structure brings questions familiar from conventional markets into a different trading environment: how prices are formed, how liquidity behaves and how shareholder rights reach the investor. A blockchain can record a transaction, but that record alone does not explain the legal claim the buyer receives or the quality of the execution.",
+      "Applied Optoelectronics cited uncertainty about price, liquidity and volatility, The Block reported, attributing the explanation to The Wall Street Journal. The Journal’s accessible report independently identifies Broadcom, Verizon and UnitedHealth among the companies pushing back.",
+      "The distinction between a company’s shares and an independently arranged token linked to those shares is especially relevant to investor understanding. A familiar company name on a trading screen does not establish that the company designed or endorsed the product.",
+      "What the SEC exemption permits",
+      "The Securities and Exchange Commission introduced its temporary innovation exemption on September 17. It provides conditional relief for certain tokenized securities venues and liquidity providers, allowing an alternative trading structure while the agency considers further rules.",
+      "The relief includes conditions covering shareholder rights, disclosure and access. A venue must verify that qualifying tokens preserve the rights of equivalent conventional shares. For stock tokenized by an unaffiliated third party, the issuer must receive written notice and an opportunity to object.",
+      "The SEC also requires trading in the tokenized stock to stop when the primary listing exchange halts the underlying stock. Limits on symbols and trading volume remain part of the framework. Regulatory permission therefore comes with boundaries; it does not amount to an unrestricted approval of every token product or venue.",
+      "Nasdaq’s position illustrates the distinction",
+      "Nasdaq’s published FAQ says it plans to opt out of having its own shares tokenized under the exemption. Its document also explains that qualifying tokenized stock must preserve equivalent ownership rights, including dividends, voting and liquidation rights. Products providing only synthetic exposure fall outside that definition.",
+      "These distinctions make the phrase “tokenized stock” insufficient as a complete product description. The investor still needs to know who maintains the underlying position, what rights are passed through and which market protections govern the venue. TTN’s explanation of <a href=\"etf-creation-redemption-mechanism.html\">how ETF creation and redemption link a traded product to its holdings</a> examines a different structure for maintaining that connection.",
+      "For TTN, the significance of the objections is the practical constraint they place on distribution. A venue can build its technical infrastructure and qualify for regulatory relief while still facing a narrower product list than it originally envisaged. Winning issuer confidence is a separate commercial task.",
+      "The next evidence will be the venue’s final offering, explanations from issuers and the operation of the permitted products. The nine objections establish a specific boundary for OKXICE; they do not establish that tokenization across US markets has failed."
+    ],
+    "sources": [
+      {
+        "label": "OKXICE: public notice dated October 15; issuer objections on PDF page 7",
+        "url": "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf"
+      },
+      {
+        "label": "SEC: September 17 innovation exemption and investor-protection conditions",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+      },
+      {
+        "label": "Nasdaq: issuer FAQ and opt-out position",
+        "url": "https://www.nasdaq.com/docs/listings/faq-sec-innovation-exemption"
+      },
+      {
+        "label": "The Wall Street Journal: public introduction to corporate objections",
+        "url": "https://www.wsj.com/finance/stocks/from-verizon-to-unitedhealth-corporate-america-is-balking-at-tokenized-stocks-6dbbeada"
+      },
+      {
+        "label": "The Block: October 17 reporting, 3:56 PM EDT",
+        "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859"
+      }
+    ]
+  },
+  {
     "id": "ai-agents-websites-block-access-2026",
     "title": "AI Agents Hit a Wall: Websites Decide Who Gets Through",
     "dek": "Shopping and booking assistants face a constraint that better models cannot solve alone: permission to use the services their customers depend on.",
