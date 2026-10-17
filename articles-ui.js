@@ -46,6 +46,7 @@ const TTNArticlesUI = (() => {
 
   // Tech & AI has its own exclusive homepage/archive section.
   const TECH_AI_IDS = new Set([
+    "anthropic-clark-ai-gdp-scenario-october-2026",
     "anthropic-junior-hiring-ai-agents-study-2026",
     "anthropic-everwind-canada-data-center-lease-2026","whatsapp-impostor-google-play-app-verification-2026","softbank-allied-universal-security-robots-talks-2026","tesla-fsd-class-certification-appeal-october-2026","china-ai-technology-export-controls-draft-2026","ai-agents-india-cert-in-security-warning-2026","tesla-slovakia-assisted-driving-approval-2026",,"iphone-duo-preorder-delays-january-2027","germany-nvidia-industrial-ai-agreement-2026","meta-muse-spark-open-coding-model-2026","google-news-ai-pilot-publisher-licensing-2026","tsmc-q3-2026-ai-chip-demand","ftc-openai-anthropic-safety-subpoenas-2026","cohere-aisle-cybersecurity-deal-2026","asml-q3-2026-ai-demand","apple-homeview-siri-ai-2026","scaleway-amd-sweden-ai-supercomputer","anthropic-ai-self-replication-iot-2026","broadcom-ai-networking-ocp-2026","ai-inference-unit-economics-2026","enterprise-ai-data-security-2026","ai-search-publisher-economics-2026","robotics-ai-factory-roi-2026","ai-data-center-electricity-demand-2026","ai-capex-nasdaq-correction","circular-ai-financing-explained","ai-monetization-gap-explained","ai-agents-enterprise-roi-2026","ai-chips-bottlenecks-2026","small-business-ai-adoption-2026"]);
   const HOMEPAGE_LIMIT = 4;

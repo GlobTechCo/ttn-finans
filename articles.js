@@ -1,6 +1,69 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "lagarde-bond-yields-inflation-october-2026",
+    "title": "Lagarde Says Higher Bond Yields Will Weigh on Growth and Inflation",
+    "dek": "The ECB president says tighter financing conditions are changing the outlook. A market-driven rise in borrowing costs is not the same as a new policy-rate decision.",
+    "image": "assets/editorial/lagarde-bond-yields-inflation-october-2026.webp",
+    "sources": [
+      {
+        "label": "Reuters, October 17, 08:01 UTC: Lagarde on financing conditions and inflation",
+        "url": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/"
+      },
+      {
+        "label": "ECB, October 17: IMFC statement and monetary-policy framework",
+        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.sv.html"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T10:00:13+00:00",
+    "dateModified": "2026-10-17T10:00:13+00:00",
+    "tickers": [],
+    "body": [
+      "European Central Bank President Christine Lagarde said rising bond yields are tightening euro-area financing conditions, which will slow growth and reduce the pass-through of higher energy costs to other prices. Reuters reported her comments from Bangkok at 08:01 UTC on October 17.",
+      "The statement describes an additional restraint coming from markets. It is not an announcement of a new ECB interest-rate decision. Lagarde said long-term rates had risen notably since the bank’s previous meeting.",
+      "TTN’s analysis: when the price of an existing fixed-rate bond falls, its yield rises. New borrowers then face a higher market benchmark. The eventual cost of a loan also depends on credit risk, maturity and lender terms, so a sovereign yield is not a household’s mortgage rate.",
+      "A rise in the cost of capital can make an investment less attractive or reduce how much a buyer can finance. That restrains demand rather than directly increasing the supply of energy. It can therefore reduce pressure elsewhere in the economy without reversing the original fuel-price shock.",
+      "The distinction matters for investors holding older bonds. A higher yield on new debt can mean a lower market value for existing fixed-rate securities. TTN’s guide to bond duration explains why longer-dated cash flows are usually more sensitive to yield changes.",
+      "The ECB’s October 17 IMFC statement reiterates that rate decisions depend on the inflation outlook, underlying inflation dynamics and monetary-policy transmission. It does not commit the bank to a predetermined path.",
+      "For investors, that means separating what policymakers decide from what markets already impose. A change in financing conditions may influence the policy assessment, but it is not evidence that the next decision has been settled. Nor does weaker demand establish that every category of inflation will fall immediately.",
+      "Loan terms, borrowing demand and underlying price data are more useful tests than treating a single day’s bond move as a completed disinflation process. The transmission can differ across borrowers and countries.",
+      "This article covers the earlier October 17 statement, not a new announcement in the latest hour. TTN’s explainer on second-round inflation effects distinguishes an initial energy-price increase from later wage and price responses."
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "anthropic-clark-ai-gdp-scenario-october-2026",
+    "title": "Anthropic’s Jack Clark Points to a $44 Trillion US GDP Scenario for 2030",
+    "dek": "The AI company’s co-founder cited an internal model at the IMF meetings. The number is a conditional corporate projection, not an official economic forecast.",
+    "image": "assets/editorial/anthropic-clark-ai-gdp-scenario-october-2026.webp",
+    "sources": [
+      {
+        "label": "Reuters, October 17, 09:15 UTC: Clark’s remarks and internal GDP scenario",
+        "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
+      },
+      {
+        "label": "IMF: October 17 Per Jacobsson Foundation lecture, speaker and scheduled time",
+        "url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/17/per-jacobsson-foundation-lecture-212473"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T10:00:13+00:00",
+    "dateModified": "2026-10-17T10:00:13+00:00",
+    "tickers": [],
+    "body": [
+      "Anthropic co-founder Jack Clark said one of the AI company’s internal economic models points to US output reaching $44 trillion by 2030, Reuters reported at 09:15 UTC on October 17. He linked the possibility to improving AI capabilities and faster scientific discovery.",
+      "Clark, speaking at the IMF and World Bank meetings in Bangkok, also called for international cooperation on serious rules for the technology. The number is a company scenario, not an IMF projection or a measured economic result.",
+      "The IMF’s event listing identifies Clark as the speaker for the October 17 Per Jacobsson Foundation lecture and schedules the session for 3 p.m. to 4:15 p.m. Bangkok time. That corresponds to 08:00–09:15 UTC. The listing establishes the event context; it does not independently validate the economic model.",
+      "TTN has not verified a public methodology for the specific $44 trillion scenario. Without its assumptions, readers cannot determine how much of the projected increase reflects prices, real production, adoption speed or other drivers. The headline total should not be treated as an estimate of AI’s incremental contribution.",
+      "TTN’s analysis: a model performing a task faster is only one step in a longer chain. Firms must adopt it, integrate it into production and find demand for the resulting goods or services. Scientific progress also needs a route from a research result to a usable product.",
+      "Those distinctions matter because GDP measures production, not benchmark scores or the volume of AI-generated text. Higher activity inside a software system is not, by itself, evidence of the same increase in economy-wide value.",
+      "A useful model disclosure would identify the price basis, baseline without the assumed AI gains, adoption timetable and sensitivity to slower progress. It would also distinguish a possible outcome from its estimated probability.",
+      "For now, the remarks are evidence of the scale of expectations inside a leading AI developer. They are not proof that those expectations will be realized. TTN’s guide to the AI monetization gap explains why technical progress and economic returns need separate scrutiny."
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "imf-europe-debt-growth-reforms-october-2026",
     "title": "IMF Says Europe Needs Stronger Growth and Tighter Budgets to Contain Debt",
     "dek": "The Fund’s October 16 assessment links weak productivity to a widening fiscal challenge. Faster growth can help, but does not remove the need for budget choices.",

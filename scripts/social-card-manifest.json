@@ -1572,6 +1572,28 @@
       "bytes": 368428,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/imf-europe-debt-growth-reforms-october-2026.html?card=b976d890c631"
+    },
+    {
+      "page": "anthropic-clark-ai-gdp-scenario-october-2026.html",
+      "source": "assets/editorial/anthropic-clark-ai-gdp-scenario-october-2026.webp",
+      "image": "assets/social/anthropic-clark-ai-gdp-scenario-october-2026-8e471e32ade5.webp",
+      "sha256": "8e471e32ade5cb5cf8fdce2d8debf22cd979bf846d631239e1d051c286f8f3c8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 264684,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-clark-ai-gdp-scenario-october-2026.html?card=8e471e32ade5"
+    },
+    {
+      "page": "lagarde-bond-yields-inflation-october-2026.html",
+      "source": "assets/editorial/lagarde-bond-yields-inflation-october-2026.webp",
+      "image": "assets/social/lagarde-bond-yields-inflation-october-2026-7e7784c53969.webp",
+      "sha256": "7e7784c53969045a2a68981ea404121bdaad7e467d6cafe613aeebed8de80a6d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 347004,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/lagarde-bond-yields-inflation-october-2026.html?card=7e7784c53969"
     }
   ]
 }

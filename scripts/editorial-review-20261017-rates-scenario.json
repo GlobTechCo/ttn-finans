@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-17T10:00:13+00:00",
+  "articles": [
+    {
+      "id": "lagarde-bond-yields-inflation-october-2026",
+      "sources": [
+        {
+          "label": "Reuters, October 17, 08:01 UTC: Lagarde on financing conditions and inflation",
+          "url": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/"
+        },
+        {
+          "label": "ECB, October 17: IMFC statement and monetary-policy framework",
+          "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.sv.html"
+        }
+      ],
+      "freshness": "Reserve report 08:01 UTC October 17, outside last hour; not a new rate decision.",
+      "cover": "assets/editorial/lagarde-bond-yields-inflation-october-2026.webp",
+      "generator": "built-in imagegen",
+      "review": "Inspected generic shop/laboratory illustration for realistic scene, distinct composition, no invented named facility or brands. Not a documentary photograph. No third-party license asserted."
+    },
+    {
+      "id": "anthropic-clark-ai-gdp-scenario-october-2026",
+      "sources": [
+        {
+          "label": "Reuters, October 17, 09:15 UTC: Clark\u2019s remarks and internal GDP scenario",
+          "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
+        },
+        {
+          "label": "IMF: October 17 Per Jacobsson Foundation lecture, speaker and scheduled time",
+          "url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/17/per-jacobsson-foundation-lecture-212473"
+        }
+      ],
+      "freshness": "Reuters first publication 09:15 UTC October 17, inside initial last-hour window. IMF event scheduled 08:00\u201309:15 UTC. Company scenario, not IMF forecast. Specific model methodology not independently verified.",
+      "cover": "assets/editorial/anthropic-clark-ai-gdp-scenario-october-2026.webp",
+      "generator": "built-in imagegen",
+      "review": "Inspected generic shop/laboratory illustration for realistic scene, distinct composition, no invented named facility or brands. Not a documentary photograph. No third-party license asserted."
+    }
+  ]
+}
