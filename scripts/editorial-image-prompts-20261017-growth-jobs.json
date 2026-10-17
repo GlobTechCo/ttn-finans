@@ -1,0 +1,11 @@
+{
+  "generator": "built-in imagegen",
+  "prompts": [
+    "Use case: photorealistic-natural. Professional editorial cover, wide 16:9, article about Europe's weak productivity and public debt. A small anonymous precision manufacturing workshop: close foreground of neatly stacked machined metal parts on a workbench, an older male machinist in plain navy workwear carefully measuring one component with a caliper at middle distance, functional machine tools softly out of focus. Neutral window daylight, realistic proportions and metal texture, restrained industrial colors. No identifiable specific machine brand, no company logos, no named site or architectural landmark, no text, graphs, flag overlays, currency symbols, smoke, glamour or cinematic effects. Generic illustrative scene, not a documentary photo of an IMF event.",
+    "Use case: photorealistic-natural. Professional editorial cover, wide 16:9, article about junior software hiring and AI agents. A quiet public programming training classroom, not a corporate office: an adult Black woman instructor standing beside a young male learner seated at one plain unbranded desktop computer, both studying a modest wall whiteboard with a few simple unlabelled flow boxes and arrows; instructor pointing to a logical branch, thoughtful learner with notebook. Other empty classroom seats at edge, natural morning light, realistic restrained setting, diverse ordinary people, candid composition. Screen viewed obliquely with nonspecific soft code-like marks, no legible invented software interface. No logos, named campus, text overlay, robots, circuit brains, abstract hardware, glowing effects or watermark. Generic scene, not Anthropic staff or office."
+  ],
+  "assets": [
+    "assets/editorial/imf-europe-debt-growth-reforms-october-2026.webp",
+    "assets/editorial/anthropic-junior-hiring-ai-agents-study-2026.webp"
+  ]
+}

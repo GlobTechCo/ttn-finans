@@ -1,6 +1,65 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "imf-europe-debt-growth-reforms-october-2026",
+    "title": "IMF Says Europe Needs Stronger Growth and Tighter Budgets to Contain Debt",
+    "dek": "The Fund’s October 16 assessment links weak productivity to a widening fiscal challenge. Faster growth can help, but does not remove the need for budget choices.",
+    "image": "assets/editorial/imf-europe-debt-growth-reforms-october-2026.webp",
+    "sources": [
+      {
+        "label": "IMF, October 16: European Department press briefing and policy priorities",
+        "url": "https://mediacenter.imf.org/news/imf-european-department-press-briefing/s/dbb4424b-ed62-4ac2-a3e7-526b055cf20a"
+      },
+      {
+        "label": "Reuters, October 16: European growth forecasts and medium-term fiscal adjustment, via MarketScreener",
+        "url": "https://uk.marketscreener.com/news/europe-must-boost-growth-or-borrow-less-to-keep-debt-sustainable-imf-says-ce785cdadb8af32c"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T08:02:29+00:00",
+    "dateModified": "2026-10-17T08:02:29+00:00",
+    "tickers": [],
+    "body": [
+      "Europe needs a combination of stronger growth and lower borrowing to keep public debt sustainable, the International Monetary Fund said in its October 16 assessment. The warning connects a familiar budget problem with a deeper one: weak productivity makes future spending commitments harder to finance.",
+      "Reuters reported euro-area growth forecasts of 1.1% for 2026 and 1.2% for 2027. Around three-quarters of European countries need reforms alongside medium-term deficit-reducing measures averaging about 3.5% of GDP, according to the Fund’s assessment. These are policy estimates, not announced spending cuts.",
+      "At its October 16 European Department briefing in Bangkok, the IMF identified defense, health care and pensions as rising demands on government budgets. It also warned that higher yields would increase interest costs where debt is already elevated.",
+      "The Fund’s proposed response includes continuing the energy transition, removing domestic obstacles to growth and strengthening the EU single market. Its argument is that firms need room to innovate and expand, while less dependence on imported fossil fuels can improve resilience to energy shocks.",
+      "TTN’s analysis: debt sustainability depends on the size of the economy as well as the amount a government owes. If national income grows faster, the same debt stock becomes smaller relative to the tax base. That does not automatically generate money for every new commitment, but it changes the scale of the problem.",
+      "The reverse also matters. A government can reduce a deficit while its debt ratio still rises if interest costs are high and nominal growth is weak. TTN’s guide to interest rates, growth and debt dynamics explains why these variables must be examined together.",
+      "Reform and fiscal restraint are therefore complements in the Fund’s argument, not interchangeable slogans. A promise of future growth should be tested against specific changes, implementation dates and measurable results. A budget target should likewise be assessed against its economic assumptions.",
+      "The assessment is a regional warning, not a prediction that every European sovereign faces the same financing risk. Country-level debt structures, growth prospects and policy decisions still matter. Nor is a medium-term adjustment expressed as a share of GDP a one-year cash bill.",
+      "This analysis covers the October 16 briefing and reporting, not a new policy decision on October 17. For readers comparing European and US fiscal risks, TTN’s deficit and national debt explainer distinguishes the annual borrowing flow from the accumulated stock."
+    ],
+    "editorialNote": null
+  },
+  {
+    "id": "anthropic-junior-hiring-ai-agents-study-2026",
+    "title": "Anthropic Says Junior Staff Account for a Smaller Share of Technical Hiring",
+    "dek": "An internal study finds a shift from 27% to 9% as AI-agent use expands. The figures describe one company’s hiring mix, not a nationwide jobs forecast.",
+    "image": "assets/editorial/anthropic-junior-hiring-ai-agents-study-2026.webp",
+    "sources": [
+      {
+        "label": "Anthropic, October 16: How employment is changing at Anthropic, findings and methodology",
+        "url": "https://www.anthropic.com/research/employment-at-anthropic"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T08:02:29+00:00",
+    "dateModified": "2026-10-17T08:02:29+00:00",
+    "tickers": [],
+    "body": [
+      "Anthropic, the company behind Claude, says the junior share of its technical hires fell from 27% to 9% as AI agents became more deeply embedded in its work. The company published the findings on October 16 in an internal employment study.",
+      "That is a change in hiring composition, not evidence that the number of technical employees fell by the same amount. The report says technical hiring continued to grow in absolute terms while expansion in business functions outpaced it.",
+      "The study draws on internal records and interviews. Hiring managers increasingly emphasized autonomy and judgment.",
+      "By August, employee-directed interactive agents accumulated six times the estimated human work hours. The metric counts agent runtime, including inference and tool use, but excludes waits longer than 30 minutes. Human hours assume a 40-hour week per employee. The ratio is not a claim that software produced six times as much useful work.",
+      "Tool adoption was not random, Anthropic cautions. This is a study of a fast-growing vendor using its own products, not a representative employer sample.",
+      "TTN’s analysis: a smaller junior share can emerge alongside rising total employment. If a team makes 100 hires and nine are junior, its junior share is 9%. Without comparable total hiring figures for the earlier period, a percentage alone cannot establish the change in the number of junior recruits. These figures are illustrative, not additional Anthropic data.",
+      "Entry-level work is both production and training. If software performs more routine tasks, employers still need a way for new workers to develop the judgment expected of experienced staff. That is a separate challenge from making an individual workflow faster.",
+      "The report is an early company-level signal, not a forecast for every engineering occupation. A useful next test is whether similar hiring changes appear across employers with different products and growth rates. TTN’s analysis of enterprise AI returns explains why activity measures and business outcomes should not be treated as the same thing."
+    ],
+    "editorialNote": null
+  },
+  {
     "id": "exxon-refining-margin-preview-third-quarter-2026",
     "title": "Exxon Sees a $4.5 Billion Refining Lift, Not a Final Earnings Result",
     "dek": "The third-quarter preview shows how refining can offset weaker oil-price effects. Investors still need the complete October 30 results.",
