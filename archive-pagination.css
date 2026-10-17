@@ -11,3 +11,14 @@
 
 /* The archive receives focus only to orient readers after a page change. */
 #analysis-archive:focus,#tech-ai-archive:focus{outline:none}
+
+/* Stack archive previews on phones so long text never leaves a blank image column. */
+@media(max-width:700px){
+  #analysis-archive .analysis-list-item{display:flex;flex-direction:column;gap:0;padding:0;margin:0 0 20px;border:1px solid var(--border);border-radius:9px;overflow:hidden;background:var(--surface)}
+  #analysis-archive .analysis-list-item>img,#analysis-archive .analysis-list-item>.news-item-thumb-fallback{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:0;flex-shrink:0}
+  #analysis-archive .analysis-list-item>div:not(.news-item-thumb-fallback){min-width:0;padding:16px}
+  #analysis-archive .analysis-list-item h3,#tech-ai-archive .tech-ai-card h3{font-size:18px;line-height:1.4;margin:12px 0 9px;overflow-wrap:break-word}
+  #analysis-archive .analysis-list-item p,#tech-ai-archive .tech-ai-card-content>p:not(.tech-ai-card-meta){font-size:14px;line-height:1.6;color:var(--text-dim);margin:0 0 12px}
+  #analysis-archive .news-meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;line-height:1.5}
+  #tech-ai-archive .tech-ai-card-content{padding:16px}
+}
