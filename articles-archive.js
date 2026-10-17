@@ -49,8 +49,7 @@
     if (!el || typeof TTN_ARTICLES === "undefined") return;
     const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    el.innerHTML = sorted
-      .map((a) => {
+    TTNArchive.mount({ element: el, articles: sorted, label: "TTN Original", renderArticle: (a) => {
         const img = a.image
           ? `<img src="${a.image.startsWith("http") ? a.image + "?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" : a.image}" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
           : `<div class="news-item-thumb-fallback thumb-general"></div>`;
@@ -64,8 +63,7 @@
             <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
           </div>
         </div>`;
-      })
-      .join("");
+      }});
   }
 
   document.addEventListener("DOMContentLoaded", render);

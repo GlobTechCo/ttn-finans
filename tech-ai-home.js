@@ -30,9 +30,11 @@ const techIds=new Set([
     "small-business-ai-adoption-2026",
 ]);
 const safe=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const selected=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,4);
+const all=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
+const selected=all.slice(0,4);
 const articleUrl=a=>encodeURIComponent(a.id)+".html";
 const imageTag=a=>'<img src="'+safe(a.image)+'" alt="'+safe("AI-generated editorial photo for "+a.title)+'" loading="lazy" decoding="async" width="640" height="360">';
 el.innerHTML=selected.map(a=>'<article class="tech-ai-card"><a class="tech-ai-card-media" href="'+articleUrl(a)+'">'+imageTag(a)+'</a><div class="tech-ai-card-content"><span class="ttn-original-badge">Tech &amp; AI</span><h3><a href="'+articleUrl(a)+'">'+safe(a.title)+'</a></h3><p>'+safe(a.dek)+'</p><p class="tech-ai-card-meta">'+new Date(a.date).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})+' · '+Math.max(3,Math.ceil((a.body||[]).join(" ").split(/\s+/).length/210))+' min read</p></div></article>').join("")||'<p class="tech-ai-intro">Technology reporting is coming to TTN.</p>';
+if(all.length)el.insertAdjacentHTML("afterend",'<p class="tech-ai-view-all"><a href="tech-ai.html" class="view-all-analysis">View all '+all.length+' Tech &amp; AI articles &rarr;</a></p>');
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init()})();
