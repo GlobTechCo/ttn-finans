@@ -15,6 +15,7 @@
 
   // Keep Tech & AI exclusively in its own archive; do not remove source articles.
   const TECH_AI_IDS = new Set([
+    "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",
     "china-ai-technology-export-controls-draft-2026",
     "ai-agents-india-cert-in-security-warning-2026",

@@ -1,6 +1,7 @@
 /* Original TTN technology section; independent of external news aggregation. */
 (()=>{const el=document.getElementById("tech-ai-archive");if(!el||typeof TTN_ARTICLES==="undefined")return;
 const techIds=new Set([
+    "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",
     "china-ai-technology-export-controls-draft-2026",
     "ai-agents-india-cert-in-security-warning-2026",

@@ -11,3 +11,5 @@ Updated following the user's editorial correction on October 17, 2026.
 - User-requested image corrections must be previewed and specifically approved before any replacement is published. Removal of a weak article is permitted when authorized; it does not authorize an unseen replacement image.
 - Keep source facts, assumptions and analysis distinct. A company model is not an independently validated forecast. Lack of access is not evidence of falsity, but insufficient verification is a reason to withhold a new publication.
 - Never claim successful publication or withdrawal until the deployed catalog and direct URLs have been checked.
+
+- Preserve published URLs that readers may have shared. A missed hourly freshness gate alone is not grounds to delete an existing accurate article. Correct verified errors at the existing URL; reserve withdrawal for a documented substantive reason. The user explicitly restored the New York Fed survey and Slovakia Tesla articles on October 17; do not remove them again on freshness grounds.

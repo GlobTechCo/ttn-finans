@@ -2,8 +2,8 @@
   "auditedAt": "2026-10-17T11:57:42+00:00",
   "baseCommit": "e1784afc1367075443e7113ff184470e187f4bda",
   "scope": "22 most recent articles published October 16–17; includes the hourly run output and separately commissioned/approved batches for comparison. Earlier site archive is outside this automation incident.",
-  "withdrawnCount": 10,
-  "retainedCount": 12,
+  "withdrawnCount": 8,
+  "retainedCount": 14,
   "standard": "No reserve topics. Use earliest substantive event or initial release, never later syndication alone. Do not manufacture a new event from an unchanged old announcement.",
   "imageReview": "All 22 covers inspected in contact sheets. No replacement cover published. Covers and social image files remain as inactive historical assets; they are no longer linked from active removed pages or catalog.",
   "verificationLimits": "Some source full-text retrievals failed. Such access failures alone were not treated as proof of a false article. Withdrawal reasons distinguish documented stale publication, unresolved freshness and editorial weakness.",
@@ -344,7 +344,7 @@
       "id": "ny-fed-services-prices-october-2026",
       "title": "New York Fed Survey Finds Faster Price Increases as Service Activity Falls",
       "published": "2026-10-16T18:11:36+03:00",
-      "decision": "withdraw",
+      "decision": "restored_user_request",
       "reason": "Official survey release calendar specifies 08:30 Eastern, before the 18:00 Kyiv publication window. Later Reuters coverage does not create a new survey release.",
       "sources": [
         {
@@ -360,13 +360,15 @@
           "url": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
         }
       ],
-      "cover": "assets/editorial/ny-fed-services-prices-october-2026.webp"
+      "cover": "assets/editorial/ny-fed-services-prices-october-2026.webp",
+      "previousDecision": "withdraw",
+      "restorationReason": "Restore original URL and publication date for existing shared links. Original withdrawal concerned hourly eligibility, not a finding of false reporting."
     },
     {
       "id": "tesla-slovakia-assisted-driving-approval-2026",
       "title": "Slovakia Approves Tesla Driver Assistance as European Rollout Expands",
       "published": "2026-10-16T18:11:35+03:00",
-      "decision": "withdraw",
+      "decision": "restored_user_request",
       "reason": "The ministry announcement was already circulated earlier on October 16; no distinct new approval event in the publication hour was established. Withdrawn conservatively for freshness, not because the approval itself is false.",
       "sources": [
         {
@@ -386,7 +388,9 @@
           "url": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/"
         }
       ],
-      "cover": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp"
+      "cover": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
+      "previousDecision": "withdraw",
+      "restorationReason": "Restore original URL and publication date for existing shared links. Original withdrawal concerned hourly eligibility, not a finding of false reporting."
     },
     {
       "id": "ai-investment-central-banks-interest-rates-2026",
@@ -474,15 +478,18 @@
       "exxon-refining-margin-preview-third-quarter-2026.html",
       "anthropic-everwind-canada-data-center-lease-2026.html",
       "whatsapp-impostor-google-play-app-verification-2026.html",
-      "softbank-allied-universal-security-robots-talks-2026.html",
-      "ny-fed-services-prices-october-2026.html",
-      "tesla-slovakia-assisted-driving-approval-2026.html"
+      "softbank-allied-universal-security-robots-talks-2026.html"
     ],
     "updatedPages": [
       "wall-street-close-october-16-2026-ai-selloff.html",
       "tesla-fsd-class-certification-appeal-october-2026.html",
       "us-import-prices-september-2026-inflation.html"
     ],
-    "preserved": "Analytics, themes, copy-link code, tickers, hosting and repository settings; all historical image binaries retained."
-  }
+    "preserved": "Analytics, themes, copy-link code, tickers, hosting and repository settings; all historical image binaries retained.",
+    "restoredPages": [
+      "ny-fed-services-prices-october-2026.html",
+      "tesla-slovakia-assisted-driving-approval-2026.html"
+    ]
+  },
+  "restorationNote": "Two October 16 articles restored at the original URLs and publication dates at the user’s explicit request. Their freshness problems do not establish falsity. Preserve published URLs, including links shared on X. No replacement images published."
 }
