@@ -1,19 +1,5 @@
-/**
- * TTN - renders the full "TTN Analysis" archive list on analysis.html.
- * Lightweight sibling to articles-ui.js: same data source (articles.js),
- * simpler list layout instead of the homepage's card grid.
- */
+/* Market Analysis archive; cards and navigation share the Tech & AI component. */
 (function () {
-
-  function fmtDate(iso) {
-    return new Date(iso).toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
-  }
-
-  // Keep Tech & AI exclusively in its own archive; do not remove source articles.
   const TECH_AI_IDS = new Set([
     "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",
@@ -43,28 +29,11 @@
     "ai-chips-bottlenecks-2026",
     "small-business-ai-adoption-2026",
 ]);
-
   function render() {
-    const el = document.getElementById("analysis-archive");
-    if (!el || typeof TTN_ARTICLES === "undefined") return;
-    const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    TTNArchive.mount({ element: el, articles: sorted, label: "TTN Original", renderArticle: (a) => {
-        const img = a.image
-          ? `<img src="${a.image.startsWith("http") ? a.image + "?auto=compress&cs=tinysrgb&w=300&h=225&fit=crop" : a.image}" alt="${TTNNews.escapeAttr(a.title)}" loading="lazy">`
-          : `<div class="news-item-thumb-fallback thumb-general"></div>`;
-        return `
-        <div class="analysis-list-item">
-          ${img}
-          <div>
-            <span class="ttn-original-badge">TTN Original</span>
-            <h3><a href="${a.id}.html">${a.title}</a></h3>
-            <p>${a.dek}</p>
-            <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
-          </div>
-        </div>`;
-      }});
+    const element = document.getElementById("analysis-archive");
+    if (!element || typeof TTN_ARTICLES === "undefined") return;
+    const articles = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
+    TTNArchive.mount({element, articles, label:"Market Analysis", renderArticle:a => TTNArchive.card(a, "TTN Original")});
   }
-
-  document.addEventListener("DOMContentLoaded", render);
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
 })();

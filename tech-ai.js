@@ -1,6 +1,6 @@
-/* Original TTN technology section; independent of external news aggregation. */
-(()=>{const el=document.getElementById("tech-ai-archive");if(!el||typeof TTN_ARTICLES==="undefined")return;
-const techIds=new Set([
+/* Tech & AI archive; the same card and pagination component as Market Analysis. */
+(function () {
+  const TECH_AI_IDS = new Set([
     "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",
     "china-ai-technology-export-controls-draft-2026",
@@ -29,11 +29,11 @@ const techIds=new Set([
     "ai-chips-bottlenecks-2026",
     "small-business-ai-adoption-2026",
 ]);
-const escape=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const articles=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
-const datetime=d=>{const n=new Date(d);return Number.isNaN(n.valueOf())?"":n.toISOString().slice(0,10)};
-TTNArchive.mount({element:el,articles,label:"Tech & AI",renderArticle:a=>{
- const date=datetime(a.date), url=encodeURIComponent(a.id)+".html";
- return '<article class="tech-ai-card"><a class="tech-ai-card-media" href="'+url+'"><img src="'+escape(a.image)+'" alt="'+escape("AI-generated editorial photo for "+a.title)+'" width="640" height="360" loading="lazy" decoding="async"></a><div class="tech-ai-card-content"><span class="ttn-original-badge">TTN Original · Tech &amp; AI</span><h3><a href="'+url+'">'+escape(a.title)+'</a></h3><p>'+escape(a.dek)+'</p><p class="tech-ai-card-meta"><time datetime="'+date+'">'+new Date(a.date).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})+'</time></p></div></article>';
-}});
+  function render() {
+    const element = document.getElementById("tech-ai-archive");
+    if (!element || typeof TTN_ARTICLES === "undefined") return;
+    const articles = TTN_ARTICLES.filter(a => TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
+    TTNArchive.mount({element, articles, label:"Tech & AI", renderArticle:a => TTNArchive.card(a, "Tech & AI")});
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
 })();
