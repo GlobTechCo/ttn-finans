@@ -8,3 +8,6 @@
 .archive-pagination span[aria-disabled]{color:var(--text-faint);background:transparent}
 .archive-pagination .pagination-gap{border:0;background:transparent;min-width:20px;padding:0}
 @media(max-width:480px){.archive-pagination{gap:5px}.archive-pagination a,.archive-pagination span{padding:8px;min-width:34px;font-size:13px}.archive-summary{font-size:13px}}
+
+/* The archive receives focus only to orient readers after a page change. */
+#analysis-archive:focus,#tech-ai-archive:focus{outline:none}
