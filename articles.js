@@ -56,7 +56,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-17T16:44:36-04:00",
     "dateModified": "2026-10-17T16:44:36-04:00",
-    "image": "assets/editorial/richard-heart-turkey-detention-confirmed-2026.webp",
+    "image": "assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp",
     "tickers": [],
     "body": [
       "Turkey’s justice minister has confirmed the detention of Richard Heart, the founder of crypto projects HEX and PulseChain, and reported the seizure of $7.15 million in cash and six cold wallets during related searches in Istanbul.",

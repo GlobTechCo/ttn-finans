@@ -1517,11 +1517,13 @@
     },
     {
       "page": "richard-heart-turkey-detention-confirmed-2026.html",
-      "source": "assets/editorial/richard-heart-turkey-detention-confirmed-2026.webp",
-      "image": "assets/social/richard-heart-turkey-detention-confirmed-2026-2ee5b3ef178e.webp",
-      "sha256": "2ee5b3ef178e79f62cf48abca7241940f74a67bb8ddad16c15dd0641749495e4",
+      "source": "assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp",
+      "image": "assets/social/richard-heart-turkey-detention-confirmed-2026-v2-757c5768a977.webp",
+      "sha256": "757c5768a97745bdf9ce2c555250e13b695bac04143f1c24eda1a98a38aab171",
       "width": 1672,
-      "height": 941
+      "height": 941,
+      "bytes": 367738,
+      "shareUrl": "https://globtechco.github.io/ttn-finans/richard-heart-turkey-detention-confirmed-2026.html?card=757c5768a977"
     },
     {
       "page": "replit-openai-preferred-partner-claude-choice-2026.html",
