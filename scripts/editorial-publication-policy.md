@@ -13,3 +13,5 @@ Updated following the user's editorial correction on October 17, 2026.
 - Never claim successful publication or withdrawal until the deployed catalog and direct URLs have been checked.
 
 - Preserve published URLs that readers may have shared. A missed hourly freshness gate alone is not grounds to delete an existing accurate article. Correct verified errors at the existing URL; reserve withdrawal for a documented substantive reason. The user explicitly restored the New York Fed survey and Slovakia Tesla articles on October 17; do not remove them again on freshness grounds.
+
+- Public dates and publication times target US readers: use America/New_York (Eastern Time, automatically EST/EDT), a 12-hour clock and the shared editorial-meta.js formatter in cards and article bylines. Scheduling in Kyiv time does not determine the reader-facing timezone. Preserve original timestamp instants and do not invent a time for legacy dates without an explicit timezone. Both sections use the shared TTNArchive.card component and editorial-meta.css for author, date and description styling.

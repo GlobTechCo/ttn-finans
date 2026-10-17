@@ -4,10 +4,6 @@
  * modal, since TTN owns this content outright.
  */
 const TTNArticlesUI = (() => {
-  function fmtDate(dateStr) {
-    return new Date(dateStr).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-  }
-
   function tickerChipsHtml(article) {
     if (!article.tickers?.length) return "";
     return `<div class="article-tickers">${article.tickers
@@ -27,17 +23,6 @@ const TTNArticlesUI = (() => {
         TTNChart.open(tag.dataset.tv, tag.dataset.label);
       });
     });
-  }
-
-  const TREND_ICON = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,5"/><polyline points="15,5 21,5 21,11"/></svg>`;
-
-  function articleThumbHtml(article, heightPx) {
-    const style = `width:100%;height:${heightPx}px;border-radius:${heightPx > 150 ? "0" : "5px"};${heightPx <= 150 ? "margin-bottom:12px;" : ""}`;
-    if (article.image) {
-      const thumbSrc = article.image; // Use local originals directly; do not append Pexels-specific query parameters.
-      return `<img src="${thumbSrc}" alt="${TTNNews.escapeAttr(article.title)}" loading="lazy" style="${style}object-fit:cover;">`;
-    }
-    return `<div class="news-item-thumb-fallback thumb-general" style="${style}">${TREND_ICON}</div>`;
   }
 
   // Maps each article id to its standalone page (needed so link previews on
@@ -82,17 +67,8 @@ const TTNArticlesUI = (() => {
     if (!el) return;
     const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
-    el.innerHTML = shown.map(
-      (a) => `
-      <article class="analysis-card">
-        ${articleThumbHtml(a, 110)}
-        <span class="ttn-original-badge">Market Analysis</span>
-        <h3><a href="${a.id}.html">${a.title}</a></h3>
-        <p>${a.dek}</p>
-        <div class="news-meta"><span class="source">${a.author}</span><span>${fmtDate(a.date)}</span></div>
-        ${tickerChipsHtml(a)}
-      </article>`
-    ).join("");
+    el.classList.add('editorial-archive-grid');
+    el.innerHTML = shown.map(a => TTNArchive.card(a, 'Market Analysis', tickerChipsHtml(a))).join('');
 
     if (sorted.length > HOMEPAGE_LIMIT) {
       el.insertAdjacentHTML(

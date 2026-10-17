@@ -1,0 +1,13 @@
+/* One byline and description treatment across original editorial sections. */
+.editorial-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0;color:var(--text-faint);font-size:12px;line-height:1.6;margin:14px 0 0}
+.editorial-meta .editorial-author{color:inherit}
+.editorial-published{display:inline-flex;align-items:baseline}
+.editorial-published:before{content:"·";margin:0 8px}
+.editorial-meta time{font:inherit;color:inherit}
+.static-page>.editorial-meta{font-size:13px;line-height:1.6;margin:20px 0 24px}
+.editorial-archive-content{display:flex;flex-direction:column}
+.editorial-archive-content>.editorial-dek{font-size:14px;line-height:1.6;color:var(--text-dim);margin:0 0 12px}
+.editorial-archive-content>.editorial-meta{font-size:12px;line-height:1.6;color:var(--text-faint);margin: auto 0 0;padding-top:14px}
+.editorial-archive-grid .article-tickers{margin-top:12px}
+.static-page>.article-dek{font-size:17px;line-height:1.65;color:var(--text-dim);margin:0 0 18px}
+@media(max-width:700px){.static-page>.article-dek{font-size:16px}.static-page>.editorial-meta{font-size:12px}.editorial-archive-content{padding:16px}}

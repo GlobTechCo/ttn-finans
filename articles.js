@@ -3838,7 +3838,7 @@ const TTN_ARTICLES = [
     "title": "What a $100 Oil Scenario Would Mean for Inflation",
     "dek": "An illustrative oil-price level helps expose transmission channels. The duration of the shock and the economy's starting point determine its impact.",
     "author": "TTN Research Desk",
-    "date": "2026-10-06T09:00:00",
+    "date": "2026-10-06T09:00:00Z",
     "image": "assets/editorial/oil-near-100-inflation-2026.webp",
     "tickers": [
       "OIL",

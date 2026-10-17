@@ -1,14 +1,12 @@
 /* Shared navigation for the two original editorial archives. */
 window.TTNArchive = {
-  card(article, section) {
+  card(article, section, extras = "") {
     const escape = value => String(value || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
     const url = encodeURIComponent(article.id) + ".html";
-    const date = new Date(article.date);
-    const dateLabel = date.toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric"});
     const image = article.image
       ? `<img src="${escape(article.image)}" alt="${escape(article.title)}" width="640" height="360" loading="lazy" decoding="async">`
       : '<span class="archive-image-fallback" aria-hidden="true"></span>';
-    return `<article class="editorial-archive-card"><a class="editorial-archive-media" href="${url}" aria-label="${escape(article.title)}">${image}</a><div class="editorial-archive-content"><span class="ttn-original-badge">${escape(section)}</span><h3><a href="${url}">${escape(article.title)}</a></h3><p>${escape(article.dek)}</p><p class="editorial-archive-meta"><time datetime="${escape(article.date)}">${escape(dateLabel)}</time></p></div></article>`;
+    return `<article class="editorial-archive-card"><a class="editorial-archive-media" href="${url}" aria-label="${escape(article.title)}">${image}</a><div class="editorial-archive-content"><span class="ttn-original-badge">${escape(section)}</span><h3><a href="${url}">${escape(article.title)}</a></h3><p class="editorial-dek">${escape(article.dek)}</p><div class="editorial-meta">${TTNEditorialMeta.html(article)}</div>${extras}</div></article>`;
   },
 
   mount({ element, articles, renderArticle, label, pageSize = 12 }) {
