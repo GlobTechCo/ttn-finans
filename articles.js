@@ -1,190 +1,6 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
-    "id": "lagarde-bond-yields-inflation-october-2026",
-    "title": "Lagarde Says Higher Bond Yields Will Weigh on Growth and Inflation",
-    "dek": "The ECB president says tighter financing conditions are changing the outlook. A market-driven rise in borrowing costs is not the same as a new policy-rate decision.",
-    "image": "assets/editorial/lagarde-bond-yields-inflation-october-2026.webp",
-    "sources": [
-      {
-        "label": "Reuters, October 17, 08:01 UTC: Lagarde on financing conditions and inflation",
-        "url": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/"
-      },
-      {
-        "label": "ECB, October 17: IMFC statement and monetary-policy framework",
-        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.sv.html"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T10:00:13+00:00",
-    "dateModified": "2026-10-17T10:00:13+00:00",
-    "tickers": [],
-    "body": [
-      "European Central Bank President Christine Lagarde said rising bond yields are tightening euro-area financing conditions, which will slow growth and reduce the pass-through of higher energy costs to other prices. Reuters reported her comments from Bangkok at 08:01 UTC on October 17.",
-      "The statement describes an additional restraint coming from markets. It is not an announcement of a new ECB interest-rate decision. Lagarde said long-term rates had risen notably since the bank’s previous meeting.",
-      "TTN’s analysis: when the price of an existing fixed-rate bond falls, its yield rises. New borrowers then face a higher market benchmark. The eventual cost of a loan also depends on credit risk, maturity and lender terms, so a sovereign yield is not a household’s mortgage rate.",
-      "A rise in the cost of capital can make an investment less attractive or reduce how much a buyer can finance. That restrains demand rather than directly increasing the supply of energy. It can therefore reduce pressure elsewhere in the economy without reversing the original fuel-price shock.",
-      "The distinction matters for investors holding older bonds. A higher yield on new debt can mean a lower market value for existing fixed-rate securities. TTN’s guide to bond duration explains why longer-dated cash flows are usually more sensitive to yield changes.",
-      "The ECB’s October 17 IMFC statement reiterates that rate decisions depend on the inflation outlook, underlying inflation dynamics and monetary-policy transmission. It does not commit the bank to a predetermined path.",
-      "For investors, that means separating what policymakers decide from what markets already impose. A change in financing conditions may influence the policy assessment, but it is not evidence that the next decision has been settled. Nor does weaker demand establish that every category of inflation will fall immediately.",
-      "Loan terms, borrowing demand and underlying price data are more useful tests than treating a single day’s bond move as a completed disinflation process. The transmission can differ across borrowers and countries.",
-      "This article covers the earlier October 17 statement, not a new announcement in the latest hour. TTN’s explainer on second-round inflation effects distinguishes an initial energy-price increase from later wage and price responses."
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "anthropic-clark-ai-gdp-scenario-october-2026",
-    "title": "Anthropic’s Jack Clark Points to a $44 Trillion US GDP Scenario for 2030",
-    "dek": "The AI company’s co-founder cited an internal model at the IMF meetings. The number is a conditional corporate projection, not an official economic forecast.",
-    "image": "assets/editorial/anthropic-clark-ai-gdp-scenario-october-2026.webp",
-    "sources": [
-      {
-        "label": "Reuters, October 17, 09:15 UTC: Clark’s remarks and internal GDP scenario",
-        "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
-      },
-      {
-        "label": "IMF: October 17 Per Jacobsson Foundation lecture, speaker and scheduled time",
-        "url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/17/per-jacobsson-foundation-lecture-212473"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T10:00:13+00:00",
-    "dateModified": "2026-10-17T10:00:13+00:00",
-    "tickers": [],
-    "body": [
-      "Anthropic co-founder Jack Clark said one of the AI company’s internal economic models points to US output reaching $44 trillion by 2030, Reuters reported at 09:15 UTC on October 17. He linked the possibility to improving AI capabilities and faster scientific discovery.",
-      "Clark, speaking at the IMF and World Bank meetings in Bangkok, also called for international cooperation on serious rules for the technology. The number is a company scenario, not an IMF projection or a measured economic result.",
-      "The IMF’s event listing identifies Clark as the speaker for the October 17 Per Jacobsson Foundation lecture and schedules the session for 3 p.m. to 4:15 p.m. Bangkok time. That corresponds to 08:00–09:15 UTC. The listing establishes the event context; it does not independently validate the economic model.",
-      "TTN has not verified a public methodology for the specific $44 trillion scenario. Without its assumptions, readers cannot determine how much of the projected increase reflects prices, real production, adoption speed or other drivers. The headline total should not be treated as an estimate of AI’s incremental contribution.",
-      "TTN’s analysis: a model performing a task faster is only one step in a longer chain. Firms must adopt it, integrate it into production and find demand for the resulting goods or services. Scientific progress also needs a route from a research result to a usable product.",
-      "Those distinctions matter because GDP measures production, not benchmark scores or the volume of AI-generated text. Higher activity inside a software system is not, by itself, evidence of the same increase in economy-wide value.",
-      "A useful model disclosure would identify the price basis, baseline without the assumed AI gains, adoption timetable and sensitivity to slower progress. It would also distinguish a possible outcome from its estimated probability.",
-      "For now, the remarks are evidence of the scale of expectations inside a leading AI developer. They are not proof that those expectations will be realized. TTN’s guide to the AI monetization gap explains why technical progress and economic returns need separate scrutiny."
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "imf-europe-debt-growth-reforms-october-2026",
-    "title": "IMF Says Europe Needs Stronger Growth and Tighter Budgets to Contain Debt",
-    "dek": "The Fund’s October 16 assessment links weak productivity to a widening fiscal challenge. Faster growth can help, but does not remove the need for budget choices.",
-    "image": "assets/editorial/imf-europe-debt-growth-reforms-october-2026.webp",
-    "sources": [
-      {
-        "label": "IMF, October 16: European Department press briefing and policy priorities",
-        "url": "https://mediacenter.imf.org/news/imf-european-department-press-briefing/s/dbb4424b-ed62-4ac2-a3e7-526b055cf20a"
-      },
-      {
-        "label": "Reuters, October 16: European growth forecasts and medium-term fiscal adjustment, via MarketScreener",
-        "url": "https://uk.marketscreener.com/news/europe-must-boost-growth-or-borrow-less-to-keep-debt-sustainable-imf-says-ce785cdadb8af32c"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T08:02:29+00:00",
-    "dateModified": "2026-10-17T08:02:29+00:00",
-    "tickers": [],
-    "body": [
-      "Europe needs a combination of stronger growth and lower borrowing to keep public debt sustainable, the International Monetary Fund said in its October 16 assessment. The warning connects a familiar budget problem with a deeper one: weak productivity makes future spending commitments harder to finance.",
-      "Reuters reported euro-area growth forecasts of 1.1% for 2026 and 1.2% for 2027. Around three-quarters of European countries need reforms alongside medium-term deficit-reducing measures averaging about 3.5% of GDP, according to the Fund’s assessment. These are policy estimates, not announced spending cuts.",
-      "At its October 16 European Department briefing in Bangkok, the IMF identified defense, health care and pensions as rising demands on government budgets. It also warned that higher yields would increase interest costs where debt is already elevated.",
-      "The Fund’s proposed response includes continuing the energy transition, removing domestic obstacles to growth and strengthening the EU single market. Its argument is that firms need room to innovate and expand, while less dependence on imported fossil fuels can improve resilience to energy shocks.",
-      "TTN’s analysis: debt sustainability depends on the size of the economy as well as the amount a government owes. If national income grows faster, the same debt stock becomes smaller relative to the tax base. That does not automatically generate money for every new commitment, but it changes the scale of the problem.",
-      "The reverse also matters. A government can reduce a deficit while its debt ratio still rises if interest costs are high and nominal growth is weak. TTN’s guide to interest rates, growth and debt dynamics explains why these variables must be examined together.",
-      "Reform and fiscal restraint are therefore complements in the Fund’s argument, not interchangeable slogans. A promise of future growth should be tested against specific changes, implementation dates and measurable results. A budget target should likewise be assessed against its economic assumptions.",
-      "The assessment is a regional warning, not a prediction that every European sovereign faces the same financing risk. Country-level debt structures, growth prospects and policy decisions still matter. Nor is a medium-term adjustment expressed as a share of GDP a one-year cash bill.",
-      "This analysis covers the October 16 briefing and reporting, not a new policy decision on October 17. For readers comparing European and US fiscal risks, TTN’s deficit and national debt explainer distinguishes the annual borrowing flow from the accumulated stock."
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "anthropic-junior-hiring-ai-agents-study-2026",
-    "title": "Anthropic Says Junior Staff Account for a Smaller Share of Technical Hiring",
-    "dek": "An internal study finds a shift from 27% to 9% as AI-agent use expands. The figures describe one company’s hiring mix, not a nationwide jobs forecast.",
-    "image": "assets/editorial/anthropic-junior-hiring-ai-agents-study-2026.webp",
-    "sources": [
-      {
-        "label": "Anthropic, October 16: How employment is changing at Anthropic, findings and methodology",
-        "url": "https://www.anthropic.com/research/employment-at-anthropic"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T08:02:29+00:00",
-    "dateModified": "2026-10-17T08:02:29+00:00",
-    "tickers": [],
-    "body": [
-      "Anthropic, the company behind Claude, says the junior share of its technical hires fell from 27% to 9% as AI agents became more deeply embedded in its work. The company published the findings on October 16 in an internal employment study.",
-      "That is a change in hiring composition, not evidence that the number of technical employees fell by the same amount. The report says technical hiring continued to grow in absolute terms while expansion in business functions outpaced it.",
-      "The study draws on internal records and interviews. Hiring managers increasingly emphasized autonomy and judgment.",
-      "By August, employee-directed interactive agents accumulated six times the estimated human work hours. The metric counts agent runtime, including inference and tool use, but excludes waits longer than 30 minutes. Human hours assume a 40-hour week per employee. The ratio is not a claim that software produced six times as much useful work.",
-      "Tool adoption was not random, Anthropic cautions. This is a study of a fast-growing vendor using its own products, not a representative employer sample.",
-      "TTN’s analysis: a smaller junior share can emerge alongside rising total employment. If a team makes 100 hires and nine are junior, its junior share is 9%. Without comparable total hiring figures for the earlier period, a percentage alone cannot establish the change in the number of junior recruits. These figures are illustrative, not additional Anthropic data.",
-      "Entry-level work is both production and training. If software performs more routine tasks, employers still need a way for new workers to develop the judgment expected of experienced staff. That is a separate challenge from making an individual workflow faster.",
-      "The report is an early company-level signal, not a forecast for every engineering occupation. A useful next test is whether similar hiring changes appear across employers with different products and growth rates. TTN’s analysis of enterprise AI returns explains why activity measures and business outcomes should not be treated as the same thing."
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "exxon-refining-margin-preview-third-quarter-2026",
-    "title": "Exxon Sees a $4.5 Billion Refining Lift, Not a Final Earnings Result",
-    "dek": "The third-quarter preview shows how refining can offset weaker oil-price effects. Investors still need the complete October 30 results.",
-    "image": "assets/editorial/exxon-refining-margin-preview-third-quarter-2026.webp",
-    "sources": [
-      {
-        "label": "Reuters, October 16: refining earnings preview and reporting date",
-        "url": "https://www.reuters.com/business/energy/exxonmobil-signals-lower-third-quarter-earnings-2026-10-16/"
-      },
-      {
-        "label": "ExxonMobil Form 8-K, reproduced by StockTitan: selected quarterly earnings factors and limitations",
-        "url": "https://www.stocktitan.net/sec-filings/XOM/8-k-exxon-mobil-holdings-corp-reports-material-event-c785be742981.html"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-16T23:08:05+00:00",
-    "dateModified": "2026-10-16T23:08:05+00:00",
-    "tickers": [],
-    "body": [
-      "ExxonMobil expects stronger refining margins to add about $4.5 billion to third-quarter Energy Products earnings compared with the second quarter. That is a change in one earnings driver, not a forecast of total company profit or the amount the refining business earned.",
-      "Reuters reported the preview on October 16, ahead of full results scheduled for October 30. This article examines that earlier announcement; it is not a newly released earnings report.",
-      "The company’s selected-factor filing, reproduced by StockTitan, puts the combined margin contribution across its businesses at $4.4 billion. It includes the $4.5 billion Energy Products improvement, a $600 million drag in Chemical Products and a $500 million gain in Specialty Products. Those components add up to the stated total.",
-      "The same disclosure estimates a $1.3 billion negative effect from liquids prices and a $300 million benefit from gas prices. These are comparisons with the previous quarter, expressed in US dollars, rather than year-over-year growth rates. The filing cautions that its selected estimates are not an estimate of complete quarterly earnings.",
-      "TTN’s analysis: an oil producer and a refiner do not have identical economics. Production earns revenue from selling crude. A refinery buys or receives feedstock and sells finished fuels, so the relationship between input and product prices matters. An integrated company combines those exposures; a weaker outcome in one activity need not translate directly into the same change across the group.",
-      "That distinction is why adding a refining-margin benefit to an earlier company profit figure is not a reliable earnings forecast. The remaining businesses, operating performance and other accounting items still have to be included. A large positive bridge item can coexist with offsets elsewhere.",
-      "Investors should separate three questions on October 30: what the company earned, which changes were recurring, and how those earnings translated into cash. The preview answers none of those questions completely. It supplies a useful directional signal, not a substitute for the financial statements.",
-      "The broader lesson is to avoid treating an oil-price headline as a complete model for an integrated energy business. TTN’s guide to second-round inflation effects also explains why a price shock and its later economic consequences are different measurements."
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "anthropic-everwind-canada-data-center-lease-2026",
-    "title": "Anthropic Signs Canadian Data-Center Lease With EverWind",
-    "dek": "The Claude developer is the tenant at Point Tupper. EverWind’s investment plan covers both the proposed campus and new wind generation, not an Anthropic payment.",
-    "image": "assets/editorial/anthropic-everwind-canada-data-center-lease-2026.webp",
-    "sources": [
-      {
-        "label": "Reuters, October 16, 22:53 UTC: Anthropic executive confirms first Canadian data-center agreement",
-        "url": "https://www.reuters.com/legal/litigation/anthropic-signs-lease-first-canadian-data-center-2026-10-16/"
-      },
-      {
-        "label": "EverWind, October 16: official campus and renewable-energy investment announcement",
-        "url": "https://everwindfuels.com/2026/10/everwind-announces-10-billion-investment-in-point-tupper-data-centre-campus-and-renewable-energy-portfolio-across-nova-scotia/"
-      }
-    ],
-    "author": "TTN Research Desk",
-    "date": "2026-10-16T23:08:05+00:00",
-    "dateModified": "2026-10-16T23:08:05+00:00",
-    "tickers": [],
-    "body": [
-      "Anthropic, the developer of the Claude AI assistant, has signed a lease with EverWind for data-center capacity at Point Tupper, Nova Scotia. Reuters reported the company executive’s confirmation at 6:53 p.m. Eastern on October 16, describing it as Anthropic’s first Canadian data-center agreement.",
-      "EverWind had announced the campus investment earlier Friday with an unnamed frontier AI developer as the initial tenant. The later Reuters report identifies Anthropic. It does not mean the entire project was first announced that evening, or that the data center is already operating.",
-      "EverWind is an energy and infrastructure developer. Its official announcement sets out more than C$10 billion in planned private investment at its existing Point Tupper industrial site and in new Nova Scotia wind generation. The breakdown includes more than C$8 billion for the campus and C$2 billion for the wind portfolio.",
-      "Those are Canadian-dollar development figures across the project portfolio. They are not a disclosed lease payment by Anthropic, nor a reported amount already spent. EverWind says the initial campus phase has a long-term lease with a frontier AI developer; the later identification supplies the customer’s name.",
-      "TTN’s analysis: naming a customer makes a proposed infrastructure project more concrete than an announcement of available land alone. It indicates an intended user for capacity. But a signed lease and delivered computing power remain different milestones. Construction, electricity arrangements and commissioning must still be evaluated separately from the customer agreement.",
-      "The wind component also deserves its own scrutiny. Investment in generation does not, by itself, establish that a campus will have uninterrupted power at every hour. The relevant questions include delivery schedules and how electricity reaches the site, not just the size of a spending commitment.",
-      "For users of AI services, a Canadian capacity agreement is not automatically a promise that every Canadian customer’s information will stay in Canada. Any such claim needs explicit service terms and technical commitments. Neither the tenant’s identity nor the investment headline establishes that outcome.",
-      "The next useful evidence will be project milestones and specific operating commitments, rather than another repetition of the investment total. The financing distinction is similar to the one explored in TTN’s coverage of AI infrastructure borrowing: planned capacity and the money needed to deliver it are related, but not interchangeable."
-    ],
-    "editorialNote": null
-  },
-  {
     "id": "faa-controller-pay-workforce-reforms-october-2026",
     "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
     "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
@@ -215,55 +31,12 @@ const TTN_ARTICLES = [
     "editorialNote": null
   },
   {
-    "id": "whatsapp-impostor-google-play-app-verification-2026",
-    "title": "Reported WhatsApp Impostor Highlights the Limits of App-Store Search",
-    "dek": "Earlier October 16 reporting described a lookalike listing appearing above the genuine app for some users. Its present availability is unconfirmed; Google’s own guidance provides checks that remain useful.",
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T00:59:42+03:00",
-    "dateModified": "2026-10-17T00:59:42+03:00",
-    "image": "assets/editorial/whatsapp-impostor-google-play-app-verification-2026.webp",
-    "tickers": [],
-    "body": [
-      "A lookalike WhatsApp listing reportedly appeared in Google Play’s sponsored search results above the genuine messaging app for some users, according to Android Authority and The Verge on October 16. This is earlier reporting, not a newly confirmed incident from the latest hour. Its current availability has not been established.",
-      "Android Authority reported that the listing used the developer name Agment Assets sallu, copied the genuine app’s presentation and showed more than 500,000 downloads. It also said the sponsored placement did not appear in every search. The Verge reported that Google had not immediately responded to its request for comment.",
-      "The reported download count describes the listing at the time journalists examined it. It is not a verified count of people harmed, stolen accounts or compromised phones. The coverage does not, by itself, establish what the software did after installation.",
-      "The linked listing could not be retrieved during TTN’s check. That is not enough to conclude that Google removed it worldwide: store availability and access can vary. Without a company statement or broader confirmation, a removal claim would go beyond the evidence.",
-      "For someone seeking WhatsApp, its official download page provides a separate starting point rather than relying solely on a sponsored search position. TTN’s assessment is that an app’s name and artwork are insufficient identity checks when the reported problem is imitation of those same features.",
-      "Google says Play Protect checks apps before download and periodically scans installed software for potentially harmful behavior. It can warn about, disable or remove harmful apps, and Google recommends keeping it enabled. Those are protective capabilities, not a promise that any particular listing is authentic.",
-      "Google also provides a way to report an app through its Play help guidance. Reporting a suspicious listing and checking the publisher address different questions from scanning installed code: who is offering the software, and whether it exhibits harmful behavior.",
-      "The episode is best understood as a distribution and identity-verification issue, not proof of a flaw in WhatsApp’s encryption. TTN’s coverage of data-access controls discusses the broader distinction between trusting a service’s security and deciding which software should receive access in the first place."
-    ],
-    "sources": [
-      {
-        "label": "Android Authority, October 16, 07:20 EDT: original reporting on the lookalike listing and download count",
-        "url": "https://www.androidauthority.com/fake-whatsapp-app-3724337/"
-      },
-      {
-        "label": "The Verge, October 16, 15:02 UTC: independent coverage and request for Google comment",
-        "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android"
-      },
-      {
-        "label": "Google Play Help: Play Protect capabilities and settings",
-        "url": "https://support.google.com/googleplay/answer/2812853?hl=en"
-      },
-      {
-        "label": "Google Play Help: reporting an app or review",
-        "url": "https://support.google.com/googleplay/answer/2853570?hl=en"
-      },
-      {
-        "label": "WhatsApp: official download page",
-        "url": "https://www.whatsapp.com/download"
-      }
-    ],
-    "editorialNote": null
-  },
-  {
     "id": "wall-street-close-october-16-2026-ai-selloff",
     "title": "Nasdaq Falls 4.5% for the Week as AI Stocks Slide Into Friday’s Close",
     "dek": "The S&P 500 also finished lower, while the Dow held a weekly gain. The closing figures show the selloff remained concentrated enough to produce sharply different index results.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T00:00:40+03:00",
-    "dateModified": "2026-10-17T00:00:40+03:00",
+    "dateModified": "2026-10-17T11:57:42+00:00",
     "image": "assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp",
     "tickers": [
       "NVDA",
@@ -283,7 +56,7 @@ const TTN_ARTICLES = [
     "sources": [
       {
         "label": "Associated Press: final October 16 index levels and weekly changes",
-        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c27809783ae3230b44c26e5ee4bea056"
+        "url": "https://apnews.com/article/c27809783ae3230b44c26e5ee4bea056"
       },
       {
         "label": "Reuters: morning market dispatch updated with the completed session; closing update shown at 20:33 UTC",
@@ -296,42 +69,6 @@ const TTN_ARTICLES = [
       {
         "label": "SEC Investor.gov: diversification and the limits of narrowly focused funds",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds"
-      }
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "softbank-allied-universal-security-robots-talks-2026",
-    "title": "SoftBank Explores Allied Universal Purchase as Security Work Becomes an AI Target",
-    "dek": "Reported talks concern a large physical-security business, not a signed acquisition or a confirmed robot rollout. The quoted equity value differs from a debt-inclusive transaction estimate.",
-    "author": "TTN Research Desk",
-    "date": "2026-10-17T00:00:39+03:00",
-    "dateModified": "2026-10-17T00:00:39+03:00",
-    "image": "assets/editorial/softbank-allied-universal-security-robots-talks-2026.webp",
-    "tickers": [],
-    "body": [
-      "SoftBank is considering buying Allied Universal, the US physical-security services provider, according to Bloomberg reporting cited by Reuters on Friday. Deliberations remain preliminary, with no final decision on a deal or price. Reuters said SoftBank declined to comment and Allied Universal did not immediately respond.",
-      "The report connects the possible purchase with Masayoshi Son’s interest in applying AI-powered robots to security work. It is not an announcement that guards are being replaced, nor confirmation that the companies have agreed on an automation program.",
-      "Investing.com’s account of the Bloomberg report describes a potential equity valuation of as much as $18 billion. Adding roughly $12 billion of publicly traded debt brings the debt-inclusive figure close to $30 billion. Neither figure should be presented as a signed purchase price.",
-      "Equity value describes the value attributed to owners’ shares. A debt-inclusive measure addresses a different part of the transaction. Without agreed terms and disclosed financing, comparing the two headlines as if they represented rival bids would be misleading.",
-      "Allied Universal’s own materials describe security services spanning early data-center development through live operations. The company says it has experience across more than 50 million square feet of projects since 2014. Its offering combines trained personnel, access and visitor management, integrated security systems and centralized monitoring.",
-      "That description establishes an existing commercial activity, not a forecast for the proposed acquisition. It also shows why security cannot be reduced to a single patrol task: the service must work across construction, commissioning and ongoing operations, with different access requirements at each stage.",
-      "TTN’s assessment is that a security-services network could offer an automation developer something software alone cannot provide: customer relationships and operating settings in which to evaluate performance. That opportunity would still need to be tested against reliability, supervision and the cost of handling exceptions.",
-      "A robot that completes a routine inspection does not necessarily replace every duty performed by the employee on that shift. The relevant comparison is the full service delivered, including what happens when equipment fails or an unexpected situation requires judgment. TTN’s analysis of robotics economics explores that broader cost calculation.",
-      "The immediate milestone is a confirmed transaction announcement, not an assumed deployment date. Until then, the report describes an exploration of a possible acquisition. Earlier coverage appeared before the latest hour; this article is a verified background alternative rather than a claim that the talks first emerged in that window."
-    ],
-    "sources": [
-      {
-        "label": "Reuters, October 16, 20:04 UTC: preliminary talks reported by Bloomberg; company responses",
-        "url": "https://www.reuters.com/business/media-telecom/softbank-weighs-18-billion-acquisition-allied-universal-bloomberg-news-reports-2026-10-16/"
-      },
-      {
-        "label": "Investing.com: earlier October 16 coverage, before the latest-hour window; equity and debt distinction",
-        "url": "https://ca.investing.com/news/stock-market-news/softbank-weighs-30-billion-allied-universal-deal-as-son-eyes-security-robots-4885771"
-      },
-      {
-        "label": "Allied Universal: primary description of existing data-center security operations; not confirmation of acquisition talks",
-        "url": "https://www.aus.com/security-resources/factsheets/national-data-center-security-solutions"
       }
     ],
     "editorialNote": null
@@ -377,7 +114,7 @@ const TTN_ARTICLES = [
     "dek": "The Ninth Circuit vacated certification of three California classes, finding that buyers’ exposure to a disputed hardware claim could not be presumed across the group.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T23:22:27+03:00",
-    "dateModified": "2026-10-16T23:22:27+03:00",
+    "dateModified": "2026-10-17T11:57:42+00:00",
     "image": "assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp",
     "tickers": [],
     "body": [
@@ -389,7 +126,7 @@ const TTN_ARTICLES = [
       "The memorandum is nonprecedential, subject to the circuit’s applicable rule.",
       "Separately, Tesla’s current support documentation describes FSD (Supervised) as driver assistance requiring active supervision. It says the enabled features do not make the vehicle autonomous. Availability depends on hardware, configuration, software version and region.",
       "Those present-day operating instructions serve a different purpose from the historical marketing claims in the lawsuit. A customer’s responsibility when using the system and the evidence needed to group buyers in litigation are separate issues. Neither can be resolved simply by citing the other.",
-      "TTN’s earlier report on Slovakia’s approval of Tesla driver assistance concerns market access. This US ruling concerns class certification. Keeping those developments distinct avoids implying that a court procedure either authorizes driverless operation or withdraws a regulatory approval."
+      "This ruling concerns class certification, not regulatory approval of driver-assistance technology. A court procedure does not itself authorize driverless operation or withdraw a regulatory approval."
     ],
     "sources": [
       {
@@ -551,90 +288,6 @@ const TTN_ARTICLES = [
     "editorialNote": null
   },
   {
-    "id": "ny-fed-services-prices-october-2026",
-    "title": "New York Fed Survey Finds Faster Price Increases as Service Activity Falls",
-    "dek": "Regional service firms reported their fastest selling-price increases since 2022. The October survey adds a warning about costs, but is not a national inflation reading.",
-    "author": "TTN Research Desk",
-    "date": "2026-10-16T18:11:36+03:00",
-    "dateModified": "2026-10-16T18:11:36+03:00",
-    "image": "assets/editorial/ny-fed-services-prices-october-2026.webp",
-    "tickers": [],
-    "body": [
-      "Service businesses in the New York region are reporting an uncomfortable combination: weaker activity and more widespread increases in the prices they charge. The Federal Reserve Bank of New York’s October Business Leaders Survey, released Friday, found selling-price increases at their fastest pace since 2022.",
-      "The activity index fell 12 points to minus 20.7. The prices-received index rose to 36.3, while the prices-paid measure stood at 70.0. Employment was flat, and expectations for activity over the next six months turned negative.",
-      "Those readings describe how broadly conditions are changing among respondents. They do not mean output fell 20.7% or that selling prices rose 36.3%. Confusing an index with a percentage change would greatly overstate what the report establishes.",
-      "The survey covers service firms in New York, northern New Jersey and southwestern Connecticut. Responses were collected October 2–9. It therefore describes conditions reported earlier this month, rather than a real-time response to Friday’s market moves.",
-      "The distinction matters for anyone trying to read the report as a forecast. A business can report higher costs even while its own sales weaken. Whether those costs reach customers depends on its ability to raise prices, its competitors and the alternatives available to buyers.",
-      "The New York Fed’s methodology asks executives about recent and expected changes. Its regional sample is useful for detecting pressure points, but cannot stand in for the national consumer-price index. The size of each company’s price increase is a separate question from how many companies report one.",
-      "TTN’s coverage of September import prices examines costs at the border. This survey looks at a different part of the economy: businesses providing services. The two reports cannot be added together to calculate an inflation rate.",
-      "The combination is still worth watching. An importer may face a higher bill for goods, while a service provider faces pressure elsewhere in its operating budget. A broad inflation problem can persist through several channels even when one particular cost begins to ease.",
-      "For a business, the immediate test is whether a price increase protects profit after accounting for any loss of customers. Higher revenue alone may reflect higher prices rather than more transactions. Margins, customer volumes and cash collection help separate those possibilities.",
-      "A policymaker must weigh both sides of this report. Weak activity can signal reduced demand; persistent pricing pressure can complicate efforts to bring inflation down. Neither observation, by itself, supplies a complete national diagnosis.",
-      "Investors should compare subsequent service-sector surveys, employment data and official price measures before treating the regional result as a turning point. TTN’s guide to second-round inflation explains why the persistence and spread of cost increases matter beyond the original shock.",
-      "The practical message from Friday’s release is narrow but useful: slower business activity has not eliminated pricing pressure among these regional service firms. The next evidence to watch is whether that combination persists and appears in broader national data."
-    ],
-    "sources": [
-      {
-        "label": "Federal Reserve Bank of New York: October 2026 Business Leaders Survey, primary report",
-        "url": "https://www.newyorkfed.org/medialibrary/media/survey/business_leaders/2026/202610_blsreport.pdf"
-      },
-      {
-        "label": "New York Fed: survey scope, methodology and release calendar",
-        "url": "https://www.newyorkfed.org/survey/business_leaders/bls_overview.html"
-      },
-      {
-        "label": "Reuters: report on the survey, October 16, 14:34 UTC",
-        "url": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
-      }
-    ],
-    "editorialNote": null
-  },
-  {
-    "id": "tesla-slovakia-assisted-driving-approval-2026",
-    "title": "Slovakia Approves Tesla Driver Assistance as European Rollout Expands",
-    "dek": "Slovakia has recognized provisional approval for Tesla’s supervised driving system. The decision opens a path to rollout, while drivers remain responsible for the vehicle.",
-    "author": "TTN Research Desk",
-    "date": "2026-10-16T18:11:35+03:00",
-    "dateModified": "2026-10-16T18:11:35+03:00",
-    "image": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
-    "tickers": [
-      "TSLA"
-    ],
-    "body": [
-      "Slovakia has authorized the use of Tesla’s supervised driving-assistance software, adding another national approval to the company’s European expansion. Tesla said rollout would begin soon, Reuters reported Friday.",
-      "The Slovak transport ministry said it had recognized the system’s provisional type approval. Its statement identifies the technology as Full Self-Driving (Supervised), an advanced assistance package, and explicitly says the driver remains fully responsible for driving.",
-      "That distinction belongs at the center of the announcement. Permission to use supervised assistance does not mean permission to leave the driver’s seat empty, stop monitoring traffic or operate a driverless taxi service.",
-      "According to the ministry, the Dutch RDW authority issued provisional approval in April, which other member states can recognize for their own territory. Slovakia said it had taken that step on Friday. National recognition and a blanket authorization across the European Union are different milestones.",
-      "The ministry describes a camera- and neural-network-based system that can assist with accelerating, braking, steering, lane changes and intersections. It also says the system monitors driver attention and can issue warnings or deactivate when the driver is inattentive.",
-      "Reuters reported last week that Tesla had begun using the name Tesla Assisted Driving on European websites. American readers will recognize the related US branding, Full Self-Driving (Supervised). A change in the product’s name does not remove the requirement for an attentive driver.",
-      "Tesla’s support documentation says availability depends on factors including vehicle configuration, hardware, software version and region. Vehicles also need a software update before the features become available. The approval headline therefore does not establish that every Slovak Tesla owner can activate the system immediately.",
-      "The company’s statement that rollout would begin soon should be read as a plan, not a confirmed delivery date for a particular car. Owners need the eligibility and activation information attached to their own vehicle. US subscription terms should not be assumed to apply to Slovakia.",
-      "For the wider technology business, the distinction is commercially important. Regulatory access creates an opportunity to sell software, but does not reveal how many drivers will subscribe, how often they will use it or how many will retain it after trying it.",
-      "Useful evidence will include confirmed customer availability, eligible hardware, local terms and the actual functions enabled. Those details are more informative than treating every national authorization as a completed deployment.",
-      "The same gap between access and commercial results appears in TTN’s reporting on Germany’s planned industrial AI agreement with Nvidia. Announcements can expand the market for a technology before its operational and financial results are measurable.",
-      "Slovakia’s decision removes a regulatory barrier within that country. It does not settle the separate questions of EU-wide access, driverless operation or customer adoption. For now, the next concrete milestone is the rollout Tesla says will follow."
-    ],
-    "sources": [
-      {
-        "label": "Slovak Ministry of Transport: recognition of provisional Tesla FSD approval, October 16, 2026",
-        "url": "https://www.mindop.sk/media/tlacove-spravy/detail/slovensko-umoznilo-ciastocne-autonomne-riadenie-aut"
-      },
-      {
-        "label": "Reuters: Tesla says Slovakia approved the system and rollout will begin soon, October 16, 14:31 UTC",
-        "url": "https://www.reuters.com/business/tesla-receives-approval-self-driving-tech-slovakia-2026-10-16/"
-      },
-      {
-        "label": "Tesla Support: Full Self-Driving (Supervised), driver responsibilities and feature availability",
-        "url": "https://www.tesla.com/support/fsd"
-      },
-      {
-        "label": "Reuters: European naming change to Tesla Assisted Driving, October 9; background",
-        "url": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/"
-      }
-    ],
-    "editorialNote": null
-  },
-  {
     "id": "ai-investment-central-banks-interest-rates-2026",
     "title": "AI Spending Puts Higher Borrowing Costs on Central Banks’ Radar",
     "dek": "A fresh warning from policymakers shifts the focus from AI share prices to the cost of financing the wider economy.",
@@ -710,7 +363,7 @@ const TTN_ARTICLES = [
     "dek": "September import prices rose faster than expected. A broad increase in nonfuel goods adds to the cost pressure facing American businesses.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T15:53:40+03:00",
-    "dateModified": "2026-10-16T15:53:40+03:00",
+    "dateModified": "2026-10-17T11:57:42+00:00",
     "image": "assets/editorial/us-import-prices-september-2026-inflation.webp",
     "tickers": [],
     "body": [
@@ -730,7 +383,7 @@ const TTN_ARTICLES = [
     "sources": [
       {
         "label": "BLS: September 2026 import and export prices, released October 16 at 8:30 a.m. ET",
-        "url": "https://www.bls.gov/news.release/ximpim.nr0.htm"
+        "url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm"
       },
       {
         "label": "Reuters: US import prices increase more than expected, October 16, 12:39 UTC",

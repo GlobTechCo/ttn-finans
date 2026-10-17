@@ -980,17 +980,6 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/nonfarm-payrolls-jobs-report-explained.html?card=8a8c8153512b"
     },
     {
-      "page": "ny-fed-services-prices-october-2026.html",
-      "source": "assets/editorial/ny-fed-services-prices-october-2026.webp",
-      "image": "assets/social/ny-fed-services-prices-october-2026-486f875de674.webp",
-      "sha256": "486f875de674a40ad8d216a9727ad06bb62541c96c692daaa831e7401bf71ccb",
-      "width": 1672,
-      "height": 941,
-      "bytes": 386296,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/ny-fed-services-prices-october-2026.html?card=486f875de674"
-    },
-    {
       "page": "ofgem-market-stabilisation-charge-consultation-2026.html",
       "source": "assets/editorial/ofgem-market-stabilisation-charge-consultation-2026.webp",
       "image": "assets/social/ofgem-market-stabilisation-charge-consultation-2026-e05f2d3339e2.webp",
@@ -1299,17 +1288,6 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/tech-ai.html?card=5a38668b17d6"
     },
     {
-      "page": "tesla-slovakia-assisted-driving-approval-2026.html",
-      "source": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
-      "image": "assets/social/tesla-slovakia-assisted-driving-approval-2026-af6b320a430b.webp",
-      "sha256": "af6b320a430b2ad5d9fcef49b7c50f8480522d9d783de922fa34da54cac6bb91",
-      "width": 1672,
-      "height": 941,
-      "bytes": 496886,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/tesla-slovakia-assisted-driving-approval-2026.html?card=af6b320a430b"
-    },
-    {
       "page": "tips-inflation-protected-bonds-explained.html",
       "source": "assets/editorial/tips-inflation-protected-bonds-explained.webp",
       "image": "assets/social/tips-inflation-protected-bonds-explained-ec023c444972.webp",
@@ -1486,17 +1464,6 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/tesla-fsd-class-certification-appeal-october-2026.html?card=f3eeddb1757e"
     },
     {
-      "page": "softbank-allied-universal-security-robots-talks-2026.html",
-      "source": "assets/editorial/softbank-allied-universal-security-robots-talks-2026.webp",
-      "image": "assets/social/softbank-allied-universal-security-robots-talks-2026-13d7b39d5fed.webp",
-      "sha256": "13d7b39d5fed1184f27567b21d529288646b2febd6ca0d46df593cb43ef35221",
-      "width": 1672,
-      "height": 940,
-      "bytes": 203888,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/softbank-allied-universal-security-robots-talks-2026.html?card=13d7b39d5fed"
-    },
-    {
       "page": "wall-street-close-october-16-2026-ai-selloff.html",
       "source": "assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp",
       "image": "assets/social/wall-street-close-october-16-2026-ai-selloff-4f1f2fd88f5c.webp",
@@ -1517,83 +1484,6 @@
       "bytes": 333212,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/faa-controller-pay-workforce-reforms-october-2026.html?card=c1e51bc62c2c"
-    },
-    {
-      "page": "whatsapp-impostor-google-play-app-verification-2026.html",
-      "source": "assets/editorial/whatsapp-impostor-google-play-app-verification-2026.webp",
-      "image": "assets/social/whatsapp-impostor-google-play-app-verification-2026-a2e8b95c9e7b.webp",
-      "sha256": "a2e8b95c9e7b5d8f8cb4b9189eeeb6a30fe7fe5044c221cb027d645e48525033",
-      "width": 1672,
-      "height": 941,
-      "bytes": 253008,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/whatsapp-impostor-google-play-app-verification-2026.html?card=a2e8b95c9e7b"
-    },
-    {
-      "page": "anthropic-everwind-canada-data-center-lease-2026.html",
-      "source": "assets/editorial/anthropic-everwind-canada-data-center-lease-2026.webp",
-      "image": "assets/social/anthropic-everwind-canada-data-center-lease-2026-3575def6ae87.webp",
-      "sha256": "3575def6ae87158c0c21e7670d7302013b4adec0d9aa6d659f68ad8e1c3ff756",
-      "width": 1672,
-      "height": 941,
-      "bytes": 368284,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-everwind-canada-data-center-lease-2026.html?card=3575def6ae87"
-    },
-    {
-      "page": "exxon-refining-margin-preview-third-quarter-2026.html",
-      "source": "assets/editorial/exxon-refining-margin-preview-third-quarter-2026.webp",
-      "image": "assets/social/exxon-refining-margin-preview-third-quarter-2026-eed5ece78233.webp",
-      "sha256": "eed5ece78233c1db72ab22f3ac483323287d5363f8fe378e3379dad53010a3b4",
-      "width": 1672,
-      "height": 941,
-      "bytes": 493626,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/exxon-refining-margin-preview-third-quarter-2026.html?card=eed5ece78233"
-    },
-    {
-      "page": "anthropic-junior-hiring-ai-agents-study-2026.html",
-      "source": "assets/editorial/anthropic-junior-hiring-ai-agents-study-2026.webp",
-      "image": "assets/social/anthropic-junior-hiring-ai-agents-study-2026-27a30a18b237.webp",
-      "sha256": "27a30a18b237297cde61c845ddaab802255e6a21006da673189e095fa0051bd3",
-      "width": 1672,
-      "height": 941,
-      "bytes": 212650,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-junior-hiring-ai-agents-study-2026.html?card=27a30a18b237"
-    },
-    {
-      "page": "imf-europe-debt-growth-reforms-october-2026.html",
-      "source": "assets/editorial/imf-europe-debt-growth-reforms-october-2026.webp",
-      "image": "assets/social/imf-europe-debt-growth-reforms-october-2026-b976d890c631.webp",
-      "sha256": "b976d890c6310f62c6bcef8db2e3bd6887393af84795fe048cd5172acee922eb",
-      "width": 1672,
-      "height": 941,
-      "bytes": 368428,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/imf-europe-debt-growth-reforms-october-2026.html?card=b976d890c631"
-    },
-    {
-      "page": "anthropic-clark-ai-gdp-scenario-october-2026.html",
-      "source": "assets/editorial/anthropic-clark-ai-gdp-scenario-october-2026.webp",
-      "image": "assets/social/anthropic-clark-ai-gdp-scenario-october-2026-8e471e32ade5.webp",
-      "sha256": "8e471e32ade5cb5cf8fdce2d8debf22cd979bf846d631239e1d051c286f8f3c8",
-      "width": 1672,
-      "height": 941,
-      "bytes": 264684,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-clark-ai-gdp-scenario-october-2026.html?card=8e471e32ade5"
-    },
-    {
-      "page": "lagarde-bond-yields-inflation-october-2026.html",
-      "source": "assets/editorial/lagarde-bond-yields-inflation-october-2026.webp",
-      "image": "assets/social/lagarde-bond-yields-inflation-october-2026-7e7784c53969.webp",
-      "sha256": "7e7784c53969045a2a68981ea404121bdaad7e467d6cafe613aeebed8de80a6d",
-      "width": 1672,
-      "height": 941,
-      "bytes": 347004,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/lagarde-bond-yields-inflation-october-2026.html?card=7e7784c53969"
     }
   ]
 }
