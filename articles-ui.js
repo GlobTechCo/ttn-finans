@@ -46,6 +46,7 @@ const TTNArticlesUI = (() => {
 
   // Tech & AI has its own exclusive homepage/archive section.
   const TECH_AI_IDS = new Set([
+    "ai-agents-websites-block-access-2026",
     "tesla-slovakia-assisted-driving-approval-2026",
     "tesla-fsd-class-certification-appeal-october-2026",
     "china-ai-technology-export-controls-draft-2026",
