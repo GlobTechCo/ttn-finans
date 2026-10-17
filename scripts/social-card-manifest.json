@@ -1525,11 +1525,13 @@
     },
     {
       "page": "replit-openai-preferred-partner-claude-choice-2026.html",
-      "source": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026.webp",
-      "image": "assets/social/replit-openai-preferred-partner-claude-choice-2026-b83574c4b165.webp",
-      "sha256": "b83574c4b16531f333d96ff49c8caefa269d3fc3fba478b0e732dbed393f64d8",
+      "source": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp",
+      "image": "assets/social/replit-openai-preferred-partner-claude-choice-2026-e949d6a4c4e4.webp",
+      "sha256": "e949d6a4c4e4b175a6407666c27b0a853870b77a162ee659ea8e8727e7466313",
       "width": 1672,
-      "height": 941
+      "height": 941,
+      "bytes": 311282,
+      "shareUrl": "https://globtechco.github.io/ttn-finans/replit-openai-preferred-partner-claude-choice-2026.html?card=e949d6a4c4e4"
     }
   ]
 }

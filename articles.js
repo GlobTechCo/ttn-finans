@@ -7,7 +7,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-17T16:44:36-04:00",
     "dateModified": "2026-10-17T16:44:36-04:00",
-    "image": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026.webp",
+    "image": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp",
     "tickers": [],
     "body": [
       "Replit favors OpenAI for Agent while retaining access to Anthropic models, CEO Amjad Masad clarified, according to an updated TechCrunch report Saturday.",
