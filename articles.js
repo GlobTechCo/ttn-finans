@@ -1,6 +1,43 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ai-agents-websites-block-access-2026",
+    "title": "AI Agents Hit a Wall: Websites Decide Who Gets Through",
+    "dek": "Shopping and booking assistants face a constraint that better models cannot solve alone: permission to use the services their customers depend on.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-17T19:09:56+03:00",
+    "dateModified": "2026-10-17T19:09:56+03:00",
+    "image": "assets/editorial/ai-agents-websites-block-access-2026.webp",
+    "tickers": [],
+    "body": [
+      "AI assistants can promise to shop or book travel, but the destination website can still refuse them entry. The Verge reported October 17 that Yelp requires paid data licensing for agents, Delta restricts automated ticket bookings, and JPMorgan Chase and Charles Schwab block agent access to accounts over security concerns. The report describes restrictions accumulated over recent weeks, rather than a coordinated ban announced today.",
+      "For users, that creates a practical question: which parts of a task can an assistant reliably finish? A product demonstration can show that software understands a request without establishing that every outside service involved will accept its actions.",
+      "Cloudflare’s technical explanation of Web Bot Auth describes a weakness in familiar ways of identifying automated visitors. IP addresses can change, while a User-Agent header is a claim a client makes about itself. Neither is, by itself, strong evidence of who operates the software.",
+      "The company outlines cryptographic request signatures and mutual TLS as ways to authenticate automated traffic. Its stated preference is HTTP Message Signatures, built on RFC 9421, because they work at the HTTP layer and can be implemented by different providers. These are background proposals and infrastructure developments, not announcements made on October 17.",
+      "Identification and permission answer different questions. A valid signature can help a service establish which operator sent a request. It does not establish that the operator is entitled to read a particular account or place an order. That decision still belongs to the service’s access controls and the permissions attached to the transaction.",
+      "Cloudflare’s earlier pay-per-crawl announcement illustrates another possible arrangement: content owners can allow access, charge for it or block it. The design uses the HTTP 402 Payment Required response to communicate a price when payment is needed. It was introduced as an experiment for content crawlers; it should not be mistaken for a universal checkout system for autonomous shopping.",
+      "The announcement also says payment decisions are applied after existing security and bot-management rules. Offering money therefore does not automatically make a blocked request acceptable. The commercial relationship sits alongside security controls rather than replacing them.",
+      "That distinction matters for the economics of agents. If an assistant needs licensed data or a negotiated integration to complete a workflow, those arrangements can add costs and limit coverage. This is TTN’s assessment of the business implications, not a quantified estimate of fees or lost revenue.",
+      "A useful comparison between agent products should include the services they can reach, the actions they are permitted to take and what happens when access fails. For a travel task, finding a fare and issuing a ticket are different outcomes. For shopping, discovering an item and completing an authorized purchase are different outcomes too.",
+      "A service that clearly returns control to the customer at an access boundary may be more dependable than one that keeps attempting an unavailable step. Users need to see whether a transaction actually completed before treating an assistant’s response as confirmation.",
+      "The competitive question is therefore broader than model intelligence. Providers also need durable relationships with the websites on which their products depend. TTN’s <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of agent returns</a> examines the same operational test: whether automation delivers useful completed work after the costs of supervision are counted."
+    ],
+    "sources": [
+      {
+        "label": "The Verge — Emma Roth, October 17, 13:00 UTC: reported restrictions across websites",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+      },
+      {
+        "label": "Cloudflare — Web Bot Auth: identifying automated requests with cryptography (background)",
+        "url": "https://blog.cloudflare.com/web-bot-auth/"
+      },
+      {
+        "label": "Cloudflare — Introducing pay per crawl: access and payment controls (background)",
+        "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/"
+      }
+    ]
+  },
+  {
     "id": "faa-controller-pay-workforce-reforms-october-2026",
     "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
     "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
