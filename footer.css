@@ -21,7 +21,6 @@
 .ttn-cookie-preferences{padding:0;border:0;background:transparent;color:var(--text-dim);font:inherit;cursor:pointer}.ttn-cookie-preferences:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 
 /* Publication information and accessible contact links. */
-.nav-links .nav-contact{color:var(--accent);font-weight:600}
 .policy-table-wrap{overflow-x:auto;margin:24px 0}
 .static-page table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
 .static-page th,.static-page td{padding:12px;border:1px solid var(--border);vertical-align:top}
@@ -30,3 +29,27 @@
 .policy-action{padding:12px 16px;background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:4px;font:inherit;cursor:pointer}
 .policy-action:focus-visible,.ttn-footer a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 .broker-link-unavailable{display:inline-block;padding:10px 14px;color:var(--text-dim);font-size:13px}
+
+/* Keep appearance controls beside the brand, including intermediate widths. */
+.topnav{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px 20px}
+.topnav>.brand{grid-column:1;grid-row:1}
+.topnav>.nav-links{grid-column:2;grid-row:1;justify-self:center}
+.topnav>.theme-switch{grid-column:3;grid-row:1;margin-left:0}
+.topnav>.nav-toggle{grid-column:2;grid-row:1;justify-self:end}
+.topnav>.search-box{grid-column:1/-1;grid-row:2;justify-self:end;width:min(360px,100%);min-width:0;box-sizing:border-box}
+@media(max-width:1200px){
+ .topnav{grid-template-columns:minmax(0,1fr) auto auto;gap:10px 12px}
+ .topnav>.nav-toggle{display:block}
+ .topnav>.nav-links{display:none;position:absolute;top:100%;left:0;right:0;grid-column:1/-1;justify-self:stretch;flex-direction:column;gap:0;background:var(--surface);border-bottom:1px solid var(--border);z-index:60}
+ .topnav>.nav-links.open{display:flex}
+ .topnav>.nav-links a{padding:14px 20px;border-top:1px solid var(--border);font-size:15px}
+ .topnav .ttn-brand-clean{min-width:0}
+}
+@media(max-width:480px){
+ .topnav{padding:10px 12px;gap:8px}
+ .topnav .ttn-brand-title{font-size:22px;letter-spacing:-.8px}
+ .topnav .ttn-brand-tagline{font-size:8px;letter-spacing:0}
+ .topnav>.theme-switch{font-size:9px;letter-spacing:.02em;padding:2px}
+ .topnav .theme-switch-option{padding:6px}
+ .topnav>.nav-toggle{padding:7px 9px}
+}
