@@ -2787,6 +2787,8 @@ const TTN_ARTICLES = [
       "Adjustment and weights affect the comparison",
       "BLS seasonal adjustment aims to remove recurring seasonal patterns so that short-term comparisons are more informative. Readers should check whether figures are seasonally adjusted and use consistent series. A seasonally adjusted monthly change should not be combined casually with an unadjusted level and described as though all numbers came from the same calculation. Release tables identify the relevant conventions.",
       "The basket's weights also matter. In a simplified illustration, a category accounting for 40% of spending and rising 5% would contribute roughly two percentage points to a weighted price change if all other prices were unchanged. That example demonstrates weighting rather than reproducing the full official CPI formula. A dramatic rise in a small category can contribute less to the total than a modest rise in a much larger one.",
+      "CPI is not the Fed's target index",
+      "The Federal Reserve states its longer-run 2% inflation objective in terms of the personal consumption expenditures price index, or PCE, while also monitoring CPI and other measures. The two indexes differ in coverage and calculation. A CPI reading cannot simply be relabeled as PCE or compared with that objective without identifying the difference. For a policy-focused report, specify which index is being discussed before interpreting progress toward the goal.",
       "A national basket is not a personal budget",
       "Two households can experience different pressures because they buy different things. A renter facing a new lease, a homeowner with a fixed mortgage and a commuter with high fuel spending do not have identical exposure. Their experiences can all be real while differing from the national average. The CPI provides a common statistical reference, not an individualized cost calculator.",
       "A useful reading of the release starts with the exact series and comparison period, then examines the categories driving the result. Ask whether the movement is broad, whether it depends on a few volatile components and how it compares with recent months. That approach turns a headline rate into an explanation of changing prices without promising that one release settles the outlook for inflation, interest rates or household living standards."
@@ -2795,9 +2797,13 @@ const TTN_ARTICLES = [
       {
         "label": "BLS: CPI coverage, index interpretation and seasonal adjustment",
         "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
+      },
+      {
+        "label": "Federal Reserve: PCE objective and monitoring other price indexes",
+        "url": "https://www.federalreserve.gov/faqs/economy_14419.htm"
       }
     ],
-    "dateModified": "2026-10-18T14:42:13-04:00",
+    "dateModified": "2026-10-18T14:46:09-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/cpi-inflation-explained-480.webp",
     "imageMedium": "assets/responsive/cpi-inflation-explained-960.webp",
@@ -5167,6 +5173,8 @@ const TTN_ARTICLES = [
       "Do not confuse liability shifts with quantitative tightening",
       "Quantitative tightening concerns a reduction in the Fed's securities holdings under its balance-sheet policy. A TGA increase can reduce reserves even when Fed assets do not change, as the hypothetical tax payment shows. Conversely, other liability movements can offset some effects of declining assets. Reading only the TGA or only the securities portfolio leaves part of the accounting picture out of view.",
       "A second hypothetical week makes the distinction clear. Suppose Fed assets rise by $50 while the TGA rises by $80, with other non-reserve liabilities unchanged. Reserves decline by $30, despite the expansion in assets. If assets instead decline by $50 and the TGA declines by $80, reserves rise by $30 under the same simplifying assumptions. These are accounting examples, not forecasts of a particular week's operations.",
+      "Borrowing depends on the funding source",
+      "Treasury security issuance can also rebuild the TGA. If a nonbank buyer pays from a bank deposit, settlement can reduce reserves as in the tax example. If a money fund instead shifts $100 out of the Fed's overnight reverse-repurchase facility into new Treasury bills, a simplified end-state can show the TGA $100 higher and that facility $100 lower, with reserves unchanged. This assumes no other flows or asset changes. New York Fed research illustrates why the source of funds matters; issuance alone does not establish a one-for-one reserve drain.",
       "Aggregate reserves do not describe every bank",
       "A banking system can hold substantial reserves in total while individual institutions face different payment needs or funding costs. The New York Fed's discussion of an ample-reserves framework emphasizes that reserve demand is not a single fixed quantity. Distribution, settlement activity and institutions' willingness to lend all affect how comfortable a given aggregate balance feels in money markets.",
       "That is why a claim that a TGA movement releases a fixed amount of buying power into equities goes beyond the evidence. A deposit credit does not tell its recipient to buy shares. A bank reserve credit does not specify a new loan. The connection between payment flows, funding rates, credit decisions and asset prices passes through choices by many institutions, not one predetermined allocation rule.",
@@ -5182,9 +5190,13 @@ const TTN_ARTICLES = [
       {
         "label": "Federal Reserve: H.4.1 balance-sheet tables and observation periods",
         "url": "https://www.federalreserve.gov/releases/h41/current/"
+      },
+      {
+        "label": "New York Fed: Treasury issuance funding and ON RRP balance-sheet mechanics",
+        "url": "https://libertystreeteconomics.newyorkfed.org/2022/04/the-feds-balance-sheet-runoff-and-the-on-rrp-facility/"
       }
     ],
-    "dateModified": "2026-10-18T14:42:13-04:00",
+    "dateModified": "2026-10-18T14:46:09-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/treasury-general-account-liquidity-explained-480.webp",
     "imageMedium": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
@@ -5396,6 +5408,8 @@ const TTN_ARTICLES = [
       "Infrastructure spending reaches the accounts in different ways",
       "Cash paid for long-lived equipment and the expense recognized for using that equipment do not necessarily appear in the same period. The SEC's financial-statement guide distinguishes income reporting from cash-flow reporting. An assessment of AI economics should therefore examine both profitability and cash investment, while checking how the company allocates shared infrastructure costs across its services.",
       "A fictional business could report improving operating margins while continuing to spend heavily on additional capacity. Another could reduce cash investment temporarily while still recognizing depreciation from earlier purchases. Neither observation alone settles whether the product earns a satisfactory return over its full life. The comparison needs a consistent period, a clear definition of invested capital and evidence that the equipment supports revenue customers will continue to pay.",
+      "Capacity needs paying utilization",
+      "The same reasoning applies to a data-center buildout supplying the service. Suppose an illustrative installation has 10,000 available machine-hours a month and $50,000 of fixed monthly costs. At 5,000 paid hours, fixed cost is $10 per paid hour; at 2,000 paid hours, it is $25. Electricity and other variable costs still come on top. Installed capacity is therefore not equivalent to revenue-producing capacity, and a large investment needs enough paid use at adequate prices to cover both operating costs and the capital committed.",
       "Falling processing costs do not guarantee wider margins",
       "If model delivery becomes cheaper, the benefit can go to the provider, the customer or both. Competition may push selling prices down. More demanding tasks may consume the savings through additional processing or review. A product that saves a customer substantial time could support better pricing, but that requires evidence about the workflow and alternatives rather than a general claim that AI is valuable.",
       "A useful earnings assessment asks for the paid unit, net revenue per unit, relevant delivery costs, accepted-task quality, customer retention and cash investment. Where disclosures do not isolate those figures, say what remains unknown. The monetization gap narrows when recurring customer value becomes repeatable cash economics. A rising usage chart is one input to that assessment, rather than a substitute for it."
@@ -5414,7 +5428,7 @@ const TTN_ARTICLES = [
         "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
       }
     ],
-    "dateModified": "2026-10-18T14:42:13-04:00",
+    "dateModified": "2026-10-18T14:46:09-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ai-monetization-gap-explained-480.webp",
     "imageMedium": "assets/responsive/ai-monetization-gap-explained-960.webp",
