@@ -1,15 +1,14 @@
-/**
- * TTN — entry point
- */
-document.addEventListener("DOMContentLoaded", async () => {
-  // Wait for the first ticker price fetch so news ticker chips (and the
-  // market summary) can show live data immediately instead of waiting
-  // for the next refresh cycle.
-  await TTNTickers.init();
-  await TTNNews.init();
-
-  if (typeof TTNMarketSummary !== "undefined") {
-    TTNMarketSummary.render();
-    setInterval(TTNMarketSummary.render, 60000);
+/** Start news and quotes independently. No external provider gates another. */
+(() => {
+  function start() {
+    if (typeof TTNMarketSummary !== "undefined") {
+      TTNMarketSummary.render();
+      document.addEventListener("ttn-prices-updated", TTNMarketSummary.render);
+      document.addEventListener("ttn-news-updated", TTNMarketSummary.render);
+    }
+    if (typeof TTNTickers !== "undefined") TTNTickers.init().catch(console.warn);
+    if (typeof TTNNews !== "undefined") TTNNews.init().catch(console.warn);
   }
-});
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
+})();

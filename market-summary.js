@@ -16,7 +16,7 @@ const TTNMarketSummary = (() => {
     const tracked = TTN_CONFIG.TICKERS.map((t) => ({
       label: t.label,
       ...TTNTickers.getState(t.id),
-    })).filter((t) => t.changePct != null);
+    })).filter((t) => !t.demo && t.changePct != null);
 
     if (!tracked.length) return null;
 
@@ -28,7 +28,7 @@ const TTNMarketSummary = (() => {
     const sentiment =
       up.length > down.length ? "broadly higher" : up.length < down.length ? "broadly lower" : "mixed";
 
-    let text = `Tracked assets are trading ${sentiment} right now: ${up.length} up, ${down.length} down out of ${tracked.length}. `;
+    let text = `Available quote feeds are ${sentiment}: ${up.length} up, ${down.length} down out of ${tracked.length} available feeds. `;
 
     if (biggestMover) {
       text += `${biggestMover.label} is the biggest mover, ${biggestMover.changePct >= 0 ? "up" : "down"} ${Math.abs(
@@ -49,7 +49,9 @@ const TTNMarketSummary = (() => {
     if (!el) return;
     const text = composeSummary();
     if (!text) {
-      el.textContent = "Snapshot will appear once live prices finish loading.";
+      const stampEl = document.getElementById("market-summary-stamp");
+      if (stampEl) stampEl.textContent = "";
+      el.textContent = "Market quotes are currently unavailable. News continues to update independently.";
       return;
     }
     el.textContent = text;

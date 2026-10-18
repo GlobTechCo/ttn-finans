@@ -5,6 +5,19 @@
  * No automatic "rewriting" — aggregation with attribution only.
  */
 const TTNNews = (() => {
+
+  // Bound both response headers and JSON body parsing; a stalled provider
+  // must not leave its consumer waiting indefinitely.
+  async function fetchJSON(url, options = {}) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    try {
+      const response = await fetch(url, { ...options, signal: controller.signal });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } finally { clearTimeout(timer); }
+  }
+
   let allItems = [];
   let itemsIndex = {}; // link -> item, used to open the in-site modal
   const tickerPriceCache = {}; // label -> changePct (number) | null
@@ -39,10 +52,9 @@ const TTNNews = (() => {
     if (coingeckoIds.length) {
       try {
         const ids = coingeckoIds.map((e) => e.coingeckoId).join(",");
-        const res = await fetch(
+        const data = await fetchJSON(
           `https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true`
         );
-        const data = await res.json();
         coingeckoIds.forEach((e) => {
           tickerPriceCache[e.label] = data[e.coingeckoId]?.usd_24h_change ?? null;
         });
@@ -56,10 +68,9 @@ const TTNNews = (() => {
       await Promise.all(
         finnhubEntries.slice(0, 8).map(async (e) => {
           try {
-            const res = await fetch(
+            const data = await fetchJSON(
               `https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(symbol(e.tvSymbol))}&token=${TTN_CONFIG.FINNHUB_KEY}`
             );
-            const data = await res.json();
             tickerPriceCache[e.label] = typeof data.dp === "number" ? data.dp : null;
           } catch (err) {
             tickerPriceCache[e.label] = null;
@@ -198,8 +209,7 @@ const TTNNews = (() => {
     const keyParam = TTN_CONFIG.RSS2JSON_KEY ? `&api_key=${TTN_CONFIG.RSS2JSON_KEY}` : "";
     const url = `${proxy}?rss_url=${encodeURIComponent(feed.url)}${keyParam}`;
     try {
-      const res = await fetch(url);
-      const data = await res.json();
+      const data = await fetchJSON(url);
       if (data.status !== "ok") return [];
       return data.items.map((item) => ({
         title: item.title,
@@ -217,10 +227,9 @@ const TTNNews = (() => {
   async function fetchFinnhub() {
     if (!TTN_CONFIG.FINNHUB_KEY) return [];
     try {
-      const res = await fetch(
+      const data = await fetchJSON(
         `https://finnhub.io/api/v1/news?category=general&token=${TTN_CONFIG.FINNHUB_KEY}`
       );
-      const data = await res.json();
       if (!Array.isArray(data)) return [];
       return data.slice(0, 25).map((item) => ({
         title: item.headline,
@@ -238,11 +247,10 @@ const TTNNews = (() => {
   async function fetchCurrents() {
     if (!TTN_CONFIG.CURRENTS_KEY) return [];
     try {
-      const res = await fetch(
+      const data = await fetchJSON(
         `https://api.currentsapi.services/v1/search?category=economy_business_finance&language=en&page_size=25`,
         { headers: { Authorization: TTN_CONFIG.CURRENTS_KEY } }
       );
-      const data = await res.json();
       if (!Array.isArray(data.news)) return [];
       return data.news.map((item) => ({
         title: item.title,
@@ -260,11 +268,10 @@ const TTNNews = (() => {
   async function fetchApitube() {
     if (!TTN_CONFIG.APITUBE_KEY) return [];
     try {
-      const res = await fetch(
+      const data = await fetchJSON(
         `https://api.apitube.io/v1/news/everything?title=stocks,markets,crypto,economy&language.code=en&per_page=25`,
         { headers: { "X-API-Key": TTN_CONFIG.APITUBE_KEY } }
       );
-      const data = await res.json();
       const results = data.results || data.articles || [];
       if (!Array.isArray(results)) return [];
       return results.map((item) => ({
@@ -288,7 +295,7 @@ const TTNNews = (() => {
     if (!tickers.length) return "";
     return `<div class="article-tickers">${tickers
       .map((t) => {
-        const pct = tickerPriceCache[t.label];
+        const pct = t.trackedId ? TTNTickers.getChangePct(t.trackedId) : tickerPriceCache[t.label];
         const pctHtml =
           typeof pct === "number"
             ? `<span class="${pct >= 0 ? "up" : "down"}">${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%</span>`
@@ -320,11 +327,10 @@ const TTNNews = (() => {
       needed.map(async (category) => {
         const query = TTN_CONFIG.CATEGORY_PHOTO_QUERIES[category] || TTN_CONFIG.CATEGORY_PHOTO_QUERIES.general;
         try {
-          const res = await fetch(
+          const data = await fetchJSON(
             `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=24&orientation=landscape`,
             { headers: { Authorization: TTN_CONFIG.PEXELS_KEY } }
           );
-          const data = await res.json();
           const urls = (data.photos || []).map((p) => p.src?.medium).filter(Boolean);
           categoryPhotoCache[category] = urls.length ? urls : null;
         } catch (e) {
@@ -359,13 +365,13 @@ const TTNNews = (() => {
       // characters would break out of a quoted HTML attribute. Instead we
       // mark the img with data attributes and wire up error handling in
       // JS after it's inserted (see attachThumbFallbacks).
-      return `<img class="${cls}" src="${item.image}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
+      return `<img class="${cls}" src="${item.image}" alt="${escapeAttr(item.title)}" ${size === "lg" ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     }
     // Source gave us no photo — use a relevant Pexels stock photo if we
     // have one cached for this category, so cards rarely show a plain icon.
     const categoryPhoto = pickCategoryPhoto(category, item.link || item.title || "");
     if (categoryPhoto) {
-      return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" loading="lazy" data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
+      return `<img class="${cls}" src="${categoryPhoto}" alt="${escapeAttr(item.title)}" ${size === "lg" ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     }
     const fallbackCls = size === "lg" ? "featured-img" : "news-item-thumb-fallback";
     return `<div class="${fallbackCls} thumb-${category}">${TREND_ICON}</div>`;
@@ -496,25 +502,20 @@ const TTNNews = (() => {
     return allItems;
   }
 
-  async function applySearch(query) {
+  function applySearch(query) {
     const q = query.trim().toLowerCase();
-    if (!q) {
-      renderFeatured(allItems[0]);
-      renderFeed(allItems.slice(1));
-      return;
-    }
-    const filtered = allItems.filter((item) => {
+    const filtered = q ? allItems.filter((item) => {
       const tickers = detectTickers(`${item.title} ${item.desc}`).map((t) => t.label.toLowerCase());
-      return (
-        item.title.toLowerCase().includes(q) ||
-        item.desc.toLowerCase().includes(q) ||
-        tickers.some((t) => t.includes(q))
-      );
-    });
-    await resolveTickerPrices(filtered.slice(0, 13));
-    await resolveCategoryPhotos(filtered.slice(0, 13).map((i) => categoryFor(i)));
+      return item.title.toLowerCase().includes(q) || item.desc.toLowerCase().includes(q) || tickers.some((t) => t.includes(q));
+    }) : allItems;
     renderFeatured(filtered[0]);
-    renderFeed(filtered.slice(1));
+    renderFeed(q ? filtered.slice(1) : filtered.slice(1, 13));
+  }
+
+  function renderCurrent() {
+    applySearch(document.getElementById("search-input")?.value || "");
+    renderTrending();
+    document.dispatchEvent(new Event("ttn-news-updated"));
   }
 
   function normalizeTitle(title) {
@@ -591,29 +592,33 @@ const TTNNews = (() => {
   }
 
   async function init() {
-    const [feedResults, finnhubResults, currentsResults, apitubeResults] = await Promise.all([
-      Promise.all(TTN_CONFIG.NEWS_FEEDS.map(fetchFeed)),
-      fetchFinnhub(),
-      fetchCurrents(),
-      fetchApitube(),
-    ]);
-    const combined = [...feedResults.flat(), ...finnhubResults, ...currentsResults, ...apitubeResults]
-      .filter((i) => i.title)
-      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-    allItems = balanceBySource(dedupeItems(combined.filter((i) => !isLegalSolicitation(i))));
-
-    if (!allItems.length) {
-      allItems = fallbackItems();
-    }
-
-    await resolveTickerPrices(allItems.slice(0, 13));
-    await resolveCategoryPhotos(allItems.slice(0, 13).map((i) => categoryFor(i)));
-    renderFeatured(allItems[0]);
-    renderFeed(allItems.slice(1, 13));
-    renderTrending();
-
     const searchInput = document.getElementById("search-input");
     searchInput?.addEventListener("input", (e) => applySearch(e.target.value));
+    document.addEventListener("ttn-prices-updated", () => {
+      if (allItems.length) renderCurrent();
+    });
+    // Publish each successful source as it arrives, without waiting for
+    // slower feeds, market quotes or optional category photography.
+    const combined = [];
+    const accept = (items) => {
+      if (!items.length) return;
+      combined.push(...items);
+      const sorted = combined.filter((i) => i.title && !isLegalSolicitation(i))
+        .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      allItems = balanceBySource(dedupeItems(sorted));
+      renderCurrent();
+    };
+    await Promise.allSettled([
+      ...TTN_CONFIG.NEWS_FEEDS.map((feed) => fetchFeed(feed).then(accept)),
+      fetchFinnhub().then(accept), fetchCurrents().then(accept), fetchApitube().then(accept),
+    ]);
+    if (!allItems.length) { allItems = fallbackItems(); renderCurrent(); return; }
+    // Enrichment stays in the background. Headlines and source photos are
+    // already usable even if either enrichment service fails.
+    await Promise.allSettled([
+      resolveTickerPrices(allItems.slice(0, 13)).then(renderCurrent),
+      resolveCategoryPhotos(allItems.slice(0, 13).map(categoryFor)).then(renderCurrent),
+    ]);
   }
 
   function fallbackItems() {

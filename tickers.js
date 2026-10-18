@@ -12,6 +12,19 @@
  * to us, since it's a sealed iframe.
  */
 const TTNTickers = (() => {
+
+  // Bound both response headers and JSON body parsing; a stalled provider
+  // must not leave its consumer waiting indefinitely.
+  async function fetchJSON(url, options = {}) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    try {
+      const response = await fetch(url, { ...options, signal: controller.signal });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } finally { clearTimeout(timer); }
+  }
+
   const state = {}; // id -> { price, changePct, demo }
 
   function fmtPrice(v, opts = {}) {
@@ -22,6 +35,7 @@ const TTNTickers = (() => {
 
   function applyUpdate(id, price, changePct, isDemo) {
     state[id] = { price, changePct, demo: isDemo };
+    document.dispatchEvent(new Event("ttn-prices-updated"));
   }
 
   async function fetchCrypto() {
@@ -29,20 +43,19 @@ const TTNTickers = (() => {
     if (!cryptoTickers.length) return;
     const ids = cryptoTickers.map((t) => t.coingeckoId).join(",");
     try {
-      const res = await fetch(
+      const data = await fetchJSON(
         `https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true`,
         TTN_CONFIG.COINGECKO_KEY
           ? { headers: { "x-cg-demo-api-key": TTN_CONFIG.COINGECKO_KEY } }
           : undefined
       );
-      const data = await res.json();
       cryptoTickers.forEach((t) => {
         const d = data[t.coingeckoId];
         if (d) applyUpdate(t.id, d.usd, d.usd_24h_change ?? 0, false);
-        else applyUpdate(t.id, ...demoValue(t), true);
+        else applyUpdate(t.id, null, null, true);
       });
     } catch (e) {
-      cryptoTickers.forEach((t) => applyUpdate(t.id, ...demoValue(t), true));
+      cryptoTickers.forEach((t) => applyUpdate(t.id, null, null, true));
     }
   }
 
@@ -52,21 +65,19 @@ const TTNTickers = (() => {
     let rate = null;
     let changePct = 0;
     try {
-      const res = await fetch(
+      const data = await fetchJSON(
         `https://api.frankfurter.app/latest?from=${fx.frankfurterPair.from}&to=${fx.frankfurterPair.to}`
       );
-      const data = await res.json();
       rate = data.rates[fx.frankfurterPair.to];
     } catch (e) {
-      applyUpdate(fx.id, ...demoValue(fx), true);
+      applyUpdate(fx.id, null, null, true);
       return;
     }
     // Change % is best-effort — if it fails, still show the real current rate
     try {
-      const prevRes = await fetch(
+      const prevData = await fetchJSON(
         `https://api.frankfurter.app/${shiftDate(-3)}?from=${fx.frankfurterPair.from}&to=${fx.frankfurterPair.to}`
       );
-      const prevData = await prevRes.json();
       const prevRate = Object.values(prevData.rates)[0] ?? rate;
       changePct = ((rate - prevRate) / prevRate) * 100;
     } catch (e) {
@@ -85,38 +96,30 @@ const TTNTickers = (() => {
     const symbols = TTN_CONFIG.TICKERS.filter((t) => t.twelveDataSymbol);
     if (!symbols.length) return;
     if (!TTN_CONFIG.TWELVE_DATA_KEY) {
-      symbols.forEach((t) => applyUpdate(t.id, ...demoValue(t), true));
+      symbols.forEach((t) => applyUpdate(t.id, null, null, true));
       return;
     }
     for (const t of symbols) {
       try {
-        const res = await fetch(
+        const data = await fetchJSON(
           `https://api.twelvedata.com/quote?symbol=${encodeURIComponent(
             t.twelveDataSymbol
           )}&apikey=${TTN_CONFIG.TWELVE_DATA_KEY}`
         );
-        const data = await res.json();
         if (data.close) {
           applyUpdate(t.id, parseFloat(data.close), parseFloat(data.percent_change ?? 0), false);
         } else {
-          applyUpdate(t.id, ...demoValue(t), true);
+          applyUpdate(t.id, null, null, true);
         }
       } catch (e) {
-        applyUpdate(t.id, ...demoValue(t), true);
+        applyUpdate(t.id, null, null, true);
       }
     }
   }
 
-  function demoValue(t) {
-    const base = t.demoBase || 100;
-    const drift = (Math.sin(Date.now() / 90000 + base) * 0.6) / 100; // small oscillation
-    const price = base * (1 + drift);
-    const changePct = drift * 100;
-    return [price, changePct];
-  }
 
   async function refreshAll() {
-    await Promise.all([fetchCrypto(), fetchForex(), fetchTwelveData()]);
+    await Promise.allSettled([fetchCrypto(), fetchForex(), fetchTwelveData()]);
   }
 
   function init() {
@@ -126,7 +129,7 @@ const TTNTickers = (() => {
   }
 
   function getChangePct(id) {
-    return state[id]?.changePct ?? null;
+    return state[id]?.demo ? null : (state[id]?.changePct ?? null);
   }
 
   function getState(id) {
