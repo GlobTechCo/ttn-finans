@@ -2470,20 +2470,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A company reports profit above the published analyst estimate, and its shares fall. The result is not necessarily contradictory: the estimate measures one expectation, while the share price reflects a wider set of assumptions about future earnings.",
-      "Consensus estimates also depend on which analysts and accounting definitions are included. A comparison of adjusted earnings with a forecast for reported earnings is not a clean beat. Revenue, margins and cash flow can tell a different story from the headline profit number.",
-      "Guidance changes the horizon. A strong completed quarter may accompany a weaker outlook for demand or higher expected costs. Investors can lower the value they assign to future cash flows even while acknowledging that the quarter exceeded a forecast.",
-      "Expectations may already be demanding. A stock that rose before the release can need more than a small beat to sustain its valuation. That is a possible explanation for a decline, not proof of what caused every seller to act.",
-      "An options-implied move describes uncertainty priced into contracts, not a required share-price response. Derivative positioning can affect trading, but attributing a particular move to it requires evidence about positions and transactions.",
-      "Read the earnings release, financial statements and management's explanation together. The relevant question is which assumptions changed: sales growth, profitability, investment needs or the time required to generate cash. Beat and miss are useful labels for a comparison, not a verdict on the business."
+      "An earnings beat means a reported result exceeded a particular estimate. It does not establish that the quarter was strong in every respect or that the stock was priced for the outcome. A company can surpass an earnings-per-share forecast while reporting weaker margins, slower cash collection or guidance below what investors had expected.",
+      "The comparison needs a named measure and a consistent basis. Revenue, operating profit, net income and adjusted earnings per share answer different questions. The SEC's financial-statement guidance explains how the accounting measures connect, while its non-GAAP guidance addresses the presentation of adjusted measures. A headline that switches between those bases can turn a valid number into a misleading comparison.",
+      "Establish what was actually beaten",
+      "Suppose a fictional company reports adjusted earnings of $1.20 per share against an adjusted estimate of $1.10. On that basis it beat by ten cents. If reported GAAP earnings are 80 cents, comparing that figure directly with the adjusted estimate would answer a different question. The adjustments and the most directly comparable accounting measure need to be examined together.",
+      "The estimate also has a date and a source. A consensus assembled before a major company update may differ from one assembled afterward. Contributors can use different assumptions or update on different schedules. A careful report identifies the estimate provider and confirms that the forecast concerns the same period, share basis and adjustment convention as the reported result. Apparent precision cannot repair a mismatch in definitions.",
+      "Revenue growth can coexist with falling operating profit",
+      "Consider a hypothetical business with $100 million of revenue and $80 million of operating costs. Operating profit is $20 million, a 20% margin. In the next comparable period, revenue rises to $110 million while costs reach $93 million. Operating profit falls to $17 million and the margin to about 15.45%, despite 10% revenue growth.",
+      "The deterioration could reflect investment, temporary disruption or weaker underlying economics. The arithmetic alone does not identify the cause. Management's explanation should be tested against the expense detail and subsequent results. A top-line beat is therefore one observation within the release, not evidence that every dollar of additional sales translated into a larger profit contribution.",
+      "Share-count changes can lift earnings per share",
+      "Imagine another fictional company earning $100 million with a weighted average of 50 million shares. Earnings per share are $2. If net income stays at $100 million but the weighted average share count falls to 45 million, earnings per share become approximately $2.22. The per-share figure improves by about 11.1% without growth in total net income.",
+      "That does not make repurchases inherently good or bad. The price paid, financing and alternative uses of cash matter. It does mean the explanation should separate operating performance from changes in the denominator. Our guide to <a href=\"market-cap-explained.html\">share count and equity valuation</a> shows why the number of shares matters across several financial comparisons. Per-share growth and business growth are related but distinct measures.",
+      "Cash conversion tests another part of the result",
+      "Revenue and earnings do not necessarily arrive as cash during the same period. A company can record sales while receivables increase, or report expenses whose cash effects occur elsewhere in time. The cash-flow statement helps identify those differences. A strong earnings figure accompanied by weaker operating cash flow needs an explanation, rather than an automatic conclusion that the earnings are either excellent or invalid.",
+      "Suppose an illustrative business reports $30 million of net income and $15 million of operating cash flow while customer receivables rise. The gap directs attention to collections and working capital. A later collection could reverse part of it, while persistent delays could indicate a more serious problem. Our explanation of <a href=\"free-cash-flow-explained.html\">free cash flow and timing</a> follows the distinction between reported profit, operating cash and investment spending.",
+      "Guidance can change the value of a good quarter",
+      "A share price reflects expectations beyond the period just reported. Imagine a fictional company beating the latest quarterly earnings forecast by five cents while reducing its full-year outlook from an expected $5 per share to $4.50. Investors could reasonably focus on the larger change in the future outlook. The quarterly beat and a negative price response would not be contradictory.",
+      "The assessment should therefore cover reported results, margins, adjustments, share count, cash conversion and forward assumptions. Separate what the company disclosed from the market's interpretation of it. A beat is a useful description of one comparison. Explaining whether the release improved the investment case requires showing which expectations changed and how much future performance was already embedded in the valuation."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC: Financial statements, earnings per share and cash flows",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      },
+      {
+        "label": "SEC: Non-GAAP financial measures and comparable GAAP presentation",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
       }
     ],
-    "dateModified": "2026-10-18T14:26:10-04:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
@@ -2671,20 +2686,35 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "Investing a windfall in installments and investing each monthly paycheck are different decisions. The first delays money already available; the second puts new savings to work as they arrive.",
-      "With an existing lump sum, immediate investment gives the entire balance exposure to the chosen assets from the start. Phasing it in leaves some cash outside the market. That cash avoids early losses but also misses any gains before its scheduled investment.",
-      "The comparison depends on what the market does during the deployment period, the interest earned on cash and the assets being purchased. Historical studies can illuminate those trade-offs, but their results depend on the sample, schedule and portfolio. A headline percentage does not describe every investor's case.",
-      "Installments can reduce the anxiety of making one large decision. That behavioral benefit matters if an immediate investment would lead someone to abandon a plan after a decline. It is not the same as proving that installments produce a higher expected return.",
-      "The deployment schedule should be defined before the first purchase if it is intended to reduce discretionary timing. Repeatedly pausing contributions in response to headlines changes the strategy and makes its outcome harder to evaluate.",
-      "Neither approach fixes a unsuitable asset mix or a need for cash in the near future. The choice concerns when an agreed amount enters a portfolio; the portfolio's risk, costs and purpose still need a separate decision."
+      "Investing an existing cash balance all at once and spreading it across several dates create different paths of market exposure. A lump sum participates immediately in subsequent gains and losses. Phasing the investment leaves part of the money in cash for a time. Neither approach can be judged from its label without specifying the starting funds, investment schedule and market path.",
+      "This comparison is different from investing each paycheck when it arrives. FINRA emphasizes that regularly investing newly earned money does not involve the same decision to delay an already available balance. Someone contributing monthly from income may be investing as soon as possible. Describing that person as choosing cash over immediate investment would misstate the alternatives actually available.",
+      "A rising market rewards earlier exposure",
+      "Take a hypothetical $10,000 balance and an investment priced at $100. Investing everything immediately purchases 100 units. If the price later reaches $125, the position is worth $12,500. The $2,500 gain is 25%, before fees and taxes. This example assumes the investor holds throughout and receives no distributions.",
+      "Now divide the same $10,000 into two equal installments. The first $5,000 purchases 50 units at $100; the second purchases 40 units at $125. At the second purchase date, 90 units are worth $11,250. The gain is $1,250, or 12.5% of the original cash. The calculation assumes no return on uninvested cash. The staged approach earned less because half the money missed the rise.",
+      "A falling market changes the comparison",
+      "Return to the original $100 starting price, but let the second purchase price be $80. The lump sum still purchases 100 units, now worth $8,000. The two-installment approach purchases 50 units first and 62.5 units later, for 112.5 units worth $9,000. It loses $1,000 rather than $2,000 at that observation date, using the same assumptions about cash, distributions and costs.",
+      "The lower average purchase price in this example is an outcome of buying after a decline. It is not a guarantee that spreading purchases always produces a lower cost. In the rising-market example, the staged investor's average cost was higher. Both paths are deliberately simple illustrations, not historical evidence establishing the likelihood of either outcome or a forecast for the next investment period.",
+      "A schedule changes timing risk rather than eliminating loss",
+      "After the final installment, both approaches can hold the same type of risky asset. Further market declines affect the invested balance regardless of how the purchases were originally scheduled. Staging entry can soften the effect of an immediate fall while leaving the investor exposed to losses later. Its protection should therefore be described over the period when some money remains uninvested.",
+      "An illustrative six-month schedule also leaves an implementation question: what happens if prices rise sharply or fall sharply after the first purchase? A rule fixed in advance can reduce repeated decisions, while an open-ended promise to invest later can become an attempt to time the market. Extending the schedule whenever the outlook feels uncomfortable changes the strategy being evaluated.",
+      "Cash returns and costs belong in the calculation",
+      "Money awaiting investment may earn interest, and that return can narrow the difference between the two approaches. Suppose $5,000 remains in cash for one month at an illustrative simple annual rate of 4.8%. Using one-twelfth of the year, the gross interest is approximately $20. Actual account terms, compounding and taxes can change the amount. The interest should be included consistently rather than assumed to be zero only in one strategy.",
+      "Transaction charges can matter too. If a brokerage hypothetically charges $5 per purchase, twelve purchases cost $60 while one costs $5. That example does not imply every broker charges commissions. It identifies a cost to verify. Compare the actual product, spread, account charges and cash arrangement, including the distinction between <a href=\"money-market-funds-vs-savings-explained.html\">a money market fund and an insured bank deposit</a>.",
+      "The portfolio decision comes before the entry schedule",
+      "A plan that invests money needed soon into a volatile asset can create a mismatch under either entry method. Phasing purchases does not repair an unsuitable asset allocation or inadequate cash reserve. Investor.gov's diversification guidance addresses the broader questions of goals, horizon and the mix of investments. The schedule controls when exposure begins, not which risks the chosen assets ultimately carry.",
+      "A fair comparison therefore fixes the amount available, the investment, the purchase dates and the treatment of cash before measuring results. It then distinguishes arithmetic examples from evidence about future returns. Lump-sum investing accepts full exposure immediately; a staged plan pays for a period of lower exposure through the possibility of missing gains. The relevant trade-off is visible once both gains and losses are counted on the same basis."
     ],
     "sources": [
       {
-        "label": "SEC Investor.gov: Asset allocation and diversification",
+        "label": "FINRA: Benefits and limitations of dollar-cost averaging",
+        "url": "https://syndication.finra.org/content/benefits-and-limitations-dollar-cost-averaging"
+      },
+      {
+        "label": "SEC Investor.gov: Asset allocation, horizon and diversification",
         "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp",
     "imageMedium": "assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp",
@@ -3088,24 +3118,39 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "The monthly Employment Situation report can show payroll growth and a rising unemployment rate at the same time. The numbers come from different surveys and measure different aspects of work, so that combination is not automatically a statistical contradiction.",
-      "The establishment survey measures jobs on nonfarm payrolls. It counts jobs rather than individual people, meaning someone working for two employers can appear twice. The household survey provides measures of people working, unemployed or outside the labor force.",
-      "Changes in payrolls should be read alongside revisions to earlier months. Initial estimates use incomplete responses and are subsequently revised; periodic benchmarking can adjust the longer history. A shift from one month's first estimate to the next is not always a stable trend.",
-      "Wage measures and hours worked add information about labor demand and income. An hourly-wage average can change partly because the mix of workers changes. A rise in that average does not necessarily describe the raise received by a typical employee.",
-      "Markets compare the report with expectations and its implications for policy and company earnings. Strong hiring can support a growth outlook while also changing interest-rate expectations. Which influence dominates depends on the surrounding inflation and financial conditions.",
-      "A careful jobs story names the survey, compares the revised history and identifies whether the movement reflects hiring, participation or wages. The headline payroll change is an entry point, not a complete account of the labor market."
+      "The monthly U.S. employment report combines evidence from two surveys. The establishment survey measures payroll jobs, hours and earnings. The household survey measures people and their labor-force status, including unemployment. The headline payroll change is important, but it is not a complete measure of how many people found work or how household income changed.",
+      "BLS explains that the payroll reference period is the pay period including the 12th of the month. A person holding jobs at two establishments can appear twice in the job count. The household survey uses different concepts and coverage. Understanding those differences prevents a common mistake: treating payroll growth and the change in employed people as interchangeable figures that must always match.",
+      "A net gain does not count every hire",
+      "Imagine a hypothetical economy in which employers add 300,000 payroll jobs while other positions disappear by 200,000 over the relevant comparison. The net increase is 100,000. The headline does not say only 100,000 people were hired. It summarizes the difference between increases and decreases, while actual movements between employers and labor-force statuses can be much larger.",
+      "A worker moving from one employer to another also does not automatically create an additional net job. The effect depends on what happens to the old position and whether the new employer expands its payroll. A useful report distinguishes the net employment change from gross hiring, layoffs and worker turnover. Those related questions require additional data rather than being inferred from the headline alone.",
+      "Revisions change the recent path",
+      "Preliminary payroll estimates can be revised as additional information becomes available, and annual benchmarking provides another adjustment process. Suppose a hypothetical release reports 100,000 new jobs for the latest month while revising the previous two monthly changes down by 40,000 and 30,000. Compared with the previously published path, the combined arithmetic adds only 30,000 across those three changes.",
+      "The latest month's estimate remains positive 100,000 in that illustration. The revision calculation answers a different question about the recent employment path. Both belong in the account. A strong new headline can coexist with weaker earlier results, just as upward revisions can improve the context around a modest latest number. Reporting only the newest observation can omit a material change in the underlying picture.",
+      "Hours can offset a larger payroll",
+      "Employment counts do not measure the full quantity of labor paid for. Consider an illustrative workforce of one million people averaging 35 paid hours per week, or 35 million hours. If employment rises to 1.01 million while average hours fall to 34.5, total weekly hours become 34.845 million. Job count rises 1%, but the simplified aggregate-hours calculation falls by 155,000 hours.",
+      "This example does not reproduce the full construction of the official aggregate-hours index. It shows why the hours series deserves attention. Employers can adjust overtime or schedules before changing headcount. A company or industry can therefore reduce labor input without immediately reporting an equivalent decline in jobs. Reading payrolls alongside hours helps identify which part of the adjustment is occurring.",
+      "Hourly pay is not the same as weekly income",
+      "Suppose a hypothetical worker earns $30 per hour for 35 hours, producing $1,050 a week before taxes. If hourly pay rises to $31 while hours fall to 34, weekly earnings become $1,054. The hourly increase is about 3.33%, but weekly earnings rise by only about 0.38%. The difference comes from the shorter schedule, not inconsistent arithmetic.",
+      "Published average earnings can also move when the composition of employment changes. An economy adding more high-paid jobs can raise the average without every continuing worker receiving the same increase. Inflation introduces another comparison between nominal earnings and purchasing power. Our explanation of <a href=\"cpi-inflation-explained.html\">CPI and changing price levels</a> shows why a higher dollar wage does not alone establish an improvement in real spending capacity.",
+      "Read unemployment through its own denominator",
+      "The unemployment rate relates unemployed people to the labor force, rather than to payroll jobs. Participation changes can affect that denominator. Our guide to <a href=\"unemployment-rate-u3-u6-participation-explained.html\">U-3, U-6 and participation</a> follows examples in which a lower unemployment rate results from either additional employment or people leaving active job search. The same direction in the rate can describe different developments.",
+      "A useful release assessment therefore combines payroll changes, revisions, hours, earnings and the household measures. Use comparable seasonal-adjustment conventions and distinguish sampling uncertainty from a documented trend. One report can materially change the outlook, but its components should support the explanation offered. The strongest account shows where the evidence agrees and where the surveys or measures are telling different parts of the labor-market story."
     ],
     "sources": [
       {
-        "label": "US BLS: Current Employment Statistics",
-        "url": "https://www.bls.gov/ces/"
+        "label": "BLS: Payroll survey coverage, reference period and earnings concepts",
+        "url": "https://www.bls.gov/web/empsit/cesfaq.htm"
       },
       {
-        "label": "US BLS: Labor-force concepts and alternative unemployment measures",
+        "label": "BLS: Employment Situation technical notes and revisions",
+        "url": "https://www.bls.gov/news.release/empsit.tn.htm"
+      },
+      {
+        "label": "BLS: Household survey labor-force definitions",
         "url": "https://www.bls.gov/cps/definitions.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp",
     "imageMedium": "assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp",
@@ -3459,20 +3504,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A price target can look more exact than the assumptions supporting it. The number generally expresses an analyst's valuation under a forecast and horizon, not an obligation for the share price to reach it.",
-      "Ratings also use different systems. Buy, hold, outperform and neutral can be defined relative to a market benchmark, a sector or an expected total return. A rating's meaning must be checked in the firm's definitions before comparing it with another analyst's label.",
-      "Valuation can depend on forecast earnings, margins, discount rates and the multiple applied to future results. Changing any of those can move the target without a change in the company's latest reported quarter. A report should explain which assumption changed.",
-      "Research providers can have commercial relationships with issuers and investors. Disclosures about investment-banking work, holdings and other interests help identify potential conflicts. They do not prove a recommendation is wrong, but they are relevant to how it should be evaluated.",
-      "Consensus targets combine opinions that may differ in date, accounting basis and horizon. An average can conceal substantial disagreement. A broad spread of estimates is information about uncertainty, rather than a reason to present their midpoint as an established value.",
-      "Read the investment case, risks, forecast changes and disclosures. The target is most useful as a way to inspect that argument, with its assumptions exposed, rather than as a shortcut around doing valuation work."
+      "An analyst's price target is an estimate produced from a valuation case. It is not a promise that the market will reach that price, or a complete investment recommendation without the assumptions behind it. The useful information lies in the expected business performance, the valuation method and the circumstances that would invalidate the case.",
+      "Rating labels also need definitions. The SEC's investor guidance notes that terms such as buy, hold and outperform can mean different things at different firms. A relative recommendation may concern performance against an industry benchmark rather than an absolute gain. Reading only the label can therefore produce a different interpretation from the one the research report actually describes.",
+      "The arithmetic is precise; the assumptions are estimates",
+      "Consider a hypothetical analyst expecting a company to earn $5 per share next year and assigning those earnings a multiple of 20. That produces a $100 target. Another analyst forecasts $4.50 and uses a multiple of 18, producing $81. Both calculations are straightforward. The disagreement concerns the business outlook and the price investors may pay for the resulting earnings, rather than a dispute about multiplication.",
+      "Now hold the first analyst's earnings forecast at $5 but reduce the assumed multiple from 20 to 16. The target falls from $100 to $80 without a change in forecast earnings. Alternatively, earnings could fall to $4 while the multiple remains at 20, producing the same $80. A target revision becomes more informative when the report separates changes in operating expectations from changes in valuation.",
+      "Match the target to its horizon and return definition",
+      "Suppose a fictional share trades at $80 and a report sets a $100 target over twelve months. The implied price gain is 25%, before costs and taxes. If the report also assumes a $2 dividend, the simple prospective total return becomes 27.5%, assuming the target is reached and the dividend is received. The additional cash should not be counted twice if the stated recommendation already uses total return.",
+      "The starting price also matters. If the share reaches $95 before a reader sees the report, the remaining price gain to the unchanged $100 target is approximately 5.26%. Repeating the original 25% figure would misstate the opportunity at the new price. A useful account provides the target date, reference price and forecast horizon so that readers can distinguish the original calculation from today's comparison.",
+      "An average target can hide a wide disagreement",
+      "Imagine five hypothetical targets of $60, $70, $100, $130 and $140. Their average is $100, but none of that arithmetic establishes a narrow consensus about value. The highest target is more than twice the lowest. The distribution reveals uncertainty that disappears when the average is presented without its range or the ages of the underlying reports.",
+      "The set of contributors can change too. An average might move because a new analyst begins coverage, even when existing analysts leave their forecasts unchanged. Reports may also use different financial periods or adjustment conventions. Before describing a higher average as broad optimism, check whether the comparison uses the same contributors, comparable horizons and a consistent earnings basis.",
+      "Scenario analysis makes uncertainty visible",
+      "A valuation can be tested under weaker sales, lower margins or a different discount rate. For an illustrative business, a base case might produce a $100 estimate, a weaker case $70 and a stronger case $120. These are scenarios, not a statistical confidence interval unless a model establishes one. The distance between them shows how much the conclusion depends on assumptions worth investigating.",
+      "A target is particularly fragile when several favorable developments must occur together. Strong revenue growth, margin expansion and a higher valuation multiple can each be plausible individually while making an ambitious combined case. Our explanation of <a href=\"earnings-beat-miss-explained.html\">earnings results and market expectations</a> shows why even an apparently good quarter may leave that case under pressure. The result has to be compared with what was already assumed.",
+      "Read disclosures alongside the model",
+      "Research firms can have commercial relationships or ownership interests relevant to their coverage. SEC guidance explains why readers should examine conflict disclosures without assuming that a disclosed relationship automatically makes the analysis wrong. Current FINRA research rules address disclosures and the basis for ratings and targets. The factual model and the potential incentives deserve separate scrutiny.",
+      "For a useful assessment, identify the valuation method, forecast period, key assumptions, risk scenarios and rating definition. Then compare the report with the company's filings and other evidence. A target can organize a well-supported argument about value, but its apparent precision does not make the future certain. The research is most useful when the reader can explain what must happen for the estimate to hold."
     ],
     "sources": [
       {
-        "label": "SEC: Analyzing analyst recommendations",
+        "label": "SEC: Interpreting research ratings and potential conflicts",
         "url": "https://www.sec.gov/files/investor/pubs/analysts.htm"
+      },
+      {
+        "label": "FINRA Rule 2241: Research reports, ratings, targets and disclosures",
+        "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2241"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp",
@@ -3735,24 +3795,35 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A money market fund and a high-yield savings account may advertise similar returns. Their legal protections and sources of risk are different, which matters when the money is needed at a particular time.",
-      "A savings account is a deposit at a bank. FDIC insurance applies to eligible deposits at insured banks subject to ownership categories and coverage limits. Several account balances at the same bank may need to be combined when assessing the coverage.",
-      "A money market fund is an investment fund holding short-term instruments under its stated mandate. It is not an FDIC-insured deposit, even when purchased through a bank or brokerage. Fund assets, liquidity arrangements and applicable redemption terms need to be checked in the documents.",
-      "Government, prime and municipal money market funds can hold different assets and have different tax or risk characteristics. A quoted fund yield may also be a different calculation from a savings account's annual percentage yield. Compare definitions, fees and the measurement date.",
-      "Access matters alongside return. Transfer delays, account restrictions, brokerage settlement and fund redemption procedures can affect how quickly the holder receives spendable cash. A product convenient inside a brokerage is not necessarily the best emergency-payment account.",
-      "The decision begins with the purpose and protection needed for the balance. A slightly higher quoted yield does not settle a comparison if it changes insurance coverage, liquidity or the nature of the claim on the money."
+      "A savings account and a money market fund can both be used to hold short-term cash, but they create different legal claims and protections. A savings account is a bank deposit. A money market fund is an investment in a mutual fund holding short-term instruments. A similar-looking balance or yield on an account screen does not make those arrangements interchangeable.",
+      "The names can be confusing. A bank money market deposit account is not the same product as a money market mutual fund. FDIC coverage applies to eligible deposits at an insured bank within the applicable limits; it does not insure mutual-fund investments. The SEC's investor bulletin explains that money market funds can lose value, even though their risks are generally lower than those of many other investments.",
+      "Insurance follows ownership and the bank, not each account label",
+      "The standard FDIC limit is $250,000 per depositor, per insured bank, for each ownership category. Consider a hypothetical person with $200,000 in an individually owned savings account and $100,000 in an individually owned checking account at the same insured bank. With no other relevant deposits and ignoring accrued interest for simplicity, the combined amount in that category is $300,000, leaving $50,000 above the standard limit.",
+      "Opening another similarly owned account at that bank does not automatically create a new limit. Different ownership categories can have different coverage calculations, subject to their requirements. The example is intentionally limited to one owner and one category. More complicated arrangements should be checked against the FDIC's rules rather than inferred from the number of accounts or the brand names displayed by a financial platform.",
+      "A fund's portfolio and share-price convention matter",
+      "Money market funds invest in liquid, short-term debt, cash and cash equivalents. Their categories and share-price conventions differ. Some seek to maintain a stable net asset value, while others use a floating value. The SEC distinguishes government, prime and tax-exempt funds and explains why investors need to identify the type they own. A stable target is not the equivalent of deposit insurance.",
+      "Suppose a fictional investment has 10,000 shares at a $1 net asset value. Its value is $10,000 before any accrued distribution. If the value becomes $0.995 per share, the same holding is worth $9,950, a $50 decline. This is an arithmetic illustration, not a forecast or claim about a particular fund. It shows why a share-price convention and a guarantee of principal are different concepts.",
+      "Compare yields over the same period",
+      "Imagine $50,000 earning an illustrative 4.5% for a full year in one arrangement and 4.3% in another. Under a simple annual calculation with no compounding, fees or taxes, gross income is $2,250 versus $2,150. The difference is $100. The example assumes both rates remain unchanged; a displayed short-term yield does not promise that result for the next twelve months.",
+      "Savings rates and money-fund yields can both change. A bank annual percentage yield and a fund's annualized recent yield also use different conventions. Check the observation date, whether expenses are already reflected and whether a promotional rate expires. Subtracting a fund's expenses again from a yield already reported net of those expenses would understate the result. The comparison needs consistent definitions before the rate difference becomes meaningful.",
+      "Access to cash depends on the actual arrangement",
+      "An investment can be liquid in market terms while still having transaction cutoffs, settlement or transfer steps before the money reaches a bill-payment account. A bank account can also have contractual access conditions. Someone planning a payment should verify the required sequence and timing rather than assuming every cash-like balance is immediately spendable through every channel.",
+      "Money funds can use liquidity fees under specified circumstances, with rules differing by type. The SEC's bulletin explains the current framework. In a hypothetical case where an applicable redemption fee is 0.2%, withdrawing $5,000 would cost $10. This is not a statement that every fund charges that fee. It illustrates why redemption terms deserve attention alongside the normal income yield.",
+      "Principal protection does not preserve purchasing power",
+      "Even a balance protected against a covered bank failure can lose purchasing power if its after-tax return trails inflation. A fund also faces that purchasing-power issue in addition to its investment risks. Our explanation of <a href=\"cpi-inflation-explained.html\">inflation and the price level</a> separates nominal account values from the cost of the goods and services the money is intended to buy.",
+      "The useful comparison starts with the claim being held, the institution or fund, coverage limits, portfolio risks and the date cash is needed. Yield comes after those features are understood. A slightly higher quoted return may or may not compensate for a different arrangement. Describing the protections and access terms precisely gives readers a firmer basis for comparing products than treating all short-term cash balances as the same asset."
     ],
     "sources": [
       {
-        "label": "FDIC: Deposit-insurance coverage rules",
+        "label": "FDIC: Deposit-insurance limits and ownership categories",
         "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance"
       },
       {
-        "label": "SEC Investor.gov: Mutual-fund structures and risks",
-        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds"
+        "label": "SEC Investor.gov, November 2024: Money market funds, risks and liquidity fees",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-12"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/money-market-funds-vs-savings-explained-480.webp",
     "imageMedium": "assets/responsive/money-market-funds-vs-savings-explained-960.webp",
@@ -4968,20 +5039,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "Pricing an oil contract in dollars is one use of the currency, not a complete explanation of its international role. Reserve holdings, borrowing, payments and foreign-exchange markets each provide a different measure of that role.",
-      "Central banks hold reserve assets partly to meet liquidity and policy needs. A currency supported by deep markets and widely usable securities can be convenient for those purposes. The quantity held still depends on institutions' choices and the risks they seek to manage.",
-      "Trade invoicing and dollar borrowing can reinforce demand for dollar funding. Businesses and banks may need the currency even when neither party is based in the United States. That network can make switching costly without making it impossible.",
-      "The US gains access to a broad investor base, but reserve status does not remove inflation risk, fiscal trade-offs or the need to service debt. Nor does the entire level of US borrowing costs follow from a single currency-status premium.",
-      "Changes in reserve shares should be interpreted with valuation effects and the underlying quantities in mind. A decline in a reported percentage can reflect exchange-rate movements, diversification or growth in other reserve holdings. It does not necessarily document an abrupt decision to abandon the dollar.",
-      "A serious assessment compares several uses, market depth, institutional credibility and available alternatives. Claims of immediate collapse—or guaranteed permanence—ask one statistic to establish much more than it can."
+      "The dollar's international role spans several activities: official reserve holdings, trade invoicing, payments, borrowing and banking. These measures reinforce one another, but they do not describe the same thing. A transaction priced in another currency does not by itself show that reserve managers sold Treasury securities or that international borrowers stopped funding themselves in dollars.",
+      "The Federal Reserve's July 2025 review examines those distinct uses and the financial-market depth supporting them. It also explains that data arrive with lags, so its findings should be read as a dated baseline rather than a live account of every subsequent policy change. A report about dollar dominance needs to identify the activity, dataset and observation period behind the claim.",
+      "A currency can perform several jobs in one transaction",
+      "Imagine a hypothetical exporter quoting an order in dollars while receiving payment through banks in two other countries. The invoice currency identifies the unit used to set the contract price. The settlement arrangements identify how the payment reaches the seller. A separate loan financing production might be in dollars or another currency. None of those choices automatically tells us how the seller later invests the proceeds.",
+      "Now suppose the same exporter agrees to invoice a future order in euros. That changes one contract's currency exposure. The company might still use dollar borrowing, hedge through a dollar-linked market or retain existing dollar assets. The example does not deny that invoicing choices matter. It shows why a change in one function cannot be converted directly into an identical change across all the others.",
+      "Reserve shares need a denominator and a valuation method",
+      "Official reserve data describe assets held by monetary authorities, not every investor's holdings. The IMF's analysis of COFER reserve shares explains why exchange-rate valuation can change reported currency weights even without equivalent portfolio trades. When reserves denominated in different currencies are expressed in a common unit, movements in exchange rates affect their measured values.",
+      "Consider a simplified portfolio with $60 of dollar assets and non-dollar assets initially worth $40. The dollar share is 60%. If the non-dollar assets appreciate to $50 in dollar terms while the dollar assets remain at $60, total value becomes $110 and the dollar share falls to approximately 54.55%. No dollar asset had to be sold in that illustration. A falling share and a sale are not interchangeable observations.",
+      "The supply of usable assets matters alongside trade",
+      "A reserve manager needs assets that fit liquidity, risk and operational requirements. Holding a currency often means holding securities or deposits denominated in it, rather than storing physical banknotes. The Federal Reserve's review discusses the role of deep U.S. markets and the supply of dollar-denominated assets. An assessment should therefore look beyond the currency used to quote a single commodity.",
+      "Imagine a fictional authority needing to raise cash quickly during a disruption. The ability to sell or finance an asset at scale could matter alongside its expected return. A competing reserve currency would need suitable assets and market infrastructure for that use. This is an operational question about what holders can do with their portfolios, not simply a comparison of the issuing economies' annual trade totals.",
+      "Network effects can support continuity without guaranteeing it",
+      "Businesses may favor arrangements their customers, lenders and counterparties already use. Changing systems can introduce hedging costs, legal work and operational adjustments. Those connections provide a possible explanation for persistence in currency use. They do not establish that the pattern is permanent or that changes in trust, market access or policy cannot weaken it.",
+      "A hypothetical company choosing between two payment currencies might consider conversion spreads, borrowing costs and the currency of its expenses. Even a modest benefit on one invoice could be outweighed by a mismatch elsewhere. The choice is easier to understand by following the full cash-flow chain. Our explanation of <a href=\"currency-intervention-explained.html\">currency transactions and exchange-rate conventions</a> addresses another reason that reported dollar amounts need careful interpretation.",
+      "International use does not guarantee a stronger exchange rate",
+      "A currency's role in global finance and its price against another currency are different variables. The dollar can depreciate over a period while remaining widely used for contracts and funding. Conversely, an exchange-rate rise does not by itself prove a larger share of official reserves. The two observations can interact, but one is not a direct measure of the other.",
+      "For a useful assessment, compare reserve composition, invoicing, payments and financing separately, with consistent dates and valuation adjustments where available. Then investigate whether changes are broad and persistent or limited to particular transactions. Claims that one oil agreement either secures or ends dollar dominance skip most of that evidence. The question is how international users hold, transfer and finance value across the whole system."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: International role of the US dollar, 2025 edition",
+        "label": "Federal Reserve, July 2025: The international role of the U.S. dollar",
         "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-u-s-dollar-2025-edition-20250718.html"
+      },
+      {
+        "label": "IMF, October 2025: Exchange-rate valuation and reported reserve shares",
+        "url": "https://www.imf.org/en/blogs/articles/2025/10/01/dollars-share-of-reserves-held-steady-in-second-quarter-when-adjusted-for-fx-moves"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/dollar-reserve-currency-status-explained-480.webp",
     "imageMedium": "assets/responsive/dollar-reserve-currency-status-explained-960.webp",
@@ -5058,20 +5144,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A government can see its debt rise in dollars while its debt-to-GDP ratio falls. The economy's size, borrowing costs and spending before interest all influence that ratio, so the nominal debt total is only part of the question.",
-      "The familiar r-versus-g comparison uses an interest cost and an economic growth rate on a consistent basis. For debt arithmetic, the effective rate paid across the debt stock is different from today's yield on one newly issued bond. Nominal and real measures must not be mixed casually.",
-      "When growth exceeds the effective interest rate, that difference can reduce the ratio's upward pressure. A primary deficit—spending excluding interest above revenue—can still offset the benefit. When interest exceeds growth, stabilizing the ratio generally requires a stronger primary balance, other things equal.",
-      "Refinancing occurs over time. Higher market rates reach the debt stock as obligations mature or new borrowing is added. The maturity profile and the amount financed at variable rates therefore affect the speed of the adjustment.",
-      "Inflation can raise nominal GDP and erode some fixed nominal claims, but it can also increase new borrowing costs and indexed spending. Treating inflation as a costless route out of debt ignores those responses and distributional effects.",
-      "The CBO's projections make their assumptions explicit. They are scenarios under stated policies and economic conditions, not a date-stamped certainty. Sustainability analysis needs those assumptions alongside the primary balance and financing structure."
+      "Public debt sustainability depends partly on the relationship between borrowing costs and economic growth. When the economy's nominal income grows faster than the effective nominal interest rate on debt, existing debt can become smaller relative to that income even while its dollar amount increases. This arithmetic is useful, but it does not make the primary budget balance or refinancing needs irrelevant.",
+      "The shorthand r minus g compares an interest rate with a growth rate. The comparison must use consistent definitions and periods. A nominal interest rate should be paired with nominal GDP growth in a nominal calculation, not casually compared with real growth that excludes inflation. The effective rate on the outstanding debt stock also differs from the rate quoted today on a newly issued bond.",
+      "Start with an explicit debt and GDP path",
+      "Take a hypothetical government with debt of 100 units and annual GDP of 100 units. Its starting debt-to-GDP ratio is 100%. Suppose the effective nominal interest rate is 4% and nominal GDP grows 5%. With no primary deficit or surplus and no other debt-creating adjustments, debt becomes 104 and GDP becomes 105. The debt ratio falls to approximately 99.05%.",
+      "Debt increased in nominal units while declining relative to the economy. That is not a contradiction: the denominator grew faster than the numerator. The example isolates one year's arithmetic and assumes the interest is financed through additional debt. It does not establish that the same growth and financing conditions will continue, or that creditors will ignore the government's near-term payment schedule.",
+      "A primary deficit can overwhelm the favorable gap",
+      "Keep the same starting debt, interest rate and growth, but add a primary deficit of two units. End-period debt becomes 106 while GDP is 105, so the debt ratio rises to approximately 100.95%. The interest rate is still below growth. That favorable relationship was simply insufficient to offset the additional noninterest borrowing in this example.",
+      "With a primary deficit of one unit instead, end-period debt would be 105 against GDP of 105, leaving the ratio at 100%. Under those assumptions, one unit is the debt-stabilizing primary deficit for the year. This is a calculation for a specific starting ratio and growth rate, not a universal allowance. Different initial debt, rates or growth produce a different balance requirement.",
+      "A primary surplus can offset an unfavorable gap",
+      "Now use a separate hypothetical scenario with debt and GDP again starting at 100, an effective interest rate of 5% and nominal GDP growth of 3%. With a balanced primary budget, debt becomes 105 and GDP 103, producing a ratio of approximately 101.94%. A primary surplus of two units instead leaves debt at 103, matching GDP and stabilizing the ratio at 100%.",
+      "The examples show why neither r below g nor r above g provides a complete verdict. The primary balance changes the result in both directions. Our explanation of <a href=\"us-budget-deficit-national-debt-explained.html\">deficits, refinancing and the debt stock</a> distinguishes noninterest borrowing from the total deficit. A meaningful sustainability account needs those budget measures alongside the interest-growth comparison.",
+      "Effective interest costs adjust over time",
+      "A rise in current market yields does not immediately reprice every fixed-rate security already outstanding. Maturing debt and new borrowing gradually change the effective cost, while floating-rate or inflation-linked obligations behave differently. CBO's interest-cost primer explains why the maturity structure affects the timing. Using today's marginal yield as though it applied instantly to the whole stock can overstate the immediate budget impact.",
+      "The delay is not permanent protection. If higher rates persist, more obligations can be refinanced at those terms. Suppose an illustrative 20 units of debt must be replaced at a rate two percentage points higher. The annualized additional interest on that portion is 0.4 unit before considering issuance dates and other changes. The cash-flow schedule explains when the burden arrives rather than eliminating it.",
+      "Risks outside the simple equation can change the result",
+      "Exchange-rate movements can increase the domestic-currency value of foreign-currency debt. Guarantees or other contingent obligations can become actual liabilities. An IMF working paper on emerging and developing economies finds that a favorable interest-growth gap alone did not eliminate vulnerabilities from deficits, currency exposure and hidden debts. That research is evidence about its studied economies, not a forecast for every sovereign borrower.",
+      "A government can also face a large near-term refinancing requirement even when a longer-run debt ratio looks manageable. Sustainability and immediate market access are connected but different questions. A useful assessment states the debt measure, consistent rate and growth assumptions, primary balance and maturity profile, then tests weaker outcomes. Debt arithmetic helps identify the pressure points; it cannot certify a safe path without examining the assumptions and obligations behind it."
     ],
     "sources": [
       {
-        "label": "Congressional Budget Office: Fiscal projections and assumptions",
-        "url": "https://www.cbo.gov/topics/budget"
+        "label": "CBO, December 2020: Interest costs and maturity structure",
+        "url": "https://www.cbo.gov/publication/56910"
+      },
+      {
+        "label": "IMF Working Paper, September 2021: Interest-growth gaps, deficits and debt distress",
+        "url": "https://www.imf.org/en/publications/wp/issues/2021/09/07/debt-dynamics-in-emerging-and-developing-economies-is-r-g-a-red-herring-465345"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp",
@@ -5603,24 +5704,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A fuel-price increase is visible quickly at the pump. Its wider inflation effect depends on what businesses and workers do next, which can take a different amount of time across industries and economies.",
-      "The direct effect comes through energy prices in the consumer basket. Indirect effects can follow as higher transport or production costs reach other goods and services. Whether businesses pass them through depends on margins, contracts, competition and demand.",
-      "Second-round effects concern the responses that can make the shock more persistent, including subsequent price-setting and wage decisions. A request for higher wages is not proof that a lasting wage-price spiral has begun. Productivity and firms' ability to absorb costs also matter.",
-      "Expectations influence those decisions. If people anticipate continued price increases, they may change contracts and bargaining behavior; if the shock is seen as temporary, responses may be more limited. Measuring expectations and their effects is imperfect, so the distinction should not be asserted from one survey or wage figure.",
-      "Central banks cannot restore an interrupted fuel supply by changing the policy rate. They can affect spending and financial conditions, weighing inflation persistence against the cost of weaker activity. That trade-off depends on the broader economy, not energy alone.",
-      "Follow the spread of price changes, wage developments and expectations over time. The first energy increase establishes the initial shock; a claim that it has become entrenched requires additional evidence."
+      "An energy shock can raise inflation immediately through fuel and utility bills. It can also spread through production and transport costs before reaching other consumer prices. A further question is whether the shock changes wage bargaining, broader pricing decisions and expectations enough to make inflation more persistent. Those are related stages, but calling every indirect cost increase a second-round effect blurs an important distinction.",
+      "An ECB analysis of energy supply shocks separates direct and indirect first-round effects from second-round changes in wage setting, pricing and expectations. That framework helps organize the evidence without assuming every shock follows the same path. The original source of pressure matters, as do contracts, demand, productivity and the ability of firms and households to absorb losses in real income.",
+      "A direct price rise can become an input-cost increase",
+      "Consider a hypothetical delivery business with $1 million in annual costs, including $100,000 for fuel. If fuel prices rise 20% while quantities and all other costs remain fixed, its annual cost rises by $20,000, or 2% of the starting total. A 20% fuel increase therefore does not mechanically require a 20% increase in the price of every delivery.",
+      "The firm might absorb part of the increase, improve efficiency or raise its charges. If it passes the additional cost to customers, that is an indirect effect of the original energy shock. The actual price change depends on the relevant revenue base, margins and demand. The illustration isolates the cost arithmetic rather than predicting the pricing decision of a particular business.",
+      "Contracts can delay the pass-through",
+      "A firm buying fuel under a fixed-price agreement may not face the full increase immediately. Another buying at current prices may respond sooner. Retail energy contracts and regulated pricing arrangements can also create different timings. Comparing only the commodity-price date with the latest consumer-price release can therefore miss the lag between the initial shock and the bills households actually pay.",
+      "Imagine two fictional firms with identical fuel use. One resets its purchase price next month and the other six months later. A later increase in the second firm's charges could still trace to the same original shock. Delay alone does not prove an independent new source of inflation. The assessment needs the contract timing and cost exposure before labeling every subsequent price increase as evidence of a self-sustaining process.",
+      "Second-round effects concern broader behavior",
+      "Workers may seek compensation for lost purchasing power, and firms may revise prices or margins in anticipation of future costs. Longer-term inflation expectations can influence those decisions. The ECB framework treats such responses as distinct from the initial direct and supply-chain effects. Their size and persistence require evidence; a wage increase following an energy shock does not automatically establish an accelerating wage-price spiral.",
+      "Suppose an illustrative wage rises 5% while output per hour rises 3%. The corresponding increase in labor cost per unit of output is approximately 1.94%, calculated as 1.05 divided by 1.03, minus one. This simplified example shows why wage growth alone is incomplete. Productivity, labor's share in total costs and firms' margins affect how a pay settlement translates into pressure on final prices.",
+      "A higher price level can coexist with fading inflation",
+      "Imagine a price index rising from 100 to 110 after a one-time shock and then remaining at 110. The initial increase is 10%; over a later comparable period with no additional rise, inflation can be zero even though the price level is still 10% above the starting point. Falling inflation does not require every earlier price increase to reverse.",
+      "Our explanation of <a href=\"cpi-inflation-explained.html\">CPI and the difference between inflation and price levels</a> follows that arithmetic in more detail. The distinction is particularly important when energy prices stabilize at a high level. A continuing burden on household budgets and a continuing contribution to the inflation rate are different observations. Reporting one as the other can make a temporary rate effect look permanent.",
+      "Look for persistence across several indicators",
+      "A useful assessment follows input prices, selling prices, wage measures, productivity and expectations at different horizons. Short-term expectations can react to a visible fuel increase without longer-term expectations moving by the same amount. Average wage statistics can also change with employment composition. Our guide to <a href=\"nonfarm-payrolls-jobs-report-explained.html\">jobs, hours and earnings</a> explains why those labor measures require context.",
+      "The resulting judgment should distinguish observed pass-through from a forecast of further persistence. An energy shock can reduce real spending power and weaken demand at the same time that it raises some costs. Neither a single wage settlement nor one core-inflation reading establishes the full outcome. The strongest account identifies which stage is visible, which mechanisms remain uncertain and what subsequent evidence would support a broader inflation process."
     ],
     "sources": [
       {
-        "label": "US BLS: CPI definitions and methods",
-        "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
+        "label": "ECB, May 2026: Energy supply shocks, indirect and second-round effects",
+        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260513~5b14c78806.ga.html"
       },
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "BLS: CPI definitions and interpretation of price changes",
+        "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T15:03:34-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/second-round-inflation-effects-explained-480.webp",
     "imageMedium": "assets/responsive/second-round-inflation-effects-explained-960.webp",
