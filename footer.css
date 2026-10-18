@@ -58,3 +58,9 @@
 .topnav>.theme-switch{width:40px;height:40px;min-height:40px;padding:10px;box-sizing:border-box;justify-content:center;border-radius:4px;letter-spacing:0}
 .topnav>.theme-switch svg{display:block;width:18px;height:18px;flex-shrink:0}
 @media(pointer:coarse){.topnav>.theme-switch{width:44px;height:44px;min-height:44px}}
+
+/* Match header icon proportions while keeping a generous invisible hit area. */
+.topnav>.nav-toggle,.topnav>.theme-switch{width:44px;height:44px;min-width:44px;min-height:44px;padding:11px;box-sizing:border-box;border:0;border-radius:4px;background:transparent;box-shadow:none;color:var(--text-dim);line-height:1}
+.topnav>.nav-toggle svg,.topnav>.theme-switch svg{display:block;width:22px;height:22px;margin:auto;flex-shrink:0;pointer-events:none}
+.topnav>.nav-toggle:hover,.topnav>.theme-switch:hover{border:0;background:transparent;color:var(--text)}
+.topnav>.nav-toggle:focus-visible,.topnav>.theme-switch:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
