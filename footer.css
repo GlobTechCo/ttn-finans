@@ -19,3 +19,14 @@
 @media(max-width:480px){.ttn-footer-inner{padding:28px 16px 20px}.ttn-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;padding-bottom:24px}.ttn-footer-brand{grid-column:1/-1}.ttn-footer-brand .ttn-footer-description{margin-top:10px}.ttn-footer nav{min-width:0}.ttn-footer h2{margin-bottom:10px}.ttn-footer ul{gap:6px}.ttn-footer nav a{padding:4px 0;overflow-wrap:anywhere}.ttn-footer-bottom{gap:10px 16px;padding-top:16px}}
 
 .ttn-cookie-preferences{padding:0;border:0;background:transparent;color:var(--text-dim);font:inherit;cursor:pointer}.ttn-cookie-preferences:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+
+/* Publication information and accessible contact links. */
+.nav-links .nav-contact{color:var(--accent);font-weight:600}
+.policy-table-wrap{overflow-x:auto;margin:24px 0}
+.static-page table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}
+.static-page th,.static-page td{padding:12px;border:1px solid var(--border);vertical-align:top}
+.static-page caption{text-align:left;font-weight:600;margin-bottom:12px}
+.static-page code{overflow-wrap:anywhere}
+.policy-action{padding:12px 16px;background:var(--surface-2);color:var(--text);border:1px solid var(--border);border-radius:4px;font:inherit;cursor:pointer}
+.policy-action:focus-visible,.ttn-footer a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.broker-link-unavailable{display:inline-block;padding:10px 14px;color:var(--text-dim);font-size:13px}

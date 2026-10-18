@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-18",
+  "migration": {
+    "1960s-dashboards-design.html": "https://globtechco.github.io/AutoGlob/1960s-dashboards-design.html",
+    "naturally-aspirated-v12-holdouts.html": "https://globtechco.github.io/AutoGlob/naturally-aspirated-v12-holdouts.html",
+    "group-b-rally-era.html": "https://globtechco.github.io/AutoGlob/group-b-rally-era.html",
+    "used-ev-prices-fell.html": "https://globtechco.github.io/AutoGlob/used-ev-prices-fell.html",
+    "tucker-car-too-honest-detroit.html": "https://globtechco.github.io/AutoGlob/tucker-car-too-honest-detroit.html",
+    "delorean-before-time-machine.html": "https://globtechco.github.io/AutoGlob/delorean-before-time-machine.html",
+    "bugatti-chiron.html": "https://globtechco.github.io/AutoGlob/bugatti-chiron.html",
+    "duesenberg-1934-restoration.html": "https://globtechco.github.io/AutoGlob/duesenberg-1934-restoration.html",
+    "classic-car-auction-hammer-price.html": "https://globtechco.github.io/AutoGlob/classic-car-auction-hammer-price.html"
+  },
+  "reason": "Remove duplicated AutoGlob content from TTN; keep old reader URLs working. Destinations exist in AutoGlob main.",
+  "policy_sources": [
+    "https://support.google.com/analytics/answer/11397207?hl=en",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
+  ],
+  "notes": [
+    "GitHub Pages uses HTML redirects; server-side HTTP 301 rules are unavailable.",
+    "Publisher legal identity and Analytics account retention are not independently verified; no entity or retention period is invented."
+  ]
+}

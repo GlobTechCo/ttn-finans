@@ -5,7 +5,7 @@
     if (document.getElementById('cookie-consent')) return;
     const bar = document.createElement('div');bar.id = 'cookie-consent';
     bar.setAttribute('role','region');bar.setAttribute('aria-label','Analytics cookie preferences');
-    bar.innerHTML = '<p>Optional analytics cookies help us understand how readers use TTN Finance. Choose Accept to enable analytics or Decline to keep it off. You can change your choice in the footer. <a href="privacy.html">Privacy Policy</a>.</p><div class="cookie-consent-actions"><button id="cookie-accept" type="button">Accept</button><button id="cookie-decline" type="button">Decline</button></div>';
+    bar.innerHTML = '<p>Optional analytics cookies help us understand how readers use TTN Finance. Choose Accept to enable analytics or Decline to keep it off. You can change your choice in the footer. <a href="cookies.html">Cookie Policy</a> and <a href="privacy.html">Privacy Policy</a>.</p><div class="cookie-consent-actions"><button id="cookie-accept" type="button">Accept</button><button id="cookie-decline" type="button">Decline</button></div>';
     document.body.appendChild(bar);
     function choose(choice) {
       try {localStorage.setItem(key,choice);} catch (_) {}
