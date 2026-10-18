@@ -1,80 +1,110 @@
-# TTN — Market Watch
+# TTN Finance
 
-Статичний сайт-експеримент у стилі Yahoo Finance: темна тема,
-live-котирування 6 активів, інтерактивні графіки TradingView,
-агрегація фінансових новин з авто-визначенням тікерів у статтях.
+TTN Finance is a static English-language publication covering financial markets,
+technology and the global economy. It combines original reporting and explainers,
+a separate external news feed, TradingView quotes and financial calculators.
 
-## Структура проєкту
+## Project structure
 
+- `index.html`: homepage with static editorial cards and an external news feed.
+- `analysis.html`, `tech-ai.html`: paginated original-content archives with a
+  complete, static directory of article links grouped by topic.
+- Individual `.html` article pages: complete text, sources, social metadata and
+  contextual Related reading links. Reading an article does not require JavaScript.
+- `articles.js`: canonical editorial catalog, including full article text.
+- `article-cards.js`: generated compact catalog for homepage and archive cards.
+  It excludes full bodies and source lists to reduce visitor downloads.
+- `style.css`, `editorial-theme.css`, `footer.css`, `homepage-layout.css`,
+  `archive-pagination.css`, `editorial-related.css`: shared presentation.
+- `editorial-theme.js`, `editorial-meta.js`, `archive-pagination.js`: theme,
+  publication labels and archive navigation.
+- `news.js`, `config.js`, `tickers.js`, `app.js`: external news, provider settings,
+  supplementary quote lookups and independent initialization.
+- `market-tape.js`, `chart.js`: TradingView quote tape and interactive charts.
+- `calculators.html`, calculator pages and `calculators.js`: financial tools.
+- `analytics.js`, `consent.js`: analytics consent and preferences.
+- `404.html`: custom not-found page; excluded from indexing and sitemap.
+- `assets/`: editorial originals, responsive sizes and social preview images.
+- `sitemap.xml`, `robots.txt`: discovery and indexing configuration.
+- `scripts/`: maintenance code and operational image manifests, excluded from
+  the published site by `_config.yml`.
+
+## Run locally
+
+No build tool or application server is required:
+
+```sh
+python3 -m http.server 8000
 ```
-ttn-finance/
-├── index.html          # головна сторінка
-├── about.html           # про нас
-├── privacy.html          # політика конфіденційності
-├── css/
-│   └── style.css
-└── js/
-    ├── config.js         # ключі API та джерела даних
-    ├── chart.js          # панель графіка TradingView
-    ├── tickers.js         # live-ціни у верхній панелі
-    ├── news.js            # агрегація новин + визначення тікерів
-    └── app.js              # точка входу
+
+Open `http://localhost:8000/`. External news and quote widgets still require a
+network connection. Static article content and topic directories work without
+JavaScript. The 404 page uses an absolute base URL for the production project
+path, so its links and assets also work for deeply nested missing addresses.
+
+## Editorial maintenance
+
+After adding or updating a catalog entry and its standalone HTML page:
+
+```sh
+python3 scripts/refresh_static_editorial.py
+python3 scripts/refresh_seo_metadata.py
+python3 scripts/verify_site.py
+node scripts/test-independent-loading.cjs
 ```
 
-Чистий HTML/CSS/JS без збірки (build step) — можна відкрити
-`index.html` напряму в браузері або задеплоїти як є.
+Install optional verification/image dependencies with
+`python3 -m pip install -r requirements-maintenance.txt`.
 
-## Джерела даних
+`refresh_static_editorial.py` regenerates the compact card catalog, current
+homepage/archive fallbacks and full topic directories. It preserves existing
+Related reading selections and adds a block to pages that lack one. Review new
+articles in `scripts/editorial_topics.py` to assign a topic and specific related
+reading. Uncategorized new entries still appear in the static archive.
 
-| Дані | Джерело | Потрібен ключ? |
-|---|---|---|
-| Bitcoin, Ethereum | CoinGecko API | Ні (ключ підвищує ліміт) |
-| EUR/USD | Frankfurter.app | Ні |
-| S&P 500, Nasdaq, Gold | Twelve Data | Так (безкоштовний рівень) |
-| Графіки і панель тікерів | TradingView Widget | Ні |
-| Новини | rss2json.com (6 RSS-джерел) + Finnhub + Currents API + APITube (усі додаткові) | Бажано, але не обов'язково |
-| Фото для новин без власної картинки | Pexels API | Бажано (без нього — іконка-заглушка) |
+`refresh_seo_metadata.py` applies reviewed search titles/descriptions from
+`scripts/seo_metadata.py`; it does not replace visible article headlines.
 
-**Без ключів сайт повністю робочий** — тікери без ключа Twelve Data
-показують демо-дані з позначкою `DEMO`, а картки новин без власного
-фото показують чисту іконку замість фото, якщо не додати ключ Pexels.
+For image changes, `scripts/refresh_social_cards.py` refreshes social-image URLs
+and the operational social-card manifest. Retain earlier social-image assets so
+previously shared links continue working. Supply responsive images and keep
+catalog paths, `srcset` and standalone image metadata aligned.
 
-### Отримати безкоштовні ключі
+Update sitemap `lastmod` when a page changes meaningfully. Preserve actual
+publication dates; do not alter them to make old material appear newly published.
+A substantial content revision should receive a truthful `dateModified`.
+Historical editorial queues and review reports can be recovered from Git history;
+they are not needed to run the site.
 
-1. Twelve Data (S&P 500 / Nasdaq / Gold): https://twelvedata.com/pricing → Basic (free), вставити в `TTN_CONFIG.TWELVE_DATA_KEY`
-2. CoinGecko Demo (стабільніші ціни BTC/ETH): https://www.coingecko.com/en/api/pricing → Demo (free), вставити в `TTN_CONFIG.COINGECKO_KEY`
-3. Finnhub (додаткове джерело новин): https://finnhub.io/register → безкоштовно, вставити в `TTN_CONFIG.FINNHUB_KEY`
-4. Currents API (структуровані новини з реальними фото частіше, ніж RSS): https://currentsapi.services → безкоштовно, вставити в `TTN_CONFIG.CURRENTS_KEY`
-5. APITube (те саме + оцінка тональності новин): https://apitube.io → безкоштовно, вставити в `TTN_CONFIG.APITUBE_KEY`
-6. rss2json (підвищує ліміт новин): https://rss2json.com/ → вставити в `TTN_CONFIG.RSS2JSON_KEY`
-7. Pexels (гарантовані фото для новин без власної картинки): https://www.pexels.com/api/ → безкоштовно, вставити в `TTN_CONFIG.PEXELS_KEY`
+## Data and failure behavior
 
-## Розгортання через GitHub Pages
+The visible quote tape is a TradingView widget using Bitstamp BTC/USD and ETH/USD,
+FOREX.com S&P 500 and Nasdaq-100 instruments, CMC Markets Gold and FXCM EUR/USD.
+The FOREX.com instruments are broker quotes, not the official cash-index feeds.
+Closed markets can show the latest available price. The widget does not expose a
+quote API to the site's JavaScript. The former Market Snapshot is removed.
 
-1. Створіть новий репозиторій на GitHub, наприклад `ttn-finance`.
-2. Завантажте вміст цієї папки в корінь репозиторію:
-   ```bash
-   git init
-   git add .
-   git commit -m "Init TTN"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/ttn-finance.git
-   git push -u origin main
-   ```
-3. У репозиторії відкрийте **Settings → Pages**.
-4. У полі **Source** оберіть гілку `main` і папку `/ (root)`.
-5. Збережіть — сайт з'явиться за адресою
-   `https://USERNAME.github.io/ttn-finance/` протягом 1–2 хвилин.
+The external news feed uses the providers configured in `config.js`. Supplementary
+quote lookups use separate providers; they can differ from the tape. Failed or
+unconfigured quote lookups produce missing values, not invented demonstration
+prices. News and quote requests start independently, with bounded request timeouts.
+Do not put private credentials in this publicly served configuration.
 
-### Альтернатива: Vercel / Netlify
+## Deployment
 
-Просто підключіть репозиторій на vercel.com або netlify.com —
-build-команда не потрібна (static site), достатньо вказати корінь
-проєкту як output directory.
+The repository is `GlobTechCo/ttn-finans`. GitHub Pages publishes the `main` branch
+at `https://globtechco.github.io/ttn-finans/` using the root directory and Jekyll.
+`_config.yml` excludes maintenance scripts and documentation. Do not add
+`.nojekyll` without providing an equivalent publication exclusion mechanism.
 
-## Наступні кроки (не входить у базову версію)
+Before publishing, run validation and inspect desktop/mobile layouts, both themes,
+archive pagination and the JavaScript-disabled homepage. After deployment, verify
+representative live pages and the custom not-found response.
 
-- Рекламні слоти (`.ad-slot`) вже розмічені в CSS/HTML — залишається
-  вставити код Google AdSense / банери партнерських програм.
-- Cookie-consent банер для GDPR (обов'язково перед підключенням AdSense у ЄС).
-- Заміна rss2json на власний backend-проксі, якщо потрібен вищий ліміт запитів.
+## Advertising
+
+AdSense is not connected. A valid publisher ID and account-specific instructions
+are needed before adding its script or an `ads.txt` seller record. There is no
+placeholder publisher ID or fabricated authorization record. Editorial quality,
+site policies and accurate reporting remain separate requirements from advertising
+integration.

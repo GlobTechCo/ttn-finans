@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://globtechco.github.io/ttn-finans/</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ai-data-center-electricity-demand-2026.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tech-ai.html</loc>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
@@ -22,465 +24,467 @@
     <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/brokers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/fed-policy-2026.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/bitcoin-halving-cycles.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/gold-hedge-explainer.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/oil-shock-market-ripple.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ai-capex-nasdaq-correction.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/treasury-yields-spike-2026.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/stablecoins-explained-depeg-risk.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/earnings-beat-miss-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/bitcoin-etf-institutional-adoption.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/eur-usd-rate-differential-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto-liquidation-leverage-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/vix-fear-index-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/short-squeeze-mechanics-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/dollar-cost-averaging-vs-lump-sum.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/correlation-breakdown-diversification.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto-taxes-us-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/cpi-inflation-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/options-calls-puts-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/stock-buybacks-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/prediction-markets-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ipo-process-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/market-cap-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/insider-selling-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/nonfarm-payrolls-jobs-report-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/mergers-acquisitions-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/dxy-dollar-index-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/sector-rotation-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/etf-creation-redemption-mechanism.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ism-pmi-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/fed-funds-futures-rate-odds-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/analyst-ratings-price-targets-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/fed-independence-structure-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/put-call-ratio-options-sentiment-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/unemployment-rate-u3-u6-participation-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/currency-intervention-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/corporate-bonds-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/money-market-funds-vs-savings-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/weekly-jobless-claims-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/circular-ai-financing-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/bitcoin-51-percent-attack-forks-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/nfib-small-business-optimism-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/private-credit-shadow-banking-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/defi-basics-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/take-private-leveraged-buyout-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/us-budget-deficit-national-debt-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/credit-default-swaps-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/yen-carry-trade-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ppi-producer-price-index-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/bitcoin-mining-economics-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/consumer-sentiment-index-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/secondary-stock-offerings-dilution-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/smaller-company-acquiring-bigger-company-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/13f-filings-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/strategic-petroleum-reserve-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/central-bank-policy-divergence-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/global-bond-yield-synchronization-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/retailer-earnings-consumer-bellwether-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/free-cash-flow-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/treasury-debt-buyback-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crack-spread-refining-margins-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/clarity-act-crypto-legislation-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tips-inflation-protected-bonds-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/housing-starts-builder-confidence-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/dollar-reserve-currency-status-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/sp500-concentration-risk-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/debt-spiral-r-versus-g-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/jackson-hole-symposium-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tariffs-who-actually-pays-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto-rally-three-catalysts-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/block-trades-dark-pools-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/treasury-general-account-liquidity-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/emerging-market-carry-trade-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/bond-duration-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/merger-arbitrage-deal-spread-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/prediction-markets-circuit-split-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -488,99 +492,296 @@
     <loc>https://globtechco.github.io/ttn-finans/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+    <lastmod>2026-10-18T18:22:05+03:00</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <lastmod>2026-10-18T18:22:05+03:00</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ai-monetization-gap-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ceo-succession-stock-impact-explained.html</loc>
-    <lastmod>2026-10-18T11:55:05-04:00</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/second-round-inflation-effects-explained.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/oil-near-100-inflation-2026.html</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-inference-unit-economics-2026.html</loc>
-    <lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/enterprise-ai-data-security-2026.html</loc>
-    <lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-search-publisher-economics-2026.html</loc>
-    <lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/robotics-ai-factory-roi-2026.html</loc>
-    <lastmod>2026-10-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/currency-converter.html</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/loan-payment-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/compound-interest-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/crypto-converter.html</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html</loc><lastmod>2026-10-12</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/ai-agents-enterprise-roi-2026.html</loc><lastmod>2026-10-12</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/ai-chips-bottlenecks-2026.html</loc><lastmod>2026-10-12</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/small-business-ai-adoption-2026.html</loc><lastmod>2026-10-12</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/retirement-calculator.html</loc><lastmod>2026-10-12</lastmod></url><url><loc>https://globtechco.github.io/ttn-finans/sp500-narrow-rally-earnings-test-2026.html</loc><lastmod>2026-10-12</lastmod></url>  <url><loc>https://globtechco.github.io/ttn-finans/imf-ai-growth-outlook-2026.html</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-boom-capital-financing-2026.html</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/anthropic-ai-self-replication-iot-2026.html</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/broadcom-ai-networking-ocp-2026.html</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/us-cpi-september-2026-energy.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/bank-of-america-q3-2026-results.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/china-september-2026-export-surge.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/asml-q3-2026-ai-demand.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/apple-homeview-siri-ai-2026.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/scaleway-amd-sweden-ai-supercomputer.html</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/bitcoin-ether-selloff-liquidations-october-15-2026.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/us-inflation-retail-sales-september-2026.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/coreweave-ai-debt-selloff-2026.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/tsmc-q3-2026-ai-chip-demand.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ftc-openai-anthropic-safety-subpoenas-2026.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/cohere-aisle-cybersecurity-deal-2026.html</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/indonesia-msci-downgrade-stock-selloff-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/dollar-treasury-yields-ai-financing-october-16-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/meta-muse-spark-open-coding-model-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/google-news-ai-pilot-publisher-licensing-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/us-import-prices-september-2026-inflation.html</loc><lastmod>2026-10-17T11:57:42+00:00</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/germany-nvidia-industrial-ai-agreement-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/iphone-duo-preorder-delays-january-2027.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-investment-central-banks-interest-rates-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/fund-flows-stocks-bonds-cash-october-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ofgem-market-stabilisation-charge-consultation-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/china-ai-technology-export-controls-draft-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-agents-india-cert-in-security-warning-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/us-fiscal-2026-deficit-nearly-two-trillion.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/tesla-fsd-class-certification-appeal-october-2026.html</loc><lastmod>2026-10-17T11:57:42+00:00</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/wall-street-close-october-16-2026-ai-selloff.html</loc><lastmod>2026-10-17T11:57:42+00:00</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/faa-controller-pay-workforce-reforms-october-2026.html</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ny-fed-services-prices-october-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/tesla-slovakia-assisted-driving-approval-2026.html</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-agents-websites-block-access-2026.html</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/okxice-stock-token-issuer-objections-2026.html</loc><lastmod>2026-10-17T16:44:36-04:00</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/richard-heart-turkey-detention-confirmed-2026.html</loc><lastmod>2026-10-17T16:44:36-04:00</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/replit-openai-preferred-partner-claude-choice-2026.html</loc><lastmod>2026-10-17T16:44:36-04:00</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/chip-stock-perpetuals-weekend-liquidations-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/ai-data-center-boom-power-delivery-debt-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/china-solar-manufacturing-technology-export-controls-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/circle-usdc-revenue-sharing-stablecoin-competition-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://globtechco.github.io/ttn-finans/cookies.html</loc><lastmod>2026-10-18</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-<url><loc>https://globtechco.github.io/ttn-finans/vietnam-efta-trade-agreement-signed-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/microsoft-nscale-loughton-lease-exit-power-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/meta-commercial-terms-crawling-publishers-clarification-2026.html</loc><lastmod>2026-10-18</lastmod></url>
-<url><loc>https://globtechco.github.io/ttn-finans/tiktok-musk-documentary-account-suspension-2026.html</loc><lastmod>2026-10-18</lastmod></url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-inference-unit-economics-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/enterprise-ai-data-security-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-search-publisher-economics-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/robotics-ai-factory-roi-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/contact.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-10-18T18:22:05+03:00</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/currency-converter.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/loan-payment-calculator.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/compound-interest-calculator.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/crypto-converter.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/crypto-profit-loss-calculator.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-agents-enterprise-roi-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-chips-bottlenecks-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/small-business-ai-adoption-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/retirement-calculator.html</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/sp500-narrow-rally-earnings-test-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/imf-ai-growth-outlook-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-boom-capital-financing-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/anthropic-ai-self-replication-iot-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/broadcom-ai-networking-ocp-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/us-cpi-september-2026-energy.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/bank-of-america-q3-2026-results.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/china-september-2026-export-surge.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/asml-q3-2026-ai-demand.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/apple-homeview-siri-ai-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/scaleway-amd-sweden-ai-supercomputer.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/bitcoin-ether-selloff-liquidations-october-15-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/us-inflation-retail-sales-september-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/coreweave-ai-debt-selloff-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/tsmc-q3-2026-ai-chip-demand.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ftc-openai-anthropic-safety-subpoenas-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/cohere-aisle-cybersecurity-deal-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/indonesia-msci-downgrade-stock-selloff-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/dollar-treasury-yields-ai-financing-october-16-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/meta-muse-spark-open-coding-model-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/google-news-ai-pilot-publisher-licensing-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/us-import-prices-september-2026-inflation.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/germany-nvidia-industrial-ai-agreement-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/iphone-duo-preorder-delays-january-2027.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-investment-central-banks-interest-rates-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/fund-flows-stocks-bonds-cash-october-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ofgem-market-stabilisation-charge-consultation-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/china-ai-technology-export-controls-draft-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-agents-india-cert-in-security-warning-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/us-fiscal-2026-deficit-nearly-two-trillion.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/tesla-fsd-class-certification-appeal-october-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/wall-street-close-october-16-2026-ai-selloff.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/faa-controller-pay-workforce-reforms-october-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ny-fed-services-prices-october-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/tesla-slovakia-assisted-driving-approval-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-agents-websites-block-access-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/okxice-stock-token-issuer-objections-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/richard-heart-turkey-detention-confirmed-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/replit-openai-preferred-partner-claude-choice-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/chip-stock-perpetuals-weekend-liquidations-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ai-data-center-boom-power-delivery-debt-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/china-solar-manufacturing-technology-export-controls-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/circle-usdc-revenue-sharing-stablecoin-competition-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/cookies.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/vietnam-efta-trade-agreement-signed-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/microsoft-nscale-loughton-lease-exit-power-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/meta-commercial-terms-crawling-publishers-clarification-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/tiktok-musk-documentary-account-suspension-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
 </urlset>
-

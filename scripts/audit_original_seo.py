@@ -11,7 +11,7 @@ import json,re
 ROOT=Path(__file__).resolve().parent.parent
 BASE="https://globtechco.github.io/ttn-finans/"
 CATALOG=(ROOT/"articles.js").read_text(encoding="utf-8")
-SLUGS=re.findall(r'\bid:\s*"([^"]+)"',CATALOG)
+SLUGS=[a['id'] for a in json.loads(CATALOG.split('=',1)[1].strip().removesuffix(';'))]
 class Metadata(HTMLParser):
     def __init__(self):
         super().__init__();self.meta={};self.links={};self.headings=[];self.images=[];self.title="";self._title=False

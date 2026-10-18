@@ -1,0 +1,5 @@
+# Keep source-maintenance files out of the GitHub Pages publication.
+exclude:
+  - scripts
+  - README.md
+  - requirements-maintenance.txt
