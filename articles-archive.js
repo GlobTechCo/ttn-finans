@@ -1,6 +1,7 @@
 /* Market Analysis archive; cards and navigation share the Tech & AI component. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "china-solar-manufacturing-technology-export-controls-2026",
     "replit-openai-preferred-partner-claude-choice-2026",
     "ai-agents-websites-block-access-2026",
     "tesla-slovakia-assisted-driving-approval-2026",

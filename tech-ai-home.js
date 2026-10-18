@@ -1,6 +1,7 @@
 /* Featured original technology analyses. No changes to TTNNews/news feed. */
 (()=>{function init(){const el=document.getElementById("tech-ai-home");if(!el||typeof TTN_ARTICLES==="undefined")return;
 const techIds=new Set([
+    "china-solar-manufacturing-technology-export-controls-2026",
     "replit-openai-preferred-partner-claude-choice-2026",
     "ai-agents-websites-block-access-2026",
     "tesla-slovakia-assisted-driving-approval-2026",

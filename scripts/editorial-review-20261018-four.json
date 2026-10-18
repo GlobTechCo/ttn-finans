@@ -1,0 +1,111 @@
+{
+  "authorization": "User explicitly commissioned all four selected topics after their reporting and event age were disclosed; continuation requested to complete publication. Not an hourly automation quota.",
+  "freshness": "Publication times are actual build timestamps in Eastern Time. Earlier event dates are explicit in the copy.",
+  "articles": [
+    {
+      "id": "chip-stock-perpetuals-weekend-liquidations-2026",
+      "section": "Market Analysis",
+      "publication": "2026-10-18T04:46:15-04:00",
+      "sources": [
+        {
+          "label": "CoinDesk: Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+          "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut"
+        },
+        {
+          "label": "Coinbase: Advanced perpetuals",
+          "url": "https://www.coinbase.com/advanced-perpetuals"
+        },
+        {
+          "label": "Coinbase: Margin ratio and liquidation risk management",
+          "url": "https://help.coinbase.com/en/coinbase/derivatives/us-derivatives-risk-management-and-liquidations"
+        }
+      ],
+      "sourceNotes": "- [CoinDesk: Chip-stock bets lost $52 million in 10 minutes with Wall Street shut](https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut), October 18, 2026, 3:13 a.m. EDT. Source for the event and attributed CoinGlass figures. The original CoinGlass dataset and Tread.fi post were not independently retrieved.\n- [Coinbase: Advanced perpetuals](https://www.coinbase.com/advanced-perpetuals). Primary documentation for general contract mechanics, not confirmation of this event.\n- [Coinbase: Margin ratio and liquidation risk management](https://help.coinbase.com/en/coinbase/derivatives/us-derivatives-risk-management-and-liquidations). Primary documentation for liquidation mechanics on Coinbase; venue-specific rules differ.",
+      "image": {
+        "path": "assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp",
+        "alt": "Illustrative analyst viewing generic semiconductor and perpetual-contract charts; not actual market data or a documented trader.",
+        "review": "Visually inspected: directly relevant illustrative scene; no named company architecture; full headroom; no implication of documentary event photography."
+      }
+    },
+    {
+      "id": "ai-data-center-boom-power-delivery-debt-2026",
+      "section": "Market Analysis",
+      "publication": "2026-10-18T04:46:15-04:00",
+      "sources": [
+        {
+          "label": "Financial Times: America's $10tn AI infrastructure boom is starting to fray",
+          "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c"
+        },
+        {
+          "label": "Techmeme",
+          "url": "https://www.techmeme.com/"
+        },
+        {
+          "label": "Nscale: Pre-IPO convertible financing",
+          "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"
+        },
+        {
+          "label": "Department of Energy: United States Data Center Energy Usage Report: 2025 Update",
+          "url": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update"
+        }
+      ],
+      "sourceNotes": "- [Financial Times: America's $10tn AI infrastructure boom is starting to fray](https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c), October 18, 2026, 04:00 UTC. Full article is subscription restricted; the draft uses only the accessible headline and attributed findings also displayed by Techmeme. It does not reconstruct inaccessible reporting.\n- [Techmeme](https://www.techmeme.com/), October 18 snapshot. Accessible summary of the RegLayer and Bernstein findings; an index of the FT report, not independent corroboration.\n- [Nscale: Pre-IPO convertible financing](https://www.nscale.com/press-releases/pre-ipo-convertible-financing), September 25, 2026. Primary company disclosure; commercial claims remain attributed to the company.\n- [Department of Energy: United States Data Center Energy Usage Report: 2025 Update](https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update), executive summary and results. Primary research for the electricity estimates and scenario limitations.",
+      "image": {
+        "path": "assets/editorial/ai-data-center-boom-power-delivery-debt-2026.webp",
+        "alt": "Illustrative data center construction site with engineers and electrical infrastructure; not a named company's facility or a documented project.",
+        "review": "Visually inspected: directly relevant illustrative scene; no named company architecture; full headroom; no implication of documentary event photography."
+      }
+    },
+    {
+      "id": "china-solar-manufacturing-technology-export-controls-2026",
+      "section": "Tech & AI",
+      "publication": "2026-10-18T04:46:15-04:00",
+      "sources": [
+        {
+          "label": "China's Ministry of Commerce and Ministry of Science and Technology: Announcement No. 48 of 2026",
+          "url": "https://aqygzj.mofcom.gov.cn/flzc/gzjgfxwj/art/2026/art_c99f95ca0cd043829ac9991495fc283c.html"
+        },
+        {
+          "label": "Reuters: China proposes export controls on solar-manufacturing technologies",
+          "url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/"
+        },
+        {
+          "label": "pv magazine USA: Proposed restrictions on perovskite and tandem manufacturing technology",
+          "url": "https://pv-magazine-usa.com/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology/"
+        },
+        {
+          "label": "IEA: Supply chain risks and industrial competitiveness, Energy Technology Perspectives 2026",
+          "url": "https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness"
+        }
+      ],
+      "sourceNotes": "- [China's Ministry of Commerce and Ministry of Science and Technology: Announcement No. 48 of 2026](https://aqygzj.mofcom.gov.cn/flzc/gzjgfxwj/art/2026/art_c99f95ca0cd043829ac9991495fc283c.html), October 16, 2026. Primary official source, read in Chinese, for scope, consultation and interim registration. Used as a primary document, not as a news outlet.\n- [Reuters: China proposes export controls on solar-manufacturing technologies](https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/), October 18, 2026, 06:22 UTC. Fresh reporting on an earlier announcement.\n- [pv magazine USA: Proposed restrictions on perovskite and tandem manufacturing technology](https://pv-magazine-usa.com/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology/), October 16, 2026. Source for the draft's technical categories; the attached draft document was not independently parsed.\n- [IEA: Supply chain risks and industrial competitiveness, Energy Technology Perspectives 2026](https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness). Primary analysis of manufacturing concentration.",
+      "image": {
+        "path": "assets/editorial/china-solar-manufacturing-technology-export-controls-2026.webp",
+        "alt": "Illustrative engineer inspecting photovoltaic modules on a generic solar manufacturing line; not a documented controlled process or company factory.",
+        "review": "Visually inspected: directly relevant illustrative scene; no named company architecture; full headroom; no implication of documentary event photography."
+      }
+    },
+    {
+      "id": "circle-usdc-revenue-sharing-stablecoin-competition-2026",
+      "section": "Market Analysis",
+      "publication": "2026-10-18T04:46:15-04:00",
+      "sources": [
+        {
+          "label": "Circle: The Economics of USDC and Why Our Partners Win",
+          "url": "https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win"
+        },
+        {
+          "label": "CoinDesk: Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+          "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut"
+        }
+      ],
+      "sourceNotes": "- [Circle: The Economics of USDC and Why Our Partners Win](https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win), October 16, 2026. Primary company statement for financial figures, partner economics and redemption claims; the figures were not independently audited for this draft.\n- [CoinDesk: Circle defends USDC economics as stablecoin rivals court its partners with bigger cut](https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut), October 17, 2026, 9:06 p.m. EDT. Source for the competitive framing and reported Coinbase/Open USD relationship. That relationship has not been independently confirmed from an Open USD primary document.",
+      "image": {
+        "path": "assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp",
+        "alt": "Illustrative bakery payment using a generic USDC demonstration screen; not an actual Circle app, merchant partnership or transaction.",
+        "review": "Visually inspected: directly relevant illustrative scene; no named company architecture; full headroom; no implication of documentary event photography.",
+        "revision": "Replaced the unpublished male-customer composition after user identified a repeated face. Final image shows a senior Black woman customer and an auburn-haired cashier, both complete heads visible."
+      }
+    }
+  ]
+}

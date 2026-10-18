@@ -1,6 +1,184 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "chip-stock-perpetuals-weekend-liquidations-2026",
+    "title": "Chip-Stock Perpetuals See $52 Million in Liquidations While Wall Street Is Closed",
+    "dek": "Nearly $52 million in chip-linked perpetual positions were liquidated over 10 minutes, highlighting the risks of trading stock exposure while Wall Street is closed.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-18T04:46:15-04:00",
+    "dateModified": "2026-10-18T04:46:15-04:00",
+    "section": "Market Analysis",
+    "image": "assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp",
+    "imageAlt": "Illustrative analyst viewing generic semiconductor and perpetual-contract charts; not actual market data or a documented trader.",
+    "tickers": [],
+    "body": [
+      "Nearly $52 million in leveraged positions linked to semiconductor stocks and funds were liquidated during a 10-minute burst of weekend trading, according to a CoinDesk report published Sunday. The underlying US stock market was closed, leaving the contracts to trade without a contemporaneous cash-market benchmark.",
+      "CoinDesk, citing CoinGlass data, put the total at approximately $51.6 million between 21:22 and 21:32 UTC on Saturday, October 17. About $38 million involved positions betting on higher prices. The report appeared at 3:13 a.m. EDT on October 18, several hours after the trading episode.",
+      "The distinction matters: the figure represents the reported value of positions forcibly closed. It is not a verified measure of traders' net cash losses, and it does not represent a decline in the market capitalization of the companies involved.",
+      "Stock exposure on a different market clock",
+      "The episode involved perpetual futures, derivatives that can provide exposure to an asset without transferring ownership of it. Unlike conventional futures with a fixed expiry, perpetual contracts can remain open while traders meet the venue's collateral and funding requirements.",
+      "CoinDesk reported that selling began on Binance and quickly reached Hyperliquid. Its account attributed the sequencing of early orders to an analysis by trading firm Tread.fi. That reconstruction is an attributed explanation of trading activity, rather than an independently established account of who caused the move.",
+      "These instruments require a different interpretation from a stock exchange quote. A chip-linked contract trading on Sunday is a price for that derivative, under that venue's rules. It cannot establish the price at which an investor could sell the underlying shares on a closed exchange.",
+      "For a related distinction between securities and blockchain-based exposure, see <a href=\"okxice-stock-token-issuer-objections-2026.html\">TTN's coverage of issuer objections to stock tokenization</a>.",
+      "How leverage can amplify a short move",
+      "Margin allows a trader to control a position larger than the collateral supporting it. When losses reduce that collateral below the required maintenance level, an exchange may close part or all of the position automatically. Coinbase's derivatives documentation describes this basic liquidation mechanism, although its specific rules should not be assumed to apply to other venues.",
+      "As a market mechanism, forced closures can add orders during a decline and place additional pressure on prices. The size of that effect depends on liquidity, collateral rules and the mix of positions. The liquidation total alone cannot identify the original trigger or prove market manipulation.",
+      "The next cash session provides a separate test",
+      "The analytical question is whether the underlying shares subsequently validate the derivative repricing. A weekend contract move could converge toward cash prices when the stock market reopens, or cash trading could move toward the level anticipated by derivatives. Neither outcome follows automatically from a liquidation headline.",
+      "Readers assessing this episode should distinguish the contract's price change, the value of positions liquidated and the movement in the underlying security. Those are different measurements. The weekend data establish a sharp disruption in leveraged trading; they do not, by themselves, establish a comparable change in semiconductor companies' business prospects."
+    ],
+    "sources": [
+      {
+        "label": "CoinDesk: Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+        "url": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut"
+      },
+      {
+        "label": "Coinbase: Advanced perpetuals",
+        "url": "https://www.coinbase.com/advanced-perpetuals"
+      },
+      {
+        "label": "Coinbase: Margin ratio and liquidation risk management",
+        "url": "https://help.coinbase.com/en/coinbase/derivatives/us-derivatives-risk-management-and-liquidations"
+      }
+    ]
+  },
+  {
+    "id": "ai-data-center-boom-power-delivery-debt-2026",
+    "title": "AI's Data Center Boom Faces a Test of Power, Delivery and Debt",
+    "dek": "New reporting on delayed AI data centers puts attention on electricity access, financing and the gap between contracted demand and operating capacity.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-18T04:46:15-04:00",
+    "dateModified": "2026-10-18T04:46:15-04:00",
+    "section": "Market Analysis",
+    "image": "assets/editorial/ai-data-center-boom-power-delivery-debt-2026.webp",
+    "imageAlt": "Illustrative data center construction site with engineers and electrical infrastructure; not a named company's facility or a documented project.",
+    "tickers": [],
+    "body": [
+      "The investment case for AI infrastructure is facing a more demanding test: whether developers can turn financing and customer commitments into facilities that operate on time and generate enough cash to support their costs.",
+      "A Financial Times report published Sunday, October 18, examined strains in the US data center expansion. It cited RegLayer research identifying at least 47 large projects delayed, withdrawn or blocked during 2026, and a Bernstein assessment that about 35% of the planned US pipeline was credible. Those are attributed assessments using different definitions, not interchangeable measures of completed capacity or an official industry census.",
+      "The new report adds to scrutiny of the physical and financial assumptions behind AI investment. It does not establish that demand for AI computing has disappeared.",
+      "A contract is one stage of the investment",
+      "Nscale's own financing disclosure illustrates the scale of commitments involved. On September 25, the company announced $3.36 billion in convertible financing and more than $103 billion in total contracted value. The financing comprised $2.36 billion at closing and an additional $1 billion Nvidia commitment expected to fund in mid-November.",
+      "Those figures measure different things. A future financing commitment is not cash already received. Total contracted value is not annual revenue, profit or the amount of customer cash immediately available to pay construction bills.",
+      "For investors, that creates several questions between an announcement and an operating asset: when funding arrives, when equipment is delivered, when the customer begins paying and what happens if either party misses a deadline. Large headline commitments cannot answer those questions without the associated terms.",
+      "Electricity projections show scale and uncertainty",
+      "The United States Data Center Energy Usage Report: 2025 Update, available through the Department of Energy, estimates that data centers could consume 11.8% of US electricity in its 2030 reference case. Its wider scenario range is 9.5% to 15.3%.",
+      "The report also estimates 2024 consumption at 192 terawatt-hours, or 4.7% of US electricity use. These are national estimates covering data centers generally, rather than AI facilities alone. They do not guarantee that any particular project will obtain a connection, and the forecasts depend on assumptions about equipment shipments, utilization and efficiency.",
+      "That distinction is central to the investment analysis. Nationwide demand growth can coexist with local construction delays or insufficient grid capacity. A facility needs usable power in a particular place at a particular time; an aggregate forecast cannot supply it.",
+      "TTN's <a href=\"ai-data-center-electricity-demand-2026.html\">explanation of AI data center electricity demand</a> examines the relationship between computing expansion and power infrastructure.",
+      "Delivery milestones deserve more attention",
+      "The most useful financial comparison is between money committed, capacity commissioned and cash earned. Each measures progress at a different stage. A developer can have substantial demand and still face a funding gap if spending precedes customer receipts for longer than planned.",
+      "TTN's assessment is that project selection and delivery deserve greater weight than a single sector-wide spending estimate. Evidence of energized capacity, customer acceptance and sustainable financing would strengthen an investment case. Repeated timetable revisions or dependence on unreceived funding would require closer examination. The current reporting raises those questions; it does not settle the economics of every AI infrastructure project."
+    ],
+    "sources": [
+      {
+        "label": "Financial Times: America's $10tn AI infrastructure boom is starting to fray",
+        "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c"
+      },
+      {
+        "label": "Techmeme",
+        "url": "https://www.techmeme.com/"
+      },
+      {
+        "label": "Nscale: Pre-IPO convertible financing",
+        "url": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing"
+      },
+      {
+        "label": "Department of Energy: United States Data Center Energy Usage Report: 2025 Update",
+        "url": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update"
+      }
+    ]
+  },
+  {
+    "id": "china-solar-manufacturing-technology-export-controls-2026",
+    "title": "China's Solar Technology Export Proposal Targets Manufacturing Know-How",
+    "dek": "China proposes controls on 12 solar manufacturing technologies, with immediate registration requirements and consultation on the draft running to November 15.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-18T04:46:15-04:00",
+    "dateModified": "2026-10-18T04:46:15-04:00",
+    "section": "Tech & AI",
+    "image": "assets/editorial/china-solar-manufacturing-technology-export-controls-2026.webp",
+    "imageAlt": "Illustrative engineer inspecting photovoltaic modules on a generic solar manufacturing line; not a documented controlled process or company factory.",
+    "tickers": [],
+    "body": [
+      "China has proposed tighter controls on the overseas transfer of solar manufacturing technologies, drawing a distinction between selling finished equipment and sharing the processes needed to manufacture it.",
+      "A Reuters report published Sunday, October 18, brought fresh attention to the proposal. The underlying announcement was issued on October 16 by China's commerce and science ministries. It covers 12 photovoltaic technologies within a broader proposed revision spanning 40 technologies across solar power, artificial intelligence and biomedicine.",
+      "The proposal has not become a blanket ban on solar panel exports. Some technologies would be prohibited from export and others restricted, subject to the final rules. A separate temporary registration requirement already applies to relevant technology transfers while consultation continues through November 15.",
+      "The immediate requirement and the proposed controls differ",
+      "The ministries' announcement requires registration before specified technology exports during the interim period. It includes transfers of technology ownership, overseas licensing and changes that place ownership or actual control with an overseas entity. Transactions already started but not completed are also covered by the registration requirement.",
+      "That immediate procedural obligation should be distinguished from the proposed final classifications. November 15 is the consultation deadline, rather than a confirmed date when every proposed prohibition or restriction takes effect.",
+      "For businesses, the practical analytical question is which part of a transaction transfers technology: a license, a manufacturing process or control of intellectual property may be relevant even when no shipment of finished panels is involved.",
+      "Advanced production processes are in focus",
+      "According to pv magazine's account of the draft, the proposed prohibitions include specified perovskite and perovskite-silicon tandem manufacturing technologies. The restricted category includes selected polysilicon, wafer and advanced crystalline-silicon cell processes, including TOPCon, back-contact and heterojunction technologies.",
+      "The technical thresholds matter. A reference to a broad technology family does not mean every process or product in that family is covered. Nor does the draft justify treating all Chinese solar technology as unavailable overseas.",
+      "The commercial significance lies in the difference between purchasing output and acquiring production capability. A company may be able to buy a panel while facing a different regulatory process for obtaining the know-how needed to make a comparable product in another country.",
+      "The proposal is part of the same policy package covered in <a href=\"china-ai-technology-export-controls-draft-2026.html\">TTN’s report on China’s proposed AI technology controls</a>. The solar provisions raise a separate manufacturing question.",
+      "Supply chain concentration gives the proposal weight",
+      "The International Energy Agency's Energy Technology Perspectives 2026 puts China's share of solar supply-chain production capacity at around 85%, rising to approximately 95% for photovoltaic wafers. The report also finds that final assembly capacity outside China can conceal dependence on upstream stages.",
+      "Those capacity figures describe the industry's structure, not the precise volume affected by this proposal. They nevertheless explain why changes to technology access can matter beyond direct exporters.",
+      "TTN's assessment is that companies planning overseas factories will need to examine technology access alongside equipment, capital and energy. More domestic assembly does not automatically remove reliance on external production expertise.",
+      "The next substantive development will be the final catalogue and its treatment of specific technologies. Until then, the evidence supports a narrower conclusion: China is proposing tighter control over selected manufacturing capabilities while requiring interim registration. It does not establish an immediate global shortage of finished solar panels or a quantifiable increase in their prices."
+    ],
+    "sources": [
+      {
+        "label": "China's Ministry of Commerce and Ministry of Science and Technology: Announcement No. 48 of 2026",
+        "url": "https://aqygzj.mofcom.gov.cn/flzc/gzjgfxwj/art/2026/art_c99f95ca0cd043829ac9991495fc283c.html"
+      },
+      {
+        "label": "Reuters: China proposes export controls on solar-manufacturing technologies",
+        "url": "https://www.reuters.com/business/autos-transportation/china-proposes-export-controls-solar-manufacturing-technologies-2026-10-18/"
+      },
+      {
+        "label": "pv magazine USA: Proposed restrictions on perovskite and tandem manufacturing technology",
+        "url": "https://pv-magazine-usa.com/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology/"
+      },
+      {
+        "label": "IEA: Supply chain risks and industrial competitiveness, Energy Technology Perspectives 2026",
+        "url": "https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness"
+      }
+    ]
+  },
+  {
+    "id": "circle-usdc-revenue-sharing-stablecoin-competition-2026",
+    "title": "Circle Defends USDC's Revenue Model as Stablecoin Competition Intensifies",
+    "dek": "Circle defends USDC's revenue sharing and redemption model as competition puts the economics of stablecoin distribution under closer scrutiny.",
+    "author": "TTN Research Desk",
+    "date": "2026-10-18T04:46:15-04:00",
+    "dateModified": "2026-10-18T04:46:15-04:00",
+    "section": "Market Analysis",
+    "image": "assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp",
+    "imageAlt": "Illustrative bakery payment using a generic USDC demonstration screen; not an actual Circle app, merchant partnership or transaction.",
+    "tickers": [],
+    "body": [
+      "Circle is defending how it divides USDC revenue between distribution partners, operating costs and profit, as competition puts greater attention on who receives the income associated with dollar-backed stablecoins.",
+      "In an October 16 company post, chief commercial officer Kash Razzaghi said Circle generated approximately $1.4 billion in first-half revenue and paid about $819 million in distribution and transaction costs. Circle put its net profit at roughly seven cents per revenue dollar. CoinDesk revisited the statement in a report published at 9:06 p.m. EDT on October 17, or 4:06 a.m. Sunday in Kyiv.",
+      "These are historical figures presented in a defense of the company's business model. They are not newly announced results for the current quarter.",
+      "A contest over distribution economics",
+      "CoinDesk framed the statement against competition from Open USD and other networks offering partners a share of reserve income. It reported that Coinbase, Circle's largest USDC distribution partner, also backs Open USD. Circle's post did not name that competitor directly.",
+      "Participation in a competing network does not, by itself, establish that a company has abandoned USDC. The narrower issue is whether distributors can obtain better commercial terms by supporting alternative products.",
+      "TTN's assessment is that distribution is a central part of this competition. For an issuer, a token needs places where users can acquire, hold and spend it. For a distributor, the commercial question includes the compensation received for bringing users and balances to that network.",
+      "Revenue sharing and holder returns are different",
+      "Circle says partners can receive a share of reserve income associated with balances they bring to its network. It also says standard customer redemptions remain free, typically settling through banking rails within two business days, while qualifying platform and payment flows can obtain faster settlement.",
+      "Those statements describe Circle's commercial and institutional services. They do not mean every retail holder receives reserve income, qualifies for direct redemption or has immediate access to dollars through every intermediary.",
+      "This distinction matters when comparing products. A distribution payment compensates a business within the network. A holder's redemption rights depend on the applicable terms and the route used to access the issuer. A token's market price is another separate consideration.",
+      "For the broader risk framework, see <a href=\"stablecoins-explained-depeg-risk.html\">TTN's explanation of stablecoins and depegging</a>.",
+      "Headline payouts cannot settle the comparison",
+      "An issuer offering a larger revenue share may appear more attractive to a distributor. Evaluating that offer still requires examining the costs retained by the issuer, eligibility conditions and whether the arrangement remains viable under different interest-rate or usage assumptions.",
+      "Circle argues that compliance, liquidity and settlement infrastructure require continued spending. That is the company's commercial argument, rather than independent proof that its allocation is optimal or that competitors cannot offer better terms.",
+      "The evidence currently establishes a dispute over business models, not a measured migration of customers. Comparing the next set of financial disclosures, partner agreements and redemption terms would provide a firmer basis for judging the outcome than either side's headline payout promise. No evidence reviewed for this article establishes that USDC holders have lost redemption rights because of the competitive debate."
+    ],
+    "sources": [
+      {
+        "label": "Circle: The Economics of USDC and Why Our Partners Win",
+        "url": "https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win"
+      },
+      {
+        "label": "CoinDesk: Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
+        "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut"
+      }
+    ]
+  },
+  {
     "id": "replit-openai-preferred-partner-claude-choice-2026",
     "title": "Replit Favors OpenAI for Agent While Keeping Claude Available",
     "dek": "The coding platform’s preferred partnership leaves room for competing models. Its documentation shows why the default and the available choices are different decisions.",

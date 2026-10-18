@@ -1,0 +1,23 @@
+{
+  "generator": "Built-in imagegen",
+  "prompts": [
+    {
+      "id": "chip-stock-perpetuals-weekend-liquidations-2026",
+      "prompt": "Photorealistic editorial illustration, 16:9: adult analyst at a generic semiconductor perpetual-contract trading workstation, natural daylight, full head with generous headroom, generic illustrative charts without real quotes or exchange branding. No implication of actual trader or event."
+    },
+    {
+      "id": "ai-data-center-boom-power-delivery-debt-2026",
+      "prompt": "Photorealistic editorial illustration, 16:9: unfinished unbranded data center construction with electrical infrastructure and two engineers fully inside the frame. Neutral daylight, realistic proportions, no named company campus or documentary event claim."
+    },
+    {
+      "id": "china-solar-manufacturing-technology-export-controls-2026",
+      "prompt": "Photorealistic editorial illustration, 16:9: photovoltaic module manufacturing line and engineer inspecting a module. Full headroom and believable industrial details, no claimed specific company or controlled process."
+    },
+    {
+      "id": "circle-usdc-revenue-sharing-stablecoin-competition-2026",
+      "prompt": "Photorealistic editorial illustration, 16:9: senior Black woman with natural silver hair and burgundy coat paying at a bakery, auburn-haired female cashier. Generic demonstration phone screen with USDC, $25.00 and check mark. Both heads fully visible with ample headroom. No men, actual Circle app, merchant partnership or real transaction implied.",
+      "revision": "User identified repeated male face in initial preview; final characters and composition changed before first publication."
+    }
+  ],
+  "note": "Scene specifications summarized for editorial traceability. Final WebP paths are assets/editorial/<id>.webp; all are illustrative, not documentary photos."
+}
