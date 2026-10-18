@@ -1,0 +1,7 @@
+.static-page .editorial-related{margin:32px 0 24px;padding:22px 0;border-top:1px solid var(--border)}
+.static-page .editorial-related h2{font-size:18px;line-height:1.4;margin:0 0 14px}
+.static-page .editorial-related ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;list-style:none;margin:0;padding:0}
+.static-page .editorial-related li{margin:0;font-size:14px;line-height:1.6}
+.static-page .editorial-related a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.static-page .editorial-related a:hover{color:var(--accent)}
+@media(max-width:650px){.static-page .editorial-related ul{grid-template-columns:1fr;gap:10px}}

@@ -2818,20 +2818,43 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "If a company earns the same profit across fewer shares, earnings per share can rise without an improvement in its operations. That arithmetic explains part of the appeal of a buyback—and part of the reason it needs scrutiny.",
-      "A repurchase uses company resources to buy its own shares. Shares may be retired or held as treasury stock, depending on the arrangement. The net reduction also depends on new shares issued for employee compensation or other purposes.",
-      "A buyback authorization is not a completed purchase. Companies can change the pace or leave an authorization unused. Cash-flow statements and share-count disclosures show what was spent and whether the outstanding share base declined.",
-      "The purchase price matters. Spending company cash on an overpriced share transfers value differently from repurchasing below a reasonable estimate of its worth. Managers' confidence about the business does not establish that every price they pay is favorable.",
-      "Funding matters as well. Cash used for repurchases cannot be used simultaneously for another project, debt reduction or a cash buffer. Borrowing to buy shares adds interest obligations and changes the balance sheet's resilience.",
-      "Compare total profit, diluted share count, compensation issuance and cash spent over time. A rising earnings-per-share figure can represent a stronger business, a smaller denominator or both."
+      "A share buyback uses company funds to repurchase its own stock. It can reduce the number of shares outstanding and increase the remaining holders' percentage ownership, but it does not by itself improve the products, margins or competitive position of the business.",
+      "The important questions are how much the company actually spends, what price it pays and what it gives up to fund the purchases. An authorization announces permission to buy shares. It is not evidence that the full amount has been spent or that the share count has already declined.",
+      "How the earnings-per-share arithmetic works",
+      "Consider a hypothetical company earning $100 million with 100 million shares outstanding throughout a year. Basic earnings per share are $1.00. If it instead has 90 million shares for the full year and earns the same amount, earnings per share become approximately $1.11.",
+      "The increase comes from the denominator. Total profit has not grown in that example, so describing the 11% improvement in earnings per share as 11% business growth would be misleading. The company has divided the same earnings among fewer shares.",
+      "Timing matters because reported earnings per share use a weighted-average share count, rather than simply the shares outstanding on the final day. If the same hypothetical company repurchases 10 million shares halfway through the year, a simplified average is 95 million. Unchanged $100 million earnings then produce approximately $1.05 per share, before considering dilution or the financial effects of the purchase.",
+      "Cash leaves the business",
+      "Suppose those 10 million shares cost $10 each. The company spends $100 million. Remaining shareholders own a larger percentage of a business that now has $100 million less cash, unless other transactions replenish it. Whether that exchange creates value depends on the purchase price and the value of the assets and opportunities left behind.",
+      "A low purchase price relative to a defensible business valuation can favor remaining holders. Paying too much can transfer value to selling shareholders instead. Neither conclusion follows from the announcement alone, and a subsequent rise or fall in the stock does not perfectly reveal what the shares were worth when purchased.",
+      "The relevant comparison includes other uses of funds: investment, acquisitions, debt reduction, dividends or retaining cash for uncertainty. A buyback is a capital-allocation decision among those alternatives. Its merit changes with the company's opportunities and obligations rather than with a universal rule that repurchases are always good or bad.",
+      "Borrowing changes the calculation",
+      "A company can use existing cash or borrow to fund purchases. In the second case, interest expense and refinancing risk become part of the decision. Looking only at the smaller share count leaves out the cost of the funding used to achieve it.",
+      "Extend the hypothetical example by borrowing $100 million at an annual 6% interest rate. Ignoring tax effects and assuming a full year of interest, profit falls from $100 million to $94 million. Dividing by 90 million shares gives approximately $1.04 per share. That differs substantially from the $1.11 calculated when financing costs were omitted.",
+      "This illustration does not value the company or capture every accounting effect. It shows why an earnings-per-share increase can coexist with greater financial risk. Debt maturities, cash reserves and the stability of operating earnings help establish whether the company can comfortably support the new obligations.",
+      "Gross purchases and net share reduction can differ",
+      "Companies may issue shares through employee compensation, acquisitions or other transactions while buying stock in the market. A large repurchase amount can therefore accompany only a modest decline in shares outstanding. The gross cash spent and the net change in ownership units answer different questions.",
+      "For example, repurchasing 10 million shares while issuing 8 million leaves a net reduction of 2 million, before other changes. A headline emphasizing only the 10 million repurchased would overstate the contraction in the share base. Basic and diluted share counts also differ when potentially dilutive instruments are included under the applicable accounting rules.",
+      "The financial statements and notes provide the bridge. Check actual repurchase spending, the number of shares acquired, the weighted-average shares used in earnings calculations and shares issued during the period. The balance sheet shows the accompanying changes in cash and debt.",
+      "Evaluate the whole capital-allocation decision",
+      "Comparing buybacks with <a href=\"free-cash-flow-explained.html\">cash generated after capital expenditure</a> helps assess whether purchases are supported by ongoing operations. It does not settle whether the price paid was attractive. A company can have ample cash and still overpay, or fund a sensible purchase only by accepting risks that deserve disclosure.",
+      "The strongest assessment separates operating performance from per-share arithmetic and funding decisions. A buyback changes how the business is divided and financed. Its long-term value depends on what was paid, what earnings remain and whether the company preserved the resources needed to compete."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC: Statement of cash flows, including repurchases and financing activities",
+        "url": "https://www.sec.gov/files/cash-flow-statement-bblocks.pdf"
+      },
+      {
+        "label": "Company filing on SEC EDGAR: Basic and diluted shares and repurchases; historical accounting example, not current results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342125000006/R9.htm"
+      },
+      {
+        "label": "Company filing on SEC EDGAR: Weighted-average shares and dilution; historical accounting example",
+        "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000010/R24.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/stock-buybacks-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/stock-buybacks-explained-editorial-960.webp",
@@ -3068,20 +3091,43 @@ const TTN_ARTICLES = [
       "EUR/USD"
     ],
     "body": [
-      "A rising dollar index does not mean the dollar gained against every currency. DXY measures a specified basket, and movements in its largest component can dominate the result.",
-      "ICE's US Dollar Index combines the euro, yen, pound, Canadian dollar, Swedish krona and Swiss franc. The euro carries the largest weight. The calculation is geometric, so component exchange rates contribute through fixed weights rather than a simple average of daily prices.",
-      "That design is useful for a consistent market benchmark. It is less complete as a picture of US trade competitiveness because important trading partners outside the basket are absent. Other dollar indexes use broader currency coverage and different weighting methods.",
-      "Rates and monetary-policy expectations can influence the basket, but they are not the only inputs to exchange rates. Growth, capital flows, hedging demand and changes in the need for dollar funding can move individual components differently.",
-      "The currency effect also varies by investor and company. A US business earning foreign revenue can experience a translation effect that differs from its operating performance, while a foreign investor's return on US shares includes the exchange-rate change.",
-      "When reporting DXY, identify it as a particular index. A claim about the dollar's effect on trade or a company's earnings needs the relevant currencies and exposures, not just the direction of one basket."
+      "The US Dollar Index, commonly called DXY or USDX, measures the dollar against a defined basket of currencies. It is widely quoted because it offers one recognizable number for a set of exchange rates. It does not measure the dollar against every trading partner or against the goods and services purchased by a US household.",
+      "Those distinctions matter when interpreting a headline that the dollar “rose.” The dollar may strengthen against the index basket while weakening against a currency outside it. It can also strengthen internationally while losing domestic purchasing power through inflation. The measurements answer different questions.",
+      "A fixed basket with a large euro weight",
+      "ICE administers the index and describes its calculation as a geometric average of six currencies. The basket comprises the euro, Japanese yen, British pound, Canadian dollar, Swedish krona and Swiss franc. The euro has a 57.6% weight, reflecting the combined exposure of the European currencies it replaced.",
+      "The fixed composition gives European currency movements substantial influence. It also means the index is not continuously redesigned to match the latest pattern of US trade. A country becoming a larger trading partner does not automatically receive a larger position in this basket.",
+      "Currencies such as the Chinese yuan and Mexican peso are not among the six components. Their absence does not make DXY incorrect; it limits what claims the index can support. A statement about the dollar's broad trade competitiveness requires a measure designed for that purpose rather than assuming this particular basket covers it completely.",
+      "Read changes as index returns",
+      "Suppose DXY rises from a hypothetical 100 to 105. The percentage change is 5%. A move from 105 to 100 is a decline of approximately 4.76%, not 5%, because the starting value differs. Comparing percentage changes consistently matters when discussing a recovery after an earlier decline.",
+      "The index level is not an exchange rate of five dollars or one hundred dollars for a foreign currency. It is a scaled measure relative to its historical reference. A value above 100 should not be described as proof that the dollar is above a fundamental “fair value” or that it must return to the reference level.",
+      "The geometric calculation also means component moves combine multiplicatively rather than as a simple sum of currency percentage changes. For small movements, weights can help approximate contributions, but an exact calculation follows the methodology and the quotation direction of each component. Treating every displayed currency pair identically can reverse a sign.",
+      "DXY and EUR/USD often tell overlapping stories",
+      "EUR/USD quotes the number of dollars for one euro. If that rate rises, the euro has strengthened against the dollar. All else equal, that movement tends to reduce DXY because of the euro's large weight. A fall in EUR/USD points in the opposite direction for that component.",
+      "The relationship is influential rather than exact because the other five currencies can move differently. DXY may be little changed if a euro move is offset elsewhere in the basket. Looking at component exchange rates can explain why two headlines about the dollar appear to disagree.",
+      "The connection also limits diversification in an analysis. Citing both a DXY rise and a EUR/USD decline as two entirely independent confirmations of dollar strength can overstate the evidence. Much of the first movement may already reflect the second.",
+      "Choose the index that matches the question",
+      "The Federal Reserve publishes broader dollar measures using trade-related currency weights, with weights updated through its methodology. Those series differ in coverage and construction from the ICE index. Their returns need not match, especially when currencies outside DXY experience substantial movements.",
+      "A company with costs or revenue concentrated in one country may care more about that bilateral exchange rate than either broad index. A hypothetical US importer paying invoices in Mexican pesos should examine the peso-dollar rate and its contract terms. An unchanged DXY would not establish that its currency cost is unchanged.",
+      "Likewise, an investor holding foreign securities must consider the currencies and hedges actually in the portfolio. DXY is not a direct measurement of that investor's exchange-rate return. The relevant exposure can be quite different from the benchmark basket.",
+      "A dollar move does not identify its own cause",
+      "Relative interest-rate expectations, economic prospects, liquidity and demand for safer assets can all influence currency prices. The index records the result of those forces rather than separating their contributions. A rise after an announcement is not enough to determine every participant's motive.",
+      "Read DXY alongside <a href=\"central-bank-policy-divergence-explained.html\">relative monetary-policy expectations</a> and the component currencies. Identify whether the story concerns a basket return, a bilateral rate, trade competitiveness or domestic inflation. That choice makes the index useful while preventing one familiar number from being asked to describe every meaning of dollar strength."
     ],
     "sources": [
       {
-        "label": "ICE: US Dollar Index contract and methodology",
-        "url": "https://www.ice.com/products/194/US-Dollar-Index-Futures"
+        "label": "ICE: US Dollar Index composition and calculation",
+        "url": "https://www.ice.com/forex/usdx"
+      },
+      {
+        "label": "ICE: Currency index methodology",
+        "url": "https://www.ice.com/publicdocs/data/ICE_FX_Indexes_Methodology.pdf"
+      },
+      {
+        "label": "Federal Reserve: Currency weights for broad dollar indexes",
+        "url": "https://www.federalreserve.gov/releases/h10/weights/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/dxy-dollar-index-explained-480.webp",
     "imageMedium": "assets/responsive/dxy-dollar-index-explained-960.webp",
@@ -3099,20 +3145,43 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "Technology shares can fall while healthcare or financial shares rise. That divergence may be described as rotation, but price performance alone does not reveal every investor's movement of money between sectors.",
-      "Sectors face different drivers. Borrowing costs, demand for discretionary purchases, commodity prices and regulation can alter earnings expectations unevenly. A change in rates can help one business model and make another less attractive.",
-      "Index weights can conceal that divergence. A large sector may pull down a capitalization-weighted benchmark even when more companies are rising than falling. An equal-weight comparison and advance-decline measures can provide additional evidence about breadth.",
-      "A broad selloff is different from a concentrated reversal. If credit conditions deteriorate and declines spread across sectors, the issue may be a shared financing or growth shock. If weakness remains narrow, company or industry factors may explain more of the movement.",
-      "Claims about investor flows need flow data where available. Trading volume is not equivalent to net withdrawals, and every completed share sale has a buyer. A rising sector is not by itself proof that money left a falling one to enter it.",
-      "Rotation is often easier to describe after a move than predict before it. Comparing sector fundamentals, valuations and participation gives a clearer account than assigning every period to a fixed business-cycle script."
+      "Sector rotation describes changes in leadership among groups of stocks. Banks, energy producers, technology companies and defensive consumer businesses can perform differently as earnings expectations, financing costs and economic conditions change. The phrase is useful when it describes a pattern; it becomes misleading when it claims to identify money flows that the evidence does not actually measure.",
+      "A sector can underperform while still gaining value, and an index can fall even when several sectors rise. Understanding weights, return definitions and the businesses inside each group is essential before deciding whether leadership has broadened or simply shifted between a few large stocks.",
+      "Distinguish absolute performance from relative performance",
+      "Suppose a hypothetical industrial-sector index gains 3% while the broad market gains 7%. Industrials rose in absolute terms but underperformed by four percentage points. Saying investors “lost money in industrials” would be wrong for that period, while saying the sector led the market would be equally incorrect.",
+      "The reverse can occur during a decline. A sector falling 2% while the market falls 8% has outperformed by six percentage points. It offered relative resilience, not a positive return. The choice between those descriptions matters to a reader assessing actual portfolio gains and losses.",
+      "Price returns and total returns also differ. Dividends can contribute materially to some sectors, so comparing a price-only series with a dividend-inclusive benchmark creates an inconsistent ranking. Match the observation dates, currency and return convention before interpreting a performance table.",
+      "Index weights determine the contribution",
+      "A sector's contribution depends on both its return and its starting weight. Imagine technology accounts for 30% of a hypothetical index and falls 5%. Its approximate contribution is minus 1.5 percentage points. Utilities account for 5% and gain 10%, contributing approximately plus 0.5 points.",
+      "If the remaining 65% is unchanged, the overall index falls about 1%. The impressive utility rally does not offset the decline in the much larger technology allocation. This simplified contribution calculation ignores intra-period weight changes and implementation details, but it explains why counting winning sectors can misrepresent the index result.",
+      "The same effect can occur inside a sector. A few large constituents may dominate a capitalization-weighted sector index even when most members move differently. Comparing the sector's weighted return with constituent breadth helps determine whether the pattern is broad or concentrated.",
+      "Performance does not reveal every investor's transaction",
+      "The statement that money “rotated from technology into energy” implies a financing link between sales and purchases. Relative price changes alone cannot establish that link. Investors may use cash, receive new inflows, trade derivatives or change exposures without selling the particular sector named in a headline.",
+      "Fund-flow data can provide additional evidence, but their coverage matters. Flows into selected exchange-traded funds do not represent every mutual fund, pension portfolio or direct stock position. A strong claim identifies the vehicles, dates and measurement rather than treating a partial dataset as the whole market.",
+      "Sector returns remain informative without that transaction story. They can show which exposures were rewarded and how leadership changed. Describing the observed pattern accurately is more useful than presenting an unverified account of where every dollar came from.",
+      "Economic explanations need company-level checks",
+      "Higher commodity prices can improve revenue prospects for some producers while raising costs elsewhere. Higher yields can affect financing costs and valuations differently across sectors. These are possible channels, not guarantees of a particular share-price outcome. Expectations and starting valuations can already reflect much of the anticipated benefit.",
+      "Even businesses inside one category can differ. A heavily indebted company and a cash-rich competitor face different financing pressures. Exporters and domestic suppliers have different currency exposures. Applying one macroeconomic label to an entire sector can conceal those distinctions.",
+      "Earnings reports help test the narrative. If a supposed demand-driven rotation occurs without improving orders, margins or guidance, another explanation may be needed. TTN's <a href=\"earnings-beat-miss-explained.html\">guide to earnings comparisons</a> explains why results should be measured against both past performance and prior expectations.",
+      "Broader leadership is not automatically lower risk",
+      "A market supported by more sectors may be less dependent on one narrow group, but diversification still depends on the underlying exposures. Several sectors can share sensitivity to economic growth, financing conditions or a common customer base. Different labels do not guarantee independent risks.",
+      "Read sector performance beside <a href=\"sp500-concentration-risk-explained.html\">index concentration</a>, breadth and earnings evidence. Those measures answer complementary questions about weights, participation and business performance. A durable change in leadership becomes more credible when the pattern persists and the supporting financial evidence develops, rather than when one day's ranking happens to reverse."
     ],
     "sources": [
       {
-        "label": "SEC Investor.gov: Asset allocation and diversification",
+        "label": "S&P Dow Jones Indices: Sector index structure and weighting",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500-consumer-discretionary-sector/"
+      },
+      {
+        "label": "S&P Dow Jones Indices: Why index methodology and weighting matter",
+        "url": "https://www.spglobal.com/spdji/en/research-insights/index-literacy/methodology-matters/"
+      },
+      {
+        "label": "SEC Investor.gov: Asset allocation and sector diversification",
         "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/sector-rotation-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/sector-rotation-explained-editorial-960.webp",
@@ -3160,20 +3229,43 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A purchasing-manager survey can register an improvement without measuring a large increase in output. Its diffusion index describes how broadly respondents report change, rather than directly adding up the dollars or units produced.",
-      "Respondents compare conditions with the preceding month. An index combines the shares reporting increases, no change and decreases. The result summarizes direction across participating businesses, making it a different kind of evidence from a national-accounts estimate.",
-      "For the relevant headline survey, 50 separates reported expansion from contraction in that sector under the survey's method. It should not be treated as an exact dividing line between national economic growth and recession. Manufacturing and services have different compositions and coverage.",
-      "New orders, employment, prices and other components can explain why the headline moved. Stronger orders accompanied by weaker employment differ from an improvement driven by a single supplier-related component. Subindexes should be read using their particular definitions.",
-      "Survey evidence can arrive promptly, but speed does not ensure forecasting accuracy. Respondents' assessments, sector weights and changes in supply conditions can affect the relationship with subsequent measured activity.",
-      "A useful PMI story reports which survey changed and what drove it. Comparing its components with production, employment and spending data provides a stronger economic account than treating the headline as a stand-alone growth forecast."
+      "The ISM manufacturing and services surveys provide timely evidence about business activity before many comprehensive economic statistics are available. Their usefulness comes from asking supply-management professionals whether conditions improved, deteriorated or remained unchanged. Their limits come from the same design: they measure the breadth of reported change, not the precise size of economic growth.",
+      "A PMI of 52 does not mean production increased 2%, and a move from 48 to 49 does not by itself mean the sector returned to growth. Understanding the calculation makes both the headline and its component readings more informative.",
+      "How a diffusion index works",
+      "For a conventional positively oriented component, the unadjusted diffusion index adds the share reporting improvement to half the share reporting no change. If 40% of hypothetical respondents report an increase, 20% report no change and 40% report a decrease, the result is 50: 40 plus half of 20.",
+      "Now consider 50% reporting an increase, 20% no change and 30% a decrease. The index becomes 60. That is a broader balance of improvement, not evidence that each company expanded 10% or that national output grew by a particular amount. Company size and the magnitude of individual changes cannot be recovered from that number alone.",
+      "Seasonal adjustment can alter the published series relative to the raw response calculation. ISM publishes information on its seasonal factors and methodology. The basic example explains what a diffusion index represents, rather than reconstructing a particular month's adjusted headline.",
+      "The manufacturing and services composites differ",
+      "The manufacturing PMI combines new orders, production, employment, supplier deliveries and inventories with equal weights. The services PMI uses business activity, new orders, employment and supplier deliveries, also with equal weights. A component's role therefore depends on which composite is being discussed.",
+      "An index above 50 generally indicates expansion in the relevant surveyed sector compared with the preceding month; below 50 indicates contraction. It is not a universal threshold for the entire economy. Manufacturing can contract while services expand, and neither survey should be casually substituted for measured real GDP.",
+      "Changes in the index level describe changes in the reported balance. A move from 54 to 52 remains on the expansion side but indicates less broad improvement. A move from 46 to 49 remains on the contraction side while showing that the reported decline has become less widespread. Direction and level should both appear in the interpretation.",
+      "Supplier deliveries have an unusual sign",
+      "The supplier-deliveries index rises when more respondents report slower deliveries. That can accompany strong demand, but it can also reflect shortages or transport disruptions. It is therefore possible for a supply problem to lift the composite even when other measures are weak.",
+      "Take a simplified hypothetical manufacturing reading with four components at 45 and supplier deliveries at 70. The average is 50: the sum of 45, 45, 45, 45 and 70 divided by five. Reporting that result as unqualified evidence of healthy demand would miss how the high deliveries component offset the others.",
+      "Conversely, faster deliveries can reduce that index while representing an operational improvement for buyers. The sign is a feature of the survey's historical construction, not an instruction to consider every delay economically desirable. Read the report's explanation and other components before deciding what caused the movement.",
+      "New orders, employment and prices answer separate questions",
+      "New orders concern incoming demand, while production or business activity concerns current operations. Employment addresses reported staffing change. They can diverge when firms complete earlier orders, manage backlogs or adjust productivity. One composite number does not eliminate those differences.",
+      "The prices index is also a diffusion measure. A reading above 50 indicates a balance toward higher reported input prices; it does not specify a national inflation rate or the average percentage increase paid by buyers. The <a href=\"ppi-producer-price-index-explained.html\">Producer Price Index</a> uses a different statistical framework to measure price changes.",
+      "Similarly, a survey employment component cannot be read as the number of payroll jobs created. A small firm and a large firm reporting the same direction can have very different effects on total employment. Monthly payroll estimates and <a href=\"weekly-jobless-claims-explained.html\">jobless claims</a> provide separate evidence about the labor market.",
+      "Build a reading from the components",
+      "The strongest interpretation explains which components drove the headline, whether demand and output agree, and whether delivery times reflect demand or disruption. It also compares several releases rather than assigning a durable trend to one observation.",
+      "Survey responses offer a timely account of conditions reported by participating businesses. Later official statistics may confirm, qualify or contradict that account because they measure different things. The PMI is valuable as early evidence when its construction remains visible, rather than as a shortcut to an exact GDP or employment forecast."
     ],
     "sources": [
       {
-        "label": "Institute for Supply Management: PMI reports and methodology",
-        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/"
+        "label": "ISM: Diffusion-index calculation and seasonal-adjustment methodology",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/seasonal-adjustment-factors/"
+      },
+      {
+        "label": "ISM: Manufacturing report methodology and five component weights",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/august/"
+      },
+      {
+        "label": "ISM: Services report methodology and four component weights",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/march/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ism-pmi-explained-480.webp",
     "imageMedium": "assets/responsive/ism-pmi-explained-960.webp",
@@ -3253,20 +3345,47 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "The Federal Reserve's independence concerns its ability to make monetary-policy decisions without seeking approval for each decision from elected officials. It does not place the institution outside the law or remove congressional oversight.",
-      "Congress established its mandate, including maximum employment and stable prices. The Federal Open Market Committee sets policy through a structure involving the Board of Governors and regional Reserve Bank presidents. Appointment rules and terms are part of that framework.",
-      "The economic rationale is that interest-rate decisions can require unpopular trade-offs over a period longer than an election cycle. Insulation from immediate political pressure is intended to support those decisions, while public reporting and oversight provide accountability.",
-      "Institutional credibility can affect inflation expectations and the compensation investors require to hold long-term assets. That channel is plausible, but attributing a particular yield or currency move to a political statement needs evidence about timing and other developments.",
-      "A debate over the correct policy rate is different from a change to the decision-making framework. A personnel dispute, proposed law and enacted institutional change also have different legal significance. They should not be reported interchangeably.",
-      "The relevant documents are the statute, official decisions and the institution's published explanation of its responsibilities. Independence is a defined governance arrangement, not a claim that central bankers cannot be questioned."
+      "Federal Reserve independence concerns how monetary-policy decisions are made within a framework established by elected lawmakers. Congress sets the central bank's statutory objectives and oversight arrangements. The Fed has operational discretion to pursue those objectives, rather than receiving an instruction from the White House before each interest-rate decision.",
+      "That arrangement separates a policy goal from the choice of instruments used to pursue it. It does not place the Federal Reserve outside government, remove public accountability or guarantee that every policy decision will be correct. Independence is an institutional design, not a claim of infallibility.",
+      "Congress sets the framework",
+      "The Federal Reserve describes its monetary-policy responsibilities in terms of maximum employment, stable prices and moderate long-term interest rates. Congress created that framework and can change the law. Day-to-day disagreement about rates does not itself change the statutory structure.",
+      "Within that framework, officials assess the economy and decide how to use monetary-policy tools. A preference expressed by an elected official is different from a decision formally taken by the Federal Open Market Committee. Reporting should distinguish criticism, a proposed legal change and an actual change in authority.",
+      "The Fed's longer-run inflation objective is expressed in terms of the annual change in the price index for personal consumption expenditures. It is not a promise that every monthly inflation reading, or every consumer's personal expenses, will rise at exactly that rate. TTN's guide to <a href=\"cpi-inflation-explained.html\">consumer inflation measures</a> explains why the choice of index matters.",
+      "Monetary policy is a committee process",
+      "The FOMC brings together members of the Board of Governors and Reserve Bank presidents under a defined voting structure. Reserve Bank presidents who are not voting at a particular meeting still participate in discussions. An individual official's speech therefore cannot automatically be treated as the committee's next decision.",
+      "Meeting statements, published minutes and other communications provide different views of the process. A statement announces the decision and its public explanation. Minutes provide additional detail about discussion. Economic projections, when released, describe individual participants' assessments under their assumptions; they do not constitute a binding committee promise.",
+      "Consider a hypothetical official expecting two rate cuts over the next year. If inflation or employment develops differently, that projection can change. Revising it is not necessarily a departure from a commitment, because the original estimate was conditional. Treating every projection as a scheduled decision misrepresents the information being published.",
+      "Why insulation from short-term pressure matters",
+      "Monetary policy can involve an uncomfortable timing problem. A decision that supports spending now may create inflationary pressure later, while a decision intended to restrain inflation can impose immediate costs on borrowers and employment. Election cycles and the economic effects of policy do not operate on the same schedule.",
+      "The argument for operational independence is that officials should evaluate those tradeoffs against the assigned objectives rather than the immediate political benefit of a particular rate. The Fed's own explanation emphasizes insulation from short-term pressure alongside accountability to Congress and the public.",
+      "Independence does not mean officials can ignore society's preferences. The democratic role lies in setting the mandate, appointing officials through the applicable process and scrutinizing performance. The central bank's role is to explain how its decisions pursue that mandate and what evidence would cause its assessment to change.",
+      "Accountability requires explanations and evidence",
+      "Fed leaders testify before Congress and the institution publishes reports and financial information. Oversight allows lawmakers and the public to question both results and decision-making. Independence and scrutiny are intended to coexist rather than represent mutually exclusive choices.",
+      "A useful assessment compares policy explanations with the information available at the time, then examines how officials responded as conditions changed. Judging a decision only by a later outcome can conceal uncertainty that was real when it was made. Conversely, invoking uncertainty cannot excuse an explanation that ignores relevant evidence.",
+      "For a hypothetical illustration, suppose inflation declines after rates rise. That sequence alone does not establish how much of the decline came from policy rather than improving supply or cheaper imports. A fair evaluation asks which channels changed and how the outcome compares with plausible alternatives, rather than attributing every improvement or setback to one institution.",
+      "Independence does not isolate financial markets",
+      "Even with discretion over a policy rate, the Fed does not set every mortgage rate, bond yield or foreign exchange price. Markets respond to expected policy, inflation, risk and financing conditions. Long-term yields can rise even when the current policy rate is unchanged.",
+      "The related distinction appears in <a href=\"global-bond-yield-synchronization-explained.html\">international bond-market spillovers</a> and <a href=\"central-bank-policy-divergence-explained.html\">differences between central banks</a>. Operational independence describes authority over decisions. The economic results still emerge through markets, institutions and shocks that policymakers can influence but cannot fully control."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "Federal Reserve: Independence within government and accountability",
+        "url": "https://www.federalreserve.gov/faqs/about_12799.htm"
+      },
+      {
+        "label": "Federal Reserve: Structure and the FOMC",
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm"
+      },
+      {
+        "label": "Federal Reserve: The longer-run inflation objective and PCE prices",
+        "url": "https://www.federalreserve.gov/faqs/economy_14400.htm"
+      },
+      {
+        "label": "Federal Reserve: Independence, accountability and transparency in monetary policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy/2024-07-mpr-part2.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/fed-independence-structure-explained-480.webp",
     "imageMedium": "assets/responsive/fed-independence-structure-explained-960.webp",
@@ -3274,7 +3393,7 @@ const TTN_ARTICLES = [
   },
   {
     "id": "put-call-ratio-options-sentiment-explained",
-    "title": "The Put/Call Ratio Needs a Denominator—and Context",
+    "title": "The Put/Call Ratio Needs a Denominator and Context",
     "dek": "Option volume can indicate demand for protection or speculation. A ratio alone does not establish traders' intentions or forecast a reversal.",
     "author": "TTN Research Desk",
     "date": "2026-08-09T11:00:00",
@@ -3283,24 +3402,42 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "The same put/call ratio can describe different trading behavior. A put may protect an existing shareholding or form part of a spread, while a call can be bought, sold or used to hedge another position.",
-      "The basic volume ratio divides put contracts traded by call contracts traded over a defined period. Other versions use open interest. Volume counts transactions during the period; open interest counts contracts remaining open. They are not interchangeable measures.",
-      "Coverage matters. Index options include substantial portfolio-hedging activity, while equity-only data covers a different mix. A total-market number can change because that mix changed, even if behavior within a particular category did not.",
-      "Counting contracts also ignores their sizes, strikes, expirations and sensitivities. Many inexpensive, far-out-of-the-money contracts need not represent the same risk as a smaller number of larger or more sensitive positions.",
-      "Extreme readings are sometimes used as contrarian indicators, but no threshold guarantees that prices will reverse. A sustained demand for protection can be associated with continuing risk rather than a market that has already finished falling.",
-      "Report the version, period and data source before interpreting the number. An explanation supported by option prices and position context is more informative than translating a high ratio directly into bearishness or a buying opportunity."
+      "The put/call ratio compares the number of put-option contracts traded with the number of call contracts traded over a defined period. It offers a compact description of activity, which is why it appears so often in market commentary. The difficulty begins when that description becomes a confident claim about what investors believe.",
+      "Puts and calls can be used for protection, income, speculation or combinations of those purposes. A high ratio may coincide with demand for downside insurance, but the count alone does not identify the initiator, motivation or complete position behind each trade.",
+      "Start with the numerator and denominator",
+      "For a volume-based measure, divide put volume by call volume. In a hypothetical session with 600,000 puts and 1 million calls, the ratio is 0.60. That means 60 put contracts traded for every 100 calls. It does not mean that 60% of investors were bearish, because contracts and investors are different units.",
+      "The denominator can move the ratio even if put trading does not change. If calls fall to 500,000 while puts remain at 600,000, the ratio rises to 1.20. Describing that change as a doubling of put demand would be wrong. The ratio doubled because call volume halved.",
+      "A second example illustrates the opposite problem. Put volume could rise from 600,000 to 900,000 while calls rise from 1 million to 1.8 million. The ratio falls from 0.60 to 0.50 despite a 50% increase in put activity. Reading both underlying counts prevents a misleading interpretation of the headline ratio.",
+      "Identify which contracts are included",
+      "Cboe publishes separate statistics for equity options, index options and other categories. Those groups serve different users and strategies. Index puts may be used to protect a broad portfolio, while options on an individual stock can be dominated by a company-specific event. Their normal trading patterns need not match.",
+      "A total-market measure can change because the mixture of categories changes. If index hedging grows relative to single-stock trading, the combined ratio may rise even without a comparable shift inside either group. Compare the same market definition, exchange coverage and observation period before treating two readings as a continuous series.",
+      "Volume and open interest are also different. Volume records contracts traded during the period. Open interest concerns contracts outstanding after positions are accounted for. A volume-based ratio cannot tell the reader how much new exposure was created, because opening and closing transactions can both generate trading volume.",
+      "A put trade is not automatically a bearish purchase",
+      "Every executed option trade has a buyer and a seller. A purchased put can protect an existing stock holding, while a sold put creates a different exposure. Calls can likewise be purchased to seek upside or sold against shares as part of a covered-call position. A contract count does not reconstruct those portfolios.",
+      "Consider a hypothetical investor who owns a stock portfolio and buys index puts before an uncertain event. The puts express concern about near-term losses, yet the investor may remain invested for the long term. Calling the entire position a bet that stocks will fall would omit the much larger exposure being protected.",
+      "Complex strategies create further ambiguity. A spread can involve several option legs, each adding to reported volume. Trading around exercise decisions can also produce unusually large counts. Cboe has documented how early-exercise-related activity can distort equity put/call statistics, which is one reason to investigate an apparent outlier before assigning a market-wide story to it.",
+      "Contract counts do not measure equal amounts of risk",
+      "Two options can each count as one contract while differing greatly in price, expiry and sensitivity to the underlying asset. An inexpensive far-out-of-the-money put and a near-the-money call do not represent equivalent cash spending or directional exposure. A simple ratio ignores those differences by design.",
+      "That does not make the indicator useless. It means the question must match the measurement. The ratio can show a change in the balance of reported contract activity. Establishing the size and direction of investors' risk requires additional information about trades, positions and hedges that a daily summary may not provide.",
+      "Use context instead of a universal trading threshold",
+      "A reading above one says puts outnumbered calls in the selected dataset. It does not establish that the market is due to reverse. Historical comparisons should use consistent definitions and allow for changes in products and market participation. An unusually high reading can remain high or reflect activity unrelated to the next day's return.",
+      "Read the ratio beside <a href=\"vix-fear-index-explained.html\">implied volatility</a>, market breadth and the relevant news. A careful account identifies the category, both contract counts and any unusual trading explanation. That produces a useful description of positioning evidence without turning one incomplete indicator into a forecast."
     ],
     "sources": [
       {
-        "label": "Options Industry Council: Contract rights and obligations",
-        "url": "https://www.optionseducation.org/optionsoverview/options-basics"
+        "label": "Cboe: How early-exercise order flow affects equity put/call ratios",
+        "url": "https://www.cboe.com/insights/posts/how-early-exercise-order-flow-impacts-equity-option-put-call-ratios"
       },
       {
-        "label": "Cboe: VIX methodology and volatility products",
-        "url": "https://www.cboe.com/tradable-products/vix"
+        "label": "Cboe: Daily market statistics and separate option categories",
+        "url": "https://www.cboe.com/us/options/market_statistics/daily/"
+      },
+      {
+        "label": "Cboe: Index option overlays and protective strategies",
+        "url": "https://www.cboe.com/insights/posts/globalvolatility"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp",
@@ -3446,20 +3583,40 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A weekly increase in unemployment-insurance claims can reflect layoffs, seasonal patterns or a temporary disruption. Its frequency makes it useful, but also makes a single observation easy to overinterpret.",
-      "Initial claims count new applications for benefits. Continuing claims concern people remaining on benefits under the relevant program. The series cover different periods and are not a direct count of all people unemployed in the economy.",
-      "Eligibility and filing behavior limit the coverage. Some unemployed people are ineligible, do not apply or have exhausted benefits. Claims data therefore cannot replace the broader household survey used to measure unemployment.",
-      "Seasonal adjustment helps compare weeks with recurring patterns, but holidays, weather and administrative changes can still influence the result. Revised observations and a four-week average can show whether an apparent jump persists.",
-      "Population and the labor force change over time, so a fixed count from an earlier decade is not automatically the right stress threshold today. A useful comparison includes the level, trend, coverage and broader employment evidence.",
-      "The Labor Department release identifies advance figures and revisions. Reading those labels is essential before describing the latest count as a lasting deterioration or an all-clear for the economy."
+      "Weekly unemployment-insurance claims provide an early view of changes in the US labor market. Their speed is useful: a shift in applications can become visible before the next monthly employment report. The difficulty is separating a lasting change from a holiday, temporary closure or reporting revision.",
+      "The weekly release contains several measures answering different questions. Reading only the initial-claims headline can miss what is happening to people who have already lost work, while treating every benefit application as an unemployed person gives the data a wider meaning than they support.",
+      "Initial claims and continuing claims",
+      "An initial claim is an application to establish eligibility for unemployment insurance. It signals entry into the benefits system, rather than confirming that a payment has been approved. Continuing claims concern subsequent weeks claimed under the relevant program. They help show how many claims remain in that system after the initial application.",
+      "The reference weeks differ. In a typical release, the newest initial-claims figure covers a later week than the headline continuing-claims figure. A comparison should identify both dates instead of implying that the two numbers describe exactly the same period. The Department of Labor also separates regular state programs from other programs.",
+      "Continuing claims are not a complete census of unemployment. Eligibility rules, application decisions and benefit exhaustion affect the count. Someone who stops receiving benefits may have found a job, but the decline alone cannot prove that outcome. The broader unemployment rate comes from the household survey described by the Bureau of Labor Statistics, using a different definition and method.",
+      "Revisions can change the apparent weekly move",
+      "Consider a hypothetical release showing initial claims of 225,000. Last week's first estimate was 210,000, but the new report revises it to 215,000. The comparable weekly increase is 10,000, not 15,000. Calculating against the unrevised number would exaggerate the latest movement.",
+      "Neither calculation explains why claims rose. For that, the release's state information, reporting notes and later observations matter. A change concentrated in one state after a disruption carries a different interpretation from a persistent increase spread across many states. A revision is part of the statistical process, not by itself evidence that the earlier release was misleading.",
+      "The label “advance” is a useful warning about precision. An initial estimate incorporates the information available at that point and can subsequently change. When comparing articles published a week apart, check whether each uses the same vintage of data. Otherwise, an apparent disagreement may simply reflect a revised history.",
+      "Why the four-week average helps",
+      "Suppose four hypothetical weekly observations are 210,000, 214,000, 212,000 and 224,000. Their average is 215,000. A new reading of 216,000 replaces the oldest 210,000 observation, moving the average to 216,500. The weekly figure falls from 224,000, yet the average rises. Both statements are correct because they describe different comparisons.",
+      "An average reduces the influence of an isolated spike, but it also reacts more slowly to a genuine turning point. It should complement the weekly count rather than replace it. A persistent upward sequence in both measures deserves a different interpretation from one unusually high observation that disappears from the average several weeks later.",
+      "Seasonal adjustment is another layer. Recurring layoffs, school calendars and holidays create predictable patterns in unadjusted applications. Adjustment attempts to remove those effects. It cannot guarantee that unusual weather, shifting holiday timing or changes in reporting will leave no residual noise. BLS publishes the adjustment methodology and revisions to seasonal factors.",
+      "Put the release beside other labor evidence",
+      "Claims are particularly useful for examining dismissals and persistence in the benefits system. They say less directly about hiring, people entering the labor force or workers outside insurance coverage. A market with few layoffs can still feel weak to job seekers if employers are reluctant to recruit.",
+      "That is why <a href=\"unemployment-rate-u3-u6-participation-explained.html\">unemployment and participation</a>, payroll employment, vacancies and wage data belong beside the claims trend. Agreement across those measures strengthens an interpretation. Disagreement can reveal that one part of the labor market is changing faster than another, rather than showing that one dataset must be wrong.",
+      "A disciplined reading records the reference week, the revised comparison, the four-week average and the coverage of the series. It then asks whether the movement persists and whether other evidence supports the same conclusion. There is no universal claims count that automatically establishes a recession or determines the Federal Reserve's next decision."
     ],
     "sources": [
       {
-        "label": "US Department of Labor: Claims release, advance estimates and revisions",
+        "label": "US Department of Labor: Weekly claims release and reporting periods",
         "url": "https://www.dol.gov/ui/data.pdf"
+      },
+      {
+        "label": "BLS: Seasonal adjustment for weekly unemployment-insurance claims",
+        "url": "https://www.bls.gov/lau/seasonal-adjustment-for-weekly-unemployment-insurance-claims.htm"
+      },
+      {
+        "label": "BLS: How the government measures unemployment",
+        "url": "https://www.bls.gov/cps/cps_htgm.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/weekly-jobless-claims-explained-480.webp",
     "imageMedium": "assets/responsive/weekly-jobless-claims-explained-960.webp",
@@ -3537,20 +3694,43 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "Small-business owners can become more optimistic while still delaying hiring or investment. Confidence is one part of the NFIB survey; its other components help distinguish an improved outlook from a change in business activity.",
-      "The Small Business Economic Trends report draws on responses from NFIB members. Its population and method differ from government surveys and from the financial results of large listed companies. The findings should be described with that coverage in mind.",
-      "Expectations about business conditions and sales are forward-looking assessments. Reported earnings, current vacancies and capital-spending activity concern different stages of the business. They need not move together in a particular month.",
-      "Hiring plans can be constrained by a lack of suitable applicants, costs or weak expected demand. A rise in vacancies therefore does not automatically mean that employment will increase by the same amount. The follow-through matters.",
-      "Compare the components across several releases and with payroll, spending and credit data. A change concentrated in broad optimism is different from one accompanied by stronger orders, earnings and completed investment.",
-      "The report is valuable as evidence from a particular segment of business. Presenting it as a complete measure of the economy, or treating one score as a forecast, asks more of the survey than its design supports."
+      "The NFIB Small Business Optimism Index condenses several questions about business conditions into one headline. It is useful because smaller firms can experience changes in demand, hiring and financing differently from large listed companies. It becomes less informative when every movement is treated as a direct measure of the entire US economy.",
+      "The survey asks owners about expectations and operating conditions. Those are related but distinct kinds of evidence. A business can expect better conditions while reporting weak current sales, or struggle to recruit even as it becomes more cautious about expansion.",
+      "What the headline represents",
+      "NFIB constructs the optimism index from ten survey indicators. Its reports distinguish forward-looking responses, such as expectations for business conditions or sales, from measures closer to current operations, such as vacancies and earnings trends. Looking at the contributions explains much more than saying confidence rose or fell.",
+      "Respondents are drawn from NFIB's membership. The results are evidence about that survey population, not a count of every small business in the country. The report's description of the sample, response period and questions should travel with any broad claim about what owners are experiencing.",
+      "The index level is not a percentage of businesses that feel optimistic. A reading of 95 does not mean 95% of respondents expect improvement. Nor is 100 a universal boundary between economic expansion and contraction. Comparisons with a historical average can provide context, but the meaning still depends on the construction of the index.",
+      "Net percentages need careful interpretation",
+      "Several survey measures report the difference between positive and negative responses. Imagine 30% of hypothetical owners expecting sales to rise, 20% expecting a decline and 50% expecting no change. The net balance is positive 10 percentage points. It is not a forecast that sales will grow 10%.",
+      "Now suppose the next survey has 25% expecting growth and 10% expecting a decline. The net balance improves to 15 points even though fewer owners expect growth. The improvement comes from a smaller negative group. Looking at the balance alone can conceal that change in the distribution of views.",
+      "This distinction matters when translating the survey into a story about household spending or company revenue. A diffusion-style response describes the breadth of reported change. It does not specify the size of each firm's sales movement or weight every respondent by its contribution to the economy.",
+      "Intentions and completed actions are different",
+      "An increase in hiring plans indicates what owners say they intend to do. It does not confirm that additional workers have joined payrolls. Vacancies, recruitment difficulty and reported compensation changes can help explain whether plans are feasible, but those answers still need to be read on their own terms.",
+      "Consider a hypothetical shop planning to recruit two employees. If it cannot find suitable applicants, its hiring intention remains positive while employment stays unchanged. Another shop may fill one existing vacancy without expanding its overall workforce. Combining both cases into a simple claim that small-business employment is accelerating would go beyond the information provided.",
+      "The same logic applies to capital expenditure. An owner can announce plans for equipment and later postpone the purchase because financing becomes more expensive or sales disappoint. A reported completed expenditure is a different observation from an intention. Changes in both measures help distinguish ambition from implementation.",
+      "Price and wage responses are not national inflation rates",
+      "NFIB's pricing responses can indicate how widespread reported price increases are among participating firms. They do not measure a nationally weighted consumer basket. A larger share of owners raising prices is relevant to inflation analysis, but it cannot be substituted for <a href=\"cpi-inflation-explained.html\">the Consumer Price Index</a>.",
+      "Industry composition also matters. A service business with heavy labor costs faces different pressures from a retailer whose costs depend on imported merchandise. One common headline can sit above divergent experiences. The strongest account connects reported sales, compensation, pricing and financing conditions rather than treating a single answer as the whole explanation.",
+      "Read changes over several releases",
+      "A one-month improvement concentrated in expectations carries a different implication from a sustained improvement in earnings and completed investment. Neither automatically predicts the other. Compare the survey's reference period with events that might influence responses, including policy announcements, financing changes and seasonal trading conditions.",
+      "A useful reading records which components moved, whether they concern plans or outcomes and how the changes compare with other evidence. <a href=\"weekly-jobless-claims-explained.html\">Unemployment-insurance claims</a>, payroll data and retail spending can provide separate checks. Differences between them may reveal the uneven experience of smaller firms rather than an error in the survey.",
+      "The value of the NFIB report is its detail about owners' decisions and constraints. The optimism score is a starting point for that investigation. A reader gains more by understanding why recruitment, earnings or investment changed than by treating a few index points as a complete verdict on economic growth."
     ],
     "sources": [
       {
-        "label": "NFIB: Small Business Economic Trends survey",
+        "label": "NFIB: Small Business Economic Trends, survey scope and components",
         "url": "https://www.nfib.com/news/monthly_report/sbet/"
+      },
+      {
+        "label": "NFIB: Report tables and construction of the ten-component index; historical methodological reference",
+        "url": "https://assets.nfib.com/nfibcom/SBET-Nov-2023.pdf"
+      },
+      {
+        "label": "NFIB: Example of plans, actual spending and component contributions; historical reference",
+        "url": "https://www.nfib.com/news/press-release/new-nfib-survey-small-business-optimism-edges-up-in-november/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/nfib-small-business-optimism-explained-480.webp",
     "imageMedium": "assets/responsive/nfib-small-business-optimism-explained-960.webp",
@@ -3692,20 +3872,42 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A credit default swap transfers specified credit risk between counterparties. It can serve a protective role similar to insurance, but it is a derivative contract with its own payment, settlement and collateral terms.",
-      "The buyer pays for protection linked to a reference entity or obligation. A payout depends on a defined credit event and the contract's settlement process. Owning the related bond is not necessarily required to buy the protection.",
-      "A wider spread generally indicates that protection has become more expensive. Default concerns may contribute, but liquidity, recovery assumptions, technical demand and contract details also affect the price. The spread is not a default probability that can be read without a model.",
-      "The protection seller's ability to perform matters alongside the borrower's condition. Collateral and clearing arrangements can reduce particular counterparty risks, but they introduce rules and funding demands of their own.",
-      "Comparisons need matching maturities and terms. A single company's contract and an index of many entities do not represent the same exposure, even when both are quoted in basis points.",
-      "Use spread changes as evidence to investigate credit conditions. Confirm the reference entity, tenor and settlement terms before describing a quoted movement as proof that a company is about to default."
+      "A credit default swap, or CDS, is a derivative that transfers defined credit risk between counterparties. Its price can reveal how expensive it has become to obtain protection against specified events affecting a borrower. That makes CDS useful in credit analysis, but its spread is not a directly observed probability of default.",
+      "The protection buyer and seller agree on a reference entity, a notional amount, a maturity and contractual terms. A payment after a credit event depends on those terms and the settlement process. A sharp movement in the quoted price is a reason to investigate the contract and borrower, rather than announce that failure is inevitable.",
+      "What the buyer pays for",
+      "The buyer makes agreed payments in exchange for protection. Standardized contracts can involve a running coupon and an upfront amount, so a quoted spread should not always be treated as the exact cash payment due that day. BIS research describes the standardization and clearing arrangements that have changed the market's structure.",
+      "For a simplified hypothetical example, assume protection on $10 million of debt costs 150 basis points annually, paid without an upfront adjustment. One basis point is 0.01 percentage points, so 150 basis points is 1.5%. The annual amount is $150,000, or approximately $37,500 per quarter before day-count conventions and other contractual details.",
+      "That is a teaching calculation, not a tradable quotation. Actual cash flows depend on the agreed coupon, upfront pricing, payment dates and whether the contract remains outstanding. Multiplying a screen spread by notional can be a useful first illustration while still being an incomplete description of a real trade.",
+      "Settlement depends on the contract",
+      "CDS protection responds to defined credit events, rather than every bad development at a company. The documentation determines which events apply. Standard market arrangements include processes for determining whether a qualifying event has occurred and, where relevant, establishing settlement through an auction.",
+      "Suppose a hypothetical contract settles in cash using a recovery price of 40% of face value after a qualifying event. The protection payment on $10 million notional would be approximately $6 million: the notional multiplied by the 60% shortfall. The contract does not necessarily hand the buyer an additional $10 million while leaving every other position unchanged.",
+      "Physical settlement follows a different mechanism, involving delivery of eligible obligations under the documentation. A reader should identify the settlement form before describing the economic result. A restructuring, rescue or missed payment cannot be assumed to trigger every contract merely because it appears serious in a headline.",
+      "A spread contains more than default expectations",
+      "Credit concerns are one influence on protection costs. Expected recovery, liquidity, hedging demand and the characteristics of the contract also matter. A widening spread can therefore reflect a less liquid market or stronger demand for protection alongside a reassessment of the borrower's finances.",
+      "A simple model sometimes approximates an annual default intensity by dividing the spread by one minus the assumed recovery rate. With an illustrative 1.5% spread and 40% recovery assumption, that gives 2.5%. It is a model-based, risk-neutral quantity under restrictive assumptions, not a factual statement that this borrower has a 2.5% real-world chance of defaulting next year.",
+      "Changing the recovery assumption changes the result even when the observed spread stays the same. Discounting, term structure and risk compensation add further complications. This is why converting a quoted spread into a five-year default probability without disclosing a model creates false precision.",
+      "Protection creates another exposure",
+      "The protection seller must be able to meet its obligations. Collateral and central clearing can reduce particular bilateral risks, but they do not eliminate the need for liquidity or the possibility of loss. Margin demands can become significant when positions move against a participant before any reference borrower defaults.",
+      "Consider a protection seller with a long-term view that the company will survive. If the market reprices the protection sharply, that seller may face additional collateral requirements immediately. The eventual absence of default would not undo an earlier inability to meet those funding demands. Market risk and cash availability matter alongside the final credit outcome.",
+      "Compare like with like",
+      "Useful comparisons match the reference entity, maturity, currency, seniority and contractual provisions. A corporate single-name contract and a diversified CDS index represent different exposures. A five-year spread and a one-year spread can also move differently as concerns shift between immediate liquidity and longer-term solvency.",
+      "Read CDS alongside financial statements, debt maturities and <a href=\"corporate-bonds-explained.html\">cash-bond yields and spreads</a>. Agreement among those measures can strengthen a credit assessment; differences may reveal liquidity, funding or contractual effects. The most defensible conclusion identifies what protection costs, what the contract covers and which interpretation remains uncertain."
     ],
     "sources": [
       {
-        "label": "BIS: Credit default swaps and their market structure",
+        "label": "BIS: Credit-default-swap market structure and clearing",
         "url": "https://www.bis.org/publications/qr-201806/credit-default-swap-market-what-difference-decade-makes"
+      },
+      {
+        "label": "BIS: Standardization, credit-event determinations and CDS settlement",
+        "url": "https://www.bis.org/publications/the-big-bang-cds-market"
+      },
+      {
+        "label": "BIS: Clearing risks and the relationship between clearinghouses and banks",
+        "url": "https://www.bis.org/publications/clearing-risks-otc-derivatives-markets-ccp-bank-nexus"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/credit-default-swaps-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/credit-default-swaps-explained-editorial-960.webp",
@@ -3754,24 +3956,48 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A rise in prices received by producers does not guarantee an equal rise in the prices paid by consumers. The Producer Price Index and Consumer Price Index cover different transactions, and the costs passed between them can be absorbed or altered.",
-      "PPI measures changes in selling prices received by domestic producers for their output. Its coverage includes goods and services, with measures for final and intermediate demand. Those categories describe different parts of the production process.",
-      "CPI concerns purchases by consumers and differs in scope, weights and treatment of items such as imports. Subtracting one headline inflation rate from the other is therefore not a direct measure of a company's profit margin.",
-      "Businesses may pass higher input costs to customers, accept lower margins, change suppliers or redesign products. Contracts and inventories can delay the effect. The pass-through also depends on demand and competition, not just the size of an input-price increase.",
-      "A particular PPI component can provide information about an industry or about measures used in other inflation calculations. That usefulness does not make the whole index a fixed preview of next month's CPI.",
-      "Read the category and comparison period before interpreting a PPI release. A movement concentrated in one volatile component has different implications from a broad change, and it needs supporting evidence about demand and costs."
+      "The Producer Price Index measures changes in selling prices received by US domestic producers. It provides evidence about pricing across goods, services and construction, including sales to businesses, government and export customers. That perspective differs from the prices consumers pay at the checkout or for housing.",
+      "PPI can help explain price pressures in production and distribution, but it is not simply a consumer-inflation forecast published earlier. Differences in coverage, weights and measurement can produce different movements even when both PPI and the Consumer Price Index accurately describe their intended baskets.",
+      "Identify the series before interpreting the change",
+      "The PPI program is a family of indexes. The headline final-demand measure covers output sold for personal consumption, capital investment, government purchase and export. Intermediate-demand measures examine products sold to businesses as production inputs, excluding capital investment under that classification.",
+      "That distinction matters when a report refers to “pipeline inflation.” A sharp rise in one intermediate input price is not the same observation as an increase in the broad final-demand index. Its eventual effect depends on how widely the input is used, whether buyers substitute and how producers absorb or pass on costs.",
+      "Industry indexes and commodity groupings provide other views. A reader examining a particular company may learn more from a relevant component than the overall headline. The broad figure can remain modest while a concentrated input problem materially affects one industry.",
+      "Monthly and annual rates tell different stories",
+      "Suppose a hypothetical index rises from 100 to 100.4 in one month. The monthly increase is 0.4%. If its level a year earlier was 98, the year-over-year increase is approximately 2.45%: 100.4 divided by 98, minus one.",
+      "Those changes use different starting points. A smaller annual inflation rate can coexist with a strong monthly increase if an unusually high observation drops out of the annual comparison. Conversely, an annual rate can rise even after monthly pressure has begun to ease.",
+      "Seasonal adjustment creates another distinction. Compare adjusted monthly changes with the appropriate series rather than casually mixing them with unadjusted levels. A single month's increase should not be multiplied by twelve and presented as an established annual outcome; that calculation would assume a pace that may not persist and ignore compounding.",
+      "Why producer and consumer inflation diverge",
+      "PPI excludes imported production while CPI includes imported goods within its consumer scope. PPI includes exports and other categories outside direct consumer purchases. Owner-occupied housing is treated differently as well. These differences mean neither index is a simple subset of the other.",
+      "The prices collected also reflect different transactions and perspectives. A manufacturer's selling price, a distributor's margin and the final retail price are not interchangeable. BLS explains that the PPI indexes for wholesale and retail trade services measure margins rather than simply the full price of the merchandise being resold.",
+      "Consider a hypothetical retailer buying a product for $80 and selling it for $100, leaving a $20 gross margin before other costs. If the purchase cost falls to $75 and the selling price stays at $100, the margin rises to $25. The retailer's margin increases while the consumer price is unchanged. That illustrates why a trade-services price measure can move differently from a retail price series.",
+      "Input costs do not pass through mechanically",
+      "A manufacturer facing a higher input price may raise its selling price, accept a lower margin, find another supplier or alter the product. Contracts and competitive conditions influence which response is available. The size and timing of pass-through cannot be inferred from the input increase alone.",
+      "If a hypothetical input represents 20% of a product's cost and its price rises 10%, the direct cost effect is about 2% with quantities and other costs unchanged. It is not automatically a 10% increase in the final selling price. Labor, overhead, margins and subsequent business decisions remain part of the calculation.",
+      "That example is deliberately simplified. It explains the weighting problem rather than estimating a company's actual pricing. A convincing pass-through account identifies the relevant input share and evidence of price changes downstream, instead of treating the entire PPI headline as a uniform cost shock.",
+      "“Core” needs a definition",
+      "Reports may discuss final demand excluding food and energy, or excluding food, energy and trade services. Those measures remove different categories and can produce different readings. State which exclusion is being used rather than treating every “core PPI” reference as identical.",
+      "Underlying measures can help examine persistence, but excluded categories still affect businesses and customers. A calmer core series does not erase a real energy-cost increase, just as a volatile headline does not establish that every part of the economy is experiencing the same pressure.",
+      "Read PPI alongside <a href=\"cpi-inflation-explained.html\">consumer inflation</a>, company margins and survey evidence such as <a href=\"ism-pmi-explained.html\">ISM's prices components</a>. They are complementary observations with different constructions. The useful conclusion identifies where prices changed, how broadly and through which transactions, while leaving the next consumer-inflation outcome to evidence rather than assumption."
     ],
     "sources": [
       {
-        "label": "US BLS: Producer Price Index coverage and data",
-        "url": "https://www.bls.gov/ppi/"
+        "label": "BLS: PPI definitions, coverage and excluded categories",
+        "url": "https://www.bls.gov/ppi/faqs/questions-and-answers.htm"
       },
       {
-        "label": "US BLS: CPI definitions and methods",
-        "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
+        "label": "BLS: Comparing producer prices and consumer prices",
+        "url": "https://www.bls.gov/ppi/methodology-reports/comparing-the-producer-price-index-for-personal-consumption-with-the-us-all-items-cpi-for-all-urban-consumers.htm"
+      },
+      {
+        "label": "BLS: Final-demand methodology and trade-service margins",
+        "url": "https://www.bls.gov/ppi/fd-id/frequently-asked-questions-on-the-ppi-for-final-demand.htm"
+      },
+      {
+        "label": "BLS: Common misconceptions about the PPI",
+        "url": "https://www.bls.gov/opub/btn/volume-13/misconceptions-ppi.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ppi-producer-price-index-explained-480.webp",
     "imageMedium": "assets/responsive/ppi-producer-price-index-explained-960.webp",
@@ -3788,20 +4014,43 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "A mining company's bitcoin output can increase while its financial position weakens. Producing more coins does not establish what each coin cost or how much capital was needed to obtain it.",
-      "Miners use specialized equipment to contribute proof-of-work computing power. Their expected share of rewards depends on their computing power relative to competitors, while outcomes vary over shorter periods. Block rewards combine the subsidy with transaction fees.",
-      "Electricity is a major operating input, alongside maintenance, site costs and personnel. Hardware purchases and financing also matter. A reported cost per bitcoin may omit depreciation or other expenses, so definitions must be compared before ranking companies.",
-      "The subsidy halves according to the protocol schedule. Higher network competition can further reduce a given operator's expected output unless it expands or improves its equipment. Neither a rising bitcoin price nor efficient machinery guarantees a good return on a highly priced investment.",
-      "Power agreements and curtailment arrangements can affect revenue and costs. Repurposing sites for other computing workloads requires another investment case: mining hardware and a power connection do not by themselves supply the networking, reliability and equipment needed for AI services.",
-      "Read production alongside the full cash-cost definition, capital spending, debt and coin holdings. Holding mined bitcoin creates another price exposure that should be separated from the profitability of producing it."
+      "Bitcoin mining combines a probabilistic revenue stream with hardware and operating costs. A miner contributes computing work in the competition to produce valid blocks. Successful block production can generate a protocol-defined subsidy and transaction fees, while the miner pays for electricity, equipment and the infrastructure needed to keep it running.",
+      "Profitability therefore depends on more than Bitcoin's price. The miner's share of computing power, network competition, fees, power terms and equipment efficiency all matter. A higher token price can improve revenue while rising competition or costs absorbs much of the benefit.",
+      "What produces the revenue",
+      "The block reward consists of a subsidy and fees from transactions included in the block. The subsidy follows the protocol's issuance schedule and declines at scheduled halving points. Transaction fees vary with the transactions included and the demand for block space; they are not a fixed supplement guaranteed at every block.",
+      "The Bitcoin developer documentation distinguishes solo mining from pooled mining. A solo miner receives infrequent, uncertain block outcomes relative to its computing share. A pool combines work and distributes proceeds under its own payment rules, generally reducing the variability experienced by individual participants while adding pool-specific fees and terms.",
+      "Expected revenue is not the same as guaranteed daily revenue. A business may estimate proceeds from its computing share and network conditions, but actual outcomes depend on the payment method, uptime and the randomness of block discovery. The distinction matters when regular power bills must be paid from variable receipts.",
+      "Computing power is valuable relative to the competition",
+      "An operator's hardware produces hashes at a given rate. Its expected share of block production depends on that contribution relative to the network, not only on its own absolute machine count. Network difficulty adjusts under the protocol's rules as conditions change.",
+      "For a simplified hypothetical comparison, keep the miner's computing contribution and total reward pool unchanged while competing network power increases enough to raise the network total by 25%. The miner's share becomes one divided by 1.25, or 80% of its earlier share. Expected proceeds fall by 20% under those assumptions.",
+      "The example does not forecast network growth or precisely model the timing of difficulty adjustments. It shows why owning the same equipment can produce a different expected revenue stream later. A profitability estimate made at one level of competition is not a permanent characteristic of the machine.",
+      "Electricity costs need a complete operating assumption",
+      "Imagine a hypothetical installation drawing a constant 100 kilowatts for 24 hours. It consumes 2,400 kilowatt-hours. At $0.06 per kilowatt-hour, daily electricity costs are $144. If daily mining revenue is assumed to be $220, the difference is $76 before other costs.",
+      "Neither the power price nor revenue is a current market quotation. The calculation also assumes the stated power draw includes the equipment being evaluated and that the installation runs continuously. Cooling, networking or other site loads omitted from that draw would raise the total power bill.",
+      "If Bitcoin's dollar price falls 20% while the amount of Bitcoin earned remains unchanged, the assumed revenue falls to $176. With electricity still costing $144, only $32 remains before other expenses. A 20% revenue decline has reduced this narrow operating surplus by substantially more than 20% because the power cost did not fall with it.",
+      "The power margin is not the business's profit",
+      "Hardware must be acquired and eventually replaced. Repair, staffing, hosting, insurance, financing and pool charges can affect the remaining cash. Accounting depreciation and actual replacement expenditure are different measurements, both relevant to assessing the business over an equipment cycle.",
+      "Continuing the first hypothetical case, a 2% charge on $220 of revenue is $4.40. If other daily cash costs are $10, the $76 power-only surplus becomes $61.60 before hardware investment, financing, tax and additional obligations. Describing the original $76 as net profit would omit those items.",
+      "A machine can remain cash-positive on electricity while failing to recover its purchase price over its useful life. Conversely, equipment already owned may be operated while its incremental receipts exceed avoidable costs. Those are different decisions, and a single “break-even Bitcoin price” can conceal which one is being analyzed.",
+      "Price exposure continues after the coins are mined",
+      "Operators that retain Bitcoin rather than sell it immediately keep exposure to the token's subsequent price. Changes in the value of those holdings should be distinguished from the economics of producing the coins. Financing secured against assets can add another source of liquidity pressure.",
+      "Read reported mining revenue alongside computing capacity, uptime, energy use, realized power costs and capital spending. TTN's explanation of <a href=\"free-cash-flow-explained.html\">free cash flow</a> helps distinguish operating receipts from cash left after investment. A credible mining assessment connects those measures instead of treating a rising Bitcoin price as sufficient evidence of a profitable operation."
     ],
     "sources": [
       {
-        "label": "Bitcoin Developer Guide: Block chain and proof of work",
+        "label": "Bitcoin Developer Guide: Solo mining, pooled mining and computing work",
+        "url": "https://developer.bitcoin.org/devguide/mining.html"
+      },
+      {
+        "label": "Bitcoin Developer Guide: Block rewards, fees, proof of work and subsidy schedule",
         "url": "https://developer.bitcoin.org/devguide/block_chain.html"
+      },
+      {
+        "label": "Bitcoin Developer Guide: Transactions and transaction fees",
+        "url": "https://developer.bitcoin.org/devguide/transactions.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-mining-economics-explained-480.webp",
     "imageMedium": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
@@ -3980,20 +4229,43 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A global rise in energy costs reaches economies with different inflation rates, growth prospects and financial conditions. Central banks can therefore face different decisions even when the original shock is shared.",
-      "An energy importer and exporter do not experience the same change in national income. Household contracts, taxes, wage arrangements and the composition of consumer spending influence how quickly the cost appears in measured inflation.",
-      "The policy starting point matters too. An economy already facing weak demand may have less capacity to absorb higher borrowing costs than one with stronger activity. The same nominal policy rate can represent different financial pressure depending on inflation expectations and credit conditions.",
-      "Authorities weigh the direct price effect against the risk of broader, persistent increases. A supply disruption cannot be repaired simply by raising rates, but changes in spending and expectations can affect how far its inflation consequences spread.",
-      "Currency markets consider relative expected policy paths. Hedging costs, trade exposure and shifts in risk appetite can complicate that relationship, so divergence does not impose a fixed direction on every exchange-rate pair.",
-      "A credible comparison names the shock, the domestic conditions and the expected path at each bank. Statements, forecasts and incoming data establish more than placing three policy rates next to one another."
+      "Central banks can respond differently to a shared global shock because they are responsible for different economies. Inflation, employment, financing conditions and exposure to imported costs vary across countries. An interest-rate decision that fits one economy may be inappropriate for another.",
+      "Policy divergence means those decisions or expected paths are moving apart. It does not necessarily mean one central bank has made a mistake. Understanding the divergence requires more than comparing today's headline rates: the starting conditions, outlook and way policy reaches borrowers all matter.",
+      "A shared shock has unequal effects",
+      "An increase in global energy prices raises costs for an importer while generating income for some producers. Governments may also absorb part of the increase through subsidies or allow it to reach consumers more directly. The measured inflation rate and the effect on spending can therefore differ even when the underlying commodity shock is the same.",
+      "The exchange rate adds another layer. A weaker currency can increase the domestic price of imported products, but the pass-through is not automatic or identical everywhere. ECB research discusses the roles of invoicing, trade exposure and firms' pricing decisions. Those factors help explain why central banks may assess the same external news differently.",
+      "An economy with weak domestic demand may face a different balance of risks from one with broad wage and service-price pressure. The central bank has to consider whether an initial cost increase is spreading, how expectations behave and whether its response will affect activity before inflation subsides. No single international price explains every national policy decision.",
+      "The highest nominal rate is not always the tightest policy",
+      "Consider two hypothetical economies. Country A has a 6% policy rate and expected inflation of 5% over a comparable horizon. Country B has a 4% rate and expected inflation of 2%. Subtracting expected inflation gives approximate real rates of 1% and 2%, respectively.",
+      "The example does not prove that policy is tighter in B. Assessing restraint also requires an estimate of the economy's neutral real rate and the broader financial environment. It does show why ranking nominal rates alone can reverse the interpretation of the interest burden after expected price changes.",
+      "The inflation horizon needs to match the comparison. Subtracting last year's inflation from a rate expected to apply over the next year mixes a backward-looking observation with a forward-looking decision. Both figures may be accurately reported while producing an unhelpful measure of prospective borrowing conditions.",
+      "Borrowers experience policy through different contracts",
+      "In an economy where mortgages reset frequently, a rate increase can reach household cash budgets relatively quickly. Where many borrowers have long fixed-rate contracts, the immediate effect falls more heavily on new buyers, refinancing borrowers and other credit users. The same policy change can therefore work at different speeds.",
+      "Businesses also differ in their reliance on bank loans, bond financing and retained earnings. A firm with ample cash may be less affected initially than one facing a near-term refinancing. The central bank's decision enters an existing network of contracts rather than applying a uniform new rate to every household and company overnight.",
+      "This helps explain why <a href=\"global-bond-yield-synchronization-explained.html\">international bond yields can move together</a> while national policy rates diverge. Global investors influence financial conditions, but domestic credit structures still shape how those conditions affect spending. Common market pressure and independent policy choices can coexist.",
+      "Currency markets respond to surprises and expectations",
+      "An anticipated rate cut may have little additional effect when announced because investors have already adjusted their positions. A smaller cut than expected can even be interpreted as a comparatively restrictive surprise. The relevant comparison is often the decision against the expected path, not merely the decision against the previous rate.",
+      "For a hypothetical illustration, suppose investors expect a half-percentage-point cut, but the central bank delivers only a quarter point. Rates still fall, yet the decision leaves them higher than expected. That difference can affect bond yields and currencies without supporting a simple rule that every cut must weaken the currency.",
+      "Risk appetite, funding demand and economic prospects also influence exchange rates. A larger interest differential is not a guaranteed return for holding the higher-yielding currency. TTN's explanation of <a href=\"emerging-market-carry-trade-explained.html\">currency carry trades</a> shows how exchange-rate losses can overwhelm the income difference.",
+      "Distinguish policy choices from policy forecasts",
+      "A central bank statement describes a current decision and its assessment. Market pricing describes investors' evolving expectations. An economist's projection is another separate estimate. They can differ without any one being a promised future outcome.",
+      "The useful questions are why the paths differ, which assumptions would bring them closer and what evidence could change either central bank's view. Inflation composition, labor conditions and transmission through borrowing costs provide a firmer foundation than treating central banking as a race to the highest or lowest nominal rate."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "ECB: International transmission of monetary policy",
+        "url": "https://www.ecb.europa.eu/press/key/date/2019/html/ecb.sp191114~dbaf624e6a.en.html"
+      },
+      {
+        "label": "ECB: Exchange-rate transmission and differences between countries and industries",
+        "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2020/html/ecb.ebart202003_01~7fc0abdec2.en.html"
+      },
+      {
+        "label": "BIS: Interest-rate differentials, currency carry trades and market volatility",
+        "url": "https://www.bis.org/publications/qr-202409/carry-off-carry-on"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp",
@@ -4011,24 +4283,42 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "Government bond markets have different issuers and currencies, yet their yields can move in the same direction. International investors and shared economic news connect them without making the underlying risks identical.",
-      "A change in expected inflation or global growth can alter required returns in several markets. Higher expected policy rates and higher compensation for holding long-duration securities are separate possible contributors. Their relative importance is not visible in the quoted yield alone.",
-      "Portfolio decisions create another channel. Investors compare returns across countries, taking account of exchange-rate exposure and hedging costs. A more attractive alternative can change demand for one country's bonds even when its domestic news has been quiet.",
-      "Issuance and central-bank balance sheets also matter, but their effects depend on the securities, maturities and investor demand involved. Selling or maturing holdings is not automatically the explanation for every simultaneous yield increase.",
-      "Local credit perceptions, inflation credibility and funding arrangements can pull a country away from the common pattern. Comparing nominal and inflation-adjusted yields, maturities and currency-hedged returns helps separate those influences.",
-      "Report synchronization as an observed relationship before assigning a cause. A worldwide movement requires evidence about shared drivers; one country's budget story cannot, by itself, explain every other market's response."
+      "Government bond yields can rise across several countries even when their central banks announce different policies. The connection is international finance: investors compare returns, exchange-rate exposure and risk across markets, while common news can change expectations in many economies at once.",
+      "Synchronization describes the movement, not its cause. A simultaneous rise in US, German and British yields does not establish that each government has developed the same fiscal problem. It also does not mean national central banks have lost all influence over their domestic economies.",
+      "Separate the expected rate path from the term premium",
+      "A long-term yield reflects expectations about future short-term rates and compensation for the uncertainty of holding the bond. Analysts call the latter a term premium. Those components are estimated rather than directly observable, and different models can produce different decompositions of the same quoted yield.",
+      "BIS research finds international spillovers from both expected-rate and term-premium changes in US yields. One implication is that an overseas bond market can respond to a US announcement without its own central bank changing today's policy rate. Investors may revise the expected future path or the compensation they require for duration risk.",
+      "Consider a hypothetical ten-year yield rising from 4.0% to 4.4%. One interpretation attributes most of the move to expected policy rates; another attributes more to a higher term premium. The headline increase is 40 basis points in either case, but the economic explanation differs. A price chart alone cannot resolve that distinction.",
+      "A common inflation shock can travel across borders",
+      "An increase in an internationally traded energy price may raise expected inflation in several importing countries. Investors can respond by demanding different nominal returns or anticipating a monetary-policy response. The size of the effect depends on local energy exposure, currency movements and the credibility of inflation expectations.",
+      "The same shock can therefore produce a shared direction but different magnitudes. A country with substantial domestic energy production may face a different income effect from an importer. A government subsidy may temporarily alter measured consumer inflation while transferring costs to the public budget. Treating all yield increases as one identical story loses these distinctions.",
+      "Real and nominal yields help frame the investigation. A nominal increase accompanied by a rise in inflation compensation differs from one driven mainly by real yields. Neither breakdown is perfectly clean: market liquidity and risk compensation also affect inflation-linked securities. The comparison is evidence about possible channels, not a direct reading of investors' private forecasts.",
+      "International portfolios transmit changes in relative value",
+      "Suppose a hypothetical investor compares a domestic bond yielding 3.5% with a foreign bond yielding 5.0%. The foreign security does not automatically offer an extra 1.5 percentage points of usable return. Currency hedging, transaction costs and differences in maturity or credit risk can change the comparison materially.",
+      "If the estimated annual hedging cost were 1.8 percentage points, subtracting it would leave an illustrative 3.2% before other effects. That simplified calculation is not a hedge quotation or an exact return formula. It demonstrates why comparing unhedged headline yields can misrepresent the choices faced by an international portfolio.",
+      "When relative attractiveness changes, portfolio rebalancing can affect demand in more than one market. Investors may also reduce positions across countries to meet liquidity or risk limits. BIS analysis of global financial conditions discusses these portfolio and hedging channels. They help explain why purely domestic news is sometimes insufficient to account for a yield move.",
+      "Compare equivalent securities before drawing conclusions",
+      "An increase of 20 basis points in one country's two-year yield should not be casually compared with a 20-basis-point move in another country's thirty-year bond. The maturities expose investors to different parts of the expected policy path and different amounts of price sensitivity. TTN's explanation of <a href=\"bond-duration-explained.html\">bond duration</a> develops that distinction.",
+      "Currency, inflation protection, liquidity and issuer quality also matter. A widening yield difference can reflect changing credit perceptions rather than a shared global shock. Conversely, two markets can move together while the gap between them remains broadly unchanged. The spread and the outright yield answer different questions.",
+      "Evidence that supports a global explanation",
+      "A useful assessment compares the timing of moves with economic releases, policy announcements and changes in related markets. It checks whether the response appears across maturities and whether currency-hedged alternatives changed. Those observations can support a spillover explanation without pretending to identify every investor's transaction.",
+      "Local circumstances still belong in the account. Bond issuance, investor demand and central-bank holdings may influence one market more strongly than another. Their effects depend on timing and expectations, not simply the size of a published borrowing figure. Global synchronization is best understood as interacting influences, with national differences remaining visible inside the common movement."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "BIS Working Paper 814: International spillovers from expected rates and term premiums",
+        "url": "https://www.bis.org/publications/working-paper-814-interest-rate-spillovers-united-states-expectations-term-premia-and-macro-financial-vulnerabilities"
       },
       {
-        "label": "BIS: Credit default swaps and their market structure",
-        "url": "https://www.bis.org/publications/qr-201806/credit-default-swap-market-what-difference-decade-makes"
+        "label": "BIS: US spillovers amid macroeconomic divergence",
+        "url": "https://www.bis.org/publications/us-spillovers-amid-macroeconomic-divergence"
+      },
+      {
+        "label": "BIS Annual Economic Report 2025: Financial conditions and currency hedging",
+        "url": "https://www.bis.org/publications/aer-2025/financial-conditions-changing-global-financial-system"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/global-bond-yield-synchronization-explained-480.webp",
     "imageMedium": "assets/responsive/global-bond-yield-synchronization-explained-960.webp",
@@ -4076,20 +4366,43 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A profitable company can consume cash. A cash-generative quarter can also flatter a business whose customers paid early or whose suppliers were paid late. Both are reasons to read the cash-flow statement alongside earnings.",
-      "Free cash flow is commonly calculated as operating cash flow minus capital expenditure, but it is not a single standardized accounting line in every company's reporting. Adjusted versions can exclude additional items. The reconciliation should establish what has been included.",
-      "Operating cash flow reflects changes in working capital as well as operations. Collecting receivables, reducing inventory or stretching payment terms can improve it temporarily. A year-end increase needs a different interpretation if those effects are unlikely to repeat.",
-      "Capital expenditure funds assets with different purposes. Maintenance, replacement and expansion may have different implications for future earning capacity. Treating every reduction in capital spending as an improvement can overlook the cost of deferring needed investment.",
-      "Stock compensation, leases, financing arrangements and acquisition spending can also complicate comparisons. Cash flow is subject to classification and timing choices; it should not be described as immune to presentation that overstates economic performance.",
-      "Compare several periods, the disclosed definition and the uses of the cash. A sustainable ability to fund operations and investment is more informative than one strong headline free-cash-flow number."
+      "Free cash flow is commonly used to describe the cash a company generates after capital spending. It helps connect operating performance with the resources available for other purposes, including debt reduction, dividends, acquisitions and share repurchases. The label is useful only when the calculation is clear.",
+      "Unlike net income under an accounting framework, free cash flow does not have one universally applied definition. The SEC's non-GAAP guidance specifically cautions that the measure should not be assumed to represent all cash available for discretionary spending. Contractual obligations can remain outside a company's chosen calculation.",
+      "Begin with the company's definition",
+      "A common starting point is cash from operating activities minus capital expenditure. If a hypothetical business reports $120 million of operating cash flow and $50 million of capital spending, that calculation produces $70 million of free cash flow. The subtraction is simple; interpreting the two inputs requires more work.",
+      "Another company may adjust for restructuring payments, acquisitions or selected investment items. Those changes can make the reported result differ from the common calculation. A comparison should show the reconciliation and identify what has been removed, rather than place unlike “free cash flow” figures beside one another as if they followed the same standard.",
+      "The cash-flow statement separates operating, investing and financing activities. Reading those sections together helps identify the transactions behind a cash balance. A company receiving money from a new loan has more cash, but the borrowing does not become operating cash generation merely because the money is available to spend.",
+      "Profit and cash can move in different directions",
+      "Revenue recognition and cash collection do not always occur at the same time. A business can record a sale before the customer pays, leaving a receivable. Expenses can likewise affect profit in a different period from their associated cash payment. Depreciation is a familiar example of an expense that is not itself a current cash outflow.",
+      "Imagine a hypothetical company whose accounting profit rises as sales increase, but customers take longer to pay. The extra receivables can absorb cash, leaving operating cash flow weaker than the profit trend suggests. That difference need not indicate fraud; it does create a question about collection, customer terms and whether growth is financing itself.",
+      "Inventory can produce a similar gap. Buying additional stock uses cash before the goods are sold. Later selling that inventory may release cash even if the business is no longer growing. Reading <a href=\"earnings-beat-miss-explained.html\">earnings performance</a> beside the cash-flow bridge helps distinguish profitable growth from the timing of working capital.",
+      "Working-capital improvements may not repeat",
+      "Suppose operating cash flow rises from $100 million to $140 million, including a $30 million benefit from collecting overdue invoices. With $50 million of capital expenditure, reported free cash flow becomes $90 million instead of $50 million. Only $10 million of the $40 million increase is left after separating that particular collection benefit.",
+      "The collection is real cash and may be a welcome improvement. It is not automatically a recurring annual source. Delaying payments to suppliers can also boost a period's operating cash flow while creating obligations for the next period. A sustainable assessment examines the underlying terms rather than treating every favorable working-capital movement as permanent progress.",
+      "Seasonality complicates a single-quarter comparison. A retailer may build stock before its peak selling season and collect cash afterward. Comparing the same quarter across years or reviewing a full annual cycle can provide more useful context than declaring a business weak whenever its seasonal investment absorbs cash.",
+      "Capital expenditure supports future operations",
+      "Subtracting investment does not mean the investment is undesirable. A company building capacity can produce little or negative free cash flow while spending on assets intended to generate future revenue. The relevant question is whether the expected return and financing justify that commitment, not whether every period's free cash flow is positive.",
+      "Management may distinguish maintenance from growth spending, but that division often involves judgment. Equipment can both replace worn assets and add capacity. Excluding too much expenditure as optional growth can make the amount needed to sustain the business look smaller than it really is.",
+      "For example, $70 million of calculated free cash flow does not mean $70 million can safely be distributed if $60 million of debt principal soon comes due and no refinancing is arranged. Cash reserves, maturities and other commitments belong in the assessment. A positive measure can coexist with a near-term funding problem.",
+      "Compare cash generation with the decisions it funds",
+      "Evaluate several periods, the company's definition, working-capital movements and capital-spending plans. Check whether acquisitions, leases or other obligations require a separate adjustment for the question being asked. No single reconciliation can replace an understanding of the business model.",
+      "When reviewing <a href=\"stock-buybacks-explained.html\">share repurchases</a> or dividends, compare them with recurring cash generation and the balance sheet. Free cash flow can show whether operations are contributing funds, but it cannot establish that every use of those funds creates value. That remains a separate capital-allocation judgment."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC: Non-GAAP financial measures, especially Question 102.07 on free cash flow",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures"
+      },
+      {
+        "label": "SEC: Reading income statements, cash-flow statements and working capital",
+        "url": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+      },
+      {
+        "label": "SEC: Statement of cash flows building blocks",
+        "url": "https://www.sec.gov/files/cash-flow-statement-bblocks.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/free-cash-flow-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/free-cash-flow-explained-editorial-960.webp",
@@ -4138,20 +4451,43 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A refinery buys crude and sells products such as gasoline and diesel. Its earnings depend on the difference between those prices, which means a higher oil price does not necessarily produce higher refinery profit.",
-      "The crack spread is a simplified price comparison between crude inputs and refined outputs. Benchmarks use specified products, quantities and market locations. Different configurations describe different approximations to a refinery's product yield.",
-      "The quoted spread leaves out important operating costs and constraints. Energy used in processing, maintenance, transport, crude quality, downtime and environmental obligations affect the realized margin. A benchmark cannot stand in for the company's full income statement.",
-      "Product demand and available refinery capacity can move the spread independently of crude. An outage can constrain product supply even when crude remains plentiful. Conversely, weak fuel demand can reduce margins despite cheaper crude inputs.",
-      "A company may hedge part of the exposure, and its plants may not match the benchmark's location or product mix. Inventory and timing differences can further separate reported earnings from the spread visible on a particular day.",
-      "Report the benchmark and units used, then examine operating data. The spread is a useful input into a refining story, not an exact prediction of profit or evidence that every refiner benefits equally."
+      "A crack spread compares the price of refined petroleum products with the crude oil used to make them. It is widely followed as a benchmark for the refining business because a refiner operates between two markets: the cost of its input and the value of its output.",
+      "The spread is a theoretical processing margin, not a company's net profit. A refinery must still pay for energy, labor, maintenance, transport and financing, and its actual product mix may differ from the benchmark. Those differences can become especially important when operations are disrupted.",
+      "Put the prices in the same units",
+      "US crude futures are commonly quoted in dollars per barrel, while gasoline and ultra-low-sulfur diesel futures are quoted in dollars per gallon. A petroleum barrel contains 42 US gallons. Converting the product price to a per-barrel equivalent is necessary before subtracting the crude price.",
+      "Take a hypothetical gasoline price of $2.00 per gallon and crude oil at $70 per barrel. Multiplying $2.00 by 42 gives $84 per barrel of gasoline. The simple gasoline crack is therefore $14 per barrel: $84 minus $70. Subtracting 70 directly from 2 would combine different units and produce a meaningless number.",
+      "That example does not suggest a refinery can turn every barrel of crude into a barrel of gasoline without other products, losses or costs. It isolates one price relationship. CME's educational material distinguishes this simple one-product comparison from formulas using a basket of outputs.",
+      "How the 3-2-1 crack works",
+      "The 3-2-1 benchmark compares three barrels of crude with two barrels of gasoline and one barrel of distillate. It is a standardized approximation, rather than the exact output of every refinery. Actual yields depend on crude quality, equipment and operating decisions.",
+      "Using hypothetical prices of $70 per barrel for crude, $2.00 per gallon for gasoline and $2.50 per gallon for distillate, the output basket is worth $273. That is two times $84 for gasoline plus $105 for distillate. Three barrels of crude cost $210, leaving $63 across the basket, or $21 per barrel of crude.",
+      "Equivalently, the formula is [42 × (2 × gasoline price + distillate price) − 3 × crude price] ÷ 3 when product prices are in dollars per gallon and crude is in dollars per barrel. These illustrative numbers are not current market prices. The conversion and division are what make the resulting figure comparable across observations.",
+      "A wider spread can have several causes",
+      "Product prices may rise faster than crude because demand strengthens, inventories decline or refining capacity becomes less available. Alternatively, crude may fall while product prices move less. A wider spread alone does not identify which mechanism is operating.",
+      "Imagine gasoline and diesel prices staying fixed while crude falls by $5 per barrel. The illustrative crack widens by $5, even though customers are not paying more for those products. If product prices rise instead, the same wider spread can coexist with greater pressure on consumers. A useful market account reports both sides of the calculation.",
+      "Geography matters as well. A benchmark combining a particular crude grade with product contracts in another delivery region may not match a company's local economics. Freight, quality differences and infrastructure constraints can change the realized price relationship. Those local differences are often described as basis risk when discussing a hedge.",
+      "Why refinery earnings can diverge from the benchmark",
+      "Suppose the illustrative benchmark margin is $21 per barrel. If a refinery's relevant cash operating costs were $8 per barrel, subtracting them would leave $13 before other expenses and accounting effects. This simplified bridge is still not net income: depreciation, interest, tax and items outside the refining segment can materially change the result.",
+      "Utilization is another distinction. A refiner cannot earn the benchmark margin on capacity that is offline. Strong market spreads during an outage may benefit operating competitors while leaving the affected refinery with repair costs and lost production. High industry margins therefore do not establish strong earnings for every company.",
+      "Inventory accounting and the timing of purchases and sales can also complicate the comparison. A quarter's reported profit may reflect crude acquired earlier, hedging positions or changes in inventory value. The relevant company disclosure is a better guide to those effects than multiplying the current spread by nameplate capacity.",
+      "What the spread can reliably tell a reader",
+      "Crack spreads help describe the pricing relationship between crude and selected products. Read them alongside refinery throughput, product inventories and the specific benchmark definition. When reviewing a company, compare its realized margin, volumes and costs with that market context.",
+      "For the wider accounting distinction, see <a href=\"free-cash-flow-explained.html\">TTN's guide to free cash flow</a>. A favorable product-to-crude spread can support operating cash generation, but investment and other obligations determine how much cash remains. The benchmark is a useful piece of that assessment, not a substitute for the financial statements."
     ],
     "sources": [
       {
-        "label": "US EIA: Oil prices and their drivers",
-        "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
+        "label": "CME Group: Calculating and interpreting crack spreads",
+        "url": "https://www.cmegroup.com/articles/2024/trading-crack-spreads.html"
+      },
+      {
+        "label": "EIA: Introduction to crack spreads and omitted refining costs",
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=1630"
+      },
+      {
+        "label": "EIA: Price benchmarks and limits of the margin proxy",
+        "url": "https://www.eia.gov/todayinEnergy/prices.php"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/crack-spread-refining-margins-explained-480.webp",
     "imageMedium": "assets/responsive/crack-spread-refining-margins-explained-960.webp",
@@ -4230,24 +4566,48 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A permitted home has not necessarily been started, and a started home has not necessarily been completed. Those stages help explain why several housing reports can move differently without contradicting each other.",
-      "The Census Bureau's construction data distinguish permits, starts and completions under defined methods. Permits concern authorization, starts concern work begun and completions concern finished units. Changes in timing, cancellations and capacity can alter the relationships.",
-      "Builder sentiment is a survey rather than a count of construction. The NAHB/Wells Fargo Housing Market Index concerns conditions in the single-family market. It adds information about assessments and prospects but should not be treated as proof of the number of homes that will be built.",
-      "Borrowing costs influence buyers' payments and builders' financing. Affordability also depends on prices, incomes, incentives and available supply. A lower mortgage rate does not guarantee an increase in demand if the other conditions deteriorate.",
-      "Regional and property-type differences matter. A national increase driven by multifamily projects can differ from the conditions facing a single-family builder in a particular city. Volatile monthly observations and revisions require a longer comparison.",
-      "Read the stage, coverage and period before drawing an economic conclusion. Housing reports reveal activity and expectations at different points; they do not form a fixed sequence that automatically forecasts the next recession."
+      "Housing permits, starts, completions and builder confidence describe different stages of the same industry. They can move in opposite directions without contradicting one another. An improving outlook does not instantly produce completed homes, and a rise in completed apartments can reflect construction decisions made much earlier.",
+      "Reading the measures together helps identify where a change is occurring: future intentions, work beginning, supply reaching the market or sentiment among builders. Combining them into a single claim that “housing is up” can hide distinctions that matter for employment, materials demand and the availability of homes.",
+      "Follow the construction sequence",
+      "A building permit records authorization in a permit-issuing jurisdiction. It does not guarantee that construction will begin immediately or that the project will be completed. Financing, demand, infrastructure and a developer's choices can delay or prevent the next step.",
+      "For the Census Bureau's construction statistics, a start generally occurs when excavation begins for a building's footings or foundation. In a multifamily structure, the units are counted as started when that building reaches the relevant stage. A single large apartment project can therefore move the unit total substantially without representing hundreds of separate new construction sites.",
+      "Completions identify a later stage. A rise in completed supply may reflect projects started during an earlier period of easier financing or stronger demand. It cannot be used by itself to establish that developers are currently becoming more willing to begin new projects.",
+      "The annual rate is not the month's actual count",
+      "US housing headlines commonly use seasonally adjusted annual rates. These express the adjusted monthly pace as if it continued for a year. A reported annual rate of 1.2 million starts does not mean 1.2 million homes began construction during that month.",
+      "As a simplified illustration, dividing 1.2 million by 12 gives an adjusted monthly pace of 100,000 units. That calculation does not reconstruct the actual unadjusted count, because seasonal factors distinguish the reported annualized rate from the raw monthly observation. Use the published unadjusted tables when the question concerns how many units actually started in a period.",
+      "The same distinction affects change calculations. A move from an annualized 1.2 million to 1.26 million is a 5% increase in the reported pace. It is not an additional 60,000 actual starts in that single month. Stating the unit and adjustment prevents a large misunderstanding from a small headline.",
+      "Single-family and multifamily can tell different stories",
+      "Apartment buildings create more month-to-month volatility because individual projects contain many units. A sharp increase in multifamily starts can lift the overall figure even while single-family construction weakens. The implications for builders, materials and eventual supply differ across those categories.",
+      "Suppose hypothetical annualized single-family starts fall from 900,000 to 850,000 while multifamily starts rise from 300,000 to 450,000. Total starts increase from 1.2 million to 1.3 million, yet the single-family segment declines. A report saying every part of residential construction improved would be incorrect.",
+      "Regional differences also matter. A national increase can be concentrated where population, weather or land availability supports building. That does not establish the same outlook for a company operating mainly in another region. Compare the geography and business model before applying a national statistic to individual corporate earnings.",
+      "Builder confidence is a survey, not a construction count",
+      "The NAHB/Wells Fargo Housing Market Index combines builders' assessments of current single-family sales, expected sales over six months and prospective-buyer traffic. Its methodology assigns different weights to those components. It is therefore neither an unweighted opinion poll nor a measure covering every form of residential development.",
+      "A reading above 50 indicates a balance of favorable over unfavorable assessments in the index's construction. It does not mean sales rose 50% or that half of authorized homes were completed. The HMI's survey panel and focus differ from the Census Bureau's construction statistics.",
+      "Confidence can improve before starts if builders expect financing or demand to recover. It can also improve without a subsequent increase if those expectations fail to materialize. Comparing expectations with later starts and sales helps test the story rather than assuming the survey has already recorded an outcome.",
+      "Connect financing with the right stage",
+      "Mortgage costs affect buyer affordability, while developers also face their own construction and land-financing costs. Changes in either can alter a project's economics. A builder offering incentives may sustain sales while accepting a lower margin, so unit demand alone cannot explain profitability.",
+      "The link with <a href=\"central-bank-policy-divergence-explained.html\">interest-rate transmission</a> is important, but it does not produce a fixed timetable. Existing commitments, labor availability and local approvals can slow the response. A decline in rates may support intentions before it changes completed supply.",
+      "Revisions and sampling uncertainty provide another reason to avoid overreading one month. Compare several observations, the single-family and multifamily breakdowns, and the stage each series measures. The most useful housing account explains how intentions become construction and supply, while recognizing where that process is being delayed or redirected."
     ],
     "sources": [
       {
-        "label": "US Census Bureau: Residential construction definitions and releases",
-        "url": "https://www.census.gov/construction/nrc/index.html"
+        "label": "Census Bureau: Survey of Construction definitions",
+        "url": "https://www.census.gov/construction/soc/definitions.html"
       },
       {
-        "label": "NAHB: Housing Market Index coverage and method",
-        "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index"
+        "label": "Census Bureau: Construction starts and the New Residential Construction release",
+        "url": "https://www.census.gov/economic-indicators/"
+      },
+      {
+        "label": "NAHB: Housing Market Index scope, components and methodology",
+        "url": "https://www.nahb.org/News-and-Economics/Housing-Economics/Indices/Housing-Market-Index"
+      },
+      {
+        "label": "Census Bureau: Time between authorization, starts and completions",
+        "url": "https://www.census.gov/construction/nrc/data/time.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/housing-starts-builder-confidence-explained-480.webp",
     "imageMedium": "assets/responsive/housing-starts-builder-confidence-explained-960.webp",
@@ -4296,20 +4656,48 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "Owning an index containing hundreds of companies does not mean owning each one in equal proportion. In a capitalization-weighted benchmark, the largest firms can account for a substantial part of the exposure.",
-      "The S&P 500 uses float-adjusted market capitalization under its methodology. Shares available to investors influence the weight alongside price. Other benchmarks, including the Nasdaq-100, have their own eligibility and weighting rules and should not be described as identical constructions.",
-      "A heavily weighted company's share-price movement has a larger direct contribution to the index than the same percentage movement in a small constituent. Its earnings can also alter expectations for suppliers and competitors, adding effects beyond the arithmetic weight.",
-      "A sector containing several large constituents can compound the exposure to a common business driver. Holding a broad index diversifies individual holdings, but its economic sensitivities may still be concentrated in technology, financing conditions or another theme.",
-      "An equal-weight comparison can help reveal how performance differs when each constituent receives a similar starting allocation. It also changes other exposures and rebalancing behavior, so it is not a risk-free version of the same portfolio.",
-      "Check the current constituent weights and methodology before describing the benchmark as balanced. The number of names explains breadth; the size of each holding explains how much a result in one name matters."
+      "An S&P 500 fund provides exposure to a broad set of large US companies, but it does not allocate the same amount to each one. The index weights constituents by float-adjusted market capitalization. The largest companies can therefore have much more influence on its returns than the count of holdings suggests.",
+      "That is a feature of the benchmark, not a malfunction. It means diversification should be evaluated through weights and shared exposures as well as the number of company names. A portfolio can contain hundreds of securities while relying heavily on a smaller group for its financial outcome.",
+      "How market-capitalization weights work",
+      "Float adjustment accounts for shares considered available to public investors rather than treating every issued share as equally investable. The resulting market values determine the relative weights under the index methodology. A company's share price alone cannot establish its importance, because the number of relevant shares also matters.",
+      "As companies outperform, their weights can increase between index changes. Investors holding a capitalization-weighted fund participate in that change without needing to buy an equal dollar amount of every constituent. The portfolio's risk profile can consequently evolve even if the investor does not make a new allocation decision.",
+      "This differs from saying that a larger weight is necessarily overvalued. Weight describes the company's role in the index. Valuation requires an assessment of price relative to earnings, assets or future cash generation. A concentration measure identifies dependence; it does not on its own prove that the largest holdings are poor investments.",
+      "A contribution example shows the practical effect",
+      "Suppose the ten largest holdings make up 35% of a hypothetical portfolio. If that group falls 10% while the other holdings gain 2%, the approximate overall return is minus 2.2%. The first group contributes minus 3.5 percentage points and the remaining 65% contributes plus 1.3 points.",
+      "Most holdings could therefore rise while the portfolio declines. The result depends on the weights, not a vote among the securities. Conversely, a strong advance by the largest names can lift the index while a substantial number of smaller constituents fall.",
+      "These assumed weights are a teaching example, not a statement of today's S&P 500 composition. Actual concentration changes with prices, share counts and index decisions. Any current claim about the largest holdings should identify the observation date and the relevant provider data.",
+      "Holdings can share the same economic risks",
+      "Different companies may depend on similar spending cycles, customers, financing conditions or technologies. Holding several of them reduces exposure to a single corporate failure, but may leave substantial exposure to the shared driver. Sector classifications alone do not capture every such connection.",
+      "For example, a hypothetical portfolio can own software firms, chip suppliers and infrastructure providers whose revenues all benefit from one investment cycle. Their businesses differ, yet a revision to that spending outlook could affect several holdings together. Assessing the dependency requires understanding revenues and customers, rather than merely counting industry labels.",
+      "The relationship is not fixed. Correlations can change when business models evolve or markets become stressed. Diversification is therefore an assessment of exposures under possible conditions, not a permanent guarantee derived from a list of historical relationships.",
+      "Equal weighting answers a different question",
+      "An equal-weight version of an index assigns a similar weight to each constituent at its scheduled rebalancing points. That reduces the dominance of the largest names, while introducing different size, sector and rebalancing exposures. It is not the same strategy with concentration simply removed at no cost.",
+      "When smaller constituents outperform, equal weighting can benefit relative to capitalization weighting. When the largest companies lead, it can lag. Costs, implementation and the period chosen affect any fund-level comparison. Neither weighting method guarantees superior returns or protection from a broad decline.",
+      "Comparing the two can still help explain market breadth. A strong capitalization-weighted index alongside a weaker equal-weight counterpart suggests that larger constituents have been more influential. It does not establish that the broad index must soon fall or that the difference cannot persist.",
+      "Look through the rest of the portfolio",
+      "An investor can add several funds while increasing exposure to the same large companies. A broad-market fund, a technology fund and a growth fund may overlap substantially. The number of fund names is therefore not a reliable measure of underlying diversification.",
+      "Combining each fund's position weight with its holding weights can reveal those overlaps. If a hypothetical fund is 40% of a portfolio and allocates 8% to one company, that contributes 3.2% of the overall portfolio before counting other exposures. Repeating the calculation across funds identifies the actual combined position.",
+      "Use concentration data to understand dependence, then connect that dependence with the portfolio's purpose and ability to tolerate losses. TTN's discussion of <a href=\"sector-rotation-explained.html\">sector leadership</a> provides another perspective on participation. Neither a large holdings count nor broad market familiarity removes the need to examine which businesses are driving the result."
     ],
     "sources": [
       {
-        "label": "S&P Dow Jones Indices: US equity-index methodology",
+        "label": "S&P Dow Jones Indices: S&P 500 weighting",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+      },
+      {
+        "label": "S&P Dow Jones Indices: S&P 500 Equal Weight Index",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500-equal-weight-index/"
+      },
+      {
+        "label": "S&P Dow Jones Indices: US indices methodology",
         "url": "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-us-indices.pdf"
+      },
+      {
+        "label": "SEC Investor.gov: Diversification and investment-fund exposure",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/sp500-concentration-risk-explained-editorial-960.webp",
@@ -4424,20 +4812,43 @@ const TTN_ARTICLES = [
       "ETH"
     ],
     "body": [
-      "When a cryptocurrency rallies on the same day as favorable policy news, the timing suggests a possible connection. It does not establish that the announcement caused the entire increase or that the move will last.",
-      "Start with a defined interval and market. Bitcoin, an exchange-traded product and a smaller token can move differently, and prices vary across venues. A reported return needs its starting point, end point and denomination before it is compared with another asset.",
-      "Policy developments should be classified accurately. A proposal, court order, agency statement and enacted rule carry different legal consequences. Price enthusiasm may respond to expectations that never become an operative requirement or benefit.",
-      "Financing conditions provide another potential channel. Changes in rates or the willingness to take risk can affect speculative positions, but crypto also has its own supply, custody and platform developments. A shared direction with stocks is not proof of a shared cause.",
-      "Positioning can amplify news. Short covering, liquidations and thin available liquidity may intensify a move. Claims about those effects need transaction or position evidence, not an assumption based on a dramatic chart.",
-      "A sound account distinguishes confirmed events from plausible explanations and unresolved questions. It can explain the evidence for a rally without converting several favorable headlines into a promise of durable demand."
+      "A cryptocurrency price can rise sharply while commentators offer several competing explanations: stronger demand, a policy development or a wave of short covering. More than one mechanism can operate at once. The challenge is to establish what happened before choosing the story that sounds most convincing.",
+      "Price is an observation. A proposed catalyst is an explanation that needs evidence. Separating the two prevents a weekend jump, a social-media narrative or a liquidation headline from becoming an unsupported statement about why every buyer entered the market.",
+      "Establish the move being explained",
+      "Start with the asset, trading venue, currency and measurement window. A token rising 8% from midnight is not necessarily up 8% over the preceding 24 hours. An exchange-specific price can differ from a composite, particularly when liquidity is limited or an order book is disrupted.",
+      "Also distinguish the path from the closing comparison. A price that rises from $100 to $120 and finishes at $108 has gained 8% from the starting point while falling 10% from the peak. Both comparisons can be accurate. The report should choose the one relevant to the question and identify it explicitly.",
+      "Trading volume provides context, but it is not the same as new money entering the asset. A single unit can trade repeatedly, and every completed transaction has both a buyer and a seller. A quoted increase in market capitalization likewise does not measure the cash required to produce that valuation change.",
+      "Test a macroeconomic explanation against timing",
+      "An inflation release, interest-rate decision or broad change in risk appetite may coincide with a crypto move. The basic test is whether the price changed after the new information and whether related markets reacted in a way consistent with the proposed mechanism.",
+      "Suppose a hypothetical token starts rising two hours before a scheduled policy announcement and extends the move afterward. Attributing the entire rally to the announced decision would ignore the earlier trading. Expectations, positioning or separate news could have contributed. Timing can weaken a simple explanation even when it cannot identify a complete alternative.",
+      "Other assets provide comparisons rather than proof. A simultaneous move in technology stocks and cryptocurrencies can support a broader risk-appetite interpretation. It does not establish that the same investors bought both or that the relationship will hold during the next shock.",
+      "Separate identifiable demand from narratives about adoption",
+      "An independently documented purchase, fund creation or change in available supply can support a demand explanation. An announcement that a product will launch or a company intends to invest is a different kind of evidence. The proposed transaction may not yet have occurred.",
+      "Fund flows also require matching the instrument and period. A fund's trading volume is not its net creation figure, and a change in assets under management can reflect price changes as well as flows. TTN's explanation of <a href=\"etf-creation-redemption-mechanism.html\">ETF creations and redemptions</a> develops that distinction.",
+      "Blockchain transfers need similar care. Moving tokens between addresses does not necessarily establish a purchase, sale or new end user. Internal exchange transfers and custody changes can produce substantial on-chain activity without representing a comparable change in economic ownership. A strong adoption claim should explain why the evidence identifies actual use.",
+      "Leverage can amplify an initial movement",
+      "Traders who borrowed to bet against an asset may need to buy it back as its price rises. Liquidation mechanisms can also close positions when collateral falls below venue requirements. The CFTC warns that leverage increases the effect of price changes on a trader's funds.",
+      "In a simplified hypothetical position, $1,000 of collateral supports $10,000 of exposure. A 5% unfavorable price move produces a $500 loss before fees, funding and contract-specific details. The price changed by 5%, but half the initial collateral has been lost. A maintenance requirement may trigger action before the entire collateral amount is exhausted.",
+      "That arithmetic illustrates sensitivity, not the rules of every platform. Reported liquidation totals concern positions closed under a data provider's coverage. They are not necessarily net cash losses, and their presence does not identify the original reason for the price move. See <a href=\"crypto-liquidation-leverage-explained.html\">how liquidations affect leveraged trading</a> for the broader mechanism.",
+      "Distinguish a plausible account from a demonstrated cause",
+      "A useful explanation can combine a documented announcement, evidence of demand and a positioning effect. It should identify which elements are verified and which remain an interpretation. Claims about a coordinated actor or market manipulation require more than an abrupt chart movement.",
+      "The CFTC also cautions about promotion and pump-and-dump schemes in thinly traded tokens. That risk is a reason to examine incentives and liquidity, not a basis for calling every rally fraudulent. A careful report measures the move, checks the sequence of events and leaves uncertainty visible where the available data cannot establish causality."
     ],
     "sources": [
       {
-        "label": "CFTC: Risks of virtual-currency trading",
+        "label": "CFTC: Virtual-currency trading and leverage risks",
         "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html"
+      },
+      {
+        "label": "CFTC: Promotion and pump-and-dump risks in digital tokens",
+        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/beware_virtual_currency_pump_dump.html"
+      },
+      {
+        "label": "CFTC: Risks associated with digital coins and tokens",
+        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/caution_of_digital_currencies.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp",
     "imageMedium": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
@@ -4517,20 +4928,43 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A country offering a high policy rate may also face high inflation, currency pressure or credit risk. The quoted rate is not a return that a foreign investor can collect without costs or exposure.",
-      "A carry position borrows or funds in one currency and holds an asset in another. Its result combines interest income, funding cost and exchange-rate change. Hedging the currency can reduce risk while consuming much of the apparent interest advantage.",
-      "The investable asset's return is distinct from the policy rate. Taxes, access restrictions, fees, credit exposure and maturity affect the yield available to a particular investor. Comparing two central-bank rates does not complete the investment calculation.",
-      "Currency depreciation can outweigh months of income. Leverage adds collateral demands and the possibility of being forced to exit during poor liquidity. An investor expecting to hold for a year may not be able to do so if funding terms change.",
-      "The reason for the high yield matters. A central bank defending inflation credibility presents different questions from a government struggling to attract funding. External balances, institutions and the terms of the investment help establish which risks are being taken.",
-      "Assess the position under adverse currency and financing conditions. A large rate gap is compensation to investigate, not evidence that the trade offers an unusually easy return."
+      "A currency carry trade seeks to earn a return from financing in a relatively low-interest-rate currency and holding an asset denominated in a higher-yielding one. The visible interest difference can make the position appear straightforward. The less visible exposure is that exchange rates, funding conditions and market liquidity can change before the income is collected.",
+      "Emerging-market currencies sometimes offer larger nominal yields, but that does not make the difference a free return. Inflation, credit risk, market access and expected currency movements can all contribute to the higher rate. The position exchanges one set of risks for another rather than removing risk through an interest calculation.",
+      "Separate asset income from currency performance",
+      "Suppose a hypothetical investor holds a foreign-currency asset worth $10,000 at the starting exchange rate. It earns 6% in that currency over a year. If the exchange rate is unchanged, the dollar-equivalent value becomes $10,600 before costs and taxes.",
+      "If the foreign currency's dollar value falls 8% over the same period, the ending value becomes $9,752: $10,600 multiplied by 0.92. Despite earning positive local-currency income, the investor loses 2.48% in dollar terms. The price of the currency can more than offset the yield on the asset.",
+      "The reverse is possible as well. Currency appreciation can add to local interest income. That upside does not change the nature of the exposure: the outcome depends on both the asset and the exchange rate. Comparing two quoted deposit or bond yields while omitting currency changes leaves out a central part of the return.",
+      "Leverage changes the effect on the investor's own money",
+      "Extend the hypothetical example by assuming the investor contributes $1,000 and borrows $9,000 at 3%, putting $10,000 into the foreign asset. After a year, repayment of principal and interest requires $9,270. With the asset worth $9,752 following the currency decline, only $482 remains.",
+      "The $518 loss is 51.8% of the investor's initial $1,000, before other costs. A 2.48% decline in the unlevered asset became a much larger loss relative to the equity supporting the position. This simplified calculation ignores collateral rules, changes in asset price and the possibility that the trade would be closed earlier.",
+      "That last qualification is important. Lenders and trading venues may require additional collateral when the position loses value or volatility increases. A trader can be forced to reduce exposure before a hoped-for recovery. BIS research on carry-trade unwinds describes how leverage can amplify movements when participants try to exit related positions together.",
+      "The funding rate may not remain available",
+      "An interest differential observed today does not establish the funding cost for an entire multi-year holding period. Short-term borrowing may need to be rolled over, and a lender can change its terms. Financing can become more expensive or less available precisely when the asset or currency is under pressure.",
+      "The higher-yielding asset may also have its own duration and credit risk. A bond can decline in local-currency price when yields rise, adding a loss separate from the exchange-rate effect. A bank deposit avoids some bond-price mechanics but introduces its own institution, access and contractual considerations.",
+      "For that reason, a careful return estimate identifies the asset, financing instrument and maturity on both sides. A short-term deposit and a long-term government bond are not interchangeable simply because both display a yield. The cash flows and opportunities to exit differ.",
+      "Hedging changes the economics rather than making the spread free",
+      "Currency hedges can reduce exchange-rate exposure, but their pricing reflects interest-rate differences and other market conditions. A higher foreign yield cannot generally be assumed to survive unchanged after the cost of hedging into the funding currency. Liquidity and counterparty terms also affect implementation.",
+      "An unhedged carry position and a fully currency-hedged bond investment therefore answer different questions. The first accepts currency movements as a major part of the outcome. The second seeks to alter that exposure while paying the relevant hedge cost. Comparing their returns without identifying the hedge can produce an invalid ranking.",
+      "Low volatility can encourage positions that become crowded",
+      "When exchange rates are stable, the interest earned can appear consistent relative to recent price fluctuations. That environment may encourage greater exposure or leverage. A sudden change in policy expectations, volatility or liquidity can make many participants reconsider at once.",
+      "The resulting unwind can affect other markets as traders sell assets to meet funding needs. It is not necessary for every seller to have the same original investment thesis. Shared financing and risk limits can connect positions that otherwise appear unrelated.",
+      "Read a carry-trade account alongside <a href=\"central-bank-policy-divergence-explained.html\">relative monetary-policy expectations</a> and <a href=\"dxy-dollar-index-explained.html\">the definition of the currency measure being quoted</a>. The yield differential is the beginning of the analysis. Exchange rates, leverage, rollover and liquidity determine whether the income survives into the investor's realized result."
     ],
     "sources": [
       {
-        "label": "BIS: Carry trades and the August 2024 unwind",
-        "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024"
+        "label": "BIS: Carry trades, leverage and sensitivity to exchange rates",
+        "url": "https://www.bis.org/publications/sizing-carry-trades-bis-statistics"
+      },
+      {
+        "label": "BIS: Carry-trade unwinds and market dynamics",
+        "url": "https://www.bis.org/publications/qr-202409/carry-off-carry-on"
+      },
+      {
+        "label": "BIS: Currency hedging, portfolio choices and global financial conditions",
+        "url": "https://www.bis.org/publications/aer-2025/financial-conditions-changing-global-financial-system"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/emerging-market-carry-trade-explained-480.webp",
     "imageMedium": "assets/responsive/emerging-market-carry-trade-explained-960.webp",
@@ -4675,24 +5109,38 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "When a company's shares move after a leadership change, investors are repricing expectations. The incoming executive has not yet had time to produce the operating results that would establish the success of the appointment.",
-      "A planned succession differs from an abrupt departure, and an internal appointment differs from a search still underway. Continuity, uncertainty and the company's recent performance can matter as much as the new leader's biography.",
-      "The disclosure should identify what is confirmed: departure and appointment dates, interim arrangements and relevant compensation or agreements. An unspecified reason for leaving should not be filled in with assumptions about conflict or poor results.",
-      "A price response can reflect expectations of a strategic change, concern about disruption or relief that uncertainty has ended. Other news released alongside the appointment can contribute. The share-price move does not isolate the monetary value of one executive's ability.",
-      "Subsequent evaluation needs operating evidence over a suitable horizon: execution, capital allocation, customer retention and changes to the original plan. Industry conditions and inherited commitments can complicate attribution to the leader alone.",
-      "The most defensible reporting separates the transition's facts from the market's possible interpretations. Management accountability comes from later decisions and results, not an announcement-day percentage treated as a final score."
+      "A chief executive's departure can move a share price before the company sells another product or changes a single operating process. The market is revising expectations: who will make decisions, whether the existing strategy will continue and what the transition reveals about the business.",
+      "The first-day stock response is therefore not a verdict on the incoming executive's eventual performance. It combines information about the departure, the replacement and the expectations already reflected in the price. A welcomed appointment can still coincide with weak results, while an unpopular transition may later produce improvements.",
+      "Begin with the disclosure rather than the biography",
+      "US public-company management changes are commonly disclosed through Form 8-K. The SEC's investor guide identifies Item 5.02 as the section covering certain director and officer departures, appointments and compensation arrangements. The filing and its exhibits can provide a more precise account than a short announcement.",
+      "The practical questions include the effective date, whether the appointment is interim, who controls the search and what responsibilities remain with the outgoing executive. A former CEO staying as executive chair represents a different governance arrangement from a complete departure. “Stepping down” does not by itself establish retirement, dismissal or disagreement with the board.",
+      "The company's explanation should remain attributed. If it describes an orderly succession, that is evidence of its stated process. Establishing a dispute, financial problem or misconduct requires additional reporting or disclosure. Share-price weakness alone cannot prove the reason for a leadership change.",
+      "Surprise can matter more than the name",
+      "An expected retirement after a long succession process may contain less new information than an abrupt exit without a permanent replacement. The same person can also be received differently depending on the company's starting position. A cost-focused executive arriving at a struggling manufacturer presents a different question from one taking over a growing company with an established investment program.",
+      "Imagine a hypothetical business where investors already expect a turnaround. A new CEO's appointment might confirm those expectations without adding much information. If the appointment instead follows an unexpected earnings warning, the market may be reacting mainly to the warning. Reporting the entire price decline as a response to the individual would obscure the bundled news.",
+      "Comparison with the wider market helps, though it cannot isolate causality perfectly. A stock falling 2% while its sector falls 3% tells a different story from a 2% fall during a broad rally. Other company announcements, the timing of disclosure and normal price volatility all belong in the assessment.",
+      "Translate a strategy into operating assumptions",
+      "The appointment becomes financially meaningful when it changes assumptions about revenue, margins, investment or risk. Consider a simplified hypothetical company with $5 billion in annual revenue. An operating-margin improvement from 10% to 12%, with revenue unchanged, would increase operating profit from $500 million to $600 million.",
+      "That $100 million improvement is an assumption, not a benefit delivered on appointment day. Achieving it might require restructuring costs, plant investment or changes in product mix. If the transition requires $150 million of initial cash spending, the timing and durability of the eventual gains become central to the valuation.",
+      "The same caution applies to promised revenue growth. A plan to enter a market needs distribution, funding and customer demand. Management's previous record may help assess execution, but success at another company does not automatically transfer to a different balance sheet, workforce or competitive environment.",
+      "Incentives and the balance sheet shape the job",
+      "Compensation arrangements indicate what outcomes the board wants to reward. Revenue growth, earnings per share, cash generation and share-price targets can encourage different decisions. The existence of an incentive does not establish that it is well designed or that the target will be achieved.",
+      "Available funding also constrains strategy. An executive leading a company with substantial near-term debt repayments has less room for a lengthy investment program than the same executive at a cash-rich business. Reviewing <a href=\"free-cash-flow-explained.html\">free cash flow</a> and debt maturities can make a succession story more informative than a list of past employers.",
+      "Assess results against a dated starting point",
+      "The relevant comparison begins with what was disclosed when the executive arrived. Record the inherited guidance, investment commitments and financial condition. Later results should be assessed against that starting point, with acquisitions, currency effects and changes in demand separated where possible.",
+      "A credible follow-up asks which promises became operating decisions, how much they cost and whether financial performance improved on a comparable basis. It also leaves room for the fact that some effects take years. A leadership announcement changes expectations immediately; evidence that it has changed the underlying business accumulates much more slowly."
     ],
     "sources": [
       {
-        "label": "SEC: Form 8-K, Item 5.02 management-change disclosures",
+        "label": "SEC: Form 8-K, including Item 5.02",
         "url": "https://www.sec.gov/files/form8-k.pdf"
       },
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC Investor Bulletin: How to read an 8-K",
+        "url": "https://www.sec.gov/investor/pubs/readan8k.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T11:55:05-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ceo-succession-stock-impact-explained-480.webp",
     "imageMedium": "assets/responsive/ceo-succession-stock-impact-explained-960.webp",
