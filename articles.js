@@ -2331,20 +2331,43 @@ const TTN_ARTICLES = [
       "EUR/USD"
     ],
     "body": [
-      "Calling gold a hedge leaves a question unanswered: against which risk, and over what period? A metal that can help diversify a portfolio is not a promise to rise whenever stocks fall or inflation increases.",
-      "Gold has no contractual interest payment. That makes the return available on cash and bonds relevant to its opportunity cost. Inflation-adjusted yields are especially useful for this comparison, although the relationship is not a mechanical pricing formula.",
-      "Currency movements add another layer. Gold is widely quoted in dollars, so an investor measuring returns in euros, pounds or another currency may have a different result from the dollar price. A weaker dollar can support that quoted price, but other forces can outweigh the currency effect.",
-      "Demand for a store of value may increase during financial or geopolitical stress. In an urgent cash squeeze, however, investors may sell gold alongside other liquid assets. The cause and timing of the stress matter more than a label such as safe haven.",
-      "Inflation protection also depends on the horizon. A short burst of consumer-price inflation and a prolonged loss of confidence in money are different events. Holding gold involves price risk and, depending on the vehicle, storage costs, fund charges or counterparty exposure.",
-      "Its role is clearer when assessed against a specified portfolio risk. Comparing returns, costs and drawdowns under that risk is more useful than assuming that scarcity alone guarantees protection."
+      "Gold can help protect against some financial risks while losing value during others. Its reputation as a haven is not a contractual guarantee. The investment has no fixed redemption value in dollars, and the timing, currency and form of ownership can materially change the result for a particular holder.",
+      "A useful hedge analysis begins with the exposure being reduced. Protection against a weakening currency differs from protection against a short-term equity selloff or the cumulative loss of purchasing power. Gold may respond differently to each, especially when interest rates and liquidity conditions change together.",
+      "Inflation does not set a guaranteed gold return",
+      "Gold has no coupon that automatically adjusts with a consumer-price index. Its price depends on buyers and sellers. Chicago Fed research examines inflation expectations, real interest rates and economic pessimism among possible drivers, while also showing why historical relationships depend on the period and specification studied.",
+      "Suppose a hypothetical investor buys gold at $2,000 per ounce and sells a year later at $2,100. The nominal price gain is 5%. If the relevant consumer-price basket rises 8%, the real gross return is 1.05 divided by 1.08 minus one, or about minus 2.78%, before costs.",
+      "The investor made dollars but lost purchasing power against that basket. If gold instead rose 12% with the same inflation, the real return would be about 3.70%. These examples illustrate the calculation; neither establishes a stable relationship between inflation and the metal's next price move.",
+      "Real yields affect the opportunity cost",
+      "Holding a non-interest-bearing asset has a different opportunity cost when inflation-adjusted bond yields are high than when they are low. A rise in real yields can make income-producing alternatives more attractive, other things equal. The phrase other things equal matters because demand for safety, currencies and other forces can move at the same time.",
+      "For a rough hypothetical comparison, a 4% nominal yield against 3% expected inflation implies approximately a 1% expected real yield. A 5% nominal yield against 2% expected inflation implies approximately 3%. The exact gross-return calculation differs slightly from subtraction, and expected inflation can prove wrong.",
+      "Observed <a href=\"tips-inflation-protected-bonds-explained.html\">TIPS yields</a> provide another market-based reference for real borrowing costs. They are not interchangeable with subtracting last month's inflation from a nominal bond yield. The horizon and the distinction between expectations and past prices must remain consistent.",
+      "Currency denomination changes the result",
+      "A dollar gold price describes a return in dollars. A holder who measures wealth in euros also faces the dollar-euro conversion. Gold can rise in one currency and fall in another, without any inconsistency in the underlying quotations.",
+      "Imagine gold rising from $2,000 to $2,100 while EUR/USD rises from 1.00 to 1.10. The euro price moves from €2,000 to about €1,909, a decline of roughly 4.55%. A dollar investor sees a 5% price gain while an unhedged euro investor experiences a loss before costs.",
+      "Conversely, dollar appreciation can support a foreign-currency return even when the dollar gold price is flat. The currency mechanics described in <a href=\"eur-usd-rate-differential-explained.html\">EUR/USD and expected interest rates</a> belong in the assessment whenever a headline dollar performance is being applied to another investor's portfolio.",
+      "A portfolio hedge can reduce a loss without making money",
+      "Consider a hypothetical portfolio with 90% in equities and 10% in gold. If equities fall 20% while gold rises 10%, the weighted result is minus 17%, before rebalancing and costs. Gold helps, but the portfolio still loses substantially. A hedge need not offset the entire exposure to have an effect.",
+      "If gold falls 5% instead, the same portfolio loses 18.5%. A loss smaller than the all-equity alternative in that scenario does not establish that gold is negatively correlated with equities at every horizon. Historical correlations are estimates and can change, as discussed in <a href=\"correlation-breakdown-diversification.html\">diversification under stress</a>.",
+      "Ownership costs belong in the calculation",
+      "Physical holdings can involve a purchase premium, resale spread, storage and insurance. Exchange-traded exposure has its own structure and expenses. A mining company's shares add operating, financing and management risks; they are not the same asset as bullion. Leverage adds another exposure and can force sales before a longer-term thesis develops.",
+      "Suppose a hypothetical dealer sells a coin for $2,100 when spot gold is $2,000 and would initially buy it back for $1,960. The immediate round-trip gap is $140, or about 6.67% of the purchase cost. A small spot-price gain would not necessarily cover that spread, even before storage.",
+      "Assess the holding period, currency, costs and specific risk being hedged before judging performance. Gold can contribute to a portfolio under stated conditions. Calling it universally safe conceals the price fluctuations and implementation choices that determine what the investor actually receives."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "Federal Reserve Bank of Chicago: Research on gold-price drivers",
+        "url": "https://www.chicagofed.org/publications/chicago-fed-letter/2021/464"
+      },
+      {
+        "label": "CFTC: Gold investment risk and leverage",
+        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/gold_is_no_safe_investment.htm"
+      },
+      {
+        "label": "CFTC: Precious-metal ownership costs and fraud risks",
+        "url": "https://www.cftc.gov/LearnAndProtect/metalsfrauds"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/gold-hedge-explainer-480.webp",
     "imageMedium": "assets/responsive/gold-hedge-explainer-960.webp",
@@ -2428,24 +2451,46 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "The Fed can leave its policy rate unchanged while the yield on a long-term Treasury rises. The two rates answer different questions: one concerns overnight funding, while the other prices cash payments extending years into the future.",
-      "A long-term yield reflects expected future short-term rates and compensation for risks associated with holding the security over time. Inflation, growth expectations, Treasury issuance and investor demand can all affect that compensation. The components are estimated rather than directly observable in a quoted yield.",
-      "For an existing fixed-rate bond, a higher required yield generally means a lower price. Investors holding a longer-duration security usually face a larger price response to the same yield change, assuming its other characteristics remain constant.",
-      "Treasury yields also serve as reference points for mortgages and corporate debt. Those borrowers pay additional spreads that can change independently, so a Treasury move does not translate into an identical change in every borrowing rate.",
-      "Shares may respond through discount rates and earnings expectations. A yield increase associated with stronger growth carries a different economic message from one associated with inflation uncertainty or weak demand for debt. Gold and currencies face their own competing influences.",
-      "A useful explanation separates the movement from its proposed cause. Compare maturities, inflation-adjusted yields and credit conditions before assigning the whole move to a single policy decision or describing it as a permanent change in borrowing costs."
+      "Treasury yields can rise on a day when the Federal Reserve leaves its policy rate unchanged. A ten-year security trades against expectations spanning years, while an FOMC decision concerns the current overnight target. Investors can revise the future policy path or the compensation they require for holding a long bond without a new rate increase today.",
+      "A useful explanation therefore starts with the maturity and the size of the move. It then separates observed market prices from interpretations of why those prices changed. A rising yield alone cannot identify whether inflation, stronger growth, debt supply or reduced demand was the main cause.",
+      "Yield and coupon are different numbers",
+      "A fixed-rate Treasury note keeps its contractual coupon even when its market price changes. Its yield adjusts to that price and the remaining cash flows. TreasuryDirect explains that notes and bonds can trade above or below face value, with their yields differing from the stated interest rate.",
+      "For a hypothetical $1,000-face-value security paying $40 annually, the coupon rate is 4%. If its market price falls to $950, current yield is about 4.21%, calculated as $40 divided by $950. Yield to maturity also accounts for receiving face value at maturity and the timing of payments, so it is a different measure.",
+      "A hypothetical benchmark yield moving from 4.00% to 4.50% rises 50 basis points, or 0.50 percentage points. Describing it as a 0.5% increase can obscure the units: its relative increase is 12.5%. Market reporting usually uses basis points to avoid that ambiguity.",
+      "Expectations and term premium can move separately",
+      "The New York Fed's term-premium research decomposes yields into an expected short-rate component and a term premium. The premium reflects compensation for risks associated with holding longer maturities. These components are estimated using models; they are not separately displayed prices that can be read directly from a trading screen.",
+      "Consider a hypothetical ten-year yield of 4.20%, represented by a 3.70% expected-rate component plus a 0.50% term premium. It could rise to 4.60% with the expected-rate component unchanged and the premium increasing to 0.90%. In that example, calling the entire increase evidence of more expected Fed hikes would be incorrect.",
+      "Alternatively, the expected-rate component might rise to 4.10% with the premium still at 0.50%. The same final yield would then have a different explanation. These are accounting illustrations of a decomposition, not current model estimates or a claim that every model will allocate the move identically.",
+      "Inflation and real yields require another distinction",
+      "A nominal yield includes compensation for future purchasing-power uncertainty. Comparing nominal Treasuries with <a href=\"tips-inflation-protected-bonds-explained.html\">inflation-protected securities</a> can help assess inflation compensation. The difference also includes liquidity and risk effects, so it is not a pure survey forecast of inflation.",
+      "Imagine a nominal yield rising from 4.00% to 4.50% while a comparable real yield moves from 1.80% to 2.30%. The simple nominal-minus-real gap stays at 2.20%. That pattern differs from one where the real yield is unchanged and the gap widens. The observations suggest different channels but do not establish a complete causal explanation.",
+      "Supply, investor balance-sheet capacity and demand for safe assets can influence required compensation. An auction result can provide evidence about one transaction, but it should not be treated as proof that every investor has lost confidence in government debt. Financing conditions and the broader market context still matter.",
+      "Duration translates a yield move into price sensitivity",
+      "Suppose a hypothetical bond portfolio has modified duration of eight years. A 0.50-percentage-point yield increase implies an approximate 4% price decline: minus eight times 0.005. The <a href=\"bond-duration-explained.html\">duration estimate</a> holds other factors constant and becomes less precise for larger moves because of convexity and other effects.",
+      "A $100,000 position would therefore lose roughly $4,000 in market value under that approximation. Receiving coupons does not prevent the quoted price from falling. Holding an individual bond to maturity changes the realized cash-flow picture, but an investor needing to sell earlier remains exposed to the market price.",
+      "The cause affects other assets",
+      "Stronger growth can raise yields alongside improved earnings expectations. A higher risk premium can instead increase discount rates without offering companies a better sales outlook. Both can lift financing costs, but their implications for equity valuations and business activity need not match.",
+      "Report the maturity, basis-point change and supporting evidence before assigning a cause. Distinguish observed yields, model decompositions and interpretation. That sequence explains why borrowing costs can move between Fed meetings and avoids attributing every bond-market adjustment to a policy decision that has not occurred."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "TreasuryDirect: Pricing, coupon rates and yields",
+        "url": "https://www.treasurydirect.gov/marketable-securities/understanding-pricing/"
       },
       {
-        "label": "TreasuryDirect: Marketable Treasury securities",
-        "url": "https://www.treasurydirect.gov/marketable-securities/"
+        "label": "Federal Reserve Bank of New York: Treasury term-premium estimates",
+        "url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs"
+      },
+      {
+        "label": "Federal Reserve Bank of New York: Disentangling messages from the Treasury market",
+        "url": "https://www.newyorkfed.org/newsevents/speeches/2023/per231116"
+      },
+      {
+        "label": "SEC Investor.gov: Interest-rate risk in bonds",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86"
       }
     ],
-    "dateModified": "2026-10-18T14:27:46-04:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/treasury-yields-spike-2026-480.webp",
     "imageMedium": "assets/responsive/treasury-yields-spike-2026-960.webp",
@@ -2609,24 +2654,42 @@ const TTN_ARTICLES = [
       "EUR/USD"
     ],
     "body": [
-      "A higher US interest rate does not automatically send the dollar higher against the euro. Currency markets price what they expect rates to do next, and investors also face costs and risks when moving money between currencies.",
-      "The interest-rate differential is the gap between comparable US and euro-area rates. Comparing overnight policy rates with each other is different from comparing two-year bond yields, which include expectations about future decisions. The maturity used should match the question being asked.",
-      "A higher expected return on dollar assets can attract capital, other things equal. But an investor hedging the currency exposure faces forward-market pricing that can offset much of the apparent advantage. An unhedged investor instead accepts the risk that the exchange rate moves against the position.",
-      "Economic surprises can shift both currencies at once. Stronger growth, inflation news and changes in expected central-bank policy can alter the relative return on assets. A risk shock or a shift in demand for dollar funding can dominate the rate comparison.",
-      "A policy announcement should therefore be judged against the path already reflected in market prices. A rate cut can accompany a stronger currency if the communication is less accommodative than expected. The decision alone does not explain the reaction.",
-      "For a EUR/USD story, identify the rate measure, the change in expectations and the other evidence moving with the exchange rate. A current gap is a starting point for analysis, not a complete currency forecast."
+      "EUR/USD expresses the dollar price of one euro. At a hypothetical rate of 1.10, one euro buys $1.10. A rise to 1.15 means the euro strengthened against the dollar. Getting that quotation direction right is necessary before connecting a currency move with US and euro-area interest rates.",
+      "A higher dollar interest rate can make dollar assets more attractive, but the relationship is conditional. Investors care about expected future rates, exchange-rate changes, risk and hedging costs. Today's gap between two policy rates is only part of that calculation.",
+      "Match the horizon of the rates being compared",
+      "Comparing a US ten-year yield with an overnight euro-area rate mixes different horizons and risks. Even similar maturities can reflect different credit or liquidity conditions. A comparison intended to isolate monetary-policy expectations should identify the instruments, dates and maturities used.",
+      "Suppose hypothetical one-year rates are 5% in dollars and 3% in euros. An investor starting with €100,000 at EUR/USD 1.10 can convert to $110,000 and receive $115,500 after one year at 5%, assuming no costs or credit losses. Leaving the money in euros produces €103,000.",
+      "If the exchange rate remains 1.10, the dollar proceeds convert to €105,000. The advantage is €2,000 in this simplified example. That result depends on the unchanged exchange rate; it is not a guaranteed reward for choosing the currency with the higher interest rate.",
+      "Currency movements can offset the interest advantage",
+      "If EUR/USD instead rises to 1.15, the $115,500 converts to about €100,435. The dollar investment produces a small positive euro return, but underperforms the €103,000 available from the euro investment. A favorable interest differential has been more than offset by the euro's appreciation.",
+      "The exchange rate at which the two investments match is $115,500 divided by €103,000, or about 1.12136 dollars per euro. This is roughly 1.94% above the initial 1.10 quotation. The precise comparison uses compounded gross returns, which is why simply subtracting the two annual interest rates gives only an approximation.",
+      "These figures are hypothetical and ignore transaction costs, taxes and issuer risk. Their purpose is to show the currency exposure in an unhedged investment. An attractive yield in one currency does not establish the return measured in another.",
+      "Expectations can change before a central-bank meeting",
+      "Currency prices respond to information about the future. If investors already expected a central bank to raise rates by 25 basis points, the eventual increase may add little new information. Guidance suggesting fewer subsequent increases can even make the announcement less supportive for the currency than the headline decision suggests.",
+      "Consider a hypothetical market that expects dollar rates to stay at 5% for a year. New information instead points to 5% for six months and 4% for the following six. A simple half-year compounding assumption gives a gross return of 1.025 times 1.02, or 1.0455. That is about 4.55%, despite the current rate still being 5%.",
+      "The example is not a forecast and does not reproduce a full market pricing model. It illustrates how an expected path can change while today's policy gap is fixed. The same reasoning underlies the distinction between current rates and <a href=\"fed-funds-futures-rate-odds-explained.html\">futures-implied policy expectations</a>.",
+      "Hedging changes the comparison",
+      "A currency hedge can lock a future conversion rate, but that forward rate reflects the interest differential and market conditions. Under simplified covered-interest-parity conditions, the one-year forward quotation in the earlier example would be 1.10 times 1.05 divided by 1.03, or about 1.12136. Converting $115,500 at that rate returns €103,000.",
+      "The apparent free advantage disappears under those idealized assumptions. Actual hedging costs can differ because of transaction costs, funding constraints and the cross-currency basis examined by BIS. A hedged foreign investment and an unhedged <a href=\"yen-carry-trade-explained.html\">carry trade</a> therefore have different economics.",
+      "Rates operate alongside other currency drivers",
+      "Growth expectations, trade flows, demand for liquidity and changes in perceived risk can shift currency demand. Investors may buy dollars for funding or safety during stress even when US rate expectations fall. The ECB's analysis of exchange rates emphasizes both expected returns and the role of capital flows and intermediaries.",
+      "A precise account states which rate differential changed, whether the change was expected and whether the investor's return is hedged. It then compares the explanation with the timing of the currency move. Interest rates help organize that analysis, but they do not provide a mechanical target for EUR/USD."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "European Central Bank: Monetary policy, exchange rates and capital flows",
+        "url": "https://www.ecb.europa.eu/press/key/date/2017/html/ecb.sp171103.en.html"
       },
       {
-        "label": "ICE: US Dollar Index contract and methodology",
-        "url": "https://www.ice.com/products/194/US-Dollar-Index-Futures"
+        "label": "BIS: Covered interest parity and the cross-currency basis",
+        "url": "https://www.bis.org/publications/qr-201609/covered-interest-parity-lost-understanding-cross-currency-basis"
+      },
+      {
+        "label": "European Central Bank: Interest rates and exchange-rate data",
+        "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates"
       }
     ],
-    "dateModified": "2026-10-18T14:26:10-04:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/eur-usd-rate-differential-explained-480.webp",
     "imageMedium": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
@@ -2644,20 +2707,43 @@ const TTN_ARTICLES = [
       "ETH"
     ],
     "body": [
-      "A leveraged position can be closed by an exchange before its margin balance reaches zero. Liquidation rules aim to protect the platform and its counterparties from a position whose remaining collateral no longer meets the required threshold.",
-      "In a hypothetical 10x long position, $1,000 of margin supports $10,000 of exposure. A 5% fall in the asset's price produces roughly a $500 trading loss before costs. That is half the original margin, although the asset itself moved by only 5%.",
-      "The liquidation point depends on maintenance margin, position size, fees, collateral and the price used for risk checks. A simple inverse-leverage calculation is therefore not an exact liquidation price. Cross-margin arrangements can expose collateral supporting other positions as well.",
-      "Warnings and opportunities to add funds depend on the platform. A rapidly moving market may leave little time to respond. A stop order also cannot guarantee its chosen price when available liquidity is thin or trading is interrupted.",
-      "Forced closing can amplify a move when many positions reach their thresholds together. Closing longs can add selling pressure; closing shorts can add buying pressure. Quantifying a particular cascade requires position and execution data rather than a large percentage move alone.",
-      "A profit-and-loss calculator estimates the effect of a price change while a position remains open. It does not establish that the exchange would allow the position to survive to that price, or that additional margin would always prevent its closure."
+      "A leveraged crypto position can be liquidated while it still has positive equity. Trading venues generally require a maintenance buffer rather than waiting until losses consume every dollar of collateral. The precise threshold depends on the contract, account structure, price reference and venue rules.",
+      "That distinction explains why a rough leverage calculation is not a liquidation-price calculator. Dividing one by leverage shows how quickly a linear position can exhaust initial equity under simplified assumptions. It does not include the buffer, fees, funding or changing requirements that can cause intervention earlier.",
+      "Track notional exposure and collateral separately",
+      "Suppose a hypothetical trader posts $1,000 to support a $10,000 long position in a linear dollar-settled contract. Starting leverage is ten times. Ignoring other account effects, a 3% adverse price move creates a $300 loss, equal to 30% of initial collateral.",
+      "If the price falls 8%, the loss is $800 and equity falls to $200 before fees and funding. At that point the remaining position is still about $9,200 in notional value, so effective leverage against the $200 equity is approximately 46 times. A position becomes more fragile as losses shrink its equity base.",
+      "These figures assume a linear contract and constant position quantity. Inverse contracts and portfolios with multiple assets need different calculations. A leverage setting on a trading interface does not describe every dimension of the account's risk after prices move.",
+      "Maintenance margin can trigger closure before zero equity",
+      "As a deliberately simplified example, assume the venue requires maintenance equity equal to 5% of current notional, with no additional charges. If the position's remaining notional is N, equity equals the initial $1,000 plus N minus the initial $10,000. The threshold therefore satisfies N minus $9,000 equals 0.05 times N.",
+      "Solving gives N of about $9,473.68 and equity of $473.68. That corresponds to an underlying decline of approximately 5.26%, well before the 10% move that would exhaust the original $1,000 in the zero-buffer calculation. Actual venues can use tiered schedules, close-out requirements and other adjustments.",
+      "The example is not a tradable liquidation quote. The CFTC warns that leverage magnifies virtual-currency trading risk. Venue documentation, such as Coinbase International Exchange's margin policy, shows why initial, maintenance and close-out requirements must be read for the actual product and account.",
+      "The trigger price can differ from the last trade",
+      "A venue may use a mark price or other reference to assess unrealized profit and loss and liquidation conditions. A chart's latest transaction price can differ from that reference. The execution price obtained while closing a position can differ from both, especially when liquidity is thin.",
+      "Imagine a hypothetical last trade of $50,000, a mark of $49,800 and an estimated threshold of $49,900. The fact that the last trade remains above the threshold does not establish that the account is safe if its rules use the lower mark. Product documentation determines which comparison is relevant.",
+      "An ordinary stop order is also different from the venue's liquidation process. A stop can trigger a market order that executes worse than expected; a limit order may fail to fill. An intention to exit before liquidation does not guarantee that the market will provide the desired price.",
+      "Account structure and collateral change the exposure",
+      "Isolated margin can limit which allocated collateral supports a position under the venue's rules. Cross margin can use a wider account balance, allowing one position's losses to affect resources supporting others. Neither label replaces reading the treatment of fees, collateral haircuts and any liability after close-out.",
+      "Suppose a hypothetical account uses $1,000 of crypto collateral against a $10,000 position. If the collateral loses 20% while the derivative loses $500, the starting $1,000 can be reduced to $300 before other effects. Collateral and position risk can move together. A <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin depeg</a> creates another version of that problem.",
+      "Funding payments can reduce equity even without a large directional move. At an illustrative $10 payment per interval, ten such payments remove $100, or 10% of the starting collateral. The payment rate, direction and schedule vary; they should not be assumed from a single venue or contract.",
+      "Aggregate liquidation totals need a definition",
+      "Published totals often describe the notional value of closed positions rather than the traders' realized losses. A $10,000 position closed after a $500 loss is not a $10,000 loss. Data providers may also cover different venues and use different estimation methods, so totals require a source and time window.",
+      "Forced selling by leveraged longs can amplify a decline; forced buying by shorts can amplify a rise, resembling the feedback in a <a href=\"short-squeeze-mechanics-explained.html\">short squeeze</a>. These flows explain one market mechanism. They do not identify a guaranteed bottom, top or safe level of leverage."
     ],
     "sources": [
       {
-        "label": "CFTC: Risks of virtual-currency trading",
+        "label": "CFTC: Leverage and virtual-currency trading risks",
         "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html"
+      },
+      {
+        "label": "Coinbase International Exchange: Margin and close-out policy",
+        "url": "https://www.coinbase.com/international-exchange/legal/leverage-and-margin-policy"
+      },
+      {
+        "label": "Coinbase: US derivatives margin and liquidation risk, product-specific example",
+        "url": "https://help.coinbase.com/en/coinbase/derivatives/us-derivatives-risk-management-and-liquidations"
       }
     ],
-    "dateModified": "2026-10-18T14:26:10-04:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
@@ -3602,20 +3688,43 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A headline saying there is a particular chance of a Fed cut usually describes a calculation from market prices. It is not a probability announced by the Federal Reserve or a promise from the traders buying the contracts.",
-      "Federal funds futures are linked to the average effective federal funds rate for their contract month. A meeting occurring partway through that month affects only part of the average. Translating the price into a possible post-meeting rate therefore requires assumptions about the days before and after the decision.",
-      "CME's FedWatch methodology uses futures pricing and specified rate-change assumptions to estimate probabilities for possible target ranges. Different timing or assumptions would change the interpretation, especially when the market prices unusual policy paths.",
-      "The prices reflect the market's demand to take or hedge rate exposure. They can change quickly after inflation data, a policy speech or a shift in trading conditions. An apparent move in probability should be dated because the estimate may not remain valid even through the same day.",
-      "The Fed's projections are a different source. They express policymakers' assessments under their outlooks, not a commitment to deliver the median projected path. A gap between projections and futures can reflect different economic assumptions as well as risk pricing.",
-      "Use meeting odds to describe what a particular market currently prices under a stated method. Evaluating whether that outlook is reasonable requires the underlying economic evidence, not a confident reading of a percentage alone."
+      "A futures price can imply a strong expectation of a Federal Reserve rate cut without promising that the cut will happen. CME FedWatch translates federal funds futures prices into estimated probabilities for policy-rate outcomes. Those probabilities depend on market prices and a calculation framework, and can change sharply after new information.",
+      "The first distinction is between the policy target range, the effective overnight rate and the monthly rate represented by a futures contract. Treating all three as the same number can produce a misleading account of what traders have priced.",
+      "The contract refers to a monthly average",
+      "The New York Fed publishes the effective federal funds rate, or EFFR, based on overnight unsecured transactions. It calculates the daily rate as a volume-weighted median. The FOMC sets a target range for the federal funds market; the observed EFFR is a particular rate within the operating framework.",
+      "Federal funds futures are quoted using 100 minus the implied average effective rate for the contract month. A hypothetical futures price of 95.70 therefore corresponds to a 4.30% monthly average. That is not a 95.70% probability, and it is not automatically the rate expected immediately after the month's policy meeting.",
+      "Calendar weighting explains why. Suppose a hypothetical 30-day month contains 20 days at an effective rate of 4.50% and ten days after a decision. If the post-decision effective rate were 4.25%, the monthly average would be about 4.4167%. Twenty unchanged days still influence the contract's settlement.",
+      "A meeting probability requires assumptions",
+      "CME's methodology uses futures-implied rates and assumptions about policy changes in 25-basis-point increments to construct a probability tree. It also needs a relationship between changes in the target range and the effective rate. The result is an estimate under that framework, not a poll of FOMC members.",
+      "A simplified hypothetical calculation illustrates the idea. Assume only two post-meeting effective rates are possible: 4.50% with no change or 4.25% after a cut. If the expected post-meeting rate is 4.35%, the implied cut probability is (4.50 minus 4.35) divided by 0.25, or 60%. The remaining 40% belongs to no change.",
+      "In the 30-day example, that expected post-meeting rate produces a monthly average of 4.45%: two-thirds at 4.50% and one-third at 4.35%. The corresponding futures price is 95.55. Simply dividing the monthly five-basis-point decline by a 25-basis-point cut would give 20%, missing the meeting-date adjustment.",
+      "These figures are deliberately hypothetical and simplify CME's full procedure. They show why reading the contract month and decision date matters before interpreting a quoted probability. More possible outcomes require more structure than one average rate supplies on its own.",
+      "The expected amount is not the most likely decision",
+      "An expected reduction of 15 basis points does not mean the Fed plans a 15-basis-point move. In the simplified example it is the probability-weighted average of a 25-basis-point cut and no change. A mean can lie between outcomes that are individually possible.",
+      "The same mean can also fit a different distribution. A 30% probability of a 50-basis-point cut and a 70% probability of no change produces the same expected 15-basis-point reduction. Futures pricing alone does not uniquely identify every possible distribution without additional assumptions or information.",
+      "This is a useful limit when headlines say a decision is fully priced. The phrase may refer to an expected cumulative amount, the probability of at least one cut or the probability of a particular target range. Those are distinct claims and should be identified separately.",
+      "Later meetings involve possible paths",
+      "A later target-rate outcome can be reached through different sequences of decisions. A lower rate by December does not require a cut at every intervening meeting. CME combines successive nodes to describe distributions over future outcomes, so a later range is not automatically a forecast for the size of one meeting's move.",
+      "As a purely illustrative exercise, two independent 60% chances of a cut would give a 36% chance of two cuts, 48% of exactly one and 16% of none. Actual meeting decisions are related through incoming data and prior policy choices. The exercise explains aggregation, not an assumption that real decisions are independent.",
+      "Report the probability with a timestamp",
+      "Specify the tool, observation time, meeting date and target range when quoting market-implied odds. Compare the estimate before and after a data release using consistent timestamps. A change can reveal repricing, but it does not establish that the Fed has communicated a private decision.",
+      "Read the result alongside <a href=\"cpi-inflation-explained.html\">inflation data</a>, employment and the Fed's public guidance. For longer maturities, <a href=\"treasury-yields-spike-2026.html\">Treasury yields</a> also include compensation for risks beyond the expected policy path. FedWatch is useful for describing one market's pricing of policy uncertainty; it is not a guaranteed schedule of future rates."
     ],
     "sources": [
       {
-        "label": "CME Group: FedWatch methodology",
-        "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        "label": "CME Group: FedWatch calculation methodology and assumptions",
+        "url": "https://www.cmegroup.com/articles/2023/understanding-the-cme-group-fedwatch-tool-methodology.html"
+      },
+      {
+        "label": "CME Group: Federal funds futures and settlement resources",
+        "url": "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.contractSpecs.html"
+      },
+      {
+        "label": "Federal Reserve Bank of New York: EFFR definition and calculation",
+        "url": "https://www.newyorkfed.org/markets/reference-rates/effr"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp",
@@ -4166,20 +4275,43 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A loan negotiated away from the public bond market can be tailored closely to a borrower. That flexibility is part of private credit's appeal, but it also leaves investors needing to examine terms and valuations that are less visible than a daily exchange price.",
-      "Private credit describes a range of lending arrangements and fund structures. Loans may have floating rates, security, covenants or other negotiated protections. A broad market label cannot show how strong those protections are for an individual borrower.",
-      "A floating rate can improve a lender's income when benchmark rates rise while making the borrower's debt harder to service. Financial covenants and monitoring provide information and potential remedies; they do not prevent every default or guarantee an easy sale of the loan.",
-      "Illiquid assets require a funding structure that can hold them. A closed-end fund locking up capital differs from a vehicle offering periodic withdrawals. Where redemption opportunities exist, limits and queues can affect investors seeking cash during stress.",
-      "Reported valuations may adjust more slowly than prices in public markets. Lower visible volatility can partly reflect the valuation process, rather than a lower economic risk. Borrower leverage, concentration and the treatment of troubled loans deserve attention alongside reported returns.",
-      "A financing commitment shows that capital is available on particular terms. Whether the loan earns its promised return depends on repayment, recoveries and fund costs—not simply the reputation of the lender or the popularity of the borrower's industry."
+      "Private credit connects borrowers with negotiated financing outside the public bond market and traditional bank lending channels. Direct lenders can offer tailored terms and execution certainty. Investors may receive attractive contractual income in return for accepting borrower risk, limited liquidity and the particular structure through which the loans are held.",
+      "The label covers varied assets and vehicles. A senior secured corporate loan, a distressed claim and a fund offering periodic repurchases create different exposures. Evaluating the loan and the investor's fund interest separately is essential because sound collateral does not automatically make a fund easy to exit.",
+      "The loan's income depends on the borrower",
+      "Many private corporate loans have floating rates linked to a benchmark plus a spread. Higher benchmark rates can lift contractual income for the lender while also increasing the borrower's interest bill. The same adjustment can therefore improve the stated yield and weaken the capacity to pay it.",
+      "Suppose a hypothetical borrower has a $100 million loan at a 5% benchmark plus a 6% spread. Annual interest is $11 million. Against $22 million of EBITDA, the simple EBITDA-to-interest ratio is two. If the benchmark rises to 7%, interest becomes $13 million and the ratio falls to about 1.69, with EBITDA unchanged.",
+      "EBITDA is not cash available for debt service. Taxes, capital spending, working capital and principal payments can consume funds. This ratio is one screening measure, not proof that interest can be paid. Read it alongside the cash-flow considerations in <a href=\"free-cash-flow-explained.html\">free cash flow</a> and the precise loan covenants.",
+      "Contractual yield differs from expected return",
+      "Collateral, seniority and covenants can improve a lender's position if a borrower struggles. They do not remove loss risk. Recovery depends on asset values, claims ahead of the lender, enforcement and the costs and time required to restructure or sell the business.",
+      "Consider a hypothetical portfolio of ten equal $10 million loans paying 10% annual cash interest. Nine pay their $9 million of combined interest in full. One pays no interest and ultimately returns only $5 million of principal. Under this simplified one-period example, $9 million of income minus a $5 million principal loss leaves a 4% gross return on the $100 million portfolio.",
+      "Fees, expenses and the timing of recovery would alter the result further. A headline 10% coupon did not become a 10% portfolio return. Diversification helps only to the extent that borrowers' risks differ; ten loans exposed to the same shock can deteriorate together.",
+      "Payment-in-kind can postpone cash pressure",
+      "Some arrangements permit interest to be added to principal instead of paid currently. This payment-in-kind feature can give a borrower breathing room. It also increases the future claim and makes reported interest growth different from cash actually received.",
+      "For example, a hypothetical $100 million loan with 10% annual interest entirely capitalized becomes $110 million after one year and $121 million after two. The lender has a larger contractual asset, but no cash interest has arrived. Whether the final $121 million is recoverable depends on the borrower's performance and resources.",
+      "An amendment that extends maturity or changes payment terms can be a sensible recovery strategy. It can also delay recognition of economic deterioration. The relevant assessment examines changed terms and expected collections, not just whether a formal payment default has been announced.",
+      "Fund structure determines access to capital",
+      "A closed-end vehicle can match long-lived loans with committed investor capital. A vehicle offering periodic repurchases must manage the difference between potentially illiquid assets and investor demand for cash. IMF analysis identifies liquidity mismatch and opaque valuations as important areas to monitor, alongside connections with banks and insurers.",
+      "Suppose a hypothetical fund has $1 billion of net assets and caps a repurchase window at 5% of NAV. Investors request $100 million. If the fund accepts $50 million and allocates it proportionally, only half the requested amount is repurchased. The example illustrates a possible limit, not the rules of every private-credit product.",
+      "A listed fund adds another distinction: its shares may trade at a discount or premium to reported NAV. Selling those shares provides market access, but the price received can differ from the reported value of the underlying loans.",
+      "Smooth valuations do not remove economic risk",
+      "A loan without frequent public trades may have its value estimated periodically. A smoother reported price series can reflect the valuation process as well as stable credit quality. It should not automatically be treated as evidence that the asset has less risk than a <a href=\"corporate-bonds-explained.html\">publicly traded bond</a>.",
+      "Examine borrower leverage, actual cash collections, amendments, valuation methods, fund-level borrowing and withdrawal terms. Those details determine the exposure more reliably than a category-wide yield or a recent run of quiet valuations. Flexible lending can create value, but the income and liquidity promises must be tested against the assets supporting them."
     ],
     "sources": [
       {
-        "label": "IMF: Global Financial Stability Report, April 2024, private-credit analysis",
-        "url": "https://www.imf.org/en/Publications/GFSR/Issues/2024/04/16/global-financial-stability-report-april-2024"
+        "label": "IMF: Private-credit risks, valuation and interconnectedness",
+        "url": "https://www.imf.org/en/Blogs/Articles/2024/04/08/fast-growing-USD2-trillion-private-credit-market-warrants-closer-watch"
+      },
+      {
+        "label": "IMF: Global Financial Stability Report, April 2024, private-credit chapter",
+        "url": "https://www.imf.org/en/publications/gfsr/issues/2024/04/16/global-financial-stability-report-april-2024"
+      },
+      {
+        "label": "IMF: The rise and risks of private credit, detailed chapter",
+        "url": "https://www.elibrary.imf.org/display/book/9798400257704/CH002.xml"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp",
@@ -4388,20 +4520,43 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "Borrowing in yen and buying a higher-yielding asset elsewhere can produce income while conditions remain favorable. A rise in the yen can reverse the result because the investor must repay a liability that has become more expensive in the asset's currency.",
-      "The apparent return begins with the difference in funding and investment yields. Transaction costs, maturity mismatches and hedging can reduce it. If the exchange rate is left unhedged, the trade is partly a currency position, not simply a way to collect the interest gap.",
-      "Leverage magnifies both income and losses. A price decline in the investment and a stronger funding currency can hit at the same time. Collateral demands can then force sales even if an investor expected the position to work over a longer period.",
-      "An unwind requires selling the investment and obtaining the funding currency to repay borrowing. If many investors act together, their transactions can intensify price changes across currencies and other markets. Measuring that contribution is difficult because positions span different instruments and institutions.",
-      "A central-bank surprise can alter expected funding costs without explaining every movement in the yen. Growth news, hedging and changes in market liquidity also matter. A chart alone cannot establish the size of the carry positions outstanding.",
-      "The essential test is the total position under an adverse exchange-rate and funding scenario. A high yield on the asset is only one side of a trade whose liability must eventually be paid."
+      "A yen carry trade uses relatively low-cost yen funding to hold an asset expected to provide a higher return. The asset might be a foreign-currency deposit, bond or riskier investment. The interest differential is visible at the start; the eventual return also depends on exchange rates, asset prices and the ability to maintain financing.",
+      "That last condition becomes important during an unwind. Investors closing similar positions may sell assets and buy yen to repay funding. Their transactions can reinforce the price moves that made the positions difficult to hold in the first place.",
+      "Follow both currencies through the calculation",
+      "Suppose a hypothetical investor borrows ¥15 million for a year at 1% and converts it at ¥150 per dollar. The investor receives $100,000 and places it in a dollar asset yielding 5%. Assuming full payment, proceeds after a year are $105,000, while the yen debt is ¥15.15 million.",
+      "If the exchange rate remains ¥150 per dollar, the dollar proceeds convert to ¥15.75 million. After repaying the debt, the surplus is ¥600,000 before costs and taxes. That equals 4% of the original yen borrowing under these particular assumptions.",
+      "If the yen strengthens to ¥140 per dollar, however, the same $105,000 converts to only ¥14.7 million. The position is then short ¥450,000 after repayment. The asset delivered its promised dollar yield, but the investor lost in the funding currency.",
+      "The breakeven exchange rate is ¥15.15 million divided by $105,000, or approximately ¥144.29 per dollar. A yen appreciation of about 3.81% from the initial quotation removes the gross interest advantage. This calculation shows why a modest annual carry can be overwhelmed by a rapid currency move.",
+      "A leveraged position has an equity denominator",
+      "Borrowed principal is different from the investor's own capital. If the hypothetical trade is supported by ¥1.5 million of investor equity, the ¥450,000 loss equals 30% of that equity. Different financing structures produce different exposures, so the leverage definition and collateral requirements must be stated.",
+      "An additional asset-price decline can compound the currency effect. Suppose the dollar investment instead finishes worth $95,000 after all its income and price changes. At ¥140 per dollar it converts to ¥13.3 million, leaving a ¥1.85 million shortfall against the debt. That exceeds the assumed ¥1.5 million initial equity.",
+      "This is an economic illustration, not a broker's liquidation model. A broker may demand collateral or close positions earlier, and contractual terms determine any remaining liability. An investor cannot assume that willingness to hold the asset for years overrides short-term financing obligations.",
+      "Policy surprises can change funding and currency expectations",
+      "A rise in expected Japanese interest rates can reduce the appeal of yen funding and support the yen simultaneously. A decline in the yield on the foreign asset can also narrow the carry. An actual funding rate may reset over time, depending on the instrument used.",
+      "For example, if the hypothetical yen borrowing cost becomes 2% and the dollar asset yields 4%, debt becomes ¥15.3 million and dollar proceeds $104,000. Breakeven moves to about ¥147.12 per dollar. The smaller interest cushion tolerates less yen appreciation than the original arrangement.",
+      "BIS examined carry-trade unwinds during the market turbulence of August 2024. Its research shows why leverage and changing financing conditions matter alongside the rate differential. The episode provides evidence about a mechanism; it does not establish that every subsequent yen rally must trigger the same sequence.",
+      "Hedged foreign holdings are a different exposure",
+      "A Japanese institution holding foreign assets may hedge the exchange risk through derivatives. The hedge has a cost and its own funding requirements. That position should not automatically be labeled an unhedged carry trade just because the investor has yen liabilities and foreign assets.",
+      "The forward-pricing issues discussed in <a href=\"eur-usd-rate-differential-explained.html\">interest differentials and exchange rates</a> explain why hedging usually absorbs much of a simple interest advantage under idealized conditions. Actual cross-currency basis and collateral arrangements add further differences.",
+      "Aggregate borrowing cannot reveal every position",
+      "BIS cautions that statistics on yen borrowing and foreign-exchange derivatives do not reveal all uses of the funds. Trade finance, hedging and other investments also appear in broad data. A large yen liability total is therefore not a precise measurement of speculative carry trades waiting to unwind.",
+      "Assess the funding currency, asset, hedge, maturity and leverage before drawing conclusions. Compare the position with <a href=\"emerging-market-carry-trade-explained.html\">other carry strategies</a> while preserving those distinctions. Yield is the starting incentive; currency and financing conditions determine whether the investor can retain it."
     ],
     "sources": [
       {
-        "label": "BIS: Carry trades and the August 2024 unwind",
+        "label": "BIS: August 2024 market turbulence and carry-trade unwind",
         "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024"
+      },
+      {
+        "label": "BIS: Sizing carry trades and limitations of aggregate statistics",
+        "url": "https://www.bis.org/publications/sizing-carry-trades-bis-statistics"
+      },
+      {
+        "label": "BIS: Covered interest parity and currency hedging",
+        "url": "https://www.bis.org/publications/qr-201609/covered-interest-parity-lost-understanding-cross-currency-basis"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/yen-carry-trade-explained-480.webp",
     "imageMedium": "assets/responsive/yen-carry-trade-explained-960.webp",
@@ -5514,20 +5669,43 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "An investor selling a large holding cannot assume that the current quoted price is available for every share. The task is to find enough demand while managing the market's response to the sale.",
-      "A block trade can involve a negotiated transaction, a broker taking inventory or a process that distributes shares to several buyers. The price may include a concession reflecting size, risk and the time needed to place the stock.",
-      "Orders can also be divided across time and venues. That can reduce the information revealed by one large displayed order, but it creates execution risk if prices move before the process finishes. Breaking up an order does not make its total supply disappear.",
-      "Some off-exchange venues do not display their full order book publicly before execution. Applicable trade-reporting and transparency obligations still matter. Dark trading should not be described as though completed transactions are necessarily invisible to regulators or to all market data.",
-      "The effects depend on the security's liquidity, the urgency of the seller and the buyers available. A liquid large-cap share and a thinly traded stock can require different approaches. No execution method guarantees that a very large sale leaves the price unchanged.",
-      "When reporting a block, distinguish the negotiated price, size, counterparties that are confirmed and later price movement. Execution mechanics explain how a sale can be managed; they do not establish the seller's motive or make the market impact vanish."
+      "A large share sale does not need to appear as one order consuming every bid on an exchange. A broker can seek buyers for a block, work smaller orders over time or use an alternative trading system. The objective is often to manage execution cost and information leakage while finding enough demand.",
+      "Those choices describe how a transaction is arranged. They do not reveal whether the seller knows something adverse about the company, whether the buyer is making a long-term investment or whether the resulting price is favorable. A large print needs context before it can support an investment conclusion.",
+      "A large order has a liquidity problem to solve",
+      "Suppose a hypothetical institution wants to sell 2 million shares of a company that normally trades 5 million shares a day. The order equals 40% of that average volume. Selling immediately through the visible order book could move the price as available bids are consumed.",
+      "A broker might instead arrange the block with one or more counterparties, or divide the sale across time and venues. Spreading the execution can reduce immediate impact but exposes the seller to market movements while the order is unfinished. Speed, price certainty and information exposure create trade-offs.",
+      "For example, if a hypothetical reference price is $50 and the institution accepts $49.50 for all 2 million shares, proceeds are $99 million before costs. The $1 million difference from the $100 million reference value is an execution comparison. It is not automatically an avoidable loss: the full quantity may never have been available to sell at $50.",
+      "Agency and principal transactions allocate risk differently",
+      "An agency broker seeks execution for the client without necessarily taking the whole position onto its own balance sheet. A principal transaction can involve a dealer purchasing the shares and later distributing or hedging them. The dealer then bears inventory and execution risk during that process.",
+      "Imagine the dealer buys the hypothetical block for $49.50 and later sells it at an average $49.80. The gross difference is $600,000 before financing, hedging, trading costs and any other exposures. If the average resale price is $49.00 instead, the gross difference is a $1 million loss. The initial spread was compensation for taking risk, not guaranteed profit.",
+      "The economic assessment also depends on the seller's alternatives and instructions. Comparing the eventual highest market price with the dealer's purchase price after the fact can ignore the certainty supplied when the block was committed. A fair comparison uses a specified benchmark and execution horizon.",
+      "Dark trading refers to order visibility",
+      "FINRA explains that dark pools are alternative trading systems whose quotations are not publicly displayed in the same way as exchange quotes. Executed trades in listed stocks still have reporting obligations and appear on the consolidated tape. Limited pre-trade display does not mean the completed transaction is invisible to regulators or exempt from reporting.",
+      "A midpoint execution illustrates one possible price mechanism. With a hypothetical national best bid of $50.00 and offer of $50.04, the midpoint is $50.02. A buyer there pays two cents less per share than the displayed offer, while the seller receives two cents more than the displayed bid, assuming those reference quotes remain valid.",
+      "On 100,000 shares, that is $2,000 of price improvement for each side relative to its respective displayed alternative. It does not establish that all dark trades execute at the midpoint, that sufficient size was available at the quotes or that execution quality can be judged from price alone.",
+      "Off-exchange activity is broader than dark pools",
+      "FINRA's transparency resources distinguish ATS activity from non-ATS over-the-counter trading. Brokers can internalize orders or arrange transactions through other mechanisms. Labeling all off-exchange volume dark-pool activity collapses categories with different operations and disclosures.",
+      "The same caution applies to size. Dark venues are not reserved exclusively for enormous institutional blocks, and a large transaction can be arranged through other channels. A trade's venue, quantity and reporting condition describe different attributes; one should not be inferred solely from another.",
+      "A print does not identify investment intent",
+      "Every completed stock trade has a buyer and a seller. A large transaction may represent a rebalance, a hedged position, a fund withdrawal or an ownership change. Its appearance on a screen does not establish an informed investor's directional conviction. Delayed or corrected data can complicate comparisons with the current quote as well.",
+      "A sale by an existing holder also differs from <a href=\"secondary-stock-offerings-dilution-explained.html\">new share issuance</a>. Only the latter mechanically expands the share count. Public filings and transaction disclosures may help identify the parties, as discussed in <a href=\"insider-selling-explained.html\">insider sales</a>, but the trading print alone is insufficient.",
+      "Evaluate the quantity against normal liquidity, identify the execution arrangement and use a consistent price benchmark. Then separate confirmed facts from speculation about motives. Block execution can manage the cost of moving a large position; it does not remove market risk or turn a large transaction into a reliable trading signal."
     ],
     "sources": [
       {
-        "label": "SEC Investor.gov: Alternative trading systems and dark pools",
+        "label": "FINRA: Exchanges, ATSs, dark pools and trade reporting",
+        "url": "https://www.finra.org/investors/insights/where-do-stocks-trade"
+      },
+      {
+        "label": "FINRA: OTC transparency, ATS and non-ATS data",
+        "url": "https://www.finra.org/filing-reporting/otc-transparency"
+      },
+      {
+        "label": "SEC Investor.gov: Alternative trading systems",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/alternative-trading-systems-atss"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:22:30+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/block-trades-dark-pools-explained-480.webp",
     "imageMedium": "assets/responsive/block-trades-dark-pools-explained-960.webp",
