@@ -48,6 +48,8 @@ function stalled(signal, body=false) {
   const news=vm.runInContext('TTNNews.init()',s.context).then(()=>finished=true);
   await tick();
   assert.match(s.document.getElementById('featured-article').innerHTML,/Fast financial headline/);
+  assert.match(s.document.getElementById('featured-article').innerHTML,/<h2>/);
+  assert.doesNotMatch(s.document.getElementById('featured-article').innerHTML,/<h1>/);
   assert.equal(finished,false,'slow feed must still be pending when first headline renders');
   assert.match(s.document.getElementById('featured-article').innerHTML,/loading="eager"/);
   await news;

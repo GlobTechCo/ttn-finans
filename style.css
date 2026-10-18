@@ -285,7 +285,8 @@ img { max-width: 100%; display: block; }
   background: var(--surface-2);
 }
 .featured-body { padding: 22px 24px 26px; }
-.featured-body h1 {
+.featured-body h1,
+.featured-body h2 {
   font-size: 26px;
   line-height: 1.25;
   margin-bottom: 10px;

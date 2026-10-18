@@ -430,7 +430,7 @@ const TTNNews = (() => {
       ${thumbHtml(item, "lg")}
       <div class="featured-body">
         <div class="featured-meta"><span class="source">${item.source}</span> · ${timeAgo(item.pubDate)}</div>
-        <h1><a href="#" class="open-article" data-link="${item.link}">${item.title}</a></h1>
+        <h2><a href="#" class="open-article" data-link="${item.link}">${item.title}</a></h2>
         ${tickerTagsHtml(item)}
         <p style="margin-top:12px;"><a href="#" class="open-article" data-link="${item.link}" style="color:var(--accent);font-size:13px;">Read this story →</a></p>
       </div>`;
