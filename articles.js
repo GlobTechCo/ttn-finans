@@ -2692,20 +2692,41 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "A portfolio can own many different securities and still depend on one economic assumption. If its stocks and bonds both benefit from low inflation, an inflation surprise can hurt them together.",
-      "Correlation measures how returns have moved together over a specified period. It is not a permanent property of an asset. The result changes with the window, frequency and market conditions being measured, and a low historical reading does not promise a low future one.",
-      "Different shocks can also change the relationship between stocks and bonds. A growth slowdown may improve the appeal of government bonds while weakening company earnings. An inflation shock can raise required yields and reduce valuations in both markets.",
-      "Leverage and liquidity provide another common channel. Investors facing collateral demands may sell otherwise unrelated liquid holdings. In that setting, shared ownership and financing pressures can matter more than the business differences between the assets.",
-      "Gold, cash and alternative strategies bring their own exposures, costs and limitations. Giving a holding a different label does not establish that it will protect the portfolio during the particular loss its owner fears.",
-      "A diversification review should identify what drives each holding, how it is financed and when it may need to be sold. Counting asset names is less informative than testing the portfolio against a defined inflation, growth or liquidity shock."
+      "A portfolio can contain stocks, bonds and several funds yet still lose money across most holdings on the same day. Diversification spreads exposures; it does not require every loss in one asset to be offset immediately by a gain somewhere else. The key question is whether the holdings have different economic risks, and how those risks behave under the shock that actually arrives.",
+      "Correlation helps describe the relationship between returns, but it summarizes observations from a chosen sample. A historical correlation is not a contract governing the next period. The number can change when inflation, growth, financing conditions or investor behavior change, even though the labels on the investments remain the same.",
+      "Distinguish correlation from the size of a loss",
+      "Correlation measures the tendency of returns to move together around their respective averages. It ranges from minus one to plus one. It does not measure the level of either asset's return, and a positive correlation does not mean that their prices rise every day. Two assets can be positively correlated while both produce losses over a particular period.",
+      "Consider a hypothetical portfolio with 60% in stocks and 40% in bonds. If stocks fall 20% while bonds gain 5%, the portfolio return is minus 10% before costs: 60% multiplied by minus 20%, plus 40% multiplied by 5%. The bond allocation cushions the loss, even though it does not eliminate it.",
+      "If stocks fall the same 20% but bonds instead fall 10%, the portfolio loses 16%. The difference between these two constructed outcomes is six percentage points. That calculation uses the stated scenario returns. It cannot establish a correlation coefficient from one observation, but it makes the importance of the joint outcome clear.",
+      "The mathematical benefit depends on the relationship",
+      "For a two-asset portfolio, variance depends on each asset's volatility, the allocation weights and the correlation between returns. The covariance contribution can either reduce or increase the total relative to another correlation assumption. Estimating portfolio risk therefore involves assumptions about relationships as well as assumptions about individual assets.",
+      "Suppose, purely for illustration, that two assets have annual volatilities of 20% and 10% and receive equal weights. With correlation of minus 0.5, the standard two-asset formula gives portfolio volatility of about 8.7%. Change the correlation to plus 0.5, holding everything else constant, and the estimate becomes about 13.2%.",
+      "Those figures are model outputs, not predicted maximum losses. They assume the inputs describe the relevant future period and omit complications such as changing weights and transaction costs. A portfolio can experience an unusually large loss even when its estimated volatility is low, especially if the assumed relationships fail during stress.",
+      "Ask what shock is moving both assets",
+      "A weaker growth outlook can hurt expected corporate earnings while increasing demand for high-quality bonds. An inflation shock can create a different combination: pressure on purchasing power and margins alongside higher required bond yields. The direction of the stock-bond relationship can therefore depend on which influence dominates.",
+      "The bond label also needs detail. Long-duration government debt, short-term bills and lower-quality corporate credit have different exposures. A corporate bond may suffer from weaker credit quality at the same time that the issuer's shares fall. Its position in a separate account does not make that shared business risk disappear.",
+      "Different fund names can conceal overlapping holdings",
+      "A broad equity fund, a technology fund and a growth fund may all have large positions in the same companies. International funds may add currency exposure but still depend on similar global earnings conditions. Checking actual holdings is more informative than counting fund names or assuming that several providers create several independent sources of return.",
+      "Likewise, a purported defensive asset can bring its own sensitivity to real yields, currency movements or liquidity. No single category should be assumed to offset every kind of equity loss. The intended role of a holding needs to be described in terms of a specific risk and holding period.",
+      "Liquidity and spending needs belong in the assessment",
+      "During a funding squeeze, an investor may sell an otherwise useful asset to meet an immediate cash obligation. That can turn a temporary price loss into a realized loss. A diversification plan aimed at long-run returns does not automatically meet a near-term spending requirement.",
+      "A useful review combines a holdings check with several explicit scenarios: weaker growth, higher inflation, wider credit spreads and a need for cash. The purpose is to reveal common dependencies and plausible shortfalls. Historical correlation contributes evidence to that review; it should not be used as a promise that the next difficult period will resemble the average of the last one."
     ],
     "sources": [
       {
         "label": "SEC Investor.gov: Asset allocation and diversification",
         "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      },
+      {
+        "label": "FINRA: Bond duration and other bond risks",
+        "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio"
+      },
+      {
+        "label": "SEC Investor.gov: Fund structures and portfolio diversification",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp",
     "imageMedium": "assets/responsive/correlation-breakdown-diversification-editorial-960.webp",
@@ -2871,20 +2892,37 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A contract that pays one dollar if an event occurs can trade at a fraction of that amount. Its price is often read as a probability, but that interpretation depends on the contract, the participants and the costs of trading.",
-      "The settlement question must be defined precisely. Which event counts, which source decides it and when does the payment occur? A broad headline can conceal narrow terms that determine whether a seemingly correct prediction receives the payoff.",
-      "Trading gives participants a financial reason to respond to information. It does not make the crowd representative or remove incentives to hedge. Limited liquidity, transaction costs, position constraints and participants' different risk preferences can all affect prices.",
-      "A polling average measures responses from a sampled population. A contract price measures the price accepted in a trading market. Comparing them as competing forecasts requires attention to the date, outcome definition and uncertainty rather than selecting one successful example after the event.",
-      "Legal access and regulatory treatment can vary with the product and jurisdiction. A platform's marketing description is not sufficient to establish which rules apply to a particular contract or participant.",
-      "Read the settlement terms before interpreting the chart. Price changes can reflect fresh information, a large order or a change in market liquidity; explaining one of those movements requires evidence beyond its direction."
+      "A prediction-market quote can be read as an estimate of an event's likelihood, but the number is also a transaction price. It reflects the contract's rules, available buyers and sellers, and the costs of taking a position. Calling a 62-cent price a 62% probability can be useful shorthand, provided those qualifications remain attached.",
+      "The first question is what the contract pays. The CFTC describes event contracts that often have two outcomes and a fixed payment, usually $1, when the specified outcome occurs. Other structures exist. An explanation based on a simple binary contract should not be applied unchanged to a product with partial payouts or multiple outcomes.",
+      "Start with a payoff, then calculate the result",
+      "Assume a hypothetical Yes contract costs $0.62 and pays $1 if a stated event occurs, otherwise zero. Before fees, the successful outcome produces a $0.38 profit. The unsuccessful outcome loses the $0.62 purchase price. The advertised $1 payment includes the money originally put at risk; it is not an additional dollar of profit.",
+      "Now add an illustrative $0.02 purchase fee. Total initial cost becomes $0.64. A successful outcome leaves $0.36 profit and an unsuccessful one loses $0.64. If a reader independently assessed the event's probability at 67%, the hypothetical expected profit would be $0.03: 67% of $1, less the $0.64 cost. That personal probability estimate could be wrong.",
+      "Expected value is an average across imagined repetitions under an assumed probability. A single contract still resolves according to its own outcome. A positive calculation is neither a guarantee of profit nor evidence that the analyst's probability estimate is accurate. Fees can also vary by platform, transaction type and contract.",
+      "The wording defines the event",
+      "A contract about a published economic statistic must identify the statistic, reference period and source used for settlement. A first estimate can differ from a later revision. A contract that settles on the initial release can therefore have a different result from one using the latest revised figure, even if their headlines sound similar.",
+      "Imagine a hypothetical question asking whether an index exceeds 100 in December. A value exactly equal to 100 would not satisfy a strict greater-than condition. A different contract saying at least 100 could resolve the other way. Date cutoffs, rounding rules and the specified official series can matter as much as the broad economic view.",
+      "This is why a reader should separate the underlying real-world development from the settlement test. A business may clearly have improved while failing to meet a narrowly worded contract condition. The contract pays on that defined condition, rather than on the most persuasive narrative about the event.",
+      "A screen number may not be an executable price",
+      "Suppose a market's most recent trade was at $0.70, but current buyers bid $0.60 and sellers ask $0.64. A new buyer would normally need to consider the available ask and quantity, rather than assume a purchase at the last-trade price. Buying at $0.64 and immediately selling at $0.60 loses $0.04 per contract before fees.",
+      "A larger order may use up the best available quote and receive worse prices for the remaining quantity. The number displayed in a headline can therefore differ from the effective price for a specific trade. An apparent jump in probability in a thin market deserves particular care if it comes from only a small transaction.",
+      "The crowd is not a representative survey",
+      "Participants are self-selected and have unequal budgets, information and reasons for trading. Some may be hedging an exposure elsewhere. A company facing a possible loss from an event might accept an unattractive standalone price because the contract provides protection for that business. Its purchase need not express the same forecast as an unhedged speculator's purchase.",
+      "Trading volume also counts transactions rather than unique independent opinions. The same position can change hands repeatedly. A busy market may incorporate useful information, but turnover alone does not prove that a quoted probability comes from a broad or representative sample of people.",
+      "Use the price as evidence with boundaries",
+      "A useful comparison records the contract, time, bid, ask, available size and settlement rule. It then compares that market evidence with the relevant data or a clearly specified forecast. Claims about current regulatory status require separate checking; this explanation does not resolve the jurisdictional questions discussed in <a href=\"prediction-markets-circuit-split-explained.html\">TTN's legal-background article</a>.",
+      "The number becomes more informative when its limitations are visible. A prediction-market price shows what participants can currently exchange a defined payoff for. It can contribute to a forecast without becoming an objective measurement of the future or a substitute for understanding the event itself."
     ],
     "sources": [
       {
-        "label": "CFTC: Risks of virtual-currency trading",
-        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html"
+        "label": "CFTC: Understanding prediction markets and event contracts",
+        "url": "https://www.cftc.gov/LearnandProtect/PredictionMarkets"
+      },
+      {
+        "label": "CFTC and SEC: Binary payoff structures and fraud risks",
+        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/fraudadv_binaryoptions.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/prediction-markets-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/prediction-markets-explained-editorial-960.webp",
@@ -3198,20 +3236,43 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "An ETF trades between investors on an exchange, but its supply of shares can also change through a separate process. Creation and redemption help connect the fund's trading price with the value of what it holds.",
-      "Authorized participants deal directly with the fund in large units. Depending on the ETF, they deliver a basket of assets, cash or a combination in exchange for new shares. Redemption reverses the arrangement under the fund's terms.",
-      "When shares trade above the value of the corresponding holdings, creating and selling shares can offer an arbitrage opportunity. When they trade below that value, buying and redeeming them can offer the reverse. Costs and practical constraints determine whether the trade is attractive.",
-      "That incentive can keep prices close to net asset value, but it is not a fixed-price promise. Difficult-to-trade holdings, different market hours or stressed conditions can widen premiums and discounts. A published NAV may itself rely on prices that are not immediately executable.",
-      "An individual investor generally trades shares on the exchange rather than redeeming directly. Bid-ask spreads, commissions and the fund's expenses therefore affect the investor's result alongside movements in the underlying assets.",
-      "Review the fund's creation arrangements, holdings and trading conditions before treating its market price as an exact valuation of its portfolio. The mechanism supports alignment; it does not eliminate liquidity risk."
+      "Most people buying an exchange-traded fund purchase existing shares from another market participant. They do not send an order directly to the fund to create a new individual share. Behind those ordinary trades sits a separate mechanism through which authorized participants can create or redeem large blocks of ETF shares.",
+      "That mechanism helps connect the ETF's trading price with the value of its holdings. It creates an economic incentive to address price differences, while leaving room for transaction costs, timing and market stress. The connection is an important feature of an ETF, not a guarantee that its market price always equals its net asset value.",
+      "Separate the two markets",
+      "In the secondary market, investors trade ETF shares on an exchange at available prices. In the primary process, an authorized participant has a contractual relationship with the ETF and can exchange a specified basket of assets or cash for a creation unit. The reverse transaction redeems units for the relevant assets or cash.",
+      "The exact basket, size and cash component depend on the fund. A simplified explanation using physical delivery of securities does not mean every ETF uses an identical process. The SEC's ETF bulletin also distinguishes registered investment-company ETFs from other exchange-traded products, whose legal and operational structures can differ.",
+      "A premium can create an incentive to add shares",
+      "Imagine a hypothetical creation basket worth $5 million that can be exchanged for 100,000 ETF shares. That gives an illustrative asset value of $50 per share. If the ETF shares can be sold for $50.20 each, their total sale value would be $5.02 million, leaving a $20,000 gross difference before costs.",
+      "An authorized participant might acquire the basket, create the ETF shares and sell them. The purchases and sales can put upward pressure on the basket and downward pressure on the ETF price, narrowing the gap. Actual execution can involve hedging and a different sequence, so the illustration describes an incentive rather than a required trading procedure.",
+      "Now allow $12,000 for the combined basket trading, hedging, fund charges and other execution costs. The hypothetical remaining difference is $8,000. If those costs instead exceed $20,000, the apparent premium would not offer the same attraction. The size of a visible price gap alone does not reveal an available profit.",
+      "A discount can create the reverse incentive",
+      "Using the same simplified asset value, suppose ETF shares trade at $49.80. Buying 100,000 shares would cost $4.98 million. Redeeming them for a basket worth $5 million creates an illustrative $20,000 gross difference before the costs and risks of the transactions.",
+      "This process can reduce the number of ETF shares outstanding. It is different from an individual investor selling shares to another investor, which simply changes who owns existing shares. Headlines about ETF trading volume and ETF net creations therefore describe distinct activity and should not be substituted for each other.",
+      "The reference value has a timestamp",
+      "A fund's published net asset value is commonly calculated at a particular time. The ETF price continues to reflect the market where its shares trade. If some underlying markets are closed, or their quoted prices are stale, a comparison can show a premium or discount without providing a clean, immediately tradable mismatch.",
+      "For example, a hypothetical international-equity ETF trading in the United States can incorporate new information after some overseas exchanges have closed. Its current price and the fund's accounting valuation may then use information from different moments. Calling the difference irrational requires more evidence than subtracting the two displayed numbers.",
+      "An exit still depends on available prices",
+      "Retail investors usually exit by selling ETF shares in the secondary market. A narrow bid-ask spread and sufficient size at the quoted price matter to that sale. An investor who buys at an ask of $50.04 and immediately sells at a bid of $49.96 loses $0.08 per share before any commission, even if net asset value has not moved.",
+      "Liquidity in the underlying holdings also matters to participants managing creation and redemption risk. If those assets become harder to trade or hedge, dealing costs can rise and the relationship between quoted ETF prices and estimated asset values can become less straightforward. The mechanism cannot make illiquid holdings costless to transact.",
+      "Read the structure alongside the portfolio",
+      "The practical checks are the fund's legal structure, creation and redemption terms, underlying assets, fees, spread and history of premiums or discounts. Those details complement the separate question of <a href=\"sp500-concentration-risk-explained.html\">how concentrated the holdings are</a>. Efficient share trading does not make an economically concentrated portfolio diversified.",
+      "The mechanism explains why an ETF can accommodate investor demand without relying only on a fixed stock of shares. Its benefit comes from a workable exchange between shares and holdings. Understanding the expenses and constraints around that exchange produces a more useful assessment than treating the acronym ETF as a guarantee of liquidity or fair execution."
     ],
     "sources": [
       {
-        "label": "SEC: Exchange-traded funds, structures and risks",
-        "url": "https://www.sec.gov/files/etfs.pdf"
+        "label": "SEC Investor.gov: ETF creation, redemption and trading risks",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+      },
+      {
+        "label": "SEC Investor.gov: Authorized participants",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/authorized-participants"
+      },
+      {
+        "label": "SEC Investor.gov: Mutual fund and ETF characteristics",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp",
     "imageMedium": "assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp",
@@ -3634,20 +3695,37 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A supplier invests in a customer that then buys the supplier's products. The arrangement can finance useful capacity, but it also makes a sales figure harder to interpret without examining where the customer's money came from.",
-      "Vendor support can take several forms: equity, loans, guarantees, deferred payment or other financing commitments. Those instruments carry different repayment rights and risks. Treating them all as the same circular transaction obscures what the supplier has committed.",
-      "The central question is whether the customer can earn enough from independent users to pay its obligations. Financing can bridge the period before revenue arrives; it cannot create sustainable end demand by itself.",
-      "A supplier may gain sales while also assuming investment or credit exposure. Receivables, guarantees, related-party disclosures and the accounting treatment of the arrangement help show the combined risk. Recognized revenue and cash collected should be distinguished.",
-      "The existence of vendor financing does not prove that a deal is improper. Equally, an assertion that the technology's market is growing does not settle whether a particular borrower will repay. Contract terms and the economics of the installed capacity are the relevant evidence.",
-      "Evaluate the project as both an operating customer and a financed counterparty. Sales supported by a solvent business have a different quality from sales that depend on another round of money from the same ecosystem."
+      "An AI supplier can invest in a customer that uses some of the new money to buy the supplier's products. That relationship can support a real expansion of computing capacity, while also making reported demand more dependent on financing from within the same commercial network. The existence of a loop is a reason to examine the transactions, not a finding that the sales are fictitious.",
+      "The important distinctions are between an equity investment, a loan, a customer payment and a promise to buy services later. They carry different rights and risks. Adding their headline amounts together can create a misleading impression of how much independent end-customer demand has actually arrived.",
+      "Draw the cash movements separately",
+      "Consider an entirely hypothetical hardware supplier that invests $100 million in a computing operator. The operator then pays the supplier $60 million for delivered equipment, retaining the remaining $40 million for other costs. The supplier has made a $100 million investment and received a $60 million customer payment. Those two flows should remain visible even though their net cash effect is a $40 million outflow.",
+      "The $60 million sale is not automatically profit. If the equipment cost $35 million to produce, the simple gross profit would be $25 million before other expenses and any accounting adjustments. The supplier also holds an investment whose value could change. A favorable gross margin on hardware does not establish a favorable return on that investment.",
+      "For the operator, the equipment purchase consumes cash and creates an asset under the applicable accounting treatment. The operator still needs enough business to pay for electricity, employees, financing and future equipment replacement. Financing the purchase solves an initial funding problem; it does not by itself establish a sustainable service business.",
+      "Trace the next customer payment",
+      "Suppose the hypothetical operator subsequently sells $12 million of computing services to unrelated customers and spends $15 million on cash operating costs during the same illustrative period. Those figures imply a $3 million operating cash shortfall before capital spending, financing and other movements. A large equipment order can coexist with an operator that still requires new funding.",
+      "Now change the example: unrelated service receipts rise to $25 million while the same cash operating costs stay at $15 million. The resulting $10 million surplus improves the evidence for independent demand, although depreciation, future capital needs and the cost of financing remain relevant. The financing relationship has not changed; the operating evidence has.",
+      "These examples are constructed to isolate the issue. They do not describe a named company's accounts, and they are not a template for recognizing revenue under any particular accounting standard. Actual treatment depends on contractual substance, control, delivery, collectibility and the applicable rules.",
+      "An order, an investment and revenue are different milestones",
+      "A framework agreement may describe potential spending over several years. An equity commitment may depend on conditions being met. An order may be cancellable, and delivered capacity may not yet be producing paid usage. Each stage supports a narrower statement than a headline that calls the whole announced amount revenue.",
+      "A useful reading therefore keeps separate columns for announced commitments, cash actually invested, products delivered, revenue recognized and customer cash collected. If those figures are unavailable, the missing information should remain missing. Assuming that every commitment closes on schedule is an investment assumption, not a reported fact.",
+      "Concentration can connect risks that look separate",
+      "Imagine the supplier's hardware sales, equity investment and outstanding customer loan all depend on the same operator. If that operator struggles, the supplier may face weaker future orders, an investment loss and difficulty collecting the loan. Different line items can therefore represent exposure to the same underlying business problem.",
+      "The reverse is also possible. A supplier's investment may help a customer establish a commercially useful service that attracts independent users and later financing. The appropriate conclusion turns on contracts and operating results. The direction of the money alone does not distinguish a productive partnership from an increasingly fragile dependence.",
+      "Read cash flow alongside the commercial narrative",
+      "Financial statements separate operating, investing and financing movements because those movements answer different questions. An analyst examining a supplier-financed customer relationship should reconcile the balance sheet and cash-flow statement with the revenue discussion, rather than rely solely on the growth rate in sales. TTN's <a href=\"free-cash-flow-explained.html\">free-cash-flow explainer</a> describes why the chosen definition and capital spending also matter.",
+      "The most informative tests are specific: how much demand comes from unrelated paying customers, who bears losses if utilization disappoints, and whether the obligations remain affordable without another financing round. A loop deserves scrutiny because it can transmit stress between partners. Evidence of genuine outside revenue and viable unit economics is what determines whether that loop is supporting durable capacity."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC: Financial statements and cash-flow classifications",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      },
+      {
+        "label": "SEC Investor.gov: Business, risks and financial disclosures in Form 10-K",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/circular-ai-financing-explained-480.webp",
     "imageMedium": "assets/responsive/circular-ai-financing-explained-960.webp",
@@ -4335,20 +4413,42 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A retailer can report higher sales while selling fewer items. Price changes, product mix and new locations can raise revenue without showing stronger demand from the same customers.",
-      "Walmart, Target and Home Depot offer different views of spending because their categories and customer bases differ. Groceries and household necessities, discretionary goods and home improvement respond differently to income, prices and housing activity. The companies do not form a representative statistical sample of every household.",
-      "Comparable sales help assess established operations, but definitions vary. The result should be read alongside transaction counts, average ticket and margins where the company provides them. A larger basket value can reflect price or mix rather than more purchases.",
-      "Promotional discounts and inventory also matter. Clearing excess stock can support sales while hurting profit, and reduced inventory can improve cash flow without a lasting improvement in demand. Those developments should not be merged into one claim about consumer strength.",
-      "A company may gain market share even as its category slows. Changes in delivery, stores and customer acquisition can also distinguish its performance from the economy. Official spending data provide a separate check with different coverage.",
-      "Retail earnings are strongest as evidence about a specific business and its customers. Compare the operating measures and several companies before extending the result into a claim about all US consumers."
+      "A retailer can report higher revenue while selling fewer items, or stronger profit while customers trade down to cheaper products. Quarterly earnings are useful evidence about household spending, but they measure a particular business with its own customer base, prices and cost decisions. They do not provide a complete census of the consumer economy.",
+      "The strongest interpretation connects several observations: sales, transactions, average purchase size, margins, inventory and cash. It then asks whether the change reflects household demand, a company's competitive position or an accounting and calendar effect. A headline revenue percentage rarely settles all three questions.",
+      "Separate the store base from the existing business",
+      "Total revenue can rise because a retailer opens stores, buys another business or adds a new line of activity. Comparable sales attempt to narrow the comparison to an eligible existing business, but companies define the measure themselves. The treatment of new stores, online sales, closures and foreign exchange needs to be checked in the company's reporting.",
+      "Consider a hypothetical chain with $1 billion in sales last year. If its existing eligible business falls 2% to $980 million but new stores add $80 million, total sales become $1.06 billion, a 6% increase. The chain is larger, yet the comparable business has weakened. Neither figure should be omitted simply because the other supports a cleaner story.",
+      "The comparison also needs the same period length. A retail calendar can create an extra reporting week or shift a holiday between quarters. Comparing unadjusted totals across different trading periods can attribute a calendar effect to changes in consumer appetite.",
+      "A larger basket can hide fewer visits",
+      "Suppose a hypothetical store records 10,000 transactions at an average $40, producing $400,000 in sales. In the next period it records 9,500 transactions at $44, producing $418,000. Revenue rises 4.5%, although transaction count falls 5%. The average basket rises 10%, but that increase could reflect prices, product mix, quantities or a combination.",
+      "If the retailer reports item counts or unit volumes, those can help distinguish the explanations. Traffic estimates require care too: a visit, a paying transaction and an individual customer are different measures. A person who visits twice has not necessarily become two customers, and a busy shop need not convert every visitor into a sale.",
+      "The same distinction applies to national statistics. Census retail and food-services sales are adjusted for seasonal, holiday and trading-day patterns, but not for price changes. That makes them an important dollar-spending measure, while leaving a separate task of assessing how much actual purchasing volume changed.",
+      "Profit can improve for reasons unrelated to stronger demand",
+      "Assume a hypothetical retailer has $100 million in sales and a 30% gross margin, giving $30 million in gross profit. If sales rise to $105 million but gross margin falls to 27%, gross profit becomes $28.35 million. Higher revenue has accompanied lower gross profit before operating expenses.",
+      "A different company could improve margins through lower freight costs or fewer discounts without a broad recovery in household finances. Product mix matters: a shift toward necessities can support traffic while weakening sales of more profitable discretionary merchandise. The relevant observation is what changed inside the business, not simply whether the final earnings figure rose.",
+      "This is also why an <a href=\"earnings-beat-miss-explained.html\">earnings beat</a> needs context. Cost reductions, share repurchases and one-time items can influence earnings per share. A result above analysts' forecasts does not, by itself, establish that customers are spending more freely.",
+      "Inventory and cash test the sales story",
+      "If goods accumulate faster than demand, the company may face storage costs, discounting or write-downs. But a planned inventory build before a seasonal peak is different from unwanted stock. The comparison should match the sales cycle and consider the company's explanation rather than treat any inventory increase as evidence of distress.",
+      "Payment timing can also make operating cash flow temporarily look stronger or weaker than reported profit. A company that delays paying suppliers can retain cash without improving the underlying economics of its merchandise. Conversely, buying inventory before a major selling season can absorb cash in a business whose demand remains healthy.",
+      "Read several businesses before describing the household sector",
+      "A luxury chain, a discount grocer and a home-improvement store serve different needs and income groups. Housing transactions, weather, promotions and local competition can affect them differently. Agreement across several relevant companies makes a broader conclusion more persuasive; disagreement may reveal a change in spending priorities.",
+      "A defensible consumer reading therefore identifies the customer, category and period, then checks sales composition against margin and cash evidence. Retail results can show where pressure is appearing and how businesses respond. They become misleading when one company's experience is presented as a direct measure of every household's finances."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "U.S. Census Bureau: Retail sales definitions and report",
+        "url": "https://www.census.gov/retail/sales.html"
+      },
+      {
+        "label": "SEC Investor.gov: Reading a company's Form 10-K",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"
+      },
+      {
+        "label": "SEC: Financial statements and cash flows",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp",
     "imageMedium": "assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp",
@@ -4420,20 +4520,41 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "Treasury can repurchase its own outstanding securities while continuing to issue new debt. The operation changes which securities remain in investors' hands; it does not by itself eliminate the government's need to finance spending.",
-      "Treasury's buyback framework includes liquidity support and cash-management objectives. Buying particular outstanding securities can assist trading in less-liquid issues or manage financing around cash needs. The eligible securities, limits and dates are specified for each operation.",
-      "A reverse-auction process lets eligible counterparties offer securities to Treasury under the published rules. Acceptance is subject to the operation's parameters and price assessment. An announced maximum is different from the amount ultimately accepted.",
-      "Funding the purchases can involve other borrowing or available cash. The gross purchase amount therefore should not be reported automatically as an equivalent reduction in debt held by the public. The net financing effect needs the wider issuance and cash picture.",
-      "These operations also differ from a Federal Reserve asset purchase. The institutions have different objectives and balance sheets, even when both appear as buyers in the Treasury market. Describing a Treasury buyback as monetary easing skips that distinction.",
-      "To assess a result, examine the official schedule, accepted bids and market conditions in the targeted securities. A yield move around an announcement does not establish that the program alone caused it or will permanently lower borrowing costs."
+      "When the U.S. Treasury buys back one of its own securities before maturity, that security is retired after settlement. The transaction can improve the way government debt trades or help manage the timing of cash payments. It does not, by itself, establish that the federal deficit has shrunk or that the central bank has started monetary easing.",
+      "The Treasury's published explanation separates two objectives: liquidity support and cash management. Understanding which objective applies is the starting point for reading an operation. The announced maximum purchase size, the amount actually accepted and the source of the government's financing answer different questions.",
+      "Liquidity support focuses on the ability to trade",
+      "Older Treasury issues can be less actively traded than the newest benchmark securities. A predictable opportunity to offer eligible older securities to the Treasury can help dealers manage inventory and support the functioning of that segment of the market. The objective concerns trading conditions, not a promise that every bondholder can sell at a preferred price.",
+      "Treasury's FAQs describe liquidity-support buybacks as regular opportunities to sell off-the-run securities and state that the program is not currently intended to address episodes of acute market stress. That limitation matters. A routine scheduled operation should not automatically be described as an emergency rescue or evidence that ordinary trading has broken down.",
+      "Cash management follows a different calendar",
+      "Government tax receipts and expenditures do not arrive evenly through the year. A cash-management buyback can shift the timing of payments by retiring eligible debt ahead of maturity. Treasury describes this activity as helping reduce swings in its cash balance and bill issuance, with possible benefits for supply stability and borrowing costs over time.",
+      "A hypothetical example illustrates the timing. Suppose $10 billion of eligible securities would otherwise mature in four months. Buying some of those securities now moves the associated payment forward. The government needs cash today to settle the purchase, while the later maturity payment on the retired securities disappears. That is a change in the payment schedule, not new tax revenue.",
+      "The financing context therefore matters. If Treasury raises new debt while retiring older debt, the result can involve replacement and a change in maturity structure. A gross purchase amount alone cannot describe the movement in total debt. Readers also need issuance, maturities, cash balances and the relevant accounting measure.",
+      "Face value and cash paid can differ",
+      "Assume a hypothetical operation accepts $1 billion in face value of a bond at a clean price of 95 per $100 face value. The clean purchase amount would be $950 million. Accrued interest and the operation's settlement terms would affect the actual cash payment. Confusing face value with purchase cost can misstate the transaction.",
+      "An accepted amount below the announced maximum is also possible. Imagine a maximum of $4 billion in face value but accepted offers of $1.5 billion. The accepted amount is 37.5% of the maximum. It does not follow from those numbers alone that the operation failed; pricing and the attractiveness of submitted offers matter.",
+      "Treasury's published rules allow it to buy less than the maximum, or nothing. An interpretation needs to distinguish a ceiling from a target and assess what the result says about eligible supply and prices. The headline maximum is not a promise to inject that amount into markets.",
+      "Treasury buybacks and central-bank purchases have different balance sheets",
+      "The Federal Reserve can use asset purchases as a monetary-policy tool. Treasury is the issuer managing government obligations and cash. Even when both institutions transact in Treasury securities, their objectives, liabilities and financing arrangements are different. A Treasury buyback should therefore not be labeled quantitative easing merely because a government-related institution bought a bond.",
+      "The separate question of banking-system reserves also requires the full set of cash movements. Payments, taxes, debt issuance and central-bank operations can interact. TTN's <a href=\"treasury-general-account-liquidity-explained.html\">Treasury cash-balance explainer</a> follows those connections. An isolated purchase announcement is not enough to calculate the resulting change in reserves.",
+      "Match the result to the stated purpose",
+      "For liquidity support, useful evidence includes dealing conditions, price differences between comparable securities and the ability to trade eligible issues. For cash management, the relevant evidence includes the timing of redemptions, tax receipts and bill supply. Neither objective can be judged from a purchase total alone.",
+      "A careful report consequently identifies the type of operation, eligible maturity range, maximum announced amount, accepted face value and settlement timing. It then places those figures alongside broader issuance and cash data. The program is a debt-management tool with defined operating rules; its economic significance comes from those details rather than from the dramatic sound of the word buyback."
     ],
     "sources": [
       {
-        "label": "TreasuryDirect: Buyback objectives and operating rules",
+        "label": "TreasuryDirect: Buyback purposes and operating rules",
         "url": "https://www.treasurydirect.gov/help-center/faqs/buyback-faqs/"
+      },
+      {
+        "label": "TreasuryDirect: Operation announcements, maximums and accepted amounts",
+        "url": "https://www.treasurydirect.gov/auctions/buy-backs/"
+      },
+      {
+        "label": "Federal Reserve: Asset purchases as a monetary-policy tool",
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/treasury-debt-buyback-explained-editorial-960.webp",
@@ -4746,24 +4867,37 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A speech can move financial markets without containing a policy decision. If it changes how investors expect a central bank to respond to future data, prices can adjust before any rate is changed.",
-      "The Federal Reserve Bank of Kansas City hosts the Jackson Hole Economic Policy Symposium. Researchers, policymakers and other participants discuss an annual theme. The gathering is not an FOMC meeting and does not itself set the US policy rate.",
-      "Markets may pay particular attention to senior central-bank speakers because their remarks can clarify priorities or the assessment of risks. The information value depends on what differs from previous communication, rather than on the location or prominence of the event alone.",
-      "A conditional statement should remain conditional in coverage. Describing what would justify a future policy response is different from promising that response. Prepared remarks and the full context are stronger evidence than a sentence detached from its qualifications.",
-      "Price changes can reflect positioning and other news arriving at the same time. A market move after a speech does not prove that every participant drew the same conclusion or that the speaker intended that precise result.",
-      "Compare the remarks with earlier statements and subsequent official decisions. The symposium's relevance comes from the ideas and information conveyed, not an assumption that every year's gathering must announce a turning point."
+      "A central banker can move bond yields with a speech without changing an interest rate that day. Jackson Hole attracts attention because it offers an unusually concentrated opportunity to hear how policymakers interpret the economy and the limits of their tools. Markets react when those interpretations change expectations about decisions still to come.",
+      "The event is an annual economic policy symposium organized by the Federal Reserve Bank of Kansas City. Its agenda brings together research and policy discussion around a chosen subject. A speech delivered there should be read in that context, rather than treated as a substitute for an official rate decision.",
+      "The venue and the decision are different things",
+      "For U.S. monetary policy, the Federal Open Market Committee determines the policy stance through its formal process. The Fed explains that it announces decisions in statements after scheduled meetings, accompanied by the chair's press conference. A conference presentation can illuminate the reasoning of a speaker, but it is not itself a committee vote or an implementation instruction.",
+      "This distinction also applies to participants from other central banks. A policymaker may discuss a global problem or a research finding rather than announce the next domestic action. The speaker's authority, the wording and the institution's decision process all affect how much policy weight a listener should attach to the remarks.",
+      "Compare the message with the expectation",
+      "Consider a hypothetical speech that says inflation remains above target and policy must remain restrictive. If investors already expected exactly that position, the words may provide little new information. A strong market reaction would need an explanation beyond simply labeling the speech strict or cautious.",
+      "Now suppose investors had assigned a large probability to an early reduction in rates, while the speech emphasizes that more evidence is needed before any adjustment. Even without a changed policy rate, the expected timing could move. A bond maturing in two years reflects more than today's overnight rate, so its price can react immediately to that reassessment.",
+      "The comparison should use what was reasonably known before the speech. Describing any later market move as inevitable introduces hindsight into the analysis. A headline writer cannot establish surprise merely by finding a forceful sentence after prices have already moved.",
+      "Conditional language carries the policy content",
+      "A promise to act if inflation slows is different from a promise to act on a specific date. The first connects a possible decision to an uncertain economic condition. Removing the condition creates a statement the speaker did not make. Words about risks, confidence and the range of plausible outcomes can be as consequential as a reference to the policy rate.",
+      "A hypothetical example makes the distinction clear. If a speaker says additional tightening could be needed if demand reaccelerates, the statement contains two uncertainties: whether demand will strengthen and whether that would justify tightening. Reporting it as an announced increase would collapse both uncertainties into a false certainty.",
+      "One policy message can produce different market moves",
+      "Suppose short-term yields rise after investors postpone their expected first rate cut. Longer-term yields need not rise by the same amount. Their response also depends on expected inflation, growth and the compensation investors demand for holding longer maturities. The <a href=\"yield-curve-inversion-recession-signal.html\">shape of the yield curve</a> therefore provides more information than a single yield quotation.",
+      "Equities face another combination of effects. Higher expected discount rates can reduce the present value of future earnings, while evidence of stronger demand could improve those earnings. A speech associated with firmer growth could produce a different equity response from one associated with persistent inflation and weaker activity. Neither outcome follows from the venue alone.",
+      "Check the evidence after the first headline",
+      "The prepared text establishes what the speaker said. Any subsequent questions and answers may qualify that message. The timing of price observations matters too: a market move during a speech can overlap with another release, a large trade or a separate announcement.",
+      "A disciplined account identifies the asset, the observation window and the specific language that plausibly changed expectations. It also distinguishes a temporary price reaction from a durable shift in the expected policy path. A ten-minute move and a change that survives several economic releases are different pieces of evidence.",
+      "The most useful reading of Jackson Hole is consequently a comparison of arguments: what changed in the assessment of inflation, employment, growth or policy transmission, and what conditions would alter the next decision. The symposium can change how investors understand the reaction function. It does not remove the need to follow subsequent data and the committee's actual decisions."
     ],
     "sources": [
       {
-        "label": "Kansas City Fed: Jackson Hole Economic Policy Symposium",
-        "url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+        "label": "Kansas City Fed: About the Jackson Hole Economic Policy Symposium",
+        "url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/about-jackson-hole-economic-symposium/"
       },
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
+        "label": "Federal Reserve: Monetary policy decisions and communication",
         "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/jackson-hole-symposium-explained-480.webp",
     "imageMedium": "assets/responsive/jackson-hole-symposium-explained-960.webp",
@@ -4781,20 +4915,37 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A tariff is collected from the importer under the applicable customs rules. That identifies who remits the duty, but it does not settle who ultimately bears the economic cost.",
-      "An importer can raise its selling price, absorb a lower margin, negotiate a lower supplier price or change where it buys. Suppliers and customers may also change quantities or products. The burden depends on those responses rather than a slogan that one country pays another's bill.",
-      "The scope of the measure matters. Product classification, origin, exemptions, effective dates and customs valuation determine the duty on a shipment. A single headline rate may not describe every product involved in the policy.",
-      "Companies using imported parts can face higher costs before consumers see a price change. Existing inventories and contracts can delay pass-through. A domestic producer may benefit from reduced foreign competition while also paying more for imported inputs.",
-      "Exchange rates and retaliatory measures can complicate the result. Exporters may lose access to another market, and uncertainty about future rules can delay investment even before additional duties are collected.",
-      "An accurate tariff story separates the legal charge from estimates of its wider burden. The evidence comes from the measure's terms and observed changes in prices, margins and quantities, not from assuming every dollar collected is automatically paid by consumers or foreign suppliers."
+      "The company responsible for importing a product into the United States generally pays the customs duty. That answers who transfers the money to the government. It does not fully answer who ultimately bears the cost, because suppliers, importers, retailers and customers can change prices, margins and purchasing decisions after a tariff is imposed.",
+      "Separating the payment obligation from the economic burden prevents two opposite mistakes: treating the tariff as a bill automatically paid by a foreign government, or assuming every dollar must immediately appear in the final shopper's receipt. The outcome depends on the transaction and on how businesses and customers respond.",
+      "Follow a single shipment",
+      "Take a hypothetical imported component with a customs value of $100 and an illustrative 20% tariff. Ignoring other duties, fees and valuation complications, the tariff is $20. If the foreign seller leaves its price unchanged, the importer's cost becomes $120 before transport and domestic distribution. The importer may use a broker, but that does not remove its underlying responsibility for the entry and duties.",
+      "Now suppose the seller agrees to reduce the customs value to $90. The same illustrative tariff produces an $18 duty, making the combined amount $108. The importer still pays the duty, while the foreign supplier accepts a $10 reduction in its selling price. A claim that the foreign side absorbed the entire tariff would not fit these numbers.",
+      "Keeping the combined amount at $100 would require a customs value of about $83.33 at a 20% tariff, before other costs. A $16.67 duty would then bring the total to $100. The duty is calculated on the revised customs value, so the supplier price cut and the tax bill change together.",
+      "The next price decision happens inside the importing country",
+      "An importer can pass the higher cost to a distributor, accept a lower margin or negotiate a mixture of both. The distributor and retailer then face their own decisions. If shoppers can easily switch products, a full price increase may lose sales. If alternatives are scarce, the seller may have more room to raise prices.",
+      "Consider a hypothetical retailer that previously paid $100 for a product and sold it for $150. Its gross profit before other costs was $50. If its purchase cost rises to $120 and its selling price stays at $150, gross profit falls to $30. The $20 cost increase has been absorbed in that margin calculation, without any change in the customer's price.",
+      "If the retailer instead raises the selling price to $165, the customer pays $15 more and the retailer retains gross profit of $45. That splits the immediate burden in this simplified transaction. Rent, wages, financing, returns and changes in sales volume would still determine what happens to operating profit.",
+      "Evidence needs a stated period and a clear measure",
+      "New York Fed researchers studying the 2025 U.S. tariffs, using import data through November of that year, estimated that nearly 90% of the burden fell on U.S. firms and consumers. That is a dated empirical result from a particular study. It should not be recast as a permanent share that applies to every product, country or later tariff change.",
+      "Border-price evidence and consumer-price evidence also answer different questions. A rise in the importer's tariff-inclusive purchase cost does not establish the exact retail price increase. Reading the <a href=\"cpi-inflation-explained.html\">consumer price index</a> adds another layer, because it tracks a household basket rather than the cost of one shipment.",
+      "Timing can conceal the adjustment",
+      "A business may sell inventory imported before the new tariff took effect. A contract may fix prices for several months. The immediate result could therefore appear in margins, inventory choices or future orders before it appears in consumer prices. The absence of an instant shelf-price increase does not establish that the duty had no economic effect.",
+      "Exchange rates can offset or reinforce the pressure, but the comparison still needs a consistent currency and product. A cheaper foreign currency does not automatically translate into an equal reduction in the invoiced dollar price. Contracts, supplier bargaining power and other input costs can interrupt that transmission.",
+      "Changing suppliers has costs of its own",
+      "An alternative source may require testing, tooling, transport changes or a longer delivery schedule. A lower tariff rate at another origin is only one part of the landed-cost comparison. Supplier quotes should be compared on equivalent delivery, quality and payment terms, so a lower headline duty is not mistaken for a lower total purchase cost.",
+      "For readers assessing a company's results, the useful questions are specific: which products face higher costs, when existing inventory turns over, how much pricing has changed and whether volumes or margins moved. Those observations help identify who is bearing the burden. The customs payment identifies the payer; the subsequent evidence establishes how far the cost has traveled."
     ],
     "sources": [
       {
-        "label": "New York Fed: Who pays tariffs and how incidence is measured",
+        "label": "U.S. Customs and Border Protection: Importer responsibilities",
+        "url": "https://www.cbp.gov/trade/basic-import-export/importer-exporter-tips"
+      },
+      {
+        "label": "New York Fed, February 12, 2026: Incidence of the 2025 U.S. tariffs",
         "url": "https://libertystreeteconomics.newyorkfed.org/2026/02/who-is-paying-for-the-2025-u-s-tariffs/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/tariffs-who-actually-pays-explained-480.webp",
     "imageMedium": "assets/responsive/tariffs-who-actually-pays-explained-960.webp",
@@ -4982,20 +5133,37 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "Two bonds maturing on the same date can respond differently to an increase in yields. Their coupon payments and other terms affect duration, which measures aspects of the timing and sensitivity of their cash flows.",
-      "Macaulay duration is a present-value-weighted measure of payment timing. Modified duration translates that measure into an approximate sensitivity to a change in yield under the relevant pricing assumptions. Neither is simply another name for years until maturity.",
-      "For a hypothetical bond with modified duration of five, a one-percentage-point rise in yield implies an approximate 5% price decline using a first-order calculation. A one-basis-point move is much smaller: one percentage point contains 100 basis points.",
-      "The approximation becomes less accurate for larger changes. Convexity describes curvature in the price-yield relationship, and securities with embedded options can behave differently as rates change. Effective duration can be used to assess sensitivities when cash flows depend on rates.",
-      "Credit-spread changes are another source of price movement. A corporate bond can fall because required credit compensation rises even when a Treasury benchmark does not. Its interest-rate duration alone does not describe all of its risk.",
-      "A bond fund's duration summarizes a changing portfolio rather than a fixed maturity promise. The measure helps compare exposures, but the fund can maintain that exposure as individual securities mature or are replaced."
+      "A bond can have ten years left before repayment and still have a duration well below ten. The distinction matters because maturity identifies a payment date, while duration helps describe how the investment responds when the yield used to value its payments changes. Reading one as the other can produce a misleading estimate of risk.",
+      "Duration is most useful when its definition and assumptions are stated. A number in a fund fact sheet should start a comparison, rather than end it. The same duration can sit alongside very different credit quality, liquidity and exposure to changes in the shape of the yield curve.",
+      "Start with the cash flows",
+      "Macaulay duration measures the present-value-weighted timing of a bond's promised payments. A coupon bond returns some money before its final maturity, so its weighted payment timing is generally earlier than that final date. A zero-coupon bond concentrates its promised payment at maturity. These are descriptions of contractual cash flows, subject to the issuer meeting its obligations.",
+      "Modified duration converts payment timing into an approximate price sensitivity to yield. Effective duration instead uses modeled price changes and can account for cash flows that themselves change with rates, such as those of a callable security. Comparing these measures without checking the definition can make two investments look more alike than they are.",
+      "A small yield change, translated into dollars",
+      "Consider a hypothetical holding worth $20,000 with modified duration of six. For a small yield change, the first-order estimate is percentage price change approximately equal to minus duration multiplied by the yield change expressed as a decimal. A rise of 0.25 percentage points is 0.0025, giving an estimated decline of 1.5%, or $300.",
+      "If the same yield fell by 0.25 percentage points, the linear estimate would be a $300 gain. These calculations describe an immediate repricing under fixed assumptions. They exclude coupon income earned during the holding period, transaction costs and changes in the investor's tax position. They are teaching examples, not a forecast for a particular bond.",
+      "The units deserve attention. A 25-basis-point increase means 0.25 percentage points. A rise from 4% to 4.25% is not a 25% increase in yield, and entering 0.25 rather than 0.0025 in the formula would exaggerate the estimate one hundred times.",
+      "Why the approximation eventually bends",
+      "Bond prices do not generally move along a straight line as yields change. Convexity captures part of that curvature. A duration-only estimate can become less reliable for a large move or a security whose cash flows depend on interest rates. The calculation should not be extended mechanically from a small rate change to an extreme scenario.",
+      "A callable bond illustrates the problem. If falling rates make refinancing attractive, the issuer may exercise its contractual option to repay early. The investor's expected stream of higher coupons can shorten. A model that assumes those payments remain unchanged may overstate the price benefit from lower rates.",
+      "A rate forecast is not a complete bond forecast",
+      "Suppose a hypothetical corporate bond's benchmark yield falls by 0.30 percentage points, but the extra yield investors demand for its credit risk rises by 0.50 points. Its total required yield would rise by 0.20 points. A duration estimate applied only to the benchmark move would point in the wrong direction for the combined yield effect.",
+      "This is why <a href=\"corporate-bonds-explained.html\">credit spreads and the issuer's finances</a> need a separate reading. Likewise, a portfolio duration usually summarizes an assumed movement in yields. Short- and long-term yields can move by different amounts, leaving a portfolio with exposures that one average number cannot fully describe.",
+      "Funds and spending dates require another distinction",
+      "For an individual bond, maturity provides a contractual repayment date, subject to default and any relevant terms. An ordinary bond fund holds a changing collection of securities. As bonds mature or are sold, the manager can replace them, so waiting several years does not necessarily make the fund's interest-rate exposure disappear.",
+      "For a hypothetical portfolio split equally between investments with durations of two and eight, the simple weighted duration is five. That is useful arithmetic, but the result does not establish that the portfolio will pay a known amount on a particular future date. Portfolio turnover, distributions and different yield movements still matter.",
+      "A practical reading therefore pairs duration with the measure's definition, the size and type of yield shock, credit exposure and the date the money is needed. Low duration can reduce one sensitivity while leaving substantial default or liquidity risk. The number describes a dimension of the investment, rather than certifying the safety of the whole position."
     ],
     "sources": [
+      {
+        "label": "FINRA: Duration and interest-rate sensitivity",
+        "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio"
+      },
       {
         "label": "SEC Investor.gov: Bond terms and risks",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bond-duration-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/bond-duration-explained-editorial-960.webp",
@@ -5013,20 +5181,37 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "If a buyer offers $100 in cash for shares trading at $95, the $5 gap is not an assured gain. It compensates for waiting and for the possibility that shareholders never receive the offered payment.",
-      "A merger-arbitrage position seeks to earn that spread under a particular transaction. A cash deal differs from a stock deal, where the value depends on the buyer's shares and the exchange terms. Hedges can address some risks while introducing costs and constraints.",
-      "Closing can depend on regulatory review, shareholder approval, financing and contractual conditions. The importance of each depends on the signed agreement. A deal's announced target date is not a guaranteed settlement date.",
-      "Failure can produce a larger loss than the spread originally offered. The target's value without a deal may be below its announcement price, and operating conditions may have changed during the process. That downside estimate is essential to the trade's economics.",
-      "A rumored bid adds uncertainty before there is an agreement to evaluate. Reported interest, an indicative proposal and a binding transaction are different stages. Prices associated with one should not be interpreted as though another has already occurred.",
-      "Assess the possible payoff, holding period and loss case together. Annualizing a small spread over an assumed short closing period can make the return look attractive while leaving the most important assumptions untested."
+      "A company agrees to buy another business for $50 a share, but the target continues trading below that price. The gap may look like a small, readily available gain. In reality, it compensates a buyer for time, transaction costs and the possibility that the deal changes or never closes.",
+      "Merger arbitrage attempts to assess and sometimes trade that difference. Its risk comes from the conditions of a specific transaction, rather than simply the target's ordinary earnings outlook. A definitive agreement provides more information than a rumor, but it does not turn the announced price into money already owed unconditionally to every shareholder.",
+      "Calculate the return on the actual purchase price",
+      "Consider a hypothetical all-cash acquisition at $50 with the target trading at $48. The gross deal spread is $2 a share. If the transaction closes on those terms, an investor buying at $48 earns about 4.17% before costs and taxes, because the $2 gain is divided by the $48 purchase price.",
+      "Calling that a 4% return would use the offer price as the denominator. The difference can matter when comparing opportunities with small spreads. A complete calculation also needs the expected settlement timing, any relevant dividends and the funding cost of maintaining the position.",
+      "If closing takes three months, mechanically repeating the 4.17% gross gain four times would compound to about 17.74% over a year. That is an annualization illustration, not a return forecast. It assumes four comparable opportunities, immediate reinvestment and successful completion each time, while actual capital can remain tied up much longer.",
+      "The downside is usually a different size",
+      "Suppose the hypothetical target would trade at $35 if the acquisition failed. A buyer at $48 faces a potential $2 gain on completion and a $13 loss in that failure scenario. One failed transaction could therefore outweigh the gross gains on several similar successful deals.",
+      "Under a deliberately simple two-outcome model, ignore time and costs and assume those are the only possible final values. A $48 price satisfies $48 = p × $50 + (1 − p) × $35 when p is about 86.7%. This is an implied probability under the stated assumptions. It is not an observed or independently established chance of completion.",
+      "Change the assumed failure value to $40 and the same arithmetic produces an 80% implied probability. The market price has not changed, but the analyst's interpretation has. A calculation that reports a precise completion probability without specifying the failure value is concealing an important assumption.",
+      "Read the agreement's conditions",
+      "The deal documents identify consideration, closing conditions, termination provisions and the parties' obligations. Depending on the transaction, the process can involve shareholder approval, financing, regulatory review and other requirements. The SEC explains that merger information may appear in proxy statements, information statements or a joint proxy statement and prospectus.",
+      "An announced termination fee should also be read in context. A payment between the companies does not necessarily become an equivalent payment to target shareholders. Its availability and amount depend on contractual triggers. A reader should not treat the fee as a guaranteed floor under the stock price.",
+      "Stock consideration changes the exposure",
+      "In a hypothetical fixed-ratio exchange offering half an acquirer's share for each target share, an acquirer price of $100 implies $50 of consideration. If the acquirer's stock falls to $80, the same ratio implies $40. The headline offer value can move even though the agreed ratio is unchanged.",
+      "An arbitrage strategy may seek to hedge that exposure, but borrowing shares, financing the position and maintaining the hedge create additional costs and risks. Collars, mixed cash-and-stock consideration and adjustments can change the calculation further. An all-cash spread should not be used as a template for every acquisition.",
+      "New information can widen the spread abruptly",
+      "A regulatory objection, financing problem, revised forecast or change in the expected closing date can alter the balance of outcomes. A wider spread may offer a larger potential payoff precisely because the risk has increased. A narrower spread can also leave little compensation for a delay or adverse development.",
+      "The useful assessment starts with verified documents and explicit scenarios: consideration on completion, plausible value on failure, timing and carrying costs. TTN's <a href=\"mergers-acquisitions-explained.html\">merger explainer</a> addresses the separate question of whether the combined business creates value. Merger arbitrage asks a narrower question about getting from the current price to a conditional settlement, and that journey can still produce a substantial loss."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC Investor.gov: Merger consideration and shareholder disclosures",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mergers"
+      },
+      {
+        "label": "Federal Trade Commission: Merger review and competition risks",
+        "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/mergers"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:24:18-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp",

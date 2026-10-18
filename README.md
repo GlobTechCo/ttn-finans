@@ -76,6 +76,12 @@ A substantial content revision should receive a truthful `dateModified`.
 Historical editorial queues and review reports can be recovered from Git history;
 they are not needed to run the site.
 
+For a read-only date provenance check, run
+`python3 scripts/audit_publication_dates.py` (or add `--details`). This compares
+the current catalog with the first HTML version and the Git addition date.
+An earlier publication label can reflect an import; a discrepancy is a review
+flag, not proof of backdating or authorization to invent a new publication date.
+
 ## Data and failure behavior
 
 The visible quote tape is a TradingView widget using Bitstamp BTC/USD and ETH/USD,
