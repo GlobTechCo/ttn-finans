@@ -2277,20 +2277,43 @@ const TTN_ARTICLES = [
       "ETH"
     ],
     "body": [
-      "Bitcoin's halving is a supply event with a known rule: the subsidy paid for a valid block falls after each 210,000-block interval. The calendar date is approximate because blocks do not arrive at perfectly fixed intervals.",
-      "The subsidy began at 50 bitcoin per block and halves in successive steps. Transaction fees are separate from that subsidy. The schedule reduces new issuance; it does not remove coins already held by users or change the number offered for sale on exchanges.",
-      "A smaller flow of newly issued coins can matter to the balance between buying and selling. It cannot establish a price target. Demand, liquidity, leverage, access to markets and holders' willingness to sell can change by more than the reduction in issuance.",
-      "Historical comparisons also contain a small number of halving events, each occurring in a different market. An observed price increase afterward cannot isolate the halving from changes in adoption, financing conditions or speculation. A pattern is a research question, not a guaranteed cycle.",
-      "Miners face a direct adjustment: less subsidy for the same successful block, before changes in fees and the bitcoin price. Their ability to absorb it depends on power costs, equipment efficiency and their share of network computing power. Difficulty adjustments influence competition but do not guarantee profitability.",
-      "The issuance schedule can be checked in the protocol. Claims about the next rally require a separate argument about demand and valuation. Combining those two questions is what turns a predictable technical event into an unreliable investment forecast."
+      "A Bitcoin halving reduces the subsidy available for a new block under the network's issuance schedule. It changes the flow of newly created coins. It does not halve existing balances, require the market price to double or eliminate the selling decisions of people who already own bitcoin.",
+      "The mechanism is transparent, which makes it different from an unexpected change in monetary policy. Market participants can prepare for the scheduled reduction. Its eventual price effect depends on demand, positioning, available supply and financing conditions as well as the smaller amount of new issuance.",
+      "The schedule follows blocks rather than calendar dates",
+      "On Bitcoin's main network, the subsidy halves every 210,000 blocks. Blocks arrive around a ten-minute target on average, but actual intervals vary. The familiar description of roughly four years is an approximation. A future calendar date is an estimate until the relevant block is mined.",
+      "The April 2024 halving reduced the subsidy from 6.25 BTC to 3.125 BTC per block. The subsidy is only one component of miner compensation. Transaction fees are another, and the protocol does not mechanically halve those fees at the same moment.",
+      "For an illustrative day with exactly 144 blocks, a 6.25 BTC subsidy produces 900 BTC, while 3.125 BTC produces 450 BTC. That is 450 fewer newly issued coins under the stated assumption. Actual daily block counts vary. The example describes issuance, not the number of coins miners necessarily sell into exchanges that day.",
+      "New issuance differs from total tradable supply",
+      "Existing holders can sell coins acquired years earlier. Funds can change their holdings, traders can adjust leverage and long-term owners can move inventory into the market. A smaller new flow can therefore coexist with a large increase in the supply offered for sale.",
+      "Suppose, hypothetically, miners sell all 450 newly issued coins in a day while other holders offer another 4,000. New issuance is only part of the 4,450 coins offered in this simplified example. If those other holders had previously offered 2,000, their change would more than offset the 450-coin issuance reduction.",
+      "These quantities are deliberately hypothetical and do not estimate current market flows. They show why dividing daily issuance by exchange volume does not isolate price impact. Trading volume includes repeated transactions, while an ownership transfer or net flow measures something different.",
+      "Miner revenue does not fall by the subsidy percentage automatically",
+      "Consider a hypothetical bitcoin price of $60,000 and average fees of 0.25 BTC per block. Before a reduction from 6.25 to 3.125 BTC, total compensation would be 6.5 BTC, or $390,000. Afterward it would be 3.375 BTC, or $202,500, assuming the same fees and price.",
+      "That is a decline of about 48.1%, rather than exactly 50%, because fees were unchanged in the example. If price or fees change, dollar revenue changes again. An assessment of <a href=\"bitcoin-mining-economics-explained.html\">mining economics</a> also requires electricity costs, equipment efficiency and the miner's share of network computing power.",
+      "Difficulty adjustments help keep block production near its target over time as computing power changes. They do not promise that every miner remains profitable. Less efficient operators can face pressure even when network activity continues, while new equipment or cheaper power can change the competitive position of others.",
+      "A known supply change is not a valuation model",
+      "A hypothetical price increase from $60,000 to $90,000 would raise the dollar value of 450 coins of daily subsidy from $27 million to $40.5 million. Issuance in BTC would be unchanged, yet the potential dollar flow would increase. This illustrates why coin amounts and dollar amounts should be kept separate.",
+      "Historical price performance around previous halvings cannot by itself establish causation. Each episode occurred with different interest rates, market access, investor participation and leverage. A small set of observations offers limited power to distinguish the scheduled event from conditions occurring alongside it.",
+      "The availability of <a href=\"bitcoin-etf-institutional-adoption.html\">spot Bitcoin investment products</a> can alter how investors obtain exposure, but it does not turn the issuance schedule into a guaranteed return. Demand can rise before the event, fall afterward or change for reasons unrelated to mining.",
+      "Read the event through separate channels",
+      "Track the block height, subsidy, fees and miner economics separately from prices and investor flows. A forecast should specify which channel is expected to change and why that change was not already reflected in market expectations. A phrase such as supply shock is incomplete without that reasoning.",
+      "The halving's mechanical effect is unusually clear: fewer new coins are available per block. The effect on investment returns remains uncertain because a market price is set by competing buyers and sellers, not by the issuance formula alone."
     ],
     "sources": [
       {
-        "label": "Bitcoin Developer Guide: Block chain and proof of work",
+        "label": "Bitcoin Developer Guide: Block subsidy, fees and consensus mechanisms",
         "url": "https://developer.bitcoin.org/devguide/block_chain.html"
+      },
+      {
+        "label": "Bitcoin Core: Block reward combines fees and subsidy",
+        "url": "https://github.com/bitcoin/bitcoin/blob/master/src/node/miner.cpp"
+      },
+      {
+        "label": "Bitcoin Core: Consensus subsidy implementation",
+        "url": "https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-halving-cycles-480.webp",
     "imageMedium": "assets/responsive/bitcoin-halving-cycles-960.webp",
@@ -2439,20 +2462,46 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "A token designed to trade at one dollar can still trade below it. The promise concerns a target value; its credibility depends on the assets and processes supporting redemption, and on whether holders can use them when markets are under pressure.",
-      "A reserve-backed issuer typically holds assets against outstanding tokens. Cash and short-term government securities can support redemption, but asset quality, custody, legal claims and access to banks still matter. An attestation is evidence about a stated scope and date, not a guarantee against every future loss.",
-      "Not every holder can redeem directly with an issuer on the same terms. Eligibility requirements, minimum sizes and banking access can leave smaller holders relying on an exchange or trading pool. Its market price can diverge from the issuer's redemption value when liquidity deteriorates.",
-      "Other designs use crypto collateral, reserve assets, algorithmic mechanisms or combinations of them. Overcollateralization can provide a buffer, but volatile collateral and delayed liquidation can exhaust it. A design supported mainly by confidence in a related token faces a different feedback problem if both lose value together.",
-      "A depeg may reflect doubts about backing, restricted redemption or a temporary imbalance in trading demand. Those causes require different evidence. A later recovery does not establish that the initial risk was imaginary or that another issuer would recover in the same circumstances.",
-      "Before treating a stablecoin balance as a cash substitute, examine the reserve disclosures, who may redeem, and the legal terms governing a failed redemption. The one-dollar label alone cannot answer those questions."
+      "A stablecoin aims to maintain a reference value, often one US dollar. The target does not make the token equivalent to a dollar in a bank account. Its ability to trade near that value depends on its backing, redemption arrangements, market liquidity and the systems through which holders can move between tokens and money.",
+      "The distinction becomes visible during a depeg, when the market price moves away from the target. A small deviation can reflect transaction costs or temporary trading conditions. A persistent discount can indicate deeper doubts about reserves or access to redemption. Price alone does not identify the cause.",
+      "Different backing models create different exposures",
+      "A reserve-backed token may rely on cash and financial assets held by an issuer. Other designs use crypto collateral, often with additional collateral above the amount issued. Algorithmic arrangements may depend heavily on incentives involving another token. These mechanisms should not be grouped together as though the word stablecoin described one balance sheet.",
+      "Circle's disclosures provide an issuer-specific example of reserve reporting for USDC. They do not establish the backing of unrelated tokens. The Federal Reserve's analysis of stablecoin fragility emphasizes that demand for prompt redemption can create stress even when an instrument is designed to maintain a fixed value.",
+      "For a hypothetical issuer with 1 billion tokens and $1 billion of reserves at stated value, the initial backing ratio is 100%. If reserve assets lose 2% and no capital absorbs the loss, assets become $980 million. That is $0.98 per token before liquidation expenses or other claims. Equal nominal starting values do not eliminate asset-price risk.",
+      "Liquidity differs from solvency",
+      "An issuer can hold assets whose ultimate proceeds cover the tokens yet lack cash immediately available to meet withdrawals. Banking hours, settlement cycles, operational outages or the need to sell securities can affect access. A reserve's quality and its availability are related but separate questions.",
+      "Suppose the hypothetical issuer has $100 million of immediately accessible cash and $900 million of securities. Holders request $250 million of redemptions. Meeting the requests requires another $150 million from sales, maturities or financing. This is a liquidity problem even before considering whether the securities have lost value.",
+      "If selling the required assets incurs a discount, a liquidity problem can turn into an economic loss. It is therefore useful to distinguish a statement about reserves at a reporting date from evidence about how quickly those reserves can be converted under stress. An attestation also has a defined scope and should not automatically be called a full financial-statement audit.",
+      "Redemption supports arbitrage only when accessible",
+      "If a token trades at $0.97 and an eligible participant can reliably redeem at $1, buying and redeeming may offer a gross spread. For a hypothetical purchase of 100,000 tokens, the $97,000 purchase cost compares with $100,000 of redemption proceeds. The $3,000 difference precedes every fee, delay and risk.",
+      "If total costs are $500, the apparent net spread becomes $2,500. But if redemption is suspended or eligibility is absent, the calculation cannot be executed as assumed. The discount can then persist. Retail holders may depend on an exchange market rather than having the same direct redemption access as an approved institutional customer.",
+      "A token can also trade above target when demand exceeds immediately available supply or conversion is constrained. A premium is not a new guaranteed reference price. The route back to parity depends on issuance and arbitrage functioning in both directions.",
+      "Extra layers add extra claims",
+      "A stablecoin held through a trading platform adds the platform's custody and withdrawal arrangements. A wrapped token or cross-chain representation can add bridge and contract dependencies. Placing a token in a <a href=\"defi-basics-explained.html\">DeFi lending arrangement</a> adds another exposure beyond the underlying peg.",
+      "For a hypothetical 10,000-token holding marked at $1, a market discount to $0.90 reduces quoted value to $9,000. A separate lending loss could reduce it further. An advertised yield of 5% does not compensate automatically for either event, and the existence of reserves does not guarantee a particular intermediary's promise.",
+      "Evaluate the actual claim",
+      "Check the issuer, asset composition, reserve-report date, redemption eligibility, costs and relevant legal terms. Token ownership should not be assumed to carry bank-deposit insurance. Protections depend on the actual structure and applicable rules, rather than a logo or a stable market price yesterday.",
+      "Compare the product with <a href=\"money-market-funds-vs-savings-explained.html\">bank deposits and money market funds</a> only after identifying those differences. A peg is an intended price relationship. The institutions, assets and contractual access supporting it determine how resilient that relationship may be when holders seek cash at the same time."
     ],
     "sources": [
       {
-        "label": "Circle: Reserve disclosures and redemption background",
+        "label": "Circle: USDC reserve composition and transparency disclosures",
         "url": "https://www.circle.com/transparency"
+      },
+      {
+        "label": "Federal Reserve: Stablecoin reserves, redemption and run risk",
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20251016a.htm"
+      },
+      {
+        "label": "Federal Reserve Bank of New York: Runs and flights to safety in stablecoins",
+        "url": "https://www.newyorkfed.org/research/staff_reports/sr1073"
+      },
+      {
+        "label": "Federal Reserve: Runs on algorithmic stablecoins",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/runs-on-algorithmic-stablecoins-evidence-from-iron-titan-and-steel-20220602.html"
       }
     ],
-    "dateModified": "2026-10-18T14:26:10-04:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/stablecoins-explained-depeg-risk-480.webp",
     "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
@@ -2625,20 +2674,40 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "VIX can rise when investors pay more for protection, but it does not measure fear directly. It is a calculation based on prices in the S&P 500 options market, designed to express expected volatility over a near-term horizon.",
-      "Cboe's methodology uses a range of option strikes and maturities to estimate a roughly 30-day measure, quoted on an annualized basis. A reading of 20 is not a prediction that shares will fall 20% over the next month.",
-      "Option prices include the cost of transferring risk as well as expectations about future price movement. The resulting implied volatility can differ from the volatility later realized. The difference is part of the economics of holding or selling option protection.",
-      "A high reading indicates expensive uncertainty, not whether the index will rise or fall next. It can remain high while prices continue falling, or decline without stocks recovering immediately. Historical relationships require a specified sample and horizon before they can be used responsibly.",
-      "VIX futures and related products add another distinction. Their prices need not equal the spot index, and maintaining exposure through rolling contracts can create gains or losses separate from a change in the headline VIX. The index itself is not a share an investor can buy.",
-      "Use the reading alongside option maturities, realized volatility and market conditions. Describing a move as increased expected volatility is more precise than treating it as a signal that a rebound is due."
+      "VIX is often called Wall Street's fear gauge, but its construction is more specific than the nickname suggests. It translates S&P 500 option prices into an annualized measure of expected volatility over approximately 30 days. It does not count nervous investors, measure yesterday's losses or predict whether stocks will rise tomorrow.",
+      "That distinction matters when a sharp increase becomes a market headline. More expensive uncertainty can accompany a selloff, but the index alone cannot establish that shares are cheap or that selling has finished. Understanding <a href=\"options-calls-puts-explained.html\">how option premiums work</a> helps explain what the number actually contains.",
+      "The horizon and the units matter",
+      "Cboe's calculation draws on a range of SPX put and call options, using expirations around the target horizon to produce a constant 30-day measure. The annualized quotation allows comparison across time. It does not mean that the options themselves run for a year or that the next month's market move should equal the displayed reading.",
+      "For a hypothetical VIX of 20, a common rough conversion divides 20% by the square root of 12. The result is about 5.8% for one month. With a hypothetical index level of 5,000, that corresponds to roughly 289 index points. These figures illustrate scale; they are not current quotations or a guaranteed trading range.",
+      "Interpreting that scale as a probability interval requires additional assumptions about the distribution of returns. Markets can jump, volatility changes and unusually large moves occur. The square-root conversion is an approximation, not an official promise that the market will remain inside two boundaries.",
+      "Expected volatility differs from realized volatility",
+      "Implied volatility comes from option prices today. Realized volatility is calculated afterward from observed price changes over a chosen period. They answer different questions. A headline comparing them should specify the measurement window and method rather than suggest that a difference means either series is incorrectly calculated.",
+      "Imagine options imply annualized volatility of 24%, but the following month's price movements produce a realized measure of 15%. Protection may have proved expensive relative to what happened. That does not establish that paying for it was irrational when the outcome was unknown. Insurance can have value even when the feared event does not occur.",
+      "Conversely, realized volatility could exceed the implied reading if an unexpected shock arrives. Option prices reflect risk transfer as well as beliefs about future movements. The relationship between expected and realized volatility is an economic consideration, not a dependable rule that every option buyer loses.",
+      "A high reading does not identify a bottom",
+      "Consider a hypothetical market that falls 6% while VIX rises from 18 to 30. A further 4% decline could occur while VIX remains at 30, rises again or starts falling. The index describes uncertainty priced into options; it does not set a floor under the cash market.",
+      "The reverse is also possible: a calmer market can support a lower reading without restoring previous share prices. A company whose expected earnings have been permanently reduced may trade quietly at a lower valuation. Less uncertainty about that weaker outlook is different from an improvement in the outlook itself.",
+      "Broad index volatility also differs from the risk in a particular portfolio. A concentrated holding can experience a large company-specific move even when VIX is subdued. The composition issues discussed in <a href=\"sp500-concentration-risk-explained.html\">index concentration</a> belong alongside any attempt to use an index measure as a portfolio risk assessment.",
+      "The index and an investment product are different",
+      "An investor cannot purchase the spot VIX calculation as though it were a share. Futures, options and exchange-traded products provide different exposures. Contract maturity, settlement and the process of replacing expiring positions can make their returns differ materially from a change in the headline index.",
+      "As a hypothetical illustration, spot VIX might move from 20 to 25 while a futures contract moves from 24 to 26. The percentage changes are 25% and about 8.3%, respectively. Neither calculation is contradictory: the instruments started at different prices and describe different exposures. Fees and any leverage add further distinctions for a packaged product.",
+      "A useful reading therefore states the level, change, time horizon and instrument. It can indicate that the market is charging more for uncertainty. Converting that observation into a directional forecast requires separate evidence about earnings, valuation, financing and the event behind the repricing."
     ],
     "sources": [
       {
-        "label": "Cboe: VIX methodology and volatility products",
-        "url": "https://www.cboe.com/tradable-products/vix"
+        "label": "Cboe: VIX overview and volatility products",
+        "url": "https://www.cboe.com/tradable-products/vix/"
+      },
+      {
+        "label": "Cboe: VIX index methodology",
+        "url": "https://cdn.cboe.com/api/global/us_indices/governance/Volatility_Index_Methodology_Cboe_Volatility_Index.pdf"
+      },
+      {
+        "label": "SEC Investor.gov: Introduction to options",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/vix-fear-index-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/vix-fear-index-explained-editorial-960.webp",
@@ -2656,20 +2725,40 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A short seller who needs to close a position must buy shares. When prices rise sharply, that buying can add to the original upward pressure and force other short sellers to respond.",
-      "The initial trade involves borrowing shares, selling them and later returning equivalent shares to the lender. The seller pays borrowing costs and faces the possibility that the loan will be recalled. Unlike a conventional long position, a short position has no fixed upper limit on its potential price loss.",
-      "Margin requirements can turn a voluntary exit into a forced one. A broker may demand additional collateral or close a position when its requirements are not met. Limited shares available to buy or borrow can make an already crowded trade harder to unwind.",
-      "Short interest relative to float and the number of shares available to borrow are useful indicators of crowding. Short interest can exceed a measured float through successive lending and short sales; that figure alone does not prove that shares were illegally created.",
-      "High short interest does not guarantee a squeeze. A deteriorating business can remain under selling pressure, and a rising stock may reflect new information or broader demand rather than short covering. Establishing the contribution of forced buying requires evidence about trading and positions.",
-      "A squeeze describes how a move can be amplified. It does not settle what the company is worth after the buying subsides, which is why a dramatic price chart cannot substitute for business analysis."
+      "A short squeeze develops when a rising share price puts pressure on short sellers to buy shares back, adding demand to an already rising market. The feedback can produce a move much larger than the initial news would suggest. It can also end abruptly when covering demand fades.",
+      "Short selling begins with selling borrowed shares in the expectation of repurchasing them more cheaply. The seller must eventually return the shares and meets borrowing and margin obligations in the meantime. A negative view of a company does not eliminate the funding constraints on expressing that view.",
+      "Losses rise with the share price",
+      "Consider a hypothetical investor who shorts 1,000 shares at $20, receiving $20,000 in sale proceeds. If the stock falls to $12, buying the shares back costs $12,000, leaving an $8,000 gross trading gain. Borrowing costs, distributions owed and other expenses reduce the final result.",
+      "If the stock instead rises to $35, repurchasing costs $35,000 and the gross loss becomes $15,000. The loss is 75% of the original sale value. At $60, the loss is $40,000, twice that original value. These are illustrations of position economics, not examples of the cash or margin required by a particular broker.",
+      "The sale proceeds are not unrestricted spending money. Rising losses can lead a broker to demand additional collateral or close positions under its terms. A stock lender can also seek the shares back, potentially requiring replacement borrowing or covering. The investor may therefore lose the ability to wait for a thesis to play out.",
+      "The squeeze is a feedback mechanism",
+      "A positive earnings surprise, takeover proposal or sudden buying wave can start the repricing. Some short sellers cover voluntarily to limit exposure. Others face financing pressure. Their purchases compete with demand from investors opening long positions, particularly when few shares are readily available for sale.",
+      "Suppose a hypothetical stock has a 10 million-share public float and 3 million shares sold short. If a surprise announcement attracts buyers while existing holders decline to sell, even a fraction of those short positions seeking to close can affect the available order book. The effect depends on actual liquidity, not simply the number 3 million.",
+      "A later reversal does not require the original negative thesis to be proved correct. The buying pressure can disappear after positions have closed. Investors entering late can lose money even if a squeeze was real. A forced purchase is a transaction, not a permanent commitment to hold the stock at its new valuation.",
+      "Short interest differs from daily short-sale volume",
+      "Short interest measures outstanding short positions at a reporting snapshot. Daily short-sale volume measures qualifying transactions during a day. FINRA warns that the two should not be treated as interchangeable. A short sale can be offset before the snapshot, and activity in one reporting venue need not represent the entire market.",
+      "For a hypothetical 3 million shares of short interest and 500,000 shares of average daily trading volume, days to cover equals six. If volume rises to 2 million, the same short interest produces 1.5 days. This ratio is a scale comparison, not a timetable: trading includes many participants, and shares can change hands repeatedly.",
+      "Dates and denominators matter. Short interest as a percentage of float differs from short interest divided by total shares outstanding. Float estimates can vary, and a published snapshot can be stale during a fast-moving event. A large percentage does not establish when covering will occur or that it must occur at a higher price.",
+      "Options can add another source of trading",
+      "Dealers managing <a href=\"options-calls-puts-explained.html\">option exposure</a> may buy or sell shares as prices and positions change. Such hedging can sometimes amplify a move. It is separate from short sellers closing stock positions, and its direction depends on the dealers' net exposure rather than the simple existence of heavy call trading.",
+      "A headline labeling every rapid rally a short squeeze therefore goes beyond the visible price move. Reliable analysis distinguishes confirmed short positions, ordinary buying, option hedging and changes in the supply of tradable shares. Volume alone cannot identify who bought or why.",
+      "The business still needs a separate valuation. Compare the repricing with <a href=\"earnings-beat-miss-explained.html\">earnings and guidance</a>, funding needs and ownership changes. A squeeze explains how market structure can accelerate trading pressure; it does not establish that the resulting share price is sustainable."
     ],
     "sources": [
       {
-        "label": "SEC Investor.gov: Short sales",
-        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/short-sales"
+        "label": "SEC Investor.gov: Long and short stock transactions",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/stock-purchases-and-sales-long-and"
+      },
+      {
+        "label": "FINRA: Short interest and short-sale volume distinctions",
+        "url": "https://www.finra.org/investors/insights/short-interest"
+      },
+      {
+        "label": "FINRA: Short-interest data definitions and days-to-cover calculation",
+        "url": "https://www.finra.org/sites/default/files/Equity_Short_Interest_Data_File_Download_API.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/short-squeeze-mechanics-explained-480.webp",
     "imageMedium": "assets/responsive/short-squeeze-mechanics-explained-960.webp",
@@ -2862,20 +2951,38 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "An option buyer pays for a right that expires. A call provides the right to buy the underlying asset at the strike price; a put provides the right to sell it, subject to the contract's terms.",
-      "The seller takes the other side of that right and may have an obligation when the contract is exercised. The strike, expiration, contract size and exercise style determine what the holder can do. They should be read before comparing a quoted premium with the share price.",
-      "At expiration, a standard call's intrinsic value depends on how far the underlying price is above its strike. For a put, it depends on how far the price is below the strike. A profitable movement in the underlying is not enough for the buyer if it fails to cover the premium and costs.",
-      "Before expiration, remaining time and implied volatility influence the option's price. An earnings announcement can reduce uncertainty afterward, lowering that volatility component even if the stock moves in the direction the buyer expected.",
-      "A standalone option buyer can lose the premium paid. Sellers' risks vary with the position; an uncovered call can generate very large losses as the underlying price rises. Multi-leg strategies and early assignment add complications that a simple payoff illustration omits.",
-      "Option prices show the cost of taking or transferring particular risks. They do not provide a direct promise that a stock will move by a stated amount or in a stated direction."
+      "An option separates the right to make a transaction from the obligation to make it. A call gives its buyer the right to buy an underlying security at a specified strike price; a put gives the right to sell. The premium buys that contractual right for a limited period, rather than ownership of the underlying shares.",
+      "The distinction explains why correctly forecasting a stock's direction may still produce an option loss. The size of the move, the time available and the premium paid all matter. A contract can gain intrinsic value yet fail to recover its original cost.",
+      "Start with the contract rather than the headline price",
+      "A standard listed US equity option generally represents 100 shares, although corporate actions can create adjusted contracts with different deliverables. A premium quoted at $3 therefore usually costs $300 for one contract. Strike, expiration, multiplier and settlement terms belong in any calculation before a position is compared with buying shares.",
+      "American-style options can be exercised before expiration; European-style exercise occurs only at expiration. These labels describe contract terms rather than the investor's location. A holder can also sell an option to close a position instead of exercising, subject to a market being available at an acceptable price.",
+      "The seller receives the premium but accepts an obligation if assigned. That obligation is different from the buyer's right. The fact that a purchased option has limited initial downside does not make every strategy involving options limited-risk.",
+      "A call example separates value from profit",
+      "Suppose a hypothetical stock trades at $50 and an investor buys one call with a $55 strike for a $3 premium. At expiration, a $60 share price gives the call $5 per share of intrinsic value. For a standard 100-share contract, that is $500 against the $300 premium, leaving a $200 profit before costs.",
+      "If the stock instead finishes at $56, the call has $100 of intrinsic value but the position loses $200 after the premium. The share price rose, and the option finished in the money, yet the buyer lost. The expiration breakeven is $58: the strike plus the premium.",
+      "At $55 or below, the call has no intrinsic value at expiration and the $300 premium can be lost entirely. These are expiration calculations. Before expiration, an option's market price may include time value, so the same share price need not produce the same sale proceeds.",
+      "A put works in the other direction",
+      "Now suppose a hypothetical investor pays $2 per share for a $45-strike put. If the stock ends at $40, the put has $5 per share of intrinsic value. Subtracting the premium gives $3 per share, or $300 on a standard contract, before costs. The expiration breakeven is $43.",
+      "A shareholder can use a put to limit downside over its term, but the protection has a cost and an end date. Pairing 100 shares bought at $50 with that put costs $5,200 before fees. Exercise at $45 would return $4,500, producing a $700 combined loss. Calling the stock protected does not mean its purchase price is guaranteed.",
+      "These examples deliberately exclude dividends, financing, taxes and transaction costs. Those items can matter in practice. A payoff diagram is a description under stated assumptions, not a complete estimate of the economics for every account.",
+      "Time and volatility affect the premium",
+      "An option's price reflects more than the distance between the share price and strike. Remaining time and implied volatility affect the value of possible future outcomes. Other things equal, the passage of time generally reduces an option's time value, although the actual price can rise when other inputs change.",
+      "Before a major announcement, investors may pay a substantial premium for uncertainty. After the announcement, implied volatility can fall. A modest favorable share-price move may then be outweighed by the reduction in time value. This is one reason an <a href=\"earnings-beat-miss-explained.html\">earnings beat</a> need not make a call profitable.",
+      "Selling options creates a different set of risks",
+      "An uncovered call seller can face theoretically unlimited losses because the stock has no fixed upper price. A put seller can face a large loss if the underlying approaches zero. A covered call has stock downside and limits upside; the premium does not remove the equity exposure.",
+      "Contract liquidity and the bid-ask spread also affect execution. Comparing a last-traded price with an immediately executable bid can overstate a position's value. Read options alongside <a href=\"vix-fear-index-explained.html\">implied volatility</a>, but evaluate the actual contract, its obligations and the whole position before interpreting a quoted premium as inexpensive."
     ],
     "sources": [
       {
-        "label": "Options Industry Council: Contract rights and obligations",
+        "label": "SEC Investor.gov: Contract terms, premiums and examples",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63"
+      },
+      {
+        "label": "Options Industry Council: Options basics",
         "url": "https://www.optionseducation.org/optionsoverview/options-basics"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/options-calls-puts-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/options-calls-puts-explained-editorial-960.webp",
@@ -2994,20 +3101,42 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "An IPO gives a private company a route to sell shares publicly and establish a market for them. It also creates a series of prices that should not be confused: the proposed range, the final offer price and the price at which shares trade afterward.",
-      "Registration documents describe the business, financial statements, risks, ownership and intended use of proceeds. Review by a securities regulator is distinct from a judgment that the investment is attractive. The documents still require a reader to evaluate the issuer's assumptions.",
-      "Underwriters help assess demand and allocate shares in a conventional underwritten offering. An investor buying after trading begins may pay a different price from an investor receiving an allocation at the offer. Not every brokerage customer can obtain that initial allocation.",
-      "The first trading sessions reflect a limited supply of available shares, demand and uncertainty about valuation. A large opening increase can reward allocated investors while giving later buyers a much higher starting price. Neither result establishes what subsequent earnings will justify.",
-      "Lock-up agreements can restrict sales by certain existing holders for a specified period. Their terms vary, and the eventual release of shares may change the available supply. A lock-up expiration is not a guarantee that all eligible holders will sell.",
-      "The most durable evidence arrives in financial reporting and operating results after the listing. First-day trading describes the initial market for the shares; the prospectus and later filings describe the business an investor owns."
+      "An initial public offering brings a company's shares to public investors, but the filing, offer price and first market trade are separate events. A headline announcing an IPO does not mean trading has started. Nor does a strong first day establish that the business will deliver attractive returns over subsequent years.",
+      "For a traditional registered US IPO, the prospectus provides the central account of the business and transaction. Reading the latest version matters because terms, financial information and the number of shares offered can change while the offering is prepared.",
+      "Filing begins a disclosure process",
+      "A company commonly uses Form S-1 to register an IPO, although other forms apply in some cases. SEC staff review concerns disclosure and compliance. Effectiveness of a registration statement permits the offering to proceed; it is not an endorsement of the investment, its price or management's forecasts.",
+      "The prospectus describes the business, risks, finances, proposed use of proceeds and securities being sold. EDGAR provides access to the filings. A presentation summarizing growth may be useful, but the financial statements and notes are necessary to understand what that growth costs and how it is financed.",
+      "For example, consider a hypothetical company with revenue increasing from $100 million to $150 million while operating losses rise from $20 million to $45 million. Revenue grew 50%, but the operating margin deteriorated from minus 20% to minus 30%. Both statements belong in an assessment of the business, rather than selecting only the faster sales growth.",
+      "Pricing and allocation precede public trading",
+      "In a traditional underwritten transaction, the company and its bankers use investor indications of interest and other information to settle offering terms. Access to shares at the offer price depends on allocation. An investor placing an order after the stock opens participates in a different market at a potentially different price.",
+      "Suppose a hypothetical IPO is priced at $20 and the first exchange trade occurs at $30. An allocated investor has a 50% increase on paper at that point. A buyer entering at $30 has no such gain. If the stock later falls to $24, the first investor remains 20% above the offer price while the second is down 20%, before costs.",
+      "The phrase 'IPO rises 50%' describes a comparison with the offer price. It does not mean every buyer earned 50%, that an allocation could have been obtained or that the price was available throughout the session. Identifying the entry point prevents a market statistic from becoming a misleading return claim.",
+      "Shares sold are not always shares newly created",
+      "A transaction can include new shares issued by the company and existing shares sold by current holders. The proceeds from those two components go to different recipients. This is the same distinction that matters in <a href=\"secondary-stock-offerings-dilution-explained.html\">follow-on share sales and dilution</a>.",
+      "Imagine 10 million shares are offered at $20, with 7 million newly issued and 3 million sold by existing holders. Gross transaction value is $200 million. The company receives $140 million before its fees and expenses, while selling holders receive $60 million before their costs. Calling all $200 million fresh funding for the business would be incorrect.",
+      "The number sold also differs from the company's total shares outstanding. If 50 million shares exist after the offering, the offer price implies a $1 billion equity value. The $200 million offering size is not the whole-company valuation. <a href=\"market-cap-explained.html\">Market capitalization</a> uses the relevant total share count, with separate attention to dilution and security classes.",
+      "First-day trading can reflect a limited float",
+      "Only part of the company's equity may be readily tradable initially. Lock-up agreements and other restrictions can constrain supply. Their terms vary and should be read in the prospectus rather than assumed from a standard timetable. Expiration can increase potential supply without requiring every eligible shareholder to sell.",
+      "Voting control also deserves attention. A structure with multiple share classes can give founders much more voting power than their economic ownership suggests. Buying an economic stake is not necessarily buying equivalent influence over the board or strategic decisions.",
+      "Evaluate the funded business after the event",
+      "Consider a hypothetical company that receives $140 million gross, pays $10 million of costs and repays $50 million of debt. That leaves $80 million of incremental cash before other uses. If operations consume $40 million a year, dividing gives two years of coverage under a deliberately static assumption. Actual spending, revenue and working capital will change that estimate.",
+      "Such calculations connect the transaction with operating needs. They are more informative than treating exchange admission as proof of maturity. Subsequent financial reports, cash generation, governance and the price paid remain central after the opening-day excitement passes."
     ],
     "sources": [
       {
-        "label": "SEC: Investing in an IPO",
-        "url": "https://www.sec.gov/investor/alerts/ipo-investorbulletin.pdf"
+        "label": "SEC: Investor bulletin on investing in an IPO",
+        "url": "https://www.sec.gov/files/investor/alerts/ipo-investorbulletin.pdf"
+      },
+      {
+        "label": "SEC Investor.gov: Using EDGAR to research investments",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/using-edgar-research-investments"
+      },
+      {
+        "label": "SEC Investor.gov: Why individuals may have difficulty obtaining IPO shares",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offerings-why-individuals-have"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ipo-process-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/ipo-process-explained-editorial-960.webp",
@@ -4401,20 +4530,47 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "Households can say they feel worse about the economy while continuing to spend. A sentiment survey measures assessments and expectations; it does not record the value of transactions that have already occurred.",
-      "The University of Michigan's Surveys of Consumers examine views of personal finances, business conditions and purchasing conditions. Headline measures combine responses under the survey's method. Changes to data collection make it important to consult the current documentation rather than repeat an old sample description.",
-      "Inflation expectations are another part of the survey. They concern what respondents expect prices to do, not a forecast certified by the survey's authors. Shorter- and longer-horizon expectations can move differently and should be identified separately.",
-      "Sentiment can be influenced by prices, employment prospects, politics and recent news. Changes in the composition of responses and the experience of particular groups can also affect the aggregate. The headline does not establish which explanation dominated without the relevant breakdown.",
-      "Stock indexes and household sentiment measure different populations and outcomes. A company can benefit from strong earnings or exports while some consumers face high living costs. Divergence between the two is a reason to examine the evidence, not proof that one must be wrong.",
-      "Compare sentiment with spending, income and labor-market data. The survey adds information about how households interpret their circumstances; it should not be reported as an automatic prediction that consumption will move by a particular amount."
+      "Consumer sentiment records how people assess their finances and the economy. It can reveal pressure that has not yet appeared in spending data, but it is not a register of purchases. A pessimistic household may continue buying essentials, while an optimistic one may postpone a large purchase because credit is expensive.",
+      "The University of Michigan's Surveys of Consumers measures attitudes through questions about personal finances and economic conditions. Its headline index, current-conditions measure and expectations measure provide related views. They should not be treated as interchangeable with retail sales, output or employment.",
+      "An index level is not a percentage of unhappy people",
+      "The sentiment index combines responses using a defined methodology and reference period. A reading of 70 does not mean 70% of households feel confident. Nor does a move from 70 to 77 mean that consumer spending increased by 10%. It is a change in an index derived from survey answers.",
+      "For a hypothetical move from 70 to 77, the increase is seven index points, or 10% relative to the initial reading. Both calculations are correct. Neither supplies the proportion of respondents holding a particular view unless the underlying response distribution is examined separately.",
+      "The same distinction matters when discussing changes across income or age groups. An aggregate reading can conceal different experiences. A household with substantial financial assets may respond differently from one whose budget is dominated by rent, food and borrowing costs. The overall number is a summary rather than a uniform national mood.",
+      "Current conditions and expectations answer different questions",
+      "Someone can judge today's finances manageable while expecting job prospects to worsen. Another respondent can be under pressure now but anticipate relief. Separating current conditions from expectations helps identify whether a headline change reflects present experience or an anticipated turn in the economy.",
+      "Consider two hypothetical households earning $5,000 a month. One has fixed essential expenses of $3,000; the other has $4,500. A $200 monthly increase in essential bills reduces the first household's remaining income from $2,000 to $1,800, a 10% decline. For the second, it falls from $500 to $300, a 40% decline.",
+      "The income and added cost are identical, yet the financial impact differs sharply. This arithmetic does not reproduce the survey's index calculation. It illustrates why aggregate employment or income growth can coexist with weak sentiment among people facing tighter household budgets.",
+      "Inflation expectations differ from measured inflation",
+      "A survey asking what respondents expect prices to do records a belief about the future. The <a href=\"cpi-inflation-explained.html\">Consumer Price Index</a> measures price changes for a defined basket using a different method. Expected inflation, realized inflation and the current price level should be identified separately.",
+      "Suppose a household's reference basket rose from $100 to $110 and then to $113.30. Inflation slowed from 10% to 3%, but the basket remained 13.3% more expensive than at the start. Respondents can recognize lower inflation while remaining dissatisfied with accumulated costs. That is not necessarily a misunderstanding of the latest release.",
+      "Survey statistics also require care. A median expectation describes the middle respondent, while a mean incorporates the size of every reported value. They can move differently when some answers are extreme. Short-horizon and longer-horizon expectations concern different periods and should not be combined into one undifferentiated forecast.",
+      "Attitudes and purchases can diverge",
+      "Employment income, savings, borrowing capacity and essential needs can sustain expenditure while confidence is low. The opposite can happen when people express optimism but face constraints on large purchases. A sentiment reading is therefore more useful alongside actual consumption and credit data than as a direct substitute for them.",
+      "Imagine a hypothetical household that usually spends $4,000 monthly and becomes pessimistic. It cuts optional purchases by $200 but faces a $200 increase in necessities. Nominal spending stays at $4,000 even though the composition deteriorates and the household feels worse. Unchanged receipts do not prove unchanged purchasing power or financial comfort.",
+      "Compare sentiment with <a href=\"retailer-earnings-consumer-bellwether-explained.html\">retailer results</a>, real spending and labor-market evidence. A retailer's sales also reflect market share, geography and product mix, so agreement or disagreement with the survey requires interpretation rather than an automatic verdict about which measure is right.",
+      "Check the release and the comparison",
+      "Preliminary and final readings can differ as more responses enter the release. Methodology changes also matter for historical comparisons. The University of Michigan documented its transition to web-based collection in 2024; comparisons across collection methods deserve the context supplied by the survey producer.",
+      "A precise account names the survey, release stage, reference month and component responsible for the move. It then asks whether other evidence confirms a change in household behavior. That approach preserves sentiment's value as a measure of expectations without turning a survey of attitudes into a claim about spending that it cannot establish alone."
     ],
     "sources": [
       {
-        "label": "University of Michigan: Surveys of Consumers",
-        "url": "https://www.sca.isr.umich.edu/"
+        "label": "University of Michigan: Survey description and core topics",
+        "url": "https://data.sca.isr.umich.edu/survey-description.php"
+      },
+      {
+        "label": "University of Michigan: Index calculation and technical documentation",
+        "url": "https://data.sca.isr.umich.edu/technical-docs.php"
+      },
+      {
+        "label": "University of Michigan: Frequently asked questions",
+        "url": "https://data.sca.isr.umich.edu/faq.php"
+      },
+      {
+        "label": "University of Michigan: Transition to web-based data collection",
+        "url": "https://www.sca.isr.umich.edu/files/methodtransitionannouncement2024.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/consumer-sentiment-index-explained-480.webp",
     "imageMedium": "assets/responsive/consumer-sentiment-index-explained-960.webp",
@@ -4432,24 +4588,42 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A headline about a secondary stock offering can conceal an important distinction. The company may be issuing new shares, existing holders may be selling theirs, or the transaction may include both.",
-      "New issuance raises money for the company and increases the share count. If a holder owned one million of ten million shares before another two million were issued, the holder's percentage would fall from 10% to about 8.3%, assuming no other changes. The company receives assets in return, so that dilution alone does not establish the change in value per share.",
-      "A sale by an existing shareholder generally transfers ownership without creating new shares. The proceeds go to the seller, not to the company, unless the transaction includes a separate primary component. It can still affect price and available supply.",
-      "The use of new capital matters. Funding a productive investment, repairing a strained balance sheet and covering persistent operating losses offer different prospects. The amount raised should be compared with the cost, timing and expected returns of its stated use.",
-      "Offering discounts, underwriting costs and instruments that can later convert into shares can alter the result. A calculation based only on the announced gross proceeds can miss those details.",
-      "Read the prospectus for who is selling, which shares are new and where the proceeds go. A lower percentage ownership is measurable; whether shareholders are worse off requires a valuation of what the company received and how it will use it."
+      "A share-sale announcement can describe two economically different transactions: a company creating additional shares or an existing holder selling shares already outstanding. A deal can contain both. The phrase secondary offering is used loosely in market headlines, so the seller and the destination of the proceeds matter more than the label.",
+      "New issuance changes the ownership denominator. An existing-holder sale usually changes who owns the shares without changing that denominator. Neither fact, by itself, determines whether the transaction is favorable for investors. The issue price, use of cash and reason for selling still need examination.",
+      "Count the new shares before calculating dilution",
+      "Suppose a hypothetical company has 100 million shares outstanding and an investor owns 1 million. The investor's ownership is 1%. If the company issues 25 million additional shares and the investor buys none, ownership becomes 1 million divided by 125 million, or 0.8%.",
+      "The percentage stake fell by 0.2 percentage points, a 20% relative reduction. Meanwhile, the total share count increased 25%. Those percentages are different because they use different denominators. An article that calls the transaction 25% ownership dilution without explaining its convention can confuse the effect on an unchanged holding.",
+      "Now suppose an existing investor sells 25 million shares to other investors and no shares are created. Total shares remain 100 million. The original 1 million-share holding still represents 1%. The sale may affect price or sentiment, but it does not mechanically dilute that investor's percentage ownership.",
+      "The company receives something in exchange",
+      "Issuing equity brings in capital. A smaller percentage of a better-funded business can be worth more than a larger percentage of a financially distressed one. Conversely, issuing shares cheaply to finance weak projects can damage value. Counting shares is only the first step in that assessment.",
+      "In a hypothetical issuance of 25 million shares at $8, gross proceeds are $200 million. With assumed transaction costs of $10 million, net proceeds are $190 million. If the company had $100 million of cash, it would hold $290 million before other cash movements. The transaction should not be described as adding the full $200 million to spendable cash.",
+      "Under a deliberately simplified assumption that the pre-deal equity is worth $1 billion, adding $190 million gives $1.19 billion across 125 million shares, or $9.52 each. This arithmetic isolates the effect of raising capital below the initial $10 implied value. It is not a forecast: the announcement can change the market's assessment of the whole business.",
+      "Earnings per share creates a second comparison",
+      "Assume annual net income of $100 million on 100 million shares, giving earnings per share of $1. If 25 million shares are issued at the beginning of the next year and earnings remain unchanged, annual EPS becomes $0.80. If issuance occurs partway through the year, the weighted-average share count produces a different reported result.",
+      "To restore $1 of annual EPS on 125 million shares, net income must reach $125 million. That extra $25 million might come from an investment funded by the offering, lower interest expense after debt repayment or some other source. Whether the target is credible depends on operating evidence, financing costs and timing.",
+      "This is why a falling EPS number does not always mean the underlying business shrank, and higher total earnings do not guarantee growth per share. Read the share count alongside <a href=\"earnings-beat-miss-explained.html\">earnings performance</a> and the capital-allocation plan. Basic and diluted EPS can also differ when potentially dilutive securities exist.",
+      "Follow the proceeds and the selling holders separately",
+      "A mixed transaction might offer 30 million shares, with 20 million newly issued and 10 million sold by a fund. At $8, the gross deal is $240 million. Only $160 million is gross funding for the company; the other $80 million goes to the selling holder before costs. The prospectus separates these flows.",
+      "An <a href=\"insider-selling-explained.html\">existing holder's sale</a> can reflect diversification, a fund's life cycle or other considerations. It can also deserve scrutiny when ownership falls sharply. The fact of a sale does not reveal the seller's private forecast, and a scheduled sale should not automatically be described as a spontaneous reaction to recent news.",
+      "Registration capacity differs from completed issuance",
+      "A filing that permits future sales is not evidence that the entire registered amount has already been sold. Some programs allow shares to be issued over time. Read the actual transaction documents and subsequent reporting to distinguish capacity, an announced transaction and completed proceeds.",
+      "For any offering, record the pre-deal share count, newly issued shares, selling-holder shares, net company proceeds and intended use. That framework connects ownership dilution with the financing benefit and keeps a large headline dollar amount from obscuring what the company and its shareholders actually receive."
     ],
     "sources": [
       {
-        "label": "SEC: Investing in an IPO",
-        "url": "https://www.sec.gov/investor/alerts/ipo-investorbulletin.pdf"
+        "label": "SEC Investor.gov: EDGAR filings and offering documents",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/using-edgar-research-investments"
       },
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC: Financial statements and earnings per share",
+        "url": "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+      },
+      {
+        "label": "SEC: Securities Act forms and continuous offerings",
+        "url": "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/securities-act-forms"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T19:11:59+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp",
