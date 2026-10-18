@@ -2500,24 +2500,35 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "A bitcoin fund listed on an exchange lets an investor obtain price exposure through a brokerage account. The investor holds a security issued by the fund, rather than coins in a personal blockchain wallet.",
-      "That wrapper changes administration. The fund arranges custody, publishes documents and charges fees. Investors can buy or sell shares during the relevant market's trading hours, while bitcoin itself trades outside those hours. Custody risk is managed through the fund's arrangements, not eliminated.",
-      "Fund flows deserve careful interpretation. New share creation may lead a fund to acquire bitcoin, but exchange trading between existing shareholders is not the same as new money entering the underlying market. Share turnover and net inflows answer different questions.",
-      "Regulatory holdings reports can show that an institution held qualifying fund shares at a reporting date. They do not reveal its complete portfolio or why it took the position. Exposure may serve a hedge or a short-term strategy rather than a permanent allocation.",
-      "The easier access does not make bitcoin's price stable. Fund charges, premiums or discounts and trading frictions affect the shareholder's result. Approval of a product is also distinct from an endorsement of the asset's investment merits.",
-      "To understand adoption, compare fund documents, net flows and dated ownership disclosures. An increase in institutional access is a structural change; a claim that it guarantees higher prices is a separate proposition requiring evidence."
+      "Buying shares in a listed Bitcoin product changes how an investor obtains exposure. It does not remove the underlying asset's price risk or necessarily give the shareholder a right to withdraw coins into a personal wallet. The product adds a securities-market structure between the investor and Bitcoin, with its own costs, operating arrangements and legal terms.",
+      "The label ETF is often used broadly. The SEC's investor bulletin distinguishes spot Bitcoin exchange-traded commodity trusts from ETFs registered under the Investment Company Act of 1940. Futures-based products use a different structure and exposure mechanism. Before comparing returns or protections, establish which product is being discussed. A familiar brokerage ticker is not enough to identify the assets held or the rules governing them.",
+      "A share represents an interest in the product",
+      "A spot product seeks exposure by holding Bitcoin, while the investor owns a security issued by the product. Responsibility for handling the underlying coins sits within its custody arrangements. The SEC notes that avoiding personal management of cryptographic keys does not remove the product's own exposure to custody and underlying-market risks. The prospectus describes the relevant arrangements and limitations.",
+      "Imagine a hypothetical trust holding 1,000 bitcoin and issuing one million shares. Before liabilities and expenses, each share corresponds economically to 0.001 bitcoin. An investor with 100 shares has exposure corresponding to 0.1 bitcoin in this simplified example. That calculation does not establish a contractual right to collect 0.1 bitcoin. Redemption eligibility and procedures must be checked in the actual product documents.",
+      "Fees change the exposure over time",
+      "Suppose a fictional product starts with $10,000 attributable to an investor and incurs an annual expense of 0.25%. With the underlying value held constant for a simplified one-year calculation, the expense is $25. Trading costs and taxes are separate. If the asset price changes during the year, the actual fee dollars and investment result can differ from that simplified calculation.",
+      "A small percentage can matter over a long holding period, particularly when comparing products seeking similar exposure. Temporary fee waivers also need an end date and conditions. Comparing only the launch fee can miss what the investor pays later. The appropriate comparison is the total cost over the intended holding period, including the purchase and sale terms available through the investor's own brokerage account.",
+      "Market price can differ from underlying value",
+      "Shares trade at a market price, while net asset value measures the product's assets less liabilities per share. Suppose an illustrative net asset value is $50 and the shares trade at $50.50. The buyer pays a 1% premium. If net asset value stays at $50 and the market premium disappears, the shareholder loses approximately 0.99% on the purchase price even though the underlying value did not fall.",
+      "The same arithmetic can work in the other direction when a discount narrows. That does not make a discount a guaranteed bargain, because the underlying asset can move and the gap can persist. The mechanisms connecting share supply with underlying assets are discussed in our explanation of <a href=\"etf-creation-redemption-mechanism.html\">creation, redemption and market-price differences</a>. For any Bitcoin product, its own documents control which arrangements actually apply.",
+      "Trading volume and investment inflows are different numbers",
+      "Consider an illustrative exchange session in which one million existing shares change hands at $50. Reported trading value is $50 million. If those trades simply transfer shares between investors, they do not by themselves show $50 million of newly created exposure or purchases of additional bitcoin by the trust. Gross secondary-market activity and changes in shares outstanding answer different questions.",
+      "Assets under management also combine more than one influence. A hypothetical product holding the same number of coins can become larger in dollar terms when Bitcoin rises. Describing that entire increase as new investor money would confuse price appreciation with flows. A useful adoption report separates assets, net creations or redemptions, trading activity and the observation period rather than using any one as a substitute for all the others.",
+      "Institutional ownership needs a narrower claim",
+      "A reported position can show that a manager held particular shares on a particular date. It may represent client accounts, a hedge or one part of a broader strategy. Our guide to <a href=\"13f-filings-explained.html\">Form 13F's coverage and reporting lag</a> explains why a disclosed holding is not a complete picture of current institutional conviction. The filing establishes ownership within its scope, not the manager's motive.",
+      "For an investor, the decision remains an assessment of the asset, the product and the portfolio role. Check structure, custody, expenses, market-price differences and withdrawal rights before treating the wrapper as interchangeable with direct Bitcoin ownership. Easier access can be meaningful. It does not prove that volatility has diminished, that the product is diversified or that another investor's disclosed position is a reliable signal to follow."
     ],
     "sources": [
       {
-        "label": "SEC: Exchange-traded funds, structures and risks",
-        "url": "https://www.sec.gov/files/etfs.pdf"
+        "label": "SEC Investor.gov: Spot Bitcoin and Ether exchange-traded products, structures and risks",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024"
       },
       {
-        "label": "SEC: Form 13F reporting requirements and limitations",
+        "label": "SEC: Form 13F scope and reporting limitations",
         "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f"
       }
     ],
-    "dateModified": "2026-10-18T14:26:10-04:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp",
     "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
@@ -2984,20 +2995,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A company's market capitalization is the quoted value of its outstanding equity. It is not the cash the company has raised, the money on its balance sheet or the amount every shareholder could realize in a simultaneous sale.",
-      "The basic calculation is share price multiplied by shares outstanding. In a hypothetical company with 100 million shares at $20 each, market capitalization is $2 billion. A price change alters that figure without requiring the company to receive any money.",
-      "Share counts can differ across reported measures. Diluted earnings-per-share calculations may include instruments that can become shares, while an index may use only the shares available to public investors. Multiple share classes require attention to their particular rights and prices.",
-      "Enterprise value is a related measure that commonly adds debt and subtracts cash, with adjustments for other claims where relevant. It aims to put differently financed businesses on a more comparable basis, but its definition and the valuation multiple used still need checking.",
-      "Size labels such as small-cap and large-cap vary by index provider and mandate. Crossing a threshold can affect eligibility for a fund without indicating that the underlying company's operating performance changed that day.",
-      "A milestone in quoted value is a market observation. Assessing whether that value is reasonable requires an argument about earnings, assets, growth, risk and the claims held by other providers of capital."
+      "A company's market capitalization can change by billions of dollars in a trading session without an equivalent amount of cash entering or leaving its bank accounts. The number measures the market value of its outstanding equity at the quoted share price. It is useful for comparing size, but it does not describe cash available to management or the full cost of buying the business.",
+      "Investor.gov defines market capitalization as share price multiplied by total shares outstanding. The calculation is simple; interpreting it requires care. A report should identify the relevant share count and valuation date, especially when a company has issued new shares or repurchased existing ones. An old denominator can make an apparently precise market value inaccurate.",
+      "The last price values more than the last trade",
+      "Suppose a hypothetical company has 100 million shares outstanding and a quoted price of $20. Its market capitalization is $2 billion. If the price rises to $22 with the share count unchanged, market capitalization becomes $2.2 billion. The $200 million increase is a change in the implied value of all outstanding shares, not a statement that investors transferred $200 million into the company.",
+      "A small transaction can help establish the price used to value a much larger share base. That does not mean every holder could sell simultaneously at that same price. Available buyers, trading depth and the information conveyed by a large sale would matter. A valuation headline therefore needs to be distinguished from the proceeds shareholders could collectively realize by attempting to exit at once.",
+      "Secondary trading does not finance the company directly",
+      "When one investor buys an existing share from another, the purchase money generally goes to the seller. The company obtains new equity capital when it issues shares in a financing transaction, subject to the actual arrangement. Confusing those two activities makes rising stock prices look like an operating cash inflow when the cash may never pass through the company's accounts.",
+      "Consider a separate hypothetical issuance of 10 million shares at $20 each. It raises $200 million before fees. With the quoted price still $20, 110 million outstanding shares imply a $2.2 billion market capitalization. Existing holders now own a smaller percentage unless they participate. The financing added an asset, cash, alongside additional equity claims; the larger capitalization alone does not establish that each old share became more valuable.",
+      "Cash, accounting equity and market equity are different measures",
+      "The balance sheet reports assets, liabilities and shareholders' equity under accounting rules. Market capitalization reflects the price investors place on the equity claim. The SEC's financial-statement guide explains the accounting categories. Neither book equity nor cash should be substituted for market capitalization simply because all three are expressed in dollars.",
+      "A fictional business might have $300 million in cash, $700 million in accounting equity and a $2 billion market capitalization. Those figures can coexist. Investors could be paying for expected future earnings that are not recorded as cash today, or they could be overestimating those prospects. The differences are a starting point for examining the business, not an arithmetic contradiction that proves one measure must be wrong.",
+      "Enterprise value includes financing claims",
+      "A simplified enterprise-value calculation adds debt to equity market value and subtracts cash. For an illustrative company worth $2 billion in the stock market with $600 million of debt and $200 million of cash, that produces $2.4 billion. The aim is to compare the operating business across different financing structures. Real transactions can require further adjustments for other claims and obligations.",
+      "Even this calculation does not tell a buyer the final acquisition price. Buying control may require a premium, and the treatment of debt and available cash depends on the agreement. Our explanation of <a href=\"mergers-acquisitions-explained.html\">merger premiums and financing</a> follows that distinction through a hypothetical purchase. A headline equity value should not be compared with a transaction's enterprise value without first reconciling what each includes.",
+      "Share price alone does not measure cheapness",
+      "Two fictional companies could each have a $1 billion market capitalization while trading at $10 and $100 per share. The first might have 100 million shares outstanding and the second 10 million. The lower-priced share is not automatically the cheaper investment. Comparing valuation requires relating price to the earnings, assets or cash flows behind each ownership unit, with their risks and growth prospects considered.",
+      "A stock split illustrates the same principle. In a hypothetical two-for-one split, 100 million shares at $20 become 200 million at an adjusted $10, leaving capitalization at $2 billion before other market movements. For a useful size comparison, check share count, financing and the valuation date. Then ask what the market price assumes about future performance. Market capitalization gives the scale of the equity claim; the investment case begins with explaining that claim."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC Investor.gov: Market-capitalization definition",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization"
+      },
+      {
+        "label": "SEC: Financial statements, equity and cash",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/market-cap-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/market-cap-explained-editorial-960.webp",
@@ -3142,20 +3168,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "An inverted yield curve means a shorter-term security yields more than a longer-term one. It can signal expectations of weaker growth or future rate cuts, but it does not supply a date on which a recession must begin.",
-      "A curve describes several maturities rather than one spread. The difference between two- and ten-year Treasury yields is not identical to the difference between three-month and ten-year yields. The New York Fed's published recession-probability model uses the latter measure.",
-      "Short-term yields are closely influenced by expected monetary policy. Longer yields include expectations over a wider horizon and a term premium. A sustained inversion can emerge when restrictive current policy coexists with expectations of lower rates later.",
-      "Researchers have found forecasting information in the curve's historical behavior. The estimated relationship still depends on the sample, model and definition of recession. A probability estimate should be reported as a model output, not a certainty disguised by its decimal places.",
-      "The curve can steepen for different reasons. Falling short yields may reflect expected easing; rising long yields may reflect inflation or a higher term premium. Those paths can produce the same change in a spread while implying different risks.",
-      "Read the curve alongside employment, credit conditions and activity data. Its value is as evidence about the economic outlook, with limitations, rather than as an automatic instruction to trade on the day a threshold is crossed."
+      "A yield curve compares borrowing rates across maturities. When a shorter-term Treasury yield exceeds a longer-term yield, that part of the curve is inverted. The pattern can carry information about policy expectations and future economic conditions. It does not establish that a recession must begin on a particular date, or that every investor should respond with the same trade.",
+      "The New York Fed's recession-probability work uses the difference between 10-year and 3-month Treasury rates to estimate recession probability twelve months ahead. That is a particular model and horizon, not a universal interpretation of every inverted spread. The bank's research also examines forecasting limitations. A chart showing 10-year minus 2-year yields should not be described as though it were automatically the same model input.",
+      "Define the spread before interpreting its sign",
+      "Suppose hypothetical 10-year Treasury yields are 4% and 3-month yields are 4.8%. Subtracting the shorter yield from the longer produces minus 0.8 percentage point, or minus 80 basis points. The spread is inverted under that convention. Reversing the subtraction produces positive 80 basis points, which is why a chart's label matters as much as the direction of its line.",
+      "A curve can also have different shapes across different segments. Imagine the 2-year yield is 3.8% while the 10-year remains at 4%. The 10-year-minus-2-year spread is positive 20 basis points, even though the 10-year-minus-3-month spread remains negative. Both observations can be correct at the same time. Saying simply that the curve is inverted can hide which comparison supports the claim.",
+      "Expectations are one part of a long-term yield",
+      "Shorter yields are closely connected to near-term interest-rate conditions. Longer yields incorporate expectations over a longer period, along with compensation for holding longer-duration risk and other market influences. An inversion can be consistent with expectations that short rates will fall. The reason for those expected declines might involve weaker growth or lower inflation, but the spread alone does not identify a single cause.",
+      "Consider two hypothetical markets with the same minus-80-basis-point spread. In one, traders expect policy easing because inflation is moderating without a sharp employment decline. In the other, they anticipate an abrupt contraction. The same observed spread does not tell us which narrative is correct. The underlying forecast needs evidence from economic activity and prices, rather than being inferred solely from the curve's shape.",
+      "A probability is not a scheduled event",
+      "Suppose an illustrative forecasting model assigns a 30% probability to a specified recession outcome over its stated horizon. That does not mean a recession will begin in 30% of a year, or that economic output must decline by 30%. It means the model assigns that probability to an event defined by its methodology. The number needs its horizon, definition and estimation context to be interpretable.",
+      "Even a model with useful historical performance can produce false alarms or miss an event. Relationships estimated from earlier periods may also change. New York Fed research on recession forecasting examines predictive instability and alternative indicators. Describing a model reading as a certainty discards the distinction that makes it a probability estimate in the first place.",
+      "A return to positive slope can happen in different ways",
+      "Return to the hypothetical 10-year yield of 4% and 3-month yield of 4.8%. If the short yield falls to 3.5% with the long yield unchanged, the spread becomes positive 50 basis points. If instead the long yield rises to 5.3% with the short yield unchanged, the spread also becomes positive 50 basis points. Both changes end the inversion, but the moves in yields differ.",
+      "Those paths have different implications for existing bondholders. A rise in required long yields can lower the price of a long-duration bond, while falling short rates change reinvestment opportunities. Our explanation of <a href=\"bond-duration-explained.html\">duration and interest-rate sensitivity</a> shows why a curve label is insufficient to estimate a portfolio return. The investor needs the actual changes at the maturities held.",
+      "Combine the signal with evidence about the economy",
+      "A recession assessment can compare the curve with employment, income, spending and business activity. Agreement across independent observations can strengthen an interpretation, while disagreement calls for explaining the uncertainty. The <a href=\"unemployment-rate-u3-u6-participation-explained.html\">unemployment rate, participation and broader underutilization measures</a> also need to be read together because a lower headline jobless rate can have more than one explanation.",
+      "For a clear curve report, state the instruments, spread convention, observation date and whether the figure is a daily reading or an average. Identify any model separately and preserve its forecast horizon. Then distinguish the evidence from the proposed explanation. An inversion can be an important warning while remaining an imperfect guide to timing, severity and the prices financial markets have already incorporated."
     ],
     "sources": [
       {
-        "label": "New York Fed: Yield-curve recession model and its limits",
-        "url": "https://www.newyorkfed.org/research/capital_markets/ycfaq.html"
+        "label": "New York Fed: Yield-curve recession model and spread convention",
+        "url": "https://www.newyorkfed.org/research/capital_markets/ycfaq"
+      },
+      {
+        "label": "New York Fed research: Forecasting recessions and predictive instability",
+        "url": "https://www.newyorkfed.org/research/staff_reports/sr134.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/yield-curve-inversion-recession-signal-480.webp",
     "imageMedium": "assets/responsive/yield-curve-inversion-recession-signal-960.webp",
@@ -3603,20 +3644,35 @@ const TTN_ARTICLES = [
       "EUR/USD"
     ],
     "body": [
-      "A government can enter the currency market directly, buying or selling currencies rather than relying only on an interest-rate decision. The transaction is real, but its effect on the exchange rate depends on how the market interprets it and the forces it faces.",
-      "The authority responsible differs by country. A finance ministry may decide on intervention while a central bank executes it. Buying domestic currency with foreign reserves differs from selling domestic currency to acquire reserves, including the constraints on the resources available.",
-      "Verbal intervention is separate from an executed transaction. A statement of concern or readiness to act can change expectations, but it should not be described as proof that officials have already spent reserves. Confirmed operations need official data or a documented transaction.",
-      "Sterilization describes offsetting the domestic monetary effect of an intervention through other operations. Without that offset, the change in domestic liquidity can interact with monetary conditions. The exchange-market transaction and its balance-sheet treatment should be analyzed together.",
-      "A coordinated operation can signal agreement among authorities. It cannot permanently override every force arising from inflation, financing needs or policy differences. A large announced amount is not a sufficient measure of effectiveness.",
-      "To assess an intervention, identify who acted, which currencies changed hands, the confirmed size and the policy context. Compare the immediate price response with later conditions before calling the action a success or failure."
+      "Currency intervention occurs when monetary authorities buy or sell currencies to influence market conditions. The immediate transaction changes demand and supply, but its lasting effect depends on expectations, available resources and the surrounding policy. A dramatic intraday reversal does not establish that officials have secured a permanent exchange rate or changed the economic forces moving the currency.",
+      "The New York Fed explains that supporting the dollar against another currency involves buying dollars and selling that foreign currency. Moving in the opposite direction involves selling dollars and buying foreign currency. It also distinguishes transactions directed by the Federal Reserve from those conducted for the U.S. Treasury. The institution executing a trade and the authority deciding on it are not necessarily the same.",
+      "State the exchange-rate convention first",
+      "Suppose a hypothetical exchange rate is 150 units of domestic currency per U.S. dollar. A rise to 155 means the domestic currency has weakened: more units are needed to buy one dollar. A fall to 145 means it has strengthened under this quotation. Reversing the quotation reverses the visual direction, so a report should identify the units before describing a rate as rising or falling.",
+      "Now imagine officials sell $10 billion from their foreign reserves and buy domestic currency at 150 per dollar. Ignoring transaction costs and price movement during execution, they purchase 1.5 trillion domestic-currency units. That arithmetic states the scale of the operation. It does not tell us how much the exchange rate must move, because the response also depends on other orders and how traders interpret the action.",
+      "Foreign reserves constrain one side of the operation",
+      "Selling foreign currency uses an asset the authority must possess or otherwise obtain. If hypothetical usable reserves are $100 billion, a $10 billion sale consumes 10% before other flows and valuation changes. Repeating that amount ten times would exhaust the starting stock under the deliberately simplified assumptions. It is not a prediction of how long an actual defense can continue.",
+      "Buying foreign currency with domestic money has a different balance-sheet direction, but that does not make it costless. Authorities can face domestic liquidity consequences, changes in the value of acquired assets and costs associated with offsetting operations. Evaluating capacity therefore needs more than one reserve headline. The composition, accessibility and obligations attached to the assets can matter as much as the reported total.",
+      "Sterilization separates the currency trade from liquidity policy",
+      "Sterilization means offsetting an intervention's effect on the domestic monetary base. The IMF's discussion of sterilizing capital inflows describes operations that absorb liquidity associated with reserve accumulation. In a simplified foreign-currency purchase, the authority adds domestic settlement balances. A separate domestic operation can absorb an equivalent amount, leaving a different asset mix without the same net increase in those balances.",
+      "For a hypothetical purchase adding 100 units of domestic liquidity, an offsetting operation absorbing 100 leaves the net change at zero, holding everything else fixed. The foreign-currency transaction still occurred. Sterilization therefore does not mean the intervention was canceled; it identifies which monetary effect was offset. The general distinction between asset changes and liability movements also matters in our explanation of <a href=\"treasury-general-account-liquidity-explained.html\">central-bank balance-sheet mechanics</a>.",
+      "A signal can matter beyond the cash amount",
+      "An intervention can convey information about officials' willingness to act. Its interpretation may differ if it accompanies a policy change, coordinated action or a clear explanation of the objective. Conversely, a one-off purchase or sale may struggle to alter expectations if market participants believe the underlying incentives remain unchanged. These are possible channels to assess, not guarantees of effectiveness.",
+      "Imagine two fictional authorities conducting equal-sized currency purchases. One presents the trade as temporary market stabilization; the other announces a broader policy adjustment. Traders might respond differently even though the initial transaction amounts match. A sound analysis identifies the accompanying decisions and communication, rather than assuming the size of the cash flow alone explains every subsequent movement.",
+      "The observed price change is not the missing counterfactual",
+      "Suppose a currency weakens from 150 to 153 per dollar after an intervention intended to support it. That outcome alone cannot show whether the action failed to have any effect. Without intervention, the rate might have reached 160, or it might have remained at 153. The alternative path is unobserved. A short chart cannot isolate the intervention from all other news arriving at the same time.",
+      "Follow the official transaction record, distinguish confirmed activity from market speculation and specify the period used to judge the outcome. Then examine whether the objective concerned volatility, disorderly trading or a particular exchange-rate level. A temporary improvement in liquidity and a durable change in valuation are different achievements. Reporting them separately provides a clearer assessment than calling every sharp move either a decisive victory or a failed defense."
     ],
     "sources": [
       {
-        "label": "New York Fed: Foreign-exchange operations",
+        "label": "New York Fed: Foreign-exchange operations and transaction direction",
         "url": "https://www.newyorkfed.org/markets/international-market-operations/foreign-exchange-operations"
+      },
+      {
+        "label": "IMF: Sterilizing capital inflows and domestic liquidity",
+        "url": "https://www.imf.org/EXTERNAL/PUBS/FT/ISSUES7/INDEX.HTM"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/currency-intervention-explained-480.webp",
     "imageMedium": "assets/responsive/currency-intervention-explained-960.webp",
@@ -3634,24 +3690,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A company with cash can still choose to borrow. A bond issue may fund investment, refinance old debt or preserve liquidity, and the decision cannot be judged from the size of the borrowing alone.",
-      "A corporate bond sets terms for payments, maturity and other rights. Fixed and floating rates, secured and unsecured claims, call provisions and covenant protections produce different risks. A quoted yield is only one part of that contract.",
-      "The credit spread compares the yield with an appropriate benchmark. It compensates investors for risks including credit and liquidity, but it is not a direct default probability. Differences in maturity and contract terms complicate simple comparisons across issuers.",
-      "The maturity schedule matters to the business. Borrowing that funds a long-lived project can be less vulnerable to near-term refinancing than a short maturity serving the same purpose. An investment that takes longer to earn cash than expected can still put pressure on the balance sheet.",
-      "The use-of-proceeds statement should be read with the company's cash-flow needs. Debt-financed investment and debt-financed repurchases have different implications for future capacity and shareholder claims. Neither creates value merely because the borrowing rate looks low.",
-      "Follow interest coverage, cash generation, existing maturities and the restrictions in the issue documents. The central question is whether the issuer can meet the obligations across plausible operating conditions, not whether it appears wealthy on the day it borrows."
+      "A company can hold substantial cash and still decide to borrow. The decision may reflect the timing of investment, the location or availability of cash, refinancing needs or a desire to preserve flexibility. Issuing bonds is therefore not evidence by itself that a business is in distress. Equally, a large cash balance does not make every new bond a low-risk investment.",
+      "A corporate bond creates a contractual debt claim rather than an ownership interest. The issuer promises payments under specified terms, subject to its ability to meet them. SEC investor guidance describes how maturity, coupon, credit quality and contractual priority shape that claim. Assessing a particular issue requires both the company's financial position and the terms of the security being purchased.",
+      "Cash today and commitments tomorrow are different observations",
+      "Imagine a hypothetical company with $10 billion in cash and $7 billion of planned investment over the next two years. It also has $4 billion of debt maturing during that period. The $10 billion headline does not cover both uses while preserving an operating buffer. The company could borrow, reduce spending, sell assets or use future operating cash, each with different consequences.",
+      "The example does not establish that borrowing is the best choice. It shows why comparing cash with the proposed bond size is incomplete. A useful analysis identifies the minimum cash needed to operate, the certainty of expected receipts and the timing of payments. Cash tied to a subsidiary or another obligation should not be assumed immediately available for every corporate purpose without checking the relevant disclosures.",
+      "The use of proceeds changes the assessment",
+      "Suppose a fictional issuer sells $2 billion of bonds. If the money repays $2 billion of maturing debt, the transaction changes the financing schedule without necessarily increasing principal outstanding. If it funds a dividend or acquisition, the effect on the balance sheet and future cash requirements is different. The same headline amount can therefore describe substantially different financial decisions.",
+      "A reader should compare the stated use of proceeds with the company's subsequent cash-flow reporting. General corporate purposes can cover a range of activities, and an announcement does not always allocate each dollar to a specific project. Our explanation of <a href=\"take-private-leveraged-buyout-explained.html\">debt-financed acquisitions and cash repayment</a> illustrates why the operating case and financing case need separate analysis. A compelling project description does not settle the cost or resilience of its funding.",
+      "Coupon and yield answer different questions",
+      "Consider a hypothetical bond with $1,000 face value and a fixed 5% annual coupon. It pays $50 a year under those simplified terms. An investor buying it for $950 has a current yield of about 5.26%, calculated as $50 divided by $950. An investor paying $1,050 receives the same $50 but has a current yield of about 4.76%.",
+      "Neither current-yield calculation is yield to maturity. That measure also considers the difference between purchase price and scheduled principal repayment, as well as payment timing. The precise result depends on the bond's remaining life and terms. A quoted coupon does not establish the return available at today's market price, and the scheduled payments are not assured if the issuer defaults.",
+      "A spread separates credit pricing from the benchmark",
+      "Suppose an illustrative corporate bond yields 5.5% while a comparable Treasury benchmark yields 4%. The simple difference is 1.5 percentage points, or 150 basis points. If the corporate yield later reaches 6% while the benchmark reaches 4.7%, the simple spread has narrowed to 130 basis points. The corporate borrowing rate rose even as that relative spread fell.",
+      "This example explains why a higher corporate yield does not automatically mean investors became more worried about the issuer. Benchmark rates and compensation for other risks can move differently. More detailed spread measures account for additional features, including embedded options. A report should identify the spread convention and comparison maturity, rather than treating every quoted difference as an interchangeable measure of default probability.",
+      "Maturity and contractual priority shape the risk",
+      "A company with manageable total debt can still face a difficult period if large obligations mature together. Refinancing spreads those payments into the future only if financing is available on acceptable terms. Interest expense can also change when floating-rate borrowing resets or fixed-rate debt is replaced. Our guide to <a href=\"bond-duration-explained.html\">duration and bond-price sensitivity</a> addresses the investor's exposure when required yields change.",
+      "Security and seniority matter if the borrower cannot pay. A secured claim, a senior unsecured claim and a subordinated claim do not have identical rights. Ratings offer information about credit risk but do not replace the contract or guarantee repayment. A useful bond assessment combines the use of proceeds, cash generation, refinancing calendar and claim priority. A cash-rich issuer still needs to earn and preserve the resources that will meet its promises."
     ],
     "sources": [
       {
-        "label": "SEC Investor.gov: Bond terms and risks",
-        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+        "label": "SEC Investor.gov: Corporate bond terms, use of proceeds and creditor rights",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are"
       },
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC: Financial statements, obligations and cash flows",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/corporate-bonds-explained-480.webp",
     "imageMedium": "assets/responsive/corporate-bonds-explained-960.webp",
@@ -4022,20 +4089,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "The government can run a larger deficit without an identical immediate increase in every Treasury yield. Borrowing supply matters, but so do expected policy rates, inflation and investors' demand for the securities being issued.",
-      "A budget deficit occurs when outlays exceed revenues over a period. Debt records accumulated borrowing under a defined measure. Gross federal debt and debt held by the public include different claims, so the measure must be named before figures are compared.",
-      "Treasury issues securities to fund needs and refinance maturing obligations. A large auction schedule does not represent new deficit financing alone; some issuance replaces old debt. Changes in the cash balance can also affect financing in a particular period.",
-      "Interest expense responds to both debt and borrowing costs. The adjustment takes time because securities mature on different dates and carry different rates. A rise in market yields does not instantly reprice the government's entire stock of fixed-rate debt.",
-      "For the market, the maturity mix and the change from expected issuance can be as important as the total. Strong demand may absorb more supply without a large price change, while weak demand can require additional yield compensation.",
-      "Fiscal sustainability requires a longer view of revenues, spending, interest and economic growth. One month's deficit can be influenced by the timing of receipts and payments; it cannot on its own establish the long-term path."
+      "The federal budget deficit measures how much government outlays exceed revenues over a period. Federal debt measures borrowing outstanding at a point in time. A smaller annual deficit can therefore coexist with a larger debt stock. The government may still be adding debt, just at a slower pace. That distinction is essential when translating a budget headline into Treasury financing needs.",
+      "The Congressional Budget Office's debt primer distinguishes debt held by the public from debt held in government accounts. Its interest-cost primer explains how borrowing amounts, rates and the maturity structure affect the budget. These are references for the mechanisms, not current forecasts. A report using a particular year's projections should identify the publication date and assumptions rather than presenting an older estimate as today's outlook.",
+      "A smaller deficit still adds to borrowing",
+      "Imagine a hypothetical government collecting $4 trillion and spending $5 trillion over a year. Its deficit is $1 trillion. If the following year's revenues rise to $4.3 trillion while spending reaches $5.1 trillion, the deficit narrows to $800 billion. Spending still exceeds revenue, so the smaller gap does not imply that existing debt has been repaid.",
+      "Actual changes in debt held by the public need not equal the reported deficit exactly. Changes in Treasury cash balances and financing transactions outside the budget balance can affect borrowing needs. A simple example can hold those items fixed, but a factual account should reconcile them. Treating every difference between the deficit and debt growth as a hidden spending item skips an important part of government accounting.",
+      "Gross issuance includes refinancing",
+      "Suppose a fictional Treasury needs $1 trillion of new financing and must repay $3 trillion of securities reaching maturity. Ignoring cash changes and other adjustments, it could issue $4 trillion: $3 trillion replaces the maturing obligations and $1 trillion finances the new gap. Gross issuance is $4 trillion, while the net increase in debt is $1 trillion.",
+      "This explains why a large auction calendar cannot be equated directly with the annual deficit. Much of the money raised can refinance earlier borrowing. The maturity mix matters because short-dated borrowing returns to the market sooner. A report should distinguish bills, notes and bonds and specify whether the number describes gross sales, net borrowing or a change in the amount outstanding.",
+      "Higher market rates reach the budget gradually",
+      "Consider hypothetical fixed-rate debt of $1 trillion carrying 2% annual interest, or $20 billion. If all of it were refinanced at 4%, annual interest on that amount would become $40 billion. But if only $200 billion matures and is refinanced during the year, the annualized increase on that portion is $4 billion, before considering issuance dates and other debt changes.",
+      "The illustration holds principal constant and assumes the remaining debt keeps its old rate. Actual financing includes new borrowing and instruments with different terms. Still, it shows why applying today's rate immediately to the entire debt stock exaggerates near-term repricing. CBO's interest primer emphasizes this lag between changing rates and the government's interest bill. The eventual effect depends on how long the higher rates persist.",
+      "The primary balance separates interest from other spending",
+      "A primary deficit excludes net interest costs. Suppose a hypothetical total deficit is $900 billion and net interest is $700 billion. The primary deficit is $200 billion. If the government moves to a primary surplus of $100 billion while interest stays at $700 billion, the total budget still records a $600 billion deficit. A primary surplus and an overall surplus describe different conditions.",
+      "This separation helps identify whether borrowing comes from the noninterest budget or the cost of existing obligations. It does not establish that either part can be changed without consequences. The broader relationship between borrowing costs and the size of the economy is explored in our explanation of <a href=\"debt-spiral-r-versus-g-explained.html\">interest rates, growth and the primary balance</a>. Those variables need to be assessed together rather than reduced to a single debt total.",
+      "Budget arithmetic does not fix a bond yield",
+      "More borrowing changes the quantity investors must absorb, but Treasury yields also reflect expected monetary policy, inflation, growth and demand for safe assets. A large deficit does not specify an exact yield response. Nor does a rally in government bonds prove fiscal concerns have disappeared. Several forces can move at the same time, and a price change does not identify their separate contributions.",
+      "For a useful financing assessment, record the deficit period, the debt measure, the refinancing schedule and the assumptions for interest rates. Then distinguish published projections from outcomes already recorded. This approach connects the budget to the Treasury market without confusing a flow with a stock or implying that every dollar of auction proceeds represents a new dollar of spending."
     ],
     "sources": [
       {
-        "label": "Congressional Budget Office: Fiscal projections and assumptions",
-        "url": "https://www.cbo.gov/topics/budget"
+        "label": "CBO, March 2020: Federal Debt, a primer on debt measures and financing mechanics",
+        "url": "https://www.cbo.gov/publication/56309"
+      },
+      {
+        "label": "CBO, December 2020: Federal Net Interest Costs, a primer on repricing and maturity",
+        "url": "https://www.cbo.gov/publication/56910"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp",
     "imageMedium": "assets/responsive/us-budget-deficit-national-debt-explained-960.webp",
@@ -4345,20 +4427,31 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A holdings filing can reveal an investment months after the position began. By the time readers see the document, the manager may already have increased, reduced or closed it.",
-      "Form 13F generally applies to institutional investment managers exercising investment discretion over at least $100 million in specified securities. The SEC's guidance defines qualifying holdings and filing obligations; it is not a disclosure of every asset and liability the manager controls.",
-      "The report records positions at quarter-end and is generally due within 45 days afterward. That gap limits claims about what the manager owns today. It also means that a comparison between quarters cannot identify the exact day or price of a purchase.",
-      "Coverage excludes important parts of many portfolios. Short positions are not shown as a full offset to reported longs, and assets outside the reportable list can be missing. Certain listed options may appear with a put or call indicator, but the report does not provide a complete trading book.",
-      "A reported position also does not establish motive. It may form one side of a hedge, an arbitrage strategy or an allocation whose rationale is not disclosed. A manager's famous name does not turn the snapshot into a recommendation to copy it.",
-      "Use the filing date, reporting date, amendments and coverage rules together. The document is evidence about a defined historical portfolio, and its omissions are part of what an accurate story must explain."
+      "Form 13F provides a public view of certain securities managed by institutional investment managers. It is a dated holdings report, not a real-time trading record or a complete description of the manager's portfolio. The distinction becomes especially important when a familiar investor's filing is turned into a headline suggesting what they are buying today.",
+      "The SEC's FAQ describes the reporting obligation for managers meeting the applicable $100 million threshold in Section 13(f) securities. Reports generally arrive within 45 days after a calendar quarter ends, with deadline adjustments when required. The relevant holdings date is therefore different from the publication date. A reader should identify both before interpreting the disclosure as fresh market activity.",
+      "The reporting lag changes the question",
+      "Consider a hypothetical filing published in mid-May describing positions held on March 31. A manager could have bought shares early in January, retained them through March and sold them in April. The May disclosure could correctly show the March holding while failing to describe the manager's position when the reader encounters the news. There is no contradiction between those observations.",
+      "A quarter-to-quarter increase likewise does not reveal the exact transaction dates. If a position rises from 100,000 shares at one quarter-end to 150,000 at the next, the net difference is 50,000 shares, subject to adjustments such as corporate actions. The filing alone cannot establish that every purchase occurred near quarter-end or at the price quoted when the report became public.",
+      "Share counts and market values tell different stories",
+      "Suppose a hypothetical manager holds 100,000 shares priced at $20 at the first quarter-end. Reported market value is $2 million. At the next quarter-end, the manager still holds 100,000 shares but the price is $30. Market value becomes $3 million. The position's dollar value increased by 50% without any additional shares being acquired in this simplified scenario.",
+      "Now suppose another holding rises from $2 million to $3 million because the share count increases while the price stays unchanged. The same change in reported dollar value has a different explanation. A useful comparison separates quantity changes from valuation changes and checks for stock splits or other corporate actions. Describing every larger dollar position as new buying can significantly overstate the evidence.",
+      "The report does not show all exposures",
+      "The SEC directs filers to the official list of Section 13(f) securities. The report does not include short stock positions or subtract them from reported long positions. Certain held options are reportable, while written options are not. Those coverage limits mean the visible long positions cannot be assumed to represent the manager's complete net market exposure.",
+      "Imagine a fictional strategy with a $10 million reportable long holding and an offsetting position outside the report's displayed scope. Seeing the long holding alone would not reveal the strategy's combined risk. The example does not assert that any particular manager uses an offset. It demonstrates why an incomplete view cannot establish the absence of one. The filing reports what its rules require, rather than certifying a fully directional investment view.",
+      "A manager can be reporting assets for clients",
+      "A reported position does not necessarily mean the manager's owners personally invested the disclosed amount. Investment discretion over client assets can bring holdings within the reporting framework. This matters when a headline converts an institution's reported position into a claim about an individual's personal conviction. The identity of the reporting entity and any related-manager information deserve attention.",
+      "A hypothetical adviser overseeing ten accounts could report a combined position assembled for clients with different objectives. That total might support an observation about the adviser's reported exposure, but it would not identify one unified motive for every account. An analyst needs additional disclosures before describing the position as a personal bet, a strategic partnership or an endorsement of the issuer's management.",
+      "Copying a position changes the investment",
+      "A reader buying after the filing may face a very different price, portfolio context and exit plan from the reporting manager. Suppose an illustrative manager acquired a share at $20 and the reader considers it at $30. Even if both expect a future value of $36, the potential gain from their respective purchase prices is 80% versus 20%, before costs. The same security does not imply the same return opportunity.",
+      "Ownership disclosures are useful leads for further research. They can identify a position to examine, but they do not explain valuation or establish current intent. Our guide to <a href=\"insider-selling-explained.html\">reading insider transaction filings</a> applies the same distinction between a documented event and an inferred motive. For 13F, record the holdings date, share count, scope and reporting entity, then investigate the investment case separately from the identity that made the filing newsworthy."
     ],
     "sources": [
       {
-        "label": "SEC: Form 13F reporting requirements and limitations",
+        "label": "SEC: Form 13F reporting thresholds, deadlines and coverage",
         "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/13f-filings-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/13f-filings-explained-editorial-960.webp",
@@ -4771,20 +4864,35 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "An inflation-linked Treasury can fall in market value even while its principal is being adjusted for rising prices. The inflation mechanism and the security's sensitivity to real yields are separate parts of the investment.",
-      "TIPS principal is adjusted under the Treasury's inflation-indexing rules, and interest is calculated on that adjusted principal. The index and its lag matter. The arrangement tracks a specified measure of inflation, rather than the exact spending pattern of every investor.",
-      "Treasury provides an original-principal floor at maturity under the security's terms. That does not guarantee repayment of a premium paid by someone buying the bond later in the market, and it does not fix the price at which a holder can sell early.",
-      "The quoted real yield concerns the return above the inflation adjustments if the bond is held under the relevant assumptions. A rise in required real yield can lower its market price. Longer-duration TIPS can have substantial price sensitivity.",
-      "A nominal Treasury yield minus a comparable TIPS yield provides a breakeven inflation measure. It reflects more than a pure inflation forecast: liquidity differences and inflation-risk compensation can also affect the gap.",
-      "The investment vehicle matters. Holding an individual bond to maturity differs from holding a fund that maintains a changing portfolio, and tax treatment can affect the cash result. Inflation protection should be evaluated with those terms rather than inferred from a headline auction yield."
+      "Treasury Inflation-Protected Securities, or TIPS, link principal to a specified consumer-price index. They are designed to protect against measured inflation, but their market prices can still fall. An investor needs to distinguish the security's contractual adjustment from the return earned at a particular purchase price and over a particular holding period.",
+      "TreasuryDirect explains that TIPS principal rises with inflation and falls with deflation. The coupon rate is fixed, while the dollar interest payment changes because it applies to adjusted principal. At maturity, Treasury pays the greater of inflation-adjusted principal and original principal. That protection concerns the security's original principal, not any premium an investor may have paid in the market.",
+      "A fixed coupon can produce a changing payment",
+      "Suppose a hypothetical TIPS has original principal of $1,000 and a 2% annual coupon paid semiannually. If adjusted principal is $1,030 on a coupon date, the six-month payment is $10.30: half of 2% multiplied by $1,030. At adjusted principal of $1,050 on a later coupon date, the corresponding payment is $10.50. These examples isolate the coupon calculation rather than reproduce an actual security's index ratios.",
+      "The distinction helps explain why a fixed rate and inflation protection are compatible. The percentage stays fixed while the amount to which it applies changes. Actual payments depend on the published adjustment process and relevant dates. A reader comparing payments should use the security's official index ratio, rather than applying a recent headline inflation rate directly to any convenient principal figure.",
+      "The maturity floor does not cover every purchase price",
+      "Imagine a hypothetical investor pays $1,100 for a TIPS with $1,000 original principal. If it ultimately repays $1,000 under the maturity floor, that principal payment is $100 below the amount paid. Coupon receipts may offset some or all of the difference, depending on the terms and holding period. The floor alone does not guarantee recovery of the investor's full purchase cost.",
+      "Now consider an investor needing to sell before maturity. The sale price is determined in the market; the contractual maturity floor is not a standing promise to buy the security back at the investor's preferred price. Matching the investment horizon to the expected need for cash therefore matters. A feature operating on the maturity date should not be described as protection against every interim loss.",
+      "Real yields can move against the holder",
+      "The Federal Reserve's TIPS yield-curve documentation distinguishes real yields from nominal Treasury yields. TIPS adjust for measured inflation, but the market still prices their remaining payments using the real return investors require. If that required return rises, an existing security can become less valuable even while its indexed principal increases. Inflation protection and market-price stability are separate properties.",
+      "For a simplified illustration, take a single inflation-adjusted payment of $1,000 due in ten years and ignore coupons. Discounting it at a 1% real rate gives a present value of about $905.29. At 2%, present value is about $820.35. This fictional single-payment instrument is not a standard TIPS, but it isolates the effect of changing the discount rate. Our guide to <a href=\"bond-duration-explained.html\">bond duration</a> explains the broader price-sensitivity concept.",
+      "Breakeven inflation is a comparison, not a guarantee",
+      "A common approximation subtracts a TIPS real yield from a nominal Treasury yield of comparable maturity. If hypothetical yields are 4.2% nominal and 1.8% real, the difference is 2.4 percentage points. The Federal Reserve describes this as inflation compensation and notes that risk premiums can affect it. It should not be presented as a pure reading of expected future inflation.",
+      "The comparison also needs consistency in maturity and measurement. Two securities with different cash-flow patterns do not become identical merely because both mature in the same calendar year. Breakeven calculations provide a useful framework for examining relative pricing, while an actual investment comparison must account for purchase prices, payment timing and the circumstances of the holder. A single subtraction does not settle which security will produce the better realized outcome.",
+      "Index protection and household purchasing power can differ",
+      "The adjustment follows an official consumer-price measure rather than the investor's personal bills. A household facing unusually rapid increases in rent, healthcare or another major expense can experience a different cost change. Our explanation of <a href=\"cpi-inflation-explained.html\">CPI, price levels and personal budgets</a> describes why a national statistical basket does not reproduce every household's experience.",
+      "Taxes can also affect the timing of usable cash. TreasuryDirect notes that annual principal adjustments can have federal tax consequences, alongside interest payments. A taxable investor should distinguish a nominal account-value increase from cash available after obligations. Read the issue terms, adjustment method, price and tax treatment together. TIPS provide a defined form of inflation linkage, while the holder's full return still depends on valuation, horizon and individual circumstances."
     ],
     "sources": [
       {
-        "label": "TreasuryDirect: TIPS inflation adjustment and maturity protection",
+        "label": "TreasuryDirect: TIPS principal adjustments, coupon payments and taxes",
         "url": "https://www.treasurydirect.gov/marketable-securities/tips/"
+      },
+      {
+        "label": "Federal Reserve: Real yields and inflation compensation",
+        "url": "https://www.federalreserve.gov/data/tips-yield-curve-and-inflation-compensation.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:54:42-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp",
     "imageMedium": "assets/responsive/tips-inflation-protected-bonds-explained-960.webp",
