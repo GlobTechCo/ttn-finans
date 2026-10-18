@@ -3,7 +3,7 @@
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlparse, unquote
-import json,re,xml.etree.ElementTree as ET
+import hashlib,json,re,xml.etree.ElementTree as ET
 from lxml import html
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://globtechco.github.io/ttn-finans/'
@@ -13,6 +13,7 @@ def verify():
     ids={a['id'] for a in articles};assert len(ids)==len(articles)
     cards=json.loads((ROOT/'article-cards.js').read_text().split('const TTN_ARTICLES = ',1)[1].strip().removesuffix(';'))
     assert {a['id'] for a in cards}==ids
+    cards_by_id={a['id']:a for a in cards}
     assert not any('body' in a or 'sources' in a for a in cards)
     assert (ROOT/'article-cards.js').stat().st_size < (ROOT/'articles.js').stat().st_size * .3
     docs={p.name:html.fromstring(p.read_text()) for p in ROOT.glob('*.html')}
@@ -48,6 +49,10 @@ def verify():
     for a in articles:
         doc=docs[a['id']+'.html']
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
+        schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
+        assert schema['datePublished']==a['date']==cards_by_id[a['id']]['date'],(a['id'],'publication date')
+        published=doc.xpath('//meta[@property="article:published_time"]/@content')
+        if published:assert published==[a['date']],(a['id'],'publication metadata')
         blocks=doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-related ")]')
         assert len(blocks)==1,(a['id'],'related blocks')
         links=blocks[0].xpath('.//a/@href')
@@ -61,6 +66,9 @@ def verify():
         assert len(directory)==1
         directory_links.update(directory[0].xpath('.//a/@href'))
     assert directory_links=={i+'.html' for i in ids}
+    card_version=hashlib.sha256((ROOT/'article-cards.js').read_bytes()).hexdigest()[:12]
+    for name in ['index.html','analysis.html','tech-ai.html']:
+        assert docs[name].xpath('//script[starts-with(@src,"article-cards.js")]/@src')==['article-cards.js?v='+card_version],(name,'stale card catalog')
     assert docs['index.html'].xpath('//noscript')
     assert 'This page could not be found' in docs['404.html'].text_content()
     assert docs['404.html'].xpath('//base/@href')==[BASE]

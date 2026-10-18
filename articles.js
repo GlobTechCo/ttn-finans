@@ -2332,7 +2332,7 @@ const TTN_ARTICLES = [
     "title": "An Oil Shock Spreads Through Costs, Spending and Exchange Rates",
     "dek": "Higher crude prices affect producers and consumers differently. Duration and the source of the shock shape the wider market response.",
     "author": "TTN Research Desk",
-    "date": "2026-07-28T09:00:00",
+    "date": "2026-07-28",
     "image": "assets/editorial/oil-shock-market-ripple.webp",
     "tickers": [
       "S&P 500",
@@ -2354,7 +2354,7 @@ const TTN_ARTICLES = [
         "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:27:46-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/oil-shock-market-ripple-480.webp",
     "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
@@ -2365,7 +2365,7 @@ const TTN_ARTICLES = [
     "title": "The AI Spending Debate Is About Returns on Capital",
     "dek": "Data-center investment can expand capacity before revenue catches up. Depreciation, utilization and financing determine the return.",
     "author": "TTN Research Desk",
-    "date": "2026-07-29T09:00:00",
+    "date": "2026-07-29",
     "image": "assets/editorial/ai-capex-nasdaq-correction.webp",
     "tickers": [
       "NASDAQ",
@@ -2386,7 +2386,7 @@ const TTN_ARTICLES = [
         "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:27:46-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ai-capex-nasdaq-correction-480.webp",
     "imageMedium": "assets/responsive/ai-capex-nasdaq-correction-960.webp",
@@ -2397,7 +2397,7 @@ const TTN_ARTICLES = [
     "title": "Why Treasury Yields Can Rise Without a Fed Rate Increase",
     "dek": "Long-term borrowing costs reflect expected policy, inflation and term premiums. The cause of a yield increase matters beyond the bond market.",
     "author": "TTN Research Desk",
-    "date": "2026-07-30T09:00:00",
+    "date": "2026-07-30",
     "image": "assets/editorial/treasury-yields-spike-2026.webp",
     "tickers": [
       "S&P 500",
@@ -2422,7 +2422,7 @@ const TTN_ARTICLES = [
         "url": "https://www.treasurydirect.gov/marketable-securities/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:27:46-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/treasury-yields-spike-2026-480.webp",
     "imageMedium": "assets/responsive/treasury-yields-spike-2026-960.webp",
@@ -2433,7 +2433,7 @@ const TTN_ARTICLES = [
     "title": "A Stablecoin's Peg Depends on Its Backing and Redemption",
     "dek": "A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.",
     "author": "TTN Research Desk",
-    "date": "2026-07-30T11:00:00",
+    "date": "2026-07-31",
     "image": "assets/editorial/stablecoins-explained-depeg-risk.webp",
     "tickers": [
       "BTC"
@@ -2452,7 +2452,7 @@ const TTN_ARTICLES = [
         "url": "https://www.circle.com/transparency"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:26:10-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/stablecoins-explained-depeg-risk-480.webp",
     "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
@@ -2463,7 +2463,7 @@ const TTN_ARTICLES = [
     "title": "An Earnings Beat Can Still Leave Shareholders Disappointed",
     "dek": "A company's reported quarter is only part of an earnings release. Guidance, margins and the expectations built into its share price can matter more.",
     "author": "TTN Research Desk",
-    "date": "2026-07-30T13:00:00",
+    "date": "2026-08-01",
     "image": "assets/editorial/earnings-beat-miss-explained-editorial.webp",
     "tickers": [
       "S&P 500",
@@ -2483,7 +2483,7 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:26:10-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
@@ -2494,7 +2494,7 @@ const TTN_ARTICLES = [
     "title": "What a Bitcoin ETF Changes About Ownership",
     "dek": "A listed fund makes bitcoin exposure accessible through a securities account. Its shares do not give every investor direct ownership of coins.",
     "author": "TTN Research Desk",
-    "date": "2026-07-30T15:00:00",
+    "date": "2026-08-02",
     "image": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
     "tickers": [
       "BTC"
@@ -2517,7 +2517,7 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:26:10-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp",
     "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
@@ -2528,7 +2528,7 @@ const TTN_ARTICLES = [
     "title": "EUR/USD Responds to Expected Rates, Not Just Today's Gap",
     "dek": "Differences between US and euro-area borrowing costs affect currency demand, but growth, hedging and risk appetite can alter the result.",
     "author": "TTN Research Desk",
-    "date": "2026-08-01T09:00:00",
+    "date": "2026-08-03T09:00:00",
     "image": "assets/editorial/eur-usd-rate-differential-explained.webp",
     "tickers": [
       "EUR/USD"
@@ -2551,7 +2551,7 @@ const TTN_ARTICLES = [
         "url": "https://www.ice.com/products/194/US-Dollar-Index-Futures"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:26:10-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/eur-usd-rate-differential-explained-480.webp",
     "imageMedium": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
@@ -2562,7 +2562,7 @@ const TTN_ARTICLES = [
     "title": "Crypto Liquidation Begins Before All the Margin Is Gone",
     "dek": "Leverage magnifies losses. Maintenance-margin rules, fees and the exchange's price reference determine when a position is closed.",
     "author": "TTN Research Desk",
-    "date": "2026-08-01T11:00:00",
+    "date": "2026-08-03T11:00:00",
     "image": "assets/editorial/crypto-liquidation-leverage-explained-editorial.webp",
     "tickers": [
       "BTC",
@@ -2582,7 +2582,7 @@ const TTN_ARTICLES = [
         "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:26:10-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
@@ -5371,7 +5371,7 @@ const TTN_ARTICLES = [
     "title": "What a $100 Oil Scenario Would Mean for Inflation",
     "dek": "An illustrative oil-price level helps expose transmission channels. The duration of the shock and the economy's starting point determine its impact.",
     "author": "TTN Research Desk",
-    "date": "2026-10-06T09:00:00Z",
+    "date": "2026-10-06T09:00:00",
     "image": "assets/editorial/oil-near-100-inflation-2026.webp",
     "tickers": [
       "OIL",
@@ -5400,7 +5400,7 @@ const TTN_ARTICLES = [
         "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:27:46-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/oil-near-100-inflation-2026-480.webp",
     "imageMedium": "assets/responsive/oil-near-100-inflation-2026-960.webp",
