@@ -2773,24 +2773,31 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "Inflation can slow while prices continue rising. A lower rate of increase means the price level is climbing less quickly; it does not mean the earlier increases have been reversed.",
-      "The Consumer Price Index measures changes in prices paid by urban consumers for a defined basket of goods and services. Household experiences differ because households do not all buy that basket in the same proportions or live in the same market.",
-      "Headline CPI includes food and energy. Core CPI excludes those categories to help analyze less volatile movements. The exclusion does not make fuel or groceries unimportant to families, and it does not remove every volatile price from the calculation.",
-      "Monthly and annual comparisons answer different questions. The annual rate incorporates eleven months before the latest observation and can change because an unusual earlier month drops out. Seasonally adjusted monthly figures are useful for examining recent momentum but remain subject to revisions and noise.",
-      "The Fed's longer-run inflation objective is expressed in the PCE price index, a different measure with different coverage and weights. Policymakers consider a range of inflation and labor-market evidence; no single core reading mechanically dictates a rate decision.",
-      "A clear inflation report names the index, period and adjustment used, then identifies the components responsible for the change. Without those details, two accurate percentages can appear to describe opposite developments."
+      "The Consumer Price Index measures changes in the prices consumers pay for a representative basket of goods and services. It is a measure of price change, not a statement that every household's bills moved by the same amount. Reading a CPI release well requires separating index levels, inflation rates, spending weights and the period being compared.",
+      "The Bureau of Labor Statistics publishes several CPI measures and explains their coverage and methods in its FAQ. Reports commonly distinguish the all-items index from a measure excluding food and energy. The latter can help examine movements beyond those categories, but it does not suggest that food and energy are unimportant to household budgets. Each measure answers a narrower question than whether life feels affordable.",
+      "An index point is not a percentage point",
+      "Suppose a hypothetical index rises from 300 to 306. The increase is six index points, but the percentage change is 2%: six divided by 300. If another index rises from 100 to 106, the same six-point move represents 6%. The starting level matters, which is why comparing raw index-point changes across different series or base periods can be misleading.",
+      "Percentage points describe differences between rates. A fall in inflation from 4% to 3% is a decline of one percentage point, while the rate itself is 25% lower. Those statements describe the same hypothetical movement in different ways. Neither says the price basket became cheaper. Clear reporting labels the unit so readers do not confuse a slowing rate with falling prices.",
+      "Lower inflation can leave a higher price level",
+      "Imagine a basket initially costing $100. A 10% increase takes its cost to $110. A subsequent 2% increase raises the cost to $112.20. Inflation slowed sharply in the second period, but the basket still became more expensive. Returning to the original $100 would require a decline in the price level, which is a different outcome from a lower positive inflation rate.",
+      "Changes also compound. An illustrative 5% increase followed by a 3% increase produces an overall rise of 8.15%, because $100 becomes $105 and then $108.15. Simply adding the rates gives an approximation rather than the exact result. The same principle matters when comparing purchasing power across several years: the cumulative change comes from the sequence of index levels, not one month's headline rate multiplied indiscriminately.",
+      "Monthly and annual readings answer different questions",
+      "A one-month change captures a short interval, while a 12-month change compares the latest level with the level a year earlier. A large movement dropping out of the earlier comparison can change the annual rate even when recent monthly increases are relatively steady. This is commonly called a base effect. It explains part of the arithmetic without proving that underlying price pressure has disappeared.",
+      "Annualizing a monthly number adds another assumption. A hypothetical monthly increase of 0.3%, repeated for 12 months, compounds to approximately 3.66%. That is a calculation of a repeated pace, not a forecast that the next 11 months will match the first. An unusually volatile month makes the distinction particularly important. State the calculation explicitly before describing the resulting annualized figure.",
+      "Adjustment and weights affect the comparison",
+      "BLS seasonal adjustment aims to remove recurring seasonal patterns so that short-term comparisons are more informative. Readers should check whether figures are seasonally adjusted and use consistent series. A seasonally adjusted monthly change should not be combined casually with an unadjusted level and described as though all numbers came from the same calculation. Release tables identify the relevant conventions.",
+      "The basket's weights also matter. In a simplified illustration, a category accounting for 40% of spending and rising 5% would contribute roughly two percentage points to a weighted price change if all other prices were unchanged. That example demonstrates weighting rather than reproducing the full official CPI formula. A dramatic rise in a small category can contribute less to the total than a modest rise in a much larger one.",
+      "A national basket is not a personal budget",
+      "Two households can experience different pressures because they buy different things. A renter facing a new lease, a homeowner with a fixed mortgage and a commuter with high fuel spending do not have identical exposure. Their experiences can all be real while differing from the national average. The CPI provides a common statistical reference, not an individualized cost calculator.",
+      "A useful reading of the release starts with the exact series and comparison period, then examines the categories driving the result. Ask whether the movement is broad, whether it depends on a few volatile components and how it compares with recent months. That approach turns a headline rate into an explanation of changing prices without promising that one release settles the outlook for inflation, interest rates or household living standards."
     ],
     "sources": [
       {
-        "label": "US BLS: CPI definitions and methods",
+        "label": "BLS: CPI coverage, index interpretation and seasonal adjustment",
         "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
-      },
-      {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/cpi-inflation-explained-480.webp",
     "imageMedium": "assets/responsive/cpi-inflation-explained-960.webp",
@@ -3002,20 +3009,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "An executive's share sale is a transaction to investigate, not a statement of motive. The seller may be diversifying, meeting a financial obligation or reducing exposure, and the filing alone may not distinguish those reasons.",
-      "Company insiders have reporting obligations for qualifying transactions. Form 4 can show the date, amount, transaction code and remaining holdings, while footnotes may provide context about arrangements or ownership. A reported disposition is not always an ordinary open-market sale.",
-      "A Rule 10b5-1 trading plan can schedule transactions under conditions set when the person is not aware of material nonpublic information. The rule provides a potential affirmative defense subject to its requirements; calling a sale planned does not mean regulators have certified its propriety.",
-      "Compare the sale with the person's previous activity and overall holdings. A large dollar amount can be a small proportion of a founder's position. Several unusual transactions can merit attention, but they still do not establish an undisclosed business problem without further evidence.",
-      "Purchases also require context: compensation, option exercises and direct purchases are different activities. Neither buying nor selling by an insider guarantees a future stock return, and a public filing can arrive after the transaction has already occurred.",
-      "The sound question is what the documents establish. Identify the transaction, plan disclosures and ownership change before inferring that the executive knows something adverse about the company."
+      "An insider sale is a reported transaction, not a direct transcript of what an executive believes about the company's future. The sale may be relevant, but its meaning depends on the transaction type, the seller's remaining exposure and the circumstances disclosed in the filing. A large dollar amount can draw attention while leaving those basic questions unanswered.",
+      "SEC investor guidance explains the ownership reports filed by officers, directors and certain large holders. Form 4 commonly reports changes in ownership, generally within two business days of the transaction. The transaction date and filing date are separate observations. A headline written when a filing appears should not imply that the trade necessarily occurred that same day.",
+      "Read the code before describing the action",
+      "Form 4 uses transaction codes. The SEC's investor bulletin identifies S as a sale and F as payment of an exercise price or tax liability using securities received from the company. It also distinguishes grants, option exercises, purchases and gifts. Grouping every reduction in a reported holding under discretionary selling can misdescribe what the form actually records.",
+      "Imagine a hypothetical executive receiving 100,000 shares through an award, with 30,000 withheld to meet a tax obligation. The executive retains 70,000 shares from the award. Describing only the 30,000-share reduction as a bearish market sale would omit the larger increase in the holding and the stated purpose of the withholding. The example illustrates why the code and accompanying footnotes should be read together.",
+      "Measure the sale against the remaining exposure",
+      "Suppose another executive owns one million shares and sells 20,000, leaving 980,000, with no other changes. The sale equals 2% of the starting holding. Its dollar value depends on the stock price, but the fraction sold helps describe how much direct exposure changed. A million-dollar headline can mean something very different for a small holding and a much larger one.",
+      "Even that percentage is incomplete if the person also holds options, restricted awards or indirect interests. Different securities can have different vesting conditions and economic sensitivities. A careful account identifies what the reported post-transaction balance includes rather than adding every instrument as though each were an immediately owned common share. Direct and indirect ownership should also be distinguished where the filing separates them.",
+      "A trading plan changes the context",
+      "Rule 10b5-1 provides an affirmative-defense framework for qualifying trading arrangements, subject to conditions. The SEC's 2022 amendments addressed matters including cooling-off periods and disclosures. A reported transaction under a plan may reflect instructions established earlier rather than a new decision on the day of execution. The relevant plan information and filing disclosures should be checked instead of inferred from a data-provider label alone.",
+      "The existence of a plan does not establish that every requirement was satisfied or that any transaction is automatically immune from scrutiny. Equally, execution shortly before an unfavorable announcement does not by itself establish improper conduct. An account should separate the documented chronology from conclusions about knowledge or intent. Those conclusions require evidence beyond a striking alignment of dates.",
+      "Motive is usually harder to observe than quantity",
+      "An insider may want cash for spending, taxes or diversification. They may also be responding to their assessment of the business. The public filing can establish a transaction without resolving which motive dominated. Repeating a plausible personal explanation as a verified fact is no better than declaring a sale proof that disappointing earnings are imminent.",
+      "One useful reporting approach is to state the facts first: who transacted, what security changed hands, the date, the code, the reported price and the remaining holding. Then identify any disclosed explanation or plan. Anything beyond those records should be labeled as interpretation. That structure allows readers to consider the information without presenting an unknown intention as a documented signal.",
+      "Patterns require a consistent comparison",
+      "Several sales can be more informative when compared with the same person's earlier activity, compensation awards and total exposure. But a simple count of filings can mislead if one economic action generates several entries or if routine award-related transactions dominate. Define whether the comparison concerns shares, dollar value, discretionary sales or net changes after awards. Different definitions can produce different apparent patterns.",
+      "An insider purchase deserves the same discipline. It can demonstrate additional exposure without guaranteeing that the buyer's expectations will prove correct. For investors, ownership activity is best read alongside operating results, valuation and the company's disclosures. The filing provides a specific piece of evidence about a specific transaction. Its value increases when the reporting preserves that precision instead of turning every sale into a forecast."
     ],
     "sources": [
       {
-        "label": "SEC: Rule 10b5-1 plans and related disclosures",
+        "label": "SEC Investor.gov: Insider transactions and Forms 3, 4 and 5",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-69"
+      },
+      {
+        "label": "SEC: Rule 10b5-1 plan amendments adopted in December 2022",
         "url": "https://www.sec.gov/newsroom/press-releases/2022-222"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/insider-selling-explained-480.webp",
     "imageMedium": "assets/responsive/insider-selling-explained-960.webp",
@@ -3068,20 +3090,35 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "An acquisition announcement describes what two companies intend to do. The investment result depends on what they pay, how they finance it and whether the combined business delivers enough improvement to justify the transaction.",
-      "Management's synergy estimate may include lower costs, expanded distribution or additional revenue. Those categories carry different uncertainties. Closing an overlapping facility is a different proposition from assuming that customers will buy more once two sales teams are combined.",
-      "The buyer commonly pays a premium to obtain control. That premium can transfer much of the expected benefit to the seller before any improvement occurs. A sensible strategic rationale therefore does not establish that the buyer's shareholders received a sensible price.",
-      "Integration has costs of its own: systems, staff changes, customer disruption and management time. Savings quoted before those expenses or without a delivery timetable can overstate the early cash benefit. The assumptions should be compared with later reporting.",
-      "Financing changes the exposure. Debt adds interest and refinancing obligations; newly issued shares can dilute existing owners. A stock-financed transaction also leaves the final value of the consideration dependent on the terms and the buyer's share price.",
-      "Assess the signed agreement, funding commitments, approvals and measurable operating targets. A merger's value is earned after announcement, and a larger combined revenue figure is not evidence that the acquisition has created that value."
+      "An acquisition announcement answers who wants to buy whom. It rarely settles whether the purchase creates value. The buyer may gain customers, technology or scale, while also taking on debt, integration costs and promises that prove difficult to deliver. For shareholders, the central comparison is between the price paid and the cash the acquired business can reasonably generate under its new owner.",
+      "A merger can involve cash, shares or a combination. The legal structure and approval process depend on the transaction. SEC investor guidance points readers toward merger disclosures, proxy materials and registration statements where applicable. Those documents matter because the headline purchase price alone does not describe the bargain. Financing conditions, termination provisions and the treatment of existing obligations can change the result.",
+      "Separate the equity check from the business price",
+      "Suppose a hypothetical target has an equity value of $80 million, debt of $30 million and cash of $10 million. A simplified enterprise value is $100 million: equity plus debt less cash. A buyer describing an $80 million purchase may therefore be discussing a different measure from an analyst describing a $100 million transaction. Neither number is automatically wrong, but comparisons require matching definitions.",
+      "That distinction also matters when comparing deals with operating profit. Dividing an equity purchase price by earnings before interest would mix a shareholder claim with profit available before financing costs. A useful transaction model labels each component, specifies which liabilities transfer and explains whether cash is available for distribution. Pension obligations, leases and other adjustments may require additional work rather than a universal shortcut.",
+      "Put a price on the promised improvement",
+      "Consider another hypothetical purchase with a standalone business value of $100 million. The buyer pays $130 million because it expects improvements worth $45 million today. If integration requires another $10 million, the estimated gain is only $5 million: $100 million plus $45 million, less the purchase price and integration spending. A modest forecasting error can consume that cushion even when the strategic story sounds convincing.",
+      "The $45 million is an estimate, not money already earned. Closing overlapping offices may be easier to model than persuading customers to buy additional products. Some savings require severance, system changes or temporary disruption before they appear. A practical assessment separates recurring benefits from one-time costs and asks when each cash flow arrives. Delayed savings are worth less today than otherwise identical savings available immediately.",
+      "Earnings accretion does not prove value creation",
+      "A deal can increase earnings per share without offering an attractive return on the purchase price. Imagine a buyer earning $100 million across 50 million shares, or $2 per share. An acquired business adds $10 million in annual earnings, while acquisition borrowing costs $8 million after tax. With no new shares, combined earnings become $102 million and earnings per share rise to $2.04. The example ignores integration and accounting adjustments.",
+      "That four-cent increase says nothing by itself about whether the buyer overpaid. It omits the capital committed and the return shareholders could have earned elsewhere. Conversely, a transaction that temporarily lowers reported earnings might still create value if credible future cash flows justify its cost. The analysis needs both an operating case and a financing case, with assumptions visible enough to challenge independently.",
+      "Financing changes who carries the risk",
+      "Cash consideration fixes the seller's nominal payment once the deal closes, subject to the agreed terms. Share consideration leaves the seller exposed to the combined company. A fixed exchange ratio also means the market value of the offer moves with the buyer's share price before closing. Contingent payments introduce another question: which future outcomes actually trigger the additional consideration, and who controls those outcomes?",
+      "Borrowing can preserve the buyer's share count, but interest and repayment obligations remain after an optimistic presentation has faded. Issuing shares avoids that particular debt burden while spreading ownership across more investors. Neither method makes a weak operating purchase strong. Compare the combined company's cash generation with its financing obligations, then test slower sales, smaller savings and a longer integration period rather than relying on the preferred forecast alone.",
+      "Announcement and completion are different milestones",
+      "Competition review can prevent, delay or reshape a transaction. The FTC explains that merger review addresses potential harm to competition; a large premium for target shareholders does not resolve that question. Other closing conditions can also remain outstanding. An announced acquisition therefore belongs in a different category from a completed one when assessing ownership, financing and expected earnings.",
+      "The most useful follow-up is a scorecard that survives closing: original purchase assumptions, actual integration spending, customer retention, recurring savings and cash returns. Revenue acquired through a purchase should also be distinguished from growth in the existing business. A larger company can still deliver a disappointing investment if the price, financing or execution absorbed the benefits that made the acquisition attractive in the first place."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC Investor.gov: Mergers and shareholder disclosures",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mergers"
+      },
+      {
+        "label": "FTC: Merger review and competition",
+        "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/mergers"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/mergers-acquisitions-explained-480.webp",
     "imageMedium": "assets/responsive/mergers-acquisitions-explained-960.webp",
@@ -3515,20 +3552,35 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "The unemployment rate can fall because more people find work. It can also fall when people without jobs leave the labor force. The denominator is therefore as important as the number of unemployed people.",
-      "The headline U-3 rate measures unemployed people as a share of the civilian labor force. The BLS classification generally requires availability for work and active job search, with a separate provision for people on temporary layoff.",
-      "U-6 includes additional groups: marginally attached workers and people employed part-time for economic reasons. Its denominator is also broader. The BLS publishes several alternative measures, but they capture different dimensions rather than forming a simple sequence in which every measure adds everyone in the preceding one.",
-      "Labor-force participation measures the share of the civilian noninstitutional population participating in work or job search. Age structure, schooling, retirement, health and economic opportunities can all affect it. A change in participation is not automatically a measure of discouragement.",
-      "Read the employment-population ratio and the group's composition alongside these rates. A headline improvement can coexist with weak full-time employment, while rising participation can temporarily increase unemployment as more people start looking for work.",
-      "No one rate supplies a complete judgment of labor-market health. The source tables show which groups changed; a good explanation follows those movements rather than assuming that a lower percentage must be good news."
+      "The unemployment rate measures people without work who meet the statistical definition of unemployment relative to the labor force. It does not count every adult without a job as unemployed. Students, retirees, caregivers and others outside the labor force can have very different circumstances. Understanding who enters the denominator is essential before interpreting a lower rate as an unqualified improvement.",
+      "The Bureau of Labor Statistics derives these measures from the household survey, rather than simply counting unemployment-benefit claims. Its definitions distinguish employment, unemployment and being outside the labor force. Unemployed people generally must be available for work and have actively sought it during the preceding four weeks, with an exception for certain people on temporary layoff. These categories describe survey status, not a judgment about effort or need.",
+      "Build the headline rate from its parts",
+      "Consider a hypothetical civilian noninstitutional population aged 16 and older of 1,000 people. Suppose 570 are employed and 30 meet the unemployment definition. The labor force is 600, comprising both groups. The headline unemployment rate, commonly called U-3, is 30 divided by 600, or 5%. The remaining 400 people are outside the labor force in this example.",
+      "Two additional ratios describe the same starting point. Labor-force participation is 600 divided by 1,000, or 60%. The employment-population ratio is 570 divided by 1,000, or 57%. All three figures use consistent underlying counts but answer different questions: unemployment within the labor force, engagement with the labor force and employment across the relevant population.",
+      "A falling rate can have different explanations",
+      "Suppose 10 of the 30 unemployed people stop active job searching and no longer meet the unemployment definition. Employment stays at 570, while unemployment falls to 20 and the labor force to 590. The unemployment rate drops to approximately 3.39%. Participation falls to 59%, and the employment-population ratio remains 57%. The lower unemployment rate did not come from additional employment in this scenario.",
+      "Now return to the original starting point and imagine instead that 20 unemployed people find jobs. Employment rises to 590, unemployment falls to 10 and the labor force remains 600. The unemployment rate becomes approximately 1.67%, while the employment-population ratio rises to 59%. These are separate hypothetical scenarios, not sequential changes. Comparing their components reveals why an identical direction in the headline need not describe the same economic development.",
+      "U-6 broadens the measure of unused labor",
+      "BLS publishes alternative measures that capture additional forms of underutilization. U-6 includes unemployed people, people marginally attached to the labor force and people working part time for economic reasons. Marginally attached people meet additional conditions involving their desire and availability for work and earlier job search; they are not simply everyone outside the labor force. The denominator also expands to include the marginally attached group.",
+      "Extend the original example with 10 qualifying marginally attached people among those outside the labor force and 20 qualifying part-time workers among the 570 employed. The illustrative U-6 numerator is 30 plus 10 plus 20, or 60. The denominator is 600 plus 10, or 610. U-6 is therefore approximately 9.84%, compared with the original 5% U-3. The part-time workers remain employed and are not added again to the denominator.",
+      "Participation needs demographic context",
+      "A decline in participation can reflect weak job opportunities, but it can also reflect retirement, schooling or other choices and constraints. An aging population can change the aggregate ratio even when participation within particular age groups behaves differently. Reading the total alongside age-specific measures helps separate a shift in population composition from a change in labor-market engagement within comparable groups.",
+      "The same discipline applies to employment-population ratios. A national movement does not identify which workers gained jobs, whether hours changed or whether earnings kept pace with prices. Those questions require additional series. A single ratio is useful precisely because it has a clear definition; asking it to summarize every dimension of work gives it more explanatory power than the underlying calculation supports.",
+      "Payroll growth and unemployment are separate observations",
+      "The establishment survey counts payroll jobs, while the household survey measures people and their employment status. One person can hold multiple jobs. Differences in coverage, concepts and sampling also matter. Payroll growth and a change in unemployment therefore do not have to match one for one. An apparent contradiction may reflect different questions rather than evidence that one report is fabricated.",
+      "For a monthly release, start with the unemployment rate, participation and employment-population ratio, then examine the changes in people behind them. Add U-6 when the question concerns broader underutilization, and use comparable seasonally adjusted series when comparing months. Finally, distinguish a single observation from a sustained pattern. The most informative account explains how employment and labor-force status changed, rather than turning the headline rate into a verdict on its own."
     ],
     "sources": [
       {
-        "label": "US BLS: Labor-force concepts and alternative unemployment measures",
+        "label": "BLS: Labor-force definitions and alternative underutilization measures",
         "url": "https://www.bls.gov/cps/definitions.htm"
+      },
+      {
+        "label": "BLS: How the government measures unemployment",
+        "url": "https://www.bls.gov/cps/cps_htgm.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp",
     "imageMedium": "assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp",
@@ -3742,20 +3794,35 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "Control of a majority of Bitcoin's mining power would be a serious threat to transaction confirmation. It would not give the attacker a master key to other people's coins or permission to make validating nodes accept arbitrary transactions.",
-      "Miners propose blocks through proof of work. Nodes check those blocks against the rules they enforce. Among competing valid chains, accumulated work guides which chain is followed. Mining influence and control over validation rules are different capabilities.",
-      "An attacker with sufficient mining power may reorganize recent blocks, exclude transactions or reverse its own recent payments in a double-spend attempt. The ability and cost depend on the network and on how much confirmation history a recipient accepts.",
-      "The attacker cannot simply forge another holder's signature or make honest nodes accept a subsidy that violates their rules. A majority-hash-power scenario is therefore different from a compromise of cryptographic keys or a software vulnerability.",
-      "Fork terminology also needs care. A chain split can occur when competing blocks appear; a change to protocol rules raises separate questions about compatibility and adoption. Calling a proposal a fork does not establish that the entire network has accepted it.",
-      "Reports of an attack should identify the observed chain behavior, transactions affected and evidence about computing power. A disagreement between software projects is not, on its own, evidence of a successful network attack."
+      "A 51% attack describes a threat to proof-of-work transaction ordering when an attacker controls a majority of mining power. It does not mean the attacker obtains everyone's private keys or gains permission to rewrite every rule Bitcoin nodes enforce. The distinction matters because transaction history, ownership authorization and the validity of newly issued coins are related but separate parts of the system.",
+      "Bitcoin's developer documentation describes how nodes follow the valid chain with the greatest cumulative proof of work. Calling that simply the longest chain can obscure the role of difficulty and accumulated work. An attacker attempting to replace recent history still needs a competing chain that satisfies the rules enforced by the nodes accepting it. More mining power does not make an otherwise invalid transaction valid.",
+      "What a history change can affect",
+      "The central payment risk is a reorganization that displaces transactions previously included in accepted blocks. A dishonest payer could seek to replace the history containing their own payment with a valid competing history in which that payment did not occur. A merchant that already delivered an irreversible product would then face a different settlement outcome from the one it initially observed.",
+      "Consider an illustrative merchant delivering a $20,000 item after seeing a payment confirmed. If that payment is later displaced and does not return to the accepted chain, the merchant may have lost the item without retaining the expected proceeds. This example describes the economic exposure, not an estimate of attack feasibility. It also does not imply that an attacker can spend unrelated coins without the authorization required by the protocol.",
+      "The percentage is not a switch",
+      "A majority provides a sustained expected advantage in accumulating work, but individual block discoveries remain uncertain. A miner with 51% of hash power does not win every short interval. Conversely, a participant below half can sometimes produce a successful competing sequence. Bitcoin's white paper analyzes the relationship between an attacker's share, confirmation depth and the probability of catching up under its assumptions.",
+      "For a business accepting payment, that means there is no confirmation count that converts probabilistic settlement into a mathematical guarantee under every possible circumstance. Waiting for more work to accumulate changes the risk assessment, but so do the value at stake and the strength of a potential attacker. A $10 purchase and a transaction worth millions need not have identical operational policies merely because both use Bitcoin.",
+      "Nodes still enforce their own rules",
+      "Mining and validation are different functions. Mining power helps determine which valid history accumulates the most work. Nodes verify that blocks and transactions obey the consensus rules they run. A majority miner cannot make those existing nodes accept arbitrary inflation or a payment lacking the required signature simply by attaching more proof of work to it.",
+      "This distinction limits broad claims that a majority attacker can do anything. It does not make an attack harmless. Disrupting confirmation, undermining confidence and reversing certain payments can still cause substantial losses. For an investor assessing the network, the relevant questions concern the type of failure possible, the parties exposed and how disruption could affect economic activity. The label alone supplies none of those amounts.",
+      "Not every fork is an attack",
+      "Miners can discover competing valid blocks close together without malicious behavior. Subsequent work resolves which branch remains in the accepted history. A protocol fork addresses a different issue: changes to rules or software compatibility. Bitcoin's developer guide distinguishes soft-fork and hard-fork rule changes. Treating every temporary branch, software disagreement and deliberate reorganization as the same event makes technical reporting less informative.",
+      "A useful incident report specifies what was observed. Did a payment disappear from the accepted chain? How many blocks were replaced? Was there a rule change, a software problem or competing valid work? Which observations are independently documented? Those questions prevent a dramatic phrase from substituting for evidence about the actual failure and its effects on users.",
+      "Economic cost belongs beside technical capability",
+      "Control over mining power is not identical to a guaranteed profitable attack. Equipment, electricity, foregone legitimate revenue and the market's response can affect the economics. Suppose an illustrative attempt produces a $200,000 benefit but requires $500,000 in incremental cost. Even a successful outcome would leave a $300,000 loss before any other consequences. Real estimates require evidence for every input, including what resources were already available.",
+      "Pool statistics also require interpretation. A pool's reported share of recent blocks is an observation over a particular period, not proof that one owner permanently controls all participating machines. Before converting a concentration chart into a security conclusion, identify what the chart measures, its time window and the assumptions about coordination. Payment policies should rest on the actual exposure and evidence, rather than a single percentage presented without context."
     ],
     "sources": [
       {
-        "label": "Bitcoin Developer Guide: Block chain and proof of work",
+        "label": "Bitcoin Developer Guide: Block chains, validation and consensus changes",
         "url": "https://developer.bitcoin.org/devguide/block_chain.html"
+      },
+      {
+        "label": "Bitcoin white paper: Proof of work and settlement probabilities",
+        "url": "https://bitcoin.org/bitcoin.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp",
     "imageMedium": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
@@ -3857,20 +3924,35 @@ const TTN_ARTICLES = [
       "ETH"
     ],
     "body": [
-      "A DeFi transaction can execute without a bank employee approving it. It still depends on rules, collateral, price data and software that someone designed and may retain the power to change.",
-      "Smart contracts implement specified instructions on a blockchain. A lending protocol may use collateral requirements and liquidation rules to support loans from a pool. Those checks replace parts of a conventional lending process, but they also make the quality of price inputs and the timing of execution critical.",
-      "Automated market makers use pools and pricing rules rather than relying solely on a conventional order book. A trade changes pool balances, and the executed price can worsen as trade size grows relative to available liquidity. Fees do not eliminate that price impact.",
-      "Liquidity providers earn under the pool's rules while accepting exposure to changes in its assets. Their return can differ from simply holding the same assets outside the pool. The difference depends on price movements, fees and the particular design.",
-      "Oracle failures, contract vulnerabilities, governance decisions, administrator keys and interfaces can all introduce risk. A published audit is useful evidence about a defined review; it cannot guarantee that a protocol is free of vulnerabilities or future misuse.",
-      "Assess the actual controls and dependencies before relying on the decentralization label. Software can make execution predictable while the assets, price feeds and permissions remain uncertain."
+      "Decentralized finance, or DeFi, describes financial services implemented through blockchain-based applications and smart contracts. Users may exchange tokens, provide liquidity or borrow against collateral without following the same operational path as a conventional bank account. Removing a familiar intermediary does not remove the functions that intermediary performed, or the risks attached to those functions.",
+      "Ethereum's documentation describes DeFi applications and their connections to tokens and smart contracts. Its security guidance explains why contract design and external dependencies require careful scrutiny. A useful evaluation starts by tracing the actual arrangement: which assets the user supplies, what code can move them, how prices are obtained and who can change important parameters. The branding is less informative than those concrete permissions.",
+      "Separate the asset from the application",
+      "A token, the blockchain recording it and the application using it are distinct layers. An application might operate as intended while the token loses value. A token might retain its market price while a vulnerable contract puts deposited assets at risk. A website can also present a misleading interface even when a legitimate underlying protocol exists elsewhere. Confidence in one layer does not automatically transfer to the others.",
+      "Consider a hypothetical user holding $10,000 of tokens in a personal wallet. Depositing them into a lending application changes the user's exposure. They now depend on the contract's accounting and withdrawal rules, as well as the asset's price and the network's operation. If a separate receipt token represents the deposit, understanding what that receipt can actually redeem is another step rather than proof that the original exposure disappeared.",
+      "Collateral can fall faster than a borrower can respond",
+      "Suppose a borrower supplies collateral worth $10,000 and borrows $6,000 of a dollar-denominated asset. The initial loan-to-value ratio is 60%. If the collateral falls to $7,000 while the debt remains $6,000, that ratio rises to approximately 85.7%. Under an illustrative liquidation threshold of 85%, the position has crossed its limit. The threshold in this example is hypothetical, not a universal protocol rule.",
+      "Additional collateral or repayment could change the ratio, but the user cannot assume an unlimited window to act. Transaction processing, fees and rapid price movements can affect the result. A collateralized loan is therefore not equivalent to a loan with no loss risk. The practical questions include the liquidation trigger, possible penalties and whether the user can obtain the repayment asset when markets are stressed.",
+      "Price feeds create another dependency",
+      "Contracts using external asset values need a way to bring those observations into their calculations. These price inputs are often called oracles. A market price on one venue may differ from the value a protocol uses at a particular moment. Security analysis therefore needs to consider the source, update process and behavior of the input when trading becomes thin or volatile.",
+      "For an illustrative borrower near a threshold, a small difference between two price measures could determine whether liquidation becomes possible. That does not prove the oracle is defective; it shows why the definition matters. A sensible position review uses the protocol's actual collateral rules rather than assuming the price displayed on a general market dashboard is the sole number controlling the contract.",
+      "Quoted yield is not the same as a realized return",
+      "A yield figure may include borrower interest, trading fees or newly issued incentive tokens. Those components have different economic sources. In a hypothetical stable-value calculation, $10,000 earning 8% over a year produces $800 before costs. If relevant transaction and service costs total $250, the remainder is $550, or 5.5%, before taxes and any asset-price changes. The calculation assumes the principal remains worth $10,000.",
+      "If that assumption fails, the yield alone does not describe the outcome. Incentive tokens may also change in value before they can be sold. Liquidity providers face an additional question about how the composition of their position changes as relative prices move. Compare the final value and cash flows with the assets originally supplied, rather than treating the displayed annualized percentage as a promised bank-like payment.",
+      "Audits and decentralization claims need specific meanings",
+      "A security review can identify problems within its scope, but it cannot guarantee every future interaction or software change. Governance and administrative permissions also deserve attention. Ask whether someone can upgrade a contract, pause activity or alter risk parameters, and how those powers are controlled. The relevant answer belongs to the particular application and version, not to DeFi as a single category.",
+      "Stablecoins can introduce claims on reserves or institutions outside the blockchain, depending on their design. Bridges can add another set of contracts and validation assumptions. A complete account follows the whole path to redemption, including those dependencies. DeFi becomes easier to assess when the analysis names each obligation and failure point instead of assuming that visible code makes every financial and operational risk transparent."
     ],
     "sources": [
       {
-        "label": "Ethereum documentation: DeFi mechanisms and risks",
+        "label": "Ethereum documentation: Decentralized finance applications",
         "url": "https://ethereum.org/defi/"
+      },
+      {
+        "label": "Ethereum developer documentation: Smart-contract security and external dependencies",
+        "url": "https://ethereum.org/developers/docs/smart-contracts/security/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/defi-basics-explained-480.webp",
     "imageMedium": "assets/responsive/defi-basics-explained-960.webp",
@@ -3888,20 +3970,35 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "Selling shareholders may focus on the premium in a take-private offer. The company's employees, creditors and new owners face another question: what financial obligations will the business carry once it leaves the public market?",
-      "A take-private transaction moves a listed business into private ownership. It may use debt, equity or a combination; a leveraged buyout specifically relies on borrowing as an important part of its financing. Not every transaction has the same capital structure.",
-      "Debt can magnify the equity owners' gains if the business performs well. It also creates interest payments, covenants and refinancing dates that remain due when earnings disappoint. The value of a future sale does not pay today's debt service.",
-      "A restructuring plan may include operating improvements, asset sales or changes in investment. Those assumptions should be separated from gains attributed to leverage or to an optimistic future valuation. Each has a different path to realization.",
-      "A public-company transaction also requires its legal process, disclosures and approvals. A reported proposal is not a closed deal, and a headline premium is not an assured payment before the conditions have been met.",
-      "The financing documents and downside operating case reveal more than the strategic pitch. A private owner can pursue a different plan, but leaving the stock exchange does not reduce the underlying cost of debt or the need to generate cash."
+      "A take-private transaction removes a company's shares from public trading after an acquisition. A leveraged buyout, or LBO, finances a purchase with a substantial amount of borrowing alongside equity capital. The concepts often overlap, but taking a company private does not automatically specify its financing, and leveraged acquisitions can involve businesses that were already privately owned.",
+      "The attraction for an equity buyer is straightforward: debt allows control of a larger business with less initial equity. The difficulty is equally direct. Interest and repayment obligations must be supported by the company's cash generation or other available funding. SEC investor guidance on private equity describes leverage as a source of additional risk. A financing structure can amplify the outcome without improving the underlying business.",
+      "Separate business value from equity value",
+      "Consider a hypothetical acquisition at an enterprise value of $100 million, financed with $60 million of net debt and $40 million of equity. Assume the business is later sold for an enterprise value of $120 million, with net debt unchanged. After repaying that debt, equity holders receive $60 million. Their gain is $20 million, or 50% of their original equity, before fees and other costs.",
+      "Now change only the exit enterprise value to $80 million. The same $60 million debt leaves $20 million for equity holders, a 50% loss. A 20% movement in business value has produced a much larger percentage change in equity. These simplified examples ignore interim distributions, taxes and transaction expenses. They show the leverage mechanism rather than a prediction of what a particular deal will earn.",
+      "Debt repayment can increase equity without a higher valuation",
+      "Return to the original $100 million enterprise value. Suppose the company uses operating cash over several years to reduce net debt from $60 million to $40 million. If it is then sold for the same $100 million business value, equity holders receive $60 million rather than the original $40 million. The business did not need a higher sale price to increase the residual equity claim.",
+      "That result is not free money. The $20 million debt reduction required cash that could otherwise have supported investment, acquisitions or distributions. A credible model explains how the company generated that cash while maintaining the business. If repayment depended on cutting necessary maintenance or delaying essential spending, the apparent improvement in equity could come with damage to future operating value.",
+      "Operating earnings are not the entire debt-service budget",
+      "Imagine annual cash generation of $15 million before interest, taxes, capital expenditure and principal payments. Interest costs $6 million, cash taxes $2 million, capital expenditure $4 million and scheduled principal payments $2 million. Only $1 million remains under these illustrative assumptions. A one-million-dollar increase in interest consumes the entire cushion even if the operating figure stays unchanged.",
+      "The example also explains why an EBITDA multiple is insufficient on its own. EBITDA is not a bank balance, and it does not deduct all the cash uses a borrower faces. Working-capital needs can absorb additional money when customers pay slowly or inventory builds. A model should connect operating performance to actual cash available, rather than treating an adjusted earnings measure as automatically distributable cash.",
+      "Refinancing and exit assumptions deserve separate tests",
+      "A debt maturity creates a deadline. A company may need to repay borrowing, refinance it or sell assets, and the available terms can differ from the assumptions made at acquisition. Floating-rate exposure can change interest expense before maturity. Fixed-rate debt can avoid that immediate repricing while still leaving a future refinancing decision. The relevant details come from the actual financing agreements.",
+      "Exit valuation is another independent assumption. A deal model may work because operating earnings grow, debt falls or the buyer expects a richer valuation multiple later. Those are different sources of return with different evidence behind them. Test the purchase at an unchanged exit multiple and with slower repayment. If the projected return depends mainly on a higher resale multiple, the forecast is making a substantial market assumption.",
+      "Going private changes the investor's position",
+      "For the former public shareholder, the immediate questions include the consideration received, closing conditions and any remaining exposure under the transaction terms. For the private equity investor, capital may remain committed for years without an easily traded position. The SEC's private-equity guidance highlights this illiquidity and the importance of understanding fund documents and fees.",
+      "A sound assessment therefore keeps three scorecards: the company's operating performance, its debt obligations and the equity investor's net cash flows. Strong performance in one does not settle the other two. The business can grow while equity disappoints because the entry price was too high; equity can benefit from repayment while the operating company retains little room for error. The financing deserves the same scrutiny as the acquisition story."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC Investor.gov: Private equity, leverage and liquidity risks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/private-equity"
+      },
+      {
+        "label": "SEC: Financial statements and the distinction between earnings and cash",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp",
@@ -4272,24 +4369,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "Oil held in a government reserve is useful only if it can reach the market that needs it. An emergency release can bridge a disruption, but storage volume alone does not determine how quickly drivers receive additional gasoline or diesel.",
-      "The US Strategic Petroleum Reserve holds crude oil for supply emergencies and other uses authorized under law. Crude is an input that must be transported and processed. A disruption in refinery or distribution capacity can therefore limit the benefit of releasing additional barrels.",
-      "A release has a size, delivery schedule and transaction structure. An outright sale differs from an exchange under which oil is later returned under agreed terms. The announcement should be read with those details before comparing it with a daily supply shortfall.",
-      "Reserves are finite. Replenishment requires decisions about timing, price, storage conditions and delivery. A temporary flow of oil can moderate an immediate shortage without removing the conditions that caused it.",
-      "Other countries may use emergency stocks under their own arrangements, and coordinated actions can increase the total available supply. Their effects still depend on physical demand, logistics and how long the disruption lasts.",
-      "Official inventory and release documents provide the baseline for reporting. A headline about the number of barrels is incomplete without when they can arrive, which bottleneck they address and what obligations follow the release."
+      "The U.S. Strategic Petroleum Reserve is an emergency stock of crude oil. It provides a buffer when petroleum supplies are disrupted, but a reserve announcement is not equivalent to an immediate delivery of gasoline to every filling station. Understanding the policy requires separating barrels stored, barrels that can be delivered over time and the products consumers ultimately need.",
+      "The Department of Energy describes the reserve as a tool for reducing the impact of petroleum supply interruptions. Its Gulf Coast storage facilities use salt caverns. Releases and exchanges follow different legal and operational arrangements, so a headline about oil leaving storage does not always describe a permanent sale. The terms of the specific action matter more than a general label such as tapping the reserve.",
+      "A stock must be translated into a daily flow",
+      "Consider a hypothetical disruption removing one million barrels a day from available supply for 60 days. The cumulative shortfall is 60 million barrels. A reserve release of 500,000 barrels a day for 20 days supplies 10 million barrels. It offsets half the daily shortfall during those 20 days, while covering only one-sixth of the total volume missing over the full disruption.",
+      "Those calculations explain why a release can be meaningful without solving the entire problem. Duration and delivery rate belong beside the announced volume. A large stock that reaches buyers slowly provides a different kind of protection from a smaller amount available immediately. The example assumes each released barrel is usable where needed; actual results also depend on the oil's characteristics and the transport system connecting storage with buyers.",
+      "Crude oil and gasoline are different markets",
+      "Crude normally requires refining before it becomes gasoline, diesel or other finished products. Releasing crude cannot by itself restore a refinery that has lost power or repair a damaged pipeline. If the immediate shortage is in refining capacity or product distribution, additional crude may address only one part of the chain. The location of the disruption is therefore essential to interpreting the policy response.",
+      "Imagine two hypothetical regions with identical crude prices. One has functioning refineries and ample product transport; the other faces a refinery outage. An additional crude delivery could support more finished fuel in the first region while leaving the second region's immediate bottleneck unresolved. That does not make the reserve useless. It means the relevant question is which physical constraint the release is capable of easing, and on what timetable.",
+      "Sales and exchanges create different obligations",
+      "An outright sale transfers oil under the terms of the sale. An exchange typically involves oil delivered now and returned later, with additional barrels under the agreed arrangement. DOE describes exchanges as one available response to supply interruptions. A report should identify which mechanism is being used before drawing conclusions about the lasting change in reserve holdings or the government's eventual receipts.",
+      "For an illustrative exchange, suppose a recipient receives one million barrels and must later return 1.02 million. The extra 20,000 barrels are part of the hypothetical agreement, not a standard rate for every operation. Their eventual dollar value depends on future oil prices. Comparing today's delivery with tomorrow's return therefore requires attention to timing and contract terms, rather than treating the difference as an immediate cash profit.",
+      "A price reaction is not a complete evaluation",
+      "Oil prices reflect global supply, demand, inventories and expectations, as the Energy Information Administration explains. A reserve announcement can change expectations before the oil is physically delivered. Prices can also rise after an announcement if the underlying disruption worsens. The observed change alone cannot reveal what prices would have done without the release, which is the missing comparison in many quick verdicts.",
+      "A hypothetical market that rises from $80 to $85 after a release might otherwise have risen to $95, or it might have followed exactly the same path. Neither alternative can be inferred from those two observed prices. Evaluating the policy needs evidence about volumes delivered, the disruption, other supply responses and product availability. A single price chart does not isolate all of those influences.",
+      "Replenishment is a separate decision",
+      "Replacing released barrels requires procurement, delivery and available storage arrangements. Buying at a lower price than an earlier sale may improve the cash comparison, but the timing cannot be assessed only with hindsight. Emergency capacity has value during the period when barrels are absent. A refill decision also has to consider the physical reserve's condition and the risks officials are preparing to address.",
+      "For readers following a particular release, record the announced quantity, scheduled delivery period, transaction type and relevant supply bottleneck. Then distinguish authorized amounts from completed deliveries and later returns. Those details provide a more useful account than treating every barrel as an identical unit of immediate price relief. The reserve buys flexibility during disruptions; its effectiveness depends on how that flexibility matches the problem."
     ],
     "sources": [
       {
-        "label": "US Department of Energy: Strategic Petroleum Reserve",
+        "label": "U.S. Department of Energy: Strategic Petroleum Reserve",
         "url": "https://www.energy.gov/hgeo/opr/strategic-petroleum-reserve"
       },
       {
-        "label": "US EIA: Oil prices and their drivers",
+        "label": "EIA: Oil prices and market influences",
         "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/strategic-petroleum-reserve-explained-480.webp",
     "imageMedium": "assets/responsive/strategic-petroleum-reserve-explained-960.webp",
@@ -5048,20 +5156,35 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A change in the government's cash balance can affect bank reserves without a new monetary-policy decision. The effect follows the transactions through the Federal Reserve's balance sheet, not a direct instruction for stock prices to rise or fall.",
-      "The Treasury General Account holds government cash at the Fed. Payments into it and spending from it move balances between the government's account and the banking system. Other Fed liabilities and operations help determine the net result.",
-      "Treasury spending can increase the balances received by private parties and their banks. Raising funds can move cash in the other direction. The reserve effect of borrowing depends on who buys the securities and where the money was held before the purchase.",
-      "For example, funding sourced from a money market fund's reverse-repurchase position has different immediate balance-sheet implications from funding paid out of a bank deposit. The headline change in the TGA cannot by itself identify every offset.",
-      "Treasury also manages cash to meet payment needs, and its borrowing schedule interacts with taxes, maturities and other flows. A large move can reflect timing rather than a new objective to stimulate markets.",
-      "Analyze the funding source and other Fed balance-sheet changes before calling a TGA move a liquidity injection or withdrawal of a particular size. Translating that accounting effect into an asset-price forecast requires another layer of evidence."
+      "The Treasury General Account, usually shortened to TGA, is the U.S. Treasury's account at the Federal Reserve. It holds cash used for government payments. Changes in that balance can affect banking-system reserves, which is why investors follow it alongside the Fed's balance sheet. The accounting link is real, but it is not a mechanical forecast for stock prices or a complete measure of financial conditions.",
+      "The New York Fed describes reserves and the TGA as different liabilities of the Federal Reserve. When other balance-sheet items stay unchanged, an increase in one liability must be matched by a decrease elsewhere. In a simplified setting, money moving into the Treasury's account reduces bank reserves, while government spending moves balances back toward the banking system. Real-world interpretation requires checking the other entries too.",
+      "Follow one payment through the accounts",
+      "Start with a hypothetical Fed balance sheet containing $1,000 of assets and three liability categories: $600 of bank reserves, $200 in the TGA and $200 of other liabilities. This illustration omits capital and many real categories to isolate the transfer. A taxpayer then pays $100 from a commercial-bank deposit into the Treasury's account, with all unrelated transactions held fixed.",
+      "The taxpayer's deposit falls by $100. The bank settles the payment using reserves, leaving aggregate reserves at $500, while the TGA rises to $300. Fed assets are still $1,000, and the three liability categories still sum to $1,000. No asset purchase or sale was necessary for this change. The example is a transfer between liability categories rather than a contraction in the size of the central bank's balance sheet.",
+      "Government spending reverses that particular flow",
+      "Now suppose Treasury spends $60 from the same account on a payment to a recipient using a commercial bank. In the simplified example, the TGA falls to $240 and bank reserves rise to $560. The recipient's bank deposit increases as the payment is credited. Compared with the original starting point, the combined tax and spending sequence leaves reserves $40 lower and the TGA $40 higher.",
+      "The timing matters even when total receipts and spending eventually balance. A large collection followed by payments several days later can produce a temporary shift in reserves. That helps explain why a daily cash-management operation can attract market attention without representing a new decision about the desired level of interest rates. The temporary movement and the policy stance are separate questions.",
+      "Do not confuse liability shifts with quantitative tightening",
+      "Quantitative tightening concerns a reduction in the Fed's securities holdings under its balance-sheet policy. A TGA increase can reduce reserves even when Fed assets do not change, as the hypothetical tax payment shows. Conversely, other liability movements can offset some effects of declining assets. Reading only the TGA or only the securities portfolio leaves part of the accounting picture out of view.",
+      "A second hypothetical week makes the distinction clear. Suppose Fed assets rise by $50 while the TGA rises by $80, with other non-reserve liabilities unchanged. Reserves decline by $30, despite the expansion in assets. If assets instead decline by $50 and the TGA declines by $80, reserves rise by $30 under the same simplifying assumptions. These are accounting examples, not forecasts of a particular week's operations.",
+      "Aggregate reserves do not describe every bank",
+      "A banking system can hold substantial reserves in total while individual institutions face different payment needs or funding costs. The New York Fed's discussion of an ample-reserves framework emphasizes that reserve demand is not a single fixed quantity. Distribution, settlement activity and institutions' willingness to lend all affect how comfortable a given aggregate balance feels in money markets.",
+      "That is why a claim that a TGA movement releases a fixed amount of buying power into equities goes beyond the evidence. A deposit credit does not tell its recipient to buy shares. A bank reserve credit does not specify a new loan. The connection between payment flows, funding rates, credit decisions and asset prices passes through choices by many institutions, not one predetermined allocation rule.",
+      "Match the observation period to the claim",
+      "Federal Reserve H.4.1 releases provide balance-sheet information with different observation conventions, including weekly averages and Wednesday levels. A comparison should use consistent columns and dates. A weekly average can move differently from an end-of-period observation when payments are concentrated around particular days. Mixing the two can create an apparent discrepancy that reflects measurement rather than a hidden policy operation.",
+      "A useful TGA report therefore states the observation period, shows what happened to reserves and Fed assets, and checks other material liabilities. It then treats any claim about market consequences as an interpretation requiring separate evidence. The account helps explain the plumbing of government cash flows. It becomes misleading when a balance-sheet identity is presented as a reliable trading signal."
     ],
     "sources": [
       {
-        "label": "New York Fed: Reserve balances and the Treasury account",
+        "label": "New York Fed, February 12, 2026: Monetary policy implementation and reserve balances",
         "url": "https://www.newyorkfed.org/newsevents/speeches/2026/rem260212"
+      },
+      {
+        "label": "Federal Reserve: H.4.1 balance-sheet tables and observation periods",
+        "url": "https://www.federalreserve.gov/releases/h41/current/"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/treasury-general-account-liquidity-explained-480.webp",
     "imageMedium": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
@@ -5259,24 +5382,39 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A data-center investment can be useful to customers without earning an attractive return for its owner. The distinction depends on the price customers pay, the cost of serving them and the capital committed before the service begins.",
-      "Buildings, processors, electrical equipment and networking can require cash before recurring revenue arrives. Accounting depreciation follows different schedules from those payments. A reported operating margin and cash flow after investment therefore answer different questions.",
-      "Utilization determines how much work spreads those fixed costs. Capacity reserved for reliability is different from capacity idle because customers did not arrive. A high utilization figure is not sufficient if the work is sold at prices that fail to cover the service's full cost.",
-      "Firms also monetize AI differently. A cloud provider sells computing capacity, an application vendor may charge for subscriptions, and another company may seek savings in its own operations. Their spending-to-revenue ratios are not directly comparable without those business models.",
-      "Useful-life assumptions and replacement spending influence the eventual return. A newer chip can improve efficiency without making every older asset obsolete; equally, a long accounting life cannot guarantee that the installed equipment remains competitive.",
-      "Evidence of a successful investment includes paid recurring demand, service margins and cash generation after maintaining the capacity. A demonstration, a user count or a large spending commitment establishes none of those results on its own."
+      "An AI product can attract heavy use without generating attractive profits. The monetization gap is the distance between useful activity and a durable business model that captures enough revenue to cover delivery, support and investment. It is not a formal accounting line. It is a way to organize questions that user counts and impressive demonstrations leave unanswered.",
+      "The first distinction is between activity, contracted commitments, recognized revenue and collected cash. They need not occur at the same time. The SEC's guidance on financial statements and company filings helps readers locate the relevant disclosures. An investor still needs company-specific evidence to determine which costs and revenues actually belong to an AI offering, rather than assuming all growth reported by a diversified company comes from one product.",
+      "Start with a unit a customer will pay for",
+      "A product may charge per seat, request, token, completed task or negotiated contract. Each unit creates a different relationship between use and revenue. A subscription can bring predictable receipts while heavy users raise delivery costs. Usage billing can align receipts with activity, but customers may reduce consumption if the final bill exceeds the value they receive. The pricing model should be connected to the actual task being performed.",
+      "Consider a hypothetical service completing 20,000 billable requests in a month at ten cents each. Revenue is $2,000. Suppose model processing costs $700, human review $600 and attributable support $300. The remaining contribution is $400 before fixed costs. If product development and administration add $3,000 for that month, the service loses $2,600 under these assumptions despite positive contribution on its billable work.",
+      "Generated output is not necessarily accepted output",
+      "An inexpensive draft can become costly if it requires extensive correction or produces an unusable result. NIST's generative-AI risk profile provides a framework for examining risks and evaluating systems in their intended context. For a commercial product, the relevant quality question is whether the output meets the customer's requirements consistently enough to support the promised workflow and price.",
+      "Imagine a second hypothetical system producing 10,000 outputs at a processing cost of $600. The apparent cost is six cents per output. If only 6,000 are accepted for the intended task, processing cost alone becomes ten cents per accepted output. Human correction and rework would add more. This calculation is not a benchmark for any model; it shows how a change in the success denominator alters the business interpretation.",
+      "Retention distinguishes a trial from an enduring purchase",
+      "A launch can attract customers who experiment and then leave. The evidence for a lasting business becomes stronger when comparable customer groups continue paying after the initial trial period. Expansion within existing accounts also matters, but it should be considered alongside lost accounts and reduced spending. Gross expansion can create an optimistic picture if churn is omitted.",
+      "Suppose a hypothetical customer cohort starts a period with $100 of recurring revenue. Existing customers add $20 through expansion, while departures and reductions remove $30. The cohort ends with $90 before any new customers are added. Reporting only the $20 expansion would miss the 10% net decline in that group. New sales can still grow the total business, but the economics of replacing lost revenue deserve separate attention.",
+      "Infrastructure spending reaches the accounts in different ways",
+      "Cash paid for long-lived equipment and the expense recognized for using that equipment do not necessarily appear in the same period. The SEC's financial-statement guide distinguishes income reporting from cash-flow reporting. An assessment of AI economics should therefore examine both profitability and cash investment, while checking how the company allocates shared infrastructure costs across its services.",
+      "A fictional business could report improving operating margins while continuing to spend heavily on additional capacity. Another could reduce cash investment temporarily while still recognizing depreciation from earlier purchases. Neither observation alone settles whether the product earns a satisfactory return over its full life. The comparison needs a consistent period, a clear definition of invested capital and evidence that the equipment supports revenue customers will continue to pay.",
+      "Falling processing costs do not guarantee wider margins",
+      "If model delivery becomes cheaper, the benefit can go to the provider, the customer or both. Competition may push selling prices down. More demanding tasks may consume the savings through additional processing or review. A product that saves a customer substantial time could support better pricing, but that requires evidence about the workflow and alternatives rather than a general claim that AI is valuable.",
+      "A useful earnings assessment asks for the paid unit, net revenue per unit, relevant delivery costs, accepted-task quality, customer retention and cash investment. Where disclosures do not isolate those figures, say what remains unknown. The monetization gap narrows when recurring customer value becomes repeatable cash economics. A rising usage chart is one input to that assessment, rather than a substitute for it."
     ],
     "sources": [
       {
-        "label": "NIST: Generative Artificial Intelligence Risk Management Profile",
-        "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+        "label": "SEC: Financial statements, profit and cash-flow reporting",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       },
       {
-        "label": "SEC: Reading financial statements",
-        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+        "label": "SEC Investor.gov: Reading business and financial disclosures in Form 10-K",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"
+      },
+      {
+        "label": "NIST: Generative AI risk-management profile",
+        "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-18T14:42:13-04:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ai-monetization-gap-explained-480.webp",
     "imageMedium": "assets/responsive/ai-monetization-gap-explained-960.webp",

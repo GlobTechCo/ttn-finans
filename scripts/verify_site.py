@@ -69,6 +69,11 @@ def verify():
     card_version=hashlib.sha256((ROOT/'article-cards.js').read_bytes()).hexdigest()[:12]
     for name in ['index.html','analysis.html','tech-ai.html']:
         assert docs[name].xpath('//script[starts-with(@src,"article-cards.js")]/@src')==['article-cards.js?v='+card_version],(name,'stale card catalog')
+        bundle='home-editorial.js' if name=='index.html' else 'archive-editorial.js'
+        version=hashlib.sha256((ROOT/bundle).read_bytes()).hexdigest()[:12]
+        sources=docs[name].xpath('//script/@src')
+        assert sources.count(bundle+'?v='+version)==1,(name,'stale editorial bundle')
+        assert not any(s.split('?')[0] in {'editorial-meta.js','archive-pagination.js','articles-ui.js','tech-ai-home.js','articles-archive.js','tech-ai.js'} for s in sources),(name,'duplicate editorial component')
     assert docs['index.html'].xpath('//noscript')
     assert 'This page could not be found' in docs['404.html'].text_content()
     assert docs['404.html'].xpath('//base/@href')==[BASE]

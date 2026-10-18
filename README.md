@@ -14,6 +14,9 @@ a separate external news feed, TradingView quotes and financial calculators.
 - `articles.js`: canonical editorial catalog, including full article text.
 - `article-cards.js`: generated compact catalog for homepage and archive cards.
   It excludes full bodies and source lists to reduce visitor downloads.
+- `home-editorial.js`, `archive-editorial.js`: generated bundles of the editorial
+  display components, in dependency order. Edit the individual source components
+  and regenerate; news, quotes and their initialization remain separate.
 - `style.css`, `editorial-theme.css`, `footer.css`, `homepage-layout.css`,
   `archive-pagination.css`, `editorial-related.css`: shared presentation.
 - `editorial-theme.js`, `editorial-meta.js`, `archive-pagination.js`: theme,
@@ -56,7 +59,8 @@ node scripts/test-independent-loading.cjs
 Install optional verification/image dependencies with
 `python3 -m pip install -r requirements-maintenance.txt`.
 
-`refresh_static_editorial.py` regenerates the compact card catalog, current
+`refresh_static_editorial.py` regenerates the compact card catalog, editorial
+JavaScript bundles with content-based URL versions, current
 homepage/archive fallbacks and full topic directories. It preserves existing
 Related reading selections and adds a block to pages that lack one. Review new
 articles in `scripts/editorial_topics.py` to assign a topic and specific related
