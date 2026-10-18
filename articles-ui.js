@@ -70,7 +70,7 @@ const TTNArticlesUI = (() => {
     const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
     el.classList.add('editorial-archive-grid');
-    el.innerHTML = shown.map(a => TTNArchive.card(a, 'Market Analysis', tickerChipsHtml(a))).join('');
+    el.innerHTML = shown.map(a => TTNArchive.card(a, 'Market Analysis', tickerChipsHtml(a), {home:true})).join('');
 
     if (sorted.length > HOMEPAGE_LIMIT) {
       el.insertAdjacentHTML(

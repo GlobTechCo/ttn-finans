@@ -35,7 +35,7 @@ const techIds=new Set([
 const all=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
 const selected=all.slice(0,4);
 el.classList.add('editorial-archive-grid');
-el.innerHTML=selected.map(a=>TTNArchive.card(a, 'Tech & AI')).join("")||'<p class="tech-ai-intro">Technology reporting is coming to TTN.</p>';
+el.innerHTML=selected.map(a=>TTNArchive.card(a, 'Tech & AI', '', {home:true})).join("")||'<p class="tech-ai-intro">Technology reporting is coming to TTN.</p>';
 if(all.length)el.insertAdjacentHTML("afterend",'<p class="tech-ai-view-all"><a href="tech-ai.html" class="view-all-analysis">View all '+all.length+' Tech &amp; AI articles &rarr;</a></p>');
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init()})();

@@ -1,0 +1,2633 @@
+{
+  "summary": {
+    "covers": 131,
+    "heroTags": 131,
+    "originalBytes": 40289974,
+    "smallBytes": 3076004,
+    "mediumBytes": 9730286,
+    "originalsPreserved": true,
+    "aggregatorChanged": false
+  },
+  "images": [
+    {
+      "original": {
+        "path": "assets/editorial/13f-filings-explained-editorial.webp",
+        "bytes": 200284,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/13f-filings-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 16102
+        },
+        {
+          "path": "assets/responsive/13f-filings-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 48074
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-agents-enterprise-roi-2026.webp",
+        "bytes": 206476,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-agents-enterprise-roi-2026-480.webp",
+          "width": 480,
+          "bytes": 19658
+        },
+        {
+          "path": "assets/responsive/ai-agents-enterprise-roi-2026-960.webp",
+          "width": 960,
+          "bytes": 55706
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-agents-india-cert-in-security-warning-2026.webp",
+        "bytes": 317866,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-480.webp",
+          "width": 480,
+          "bytes": 21190
+        },
+        {
+          "path": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp",
+          "width": 960,
+          "bytes": 63650
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-agents-websites-block-access-2026.webp",
+        "bytes": 106538,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-agents-websites-block-access-2026-480.webp",
+          "width": 480,
+          "bytes": 12392
+        },
+        {
+          "path": "assets/responsive/ai-agents-websites-block-access-2026-960.webp",
+          "width": 960,
+          "bytes": 32334
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-boom-capital-financing-2026.webp",
+        "bytes": 564934,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-boom-capital-financing-2026-480.webp",
+          "width": 480,
+          "bytes": 32582
+        },
+        {
+          "path": "assets/responsive/ai-boom-capital-financing-2026-960.webp",
+          "width": 960,
+          "bytes": 115536
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-capex-nasdaq-correction.webp",
+        "bytes": 198812,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-capex-nasdaq-correction-480.webp",
+          "width": 480,
+          "bytes": 19384
+        },
+        {
+          "path": "assets/responsive/ai-capex-nasdaq-correction-960.webp",
+          "width": 960,
+          "bytes": 55748
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-chips-bottlenecks-2026.webp",
+        "bytes": 375776,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-chips-bottlenecks-2026-480.webp",
+          "width": 480,
+          "bytes": 35546
+        },
+        {
+          "path": "assets/responsive/ai-chips-bottlenecks-2026-960.webp",
+          "width": 960,
+          "bytes": 112082
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-data-center-boom-power-delivery-debt-2026.webp",
+        "bytes": 459146,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-data-center-boom-power-delivery-debt-2026-480.webp",
+          "width": 480,
+          "bytes": 33056
+        },
+        {
+          "path": "assets/responsive/ai-data-center-boom-power-delivery-debt-2026-960.webp",
+          "width": 960,
+          "bytes": 122960
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-data-center-electricity-demand-2026.webp",
+        "bytes": 493014,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-data-center-electricity-demand-2026-480.webp",
+          "width": 480,
+          "bytes": 27482
+        },
+        {
+          "path": "assets/responsive/ai-data-center-electricity-demand-2026-960.webp",
+          "width": 960,
+          "bytes": 115740
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-inference-unit-economics-2026.webp",
+        "bytes": 269540,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-inference-unit-economics-2026-480.webp",
+          "width": 480,
+          "bytes": 26750
+        },
+        {
+          "path": "assets/responsive/ai-inference-unit-economics-2026-960.webp",
+          "width": 960,
+          "bytes": 78764
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-investment-central-banks-interest-rates-2026.webp",
+        "bytes": 432306,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-investment-central-banks-interest-rates-2026-480.webp",
+          "width": 480,
+          "bytes": 26580
+        },
+        {
+          "path": "assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp",
+          "width": 960,
+          "bytes": 82938
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-monetization-gap-explained.webp",
+        "bytes": 192256,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-monetization-gap-explained-480.webp",
+          "width": 480,
+          "bytes": 19122
+        },
+        {
+          "path": "assets/responsive/ai-monetization-gap-explained-960.webp",
+          "width": 960,
+          "bytes": 52430
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ai-search-publisher-economics-2026.webp",
+        "bytes": 234474,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ai-search-publisher-economics-2026-480.webp",
+          "width": 480,
+          "bytes": 22586
+        },
+        {
+          "path": "assets/responsive/ai-search-publisher-economics-2026-960.webp",
+          "width": 960,
+          "bytes": 64114
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/analyst-ratings-price-targets-explained-editorial.webp",
+        "bytes": 319636,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 15714
+        },
+        {
+          "path": "assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 65088
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/anthropic-ai-self-replication-iot-2026.webp",
+        "bytes": 166286,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/anthropic-ai-self-replication-iot-2026-480.webp",
+          "width": 480,
+          "bytes": 13462
+        },
+        {
+          "path": "assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp",
+          "width": 960,
+          "bytes": 34722
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/apple-homeview-siri-ai-2026.webp",
+        "bytes": 244614,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/apple-homeview-siri-ai-2026-480.webp",
+          "width": 480,
+          "bytes": 16286
+        },
+        {
+          "path": "assets/responsive/apple-homeview-siri-ai-2026-960.webp",
+          "width": 960,
+          "bytes": 48984
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/asml-q3-2026-ai-demand.webp",
+        "bytes": 395720,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/asml-q3-2026-ai-demand-480.webp",
+          "width": 480,
+          "bytes": 21156
+        },
+        {
+          "path": "assets/responsive/asml-q3-2026-ai-demand-960.webp",
+          "width": 960,
+          "bytes": 79884
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bank-of-america-q3-2026-results.webp",
+        "bytes": 621432,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bank-of-america-q3-2026-results-480.webp",
+          "width": 480,
+          "bytes": 34178
+        },
+        {
+          "path": "assets/responsive/bank-of-america-q3-2026-results-960.webp",
+          "width": 960,
+          "bytes": 123898
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bitcoin-51-percent-attack-forks-explained.webp",
+        "bytes": 272986,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp",
+          "width": 480,
+          "bytes": 23424
+        },
+        {
+          "path": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
+          "width": 960,
+          "bytes": 73404
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
+        "bytes": 278912,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp",
+          "width": 480,
+          "bytes": 22790
+        },
+        {
+          "path": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
+          "width": 960,
+          "bytes": 71124
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp",
+        "bytes": 369386,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp",
+          "width": 480,
+          "bytes": 20268
+        },
+        {
+          "path": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp",
+          "width": 960,
+          "bytes": 73218
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bitcoin-halving-cycles.webp",
+        "bytes": 331502,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bitcoin-halving-cycles-480.webp",
+          "width": 480,
+          "bytes": 32924
+        },
+        {
+          "path": "assets/responsive/bitcoin-halving-cycles-960.webp",
+          "width": 960,
+          "bytes": 99996
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bitcoin-mining-economics-explained.webp",
+        "bytes": 304326,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bitcoin-mining-economics-explained-480.webp",
+          "width": 480,
+          "bytes": 32270
+        },
+        {
+          "path": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
+          "width": 960,
+          "bytes": 93562
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/block-trades-dark-pools-explained.webp",
+        "bytes": 240696,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/block-trades-dark-pools-explained-480.webp",
+          "width": 480,
+          "bytes": 20432
+        },
+        {
+          "path": "assets/responsive/block-trades-dark-pools-explained-960.webp",
+          "width": 960,
+          "bytes": 64392
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/bond-duration-explained-editorial.webp",
+        "bytes": 173892,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/bond-duration-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 14540
+        },
+        {
+          "path": "assets/responsive/bond-duration-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 44328
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/broadcom-ai-networking-ocp-2026.webp",
+        "bytes": 400792,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/broadcom-ai-networking-ocp-2026-480.webp",
+          "width": 480,
+          "bytes": 32308
+        },
+        {
+          "path": "assets/responsive/broadcom-ai-networking-ocp-2026-960.webp",
+          "width": 960,
+          "bytes": 93372
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/central-bank-policy-divergence-explained-editorial.webp",
+        "bytes": 196382,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 20000
+        },
+        {
+          "path": "assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 55620
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ceo-succession-stock-impact-explained.webp",
+        "bytes": 198984,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ceo-succession-stock-impact-explained-480.webp",
+          "width": 480,
+          "bytes": 21262
+        },
+        {
+          "path": "assets/responsive/ceo-succession-stock-impact-explained-960.webp",
+          "width": 960,
+          "bytes": 57328
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/china-ai-technology-export-controls-draft-2026.webp",
+        "bytes": 375790,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/china-ai-technology-export-controls-draft-2026-480.webp",
+          "width": 480,
+          "bytes": 21214
+        },
+        {
+          "path": "assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp",
+          "width": 960,
+          "bytes": 66822
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/china-september-2026-export-surge.webp",
+        "bytes": 590382,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/china-september-2026-export-surge-480.webp",
+          "width": 480,
+          "bytes": 34510
+        },
+        {
+          "path": "assets/responsive/china-september-2026-export-surge-960.webp",
+          "width": 960,
+          "bytes": 124356
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/china-solar-manufacturing-technology-export-controls-2026.webp",
+        "bytes": 314574,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/china-solar-manufacturing-technology-export-controls-2026-480.webp",
+          "width": 480,
+          "bytes": 32362
+        },
+        {
+          "path": "assets/responsive/china-solar-manufacturing-technology-export-controls-2026-960.webp",
+          "width": 960,
+          "bytes": 96886
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp",
+        "bytes": 212070,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp",
+          "width": 480,
+          "bytes": 18352
+        },
+        {
+          "path": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp",
+          "width": 960,
+          "bytes": 53382
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp",
+        "bytes": 243530,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp",
+          "width": 480,
+          "bytes": 22678
+        },
+        {
+          "path": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp",
+          "width": 960,
+          "bytes": 62518
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/circular-ai-financing-explained.webp",
+        "bytes": 202812,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/circular-ai-financing-explained-480.webp",
+          "width": 480,
+          "bytes": 20672
+        },
+        {
+          "path": "assets/responsive/circular-ai-financing-explained-960.webp",
+          "width": 960,
+          "bytes": 56438
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/clarity-act-crypto-legislation-explained.webp",
+        "bytes": 165052,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp",
+          "width": 480,
+          "bytes": 18514
+        },
+        {
+          "path": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
+          "width": 960,
+          "bytes": 48398
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp",
+        "bytes": 146402,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-480.webp",
+          "width": 480,
+          "bytes": 12052
+        },
+        {
+          "path": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp",
+          "width": 960,
+          "bytes": 30730
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/consumer-sentiment-index-explained.webp",
+        "bytes": 201872,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/consumer-sentiment-index-explained-480.webp",
+          "width": 480,
+          "bytes": 18384
+        },
+        {
+          "path": "assets/responsive/consumer-sentiment-index-explained-960.webp",
+          "width": 960,
+          "bytes": 57050
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/coreweave-ai-debt-selloff-2026.webp",
+        "bytes": 497122,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/coreweave-ai-debt-selloff-2026-480.webp",
+          "width": 480,
+          "bytes": 27504
+        },
+        {
+          "path": "assets/responsive/coreweave-ai-debt-selloff-2026-960.webp",
+          "width": 960,
+          "bytes": 105380
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/corporate-bonds-explained.webp",
+        "bytes": 188890,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/corporate-bonds-explained-480.webp",
+          "width": 480,
+          "bytes": 19402
+        },
+        {
+          "path": "assets/responsive/corporate-bonds-explained-960.webp",
+          "width": 960,
+          "bytes": 51316
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/correlation-breakdown-diversification-editorial.webp",
+        "bytes": 320780,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp",
+          "width": 480,
+          "bytes": 25400
+        },
+        {
+          "path": "assets/responsive/correlation-breakdown-diversification-editorial-960.webp",
+          "width": 960,
+          "bytes": 84142
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/cpi-inflation-explained.webp",
+        "bytes": 302562,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/cpi-inflation-explained-480.webp",
+          "width": 480,
+          "bytes": 32442
+        },
+        {
+          "path": "assets/responsive/cpi-inflation-explained-960.webp",
+          "width": 960,
+          "bytes": 89532
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/crack-spread-refining-margins-explained.webp",
+        "bytes": 349550,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/crack-spread-refining-margins-explained-480.webp",
+          "width": 480,
+          "bytes": 25668
+        },
+        {
+          "path": "assets/responsive/crack-spread-refining-margins-explained-960.webp",
+          "width": 960,
+          "bytes": 94054
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/credit-default-swaps-explained-editorial.webp",
+        "bytes": 223416,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/credit-default-swaps-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 19412
+        },
+        {
+          "path": "assets/responsive/credit-default-swaps-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 59236
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/crypto-liquidation-leverage-explained-editorial.webp",
+        "bytes": 130842,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 14144
+        },
+        {
+          "path": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 36020
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/crypto-rally-three-catalysts-explained.webp",
+        "bytes": 146018,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp",
+          "width": 480,
+          "bytes": 14150
+        },
+        {
+          "path": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
+          "width": 960,
+          "bytes": 38882
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/crypto-taxes-us-explained.webp",
+        "bytes": 173244,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/crypto-taxes-us-explained-480.webp",
+          "width": 480,
+          "bytes": 17218
+        },
+        {
+          "path": "assets/responsive/crypto-taxes-us-explained-960.webp",
+          "width": 960,
+          "bytes": 46484
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/currency-intervention-explained.webp",
+        "bytes": 221306,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/currency-intervention-explained-480.webp",
+          "width": 480,
+          "bytes": 20804
+        },
+        {
+          "path": "assets/responsive/currency-intervention-explained-960.webp",
+          "width": 960,
+          "bytes": 58522
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp",
+        "bytes": 181114,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 19036
+        },
+        {
+          "path": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 49976
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/defi-basics-explained.webp",
+        "bytes": 182236,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/defi-basics-explained-480.webp",
+          "width": 480,
+          "bytes": 16670
+        },
+        {
+          "path": "assets/responsive/defi-basics-explained-960.webp",
+          "width": 960,
+          "bytes": 47396
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/dollar-cost-averaging-vs-lump-sum.webp",
+        "bytes": 204418,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp",
+          "width": 480,
+          "bytes": 19828
+        },
+        {
+          "path": "assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp",
+          "width": 960,
+          "bytes": 56608
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/dollar-reserve-currency-status-explained.webp",
+        "bytes": 177878,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/dollar-reserve-currency-status-explained-480.webp",
+          "width": 480,
+          "bytes": 19152
+        },
+        {
+          "path": "assets/responsive/dollar-reserve-currency-status-explained-960.webp",
+          "width": 960,
+          "bytes": 50848
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/dollar-treasury-yields-ai-financing-october-16-2026.webp",
+        "bytes": 452586,
+        "width": 1672,
+        "height": 940
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-480.webp",
+          "width": 480,
+          "bytes": 24744
+        },
+        {
+          "path": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp",
+          "width": 960,
+          "bytes": 83190
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/dxy-dollar-index-explained.webp",
+        "bytes": 238688,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/dxy-dollar-index-explained-480.webp",
+          "width": 480,
+          "bytes": 22874
+        },
+        {
+          "path": "assets/responsive/dxy-dollar-index-explained-960.webp",
+          "width": 960,
+          "bytes": 64636
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/earnings-beat-miss-explained-editorial.webp",
+        "bytes": 142740,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 17594
+        },
+        {
+          "path": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 42442
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/emerging-market-carry-trade-explained.webp",
+        "bytes": 313674,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/emerging-market-carry-trade-explained-480.webp",
+          "width": 480,
+          "bytes": 25098
+        },
+        {
+          "path": "assets/responsive/emerging-market-carry-trade-explained-960.webp",
+          "width": 960,
+          "bytes": 77364
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/enterprise-ai-data-security-2026.webp",
+        "bytes": 182972,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/enterprise-ai-data-security-2026-480.webp",
+          "width": 480,
+          "bytes": 18542
+        },
+        {
+          "path": "assets/responsive/enterprise-ai-data-security-2026-960.webp",
+          "width": 960,
+          "bytes": 51688
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/etf-creation-redemption-mechanism-editorial.webp",
+        "bytes": 340094,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp",
+          "width": 480,
+          "bytes": 32372
+        },
+        {
+          "path": "assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp",
+          "width": 960,
+          "bytes": 99588
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/eur-usd-rate-differential-explained.webp",
+        "bytes": 251678,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/eur-usd-rate-differential-explained-480.webp",
+          "width": 480,
+          "bytes": 22912
+        },
+        {
+          "path": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
+          "width": 960,
+          "bytes": 65074
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/faa-controller-pay-workforce-reforms-october-2026.webp",
+        "bytes": 333212,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-480.webp",
+          "width": 480,
+          "bytes": 19612
+        },
+        {
+          "path": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp",
+          "width": 960,
+          "bytes": 56484
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp",
+        "bytes": 182012,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 20276
+        },
+        {
+          "path": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 52880
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/fed-independence-structure-explained.webp",
+        "bytes": 399852,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/fed-independence-structure-explained-480.webp",
+          "width": 480,
+          "bytes": 28290
+        },
+        {
+          "path": "assets/responsive/fed-independence-structure-explained-960.webp",
+          "width": 960,
+          "bytes": 102576
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/fed-policy-2026-editorial.webp",
+        "bytes": 424336,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/fed-policy-2026-editorial-480.webp",
+          "width": 480,
+          "bytes": 26564
+        },
+        {
+          "path": "assets/responsive/fed-policy-2026-editorial-960.webp",
+          "width": 960,
+          "bytes": 101890
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/free-cash-flow-explained-editorial.webp",
+        "bytes": 235978,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/free-cash-flow-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 22068
+        },
+        {
+          "path": "assets/responsive/free-cash-flow-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 62942
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ftc-openai-anthropic-safety-subpoenas-2026.webp",
+        "bytes": 145264,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-480.webp",
+          "width": 480,
+          "bytes": 10974
+        },
+        {
+          "path": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp",
+          "width": 960,
+          "bytes": 26912
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/fund-flows-stocks-bonds-cash-october-2026.webp",
+        "bytes": 248408,
+        "width": 1672,
+        "height": 940
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-480.webp",
+          "width": 480,
+          "bytes": 18536
+        },
+        {
+          "path": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp",
+          "width": 960,
+          "bytes": 49370
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp",
+        "bytes": 256656,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-480.webp",
+          "width": 480,
+          "bytes": 20618
+        },
+        {
+          "path": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp",
+          "width": 960,
+          "bytes": 56796
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/global-bond-yield-synchronization-explained.webp",
+        "bytes": 222144,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/global-bond-yield-synchronization-explained-480.webp",
+          "width": 480,
+          "bytes": 21606
+        },
+        {
+          "path": "assets/responsive/global-bond-yield-synchronization-explained-960.webp",
+          "width": 960,
+          "bytes": 62784
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/gold-hedge-explainer.webp",
+        "bytes": 227192,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/gold-hedge-explainer-480.webp",
+          "width": 480,
+          "bytes": 19706
+        },
+        {
+          "path": "assets/responsive/gold-hedge-explainer-960.webp",
+          "width": 960,
+          "bytes": 59746
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp",
+        "bytes": 693278,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp",
+          "width": 480,
+          "bytes": 38486
+        },
+        {
+          "path": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp",
+          "width": 960,
+          "bytes": 146398
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/housing-starts-builder-confidence-explained.webp",
+        "bytes": 275992,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/housing-starts-builder-confidence-explained-480.webp",
+          "width": 480,
+          "bytes": 28634
+        },
+        {
+          "path": "assets/responsive/housing-starts-builder-confidence-explained-960.webp",
+          "width": 960,
+          "bytes": 79298
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/imf-ai-growth-outlook-2026.webp",
+        "bytes": 673046,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/imf-ai-growth-outlook-2026-480.webp",
+          "width": 480,
+          "bytes": 36398
+        },
+        {
+          "path": "assets/responsive/imf-ai-growth-outlook-2026-960.webp",
+          "width": 960,
+          "bytes": 136244
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp",
+        "bytes": 643226,
+        "width": 1774,
+        "height": 887
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-480.webp",
+          "width": 480,
+          "bytes": 34566
+        },
+        {
+          "path": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp",
+          "width": 960,
+          "bytes": 121576
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/insider-selling-explained.webp",
+        "bytes": 127544,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/insider-selling-explained-480.webp",
+          "width": 480,
+          "bytes": 12698
+        },
+        {
+          "path": "assets/responsive/insider-selling-explained-960.webp",
+          "width": 960,
+          "bytes": 33690
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/iphone-duo-preorder-delays-january-2027.webp",
+        "bytes": 131412,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/iphone-duo-preorder-delays-january-2027-480.webp",
+          "width": 480,
+          "bytes": 9294
+        },
+        {
+          "path": "assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp",
+          "width": 960,
+          "bytes": 26758
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ipo-process-explained-editorial.webp",
+        "bytes": 169462,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ipo-process-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 18192
+        },
+        {
+          "path": "assets/responsive/ipo-process-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 47188
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ism-pmi-explained.webp",
+        "bytes": 277698,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ism-pmi-explained-480.webp",
+          "width": 480,
+          "bytes": 28726
+        },
+        {
+          "path": "assets/responsive/ism-pmi-explained-960.webp",
+          "width": 960,
+          "bytes": 79446
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/jackson-hole-symposium-explained.webp",
+        "bytes": 291322,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/jackson-hole-symposium-explained-480.webp",
+          "width": 480,
+          "bytes": 26698
+        },
+        {
+          "path": "assets/responsive/jackson-hole-symposium-explained-960.webp",
+          "width": 960,
+          "bytes": 80292
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/market-cap-explained-editorial.webp",
+        "bytes": 398962,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/market-cap-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 30726
+        },
+        {
+          "path": "assets/responsive/market-cap-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 106676
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp",
+        "bytes": 245864,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 18240
+        },
+        {
+          "path": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 58690
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/mergers-acquisitions-explained.webp",
+        "bytes": 185088,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/mergers-acquisitions-explained-480.webp",
+          "width": 480,
+          "bytes": 19446
+        },
+        {
+          "path": "assets/responsive/mergers-acquisitions-explained-960.webp",
+          "width": 960,
+          "bytes": 52488
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp",
+        "bytes": 581680,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-480.webp",
+          "width": 480,
+          "bytes": 31138
+        },
+        {
+          "path": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp",
+          "width": 960,
+          "bytes": 118576
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/money-market-funds-vs-savings-explained.webp",
+        "bytes": 200734,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/money-market-funds-vs-savings-explained-480.webp",
+          "width": 480,
+          "bytes": 20612
+        },
+        {
+          "path": "assets/responsive/money-market-funds-vs-savings-explained-960.webp",
+          "width": 960,
+          "bytes": 55884
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/nfib-small-business-optimism-explained.webp",
+        "bytes": 286380,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/nfib-small-business-optimism-explained-480.webp",
+          "width": 480,
+          "bytes": 31022
+        },
+        {
+          "path": "assets/responsive/nfib-small-business-optimism-explained-960.webp",
+          "width": 960,
+          "bytes": 84730
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/nonfarm-payrolls-jobs-report-explained.webp",
+        "bytes": 246206,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp",
+          "width": 480,
+          "bytes": 21360
+        },
+        {
+          "path": "assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp",
+          "width": 960,
+          "bytes": 63664
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ny-fed-services-prices-october-2026.webp",
+        "bytes": 386296,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ny-fed-services-prices-october-2026-480.webp",
+          "width": 480,
+          "bytes": 29532
+        },
+        {
+          "path": "assets/responsive/ny-fed-services-prices-october-2026-960.webp",
+          "width": 960,
+          "bytes": 81756
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ofgem-market-stabilisation-charge-consultation-2026.webp",
+        "bytes": 375830,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-480.webp",
+          "width": 480,
+          "bytes": 21020
+        },
+        {
+          "path": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp",
+          "width": 960,
+          "bytes": 73262
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/oil-near-100-inflation-2026.webp",
+        "bytes": 451174,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/oil-near-100-inflation-2026-480.webp",
+          "width": 480,
+          "bytes": 25956
+        },
+        {
+          "path": "assets/responsive/oil-near-100-inflation-2026-960.webp",
+          "width": 960,
+          "bytes": 104934
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/oil-shock-market-ripple.webp",
+        "bytes": 500554,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/oil-shock-market-ripple-480.webp",
+          "width": 480,
+          "bytes": 30066
+        },
+        {
+          "path": "assets/responsive/oil-shock-market-ripple-960.webp",
+          "width": 960,
+          "bytes": 121410
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/okxice-stock-token-issuer-objections-2026.webp",
+        "bytes": 577186,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp",
+          "width": 480,
+          "bytes": 32622
+        },
+        {
+          "path": "assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp",
+          "width": 960,
+          "bytes": 127524
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/options-calls-puts-explained-editorial.webp",
+        "bytes": 180154,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/options-calls-puts-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 17446
+        },
+        {
+          "path": "assets/responsive/options-calls-puts-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 48924
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/ppi-producer-price-index-explained.webp",
+        "bytes": 251390,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/ppi-producer-price-index-explained-480.webp",
+          "width": 480,
+          "bytes": 24478
+        },
+        {
+          "path": "assets/responsive/ppi-producer-price-index-explained-960.webp",
+          "width": 960,
+          "bytes": 69030
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/prediction-markets-circuit-split-explained.webp",
+        "bytes": 253236,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/prediction-markets-circuit-split-explained-480.webp",
+          "width": 480,
+          "bytes": 15782
+        },
+        {
+          "path": "assets/responsive/prediction-markets-circuit-split-explained-960.webp",
+          "width": 960,
+          "bytes": 57900
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/prediction-markets-explained-editorial.webp",
+        "bytes": 174268,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/prediction-markets-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 18220
+        },
+        {
+          "path": "assets/responsive/prediction-markets-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 50056
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/private-credit-shadow-banking-explained-editorial.webp",
+        "bytes": 299044,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 30694
+        },
+        {
+          "path": "assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 87700
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp",
+        "bytes": 185022,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 20706
+        },
+        {
+          "path": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 54834
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp",
+        "bytes": 311282,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp",
+          "width": 480,
+          "bytes": 26362
+        },
+        {
+          "path": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp",
+          "width": 960,
+          "bytes": 77606
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/retailer-earnings-consumer-bellwether-explained.webp",
+        "bytes": 375142,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp",
+          "width": 480,
+          "bytes": 36802
+        },
+        {
+          "path": "assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp",
+          "width": 960,
+          "bytes": 110648
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp",
+        "bytes": 367738,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp",
+          "width": 480,
+          "bytes": 24980
+        },
+        {
+          "path": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp",
+          "width": 960,
+          "bytes": 94616
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/robotics-ai-factory-roi-2026.webp",
+        "bytes": 267612,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/robotics-ai-factory-roi-2026-480.webp",
+          "width": 480,
+          "bytes": 29572
+        },
+        {
+          "path": "assets/responsive/robotics-ai-factory-roi-2026-960.webp",
+          "width": 960,
+          "bytes": 81018
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp",
+        "bytes": 721082,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-480.webp",
+          "width": 480,
+          "bytes": 38346
+        },
+        {
+          "path": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp",
+          "width": 960,
+          "bytes": 149022
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/second-round-inflation-effects-explained.webp",
+        "bytes": 214444,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/second-round-inflation-effects-explained-480.webp",
+          "width": 480,
+          "bytes": 21576
+        },
+        {
+          "path": "assets/responsive/second-round-inflation-effects-explained-960.webp",
+          "width": 960,
+          "bytes": 58908
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp",
+        "bytes": 259888,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 19034
+        },
+        {
+          "path": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 65704
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/sector-rotation-explained-editorial.webp",
+        "bytes": 521938,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/sector-rotation-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 30636
+        },
+        {
+          "path": "assets/responsive/sector-rotation-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 126102
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/short-squeeze-mechanics-explained.webp",
+        "bytes": 182888,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/short-squeeze-mechanics-explained-480.webp",
+          "width": 480,
+          "bytes": 18522
+        },
+        {
+          "path": "assets/responsive/short-squeeze-mechanics-explained-960.webp",
+          "width": 960,
+          "bytes": 50618
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/small-business-ai-adoption-2026.webp",
+        "bytes": 244788,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/small-business-ai-adoption-2026-480.webp",
+          "width": 480,
+          "bytes": 24142
+        },
+        {
+          "path": "assets/responsive/small-business-ai-adoption-2026-960.webp",
+          "width": 960,
+          "bytes": 67136
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp",
+        "bytes": 214402,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 23774
+        },
+        {
+          "path": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 62690
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/sp500-concentration-risk-explained-editorial.webp",
+        "bytes": 564918,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 32312
+        },
+        {
+          "path": "assets/responsive/sp500-concentration-risk-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 130236
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/sp500-narrow-rally-earnings-test-2026.webp",
+        "bytes": 264162,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/sp500-narrow-rally-earnings-test-2026-480.webp",
+          "width": 480,
+          "bytes": 19062
+        },
+        {
+          "path": "assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp",
+          "width": 960,
+          "bytes": 53198
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/stablecoins-explained-depeg-risk.webp",
+        "bytes": 206874,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/stablecoins-explained-depeg-risk-480.webp",
+          "width": 480,
+          "bytes": 19254
+        },
+        {
+          "path": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
+          "width": 960,
+          "bytes": 54122
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/stock-buybacks-explained-editorial.webp",
+        "bytes": 176266,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/stock-buybacks-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 18334
+        },
+        {
+          "path": "assets/responsive/stock-buybacks-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 49056
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/strategic-petroleum-reserve-explained.webp",
+        "bytes": 433558,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/strategic-petroleum-reserve-explained-480.webp",
+          "width": 480,
+          "bytes": 28256
+        },
+        {
+          "path": "assets/responsive/strategic-petroleum-reserve-explained-960.webp",
+          "width": 960,
+          "bytes": 108328
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/take-private-leveraged-buyout-explained-editorial.webp",
+        "bytes": 421824,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 30010
+        },
+        {
+          "path": "assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 107580
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/tariffs-who-actually-pays-explained.webp",
+        "bytes": 231248,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/tariffs-who-actually-pays-explained-480.webp",
+          "width": 480,
+          "bytes": 23500
+        },
+        {
+          "path": "assets/responsive/tariffs-who-actually-pays-explained-960.webp",
+          "width": 960,
+          "bytes": 64902
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp",
+        "bytes": 426418,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-480.webp",
+          "width": 480,
+          "bytes": 19746
+        },
+        {
+          "path": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp",
+          "width": 960,
+          "bytes": 69890
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp",
+        "bytes": 496886,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-480.webp",
+          "width": 480,
+          "bytes": 30432
+        },
+        {
+          "path": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp",
+          "width": 960,
+          "bytes": 101810
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/tips-inflation-protected-bonds-explained.webp",
+        "bytes": 190908,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp",
+          "width": 480,
+          "bytes": 17602
+        },
+        {
+          "path": "assets/responsive/tips-inflation-protected-bonds-explained-960.webp",
+          "width": 960,
+          "bytes": 49740
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/treasury-debt-buyback-explained-editorial.webp",
+        "bytes": 518304,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 39356
+        },
+        {
+          "path": "assets/responsive/treasury-debt-buyback-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 136010
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/treasury-general-account-liquidity-explained.webp",
+        "bytes": 464300,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/treasury-general-account-liquidity-explained-480.webp",
+          "width": 480,
+          "bytes": 29540
+        },
+        {
+          "path": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
+          "width": 960,
+          "bytes": 112954
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/treasury-yields-spike-2026.webp",
+        "bytes": 227150,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/treasury-yields-spike-2026-480.webp",
+          "width": 480,
+          "bytes": 20806
+        },
+        {
+          "path": "assets/responsive/treasury-yields-spike-2026-960.webp",
+          "width": 960,
+          "bytes": 63766
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/tsmc-q3-2026-ai-chip-demand.webp",
+        "bytes": 479654,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/tsmc-q3-2026-ai-chip-demand-480.webp",
+          "width": 480,
+          "bytes": 22948
+        },
+        {
+          "path": "assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp",
+          "width": 960,
+          "bytes": 86106
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/unemployment-rate-u3-u6-participation-explained.webp",
+        "bytes": 196102,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp",
+          "width": 480,
+          "bytes": 18338
+        },
+        {
+          "path": "assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp",
+          "width": 960,
+          "bytes": 51818
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/us-budget-deficit-national-debt-explained.webp",
+        "bytes": 408750,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp",
+          "width": 480,
+          "bytes": 23884
+        },
+        {
+          "path": "assets/responsive/us-budget-deficit-national-debt-explained-960.webp",
+          "width": 960,
+          "bytes": 93782
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/us-cpi-september-2026-energy.webp",
+        "bytes": 476710,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/us-cpi-september-2026-energy-480.webp",
+          "width": 480,
+          "bytes": 24796
+        },
+        {
+          "path": "assets/responsive/us-cpi-september-2026-energy-960.webp",
+          "width": 960,
+          "bytes": 89386
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp",
+        "bytes": 491272,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-480.webp",
+          "width": 480,
+          "bytes": 22794
+        },
+        {
+          "path": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp",
+          "width": 960,
+          "bytes": 83234
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/us-import-prices-september-2026-inflation.webp",
+        "bytes": 385692,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/us-import-prices-september-2026-inflation-480.webp",
+          "width": 480,
+          "bytes": 25586
+        },
+        {
+          "path": "assets/responsive/us-import-prices-september-2026-inflation-960.webp",
+          "width": 960,
+          "bytes": 77118
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/us-inflation-retail-sales-september-2026.webp",
+        "bytes": 444956,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/us-inflation-retail-sales-september-2026-480.webp",
+          "width": 480,
+          "bytes": 31162
+        },
+        {
+          "path": "assets/responsive/us-inflation-retail-sales-september-2026-960.webp",
+          "width": 960,
+          "bytes": 93446
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/vix-fear-index-explained-editorial.webp",
+        "bytes": 154888,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/vix-fear-index-explained-editorial-480.webp",
+          "width": 480,
+          "bytes": 16978
+        },
+        {
+          "path": "assets/responsive/vix-fear-index-explained-editorial-960.webp",
+          "width": 960,
+          "bytes": 46650
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp",
+        "bytes": 329858,
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-480.webp",
+          "width": 480,
+          "bytes": 20682
+        },
+        {
+          "path": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp",
+          "width": 960,
+          "bytes": 63020
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/weekly-jobless-claims-explained.webp",
+        "bytes": 184166,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/weekly-jobless-claims-explained-480.webp",
+          "width": 480,
+          "bytes": 18592
+        },
+        {
+          "path": "assets/responsive/weekly-jobless-claims-explained-960.webp",
+          "width": 960,
+          "bytes": 50342
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/yen-carry-trade-explained.webp",
+        "bytes": 270148,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/yen-carry-trade-explained-480.webp",
+          "width": 480,
+          "bytes": 22196
+        },
+        {
+          "path": "assets/responsive/yen-carry-trade-explained-960.webp",
+          "width": 960,
+          "bytes": 69084
+        }
+      ]
+    },
+    {
+      "original": {
+        "path": "assets/editorial/yield-curve-inversion-recession-signal.webp",
+        "bytes": 185396,
+        "width": 1920,
+        "height": 1080
+      },
+      "variants": [
+        {
+          "path": "assets/responsive/yield-curve-inversion-recession-signal-480.webp",
+          "width": 480,
+          "bytes": 17936
+        },
+        {
+          "path": "assets/responsive/yield-curve-inversion-recession-signal-960.webp",
+          "width": 960,
+          "bytes": 51378
+        }
+      ]
+    }
+  ]
+}

@@ -53,3 +53,8 @@
  .topnav .theme-switch-option{padding:6px}
  .topnav>.nav-toggle{padding:7px 9px}
 }
+
+/* Compact, non-emoji appearance control with a touch-friendly target. */
+.topnav>.theme-switch{width:40px;height:40px;min-height:40px;padding:10px;box-sizing:border-box;justify-content:center;border-radius:4px;letter-spacing:0}
+.topnav>.theme-switch svg{display:block;width:18px;height:18px;flex-shrink:0}
+@media(pointer:coarse){.topnav>.theme-switch{width:44px;height:44px;min-height:44px}}

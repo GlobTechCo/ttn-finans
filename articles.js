@@ -40,7 +40,10 @@ const TTN_ARTICLES = [
         "label": "Coinbase: Margin ratio and liquidation risk management",
         "url": "https://help.coinbase.com/en/coinbase/derivatives/us-derivatives-risk-management-and-liquidations"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp",
+    "imageMedium": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp",
+    "imageSrcset": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp 480w, assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp 960w, assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp 1672w"
   },
   {
     "id": "ai-data-center-boom-power-delivery-debt-2026",
@@ -87,7 +90,10 @@ const TTN_ARTICLES = [
         "label": "Department of Energy: United States Data Center Energy Usage Report: 2025 Update",
         "url": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/ai-data-center-boom-power-delivery-debt-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-data-center-boom-power-delivery-debt-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-data-center-boom-power-delivery-debt-2026-480.webp 480w, assets/responsive/ai-data-center-boom-power-delivery-debt-2026-960.webp 960w, assets/editorial/ai-data-center-boom-power-delivery-debt-2026.webp 1672w"
   },
   {
     "id": "china-solar-manufacturing-technology-export-controls-2026",
@@ -136,7 +142,10 @@ const TTN_ARTICLES = [
         "label": "IEA: Supply chain risks and industrial competitiveness, Energy Technology Perspectives 2026",
         "url": "https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/china-solar-manufacturing-technology-export-controls-2026-480.webp",
+    "imageMedium": "assets/responsive/china-solar-manufacturing-technology-export-controls-2026-960.webp",
+    "imageSrcset": "assets/responsive/china-solar-manufacturing-technology-export-controls-2026-480.webp 480w, assets/responsive/china-solar-manufacturing-technology-export-controls-2026-960.webp 960w, assets/editorial/china-solar-manufacturing-technology-export-controls-2026.webp 1672w"
   },
   {
     "id": "circle-usdc-revenue-sharing-stablecoin-competition-2026",
@@ -176,7 +185,10 @@ const TTN_ARTICLES = [
         "label": "CoinDesk: Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
         "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp",
+    "imageMedium": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp",
+    "imageSrcset": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp 480w, assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp 960w, assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp 1672w"
   },
   {
     "id": "replit-openai-preferred-partner-claude-choice-2026",
@@ -225,7 +237,10 @@ const TTN_ARTICLES = [
         "label": "Replit: September 29 engineering explanation and company-reported evaluations",
         "url": "https://replit.com/blog/free-the-models"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp",
+    "imageMedium": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp",
+    "imageSrcset": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp 480w, assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp 960w, assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp 1672w"
   },
   {
     "id": "richard-heart-turkey-detention-confirmed-2026",
@@ -271,7 +286,10 @@ const TTN_ARTICLES = [
         "label": "The Block: March 1, 2025 report on dismissal of the separate US civil case",
         "url": "https://www.theblock.co/news/regulation/2025-03-01-us-judge-dismisses-secs-lawsuit-against-richard-heart-and-hex-pulsechain-on-jurisdictional-grounds-344078"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp",
+    "imageMedium": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp",
+    "imageSrcset": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp 480w, assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp 960w, assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp 1672w"
   },
   {
     "id": "okxice-stock-token-issuer-objections-2026",
@@ -322,7 +340,10 @@ const TTN_ARTICLES = [
         "label": "The Block: October 17 reporting, 3:56 PM EDT",
         "url": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp",
+    "imageMedium": "assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp",
+    "imageSrcset": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp 480w, assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp 960w, assets/editorial/okxice-stock-token-issuer-objections-2026.webp 1672w"
   },
   {
     "id": "ai-agents-websites-block-access-2026",
@@ -359,7 +380,10 @@ const TTN_ARTICLES = [
         "label": "Cloudflare — Introducing pay per crawl: access and payment controls (background)",
         "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/ai-agents-websites-block-access-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-agents-websites-block-access-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-agents-websites-block-access-2026-480.webp 480w, assets/responsive/ai-agents-websites-block-access-2026-960.webp 960w, assets/editorial/ai-agents-websites-block-access-2026.webp 1672w"
   },
   {
     "id": "faa-controller-pay-workforce-reforms-october-2026",
@@ -389,7 +413,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/world-at-work/us-air-traffic-controllers-reach-deal-with-faa-28-pay-rise-wsj-reports-2026-10-16/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-480.webp",
+    "imageMedium": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-480.webp 480w, assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp 960w, assets/editorial/faa-controller-pay-workforce-reforms-october-2026.webp 1672w"
   },
   {
     "id": "wall-street-close-october-16-2026-ai-selloff",
@@ -432,7 +459,10 @@ const TTN_ARTICLES = [
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-480.webp",
+    "imageMedium": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp",
+    "imageSrcset": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-480.webp 480w, assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp 960w, assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp 1672w"
   },
   {
     "id": "us-fiscal-2026-deficit-nearly-two-trillion",
@@ -467,7 +497,10 @@ const TTN_ARTICLES = [
         "url": "https://www.cbo.gov/publication/57660"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-480.webp",
+    "imageMedium": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp",
+    "imageSrcset": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-480.webp 480w, assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp 960w, assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp 1672w"
   },
   {
     "id": "tesla-fsd-class-certification-appeal-october-2026",
@@ -503,7 +536,10 @@ const TTN_ARTICLES = [
         "url": "https://www.tesla.com/support/fsd"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-480.webp",
+    "imageMedium": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-480.webp 480w, assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp 960w, assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp 1672w"
   },
   {
     "id": "fund-flows-stocks-bonds-cash-october-2026",
@@ -534,7 +570,10 @@ const TTN_ARTICLES = [
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-480.webp",
+    "imageMedium": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-480.webp 480w, assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp 960w, assets/editorial/fund-flows-stocks-bonds-cash-october-2026.webp 1672w"
   },
   {
     "id": "ofgem-market-stabilisation-charge-consultation-2026",
@@ -574,7 +613,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/energy/uk-watchdog-moves-protect-energy-market-wholesale-price-swings-2026-10-16/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-480.webp",
+    "imageMedium": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp",
+    "imageSrcset": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-480.webp 480w, assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp 960w, assets/editorial/ofgem-market-stabilisation-charge-consultation-2026.webp 1672w"
   },
   {
     "id": "china-ai-technology-export-controls-draft-2026",
@@ -613,7 +655,10 @@ const TTN_ARTICLES = [
         "url": "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/china-ai-technology-export-controls-draft-2026-480.webp",
+    "imageMedium": "assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp",
+    "imageSrcset": "assets/responsive/china-ai-technology-export-controls-draft-2026-480.webp 480w, assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp 960w, assets/editorial/china-ai-technology-export-controls-draft-2026.webp 1672w"
   },
   {
     "id": "ai-agents-india-cert-in-security-warning-2026",
@@ -646,7 +691,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-480.webp 480w, assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp 960w, assets/editorial/ai-agents-india-cert-in-security-warning-2026.webp 1672w"
   },
   {
     "id": "ny-fed-services-prices-october-2026",
@@ -685,7 +733,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/ny-fed-service-sector-survey-finds-notable-price-pressures-2026-10-16/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ny-fed-services-prices-october-2026-480.webp",
+    "imageMedium": "assets/responsive/ny-fed-services-prices-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/ny-fed-services-prices-october-2026-480.webp 480w, assets/responsive/ny-fed-services-prices-october-2026-960.webp 960w, assets/editorial/ny-fed-services-prices-october-2026.webp 1672w"
   },
   {
     "id": "tesla-slovakia-assisted-driving-approval-2026",
@@ -730,7 +781,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/autos-transportation/tesla-renames-full-self-driving-assisted-driving-europe-it-chases-clearance-2026-10-09/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-480.webp",
+    "imageMedium": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp",
+    "imageSrcset": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-480.webp 480w, assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp 960w, assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp 1672w"
   },
   {
     "id": "ai-investment-central-banks-interest-rates-2026",
@@ -764,7 +818,10 @@ const TTN_ARTICLES = [
         "url": "https://www.federalreserve.gov/newsevents/speech/brainard20180912a.htm"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-investment-central-banks-interest-rates-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-investment-central-banks-interest-rates-2026-480.webp 480w, assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp 960w, assets/editorial/ai-investment-central-banks-interest-rates-2026.webp 1672w"
   },
   {
     "id": "iphone-duo-preorder-delays-january-2027",
@@ -800,7 +857,10 @@ const TTN_ARTICLES = [
         "url": "https://www.apple.com/shop/buy-iphone/iphone-duo"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/iphone-duo-preorder-delays-january-2027-480.webp",
+    "imageMedium": "assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp",
+    "imageSrcset": "assets/responsive/iphone-duo-preorder-delays-january-2027-480.webp 480w, assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp 960w, assets/editorial/iphone-duo-preorder-delays-january-2027.webp 1672w"
   },
   {
     "id": "us-import-prices-september-2026-inflation",
@@ -835,7 +895,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/us-import-prices-increase-more-than-expected-september-2026-10-16/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/us-import-prices-september-2026-inflation-480.webp",
+    "imageMedium": "assets/responsive/us-import-prices-september-2026-inflation-960.webp",
+    "imageSrcset": "assets/responsive/us-import-prices-september-2026-inflation-480.webp 480w, assets/responsive/us-import-prices-september-2026-inflation-960.webp 960w, assets/editorial/us-import-prices-september-2026-inflation.webp 1672w"
   },
   {
     "id": "germany-nvidia-industrial-ai-agreement-2026",
@@ -876,7 +939,10 @@ const TTN_ARTICLES = [
         "url": "https://docs.isaacsim.omniverse.nvidia.com/5.1.0/overview/overview.html"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-480.webp",
+    "imageMedium": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp",
+    "imageSrcset": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-480.webp 480w, assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp 960w, assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp 1672w"
   },
   {
     "id": "indonesia-msci-downgrade-stock-selloff-2026",
@@ -913,7 +979,10 @@ const TTN_ARTICLES = [
         "url": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-480.webp",
+    "imageMedium": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp",
+    "imageSrcset": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-480.webp 480w, assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp 960w, assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp 1774w"
   },
   {
     "id": "dollar-treasury-yields-ai-financing-october-16-2026",
@@ -952,7 +1021,10 @@ const TTN_ARTICLES = [
         "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-stabilize-4a11f72f"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-480.webp",
+    "imageMedium": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp",
+    "imageSrcset": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-480.webp 480w, assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp 960w, assets/editorial/dollar-treasury-yields-ai-financing-october-16-2026.webp 1672w"
   },
   {
     "id": "meta-muse-spark-open-coding-model-2026",
@@ -1000,7 +1072,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/meta-releases-open-weight-muse-spark-model-coding-agentic-tasks-2026-10-15/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-480.webp",
+    "imageMedium": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp",
+    "imageSrcset": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-480.webp 480w, assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp 960w, assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp 1672w"
   },
   {
     "id": "google-news-ai-pilot-publisher-licensing-2026",
@@ -1040,7 +1115,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/media-telecom/cnn-signs-multi-year-ai-partnership-with-google-2026-10-15/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp",
+    "imageMedium": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp",
+    "imageSrcset": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp 480w, assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp 960w, assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp 1672w"
   },
   {
     "id": "bitcoin-ether-selloff-liquidations-october-15-2026",
@@ -1084,7 +1162,10 @@ const TTN_ARTICLES = [
         "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp 480w, assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp 960w, assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp 1672w"
   },
   {
     "id": "us-inflation-retail-sales-september-2026",
@@ -1129,7 +1210,10 @@ const TTN_ARTICLES = [
         "url": "https://www.census.gov/retail/marts/www/marts_current.pdf"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/us-inflation-retail-sales-september-2026-480.webp",
+    "imageMedium": "assets/responsive/us-inflation-retail-sales-september-2026-960.webp",
+    "imageSrcset": "assets/responsive/us-inflation-retail-sales-september-2026-480.webp 480w, assets/responsive/us-inflation-retail-sales-september-2026-960.webp 960w, assets/editorial/us-inflation-retail-sales-september-2026.webp 1672w"
   },
   {
     "id": "coreweave-ai-debt-selloff-2026",
@@ -1176,7 +1260,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/coreweave-ai-debt-selloff-2026-480.webp",
+    "imageMedium": "assets/responsive/coreweave-ai-debt-selloff-2026-960.webp",
+    "imageSrcset": "assets/responsive/coreweave-ai-debt-selloff-2026-480.webp 480w, assets/responsive/coreweave-ai-debt-selloff-2026-960.webp 960w, assets/editorial/coreweave-ai-debt-selloff-2026.webp 1672w"
   },
   {
     "id": "tsmc-q3-2026-ai-chip-demand",
@@ -1222,7 +1309,10 @@ const TTN_ARTICLES = [
         "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/tsmc-q3-2026-ai-chip-demand-480.webp",
+    "imageMedium": "assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp",
+    "imageSrcset": "assets/responsive/tsmc-q3-2026-ai-chip-demand-480.webp 480w, assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp 960w, assets/editorial/tsmc-q3-2026-ai-chip-demand.webp 1672w"
   },
   {
     "id": "ftc-openai-anthropic-safety-subpoenas-2026",
@@ -1270,7 +1360,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/world/us/trumps-ai-task-force-meet-thursday-ftc-spokesperson-says-2026-10-15/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-480.webp",
+    "imageMedium": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp",
+    "imageSrcset": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-480.webp 480w, assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp 960w, assets/editorial/ftc-openai-anthropic-safety-subpoenas-2026.webp 1672w"
   },
   {
     "id": "cohere-aisle-cybersecurity-deal-2026",
@@ -1308,7 +1401,10 @@ const TTN_ARTICLES = [
         "url": "https://aisle.com/blog/aisle-and-cohere-to-join-forces"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-480.webp",
+    "imageMedium": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp",
+    "imageSrcset": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-480.webp 480w, assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp 960w, assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp 1672w"
   },
   {
     "id": "us-cpi-september-2026-energy",
@@ -1347,7 +1443,10 @@ const TTN_ARTICLES = [
         "url": "https://www.federalreserve.gov/faqs/economy_14419.htm"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/us-cpi-september-2026-energy-480.webp",
+    "imageMedium": "assets/responsive/us-cpi-september-2026-energy-960.webp",
+    "imageSrcset": "assets/responsive/us-cpi-september-2026-energy-480.webp 480w, assets/responsive/us-cpi-september-2026-energy-960.webp 960w, assets/editorial/us-cpi-september-2026-energy.webp 1672w"
   },
   {
     "id": "bank-of-america-q3-2026-results",
@@ -1390,7 +1489,10 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/investor/pubs/begfinstmtguide.htm"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bank-of-america-q3-2026-results-480.webp",
+    "imageMedium": "assets/responsive/bank-of-america-q3-2026-results-960.webp",
+    "imageSrcset": "assets/responsive/bank-of-america-q3-2026-results-480.webp 480w, assets/responsive/bank-of-america-q3-2026-results-960.webp 960w, assets/editorial/bank-of-america-q3-2026-results.webp 1672w"
   },
   {
     "id": "china-september-2026-export-surge",
@@ -1429,7 +1531,10 @@ const TTN_ARTICLES = [
         "url": "https://apnews.com/article/db43e08437b65f65c2ead64c82f9b990"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/china-september-2026-export-surge-480.webp",
+    "imageMedium": "assets/responsive/china-september-2026-export-surge-960.webp",
+    "imageSrcset": "assets/responsive/china-september-2026-export-surge-480.webp 480w, assets/responsive/china-september-2026-export-surge-960.webp 960w, assets/editorial/china-september-2026-export-surge.webp 1672w"
   },
   {
     "id": "asml-q3-2026-ai-demand",
@@ -1468,7 +1573,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/asml-q3-2026-ai-demand-480.webp",
+    "imageMedium": "assets/responsive/asml-q3-2026-ai-demand-960.webp",
+    "imageSrcset": "assets/responsive/asml-q3-2026-ai-demand-480.webp 480w, assets/responsive/asml-q3-2026-ai-demand-960.webp 960w, assets/editorial/asml-q3-2026-ai-demand.webp 1672w"
   },
   {
     "id": "apple-homeview-siri-ai-2026",
@@ -1507,7 +1615,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/retail-consumer/apples-homeview-brings-personalized-siri-smart-home-takes-amazon-google-2026-10-13/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/apple-homeview-siri-ai-2026-480.webp",
+    "imageMedium": "assets/responsive/apple-homeview-siri-ai-2026-960.webp",
+    "imageSrcset": "assets/responsive/apple-homeview-siri-ai-2026-480.webp 480w, assets/responsive/apple-homeview-siri-ai-2026-960.webp 960w, assets/editorial/apple-homeview-siri-ai-2026.webp 1672w"
   },
   {
     "id": "scaleway-amd-sweden-ai-supercomputer",
@@ -1546,7 +1657,10 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/media-telecom/scaleway-build-amd-powered-ai-supercomputer-sweden-2026-10-13/"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-480.webp",
+    "imageMedium": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp",
+    "imageSrcset": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-480.webp 480w, assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp 960w, assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp 1672w"
   },
   {
     "id": "imf-ai-growth-outlook-2026",
@@ -1585,7 +1699,10 @@ const TTN_ARTICLES = [
         "url": "https://www.imf.org/en/Publications/WEO"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/imf-ai-growth-outlook-2026-480.webp",
+    "imageMedium": "assets/responsive/imf-ai-growth-outlook-2026-960.webp",
+    "imageSrcset": "assets/responsive/imf-ai-growth-outlook-2026-480.webp 480w, assets/responsive/imf-ai-growth-outlook-2026-960.webp 960w, assets/editorial/imf-ai-growth-outlook-2026.webp 1672w"
   },
   {
     "id": "ai-boom-capital-financing-2026",
@@ -1624,7 +1741,10 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/investor/pubs/begfinstmtguide.htm"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-boom-capital-financing-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-boom-capital-financing-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-boom-capital-financing-2026-480.webp 480w, assets/responsive/ai-boom-capital-financing-2026-960.webp 960w, assets/editorial/ai-boom-capital-financing-2026.webp 1672w"
   },
   {
     "id": "anthropic-ai-self-replication-iot-2026",
@@ -1659,7 +1779,10 @@ const TTN_ARTICLES = [
         "url": "https://www.anthropic.com/research/self-replicating-ai"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/anthropic-ai-self-replication-iot-2026-480.webp",
+    "imageMedium": "assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp",
+    "imageSrcset": "assets/responsive/anthropic-ai-self-replication-iot-2026-480.webp 480w, assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp 960w, assets/editorial/anthropic-ai-self-replication-iot-2026.webp 1672w"
   },
   {
     "id": "broadcom-ai-networking-ocp-2026",
@@ -1695,7 +1818,10 @@ const TTN_ARTICLES = [
         "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-redefines-ai-infrastructure-industry-leading-networking"
       }
     ],
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/broadcom-ai-networking-ocp-2026-480.webp",
+    "imageMedium": "assets/responsive/broadcom-ai-networking-ocp-2026-960.webp",
+    "imageSrcset": "assets/responsive/broadcom-ai-networking-ocp-2026-480.webp 480w, assets/responsive/broadcom-ai-networking-ocp-2026-960.webp 960w, assets/editorial/broadcom-ai-networking-ocp-2026.webp 1672w"
   },
   {
     "id": "sp500-narrow-rally-earnings-test-2026",
@@ -1752,7 +1878,10 @@ const TTN_ARTICLES = [
         "label": "Investor.gov: index funds and their risks",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-4"
       }
-    ]
+    ],
+    "imageSmall": "assets/responsive/sp500-narrow-rally-earnings-test-2026-480.webp",
+    "imageMedium": "assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp",
+    "imageSrcset": "assets/responsive/sp500-narrow-rally-earnings-test-2026-480.webp 480w, assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp 960w, assets/editorial/sp500-narrow-rally-earnings-test-2026.webp 1672w"
   },
   {
     "id": "ai-inference-unit-economics-2026",
@@ -1780,7 +1909,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-inference-unit-economics-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-inference-unit-economics-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-inference-unit-economics-2026-480.webp 480w, assets/responsive/ai-inference-unit-economics-2026-960.webp 960w, assets/editorial/ai-inference-unit-economics-2026.webp 1920w"
   },
   {
     "id": "enterprise-ai-data-security-2026",
@@ -1808,7 +1940,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/enterprise-ai-data-security-2026-480.webp",
+    "imageMedium": "assets/responsive/enterprise-ai-data-security-2026-960.webp",
+    "imageSrcset": "assets/responsive/enterprise-ai-data-security-2026-480.webp 480w, assets/responsive/enterprise-ai-data-security-2026-960.webp 960w, assets/editorial/enterprise-ai-data-security-2026.webp 1920w"
   },
   {
     "id": "ai-search-publisher-economics-2026",
@@ -1836,7 +1971,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-search-publisher-economics-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-search-publisher-economics-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-search-publisher-economics-2026-480.webp 480w, assets/responsive/ai-search-publisher-economics-2026-960.webp 960w, assets/editorial/ai-search-publisher-economics-2026.webp 1920w"
   },
   {
     "id": "robotics-ai-factory-roi-2026",
@@ -1864,7 +2002,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/robotics-ai-factory-roi-2026-480.webp",
+    "imageMedium": "assets/responsive/robotics-ai-factory-roi-2026-960.webp",
+    "imageSrcset": "assets/responsive/robotics-ai-factory-roi-2026-480.webp 480w, assets/responsive/robotics-ai-factory-roi-2026-960.webp 960w, assets/editorial/robotics-ai-factory-roi-2026.webp 1920w"
   },
   {
     "id": "ai-data-center-electricity-demand-2026",
@@ -1892,7 +2033,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-data-center-electricity-demand-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-data-center-electricity-demand-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-data-center-electricity-demand-2026-480.webp 480w, assets/responsive/ai-data-center-electricity-demand-2026-960.webp 960w, assets/editorial/ai-data-center-electricity-demand-2026.webp 1920w"
   },
   {
     "id": "fed-policy-2026",
@@ -1921,7 +2065,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/fed-policy-2026-editorial-480.webp",
+    "imageMedium": "assets/responsive/fed-policy-2026-editorial-960.webp",
+    "imageSrcset": "assets/responsive/fed-policy-2026-editorial-480.webp 480w, assets/responsive/fed-policy-2026-editorial-960.webp 960w, assets/editorial/fed-policy-2026-editorial.webp 1920w"
   },
   {
     "id": "bitcoin-halving-cycles",
@@ -1949,7 +2096,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bitcoin-halving-cycles-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-halving-cycles-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-halving-cycles-480.webp 480w, assets/responsive/bitcoin-halving-cycles-960.webp 960w, assets/editorial/bitcoin-halving-cycles.webp 1920w"
   },
   {
     "id": "gold-hedge-explainer",
@@ -1977,7 +2127,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/gold-hedge-explainer-480.webp",
+    "imageMedium": "assets/responsive/gold-hedge-explainer-960.webp",
+    "imageSrcset": "assets/responsive/gold-hedge-explainer-480.webp 480w, assets/responsive/gold-hedge-explainer-960.webp 960w, assets/editorial/gold-hedge-explainer.webp 1920w"
   },
   {
     "id": "oil-shock-market-ripple",
@@ -2007,7 +2160,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/oil-shock-market-ripple-480.webp",
+    "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
+    "imageSrcset": "assets/responsive/oil-shock-market-ripple-480.webp 480w, assets/responsive/oil-shock-market-ripple-960.webp 960w, assets/editorial/oil-shock-market-ripple.webp 1920w"
   },
   {
     "id": "ai-capex-nasdaq-correction",
@@ -2036,7 +2192,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-capex-nasdaq-correction-480.webp",
+    "imageMedium": "assets/responsive/ai-capex-nasdaq-correction-960.webp",
+    "imageSrcset": "assets/responsive/ai-capex-nasdaq-correction-480.webp 480w, assets/responsive/ai-capex-nasdaq-correction-960.webp 960w, assets/editorial/ai-capex-nasdaq-correction.webp 1920w"
   },
   {
     "id": "treasury-yields-spike-2026",
@@ -2069,7 +2228,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/treasury-yields-spike-2026-480.webp",
+    "imageMedium": "assets/responsive/treasury-yields-spike-2026-960.webp",
+    "imageSrcset": "assets/responsive/treasury-yields-spike-2026-480.webp 480w, assets/responsive/treasury-yields-spike-2026-960.webp 960w, assets/editorial/treasury-yields-spike-2026.webp 1920w"
   },
   {
     "id": "stablecoins-explained-depeg-risk",
@@ -2096,7 +2258,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/stablecoins-explained-depeg-risk-480.webp",
+    "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
+    "imageSrcset": "assets/responsive/stablecoins-explained-depeg-risk-480.webp 480w, assets/responsive/stablecoins-explained-depeg-risk-960.webp 960w, assets/editorial/stablecoins-explained-depeg-risk.webp 1920w"
   },
   {
     "id": "earnings-beat-miss-explained",
@@ -2124,7 +2289,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp 480w, assets/responsive/earnings-beat-miss-explained-editorial-960.webp 960w, assets/editorial/earnings-beat-miss-explained-editorial.webp 1920w"
   },
   {
     "id": "bitcoin-etf-institutional-adoption",
@@ -2155,7 +2323,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp 480w, assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp 960w, assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp 1920w"
   },
   {
     "id": "eur-usd-rate-differential-explained",
@@ -2186,7 +2357,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/eur-usd-rate-differential-explained-480.webp",
+    "imageMedium": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
+    "imageSrcset": "assets/responsive/eur-usd-rate-differential-explained-480.webp 480w, assets/responsive/eur-usd-rate-differential-explained-960.webp 960w, assets/editorial/eur-usd-rate-differential-explained.webp 1920w"
   },
   {
     "id": "crypto-liquidation-leverage-explained",
@@ -2214,7 +2388,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp 480w, assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp 960w, assets/editorial/crypto-liquidation-leverage-explained-editorial.webp 1920w"
   },
   {
     "id": "vix-fear-index-explained",
@@ -2241,7 +2418,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/vix-fear-index-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/vix-fear-index-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/vix-fear-index-explained-editorial-480.webp 480w, assets/responsive/vix-fear-index-explained-editorial-960.webp 960w, assets/editorial/vix-fear-index-explained-editorial.webp 1920w"
   },
   {
     "id": "short-squeeze-mechanics-explained",
@@ -2269,7 +2449,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/short-squeeze-mechanics-explained-480.webp",
+    "imageMedium": "assets/responsive/short-squeeze-mechanics-explained-960.webp",
+    "imageSrcset": "assets/responsive/short-squeeze-mechanics-explained-480.webp 480w, assets/responsive/short-squeeze-mechanics-explained-960.webp 960w, assets/editorial/short-squeeze-mechanics-explained.webp 1920w"
   },
   {
     "id": "dollar-cost-averaging-vs-lump-sum",
@@ -2296,7 +2479,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp",
+    "imageMedium": "assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp",
+    "imageSrcset": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp 480w, assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp 960w, assets/editorial/dollar-cost-averaging-vs-lump-sum.webp 1920w"
   },
   {
     "id": "correlation-breakdown-diversification",
@@ -2325,7 +2511,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp",
+    "imageMedium": "assets/responsive/correlation-breakdown-diversification-editorial-960.webp",
+    "imageSrcset": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp 480w, assets/responsive/correlation-breakdown-diversification-editorial-960.webp 960w, assets/editorial/correlation-breakdown-diversification-editorial.webp 1920w"
   },
   {
     "id": "crypto-taxes-us-explained",
@@ -2352,7 +2541,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/crypto-taxes-us-explained-480.webp",
+    "imageMedium": "assets/responsive/crypto-taxes-us-explained-960.webp",
+    "imageSrcset": "assets/responsive/crypto-taxes-us-explained-480.webp 480w, assets/responsive/crypto-taxes-us-explained-960.webp 960w, assets/editorial/crypto-taxes-us-explained.webp 1920w"
   },
   {
     "id": "cpi-inflation-explained",
@@ -2383,7 +2575,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/cpi-inflation-explained-480.webp",
+    "imageMedium": "assets/responsive/cpi-inflation-explained-960.webp",
+    "imageSrcset": "assets/responsive/cpi-inflation-explained-480.webp 480w, assets/responsive/cpi-inflation-explained-960.webp 960w, assets/editorial/cpi-inflation-explained.webp 1920w"
   },
   {
     "id": "options-calls-puts-explained",
@@ -2411,7 +2606,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/options-calls-puts-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/options-calls-puts-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/options-calls-puts-explained-editorial-480.webp 480w, assets/responsive/options-calls-puts-explained-editorial-960.webp 960w, assets/editorial/options-calls-puts-explained-editorial.webp 1920w"
   },
   {
     "id": "stock-buybacks-explained",
@@ -2439,7 +2637,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/stock-buybacks-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/stock-buybacks-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/stock-buybacks-explained-editorial-480.webp 480w, assets/responsive/stock-buybacks-explained-editorial-960.webp 960w, assets/editorial/stock-buybacks-explained-editorial.webp 1920w"
   },
   {
     "id": "prediction-markets-explained",
@@ -2466,7 +2667,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/prediction-markets-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/prediction-markets-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/prediction-markets-explained-editorial-480.webp 480w, assets/responsive/prediction-markets-explained-editorial-960.webp 960w, assets/editorial/prediction-markets-explained-editorial.webp 1920w"
   },
   {
     "id": "ipo-process-explained",
@@ -2494,7 +2698,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ipo-process-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/ipo-process-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/ipo-process-explained-editorial-480.webp 480w, assets/responsive/ipo-process-explained-editorial-960.webp 960w, assets/editorial/ipo-process-explained-editorial.webp 1920w"
   },
   {
     "id": "market-cap-explained",
@@ -2522,7 +2729,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/market-cap-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/market-cap-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/market-cap-explained-editorial-480.webp 480w, assets/responsive/market-cap-explained-editorial-960.webp 960w, assets/editorial/market-cap-explained-editorial.webp 1920w"
   },
   {
     "id": "insider-selling-explained",
@@ -2550,7 +2760,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/insider-selling-explained-480.webp",
+    "imageMedium": "assets/responsive/insider-selling-explained-960.webp",
+    "imageSrcset": "assets/responsive/insider-selling-explained-480.webp 480w, assets/responsive/insider-selling-explained-960.webp 960w, assets/editorial/insider-selling-explained.webp 1920w"
   },
   {
     "id": "nonfarm-payrolls-jobs-report-explained",
@@ -2583,7 +2796,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp",
+    "imageMedium": "assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp",
+    "imageSrcset": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp 480w, assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp 960w, assets/editorial/nonfarm-payrolls-jobs-report-explained.webp 1920w"
   },
   {
     "id": "mergers-acquisitions-explained",
@@ -2610,7 +2826,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/mergers-acquisitions-explained-480.webp",
+    "imageMedium": "assets/responsive/mergers-acquisitions-explained-960.webp",
+    "imageSrcset": "assets/responsive/mergers-acquisitions-explained-480.webp 480w, assets/responsive/mergers-acquisitions-explained-960.webp 960w, assets/editorial/mergers-acquisitions-explained.webp 1920w"
   },
   {
     "id": "yield-curve-inversion-recession-signal",
@@ -2638,7 +2857,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/yield-curve-inversion-recession-signal-480.webp",
+    "imageMedium": "assets/responsive/yield-curve-inversion-recession-signal-960.webp",
+    "imageSrcset": "assets/responsive/yield-curve-inversion-recession-signal-480.webp 480w, assets/responsive/yield-curve-inversion-recession-signal-960.webp 960w, assets/editorial/yield-curve-inversion-recession-signal.webp 1920w"
   },
   {
     "id": "dxy-dollar-index-explained",
@@ -2665,7 +2887,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/dxy-dollar-index-explained-480.webp",
+    "imageMedium": "assets/responsive/dxy-dollar-index-explained-960.webp",
+    "imageSrcset": "assets/responsive/dxy-dollar-index-explained-480.webp 480w, assets/responsive/dxy-dollar-index-explained-960.webp 960w, assets/editorial/dxy-dollar-index-explained.webp 1920w"
   },
   {
     "id": "sector-rotation-explained",
@@ -2693,7 +2918,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/sector-rotation-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/sector-rotation-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/sector-rotation-explained-editorial-480.webp 480w, assets/responsive/sector-rotation-explained-editorial-960.webp 960w, assets/editorial/sector-rotation-explained-editorial.webp 1920w"
   },
   {
     "id": "etf-creation-redemption-mechanism",
@@ -2720,7 +2948,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp",
+    "imageMedium": "assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp",
+    "imageSrcset": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp 480w, assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp 960w, assets/editorial/etf-creation-redemption-mechanism-editorial.webp 1920w"
   },
   {
     "id": "ism-pmi-explained",
@@ -2748,7 +2979,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ism-pmi-explained-480.webp",
+    "imageMedium": "assets/responsive/ism-pmi-explained-960.webp",
+    "imageSrcset": "assets/responsive/ism-pmi-explained-480.webp 480w, assets/responsive/ism-pmi-explained-960.webp 960w, assets/editorial/ism-pmi-explained.webp 1920w"
   },
   {
     "id": "fed-funds-futures-rate-odds-explained",
@@ -2776,7 +3010,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp 480w, assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp 960w, assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp 1920w"
   },
   {
     "id": "analyst-ratings-price-targets-explained",
@@ -2804,7 +3041,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp 480w, assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp 960w, assets/editorial/analyst-ratings-price-targets-explained-editorial.webp 1920w"
   },
   {
     "id": "fed-independence-structure-explained",
@@ -2832,7 +3072,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/fed-independence-structure-explained-480.webp",
+    "imageMedium": "assets/responsive/fed-independence-structure-explained-960.webp",
+    "imageSrcset": "assets/responsive/fed-independence-structure-explained-480.webp 480w, assets/responsive/fed-independence-structure-explained-960.webp 960w, assets/editorial/fed-independence-structure-explained.webp 1920w"
   },
   {
     "id": "put-call-ratio-options-sentiment-explained",
@@ -2863,7 +3106,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp 480w, assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp 960w, assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp 1920w"
   },
   {
     "id": "unemployment-rate-u3-u6-participation-explained",
@@ -2890,7 +3136,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp",
+    "imageMedium": "assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp",
+    "imageSrcset": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp 480w, assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp 960w, assets/editorial/unemployment-rate-u3-u6-participation-explained.webp 1920w"
   },
   {
     "id": "currency-intervention-explained",
@@ -2917,7 +3166,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/currency-intervention-explained-480.webp",
+    "imageMedium": "assets/responsive/currency-intervention-explained-960.webp",
+    "imageSrcset": "assets/responsive/currency-intervention-explained-480.webp 480w, assets/responsive/currency-intervention-explained-960.webp 960w, assets/editorial/currency-intervention-explained.webp 1920w"
   },
   {
     "id": "corporate-bonds-explained",
@@ -2949,7 +3201,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/corporate-bonds-explained-480.webp",
+    "imageMedium": "assets/responsive/corporate-bonds-explained-960.webp",
+    "imageSrcset": "assets/responsive/corporate-bonds-explained-480.webp 480w, assets/responsive/corporate-bonds-explained-960.webp 960w, assets/editorial/corporate-bonds-explained.webp 1920w"
   },
   {
     "id": "money-market-funds-vs-savings-explained",
@@ -2980,7 +3235,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/money-market-funds-vs-savings-explained-480.webp",
+    "imageMedium": "assets/responsive/money-market-funds-vs-savings-explained-960.webp",
+    "imageSrcset": "assets/responsive/money-market-funds-vs-savings-explained-480.webp 480w, assets/responsive/money-market-funds-vs-savings-explained-960.webp 960w, assets/editorial/money-market-funds-vs-savings-explained.webp 1920w"
   },
   {
     "id": "weekly-jobless-claims-explained",
@@ -3007,7 +3265,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/weekly-jobless-claims-explained-480.webp",
+    "imageMedium": "assets/responsive/weekly-jobless-claims-explained-960.webp",
+    "imageSrcset": "assets/responsive/weekly-jobless-claims-explained-480.webp 480w, assets/responsive/weekly-jobless-claims-explained-960.webp 960w, assets/editorial/weekly-jobless-claims-explained.webp 1920w"
   },
   {
     "id": "circular-ai-financing-explained",
@@ -3035,7 +3296,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/circular-ai-financing-explained-480.webp",
+    "imageMedium": "assets/responsive/circular-ai-financing-explained-960.webp",
+    "imageSrcset": "assets/responsive/circular-ai-financing-explained-480.webp 480w, assets/responsive/circular-ai-financing-explained-960.webp 960w, assets/editorial/circular-ai-financing-explained.webp 1920w"
   },
   {
     "id": "bitcoin-51-percent-attack-forks-explained",
@@ -3062,7 +3326,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp 480w, assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp 960w, assets/editorial/bitcoin-51-percent-attack-forks-explained.webp 1920w"
   },
   {
     "id": "nfib-small-business-optimism-explained",
@@ -3089,7 +3356,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/nfib-small-business-optimism-explained-480.webp",
+    "imageMedium": "assets/responsive/nfib-small-business-optimism-explained-960.webp",
+    "imageSrcset": "assets/responsive/nfib-small-business-optimism-explained-480.webp 480w, assets/responsive/nfib-small-business-optimism-explained-960.webp 960w, assets/editorial/nfib-small-business-optimism-explained.webp 1920w"
   },
   {
     "id": "private-credit-shadow-banking-explained",
@@ -3117,7 +3387,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp 480w, assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp 960w, assets/editorial/private-credit-shadow-banking-explained-editorial.webp 1920w"
   },
   {
     "id": "defi-basics-explained",
@@ -3145,7 +3418,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/defi-basics-explained-480.webp",
+    "imageMedium": "assets/responsive/defi-basics-explained-960.webp",
+    "imageSrcset": "assets/responsive/defi-basics-explained-480.webp 480w, assets/responsive/defi-basics-explained-960.webp 960w, assets/editorial/defi-basics-explained.webp 1920w"
   },
   {
     "id": "take-private-leveraged-buyout-explained",
@@ -3173,7 +3449,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp 480w, assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp 960w, assets/editorial/take-private-leveraged-buyout-explained-editorial.webp 1920w"
   },
   {
     "id": "us-budget-deficit-national-debt-explained",
@@ -3201,7 +3480,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp",
+    "imageMedium": "assets/responsive/us-budget-deficit-national-debt-explained-960.webp",
+    "imageSrcset": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp 480w, assets/responsive/us-budget-deficit-national-debt-explained-960.webp 960w, assets/editorial/us-budget-deficit-national-debt-explained.webp 1920w"
   },
   {
     "id": "credit-default-swaps-explained",
@@ -3229,7 +3511,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/credit-default-swaps-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/credit-default-swaps-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/credit-default-swaps-explained-editorial-480.webp 480w, assets/responsive/credit-default-swaps-explained-editorial-960.webp 960w, assets/editorial/credit-default-swaps-explained-editorial.webp 1920w"
   },
   {
     "id": "yen-carry-trade-explained",
@@ -3257,7 +3542,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/yen-carry-trade-explained-480.webp",
+    "imageMedium": "assets/responsive/yen-carry-trade-explained-960.webp",
+    "imageSrcset": "assets/responsive/yen-carry-trade-explained-480.webp 480w, assets/responsive/yen-carry-trade-explained-960.webp 960w, assets/editorial/yen-carry-trade-explained.webp 1920w"
   },
   {
     "id": "ppi-producer-price-index-explained",
@@ -3289,7 +3577,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ppi-producer-price-index-explained-480.webp",
+    "imageMedium": "assets/responsive/ppi-producer-price-index-explained-960.webp",
+    "imageSrcset": "assets/responsive/ppi-producer-price-index-explained-480.webp 480w, assets/responsive/ppi-producer-price-index-explained-960.webp 960w, assets/editorial/ppi-producer-price-index-explained.webp 1920w"
   },
   {
     "id": "bitcoin-mining-economics-explained",
@@ -3316,7 +3607,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bitcoin-mining-economics-explained-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-mining-economics-explained-480.webp 480w, assets/responsive/bitcoin-mining-economics-explained-960.webp 960w, assets/editorial/bitcoin-mining-economics-explained.webp 1920w"
   },
   {
     "id": "consumer-sentiment-index-explained",
@@ -3343,7 +3637,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/consumer-sentiment-index-explained-480.webp",
+    "imageMedium": "assets/responsive/consumer-sentiment-index-explained-960.webp",
+    "imageSrcset": "assets/responsive/consumer-sentiment-index-explained-480.webp 480w, assets/responsive/consumer-sentiment-index-explained-960.webp 960w, assets/editorial/consumer-sentiment-index-explained.webp 1920w"
   },
   {
     "id": "secondary-stock-offerings-dilution-explained",
@@ -3375,7 +3672,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp 480w, assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp 960w, assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp 1920w"
   },
   {
     "id": "smaller-company-acquiring-bigger-company-explained",
@@ -3403,7 +3703,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp 480w, assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp 960w, assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp 1920w"
   },
   {
     "id": "13f-filings-explained",
@@ -3431,7 +3734,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/13f-filings-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/13f-filings-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/13f-filings-explained-editorial-480.webp 480w, assets/responsive/13f-filings-explained-editorial-960.webp 960w, assets/editorial/13f-filings-explained-editorial.webp 1920w"
   },
   {
     "id": "strategic-petroleum-reserve-explained",
@@ -3462,7 +3768,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/strategic-petroleum-reserve-explained-480.webp",
+    "imageMedium": "assets/responsive/strategic-petroleum-reserve-explained-960.webp",
+    "imageSrcset": "assets/responsive/strategic-petroleum-reserve-explained-480.webp 480w, assets/responsive/strategic-petroleum-reserve-explained-960.webp 960w, assets/editorial/strategic-petroleum-reserve-explained.webp 1920w"
   },
   {
     "id": "central-bank-policy-divergence-explained",
@@ -3490,7 +3799,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp 480w, assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp 960w, assets/editorial/central-bank-policy-divergence-explained-editorial.webp 1920w"
   },
   {
     "id": "global-bond-yield-synchronization-explained",
@@ -3522,7 +3834,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/global-bond-yield-synchronization-explained-480.webp",
+    "imageMedium": "assets/responsive/global-bond-yield-synchronization-explained-960.webp",
+    "imageSrcset": "assets/responsive/global-bond-yield-synchronization-explained-480.webp 480w, assets/responsive/global-bond-yield-synchronization-explained-960.webp 960w, assets/editorial/global-bond-yield-synchronization-explained.webp 1920w"
   },
   {
     "id": "retailer-earnings-consumer-bellwether-explained",
@@ -3549,7 +3864,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp",
+    "imageMedium": "assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp",
+    "imageSrcset": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp 480w, assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp 960w, assets/editorial/retailer-earnings-consumer-bellwether-explained.webp 1920w"
   },
   {
     "id": "free-cash-flow-explained",
@@ -3577,7 +3895,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/free-cash-flow-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/free-cash-flow-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/free-cash-flow-explained-editorial-480.webp 480w, assets/responsive/free-cash-flow-explained-editorial-960.webp 960w, assets/editorial/free-cash-flow-explained-editorial.webp 1920w"
   },
   {
     "id": "treasury-debt-buyback-explained",
@@ -3605,7 +3926,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/treasury-debt-buyback-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp 480w, assets/responsive/treasury-debt-buyback-explained-editorial-960.webp 960w, assets/editorial/treasury-debt-buyback-explained-editorial.webp 1920w"
   },
   {
     "id": "crack-spread-refining-margins-explained",
@@ -3633,7 +3957,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/crack-spread-refining-margins-explained-480.webp",
+    "imageMedium": "assets/responsive/crack-spread-refining-margins-explained-960.webp",
+    "imageSrcset": "assets/responsive/crack-spread-refining-margins-explained-480.webp 480w, assets/responsive/crack-spread-refining-margins-explained-960.webp 960w, assets/editorial/crack-spread-refining-margins-explained.webp 1920w"
   },
   {
     "id": "clarity-act-crypto-legislation-explained",
@@ -3661,7 +3988,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp",
+    "imageMedium": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
+    "imageSrcset": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp 480w, assets/responsive/clarity-act-crypto-legislation-explained-960.webp 960w, assets/editorial/clarity-act-crypto-legislation-explained.webp 1920w"
   },
   {
     "id": "tips-inflation-protected-bonds-explained",
@@ -3689,7 +4019,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp",
+    "imageMedium": "assets/responsive/tips-inflation-protected-bonds-explained-960.webp",
+    "imageSrcset": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp 480w, assets/responsive/tips-inflation-protected-bonds-explained-960.webp 960w, assets/editorial/tips-inflation-protected-bonds-explained.webp 1920w"
   },
   {
     "id": "housing-starts-builder-confidence-explained",
@@ -3720,7 +4053,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/housing-starts-builder-confidence-explained-480.webp",
+    "imageMedium": "assets/responsive/housing-starts-builder-confidence-explained-960.webp",
+    "imageSrcset": "assets/responsive/housing-starts-builder-confidence-explained-480.webp 480w, assets/responsive/housing-starts-builder-confidence-explained-960.webp 960w, assets/editorial/housing-starts-builder-confidence-explained.webp 1920w"
   },
   {
     "id": "dollar-reserve-currency-status-explained",
@@ -3748,7 +4084,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/dollar-reserve-currency-status-explained-480.webp",
+    "imageMedium": "assets/responsive/dollar-reserve-currency-status-explained-960.webp",
+    "imageSrcset": "assets/responsive/dollar-reserve-currency-status-explained-480.webp 480w, assets/responsive/dollar-reserve-currency-status-explained-960.webp 960w, assets/editorial/dollar-reserve-currency-status-explained.webp 1920w"
   },
   {
     "id": "sp500-concentration-risk-explained",
@@ -3776,7 +4115,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/sp500-concentration-risk-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp 480w, assets/responsive/sp500-concentration-risk-explained-editorial-960.webp 960w, assets/editorial/sp500-concentration-risk-explained-editorial.webp 1920w"
   },
   {
     "id": "debt-spiral-r-versus-g-explained",
@@ -3804,7 +4146,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp 480w, assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp 960w, assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp 1920w"
   },
   {
     "id": "jackson-hole-symposium-explained",
@@ -3836,7 +4181,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/jackson-hole-symposium-explained-480.webp",
+    "imageMedium": "assets/responsive/jackson-hole-symposium-explained-960.webp",
+    "imageSrcset": "assets/responsive/jackson-hole-symposium-explained-480.webp 480w, assets/responsive/jackson-hole-symposium-explained-960.webp 960w, assets/editorial/jackson-hole-symposium-explained.webp 1920w"
   },
   {
     "id": "tariffs-who-actually-pays-explained",
@@ -3864,7 +4212,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/tariffs-who-actually-pays-explained-480.webp",
+    "imageMedium": "assets/responsive/tariffs-who-actually-pays-explained-960.webp",
+    "imageSrcset": "assets/responsive/tariffs-who-actually-pays-explained-480.webp 480w, assets/responsive/tariffs-who-actually-pays-explained-960.webp 960w, assets/editorial/tariffs-who-actually-pays-explained.webp 1920w"
   },
   {
     "id": "crypto-rally-three-catalysts-explained",
@@ -3892,7 +4243,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp",
+    "imageMedium": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
+    "imageSrcset": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp 480w, assets/responsive/crypto-rally-three-catalysts-explained-960.webp 960w, assets/editorial/crypto-rally-three-catalysts-explained.webp 1920w"
   },
   {
     "id": "block-trades-dark-pools-explained",
@@ -3920,7 +4274,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/block-trades-dark-pools-explained-480.webp",
+    "imageMedium": "assets/responsive/block-trades-dark-pools-explained-960.webp",
+    "imageSrcset": "assets/responsive/block-trades-dark-pools-explained-480.webp 480w, assets/responsive/block-trades-dark-pools-explained-960.webp 960w, assets/editorial/block-trades-dark-pools-explained.webp 1920w"
   },
   {
     "id": "treasury-general-account-liquidity-explained",
@@ -3948,7 +4305,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/treasury-general-account-liquidity-explained-480.webp",
+    "imageMedium": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
+    "imageSrcset": "assets/responsive/treasury-general-account-liquidity-explained-480.webp 480w, assets/responsive/treasury-general-account-liquidity-explained-960.webp 960w, assets/editorial/treasury-general-account-liquidity-explained.webp 1920w"
   },
   {
     "id": "emerging-market-carry-trade-explained",
@@ -3976,7 +4336,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/emerging-market-carry-trade-explained-480.webp",
+    "imageMedium": "assets/responsive/emerging-market-carry-trade-explained-960.webp",
+    "imageSrcset": "assets/responsive/emerging-market-carry-trade-explained-480.webp 480w, assets/responsive/emerging-market-carry-trade-explained-960.webp 960w, assets/editorial/emerging-market-carry-trade-explained.webp 1920w"
   },
   {
     "id": "bond-duration-explained",
@@ -4004,7 +4367,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/bond-duration-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/bond-duration-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/bond-duration-explained-editorial-480.webp 480w, assets/responsive/bond-duration-explained-editorial-960.webp 960w, assets/editorial/bond-duration-explained-editorial.webp 1920w"
   },
   {
     "id": "merger-arbitrage-deal-spread-explained",
@@ -4032,7 +4398,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp",
+    "imageMedium": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp",
+    "imageSrcset": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp 480w, assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp 960w, assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp 1920w"
   },
   {
     "id": "prediction-markets-circuit-split-explained",
@@ -4059,7 +4428,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/prediction-markets-circuit-split-explained-480.webp",
+    "imageMedium": "assets/responsive/prediction-markets-circuit-split-explained-960.webp",
+    "imageSrcset": "assets/responsive/prediction-markets-circuit-split-explained-480.webp 480w, assets/responsive/prediction-markets-circuit-split-explained-960.webp 960w, assets/editorial/prediction-markets-circuit-split-explained.webp 1920w"
   },
   {
     "id": "ai-monetization-gap-explained",
@@ -4091,7 +4463,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-monetization-gap-explained-480.webp",
+    "imageMedium": "assets/responsive/ai-monetization-gap-explained-960.webp",
+    "imageSrcset": "assets/responsive/ai-monetization-gap-explained-480.webp 480w, assets/responsive/ai-monetization-gap-explained-960.webp 960w, assets/editorial/ai-monetization-gap-explained.webp 1920w"
   },
   {
     "id": "ceo-succession-stock-impact-explained",
@@ -4123,7 +4498,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ceo-succession-stock-impact-explained-480.webp",
+    "imageMedium": "assets/responsive/ceo-succession-stock-impact-explained-960.webp",
+    "imageSrcset": "assets/responsive/ceo-succession-stock-impact-explained-480.webp 480w, assets/responsive/ceo-succession-stock-impact-explained-960.webp 960w, assets/editorial/ceo-succession-stock-impact-explained.webp 1920w"
   },
   {
     "id": "second-round-inflation-effects-explained",
@@ -4155,7 +4533,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/second-round-inflation-effects-explained-480.webp",
+    "imageMedium": "assets/responsive/second-round-inflation-effects-explained-960.webp",
+    "imageSrcset": "assets/responsive/second-round-inflation-effects-explained-480.webp 480w, assets/responsive/second-round-inflation-effects-explained-960.webp 960w, assets/editorial/second-round-inflation-effects-explained.webp 1920w"
   },
   {
     "id": "oil-near-100-inflation-2026",
@@ -4192,7 +4573,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/oil-near-100-inflation-2026-480.webp",
+    "imageMedium": "assets/responsive/oil-near-100-inflation-2026-960.webp",
+    "imageSrcset": "assets/responsive/oil-near-100-inflation-2026-480.webp 480w, assets/responsive/oil-near-100-inflation-2026-960.webp 960w, assets/editorial/oil-near-100-inflation-2026.webp 1920w"
   },
   {
     "id": "ai-agents-enterprise-roi-2026",
@@ -4220,7 +4604,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-agents-enterprise-roi-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-agents-enterprise-roi-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-agents-enterprise-roi-2026-480.webp 480w, assets/responsive/ai-agents-enterprise-roi-2026-960.webp 960w, assets/editorial/ai-agents-enterprise-roi-2026.webp 1920w"
   },
   {
     "id": "ai-chips-bottlenecks-2026",
@@ -4252,7 +4639,10 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/ai-chips-bottlenecks-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-chips-bottlenecks-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-chips-bottlenecks-2026-480.webp 480w, assets/responsive/ai-chips-bottlenecks-2026-960.webp 960w, assets/editorial/ai-chips-bottlenecks-2026.webp 1920w"
   },
   {
     "id": "small-business-ai-adoption-2026",
@@ -4284,6 +4674,9 @@ const TTN_ARTICLES = [
       }
     ],
     "dateModified": "2026-10-12T08:38:47+00:00",
-    "editorialNote": null
+    "editorialNote": null,
+    "imageSmall": "assets/responsive/small-business-ai-adoption-2026-480.webp",
+    "imageMedium": "assets/responsive/small-business-ai-adoption-2026-960.webp",
+    "imageSrcset": "assets/responsive/small-business-ai-adoption-2026-480.webp 480w, assets/responsive/small-business-ai-adoption-2026-960.webp 960w, assets/editorial/small-business-ai-adoption-2026.webp 1920w"
   }
 ];

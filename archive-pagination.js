@@ -1,10 +1,10 @@
 /* Shared navigation for the two original editorial archives. */
 window.TTNArchive = {
-  card(article, section, extras = "") {
+  card(article, section, extras = "", options = {}) {
     const escape = value => String(value || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
     const url = encodeURIComponent(article.id) + ".html";
     const image = article.image
-      ? `<img src="${escape(article.image)}" alt="${escape(article.title)}" width="640" height="360" loading="lazy" decoding="async">`
+      ? `<img src="${escape(article.imageSmall || article.image)}"${article.imageSrcset ? ` srcset="${escape(article.imageSrcset)}" sizes="${options.home ? '(max-width: 560px) calc(100vw - 40px), (max-width: 1050px) calc((100vw - 60px) / 2), 290px' : '(max-width: 700px) calc(100vw - 36px), 400px'}"` : ""} alt="${escape(article.imageAlt || article.title)}" width="640" height="360" loading="${options.eager ? 'eager' : 'lazy'}" decoding="async">`
       : '<span class="archive-image-fallback" aria-hidden="true"></span>';
     return `<article class="editorial-archive-card"><a class="editorial-archive-media" href="${url}" aria-label="${escape(article.title)}">${image}</a><div class="editorial-archive-content"><span class="ttn-original-badge">${escape(section)}</span><h3><a href="${url}">${escape(article.title)}</a></h3><p class="editorial-dek">${escape(article.dek)}</p><div class="editorial-meta">${TTNEditorialMeta.html(article)}</div>${extras}</div></article>`;
   },
@@ -40,7 +40,7 @@ window.TTNArchive = {
       summary.textContent = articles.length
         ? `${articles.length} articles · Showing ${start + 1}–${end} · Page ${page} of ${totalPages}`
         : "0 articles";
-      element.innerHTML = articles.slice(start, end).map(renderArticle).join("") || "<p>No articles are available yet.</p>";
+      element.innerHTML = articles.slice(start, end).map((article, index) => renderArticle(article, index)).join("") || "<p>No articles are available yet.</p>";
       const link = (n, text, extra = "") => `<a href="${pageUrl(n).replace(/&/g, "&amp;").replace(/\"/g, "&quot;")}" ${extra}>${text}</a>`;
       const pages = new Set([1, totalPages, page - 1, page, page + 1]);
       const numbers = [...pages].filter(n => n >= 1 && n <= totalPages).sort((a, b) => a - b);
