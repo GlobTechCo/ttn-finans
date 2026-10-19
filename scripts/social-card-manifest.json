@@ -1743,6 +1743,28 @@
       "bytes": 522530,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/us-homebuilder-confidence-october-2026-low.html?card=ec7fa62b4dc5"
+    },
+    {
+      "page": "wall-street-close-october-19-2026-ai-rebound.html",
+      "source": "assets/editorial/wall-street-close-october-19-2026-ai-rebound.webp",
+      "image": "assets/social/wall-street-close-october-19-2026-ai-rebound-285cb8b765db.webp",
+      "sha256": "285cb8b765dbdc73d300c3d3a1ce020dbfdcc9fbe5bd0cb16cc21172efbc161f",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 416992,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/wall-street-close-october-19-2026-ai-rebound.html?card=285cb8b765db"
+    },
+    {
+      "page": "apple-pro-and-tell-october-28-2026-event.html",
+      "source": "assets/editorial/apple-pro-and-tell-october-28-2026-event.webp",
+      "image": "assets/social/apple-pro-and-tell-october-28-2026-event-0bb0400f3e21.webp",
+      "sha256": "0bb0400f3e2119dd164affe66e1dd953e2a77877e957b4f4fd15874064e1f834",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 454562,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/apple-pro-and-tell-october-28-2026-event.html?card=0bb0400f3e21"
     }
   ]
 }

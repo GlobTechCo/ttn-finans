@@ -1,6 +1,102 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "apple-pro-and-tell-october-28-2026-event",
+    "section": "Tech & AI",
+    "title": "Apple Sets October 28 Event as Mac Expectations Build",
+    "dek": "Apple has announced a Los Angeles event for October 28. Reports point to new Macs, but the invitation does not confirm hardware specifications.",
+    "tickers": [
+      "AAPL"
+    ],
+    "image": "assets/editorial/apple-pro-and-tell-october-28-2026-event.webp",
+    "imageAlt": "Generated editorial reconstruction of Apple Tower Theatre in Los Angeles, an existing retail store; not the announced event venue or an event photograph.",
+    "imageSmall": "assets/responsive/apple-pro-and-tell-october-28-2026-event-480.webp",
+    "imageMedium": "assets/responsive/apple-pro-and-tell-october-28-2026-event-960.webp",
+    "imageSrcset": "assets/responsive/apple-pro-and-tell-october-28-2026-event-480.webp 480w, assets/responsive/apple-pro-and-tell-october-28-2026-event-960.webp 960w, assets/editorial/apple-pro-and-tell-october-28-2026-event.webp 1920w",
+    "sources": [
+      {
+        "label": "Reuters: Apple announces October 28 Los Angeles event",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-host-pro-tell-event-oct-28-la-2026-10-19/"
+      },
+      {
+        "label": "9to5Mac: October 19 media invitation and Joswiak teaser",
+        "url": "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28/"
+      },
+      {
+        "label": "MacRumors: media invitation and expected product lineup",
+        "url": "https://www.macrumors.com/2026/10/19/apple-pro-and-tell/"
+      },
+      {
+        "label": "Apple: official event information and previous announcements",
+        "url": "https://www.apple.com/apple-events/"
+      },
+      {
+        "label": "Apple: documented Tower Theatre retail location used as the image reference",
+        "url": "https://www.apple.com/newsroom/2021/06/apple-tower-theatre-opens-thursday-in-downtown-los-angeles/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T20:41:31+00:00",
+    "dateModified": "2026-10-19T20:41:31+00:00",
+    "editorialNote": null,
+    "body": [
+      "Apple has announced an October 28 event in Los Angeles under the tagline “Pro and tell,” setting a date for its next hardware presentation while leaving the product lineup unconfirmed. Reports point to a major MacBook Pro update, but the invitation itself is not a specification sheet.",
+      "The distinction is particularly important for the most closely watched possibility: a touchscreen MacBook Pro. Bloomberg has reported that such a model is expected. Apple’s event announcement does not confirm that feature, a launch price or a delivery date.",
+      "The invitation establishes a date, not a product review",
+      "MacRumors reports that invited members of the media are due to attend an in-person experience beginning at 10 a.m. Pacific on October 28. Its coverage also points to possible Mac and iPad mini announcements. Those expectations should remain separate from the confirmed scheduling information.",
+      "For US readers, 10 a.m. Pacific corresponds to 1 p.m. Eastern on that date. The media invitation should not be treated as a promise of a public livestream. Nor does an invitation to see products establish when customers will be able to order them.",
+      "A different screen would need a software explanation",
+      "If Apple introduces touch input on a Mac, the useful questions will extend beyond the panel. Buyers would need to understand which applications support the interaction, how the interface handles touch alongside a trackpad and keyboard, and whether familiar workflows benefit. Until hardware and software are demonstrated, those remain questions for the launch rather than findings about an existing product.",
+      "For businesses, compatibility and deployment details would matter alongside performance. Local processing and cloud services can have different implications for enterprise data security. An AI feature’s name alone does not explain where a task runs or how company information is handled.",
+      "Availability will matter as much as the announcement",
+      "TTN’s earlier iPhone Duo preorder report examined the gap between an announced product and the date a buyer can receive it. That experience is context, not evidence that a new Mac or iPad will face the same constraints. Any October 28 announcement will need its own ordering dates, configurations and delivery terms.",
+      "Our coverage of HomeView and Siri AI follows another part of Apple’s expanding lineup. For the next presentation, the reporting task is narrower: establish what Apple actually introduces, separate shipping features from future promises, and check prices and availability against the company’s published information."
+    ]
+  },
+  {
+    "id": "wall-street-close-october-19-2026-ai-rebound",
+    "section": "Market Analysis",
+    "title": "Nasdaq Rebounds, but Wall Street’s Recovery Is Uneven",
+    "dek": "The Nasdaq gained 1.1% at Monday’s close while the Dow slipped. A technology rebound leaves financing costs and earnings in focus.",
+    "tickers": [
+      "NVDA",
+      "INTC",
+      "CRWV"
+    ],
+    "image": "assets/editorial/wall-street-close-october-19-2026-ai-rebound.webp",
+    "imageAlt": "Generated editorial reconstruction of the New York Stock Exchange facade on Broad Street; not a photograph of October 19 trading.",
+    "imageSmall": "assets/responsive/wall-street-close-october-19-2026-ai-rebound-480.webp",
+    "imageMedium": "assets/responsive/wall-street-close-october-19-2026-ai-rebound-960.webp",
+    "imageSrcset": "assets/responsive/wall-street-close-october-19-2026-ai-rebound-480.webp 480w, assets/responsive/wall-street-close-october-19-2026-ai-rebound-960.webp 960w, assets/editorial/wall-street-close-october-19-2026-ai-rebound.webp 1920w",
+    "sources": [
+      {
+        "label": "Reuters: preliminary October 19 closing index levels",
+        "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+      },
+      {
+        "label": "Associated Press: closing direction and market breadth",
+        "url": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T20:41:31+00:00",
+    "dateModified": "2026-10-19T20:41:31+00:00",
+    "editorialNote": null,
+    "body": [
+      "US stocks ended Monday with a recovery concentrated in technology. The Nasdaq Composite rose 1.11% to 26,430.89 and the S&P 500 added 0.42% to 7,691.07, according to preliminary closing figures. The Dow Jones Industrial Average slipped 0.06% to 51,970.20.",
+      "The divergence matters: a stronger headline index did not mean that most shares advanced. The Associated Press reported that a majority of US stocks outside AI and technology fell. Monday brought relief for the market’s largest growth businesses, while the broader recovery remained incomplete.",
+      "A rebound in prices leaves the funding question open",
+      "Chip stocks recovered after an extended decline. The Philadelphia Semiconductor Index ended an eight-session losing streak. CoreWeave, meanwhile, surrendered its early gains despite a Goldman Sachs upgrade, illustrating how uneven the response remained among AI infrastructure businesses.",
+      "A rising share price does not refinance a company’s debt or reduce the cash needed to finish a project. It can improve sentiment and potentially make future equity financing more attractive, but those benefits depend on the terms available when money is actually raised. Monday’s trading should therefore be read as a change in market pricing rather than proof that funding risks have disappeared.",
+      "The index and the typical holding can tell different stories",
+      "In a capitalization-weighted index, larger companies have more influence over the result. A portfolio concentrated in smaller businesses or different sectors can move quite differently from the benchmark. Our guide to index concentration explains why a positive S&P 500 session can coexist with weakness across many individual holdings.",
+      "That distinction also limits what can be inferred from a one-day rebound. To establish that a recovery is broadening, investors would need evidence across more companies and sectors over subsequent sessions. A technology-led rise alone cannot supply that evidence.",
+      "Results now need to support the valuation",
+      "For the next round of company reports, revenue growth and earnings expectations are only part of the assessment. Capital spending, collections from customers and free cash flow help show how much growth can be funded internally. A large order or long-term contract may support a business without producing an immediate cash receipt.",
+      "The same discipline applies to guidance. A forecast for stronger demand needs to be considered alongside the expense of supplying it and the timing of the investment. Monday’s closing split leaves a clear test for the coming reports: whether improving expectations are supported by cash generation and a wider range of businesses."
+    ]
+  },
+  {
     "id": "us-homebuilder-confidence-october-2026-low",
     "section": "Market Analysis",
     "title": "US Builder Confidence Falls to Lowest Since 2012",
