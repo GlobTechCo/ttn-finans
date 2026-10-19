@@ -1,5 +1,13 @@
 # TTN editorial image policy
 
+Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns image acceptance and correction approvals.
+
+- Use neutral natural daylight, realistic white balance/exposure and believable color. Exclude cinematic/moody grading, dramatic skies, film grain, teal/orange effects, strong vignettes, artificial glow and harsh glare. Neutral does not mean gray or desaturated.
+- Exclude staged advertising behavior: posed agent-and-buyer groups, handshakes, matching smiles and showroom-perfect settings. For housing-market coverage, prefer ordinary residential construction and credible everyday activity. Include people when the scene calls for them without inventing named participants.
+- Inspect the actual result for anatomy, perspective, architecture, signage, equipment and plausible placement. Reject weak results and regenerate before seeking approval. Keep keypads readable with digits/symbols, equipment intact and vehicles parked realistically.
+- Compare recent covers for repeated settings, office meetings, round devices, gas nozzles and recurring faces. Choose a distinct scene suited to the article.
+- Preserve generated-image provenance internally and use truthful alt/schema. Do not add the unwanted visible AI-generation caption or misrepresent a reconstruction as an original news photograph.
+
 - October 19 correction: avoid recurring faces and near-identical people across covers. Changing glasses or hair alone does not create sufficient variety. Vary age, facial structure, skin tone, build, clothing, role, pose, camera angle and setting where people are appropriate; use a different subject when it fits the story better. Compare recent covers before accepting a new image. Never describe synthetic people as actual participants in the reported event.
 
 - After the user requests a correction to a generated image, produce and show the revised preview first. Wait for explicit approval of that specific preview before replacing any website, homepage or social-card image. Agreement to this workflow is not approval of an unseen image.

@@ -3,3 +3,5 @@ exclude:
   - scripts
   - README.md
   - requirements-maintenance.txt
+  - AGENTS.md
+  - .agents
