@@ -1,6 +1,7 @@
 /* Tech & AI archive; the same card and pagination component as Market Analysis. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "sp-global-ai-debt-visibility-hyperscalers-2026",
     "amazon-torchneuron-pytorch-trainium-2026",
     "ai-agents-website-breaches-norforge-october-2026",
     "anthropic-public-benefit-fund-five-percent-shares-2026",
