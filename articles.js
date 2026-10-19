@@ -1,6 +1,63 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "amazon-torchneuron-pytorch-trainium-2026",
+    "section": "Tech & AI",
+    "title": "Amazon Takes Aim at Nvidia’s Software Advantage",
+    "dek": "TorchNeuron brings native PyTorch workflows to Trainium. Easier migration could widen hardware choice, but cost savings still depend on the workload.",
+    "imageAlt": "Illustrative laboratory scene of an engineer testing an unbranded server accelerator board; not an actual Trainium product photograph.",
+    "image": "assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp",
+    "imageSmall": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-480.webp",
+    "imageMedium": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-960.webp",
+    "imageSrcset": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-480.webp 480w, assets/responsive/amazon-torchneuron-pytorch-trainium-2026-960.webp 960w, assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp 1920w",
+    "tickers": [
+      "AMZN",
+      "NVDA"
+    ],
+    "sources": [
+      {
+        "label": "AWS Neuron: native PyTorch backend and migration configuration",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/pytorch-native-overview.html"
+      },
+      {
+        "label": "AWS: custom CUDA and Triton kernel migration to Trainium",
+        "url": "https://aws.amazon.com/blogs/migration-and-modernization/stop-hand-porting-kernels-migrate-pytorch-and-triton-kernels-to-aws-trainium-with-an-aws-transform-custom-agent/"
+      },
+      {
+        "label": "PyTorch: 2026 conference hardware and infrastructure program",
+        "url": "https://pytorch.org/blog/your-guide-to-hardware-acceleration-compute-infrastructure-at-pytorch-conference-north-america-2026/"
+      },
+      {
+        "label": "Reuters: Amazon’s October 19 TorchNeuron announcement",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T16:43:32+00:00",
+    "dateModified": "2026-10-19T16:43:32+00:00",
+    "editorialNote": null,
+    "body": [
+      "Amazon is pushing further into the software layer of the AI chip market with TorchNeuron, a native PyTorch backend for its Trainium accelerators. The October 19 announcement targets a practical obstacle to switching hardware: the engineering work needed to move an existing model onto a different computing platform.",
+      "For AWS, lowering that barrier could make its own chips easier to evaluate alongside Nvidia-based cloud instances. For customers, the immediate opportunity is a wider choice of infrastructure. Whether that choice produces a cheaper production system remains a separate calculation.",
+      "Familiar tools on a different chip",
+      "PyTorch is a machine-learning framework used to build and run models. TorchNeuron connects those workflows to Trainium through a native backend, with support for eager execution, compilation and distributed processing. Eager execution helps developers inspect operations as they run; compilation can optimize parts of a model for deployment.",
+      "AWS documentation describes small configuration changes for standard workflows. Its examples change the selected device from CUDA to Neuron and specify a Neuron backend when using torch.compile. Distributed configurations must also reflect the available NeuronCores. Those examples describe a shorter migration path, rather than a guarantee that every existing application will transfer unchanged.",
+      "The PyTorch conference program separately lists Trainium demonstrations covering model training, serving, profiling and custom kernels. It also includes a Google session on native PyTorch support for TPUs. Software portability is becoming a competitive priority across accelerator suppliers, extending the contest beyond the specifications of individual chips.",
+      "Custom software remains a dividing line",
+      "Standard framework operations and hardware-specific extensions present different migration problems. A model may use ordinary PyTorch code for most of its work while relying on a small set of custom kernels for its most demanding calculations.",
+      "An AWS engineering article on kernel migration explains that CUDA and Triton kernels written around a GPU’s execution model need adaptation for Trainium. It describes converting them to the Neuron Kernel Interface, followed by correctness checks and performance profiling. Native PyTorch integration therefore does not remove every hardware dependency in a mature application.",
+      "That distinction matters most when an organization has already invested heavily in optimization. Moving the model definition is only one part of replacing a production stack. Validation, deployment tools and operational support can determine whether a technically successful migration is commercially worthwhile.",
+      "The relevant price is the cost of useful work",
+      "TTN’s assessment is that easier compatibility chiefly reduces the cost of trying an alternative. It gives a team more room to compare platforms before committing to a larger deployment. It does not, by itself, establish a price advantage for either supplier.",
+      "A useful comparison keeps model quality and service requirements constant. For training, that means checking the cost and time needed to reach the same target quality. For inference, it means comparing completed requests at an acceptable error rate and response time. Our analysis of AI inference economics explains why a low headline computing price can obscure retries and other operating costs.",
+      "Infrastructure also has to remain productive between peak workloads. Idle capacity, storage, networking and engineering time affect the total bill. As TTN’s reporting on AI networking explains, accelerator performance depends on the surrounding system as well as the chip.",
+      "A test of adoption",
+      "A credible pilot would therefore record engineering hours alongside computing charges, retain the original workload as a baseline, and test recovery from failed jobs. That gives procurement teams evidence they can compare with an existing supplier contract.",
+      "Amazon’s next commercial test is whether simpler access leads customers from experiments to sustained workloads. A demonstration can establish that a model runs; repeated production results are needed to establish reliability and cost.",
+      "For Nvidia, a more portable framework could make competing accelerators easier for customers to consider. The size of that effect will depend on application compatibility and measured economics. TorchNeuron broadens the options available to developers, while leaving customers with the work of proving which option fits their business."
+    ]
+  },
+  {
     "id": "ai-agents-website-breaches-norforge-october-2026",
     "section": "Tech & AI",
     "title": "AI Agents Linked to Over 100 Website Breaches",
