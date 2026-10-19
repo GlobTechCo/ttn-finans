@@ -2203,20 +2203,36 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A reader who gets an answer on a search results page may never visit the publication that reported the underlying facts. For a publisher paid by advertising on its own pages, that missing visit is a commercial problem even when its work remains visible.",
-      "The relationship is not one-for-one. A lost visit can mean lost advertising inventory, but a reader seeking a brief definition differs from one comparing financial products or investigating a complex claim. Revenue per visit and the likelihood of a subscription matter alongside the total traffic count.",
-      "Original reporting has costs a summary does not remove. Interviews, records requests, specialist review and data collection must still be funded. An AI answer can redistribute attention without producing those inputs itself; the question for a newsroom is whether the remaining audience and commercial arrangements cover that work.",
-      "A citation offers a route back to the source, not a guarantee of a click or a licensing payment. Publishers need to distinguish referral traffic from licensed use and direct readership when judging whether a new search arrangement improves their business.",
-      "The useful comparison is page-level: search impressions, clicks, engaged visits, subscriptions and revenue before and after a change. A decline concentrated in short factual pages calls for a different response from a decline in original investigations. Other changes in search rankings and audience demand must also be considered.",
-      "Distinctive reporting, useful tools and repeat readers give a publisher more reasons to be visited directly. Producing a larger volume of interchangeable summaries does not by itself repair the economics of a missing click."
+      "A publisher can appear prominently in an AI answer and receive little traffic from it. The commercial issue is the journey after discovery: whether someone visits the original reporting, sees advertising, subscribes or returns directly. A citation and a paying reader are different outcomes.",
+      "AI search changes that journey by answering some questions within the search service. The effect depends on the query and the publication. A short factual answer may satisfy the reader immediately; an investigation, interactive tool or specialist analysis can give that reader a reason to continue to the source.",
+      "Measure visits separately from visibility",
+      "Pew Research Center examined browsing data from 900 US adults in March 2025. Users clicked a traditional result in 8% of visits with an AI summary, compared with 15% without one. Links within the summary received clicks in 1% of visits that included one. Those are observations from that sample and period, not a guaranteed traffic forecast for every publisher.",
+      "Searches showing summaries can differ from searches without them. The comparison therefore does not establish how much of a particular site's decline AI caused. Query mix, ranking changes, seasonal demand and competing coverage can also change referrals. A useful assessment compares similar pages and queries over time and acknowledges what the data cannot isolate.",
+      "Google's documentation says traffic from its AI search features is included in Search Console's Web performance reporting. That combined view is useful for total discovery but does not by itself identify every visit produced by an AI answer. Referral data, landing-page engagement and subscription records answer different parts of the commercial question.",
+      "A traffic decline has a measurable revenue effect",
+      "Consider a hypothetical site receiving 1 million search visits a month, with 1.5 page views per visit and $12 of advertising revenue per thousand page views. That produces 1.5 million page views and $18,000 of advertising revenue. If visits fall 20% while the other assumptions hold, revenue falls to $14,400, a $3,600 monthly reduction.",
+      "Traffic quality can partly offset the volume loss. If the remaining 800,000 visits produce 1.8 page views each, the same advertising yield generates $17,280. That is still $720 below the original figure. An increase in engagement helps, but does not automatically replace the missing revenue. These are illustrative calculations, not reported results from a publisher.",
+      "Subscriptions change the comparison",
+      "A smaller audience could be more valuable if it contains more likely subscribers. In a separate hypothetical cohort, 10,000 visits converting at 0.2% produce 20 subscriptions. Another cohort of 8,000 visits converting at 0.4% produces 32. The second has fewer visits and more new customers, before allowing for acquisition costs, cancellations and subscription prices.",
+      "The conversion window matters. A reader may discover an article through search, join a newsletter later and subscribe after several direct visits. Crediting only the final click can hide the original source of discovery. Conversely, counting a registration as a paid subscription overstates immediate revenue. Publishers need consistent definitions and comparable cohorts.",
+      "Licensing is a separate source of income",
+      "A content agreement may provide a fixed payment, usage-based compensation or other terms. Its economic value depends on the contract: permitted uses, duration, reporting, exclusivity and renewal conditions. Public announcements do not necessarily disclose enough to calculate whether a payment replaces lost advertising or subscription opportunities.",
+      "Access controls also serve different purposes. Google's guidance distinguishes controls for Search from Google-Extended, which addresses certain other AI uses. A publisher should examine the documented function of each control rather than assume that blocking one user agent removes all AI exposure while preserving every source of traffic. Inclusion is not a guaranteed commercial return.",
+      "Judge the business by the relationship it retains",
+      "Direct visits, newsletters, specialist databases and useful tools can create recurring demand beyond a search referral. They also require investment and do not eliminate distribution risk. The useful financial comparison tracks referral volume, reader engagement, paid conversion, retention and licensing receipts alongside the cost of producing distinctive work.",
+      "This is another application of the distinction between AI activity and durable revenue. Visibility can open a commercial opportunity. The publisher's accounts must show whether that opportunity becomes sufficient recurring income to support the reporting."
     ],
     "sources": [
       {
-        "label": "NIST: Generative Artificial Intelligence Risk Management Profile",
-        "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"
+        "label": "Pew Research Center: Observed search behavior with AI summaries, March 2025",
+        "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+      },
+      {
+        "label": "Google Search Central: AI features, measurement and publisher controls",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/ai-search-publisher-economics-2026-480.webp",
     "imageMedium": "assets/responsive/ai-search-publisher-economics-2026-960.webp",
@@ -2344,20 +2360,38 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "A Federal Reserve announcement changes more than the price of overnight money. It can alter the path investors expect for borrowing costs, which affects company valuations, bond prices and the willingness to take financial risk.",
-      "The Fed sets a target range for the federal funds rate and uses its operating tools to guide overnight rates. Longer-term yields are determined in markets. They incorporate expected future policy, inflation and compensation for holding securities over time, so a mortgage rate need not move in step with a single Fed decision.",
-      "For shares, interest rates enter the valuation through the discount rate applied to expected cash flows. Holding other assumptions constant, a higher discount rate reduces their present value. Businesses whose expected earnings lie further in the future can be particularly sensitive, but changes to growth expectations can offset or amplify that effect.",
-      "A fixed-rate bond offers cash payments agreed in advance. When the market demands a higher yield on comparable debt, its price generally falls. The size of the change depends partly on duration. Credit risk and the terms of the security also matter.",
-      "Gold pays no interest, so returns available on interest-bearing alternatives affect its appeal. Currency moves and demand for a store of value may pull in another direction. Bitcoin has no contractual cash flow to discount; policy affects it through financing conditions, portfolio decisions and market sentiment, alongside crypto-specific developments.",
-      "The surprise matters as much as the decision. A widely expected increase may already be reflected in prices, while an unchanged rate accompanied by different guidance can cause a substantial adjustment. Reading the statement and forecast alongside the rate gives a more complete account of what changed."
+      "A Federal Reserve decision reaches markets through the borrowing costs and economic conditions investors expect next. The announced interest rate matters, but so do the outlook, the reasons for the decision and the difference between the announcement and what prices already assumed.",
+      "That explains why an interest-rate cut can coincide with falling shares or rising long-term yields. Different parts of the announcement may change expectations about inflation, growth and risk in different directions. There is no fixed rule requiring stocks, bonds and crypto to move together.",
+      "The overnight rate is the starting point",
+      "The Federal Open Market Committee sets a target range for the federal funds rate. The Fed's implementation tools help guide overnight money-market rates. Mortgage rates, corporate borrowing costs and long-term Treasury yields are market prices influenced by expected future policy and other risks; the Fed does not simply set them at its meeting.",
+      "The Federal Reserve describes financial conditions as an important route through which policy affects spending and investment. A company facing a higher financing cost may postpone a project. A household refinancing a loan may have less available income. These responses unfold over time and differ according to the borrower's existing contracts and balance sheet.",
+      "Separate the decision from the surprise",
+      "Suppose investors widely expect a quarter-point reduction. If the Fed delivers that reduction, the decision may contain little new information. A statement implying fewer subsequent cuts could still push some yields upward. The appropriate comparison is between the expected policy path before the announcement and the path inferred afterward.",
+      "Futures provide evidence about pricing under particular contract conventions and assumptions, not an opinion poll of every investor. The distinction is explained in our guide to rate probabilities and FedWatch. Statements, forecasts and the press conference can each alter the interpretation of an unchanged headline rate.",
+      "Valuation arithmetic holds other assumptions constant",
+      "For an illustrative single payment of $110 due in one year, a 10% discount rate gives a present value of $100. At 8%, the present value becomes about $101.85. The lower rate increases today's value, assuming the amount and certainty of the future payment remain unchanged.",
+      "Shares represent uncertain streams of future cash flows. If the lower rate reflects a worsening economy, expected earnings might fall enough to outweigh the valuation benefit. The discount rate for equities also includes compensation for risk, which can rise during stress. A policy cut and a higher valuation are therefore not interchangeable claims.",
+      "Bond prices respond to the yield that actually changes",
+      "Consider a hypothetical fixed-rate bond with a modified duration of five years. A half-percentage-point decline in its relevant yield implies an approximate 2.5% price rise: five multiplied by 0.005. This first-order estimate excludes convexity, accrued interest and changes in credit quality. It does not promise that the bond's yield will fall by the amount of a Fed cut.",
+      "A corporate bond also carries a credit spread. If Treasury yields fall 0.50 percentage point while its spread rises 0.75 point, the bond's overall yield rises roughly 0.25 point. Its price could decline despite policy easing. Our duration explainer describes the sensitivity and its limits.",
+      "The cash-flow effect depends on refinancing",
+      "For a hypothetical $200,000 interest-only floating-rate balance, a fully passed-through quarter-point increase adds $500 of annual interest, or about $41.67 a month. That arithmetic excludes fees and principal payments. A borrower with a fixed rate would generally experience no immediate contractual change until refinancing or the relevant reset.",
+      "This uneven timing helps explain why market prices can react within seconds while measured spending adjusts gradually. Cash-rich households can receive more interest income; borrowers may face higher costs. The net economic effect depends on which groups change their spending and how quickly.",
+      "Crypto adds financing and market-specific risks",
+      "Bitcoin has no contractual payment to discount using the bond example. Policy can affect demand through financing costs, the dollar, portfolio allocation and investors' appetite for risk. Leverage, exchange conditions, token-specific news and forced liquidations can amplify or offset those channels.",
+      "A convincing account of a market reaction identifies the changed expectation and the affected transmission channel. The announcement time provides a starting point for comparison. It does not establish that every price move that follows was caused by the Fed."
     ],
     "sources": [
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "Federal Reserve: Monetary policy goals and transmission",
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm"
+      },
+      {
+        "label": "Federal Reserve: Governor Kugler on policy transmission, April 22, 2025",
+        "url": "https://www.federalreserve.gov/newsevents/speech/kugler20250422a.htm"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/fed-policy-2026-editorial-480.webp",
     "imageMedium": "assets/responsive/fed-policy-2026-editorial-960.webp",
@@ -2485,20 +2519,42 @@ const TTN_ARTICLES = [
       "EUR/USD"
     ],
     "body": [
-      "An oil-price increase creates winners and losers before it changes the direction of a broad stock index. A producer may receive more for each barrel while a transport company faces a higher fuel bill and households have less money left after filling their cars.",
-      "Crude is an input into fuel, chemicals and other products. Higher costs can move through freight, manufacturing and retail prices, but the pass-through depends on contracts, competition and profit margins. A temporary price spike can be absorbed differently from a lasting supply disruption.",
-      "The source of the move matters. Stronger global demand can raise oil prices alongside economic activity. A loss of supply can raise prices while restraining activity. Treating both as the same inflation story misses a distinction important to businesses and central banks.",
-      "Energy producers do not all benefit equally. Hedging, production costs, taxes and access to markets affect the cash earned from a higher price. For refiners, the gap between crude costs and the selling price of refined products is more relevant than crude alone.",
-      "Currencies respond partly through trade. An importer pays more for the same fuel when energy prices rise; an exporter may earn more. Interest-rate expectations, other exports and capital flows can offset those pressures, so an energy shock does not dictate a fixed exchange-rate move.",
-      "Gold and crypto add their own demand and financing conditions. There is no reliable rule requiring every asset to move in a particular direction after an oil headline. Establishing the physical disruption, its likely duration and who bears the cost is a firmer starting point."
+      "An oil-price shock redistributes income before it produces a clear direction for the stock market. Producers may earn more from each barrel, while households and transport businesses face a higher bill. The broader outcome depends on why oil became more expensive, how long the increase lasts and who can pass the cost to someone else.",
+      "The distinction between supply and demand is central. Stronger global activity can raise oil consumption and corporate sales together. A disruption that removes available supply can raise costs while weakening activity. The same percentage price increase can therefore carry a different economic message.",
+      "Identify the physical constraint",
+      "The EIA's oil-market framework separates production, consumption, inventories and expectations. A production loss is not automatically equal to the reduction in deliveries to end users. Stocks, spare production capacity, alternative routes and changes in demand can cushion or extend the disruption.",
+      "Replacing a barrel also involves quality and location. A refinery configured for particular feedstocks cannot necessarily substitute any available crude immediately at the same cost. Shipping and insurance can become part of the constraint. A benchmark futures quote provides useful price information but does not describe every buyer's delivered cost.",
+      "Follow the cost through a business",
+      "Consider a hypothetical carrier buying 100,000 gallons of fuel each month. An increase from $3 to $3.60 a gallon raises its bill from $300,000 to $360,000 if volume is unchanged. The additional monthly expense is $60,000. If customer surcharges recover $40,000, the company retains a $20,000 cost increase before other adjustments.",
+      "Recovery can lag the purchase. Contracts may reset monthly or quarterly, while fuel must be paid for immediately. Even a business eventually able to pass on the full increase can need more working capital. A company with hedges may experience a different timing, depending on the instruments, quantities and maturities involved.",
+      "Higher producer revenue is not the same as profit",
+      "For an illustrative producer selling 10,000 barrels a day, a $20 increase in its realized price adds $200,000 of daily gross revenue at unchanged output. That is not an equal increase in distributable cash. Royalties, taxes, hedges, operating costs and investment requirements still matter.",
+      "Refiners face a different calculation. Their margin depends on the selling prices of products relative to crude and processing costs. If crude becomes more expensive faster than gasoline or diesel, a refiner's margin can narrow. An energy-sector label alone is insufficient to establish who benefits.",
+      "Households adjust the rest of the budget",
+      "A household buying 60 gallons a month spends an additional $36 when the price rises by $0.60 a gallon. For 1 million otherwise identical households, that is $36 million redirected to fuel each month before changes in driving. This is a constructed example, not an estimate of national spending.",
+      "Some households reduce discretionary purchases; others save less or draw down cash. Higher-income households may adjust less than those with limited financial reserves. An inflation index measures price changes across a representative basket, while an individual family's experience depends on its own spending pattern.",
+      "Exchange rates can amplify the import bill",
+      "Suppose oil initially costs $80 a barrel and one dollar costs 0.90 units of an importer's currency. The local cost is 72 units. If oil rises to $100 and the dollar costs 0.95 local units, the bill becomes 95 units, an increase of about 31.9%. The currency movement compounds the dollar oil-price increase.",
+      "That example does not predict the exchange rate. Interest-rate expectations, financial flows and the country's other exports also affect its currency. Our EUR/USD guide explains why trade effects and financial-market effects can pull in different directions.",
+      "Markets price more than headline inflation",
+      "A persistent energy shock can lift measured inflation while reducing real purchasing power. Bonds then reflect competing expectations about inflation, growth, policy and demand for safety. Shares reflect the distribution of costs and revenues across companies. Neither gold nor crypto has a compulsory response to an oil headline.",
+      "The practical analysis begins with the disruption, available substitutes and the duration of higher delivered costs. The companion $100 oil scenario examines price-index arithmetic. A round barrel price alone cannot establish the scale of the economic damage or the central bank's response."
     ],
     "sources": [
       {
-        "label": "US EIA: Oil prices and their drivers",
+        "label": "US EIA: Physical and financial drivers of crude oil prices",
+        "url": "https://www.eia.gov/finance/markets/crudeoil/index.php"
+      },
+      {
+        "label": "US EIA: Components of retail gasoline prices",
+        "url": "https://www.eia.gov/energyexplained/gasoline/factors-affecting-gasoline-prices.php"
+      },
+      {
+        "label": "US EIA: Oil prices and outlook",
         "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
       }
     ],
-    "dateModified": "2026-10-18T14:27:46-04:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/oil-shock-market-ripple-480.webp",
     "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
@@ -3081,20 +3137,43 @@ const TTN_ARTICLES = [
       "BTC"
     ],
     "body": [
-      "For US federal tax purposes, the IRS generally treats digital assets as property. That classification makes the transaction important: buying an asset, receiving it as payment and disposing of it are not the same tax event.",
-      "A sale for dollars, an exchange for another asset or use to buy goods can produce a gain or loss. The calculation generally compares the amount realized with the adjusted tax basis. A later transfer between wallets owned by the same person is different from a sale, although records still need to show what occurred.",
-      "Digital assets received as compensation or in certain reward arrangements can create income. The amount and timing depend on the transaction and when the taxpayer has dominion and control. Income recognition can establish basis for a later disposal, which must then be accounted for separately.",
-      "For assets held as investments, holding period can affect whether a capital gain or loss is short- or long-term. That distinction does not determine the whole tax bill: other income, the asset's use, losses and applicable rules also matter.",
-      "Broker information reports do not necessarily contain a complete history across exchanges and wallets. Keep dates, quantities, transaction values, fees and basis records that can be reconciled to the return. Missing basis can make an otherwise straightforward sale difficult to report correctly.",
-      "The IRS publishes guidance and updates for digital-asset reporting. Complex swaps, staking arrangements, business activity and cross-border holdings require attention to their particular facts. A profit estimate from a trading calculator is not a substitute for the tax calculation."
+      "A crypto portfolio's change in market value is not the same as its US federal taxable income. Tax treatment begins with the transaction: buying, selling, exchanging, receiving compensation and moving assets between a person's own wallets can have different consequences. The records must establish what actually happened.",
+      "The IRS generally treats digital assets as property. This explanation addresses common federal concepts for an individual holding assets as investments. Business activity, unusual transactions and state taxes can require a different analysis. The examples simplify fees and other facts where stated.",
+      "A swap can realize a gain without a dollar withdrawal",
+      "In a hypothetical example, an investor buys a token for $2,000 and later exchanges it for a materially different token worth $3,000. Ignoring fees, the disposition produces a $1,000 gain. Leaving the proceeds in crypto does not prevent the exchange from being a realization event.",
+      "The replacement asset generally starts with a $3,000 basis in that example. If it is later sold for $2,600, the second disposition produces a separate $400 loss before costs. The combined economic gain is $600, but the two transactions still need separate records. Their dates and holding periods can affect the return.",
+      "Income on receipt and gain on sale are separate",
+      "Compensation paid in digital assets generally creates income based on value when received under the applicable rules. The IRS's Revenue Ruling 2023-14 also addresses staking rewards for a cash-method taxpayer who has dominion and control, meaning the ability to sell, exchange or otherwise dispose of them.",
+      "Suppose taxable rewards are worth $200 when that recognition point is reached, and the same units are later sold for $260. In a simplified investment example, the first event creates $200 of ordinary income and a $200 basis. The later sale creates a $60 capital gain before costs. Treating the entire $260 as a second receipt of reward income would count the original value twice.",
+      "A fall in price creates another important distinction. If those units instead sell for $150, the example has $200 of initial income and a separate $50 capital loss. Capital-loss limitations and timing can prevent that loss from offsetting income in the way a trader's overall profit display suggests.",
+      "Track the units that leave the account",
+      "Holdings acquired at different prices can have different bases. Imagine one unit bought for $1,000 and another for $1,800. A sale of one unit for $2,200 creates a $1,200 gain if the first unit is treated as sold, or $400 if the second is validly identified as sold. The difference is $800.",
+      "That example does not mean a taxpayer can choose a preferred lot afterward without satisfying the rules. Identification requirements depend on custody arrangements and applicable guidance. The acquisition records, contemporaneous identification and exchange history need to support the method used.",
+      "A wallet transfer needs a paper trail",
+      "Moving an asset between wallets controlled by the same owner is generally different from selling it. Nevertheless, the receiving account may lack its original cost history. A transfer record should preserve the quantity, acquisition information and connection between the outgoing and incoming entries.",
+      "Fees require their own analysis, including how they were paid and which transaction they relate to. A transaction hash proves an on-chain movement but does not necessarily establish ownership, dollar value or tax basis. Exchange statements and valuation records supply information a block explorer may not contain.",
+      "Broker reporting does not calculate the complete return",
+      "The IRS says covered broker reporting of gross proceeds begins with transactions on or after January 1, 2025. Basis reporting applies to certain transactions on or after January 1, 2026. Coverage and transitional rules matter; a Form 1099-DA should not be assumed to include every wallet's history.",
+      "A proceeds figure is not a gain figure. A hypothetical report showing $10,000 of sales says little about taxable gain without the corresponding basis and transaction details. Missing or incomplete reporting does not remove the taxpayer's underlying obligation to report taxable activity.",
+      "Reconcile activity before calculating a rate",
+      "Dates, quantities, dollar values, fees, custody movements and the character of receipts should reconcile across accounts. Holding period and the taxpayer's circumstances then affect the applicable treatment. The economics of DeFi arrangements and stablecoin holdings do not by themselves determine their tax classification.",
+      "The useful starting point is a transaction ledger supported by records. Applying a single percentage to an exchange's profit estimate can miss taxable swaps, reward income and basis carried across wallets."
     ],
     "sources": [
       {
-        "label": "IRS: Digital-asset transactions and reporting",
+        "label": "IRS: Digital assets and broker-reporting implementation",
         "url": "https://www.irs.gov/filing/digital-assets"
+      },
+      {
+        "label": "IRS: Digital-asset transaction FAQs, basis and exchanges",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-digital-asset-transactions"
+      },
+      {
+        "label": "IRS: Revenue Ruling 2023-14 on staking rewards",
+        "url": "https://www.irs.gov/pub/irs-drop/rr-23-14.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-taxes-us-explained-480.webp",
     "imageMedium": "assets/responsive/crypto-taxes-us-explained-960.webp",
@@ -4908,7 +4987,7 @@ const TTN_ARTICLES = [
   },
   {
     "id": "smaller-company-acquiring-bigger-company-explained",
-    "title": "A Smaller Bidder Can Buy a Larger Company—If the Funding Holds",
+    "title": "How a Smaller Bidder Can Buy a Larger Company",
     "dek": "Market capitalization does not cap an acquisition bid. Debt, equity and the strength of financing commitments determine whether it can close.",
     "author": "TTN Research Desk",
     "date": "2026-08-15T13:00:00",
@@ -4918,20 +4997,38 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-      "A bidder's market capitalization is not the maximum price it can offer for another company. An acquisition can combine cash, borrowing, newly issued shares and outside investors, creating a larger financing package than the bidder's quoted equity value.",
-      "Cash is the easiest component to assess if it is available and unrestricted. Proposed asset sales or money expected from future operations are less certain sources. The closing timetable needs to match when funds can be used.",
-      "Debt support also comes in different strengths. A committed facility subject to defined conditions is different from a lender's statement that it is confident financing can be arranged. Both can appear in a deal narrative, but they do not give the seller the same assurance.",
-      "Share consideration shifts some exposure to the seller. Exchange ratios, collars and other terms determine how a change in the bidder's share price affects what the target's owners receive. The transaction can also change control of the combined business.",
-      "Financing the purchase price is only part of the requirement. Fees, refinancing, integration and working capital can add to the need for funds. Regulatory review and shareholder approvals can create further conditions and delays.",
-      "The bid should be judged from its commitments and agreement, rather than from a size comparison between two stock-market values. A financing plan makes a larger acquisition possible; documentation and the combined business's cash flow determine whether that plan is credible."
+      "A company's stock-market value does not place a ceiling on the size of an acquisition it can attempt. The purchase can be financed with existing cash, borrowing, newly issued shares and outside equity. A small bidder can assemble a large offer, but the financing must remain available when the transaction closes.",
+      "The first distinction is between valuation and cash. Market capitalization measures the quoted value of outstanding equity. It is not money sitting in the bidder's bank account. Equally, a low market capitalization does not prevent lenders or investors from committing funds against the combined business.",
+      "Build a complete sources-and-uses account",
+      "Consider a hypothetical bidder worth $2 billion proposing a $5 billion cash acquisition of another company's equity. It might plan to use $500 million of available cash, $3 billion of acquisition debt and $1.5 billion from new equity investors. Those sources add to the stated purchase price despite exceeding the bidder's market capitalization.",
+      "The plan is incomplete if another $1 billion of target debt must be refinanced and $200 million of fees and other closing costs must be paid. Total uses would then be $6.2 billion, leaving a $1.2 billion gap. Whether existing debt can remain outstanding depends on its terms; it should neither be automatically added nor automatically ignored.",
+      "Our guide to market capitalization and enterprise value explains why an equity purchase price can differ from the broader value of the operating business. A credible transaction presentation reconciles the definitions rather than switching between them.",
+      "Committed financing still has conditions",
+      "A lender's commitment can be subject to stated conditions, including documentation and specified closing requirements. A general expression of confidence that financing can be arranged provides less concrete evidence than an executed commitment. The wording and conditions determine what the buyer can actually rely on.",
+      "A bridge loan may provide funds before permanent bonds or loans are placed. That can reduce one timing risk while leaving the buyer exposed to expensive financing if the intended refinancing proves difficult. The price, maturity and conditions of the bridge matter alongside the advertised long-term funding plan.",
+      "Shares change who owns the combined company",
+      "Suppose a bidder has 100 million shares trading at $20, giving it a $2 billion market capitalization. If it offers 250 million new shares for a target, the headline value of that consideration is $5 billion at the initial price. After issuance, the target's former owners would hold about 71.4% of the combined 350 million shares, assuming no other changes.",
+      "The bidder can therefore be smaller in the market and still initiate the transaction, while its existing owners become the minority shareholders. Describing that ownership outcome is more informative than assuming the named acquirer necessarily retains economic control.",
+      "A fixed share exchange ratio also means the dollar value of consideration moves with the bidder's price. A fixed-value structure can require a changing number of shares, subject to negotiated limits. Our explanation of share issuance and dilution covers the distinction between ownership percentage and value.",
+      "Debt must be supported after closing",
+      "For an illustrative combined business carrying $4 billion of debt at an average 8% annual cash interest rate, interest alone is $320 million a year. If operating cash flow before interest is $500 million, $180 million remains before capital spending, taxes, principal payments and other needs, depending on how the cash-flow measure was defined.",
+      "If that pre-interest cash flow falls to $350 million, the remainder shrinks to $30 million. The example shows why lenders examine downside performance and why an apparently funded purchase can still leave a fragile balance sheet. Forecast synergies are not cash available at closing.",
+      "Read the agreement alongside the presentation",
+      "SEC Form 8-K includes reporting categories for material agreements, completed acquisitions and financial obligations. The merger agreement, financing documents and relevant shareholder materials can explain conditions, termination rights and consideration more precisely than an announcement. A filing's existence is not SEC approval of the deal's economics.",
+      "Regulatory clearance, shareholder votes and integration remain separate execution risks. An announced offer, a signed agreement and a completed acquisition describe different stages. The deal spread can reflect some of that uncertainty, alongside financing costs and market conditions.",
+      "The useful question is whether documented funding meets all required uses and whether the resulting business can service its obligations. Comparing two market capitalizations is only the beginning of that assessment."
     ],
     "sources": [
       {
-        "label": "SEC: Reading financial statements",
+        "label": "SEC: Form 8-K reporting items for agreements, acquisitions and debt",
+        "url": "https://www.sec.gov/files/form8-k.pdf"
+      },
+      {
+        "label": "SEC: Financial-statement concepts and cash-flow analysis",
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp",
@@ -5355,20 +5452,37 @@ const TTN_ARTICLES = [
       "ETH"
     ],
     "body": [
-      "A cryptocurrency bill can change expectations before it changes the law. The distinction is essential when a headline about legislative progress is used to explain a market move or describe what firms are already required to do.",
-      "The House-passed 2025 version of H.R. 3633, the Digital Asset Market Clarity Act, proposes a framework involving the SEC and CFTC for defined digital-asset activities. This explanation concerns that published version; later amendments, enactment and implementation require separate verification in the official legislative record.",
-      "Definitions do much of the work. The treatment of an asset, transaction or intermediary depends on statutory categories and conditions, rather than on the issuer calling its product decentralized. The text and associated obligations matter more than a short label in a news headline.",
-      "Registration, disclosures and trading rules can affect the cost and availability of services. Applying them to a particular business would require the relevant version, effective provisions and facts about the activity. A general explainer cannot establish that a firm complies.",
-      "Passing one chamber, passing both chambers and taking legal effect are distinct steps. Agency rulemaking or transition provisions can add another stage. Announced political support should not be reported as though all those steps have occurred.",
-      "For a legislation story, name the bill number, version and action date, then identify what changed. Price movement is evidence of trading; it does not prove that the proposed legal framework has become law or caused the entire move."
+      "The CLARITY Act debate concerns how digital-asset activities would fit within US financial regulation. For readers assessing a proposal, the first task is to identify the actual text being discussed. A bill number can remain the same while amendments change definitions, responsibilities and implementation.",
+      "This article examines the version of H.R. 3633 passed by the House on July 17, 2025, published by the Government Publishing Office as the engrossed House text, or EH. It is a version-specific explanation, not a statement that those provisions are currently effective. Subsequent Senate text, legislative actions and any enacted law require their own comparison.",
+      "The asset and the transaction are different questions",
+      "The House text proposes definitions and responsibilities involving both the Securities and Exchange Commission and Commodity Futures Trading Commission. Its structure addresses offers and sales, intermediaries and digital-commodity trading. Calling a token a commodity does not, by itself, resolve every question about how it was offered or which services a business provides.",
+      "A practical reading separates the issuer's capital-raising transaction from later transfers and the activities of an exchange, broker or custodian. Different parties may perform several roles within the same commercial arrangement. The legal analysis needs to identify each activity and the applicable provision rather than assign one label to the entire business.",
+      "Definitions affect the proposed route through the framework",
+      "The EH text contains a process concerning mature blockchain systems, including certification and review. It also contains issuer disclosure and intermediary-registration provisions. These are conditions within a proposed framework, not a blanket statement that any project describing itself as decentralized qualifies for a particular treatment.",
+      "For an analyst reading a project's promotional material, governance claims need evidence. Who can change the code, direct development, control important functions or influence token distribution can matter to a legal definition. A marketing description is not a substitute for the facts needed to apply the version under discussion.",
+      "Map a business before estimating compliance costs",
+      "Consider a hypothetical firm operating a trading venue, holding customer assets and arranging customer orders. It would need to determine how each function is treated under the relevant text, which entity performs it and what registration or other conditions attach. The analysis cannot stop at the firm's preferred description of itself.",
+      "As an illustrative budget, assume a business anticipates $1.2 million in annual systems and compliance costs and earns $6 million of annual revenue. Those costs equal 20% of revenue. If revenue grows to $10 million with the same cost base, the share falls to 12%. These figures demonstrate operating scale; they are not estimates of costs mandated by H.R. 3633.",
+      "Actual costs could change with final requirements, business scope and implementation choices. Lower uncertainty could support investment, while additional obligations could increase expenses. Both are possible economic channels, not established outcomes for a named company.",
+      "Keep legislative stages separate",
+      "House passage is a completed action by one chamber. It does not alone establish enactment. A committee action, a procedural vote and final passage also mean different things. The official action record and the text associated with each stage should be read together.",
+      "Implementation adds another distinction. A law can contain different effective dates, transition arrangements and rulemaking instructions. An agency proposal is not identical to a final rule, and a final rule may provide a later compliance date. A current compliance claim needs all of those relevant dates, not just the date of a political announcement.",
+      "The historical document should be kept alongside any later version used in a current report. That makes it possible to identify whether a change concerns definitions, agency authority or implementation, instead of treating every reference to CLARITY as a reference to identical provisions.",
+      "Regulatory structure is separate from investment merit",
+      "Clearer allocation of authority would not guarantee that an asset retains value or that an intermediary remains solvent. Liquidity, custody, disclosures and commercial viability still need assessment. The risks described in our stablecoin guide and DeFi explainer cannot be reduced to whether a bill receives support.",
+      "A token-price reaction can reflect changing expectations about the chance and consequences of legislation. It does not prove causation, enactment or compliance. A useful account names the version, identifies the specific change and explains whose activities would be affected under that text."
     ],
     "sources": [
       {
-        "label": "US Congress: H.R. 3633, House-passed 2025 text",
-        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr3633eh/pdf/BILLS-119hr3633eh.pdf"
+        "label": "US Government Publishing Office: H.R. 3633, engrossed House text, 2025",
+        "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr3633eh/html/BILLS-119hr3633eh.htm"
+      },
+      {
+        "label": "Congress.gov: H.R. 3633 legislative record and text versions",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp",
     "imageMedium": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
@@ -6046,20 +6160,47 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-      "A dispute over prediction markets can turn on who has authority to regulate a contract, rather than whether participants regard it as investing or betting. Federal jurisdiction and state law can raise different legal questions about the same product.",
-      "Preemption concerns whether federal law displaces a state requirement in the circumstances at issue. The answer depends on statutory text, the activity covered and the court's reasoning. A platform's registration or label does not settle every possible state-law dispute.",
-      "An appellate decision should be described by its court, parties, contracts and procedural posture. A preliminary-injunction ruling and a final determination after full proceedings can have different implications. Broad claims of legal victory can obscure what was decided.",
-      "A circuit split means a relevant disagreement between federal appellate courts. Establishing one requires comparing their holdings on the legal question, not simply finding different outcomes in cases with different facts or procedures.",
-      "The Supreme Court may consider important conflicts when deciding which matters to review, but review is discretionary. A disagreement is not a guarantee that the Court will accept a petition or deliver a ruling on a predicted schedule.",
-      "For any current case, the opinion, docket and subsequent orders are the primary record. This article explains the framework; it does not assert that a particular unsourced ruling or forecast of Supreme Court review has been established."
+      "Prediction-market litigation often asks which authority can regulate a particular event contract. Federal derivatives regulation and state gambling law can address the same activity from different starting points. Describing a platform as federally registered does not explain the full scope of every dispute involving its products.",
+      "A legal account must distinguish an argument by a regulator or company from a holding by a court. It must also distinguish a temporary restriction, a preliminary injunction and a final judgment. Those distinctions determine what a ruling actually changes for the parties and the market.",
+      "Identify the contract and the legal claim",
+      "A contract settling according to an election, sporting event or economic statistic raises a concrete question about its terms and the relevant statutory category. Broad descriptions such as prediction market can obscure differences between products. Registration of a venue and the treatment of a particular contract are related but separate matters.",
+      "The Commodity Exchange Act's jurisdictional provisions are part of the primary legal framework. A preemption argument asks whether federal law displaces the state requirement at issue. That requires reading the statutory scope, the particular state action and the reasoning offered for displacement.",
+      "An agency's position is evidence of its argument",
+      "On April 28, 2026, the CFTC announced that it had sued Wisconsin following state litigation against prediction-market companies. The release asserted federal exclusivity and described related proceedings. It provides a dated example of the jurisdictional dispute and of the agency's position; it is not itself a judicial ruling that resolves every state-law question.",
+      "A complaint asks a court for relief. An opinion explains the court's reasoning, while the associated order states the operative result. Parties' press releases can help locate those documents, but a claim of victory should be tested against the relief actually granted.",
+      "Procedural posture can explain different outcomes",
+      "Imagine two hypothetical cases involving similar contracts. In the first, a court pauses enforcement while proceedings continue. In the second, another court refuses a requested pause. Those outcomes differ, but they do not alone demonstrate that the courts have issued irreconcilable final interpretations of the same federal question.",
+      "The requested relief, evidentiary record and legal basis must be compared. One decision could turn on a procedural obstacle that the other never considered. Another could address a narrower set of contracts or defendants. Those differences can matter as much as the result announced in a headline.",
+      "A circuit split requires a comparison of holdings",
+      "Federal courts of appeals review decisions within their respective jurisdictions. A relevant circuit conflict involves disagreement between appellate courts on an important legal issue. A disagreement between trial judges is not automatically a circuit split, and a state appellate decision is not a federal circuit decision.",
+      "A useful comparison records the court, case number, date, legal question, material facts and holding for each opinion. It also checks later proceedings, including rehearing or a superseding opinion. A sentence from a dissent describes that judge's view rather than the court's controlling holding.",
+      "This article explains how to assess such a conflict. It does not declare a current circuit split or a nationwide settlement of prediction-market legality based only on an agency release. A current case report needs the actual opinions and subsequent orders for the identified proceedings.",
+      "Supreme Court review is a separate event",
+      "Supreme Court Rule 10 describes review on certiorari as discretionary and identifies considerations including important conflicts between appellate courts. Filing a petition is a request for review. Granting review is a later decision, and deciding the merits comes after a further stage.",
+      "A party's announcement that it plans to petition therefore cannot support a claim that a Supreme Court hearing has been scheduled. Docket entries, orders and the question presented establish what has occurred. A denial of review should not be presented as a new merits opinion resolving the underlying argument.",
+      "Market access and contract economics remain distinct",
+      "Legal uncertainty can affect which customers a platform accepts, what products it offers and the costs of operating across jurisdictions. Those commercial effects depend on the order's scope and the platform's response. An order concerning one product should not automatically be extrapolated to all event contracts.",
+      "Even where access is permitted, a displayed contract price remains subject to liquidity, fees and settlement rules. Our prediction-market probability guide covers those economic limits. Regulatory status and the reliability of a market-implied forecast answer different questions."
     ],
     "sources": [
       {
-        "label": "US Supreme Court: Rules governing review and filings",
-        "url": "https://www.supremecourt.gov/filingandrules/rules_guidance.aspx"
+        "label": "CFTC: April 28, 2026 Wisconsin lawsuit announcement and agency position",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9220-26"
+      },
+      {
+        "label": "US Code: 7 USC 2, CFTC jurisdictional provisions",
+        "url": "https://www.law.cornell.edu/uscode/text/7/2"
+      },
+      {
+        "label": "US Courts: The role of federal courts of appeals",
+        "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-courts-appeals"
+      },
+      {
+        "label": "US Supreme Court: Rule 10 and review procedures",
+        "url": "https://www.supremecourt.gov/filingandrules/2023RulesoftheCourt.pdf"
       }
     ],
-    "dateModified": "2026-10-12T08:38:47+00:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/prediction-markets-circuit-split-explained-480.webp",
     "imageMedium": "assets/responsive/prediction-markets-circuit-split-explained-960.webp",
@@ -6225,28 +6366,48 @@ const TTN_ARTICLES = [
       "GOLD"
     ],
     "body": [
-      "A $100 oil price is a useful scenario to examine, but it is not a threshold that automatically changes monetary policy. This analysis uses that level illustratively rather than presenting it as a verified current market quotation.",
-      "The effect begins with fuels and other oil-related inputs. The increase relative to the previous price, its duration and the currency used by the buyer matter. A brief jump from an already high level differs from a sustained increase starting much lower.",
-      "Households may spend more on fuel and less elsewhere. Transport businesses and manufacturers can face higher costs, while some producers receive more revenue. Taxes, hedging, inventories and contracts influence how quickly those changes reach cash flow and consumer prices.",
-      "Broader inflation depends on subsequent pricing and wage decisions. Companies can pass on costs, accept reduced margins or change production. Weak demand may limit their ability to raise prices; strong demand and unanchored expectations can make the shock harder to contain.",
-      "Bond markets may respond to changing expectations for inflation, growth and policy. Those forces can pull yields in different directions. A central bank can face weaker activity and higher headline inflation at the same time, which is why the context matters more than the barrel-price milestone.",
-      "A current-news account would need dated oil quotations, official inflation releases and confirmed supply developments. In this scenario, the question is how a sustained energy cost would be transmitted—not a claim that those particular conditions have already been documented."
+      "A $100 oil price has no automatic policy significance. Its economic impact depends on where the price started, how long it remains elevated and how much of the increase reaches consumers. This article uses $100 a barrel as an illustrative scenario, not as a verified current quotation or a forecast.",
+      "The scenario is most useful when separated into three questions: the change in crude costs, the change in retail prices and the resulting effect on a price index. Those are different quantities. A 25% rise in crude does not imply a 25% rise in gasoline prices or overall inflation.",
+      "Start with the size and duration of the increase",
+      "A move from $80 to $100 is a 25% increase. A move from $95 to $100 is about 5.3%. The same final price therefore describes very different shocks. The benchmark, delivery date and buyer's currency also need to be specified before comparing costs.",
+      "A brief spike may affect only a portion of purchases at the higher price. Sustained costs can reach more contracts and inventories. The EIA describes oil prices as reflecting supply, demand and expectations. Distinguishing a temporary risk premium from an actual prolonged loss of available supply is part of the assessment.",
+      "Crude is one component of the pump price",
+      "Retail gasoline includes crude, refining, distribution, marketing and taxes. Their relative contributions change over time and across locations. Local outages, fuel specifications and transport constraints can alter the pump price even when a global crude benchmark is unchanged.",
+      "For a deliberately simplified example, assume a $4 gallon consists of $2 of crude-related cost and $2 of other costs. If only the crude-related component rises 25% and everything else stays constant, the new price is $4.50. The increase at the pump is 12.5%, not 25%. This constructed breakdown is not a current EIA component estimate.",
+      "The example assumes full and immediate pass-through within that component. Actual timing and margins can differ. Refiners and retailers may absorb some costs or face additional pressures. A forecast needs evidence about the actual cost structure and market conditions.",
+      "Use index weights for an approximate contribution",
+      "In an illustrative price index where gasoline carries a 3% weight, a 12.5% gasoline increase would add approximately 0.375 percentage point to the index change, with other prices unchanged. That is a first-order calculation: 0.03 multiplied by 12.5%. The assumed weight is not presented as the current published CPI weight.",
+      "An actual CPI contribution requires the relevant BLS relative importance and index movements, with attention to timing and adjustment conventions. BLS distinguishes headline inflation from measures excluding food and energy. Direct gasoline changes are excluded from the latter, although other businesses can respond to higher energy input costs.",
+      "Our CPI explainer covers the difference between an index level, a monthly change and a twelve-month rate. Mixing those measures can make an energy shock appear larger or smaller than the calculation supports.",
+      "A higher price level is different from continuing inflation",
+      "Suppose a simplified index rises from 100 to 104 and then stays at 104. The first increase is 4%. A year after the new level was reached, the twelve-month change can return to zero if the comparison is 104 against 104. Prices have not returned to 100.",
+      "This base effect explains how measured inflation can ease while households still face a higher fuel bill. Further inflation would require additional price increases or changes elsewhere in the basket. A persistent high price and a persistently rising price are different conditions.",
+      "Indirect effects depend on contracts and demand",
+      "For a hypothetical business earning $1 million in annual revenue, assume energy costs rise from $50,000 to $65,000 while other items stay unchanged. Absorbing the increase reduces profit by $15,000. Fully recovering it across unchanged sales would require an average revenue increase of 1.5%, before allowing for customer responses.",
+      "A company may lack that pricing power. It could accept lower margins, reduce output or economize on inputs. Households can also cut other purchases to pay the energy bill. Those responses help determine whether the shock broadens into sustained inflation or primarily reduces real spending.",
+      "Policy depends on the wider outlook",
+      "A central bank must assess inflation persistence and economic activity together. A supply disruption can make that assessment harder by raising near-term prices while weakening demand. A round oil price does not specify the appropriate interest rate.",
+      "The companion analysis of an oil shock across companies and currencies follows the distribution of costs. A current-news assessment would add dated quotations, verified supply developments and official inflation releases. The calculations here illustrate the mechanism rather than assert that those conditions have occurred."
     ],
     "sources": [
       {
-        "label": "US EIA: Oil prices and their drivers",
+        "label": "US EIA: Oil prices and outlook",
         "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
       },
       {
-        "label": "US BLS: CPI definitions and methods",
+        "label": "US EIA: Components of retail gasoline prices",
+        "url": "https://www.eia.gov/energyexplained/gasoline/factors-affecting-gasoline-prices.php"
+      },
+      {
+        "label": "US BLS: CPI definitions, scope and calculation",
         "url": "https://www.bls.gov/cpi/questions-and-answers.htm"
       },
       {
-        "label": "Federal Reserve: Monetary policy and its transmission",
-        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm"
+        "label": "US BLS: Price levels and common CPI misconceptions",
+        "url": "https://www.bls.gov/cpi/factsheets/common-misconceptions-about-cpi.htm"
       }
     ],
-    "dateModified": "2026-10-18T14:27:46-04:00",
+    "dateModified": "2026-10-19T05:55:06+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/oil-near-100-inflation-2026-480.webp",
     "imageMedium": "assets/responsive/oil-near-100-inflation-2026-960.webp",
