@@ -63,11 +63,11 @@ const TTN_ARTICLES = [
       "GOOGL",
       "ORCL"
     ],
-    "image": "assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026.webp",
-    "imageAlt": "Illustrative construction scene of an anonymous data center expansion; not a photograph of a project assessed by S&P Global.",
-    "imageSmall": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-480.webp",
-    "imageMedium": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-960.webp",
-    "imageSrcset": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-480.webp 480w, assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-960.webp 960w, assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026.webp 1920w",
+    "image": "assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2.webp",
+    "imageAlt": "Generated editorial reconstruction of the S&P Global office facade and sign at 55 Water Street in New York; not a photograph of the October 19 briefing.",
+    "imageSmall": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-480.webp",
+    "imageMedium": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-960.webp",
+    "imageSrcset": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-480.webp 480w, assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-960.webp 960w, assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2.webp 1920w",
     "sources": [
       {
         "label": "Reuters: October 19 remarks by S&P digital infrastructure head Mark Habib",
