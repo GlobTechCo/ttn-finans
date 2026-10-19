@@ -1,6 +1,46 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "bitcoin-rebound-etf-outflows-october-19-2026",
+    "section": "Market Analysis",
+    "title": "Bitcoin Rebounds Above $82,000 as Oil Retreats",
+    "dek": "Bitcoin recovered with risk assets on Monday, while two weeks of US spot-ETF outflows kept the strength of underlying demand in question.",
+    "imageAlt": "Three-dimensional editorial illustration of a copper Bitcoin symbol behind ribbed glass with abstract market candlesticks; not a chart of actual prices.",
+    "image": "assets/editorial/bitcoin-rebound-etf-outflows-october-19-2026.webp",
+    "imageSmall": "assets/responsive/bitcoin-rebound-etf-outflows-october-19-2026-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-rebound-etf-outflows-october-19-2026-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-rebound-etf-outflows-october-19-2026-480.webp 480w, assets/responsive/bitcoin-rebound-etf-outflows-october-19-2026-960.webp 960w, assets/editorial/bitcoin-rebound-etf-outflows-october-19-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Bloomberg via Yahoo Finance: October 19 Bitcoin rebound and ETF flows",
+        "url": "https://ca.finance.yahoo.com/news/bitcoin-rebounds-above-82-000-041512162.html"
+      },
+      {
+        "label": "Dow Jones Newswires via Barron’s: October 19 rate expectations and Bitcoin",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-101926/card/bitcoin-gains-on-reduced-prospect-of-imminent-fed-rate-rise-hFf1y32MLPXVEku87ALh"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T07:28:39-04:00",
+    "dateModified": "2026-10-19T07:28:39-04:00",
+    "editorialNote": null,
+    "body": [
+      "Bitcoin moved back above $82,000 on Monday as falling oil prices helped risk assets recover. The move offered relief after last week’s losses, while fund-flow data left an important question unresolved: whether the rebound is drawing sustained new demand.",
+      "Bloomberg reported that Bitcoin rose as much as 2.3% in early Asian trading and traded near $82,400 at noon in Singapore, or 04:00 UTC. Ether gained as much as 3.7% and Solana more than 4.6% in the same report. These are intraday observations, not closing returns or synchronized prices from a single exchange.",
+      "The price recovery has a different message from ETF flows",
+      "US-listed spot Bitcoin ETFs recorded $228.6 million of net outflows last week after $681 million the week before, Bloomberg reported. Together, those two weeks represent $909.6 million leaving the funds on a net basis. The calculation does not measure all institutional trading or all demand for Bitcoin.",
+      "A rising market can coexist with fund outflows because ETF holders are only one group of participants. Spot exchange purchases, derivatives positioning and transactions outside the funds can pull the price in another direction. The distinction is central to our explanation of Bitcoin ETFs and institutional access.",
+      "Rates are part of the backdrop",
+      "Separate Dow Jones reporting on Monday linked the recovery to easing expectations of an imminent Fed increase. Zaye Capital Markets analyst Naeem Aslam described better liquidity expectations rather than a confirmed lasting reversal. That is an attributed interpretation, not proof of what caused every trade.",
+      "The financing channel matters because more expensive borrowing can make leveraged positions harder to maintain. A change in expected rates can affect several markets at once without producing identical returns. Bitcoin trading continuously through weekends also makes direct comparisons with cash-market stock indexes sensitive to the chosen start and end times.",
+      "A rebound still needs follow-through",
+      "Bloomberg placed Bitcoin within last week’s $80,000–$85,000 trading range. Remaining inside that interval does not establish a breakout, and the interval itself is historical context rather than a promised floor or ceiling.",
+      "For readers watching the recovery, price persistence and subsequent fund flows answer different questions. The first shows whether buyers keep accepting higher prices; the second describes one route through which capital enters or leaves exposure. Our account of the recent crypto selloff provides the preceding market context.",
+      "Leverage can amplify a recovery as well as a decline. A forced close is an execution event, not evidence of improving fundamentals. Understanding how liquidation works helps separate a sharp price move from a durable change in investment demand."
+    ]
+  },
+  {
     "id": "gold-oil-retreat-fed-outlook-october-19-2026",
     "section": "Market Analysis",
     "title": "Gold Edges Higher as Traders Look to the Fed",
