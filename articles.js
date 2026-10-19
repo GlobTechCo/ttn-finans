@@ -1,6 +1,96 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "germany-industrial-jobs-loss-ifo-october-2026",
+    "section": "Market Analysis",
+    "title": "Germany Lost 496,000 Industrial Jobs Since 2019",
+    "dek": "A newly reported Ifo study tracks a 7.1% industrial employment decline through 2025, with autos, metal products and machinery bearing much of the loss.",
+    "imageAlt": "Generated illustrative scene of two workers inspecting a metal component in an unbranded precision manufacturing workshop; not a photograph of a reported factory.",
+    "image": "assets/editorial/germany-industrial-jobs-loss-ifo-october-2026.webp",
+    "imageSmall": "assets/responsive/germany-industrial-jobs-loss-ifo-october-2026-480.webp",
+    "imageMedium": "assets/responsive/germany-industrial-jobs-loss-ifo-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/germany-industrial-jobs-loss-ifo-october-2026-480.webp 480w, assets/responsive/germany-industrial-jobs-loss-ifo-october-2026-960.webp 960w, assets/editorial/germany-industrial-jobs-loss-ifo-october-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Reuters via MarketScreener: Industrial employment study, October 19",
+        "url": "https://www.marketscreener.com/news/german-industry-has-lost-nearly-half-a-million-jobs-since-2019-ifo-says-ce785cdbd98cf120"
+      },
+      {
+        "label": "dts Nachrichtenagentur via klamm: Employment figures and sector breakdown, October 19 at 09:27 CEST",
+        "url": "https://www.klamm.de/news/eine-halbe-million-industriearbeitsplaetze-seit-2019-verloren-21N1792394365371.html"
+      },
+      {
+        "label": "Ifo Institute: September 28 employment survey, separate context on hiring intentions",
+        "url": "https://www.ifo.de/fakten/2026-09-28/firmen-streichen-etwas-weniger-jobs-september-2026"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T04:31:28-04:00",
+    "dateModified": "2026-10-19T04:31:28-04:00",
+    "editorialNote": null,
+    "body": [
+      "Germany’s industrial workforce shrank by 496,000 between the beginning of 2019 and the end of 2025, according to an Ifo study reported on Monday, highlighting the scale of the adjustment in the country’s manufacturing base.",
+      "The decline amounted to 7.1%, Reuters and German news agency dts reported on October 19. The automotive industry and suppliers lost 123,500 positions, metal-products manufacturers lost 115,600 and mechanical engineering lost 64,500. Those are cumulative historical changes, not a fresh announcement that employers are dismissing half a million workers this month.",
+      "The losses are concentrated in established industries",
+      "The three sector totals add up to 303,600, or about 61% of the overall industrial decline. That calculation shows the concentration of the adjustment without implying that every manufacturer followed the same path. It also leaves a substantial share of the reduction outside those three industries.",
+      "Ifo researcher Joachim Ragnitz linked the contraction to weakening competitiveness, particularly against China, according to the reports. That is the researcher’s interpretation of the pattern, rather than a finding that one cause accounts for every position lost.",
+      "The distinction matters for reading employment data. A net change in positions over several years is different from a count of redundancy announcements. Firms can reduce headcount through departures that are not replaced, while other employers expand. The aggregate records the resulting change, without describing each company’s decision.",
+      "Services growth changes the national picture",
+      "The same study found that service industries added more than 2.2 million positions, with health, social services and public administration prominent in the increase, Reuters and dts reported. Industrial contraction therefore should not be presented as an equivalent loss across the entire German labour market.",
+      "Growth in one sector does not establish that a worker leaving another sector can move directly into it. Qualifications, location and the nature of the work can differ. Our explanation of employment, unemployment and participation measures shows why changes in sector headcounts and changes in the unemployment rate answer different questions.",
+      "A separate survey describes current hiring plans",
+      "Ifo’s September employment survey provides a more recent, but different, indicator. Published on September 28, it showed the employment barometer rising to 95.1 from 94.8 in August. The institute said most industrial firms still planned to operate with fewer staff, while food producers and manufacturers of computers, electronic and optical products were exceptions.",
+      "That survey concerns intentions; the newly reported study measures changes already recorded over a longer period. Combining them into one number would obscure both. The distinction is similar to the difference between a business survey and a retrospective count of activity or jobs.",
+      "For companies exposed to German manufacturing, the next evidence lies in orders, production, investment and hiring disclosures. Trade restrictions can affect costs and market access, as our guide to who pays tariffs explains, but this study alone does not quantify the contribution of any particular tariff. Its clearest finding is the size and concentration of a multiyear employment shift."
+    ]
+  },
+  {
+    "id": "france-stocks-slide-protests-october-19-2026",
+    "section": "Market Analysis",
+    "title": "French Stocks Fall as Protests Add to Market Strain",
+    "dek": "The CAC 40 fell about 1% in early trading as banks led European losses. The opening selloff adds a fresh market response to weekend unrest.",
+    "imageAlt": "Illustrative generated reconstruction of the Palais Brongniart, the historic former Paris stock exchange, based on an architectural photograph.",
+    "image": "assets/editorial/france-stocks-slide-protests-october-19-2026.webp",
+    "imageSmall": "assets/responsive/france-stocks-slide-protests-october-19-2026-480.webp",
+    "imageMedium": "assets/responsive/france-stocks-slide-protests-october-19-2026-960.webp",
+    "imageSrcset": "assets/responsive/france-stocks-slide-protests-october-19-2026-480.webp 480w, assets/responsive/france-stocks-slide-protests-october-19-2026-960.webp 960w, assets/editorial/france-stocks-slide-protests-october-19-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Reuters: French equities and European opening prices, first report October 19 at 07:16 UTC",
+        "url": "https://www.reuters.com/markets/europe/french-stocks-slide-after-violent-protests-2026-10-19/"
+      },
+      {
+        "label": "The Guardian: October 19 business live coverage and French bond-market selling",
+        "url": "https://www.theguardian.com/business/live/2026/oct/19/exports-lift-china-economic-growth-french-protests-pressure-euro-bonds-latest-business-live-updates"
+      },
+      {
+        "label": "SEC Investor Bulletin: Fixed-rate bond prices and interest-rate risk",
+        "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T04:31:28-04:00",
+    "dateModified": "2026-10-19T04:31:28-04:00",
+    "editorialNote": null,
+    "body": [
+      "French shares led Europe lower on Monday as investors priced the consequences of weekend unrest into a market already facing a demanding earnings season.",
+      "The CAC 40 dropped 1.02%, while the STOXX 600 fell 0.39% to 642.24 at 07:08 UTC on October 19, Reuters reported. European banks lost 1.4%. The figures describe early trading, not the session’s final outcome. Reuters linked the French weakness to protests over living costs and public services, alongside broader caution before corporate results.",
+      "A new trading session absorbs political risk",
+      "The new development is the market response after the weekend. Monday’s prices give an initial indication of how investors are adjusting exposure as trading resumes. They do not measure the eventual economic cost of disruption or establish how long the selling will last.",
+      "The Guardian separately reported selling in French government bonds during the morning. A simultaneous decline in shares and government debt can matter to investors who hold both assets, although a single session cannot establish a permanent change in their relationship. Our explanation of diversification when correlations change sets out that distinction.",
+      "What a bond selloff changes",
+      "For an existing fixed-rate bond, a higher required yield generally means a lower market price. The SEC’s investor guidance explains that the interest payments promised by the bond do not automatically increase when market rates rise. Instead, its price adjusts so a new buyer receives a competitive return.",
+      "That leaves an important difference between a bond’s coupon and its trading yield. A holder may continue receiving the same coupon while seeing the quoted value of the investment fall. Longer maturities and lower coupons generally increase exposure to interest-rate changes, with other features held constant.",
+      "Our guide to bond duration explains how investors estimate that sensitivity. Duration describes a price response under specified assumptions; it does not predict the next move in French yields.",
+      "The currency adds another moving part",
+      "A US investor’s return on an unhedged euro-denominated holding also depends on the exchange rate. Consider a hypothetical investment that falls 1% in euros while the euro loses 0.5% against the dollar. Its dollar return would be approximately minus 1.495% before fees: 0.99 multiplied by 0.995, minus one. This is an illustration, not Monday’s observed portfolio performance.",
+      "The same arithmetic works in the other direction if the currency strengthens. The interaction is covered in our guide to EUR/USD and interest-rate expectations. Exchange rates have several drivers, so a move after unrest should not be treated as a clean measurement of political risk alone.",
+      "The early selloff puts renewed attention on whether pressure remains concentrated in French assets or spreads across European markets. Subsequent prices and company disclosures will provide more evidence than the opening snapshot can supply."
+    ]
+  },
+  {
     "id": "anthropic-public-benefit-fund-five-percent-shares-2026",
     "section": "Tech & AI",
     "title": "Anthropic Plans 5% Stake for Public Benefit Fund",
