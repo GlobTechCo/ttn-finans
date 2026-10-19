@@ -1,5 +1,7 @@
 # TTN editorial image policy
 
+- October 19 correction: avoid recurring faces and near-identical people across covers. Changing glasses or hair alone does not create sufficient variety. Vary age, facial structure, skin tone, build, clothing, role, pose, camera angle and setting where people are appropriate; use a different subject when it fits the story better. Compare recent covers before accepting a new image. Never describe synthetic people as actual participants in the reported event.
+
 - After the user requests a correction to a generated image, produce and show the revised preview first. Wait for explicit approval of that specific preview before replacing any website, homepage or social-card image. Agreement to this workflow is not approval of an unseen image.
 - Check company recognition at article-card size. For office imagery, prefer a documented entrance/facade angle with its authentic installed brand sign clearly readable. A distant aerial view or an unmarked facade is insufficient when the company is the story. Do not invent a sign to solve this: find another documented location or angle.
 - For unfamiliar companies, the headline and short deck must explain the company's role, the concrete event and why readers should care in plain English. Do not lead with unexplained company names, acronyms, financing jargon or phrases such as "model stack" when the news is an acquisition of software-security tools.

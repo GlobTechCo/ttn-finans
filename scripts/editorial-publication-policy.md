@@ -1,5 +1,11 @@
 # TTN publication gate
 
+## Standing commissioning instructions, October 19
+
+- A request to find and analyze news topics includes source verification, original article writing, distinct generated covers, relevant internal links, search/social metadata, publication and live verification. Do not require the user to repeat these steps. Audience-interest analysis is an internal selection aid and must not appear as scores or popularity claims in articles.
+- Finance remains the core remit: the economy, monetary policy, banking, corporate finance and markets. Include equities, foreign exchange and crypto alongside Tech & AI when significant current events justify coverage. Do not impose a quota for any beat or substitute a stale item to fill a package.
+- Publish separately reviewed articles sequentially when practical. Set each initial publication timestamp at its actual release, preserve that instant thereafter and use dateModified for substantive updates. Never manufacture intervals, backdate a story or vary timestamps merely to make simultaneous publication look organic.
+
 Updated following the user's editorial correction on October 17, 2026.
 
 - Inspect both Market Analysis and Tech & AI, but publish only when a significant, separately verified new event qualifies within the requested hour. A pair is a target, never a quota.

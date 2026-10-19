@@ -1,6 +1,45 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "gold-oil-retreat-fed-outlook-october-19-2026",
+    "section": "Market Analysis",
+    "title": "Gold Edges Higher as Traders Look to the Fed",
+    "dek": "Bullion rose in a Monday morning snapshot as oil eased. The next test is whether inflation and interest-rate expectations sustain the move.",
+    "imageAlt": "Generated illustrative still life of unbranded gold ingots on an assay tray; not a photograph of a named refinery or a market transaction.",
+    "image": "assets/editorial/gold-oil-retreat-fed-outlook-october-19-2026.webp",
+    "imageSmall": "assets/responsive/gold-oil-retreat-fed-outlook-october-19-2026-480.webp",
+    "imageMedium": "assets/responsive/gold-oil-retreat-fed-outlook-october-19-2026-960.webp",
+    "imageSrcset": "assets/responsive/gold-oil-retreat-fed-outlook-october-19-2026-480.webp 480w, assets/responsive/gold-oil-retreat-fed-outlook-october-19-2026-960.webp 960w, assets/editorial/gold-oil-retreat-fed-outlook-october-19-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Reuters: October 19 gold market report, 08:53 UTC price snapshot",
+        "url": "https://www.reuters.com/world/india/gold-edges-higher-softer-oil-fed-rate-outlook-focus-2026-10-19/"
+      },
+      {
+        "label": "Federal Reserve: FOMC meeting calendar",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T07:05:49-04:00",
+    "dateModified": "2026-10-19T07:05:49-04:00",
+    "editorialNote": null,
+    "body": [
+      "Gold edged higher on Monday as cheaper oil eased some inflation concerns ahead of the Federal Reserve’s next policy meeting. Spot bullion was up 0.2% at $4,171.65 a troy ounce at 08:53 UTC, while December US gold futures gained 0.26% to $4,191.90, according to Reuters.",
+      "Those are separate market instruments observed at a stated time. Neither figure is a closing price, and the difference between them is not a guaranteed trading profit. Futures incorporate a delivery date and financing conditions that an immediate spot transaction does not.",
+      "The interest-rate channel matters",
+      "Reuters linked the move to lower oil prices and reduced pressure on the Fed. The connection is useful, but it does not make a decline in crude a reliable signal to buy bullion. Oil, interest rates, the dollar and demand for protection can move in different directions within the same session.",
+      "Gold pays no contractual interest. When inflation-adjusted returns on competing assets rise, holding it can become more expensive in opportunity-cost terms. When those returns fall, that particular hurdle eases. Our guide to gold as a hedge explains why the metal can react differently to inflation and to the policy response inflation provokes.",
+      "A policy expectation is not a decision",
+      "The Fed’s calendar places the next FOMC meeting on October 27–28. Traders will distinguish the decision itself from guidance about subsequent meetings. An unchanged rate can still produce a large market response if the accompanying message changes expectations for borrowing costs.",
+      "A fall in energy prices can improve the near-term inflation outlook without settling the broader question. Services prices, wages and demand may follow a different path. That is why interpreting market-implied rate probabilities requires a timestamp and an understanding of what the contracts actually measure.",
+      "What would make the rebound more durable",
+      "The practical test is whether bullion retains its gains as investors reassess yields and the dollar. A softer dollar can reduce the foreign-currency cost of dollar-priced gold; a stronger dollar can work in the other direction. These relationships are influences, not fixed rules.",
+      "For a US investor, physical bullion also brings dealing spreads and storage costs, while funds have their own fees and structure. A small intraday move should not be confused with a change in those economics. Comparing gold with inflation-protected Treasuries makes the distinction clearer: one is a metal without a promised cash flow, the other a government security with defined payment terms."
+    ]
+  },
+  {
     "id": "germany-industrial-jobs-loss-ifo-october-2026",
     "section": "Market Analysis",
     "title": "Germany Lost 496,000 Industrial Jobs Since 2019",
