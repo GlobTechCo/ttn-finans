@@ -37,7 +37,7 @@ Use visible contextual internal links to relevant existing articles and specific
 
 ## Images
 
-Apply the complete visual policy before selecting, generating, accepting or replacing a cover. Prefer distinct generated editorial covers for TTN; honor an explicit generation request. Use authentic references for named buildings, brands and products. Verify licensing and credit requirements for any explicitly approved original photograph. Never present a synthetic scene or person as documentary evidence.
+Never use a cinematic style for TTN imagery. Reject cinematic-looking outputs before publication even when the generation prompt prohibited that style. Apply the complete visual policy before selecting, generating, accepting or replacing a cover. Prefer distinct generated editorial covers for TTN; honor an explicit generation request. Use authentic references for named buildings, brands and products. Verify licensing and credit requirements for any explicitly approved original photograph. Never present a synthetic scene or person as documentary evidence.
 
 Inspect the actual result at card and full-article sizes. Require a direct connection to the story, plausible details and natural editorial appearance. Reject cinematic grading, staged advertising behavior, anatomical errors, invented architecture and repetitive subjects. Follow the specific preview-and-approval gate for corrected images before replacing them on the site. Do not interpret a request to generate a revised preview as approval to publish an unseen result.
 

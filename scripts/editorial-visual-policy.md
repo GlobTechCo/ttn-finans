@@ -1,5 +1,9 @@
 # TTN editorial image policy
 
+## Mandatory style rule
+
+Never use a cinematic style for TTN imagery. Apply this to every new cover, illustration, regeneration and replacement. Inspect the actual output: a prompt saying “no cinematic” does not establish compliance. Reject and regenerate any result with film-like grading, dramatic lighting, warm/cool color separation, artificial glow, heavy contrast or polished movie-frame staging before publication. Use natural editorial photography aesthetics or a clearly designed editorial graphic when appropriate. This restriction does not require making all images gray or removing relevant people.
+
 Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns image acceptance and correction approvals.
 
 - Use neutral natural daylight, realistic white balance/exposure and believable color. Exclude cinematic/moody grading, dramatic skies, film grain, teal/orange effects, strong vignettes, artificial glow and harsh glare. Neutral does not mean gray or desaturated.
