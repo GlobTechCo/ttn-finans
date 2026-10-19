@@ -145,7 +145,7 @@ window.TTNArchive = {
   function render() {
     const element = document.getElementById("analysis-archive");
     if (!element || typeof TTN_ARTICLES === "undefined") return;
-    const articles = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
+    const articles = TTN_ARTICLES.filter(a => a.section !== "Tech & AI" && !TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
     TTNArchive.mount({element, articles, label:"Market Analysis", renderArticle:(a, index) => TTNArchive.card(a, "Market Analysis", "", {eager:index < 2})});
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();
@@ -154,6 +154,8 @@ window.TTNArchive = {
 /* Tech & AI archive; the same card and pagination component as Market Analysis. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "sp-global-ai-debt-visibility-hyperscalers-2026",
+    "amazon-torchneuron-pytorch-trainium-2026",
     "ai-agents-website-breaches-norforge-october-2026",
     "anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
@@ -193,7 +195,7 @@ window.TTNArchive = {
   function render() {
     const element = document.getElementById("tech-ai-archive");
     if (!element || typeof TTN_ARTICLES === "undefined") return;
-    const articles = TTN_ARTICLES.filter(a => TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
+    const articles = TTN_ARTICLES.filter(a => a.section === "Tech & AI" || TECH_AI_IDS.has(a.id)).sort((a,b) => new Date(b.date)-new Date(a.date));
     TTNArchive.mount({element, articles, label:"Tech & AI", renderArticle:(a, index) => TTNArchive.card(a, "Tech & AI", "", {eager:index < 2})});
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", render); else render();

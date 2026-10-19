@@ -1,6 +1,165 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-homebuilder-confidence-october-2026-low",
+    "section": "Market Analysis",
+    "title": "US Builder Confidence Falls to Lowest Since 2012",
+    "dek": "The NAHB index fell to 29 in October as costly mortgages restrained demand. More builders cut prices, putting affordability and margins in focus.",
+    "tickers": [
+      "LEN",
+      "DHI"
+    ],
+    "image": "assets/editorial/us-homebuilder-confidence-october-2026-low-natural-v2.webp",
+    "imageAlt": "Generated editorial illustration of residential construction on an ordinary US suburban street, with a worker checking a window; not a photograph of NAHB survey respondents.",
+    "imageSmall": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-480.webp",
+    "imageMedium": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-960.webp",
+    "imageSrcset": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-480.webp 480w, assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-960.webp 960w, assets/editorial/us-homebuilder-confidence-october-2026-low-natural-v2.webp 1920w",
+    "sources": [
+      {
+        "label": "NAHB: October 19 builder sentiment release",
+        "url": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates"
+      },
+      {
+        "label": "Freddie Mac: October 15 mortgage-rate survey",
+        "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-hold-steady-740"
+      },
+      {
+        "label": "Reuters: October 19 housing report",
+        "url": "https://www.reuters.com/business/us-homebuilder-sentiment-tumbles-near-14-12-year-low-october-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T17:08:30+00:00",
+    "dateModified": "2026-10-19T17:08:30+00:00",
+    "editorialNote": null,
+    "body": [
+      "Confidence among US homebuilders fell to its weakest level since June 2012 in October, as expensive mortgages and building costs continued to strain the market for new single-family houses. The NAHB/Wells Fargo Housing Market Index dropped three points to 29, the industry association said Monday.",
+      "Price concessions became more widespread. Some 43% of builders reported cutting prices, the largest share in the 2020–2026 period. The average reduction among those cutting prices held at 6%, while 65% reported offering sales incentives.",
+      "Demand weakened across the survey",
+      "All three components declined. Current sales conditions fell to 33, expectations for the next six months to 32 and prospective-buyer traffic to 18. NAHB said traffic was the weakest since April 2012 when the initial pandemic disruption in April 2020 is excluded.",
+      "The index surveys builders’ assessments of sales and traffic. A reading above 50 indicates that more respondents judge conditions favorably than unfavorably. October’s figures measure sentiment about newly built single-family homes; they are not a count of completed transactions or a national house-price index.",
+      "Mortgage costs limit purchasing power",
+      "Freddie Mac’s latest available weekly survey put the average 30-year fixed mortgage at 7.40% as of October 15, unchanged from the previous week and above 6.27% a year earlier. Its survey focuses on conventional conforming purchase loans for strong-credit borrowers putting 20% down.",
+      "That average is a reference point rather than a personalized financing offer. Actual borrowing costs vary with the applicant, loan structure and lender. It also means that a house becoming cheaper does not automatically make the monthly payment affordable to every prospective buyer.",
+      "For illustration, a $400,000 loan amortized over 30 years at 7.40% carries principal and interest of roughly $2,770 a month. At 6.27%, the same balance and term imply about $2,468. These are hypothetical calculations excluding property tax, insurance, fees and mortgage insurance. They isolate the effect of the interest rate rather than describing a particular purchase.",
+      "Discounts and incentives have different effects",
+      "A lower sale price reduces the purchase amount. An incentive may instead help with financing or another part of the transaction. Comparing offers requires examining the complete terms, including whether a benefit expires, what the buyer must pay upfront and how much cash is needed at closing.",
+      "For a builder, moving a completed home can release capital tied up in inventory. The economic benefit must be weighed against the revenue given up through a concession and the cost of providing an incentive. The survey does not establish the resulting profit margin at any individual company.",
+      "Our guide to builder confidence and housing starts explains why a sentiment release and actual construction activity can move on different schedules. Permits, starts, completions and sales each describe a different stage of the market. One weak reading does not determine the next release.",
+      "The pressure extends beyond buyers",
+      "TTN’s assessment is that the combination of weak traffic and persistent building costs leaves developers with difficult timing decisions. Starting more homes adds future supply but also commits capital. Slowing construction limits that exposure while potentially affecting suppliers and local employment.",
+      "The national figures also leave room for substantial variation between markets and companies. Land costs, product mix, inventory age and available financing differ. The average price cut should therefore not be applied mechanically to every listing or used to infer the discount a particular buyer can obtain.",
+      "For the next round of builder results, the useful measures will be orders, cancellations, completed inventory and margins after incentives. October’s survey shows broad pressure on confidence and buyer interest. Company disclosures will show how much of that pressure reaches revenue and cash flow."
+    ]
+  },
+  {
+    "id": "sp-global-ai-debt-visibility-hyperscalers-2026",
+    "section": "Tech & AI",
+    "title": "S&P Warns of Gaps in AI Debt Visibility",
+    "dek": "Financing guarantees can obscure AI infrastructure exposure. S&P sees no immediate need to change ratings, but investment returns remain the central risk.",
+    "tickers": [
+      "AMZN",
+      "MSFT",
+      "GOOGL",
+      "ORCL"
+    ],
+    "image": "assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2.webp",
+    "imageAlt": "Generated editorial reconstruction of the S&P Global office facade and sign at 55 Water Street in New York; not a photograph of the October 19 briefing.",
+    "imageSmall": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-480.webp",
+    "imageMedium": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-960.webp",
+    "imageSrcset": "assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-480.webp 480w, assets/responsive/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2-960.webp 960w, assets/editorial/sp-global-ai-debt-visibility-hyperscalers-2026-sp-office-v2.webp 1920w",
+    "sources": [
+      {
+        "label": "Reuters: October 19 remarks by S&P digital infrastructure head Mark Habib",
+        "url": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+      },
+      {
+        "label": "S&P Global: August 27 infrastructure financing research and credit framework",
+        "url": "https://press.spglobal.com/2026-08-27-AI-Infrastructure-Investment-To-Exceed-1-3-Trillion-By-2027,-S-P-Global-Ratings-Says"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T17:08:29+00:00",
+    "dateModified": "2026-10-19T17:08:29+00:00",
+    "editorialNote": null,
+    "body": [
+      "S&P Global warned Monday that major technology companies could carry more AI-related financial exposure than observers can currently identify. Mark Habib, its global head of digital infrastructure, highlighted financing arrangements that link large cloud companies to data center projects and smaller AI businesses.",
+      "The warning came with two limits: S&P did not quantify the additional exposure, and Habib saw no immediate reason to change ratings. His principal concern remained whether the expected investment returns would arrive.",
+      "The financing structure matters",
+      "S&P’s earlier published research helps explain the concern. Its August assessment describes a funding mix that includes borrowing, equity issuance, leases and contractual support. Joint ventures, special-purpose vehicles and residual-value guarantees can complicate the task of assessing credit risk across the sector.",
+      "That research projected negative free operating cash flow at the six largest hyperscalers in 2026 and 2027. It identified the durability of demand, possible excess capacity and the eventual monetization of AI investment as areas to monitor. Those were forecasts and analytical assumptions, rather than established outcomes.",
+      "For readers of company accounts, the practical question is which entity owes the money and which other entity has promised support. A project can have its own borrower while depending economically on a much larger customer. The contractual links matter when assessing how a problem could spread.",
+      "A commitment is not always an immediate cash payment",
+      "Consider a hypothetical data center financed by a project company. If a cloud customer agrees to buy capacity for several years, the agreement can support the project’s funding. A separate guarantee could create an additional obligation if specified conditions are met. The contracts determine the exposure; their labels alone do not.",
+      "Adding every announced project value, customer contract and guarantee would not necessarily produce a meaningful debt total. The same underlying infrastructure could appear in several figures. A careful assessment needs to distinguish direct borrowing, future purchases, leases and conditional obligations, then check for overlap.",
+      "That is why incomplete visibility should not automatically be described as a proven accounting failure. Establishing whether a disclosure is deficient would require examining the relevant contract, financial statement and reporting rules. Monday’s warning concerns the difficulty of seeing the complete economic picture.",
+      "Revenue is the next test",
+      "TTN’s assessment is that the funding question becomes more pressing when capacity takes longer to earn its expected return. A facility still needs customers after construction, and a customer needs a viable business to sustain its purchases. Strong demand announcements are useful evidence, but they do not settle the timing of collections or the cost of delivering the service.",
+      "Our explanation of circular AI financing examines how investments and customer spending can reinforce one another. The risk is easier to assess when operating demand, financing support and cash payments are examined separately.",
+      "Free cash flow supplies another part of the picture. A large capital program can consume cash before the associated capacity generates revenue. Credit analysis must therefore consider liquidity and the timing of obligations alongside the scale of expected future earnings.",
+      "What would change the assessment",
+      "The distinction between a warning and a rating action remains essential. A rating expresses an agency’s assessment of creditworthiness; a market price also reflects trading conditions and investor positioning. Neither should be substituted for the other.",
+      "For upcoming company disclosures, the useful evidence will be the terms and timing of capacity commitments, the financing attached to new projects and progress toward collecting revenue. S&P’s comments sharpen that scrutiny while leaving the size of any additional exposure unresolved."
+    ]
+  },
+  {
+    "id": "amazon-torchneuron-pytorch-trainium-2026",
+    "section": "Tech & AI",
+    "title": "Amazon Takes Aim at Nvidia’s Software Advantage",
+    "dek": "TorchNeuron brings native PyTorch workflows to Trainium. Easier migration could widen hardware choice, but cost savings still depend on the workload.",
+    "imageAlt": "Illustrative laboratory scene of an engineer testing an unbranded server accelerator board; not an actual Trainium product photograph.",
+    "image": "assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp",
+    "imageSmall": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-480.webp",
+    "imageMedium": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-960.webp",
+    "imageSrcset": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-480.webp 480w, assets/responsive/amazon-torchneuron-pytorch-trainium-2026-960.webp 960w, assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp 1920w",
+    "tickers": [
+      "AMZN",
+      "NVDA"
+    ],
+    "sources": [
+      {
+        "label": "AWS Neuron: native PyTorch backend and migration configuration",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/pytorch-native-overview.html"
+      },
+      {
+        "label": "AWS: custom CUDA and Triton kernel migration to Trainium",
+        "url": "https://aws.amazon.com/blogs/migration-and-modernization/stop-hand-porting-kernels-migrate-pytorch-and-triton-kernels-to-aws-trainium-with-an-aws-transform-custom-agent/"
+      },
+      {
+        "label": "PyTorch: 2026 conference hardware and infrastructure program",
+        "url": "https://pytorch.org/blog/your-guide-to-hardware-acceleration-compute-infrastructure-at-pytorch-conference-north-america-2026/"
+      },
+      {
+        "label": "Reuters: Amazon’s October 19 TorchNeuron announcement",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T16:43:32+00:00",
+    "dateModified": "2026-10-19T16:43:32+00:00",
+    "editorialNote": null,
+    "body": [
+      "Amazon is pushing further into the software layer of the AI chip market with TorchNeuron, a native PyTorch backend for its Trainium accelerators. The October 19 announcement targets a practical obstacle to switching hardware: the engineering work needed to move an existing model onto a different computing platform.",
+      "For AWS, lowering that barrier could make its own chips easier to evaluate alongside Nvidia-based cloud instances. For customers, the immediate opportunity is a wider choice of infrastructure. Whether that choice produces a cheaper production system remains a separate calculation.",
+      "Familiar tools on a different chip",
+      "PyTorch is a machine-learning framework used to build and run models. TorchNeuron connects those workflows to Trainium through a native backend, with support for eager execution, compilation and distributed processing. Eager execution helps developers inspect operations as they run; compilation can optimize parts of a model for deployment.",
+      "AWS documentation describes small configuration changes for standard workflows. Its examples change the selected device from CUDA to Neuron and specify a Neuron backend when using torch.compile. Distributed configurations must also reflect the available NeuronCores. Those examples describe a shorter migration path, rather than a guarantee that every existing application will transfer unchanged.",
+      "The PyTorch conference program separately lists Trainium demonstrations covering model training, serving, profiling and custom kernels. It also includes a Google session on native PyTorch support for TPUs. Software portability is becoming a competitive priority across accelerator suppliers, extending the contest beyond the specifications of individual chips.",
+      "Custom software remains a dividing line",
+      "Standard framework operations and hardware-specific extensions present different migration problems. A model may use ordinary PyTorch code for most of its work while relying on a small set of custom kernels for its most demanding calculations.",
+      "An AWS engineering article on kernel migration explains that CUDA and Triton kernels written around a GPU’s execution model need adaptation for Trainium. It describes converting them to the Neuron Kernel Interface, followed by correctness checks and performance profiling. Native PyTorch integration therefore does not remove every hardware dependency in a mature application.",
+      "That distinction matters most when an organization has already invested heavily in optimization. Moving the model definition is only one part of replacing a production stack. Validation, deployment tools and operational support can determine whether a technically successful migration is commercially worthwhile.",
+      "The relevant price is the cost of useful work",
+      "TTN’s assessment is that easier compatibility chiefly reduces the cost of trying an alternative. It gives a team more room to compare platforms before committing to a larger deployment. It does not, by itself, establish a price advantage for either supplier.",
+      "A useful comparison keeps model quality and service requirements constant. For training, that means checking the cost and time needed to reach the same target quality. For inference, it means comparing completed requests at an acceptable error rate and response time. Our analysis of AI inference economics explains why a low headline computing price can obscure retries and other operating costs.",
+      "Infrastructure also has to remain productive between peak workloads. Idle capacity, storage, networking and engineering time affect the total bill. As TTN’s reporting on AI networking explains, accelerator performance depends on the surrounding system as well as the chip.",
+      "A test of adoption",
+      "A credible pilot would therefore record engineering hours alongside computing charges, retain the original workload as a baseline, and test recovery from failed jobs. That gives procurement teams evidence they can compare with an existing supplier contract.",
+      "Amazon’s next commercial test is whether simpler access leads customers from experiments to sustained workloads. A demonstration can establish that a model runs; repeated production results are needed to establish reliability and cost.",
+      "For Nvidia, a more portable framework could make competing accelerators easier for customers to consider. The size of that effect will depend on application compatibility and measured economics. TorchNeuron broadens the options available to developers, while leaving customers with the work of proving which option fits their business."
+    ]
+  },
+  {
     "id": "ai-agents-website-breaches-norforge-october-2026",
     "section": "Tech & AI",
     "title": "AI Agents Linked to Over 100 Website Breaches",

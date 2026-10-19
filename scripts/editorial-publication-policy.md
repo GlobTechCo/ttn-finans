@@ -1,5 +1,7 @@
 # TTN publication gate
 
+Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns the detailed commissioning, freshness, approval and date gates. The latest explicit user instruction overrides an older rule only within its scope.
+
 ## Standing commissioning instructions, October 19
 
 - A request to find and analyze news topics includes source verification, original article writing, distinct generated covers, relevant internal links, search/social metadata, publication and live verification. Do not require the user to repeat these steps. Audience-interest analysis is an internal selection aid and must not appear as scores or popularity claims in articles.
@@ -11,7 +13,7 @@ Updated following the user's editorial correction on October 17, 2026.
 - Inspect both Market Analysis and Tech & AI, but publish only when a significant, separately verified new event qualifies within the requested hour. A pair is a target, never a quota.
 - If neither section has a qualifying event, publish nothing. If one section has no qualifying event, skip that section. Never fill it with a reserve topic, old report, background explainer or speculative corporate claim simply to meet a count.
 - Record the earliest verified event/primary release and first reporting time, with timezone. An update, syndication time or later outlet confirmation does not reset an unchanged event's age.
-- Read `editorial-audit-20261017.json` before selecting a topic. Do not republish withdrawn IDs or their old drafts from editorial queue files. A genuinely material subsequent event requires a new review and a distinct article.
+- Review the October 17 withdrawal audit (`editorial-audit-20261017.json`, recoverable from Git history when absent from the working tree) before selecting a potentially repeated or withdrawn topic. Do not republish withdrawn IDs or their old drafts from editorial queue files. A genuinely material subsequent event requires a new review and a distinct article.
 - Check the last several articles in the section for company and topic concentration. Separate events about one company do not automatically make a balanced news feed.
 - Match the cover directly to the main reported event. Avoid tenuous illustrative connections such as a biological laboratory for a broad GDP scenario. Use verified references for specific products, people and named architecture. Respect `editorial-visual-policy.md`.
 - User-requested image corrections must be previewed and specifically approved before any replacement is published. Removal of a weak article is permitted when authorized; it does not authorize an unseen replacement image.
