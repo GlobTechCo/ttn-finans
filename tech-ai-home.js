@@ -1,6 +1,7 @@
 /* Featured original technology analyses. No changes to TTNNews/news feed. */
 (()=>{function init(){const el=document.getElementById("tech-ai-home");if(!el||typeof TTN_ARTICLES==="undefined")return;
 const techIds=new Set([
+"anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
     "tiktok-musk-documentary-account-suspension-2026",
 

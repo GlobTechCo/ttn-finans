@@ -1,6 +1,7 @@
 /* Market Analysis archive; cards and navigation share the Tech & AI component. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
     "tiktok-musk-documentary-account-suspension-2026",
 

@@ -1,6 +1,107 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "anthropic-public-benefit-fund-five-percent-shares-2026",
+    "section": "Tech & AI",
+    "title": "Anthropic Plans 5% Stake for Public Benefit Fund",
+    "dek": "The Claude developer plans a share commitment subject to stockholder approval. Governance details and the timetable for spending remain open.",
+    "imageAlt": "Generated editorial reconstruction of an Anthropic office glass-door entrance and its documented wordmark; not a photograph of the fund announcement.",
+    "image": "assets/editorial/anthropic-public-benefit-fund-five-percent-shares-2026.webp",
+    "imageSmall": "assets/responsive/anthropic-public-benefit-fund-five-percent-shares-2026-480.webp",
+    "imageMedium": "assets/responsive/anthropic-public-benefit-fund-five-percent-shares-2026-960.webp",
+    "imageSrcset": "assets/responsive/anthropic-public-benefit-fund-five-percent-shares-2026-480.webp 480w, assets/responsive/anthropic-public-benefit-fund-five-percent-shares-2026-960.webp 960w, assets/editorial/anthropic-public-benefit-fund-five-percent-shares-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Anthropic: Public Benefit Fund announcement, October 18, 2026",
+        "url": "https://www.anthropic.com/news/public-benefit-fund"
+      },
+      {
+        "label": "Reuters: Proposed share commitment and governance questions, October 18, 2026",
+        "url": "https://www.reuters.com/business/anthropic-commit-5-stake-new-public-benefit-fund-2026-10-18/"
+      },
+      {
+        "label": "Associated Press: Share pledge and existing founder/employee commitments",
+        "url": "https://apnews.com/article/anthropic-shares-public-benefit-8181332fbbc48f2ef9447cef096f14de"
+      },
+      {
+        "label": "SEC: Distinguishing equity, assets and cash flows",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T03:00:07-04:00",
+    "dateModified": "2026-10-19T03:00:07-04:00",
+    "editorialNote": null,
+    "body": [
+      "Anthropic plans to commit 5% of its shares to a new public-benefit fund, subject to stockholder approval, adding an equity pledge to the Claude developer's efforts to address the wider consequences of artificial intelligence.",
+      "The October 18 announcement connects the proposed fund to a familiar concern: AI could create economic value while disrupting workers' livelihoods. But it does not establish a cash payment to workers, an application process or a distribution date. The distinction between committing shares and delivering assistance is central to assessing the plan.",
+      "A stake that could grow",
+      "Anthropic said the board could allocate an additional 2% of shares for each 50% increase in company value above a baseline. The additions would be discretionary. The baseline and fuller governance arrangements have not yet been disclosed; the company said it would provide further details in coming months.",
+      "The proposed vehicle is a wholly owned limited liability company rather than a 501(c)(3) nonprofit. Anthropic identified potential uses including nonprofit grants and direct distributions to particular populations, and said its equity in the vehicle would not support lobbying or political donations.",
+      "Those choices leave an important distinction between a company-controlled fund with a stated mission and an independent charity with published grant rules. The announcement describes possible activities. It does not yet let a prospective recipient determine eligibility or establish who will ultimately select and oversee particular distributions.",
+      "The 5% pledge is not the same as the broader 20% figure",
+      "Associated Press reported that the new commitment sits alongside earlier pledges by Anthropic's founders and a company program matching employee equity donations. Anthropic says the combined commitments account for roughly 20% of its shares, before possible future additions. That aggregate should not be read as a claim that the new fund alone receives 20% immediately.",
+      "Reuters placed the announcement in the context of Anthropic's IPO plans and investor attention to the company's public-benefit structure. A planned listing and an equity commitment are separate developments: the announcement does not establish an IPO completion, an offering price or a realized cash balance for the fund.",
+      "Equity value is different from money available to spend",
+      "A percentage stake describes an ownership interest, not a fixed dollar amount available in a bank account. Its economic value depends on the company's value and the rights and conditions attached to the shares. Turning an interest into spending capacity requires more information about how the vehicle will receive and use resources.",
+      "That is why an assumed future valuation should not be multiplied by 5% and presented as cash already donated. The same distinction between an equity valuation and immediately available money applies in other corporate settings. It matters especially when a headline promises a societal benefit whose delivery will occur later.",
+      "The employment question remains concrete",
+      "The fund's eventual impact will depend on its rules, resources and results. Published governance could clarify decision-making, conflicts of interest, spending priorities and reporting. A public-benefit report could then show what was actually funded and how the outcomes were assessed.",
+      "That assessment should also distinguish improved productivity from workers' experience. As our guide to AI agents and workplace returns explains, time saved and financial savings are different measures. Neither automatically tells readers which workers benefit or who bears the costs of a transition.",
+      "For now, the new development is a conditional equity commitment, with important implementation details to follow. It adds a mechanism for sharing potential AI gains, while leaving the commercial question of how durable AI revenue becomes separate from the public-benefit pledge."
+    ]
+  },
+  {
+    "id": "us-futures-rebound-ai-earnings-october-19-2026",
+    "section": "Market Analysis",
+    "title": "US Futures Rebound as AI Trade Faces Earnings Test",
+    "dek": "Nasdaq 100 futures rose 1.3% in an early Monday snapshot. Earnings and financing costs remain the next tests after the chip selloff.",
+    "imageAlt": "Generated editorial reconstruction of the New York Stock Exchange facade on Broad Street, based on a photographic architectural reference.",
+    "image": "assets/editorial/us-futures-rebound-ai-earnings-october-19-2026.webp",
+    "imageSmall": "assets/responsive/us-futures-rebound-ai-earnings-october-19-2026-480.webp",
+    "imageMedium": "assets/responsive/us-futures-rebound-ai-earnings-october-19-2026-960.webp",
+    "imageSrcset": "assets/responsive/us-futures-rebound-ai-earnings-october-19-2026-480.webp 480w, assets/responsive/us-futures-rebound-ai-earnings-october-19-2026-960.webp 960w, assets/editorial/us-futures-rebound-ai-earnings-october-19-2026.webp 1920w",
+    "tickers": [
+      "NASDAQ",
+      "S&P 500"
+    ],
+    "sources": [
+      {
+        "label": "Bloomberg via SWI swissinfo.ch: Monday market report; futures snapshot at 6:50 a.m. London time, October 19",
+        "url": "https://www.swissinfo.ch/eng/nasdaq-futures-rebound-from-tech-selloff,-oil-dips:-markets-wrap/92235911"
+      },
+      {
+        "label": "Reuters: Asian stocks and US futures, October 19, 2026",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+      },
+      {
+        "label": "SEC: Reading income statements, balance sheets and cash flows",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T03:00:07-04:00",
+    "dateModified": "2026-10-19T03:00:07-04:00",
+    "editorialNote": null,
+    "body": [
+      "US equity-index futures rose early Monday after a bruising week for technology stocks, giving investors an initial recovery in prices before corporate earnings put the artificial intelligence trade back under scrutiny.",
+      "Nasdaq 100 futures were up 1.3% and S&P 500 futures gained 0.8% at 1:50 a.m. EDT on October 19, according to Bloomberg's market report. Those were futures-market moves before the US cash session, not gains recorded by the Nasdaq Composite or S&P 500 during regular trading.",
+      "Reuters independently reported a rise in US futures alongside weaker oil prices and pressure on Asian technology shares. The differing regional moves left a mixed picture: US contracts were recovering while concern about the financing required for AI infrastructure remained unresolved.",
+      "A rebound before the cash market opens",
+      "The early move followed a week in which the Nasdaq 100 fell 5.5%, Bloomberg reported. Its market wrap also described the semiconductor gauge's longest sequence of declines since 2008. Monday's advance therefore arrived against a recent decline, rather than extending an uninterrupted rally.",
+      "The distinction matters for interpreting the numbers. Nasdaq 100 futures reference a different index from the Nasdaq Composite, and an overnight futures percentage should not be subtracted mechanically from a weekly cash-index loss. Prices can also change materially before the opening bell.",
+      "There is a further difference between an initial rebound and evidence that the underlying concern has passed. A recovery in quoted prices does not, by itself, establish whether investors have revised earnings forecasts, reduced hedges or judged financing risks less severe. Those explanations need evidence beyond the direction of a contract.",
+      "Earnings must answer the funding question",
+      "Bloomberg identified results from Tesla and Meta among this week's tests for confidence in the AI trade. The reporting season puts attention on the relationship between money committed to infrastructure and the cash businesses can generate from it. Our earlier coverage of CoreWeave's financing pressures explains why that question has reached beyond share prices into debt markets.",
+      "The financial statements answer different parts of the question. Revenue and profit measure performance over a period; the cash-flow statement shows receipts and payments; the balance sheet records assets and obligations at a point in time. Strong sales do not necessarily mean that operating cash is sufficient to fund expansion and service debt.",
+      "That makes spending plans, funding commitments and the terms of borrowing relevant alongside headline earnings per share. A company can report faster growth and still need substantial external financing. Conversely, weaker near-term profit can reflect an investment whose future returns remain uncertain rather than an immediate funding shortage.",
+      "The comparison also needs to separate recurring performance from exceptional items, an issue explored in Bank of America's latest results. The accounting question is company-specific; it should not be answered by treating every earnings miss as the same event.",
+      "What Monday's snapshot establishes",
+      "The early report establishes that US futures rebounded as the new week began. It does not settle the broader question of whether AI-related revenue can support the sector's investment and financing commitments. The next substantive evidence comes from company disclosures and the trading that follows them, rather than from assuming an overnight rise has resolved last week's concerns."
+    ]
+  },
+  {
     "id": "tiktok-musk-documentary-account-suspension-2026",
     "section": "Tech & AI",
     "title": "TikTok Suspends “Musk” Film Account, Adding to Documentary’s Promotion Dispute",
