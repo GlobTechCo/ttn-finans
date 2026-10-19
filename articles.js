@@ -9,11 +9,11 @@ const TTN_ARTICLES = [
       "LEN",
       "DHI"
     ],
-    "image": "assets/editorial/us-homebuilder-confidence-october-2026-low.webp",
-    "imageAlt": "Illustrative scene of prospective buyers viewing newly built suburban homes; not an actual property or respondents in the NAHB survey.",
-    "imageSmall": "assets/responsive/us-homebuilder-confidence-october-2026-low-480.webp",
-    "imageMedium": "assets/responsive/us-homebuilder-confidence-october-2026-low-960.webp",
-    "imageSrcset": "assets/responsive/us-homebuilder-confidence-october-2026-low-480.webp 480w, assets/responsive/us-homebuilder-confidence-october-2026-low-960.webp 960w, assets/editorial/us-homebuilder-confidence-october-2026-low.webp 1920w",
+    "image": "assets/editorial/us-homebuilder-confidence-october-2026-low-natural-v2.webp",
+    "imageAlt": "Generated editorial illustration of residential construction on an ordinary US suburban street, with a worker checking a window; not a photograph of NAHB survey respondents.",
+    "imageSmall": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-480.webp",
+    "imageMedium": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-960.webp",
+    "imageSrcset": "assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-480.webp 480w, assets/responsive/us-homebuilder-confidence-october-2026-low-natural-v2-960.webp 960w, assets/editorial/us-homebuilder-confidence-october-2026-low-natural-v2.webp 1920w",
     "sources": [
       {
         "label": "NAHB: October 19 builder sentiment release",
