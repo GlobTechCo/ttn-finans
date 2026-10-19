@@ -70,6 +70,23 @@ def verify():
         assert all(i.endswith('.html') and (ROOT/i).is_file() and i!=a['id']+'.html' for i in links)
         assert inbound[a['id']+'.html'],(a['id'],'orphan')
         assert 'articles.js' not in (ROOT/(a['id']+'.html')).read_text()
+    # Card previews must resolve without JavaScript, query-string workarounds, or missing assets.
+    manifest=json.loads((ROOT/'scripts/social-card-manifest.json').read_text())['pages']
+    manifest_by_page={record['page']: record for record in manifest}
+    assert set(manifest_by_page)==set(docs), ('social card coverage')
+    for name,doc in docs.items():
+        record=manifest_by_page[name]
+        canonical=BASE if name=='index.html' else BASE+name
+        assert record['shareUrl']==canonical,(name,'canonical share URL')
+        image_url=BASE+record['image']
+        assert (ROOT/record['image']).is_file(),(name,'missing social image')
+        assert (ROOT/record['image']).stat().st_size==record['bytes'],(name,'social image size')
+        for attribute,value in [('property','og:image'),('property','og:image:secure_url'),('name','twitter:image')]:
+            assert doc.xpath(f'//meta[@{attribute}="{value}"]/@content')==[image_url],(name,value)
+        assert doc.xpath('//meta[@name="twitter:card"]/@content')==['summary_large_image'],(name,'twitter card')
+        for prop,expected in [('og:image:width',str(record['width'])),('og:image:height',str(record['height'])),('og:image:type',record['type'])]:
+            assert doc.xpath(f'//meta[@property="{prop}"]/@content')==[expected],(name,prop)
+        assert doc.xpath('//meta[@property="og:url"]/@content')==[canonical],(name,'og:url')
     directory_links=set()
     for name in ['analysis.html','tech-ai.html']:
         directory=docs[name].xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-topics ")]')
