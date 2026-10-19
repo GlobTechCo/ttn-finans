@@ -136,6 +136,7 @@ const TTNArticlesUI = (() => {
 
   // Tech & AI has its own exclusive homepage/archive section.
   const TECH_AI_IDS = new Set([
+    "ai-agents-website-breaches-norforge-october-2026",
     "anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
     "tiktok-musk-documentary-account-suspension-2026",
@@ -199,6 +200,7 @@ document.addEventListener("DOMContentLoaded", () => TTNArticlesUI.render());
 /* Featured original technology analyses. No changes to TTNNews/news feed. */
 (()=>{function init(){const el=document.getElementById("tech-ai-home");if(!el||typeof TTN_ARTICLES==="undefined")return;
 const techIds=new Set([
+    "ai-agents-website-breaches-norforge-october-2026",
 "anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
     "tiktok-musk-documentary-account-suspension-2026",

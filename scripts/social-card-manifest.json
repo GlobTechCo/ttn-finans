@@ -1699,6 +1699,17 @@
       "bytes": 440192,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yen-ueda-inflation-rate-outlook-october-19-2026.html?card=c37fcb10d15f"
+    },
+    {
+      "page": "ai-agents-website-breaches-norforge-october-2026.html",
+      "source": "assets/editorial/ai-agents-website-breaches-norforge-october-2026.webp",
+      "image": "assets/social/ai-agents-website-breaches-norforge-october-2026-e91a3ecb5980.webp",
+      "sha256": "e91a3ecb5980aaa321f4b228828ea999c12bacf20d920c26e82409d574cc07cd",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 189908,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ai-agents-website-breaches-norforge-october-2026.html?card=e91a3ecb5980"
     }
   ]
 }

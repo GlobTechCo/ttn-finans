@@ -1,6 +1,46 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ai-agents-website-breaches-norforge-october-2026",
+    "section": "Tech & AI",
+    "title": "AI Agents Linked to Over 100 Website Breaches",
+    "dek": "A new investigation documents automated intrusions at scale. Confirmed access, possible data theft and the cost of remediation remain distinct questions.",
+    "imageAlt": "Generated illustrative scene of a young technician inspecting network equipment at a service bench; not an actual victim or a reported intrusion.",
+    "image": "assets/editorial/ai-agents-website-breaches-norforge-october-2026.webp",
+    "imageSmall": "assets/responsive/ai-agents-website-breaches-norforge-october-2026-480.webp",
+    "imageMedium": "assets/responsive/ai-agents-website-breaches-norforge-october-2026-960.webp",
+    "imageSrcset": "assets/responsive/ai-agents-website-breaches-norforge-october-2026-480.webp 480w, assets/responsive/ai-agents-website-breaches-norforge-october-2026-960.webp 960w, assets/editorial/ai-agents-website-breaches-norforge-october-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "NorForge: Inside Cairn, original October 19 research",
+        "url": "https://norforge.com/blog/inside_cairn"
+      },
+      {
+        "label": "Reuters: October 19 investigation and company responses",
+        "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T07:32:25-04:00",
+    "dateModified": "2026-10-19T07:32:25-04:00",
+    "editorialNote": null,
+    "body": [
+      "A newly published investigation links AI agents to a campaign that compromised more than 100 company websites, showing how one operator can delegate prolonged intrusion attempts to automated systems.",
+      "Reuters identified affected sites associated with Deere, SharkNinja and Cummins after reviewing activity described by cybersecurity researcher NorForge. The agency could not establish the extent of unauthorized data extraction. Deere reported no indication of sensitive-data access; SharkNinja described a contained incident at a support site; Cummins said it was investigating a possible incident involving a vendor’s website.",
+      "What the underlying research establishes",
+      "NorForge’s report, published October 19, describes more than 20 exposed control panels assessed as likely connected to malicious activity. These gave researchers a view of operators setting objectives and agents pursuing them. The report also found exposed panels associated with apparently legitimate security testing, a separate confidentiality risk for those clients.",
+      "One Chinese-language cluster accounted for more than 1,100 attack projects across 14 dashboards in NorForge’s account. The researcher assessed the observed activity as financially motivated and did not identify obvious state-sponsored operations. Language alone does not establish an operator’s nationality or government affiliation.",
+      "The observation is important because it concerns operational behavior rather than a controlled benchmark. It also has limits: exposed dashboards are a sample of visible activity, not a census of every malicious use of AI. Project counts cannot simply be treated as counts of distinct victims or successful thefts.",
+      "The financial exposure extends beyond stolen records",
+      "For a business, unauthorized access can create costs even when a sensitive-data loss has not been established. Investigation, restoring trusted systems and checking third-party connections all require time and specialist work. Any estimate of actual losses would need evidence from the affected organization; this investigation does not provide a company-by-company financial total.",
+      "A supplier-operated site introduces another boundary. The owner of a corporate brand, the operator of a website and the organization responsible for its infrastructure may be different parties. That makes incident scope and contractual responsibilities essential to interpreting an announcement.",
+      "A separate case from earlier AI warnings",
+      "TTN recently covered a warning from India’s cyber agency. The NorForge investigation is a separate source of evidence and should not be merged with that earlier report into a larger unsupported victim count.",
+      "For companies adopting agents internally, the same question of permissions remains central. Our reporting on enterprise AI and data access examines the boundary between useful automation and excessive authority. Meanwhile, website restrictions on agents concern service access and consent, which are different from authorization to test or enter a system."
+    ]
+  },
+  {
     "id": "yen-ueda-inflation-rate-outlook-october-19-2026",
     "section": "Market Analysis",
     "title": "Yen Faces Rate Test After Ueda Inflation Warning",

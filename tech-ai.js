@@ -1,6 +1,7 @@
 /* Tech & AI archive; the same card and pagination component as Market Analysis. */
 (function () {
   const TECH_AI_IDS = new Set([
+    "ai-agents-website-breaches-norforge-october-2026",
     "anthropic-public-benefit-fund-five-percent-shares-2026",
     "meta-commercial-terms-crawling-publishers-clarification-2026",
     "tiktok-musk-documentary-account-suspension-2026",
