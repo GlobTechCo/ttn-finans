@@ -91,7 +91,7 @@ def refresh():
         records.append({'page': page.name, 'source': source, 'image': 'assets/social/' + filename,
                         'sha256': digest, 'width': image.width, 'height': image.height,
                         'bytes': len(data), 'type': mime,
-                        'shareUrl': BASE + page.name + '?card=' + digest[:12]})
+                        'shareUrl': metadata.canonical or (BASE if page.name == 'index.html' else BASE + page.name)})
     (ROOT / 'scripts/social-card-manifest.json').write_text(json.dumps({'pages': records}, indent=2) + '\n')
     print(f'Updated {len(records)} pages; {len({r["image"] for r in records})} immutable card images.')
 
