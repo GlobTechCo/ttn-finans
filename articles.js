@@ -1,6 +1,54 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "yen-ueda-inflation-rate-outlook-october-19-2026",
+    "section": "Market Analysis",
+    "title": "Yen Faces Rate Test After Ueda Inflation Warning",
+    "dek": "Japan’s central bank chief said underlying inflation is nearing 2%. For currency traders, the pace of further tightening remains the key uncertainty.",
+    "imageAlt": "Generated architectural reconstruction of the Bank of Japan’s historic Tokyo headquarters from a photographic reference; not a photograph of the reported speech.",
+    "image": "assets/editorial/yen-ueda-inflation-rate-outlook-october-19-2026.webp",
+    "imageSmall": "assets/responsive/yen-ueda-inflation-rate-outlook-october-19-2026-480.webp",
+    "imageMedium": "assets/responsive/yen-ueda-inflation-rate-outlook-october-19-2026-960.webp",
+    "imageSrcset": "assets/responsive/yen-ueda-inflation-rate-outlook-october-19-2026-480.webp 480w, assets/responsive/yen-ueda-inflation-rate-outlook-october-19-2026-960.webp 960w, assets/editorial/yen-ueda-inflation-rate-outlook-october-19-2026.webp 1920w",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Reuters: Ueda’s October 19 parliamentary remarks",
+        "url": "https://www.reuters.com/world/asia-pacific/boj-governor-ueda-says-underlying-inflation-quite-close-2-target-2026-10-19/"
+      },
+      {
+        "label": "Reuters: October 19 Asian foreign-exchange snapshot, syndicated by Metrobank",
+        "url": "https://wealthinsights.metrobank.com.ph/news/forex-dollar-firmer-euro-weakens-as-french-protests-turn-violent"
+      },
+      {
+        "label": "Tokyo Financial Exchange: policy-meeting futures calendar",
+        "url": "https://www.tfx.co.jp/en/historical/futures/tradingcalendar.html"
+      },
+      {
+        "label": "Fg2 / Wikimedia Commons: public-domain architectural reference",
+        "url": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan_headquarters_in_Tokyo,_Japan.jpg"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-19T07:31:03-04:00",
+    "dateModified": "2026-10-19T07:31:03-04:00",
+    "editorialNote": null,
+    "body": [
+      "Bank of Japan Governor Kazuo Ueda said on Monday that underlying inflation was “quite close” to the central bank’s 2% target, keeping further monetary tightening in focus for yen traders ahead of the next policy meeting.",
+      "Reuters reported that Ueda linked price pressures to a tight labor market and strong global AI demand. His parliamentary remarks signaled room for additional rate increases, without announcing a new decision. The BOJ’s next meeting is scheduled for October 29–30, according to the Tokyo Financial Exchange calendar.",
+      "The currency trades the expected path",
+      "An early Asian-session Reuters currency report put the dollar near ¥158, little changed. That observation should not be read as a full-day verdict on the speech. Currency prices reflect expectations on both sides of a pair, positioning and incoming information throughout the session.",
+      "A Japanese rate increase can make yen assets relatively more attractive if other conditions are unchanged. But those conditions rarely stay fixed: a change in the expected US rate path can strengthen or offset the effect. Our guide to central-bank policy divergence sets out why looking at one central bank alone is insufficient.",
+      "Why funding trades are sensitive",
+      "The yen also matters as a funding currency. An investor who borrows yen to acquire a higher-yielding foreign asset takes both financing risk and exchange-rate risk. Higher Japanese funding costs reduce the interest advantage; a stronger yen makes the borrowing more expensive to repay in foreign-currency terms.",
+      "For a simplified illustration, consider ¥1 million borrowed when the dollar buys ¥158. The amount is about $6,329. If the rate later falls to ¥150 per dollar, repaying the same principal requires about $6,667, roughly $338 more before interest or fees. The example describes exchange-rate arithmetic, not a forecast that the yen will reach that level.",
+      "That is the exposure behind a yen carry trade. A crowded unwind can create demand for the funding currency even when the original foreign asset has not suffered a comparable change in fundamentals.",
+      "Policy signals and intervention are different",
+      "Ueda’s remarks concern monetary policy. They do not amount to an announcement that authorities will buy yen in the foreign-exchange market. Our explanation of currency intervention distinguishes the objectives and mechanics of those actions.",
+      "For the next meeting, the consequential information will be the decision, forecasts and guidance about the pace of adjustment. A strong statement about inflation can alter expectations, but its currency effect depends on what was already priced in and on how the US outlook changes alongside it."
+    ]
+  },
+  {
     "id": "bitcoin-rebound-etf-outflows-october-19-2026",
     "section": "Market Analysis",
     "title": "Bitcoin Rebounds Above $82,000 as Oil Retreats",
