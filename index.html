@@ -29,8 +29,8 @@
 
 <link rel="stylesheet" href="style.css?v=heading-level-20261018">
 <link rel="stylesheet" href="editorial-theme.css?v=readable-tickers-20261012">
-<script src="editorial-theme.js?v=header-icons-20261018" defer></script>
-<link rel="stylesheet" href="homepage-layout.css?v=20261012-final"><link rel="stylesheet" href="footer.css?v=header-icons-20261018"><script defer src="analytics.js?v=ga4-20261012"></script>
+<script src="editorial-theme.js?v=navigation-20261019" defer></script>
+<link rel="stylesheet" href="homepage-layout.css?v=20261012-final"><link rel="stylesheet" href="footer.css?v=navigation-20261019"><script defer src="analytics.js?v=ga4-20261012"></script>
 
 
 
@@ -49,32 +49,23 @@
 <link rel="stylesheet" href="editorial-meta.css?v=20261017-unified"><link rel="stylesheet" href="archive-pagination.css?v=20261017-unified"><link rel="stylesheet" href="header-search.css?v=header-icons-20261018"><noscript><style>.home-top-row,.home-news-row{display:none}</style></noscript>
 <link rel="stylesheet" href="editorial-related.css?v=audit-20261018">
 </head>
-<body>
+<body><a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="topnav">
   <a href="index.html" class="brand ttn-brand-clean" aria-label="TTN Finance home"><span class="ttn-brand-title"><span class="ttn-brand-ttn">TTN</span><span class="ttn-brand-finance">Finance</span></span><span class="ttn-brand-tagline">Markets. Technology. Global Economy.</span></a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a></nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  <nav class="nav-links" id="nav-links" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="analysis.html">Analysis</a><a href="tech-ai.html">Tech &amp; AI</a><a href="calculators.html">Calculators</a><a href="brokers.html">Brokers</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18"/></svg></button>
   <div class="search-box">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     <input id="search-input" type="text" placeholder="Search news…" aria-label="Search news or ticker (BTC, AAPL...)">
   </div>
 </header>
-<script>
-  document.getElementById("nav-toggle").addEventListener("click", () => {
-    document.getElementById("nav-links").classList.toggle("open");
-  });
-</script>
+
 
 <div class="tv-ticker-tape-wrap" id="ticker-strip" aria-label="Market prices and charts"></div>
 <!-- chart-panel is inserted dynamically by chart.js -->
 
-<main class="container home-layout">
+<main class="container home-layout" id="main-content" tabindex="-1">
 <h1 class="home-heading">Financial news, market analysis and technology</h1>
 <!-- editorial-nojs:start -->
 <noscript><section class="editorial-nojs" aria-labelledby="nojs-latest"><h2 id="nojs-latest">Latest original reporting</h2><p>Live quotes and the external news feed require JavaScript. TTN articles and topic archives remain available below.</p><ul><li><a href="tiktok-musk-documentary-account-suspension-2026.html">TikTok Suspends “Musk” Film Account, Adding to Documentary’s Promotion Dispute</a></li><li><a href="meta-commercial-terms-crawling-publishers-clarification-2026.html">Meta Removes Disputed Crawling Language After Publishers Raise AI Concerns</a></li><li><a href="microsoft-nscale-loughton-lease-exit-power-2026.html">Microsoft’s Reported Nscale Exit Puts Grid Access at the Center of AI Investment</a></li><li><a href="vietnam-efta-trade-agreement-signed-2026.html">Vietnam Signs EFTA Trade Deal, Opening a New Route to Four European Markets</a></li><li><a href="chip-stock-perpetuals-weekend-liquidations-2026.html">Chip-Stock Perpetuals See $52 Million in Liquidations While Wall Street Is Closed</a></li><li><a href="ai-data-center-boom-power-delivery-debt-2026.html">AI&#x27;s Data Center Boom Faces a Test of Power, Delivery and Debt</a></li><li><a href="china-solar-manufacturing-technology-export-controls-2026.html">China&#x27;s Solar Technology Export Proposal Targets Manufacturing Know-How</a></li><li><a href="circle-usdc-revenue-sharing-stablecoin-competition-2026.html">Circle Defends USDC&#x27;s Revenue Model as Stablecoin Competition Intensifies</a></li><li><a href="replit-openai-preferred-partner-claude-choice-2026.html">Replit Favors OpenAI for Agent While Keeping Claude Available</a></li><li><a href="richard-heart-turkey-detention-confirmed-2026.html">Turkey Confirms Richard Heart’s Detention and Reports $7.15 Million Cash Seizure</a></li><li><a href="okxice-stock-token-issuer-objections-2026.html">Broadcom, Verizon and CoreWeave Object to Stock Tokens on OKXICE</a></li><li><a href="ai-agents-websites-block-access-2026.html">AI Agents Hit a Wall: Websites Decide Who Gets Through</a></li></ul></section></noscript>
