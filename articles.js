@@ -8,11 +8,11 @@ const TTN_ARTICLES = [
     "tickers": [
       "AAPL"
     ],
-    "image": "assets/editorial/apple-pro-and-tell-october-28-2026-event.webp",
-    "imageAlt": "Generated editorial reconstruction of Apple Tower Theatre in Los Angeles, an existing retail store; not the announced event venue or an event photograph.",
-    "imageSmall": "assets/responsive/apple-pro-and-tell-october-28-2026-event-480.webp",
-    "imageMedium": "assets/responsive/apple-pro-and-tell-october-28-2026-event-960.webp",
-    "imageSrcset": "assets/responsive/apple-pro-and-tell-october-28-2026-event-480.webp 480w, assets/responsive/apple-pro-and-tell-october-28-2026-event-960.webp 960w, assets/editorial/apple-pro-and-tell-october-28-2026-event.webp 1920w",
+    "image": "assets/editorial/apple-pro-and-tell-october-28-2026-event-event-graphic-v2.webp",
+    "imageAlt": "Independent generated editorial graphic for Apple’s Pro and tell event, showing October 28, 2026 and Los Angeles; not an official Apple invitation.",
+    "imageSmall": "assets/responsive/apple-pro-and-tell-october-28-2026-event-event-graphic-v2-480.webp",
+    "imageMedium": "assets/responsive/apple-pro-and-tell-october-28-2026-event-event-graphic-v2-960.webp",
+    "imageSrcset": "assets/responsive/apple-pro-and-tell-october-28-2026-event-event-graphic-v2-480.webp 480w, assets/responsive/apple-pro-and-tell-october-28-2026-event-event-graphic-v2-960.webp 960w, assets/editorial/apple-pro-and-tell-october-28-2026-event-event-graphic-v2.webp 1920w",
     "sources": [
       {
         "label": "Reuters: Apple announces October 28 Los Angeles event",
@@ -29,10 +29,6 @@ const TTN_ARTICLES = [
       {
         "label": "Apple: official event information and previous announcements",
         "url": "https://www.apple.com/apple-events/"
-      },
-      {
-        "label": "Apple: documented Tower Theatre retail location used as the image reference",
-        "url": "https://www.apple.com/newsroom/2021/06/apple-tower-theatre-opens-thursday-in-downtown-los-angeles/"
       }
     ],
     "author": "TTN Research Desk",
