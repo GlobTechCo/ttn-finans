@@ -1644,6 +1644,28 @@
       "bytes": 390074,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/us-futures-rebound-ai-earnings-october-19-2026.html?card=f8f8e5495931"
+    },
+    {
+      "page": "france-stocks-slide-protests-october-19-2026.html",
+      "source": "assets/editorial/france-stocks-slide-protests-october-19-2026.webp",
+      "image": "assets/social/france-stocks-slide-protests-october-19-2026-0bdd968f7f85.webp",
+      "sha256": "0bdd968f7f859a458f0719871845fbade5e3fe66481ca1448b3e865ba7ee6bb5",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 510912,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/france-stocks-slide-protests-october-19-2026.html?card=0bdd968f7f85"
+    },
+    {
+      "page": "germany-industrial-jobs-loss-ifo-october-2026.html",
+      "source": "assets/editorial/germany-industrial-jobs-loss-ifo-october-2026.webp",
+      "image": "assets/social/germany-industrial-jobs-loss-ifo-october-2026-f5774d1c5f66.webp",
+      "sha256": "f5774d1c5f6645a43b073dec908c1538d93d1c71a48c2de49b1eb9be97e4475a",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 328858,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/germany-industrial-jobs-loss-ifo-october-2026.html?card=f5774d1c5f66"
     }
   ]
 }
