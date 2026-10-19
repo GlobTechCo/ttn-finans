@@ -23,8 +23,8 @@
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="editorial-theme.css?v=readable-tickers-20261012">
-<script src="editorial-theme.js?v=header-icons-20261018" defer></script>
-<link rel="stylesheet" href="footer.css?v=header-icons-20261018"><script defer src="analytics.js?v=ga4-20261012"></script>
+<script src="editorial-theme.js?v=navigation-20261019" defer></script>
+<link rel="stylesheet" href="footer.css?v=navigation-20261019"><script defer src="analytics.js?v=ga4-20261012"></script>
 
 
 
@@ -41,25 +41,16 @@
 <meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/social/ttn-finance-card-2e919b49760d.png">
 <meta name="twitter:image:alt" content="TTN Finance — Markets. Technology. Global Economy.">
 </head>
-<body>
+<body><a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="topnav">
   <a href="index.html" class="brand">TTN Finance</a>
-  <nav class="nav-links" id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="tech-ai.html">Tech &amp; AI</a>
-    <a href="calculators.html">Calculators</a>
-    <a href="brokers.html">Brokers</a></nav>
-  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  <nav class="nav-links" id="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="analysis.html">Analysis</a><a href="tech-ai.html">Tech &amp; AI</a><a href="calculators.html">Calculators</a><a href="brokers.html" aria-current="page">Brokers</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18"/></svg></button>
 </header>
-<script>
-  document.getElementById("nav-toggle").addEventListener("click", () => {
-    document.getElementById("nav-links").classList.toggle("open");
-  });
-</script>
 
-<div class="static-page" style="max-width:900px;">
+
+<main class="static-page" style="max-width:900px;" id="main-content" tabindex="-1">
   <h1>Brokers &amp; Exchanges</h1>
   <p style="color:var(--text-dim);font-size:14px;">
     A curated selection of platforms for trading forex, stocks, and crypto.
@@ -141,7 +132,7 @@
     risk of capital loss. Research each platform independently before
     signing up.
   </p>
-</div>
+</main>
 
 <footer class="ttn-footer"><div class="ttn-footer-inner"><div class="ttn-footer-grid">
 <div class="ttn-footer-brand"><a class="ttn-footer-wordmark" href="index.html" aria-label="TTN Finance home">TTN<span>Finance</span></a><p>Markets. Technology. Global Economy.</p><p class="ttn-footer-description">Financial news, original analysis and practical tools to help you understand the markets.</p></div>

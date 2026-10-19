@@ -21,6 +21,16 @@ def verify():
     for name,doc in docs.items():
         if name.startswith('google') and not doc.xpath('//head'):continue
         if name.startswith('google') and not doc.xpath('//title'):continue
+        # Shared navigation must remain keyboard-accessible on every public page.
+        assert len(doc.xpath('//main[@id="main-content"][@tabindex="-1"]')) == 1, (name, 'main landmark')
+        assert doc.xpath('//body/*[1][self::a][@class="skip-link"][@href="#main-content"]'), (name, 'skip link')
+        menu = doc.xpath('//header//button[@class="nav-toggle"][@type="button"][@aria-controls="nav-links"][@aria-expanded="false"]')
+        assert len(menu) == 1, (name, 'menu relationship')
+        navigation = doc.xpath('//header//nav[@id="nav-links"][@aria-label="Main navigation"]')
+        assert len(navigation) == 1 and navigation[0].xpath('.//a[contains(@href,"contact.html")]'), (name, 'contact navigation')
+        assert not any('nav-toggle' in (script.text or '') for script in doc.xpath('//script[not(@src)]')), (name, 'duplicate menu handler')
+        all_ids = doc.xpath('//@id')
+        assert len(all_ids) == len(set(all_ids)), (name, 'duplicate IDs')
         robots=' '.join(doc.xpath('//meta[@name="robots"]/@content'))
         if 'noindex' not in robots:
             assert len(doc.xpath('//h1'))==1,(name,'H1')
@@ -76,7 +86,9 @@ def verify():
         assert not any(s.split('?')[0] in {'editorial-meta.js','archive-pagination.js','articles-ui.js','tech-ai-home.js','articles-archive.js','tech-ai.js'} for s in sources),(name,'duplicate editorial component')
     assert docs['index.html'].xpath('//noscript')
     assert 'This page could not be found' in docs['404.html'].text_content()
-    assert docs['404.html'].xpath('//base/@href')==[BASE]
+    assert not docs['404.html'].xpath('//base')
+    assert docs['404.html'].xpath('//a[@class="skip-link"]/@href')==['#main-content']
+    assert all(urlparse(url).scheme == 'https' for url in docs['404.html'].xpath('//link[@rel="stylesheet"]/@href'))
     assert docs['404.html'].xpath('//meta[@name="robots"]/@content')==['noindex,follow']
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=ET.parse(ROOT/'sitemap.xml').findall('s:url',ns)
     assert all(u.find('s:lastmod',ns) is not None and u.find('s:lastmod',ns).text for u in urls)

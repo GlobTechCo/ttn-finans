@@ -54,6 +54,7 @@ python3 scripts/refresh_static_editorial.py
 python3 scripts/refresh_seo_metadata.py
 python3 scripts/verify_site.py
 node scripts/test-independent-loading.cjs
+node scripts/test-navigation.cjs
 ```
 
 Install optional verification/image dependencies with
@@ -118,3 +119,16 @@ are needed before adding its script or an `ads.txt` seller record. There is no
 placeholder publisher ID or fabricated authorization record. Editorial quality,
 site policies and accurate reporting remain separate requirements from advertising
 integration.
+
+## Shared navigation and accessibility
+
+Use the common header on new pages, including About and Contact. Keep the menu
+button linked to `nav-links` with `aria-controls` and an initial
+`aria-expanded="false"`. `editorial-theme.js` owns its disclosure behavior;
+do not add per-page menu handlers. It closes on Escape, selection, outside
+interaction and focus leaving the header, and restores button focus on Escape.
+
+Place `Skip to main content` first in the body, linking to the single
+`main` landmark with `id="main-content"` and `tabindex="-1"`. The navigation
+remains visible on small screens when JavaScript is unavailable. The 404 page
+uses absolute resource links so its skip fragment works at arbitrary missing URLs.
