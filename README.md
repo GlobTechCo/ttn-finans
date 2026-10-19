@@ -132,3 +132,22 @@ Place `Skip to main content` first in the body, linking to the single
 `main` landmark with `id="main-content"` and `tabindex="-1"`. The navigation
 remains visible on small screens when JavaScript is unavailable. The 404 page
 uses absolute resource links so its skip fragment works at arbitrary missing URLs.
+
+## Advertising locations (disabled)
+
+`scripts/ad_placements.py` keeps advertising disabled globally and for every
+placement. Publisher and slot IDs are empty. Article pages have a location after
+the body; articles of at least 600 words also have one near the midpoint, with
+at least 150 words on each side. The homepage has two locations between complete
+sections, and each original-content archive has one below its article cards.
+Policy pages, contact, tools and the 404 page have no advertising locations.
+
+Locations use native `<template>` elements. They create no visible blocks,
+reserved height, focus targets, AdSense tags or network requests. No advertising
+JavaScript or stylesheet is loaded. The existing news aggregator is untouched.
+
+Run `python3 scripts/ad_placements.py` to refresh placements. The regular
+`refresh_static_editorial.py` command also maintains them. Do not convert these
+templates into live ads until an actual publisher ID, slot IDs, consent integration,
+clear advertisement labels and responsive sizing have been configured and tested.
+Changing the disabled flag alone deliberately refuses activation.

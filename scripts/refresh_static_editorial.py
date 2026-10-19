@@ -145,5 +145,7 @@ def refresh():
             if page.stem in byid:
                 text=re.sub(r'<script\b[^>]*src="config\.js[^\"]*"[^>]*></script>\s*','',text)
         if text!=old:page.write_text(text)
+    from ad_placements import refresh_ad_placements
+    refresh_ad_placements(ROOT)
     print(f'Refreshed {len(articles)} article links, two full topic archives and homepage fallbacks.')
 if __name__=='__main__':refresh()
