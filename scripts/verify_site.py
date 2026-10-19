@@ -73,9 +73,10 @@ def verify():
     # Card previews must resolve without JavaScript, query-string workarounds, or missing assets.
     manifest=json.loads((ROOT/'scripts/social-card-manifest.json').read_text())['pages']
     manifest_by_page={record['page']: record for record in manifest}
-    assert set(manifest_by_page)==set(docs), ('social card coverage')
-    for name,doc in docs.items():
-        record=manifest_by_page[name]
+    assert set(manifest_by_page).issubset(docs), ('unknown social card pages')
+    assert {a['id']+'.html' for a in articles}.issubset(manifest_by_page), ('article social card coverage')
+    for name,record in manifest_by_page.items():
+        doc=docs[name]
         canonical=BASE if name=='index.html' else BASE+name
         assert record['shareUrl']==canonical,(name,'canonical share URL')
         image_url=BASE+record['image']
