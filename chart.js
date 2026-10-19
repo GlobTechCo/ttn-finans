@@ -116,7 +116,7 @@ const TTNChart = (() => {
       "FOREXCOM:SPXUSD": "S&P 500",
       "FOREXCOM:NSXUSD": "Nasdaq",
       "CMCMARKETS:GOLD": "Gold",
-      "FX:UKOIL": "Brent CFD · FXCM",
+      "FX:UKOIL": "Brent Oil CFD · FXCM",
       "BITSTAMP:BTCUSD": "Bitcoin",
       "BITSTAMP:ETHUSD": "Ethereum",
       "FX:EURUSD": "EUR/USD",
