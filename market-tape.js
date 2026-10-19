@@ -4,7 +4,7 @@
   function init() {
     const host = document.getElementById("ticker-strip");
     if (!host) return;
-    host.innerHTML = '<div class="ttn-ticker-label">MARKETS</div><div class="ttn-live-tape"><tv-ticker-tape symbols="BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,CMCMARKETS:GOLD,FX:EURUSD" item-size="compact" hide-chart></tv-ticker-tape></div>';
+    host.innerHTML = '<div class="ttn-ticker-label">MARKETS</div><div class="ttn-live-tape"><tv-ticker-tape symbols="BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,CMCMARKETS:GOLD,FX:UKOIL,FX:EURUSD" item-size="compact" hide-chart></tv-ticker-tape></div>';
     const widget = host.querySelector("tv-ticker-tape");
     function syncTheme() {
       widget.setAttribute("theme", document.documentElement.dataset.theme === "dark" ? "dark" : "light");

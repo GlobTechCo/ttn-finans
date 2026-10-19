@@ -90,7 +90,10 @@ flag, not proof of backdating or authorization to invent a new publication date.
 ## Data and failure behavior
 
 The visible quote tape is a TradingView widget using Bitstamp BTC/USD and ETH/USD,
-FOREX.com S&P 500 and Nasdaq-100 instruments, CMC Markets Gold and FXCM EUR/USD.
+FOREX.com S&P 500 and Nasdaq-100 instruments, CMC Markets Gold, FXCM Brent
+(`FX:UKOIL`) and FXCM EUR/USD. UKOIL is an FXCM CFD based on Brent oil futures,
+not a direct ICE exchange quote; its chart panel identifies the instrument and
+provider. It was verified in TradingView's Ticker Tape configurator before use.
 The FOREX.com instruments are broker quotes, not the official cash-index feeds.
 Closed markets can show the latest available price. The widget does not expose a
 quote API to the site's JavaScript. The former Market Snapshot is removed.
