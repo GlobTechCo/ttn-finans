@@ -36,7 +36,6 @@ def refresh():
     byid={a['id']:a for a in articles}
     tech_source=(ROOT/'tech-ai.js').read_text().split('new Set([',1)[1].split(']);',1)[0]
     tech=set(re.findall(r'"([a-z0-9-]+)"',tech_source))
-    tech.update(a["id"] for a in articles if a.get("section") == "Tech & AI")
     def dates(article):
         value=datetime.datetime.fromisoformat(article['date'])
         if value.tzinfo is None:value=value.replace(tzinfo=datetime.timezone.utc)

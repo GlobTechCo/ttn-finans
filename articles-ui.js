@@ -72,7 +72,7 @@ const TTNArticlesUI = (() => {
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
-    const sorted = TTN_ARTICLES.filter(a => a.section !== "Tech & AI" && !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sorted = TTN_ARTICLES.filter(a => !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
     el.classList.add('editorial-archive-grid');
     el.innerHTML = shown.map(a => TTNArchive.card(a, 'Market Analysis', tickerChipsHtml(a), {home:true})).join('');

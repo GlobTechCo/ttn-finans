@@ -37,7 +37,7 @@ const techIds=new Set([
     "ai-chips-bottlenecks-2026",
     "small-business-ai-adoption-2026",
 ]);
-const all=TTN_ARTICLES.filter(a=>a.section === "Tech & AI" || techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
+const all=TTN_ARTICLES.filter(a=>techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
 const selected=all.slice(0,4);
 el.classList.add('editorial-archive-grid');
 el.innerHTML=selected.map(a=>TTNArchive.card(a, 'Tech & AI', '', {home:true})).join("")||'<p class="tech-ai-intro">Technology reporting is coming to TTN.</p>';
