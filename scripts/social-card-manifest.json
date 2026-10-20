@@ -188,6 +188,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/ai-search-publisher-economics-2026.html"
     },
     {
+      "page": "ai-stocks-oil-110-premarket-october-20-2026.html",
+      "source": "assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp",
+      "image": "assets/social/ai-stocks-oil-110-premarket-october-20-2026-v1-85ddecd162b1.webp",
+      "sha256": "85ddecd162b12bb20acab09b83ad80b4d3e406df1d14d3fb052f7718a8d735b8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 427076,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ai-stocks-oil-110-premarket-october-20-2026.html"
+    },
+    {
       "page": "amazon-torchneuron-pytorch-trainium-2026.html",
       "source": "assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp",
       "image": "assets/social/amazon-torchneuron-pytorch-trainium-2026-921b491a4289.webp",
@@ -1198,6 +1209,17 @@
       "bytes": 246206,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/nonfarm-payrolls-jobs-report-explained.html"
+    },
+    {
+      "page": "nvidia-china-workstation-gpu-orders-october-20-2026.html",
+      "source": "assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-v1.webp",
+      "image": "assets/social/nvidia-china-workstation-gpu-orders-october-20-2026-v1-b6dc2c59e76a.webp",
+      "sha256": "b6dc2c59e76aa8b09ece47592a129dea5c4b31cdd5b5e3cc35ca22bb97d9374b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 347606,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/nvidia-china-workstation-gpu-orders-october-20-2026.html"
     },
     {
       "page": "ny-fed-services-prices-october-2026.html",
