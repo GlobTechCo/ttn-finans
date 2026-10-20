@@ -1,116 +1,462 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
-{"id":"eka-robotics-series-a-tactile-ai-october-20-2026","section":"Tech & AI","title":"Robot Startup Eka Raises $150 Million to Give Machines a Sense of Touch","dek":"Eka Robotics raised $150 million at a $1.45 billion valuation as investors back robots that combine vision with force feedback.","tickers":[],"sources":[{"label":"TechCrunch: Series A financing and valuation","url":"https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"},{"label":"Andreessen Horowitz: investment announcement and technical approach","url":"https://a16z.com/announcement/investing-in-eka-robotics/"},{"label":"Eka Robotics: official description of its Vision-Force-Action model","url":"https://ekarobotics.com/"}],"date":"2026-10-20T16:06:01+00:00","dateModified":"2026-10-20T16:06:01+00:00","author":"TTN Research Desk","image":"assets/editorial/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1.webp","imageSmall":"assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-480.webp","imageMedium":"assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-960.webp","imageAlt":"Generated editorial reconstruction based on Eka Robotics equipment references, showing a force-sensitive robot gripper handling an industrial connector in a laboratory.","imageSrcset":"assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-480.webp 480w, assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-960.webp 960w, assets/editorial/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1.webp 1672w","editorialNote":null,"body":[
-  "Eka Robotics raised $150 million in Series A financing at a $1.45 billion valuation, TechCrunch reported Tuesday. The funding backs a practical ambition: helping robots handle objects reliably when looking at them is not enough.",
-  "The company describes its technology as a Vision-Force-Action model. It combines what a robot sees with information from physical contact, allowing its actions to respond to resistance or a changing grip. Andreessen Horowitz confirmed that it is leading the Series A and outlined the approach in an investment announcement.",
-  "Why contact matters on a factory floor",
-  "A camera can locate a component, but fitting two parts together requires more information. Resistance can mean that a connector is misaligned, rather than that the robot needs to push harder. A system that responds to that feedback could adjust its movement before damaging the part.",
-  "That distinction matters commercially because manufacturers buy dependable output. An impressive demonstration has limited value if a machine frequently stops, rejects usable parts or requires an engineer whenever the product changes. The potential saving comes from reliable operation across the variations that ordinary production creates.",
-  "Simulation is a training ground, not proof of deployment",
-  "According to a16z, Eka trains manipulation policies through reinforcement learning in physics simulation. The approach lets virtual robots practice variations and recover from failures before the learned behavior is transferred to equipment. The investor also identifies sustained performance through full production shifts as a further test.",
-  "The distinction between a laboratory result and a working production installation is central to evaluating physical AI. Buyers need to know how often a system succeeds, how quickly it recovers from an error and <a href=\"robotics-ai-factory-roi-2026.html\">how much integration and maintenance it needs</a>. Those costs can outweigh a headline improvement in speed.",
-  "What the financing establishes",
-  "The valuation is the price assigned in a private funding transaction. It does not measure customer revenue or establish that the technology is already economical across industries. The funding gives Eka resources to develop its approach; commercial results will depend on the installations that follow.",
-  "For readers following industrial automation, the useful next evidence will be customer deployments with clear operating conditions, measured uptime and total cost. Claims about general-purpose capability should be judged against those results rather than treated as a replacement for them."
-]},{"id":"reliable-robotics-financing-autonomous-flight-october-20-2026","section":"Tech & AI","title":"Autonomous Flight Developer Reliable Robotics Secures $115 Million","dek":"Reliable Robotics secured $115 million, including a $25 million loan, to expand aircraft automation while pursuing FAA certification.","tickers":[],"sources":[{"label":"Reliable Robotics via Business Wire: financing, uses of capital and certification progress","url":"https://www.businesswire.com/news/home/20261020103258/en/Reliable-Robotics-Secures-%24115M-in-New-Capital"},{"label":"TechCrunch: equity and debt breakdown and interview with the chief executive","url":"https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/"},{"label":"Citybiz: independent coverage of the financing extension","url":"https://www.citybiz.co/article/921473/reliable-robotics-raises-115-million-reaching-1-billion-valuation/"}],"date":"2026-10-20T16:06:02+00:00","dateModified":"2026-10-20T16:06:02+00:00","author":"TTN Research Desk","image":"assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp","imageSmall":"assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp","imageMedium":"assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp","imageAlt":"Generated editorial reconstruction of Reliable Robotics’ documented Cessna Caravan aircraft, parked on an illustrative airport apron; not a photograph of the financing announcement.","imageSrcset":"assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp 480w, assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp 960w, assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp 1672w","editorialNote":null,"body":[
-  "Reliable Robotics secured $115 million in additional financing to expand its aircraft automation business, taking its valuation above $1 billion. The company said Tuesday that the money increases its Series D financing to $275 million and will support aircraft, production facilities and engineering recruitment.",
-  "The new financing includes a $25 million term loan from Silicon Valley Bank. TechCrunch reported that the remaining $90 million is equity funding. The distinction matters: the headline total combines capital raised from investors with <a href=\"corporate-bonds-explained.html\">money the company borrows</a>.",
-  "Automation for existing aircraft",
-  "Reliable is developing the Reliable Autonomy System for automated aircraft operations, including taxiing, takeoff and landing. Its commercial FAA certification work is focused on the Cessna 208B Grand Caravan, according to the company’s announcement.",
-  "Using an existing aircraft concentrates the project on integrating and approving the automation rather than creating a new airframe. That can give operators a more familiar starting point, but the safety case still has to demonstrate that the system behaves reliably across the conditions for which approval is sought.",
-  "Funding and certification are different milestones",
-  "Reliable said the FAA has accepted its certification plan and means of compliance for continuous autopilot engagement. The announcement describes progress in the certification process; it does not say that the full commercial autonomous system has received final FAA approval.",
-  "For an aviation business, that difference affects both timing and economics. Engineering work, testing and production preparation can consume capital before broad commercial deployment produces revenue. A financing extension supports that work, while the regulator’s decisions determine which operations can proceed under the relevant approvals.",
-  "What investors and operators need next",
-  "The company’s valuation crossing $1 billion is a financing milestone, not a measure of aircraft utilization or operating profit. The more consequential commercial evidence will be approved capabilities, implementation costs and an operating record showing how the equipment performs in service.",
-  "Debt also changes the financing picture. A loan can add resources without the same immediate ownership dilution as new equity, but it creates repayment obligations. The announcement does not disclose enough loan terms to calculate the company’s debt-service burden or cash runway."
-]},{"id":"inspired-capital-fourth-fund-450-million-october-20-2026","section":"Market Analysis","title":"Venture Investor Inspired Capital Closes $450 Million Fourth Fund","dek":"Inspired Capital’s new $450 million fund adds early-stage investment capacity across technology, health care and industrial businesses.","tickers":[],"sources":[{"label":"Inspired Capital: official Fund IV announcement","url":"https://www.inspiredcapital.com/insights/announcing-inspired-fund-iv"},{"label":"Inspired Capital: investment approach and portfolio","url":"https://www.inspiredcapital.com/"},{"label":"Inc.: fund closing, founders and investment sectors","url":"https://www.inc.com/moses-jeanfrancois/alexa-von-tobel-inspired-capital-backed-10-unicorns-new-450-million-fund/91422018"},{"label":"TechCrunch: October 20 report on the fourth fund","url":"https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/"}],"date":"2026-10-20T16:06:03+00:00","dateModified":"2026-10-20T16:06:03+00:00","author":"TTN Research Desk","image":"assets/editorial/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1.webp","imageSmall":"assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-480.webp","imageMedium":"assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-960.webp","imageAlt":"Generated editorial portrait collage based on official photographs of Inspired Capital cofounders Alexa von Tobel and Penny Pritzker, with the fund’s $450 million size; not an event photograph.","imageSrcset":"assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-480.webp 480w, assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-960.webp 960w, assets/editorial/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1.webp 1672w","editorialNote":null,"body":[
-  "Inspired Capital announced a $450 million fourth fund on Tuesday, adding capital for investments in young businesses. The New York venture firm, founded by Alexa von Tobel and Penny Pritzker, invests across areas including AI, health care, financial technology, defense and robotics.",
-  "The firm’s official announcement says Fund IV will back early-stage founders. Its website describes a concentrated investment approach, making fewer than 10 investments a year and committing support to each company alongside the money.",
-  "A fund closing is a commitment to future investing",
-  "The $450 million figure describes the fund’s size. It is not revenue earned by the manager, a valuation of Inspired Capital or a single investment into one startup. Those distinctions matter when comparing a venture-fund announcement with the financing rounds of operating companies.",
-  "Venture funds typically invest over time, building a portfolio rather than immediately transferring the entire headline amount to businesses. The eventual outcome depends on which companies receive capital, the ownership purchased at each price and the cash returned when investments are realized.",
-  "The portfolio figures need context",
-  "In its announcement, Inspired says 10 portfolio companies have reached billion-dollar valuations. It also says 10 have passed $100 million in revenue, including four above $400 million. These are the firm’s own descriptions of its portfolio, rather than independently audited fund-performance figures.",
-  "An operating company can grow substantially while an investment still produces a disappointing return if its entry price was too high or its ownership was diluted. Likewise, a private valuation can change before an acquisition, <a href=\"ipo-process-explained.html\">public offering</a> or share sale turns it into cash. Portfolio milestones therefore answer a different question from realized returns to fund investors.",
-  "What the new capital means for founders",
-  "For businesses seeking an early institutional investor, another fund closing creates potential financing capacity. It does not establish that every sector is seeing easier fundraising or that investors have relaxed their standards. A concentrated strategy means the manager can raise substantial capital while remaining selective about individual companies.",
-  "The useful follow-up is where Fund IV actually invests and on what terms. Subsequent financings and exits will provide more information about the strategy than the fund’s headline size alone."
-]},
-{"id":"salesforce-braze-acquisition-october-20-2026","section":"Tech & AI","title":"Salesforce Agrees to Buy Marketing Software Firm Braze for $5.66 Billion","dek":"Salesforce’s planned Braze acquisition adds real-time customer messaging and AI marketing tools, with approvals still required.","tickers":["CRM","BRZE"],"sources":[{"label":"Salesforce announcement via Business Wire: agreement and conditions","url":"https://marketchameleon.com/PressReleases/i/2395196/CRM/salesforce-signs-definitive-agreement-to-acquire-braze"},{"label":"The Wall Street Journal: purchase premium and transaction value","url":"https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe"},{"label":"Reuters: October 20 transaction report","url":"https://www.reuters.com/business/salesforce-acquire-braze-566-billion-deal-2026-10-20/"}],"date":"2026-10-20T13:12:06+00:00","dateModified":"2026-10-20T13:12:06+00:00","author":"TTN Research Desk","image":"assets/editorial/salesforce-braze-acquisition-october-20-2026-braze-office-v3.webp","imageSmall":"assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-480.webp","imageMedium":"assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-960.webp","imageAlt":"Generated editorial reconstruction of the documented Braze office at 63 Madison in New York, showing its golden script wall mural; not a photograph of the acquisition announcement.","imageSrcset":"assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-480.webp 480w, assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-960.webp 960w, assets/editorial/salesforce-braze-acquisition-october-20-2026-braze-office-v3.webp 1672w","editorialNote":null,"body":[
-  "Salesforce has agreed to acquire Braze, a company that helps businesses personalize customer messages, in a transaction valued at approximately $5.66 billion including debt. The deal would give the enterprise software provider a larger role in marketing that responds immediately to what consumers do in apps and online.",
-  "Braze Class A shareholders would receive $47.50 in cash per share. The Wall Street Journal calculates that as a roughly 58% premium to Monday’s $30.04 closing price. The offer is substantial, but shareholders are being offered a <a href=\"merger-arbitrage-deal-spread-explained.html\">conditional payment</a> rather than cash available immediately.",
-  "What Salesforce is buying",
-  "Braze connects customer activity with communications across channels such as email, mobile apps and text messages. Its AI tools help choose content, offers and timing. Salesforce says those capabilities would complement its existing marketing, customer-data and AI products.",
-  "The commercial logic is straightforward: a retailer benefits when a message reflects a customer’s latest action rather than an outdated profile. Combining the software that stores customer information with the software that acts on it could reduce delays between an event and a relevant response. That is an operating opportunity, not evidence that the acquisition will automatically produce higher returns.",
-  "The price and the approvals matter",
-  "The companies expect completion in Salesforce’s fiscal 2028, subject to shareholder and regulatory approvals and other customary conditions. Salesforce says its fiscal 2027 guidance is unchanged. A fiscal-year label should not be mistaken for an immediate closing date, and the agreement remains distinct from a completed acquisition.",
-  "For investors, <a href=\"mergers-acquisitions-explained.html\">enterprise value</a> and the payment for each share answer different questions. The former describes the overall transaction valuation, including debt; the latter specifies what an eligible shareholder would receive if the deal closes. Comparing the headline value directly with a company’s equity market capitalization can therefore mislead.",
-  "Execution will decide the return",
-  "The acquisition’s value will depend on how well the products work together, whether customers stay and how much additional business the combined offering generates. Integration can also require spending on engineering, sales and support before any benefit appears. Buyers of marketing software will want clarity about product availability, contracts and the ability to keep using other tools.",
-  "The agreement is a meaningful expansion of Salesforce’s marketing offering. The next useful evidence will be the shareholder materials, approval process and integration plans. Promises of more effective AI marketing should be judged against customer outcomes and costs as those details emerge."
-]},{"id":"us-housing-starts-september-2026-decline","section":"Market Analysis","title":"US Housing Starts Fall 5.2% as Single-Family Permits Weaken","dek":"September housing starts declined in the preliminary US estimate, while weaker single-family permits point to a softer construction pipeline.","tickers":[],"sources":[{"label":"Census Bureau and HUD: September 2026 construction report and statistical notes","url":"https://www.census.gov/construction/nrc/pdf/newresconst.pdf"},{"label":"Census Bureau: official release schedule","url":"https://www.census.gov/construction/soc/schedule.html"},{"label":"Reuters: single-family construction and demand context","url":"https://www.reuters.com/world/us/us-single-family-housing-starts-building-permits-tumble-september-2026-10-20/"}],"date":"2026-10-20T13:07:16+00:00","dateModified":"2026-10-20T13:07:16+00:00","author":"TTN Research Desk","image":"assets/editorial/us-housing-starts-september-2026-decline-cover-v1.webp","imageSmall":"assets/responsive/us-housing-starts-september-2026-decline-cover-v1-480.webp","imageMedium":"assets/responsive/us-housing-starts-september-2026-decline-cover-v1-960.webp","imageAlt":"Generated editorial illustration of detached wood-frame homes under construction at a generic American suburban building site; not a photograph of the reported data.","imageSrcset":"assets/responsive/us-housing-starts-september-2026-decline-cover-v1-480.webp 480w, assets/responsive/us-housing-starts-september-2026-decline-cover-v1-960.webp 960w, assets/editorial/us-housing-starts-september-2026-decline-cover-v1.webp 1672w","editorialNote":null,"body":[
-  "U.S. housing starts fell 5.2% in September to a seasonally adjusted annual rate of 1.221 million units, according to the preliminary Census Bureau and HUD report released Tuesday. Permits for single-family homes also declined, adding a forward-looking sign of caution to the weaker construction estimate.",
-  "The headline needs a statistical qualification. The reported monthly fall in total starts has a 90% confidence interval of plus or minus 11.8 percentage points. Because that range includes zero, the survey does not establish that the actual monthly change was a decline. The point estimate is weaker; its precision is limited.",
-  "Permits show a softer single-family pipeline",
-  "Single-family permits fell 4.0% to an annualized 845,000 units. Total permits were nearly flat, down 0.2% at 1.4 million. The difference matters: the broad authorization figure can obscure changes in the part of the market most directly associated with detached homes.",
-  "<a href=\"housing-starts-builder-confidence-explained.html\">A permit is permission to build</a>, while a start records construction getting underway. Neither is a completed home sale. Reading them together helps separate the pipeline of potential projects from work already beginning, but it does not establish that every authorized project will proceed.",
-  "Borrowing costs constrain the buyer",
-  "Reuters linked the weakness in single-family construction to higher mortgage rates and subdued demand. Its report also described an inventory overhang that reduces developers’ incentive to begin new projects. Those pressures help explain why a need for more housing can coexist with weak near-term building activity.",
-  "For a household, the binding constraint can be the monthly payment rather than the desire to buy. Higher financing costs reduce the price a buyer can support on the same income. For a builder, selling a home through incentives may preserve volume while reducing the return on that sale. The effect on a particular business depends on its costs, land holdings and local market.",
-  "One report cannot settle the trend",
-  "These preliminary estimates can be revised. Annualized rates express an adjusted pace, rather than a count of homes physically started during September.",
-  "Permits deserve attention alongside the volatile starts estimate. A sustained weakening in authorizations would be more consequential for future activity than one uncertain monthly change. Subsequent releases and builders’ orders will help show whether the softer pipeline persists."
-]},{"id":"nvidia-china-workstation-gpu-orders-october-20-2026","section":"Tech & AI","title":"China’s Tech Giants Reportedly Order $35 Billion in Nvidia Cards","dek":"ByteDance, Alibaba and Tencent are seeking workstation GPUs. Reported orders show demand for AI capacity, but deliveries and revenue remain uncertain.","tickers":["NVDA","BABA"],"imageAlt":"AI-generated editorial illustration of technicians assembling GPU-equipped corporate computing systems at an industrial facility; not a photograph of Nvidia products, a named factory or reported deliveries","body":[
-  "<p>ByteDance, Alibaba and Tencent have ordered more than three million Nvidia RTX PRO 5500 graphics cards with a combined sticker value above $35 billion, Reuters reported Tuesday, citing people familiar with the matter. Nvidia cannot guarantee fulfillment, the report said. The buyers did not respond to requests for comment.</p>",
-  "<p>The scale is striking, but the distinction between an order and a sale matters. A request for scarce computing equipment becomes revenue only after the relevant delivery and accounting conditions are met. Investors should avoid treating the reported total as a new addition to Nvidia’s recognized sales.</p>",
-  "<h2>A workstation card with an AI role</h2>",
-  "<p>Nvidia’s official product page describes the RTX PRO 5500 as a Blackwell workstation GPU with 84 gigabytes of GDDR7 memory. Its intended uses include running trained language models, graphics, simulation and scientific computing. The published specifications are preliminary and subject to change.</p>",
-  "<p>Running a trained model is called <a href=\"ai-inference-unit-economics-2026.html\">inference</a>: it is the work performed when a service produces an answer or processes a customer request. It differs from training a model. The same buyer can therefore need different hardware for different parts of its AI operation, rather than a single interchangeable pool of chips.</p>",
-  "<h2>A filing shows the delivery risk</h2>",
-  "<p>A separate October 13 disclosure by Tansun Technology records a contract for 20,000 RTX PRO 5500 cards. It warns about supply constraints, overseas technology controls and possible delays or quantities below expectations. That older filing supports the existence of procurement activity; it does not independently establish the three companies’ newly reported orders.</p>",
-  "<p>For customers, the practical question is how much usable capacity arrives, when it arrives and what each completed task costs. <a href=\"ai-chips-bottlenecks-2026.html\">Memory capacity, cooling, software compatibility and utilization</a> all affect the answer. A purchase headline alone cannot establish the economics of the applications that will run on the equipment.</p>",
-  "<h2>What the headline can and cannot tell investors</h2>",
-  "<p>The report points to persistent demand for Nvidia products in China under trade restrictions. It is not a company-confirmed revenue forecast. Order conversion, delivery schedules and margins will be more informative than the largest possible purchase value.</p>"
-],"sources":[{"label":"Reuters: October 20 report on the three companies’ orders","url":"https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"},{"label":"Nvidia: RTX PRO 5500 product specifications","url":"https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5500/"},{"label":"Tansun Technology: October 13 procurement disclosure","url":"https://static.cninfo.com.cn/finalpage/2026-10-13/1225602580.PDF"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:26:51+00:00","image":"assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp","imageSmall":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp","imageMedium":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp","imageSrcset":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp 480w, assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp 960w, assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp 1672w"},{"id":"ai-stocks-oil-110-premarket-october-20-2026","section":"Market Analysis","title":"AI Stocks Slip Again as $110 Oil Tests the Rebound","dek":"Tuesday’s European and U.S. premarket trading challenged Monday’s technology recovery as expensive oil added another risk to the earnings outlook.","tickers":["CRWV","ASML"],"imageAlt":"AI-generated editorial illustration of a crude oil tanker near a terminal; not a photograph of a reported attack or a named location","body":[
-  "<p>Technology shares came under renewed pressure Tuesday morning while Brent crude traded above $110 a barrel, putting Monday’s recovery to an early test. The Wall Street Journal reported Nasdaq futures down 0.3% and CoreWeave down 2.9% in premarket trading. S&amp;P 500 futures were flat and Dow futures edged higher.</p>",
-  "<p>Those are indications before the U.S. cash-market open, not Tuesday’s closing results. The difference is especially important after a sharp rebound: overnight futures can signal caution without determining how the full session will finish.</p>",
-  "<h2>Europe adds a new warning</h2>",
-  "<p>In European trading, the STOXX 600 fell 0.6%, while chip-equipment makers ASML and ASMI lost more than 3%, according to Reuters. That extended the pressure beyond a single American stock and made the morning reversal a broader market development.</p>",
-  "<p>Barron’s also highlighted weakness in South Korea, where the KOSPI fell 3.7% and AI infrastructure company Elice dropped sharply on its trading debut. The listing had started earlier in the day; Tuesday’s European and U.S. premarket weakness is the new focus here.</p>",
-  "<h2>Oil complicates the earnings calculation</h2>",
-  "<p><a href=\"oil-shock-market-ripple.html\">More expensive energy</a> can reach company accounts through transport, materials and operating expenses. Whether profits suffer depends on fuel hedges, pricing power and how much of the increase companies can pass to customers. Energy producers and fuel-intensive businesses need not respond in the same way.</p>",
-  "<p>For AI infrastructure, there is a separate test: the return on new capacity must justify the cost of equipment, power and financing. A higher oil price does not mechanically set every data center’s electricity bill, but it adds another source of uncertainty to the wider inflation and interest-rate outlook.</p>",
-  "<h2>A rebound needs more than a positive session</h2>",
-  "<p><a href=\"wall-street-close-october-19-2026-ai-rebound.html\">Monday’s advance</a> showed buyers returning. Tuesday morning’s retreat shows that confidence remains conditional. Neither move, on its own, establishes whether the sector’s investment plans will produce attractive cash returns.</p>",
-  "<p>The useful checks are the breadth of the move, companies’ explanations of costs and demand, and evidence that new spending is generating cash.</p>"
-],"sources":[{"label":"The Wall Street Journal: Tuesday’s AI selloff and oil above $110","url":"https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70"},{"label":"Barron’s: October 20 premarket technology reversal","url":"https://www.barrons.com/livecoverage/stock-market-news-today-102026/card/the-tech-stock-rebound-is-toast-already-qqPVhoBxdjyBwVHjs8Sh"},{"label":"Reuters: European market and chip-equipment moves","url":"https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:14:13+00:00","image":"assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp","imageSmall":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp","imageMedium":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp","imageSrcset":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp 480w, assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp 960w, assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp 1672w"},{"id":"3m-amazon-data-center-supply-deal-2026","section":"Market Analysis","title":"3M's Amazon Deal Puts Optical Materials in the AI Supply Chain","dek":"3M links Amazon’s data-center purchases to potential share ownership, expanding its role in the AI supply chain.","tickers":["MMM"],"image":"assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of 3M signage beside an Amazon-branded data center; not a photograph of an actual site or the agreement","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/retail-consumer/3m-expands-amazon-data-center-partnership-shares-gain-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":[
-  "<p>Industrial materials producer 3M has expanded its relationship with Amazon, granting an Amazon subsidiary warrants to buy up to 3.16 million 3M shares. The arrangement, announced October 19, links much of the potential equity stake to purchases of optical connectivity and other products for data centers.</p>\n",
-  "<p>The deal draws attention to a less visible segment of the <a href=\"ai-boom-capital-financing-2026.html\">AI infrastructure economy</a>. Chips, servers and electricity dominate discussions of investment, but optical materials and connections are also needed to move information through large computing facilities.</p>\n",
-  "<h2>What the warrants actually mean</h2>",
-  "<p>Under the arrangement, Amazon has the right, but not the obligation, to acquire shares at an exercise price of $164.89 over a seven-year period. According to Reuters, roughly 85% of the warrant shares are tied to purchase milestones that reach $6 billion in cumulative spending. These are potential future purchases, not revenue already recorded by 3M.</p>\n",
-  "<p>At the stated exercise price, buying all 3.16 million shares would cost roughly $521 million. That share-purchase amount is distinct from the $6 billion procurement milestone. Vesting provisions determine which rights Amazon earns, while market conditions determine whether exercising them becomes attractive.</p>\n",
-  "<h2>Why data center connectivity matters</h2>",
-  "<p>AI computing facilities require fast and dependable links among processors, storage systems and network switches. Growing capacity can create demand for components beyond graphics processors. For a diversified manufacturer such as 3M, specialized products for computing infrastructure represent a potential source of incremental sales.</p>\n",
-  "<p>For Amazon, an equity-linked supplier agreement can create longer-term alignment without establishing a fixed delivery schedule for every component. The business impact depends on actual procurement volumes, margins, competition and the reliability of the underlying technology.</p>\n",
-  "<h2>What investors should monitor</h2>",
-  "<p>Reuters reported that 3M stock rose more than 5% in extended trading after the announcement. That reaction illustrates enthusiasm for businesses exposed to AI expansion, but it does not measure the contract's eventual profits.</p>\n",
-  "<p>Investors will need to follow reported data-center-related sales, capital requirements and the pace at which warrant milestones are reached. A large headline commitment is meaningful only to the extent that purchases are completed and 3M converts them into profitable operating income.</p>\n",
-  "<p>Suppliers can benefit from construction spending, but sustainable returns depend on what customers ultimately earn from the capacity they build.</p>"
-],"imageSmall":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp 480w, assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp 960w, assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp 1672w"},{"id":"eric-schmidt-anthropic-stake-2026","section":"Tech & AI","title":"Eric Schmidt Reportedly Holds 1% of Anthropic as IPO Plans Draw Attention","dek":"A reported early investment by Google's former CEO highlights the value and uncertainty surrounding private AI companies ahead of possible public listings.","tickers":["GOOGL"],"image":"assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of a seated man with Anthropic signage; not a documentary photograph of Eric Schmidt","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/former-google-ceo-schmidt-owns-1-stake-anthropic-bloomberg-reports-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":[
-  "<p>Eric Schmidt, the former chief executive of Google, reportedly owns about 1% of Anthropic, the developer of Claude. Bloomberg's October 19 report, carried by Reuters, describes an early investment that could become extremely valuable if the AI company proceeds with plans to list its shares.</p>\n",
-  "<p>Schmidt reportedly committed tens of millions of dollars in an early financing round. Whether he has sold any part of the position since then is unclear. The reported holding is therefore not the same as a confirmed, currently liquid fortune.</p>\n",
-  "<h2>How a 1% stake could be valued</h2>",
-  "<p>At a hypothetical $1.5 trillion company valuation, a one-percent position would be worth $15 billion on paper. That arithmetic is useful for understanding the scale of private-market expectations, but it is not an independently verified estimate of what Schmidt could sell or receive.</p>\n",
-  "<p>The outcome would depend on Anthropic's eventual share count, offering price, trading performance, lockup arrangements and any transactions by existing investors. A contemplated valuation is not the price of a completed IPO.</p>\n",
-  "<h2>Why Anthropic attracts investors</h2>",
-  "<p>Anthropic sells access to Claude models through subscriptions, developer services and enterprise products. Scaling those services requires substantial spending on computing capacity, including partnerships with established cloud providers.</p>\n",
-  "<p>That combination creates the central tension in the investment case: rapidly growing demand for AI services can expand revenue, but the cost of training models and serving customer requests also remains material. The <a href=\"ai-inference-unit-economics-2026.html\">economics of serving AI requests</a> help explain why usage growth does not automatically translate into attractive margins.</p>\n",
-  "<h2>What an IPO could reveal</h2>",
-  "<p>A public listing could give investors more standardized financial disclosures, including revenue composition, operating losses, cash flow and infrastructure commitments. Investors should assess the available prospectus and subsequent disclosures rather than treating a reported ownership percentage as a complete investment case.</p>\n",
-  "<p>For investors assessing any eventual share offering, company valuation should be considered alongside the durability of customer demand, pricing power and the pace of investment. Returns earned by early backers do not indicate what later public shareholders will earn.</p>\n",
-  "<p>The reported Schmidt investment is a window into the extraordinary expectations surrounding the AI sector, not proof of an imminent listing or an assured windfall.</p>"
-],"imageSmall":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp 480w, assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp 960w, assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp 1672w"},
+  {
+    "id": "meta-muse-ten-million-us-downloads-october-20-2026",
+    "section": "Tech & AI",
+    "title": "Meta’s Muse Passes 10 Million U.S. Downloads in Its First 40 Days",
+    "dek": "Sensor Tower estimates reported Tuesday put Muse at 10.2 million U.S. downloads, raising the question of lasting engagement.",
+    "tickers": [
+      "META"
+    ],
+    "sources": [
+      {
+        "label": "TechCrunch: Sensor Tower estimates reported October 20 at 10:12 a.m. Pacific",
+        "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
+      }
+    ],
+    "imageAlt": "Generated conceptual editorial illustration of a person using a generic AI-assistant interface on a smartphone at a kitchen table; not an image of the Muse app.",
+    "body": [
+      "Meta’s Muse reached an estimated 10.2 million U.S. downloads during its first 40 days, TechCrunch reported Tuesday, citing Sensor Tower. The new figures give investors a measure of early distribution for the company’s consumer AI push.",
+      "The report also put Muse at 2.5 million daily active users on October 16. Sensor Tower estimated that 23% of U.S. users returned after 14 days. These are third-party estimates reported by TechCrunch, rather than financial results or an audited disclosure from Meta.",
+      "Downloads and repeat use answer different questions",
+      "An installation shows that someone tried an app. It does not establish that the person continued using it, paid for it or moved spending away from another service. Daily activity and retention help address those separate questions, but each measure covers a different period and population.",
+      "Dividing the daily-user estimate by cumulative downloads would therefore produce a misleading retention calculation. A proper comparison needs a defined group of new users and a consistent interval after installation.",
+      "For AI assistants, repeated use also needs to become economically useful use. Completing a task can require computing resources and, depending on the service, outside tools or human oversight. As with <a href=\"ai-agents-enterprise-roi-2026.html\">the economics of deploying AI agents at work</a>, activity alone cannot establish a return.",
+      "What investors still need to see",
+      "The commercial test is whether a consumer assistant becomes a habit that supports a durable business. That could involve paid features, transactions or other forms of monetization, but the download figures do not establish any particular outcome.",
+      "A meaningful assessment would pair sustained engagement with revenue and the cost of serving those users. Strong distribution could lower the difficulty of introducing a new product, while leaving that second part of the business model unresolved.",
+      "The latest estimates strengthen the case that Muse has attracted an audience. Whether that audience becomes a profitable business will require evidence beyond the launch-period download count."
+    ],
+    "image": "assets/editorial/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1.png",
+    "imageSrcset": "assets/editorial/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1.png 1672w",
+    "date": "2026-10-20T17:54:29.504Z",
+    "dateModified": "2026-10-20T17:54:29.504Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "nacha-same-day-ach-growth-third-quarter-2026",
+    "section": "Market Analysis",
+    "title": "Same-Day ACH Payments Jump 36.7% as Businesses Move Money Faster",
+    "dek": "Nacha reported 470.4 million same-day ACH payments in the third quarter, while business-to-business transfers continued to grow.",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Nacha: third-quarter 2026 ACH Network results",
+        "url": "https://www.nacha.org/news/same-day-ach-growth-propels-ach-network-forward-third-quarter-2026"
+      },
+      {
+        "label": "Nacha announcement distributed by Business Wire",
+        "url": "https://www.businesswire.com/news/home/20261020382751/en/Same-Day-ACH-Growth-Propels-the-ACH-Network-Forward-in-Third-Quarter-of-2026"
+      }
+    ],
+    "imageAlt": "Generated editorial illustration of an employee checking supplier invoices beside a same-day bank-transfer confirmation in a distribution-company office.",
+    "body": [
+      "Nacha reported Tuesday that Same Day ACH handled 470.4 million payments in the third quarter of 2026, up 36.7% from a year earlier. Their value reached $1.3 trillion, compared with $970.4 billion in the same quarter last year.",
+      "The figures show faster transfers gaining ground within an established payments network. Across all ACH payments, transaction count rose 5.9% to 9.3 billion, while their combined value increased 10.2% to $25.6 trillion.",
+      "Faster transfers outpace the wider network",
+      "The contrast is the central finding: same-day transaction growth substantially exceeded the network-wide increase. The two categories should not be added together, because same-day transfers are part of the ACH total.",
+      "For a business, a shorter payment cycle can reduce the time between authorizing a transfer and settling an obligation. That matters when a supplier needs funds before releasing goods or a company wants to keep its payment schedule closer to the date an invoice falls due.",
+      "Payment speed can also affect <a href=\"free-cash-flow-explained.html\">the timing of cash moving through a business</a>. It does not by itself create additional profit: a transfer that happens sooner is still a payment the company owes. The benefit depends on how the business manages the resulting cash schedule.",
+      "Business payments remain a source of growth",
+      "Nacha said business-to-business ACH payments approached 2.3 billion in the quarter, rising 9.7% from a year earlier, as companies continued moving away from checks.",
+      "That shift can have operational value beyond speed. Electronic payments can be easier to reconcile when they are connected to invoice records, although a company still needs reliable approval controls and accurate recipient information. Faster movement makes those checks more consequential, rather than removing the need for them.",
+      "What the totals do not establish",
+      "Network value is the amount transferred, not revenue earned by Nacha or a measure of new economic output. It can rise because there are more payments, larger individual transfers or a different mix of activity.",
+      "The report therefore offers evidence of changing payment habits. It does not establish that household spending or corporate sales grew at the same rate. For businesses evaluating faster settlement, the practical question is which payments benefit from a shorter cycle and whether the operational benefit justifies the service cost."
+    ],
+    "image": "assets/editorial/nacha-same-day-ach-growth-third-quarter-2026-cover-v1.png",
+    "imageSrcset": "assets/editorial/nacha-same-day-ach-growth-third-quarter-2026-cover-v1.png 1672w",
+    "date": "2026-10-20T17:54:29.504Z",
+    "dateModified": "2026-10-20T17:54:29.504Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "eka-robotics-series-a-tactile-ai-october-20-2026",
+    "section": "Tech & AI",
+    "title": "Robot Startup Eka Raises $150 Million to Give Machines a Sense of Touch",
+    "dek": "Eka Robotics raised $150 million at a $1.45 billion valuation as investors back robots that combine vision with force feedback.",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "TechCrunch: Series A financing and valuation",
+        "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+      },
+      {
+        "label": "Andreessen Horowitz: investment announcement and technical approach",
+        "url": "https://a16z.com/announcement/investing-in-eka-robotics/"
+      },
+      {
+        "label": "Eka Robotics: official description of its Vision-Force-Action model",
+        "url": "https://ekarobotics.com/"
+      }
+    ],
+    "date": "2026-10-20T16:06:01+00:00",
+    "dateModified": "2026-10-20T16:06:01+00:00",
+    "author": "TTN Research Desk",
+    "image": "assets/editorial/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-960.webp",
+    "imageAlt": "Generated editorial reconstruction based on Eka Robotics equipment references, showing a force-sensitive robot gripper handling an industrial connector in a laboratory.",
+    "imageSrcset": "assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-480.webp 480w, assets/responsive/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1-960.webp 960w, assets/editorial/eka-robotics-series-a-tactile-ai-october-20-2026-cover-v1.webp 1672w",
+    "editorialNote": null,
+    "body": [
+      "Eka Robotics raised $150 million in Series A financing at a $1.45 billion valuation, TechCrunch reported Tuesday. The funding backs a practical ambition: helping robots handle objects reliably when looking at them is not enough.",
+      "The company describes its technology as a Vision-Force-Action model. It combines what a robot sees with information from physical contact, allowing its actions to respond to resistance or a changing grip. Andreessen Horowitz confirmed that it is leading the Series A and outlined the approach in an investment announcement.",
+      "Why contact matters on a factory floor",
+      "A camera can locate a component, but fitting two parts together requires more information. Resistance can mean that a connector is misaligned, rather than that the robot needs to push harder. A system that responds to that feedback could adjust its movement before damaging the part.",
+      "That distinction matters commercially because manufacturers buy dependable output. An impressive demonstration has limited value if a machine frequently stops, rejects usable parts or requires an engineer whenever the product changes. The potential saving comes from reliable operation across the variations that ordinary production creates.",
+      "Simulation is a training ground, not proof of deployment",
+      "According to a16z, Eka trains manipulation policies through reinforcement learning in physics simulation. The approach lets virtual robots practice variations and recover from failures before the learned behavior is transferred to equipment. The investor also identifies sustained performance through full production shifts as a further test.",
+      "The distinction between a laboratory result and a working production installation is central to evaluating physical AI. Buyers need to know how often a system succeeds, how quickly it recovers from an error and <a href=\"robotics-ai-factory-roi-2026.html\">how much integration and maintenance it needs</a>. Those costs can outweigh a headline improvement in speed.",
+      "What the financing establishes",
+      "The valuation is the price assigned in a private funding transaction. It does not measure customer revenue or establish that the technology is already economical across industries. The funding gives Eka resources to develop its approach; commercial results will depend on the installations that follow.",
+      "For readers following industrial automation, the useful next evidence will be customer deployments with clear operating conditions, measured uptime and total cost. Claims about general-purpose capability should be judged against those results rather than treated as a replacement for them."
+    ]
+  },
+  {
+    "id": "reliable-robotics-financing-autonomous-flight-october-20-2026",
+    "section": "Tech & AI",
+    "title": "Autonomous Flight Developer Reliable Robotics Secures $115 Million",
+    "dek": "Reliable Robotics secured $115 million, including a $25 million loan, to expand aircraft automation while pursuing FAA certification.",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Reliable Robotics via Business Wire: financing, uses of capital and certification progress",
+        "url": "https://www.businesswire.com/news/home/20261020103258/en/Reliable-Robotics-Secures-%24115M-in-New-Capital"
+      },
+      {
+        "label": "TechCrunch: equity and debt breakdown and interview with the chief executive",
+        "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/"
+      },
+      {
+        "label": "Citybiz: independent coverage of the financing extension",
+        "url": "https://www.citybiz.co/article/921473/reliable-robotics-raises-115-million-reaching-1-billion-valuation/"
+      }
+    ],
+    "date": "2026-10-20T16:06:02+00:00",
+    "dateModified": "2026-10-20T16:06:02+00:00",
+    "author": "TTN Research Desk",
+    "image": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp",
+    "imageAlt": "Generated editorial reconstruction of Reliable Robotics’ documented Cessna Caravan aircraft, parked on an illustrative airport apron; not a photograph of the financing announcement.",
+    "imageSrcset": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp 480w, assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp 960w, assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp 1672w",
+    "editorialNote": null,
+    "body": [
+      "Reliable Robotics secured $115 million in additional financing to expand its aircraft automation business, taking its valuation above $1 billion. The company said Tuesday that the money increases its Series D financing to $275 million and will support aircraft, production facilities and engineering recruitment.",
+      "The new financing includes a $25 million term loan from Silicon Valley Bank. TechCrunch reported that the remaining $90 million is equity funding. The distinction matters: the headline total combines capital raised from investors with <a href=\"corporate-bonds-explained.html\">money the company borrows</a>.",
+      "Automation for existing aircraft",
+      "Reliable is developing the Reliable Autonomy System for automated aircraft operations, including taxiing, takeoff and landing. Its commercial FAA certification work is focused on the Cessna 208B Grand Caravan, according to the company’s announcement.",
+      "Using an existing aircraft concentrates the project on integrating and approving the automation rather than creating a new airframe. That can give operators a more familiar starting point, but the safety case still has to demonstrate that the system behaves reliably across the conditions for which approval is sought.",
+      "Funding and certification are different milestones",
+      "Reliable said the FAA has accepted its certification plan and means of compliance for continuous autopilot engagement. The announcement describes progress in the certification process; it does not say that the full commercial autonomous system has received final FAA approval.",
+      "For an aviation business, that difference affects both timing and economics. Engineering work, testing and production preparation can consume capital before broad commercial deployment produces revenue. A financing extension supports that work, while the regulator’s decisions determine which operations can proceed under the relevant approvals.",
+      "What investors and operators need next",
+      "The company’s valuation crossing $1 billion is a financing milestone, not a measure of aircraft utilization or operating profit. The more consequential commercial evidence will be approved capabilities, implementation costs and an operating record showing how the equipment performs in service.",
+      "Debt also changes the financing picture. A loan can add resources without the same immediate ownership dilution as new equity, but it creates repayment obligations. The announcement does not disclose enough loan terms to calculate the company’s debt-service burden or cash runway."
+    ]
+  },
+  {
+    "id": "inspired-capital-fourth-fund-450-million-october-20-2026",
+    "section": "Market Analysis",
+    "title": "Venture Investor Inspired Capital Closes $450 Million Fourth Fund",
+    "dek": "Inspired Capital’s new $450 million fund adds early-stage investment capacity across technology, health care and industrial businesses.",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Inspired Capital: official Fund IV announcement",
+        "url": "https://www.inspiredcapital.com/insights/announcing-inspired-fund-iv"
+      },
+      {
+        "label": "Inspired Capital: investment approach and portfolio",
+        "url": "https://www.inspiredcapital.com/"
+      },
+      {
+        "label": "Inc.: fund closing, founders and investment sectors",
+        "url": "https://www.inc.com/moses-jeanfrancois/alexa-von-tobel-inspired-capital-backed-10-unicorns-new-450-million-fund/91422018"
+      },
+      {
+        "label": "TechCrunch: October 20 report on the fourth fund",
+        "url": "https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/"
+      }
+    ],
+    "date": "2026-10-20T16:06:03+00:00",
+    "dateModified": "2026-10-20T16:06:03+00:00",
+    "author": "TTN Research Desk",
+    "image": "assets/editorial/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-960.webp",
+    "imageAlt": "Generated editorial portrait collage based on official photographs of Inspired Capital cofounders Alexa von Tobel and Penny Pritzker, with the fund’s $450 million size; not an event photograph.",
+    "imageSrcset": "assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-480.webp 480w, assets/responsive/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1-960.webp 960w, assets/editorial/inspired-capital-fourth-fund-450-million-october-20-2026-cover-v1.webp 1672w",
+    "editorialNote": null,
+    "body": [
+      "Inspired Capital announced a $450 million fourth fund on Tuesday, adding capital for investments in young businesses. The New York venture firm, founded by Alexa von Tobel and Penny Pritzker, invests across areas including AI, health care, financial technology, defense and robotics.",
+      "The firm’s official announcement says Fund IV will back early-stage founders. Its website describes a concentrated investment approach, making fewer than 10 investments a year and committing support to each company alongside the money.",
+      "A fund closing is a commitment to future investing",
+      "The $450 million figure describes the fund’s size. It is not revenue earned by the manager, a valuation of Inspired Capital or a single investment into one startup. Those distinctions matter when comparing a venture-fund announcement with the financing rounds of operating companies.",
+      "Venture funds typically invest over time, building a portfolio rather than immediately transferring the entire headline amount to businesses. The eventual outcome depends on which companies receive capital, the ownership purchased at each price and the cash returned when investments are realized.",
+      "The portfolio figures need context",
+      "In its announcement, Inspired says 10 portfolio companies have reached billion-dollar valuations. It also says 10 have passed $100 million in revenue, including four above $400 million. These are the firm’s own descriptions of its portfolio, rather than independently audited fund-performance figures.",
+      "An operating company can grow substantially while an investment still produces a disappointing return if its entry price was too high or its ownership was diluted. Likewise, a private valuation can change before an acquisition, <a href=\"ipo-process-explained.html\">public offering</a> or share sale turns it into cash. Portfolio milestones therefore answer a different question from realized returns to fund investors.",
+      "What the new capital means for founders",
+      "For businesses seeking an early institutional investor, another fund closing creates potential financing capacity. It does not establish that every sector is seeing easier fundraising or that investors have relaxed their standards. A concentrated strategy means the manager can raise substantial capital while remaining selective about individual companies.",
+      "The useful follow-up is where Fund IV actually invests and on what terms. Subsequent financings and exits will provide more information about the strategy than the fund’s headline size alone."
+    ]
+  },
+  {
+    "id": "salesforce-braze-acquisition-october-20-2026",
+    "section": "Tech & AI",
+    "title": "Salesforce Agrees to Buy Marketing Software Firm Braze for $5.66 Billion",
+    "dek": "Salesforce’s planned Braze acquisition adds real-time customer messaging and AI marketing tools, with approvals still required.",
+    "tickers": [
+      "CRM",
+      "BRZE"
+    ],
+    "sources": [
+      {
+        "label": "Salesforce announcement via Business Wire: agreement and conditions",
+        "url": "https://marketchameleon.com/PressReleases/i/2395196/CRM/salesforce-signs-definitive-agreement-to-acquire-braze"
+      },
+      {
+        "label": "The Wall Street Journal: purchase premium and transaction value",
+        "url": "https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe"
+      },
+      {
+        "label": "Reuters: October 20 transaction report",
+        "url": "https://www.reuters.com/business/salesforce-acquire-braze-566-billion-deal-2026-10-20/"
+      }
+    ],
+    "date": "2026-10-20T13:12:06+00:00",
+    "dateModified": "2026-10-20T13:12:06+00:00",
+    "author": "TTN Research Desk",
+    "image": "assets/editorial/salesforce-braze-acquisition-october-20-2026-braze-office-v3.webp",
+    "imageSmall": "assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-480.webp",
+    "imageMedium": "assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-960.webp",
+    "imageAlt": "Generated editorial reconstruction of the documented Braze office at 63 Madison in New York, showing its golden script wall mural; not a photograph of the acquisition announcement.",
+    "imageSrcset": "assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-480.webp 480w, assets/responsive/salesforce-braze-acquisition-october-20-2026-braze-office-v3-960.webp 960w, assets/editorial/salesforce-braze-acquisition-october-20-2026-braze-office-v3.webp 1672w",
+    "editorialNote": null,
+    "body": [
+      "Salesforce has agreed to acquire Braze, a company that helps businesses personalize customer messages, in a transaction valued at approximately $5.66 billion including debt. The deal would give the enterprise software provider a larger role in marketing that responds immediately to what consumers do in apps and online.",
+      "Braze Class A shareholders would receive $47.50 in cash per share. The Wall Street Journal calculates that as a roughly 58% premium to Monday’s $30.04 closing price. The offer is substantial, but shareholders are being offered a <a href=\"merger-arbitrage-deal-spread-explained.html\">conditional payment</a> rather than cash available immediately.",
+      "What Salesforce is buying",
+      "Braze connects customer activity with communications across channels such as email, mobile apps and text messages. Its AI tools help choose content, offers and timing. Salesforce says those capabilities would complement its existing marketing, customer-data and AI products.",
+      "The commercial logic is straightforward: a retailer benefits when a message reflects a customer’s latest action rather than an outdated profile. Combining the software that stores customer information with the software that acts on it could reduce delays between an event and a relevant response. That is an operating opportunity, not evidence that the acquisition will automatically produce higher returns.",
+      "The price and the approvals matter",
+      "The companies expect completion in Salesforce’s fiscal 2028, subject to shareholder and regulatory approvals and other customary conditions. Salesforce says its fiscal 2027 guidance is unchanged. A fiscal-year label should not be mistaken for an immediate closing date, and the agreement remains distinct from a completed acquisition.",
+      "For investors, <a href=\"mergers-acquisitions-explained.html\">enterprise value</a> and the payment for each share answer different questions. The former describes the overall transaction valuation, including debt; the latter specifies what an eligible shareholder would receive if the deal closes. Comparing the headline value directly with a company’s equity market capitalization can therefore mislead.",
+      "Execution will decide the return",
+      "The acquisition’s value will depend on how well the products work together, whether customers stay and how much additional business the combined offering generates. Integration can also require spending on engineering, sales and support before any benefit appears. Buyers of marketing software will want clarity about product availability, contracts and the ability to keep using other tools.",
+      "The agreement is a meaningful expansion of Salesforce’s marketing offering. The next useful evidence will be the shareholder materials, approval process and integration plans. Promises of more effective AI marketing should be judged against customer outcomes and costs as those details emerge."
+    ]
+  },
+  {
+    "id": "us-housing-starts-september-2026-decline",
+    "section": "Market Analysis",
+    "title": "US Housing Starts Fall 5.2% as Single-Family Permits Weaken",
+    "dek": "September housing starts declined in the preliminary US estimate, while weaker single-family permits point to a softer construction pipeline.",
+    "tickers": [],
+    "sources": [
+      {
+        "label": "Census Bureau and HUD: September 2026 construction report and statistical notes",
+        "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+      },
+      {
+        "label": "Census Bureau: official release schedule",
+        "url": "https://www.census.gov/construction/soc/schedule.html"
+      },
+      {
+        "label": "Reuters: single-family construction and demand context",
+        "url": "https://www.reuters.com/world/us/us-single-family-housing-starts-building-permits-tumble-september-2026-10-20/"
+      }
+    ],
+    "date": "2026-10-20T13:07:16+00:00",
+    "dateModified": "2026-10-20T13:07:16+00:00",
+    "author": "TTN Research Desk",
+    "image": "assets/editorial/us-housing-starts-september-2026-decline-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-housing-starts-september-2026-decline-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-housing-starts-september-2026-decline-cover-v1-960.webp",
+    "imageAlt": "Generated editorial illustration of detached wood-frame homes under construction at a generic American suburban building site; not a photograph of the reported data.",
+    "imageSrcset": "assets/responsive/us-housing-starts-september-2026-decline-cover-v1-480.webp 480w, assets/responsive/us-housing-starts-september-2026-decline-cover-v1-960.webp 960w, assets/editorial/us-housing-starts-september-2026-decline-cover-v1.webp 1672w",
+    "editorialNote": null,
+    "body": [
+      "U.S. housing starts fell 5.2% in September to a seasonally adjusted annual rate of 1.221 million units, according to the preliminary Census Bureau and HUD report released Tuesday. Permits for single-family homes also declined, adding a forward-looking sign of caution to the weaker construction estimate.",
+      "The headline needs a statistical qualification. The reported monthly fall in total starts has a 90% confidence interval of plus or minus 11.8 percentage points. Because that range includes zero, the survey does not establish that the actual monthly change was a decline. The point estimate is weaker; its precision is limited.",
+      "Permits show a softer single-family pipeline",
+      "Single-family permits fell 4.0% to an annualized 845,000 units. Total permits were nearly flat, down 0.2% at 1.4 million. The difference matters: the broad authorization figure can obscure changes in the part of the market most directly associated with detached homes.",
+      "<a href=\"housing-starts-builder-confidence-explained.html\">A permit is permission to build</a>, while a start records construction getting underway. Neither is a completed home sale. Reading them together helps separate the pipeline of potential projects from work already beginning, but it does not establish that every authorized project will proceed.",
+      "Borrowing costs constrain the buyer",
+      "Reuters linked the weakness in single-family construction to higher mortgage rates and subdued demand. Its report also described an inventory overhang that reduces developers’ incentive to begin new projects. Those pressures help explain why a need for more housing can coexist with weak near-term building activity.",
+      "For a household, the binding constraint can be the monthly payment rather than the desire to buy. Higher financing costs reduce the price a buyer can support on the same income. For a builder, selling a home through incentives may preserve volume while reducing the return on that sale. The effect on a particular business depends on its costs, land holdings and local market.",
+      "One report cannot settle the trend",
+      "These preliminary estimates can be revised. Annualized rates express an adjusted pace, rather than a count of homes physically started during September.",
+      "Permits deserve attention alongside the volatile starts estimate. A sustained weakening in authorizations would be more consequential for future activity than one uncertain monthly change. Subsequent releases and builders’ orders will help show whether the softer pipeline persists."
+    ]
+  },
+  {
+    "id": "nvidia-china-workstation-gpu-orders-october-20-2026",
+    "section": "Tech & AI",
+    "title": "China’s Tech Giants Reportedly Order $35 Billion in Nvidia Cards",
+    "dek": "ByteDance, Alibaba and Tencent are seeking workstation GPUs. Reported orders show demand for AI capacity, but deliveries and revenue remain uncertain.",
+    "tickers": [
+      "NVDA",
+      "BABA"
+    ],
+    "imageAlt": "AI-generated editorial illustration of technicians assembling GPU-equipped corporate computing systems at an industrial facility; not a photograph of Nvidia products, a named factory or reported deliveries",
+    "body": [
+      "<p>ByteDance, Alibaba and Tencent have ordered more than three million Nvidia RTX PRO 5500 graphics cards with a combined sticker value above $35 billion, Reuters reported Tuesday, citing people familiar with the matter. Nvidia cannot guarantee fulfillment, the report said. The buyers did not respond to requests for comment.</p>",
+      "<p>The scale is striking, but the distinction between an order and a sale matters. A request for scarce computing equipment becomes revenue only after the relevant delivery and accounting conditions are met. Investors should avoid treating the reported total as a new addition to Nvidia’s recognized sales.</p>",
+      "<h2>A workstation card with an AI role</h2>",
+      "<p>Nvidia’s official product page describes the RTX PRO 5500 as a Blackwell workstation GPU with 84 gigabytes of GDDR7 memory. Its intended uses include running trained language models, graphics, simulation and scientific computing. The published specifications are preliminary and subject to change.</p>",
+      "<p>Running a trained model is called <a href=\"ai-inference-unit-economics-2026.html\">inference</a>: it is the work performed when a service produces an answer or processes a customer request. It differs from training a model. The same buyer can therefore need different hardware for different parts of its AI operation, rather than a single interchangeable pool of chips.</p>",
+      "<h2>A filing shows the delivery risk</h2>",
+      "<p>A separate October 13 disclosure by Tansun Technology records a contract for 20,000 RTX PRO 5500 cards. It warns about supply constraints, overseas technology controls and possible delays or quantities below expectations. That older filing supports the existence of procurement activity; it does not independently establish the three companies’ newly reported orders.</p>",
+      "<p>For customers, the practical question is how much usable capacity arrives, when it arrives and what each completed task costs. <a href=\"ai-chips-bottlenecks-2026.html\">Memory capacity, cooling, software compatibility and utilization</a> all affect the answer. A purchase headline alone cannot establish the economics of the applications that will run on the equipment.</p>",
+      "<h2>What the headline can and cannot tell investors</h2>",
+      "<p>The report points to persistent demand for Nvidia products in China under trade restrictions. It is not a company-confirmed revenue forecast. Order conversion, delivery schedules and margins will be more informative than the largest possible purchase value.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters: October 20 report on the three companies’ orders",
+        "url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"
+      },
+      {
+        "label": "Nvidia: RTX PRO 5500 product specifications",
+        "url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5500/"
+      },
+      {
+        "label": "Tansun Technology: October 13 procurement disclosure",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225602580.PDF"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-20T10:14:13+00:00",
+    "dateModified": "2026-10-20T10:26:51+00:00",
+    "image": "assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp",
+    "imageSmall": "assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp",
+    "imageMedium": "assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp",
+    "imageSrcset": "assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp 480w, assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp 960w, assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp 1672w"
+  },
+  {
+    "id": "ai-stocks-oil-110-premarket-october-20-2026",
+    "section": "Market Analysis",
+    "title": "AI Stocks Slip Again as $110 Oil Tests the Rebound",
+    "dek": "Tuesday’s European and U.S. premarket trading challenged Monday’s technology recovery as expensive oil added another risk to the earnings outlook.",
+    "tickers": [
+      "CRWV",
+      "ASML"
+    ],
+    "imageAlt": "AI-generated editorial illustration of a crude oil tanker near a terminal; not a photograph of a reported attack or a named location",
+    "body": [
+      "<p>Technology shares came under renewed pressure Tuesday morning while Brent crude traded above $110 a barrel, putting Monday’s recovery to an early test. The Wall Street Journal reported Nasdaq futures down 0.3% and CoreWeave down 2.9% in premarket trading. S&amp;P 500 futures were flat and Dow futures edged higher.</p>",
+      "<p>Those are indications before the U.S. cash-market open, not Tuesday’s closing results. The difference is especially important after a sharp rebound: overnight futures can signal caution without determining how the full session will finish.</p>",
+      "<h2>Europe adds a new warning</h2>",
+      "<p>In European trading, the STOXX 600 fell 0.6%, while chip-equipment makers ASML and ASMI lost more than 3%, according to Reuters. That extended the pressure beyond a single American stock and made the morning reversal a broader market development.</p>",
+      "<p>Barron’s also highlighted weakness in South Korea, where the KOSPI fell 3.7% and AI infrastructure company Elice dropped sharply on its trading debut. The listing had started earlier in the day; Tuesday’s European and U.S. premarket weakness is the new focus here.</p>",
+      "<h2>Oil complicates the earnings calculation</h2>",
+      "<p><a href=\"oil-shock-market-ripple.html\">More expensive energy</a> can reach company accounts through transport, materials and operating expenses. Whether profits suffer depends on fuel hedges, pricing power and how much of the increase companies can pass to customers. Energy producers and fuel-intensive businesses need not respond in the same way.</p>",
+      "<p>For AI infrastructure, there is a separate test: the return on new capacity must justify the cost of equipment, power and financing. A higher oil price does not mechanically set every data center’s electricity bill, but it adds another source of uncertainty to the wider inflation and interest-rate outlook.</p>",
+      "<h2>A rebound needs more than a positive session</h2>",
+      "<p><a href=\"wall-street-close-october-19-2026-ai-rebound.html\">Monday’s advance</a> showed buyers returning. Tuesday morning’s retreat shows that confidence remains conditional. Neither move, on its own, establishes whether the sector’s investment plans will produce attractive cash returns.</p>",
+      "<p>The useful checks are the breadth of the move, companies’ explanations of costs and demand, and evidence that new spending is generating cash.</p>"
+    ],
+    "sources": [
+      {
+        "label": "The Wall Street Journal: Tuesday’s AI selloff and oil above $110",
+        "url": "https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70"
+      },
+      {
+        "label": "Barron’s: October 20 premarket technology reversal",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-102026/card/the-tech-stock-rebound-is-toast-already-qqPVhoBxdjyBwVHjs8Sh"
+      },
+      {
+        "label": "Reuters: European market and chip-equipment moves",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-20T10:14:13+00:00",
+    "dateModified": "2026-10-20T10:14:13+00:00",
+    "image": "assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp",
+    "imageSmall": "assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp",
+    "imageMedium": "assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp",
+    "imageSrcset": "assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp 480w, assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp 960w, assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp 1672w"
+  },
+  {
+    "id": "3m-amazon-data-center-supply-deal-2026",
+    "section": "Market Analysis",
+    "title": "3M's Amazon Deal Puts Optical Materials in the AI Supply Chain",
+    "dek": "3M links Amazon’s data-center purchases to potential share ownership, expanding its role in the AI supply chain.",
+    "tickers": [
+      "MMM"
+    ],
+    "image": "assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp",
+    "imageAlt": "AI-generated editorial illustration of 3M signage beside an Amazon-branded data center; not a photograph of an actual site or the agreement",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/3m-expands-amazon-data-center-partnership-shares-gain-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-20T09:22:39.027Z",
+    "dateModified": "2026-10-20T09:59:46+00:00",
+    "body": [
+      "<p>Industrial materials producer 3M has expanded its relationship with Amazon, granting an Amazon subsidiary warrants to buy up to 3.16 million 3M shares. The arrangement, announced October 19, links much of the potential equity stake to purchases of optical connectivity and other products for data centers.</p>\n",
+      "<p>The deal draws attention to a less visible segment of the <a href=\"ai-boom-capital-financing-2026.html\">AI infrastructure economy</a>. Chips, servers and electricity dominate discussions of investment, but optical materials and connections are also needed to move information through large computing facilities.</p>\n",
+      "<h2>What the warrants actually mean</h2>",
+      "<p>Under the arrangement, Amazon has the right, but not the obligation, to acquire shares at an exercise price of $164.89 over a seven-year period. According to Reuters, roughly 85% of the warrant shares are tied to purchase milestones that reach $6 billion in cumulative spending. These are potential future purchases, not revenue already recorded by 3M.</p>\n",
+      "<p>At the stated exercise price, buying all 3.16 million shares would cost roughly $521 million. That share-purchase amount is distinct from the $6 billion procurement milestone. Vesting provisions determine which rights Amazon earns, while market conditions determine whether exercising them becomes attractive.</p>\n",
+      "<h2>Why data center connectivity matters</h2>",
+      "<p>AI computing facilities require fast and dependable links among processors, storage systems and network switches. Growing capacity can create demand for components beyond graphics processors. For a diversified manufacturer such as 3M, specialized products for computing infrastructure represent a potential source of incremental sales.</p>\n",
+      "<p>For Amazon, an equity-linked supplier agreement can create longer-term alignment without establishing a fixed delivery schedule for every component. The business impact depends on actual procurement volumes, margins, competition and the reliability of the underlying technology.</p>\n",
+      "<h2>What investors should monitor</h2>",
+      "<p>Reuters reported that 3M stock rose more than 5% in extended trading after the announcement. That reaction illustrates enthusiasm for businesses exposed to AI expansion, but it does not measure the contract's eventual profits.</p>\n",
+      "<p>Investors will need to follow reported data-center-related sales, capital requirements and the pace at which warrant milestones are reached. A large headline commitment is meaningful only to the extent that purchases are completed and 3M converts them into profitable operating income.</p>\n",
+      "<p>Suppliers can benefit from construction spending, but sustainable returns depend on what customers ultimately earn from the capacity they build.</p>"
+    ],
+    "imageSmall": "assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp",
+    "imageMedium": "assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp",
+    "imageSrcset": "assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp 480w, assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp 960w, assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp 1672w"
+  },
+  {
+    "id": "eric-schmidt-anthropic-stake-2026",
+    "section": "Tech & AI",
+    "title": "Eric Schmidt Reportedly Holds 1% of Anthropic as IPO Plans Draw Attention",
+    "dek": "A reported early investment by Google's former CEO highlights the value and uncertainty surrounding private AI companies ahead of possible public listings.",
+    "tickers": [
+      "GOOGL"
+    ],
+    "image": "assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp",
+    "imageAlt": "AI-generated editorial illustration of a seated man with Anthropic signage; not a documentary photograph of Eric Schmidt",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/business/former-google-ceo-schmidt-owns-1-stake-anthropic-bloomberg-reports-2026-10-19/"
+      }
+    ],
+    "author": "TTN Research Desk",
+    "date": "2026-10-20T09:22:39.027Z",
+    "dateModified": "2026-10-20T09:59:46+00:00",
+    "body": [
+      "<p>Eric Schmidt, the former chief executive of Google, reportedly owns about 1% of Anthropic, the developer of Claude. Bloomberg's October 19 report, carried by Reuters, describes an early investment that could become extremely valuable if the AI company proceeds with plans to list its shares.</p>\n",
+      "<p>Schmidt reportedly committed tens of millions of dollars in an early financing round. Whether he has sold any part of the position since then is unclear. The reported holding is therefore not the same as a confirmed, currently liquid fortune.</p>\n",
+      "<h2>How a 1% stake could be valued</h2>",
+      "<p>At a hypothetical $1.5 trillion company valuation, a one-percent position would be worth $15 billion on paper. That arithmetic is useful for understanding the scale of private-market expectations, but it is not an independently verified estimate of what Schmidt could sell or receive.</p>\n",
+      "<p>The outcome would depend on Anthropic's eventual share count, offering price, trading performance, lockup arrangements and any transactions by existing investors. A contemplated valuation is not the price of a completed IPO.</p>\n",
+      "<h2>Why Anthropic attracts investors</h2>",
+      "<p>Anthropic sells access to Claude models through subscriptions, developer services and enterprise products. Scaling those services requires substantial spending on computing capacity, including partnerships with established cloud providers.</p>\n",
+      "<p>That combination creates the central tension in the investment case: rapidly growing demand for AI services can expand revenue, but the cost of training models and serving customer requests also remains material. The <a href=\"ai-inference-unit-economics-2026.html\">economics of serving AI requests</a> help explain why usage growth does not automatically translate into attractive margins.</p>\n",
+      "<h2>What an IPO could reveal</h2>",
+      "<p>A public listing could give investors more standardized financial disclosures, including revenue composition, operating losses, cash flow and infrastructure commitments. Investors should assess the available prospectus and subsequent disclosures rather than treating a reported ownership percentage as a complete investment case.</p>\n",
+      "<p>For investors assessing any eventual share offering, company valuation should be considered alongside the durability of customer demand, pricing power and the pace of investment. Returns earned by early backers do not indicate what later public shareholders will earn.</p>\n",
+      "<p>The reported Schmidt investment is a window into the extraordinary expectations surrounding the AI sector, not proof of an imminent listing or an assured windfall.</p>"
+    ],
+    "imageSmall": "assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp",
+    "imageMedium": "assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp",
+    "imageSrcset": "assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp 480w, assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp 960w, assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp 1672w"
+  },
   {
     "id": "apple-pro-and-tell-october-28-2026-event",
     "section": "Tech & AI",
@@ -236,24 +582,24 @@ const TTN_ARTICLES = [
     "dateModified": "2026-10-19T17:08:30+00:00",
     "editorialNote": null,
     "body": [
-  "Confidence among US homebuilders fell to its weakest level since June 2012 in October, as expensive mortgages and building costs continued to strain the market for new single-family houses. The NAHB/Wells Fargo Housing Market Index dropped three points to 29, the industry association said Monday.",
-  "Price concessions became more widespread. Some 43% of builders reported cutting prices, the largest share in the 2020–2026 period. The average reduction among those cutting prices held at 6%, while 65% reported offering sales incentives.",
-  "Demand weakened across the survey",
-  "All three components declined. Current sales conditions fell to 33, expectations for the next six months to 32 and prospective-buyer traffic to 18. NAHB said traffic was the weakest since April 2012 when the initial pandemic disruption in April 2020 is excluded.",
-  "The index surveys builders’ assessments of sales and traffic. A reading above 50 indicates that more respondents judge conditions favorably than unfavorably. October’s figures measure sentiment about newly built single-family homes; they are not a count of completed transactions or a national house-price index.",
-  "Mortgage costs limit purchasing power",
-  "Freddie Mac’s latest available weekly survey put the average 30-year fixed mortgage at 7.40% as of October 15, unchanged from the previous week and above 6.27% a year earlier. Its survey focuses on conventional conforming purchase loans for strong-credit borrowers putting 20% down.",
-  "That average is a reference point rather than a personalized financing offer. Actual borrowing costs vary with the applicant, loan structure and lender. It also means that a house becoming cheaper does not automatically make the monthly payment affordable to every prospective buyer.",
-  "For illustration, a $400,000 loan amortized over 30 years at 7.40% carries principal and interest of roughly $2,770 a month. At 6.27%, the same balance and term imply about $2,468. These are hypothetical calculations excluding property tax, insurance, fees and mortgage insurance. They isolate the effect of the interest rate rather than describing a particular purchase.",
-  "Discounts and incentives have different effects",
-  "A lower sale price reduces the purchase amount. An incentive may instead help with financing or another part of the transaction. Comparing offers requires examining the complete terms, including whether a benefit expires, what the buyer must pay upfront and how much cash is needed at closing.",
-  "For a builder, moving a completed home can release capital tied up in inventory. The economic benefit must be weighed against the revenue given up through a concession and the cost of providing an incentive. The survey does not establish the resulting profit margin at any individual company.",
-  "Our guide to builder confidence and housing starts explains why a sentiment release and actual construction activity can move on different schedules. Permits, starts, completions and sales each describe a different stage of the market. One weak reading does not determine the next release.",
-  "The pressure extends beyond buyers",
-  "TTN’s assessment is that the combination of weak traffic and persistent building costs leaves developers with difficult timing decisions. Starting more homes adds future supply but also commits capital. Slowing construction limits that exposure while potentially affecting suppliers and local employment.",
-  "The national figures also leave room for substantial variation between markets and companies. Land costs, product mix, inventory age and available financing differ. The average price cut should therefore not be applied mechanically to every listing or used to infer the discount a particular buyer can obtain.",
-  "For the next round of builder results, the useful measures will be orders, cancellations, completed inventory and margins after incentives. October’s survey shows broad pressure on confidence and buyer interest. Company disclosures will show how much of that pressure reaches revenue and cash flow."
-]
+      "Confidence among US homebuilders fell to its weakest level since June 2012 in October, as expensive mortgages and building costs continued to strain the market for new single-family houses. The NAHB/Wells Fargo Housing Market Index dropped three points to 29, the industry association said Monday.",
+      "Price concessions became more widespread. Some 43% of builders reported cutting prices, the largest share in the 2020–2026 period. The average reduction among those cutting prices held at 6%, while 65% reported offering sales incentives.",
+      "Demand weakened across the survey",
+      "All three components declined. Current sales conditions fell to 33, expectations for the next six months to 32 and prospective-buyer traffic to 18. NAHB said traffic was the weakest since April 2012 when the initial pandemic disruption in April 2020 is excluded.",
+      "The index surveys builders’ assessments of sales and traffic. A reading above 50 indicates that more respondents judge conditions favorably than unfavorably. October’s figures measure sentiment about newly built single-family homes; they are not a count of completed transactions or a national house-price index.",
+      "Mortgage costs limit purchasing power",
+      "Freddie Mac’s latest available weekly survey put the average 30-year fixed mortgage at 7.40% as of October 15, unchanged from the previous week and above 6.27% a year earlier. Its survey focuses on conventional conforming purchase loans for strong-credit borrowers putting 20% down.",
+      "That average is a reference point rather than a personalized financing offer. Actual borrowing costs vary with the applicant, loan structure and lender. It also means that a house becoming cheaper does not automatically make the monthly payment affordable to every prospective buyer.",
+      "For illustration, a $400,000 loan amortized over 30 years at 7.40% carries principal and interest of roughly $2,770 a month. At 6.27%, the same balance and term imply about $2,468. These are hypothetical calculations excluding property tax, insurance, fees and mortgage insurance. They isolate the effect of the interest rate rather than describing a particular purchase.",
+      "Discounts and incentives have different effects",
+      "A lower sale price reduces the purchase amount. An incentive may instead help with financing or another part of the transaction. Comparing offers requires examining the complete terms, including whether a benefit expires, what the buyer must pay upfront and how much cash is needed at closing.",
+      "For a builder, moving a completed home can release capital tied up in inventory. The economic benefit must be weighed against the revenue given up through a concession and the cost of providing an incentive. The survey does not establish the resulting profit margin at any individual company.",
+      "Our guide to builder confidence and housing starts explains why a sentiment release and actual construction activity can move on different schedules. Permits, starts, completions and sales each describe a different stage of the market. One weak reading does not determine the next release.",
+      "The pressure extends beyond buyers",
+      "TTN’s assessment is that the combination of weak traffic and persistent building costs leaves developers with difficult timing decisions. Starting more homes adds future supply but also commits capital. Slowing construction limits that exposure while potentially affecting suppliers and local employment.",
+      "The national figures also leave room for substantial variation between markets and companies. Land costs, product mix, inventory age and available financing differ. The average price cut should therefore not be applied mechanically to every listing or used to infer the discount a particular buyer can obtain.",
+      "For the next round of builder results, the useful measures will be orders, cancellations, completed inventory and margins after incentives. October’s survey shows broad pressure on confidence and buyer interest. Company disclosures will show how much of that pressure reaches revenue and cash flow."
+    ]
   },
   {
     "id": "sp-global-ai-debt-visibility-hyperscalers-2026",
@@ -1105,7 +1451,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp",
     "imageSrcset": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp 480w, assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp 960w, assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "replit-openai-preferred-partner-claude-choice-2026",
     "title": "Replit Favors OpenAI for Agent While Keeping Claude Available",
     "dek": "The coding platform’s preferred partnership leaves room for competing models. Its documentation shows why the default and the available choices are different decisions.",
@@ -1157,7 +1504,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp",
     "imageSrcset": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp 480w, assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp 960w, assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "richard-heart-turkey-detention-confirmed-2026",
     "title": "Turkey Confirms Richard Heart’s Detention and Reports $7.15 Million Cash Seizure",
     "dek": "The announcement adds official details to the Istanbul operation involving the HEX founder. His detention, Finland’s allegations and the dismissed US securities case are separate legal developments.",
@@ -1206,7 +1554,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp",
     "imageSrcset": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp 480w, assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp 960w, assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "okxice-stock-token-issuer-objections-2026",
     "title": "Broadcom, Verizon and CoreWeave Object to Stock Tokens on OKXICE",
     "dek": "Nine companies have filed objections with the proposed trading venue, highlighting the gap between regulatory permission and corporate acceptance of tokenized shares.",
@@ -1260,7 +1609,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp",
     "imageSrcset": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp 480w, assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp 960w, assets/editorial/okxice-stock-token-issuer-objections-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-agents-websites-block-access-2026",
     "title": "AI Agents Hit a Wall: Websites Decide Who Gets Through",
     "dek": "Shopping and booking assistants face a constraint that better models cannot solve alone: permission to use the services their customers depend on.",
@@ -1300,7 +1650,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-agents-websites-block-access-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-websites-block-access-2026-480.webp 480w, assets/responsive/ai-agents-websites-block-access-2026-960.webp 960w, assets/editorial/ai-agents-websites-block-access-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "faa-controller-pay-workforce-reforms-october-2026",
     "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
     "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
@@ -1333,7 +1684,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp",
     "imageSrcset": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-480.webp 480w, assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp 960w, assets/editorial/faa-controller-pay-workforce-reforms-october-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "wall-street-close-october-16-2026-ai-selloff",
     "title": "Nasdaq Falls 4.5% for the Week as AI Stocks Slide Into Friday’s Close",
     "dek": "The S&P 500 also finished lower, while the Dow held a weekly gain. The closing figures show the selloff remained concentrated enough to produce sharply different index results.",
@@ -1379,7 +1731,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp",
     "imageSrcset": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-480.webp 480w, assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp 960w, assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "us-fiscal-2026-deficit-nearly-two-trillion",
     "title": "US Budget Deficit Reaches $1.99 Trillion as Debt Costs Mount",
     "dek": "The annual shortfall widened despite higher receipts. The figures put the cost of financing government back at the center of the fiscal debate.",
@@ -1417,7 +1770,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp",
     "imageSrcset": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-480.webp 480w, assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp 960w, assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "tesla-fsd-class-certification-appeal-october-2026",
     "title": "Tesla Wins FSD Class-Certification Appeal; Claims Remain Unresolved",
     "dek": "The Ninth Circuit vacated certification of three California classes, finding that buyers’ exposure to a disputed hardware claim could not be presumed across the group.",
@@ -1456,7 +1810,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp",
     "imageSrcset": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-480.webp 480w, assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp 960w, assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "fund-flows-stocks-bonds-cash-october-2026",
     "title": "Investors Add $64.5 Billion to Stock Funds While Pulling Money From Cash",
     "dek": "BofA’s weekly figures show buying across equities and bonds. The reporting window ends Wednesday, so the data cannot establish how investors responded to later market swings.",
@@ -1490,7 +1845,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp",
     "imageSrcset": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-480.webp 480w, assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp 960w, assets/editorial/fund-flows-stocks-bonds-cash-october-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ofgem-market-stabilisation-charge-consultation-2026",
     "title": "UK Energy Regulator Proposes Payments Between Suppliers When Customers Switch",
     "dek": "Ofgem wants to activate a dormant safeguard against sharp wholesale-price falls. The proposal raises a trade-off between supplier resilience and competition for cheaper deals.",
@@ -1533,7 +1889,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp",
     "imageSrcset": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-480.webp 480w, assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp 960w, assets/editorial/ofgem-market-stabilisation-charge-consultation-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "china-ai-technology-export-controls-draft-2026",
     "title": "China Proposes AI Export Controls While Keeping Model Services Accessible",
     "dek": "A draft covers 23 AI technology categories, while officials distinguish transfers of restricted technology from overseas access through apps and APIs. Temporary registration requirements start immediately.",
@@ -1575,7 +1932,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp",
     "imageSrcset": "assets/responsive/china-ai-technology-export-controls-draft-2026-480.webp 480w, assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp 960w, assets/editorial/china-ai-technology-export-controls-draft-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-agents-india-cert-in-security-warning-2026",
     "title": "AI Agents Reached Company Systems During Tests, India’s Cyber Agency Says",
     "dek": "CERT-In describes unauthorized access disclosed by AI providers and separate criminal campaigns using agent tools. Its advisory points to exposed credentials and excessive access permissions.",
@@ -1611,7 +1969,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-480.webp 480w, assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp 960w, assets/editorial/ai-agents-india-cert-in-security-warning-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ny-fed-services-prices-october-2026",
     "title": "New York Fed Survey Finds Faster Price Increases as Service Activity Falls",
     "dek": "Regional service firms reported their fastest selling-price increases since 2022. The October survey adds a warning about costs, but is not a national inflation reading.",
@@ -1653,7 +2012,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ny-fed-services-prices-october-2026-960.webp",
     "imageSrcset": "assets/responsive/ny-fed-services-prices-october-2026-480.webp 480w, assets/responsive/ny-fed-services-prices-october-2026-960.webp 960w, assets/editorial/ny-fed-services-prices-october-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "tesla-slovakia-assisted-driving-approval-2026",
     "title": "Slovakia Approves Tesla Driver Assistance as European Rollout Expands",
     "dek": "Slovakia has recognized provisional approval for Tesla’s supervised driving system. The decision opens a path to rollout, while drivers remain responsible for the vehicle.",
@@ -1701,7 +2061,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp",
     "imageSrcset": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-480.webp 480w, assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp 960w, assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ai-investment-central-banks-interest-rates-2026",
     "title": "AI Spending Puts Higher Borrowing Costs on Central Banks’ Radar",
     "dek": "A fresh warning from policymakers shifts the focus from AI share prices to the cost of financing the wider economy.",
@@ -1738,7 +2099,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-investment-central-banks-interest-rates-2026-480.webp 480w, assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp 960w, assets/editorial/ai-investment-central-banks-interest-rates-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "iphone-duo-preorder-delays-january-2027",
     "title": "iPhone Duo Orders Slip Into 2027 Soon After Preorders Open",
     "dek": "Apple’s first foldable starts at $1,999. Reported January delivery estimates leave buyers facing a wait, but do not reveal how many phones Apple has sold.",
@@ -1777,7 +2139,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp",
     "imageSrcset": "assets/responsive/iphone-duo-preorder-delays-january-2027-480.webp 480w, assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp 960w, assets/editorial/iphone-duo-preorder-delays-january-2027.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "us-import-prices-september-2026-inflation",
     "title": "US Import Prices Jump 1.1%, Bringing Inflation Pressure Beyond Oil",
     "dek": "September import prices rose faster than expected. A broad increase in nonfuel goods adds to the cost pressure facing American businesses.",
@@ -1815,7 +2178,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/us-import-prices-september-2026-inflation-960.webp",
     "imageSrcset": "assets/responsive/us-import-prices-september-2026-inflation-480.webp 480w, assets/responsive/us-import-prices-september-2026-inflation-960.webp 960w, assets/editorial/us-import-prices-september-2026-inflation.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "germany-nvidia-industrial-ai-agreement-2026",
     "title": "Germany Prepares Nvidia AI Pact as Factories Become the Next Test",
     "dek": "Government sources say an industrial AI agreement is due next week. The details will show how Germany plans to turn computing capacity into factory applications.",
@@ -1859,7 +2223,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp",
     "imageSrcset": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-480.webp 480w, assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp 960w, assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "indonesia-msci-downgrade-stock-selloff-2026",
     "title": "Indonesia Stocks Plunge as MSCI Puts Emerging-Market Status at Risk",
     "dek": "A proposed move to standalone status threatens Indonesia’s place in global equity benchmarks. The market has already repriced a decision that remains under consultation.",
@@ -1899,7 +2264,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp",
     "imageSrcset": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-480.webp 480w, assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp 960w, assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp 1774w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "dollar-treasury-yields-ai-financing-october-16-2026",
     "title": "Dollar Slips as AI Financing Fears Send Investors Toward Treasuries",
     "dek": "Friday’s currency weakness shows how concern about the AI investment cycle can reach beyond technology shares. Lower Treasury yields change the calculation for dollar holders.",
@@ -1941,7 +2307,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp",
     "imageSrcset": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-480.webp 480w, assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp 960w, assets/editorial/dollar-treasury-yields-ai-financing-october-16-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "meta-muse-spark-open-coding-model-2026",
     "title": "Meta Releases Muse Spark Open, Putting AI Coding Control in Developers’ Hands",
     "dek": "The October 15 release makes Meta’s large coding model available as downloadable weights. Deployment costs, license terms and agent permissions now become the practical tests.",
@@ -1992,7 +2359,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp",
     "imageSrcset": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-480.webp 480w, assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp 960w, assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "google-news-ai-pilot-publisher-licensing-2026",
     "title": "Google’s News AI Deals Expand to 400 Publications. The Traffic Test Remains",
     "dek": "CNN, Axios, the Financial Times and local newsrooms join Google’s paid AI pilot. Licensing income and a durable reader relationship remain different measures of success.",
@@ -2035,7 +2403,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp",
     "imageSrcset": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp 480w, assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp 960w, assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bitcoin-ether-selloff-liquidations-october-15-2026",
     "title": "Bitcoin Breaks Below $80,000 as Inflation Shock and AI Selloff Hit Crypto",
     "dek": "Bitcoin lost 3.5% over 24 hours at a Thursday morning snapshot. Ether suffered heavier forced selling as ETF withdrawals and a broader retreat from risk weakened the market.",
@@ -2082,7 +2451,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp 480w, assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp 960w, assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "us-inflation-retail-sales-september-2026",
     "title": "U.S. Producer Prices Jump 1.3% as Retail Sales Offer an Uneven Growth Signal",
     "dek": "Thursday’s reports combine stronger price pressure with higher dollar sales. The distinction between spending more and buying more is central to the economic outlook.",
@@ -2130,7 +2500,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/us-inflation-retail-sales-september-2026-960.webp",
     "imageSrcset": "assets/responsive/us-inflation-retail-sales-september-2026-480.webp 480w, assets/responsive/us-inflation-retail-sales-september-2026-960.webp 960w, assets/editorial/us-inflation-retail-sales-september-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "coreweave-ai-debt-selloff-2026",
     "title": "CoreWeave’s Selloff Turns the AI Boom Into a Financing Test",
     "dek": "After a drop of more than 15% on Wednesday, further pressure on CoreWeave put the timing of debt payments and future customer cash at the center of the AI trade.",
@@ -2180,7 +2551,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/coreweave-ai-debt-selloff-2026-960.webp",
     "imageSrcset": "assets/responsive/coreweave-ai-debt-selloff-2026-480.webp 480w, assets/responsive/coreweave-ai-debt-selloff-2026-960.webp 960w, assets/editorial/coreweave-ai-debt-selloff-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "tsmc-q3-2026-ai-chip-demand",
     "title": "TSMC Posts Record Profit but Turns Cautious on 2027 as AI Shares Slide",
     "dek": "A 68.7% profit increase and higher sales guidance meet a deteriorating market mood. Management’s caution for next year separates strong chip demand from wider economic risks.",
@@ -2229,7 +2601,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp",
     "imageSrcset": "assets/responsive/tsmc-q3-2026-ai-chip-demand-480.webp 480w, assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp 960w, assets/editorial/tsmc-q3-2026-ai-chip-demand.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ftc-openai-anthropic-safety-subpoenas-2026",
     "title": "FTC Seeks OpenAI and Anthropic Safety Records as AI Scrutiny Intensifies",
     "dek": "Reported document demands bring safety incidents, safeguards and public claims into focus. The inquiry is a step in gathering evidence, not a finding of wrongdoing.",
@@ -2280,7 +2653,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp",
     "imageSrcset": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-480.webp 480w, assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp 960w, assets/editorial/ftc-openai-anthropic-safety-subpoenas-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "cohere-aisle-cybersecurity-deal-2026",
     "title": "Cohere Signs Letter to Buy AI Security Specialist AISLE",
     "dek": "The proposed deal would bring autonomous vulnerability research closer to Cohere’s model development. Finding a bug and safely deploying its fix remain different tasks.",
@@ -2290,18 +2664,18 @@ const TTN_ARTICLES = [
     "image": "assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp",
     "tickers": [],
     "body": [
-  "Cohere and cybersecurity startup AISLE announced a letter of intent on October 15 for Cohere to acquire AISLE, bringing automated vulnerability research closer to the development of enterprise AI models. The companies described a proposed transaction. They did not announce that the acquisition had closed, and Reuters reported that financial terms were not disclosed.",
-  "The move addresses a practical problem for businesses adopting more capable AI systems: the software they depend on still needs to be examined, patched and operated safely. A model that can produce useful code creates value only if the surrounding process can distinguish a valid fix from a change that introduces a new failure.",
-  "Cohere said AISLE’s work would support security and threat detection, monitoring of agents and deployment in private or isolated environments. AISLE said its Prague headquarters would become Cohere’s Prague office when the transaction completes. Those are announced intentions, rather than evidence that every integration is already available to customers.",
-  "Cohere also cited more than 500 previously unknown vulnerabilities assigned CVEs across more than 100 codebases in AISLE’s first year. The figure is a company-reported record of discoveries; it is not a measurement of every flaw in those projects or the proportion an automated system would find in a new customer’s software.",
-  "The commercial proposition is more specific than adding a generic chatbot to a security dashboard. It is to combine model capability with the systems needed to search code, validate a suspected problem and help produce a remedy. The proposed acquisition makes that combination part of Cohere’s platform strategy.",
-  "A vulnerability finding has to be reproducible and relevant. A plausible explanation from a model is not enough if a maintainer cannot confirm the underlying defect. An automated process can generate a large volume of findings while leaving a human team with a larger verification queue.",
-  "The next step is harder still: fixing a defect without breaking the behavior people rely on. A patch may remove one unsafe operation while changing compatibility, performance or a public interface. Those tradeoffs make testing and review part of the product’s value, rather than administrative work that can be assumed away.",
-  "For a hypothetical payments application, a security change that prevents valid transactions would create a different operational problem. The aim is not simply to minimize the number of warnings. It is to reduce exposure while preserving the required function of the system. That example does not describe an AISLE customer or a reported product defect.",
-  "Enterprises also need to decide which source code, credentials and production systems an automated reviewer can access. Private deployment can change where processing takes place, but the customer still has to define permissions, review outputs and manage updates.",
-  "Evidence from a purchase evaluation should therefore include confirmed findings, the time required to validate them and the work needed to put fixes into use. A faster first scan is useful, but it is not the same as a shorter path to a safely deployed patch.",
-  "Cohere’s announcement puts cybersecurity closer to the center of its enterprise offering. The proposed deal’s value will depend on whether that proximity improves verified results for customers. The immediate news is the acquisition letter; the next test is the combination’s delivery, not the ambition expressed around it."
-],
+      "Cohere and cybersecurity startup AISLE announced a letter of intent on October 15 for Cohere to acquire AISLE, bringing automated vulnerability research closer to the development of enterprise AI models. The companies described a proposed transaction. They did not announce that the acquisition had closed, and Reuters reported that financial terms were not disclosed.",
+      "The move addresses a practical problem for businesses adopting more capable AI systems: the software they depend on still needs to be examined, patched and operated safely. A model that can produce useful code creates value only if the surrounding process can distinguish a valid fix from a change that introduces a new failure.",
+      "Cohere said AISLE’s work would support security and threat detection, monitoring of agents and deployment in private or isolated environments. AISLE said its Prague headquarters would become Cohere’s Prague office when the transaction completes. Those are announced intentions, rather than evidence that every integration is already available to customers.",
+      "Cohere also cited more than 500 previously unknown vulnerabilities assigned CVEs across more than 100 codebases in AISLE’s first year. The figure is a company-reported record of discoveries; it is not a measurement of every flaw in those projects or the proportion an automated system would find in a new customer’s software.",
+      "The commercial proposition is more specific than adding a generic chatbot to a security dashboard. It is to combine model capability with the systems needed to search code, validate a suspected problem and help produce a remedy. The proposed acquisition makes that combination part of Cohere’s platform strategy.",
+      "A vulnerability finding has to be reproducible and relevant. A plausible explanation from a model is not enough if a maintainer cannot confirm the underlying defect. An automated process can generate a large volume of findings while leaving a human team with a larger verification queue.",
+      "The next step is harder still: fixing a defect without breaking the behavior people rely on. A patch may remove one unsafe operation while changing compatibility, performance or a public interface. Those tradeoffs make testing and review part of the product’s value, rather than administrative work that can be assumed away.",
+      "For a hypothetical payments application, a security change that prevents valid transactions would create a different operational problem. The aim is not simply to minimize the number of warnings. It is to reduce exposure while preserving the required function of the system. That example does not describe an AISLE customer or a reported product defect.",
+      "Enterprises also need to decide which source code, credentials and production systems an automated reviewer can access. Private deployment can change where processing takes place, but the customer still has to define permissions, review outputs and manage updates.",
+      "Evidence from a purchase evaluation should therefore include confirmed findings, the time required to validate them and the work needed to put fixes into use. A faster first scan is useful, but it is not the same as a shorter path to a safely deployed patch.",
+      "Cohere’s announcement puts cybersecurity closer to the center of its enterprise offering. The proposed deal’s value will depend on whether that proximity improves verified results for customers. The immediate news is the acquisition letter; the next test is the combination’s delivery, not the ambition expressed around it."
+    ],
     "sources": [
       {
         "label": "Reuters, October 15: Cohere’s proposed AISLE acquisition",
@@ -2321,7 +2695,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp",
     "imageSrcset": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-480.webp 480w, assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp 960w, assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "us-cpi-september-2026-energy",
     "title": "U.S. Inflation Reaches 3.7% as Gasoline Drives September’s Increase",
     "dek": "The September CPI report puts energy back at the center of the inflation debate. Core prices also rose, leaving the Fed with more than a fuel-price problem.",
@@ -2363,7 +2738,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/us-cpi-september-2026-energy-960.webp",
     "imageSrcset": "assets/responsive/us-cpi-september-2026-energy-480.webp 480w, assets/responsive/us-cpi-september-2026-energy-960.webp 960w, assets/editorial/us-cpi-september-2026-energy.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bank-of-america-q3-2026-results",
     "title": "Bank of America’s Earnings Miss Extends Beyond Its Settlement Charge",
     "dek": "A regulatory charge explains part of the quarterly profit decline. The adjusted earnings miss leaves a separate question about the strength of the operating business.",
@@ -2409,7 +2785,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bank-of-america-q3-2026-results-960.webp",
     "imageSrcset": "assets/responsive/bank-of-america-q3-2026-results-480.webp 480w, assets/responsive/bank-of-america-q3-2026-results-960.webp 960w, assets/editorial/bank-of-america-q3-2026-results.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "china-september-2026-export-surge",
     "title": "China’s Export Surge Widens the Gap Between Trade Strength and Domestic Demand",
     "dek": "September exports jumped 36.3% in dollar terms. The trade figures show strong overseas demand, but they cannot establish the health of Chinese household spending.",
@@ -2451,7 +2828,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/china-september-2026-export-surge-960.webp",
     "imageSrcset": "assets/responsive/china-september-2026-export-surge-480.webp 480w, assets/responsive/china-september-2026-export-surge-960.webp 960w, assets/editorial/china-september-2026-export-surge.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "asml-q3-2026-ai-demand",
     "title": "ASML Posts Record Sales, but AI Chip Supply Remains Tight",
     "dek": "Record sales and a higher annual outlook support the semiconductor investment story. Customer interest years ahead remains different from revenue already earned.",
@@ -2493,7 +2871,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/asml-q3-2026-ai-demand-960.webp",
     "imageSrcset": "assets/responsive/asml-q3-2026-ai-demand-480.webp 480w, assets/responsive/asml-q3-2026-ai-demand-960.webp 960w, assets/editorial/asml-q3-2026-ai-demand.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "apple-homeview-siri-ai-2026",
     "title": "Apple HomeView Makes Personalized AI a Shared-Household Test",
     "dek": "Apple’s $299 home hub brings Siri AI into a communal space. Recognizing a user is only the first step toward acting correctly on that person’s information.",
@@ -2535,7 +2914,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/apple-homeview-siri-ai-2026-960.webp",
     "imageSrcset": "assets/responsive/apple-homeview-siri-ai-2026-480.webp 480w, assets/responsive/apple-homeview-siri-ai-2026-960.webp 960w, assets/editorial/apple-homeview-siri-ai-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "scaleway-amd-sweden-ai-supercomputer",
     "title": "Scaleway’s Sweden Project Gives European AI Buyers Another Hardware Choice",
     "dek": "The announced AMD-based supercomputer broadens Scaleway’s infrastructure portfolio. For customers, software compatibility and operating terms matter alongside accelerator capacity.",
@@ -2577,7 +2957,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp",
     "imageSrcset": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-480.webp 480w, assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp 960w, assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "imf-ai-growth-outlook-2026",
     "title": "The IMF’s Growth Upgrade Has an AI Dependency",
     "dek": "AI investment supports the latest global outlook. The harder question is how much resilience remains if spending slows or borrowing becomes more expensive.",
@@ -2619,7 +3000,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/imf-ai-growth-outlook-2026-960.webp",
     "imageSrcset": "assets/responsive/imf-ai-growth-outlook-2026-480.webp 480w, assets/responsive/imf-ai-growth-outlook-2026-960.webp 960w, assets/editorial/imf-ai-growth-outlook-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ai-boom-capital-financing-2026",
     "title": "The AI Boom’s Next Constraint May Be Its Balance Sheet",
     "dek": "Broadcom’s chief points to capital as a constraint. Investors need to follow the funding behind capacity plans, not just demand for chips.",
@@ -2661,7 +3043,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-boom-capital-financing-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-boom-capital-financing-2026-480.webp 480w, assets/responsive/ai-boom-capital-financing-2026-960.webp 960w, assets/editorial/ai-boom-capital-financing-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "anthropic-ai-self-replication-iot-2026",
     "title": "Anthropic’s AI Replication Study Puts Everyday Devices in Focus",
     "dek": "A laboratory study examines whether small models could spread across connected hardware. Its warning is consequential, but its timeline remains an estimate.",
@@ -2699,7 +3082,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp",
     "imageSrcset": "assets/responsive/anthropic-ai-self-replication-iot-2026-480.webp 480w, assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp 960w, assets/editorial/anthropic-ai-self-replication-iot-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "broadcom-ai-networking-ocp-2026",
     "title": "Broadcom’s OCP Lineup Shows Why AI Needs More Than GPUs",
     "dek": "Networking and optics take center stage at this week’s summit. Product specifications matter only if they improve the performance of the complete system.",
@@ -2738,7 +3122,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/broadcom-ai-networking-ocp-2026-960.webp",
     "imageSrcset": "assets/responsive/broadcom-ai-networking-ocp-2026-480.webp 480w, assets/responsive/broadcom-ai-networking-ocp-2026-960.webp 960w, assets/editorial/broadcom-ai-networking-ocp-2026.webp 1672w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "sp500-narrow-rally-earnings-test-2026",
     "title": "The S&P 500 Rally Is Narrow. Earnings Will Test Its Strength",
     "dek": "Index gains can disguise weaker participation. This week’s chipmaker results will test the earnings story, while broader company forecasts will show whether leadership is spreading.",
@@ -2798,7 +3183,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp",
     "imageSrcset": "assets/responsive/sp500-narrow-rally-earnings-test-2026-480.webp 480w, assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp 960w, assets/editorial/sp500-narrow-rally-earnings-test-2026.webp 1672w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-inference-unit-economics-2026",
     "title": "AI Inference: The Cost Behind Every Completed Task",
     "dek": "Token prices are only one part of an AI service's costs. Retries, review time and hardware utilization determine what a completed task costs.",
@@ -2852,7 +3238,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-inference-unit-economics-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-inference-unit-economics-2026-480.webp 480w, assets/responsive/ai-inference-unit-economics-2026-960.webp 960w, assets/editorial/ai-inference-unit-economics-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "enterprise-ai-data-security-2026",
     "title": "Enterprise AI Starts With Access Controls",
     "dek": "An assistant connected to company records needs the same permission boundaries as its users, plus controls on the actions it can take.",
@@ -2911,7 +3298,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/enterprise-ai-data-security-2026-960.webp",
     "imageSrcset": "assets/responsive/enterprise-ai-data-security-2026-480.webp 480w, assets/responsive/enterprise-ai-data-security-2026-960.webp 960w, assets/editorial/enterprise-ai-data-security-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-search-publisher-economics-2026",
     "title": "AI Search Puts the Value of a Click Under Pressure",
     "dek": "Answer-first search changes how readers reach publishers. Traffic, subscriptions and licensing need to be measured separately.",
@@ -2958,7 +3346,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-search-publisher-economics-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-search-publisher-economics-2026-480.webp 480w, assets/responsive/ai-search-publisher-economics-2026-960.webp 960w, assets/editorial/ai-search-publisher-economics-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "robotics-ai-factory-roi-2026",
     "title": "A Factory Robot Must Earn Its Place on the Line",
     "dek": "The return on AI-enabled robotics depends on accepted output, uptime and integration costs, not on a successful demonstration.",
@@ -2970,29 +3359,29 @@ const TTN_ARTICLES = [
       "S&P 500"
     ],
     "body": [
-  "A robot completing a demonstration proves that a task can be performed under the conditions shown. A factory investment needs a broader result: reliable accepted output across normal shifts, product variation, maintenance and interruptions. AI can improve perception or adaptation, but those capabilities must earn their cost in the production process.",
-  "NIST's work on assembly-robot performance and collaborative workcell integration emphasizes task-specific evaluation. That is an important starting point for financial analysis. A speed or accuracy figure means little without the part, operation and operating conditions to which it applies.",
-  "Measure accepted output over the scheduled shift",
-  "Suppose a hypothetical cell is scheduled for eight hours and has a nominal cycle time of 30 seconds. Its theoretical output is 960 units. If it is operating for 80% of scheduled time, actual cycles fall to 768. At a 95% acceptance rate, approximately 730 units pass inspection.",
-  "The gap between 960 theoretical units and 730 accepted ones matters for revenue and unit cost. A demonstration showing one successful 30-second cycle does not measure availability or reject rates. These inputs should come from representative production trials, including changeovers and ordinary faults.",
-  "An AI-enabled vision system might improve the ability to handle varied parts while adding processing time. Whether that helps depends on the whole cell. A slower cycle that reduces rejects can produce more saleable output than a faster cycle requiring extensive rework.",
-  "The production bottleneck determines the benefit",
-  "A faster robot does not automatically make the factory faster. If the following station accepts only 600 units per shift, the hypothetical cell's 730 accepted units exceed downstream capacity. Increasing its output to 850 would not by itself increase finished production.",
-  "Conversely, if a cell producing 500 accepted units constrains a line capable of 600, raising it to 600 can unlock 100 additional finished units. At an illustrative $20 contribution per unit and 250 operating days, the extra contribution could be $500,000 a year, provided customer demand and other inputs support those sales.",
-  "Contribution is revenue less relevant variable costs, not the full sale price. Unsold output or inventory accumulation cannot be counted as realized sales. The assessment needs to connect the machine's improvement with the constraint that actually limits the business.",
-  "Include the workcell around the robot",
-  "The arm's purchase price is only part of installed cost. Tooling, fixtures, sensing, integration, software, training and commissioning can all matter. A collaborative robot also requires assessment of the actual application; the product category does not make every surrounding operation inherently safe.",
-  "OSHA's technical manual discusses hazards across robot-system activities, including maintenance and other non-routine operations. Safety engineering and qualified assessment belong in the installed design and cost. A simple payback estimate is not a substitute for determining whether the workcell can be operated safely.",
-  "Consider a hypothetical project with a $150,000 robot, $100,000 of tooling and guarding, $150,000 of integration and $50,000 of training and commissioning. Total initial outlay is $450,000. Quoting only the robot's price would exclude two-thirds of the installed investment in this example.",
-  "Separate labor capacity from cash savings",
-  "Suppose the cell releases 2,000 labor hours per year, valued at an assumed $35 an hour. That is $70,000 of labor capacity. If employees remain on payroll and no overtime or hiring is avoided, the accounting wage bill may not fall by $70,000. Value depends on how the released time is used.",
-  "If the project also reduces scrap by $40,000 annually but adds $25,000 of maintenance and software costs, the combined annual benefit is $85,000 under an assumption that the labor value is fully realized. Simple payback on $450,000 is about 5.3 years. With no realized labor benefit, annual benefit is $15,000 and payback becomes 30 years.",
-  "These hypothetical results illustrate the sensitivity to benefit definitions. Discounting, taxes, financing, replacement costs and ramp-up delays would change an investment valuation. The cash-flow distinction is similar to the one in <a href=\"ai-capex-nasdaq-correction.html\">AI infrastructure investment</a>.",
-  "Product variation and recovery affect the full life cycle",
-  "A cell can perform well on the most common part yet struggle with short production runs, reflective surfaces or inconsistent presentation. Changeover time, retraining and recovery after a failed operation should be measured alongside normal cycle time. A high average can conceal a small class of costly failures.",
-  "A hypothetical one-hour daily changeover on an eight-hour schedule removes 12.5% of available time before other downtime. Reducing it can be more valuable than a modest increase in peak arm speed. Performance should therefore be tested against the plant's actual product mix and staffing arrangements.",
-  "Use accepted output, line constraints and realized cash benefits to judge the return. Compare the evidence with <a href=\"ai-agents-enterprise-roi-2026.html\">other automation projects</a> while recognizing that physical integration and safety create distinct obligations. A robot earns its place through sustained production value across the conditions in which it will work."
-],
+      "A robot completing a demonstration proves that a task can be performed under the conditions shown. A factory investment needs a broader result: reliable accepted output across normal shifts, product variation, maintenance and interruptions. AI can improve perception or adaptation, but those capabilities must earn their cost in the production process.",
+      "NIST's work on assembly-robot performance and collaborative workcell integration emphasizes task-specific evaluation. That is an important starting point for financial analysis. A speed or accuracy figure means little without the part, operation and operating conditions to which it applies.",
+      "Measure accepted output over the scheduled shift",
+      "Suppose a hypothetical cell is scheduled for eight hours and has a nominal cycle time of 30 seconds. Its theoretical output is 960 units. If it is operating for 80% of scheduled time, actual cycles fall to 768. At a 95% acceptance rate, approximately 730 units pass inspection.",
+      "The gap between 960 theoretical units and 730 accepted ones matters for revenue and unit cost. A demonstration showing one successful 30-second cycle does not measure availability or reject rates. These inputs should come from representative production trials, including changeovers and ordinary faults.",
+      "An AI-enabled vision system might improve the ability to handle varied parts while adding processing time. Whether that helps depends on the whole cell. A slower cycle that reduces rejects can produce more saleable output than a faster cycle requiring extensive rework.",
+      "The production bottleneck determines the benefit",
+      "A faster robot does not automatically make the factory faster. If the following station accepts only 600 units per shift, the hypothetical cell's 730 accepted units exceed downstream capacity. Increasing its output to 850 would not by itself increase finished production.",
+      "Conversely, if a cell producing 500 accepted units constrains a line capable of 600, raising it to 600 can unlock 100 additional finished units. At an illustrative $20 contribution per unit and 250 operating days, the extra contribution could be $500,000 a year, provided customer demand and other inputs support those sales.",
+      "Contribution is revenue less relevant variable costs, not the full sale price. Unsold output or inventory accumulation cannot be counted as realized sales. The assessment needs to connect the machine's improvement with the constraint that actually limits the business.",
+      "Include the workcell around the robot",
+      "The arm's purchase price is only part of installed cost. Tooling, fixtures, sensing, integration, software, training and commissioning can all matter. A collaborative robot also requires assessment of the actual application; the product category does not make every surrounding operation inherently safe.",
+      "OSHA's technical manual discusses hazards across robot-system activities, including maintenance and other non-routine operations. Safety engineering and qualified assessment belong in the installed design and cost. A simple payback estimate is not a substitute for determining whether the workcell can be operated safely.",
+      "Consider a hypothetical project with a $150,000 robot, $100,000 of tooling and guarding, $150,000 of integration and $50,000 of training and commissioning. Total initial outlay is $450,000. Quoting only the robot's price would exclude two-thirds of the installed investment in this example.",
+      "Separate labor capacity from cash savings",
+      "Suppose the cell releases 2,000 labor hours per year, valued at an assumed $35 an hour. That is $70,000 of labor capacity. If employees remain on payroll and no overtime or hiring is avoided, the accounting wage bill may not fall by $70,000. Value depends on how the released time is used.",
+      "If the project also reduces scrap by $40,000 annually but adds $25,000 of maintenance and software costs, the combined annual benefit is $85,000 under an assumption that the labor value is fully realized. Simple payback on $450,000 is about 5.3 years. With no realized labor benefit, annual benefit is $15,000 and payback becomes 30 years.",
+      "These hypothetical results illustrate the sensitivity to benefit definitions. Discounting, taxes, financing, replacement costs and ramp-up delays would change an investment valuation. The cash-flow distinction is similar to the one in <a href=\"ai-capex-nasdaq-correction.html\">AI infrastructure investment</a>.",
+      "Product variation and recovery affect the full life cycle",
+      "A cell can perform well on the most common part yet struggle with short production runs, reflective surfaces or inconsistent presentation. Changeover time, retraining and recovery after a failed operation should be measured alongside normal cycle time. A high average can conceal a small class of costly failures.",
+      "A hypothetical one-hour daily changeover on an eight-hour schedule removes 12.5% of available time before other downtime. Reducing it can be more valuable than a modest increase in peak arm speed. Performance should therefore be tested against the plant's actual product mix and staffing arrangements.",
+      "Use accepted output, line constraints and realized cash benefits to judge the return. Compare the evidence with <a href=\"ai-agents-enterprise-roi-2026.html\">other automation projects</a> while recognizing that physical integration and safety create distinct obligations. A robot earns its place through sustained production value across the conditions in which it will work."
+    ],
     "sources": [
       {
         "label": "NIST: Measuring assembly-robot performance",
@@ -3013,7 +3402,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/robotics-ai-factory-roi-2026-960.webp",
     "imageSrcset": "assets/responsive/robotics-ai-factory-roi-2026-480.webp 480w, assets/responsive/robotics-ai-factory-roi-2026-960.webp 960w, assets/editorial/robotics-ai-factory-roi-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-data-center-electricity-demand-2026",
     "title": "Data Centers Face a Power Constraint as Well as a Chip Constraint",
     "dek": "Forecast electricity demand is rising, but grid connections, tariffs and project timing determine the economics of each facility.",
@@ -3067,7 +3457,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-data-center-electricity-demand-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-data-center-electricity-demand-2026-480.webp 480w, assets/responsive/ai-data-center-electricity-demand-2026-960.webp 960w, assets/editorial/ai-data-center-electricity-demand-2026.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "fed-policy-2026",
     "title": "How Fed Decisions Reach Stocks, Bonds and Crypto",
     "dek": "Rate expectations change borrowing costs and valuations. Different assets can react to the same decision for different reasons.",
@@ -3117,7 +3508,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/fed-policy-2026-editorial-960.webp",
     "imageSrcset": "assets/responsive/fed-policy-2026-editorial-480.webp 480w, assets/responsive/fed-policy-2026-editorial-960.webp 960w, assets/editorial/fed-policy-2026-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bitcoin-halving-cycles",
     "title": "Bitcoin Halvings Change Supply, Not the Rules of Valuation",
     "dek": "The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs.",
@@ -3171,7 +3563,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-halving-cycles-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-halving-cycles-480.webp 480w, assets/responsive/bitcoin-halving-cycles-960.webp 960w, assets/editorial/bitcoin-halving-cycles.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "gold-hedge-explainer",
     "title": "Gold Is a Hedge With Conditions",
     "dek": "Inflation, real yields and currency moves influence gold differently. A hedge against one risk may still fall during another.",
@@ -3225,7 +3618,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/gold-hedge-explainer-960.webp",
     "imageSrcset": "assets/responsive/gold-hedge-explainer-480.webp 480w, assets/responsive/gold-hedge-explainer-960.webp 960w, assets/editorial/gold-hedge-explainer.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "oil-shock-market-ripple",
     "title": "An Oil Shock Spreads Through Costs, Spending and Exchange Rates",
     "dek": "Higher crude prices affect producers and consumers differently. Duration and the source of the shock shape the wider market response.",
@@ -3280,7 +3674,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
     "imageSrcset": "assets/responsive/oil-shock-market-ripple-480.webp 480w, assets/responsive/oil-shock-market-ripple-960.webp 960w, assets/editorial/oil-shock-market-ripple.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-capex-nasdaq-correction",
     "title": "The AI Spending Debate Is About Returns on Capital",
     "dek": "Data-center investment can expand capacity before revenue catches up. Depreciation, utilization and financing determine the return.",
@@ -3336,7 +3731,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-capex-nasdaq-correction-960.webp",
     "imageSrcset": "assets/responsive/ai-capex-nasdaq-correction-480.webp 480w, assets/responsive/ai-capex-nasdaq-correction-960.webp 960w, assets/editorial/ai-capex-nasdaq-correction.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "treasury-yields-spike-2026",
     "title": "Why Treasury Yields Can Rise Without a Fed Rate Increase",
     "dek": "Long-term borrowing costs reflect expected policy, inflation and term premiums. The cause of a yield increase matters beyond the bond market.",
@@ -3394,7 +3790,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/treasury-yields-spike-2026-960.webp",
     "imageSrcset": "assets/responsive/treasury-yields-spike-2026-480.webp 480w, assets/responsive/treasury-yields-spike-2026-960.webp 960w, assets/editorial/treasury-yields-spike-2026.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "stablecoins-explained-depeg-risk",
     "title": "A Stablecoin's Peg Depends on Its Backing and Redemption",
     "dek": "A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.",
@@ -3450,7 +3847,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
     "imageSrcset": "assets/responsive/stablecoins-explained-depeg-risk-480.webp 480w, assets/responsive/stablecoins-explained-depeg-risk-960.webp 960w, assets/editorial/stablecoins-explained-depeg-risk.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "earnings-beat-miss-explained",
     "title": "An Earnings Beat Can Still Leave Shareholders Disappointed",
     "dek": "A company's reported quarter is only part of an earnings release. Guidance, margins and the expectations built into its share price can matter more.",
@@ -3496,7 +3894,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp 480w, assets/responsive/earnings-beat-miss-explained-editorial-960.webp 960w, assets/editorial/earnings-beat-miss-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bitcoin-etf-institutional-adoption",
     "title": "What a Bitcoin ETF Changes About Ownership",
     "dek": "A listed fund makes bitcoin exposure accessible through a securities account. Its shares do not give every investor direct ownership of coins.",
@@ -3541,7 +3940,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp 480w, assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp 960w, assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "eur-usd-rate-differential-explained",
     "title": "EUR/USD Responds to Expected Rates, Not Just Today's Gap",
     "dek": "Differences between US and euro-area borrowing costs affect currency demand, but growth, hedging and risk appetite can alter the result.",
@@ -3593,7 +3993,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
     "imageSrcset": "assets/responsive/eur-usd-rate-differential-explained-480.webp 480w, assets/responsive/eur-usd-rate-differential-explained-960.webp 960w, assets/editorial/eur-usd-rate-differential-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "crypto-liquidation-leverage-explained",
     "title": "Crypto Liquidation Begins Before All the Margin Is Gone",
     "dek": "Leverage magnifies losses. Maintenance-margin rules, fees and the exchange's price reference determine when a position is closed.",
@@ -3647,7 +4048,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp 480w, assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp 960w, assets/editorial/crypto-liquidation-leverage-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "vix-fear-index-explained",
     "title": "VIX Measures Expected Volatility, Not the Direction of Stocks",
     "dek": "The index uses S&P 500 option prices to estimate near-term volatility. A high reading does not identify a market bottom.",
@@ -3697,7 +4099,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/vix-fear-index-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/vix-fear-index-explained-editorial-480.webp 480w, assets/responsive/vix-fear-index-explained-editorial-960.webp 960w, assets/editorial/vix-fear-index-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "short-squeeze-mechanics-explained",
     "title": "A Short Squeeze Turns Losses Into Forced Buying",
     "dek": "Crowded short positions can intensify a share-price increase, but a large rally does not prove that short covering caused it.",
@@ -3748,7 +4151,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/short-squeeze-mechanics-explained-960.webp",
     "imageSrcset": "assets/responsive/short-squeeze-mechanics-explained-480.webp 480w, assets/responsive/short-squeeze-mechanics-explained-960.webp 960w, assets/editorial/short-squeeze-mechanics-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "dollar-cost-averaging-vs-lump-sum",
     "title": "Investing a Lump Sum or Spreading It Out: The Trade-Off",
     "dek": "Phasing an existing cash balance reduces immediate market exposure. It also delays exposure to any gains during the investment period.",
@@ -3793,7 +4197,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp",
     "imageSrcset": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp 480w, assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp 960w, assets/editorial/dollar-cost-averaging-vs-lump-sum.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "correlation-breakdown-diversification",
     "title": "Why Different Assets Can Fall Together",
     "dek": "Diversification reduces exposure to individual risks. It cannot guarantee that portfolio holdings remain uncorrelated during a shock.",
@@ -3846,7 +4251,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/correlation-breakdown-diversification-editorial-960.webp",
     "imageSrcset": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp 480w, assets/responsive/correlation-breakdown-diversification-editorial-960.webp 960w, assets/editorial/correlation-breakdown-diversification-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "crypto-taxes-us-explained",
     "title": "US Crypto Taxes Begin With the Type of Transaction",
     "dek": "Selling, swapping and receiving digital assets can have different tax consequences. Records of value, basis and timing are essential.",
@@ -3899,7 +4305,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/crypto-taxes-us-explained-960.webp",
     "imageSrcset": "assets/responsive/crypto-taxes-us-explained-480.webp 480w, assets/responsive/crypto-taxes-us-explained-960.webp 960w, assets/editorial/crypto-taxes-us-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "cpi-inflation-explained",
     "title": "Reading CPI: Headline Inflation, Core and the Price Level",
     "dek": "A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release.",
@@ -3946,7 +4353,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/cpi-inflation-explained-960.webp",
     "imageSrcset": "assets/responsive/cpi-inflation-explained-480.webp 480w, assets/responsive/cpi-inflation-explained-960.webp 960w, assets/editorial/cpi-inflation-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "options-calls-puts-explained",
     "title": "Calls, Puts and the Price of an Option",
     "dek": "The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller.",
@@ -3995,7 +4403,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/options-calls-puts-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/options-calls-puts-explained-editorial-480.webp 480w, assets/responsive/options-calls-puts-explained-editorial-960.webp 960w, assets/editorial/options-calls-puts-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "stock-buybacks-explained",
     "title": "A Buyback Changes the Share Count, Not the Business by Itself",
     "dek": "Repurchases can raise earnings per share even without higher profit. Price paid and the source of funding determine whether they help shareholders.",
@@ -4049,7 +4458,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/stock-buybacks-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/stock-buybacks-explained-editorial-480.webp 480w, assets/responsive/stock-buybacks-explained-editorial-960.webp 960w, assets/editorial/stock-buybacks-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "prediction-markets-explained",
     "title": "A Prediction-Market Price Is an Estimate With Frictions",
     "dek": "Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs.",
@@ -4096,7 +4506,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/prediction-markets-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/prediction-markets-explained-editorial-480.webp 480w, assets/responsive/prediction-markets-explained-editorial-960.webp 960w, assets/editorial/prediction-markets-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ipo-process-explained",
     "title": "From IPO Filing to the First Day of Trading",
     "dek": "The offer price, allocation and public trading price describe different stages of a company's listing. Early enthusiasm does not settle valuation.",
@@ -4108,27 +4519,27 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-  "An initial public offering brings a company's shares to public investors, but the filing, offer price and first market trade are separate events. A headline announcing an IPO does not mean trading has started. Nor does a strong first day establish that the business will deliver attractive returns over subsequent years.",
-  "For a traditional registered US IPO, the prospectus provides the central account of the business and transaction. Reading the latest version matters because terms, financial information and the number of shares offered can change while the offering is prepared.",
-  "Filing begins a disclosure process",
-  "A company commonly uses Form S-1 to register an IPO, although other forms apply in some cases. SEC staff review concerns disclosure and compliance. Effectiveness of a registration statement permits the offering to proceed; it is not an endorsement of the investment, its price or management's forecasts.",
-  "The prospectus describes the business, risks, finances, proposed use of proceeds and securities being sold. EDGAR provides access to the filings. A presentation summarizing growth may be useful, but the financial statements and notes are necessary to understand what that growth costs and how it is financed.",
-  "For example, consider a hypothetical company with revenue increasing from $100 million to $150 million while operating losses rise from $20 million to $45 million. Revenue grew 50%, but the operating margin deteriorated from minus 20% to minus 30%. Both statements belong in an assessment of the business, rather than selecting only the faster sales growth.",
-  "Pricing and allocation precede public trading",
-  "In a traditional underwritten transaction, the company and its bankers use investor indications of interest and other information to settle offering terms. Access to shares at the offer price depends on allocation. An investor placing an order after the stock opens participates in a different market at a potentially different price.",
-  "Suppose a hypothetical IPO is priced at $20 and the first exchange trade occurs at $30. An allocated investor has a 50% increase on paper at that point. A buyer entering at $30 has no such gain. If the stock later falls to $24, the first investor remains 20% above the offer price while the second is down 20%, before costs.",
-  "The phrase 'IPO rises 50%' describes a comparison with the offer price. It does not mean every buyer earned 50%, that an allocation could have been obtained or that the price was available throughout the session. Identifying the entry point prevents a market statistic from becoming a misleading return claim.",
-  "Shares sold are not always shares newly created",
-  "A transaction can include new shares issued by the company and existing shares sold by current holders. The proceeds from those two components go to different recipients. This is the same distinction that matters in <a href=\"secondary-stock-offerings-dilution-explained.html\">follow-on share sales and dilution</a>.",
-  "Imagine 10 million shares are offered at $20, with 7 million newly issued and 3 million sold by existing holders. Gross transaction value is $200 million. The company receives $140 million before its fees and expenses, while selling holders receive $60 million before their costs. Calling all $200 million fresh funding for the business would be incorrect.",
-  "The number sold also differs from the company's total shares outstanding. If 50 million shares exist after the offering, the offer price implies a $1 billion equity value. The $200 million offering size is not the whole-company valuation. <a href=\"market-cap-explained.html\">Market capitalization</a> uses the relevant total share count, with separate attention to dilution and security classes.",
-  "First-day trading can reflect a limited float",
-  "Only part of the company's equity may be readily tradable initially. Lock-up agreements and other restrictions can constrain supply. Their terms vary and should be read in the prospectus rather than assumed from a standard timetable. Expiration can increase potential supply without requiring every eligible shareholder to sell.",
-  "Voting control also deserves attention. A structure with multiple share classes can give founders much more voting power than their economic ownership suggests. Buying an economic stake is not necessarily buying equivalent influence over the board or strategic decisions.",
-  "Evaluate the funded business after the event",
-  "Consider a hypothetical company that receives $140 million gross, pays $10 million of costs and repays $50 million of debt. That leaves $80 million of incremental cash before other uses. If operations consume $40 million a year, dividing gives two years of coverage under a deliberately static assumption. Actual spending, revenue and working capital will change that estimate.",
-  "Such calculations connect the transaction with operating needs. They are more informative than treating exchange admission as proof of maturity. Subsequent financial reports, cash generation, governance and the price paid remain central after the opening-day excitement passes."
-],
+      "An initial public offering brings a company's shares to public investors, but the filing, offer price and first market trade are separate events. A headline announcing an IPO does not mean trading has started. Nor does a strong first day establish that the business will deliver attractive returns over subsequent years.",
+      "For a traditional registered US IPO, the prospectus provides the central account of the business and transaction. Reading the latest version matters because terms, financial information and the number of shares offered can change while the offering is prepared.",
+      "Filing begins a disclosure process",
+      "A company commonly uses Form S-1 to register an IPO, although other forms apply in some cases. SEC staff review concerns disclosure and compliance. Effectiveness of a registration statement permits the offering to proceed; it is not an endorsement of the investment, its price or management's forecasts.",
+      "The prospectus describes the business, risks, finances, proposed use of proceeds and securities being sold. EDGAR provides access to the filings. A presentation summarizing growth may be useful, but the financial statements and notes are necessary to understand what that growth costs and how it is financed.",
+      "For example, consider a hypothetical company with revenue increasing from $100 million to $150 million while operating losses rise from $20 million to $45 million. Revenue grew 50%, but the operating margin deteriorated from minus 20% to minus 30%. Both statements belong in an assessment of the business, rather than selecting only the faster sales growth.",
+      "Pricing and allocation precede public trading",
+      "In a traditional underwritten transaction, the company and its bankers use investor indications of interest and other information to settle offering terms. Access to shares at the offer price depends on allocation. An investor placing an order after the stock opens participates in a different market at a potentially different price.",
+      "Suppose a hypothetical IPO is priced at $20 and the first exchange trade occurs at $30. An allocated investor has a 50% increase on paper at that point. A buyer entering at $30 has no such gain. If the stock later falls to $24, the first investor remains 20% above the offer price while the second is down 20%, before costs.",
+      "The phrase 'IPO rises 50%' describes a comparison with the offer price. It does not mean every buyer earned 50%, that an allocation could have been obtained or that the price was available throughout the session. Identifying the entry point prevents a market statistic from becoming a misleading return claim.",
+      "Shares sold are not always shares newly created",
+      "A transaction can include new shares issued by the company and existing shares sold by current holders. The proceeds from those two components go to different recipients. This is the same distinction that matters in <a href=\"secondary-stock-offerings-dilution-explained.html\">follow-on share sales and dilution</a>.",
+      "Imagine 10 million shares are offered at $20, with 7 million newly issued and 3 million sold by existing holders. Gross transaction value is $200 million. The company receives $140 million before its fees and expenses, while selling holders receive $60 million before their costs. Calling all $200 million fresh funding for the business would be incorrect.",
+      "The number sold also differs from the company's total shares outstanding. If 50 million shares exist after the offering, the offer price implies a $1 billion equity value. The $200 million offering size is not the whole-company valuation. <a href=\"market-cap-explained.html\">Market capitalization</a> uses the relevant total share count, with separate attention to dilution and security classes.",
+      "First-day trading can reflect a limited float",
+      "Only part of the company's equity may be readily tradable initially. Lock-up agreements and other restrictions can constrain supply. Their terms vary and should be read in the prospectus rather than assumed from a standard timetable. Expiration can increase potential supply without requiring every eligible shareholder to sell.",
+      "Voting control also deserves attention. A structure with multiple share classes can give founders much more voting power than their economic ownership suggests. Buying an economic stake is not necessarily buying equivalent influence over the board or strategic decisions.",
+      "Evaluate the funded business after the event",
+      "Consider a hypothetical company that receives $140 million gross, pays $10 million of costs and repays $50 million of debt. That leaves $80 million of incremental cash before other uses. If operations consume $40 million a year, dividing gives two years of coverage under a deliberately static assumption. Actual spending, revenue and working capital will change that estimate.",
+      "Such calculations connect the transaction with operating needs. They are more informative than treating exchange admission as proof of maturity. Subsequent financial reports, cash generation, governance and the price paid remain central after the opening-day excitement passes."
+    ],
     "sources": [
       {
         "label": "SEC: Investor bulletin on investing in an IPO",
@@ -4149,7 +4560,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ipo-process-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/ipo-process-explained-editorial-480.webp 480w, assets/responsive/ipo-process-explained-editorial-960.webp 960w, assets/editorial/ipo-process-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "market-cap-explained",
     "title": "Market Capitalization Is a Share Valuation, Not a Cash Balance",
     "dek": "Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis.",
@@ -4195,7 +4607,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/market-cap-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/market-cap-explained-editorial-480.webp 480w, assets/responsive/market-cap-explained-editorial-960.webp 960w, assets/editorial/market-cap-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "insider-selling-explained",
     "title": "What an Insider Sale Can and Cannot Tell You",
     "dek": "A filing records a transaction. Its timing, size and circumstances matter more than an assumption about what the seller knows.",
@@ -4241,7 +4654,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/insider-selling-explained-960.webp",
     "imageSrcset": "assets/responsive/insider-selling-explained-480.webp 480w, assets/responsive/insider-selling-explained-960.webp 960w, assets/editorial/insider-selling-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "nonfarm-payrolls-jobs-report-explained",
     "title": "The Jobs Report Contains More Than a Payroll Number",
     "dek": "Payrolls, unemployment, wages and revisions come from different measures. Reading them together is essential to understanding labor-market changes.",
@@ -4292,7 +4706,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp",
     "imageSrcset": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp 480w, assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp 960w, assets/editorial/nonfarm-payrolls-jobs-report-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "mergers-acquisitions-explained",
     "title": "A Merger Premium Must Be Earned After the Deal",
     "dek": "Combining businesses can create savings or new revenue. The price paid, financing and integration determine who benefits.",
@@ -4337,7 +4752,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/mergers-acquisitions-explained-960.webp",
     "imageSrcset": "assets/responsive/mergers-acquisitions-explained-480.webp 480w, assets/responsive/mergers-acquisitions-explained-960.webp 960w, assets/editorial/mergers-acquisitions-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "yield-curve-inversion-recession-signal",
     "title": "An Inverted Yield Curve Is a Warning, Not a Recession Clock",
     "dek": "Different maturity spreads carry different information. The signal's history does not establish the timing or certainty of a downturn.",
@@ -4383,7 +4799,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/yield-curve-inversion-recession-signal-960.webp",
     "imageSrcset": "assets/responsive/yield-curve-inversion-recession-signal-480.webp 480w, assets/responsive/yield-curve-inversion-recession-signal-960.webp 960w, assets/editorial/yield-curve-inversion-recession-signal.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "dxy-dollar-index-explained",
     "title": "DXY Is a Dollar Basket With a Heavy European Weight",
     "dek": "The dollar index is useful for a defined currency basket. It does not measure the dollar against every trading partner.",
@@ -4436,7 +4853,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/dxy-dollar-index-explained-960.webp",
     "imageSrcset": "assets/responsive/dxy-dollar-index-explained-480.webp 480w, assets/responsive/dxy-dollar-index-explained-960.webp 960w, assets/editorial/dxy-dollar-index-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "sector-rotation-explained",
     "title": "A Falling Sector Is Not the Same as a Falling Market",
     "dek": "Sector returns can diverge as earnings and rate expectations change. Breadth and weighting help separate rotation from a broad selloff.",
@@ -4490,7 +4908,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/sector-rotation-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/sector-rotation-explained-editorial-480.webp 480w, assets/responsive/sector-rotation-explained-editorial-960.webp 960w, assets/editorial/sector-rotation-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "etf-creation-redemption-mechanism",
     "title": "The Mechanism That Links an ETF to Its Holdings",
     "dek": "Authorized participants create and redeem fund shares. The arbitrage incentive usually limits price gaps, but it is not a guarantee.",
@@ -4543,7 +4962,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp",
     "imageSrcset": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp 480w, assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp 960w, assets/editorial/etf-creation-redemption-mechanism-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ism-pmi-explained",
     "title": "What the ISM Surveys Say About Business Activity",
     "dek": "A diffusion index measures the breadth of reported change. Its subindexes add context that the headline alone cannot provide.",
@@ -4597,7 +5017,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ism-pmi-explained-960.webp",
     "imageSrcset": "assets/responsive/ism-pmi-explained-480.webp 480w, assets/responsive/ism-pmi-explained-960.webp 960w, assets/editorial/ism-pmi-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "fed-funds-futures-rate-odds-explained",
     "title": "FedWatch Odds Are Market Estimates With Assumptions",
     "dek": "Federal funds futures price an average overnight rate. Turning that price into meeting probabilities requires a model.",
@@ -4651,7 +5072,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp 480w, assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp 960w, assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "analyst-ratings-price-targets-explained",
     "title": "An Analyst Target Is a Valuation Case, Not a Price Promise",
     "dek": "Ratings depend on assumptions, benchmarks and investment horizons. The reasoning behind a target matters more than its apparent precision.",
@@ -4697,7 +5119,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp 480w, assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp 960w, assets/editorial/analyst-ratings-price-targets-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "fed-independence-structure-explained",
     "title": "Fed Independence Has Boundaries and Accountability",
     "dek": "Congress sets the central bank's mandate. Operational independence concerns how monetary-policy decisions are made within that mandate.",
@@ -4755,7 +5178,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/fed-independence-structure-explained-960.webp",
     "imageSrcset": "assets/responsive/fed-independence-structure-explained-480.webp 480w, assets/responsive/fed-independence-structure-explained-960.webp 960w, assets/editorial/fed-independence-structure-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "put-call-ratio-options-sentiment-explained",
     "title": "The Put/Call Ratio Needs a Denominator and Context",
     "dek": "Option volume can indicate demand for protection or speculation. A ratio alone does not establish traders' intentions or forecast a reversal.",
@@ -4807,7 +5231,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp 480w, assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp 960w, assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "unemployment-rate-u3-u6-participation-explained",
     "title": "A Lower Unemployment Rate Can Have More Than One Cause",
     "dek": "U-3, U-6 and labor-force participation measure different parts of employment. Together they show more than the headline rate.",
@@ -4852,7 +5277,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp",
     "imageSrcset": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp 480w, assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp 960w, assets/editorial/unemployment-rate-u3-u6-participation-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "currency-intervention-explained",
     "title": "Currency Intervention Changes Supply, but Expectations Still Matter",
     "dek": "Official purchases and sales can affect exchange markets. Reserves, policy consistency and sterilization determine the operation's reach.",
@@ -4897,7 +5323,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/currency-intervention-explained-960.webp",
     "imageSrcset": "assets/responsive/currency-intervention-explained-480.webp 480w, assets/responsive/currency-intervention-explained-960.webp 960w, assets/editorial/currency-intervention-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "corporate-bonds-explained",
     "title": "Why a Cash-Rich Company May Still Issue Bonds",
     "dek": "Corporate borrowing creates a contractual claim on cash flow. The use of proceeds, maturity profile and credit spread explain the transaction.",
@@ -4909,24 +5336,24 @@ const TTN_ARTICLES = [
       "NASDAQ"
     ],
     "body": [
-  "A company can hold substantial cash and still decide to borrow. The decision may reflect the timing of investment, the location or availability of cash, refinancing needs or a desire to preserve flexibility. Issuing bonds is therefore not evidence by itself that a business is in distress. Equally, a large cash balance does not make every new bond a low-risk investment.",
-  "A corporate bond creates a contractual debt claim rather than an ownership interest. The issuer promises payments under specified terms, subject to its ability to meet them. SEC investor guidance describes how maturity, coupon, credit quality and contractual priority shape that claim. Assessing a particular issue requires both the company's financial position and the terms of the security being purchased.",
-  "Cash today and commitments tomorrow are different observations",
-  "Imagine a hypothetical company with $10 billion in cash and $7 billion of planned investment over the next two years. It also has $4 billion of debt maturing during that period. The $10 billion headline does not cover both uses while preserving an operating buffer. The company could borrow, reduce spending, sell assets or use future operating cash, each with different consequences.",
-  "The example does not establish that borrowing is the best choice. It shows why comparing cash with the proposed bond size is incomplete. A useful analysis identifies the minimum cash needed to operate, the certainty of expected receipts and the timing of payments. Cash tied to a subsidiary or another obligation should not be assumed immediately available for every corporate purpose without checking the relevant disclosures.",
-  "The use of proceeds changes the assessment",
-  "Suppose a fictional issuer sells $2 billion of bonds. If the money repays $2 billion of maturing debt, the transaction changes the financing schedule without necessarily increasing principal outstanding. If it funds a dividend or acquisition, the effect on the balance sheet and future cash requirements is different. The same headline amount can therefore describe substantially different financial decisions.",
-  "A reader should compare the stated use of proceeds with the company's subsequent cash-flow reporting. General corporate purposes can cover a range of activities, and an announcement does not always allocate each dollar to a specific project. Our explanation of <a href=\"take-private-leveraged-buyout-explained.html\">debt-financed acquisitions and cash repayment</a> illustrates why the operating case and financing case need separate analysis. A compelling project description does not settle the cost or resilience of its funding.",
-  "Coupon and yield answer different questions",
-  "Consider a hypothetical bond with $1,000 face value and a fixed 5% annual coupon. It pays $50 a year under those simplified terms. An investor buying it for $950 has a current yield of about 5.26%, calculated as $50 divided by $950. An investor paying $1,050 receives the same $50 but has a current yield of about 4.76%.",
-  "Neither current-yield calculation is yield to maturity. That measure also considers the difference between purchase price and scheduled principal repayment, as well as payment timing. The precise result depends on the bond's remaining life and terms. A quoted coupon does not establish the return available at today's market price, and the scheduled payments are not assured if the issuer defaults.",
-  "A spread separates credit pricing from the benchmark",
-  "Suppose an illustrative corporate bond yields 5.5% while a comparable Treasury benchmark yields 4%. The simple difference is 1.5 percentage points, or 150 basis points. If the corporate yield later reaches 6% while the benchmark reaches 4.7%, the simple spread has narrowed to 130 basis points. The corporate borrowing rate rose even as that relative spread fell.",
-  "This example explains why a higher corporate yield does not automatically mean investors became more worried about the issuer. Benchmark rates and compensation for other risks can move differently. More detailed spread measures account for additional features, including embedded options. A report should identify the spread convention and comparison maturity, rather than treating every quoted difference as an interchangeable measure of default probability.",
-  "Maturity and contractual priority shape the risk",
-  "A company with manageable total debt can still face a difficult period if large obligations mature together. Refinancing spreads those payments into the future only if financing is available on acceptable terms. Interest expense can also change when floating-rate borrowing resets or fixed-rate debt is replaced. Our guide to <a href=\"bond-duration-explained.html\">duration and bond-price sensitivity</a> addresses the investor's exposure when required yields change.",
-  "Security and seniority matter if the borrower cannot pay. A secured claim, a senior unsecured claim and a subordinated claim do not have identical rights. Ratings offer information about credit risk but do not replace the contract or guarantee repayment. A useful bond assessment combines the use of proceeds, cash generation, refinancing calendar and claim priority. A cash-rich issuer still needs to earn and preserve the resources that will meet its promises."
-],
+      "A company can hold substantial cash and still decide to borrow. The decision may reflect the timing of investment, the location or availability of cash, refinancing needs or a desire to preserve flexibility. Issuing bonds is therefore not evidence by itself that a business is in distress. Equally, a large cash balance does not make every new bond a low-risk investment.",
+      "A corporate bond creates a contractual debt claim rather than an ownership interest. The issuer promises payments under specified terms, subject to its ability to meet them. SEC investor guidance describes how maturity, coupon, credit quality and contractual priority shape that claim. Assessing a particular issue requires both the company's financial position and the terms of the security being purchased.",
+      "Cash today and commitments tomorrow are different observations",
+      "Imagine a hypothetical company with $10 billion in cash and $7 billion of planned investment over the next two years. It also has $4 billion of debt maturing during that period. The $10 billion headline does not cover both uses while preserving an operating buffer. The company could borrow, reduce spending, sell assets or use future operating cash, each with different consequences.",
+      "The example does not establish that borrowing is the best choice. It shows why comparing cash with the proposed bond size is incomplete. A useful analysis identifies the minimum cash needed to operate, the certainty of expected receipts and the timing of payments. Cash tied to a subsidiary or another obligation should not be assumed immediately available for every corporate purpose without checking the relevant disclosures.",
+      "The use of proceeds changes the assessment",
+      "Suppose a fictional issuer sells $2 billion of bonds. If the money repays $2 billion of maturing debt, the transaction changes the financing schedule without necessarily increasing principal outstanding. If it funds a dividend or acquisition, the effect on the balance sheet and future cash requirements is different. The same headline amount can therefore describe substantially different financial decisions.",
+      "A reader should compare the stated use of proceeds with the company's subsequent cash-flow reporting. General corporate purposes can cover a range of activities, and an announcement does not always allocate each dollar to a specific project. Our explanation of <a href=\"take-private-leveraged-buyout-explained.html\">debt-financed acquisitions and cash repayment</a> illustrates why the operating case and financing case need separate analysis. A compelling project description does not settle the cost or resilience of its funding.",
+      "Coupon and yield answer different questions",
+      "Consider a hypothetical bond with $1,000 face value and a fixed 5% annual coupon. It pays $50 a year under those simplified terms. An investor buying it for $950 has a current yield of about 5.26%, calculated as $50 divided by $950. An investor paying $1,050 receives the same $50 but has a current yield of about 4.76%.",
+      "Neither current-yield calculation is yield to maturity. That measure also considers the difference between purchase price and scheduled principal repayment, as well as payment timing. The precise result depends on the bond's remaining life and terms. A quoted coupon does not establish the return available at today's market price, and the scheduled payments are not assured if the issuer defaults.",
+      "A spread separates credit pricing from the benchmark",
+      "Suppose an illustrative corporate bond yields 5.5% while a comparable Treasury benchmark yields 4%. The simple difference is 1.5 percentage points, or 150 basis points. If the corporate yield later reaches 6% while the benchmark reaches 4.7%, the simple spread has narrowed to 130 basis points. The corporate borrowing rate rose even as that relative spread fell.",
+      "This example explains why a higher corporate yield does not automatically mean investors became more worried about the issuer. Benchmark rates and compensation for other risks can move differently. More detailed spread measures account for additional features, including embedded options. A report should identify the spread convention and comparison maturity, rather than treating every quoted difference as an interchangeable measure of default probability.",
+      "Maturity and contractual priority shape the risk",
+      "A company with manageable total debt can still face a difficult period if large obligations mature together. Refinancing spreads those payments into the future only if financing is available on acceptable terms. Interest expense can also change when floating-rate borrowing resets or fixed-rate debt is replaced. Our guide to <a href=\"bond-duration-explained.html\">duration and bond-price sensitivity</a> addresses the investor's exposure when required yields change.",
+      "Security and seniority matter if the borrower cannot pay. A secured claim, a senior unsecured claim and a subordinated claim do not have identical rights. Ratings offer information about credit risk but do not replace the contract or guarantee repayment. A useful bond assessment combines the use of proceeds, cash generation, refinancing calendar and claim priority. A cash-rich issuer still needs to earn and preserve the resources that will meet its promises."
+    ],
     "sources": [
       {
         "label": "SEC Investor.gov: Corporate bond terms, use of proceeds and creditor rights",
@@ -4943,7 +5370,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/corporate-bonds-explained-960.webp",
     "imageSrcset": "assets/responsive/corporate-bonds-explained-480.webp 480w, assets/responsive/corporate-bonds-explained-960.webp 960w, assets/editorial/corporate-bonds-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "money-market-funds-vs-savings-explained",
     "title": "Money Market Funds and Savings Accounts Carry Different Protections",
     "dek": "Both can hold short-term cash, but one is a fund investment and the other a bank deposit. Yield alone does not capture the difference.",
@@ -4988,7 +5416,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/money-market-funds-vs-savings-explained-960.webp",
     "imageSrcset": "assets/responsive/money-market-funds-vs-savings-explained-480.webp 480w, assets/responsive/money-market-funds-vs-savings-explained-960.webp 960w, assets/editorial/money-market-funds-vs-savings-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "weekly-jobless-claims-explained",
     "title": "Weekly Jobless Claims Offer a Fast but Noisy Labor-Market Read",
     "dek": "Initial and continuing claims measure different stages of unemployment insurance. Revisions and a moving average help interpret the change.",
@@ -5038,7 +5467,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/weekly-jobless-claims-explained-960.webp",
     "imageSrcset": "assets/responsive/weekly-jobless-claims-explained-480.webp 480w, assets/responsive/weekly-jobless-claims-explained-960.webp 960w, assets/editorial/weekly-jobless-claims-explained.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "circular-ai-financing-explained",
     "title": "When an AI Supplier Helps Finance Its Customer",
     "dek": "Vendor investment can support a real project, but it makes the customer's independent ability to pay especially important.",
@@ -5086,7 +5516,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/circular-ai-financing-explained-960.webp",
     "imageSrcset": "assets/responsive/circular-ai-financing-explained-480.webp 480w, assets/responsive/circular-ai-financing-explained-960.webp 960w, assets/editorial/circular-ai-financing-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bitcoin-51-percent-attack-forks-explained",
     "title": "What a Majority Hash-Power Attack Can Do to Bitcoin",
     "dek": "Mining power influences which valid chain accumulates work. It does not give an attacker authority to spend anyone else's coins or change every rule.",
@@ -5131,7 +5562,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp 480w, assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp 960w, assets/editorial/bitcoin-51-percent-attack-forks-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "nfib-small-business-optimism-explained",
     "title": "Reading the NFIB Survey Beyond the Optimism Score",
     "dek": "Hiring plans, sales expectations and reported problems can move differently. The components explain the headline better than the score alone.",
@@ -5184,7 +5616,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/nfib-small-business-optimism-explained-960.webp",
     "imageSrcset": "assets/responsive/nfib-small-business-optimism-explained-480.webp 480w, assets/responsive/nfib-small-business-optimism-explained-960.webp 960w, assets/editorial/nfib-small-business-optimism-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "private-credit-shadow-banking-explained",
     "title": "Private Credit's Risks Sit in the Loan and the Fund Structure",
     "dek": "Negotiated lending can provide flexible financing. Valuation, borrower concentration and investor withdrawal terms determine the exposure.",
@@ -5238,7 +5671,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp 480w, assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp 960w, assets/editorial/private-credit-shadow-banking-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "defi-basics-explained",
     "title": "DeFi Moves Financial Rules Into Software, but Leaves Risks Behind",
     "dek": "Lending pools and automated exchanges depend on collateral, code and price inputs. Decentralization does not remove every intermediary or point of control.",
@@ -5284,7 +5718,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/defi-basics-explained-960.webp",
     "imageSrcset": "assets/responsive/defi-basics-explained-480.webp 480w, assets/responsive/defi-basics-explained-960.webp 960w, assets/editorial/defi-basics-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "take-private-leveraged-buyout-explained",
     "title": "A Take-Private Deal Transfers Ownership and Debt Risk",
     "dek": "The buyout premium matters to selling shareholders. The financing and cash-flow plan determine the risk for the company after closing.",
@@ -5330,7 +5765,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp 480w, assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp 960w, assets/editorial/take-private-leveraged-buyout-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "us-budget-deficit-national-debt-explained",
     "title": "How a Federal Deficit Reaches the Treasury Market",
     "dek": "The deficit is a flow and debt is a stock. Issuance, refinancing and interest expense explain their connection to borrowing costs.",
@@ -5376,7 +5812,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/us-budget-deficit-national-debt-explained-960.webp",
     "imageSrcset": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp 480w, assets/responsive/us-budget-deficit-national-debt-explained-960.webp 960w, assets/editorial/us-budget-deficit-national-debt-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "credit-default-swaps-explained",
     "title": "A CDS Spread Prices Credit Protection, With Qualifications",
     "dek": "The contract responds to defined credit events. Its spread reflects risk, liquidity and contract terms rather than a direct default probability.",
@@ -5429,7 +5866,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/credit-default-swaps-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/credit-default-swaps-explained-editorial-480.webp 480w, assets/responsive/credit-default-swaps-explained-editorial-960.webp 960w, assets/editorial/credit-default-swaps-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "yen-carry-trade-explained",
     "title": "The Yen Carry Trade Depends on the Exchange Rate as Well as the Yield",
     "dek": "Borrowing in yen to hold higher-yielding assets creates currency and financing risks. A policy surprise can force both sides of the position to change.",
@@ -5483,7 +5921,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/yen-carry-trade-explained-960.webp",
     "imageSrcset": "assets/responsive/yen-carry-trade-explained-480.webp 480w, assets/responsive/yen-carry-trade-explained-960.webp 960w, assets/editorial/yen-carry-trade-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ppi-producer-price-index-explained",
     "title": "PPI Tracks Producer Prices, With an Incomplete Link to CPI",
     "dek": "Wholesale and consumer-price measures cover different transactions. Cost pass-through depends on margins, demand and contracts.",
@@ -5542,7 +5981,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ppi-producer-price-index-explained-960.webp",
     "imageSrcset": "assets/responsive/ppi-producer-price-index-explained-480.webp 480w, assets/responsive/ppi-producer-price-index-explained-960.webp 960w, assets/editorial/ppi-producer-price-index-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bitcoin-mining-economics-explained",
     "title": "A Bitcoin Miner Sells Computing Work Against a Volatile Reward",
     "dek": "Power, equipment efficiency and network competition shape mining returns. Production volume alone cannot establish profitability.",
@@ -5595,7 +6035,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-mining-economics-explained-480.webp 480w, assets/responsive/bitcoin-mining-economics-explained-960.webp 960w, assets/editorial/bitcoin-mining-economics-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "consumer-sentiment-index-explained",
     "title": "Consumer Sentiment Measures Expectations, Not Spending Receipts",
     "dek": "The Michigan survey captures household assessments. Its components and methodology explain why confidence can diverge from sales or share prices.",
@@ -5652,7 +6093,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/consumer-sentiment-index-explained-960.webp",
     "imageSrcset": "assets/responsive/consumer-sentiment-index-explained-480.webp 480w, assets/responsive/consumer-sentiment-index-explained-960.webp 960w, assets/editorial/consumer-sentiment-index-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "secondary-stock-offerings-dilution-explained",
     "title": "New Share Sales and Existing-Holder Sales Have Different Effects",
     "dek": "A follow-on offering can raise money for the company or let current owners sell. Only the creation of additional shares directly changes the denominator.",
@@ -5705,7 +6147,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp 480w, assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp 960w, assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "smaller-company-acquiring-bigger-company-explained",
     "title": "How a Smaller Bidder Can Buy a Larger Company",
     "dek": "Market capitalization does not cap an acquisition bid. Debt, equity and the strength of financing commitments determine whether it can close.",
@@ -5754,7 +6197,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp 480w, assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp 960w, assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "13f-filings-explained",
     "title": "A 13F Filing Is a Dated Portfolio Snapshot",
     "dek": "Institutional disclosures have a reporting lag and limited coverage. They do not reveal a manager's complete strategy or current holdings.",
@@ -5796,7 +6240,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/13f-filings-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/13f-filings-explained-editorial-480.webp 480w, assets/responsive/13f-filings-explained-editorial-960.webp 960w, assets/editorial/13f-filings-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "strategic-petroleum-reserve-explained",
     "title": "The Strategic Petroleum Reserve Buys Time During a Supply Disruption",
     "dek": "Emergency crude releases can bridge shortages. Refining capacity, transport and replenishment limit what the reserve can accomplish.",
@@ -5841,7 +6286,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/strategic-petroleum-reserve-explained-960.webp",
     "imageSrcset": "assets/responsive/strategic-petroleum-reserve-explained-480.webp 480w, assets/responsive/strategic-petroleum-reserve-explained-960.webp 960w, assets/editorial/strategic-petroleum-reserve-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "central-bank-policy-divergence-explained",
     "title": "Why Central Banks Can Respond Differently to the Same Shock",
     "dek": "Inflation exposure, labor markets and policy starting points differ across economies. The expected paths affect assets as well as current rates.",
@@ -5895,7 +6341,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp 480w, assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp 960w, assets/editorial/central-bank-policy-divergence-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "global-bond-yield-synchronization-explained",
     "title": "Why Bond Yields Can Rise Across Countries Together",
     "dek": "Shared inflation news and international portfolios transmit pressure between markets. National policy and debt structures still shape the outcome.",
@@ -5948,7 +6395,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/global-bond-yield-synchronization-explained-960.webp",
     "imageSrcset": "assets/responsive/global-bond-yield-synchronization-explained-480.webp 480w, assets/responsive/global-bond-yield-synchronization-explained-960.webp 960w, assets/editorial/global-bond-yield-synchronization-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "retailer-earnings-consumer-bellwether-explained",
     "title": "Retail Earnings Show Which Customers Are Spending and Where",
     "dek": "Company sales provide a timely view of particular shoppers and products. They must be separated from inflation, market share and national spending.",
@@ -6000,7 +6448,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp",
     "imageSrcset": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp 480w, assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp 960w, assets/editorial/retailer-earnings-consumer-bellwether-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "free-cash-flow-explained",
     "title": "Free Cash Flow Is Useful, but Its Definition and Timing Matter",
     "dek": "Cash generation can differ from accounting profit. Capital spending, working capital and adjustments explain the gap.",
@@ -6054,7 +6503,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/free-cash-flow-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/free-cash-flow-explained-editorial-480.webp 480w, assets/responsive/free-cash-flow-explained-editorial-960.webp 960w, assets/editorial/free-cash-flow-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "treasury-debt-buyback-explained",
     "title": "Treasury Buybacks Support Market Functioning and Cash Management",
     "dek": "Buying outstanding securities differs from reducing a deficit. The targeted bonds and funding arrangements explain the operation.",
@@ -6106,7 +6556,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/treasury-debt-buyback-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp 480w, assets/responsive/treasury-debt-buyback-explained-editorial-960.webp 960w, assets/editorial/treasury-debt-buyback-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "crack-spread-refining-margins-explained",
     "title": "The Crack Spread Measures a Refining Margin Before Many Costs",
     "dek": "The gap between crude and product prices helps explain refinery economics. It is not the same as a refinery's net profit.",
@@ -6160,7 +6611,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/crack-spread-refining-margins-explained-960.webp",
     "imageSrcset": "assets/responsive/crack-spread-refining-margins-explained-480.webp 480w, assets/responsive/crack-spread-refining-margins-explained-960.webp 960w, assets/editorial/crack-spread-refining-margins-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "clarity-act-crypto-legislation-explained",
     "title": "Reading the CLARITY Act's Proposed Crypto Market Structure",
     "dek": "The House-passed 2025 text describes a regulatory framework. Its provisions and legislative status must be distinguished from current requirements.",
@@ -6208,7 +6660,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
     "imageSrcset": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp 480w, assets/responsive/clarity-act-crypto-legislation-explained-960.webp 960w, assets/editorial/clarity-act-crypto-legislation-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "tips-inflation-protected-bonds-explained",
     "title": "TIPS Protect Principal Against Measured Inflation, With Price Risk",
     "dek": "Inflation adjustments change principal and coupon payments. Real yields, market prices and taxes still affect the holder's return.",
@@ -6254,7 +6707,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/tips-inflation-protected-bonds-explained-960.webp",
     "imageSrcset": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp 480w, assets/responsive/tips-inflation-protected-bonds-explained-960.webp 960w, assets/editorial/tips-inflation-protected-bonds-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "housing-starts-builder-confidence-explained",
     "title": "Housing Permits, Starts and Sentiment Measure Different Stages",
     "dek": "Construction data show authorized and begun projects. Builder surveys add expectations, while financing and regional conditions shape follow-through.",
@@ -6312,7 +6766,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/housing-starts-builder-confidence-explained-960.webp",
     "imageSrcset": "assets/responsive/housing-starts-builder-confidence-explained-480.webp 480w, assets/responsive/housing-starts-builder-confidence-explained-960.webp 960w, assets/editorial/housing-starts-builder-confidence-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "dollar-reserve-currency-status-explained",
     "title": "Dollar Dominance Rests on More Than Oil Pricing",
     "dek": "Reserve holdings, trade invoicing and funding markets reinforce one another. They are different measures of the dollar's international role.",
@@ -6358,7 +6813,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/dollar-reserve-currency-status-explained-960.webp",
     "imageSrcset": "assets/responsive/dollar-reserve-currency-status-explained-480.webp 480w, assets/responsive/dollar-reserve-currency-status-explained-960.webp 960w, assets/editorial/dollar-reserve-currency-status-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "sp500-concentration-risk-explained",
     "title": "Index Diversification Can Conceal Concentration at the Top",
     "dek": "A broad stock benchmark may still depend heavily on a few large companies. Weighting rules determine how their results affect the index.",
@@ -6417,7 +6873,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/sp500-concentration-risk-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp 480w, assets/responsive/sp500-concentration-risk-explained-editorial-960.webp 960w, assets/editorial/sp500-concentration-risk-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "debt-spiral-r-versus-g-explained",
     "title": "Debt Sustainability Depends on Interest, Growth and the Primary Balance",
     "dek": "A favorable interest-growth gap can help stabilize debt relative to the economy. It does not make deficits or refinancing risks disappear.",
@@ -6463,7 +6920,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp 480w, assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp 960w, assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "jackson-hole-symposium-explained",
     "title": "Why Markets Listen to Jackson Hole Speeches",
     "dek": "The Kansas City Fed's symposium is a forum for research and policy communication. A speech can change expectations without changing the policy rate.",
@@ -6511,7 +6969,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/jackson-hole-symposium-explained-960.webp",
     "imageSrcset": "assets/responsive/jackson-hole-symposium-explained-480.webp 480w, assets/responsive/jackson-hole-symposium-explained-960.webp 960w, assets/editorial/jackson-hole-symposium-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "tariffs-who-actually-pays-explained",
     "title": "Who Pays a Tariff at the Border and Who Bears Its Cost",
     "dek": "The importer remits the duty. Suppliers, businesses and consumers may share the economic burden through prices, margins and changes in trade.",
@@ -6559,7 +7018,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/tariffs-who-actually-pays-explained-960.webp",
     "imageSrcset": "assets/responsive/tariffs-who-actually-pays-explained-480.webp 480w, assets/responsive/tariffs-who-actually-pays-explained-960.webp 960w, assets/editorial/tariffs-who-actually-pays-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "crypto-rally-three-catalysts-explained",
     "title": "Explaining a Crypto Rally Requires More Than a Headline",
     "dek": "Policy news, financing conditions and trading positions can coincide. Establishing their contribution requires a timeline and evidence.",
@@ -6613,7 +7073,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
     "imageSrcset": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp 480w, assets/responsive/crypto-rally-three-catalysts-explained-960.webp 960w, assets/editorial/crypto-rally-three-catalysts-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "block-trades-dark-pools-explained",
     "title": "How Large Share Sales Are Executed Away From a Single Order",
     "dek": "Blocks, brokers and off-exchange venues can limit information leakage. They do not eliminate price impact or the need for a willing buyer.",
@@ -6667,7 +7128,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/block-trades-dark-pools-explained-960.webp",
     "imageSrcset": "assets/responsive/block-trades-dark-pools-explained-480.webp 480w, assets/responsive/block-trades-dark-pools-explained-960.webp 960w, assets/editorial/block-trades-dark-pools-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "treasury-general-account-liquidity-explained",
     "title": "The Treasury Cash Balance Changes Bank Reserves Through the Fed's Balance Sheet",
     "dek": "Payments and borrowing move cash between government and private accounts. The net liquidity effect depends on who funds the transactions.",
@@ -6719,7 +7181,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
     "imageSrcset": "assets/responsive/treasury-general-account-liquidity-explained-480.webp 480w, assets/responsive/treasury-general-account-liquidity-explained-960.webp 960w, assets/editorial/treasury-general-account-liquidity-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "emerging-market-carry-trade-explained",
     "title": "A High-Yield Currency Brings Risks the Interest Rate Does Not Show",
     "dek": "Currency losses, financing costs and liquidity can offset an emerging market's higher yield. The source of that yield matters.",
@@ -6773,7 +7236,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/emerging-market-carry-trade-explained-960.webp",
     "imageSrcset": "assets/responsive/emerging-market-carry-trade-explained-480.webp 480w, assets/responsive/emerging-market-carry-trade-explained-960.webp 960w, assets/editorial/emerging-market-carry-trade-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "bond-duration-explained",
     "title": "Duration Estimates a Bond's Sensitivity to Yield Changes",
     "dek": "Maturity and duration are different measures. Modified duration gives a first-order price estimate, with limits for larger moves and complex bonds.",
@@ -6821,7 +7285,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bond-duration-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/bond-duration-explained-editorial-480.webp 480w, assets/responsive/bond-duration-explained-editorial-960.webp 960w, assets/editorial/bond-duration-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "merger-arbitrage-deal-spread-explained",
     "title": "The Merger Spread Prices Time and the Risk of Failure",
     "dek": "The gap between an offer and a target's share price is not free money. Payment terms, closing conditions and the value without a deal shape it.",
@@ -6869,7 +7334,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp 480w, assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp 960w, assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "prediction-markets-circuit-split-explained",
     "title": "Why Prediction-Market Cases Turn on Jurisdiction and Preemption",
     "dek": "The legal classification of an event contract can affect state and federal authority. Conflicting appellate decisions require precise comparison.",
@@ -6926,7 +7392,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/prediction-markets-circuit-split-explained-960.webp",
     "imageSrcset": "assets/responsive/prediction-markets-circuit-split-explained-480.webp 480w, assets/responsive/prediction-markets-circuit-split-explained-960.webp 960w, assets/editorial/prediction-markets-circuit-split-explained.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-monetization-gap-explained",
     "title": "The AI Revenue Test Begins After the Infrastructure Bill",
     "dek": "Paid demand, utilization and cash generation determine whether a data-center buildout earns its cost of capital.",
@@ -6978,7 +7445,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-monetization-gap-explained-960.webp",
     "imageSrcset": "assets/responsive/ai-monetization-gap-explained-480.webp 480w, assets/responsive/ai-monetization-gap-explained-960.webp 960w, assets/editorial/ai-monetization-gap-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "ceo-succession-stock-impact-explained",
     "title": "A CEO Change Reprices Expectations Before It Changes Results",
     "dek": "The market response reflects the transition, the company's condition and its strategic options. It cannot isolate the new leader's contribution.",
@@ -7027,7 +7495,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ceo-succession-stock-impact-explained-960.webp",
     "imageSrcset": "assets/responsive/ceo-succession-stock-impact-explained-480.webp 480w, assets/responsive/ceo-succession-stock-impact-explained-960.webp 960w, assets/editorial/ceo-succession-stock-impact-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "second-round-inflation-effects-explained",
     "title": "When an Energy Shock Spreads Beyond Energy Prices",
     "dek": "Freight costs, pricing decisions and wages can extend an initial shock. The persistence depends on demand, contracts and expectations.",
@@ -7073,7 +7542,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/second-round-inflation-effects-explained-960.webp",
     "imageSrcset": "assets/responsive/second-round-inflation-effects-explained-480.webp 480w, assets/responsive/second-round-inflation-effects-explained-960.webp 960w, assets/editorial/second-round-inflation-effects-explained.webp 1920w"
   },
-  {"section":"Market Analysis",
+  {
+    "section": "Market Analysis",
     "id": "oil-near-100-inflation-2026",
     "title": "What a $100 Oil Scenario Would Mean for Inflation",
     "dek": "An illustrative oil-price level helps expose transmission channels. The duration of the shock and the economy's starting point determine its impact.",
@@ -7133,7 +7603,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/oil-near-100-inflation-2026-960.webp",
     "imageSrcset": "assets/responsive/oil-near-100-inflation-2026-480.webp 480w, assets/responsive/oil-near-100-inflation-2026-960.webp 960w, assets/editorial/oil-near-100-inflation-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-agents-enterprise-roi-2026",
     "title": "An AI Agent's Return Depends on the Work Left for People",
     "dek": "Automation can save time while creating review and correction tasks. A pilot needs to measure completed work against its full cost.",
@@ -7188,7 +7659,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-agents-enterprise-roi-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-enterprise-roi-2026-480.webp 480w, assets/responsive/ai-agents-enterprise-roi-2026-960.webp 960w, assets/editorial/ai-agents-enterprise-roi-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "ai-chips-bottlenecks-2026",
     "title": "AI Computing Capacity Depends on Memory, Networks and Cooling",
     "dek": "A faster processor cannot fix every system bottleneck. The useful measure is reliable workload output at a given total cost.",
@@ -7247,7 +7719,8 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/ai-chips-bottlenecks-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-chips-bottlenecks-2026-480.webp 480w, assets/responsive/ai-chips-bottlenecks-2026-960.webp 960w, assets/editorial/ai-chips-bottlenecks-2026.webp 1920w"
   },
-  {"section":"Tech & AI",
+  {
+    "section": "Tech & AI",
     "id": "small-business-ai-adoption-2026",
     "title": "Small-Business AI Savings Need a Baseline",
     "dek": "A useful tool reduces the cost of a repeatable task after review and corrections. Subscription price and apparent speed are incomplete measures.",
