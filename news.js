@@ -25,7 +25,7 @@ const TTNNews = (() => {
   async function resolveTickerPrices(items) {
     const needed = new Map(); // label -> dictionary entry
     items.forEach((item) => {
-      detectTickers(`${item.title} ${item.desc}`).forEach((entry) => {
+      detectTickers(`${escapeAttr(item.title)} ${item.desc}`).forEach((entry) => {
         if (!(entry.label in tickerPriceCache) && !needed.has(entry.label)) {
           needed.set(entry.label, entry);
         }
@@ -38,7 +38,7 @@ const TTNNews = (() => {
 
     needed.forEach((entry, label) => {
       if (entry.trackedId) {
-        const pct = TTNTickers.getChangePct(entry.trackedId);
+        const pct = typeof TTNTickers !== "undefined" ? TTNTickers.getChangePct(entry.trackedId) : null;
         tickerPriceCache[label] = pct;
       } else if (entry.coingeckoId) {
         coingeckoIds.push(entry);
@@ -146,12 +146,12 @@ const TTNNews = (() => {
     const hasDesc = item.desc && item.desc.trim().length > 0;
     document.getElementById("news-modal-body").innerHTML = `
       ${thumbHtml(item, "lg")}
-      <div class="news-modal-meta"><span class="source">${item.source}</span> · ${timeAgo(item.pubDate)}</div>
-      <h2>${item.title}</h2>
-      ${hasDesc ? `<p>${item.desc}${item.desc.length >= 220 ? "…" : ""}</p>` : `<p style="color:var(--text-dim);">${item.source} didn't include a preview for this story.</p>`}
+      <div class="news-modal-meta"><span class="source">${escapeAttr(item.source)}</span> · ${timeAgo(item.pubDate)}</div>
+      <h2>${escapeAttr(item.title)}</h2>
+      ${hasDesc ? `<p>${escapeAttr(item.desc)}${item.desc.length >= 220 ? "…" : ""}</p>` : `<p style="color:var(--text-dim);">${escapeAttr(item.source)} didn't include a preview for this story.</p>`}
       ${tickerTagsHtml(item)}
       <p class="news-modal-note">We show the original headline and a short excerpt with full attribution. The complete article stays on the publisher's own site, in line with copyright and licensing terms.</p>
-      <a href="${item.link}" target="_blank" rel="noopener" class="news-modal-source-link">Read full article on ${item.source} →</a>
+      <a href="${escapeAttr(item.link)}" target="_blank" rel="noopener" class="news-modal-source-link">Read full article on ${escapeAttr(item.source)} →</a>
     `;
     attachTagHandlers(modal);
     attachThumbFallbacks(modal);
@@ -204,24 +204,54 @@ const TTNNews = (() => {
     return `${Math.floor(hrs / 24)} d ago`;
   }
 
-  async function fetchFeed(feed) {
-    const proxy = "https://api.rss2json.com/v1/api.json";
-    const keyParam = TTN_CONFIG.RSS2JSON_KEY ? `&api_key=${TTN_CONFIG.RSS2JSON_KEY}` : "";
-    const url = `${proxy}?rss_url=${encodeURIComponent(feed.url)}${keyParam}`;
+  // GitHub collects the original RSS sources without depending on a
+  // browser-side conversion proxy. Read the current snapshot and the last
+  // deployed copy independently, so either can survive a temporary outage.
+  const SNAPSHOT_MAX_AGE = 6 * 60 * 60 * 1000;
+  function newsItems(data) {
+    if (!Array.isArray(data)) return [];
+    const cutoff = Date.now() - 48 * 60 * 60 * 1000;
+    return data.filter(item => item && typeof item.title === "string" &&
+      typeof item.link === "string" && /^https?:\/\//i.test(item.link) &&
+      typeof item.source === "string" && Number.isFinite(Date.parse(item.pubDate)) &&
+      Date.parse(item.pubDate) >= cutoff && Date.parse(item.pubDate) <= Date.now() + 900000)
+      .map(item => ({title: stripHtml(item.title), desc: stripHtml(item.desc || "").slice(0,220),
+        link:item.link, image:typeof item.image === "string" && /^https?:\/\//i.test(item.image) ? item.image : null,
+        pubDate:item.pubDate, source:stripHtml(item.source)}));
+  }
+
+  async function fetchSnapshot(url) {
     try {
-      const data = await fetchJSON(url);
-      if (data.status !== "ok") return [];
-      return data.items.map((item) => ({
-        title: item.title,
-        desc: stripHtml(item.description).slice(0, 220),
-        link: item.link,
-        image: item.thumbnail || item.enclosure?.link || extractFirstImage(item.description) || null,
-        pubDate: item.pubDate,
-        source: feed.name,
-      }));
-    } catch (e) {
-      return [];
-    }
+      const data = await fetchJSON(url, {cache:"no-cache"});
+      const generated = Date.parse(data.generatedAt);
+      if (data.version !== 1 || !Number.isFinite(generated) ||
+          Date.now() - generated > SNAPSHOT_MAX_AGE || generated > Date.now() + 900000) return [];
+      return newsItems(data.items);
+    } catch (_) { return []; }
+  }
+
+  async function fetchDirectFeed(feed) {
+    // Only feeds that explicitly allow cross-origin browser reads belong
+    // here. Other sources arrive in the server-collected snapshot.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(),8000);
+    try {
+      const response = await fetch(feed.url,{signal:controller.signal});
+      if (!response.ok) throw new Error("RSS unavailable");
+      const xml = new DOMParser().parseFromString(await response.text(),"application/xml");
+      if (xml.querySelector("parsererror")) return [];
+      return newsItems([...xml.querySelectorAll("item")].slice(0,25).map(item => ({
+        title:item.querySelector("title")?.textContent || "",
+        desc:item.querySelector("description")?.textContent || "",
+        link:item.querySelector("link")?.textContent || "",
+        image:[...item.getElementsByTagName("*")].find(node =>
+          ["thumbnail","content","enclosure"].includes(node.localName) &&
+          (node.getAttribute("type") || "").startsWith("image/"))?.getAttribute("url") || null,
+        pubDate:item.querySelector("pubDate")?.textContent || "",
+        source:feed.name,
+      })));
+    } catch (_) { return []; }
+    finally {clearTimeout(timer);}
   }
 
   async function fetchFinnhub() {
@@ -237,7 +267,7 @@ const TTNNews = (() => {
         link: item.url,
         image: item.image || null,
         pubDate: new Date(item.datetime * 1000).toISOString(),
-        source: item.source ? `Finnhub · ${item.source}` : "Finnhub",
+        source: item.source ? `Finnhub · ${escapeAttr(item.source)}` : "Finnhub",
       }));
     } catch (e) {
       return [];
@@ -291,11 +321,11 @@ const TTNNews = (() => {
   }
 
   function tickerTagsHtml(item) {
-    const tickers = detectTickers(`${item.title} ${item.desc}`);
+    const tickers = detectTickers(`${escapeAttr(item.title)} ${item.desc}`);
     if (!tickers.length) return "";
     return `<div class="article-tickers">${tickers
       .map((t) => {
-        const pct = t.trackedId ? TTNTickers.getChangePct(t.trackedId) : tickerPriceCache[t.label];
+        const pct = t.trackedId ? (typeof TTNTickers !== "undefined" ? TTNTickers.getChangePct(t.trackedId) : null) : tickerPriceCache[t.label];
         const pctHtml =
           typeof pct === "number"
             ? `<span class="${pct >= 0 ? "up" : "down"}">${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%</span>`
@@ -308,7 +338,7 @@ const TTNNews = (() => {
   const TREND_ICON = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,17 9,11 13,15 21,5"/><polyline points="15,5 21,5 21,11"/></svg>`;
 
   function categoryFor(item) {
-    const tickers = detectTickers(`${item.title} ${item.desc}`);
+    const tickers = detectTickers(`${escapeAttr(item.title)} ${item.desc}`);
     if (!tickers.length) return "general";
     const sym = tickers[0].tvSymbol;
     if (sym.startsWith("BINANCE:")) return "crypto";
@@ -365,7 +395,7 @@ const TTNNews = (() => {
       // characters would break out of a quoted HTML attribute. Instead we
       // mark the img with data attributes and wire up error handling in
       // JS after it's inserted (see attachThumbFallbacks).
-      return `<img class="${cls}" src="${item.image}" alt="${escapeAttr(item.title)}" ${size === "lg" ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
+      return `<img class="${cls}" src="${escapeAttr(item.image)}" alt="${escapeAttr(item.title)}" ${size === "lg" ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} data-thumb-fallback="1" data-thumb-size="${size}" data-thumb-category="${category}">`;
     }
     // Source gave us no photo — use a relevant Pexels stock photo if we
     // have one cached for this category, so cards rarely show a plain icon.
@@ -429,10 +459,10 @@ const TTNNews = (() => {
     el.innerHTML = `
       ${thumbHtml(item, "lg")}
       <div class="featured-body">
-        <div class="featured-meta"><span class="source">${item.source}</span> · ${timeAgo(item.pubDate)}</div>
-        <h2><a href="#" class="open-article" data-link="${item.link}">${item.title}</a></h2>
+        <div class="featured-meta"><span class="source">${escapeAttr(item.source)}</span> · ${timeAgo(item.pubDate)}</div>
+        <h2><a href="#" class="open-article" data-link="${escapeAttr(item.link)}">${escapeAttr(item.title)}</a></h2>
         ${tickerTagsHtml(item)}
-        <p style="margin-top:12px;"><a href="#" class="open-article" data-link="${item.link}" style="color:var(--accent);font-size:13px;">Read this story →</a></p>
+        <p style="margin-top:12px;"><a href="#" class="open-article" data-link="${escapeAttr(item.link)}" style="color:var(--accent);font-size:13px;">Read this story →</a></p>
       </div>`;
     attachTagHandlers(el);
     attachOpenHandlers(el);
@@ -452,8 +482,8 @@ const TTNNews = (() => {
       <article class="news-item">
         ${thumbHtml(item, "sm")}
         <div class="news-item-body">
-          <div class="news-meta"><span class="source">${item.source}</span><span>${timeAgo(item.pubDate)}</span></div>
-          <h3><a href="#" class="open-article" data-link="${item.link}">${item.title}</a></h3>
+          <div class="news-meta"><span class="source">${escapeAttr(item.source)}</span><span>${timeAgo(item.pubDate)}</span></div>
+          <h3><a href="#" class="open-article" data-link="${escapeAttr(item.link)}">${escapeAttr(item.title)}</a></h3>
           ${tickerTagsHtml(item)}
         </div>
       </article>`
@@ -469,7 +499,7 @@ const TTNNews = (() => {
   function renderTrending() {
     const counts = {};
     allItems.forEach((item) => {
-      detectTickers(`${item.title} ${item.desc}`).forEach((t) => {
+      detectTickers(`${escapeAttr(item.title)} ${item.desc}`).forEach((t) => {
         counts[t.label] = (counts[t.label] || 0) + 1;
       });
     });
@@ -505,7 +535,7 @@ const TTNNews = (() => {
   function applySearch(query) {
     const q = query.trim().toLowerCase();
     const filtered = q ? allItems.filter((item) => {
-      const tickers = detectTickers(`${item.title} ${item.desc}`).map((t) => t.label.toLowerCase());
+      const tickers = detectTickers(`${escapeAttr(item.title)} ${item.desc}`).map((t) => t.label.toLowerCase());
       return item.title.toLowerCase().includes(q) || item.desc.toLowerCase().includes(q) || tickers.some((t) => t.includes(q));
     }) : allItems;
     renderFeatured(filtered[0]);
@@ -545,7 +575,7 @@ const TTNNews = (() => {
     /law firm.{0,30}(investigation|investors)/i,
   ];
   function isLegalSolicitation(item) {
-    const text = `${item.title} ${item.desc || ""}`;
+    const text = `${escapeAttr(item.title)} ${item.desc || ""}`;
     return LEGAL_SOLICITATION_PATTERNS.some((re) => re.test(text));
   }
 
@@ -609,31 +639,18 @@ const TTNNews = (() => {
       renderCurrent();
     };
     await Promise.allSettled([
-      ...TTN_CONFIG.NEWS_FEEDS.map((feed) => fetchFeed(feed).then(accept)),
+      fetchSnapshot("https://raw.githubusercontent.com/GlobTechCo/ttn-finans/main/data/news-feed.json").then(accept),
+      fetchSnapshot("data/news-feed.json").then(accept),
+      ...TTN_CONFIG.NEWS_FEEDS.filter(feed => feed.direct).map(feed => fetchDirectFeed(feed).then(accept)),
       fetchFinnhub().then(accept), fetchCurrents().then(accept), fetchApitube().then(accept),
     ]);
-    if (!allItems.length) { allItems = fallbackItems(); renderCurrent(); return; }
+    if (!allItems.length) { renderCurrent(); return; }
     // Enrichment stays in the background. Headlines and source photos are
     // already usable even if either enrichment service fails.
     await Promise.allSettled([
       resolveTickerPrices(allItems.slice(0, 13)).then(renderCurrent),
       resolveCategoryPhotos(allItems.slice(0, 13).map(categoryFor)).then(renderCurrent),
     ]);
-  }
-
-  function fallbackItems() {
-    // Only shown if every news source is unreachable (e.g. no internet)
-    const now = new Date().toISOString();
-    return [
-      {
-        title: "News temporarily unavailable",
-        desc: "Could not load financial news. Please check your internet connection or the RSS source settings in config.js.",
-        link: "#",
-        image: null,
-        pubDate: now,
-        source: "TTN",
-      },
-    ];
   }
 
   function openCustomModal(html) {

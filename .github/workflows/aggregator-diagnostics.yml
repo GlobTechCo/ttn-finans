@@ -3,64 +3,53 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/aggregator-diagnostics.yml']
+    paths:
+      - '.github/workflows/aggregator-diagnostics.yml'
+      - 'news.js'
+      - 'config.js'
+      - 'scripts/test-independent-loading.cjs'
+      - 'scripts/test-news-feed.cjs'
+      - 'scripts/test_news_feed.py'
 permissions:
   contents: read
 jobs:
-  live-browser:
+  news-regressions:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
+      - uses: actions/checkout@v6
+      - name: Check RSS parsing and independent startup
+        run: |
+          python3 scripts/test_news_feed.py
+          node scripts/test-independent-loading.cjs
+          node scripts/test-navigation.cjs
+      - name: Check site consistency
+        run: |
+          python3 -m pip install -r requirements-maintenance.txt
+          python3 scripts/verify_site.py
       - name: Install pinned browser diagnostic dependency
         run: npm install --no-save playwright@1.64.1
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
-      - name: Exercise live news loading and article opening
+      - name: Exercise candidate news reader on desktop and mobile
         shell: bash
         run: |
-          node - <<'JS'
-          const {chromium} = require('playwright');
-          (async () => {
-           const browser = await chromium.launch({headless:true});
-           const context = await browser.newContext({viewport:{width:1365,height:900}});
-           const page = await context.newPage();
-           const errors=[], failures=[], api=[];
-           page.on('pageerror',e=>errors.push(e.message));
-           page.on('console',m=>{if(m.type()==='error')errors.push(m.text().slice(0,220))});
-           page.on('requestfailed',r=>{const u=new URL(r.url());failures.push({host:u.host,path:u.pathname,error:r.failure()?.errorText})});
-           page.on('response',async r=>{if(r.url().includes('api.rss2json.com')){let d={};try{d=await r.json()}catch{}api.push({feed:new URL(r.url()).searchParams.get('rss_url'),http:r.status(),cors:r.headers()['access-control-allow-origin'],status:d.status,message:d.message,count:d.items?.length,latest:d.items?.[0]?.pubDate})}});
-           await page.goto('https://globtechco.github.io/ttn-finans/',{waitUntil:'domcontentloaded',timeout:45000});
-           try{await page.waitForFunction(()=>document.querySelector('#featured-article h2')||document.querySelector('#featured-article')?.innerText.includes('No news'),{},{timeout:14000})}catch{}
-           console.log('AGG_LIVE',JSON.stringify({title:await page.title(),featured:(await page.locator('#featured-article').innerText()).slice(0,500),feedCount:await page.locator('#news-feed .news-item').count(),openLinks:await page.locator('.open-article').count(),errors,failures,api}));
-           const first=page.locator('#featured-article .open-article').first();
-           if(await first.count()){
-            await first.click({timeout:5000});
-            console.log('AGG_MODAL',JSON.stringify({open:await page.locator('#news-modal').evaluate(e=>e.classList.contains('open')),heading:await page.locator('#news-modal h2').innerText(),source:await page.locator('.news-modal-source-link').getAttribute('href')}));
-            await page.locator('#news-modal-close').click();
-            await page.waitForTimeout(500);
-            console.log('AGG_CLOSE',await page.locator('#news-modal').evaluate(e=>!e.classList.contains('open')));
-           }
-          
-           const feeds=await page.evaluate(()=>TTN_CONFIG.NEWS_FEEDS);
-           const headers=[];
-           for(const feed of feeds) {
-            for(const kind of ['proxy','direct']) {
-             const url=kind==='proxy'?'https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(feed.url):feed.url;
-             try { const response=await fetch(url,{signal:AbortSignal.timeout(12000)});const body=await response.text();headers.push({feed:feed.name,kind,status:response.status,cors:response.headers.get('access-control-allow-origin'),type:response.headers.get('content-type'),sample:body.slice(0,220)});}
-             catch(e){headers.push({feed:feed.name,kind,error:e.message})}
-            }
-           }
-           console.log('AGG_ENDPOINTS',JSON.stringify(headers));
-           const jsonp=await page.evaluate(()=>new Promise(resolve=>{
-            const script=document.createElement('script');let done=false;
-            const finish=x=>{if(done)return;done=true;script.remove();delete window.ttnDiagnosticJSONP;resolve(x)};
-            window.ttnDiagnosticJSONP=data=>finish({status:data.status,items:data.items?.length,message:data.message});
-            script.onerror=()=>finish({error:'script-error'});
-            script.src='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(TTN_CONFIG.NEWS_FEEDS[0].url)+'&callback=ttnDiagnosticJSONP';
-            document.head.append(script);setTimeout(()=>finish({error:'timeout'}),12000);
-           }));
-           console.log('AGG_JSONP',JSON.stringify(jsonp));
-          
-           await context.close(); await browser.close();
-          })().catch(e=>{console.error('AGG_FATAL',e.stack);process.exitCode=1});
-          JS
+          python3 -m http.server 8765 >/tmp/ttn-news-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-news-feed.cjs
+      - name: Wait for publication and verify live news reader
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import time, urllib.request
+          for attempt in range(30):
+              try:
+                  with urllib.request.urlopen("https://globtechco.github.io/ttn-finans/?news-check=20261020",timeout=10) as response:
+                      body=response.read().decode()
+                  if "rss-snapshot-20261020" in body: break
+              except Exception: pass
+              time.sleep(5)
+          else: raise SystemExit("Updated news reader has not reached the live site")
+          PY
+          node scripts/test-news-feed.cjs

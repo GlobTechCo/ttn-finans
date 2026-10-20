@@ -26,6 +26,8 @@ a separate external news feed, TradingView quotes and financial calculators.
 - `market-tape.js`, `chart.js`: TradingView quote tape and interactive charts.
 - `calculators.html`, calculator pages and `calculators.js`: financial tools.
 - `analytics.js`, `consent.js`: analytics consent and preferences.
+- `data/news-feed.json`: attributed RSS headlines, previews up to 220 characters and original links.
+- `scripts/update_news_feed.py`: collects the configured RSS sources; `.github/workflows/refresh-news-feed.yml` refreshes the snapshot every 15 minutes, subject to Actions scheduling delays.
 - `404.html`: custom not-found page; excluded from indexing and sitemap.
 - `assets/`: editorial originals, responsive sizes and social preview images.
 - `sitemap.xml`, `robots.txt`: discovery and indexing configuration.
@@ -102,6 +104,15 @@ The external news feed uses the providers configured in `config.js`. Supplementa
 quote lookups use separate providers; they can differ from the tape. Failed or
 unconfigured quote lookups produce missing values, not invented demonstration
 prices. News and quote requests start independently, with bounded request timeouts.
+The news reader fetches the current snapshot from the repository's raw main
+branch and a deployed same-origin backup independently, plus CNBC's direct
+CORS-enabled RSS. It does not depend on rss2json. Snapshots older than six hours
+are rejected; original story dates remain unchanged and items older than 48 hours
+are excluded. A failed individual source does not wipe other sources. The Yahoo
+Finance general feed currently returns 404; it remains configured for recovery.
+For browser integration checks, install the pinned Playwright version in the
+aggregator workflow and run `node scripts/test-news-feed.cjs`. The workflow runs
+both loading regressions and desktop/mobile modal checks with rss2json blocked.
 Do not put private credentials in this publicly served configuration.
 
 ## Deployment

@@ -37,8 +37,8 @@ function stalled(signal, body=false) {
   // A good source must render before the stalled source, quote service and
   // optional photo response finish, including a response with a stalled body.
   const s = setup((url,options) => {
-    if (url.includes('rss_url=fast')) return Promise.resolve({ok:true,json:async()=>({status:'ok',items:[
-      {title:'Fast financial headline',description:'Source excerpt',link:'https://example.com/news',thumbnail:'https://example.com/photo.jpg',pubDate:new Date().toISOString()}
+    if (url.includes('raw.githubusercontent.com')) return Promise.resolve({ok:true,json:async()=>({version:1,generatedAt:new Date().toISOString(),items:[
+      {title:'Fast financial headline',desc:'Source excerpt',source:'Fast',link:'https://example.com/news',thumbnail:'https://example.com/photo.jpg',pubDate:new Date().toISOString()}
     ]})});
     return stalled(options.signal,true);
   });
