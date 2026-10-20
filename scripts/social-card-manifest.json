@@ -1847,6 +1847,17 @@
       "bytes": 185396,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html"
+    },
+    {
+      "page": "us-housing-starts-september-2026-decline.html",
+      "source": "assets/editorial/us-housing-starts-september-2026-decline-cover-v1.webp",
+      "image": "assets/social/us-housing-starts-september-2026-decline-cover-v1-ccb7ebd3b758.webp",
+      "sha256": "ccb7ebd3b758d605b5b2b31d3b9dd9ee1ffcae1f5364321ea98d89509cbb22e9",
+      "width": 1672,
+      "height": 940,
+      "bytes": 482878,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-housing-starts-september-2026-decline.html"
     }
   ]
 }
