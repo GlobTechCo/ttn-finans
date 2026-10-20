@@ -131,7 +131,7 @@ const TTN_CONFIG = {
   NEWS_FEEDS: [
     { name: "CNBC Markets", url: "https://www.cnbc.com/id/100003114/device/rss/rss.html" },
     { name: "MarketWatch", url: "https://feeds.content.dowjones.io/public/rss/mw_topstories" },
-    { name: "Yahoo Finance", url: "https://finance.yahoo.com/news/rssindex" },
+    { name: "Yahoo Finance", url: "https://finance.yahoo.com/rss/topstories" },
     { name: "Business Insider", url: "https://markets.businessinsider.com/rss/news" },
     { name: "Investing.com", url: "https://www.investing.com/rss/news_25.rss" },
     { name: "Seeking Alpha", url: "https://seekingalpha.com/feed.xml" },
