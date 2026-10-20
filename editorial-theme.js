@@ -8,6 +8,8 @@ function initNavigation(header) {
   const button = header.querySelector('.nav-toggle');
   const nav = header.querySelector('.nav-links');
   if (!button || !nav) return;
+  // Normalize legacy article headers to the same three-line menu icon.
+  button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18"/></svg>';
   const compact = matchMedia('(max-width: 1200px)');
   function setOpen(open, restoreFocus = false) {
     nav.classList.toggle('open', open);

@@ -26,6 +26,7 @@ assert(start > 0 && end > start);
 const context = vm.createContext({ document: doc, matchMedia: () => media });
 vm.runInContext(source.slice(start, end), context);
 context.initNavigation(header);
+assert(button.innerHTML.includes('M3 5h18M3 12h18M3 19h18'), 'Legacy menu text must become a three-line SVG');
 const open = () => button.getAttribute('aria-expanded') === 'true';
 assert(!open()); assert(header.classList.contains('ttn-nav-ready'));
 button.emit('click'); assert(open()); assert(nav.classList.contains('open'));

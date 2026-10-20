@@ -3,12 +3,12 @@
 .topnav>.search-box{grid-column:3;grid-row:1;justify-self:stretch;width:100%;min-width:0;height:36px}
 .topnav>.search-box input{min-width:0}
 .topnav>.theme-switch{grid-column:4;grid-row:1}
-@media(min-width:1050px){
+@media(min-width:1201px){
  .topnav>.nav-toggle{display:none}
  .topnav>.nav-links,.topnav>.nav-links.open{display:flex;position:static;grid-column:2;grid-row:1;flex-direction:row;justify-self:center;gap:20px;border:0;background:transparent}
  .topnav>.nav-links a{padding:0;border:0;font-size:14px;white-space:nowrap}
 }
-@media(max-width:1049px){
+@media(max-width:1200px){
  .topnav{grid-template-columns:auto minmax(0,1fr) 44px 44px;gap:12px}
  .topnav>.search-box{grid-column:2;grid-row:1}
  .topnav>.nav-toggle{display:block;grid-column:3;grid-row:1;justify-self:center}
@@ -24,4 +24,4 @@
  .topnav>.search-box input{font-size:12px}
  .topnav>.nav-toggle{padding:11px;width:44px}
 }
-@media(max-width:1049px) and (pointer:coarse){.topnav{grid-template-columns:auto minmax(0,1fr) 44px 44px}.topnav>.nav-toggle{min-height:44px}}
+@media(max-width:1200px) and (pointer:coarse){.topnav{grid-template-columns:auto minmax(0,1fr) 44px 44px}.topnav>.nav-toggle{min-height:44px}}

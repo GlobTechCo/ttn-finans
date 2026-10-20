@@ -38,7 +38,7 @@
 .topnav>.nav-toggle{grid-column:2;grid-row:1;justify-self:end}
 .topnav>.search-box{grid-column:1/-1;grid-row:2;justify-self:end;width:min(360px,100%);min-width:0;box-sizing:border-box}
 @media(max-width:1200px){
- .topnav{grid-template-columns:minmax(0,1fr) auto auto;gap:10px 12px}
+ .topnav{grid-template-columns:minmax(0,1fr) 44px 44px;gap:10px 12px}
  .topnav>.nav-toggle{display:block}
  .topnav>.nav-links{display:none;position:absolute;top:100%;left:0;right:0;grid-column:1/-1;justify-self:stretch;flex-direction:column;gap:0;background:var(--surface);border-bottom:1px solid var(--border);z-index:60}
  .topnav>.nav-links.open{display:flex}
