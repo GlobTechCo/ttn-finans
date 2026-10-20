@@ -40,6 +40,27 @@ jobs:
             await page.waitForTimeout(500);
             console.log('AGG_CLOSE',await page.locator('#news-modal').evaluate(e=>!e.classList.contains('open')));
            }
+          
+           const feeds=await page.evaluate(()=>TTN_CONFIG.NEWS_FEEDS);
+           const headers=[];
+           for(const feed of feeds) {
+            for(const kind of ['proxy','direct']) {
+             const url=kind==='proxy'?'https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(feed.url):feed.url;
+             try { const response=await fetch(url,{signal:AbortSignal.timeout(12000)});const body=await response.text();headers.push({feed:feed.name,kind,status:response.status,cors:response.headers.get('access-control-allow-origin'),type:response.headers.get('content-type'),sample:body.slice(0,220)});}
+             catch(e){headers.push({feed:feed.name,kind,error:e.message})}
+            }
+           }
+           console.log('AGG_ENDPOINTS',JSON.stringify(headers));
+           const jsonp=await page.evaluate(()=>new Promise(resolve=>{
+            const script=document.createElement('script');let done=false;
+            const finish=x=>{if(done)return;done=true;script.remove();delete window.ttnDiagnosticJSONP;resolve(x)};
+            window.ttnDiagnosticJSONP=data=>finish({status:data.status,items:data.items?.length,message:data.message});
+            script.onerror=()=>finish({error:'script-error'});
+            script.src='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(TTN_CONFIG.NEWS_FEEDS[0].url)+'&callback=ttnDiagnosticJSONP';
+            document.head.append(script);setTimeout(()=>finish({error:'timeout'}),12000);
+           }));
+           console.log('AGG_JSONP',JSON.stringify(jsonp));
+          
            await context.close(); await browser.close();
           })().catch(e=>{console.error('AGG_FATAL',e.stack);process.exitCode=1});
           JS
