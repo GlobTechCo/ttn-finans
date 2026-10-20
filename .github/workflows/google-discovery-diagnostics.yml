@@ -15,7 +15,7 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import concurrent.futures, datetime, hashlib, json, re, urllib.request, urllib.error, xml.etree.ElementTree as ET
+          import concurrent.futures, datetime, hashlib, json, re, time, urllib.request, urllib.error, xml.etree.ElementTree as ET
           BASE = "https://globtechco.github.io/ttn-finans/"
           UA = "TTN-Finance-Read-Only-Diagnostics/1.0"
           def fetch(url, agent=UA, method="GET"):
@@ -47,9 +47,14 @@ jobs:
               urls=[];print("SITEMAP_PARSE_ERROR",str(error),flush=True)
           def check_page(url):
               result=fetch(url,method="HEAD")
+              attempts=1
+              while result["status"] in (None, 429, 500, 502, 503, 504) and attempts<3:
+                  time.sleep(attempts)
+                  result=fetch(url,method="GET")
+                  attempts+=1
               headers={k.lower():v for k,v in result["headers"].items()}
               return {"url":url,"status":result["status"],"type":headers.get("content-type"),"x_robots_tag":headers.get("x-robots-tag"),"error":result.get("error")}
-          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
               checked=list(pool.map(check_page,urls))
           print("SITEMAP_URL_CHECK",json.dumps({"checked":len(checked),"ok":sum(r["status"]==200 for r in checked),"problems":[r for r in checked if r["status"]!=200 or r["x_robots_tag"]]}),flush=True)
           home=data["homepage"]["body"].decode("utf-8","replace")
@@ -60,6 +65,7 @@ jobs:
               tag=fetch("https://www.googletagmanager.com/gtag/js?id="+measurement_id);report(tag,"google-tag")
           bot=fetch(BASE+"sitemap.xml","Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)");report(bot,"sitemap-googlebot-agent")
           print("SITEMAP_SAME_FOR_AGENTS",bot["body"]==sitemap["body"],flush=True)
+          retry_target=fetch(BASE+"sector-rotation-explained.html");report(retry_target,"previous-503-recheck")
           print("TTN_DIAGNOSTICS_END",datetime.datetime.now(datetime.timezone.utc).isoformat(),flush=True)
           
           PY
