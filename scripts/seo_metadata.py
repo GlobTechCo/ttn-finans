@@ -1,4 +1,6 @@
 TITLES = '''
+nacha-same-day-ach-growth-third-quarter-2026|Same-Day ACH Payments Rise 36.7%
+meta-muse-ten-million-us-downloads-october-20-2026|Meta Muse Passes 10 Million U.S. Downloads
 eka-robotics-series-a-tactile-ai-october-20-2026|Eka Raises $150 Million for Force-Aware Robots
 reliable-robotics-financing-autonomous-flight-october-20-2026|Reliable Robotics Raises $115 Million
 inspired-capital-fourth-fund-450-million-october-20-2026|Inspired Capital Closes $450 Million Fund

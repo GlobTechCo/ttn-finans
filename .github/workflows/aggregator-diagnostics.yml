@@ -10,6 +10,7 @@ on:
       - 'scripts/test-independent-loading.cjs'
       - 'scripts/test-news-feed.cjs'
       - 'scripts/test_news_feed.py'
+      - 'scripts/seo_metadata.py'
 permissions:
   contents: read
 jobs:
