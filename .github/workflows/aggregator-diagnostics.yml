@@ -1,0 +1,45 @@
+name: TTN Aggregator browser diagnostics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/aggregator-diagnostics.yml']
+permissions:
+  contents: read
+jobs:
+  live-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Install pinned browser diagnostic dependency
+        run: npm install --no-save playwright@1.64.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Exercise live news loading and article opening
+        shell: bash
+        run: |
+          node - <<'JS'
+          const {chromium} = require('playwright');
+          (async () => {
+           const browser = await chromium.launch({headless:true});
+           const context = await browser.newContext({viewport:{width:1365,height:900}});
+           const page = await context.newPage();
+           const errors=[], failures=[], api=[];
+           page.on('pageerror',e=>errors.push(e.message));
+           page.on('console',m=>{if(m.type()==='error')errors.push(m.text().slice(0,220))});
+           page.on('requestfailed',r=>{const u=new URL(r.url());failures.push({host:u.host,path:u.pathname,error:r.failure()?.errorText})});
+           page.on('response',async r=>{if(r.url().includes('api.rss2json.com')){let d={};try{d=await r.json()}catch{}api.push({feed:new URL(r.url()).searchParams.get('rss_url'),http:r.status(),cors:r.headers()['access-control-allow-origin'],status:d.status,message:d.message,count:d.items?.length,latest:d.items?.[0]?.pubDate})}});
+           await page.goto('https://globtechco.github.io/ttn-finans/',{waitUntil:'domcontentloaded',timeout:45000});
+           try{await page.waitForFunction(()=>document.querySelector('#featured-article h2')||document.querySelector('#featured-article')?.innerText.includes('No news'),{},{timeout:14000})}catch{}
+           console.log('AGG_LIVE',JSON.stringify({title:await page.title(),featured:(await page.locator('#featured-article').innerText()).slice(0,500),feedCount:await page.locator('#news-feed .news-item').count(),openLinks:await page.locator('.open-article').count(),errors,failures,api}));
+           const first=page.locator('#featured-article .open-article').first();
+           if(await first.count()){
+            await first.click({timeout:5000});
+            console.log('AGG_MODAL',JSON.stringify({open:await page.locator('#news-modal').evaluate(e=>e.classList.contains('open')),heading:await page.locator('#news-modal h2').innerText(),source:await page.locator('.news-modal-source-link').getAttribute('href')}));
+            await page.locator('#news-modal-close').click();
+            await page.waitForTimeout(500);
+            console.log('AGG_CLOSE',await page.locator('#news-modal').evaluate(e=>!e.classList.contains('open')));
+           }
+           await context.close(); await browser.close();
+          })().catch(e=>{console.error('AGG_FATAL',e.stack);process.exitCode=1});
+          JS
