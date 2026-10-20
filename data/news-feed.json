@@ -1,0 +1,678 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-20T19:02:37.993425+00:00",
+  "sources": [
+    {
+      "name": "CNBC Markets",
+      "ok": true,
+      "count": 25
+    },
+    {
+      "name": "MarketWatch",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "Yahoo Finance",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Business Insider",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "Investing.com",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "Seeking Alpha",
+      "ok": true,
+      "count": 25
+    }
+  ],
+  "items": [
+    {
+      "title": "AMD: The Helios Ramp Is Priced But The Margin Path Is Not",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955619-amd-the-helios-ramp-is-priced-but-the-margin-path-is-not?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:54:58+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Wall Street rises with investors rotating into healthcare and value stocks",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-oil-prices-climb-earnings-loom-4959413",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J0RZ_L.jpg",
+      "pubDate": "2026-10-20T18:54:22+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Citi Mexico sees new opportunities with banks after Banamex split",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/citi-mexico-sees-new-opportunities-with-banks-after-banamex-split-4960869",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J1N3_L.jpg",
+      "pubDate": "2026-10-20T18:48:55+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Factbox-Anthropic’s public benefit fund and how it compares with other big philanthropic efforts",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/factboxanthropics-public-benefit-fund-and-how-it-compares-with-other-big-philanthropic-efforts-4960868",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J1N2_L.jpg",
+      "pubDate": "2026-10-20T18:48:39+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Pending Home Sales Plunge To Record Low",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955615-pending-home-sales-plunge-record-low?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:44:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Fifth Third Bancorp: Synergies, NII Growth, Upside Potential",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955614-fifth-third-bancorp-synergies-nii-growth-upside-potential?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:40:45+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Incyte: Digesting The ESMO Updates In Pancreatic, Colorectal, And Ovarian Cancer",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955613-incyte-digesting-the-esmo-updates-in-pancreatic-colorectal-and-ovarian-cancer?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:40:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "NFJ's Tender Offer Results",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955612-nfjs-tender-offer-results?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:39:39+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "If Elon Musk gifts SpaceX stock through Trump Accounts, it will come with a catch",
+      "desc": "Elon Musk's planned SpaceX stock donation could come with strings attached if he uses Trump Accounts. New Treasury rules limit when shares can be sold.",
+      "link": "https://www.cnbc.com/2026/10/20/musk-spacex-trump-account-stock-rules.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:36:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/spacex-investors-ahead-of-results-press-musk-on-tesla-merger-4960844",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J1MI_L.jpg",
+      "pubDate": "2026-10-20T18:36:26+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "3M Company (MMM) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955548-3m-company-mmm-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:34:16+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "F.N.B. Corporation (FNB) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955539-f-n-b-corporation-fnb-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:34:11+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Peoples Bancorp Inc. (PEBO) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955581-peoples-bancorp-inc-pebo-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:34:07+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Hikma Pharmaceuticals PLC (HKMPY) Discusses R&D Vision and Expansion in Respiratory, Nasal, Semi-Solids and Liquid Platforms Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955538-hikma-pharmaceuticals-plc-hkmpy-discusses-r-and-d-vision-and-expansion-in-respiratory-nasal?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:33:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Hold Or A Hike? What To Expect From October BoC Decision",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955610-hold-hike-what-expect-october-boc-decision?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:32:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT",
+      "desc": "Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.",
+      "link": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:30:53+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "McEwen: The Date That Matters Isn't Nov. 5",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955607-mcewen-the-date-that-matters-isnt-november-5?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:26:27+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "How Rocket Lab Corporation Became A Falling Knife",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955605-how-rocket-lab-corporation-became-a-falling-knife?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:24:22+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "The Surprising Case For Investing When The Fed's Raising Rates",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955623-surprising-case-for-investing-fed-raising-rates?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:20:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/salesforce-to-acquire-braze-in-a-566-billion-deal-4959937",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J10C_L.jpg",
+      "pubDate": "2026-10-20T18:18:38+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Casella Waste Systems shares gain after Jana Partners discloses stake",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/casella-waste-systems-shares-gain-after-jana-partners-discloses-stake-4960848",
+      "image": "https://content-media.investing.com/news/green3_b._M_1440048377.jpg",
+      "pubDate": "2026-10-20T18:15:06+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Here’s what matters most to Tesla investors heading into earnings",
+      "desc": "Financial results are somewhat of a sideshow for an investor base eagerly awaiting updates on robotaxis, robots — and the cost of all that.",
+      "link": "https://www.marketwatch.com/story/heres-what-matters-most-to-tesla-investors-heading-into-earnings-6b9e5d27?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-47681442",
+      "pubDate": "2026-10-20T18:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Home Bancorp, Inc. (HBCP) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955589-home-bancorp-inc-hbcp-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:13:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Traders are betting Netflix's stock drama may be coming to an end",
+      "desc": "Current options prices are implying a 9% post-earnings move for Netflix, which is the highest since its Q3 2022 report, when it was priced for an 11% move.",
+      "link": "https://www.cnbc.com/2026/10/20/traders-are-betting-netflixs-stock-drama-may-be-coming-to-an-end.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:10:13+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Fiera Capital Global Asset Allocation - October 2026 Market Update",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955620-fiera-capital-global-asset-allocation-october-2026-market-update?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:10:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Stocks try for back-to-back gains — plus, Qnity gets iPhone business from Apple",
+      "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "link": "https://www.cnbc.com/investingclub/2026/10/20/stocks-try-for-back-to-back-gains-plus-qnity-gets-iphone-business-from-apple.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:09:42+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Amgen, Equifax among market cap stock movers on Tuesday",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/amgen-equifax-among-market-cap-stock-movers-on-tuesday-93CH-4960838",
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEL4E14U_L.jpg",
+      "pubDate": "2026-10-20T18:06:29+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Instacart settles US probe over foreign worker recruiting for $5 million",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/instacart-settles-us-probe-over-foreign-worker-recruiting-for-5-million-4960837",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9J1LN_L.jpg",
+      "pubDate": "2026-10-20T18:06:17+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
+      "desc": "A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.",
+      "link": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:06:13+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio to boost drug development AI, Axios reports",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/openai-acquires-orchestra-bio-to-boost-drug-development-ai-axios-reports-4960836",
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEM5B1QY_L.jpg",
+      "pubDate": "2026-10-20T18:05:44+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+      "desc": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "image": null,
+      "pubDate": "2026-10-20T18:03:57+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "VOOV: A Solid Value ETF, But Choose MGV Instead For Greater Returns And Stability",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955602-voov-a-solid-value-etf-but-choose-mgv-instead-for-greater-returns-and-stability?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T18:02:09+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Oil inventories among economic data due Wednesday",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/oil-inventories-among-economic-data-due-wednesday-93CH-4960832",
+      "image": "https://content-media.investing.com/news/LYNXNPED910E7-ORUBS_M.jpg",
+      "pubDate": "2026-10-20T18:00:55+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Energy Transfer: The Q3 Reality Check",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955601-energy-transfer-the-q3-reality-check?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:58:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "CII: Strong Recent Performance, But AI Exposure Could Trigger Losses",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955598-cii-strong-recent-performance-but-ai-exposure-could-trigger-losses?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:53:43+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nebius: Deferred Revenue And Non-Cash Items Distort The Leverage Ratio And Key Financials",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955597-nebius-deferred-revenue-and-non-cash-items-distort-the-leverage-ratio-and-key-financials?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:51:37+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "9.5% Dividend Yield Finally Gets Cheap From Rithm Capital Preferred Share",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955596-9-5-percent-dividend-yield-finally-gets-cheap-from-rithm-capital-preferred-share?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:50:03+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Tech Deleveraging Accelerates Market Correction",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955611-tech-deleveraging-accelerates-market-correction?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:50:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Waste Management: Turn America's Trash Into Your Treasure",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955595-waste-management-turn-americas-trash-into-your-treasure?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:48:42+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Tencent: Transitioning From Social Super App To AI Super App",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955594-tencent-transitioning-from-social-super-app-to-ai-super-app?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:48:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Papa John's: This Painful Reset Could Set The Stage For Recovery (Rating Upgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955593-papa-johns-this-painful-reset-could-set-the-stage-for-recovery-rating-upgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:46:31+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "RLI Corp. (RLI) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4955580-rli-corp-rli-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-20T17:43:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Investors’ search for safety has made toothpaste stocks more expensive than tech",
+      "desc": "Wall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.",
+      "link": "https://www.marketwatch.com/story/investors-search-for-safety-has-made-toothpaste-stocks-more-expensive-than-tech-57a75e56?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-59145136",
+      "pubDate": "2026-10-20T17:38:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
+      "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+      "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-96138879",
+      "pubDate": "2026-10-20T17:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
+      "desc": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
+      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-27247005",
+      "pubDate": "2026-10-20T17:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups",
+      "desc": "",
+      "link": "https://www.businessinsider.com/olos-app-offers-in-store-prices-rivals-doordash-uber-eats-2026-10",
+      "image": null,
+      "pubDate": "2026-10-20T16:58:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "AI coding has hit an 'intelligence saturation' point, Cognition cofounder says",
+      "desc": "",
+      "link": "https://www.businessinsider.com/cognition-cofounder-ai-race-intelligence-saturation-2026-10",
+      "image": null,
+      "pubDate": "2026-10-20T16:58:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.",
+      "desc": "Several states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.",
+      "link": "https://www.marketwatch.com/story/its-not-just-californias-billionaire-tax-wealth-is-on-the-ballot-in-the-midterm-elections-a50fc12c?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-84666384",
+      "pubDate": "2026-10-20T16:55:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Bitcoin volatility is now quieter than roughly 20% of the S&P 500",
+      "desc": "",
+      "link": "https://seekingalpha.com/news/4654789-bitcoin-volatility-is-now-quieter-than-roughly-20-of-the-sp-500?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+      "image": null,
+      "pubDate": "2026-10-20T16:53:43+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Shapellx Launches #LoveYourself Breast Cancer Awareness Month Campaign, Donating Bras Valued at More Than $30,000 to Support Survivors",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"left\">ORLANDO, Fla., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Shapellx, a shapewear and lingerie brand focused on women",
+      "link": "https://markets.businessinsider.com/news/stocks/shapellx-launches-loveyourself-breast-cancer-awareness-month-campaign-donating-bras-valued-at-more-than-30-000-to-support-survivors-1036644706",
+      "image": null,
+      "pubDate": "2026-10-20T16:48:25+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "SHARE3DCAM Announces Major 3DGS Upgrade and New Mesh Generation in SHARE PointClouds Studio V2.7.0",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />Shenzhen, Oct. 20, 2026 (GLOBE NEWSWIRE) -- <a...",
+      "link": "https://markets.businessinsider.com/news/stocks/share3dcam-announces-major-3dgs-upgrade-and-new-mesh-generation-in-share-pointclouds-studio-v2-7-0-1036644705",
+      "image": null,
+      "pubDate": "2026-10-20T16:48:21+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "ProGlow Labs Launches Eight Peptide-Based Skincare and Hair Care Formulas",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"center\"><img alt=\"Recovery, the Calming Peptide Serum from ProGlow Labs, pairs KPV and copper peptide with niaci",
+      "link": "https://markets.businessinsider.com/news/stocks/proglow-labs-launches-eight-peptide-based-skincare-and-hair-care-formulas-1036644704",
+      "image": null,
+      "pubDate": "2026-10-20T16:46:41+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Momcozy Launches DeepClean Lite Baby Bottle Washer in the U.S., Designed for Real Kitchen Counters",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />New York, Oct. 20, 2026 (GLOBE NEWSWIRE) -- Momcozy, a leading global brand supporting parents through thoughtful juvenile",
+      "link": "https://markets.businessinsider.com/news/stocks/momcozy-launches-deepclean-lite-baby-bottle-washer-in-the-u-s-designed-for-real-kitchen-counters-1036644703",
+      "image": null,
+      "pubDate": "2026-10-20T16:45:41+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Kyoto Botanicals Launches Premium CBD Softgels, a Sugar-Free 50mg Option",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />Greenwood Village, COLORADO, Oct. 20, 2026 (GLOBE NEWSWIRE) -- Kyoto Botanicals has launched <a href=\"https://kyotobotanic",
+      "link": "https://markets.businessinsider.com/news/stocks/kyoto-botanicals-launches-premium-cbd-softgels-a-sugar-free-50mg-option-1036644694",
+      "image": null,
+      "pubDate": "2026-10-20T16:45:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Guided by âWellness From Within,â Easytone Lab Advances a More Thoughtful Approach to Nutrition",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />LOS ANGELES, Oct. 20, 2026 (GLOBE NEWSWIRE) -- <a href=\"https://www.globenewswire.com/Tracker?data=S2f3TEv-ZSW6NsKdjnfo-et",
+      "link": "https://markets.businessinsider.com/news/stocks/guided-by-wellness-from-within-easytone-lab-advances-a-more-thoughtful-approach-to-nutrition-1036644697",
+      "image": null,
+      "pubDate": "2026-10-20T16:44:33+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "ACSA names qualified nominees for 2026 Safety Excellence Awards",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />Edmonton, Oct. 20, 2026 (GLOBE NEWSWIRE) -- Thirty-one companies and three safety professionals from across Albertaâs co",
+      "link": "https://markets.businessinsider.com/news/stocks/acsa-names-qualified-nominees-for-2026-safety-excellence-awards-1036644696",
+      "image": null,
+      "pubDate": "2026-10-20T16:42:53+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "What options traders expect from SpaceX earnings after the bell",
+      "desc": "It's been a busy three months for SpaceX. Traders think that means more gains for the stock after it reports earnings after the bell today.",
+      "link": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+      "image": null,
+      "pubDate": "2026-10-20T16:34:36+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
+      "desc": "“They insist that the details will be provided after they have carried out a soft credit check.”",
+      "link": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-04384503",
+      "pubDate": "2026-10-20T16:25:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "desc": "Developments in the Middle East remain in focus, with attacks on commercial ships transiting the Strait of Hormuz escalating in recent weeks.",
+      "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+      "image": null,
+      "pubDate": "2026-10-20T16:19:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Novo's next-generation obesity drug shows 25% weight loss in women in late-stage analysis",
+      "desc": "Novo released new evidence that its experimental CagriSema injection can improve upon the weight loss with its blockbuster GLP-1 obesity injection, Wegovy.",
+      "link": "https://www.cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html",
+      "image": null,
+      "pubDate": "2026-10-20T16:11:02+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Here's what to expect when Netflix reports earnings after the bell",
+      "desc": "",
+      "link": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
+      "image": null,
+      "pubDate": "2026-10-20T16:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Looking for AI stocks that are still cheap? Consider these two under-the-radar picks.",
+      "desc": "Simon King of Saturna Capital names two stocks tied to base metals, for investors who want to look beyond the beaten path for AI-related trades.",
+      "link": "https://www.marketwatch.com/story/looking-for-ai-stocks-that-are-still-cheap-consider-these-two-under-the-radar-picks-b4ca2b28?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-91198545",
+      "pubDate": "2026-10-20T15:58:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "It’s no secret what the best financial advice for retirement is — but most people ignore it anyway",
+      "desc": "Research can prove a lot of facts, but that doesn’t mean it changes how people act.",
+      "link": "https://www.marketwatch.com/story/its-no-secret-what-the-best-financial-advice-for-retirement-is-but-most-people-ignore-it-anyway-7c9075c8?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-00601261",
+      "pubDate": "2026-10-20T15:54:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Data center stocks remain under pressure after Korea IPO plunges 30%",
+      "desc": "Neocloud stocks are still feeling the squeeze after last week's sell-off",
+      "link": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "image": null,
+      "pubDate": "2026-10-20T15:45:47+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
+      "desc": "GM narrowed its 2026 earnings guidance and raised its adjusted automotive free cash flow outlook after beating Wall Street’s third-quarter estimates.",
+      "link": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
+      "image": null,
+      "pubDate": "2026-10-20T15:43:44+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Builders slash prices on new homes as buyer traffic drops to 14-year low",
+      "desc": "Four in 10 home builders are cutting prices to boost demand, even as they face rising construction costs.",
+      "link": "https://www.marketwatch.com/story/builders-slash-prices-on-new-homes-as-buyer-traffic-drops-to-14-year-low-3dd8caea?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-83736801",
+      "pubDate": "2026-10-20T15:35:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Salesforce’s stock falls as investors chafe at the cost of latest AI purchase",
+      "desc": "An analyst calls it “a bit odd” that Salesforce plans to buy Braze at such a high premium to its recent stock price.",
+      "link": "https://www.marketwatch.com/story/salesforce-gets-a-chilly-investor-response-to-a-6-billion-deal-at-a-58-premium-57bd260b?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-02898598",
+      "pubDate": "2026-10-20T15:27:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "To get a reply when reaching out to people, make 1 simple change, says LinkedIn career expert",
+      "desc": "LinkedIn career expert Catherine Fisher says making this change when reaching out to people could boost the chances of hearing a yes.",
+      "link": "https://www.cnbc.com/make-it/2026/10/20/networking-specific-ask-linkedin-career-expert.html",
+      "image": null,
+      "pubDate": "2026-10-20T15:09:33+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "France to deploy military as it braces for fresh unrest this weekend",
+      "desc": "France will deploy Sentinelle troops for Saturday's protests, Interior Minister Laurent Nuñez said.",
+      "link": "https://www.cnbc.com/2026/10/20/france-protests-curfews-macron-gulf-trip.html",
+      "image": null,
+      "pubDate": "2026-10-20T15:01:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
+      "desc": "Anthropic and Nscale previously inked a similar deal for a data center on the same site in the U.S.",
+      "link": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
+      "image": null,
+      "pubDate": "2026-10-20T14:12:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%",
+      "desc": "The company's latest acquisition is expected to close in fiscal 2028, and will see Braze shareholders receive $47.50 in cash per share.",
+      "link": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+      "image": null,
+      "pubDate": "2026-10-20T14:09:16+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Apple shares aren't cheap. Here's how to get long for less",
+      "desc": "The primary headwind for Apple is valuation.",
+      "link": "https://www.cnbc.com/2026/10/20/apple-shares-arent-cheap-heres-how-to-get-long-for-less.html",
+      "image": null,
+      "pubDate": "2026-10-20T13:43:53+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
+      "desc": "Former OpenAI executive Bob McGrew is launching Arda at a $1.5 billion.",
+      "link": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+      "image": null,
+      "pubDate": "2026-10-20T13:03:31+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
+      "desc": "The U.K.'s Royal Air Force will deploy jets to assist with defensive operations, but will not engage in offensive strikes.",
+      "link": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
+      "image": null,
+      "pubDate": "2026-10-20T12:58:24+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
+      "desc": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
+      "link": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
+      "image": null,
+      "pubDate": "2026-10-20T12:52:29+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Best Buy launches new gaming hub ahead of 'Zelda' and 'Grand Theft Auto VI'",
+      "desc": "Best Buy is launching a new gaming experience for customers as it leans into the business ahead of this fall's big launches.",
+      "link": "https://www.cnbc.com/2026/10/20/best-buy-gamers-beta-ign.html",
+      "image": null,
+      "pubDate": "2026-10-20T12:45:30+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+      "desc": "Apple is adding a U.S. titanium supplier for its new iPhone Duo and expanding domestic production of camera components for the iPhone 18 Pro.",
+      "link": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html",
+      "image": null,
+      "pubDate": "2026-10-20T12:29:26+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Zelenskyy to meet with U.S. envoy as tensions with Trump mount",
+      "desc": "Ukraine's President Volodymyr Zelenskyy is set to meet with U.S. special envoys on Tuesday after President Donald Trump aimed fresh criticism at the wartime leader.",
+      "link": "https://www.cnbc.com/2026/10/20/zelenskyy-witkoff-trump-ukraine-russia.html",
+      "image": null,
+      "pubDate": "2026-10-20T10:30:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Walmart launches joint membership with Sam's Club as it leans into delivery, gas discounts",
+      "desc": "Walmart is now offering a joint membership with Sam's Club for $120 per year as the retailer further leans into convenience.",
+      "link": "https://www.cnbc.com/2026/10/20/walmart-sams-club-plus-membership.html",
+      "image": null,
+      "pubDate": "2026-10-20T10:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "What’s making Europe so angry? The frustration behind the protests",
+      "desc": "Protests broke out in France and several European countries as people railed against living costs, poor schooling conditions, and a housing crisis.",
+      "link": "https://www.cnbc.com/2026/10/20/france-protests-europe-cost-living-violence.html",
+      "image": null,
+      "pubDate": "2026-10-20T07:19:16+00:00",
+      "source": "CNBC Markets"
+    }
+  ]
+}
