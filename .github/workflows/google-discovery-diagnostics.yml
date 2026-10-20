@@ -1,0 +1,65 @@
+name: TTN Google discovery diagnostics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/google-discovery-diagnostics.yml']
+permissions:
+  contents: read
+jobs:
+  public-endpoints:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check live sitemap, pages and Google tag without sending analytics events
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures, datetime, hashlib, json, re, urllib.request, urllib.error, xml.etree.ElementTree as ET
+          BASE = "https://globtechco.github.io/ttn-finans/"
+          UA = "TTN-Finance-Read-Only-Diagnostics/1.0"
+          def fetch(url, agent=UA, method="GET"):
+              req = urllib.request.Request(url, headers={"User-Agent": agent, "Cache-Control": "no-cache"}, method=method)
+              try:
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      body = response.read()
+                      return {"url":url, "final":response.url, "status":response.status, "headers":dict(response.headers), "body":body}
+              except urllib.error.HTTPError as error:
+                  return {"url":url,"status":error.code,"headers":dict(error.headers),"body":error.read()}
+              except Exception as error:
+                  return {"url":url,"status":None,"error":str(error),"headers":{},"body":b""}
+          def report(result, label):
+              headers = {k.lower():v for k,v in result["headers"].items()}
+              print(json.dumps({"check":label,"url":result["url"],"final":result.get("final"),"status":result["status"],"bytes":len(result["body"]),"sha256":hashlib.sha256(result["body"]).hexdigest(),"content_type":headers.get("content-type"),"last_modified":headers.get("last-modified"),"cache_control":headers.get("cache-control"),"age":headers.get("age"),"x_robots_tag":headers.get("x-robots-tag"),"error":result.get("error")},sort_keys=True),flush=True)
+          print("TTN_DIAGNOSTICS_START",datetime.datetime.now(datetime.timezone.utc).isoformat(),flush=True)
+          targets = [("", "homepage"),("sitemap.xml","sitemap"),("robots.txt","project-robots"),("analytics.js","analytics"),("consent.js","consent"),("google190079b83d1d8ba0.html","verification")]
+          data = {}
+          for path,label in targets:
+              result=fetch(BASE+path);data[label]=result;report(result,label)
+          root=fetch("https://globtechco.github.io/robots.txt");report(root,"domain-root-robots");print("ROOT_ROBOTS_TEXT",root["body"][:16000].decode("utf-8","replace") if root["status"]==200 else "not present",flush=True)
+          sitemap=data["sitemap"]
+          try:
+              tree=ET.fromstring(sitemap["body"]);ns={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
+              urls=[entry.text for entry in tree.findall("s:url/s:loc",ns)]
+              dates=[entry.text for entry in tree.findall("s:url/s:lastmod",ns)]
+              print("SITEMAP_SUMMARY",json.dumps({"urls":len(urls),"unique":len(set(urls)),"latest_lastmod":max(dates),"namespace":tree.tag,"all_project_urls":all(u.startswith(BASE) for u in urls),"has_latest_nacha":any("nacha-same-day-ach" in u for u in urls),"has_latest_muse":any("meta-muse-ten-million" in u for u in urls)}),flush=True)
+          except Exception as error:
+              urls=[];print("SITEMAP_PARSE_ERROR",str(error),flush=True)
+          def check_page(url):
+              result=fetch(url,method="HEAD")
+              headers={k.lower():v for k,v in result["headers"].items()}
+              return {"url":url,"status":result["status"],"type":headers.get("content-type"),"x_robots_tag":headers.get("x-robots-tag"),"error":result.get("error")}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              checked=list(pool.map(check_page,urls))
+          print("SITEMAP_URL_CHECK",json.dumps({"checked":len(checked),"ok":sum(r["status"]==200 for r in checked),"problems":[r for r in checked if r["status"]!=200 or r["x_robots_tag"]]}),flush=True)
+          home=data["homepage"]["body"].decode("utf-8","replace")
+          analytics=data["analytics"]["body"].decode("utf-8","replace")
+          ids=sorted(set(re.findall(r"G-[A-Z0-9]+",analytics)))
+          print("LIVE_CONTENT",json.dumps({"homepage_has_latest_nacha":"nacha-same-day-ach-growth-third-quarter-2026" in home,"homepage_has_latest_muse":"meta-muse-ten-million-us-downloads-october-20-2026" in home,"measurement_ids":ids,"analytics_needs_acceptance":"choice !== 'accepted'" in analytics,"verification_body":data["verification"]["body"].decode("utf-8","replace")}),flush=True)
+          for measurement_id in ids:
+              tag=fetch("https://www.googletagmanager.com/gtag/js?id="+measurement_id);report(tag,"google-tag")
+          bot=fetch(BASE+"sitemap.xml","Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)");report(bot,"sitemap-googlebot-agent")
+          print("SITEMAP_SAME_FOR_AGENTS",bot["body"]==sitemap["body"],flush=True)
+          print("TTN_DIAGNOSTICS_END",datetime.datetime.now(datetime.timezone.utc).isoformat(),flush=True)
+          
+          PY
