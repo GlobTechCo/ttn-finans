@@ -136,13 +136,11 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-20T16:06:02+00:00",
-    "dateModified": "2026-10-20T16:06:02+00:00",
+    "dateModified": "2026-10-20T18:02:54.948Z",
     "author": "TTN Research Desk",
-    "image": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp",
+    "image": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2.png",
     "imageAlt": "Generated editorial reconstruction of Reliable Robotics’ documented Cessna Caravan aircraft, parked on an illustrative airport apron; not a photograph of the financing announcement.",
-    "imageSrcset": "assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-480.webp 480w, assets/responsive/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1-960.webp 960w, assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v1.webp 1672w",
+    "imageSrcset": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2.png 1672w",
     "editorialNote": null,
     "body": [
       "Reliable Robotics secured $115 million in additional financing to expand its aircraft automation business, taking its valuation above $1 billion. The company said Tuesday that the money increases its Series D financing to $275 million and will support aircraft, production facilities and engineering recruitment.",
