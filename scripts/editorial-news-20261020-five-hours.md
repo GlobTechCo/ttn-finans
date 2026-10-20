@@ -12,3 +12,7 @@ Selection window: October 20, 2026, 05:09–10:09 UTC (08:09–13:09 Europe/Kyiv
 
 Image: built-in image generation; neutral daylight, non-cinematic, generic subject; no named architecture or product reconstruction. Actual result inspected. Source PNG: exec-6460335b-0e5e-4bcc-aac5-83fd926dc2ab.png. No visible generation caption requested; provenance in alt and methodology.
 
+
+## Nvidia cover correction
+
+User approved the industrial-scale assembly preview on October 20, 2026 at 13:25 Europe/Kyiv. New cover: assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp. Built-in image generation; neutral industrial lighting, batches of corporate GPU systems, supported components, no named location or product reconstruction. The previous domestic-workbench composition did not convey the order scale. Approved source PNG: exec-45e5433c-4cea-4d0b-8af0-779b2768ec79.png. Original immutable social asset retained.
