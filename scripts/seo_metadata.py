@@ -1,4 +1,7 @@
 TITLES = '''
+eka-robotics-series-a-tactile-ai-october-20-2026|Eka Raises $150 Million for Force-Aware Robots
+reliable-robotics-financing-autonomous-flight-october-20-2026|Reliable Robotics Raises $115 Million
+inspired-capital-fourth-fund-450-million-october-20-2026|Inspired Capital Closes $450 Million Fund
 ai-agents-enterprise-roi-2026|AI Agent ROI Depends on the Work Left for People
 ai-agents-india-cert-in-security-warning-2026|India Warns of AI Agent Access to Company Systems
 ai-agents-websites-block-access-2026|AI Agents Face Website Access Restrictions
