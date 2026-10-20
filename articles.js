@@ -1,10 +1,10 @@
 /* TTN original explainers and analysis. */
-const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026","section":"Tech & AI","title":"China’s Tech Giants Reportedly Order $35 Billion in Nvidia Cards","dek":"ByteDance, Alibaba and Tencent are seeking workstation GPUs. Reported orders show demand for AI capacity, but deliveries and revenue remain uncertain.","tickers":["NVDA","BABA"],"imageAlt":"AI-generated editorial illustration of technicians assembling GPU-equipped corporate computing systems at an industrial facility; not a photograph of Nvidia products, a named factory or reported deliveries","body":["<p>ByteDance, Alibaba and Tencent have ordered more than three million Nvidia RTX PRO 5500 graphics cards with a combined sticker value above $35 billion, Reuters reported Tuesday, citing people familiar with the matter. Nvidia cannot guarantee fulfillment, the report said. The buyers did not respond to requests for comment.</p>","<p>The scale is striking, but the distinction between an order and a sale matters. A request for scarce computing equipment becomes revenue only after the relevant delivery and accounting conditions are met. Investors should avoid treating the reported total as a new addition to Nvidia’s recognized sales.</p>","<h2>A workstation card with an AI role</h2>","<p>Nvidia’s official product page describes the RTX PRO 5500 as a Blackwell workstation GPU with 84 gigabytes of GDDR7 memory. Its intended uses include running trained language models, graphics, simulation and scientific computing. The published specifications are preliminary and subject to change.</p>","<p>Running a trained model is called inference: it is the work performed when a service produces an answer or processes a customer request. It differs from training a model. The same buyer can therefore need different hardware for different parts of its AI operation, rather than a single interchangeable pool of chips.</p>","<h2>A filing shows the delivery risk</h2>","<p>A separate October 13 disclosure by Tansun Technology records a contract for 20,000 RTX PRO 5500 cards. It warns about supply constraints, overseas technology controls and possible delays or quantities below expectations. That older filing supports the existence of procurement activity; it does not independently establish the three companies’ newly reported orders.</p>","<p>For customers, the practical question is how much usable capacity arrives, when it arrives and what each completed task costs. Memory capacity, cooling, software compatibility and utilization all affect the answer. A purchase headline alone cannot establish the economics of the applications that will run on the equipment.</p>","<h2>What the headline can and cannot tell investors</h2>","<p>The report points to persistent demand for Nvidia products in China under trade restrictions. It is not a company-confirmed revenue forecast. Order conversion, delivery schedules and margins will be more informative than the largest possible purchase value.</p>","<p>For the operating side of that calculation, see TTN’s explanation of <a href=\"ai-inference-unit-economics-2026.html\">the cost of completing an AI task</a> and its coverage of <a href=\"ai-chips-bottlenecks-2026.html\">bottlenecks beyond the processor itself</a>.</p>"],"sources":[{"label":"Reuters: October 20 report on the three companies’ orders","url":"https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"},{"label":"Nvidia: RTX PRO 5500 product specifications","url":"https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5500/"},{"label":"Tansun Technology: October 13 procurement disclosure","url":"https://static.cninfo.com.cn/finalpage/2026-10-13/1225602580.PDF"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:26:51+00:00","image":"assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp","imageSmall":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp","imageMedium":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp","imageSrcset":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp 480w, assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp 960w, assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp 1672w"},{"id":"ai-stocks-oil-110-premarket-october-20-2026","section":"Market Analysis","title":"AI Stocks Slip Again as $110 Oil Tests the Rebound","dek":"Tuesday’s European and U.S. premarket trading challenged Monday’s technology recovery as expensive oil added another risk to the earnings outlook.","tickers":["CRWV","ASML"],"imageAlt":"AI-generated editorial illustration of a crude oil tanker near a terminal; not a photograph of a reported attack or a named location","body":["<p>Technology shares came under renewed pressure Tuesday morning while Brent crude traded above $110 a barrel, putting Monday’s recovery to an early test. The Wall Street Journal reported Nasdaq futures down 0.3% and CoreWeave down 2.9% in premarket trading. S&amp;P 500 futures were flat and Dow futures edged higher.</p>","<p>Those are indications before the U.S. cash-market open, not Tuesday’s closing results. The difference is especially important after a sharp rebound: overnight futures can signal caution without determining how the full session will finish.</p>","<h2>Europe adds a new warning</h2>","<p>In European trading, the STOXX 600 fell 0.6%, while chip-equipment makers ASML and ASMI lost more than 3%, according to Reuters. That extended the pressure beyond a single American stock and made the morning reversal a broader market development.</p>","<p>Barron’s also highlighted weakness in South Korea, where the KOSPI fell 3.7% and AI infrastructure company Elice dropped sharply on its trading debut. The listing had started earlier in the day; Tuesday’s European and U.S. premarket weakness is the new focus here.</p>","<h2>Oil complicates the earnings calculation</h2>","<p>More expensive energy can reach company accounts through transport, materials and operating expenses. Whether profits suffer depends on fuel hedges, pricing power and how much of the increase companies can pass to customers. Energy producers and fuel-intensive businesses need not respond in the same way.</p>","<p>For AI infrastructure, there is a separate test: the return on new capacity must justify the cost of equipment, power and financing. A higher oil price does not mechanically set every data center’s electricity bill, but it adds another source of uncertainty to the wider inflation and interest-rate outlook.</p>","<h2>A rebound needs more than a positive session</h2>","<p>Monday’s advance showed buyers returning. Tuesday morning’s retreat shows that confidence remains conditional. Neither move, on its own, establishes whether the sector’s investment plans will produce attractive cash returns.</p>","<p>The useful checks are the breadth of the move, companies’ explanations of costs and demand, and evidence that new spending is generating cash. TTN’s <a href=\"wall-street-close-october-19-2026-ai-rebound.html\">review of Monday’s uneven rebound</a> provides the starting point; its guide to <a href=\"oil-shock-market-ripple.html\">how an oil shock moves through markets</a> explains the transmission channels.</p>"],"sources":[{"label":"The Wall Street Journal: Tuesday’s AI selloff and oil above $110","url":"https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70"},{"label":"Barron’s: October 20 premarket technology reversal","url":"https://www.barrons.com/livecoverage/stock-market-news-today-102026/card/the-tech-stock-rebound-is-toast-already-qqPVhoBxdjyBwVHjs8Sh"},{"label":"Reuters: European market and chip-equipment moves","url":"https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:14:13+00:00","image":"assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp","imageSmall":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp","imageMedium":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp","imageSrcset":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp 480w, assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp 960w, assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp 1672w"},{"id":"3m-amazon-data-center-supply-deal-2026","section":"Market Analysis","title":"3M's Amazon Deal Puts Optical Materials in the AI Supply Chain","dek":"3M gives Amazon rights to buy shares as data-center purchases grow.","tickers":["MMM"],"image":"assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of 3M signage beside an Amazon-branded data center; not a photograph of an actual site or the agreement","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/retail-consumer/3m-expands-amazon-data-center-partnership-shares-gain-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":["<p>Industrial materials producer 3M has expanded its relationship with Amazon, granting an Amazon subsidiary warrants to buy up to 3.16 million 3M shares. The arrangement, announced October 19, links much of the potential equity stake to purchases of optical connectivity and other products for data centers.</p>\n","<p>The deal draws attention to a less visible segment of the AI infrastructure economy. Chips, servers and electricity dominate discussions of investment, but optical materials and connections are also needed to move information through large computing facilities.</p>\n","<h2>What the warrants actually mean</h2>","<p>Under the arrangement, Amazon has the right, but not the obligation, to acquire shares at an exercise price of $164.89 over a seven-year period. According to Reuters, roughly 85% of the warrant shares are tied to purchase milestones that reach $6 billion in cumulative spending. These are potential future purchases, not revenue already recorded by 3M.</p>\n","<p>At the stated exercise price, buying all 3.16 million shares would cost roughly $521 million. That share-purchase amount is distinct from the $6 billion procurement milestone. Vesting provisions determine which rights Amazon earns, while market conditions determine whether exercising them becomes attractive.</p>\n","<h2>Why data center connectivity matters</h2>","<p>AI computing facilities require fast and dependable links among processors, storage systems and network switches. Growing capacity can create demand for components beyond graphics processors. For a diversified manufacturer such as 3M, specialized products for computing infrastructure represent a potential source of incremental sales.</p>\n","<p>For Amazon, an equity-linked supplier agreement can create longer-term alignment without establishing a fixed delivery schedule for every component. The business impact depends on actual procurement volumes, margins, competition and the reliability of the underlying technology.</p>\n","<h2>What investors should monitor</h2>","<p>Reuters reported that 3M stock rose more than 5% in extended trading after the announcement. That reaction illustrates enthusiasm for businesses exposed to AI expansion, but it does not measure the contract's eventual profits.</p>\n","<p>Investors will need to follow reported data-center-related sales, capital requirements and the pace at which warrant milestones are reached. A large headline commitment is meaningful only to the extent that purchases are completed and 3M converts them into profitable operating income.</p>\n","<p>The contract sits alongside a broader question explored in TTN's <a href=\"ai-boom-capital-financing-2026.html\">analysis of AI infrastructure financing</a>: suppliers can benefit from construction spending, but sustainable returns depend on what customers ultimately earn from the capacity they build.</p>"],"imageSmall":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp 480w, assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp 960w, assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp 1672w"},{"id":"eric-schmidt-anthropic-stake-2026","section":"Tech & AI","title":"Eric Schmidt Reportedly Holds 1% of Anthropic as IPO Plans Draw Attention","dek":"A reported early investment by Google's former CEO highlights the value and uncertainty surrounding private AI companies ahead of possible public listings.","tickers":["GOOGL"],"image":"assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of a seated man with Anthropic signage; not a documentary photograph of Eric Schmidt","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/former-google-ceo-schmidt-owns-1-stake-anthropic-bloomberg-reports-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":["<p>Eric Schmidt, the former chief executive of Google, reportedly owns about 1% of Anthropic, the developer of Claude. Bloomberg's October 19 report, carried by Reuters, describes an early investment that could become extremely valuable if the AI company proceeds with plans to list its shares.</p>\n","<p>Schmidt reportedly committed tens of millions of dollars in an early financing round. Whether he has sold any part of the position since then is unclear. The reported holding is therefore not the same as a confirmed, currently liquid fortune.</p>\n","<h2>How a 1% stake could be valued</h2>","<p>At a hypothetical $1.5 trillion company valuation, a one-percent position would be worth $15 billion on paper. That arithmetic is useful for understanding the scale of private-market expectations, but it is not an independently verified estimate of what Schmidt could sell or receive.</p>\n","<p>The outcome would depend on Anthropic's eventual share count, offering price, trading performance, lockup arrangements and any transactions by existing investors. A contemplated valuation is not the price of a completed IPO.</p>\n","<h2>Why Anthropic attracts investors</h2>","<p>Anthropic sells access to Claude models through subscriptions, developer services and enterprise products. Scaling those services requires substantial spending on computing capacity, including partnerships with established cloud providers.</p>\n","<p>That combination creates the central tension in the investment case: rapidly growing demand for AI services can expand revenue, but the cost of training models and serving customer requests also remains material. TTN's earlier coverage of <a href=\"ai-inference-unit-economics-2026.html\">AI inference economics</a> explains why usage growth does not automatically translate into attractive margins.</p>\n","<h2>What an IPO could reveal</h2>","<p>A public listing could give investors more standardized financial disclosures, including revenue composition, operating losses, cash flow and infrastructure commitments. Investors should assess the available prospectus and subsequent disclosures rather than treating a reported ownership percentage as a complete investment case.</p>\n","<p>For investors assessing any eventual share offering, company valuation should be considered alongside the durability of customer demand, pricing power and the pace of investment. Returns earned by early backers do not indicate what later public shareholders will earn.</p>\n","<p>The reported Schmidt investment is a window into the extraordinary expectations surrounding the AI sector, not proof of an imminent listing or an assured windfall.</p>"],"imageSmall":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp 480w, assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp 960w, assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp 1672w"},
+const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026","section":"Tech & AI","title":"China’s Tech Giants Reportedly Order $35 Billion in Nvidia Cards","dek":"Reported Nvidia orders from ByteDance, Alibaba and Tencent top $35 billion. Deliveries remain uncertain.","tickers":["NVDA","BABA"],"imageAlt":"AI-generated editorial illustration of technicians assembling GPU-equipped corporate computing systems at an industrial facility; not a photograph of Nvidia products, a named factory or reported deliveries","body":["<p>ByteDance, Alibaba and Tencent have ordered more than three million Nvidia RTX PRO 5500 graphics cards with a combined sticker value above $35 billion, Reuters reported Tuesday, citing people familiar with the matter. Nvidia cannot guarantee fulfillment, the report said. The buyers did not respond to requests for comment.</p>","<p>The scale is striking, but the distinction between an order and a sale matters. A request for scarce computing equipment becomes revenue only after the relevant delivery and accounting conditions are met. Investors should avoid treating the reported total as a new addition to Nvidia’s recognized sales.</p>","<h2>A workstation card with an AI role</h2>","<p>Nvidia’s official product page describes the RTX PRO 5500 as a Blackwell workstation GPU with 84 gigabytes of GDDR7 memory. Its intended uses include running trained language models, graphics, simulation and scientific computing. The published specifications are preliminary and subject to change.</p>","<p>Running a trained model is called inference: it is the work performed when a service produces an answer or processes a customer request. It differs from training a model. The same buyer can therefore need different hardware for different parts of its AI operation, rather than a single interchangeable pool of chips.</p>","<h2>A filing shows the delivery risk</h2>","<p>A separate October 13 disclosure by Tansun Technology records a contract for 20,000 RTX PRO 5500 cards. It warns about supply constraints, overseas technology controls and possible delays or quantities below expectations. That older filing supports the existence of procurement activity; it does not independently establish the three companies’ newly reported orders.</p>","<p>For customers, the practical question is how much usable capacity arrives, when it arrives and what each completed task costs. Memory capacity, cooling, software compatibility and utilization all affect the answer. A purchase headline alone cannot establish the economics of the applications that will run on the equipment.</p>","<h2>What the headline can and cannot tell investors</h2>","<p>The report points to persistent demand for Nvidia products in China under trade restrictions. It is not a company-confirmed revenue forecast. Order conversion, delivery schedules and margins will be more informative than the largest possible purchase value.</p>","<p>For the operating side of that calculation, see TTN’s explanation of <a href=\"ai-inference-unit-economics-2026.html\">the cost of completing an AI task</a> and its coverage of <a href=\"ai-chips-bottlenecks-2026.html\">bottlenecks beyond the processor itself</a>.</p>"],"sources":[{"label":"Reuters: October 20 report on the three companies’ orders","url":"https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"},{"label":"Nvidia: RTX PRO 5500 product specifications","url":"https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5500/"},{"label":"Tansun Technology: October 13 procurement disclosure","url":"https://static.cninfo.com.cn/finalpage/2026-10-13/1225602580.PDF"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:26:51+00:00","image":"assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp","imageSmall":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp","imageMedium":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp","imageSrcset":"assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-480.webp 480w, assets/responsive/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2-960.webp 960w, assets/editorial/nvidia-china-workstation-gpu-orders-october-20-2026-industrial-v2.webp 1672w"},{"id":"ai-stocks-oil-110-premarket-october-20-2026","section":"Market Analysis","title":"AI Stocks Slip Again as $110 Oil Tests the Rebound","dek":"AI shares weakened in Tuesday’s early trading as Brent oil climbed above $110 a barrel.","tickers":["CRWV","ASML"],"imageAlt":"AI-generated editorial illustration of a crude oil tanker near a terminal; not a photograph of a reported attack or a named location","body":["<p>Technology shares came under renewed pressure Tuesday morning while Brent crude traded above $110 a barrel, putting Monday’s recovery to an early test. The Wall Street Journal reported Nasdaq futures down 0.3% and CoreWeave down 2.9% in premarket trading. S&amp;P 500 futures were flat and Dow futures edged higher.</p>","<p>Those are indications before the U.S. cash-market open, not Tuesday’s closing results. The difference is especially important after a sharp rebound: overnight futures can signal caution without determining how the full session will finish.</p>","<h2>Europe adds a new warning</h2>","<p>In European trading, the STOXX 600 fell 0.6%, while chip-equipment makers ASML and ASMI lost more than 3%, according to Reuters. That extended the pressure beyond a single American stock and made the morning reversal a broader market development.</p>","<p>Barron’s also highlighted weakness in South Korea, where the KOSPI fell 3.7% and AI infrastructure company Elice dropped sharply on its trading debut. The listing had started earlier in the day; Tuesday’s European and U.S. premarket weakness is the new focus here.</p>","<h2>Oil complicates the earnings calculation</h2>","<p>More expensive energy can reach company accounts through transport, materials and operating expenses. Whether profits suffer depends on fuel hedges, pricing power and how much of the increase companies can pass to customers. Energy producers and fuel-intensive businesses need not respond in the same way.</p>","<p>For AI infrastructure, there is a separate test: the return on new capacity must justify the cost of equipment, power and financing. A higher oil price does not mechanically set every data center’s electricity bill, but it adds another source of uncertainty to the wider inflation and interest-rate outlook.</p>","<h2>A rebound needs more than a positive session</h2>","<p>Monday’s advance showed buyers returning. Tuesday morning’s retreat shows that confidence remains conditional. Neither move, on its own, establishes whether the sector’s investment plans will produce attractive cash returns.</p>","<p>The useful checks are the breadth of the move, companies’ explanations of costs and demand, and evidence that new spending is generating cash. TTN’s <a href=\"wall-street-close-october-19-2026-ai-rebound.html\">review of Monday’s uneven rebound</a> provides the starting point; its guide to <a href=\"oil-shock-market-ripple.html\">how an oil shock moves through markets</a> explains the transmission channels.</p>"],"sources":[{"label":"The Wall Street Journal: Tuesday’s AI selloff and oil above $110","url":"https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70"},{"label":"Barron’s: October 20 premarket technology reversal","url":"https://www.barrons.com/livecoverage/stock-market-news-today-102026/card/the-tech-stock-rebound-is-toast-already-qqPVhoBxdjyBwVHjs8Sh"},{"label":"Reuters: European market and chip-equipment moves","url":"https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/"}],"author":"TTN Research Desk","date":"2026-10-20T10:14:13+00:00","dateModified":"2026-10-20T10:14:13+00:00","image":"assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp","imageSmall":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp","imageMedium":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp","imageSrcset":"assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-480.webp 480w, assets/responsive/ai-stocks-oil-110-premarket-october-20-2026-v1-960.webp 960w, assets/editorial/ai-stocks-oil-110-premarket-october-20-2026-v1.webp 1672w"},{"id":"3m-amazon-data-center-supply-deal-2026","section":"Market Analysis","title":"3M's Amazon Deal Puts Optical Materials in the AI Supply Chain","dek":"3M gives Amazon rights to buy shares as data-center purchases grow.","tickers":["MMM"],"image":"assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of 3M signage beside an Amazon-branded data center; not a photograph of an actual site or the agreement","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/retail-consumer/3m-expands-amazon-data-center-partnership-shares-gain-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":["<p>Industrial materials producer 3M has expanded its relationship with Amazon, granting an Amazon subsidiary warrants to buy up to 3.16 million 3M shares. The arrangement, announced October 19, links much of the potential equity stake to purchases of optical connectivity and other products for data centers.</p>\n","<p>The deal draws attention to a less visible segment of the AI infrastructure economy. Chips, servers and electricity dominate discussions of investment, but optical materials and connections are also needed to move information through large computing facilities.</p>\n","<h2>What the warrants actually mean</h2>","<p>Under the arrangement, Amazon has the right, but not the obligation, to acquire shares at an exercise price of $164.89 over a seven-year period. According to Reuters, roughly 85% of the warrant shares are tied to purchase milestones that reach $6 billion in cumulative spending. These are potential future purchases, not revenue already recorded by 3M.</p>\n","<p>At the stated exercise price, buying all 3.16 million shares would cost roughly $521 million. That share-purchase amount is distinct from the $6 billion procurement milestone. Vesting provisions determine which rights Amazon earns, while market conditions determine whether exercising them becomes attractive.</p>\n","<h2>Why data center connectivity matters</h2>","<p>AI computing facilities require fast and dependable links among processors, storage systems and network switches. Growing capacity can create demand for components beyond graphics processors. For a diversified manufacturer such as 3M, specialized products for computing infrastructure represent a potential source of incremental sales.</p>\n","<p>For Amazon, an equity-linked supplier agreement can create longer-term alignment without establishing a fixed delivery schedule for every component. The business impact depends on actual procurement volumes, margins, competition and the reliability of the underlying technology.</p>\n","<h2>What investors should monitor</h2>","<p>Reuters reported that 3M stock rose more than 5% in extended trading after the announcement. That reaction illustrates enthusiasm for businesses exposed to AI expansion, but it does not measure the contract's eventual profits.</p>\n","<p>Investors will need to follow reported data-center-related sales, capital requirements and the pace at which warrant milestones are reached. A large headline commitment is meaningful only to the extent that purchases are completed and 3M converts them into profitable operating income.</p>\n","<p>The contract sits alongside a broader question explored in TTN's <a href=\"ai-boom-capital-financing-2026.html\">analysis of AI infrastructure financing</a>: suppliers can benefit from construction spending, but sustainable returns depend on what customers ultimately earn from the capacity they build.</p>"],"imageSmall":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-480.webp 480w, assets/responsive/3m-amazon-data-center-supply-deal-2026-20261020-v2-960.webp 960w, assets/editorial/3m-amazon-data-center-supply-deal-2026-20261020-v2.webp 1672w"},{"id":"eric-schmidt-anthropic-stake-2026","section":"Tech & AI","title":"Eric Schmidt Reportedly Holds 1% of Anthropic as IPO Plans Draw Attention","dek":"Google’s former CEO reportedly owns about 1% of Anthropic. The current holding remains unconfirmed.","tickers":["GOOGL"],"image":"assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp","imageAlt":"AI-generated editorial illustration of a seated man with Anthropic signage; not a documentary photograph of Eric Schmidt","sources":[{"label":"Reuters","url":"https://www.reuters.com/business/former-google-ceo-schmidt-owns-1-stake-anthropic-bloomberg-reports-2026-10-19/"}],"author":"TTN Research Desk","date":"2026-10-20T09:22:39.027Z","dateModified":"2026-10-20T09:59:46+00:00","body":["<p>Eric Schmidt, the former chief executive of Google, reportedly owns about 1% of Anthropic, the developer of Claude. Bloomberg's October 19 report, carried by Reuters, describes an early investment that could become extremely valuable if the AI company proceeds with plans to list its shares.</p>\n","<p>Schmidt reportedly committed tens of millions of dollars in an early financing round. Whether he has sold any part of the position since then is unclear. The reported holding is therefore not the same as a confirmed, currently liquid fortune.</p>\n","<h2>How a 1% stake could be valued</h2>","<p>At a hypothetical $1.5 trillion company valuation, a one-percent position would be worth $15 billion on paper. That arithmetic is useful for understanding the scale of private-market expectations, but it is not an independently verified estimate of what Schmidt could sell or receive.</p>\n","<p>The outcome would depend on Anthropic's eventual share count, offering price, trading performance, lockup arrangements and any transactions by existing investors. A contemplated valuation is not the price of a completed IPO.</p>\n","<h2>Why Anthropic attracts investors</h2>","<p>Anthropic sells access to Claude models through subscriptions, developer services and enterprise products. Scaling those services requires substantial spending on computing capacity, including partnerships with established cloud providers.</p>\n","<p>That combination creates the central tension in the investment case: rapidly growing demand for AI services can expand revenue, but the cost of training models and serving customer requests also remains material. TTN's earlier coverage of <a href=\"ai-inference-unit-economics-2026.html\">AI inference economics</a> explains why usage growth does not automatically translate into attractive margins.</p>\n","<h2>What an IPO could reveal</h2>","<p>A public listing could give investors more standardized financial disclosures, including revenue composition, operating losses, cash flow and infrastructure commitments. Investors should assess the available prospectus and subsequent disclosures rather than treating a reported ownership percentage as a complete investment case.</p>\n","<p>For investors assessing any eventual share offering, company valuation should be considered alongside the durability of customer demand, pricing power and the pace of investment. Returns earned by early backers do not indicate what later public shareholders will earn.</p>\n","<p>The reported Schmidt investment is a window into the extraordinary expectations surrounding the AI sector, not proof of an imminent listing or an assured windfall.</p>"],"imageSmall":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp","imageMedium":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp","imageSrcset":"assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-480.webp 480w, assets/responsive/eric-schmidt-anthropic-stake-2026-20261020-v2-960.webp 960w, assets/editorial/eric-schmidt-anthropic-stake-2026-20261020-v2.webp 1672w"},
   {
     "id": "apple-pro-and-tell-october-28-2026-event",
     "section": "Tech & AI",
     "title": "Apple Sets October 28 Event as Mac Expectations Build",
-    "dek": "Apple has announced a Los Angeles event for October 28. Reports point to new Macs, but the invitation does not confirm hardware specifications.",
+    "dek": "Apple sets an October 28 event. Reports point to new Macs, but specifications remain unconfirmed.",
     "tickers": [
       "AAPL"
     ],
@@ -53,7 +53,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "wall-street-close-october-19-2026-ai-rebound",
     "section": "Market Analysis",
     "title": "Nasdaq Rebounds, but Wall Street’s Recovery Is Uneven",
-    "dek": "The Nasdaq gained 1.1% at Monday’s close while the Dow slipped. A technology rebound leaves financing costs and earnings in focus.",
+    "dek": "The Nasdaq gained 1.1% on Monday, while the Dow slipped and the broader recovery remained uneven.",
     "tickers": [
       "NVDA",
       "INTC",
@@ -96,7 +96,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "us-homebuilder-confidence-october-2026-low",
     "section": "Market Analysis",
     "title": "US Builder Confidence Falls to Lowest Since 2012",
-    "dek": "The NAHB index fell to 29 in October as costly mortgages restrained demand. More builders cut prices, putting affordability and margins in focus.",
+    "dek": "US builder confidence falls to 29 as costly mortgages and more price cuts weigh on the housing market.",
     "tickers": [
       "LEN",
       "DHI"
@@ -148,7 +148,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "sp-global-ai-debt-visibility-hyperscalers-2026",
     "section": "Tech & AI",
     "title": "S&P Warns of Gaps in AI Debt Visibility",
-    "dek": "Financing guarantees can obscure AI infrastructure exposure. S&P sees no immediate need to change ratings, but investment returns remain the central risk.",
+    "dek": "S&P warns that AI financing guarantees can obscure exposure, but sees no immediate ratings action.",
     "tickers": [
       "AMZN",
       "MSFT",
@@ -198,7 +198,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "amazon-torchneuron-pytorch-trainium-2026",
     "section": "Tech & AI",
     "title": "Amazon Takes Aim at Nvidia’s Software Advantage",
-    "dek": "TorchNeuron brings native PyTorch workflows to Trainium. Easier migration could widen hardware choice, but cost savings still depend on the workload.",
+    "dek": "Amazon’s TorchNeuron aims to ease the move from Nvidia to Trainium using native PyTorch workflows.",
     "imageAlt": "Illustrative laboratory scene of an engineer testing an unbranded server accelerator board; not an actual Trainium product photograph.",
     "image": "assets/editorial/amazon-torchneuron-pytorch-trainium-2026.webp",
     "imageSmall": "assets/responsive/amazon-torchneuron-pytorch-trainium-2026-480.webp",
@@ -255,7 +255,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "ai-agents-website-breaches-norforge-october-2026",
     "section": "Tech & AI",
     "title": "AI Agents Linked to Over 100 Website Breaches",
-    "dek": "A new investigation documents automated intrusions at scale. Confirmed access, possible data theft and the cost of remediation remain distinct questions.",
+    "dek": "An investigation links AI agents to over 100 website breaches. The extent of data theft remains unclear.",
     "imageAlt": "Generated illustrative scene of a young technician inspecting network equipment at a service bench; not an actual victim or a reported intrusion.",
     "image": "assets/editorial/ai-agents-website-breaches-norforge-october-2026.webp",
     "imageSmall": "assets/responsive/ai-agents-website-breaches-norforge-october-2026-480.webp",
@@ -295,7 +295,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "yen-ueda-inflation-rate-outlook-october-19-2026",
     "section": "Market Analysis",
     "title": "Yen Faces Rate Test After Ueda Inflation Warning",
-    "dek": "Japan’s central bank chief said underlying inflation is nearing 2%. For currency traders, the pace of further tightening remains the key uncertainty.",
+    "dek": "Ueda says underlying inflation is close to 2%, keeping further Japanese rate increases in focus.",
     "imageAlt": "Generated architectural reconstruction of the Bank of Japan’s historic Tokyo headquarters from a photographic reference; not a photograph of the reported speech.",
     "image": "assets/editorial/yen-ueda-inflation-rate-outlook-october-19-2026.webp",
     "imageSmall": "assets/responsive/yen-ueda-inflation-rate-outlook-october-19-2026-480.webp",
@@ -343,7 +343,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "bitcoin-rebound-etf-outflows-october-19-2026",
     "section": "Market Analysis",
     "title": "Bitcoin Rebounds Above $82,000 as Oil Retreats",
-    "dek": "Bitcoin recovered with risk assets on Monday, while two weeks of US spot-ETF outflows kept the strength of underlying demand in question.",
+    "dek": "Bitcoin rebounds above $82,000, while US spot-ETF outflows leave sustained demand in question.",
     "imageAlt": "Three-dimensional editorial illustration of a copper Bitcoin symbol behind ribbed glass with abstract market candlesticks; not a chart of actual prices.",
     "image": "assets/editorial/bitcoin-rebound-etf-outflows-october-19-2026.webp",
     "imageSmall": "assets/responsive/bitcoin-rebound-etf-outflows-october-19-2026-480.webp",
@@ -383,7 +383,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "gold-oil-retreat-fed-outlook-october-19-2026",
     "section": "Market Analysis",
     "title": "Gold Edges Higher as Traders Look to the Fed",
-    "dek": "Bullion rose in a Monday morning snapshot as oil eased. The next test is whether inflation and interest-rate expectations sustain the move.",
+    "dek": "Gold edges higher as oil eases, with the Fed’s rate outlook still a test for the recovery.",
     "imageAlt": "Generated illustrative still life of unbranded gold ingots on an assay tray; not a photograph of a named refinery or a market transaction.",
     "image": "assets/editorial/gold-oil-retreat-fed-outlook-october-19-2026.webp",
     "imageSmall": "assets/responsive/gold-oil-retreat-fed-outlook-october-19-2026-480.webp",
@@ -422,7 +422,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "germany-industrial-jobs-loss-ifo-october-2026",
     "section": "Market Analysis",
     "title": "Germany Lost 496,000 Industrial Jobs Since 2019",
-    "dek": "A newly reported Ifo study tracks a 7.1% industrial employment decline through 2025, with autos, metal products and machinery bearing much of the loss.",
+    "dek": "An Ifo study tracks 496,000 German industrial jobs lost from 2019 through 2025, led by manufacturing.",
     "imageAlt": "Generated illustrative scene of two workers inspecting a metal component in an unbranded precision manufacturing workshop; not a photograph of a reported factory.",
     "image": "assets/editorial/germany-industrial-jobs-loss-ifo-october-2026.webp",
     "imageSmall": "assets/responsive/germany-industrial-jobs-loss-ifo-october-2026-480.webp",
@@ -467,7 +467,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "france-stocks-slide-protests-october-19-2026",
     "section": "Market Analysis",
     "title": "French Stocks Fall as Protests Add to Market Strain",
-    "dek": "The CAC 40 fell about 1% in early trading as banks led European losses. The opening selloff adds a fresh market response to weekend unrest.",
+    "dek": "French stocks fell about 1% in early trading as banks led European losses after weekend unrest.",
     "imageAlt": "Illustrative generated reconstruction of the Palais Brongniart, the historic former Paris stock exchange, based on an architectural photograph.",
     "image": "assets/editorial/france-stocks-slide-protests-october-19-2026.webp",
     "imageSmall": "assets/responsive/france-stocks-slide-protests-october-19-2026-480.webp",
@@ -512,7 +512,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "anthropic-public-benefit-fund-five-percent-shares-2026",
     "section": "Tech & AI",
     "title": "Anthropic Plans 5% Stake for Public Benefit Fund",
-    "dek": "The Claude developer plans a share commitment subject to stockholder approval. Governance details and the timetable for spending remain open.",
+    "dek": "Anthropic proposes a 5% share commitment to a public-benefit fund, subject to stockholder approval.",
     "imageAlt": "Generated editorial reconstruction of an Anthropic office glass-door entrance and its documented wordmark; not a photograph of the fund announcement.",
     "image": "assets/editorial/anthropic-public-benefit-fund-five-percent-shares-2026.webp",
     "imageSmall": "assets/responsive/anthropic-public-benefit-fund-five-percent-shares-2026-480.webp",
@@ -564,7 +564,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "us-futures-rebound-ai-earnings-october-19-2026",
     "section": "Market Analysis",
     "title": "US Futures Rebound as AI Trade Faces Earnings Test",
-    "dek": "Nasdaq 100 futures rose 1.3% in an early Monday snapshot. Earnings and financing costs remain the next tests after the chip selloff.",
+    "dek": "Nasdaq 100 futures rose 1.3% early Monday, ahead of an earnings test for the AI trade.",
     "imageAlt": "Generated editorial reconstruction of the New York Stock Exchange facade on Broad Street, based on a photographic architectural reference.",
     "image": "assets/editorial/us-futures-rebound-ai-earnings-october-19-2026.webp",
     "imageSmall": "assets/responsive/us-futures-rebound-ai-earnings-october-19-2026-480.webp",
@@ -613,7 +613,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "tiktok-musk-documentary-account-suspension-2026",
     "section": "Tech & AI",
     "title": "TikTok Suspends “Musk” Film Account, Adding to Documentary’s Promotion Dispute",
-    "dek": "The documentary’s distributor is appealing a reported permanent TikTok suspension, putting attention on the boundary between film promotion and political advertising.",
+    "dek": "The “Musk” distributor appeals a reported TikTok account suspension tied to political-content rules.",
     "imageAlt": "Conceptual illustration of a generic suspended advertising account on a phone beside cinema tickets; not TikTok’s interface, the film’s account or evidence of an appeal filing.",
     "body": [
       "TikTok has suspended the promotional account for Alex Gibney’s documentary “Musk,” according to reports published this weekend. The action adds an account-access dispute to the film’s difficulties buying social-media advertising.",
@@ -666,7 +666,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "meta-commercial-terms-crawling-publishers-clarification-2026",
     "section": "Tech & AI",
     "title": "Meta Removes Disputed Crawling Language After Publishers Raise AI Concerns",
-    "dek": "Meta revised commercial terms after concerns over website scraping. Its clarification narrows the stated purpose, while the dispute over AI training rights remains.",
+    "dek": "Meta revises disputed crawling terms while saying the change does not alter how its crawlers operate.",
     "imageAlt": "Illustrative newspaper printing press and operator, representing publishers affected by website crawling terms; not Meta premises or an actual reported event.",
     "body": [
       "Meta has removed disputed language from its commercial terms following concerns that the wording could authorize the use of publishers’ websites for AI training. The company says the clarification does not change how its web crawlers operate.",
@@ -716,7 +716,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "microsoft-nscale-loughton-lease-exit-power-2026",
     "section": "Market Analysis",
     "title": "Microsoft’s Reported Nscale Exit Puts Grid Access at the Center of AI Investment",
-    "dek": "Reports say Microsoft has left Nscale’s Loughton data center agreement. The project highlights the financial cost of capacity without timely grid power.",
+    "dek": "Microsoft reportedly leaves Nscale’s Loughton project, where grid power faces a lengthy delay.",
     "imageAlt": "Illustrative electricity substation and anonymous industrial buildings; not the Nscale Loughton site or a Microsoft facility.",
     "body": [
       "Microsoft has withdrawn from an agreement for Nscale’s proposed data center in Loughton, Essex, according to reporting published Sunday by The Telegraph and subsequently covered by Reuters and the Financial Times. The reported exit concerns one British project, rather than the companies’ entire infrastructure relationship.",
@@ -764,7 +764,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "id": "vietnam-efta-trade-agreement-signed-2026",
     "section": "Market Analysis",
     "title": "Vietnam Signs EFTA Trade Deal, Opening a New Route to Four European Markets",
-    "dek": "Vietnam and four EFTA countries signed a trade agreement on Sunday. Tariff benefits await entry into force, with product rules shaping who gains.",
+    "dek": "Vietnam signs a trade deal with four EFTA countries. Tariff preferences await entry into force.",
     "imageAlt": "Illustrative container terminal and logistics worker; not a documented Vietnamese port or the EFTA signing ceremony.",
     "body": [
       "Vietnam signed a free trade agreement with Switzerland, Norway, Iceland and Liechtenstein in Hanoi on Sunday, October 18, giving exporters a new framework for access to four European economies. The agreement has been signed but is not yet in force, according to the European Free Trade Association.",
@@ -806,11 +806,11 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
   },
   {
     "id": "chip-stock-perpetuals-weekend-liquidations-2026",
-    "title": "Chip-Stock Perpetuals See $52 Million in Liquidations While Wall Street Is Closed",
-    "dek": "Nearly $52 million in chip-linked perpetual positions were liquidated over 10 minutes, highlighting the risks of trading stock exposure while Wall Street is closed.",
+    "title": "Chip-Stock Perpetuals See $52 Million Liquidated During Weekend Trading",
+    "dek": "Chip-linked perpetuals saw nearly $52 million liquidated in 10 minutes while US stock markets were closed.",
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
-    "dateModified": "2026-10-18T04:46:15-04:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "section": "Market Analysis",
     "image": "assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp",
     "imageAlt": "Illustrative analyst viewing generic semiconductor and perpetual-contract charts; not actual market data or a documented trader.",
@@ -852,7 +852,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
   {
     "id": "ai-data-center-boom-power-delivery-debt-2026",
     "title": "AI's Data Center Boom Faces a Test of Power, Delivery and Debt",
-    "dek": "New reporting on delayed AI data centers puts attention on electricity access, financing and the gap between contracted demand and operating capacity.",
+    "dek": "Delayed AI data centers expose the gap between financing commitments and usable computing capacity.",
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
     "dateModified": "2026-10-18T04:46:15-04:00",
@@ -902,7 +902,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
   {
     "id": "china-solar-manufacturing-technology-export-controls-2026",
     "title": "China's Solar Technology Export Proposal Targets Manufacturing Know-How",
-    "dek": "China proposes controls on 12 solar manufacturing technologies, with immediate registration requirements and consultation on the draft running to November 15.",
+    "dek": "China proposes controls on solar manufacturing know-how, alongside immediate registration requirements.",
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
     "dateModified": "2026-10-18T04:46:15-04:00",
@@ -954,7 +954,7 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
   {
     "id": "circle-usdc-revenue-sharing-stablecoin-competition-2026",
     "title": "Circle Defends USDC's Revenue Model as Stablecoin Competition Intensifies",
-    "dek": "Circle defends USDC's revenue sharing and redemption model as competition puts the economics of stablecoin distribution under closer scrutiny.",
+    "dek": "Circle defends USDC’s revenue sharing as stablecoin competition tests the economics of distribution.",
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
     "dateModified": "2026-10-18T04:46:15-04:00",
@@ -994,10 +994,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp",
     "imageSrcset": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp 480w, assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp 960w, assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "replit-openai-preferred-partner-claude-choice-2026",
     "title": "Replit Favors OpenAI for Agent While Keeping Claude Available",
-    "dek": "The coding platform’s preferred partnership leaves room for competing models. Its documentation shows why the default and the available choices are different decisions.",
+    "dek": "Replit prefers OpenAI for Agent while keeping Claude options available, subject to account settings.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T16:44:36-04:00",
     "dateModified": "2026-10-17T16:44:36-04:00",
@@ -1046,10 +1046,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp",
     "imageSrcset": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp 480w, assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp 960w, assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "richard-heart-turkey-detention-confirmed-2026",
     "title": "Turkey Confirms Richard Heart’s Detention and Reports $7.15 Million Cash Seizure",
-    "dek": "The announcement adds official details to the Istanbul operation involving the HEX founder. His detention, Finland’s allegations and the dismissed US securities case are separate legal developments.",
+    "dek": "Turkey confirms the HEX founder’s detention and reports a $7.15 million cash seizure in Istanbul.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T16:44:36-04:00",
     "dateModified": "2026-10-17T16:44:36-04:00",
@@ -1095,10 +1095,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp",
     "imageSrcset": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp 480w, assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp 960w, assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "okxice-stock-token-issuer-objections-2026",
     "title": "Broadcom, Verizon and CoreWeave Object to Stock Tokens on OKXICE",
-    "dek": "Nine companies have filed objections with the proposed trading venue, highlighting the gap between regulatory permission and corporate acceptance of tokenized shares.",
+    "dek": "Nine companies object to stock tokens on OKXICE, testing the venue’s proposed share offerings.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T16:44:36-04:00",
     "dateModified": "2026-10-17T16:44:36-04:00",
@@ -1149,10 +1149,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp",
     "imageSrcset": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp 480w, assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp 960w, assets/editorial/okxice-stock-token-issuer-objections-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-agents-websites-block-access-2026",
     "title": "AI Agents Hit a Wall: Websites Decide Who Gets Through",
-    "dek": "Shopping and booking assistants face a constraint that better models cannot solve alone: permission to use the services their customers depend on.",
+    "dek": "AI shopping and booking tools face a basic obstacle: websites can restrict or refuse their access.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T19:09:56+03:00",
     "dateModified": "2026-10-17T19:09:56+03:00",
@@ -1189,10 +1189,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-agents-websites-block-access-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-websites-block-access-2026-480.webp 480w, assets/responsive/ai-agents-websites-block-access-2026-960.webp 960w, assets/editorial/ai-agents-websites-block-access-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "faa-controller-pay-workforce-reforms-october-2026",
     "title": "FAA and Controllers Agree to 2.8% Pay Increase Linked to Staffing Reforms",
-    "dek": "The Transportation Department confirmed an agreement covering time tracking, shift planning and transfers. The pay increase takes effect October 18 and is retroactive to the start of the year.",
+    "dek": "Controllers receive a 2.8% pay increase tied to staffing reforms, retroactive to the start of the year.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T00:59:43+03:00",
     "dateModified": "2026-10-17T00:59:43+03:00",
@@ -1222,10 +1222,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp",
     "imageSrcset": "assets/responsive/faa-controller-pay-workforce-reforms-october-2026-480.webp 480w, assets/responsive/faa-controller-pay-workforce-reforms-october-2026-960.webp 960w, assets/editorial/faa-controller-pay-workforce-reforms-october-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "wall-street-close-october-16-2026-ai-selloff",
     "title": "Nasdaq Falls 4.5% for the Week as AI Stocks Slide Into Friday’s Close",
-    "dek": "The S&P 500 also finished lower, while the Dow held a weekly gain. The closing figures show the selloff remained concentrated enough to produce sharply different index results.",
+    "dek": "The Nasdaq lost 4.5% for the week, while the Dow retained a gain amid uneven stock-market losses.",
     "author": "TTN Research Desk",
     "date": "2026-10-17T00:00:40+03:00",
     "dateModified": "2026-10-17T11:57:42+00:00",
@@ -1268,10 +1268,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp",
     "imageSrcset": "assets/responsive/wall-street-close-october-16-2026-ai-selloff-480.webp 480w, assets/responsive/wall-street-close-october-16-2026-ai-selloff-960.webp 960w, assets/editorial/wall-street-close-october-16-2026-ai-selloff.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "us-fiscal-2026-deficit-nearly-two-trillion",
     "title": "US Budget Deficit Reaches $1.99 Trillion as Debt Costs Mount",
-    "dek": "The annual shortfall widened despite higher receipts. The figures put the cost of financing government back at the center of the fiscal debate.",
+    "dek": "The fiscal 2026 deficit reaches $1.99 trillion as higher debt costs add to the US financing burden.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T23:22:28+03:00",
     "dateModified": "2026-10-16T23:22:28+03:00",
@@ -1306,13 +1306,13 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp",
     "imageSrcset": "assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-480.webp 480w, assets/responsive/us-fiscal-2026-deficit-nearly-two-trillion-960.webp 960w, assets/editorial/us-fiscal-2026-deficit-nearly-two-trillion.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "tesla-fsd-class-certification-appeal-october-2026",
-    "title": "Tesla Wins Appeal Over FSD Class Certification; Advertising Claims Remain Unresolved",
-    "dek": "The Ninth Circuit vacated certification of three California classes, finding that buyers’ exposure to a disputed hardware claim could not be presumed across the group.",
+    "title": "Tesla Wins FSD Class-Certification Appeal; Claims Remain Unresolved",
+    "dek": "Tesla wins a class-certification appeal. The ruling does not resolve the underlying FSD claims.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T23:22:27+03:00",
-    "dateModified": "2026-10-17T11:57:42+00:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "image": "assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp",
     "tickers": [],
     "body": [
@@ -1345,10 +1345,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp",
     "imageSrcset": "assets/responsive/tesla-fsd-class-certification-appeal-october-2026-480.webp 480w, assets/responsive/tesla-fsd-class-certification-appeal-october-2026-960.webp 960w, assets/editorial/tesla-fsd-class-certification-appeal-october-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "fund-flows-stocks-bonds-cash-october-2026",
     "title": "Investors Add $64.5 Billion to Stock Funds While Pulling Money From Cash",
-    "dek": "BofA’s weekly figures show buying across equities and bonds. The reporting window ends Wednesday, so the data cannot establish how investors responded to later market swings.",
+    "dek": "Stock funds draw $64.5 billion in weekly inflows. The reporting window ends before later market swings.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T20:08:37+03:00",
     "dateModified": "2026-10-16T20:08:37+03:00",
@@ -1379,10 +1379,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp",
     "imageSrcset": "assets/responsive/fund-flows-stocks-bonds-cash-october-2026-480.webp 480w, assets/responsive/fund-flows-stocks-bonds-cash-october-2026-960.webp 960w, assets/editorial/fund-flows-stocks-bonds-cash-october-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ofgem-market-stabilisation-charge-consultation-2026",
     "title": "UK Energy Regulator Proposes Payments Between Suppliers When Customers Switch",
-    "dek": "Ofgem wants to activate a dormant safeguard against sharp wholesale-price falls. The proposal raises a trade-off between supplier resilience and competition for cheaper deals.",
+    "dek": "Ofgem proposes supplier-to-supplier payments when customers switch after sharp wholesale-price falls.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T20:08:36+03:00",
     "dateModified": "2026-10-16T20:08:36+03:00",
@@ -1422,10 +1422,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp",
     "imageSrcset": "assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-480.webp 480w, assets/responsive/ofgem-market-stabilisation-charge-consultation-2026-960.webp 960w, assets/editorial/ofgem-market-stabilisation-charge-consultation-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "china-ai-technology-export-controls-draft-2026",
     "title": "China Proposes AI Export Controls While Keeping Model Services Accessible",
-    "dek": "A draft covers 23 AI technology categories, while officials distinguish transfers of restricted technology from overseas access through apps and APIs. Temporary registration requirements start immediately.",
+    "dek": "China proposes AI technology export controls while distinguishing them from access through apps and APIs.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T20:08:35+03:00",
     "dateModified": "2026-10-16T20:08:35+03:00",
@@ -1464,10 +1464,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp",
     "imageSrcset": "assets/responsive/china-ai-technology-export-controls-draft-2026-480.webp 480w, assets/responsive/china-ai-technology-export-controls-draft-2026-960.webp 960w, assets/editorial/china-ai-technology-export-controls-draft-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-agents-india-cert-in-security-warning-2026",
     "title": "AI Agents Reached Company Systems During Tests, India’s Cyber Agency Says",
-    "dek": "CERT-In describes unauthorized access disclosed by AI providers and separate criminal campaigns using agent tools. Its advisory points to exposed credentials and excessive access permissions.",
+    "dek": "India’s cyber agency warns that AI agents reached company systems beyond the scope of assigned tests.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T20:08:34+03:00",
     "dateModified": "2026-10-16T20:08:34+03:00",
@@ -1500,10 +1500,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-india-cert-in-security-warning-2026-480.webp 480w, assets/responsive/ai-agents-india-cert-in-security-warning-2026-960.webp 960w, assets/editorial/ai-agents-india-cert-in-security-warning-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ny-fed-services-prices-october-2026",
     "title": "New York Fed Survey Finds Faster Price Increases as Service Activity Falls",
-    "dek": "Regional service firms reported their fastest selling-price increases since 2022. The October survey adds a warning about costs, but is not a national inflation reading.",
+    "dek": "New York service firms report faster price increases and weaker activity in a regional Fed survey.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T18:11:36+03:00",
     "dateModified": "2026-10-16T18:11:36+03:00",
@@ -1542,10 +1542,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ny-fed-services-prices-october-2026-960.webp",
     "imageSrcset": "assets/responsive/ny-fed-services-prices-october-2026-480.webp 480w, assets/responsive/ny-fed-services-prices-october-2026-960.webp 960w, assets/editorial/ny-fed-services-prices-october-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "tesla-slovakia-assisted-driving-approval-2026",
     "title": "Slovakia Approves Tesla Driver Assistance as European Rollout Expands",
-    "dek": "Slovakia has recognized provisional approval for Tesla’s supervised driving system. The decision opens a path to rollout, while drivers remain responsible for the vehicle.",
+    "dek": "Slovakia recognizes provisional approval for Tesla’s supervised system. Drivers remain responsible.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T18:11:35+03:00",
     "dateModified": "2026-10-16T18:11:35+03:00",
@@ -1590,10 +1590,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp",
     "imageSrcset": "assets/responsive/tesla-slovakia-assisted-driving-approval-2026-480.webp 480w, assets/responsive/tesla-slovakia-assisted-driving-approval-2026-960.webp 960w, assets/editorial/tesla-slovakia-assisted-driving-approval-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ai-investment-central-banks-interest-rates-2026",
     "title": "AI Spending Puts Higher Borrowing Costs on Central Banks’ Radar",
-    "dek": "A fresh warning from policymakers shifts the focus from AI share prices to the cost of financing the wider economy.",
+    "dek": "Central bankers warn that AI spending can lift demand before productivity gains ease price pressure.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T17:10:49+03:00",
     "dateModified": "2026-10-16T17:10:49+03:00",
@@ -1627,10 +1627,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-investment-central-banks-interest-rates-2026-480.webp 480w, assets/responsive/ai-investment-central-banks-interest-rates-2026-960.webp 960w, assets/editorial/ai-investment-central-banks-interest-rates-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "iphone-duo-preorder-delays-january-2027",
     "title": "iPhone Duo Orders Slip Into 2027 Soon After Preorders Open",
-    "dek": "Apple’s first foldable starts at $1,999. Reported January delivery estimates leave buyers facing a wait, but do not reveal how many phones Apple has sold.",
+    "dek": "Reported iPhone Duo delivery estimates slip to January, but the backlog does not establish sales volume.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T17:06:39+03:00",
     "dateModified": "2026-10-16T17:06:39+03:00",
@@ -1666,10 +1666,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp",
     "imageSrcset": "assets/responsive/iphone-duo-preorder-delays-january-2027-480.webp 480w, assets/responsive/iphone-duo-preorder-delays-january-2027-960.webp 960w, assets/editorial/iphone-duo-preorder-delays-january-2027.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "us-import-prices-september-2026-inflation",
     "title": "US Import Prices Jump 1.1%, Bringing Inflation Pressure Beyond Oil",
-    "dek": "September import prices rose faster than expected. A broad increase in nonfuel goods adds to the cost pressure facing American businesses.",
+    "dek": "September import prices rise 1.1%, with nonfuel goods adding to US businesses’ cost pressures.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T15:53:40+03:00",
     "dateModified": "2026-10-17T11:57:42+00:00",
@@ -1704,10 +1704,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/us-import-prices-september-2026-inflation-960.webp",
     "imageSrcset": "assets/responsive/us-import-prices-september-2026-inflation-480.webp 480w, assets/responsive/us-import-prices-september-2026-inflation-960.webp 960w, assets/editorial/us-import-prices-september-2026-inflation.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "germany-nvidia-industrial-ai-agreement-2026",
     "title": "Germany Prepares Nvidia AI Pact as Factories Become the Next Test",
-    "dek": "Government sources say an industrial AI agreement is due next week. The details will show how Germany plans to turn computing capacity into factory applications.",
+    "dek": "Sources describe a planned German industrial AI agreement with Nvidia, rather than a completed deal.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T15:53:39+03:00",
     "dateModified": "2026-10-16T15:53:39+03:00",
@@ -1748,10 +1748,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp",
     "imageSrcset": "assets/responsive/germany-nvidia-industrial-ai-agreement-2026-480.webp 480w, assets/responsive/germany-nvidia-industrial-ai-agreement-2026-960.webp 960w, assets/editorial/germany-nvidia-industrial-ai-agreement-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "indonesia-msci-downgrade-stock-selloff-2026",
     "title": "Indonesia Stocks Plunge as MSCI Puts Emerging-Market Status at Risk",
-    "dek": "A proposed move to standalone status threatens Indonesia’s place in global equity benchmarks. The market has already repriced a decision that remains under consultation.",
+    "dek": "Indonesia’s stocks plunge after MSCI proposes a downgrade. The classification decision remains open.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:19+03:00",
     "dateModified": "2026-10-16T10:42:19+03:00",
@@ -1788,10 +1788,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp",
     "imageSrcset": "assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-480.webp 480w, assets/responsive/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2-960.webp 960w, assets/editorial/indonesia-msci-downgrade-stock-selloff-2026-idx-jakarta-v2.webp 1774w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "dollar-treasury-yields-ai-financing-october-16-2026",
     "title": "Dollar Slips as AI Financing Fears Send Investors Toward Treasuries",
-    "dek": "Friday’s currency weakness shows how concern about the AI investment cycle can reach beyond technology shares. Lower Treasury yields change the calculation for dollar holders.",
+    "dek": "The dollar weakens as AI financing concerns draw investors toward US government bonds.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:18+03:00",
     "dateModified": "2026-10-16T10:42:18+03:00",
@@ -1830,10 +1830,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp",
     "imageSrcset": "assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-480.webp 480w, assets/responsive/dollar-treasury-yields-ai-financing-october-16-2026-960.webp 960w, assets/editorial/dollar-treasury-yields-ai-financing-october-16-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "meta-muse-spark-open-coding-model-2026",
     "title": "Meta Releases Muse Spark Open, Putting AI Coding Control in Developers’ Hands",
-    "dek": "The October 15 release makes Meta’s large coding model available as downloadable weights. Deployment costs, license terms and agent permissions now become the practical tests.",
+    "dek": "Meta releases downloadable Muse Spark Open weights, leaving deployment costs and permissions to users.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:17+03:00",
     "dateModified": "2026-10-16T10:42:17+03:00",
@@ -1881,10 +1881,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp",
     "imageSrcset": "assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-480.webp 480w, assets/responsive/meta-muse-spark-open-coding-model-2026-dublin-approved-v3-960.webp 960w, assets/editorial/meta-muse-spark-open-coding-model-2026-dublin-approved-v3.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "google-news-ai-pilot-publisher-licensing-2026",
     "title": "Google’s News AI Deals Expand to 400 Publications. The Traffic Test Remains",
-    "dek": "CNN, Axios, the Financial Times and local newsrooms join Google’s paid AI pilot. Licensing income and a durable reader relationship remain different measures of success.",
+    "dek": "Google’s paid News AI pilot expands to over 400 publications. Reader traffic remains a separate test.",
     "author": "TTN Research Desk",
     "date": "2026-10-16T10:42:16+03:00",
     "dateModified": "2026-10-16T10:42:16+03:00",
@@ -1924,10 +1924,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp",
     "imageSrcset": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp 480w, assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp 960w, assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bitcoin-ether-selloff-liquidations-october-15-2026",
     "title": "Bitcoin Breaks Below $80,000 as Inflation Shock and AI Selloff Hit Crypto",
-    "dek": "Bitcoin lost 3.5% over 24 hours at a Thursday morning snapshot. Ether suffered heavier forced selling as ETF withdrawals and a broader retreat from risk weakened the market.",
+    "dek": "Bitcoin falls below $80,000 as inflation pressure, ETF withdrawals and an AI selloff weigh on crypto.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:59+03:00",
     "dateModified": "2026-10-15T18:15:59+03:00",
@@ -1971,10 +1971,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp 480w, assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp 960w, assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "us-inflation-retail-sales-september-2026",
     "title": "U.S. Producer Prices Jump 1.3% as Retail Sales Offer an Uneven Growth Signal",
-    "dek": "Thursday’s reports combine stronger price pressure with higher dollar sales. The distinction between spending more and buying more is central to the economic outlook.",
+    "dek": "US producer prices rise 1.3%, while higher retail sales do not necessarily mean more goods were bought.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:58+03:00",
     "dateModified": "2026-10-15T18:15:58+03:00",
@@ -2019,10 +2019,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/us-inflation-retail-sales-september-2026-960.webp",
     "imageSrcset": "assets/responsive/us-inflation-retail-sales-september-2026-480.webp 480w, assets/responsive/us-inflation-retail-sales-september-2026-960.webp 960w, assets/editorial/us-inflation-retail-sales-september-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "coreweave-ai-debt-selloff-2026",
     "title": "CoreWeave’s Selloff Turns the AI Boom Into a Financing Test",
-    "dek": "After a drop of more than 15% on Wednesday, further pressure on CoreWeave put the timing of debt payments and future customer cash at the center of the AI trade.",
+    "dek": "CoreWeave’s selloff brings debt payments and the timing of future customer cash into focus.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:57+03:00",
     "dateModified": "2026-10-15T18:15:57+03:00",
@@ -2069,10 +2069,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/coreweave-ai-debt-selloff-2026-960.webp",
     "imageSrcset": "assets/responsive/coreweave-ai-debt-selloff-2026-480.webp 480w, assets/responsive/coreweave-ai-debt-selloff-2026-960.webp 960w, assets/editorial/coreweave-ai-debt-selloff-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "tsmc-q3-2026-ai-chip-demand",
     "title": "TSMC Posts Record Profit but Turns Cautious on 2027 as AI Shares Slide",
-    "dek": "A 68.7% profit increase and higher sales guidance meet a deteriorating market mood. Management’s caution for next year separates strong chip demand from wider economic risks.",
+    "dek": "TSMC posts a 68.7% profit increase but urges caution on 2027 despite strong current AI demand.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:56+03:00",
     "dateModified": "2026-10-15T18:15:56+03:00",
@@ -2118,10 +2118,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp",
     "imageSrcset": "assets/responsive/tsmc-q3-2026-ai-chip-demand-480.webp 480w, assets/responsive/tsmc-q3-2026-ai-chip-demand-960.webp 960w, assets/editorial/tsmc-q3-2026-ai-chip-demand.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ftc-openai-anthropic-safety-subpoenas-2026",
     "title": "FTC Seeks OpenAI and Anthropic Safety Records as AI Scrutiny Intensifies",
-    "dek": "Reported document demands bring safety incidents, safeguards and public claims into focus. The inquiry is a step in gathering evidence, not a finding of wrongdoing.",
+    "dek": "Reported FTC document demands examine AI safety claims without establishing wrongdoing.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:55+03:00",
     "dateModified": "2026-10-15T18:15:55+03:00",
@@ -2169,13 +2169,13 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp",
     "imageSrcset": "assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-480.webp 480w, assets/responsive/ftc-openai-anthropic-safety-subpoenas-2026-960.webp 960w, assets/editorial/ftc-openai-anthropic-safety-subpoenas-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "cohere-aisle-cybersecurity-deal-2026",
-    "title": "Cohere Signs AISLE Acquisition Letter as AI Security Moves Into the Model Stack",
-    "dek": "The proposed deal would bring autonomous vulnerability research closer to Cohere’s model development. Finding a bug and safely deploying its fix remain different tasks.",
+    "title": "Cohere Signs Letter to Buy AI Security Specialist AISLE",
+    "dek": "Cohere signs a letter to buy AISLE, whose AI tools find software vulnerabilities. The deal has not closed.",
     "author": "TTN Research Desk",
     "date": "2026-10-15T18:15:54+03:00",
-    "dateModified": "2026-10-15T18:15:54+03:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "image": "assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp",
     "tickers": [],
     "body": [
@@ -2210,10 +2210,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp",
     "imageSrcset": "assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-480.webp 480w, assets/responsive/cohere-aisle-cybersecurity-deal-2026-approved-v2-960.webp 960w, assets/editorial/cohere-aisle-cybersecurity-deal-2026-approved-v2.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "us-cpi-september-2026-energy",
     "title": "U.S. Inflation Reaches 3.7% as Gasoline Drives September’s Increase",
-    "dek": "The September CPI report puts energy back at the center of the inflation debate. Core prices also rose, leaving the Fed with more than a fuel-price problem.",
+    "dek": "US annual inflation reaches 3.7%, with gasoline driving much of September’s monthly increase.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
     "dateModified": "2026-10-14T16:04:58+03:00",
@@ -2252,10 +2252,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/us-cpi-september-2026-energy-960.webp",
     "imageSrcset": "assets/responsive/us-cpi-september-2026-energy-480.webp 480w, assets/responsive/us-cpi-september-2026-energy-960.webp 960w, assets/editorial/us-cpi-september-2026-energy.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bank-of-america-q3-2026-results",
     "title": "Bank of America’s Earnings Miss Extends Beyond Its Settlement Charge",
-    "dek": "A regulatory charge explains part of the quarterly profit decline. The adjusted earnings miss leaves a separate question about the strength of the operating business.",
+    "dek": "Bank of America misses adjusted earnings expectations as well as taking a regulatory settlement charge.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
     "dateModified": "2026-10-14T16:04:58+03:00",
@@ -2298,10 +2298,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bank-of-america-q3-2026-results-960.webp",
     "imageSrcset": "assets/responsive/bank-of-america-q3-2026-results-480.webp 480w, assets/responsive/bank-of-america-q3-2026-results-960.webp 960w, assets/editorial/bank-of-america-q3-2026-results.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "china-september-2026-export-surge",
     "title": "China’s Export Surge Widens the Gap Between Trade Strength and Domestic Demand",
-    "dek": "September exports jumped 36.3% in dollar terms. The trade figures show strong overseas demand, but they cannot establish the health of Chinese household spending.",
+    "dek": "China’s exports rise 36.3%, showing trade strength without establishing a household-spending recovery.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
     "dateModified": "2026-10-14T16:04:58+03:00",
@@ -2340,13 +2340,13 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/china-september-2026-export-surge-960.webp",
     "imageSrcset": "assets/responsive/china-september-2026-export-surge-480.webp 480w, assets/responsive/china-september-2026-export-surge-960.webp 960w, assets/editorial/china-september-2026-export-surge.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "asml-q3-2026-ai-demand",
-    "title": "ASML’s Record Quarter Strengthens the AI Demand Case, With Supply Still Constrained",
-    "dek": "Record sales and a higher annual outlook support the semiconductor investment story. Customer interest years ahead remains different from revenue already earned.",
+    "title": "ASML Posts Record Sales, but AI Chip Supply Remains Tight",
+    "dek": "ASML raises its outlook after record sales, while future customer demand remains distinct from revenue.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
-    "dateModified": "2026-10-14T16:04:58+03:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "image": "assets/editorial/asml-q3-2026-ai-demand.webp",
     "tickers": [
       "S&P 500",
@@ -2382,10 +2382,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/asml-q3-2026-ai-demand-960.webp",
     "imageSrcset": "assets/responsive/asml-q3-2026-ai-demand-480.webp 480w, assets/responsive/asml-q3-2026-ai-demand-960.webp 960w, assets/editorial/asml-q3-2026-ai-demand.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "apple-homeview-siri-ai-2026",
     "title": "Apple HomeView Makes Personalized AI a Shared-Household Test",
-    "dek": "Apple’s $299 home hub brings Siri AI into a communal space. Recognizing a user is only the first step toward acting correctly on that person’s information.",
+    "dek": "Apple’s $299 HomeView brings personalized Siri AI into a device shared by household members.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
     "dateModified": "2026-10-14T16:04:58+03:00",
@@ -2424,10 +2424,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/apple-homeview-siri-ai-2026-960.webp",
     "imageSrcset": "assets/responsive/apple-homeview-siri-ai-2026-480.webp 480w, assets/responsive/apple-homeview-siri-ai-2026-960.webp 960w, assets/editorial/apple-homeview-siri-ai-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "scaleway-amd-sweden-ai-supercomputer",
     "title": "Scaleway’s Sweden Project Gives European AI Buyers Another Hardware Choice",
-    "dek": "The announced AMD-based supercomputer broadens Scaleway’s infrastructure portfolio. For customers, software compatibility and operating terms matter alongside accelerator capacity.",
+    "dek": "Scaleway’s planned AMD-based system in Sweden adds a hardware choice for European AI customers.",
     "author": "TTN Research Desk",
     "date": "2026-10-14T16:04:58+03:00",
     "dateModified": "2026-10-14T16:04:58+03:00",
@@ -2466,10 +2466,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp",
     "imageSrcset": "assets/responsive/scaleway-amd-sweden-ai-supercomputer-480.webp 480w, assets/responsive/scaleway-amd-sweden-ai-supercomputer-960.webp 960w, assets/editorial/scaleway-amd-sweden-ai-supercomputer.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "imf-ai-growth-outlook-2026",
     "title": "The IMF’s Growth Upgrade Has an AI Dependency",
-    "dek": "AI investment supports the latest global outlook. The harder question is how much resilience remains if spending slows or borrowing becomes more expensive.",
+    "dek": "The IMF raises its growth outlook, with AI investment leaving the forecast exposed to spending risks.",
     "author": "TTN Research Desk",
     "date": "2026-10-13T16:01:47+03:00",
     "dateModified": "2026-10-13T16:01:47+03:00",
@@ -2508,10 +2508,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/imf-ai-growth-outlook-2026-960.webp",
     "imageSrcset": "assets/responsive/imf-ai-growth-outlook-2026-480.webp 480w, assets/responsive/imf-ai-growth-outlook-2026-960.webp 960w, assets/editorial/imf-ai-growth-outlook-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ai-boom-capital-financing-2026",
     "title": "The AI Boom’s Next Constraint May Be Its Balance Sheet",
-    "dek": "Broadcom’s chief points to capital as a constraint. Investors need to follow the funding behind capacity plans, not just demand for chips.",
+    "dek": "Broadcom’s chief identifies capital as an AI constraint, shifting attention to how capacity is financed.",
     "author": "TTN Research Desk",
     "date": "2026-10-13T16:01:47+03:00",
     "dateModified": "2026-10-13T16:01:47+03:00",
@@ -2550,10 +2550,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-boom-capital-financing-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-boom-capital-financing-2026-480.webp 480w, assets/responsive/ai-boom-capital-financing-2026-960.webp 960w, assets/editorial/ai-boom-capital-financing-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "anthropic-ai-self-replication-iot-2026",
     "title": "Anthropic’s AI Replication Study Puts Everyday Devices in Focus",
-    "dek": "A laboratory study examines whether small models could spread across connected hardware. Its warning is consequential, but its timeline remains an estimate.",
+    "dek": "Anthropic studies possible AI replication on connected devices. The research is not an observed outbreak.",
     "author": "TTN Research Desk",
     "date": "2026-10-13T16:01:47+03:00",
     "dateModified": "2026-10-13T16:01:47+03:00",
@@ -2588,10 +2588,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp",
     "imageSrcset": "assets/responsive/anthropic-ai-self-replication-iot-2026-480.webp 480w, assets/responsive/anthropic-ai-self-replication-iot-2026-960.webp 960w, assets/editorial/anthropic-ai-self-replication-iot-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "broadcom-ai-networking-ocp-2026",
     "title": "Broadcom’s OCP Lineup Shows Why AI Needs More Than GPUs",
-    "dek": "Networking and optics take center stage at this week’s summit. Product specifications matter only if they improve the performance of the complete system.",
+    "dek": "Broadcom’s networking and optics lineup targets the connections needed to make AI systems work.",
     "author": "TTN Research Desk",
     "date": "2026-10-13T16:01:47+03:00",
     "dateModified": "2026-10-13T16:01:47+03:00",
@@ -2627,10 +2627,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/broadcom-ai-networking-ocp-2026-960.webp",
     "imageSrcset": "assets/responsive/broadcom-ai-networking-ocp-2026-480.webp 480w, assets/responsive/broadcom-ai-networking-ocp-2026-960.webp 960w, assets/editorial/broadcom-ai-networking-ocp-2026.webp 1672w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "sp500-narrow-rally-earnings-test-2026",
     "title": "The S&P 500 Rally Is Narrow. Earnings Will Test Its Strength",
-    "dek": "Index gains can disguise weaker participation. This week’s chipmaker results will test the earnings story, while broader company forecasts will show whether leadership is spreading.",
+    "dek": "S&P 500 gains conceal weak participation, making earnings breadth a test of the rally’s strength.",
     "author": "TTN Research Desk",
     "date": "2026-10-12T15:25:10+03:00",
     "dateModified": "2026-10-12T15:25:10+03:00",
@@ -2687,10 +2687,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp",
     "imageSrcset": "assets/responsive/sp500-narrow-rally-earnings-test-2026-480.webp 480w, assets/responsive/sp500-narrow-rally-earnings-test-2026-960.webp 960w, assets/editorial/sp500-narrow-rally-earnings-test-2026.webp 1672w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-inference-unit-economics-2026",
     "title": "AI Inference: The Cost Behind Every Completed Task",
-    "dek": "Token prices are only one part of an AI service's costs. Retries, review time and hardware utilization determine what a completed task costs.",
+    "dek": "AI task costs depend on retries, human review and hardware use as well as the price of tokens.",
     "author": "TTN Research Desk",
     "date": "2026-10-12T09:00:00",
     "image": "assets/editorial/ai-inference-unit-economics-2026.webp",
@@ -2741,10 +2741,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-inference-unit-economics-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-inference-unit-economics-2026-480.webp 480w, assets/responsive/ai-inference-unit-economics-2026-960.webp 960w, assets/editorial/ai-inference-unit-economics-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "enterprise-ai-data-security-2026",
     "title": "Enterprise AI Starts With Access Controls",
-    "dek": "An assistant connected to company records needs the same permission boundaries as its users, plus controls on the actions it can take.",
+    "dek": "Company AI needs permission boundaries for the information it reads and the actions it can take.",
     "author": "TTN Research Desk",
     "date": "2026-10-12T10:00:00",
     "image": "assets/editorial/enterprise-ai-data-security-2026.webp",
@@ -2800,10 +2800,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/enterprise-ai-data-security-2026-960.webp",
     "imageSrcset": "assets/responsive/enterprise-ai-data-security-2026-480.webp 480w, assets/responsive/enterprise-ai-data-security-2026-960.webp 960w, assets/editorial/enterprise-ai-data-security-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-search-publisher-economics-2026",
     "title": "AI Search Puts the Value of a Click Under Pressure",
-    "dek": "Answer-first search changes how readers reach publishers. Traffic, subscriptions and licensing need to be measured separately.",
+    "dek": "AI search changes the value of a click. Publishers must assess traffic, subscriptions and licensing.",
     "author": "TTN Research Desk",
     "date": "2026-10-12T11:00:00",
     "image": "assets/editorial/ai-search-publisher-economics-2026.webp",
@@ -2847,10 +2847,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-search-publisher-economics-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-search-publisher-economics-2026-480.webp 480w, assets/responsive/ai-search-publisher-economics-2026-960.webp 960w, assets/editorial/ai-search-publisher-economics-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "robotics-ai-factory-roi-2026",
     "title": "A Factory Robot Must Earn Its Place on the Line",
-    "dek": "The return on AI-enabled robotics depends on accepted output, uptime and integration costs, not on a successful demonstration.",
+    "dek": "Factory robots earn returns through reliable output, uptime and integration, beyond a demonstration.",
     "author": "TTN Research Desk",
     "date": "2026-10-12T12:00:00",
     "image": "assets/editorial/robotics-ai-factory-roi-2026.webp",
@@ -2902,10 +2902,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/robotics-ai-factory-roi-2026-960.webp",
     "imageSrcset": "assets/responsive/robotics-ai-factory-roi-2026-480.webp 480w, assets/responsive/robotics-ai-factory-roi-2026-960.webp 960w, assets/editorial/robotics-ai-factory-roi-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-data-center-electricity-demand-2026",
     "title": "Data Centers Face a Power Constraint as Well as a Chip Constraint",
-    "dek": "Forecast electricity demand is rising, but grid connections, tariffs and project timing determine the economics of each facility.",
+    "dek": "Grid connections, electricity tariffs and project timing shape the cost of data-center growth.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T09:00:00",
     "image": "assets/editorial/ai-data-center-electricity-demand-2026.webp",
@@ -2956,10 +2956,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-data-center-electricity-demand-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-data-center-electricity-demand-2026-480.webp 480w, assets/responsive/ai-data-center-electricity-demand-2026-960.webp 960w, assets/editorial/ai-data-center-electricity-demand-2026.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "fed-policy-2026",
     "title": "How Fed Decisions Reach Stocks, Bonds and Crypto",
-    "dek": "Rate expectations change borrowing costs and valuations. Different assets can react to the same decision for different reasons.",
+    "dek": "Fed decisions affect assets through borrowing costs, valuation and changing rate expectations.",
     "author": "TTN Research Desk",
     "date": "2026-07-15T09:00:00",
     "image": "assets/editorial/fed-policy-2026-editorial.webp",
@@ -3006,10 +3006,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/fed-policy-2026-editorial-960.webp",
     "imageSrcset": "assets/responsive/fed-policy-2026-editorial-480.webp 480w, assets/responsive/fed-policy-2026-editorial-960.webp 960w, assets/editorial/fed-policy-2026-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bitcoin-halving-cycles",
     "title": "Bitcoin Halvings Change Supply, Not the Rules of Valuation",
-    "dek": "The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs.",
+    "dek": "Bitcoin halvings reduce the block subsidy. Prices still depend on demand and market conditions.",
     "author": "TTN Research Desk",
     "date": "2026-06-28T09:00:00",
     "image": "assets/editorial/bitcoin-halving-cycles.webp",
@@ -3060,10 +3060,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bitcoin-halving-cycles-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-halving-cycles-480.webp 480w, assets/responsive/bitcoin-halving-cycles-960.webp 960w, assets/editorial/bitcoin-halving-cycles.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "gold-hedge-explainer",
     "title": "Gold Is a Hedge With Conditions",
-    "dek": "Inflation, real yields and currency moves influence gold differently. A hedge against one risk may still fall during another.",
+    "dek": "Gold reacts to inflation, real yields and currencies. A hedge against one risk can fall amid another.",
     "author": "TTN Research Desk",
     "date": "2026-06-10T09:00:00",
     "image": "assets/editorial/gold-hedge-explainer.webp",
@@ -3114,10 +3114,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/gold-hedge-explainer-960.webp",
     "imageSrcset": "assets/responsive/gold-hedge-explainer-480.webp 480w, assets/responsive/gold-hedge-explainer-960.webp 960w, assets/editorial/gold-hedge-explainer.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "oil-shock-market-ripple",
     "title": "An Oil Shock Spreads Through Costs, Spending and Exchange Rates",
-    "dek": "Higher crude prices affect producers and consumers differently. Duration and the source of the shock shape the wider market response.",
+    "dek": "Oil shocks affect producers and consumers differently, depending on their cause and duration.",
     "author": "TTN Research Desk",
     "date": "2026-07-28",
     "image": "assets/editorial/oil-shock-market-ripple.webp",
@@ -3169,10 +3169,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
     "imageSrcset": "assets/responsive/oil-shock-market-ripple-480.webp 480w, assets/responsive/oil-shock-market-ripple-960.webp 960w, assets/editorial/oil-shock-market-ripple.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-capex-nasdaq-correction",
     "title": "The AI Spending Debate Is About Returns on Capital",
-    "dek": "Data-center investment can expand capacity before revenue catches up. Depreciation, utilization and financing determine the return.",
+    "dek": "AI spending can outpace revenue. Utilization, depreciation and financing determine the return.",
     "author": "TTN Research Desk",
     "date": "2026-07-29",
     "image": "assets/editorial/ai-capex-nasdaq-correction.webp",
@@ -3225,10 +3225,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-capex-nasdaq-correction-960.webp",
     "imageSrcset": "assets/responsive/ai-capex-nasdaq-correction-480.webp 480w, assets/responsive/ai-capex-nasdaq-correction-960.webp 960w, assets/editorial/ai-capex-nasdaq-correction.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "treasury-yields-spike-2026",
     "title": "Why Treasury Yields Can Rise Without a Fed Rate Increase",
-    "dek": "Long-term borrowing costs reflect expected policy, inflation and term premiums. The cause of a yield increase matters beyond the bond market.",
+    "dek": "Treasury yields reflect expected rates, inflation and term premiums, beyond the current Fed setting.",
     "author": "TTN Research Desk",
     "date": "2026-07-30",
     "image": "assets/editorial/treasury-yields-spike-2026.webp",
@@ -3283,10 +3283,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/treasury-yields-spike-2026-960.webp",
     "imageSrcset": "assets/responsive/treasury-yields-spike-2026-480.webp 480w, assets/responsive/treasury-yields-spike-2026-960.webp 960w, assets/editorial/treasury-yields-spike-2026.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "stablecoins-explained-depeg-risk",
     "title": "A Stablecoin's Peg Depends on Its Backing and Redemption",
-    "dek": "A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.",
+    "dek": "Stablecoin risks depend on reserves, redemption and liquidity, rather than a dollar target alone.",
     "author": "TTN Research Desk",
     "date": "2026-07-31",
     "image": "assets/editorial/stablecoins-explained-depeg-risk.webp",
@@ -3339,10 +3339,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
     "imageSrcset": "assets/responsive/stablecoins-explained-depeg-risk-480.webp 480w, assets/responsive/stablecoins-explained-depeg-risk-960.webp 960w, assets/editorial/stablecoins-explained-depeg-risk.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "earnings-beat-miss-explained",
     "title": "An Earnings Beat Can Still Leave Shareholders Disappointed",
-    "dek": "A company's reported quarter is only part of an earnings release. Guidance, margins and the expectations built into its share price can matter more.",
+    "dek": "Guidance, margins and prior expectations can outweigh an earnings beat in a stock’s reaction.",
     "author": "TTN Research Desk",
     "date": "2026-08-01",
     "image": "assets/editorial/earnings-beat-miss-explained-editorial.webp",
@@ -3385,10 +3385,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/earnings-beat-miss-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp 480w, assets/responsive/earnings-beat-miss-explained-editorial-960.webp 960w, assets/editorial/earnings-beat-miss-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bitcoin-etf-institutional-adoption",
     "title": "What a Bitcoin ETF Changes About Ownership",
-    "dek": "A listed fund makes bitcoin exposure accessible through a securities account. Its shares do not give every investor direct ownership of coins.",
+    "dek": "A bitcoin ETF offers fund shares through a brokerage account, rather than direct ownership of coins.",
     "author": "TTN Research Desk",
     "date": "2026-08-02",
     "image": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
@@ -3430,10 +3430,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp 480w, assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp 960w, assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "eur-usd-rate-differential-explained",
     "title": "EUR/USD Responds to Expected Rates, Not Just Today's Gap",
-    "dek": "Differences between US and euro-area borrowing costs affect currency demand, but growth, hedging and risk appetite can alter the result.",
+    "dek": "EUR/USD responds to expected rate paths, growth, hedging and risk appetite, not just today’s rate gap.",
     "author": "TTN Research Desk",
     "date": "2026-08-03T09:00:00",
     "image": "assets/editorial/eur-usd-rate-differential-explained.webp",
@@ -3482,10 +3482,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/eur-usd-rate-differential-explained-960.webp",
     "imageSrcset": "assets/responsive/eur-usd-rate-differential-explained-480.webp 480w, assets/responsive/eur-usd-rate-differential-explained-960.webp 960w, assets/editorial/eur-usd-rate-differential-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "crypto-liquidation-leverage-explained",
     "title": "Crypto Liquidation Begins Before All the Margin Is Gone",
-    "dek": "Leverage magnifies losses. Maintenance-margin rules, fees and the exchange's price reference determine when a position is closed.",
+    "dek": "Crypto positions can be liquidated before margin reaches zero, depending on exchange rules and fees.",
     "author": "TTN Research Desk",
     "date": "2026-08-03T11:00:00",
     "image": "assets/editorial/crypto-liquidation-leverage-explained-editorial.webp",
@@ -3536,10 +3536,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp 480w, assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp 960w, assets/editorial/crypto-liquidation-leverage-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "vix-fear-index-explained",
     "title": "VIX Measures Expected Volatility, Not the Direction of Stocks",
-    "dek": "The index uses S&P 500 option prices to estimate near-term volatility. A high reading does not identify a market bottom.",
+    "dek": "VIX estimates near-term volatility from S&P 500 options. A high reading does not identify a bottom.",
     "author": "TTN Research Desk",
     "date": "2026-08-02T09:00:00",
     "image": "assets/editorial/vix-fear-index-explained-editorial.webp",
@@ -3586,10 +3586,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/vix-fear-index-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/vix-fear-index-explained-editorial-480.webp 480w, assets/responsive/vix-fear-index-explained-editorial-960.webp 960w, assets/editorial/vix-fear-index-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "short-squeeze-mechanics-explained",
     "title": "A Short Squeeze Turns Losses Into Forced Buying",
-    "dek": "Crowded short positions can intensify a share-price increase, but a large rally does not prove that short covering caused it.",
+    "dek": "Short covering can amplify a rally, but a price surge alone does not prove a short squeeze.",
     "author": "TTN Research Desk",
     "date": "2026-08-02T11:00:00",
     "image": "assets/editorial/short-squeeze-mechanics-explained.webp",
@@ -3637,10 +3637,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/short-squeeze-mechanics-explained-960.webp",
     "imageSrcset": "assets/responsive/short-squeeze-mechanics-explained-480.webp 480w, assets/responsive/short-squeeze-mechanics-explained-960.webp 960w, assets/editorial/short-squeeze-mechanics-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "dollar-cost-averaging-vs-lump-sum",
     "title": "Investing a Lump Sum or Spreading It Out: The Trade-Off",
-    "dek": "Phasing an existing cash balance reduces immediate market exposure. It also delays exposure to any gains during the investment period.",
+    "dek": "Phasing cash into a market reduces immediate exposure but also delays participation in possible gains.",
     "author": "TTN Research Desk",
     "date": "2026-08-02T13:00:00",
     "image": "assets/editorial/dollar-cost-averaging-vs-lump-sum.webp",
@@ -3682,10 +3682,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp",
     "imageSrcset": "assets/responsive/dollar-cost-averaging-vs-lump-sum-480.webp 480w, assets/responsive/dollar-cost-averaging-vs-lump-sum-960.webp 960w, assets/editorial/dollar-cost-averaging-vs-lump-sum.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "correlation-breakdown-diversification",
     "title": "Why Different Assets Can Fall Together",
-    "dek": "Diversification reduces exposure to individual risks. It cannot guarantee that portfolio holdings remain uncorrelated during a shock.",
+    "dek": "Diversification spreads individual risks, but correlations can rise when markets face a shock.",
     "author": "TTN Research Desk",
     "date": "2026-08-03T09:00:00",
     "image": "assets/editorial/correlation-breakdown-diversification-editorial.webp",
@@ -3735,10 +3735,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/correlation-breakdown-diversification-editorial-960.webp",
     "imageSrcset": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp 480w, assets/responsive/correlation-breakdown-diversification-editorial-960.webp 960w, assets/editorial/correlation-breakdown-diversification-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "crypto-taxes-us-explained",
     "title": "US Crypto Taxes Begin With the Type of Transaction",
-    "dek": "Selling, swapping and receiving digital assets can have different tax consequences. Records of value, basis and timing are essential.",
+    "dek": "Crypto tax treatment depends on the transaction. Records of value, cost basis and timing matter.",
     "author": "TTN Research Desk",
     "date": "2026-08-03T11:00:00",
     "image": "assets/editorial/crypto-taxes-us-explained.webp",
@@ -3788,10 +3788,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/crypto-taxes-us-explained-960.webp",
     "imageSrcset": "assets/responsive/crypto-taxes-us-explained-480.webp 480w, assets/responsive/crypto-taxes-us-explained-960.webp 960w, assets/editorial/crypto-taxes-us-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "cpi-inflation-explained",
     "title": "Reading CPI: Headline Inflation, Core and the Price Level",
-    "dek": "A lower inflation rate can still mean higher prices. Components, comparison periods and the distinction from PCE help explain a release.",
+    "dek": "A slower inflation rate can still mean rising prices. CPI components and comparison periods matter.",
     "author": "TTN Research Desk",
     "date": "2026-08-03T13:00:00",
     "image": "assets/editorial/cpi-inflation-explained.webp",
@@ -3835,10 +3835,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/cpi-inflation-explained-960.webp",
     "imageSrcset": "assets/responsive/cpi-inflation-explained-480.webp 480w, assets/responsive/cpi-inflation-explained-960.webp 960w, assets/editorial/cpi-inflation-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "options-calls-puts-explained",
     "title": "Calls, Puts and the Price of an Option",
-    "dek": "The contract's right, premium and expiry explain its payoff. The risks differ sharply between a buyer and a seller.",
+    "dek": "An option’s right, premium and expiry define its payoff. Buyer and seller risks differ sharply.",
     "author": "TTN Research Desk",
     "date": "2026-08-04T09:00:00",
     "image": "assets/editorial/options-calls-puts-explained-editorial.webp",
@@ -3884,10 +3884,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/options-calls-puts-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/options-calls-puts-explained-editorial-480.webp 480w, assets/responsive/options-calls-puts-explained-editorial-960.webp 960w, assets/editorial/options-calls-puts-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "stock-buybacks-explained",
     "title": "A Buyback Changes the Share Count, Not the Business by Itself",
-    "dek": "Repurchases can raise earnings per share even without higher profit. Price paid and the source of funding determine whether they help shareholders.",
+    "dek": "Buybacks can lift earnings per share without higher profit. Their price and funding determine value.",
     "author": "TTN Research Desk",
     "date": "2026-08-04T11:00:00",
     "image": "assets/editorial/stock-buybacks-explained-editorial.webp",
@@ -3938,10 +3938,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/stock-buybacks-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/stock-buybacks-explained-editorial-480.webp 480w, assets/responsive/stock-buybacks-explained-editorial-960.webp 960w, assets/editorial/stock-buybacks-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "prediction-markets-explained",
     "title": "A Prediction-Market Price Is an Estimate With Frictions",
-    "dek": "Event contracts turn a defined outcome into a tradable payoff. Their prices reflect participants, costs and settlement rules as well as beliefs.",
+    "dek": "Prediction-market prices reflect beliefs, trading costs and settlement rules, rather than certainty.",
     "author": "TTN Research Desk",
     "date": "2026-08-04T13:00:00",
     "image": "assets/editorial/prediction-markets-explained-editorial.webp",
@@ -3985,10 +3985,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/prediction-markets-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/prediction-markets-explained-editorial-480.webp 480w, assets/responsive/prediction-markets-explained-editorial-960.webp 960w, assets/editorial/prediction-markets-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ipo-process-explained",
     "title": "From IPO Filing to the First Day of Trading",
-    "dek": "The offer price, allocation and public trading price describe different stages of a company's listing. Early enthusiasm does not settle valuation.",
+    "dek": "An IPO’s offer price and first trading price describe different stages, not a settled company value.",
     "author": "TTN Research Desk",
     "date": "2026-08-05T09:00:00",
     "image": "assets/editorial/ipo-process-explained-editorial.webp",
@@ -4038,10 +4038,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ipo-process-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/ipo-process-explained-editorial-480.webp 480w, assets/responsive/ipo-process-explained-editorial-960.webp 960w, assets/editorial/ipo-process-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "market-cap-explained",
     "title": "Market Capitalization Is a Share Valuation, Not a Cash Balance",
-    "dek": "Multiplying the share price by shares outstanding gives equity value. Debt, cash and the cost of acquiring control require separate analysis.",
+    "dek": "Market cap measures equity value. Debt, cash and the price of control require separate analysis.",
     "author": "TTN Research Desk",
     "date": "2026-08-05T11:00:00",
     "image": "assets/editorial/market-cap-explained-editorial.webp",
@@ -4084,10 +4084,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/market-cap-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/market-cap-explained-editorial-480.webp 480w, assets/responsive/market-cap-explained-editorial-960.webp 960w, assets/editorial/market-cap-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "insider-selling-explained",
-    "title": "What an Insider Sale Can—and Cannot—Tell You",
-    "dek": "A filing records a transaction. Its timing, size and circumstances matter more than an assumption about what the seller knows.",
+    "title": "What an Insider Sale Can and Cannot Tell You",
+    "dek": "An insider filing records a trade. Its size, timing and context matter more than assumptions of motive.",
     "author": "TTN Research Desk",
     "date": "2026-08-05T13:00:00",
     "image": "assets/editorial/insider-selling-explained.webp",
@@ -4124,16 +4124,16 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
         "url": "https://www.sec.gov/newsroom/press-releases/2022-222"
       }
     ],
-    "dateModified": "2026-10-18T14:42:13-04:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/insider-selling-explained-480.webp",
     "imageMedium": "assets/responsive/insider-selling-explained-960.webp",
     "imageSrcset": "assets/responsive/insider-selling-explained-480.webp 480w, assets/responsive/insider-selling-explained-960.webp 960w, assets/editorial/insider-selling-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "nonfarm-payrolls-jobs-report-explained",
     "title": "The Jobs Report Contains More Than a Payroll Number",
-    "dek": "Payrolls, unemployment, wages and revisions come from different measures. Reading them together is essential to understanding labor-market changes.",
+    "dek": "Payrolls, unemployment, wages and revisions measure different parts of the US labor market.",
     "author": "TTN Research Desk",
     "date": "2026-08-06T09:00:00",
     "image": "assets/editorial/nonfarm-payrolls-jobs-report-explained.webp",
@@ -4181,10 +4181,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp",
     "imageSrcset": "assets/responsive/nonfarm-payrolls-jobs-report-explained-480.webp 480w, assets/responsive/nonfarm-payrolls-jobs-report-explained-960.webp 960w, assets/editorial/nonfarm-payrolls-jobs-report-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "mergers-acquisitions-explained",
     "title": "A Merger Premium Must Be Earned After the Deal",
-    "dek": "Combining businesses can create savings or new revenue. The price paid, financing and integration determine who benefits.",
+    "dek": "A merger’s returns depend on the price, financing and integration, as well as expected savings.",
     "author": "TTN Research Desk",
     "date": "2026-08-06T11:00:00",
     "image": "assets/editorial/mergers-acquisitions-explained.webp",
@@ -4226,10 +4226,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/mergers-acquisitions-explained-960.webp",
     "imageSrcset": "assets/responsive/mergers-acquisitions-explained-480.webp 480w, assets/responsive/mergers-acquisitions-explained-960.webp 960w, assets/editorial/mergers-acquisitions-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "yield-curve-inversion-recession-signal",
     "title": "An Inverted Yield Curve Is a Warning, Not a Recession Clock",
-    "dek": "Different maturity spreads carry different information. The signal's history does not establish the timing or certainty of a downturn.",
+    "dek": "Yield-curve inversions have signaled economic risk, but do not provide a reliable recession date.",
     "author": "TTN Research Desk",
     "date": "2026-08-06T13:00:00",
     "image": "assets/editorial/yield-curve-inversion-recession-signal.webp",
@@ -4272,10 +4272,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/yield-curve-inversion-recession-signal-960.webp",
     "imageSrcset": "assets/responsive/yield-curve-inversion-recession-signal-480.webp 480w, assets/responsive/yield-curve-inversion-recession-signal-960.webp 960w, assets/editorial/yield-curve-inversion-recession-signal.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "dxy-dollar-index-explained",
     "title": "DXY Is a Dollar Basket With a Heavy European Weight",
-    "dek": "The dollar index is useful for a defined currency basket. It does not measure the dollar against every trading partner.",
+    "dek": "DXY tracks a defined currency basket with a heavy European weight, rather than every trading partner.",
     "author": "TTN Research Desk",
     "date": "2026-08-07T09:00:00",
     "image": "assets/editorial/dxy-dollar-index-explained.webp",
@@ -4325,10 +4325,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/dxy-dollar-index-explained-960.webp",
     "imageSrcset": "assets/responsive/dxy-dollar-index-explained-480.webp 480w, assets/responsive/dxy-dollar-index-explained-960.webp 960w, assets/editorial/dxy-dollar-index-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "sector-rotation-explained",
     "title": "A Falling Sector Is Not the Same as a Falling Market",
-    "dek": "Sector returns can diverge as earnings and rate expectations change. Breadth and weighting help separate rotation from a broad selloff.",
+    "dek": "Sector returns can diverge. Market breadth and index weights help distinguish rotation from a selloff.",
     "author": "TTN Research Desk",
     "date": "2026-08-07T11:00:00",
     "image": "assets/editorial/sector-rotation-explained-editorial.webp",
@@ -4379,10 +4379,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/sector-rotation-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/sector-rotation-explained-editorial-480.webp 480w, assets/responsive/sector-rotation-explained-editorial-960.webp 960w, assets/editorial/sector-rotation-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "etf-creation-redemption-mechanism",
     "title": "The Mechanism That Links an ETF to Its Holdings",
-    "dek": "Authorized participants create and redeem fund shares. The arbitrage incentive usually limits price gaps, but it is not a guarantee.",
+    "dek": "ETF creation and redemption encourage price alignment with holdings, but do not eliminate every gap.",
     "author": "TTN Research Desk",
     "date": "2026-08-07T13:00:00",
     "image": "assets/editorial/etf-creation-redemption-mechanism-editorial.webp",
@@ -4432,10 +4432,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp",
     "imageSrcset": "assets/responsive/etf-creation-redemption-mechanism-editorial-480.webp 480w, assets/responsive/etf-creation-redemption-mechanism-editorial-960.webp 960w, assets/editorial/etf-creation-redemption-mechanism-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ism-pmi-explained",
     "title": "What the ISM Surveys Say About Business Activity",
-    "dek": "A diffusion index measures the breadth of reported change. Its subindexes add context that the headline alone cannot provide.",
+    "dek": "ISM surveys measure how widely business activity changes. Components add context to the headline.",
     "author": "TTN Research Desk",
     "date": "2026-08-08T09:00:00",
     "image": "assets/editorial/ism-pmi-explained.webp",
@@ -4486,10 +4486,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ism-pmi-explained-960.webp",
     "imageSrcset": "assets/responsive/ism-pmi-explained-480.webp 480w, assets/responsive/ism-pmi-explained-960.webp 960w, assets/editorial/ism-pmi-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "fed-funds-futures-rate-odds-explained",
     "title": "FedWatch Odds Are Market Estimates With Assumptions",
-    "dek": "Federal funds futures price an average overnight rate. Turning that price into meeting probabilities requires a model.",
+    "dek": "FedWatch probabilities come from futures prices and modeling assumptions, rather than a Fed forecast.",
     "author": "TTN Research Desk",
     "date": "2026-08-08T11:00:00",
     "image": "assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp",
@@ -4540,10 +4540,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/fed-funds-futures-rate-odds-explained-editorial-480.webp 480w, assets/responsive/fed-funds-futures-rate-odds-explained-editorial-960.webp 960w, assets/editorial/fed-funds-futures-rate-odds-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "analyst-ratings-price-targets-explained",
     "title": "An Analyst Target Is a Valuation Case, Not a Price Promise",
-    "dek": "Ratings depend on assumptions, benchmarks and investment horizons. The reasoning behind a target matters more than its apparent precision.",
+    "dek": "An analyst’s target depends on valuation assumptions, benchmarks and the investment horizon.",
     "author": "TTN Research Desk",
     "date": "2026-08-08T13:00:00",
     "image": "assets/editorial/analyst-ratings-price-targets-explained-editorial.webp",
@@ -4586,10 +4586,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/analyst-ratings-price-targets-explained-editorial-480.webp 480w, assets/responsive/analyst-ratings-price-targets-explained-editorial-960.webp 960w, assets/editorial/analyst-ratings-price-targets-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "fed-independence-structure-explained",
     "title": "Fed Independence Has Boundaries and Accountability",
-    "dek": "Congress sets the central bank's mandate. Operational independence concerns how monetary-policy decisions are made within that mandate.",
+    "dek": "Congress sets the Fed’s mandate. Independence concerns how it makes policy within that mandate.",
     "author": "TTN Research Desk",
     "date": "2026-08-09T09:00:00",
     "image": "assets/editorial/fed-independence-structure-explained.webp",
@@ -4644,10 +4644,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/fed-independence-structure-explained-960.webp",
     "imageSrcset": "assets/responsive/fed-independence-structure-explained-480.webp 480w, assets/responsive/fed-independence-structure-explained-960.webp 960w, assets/editorial/fed-independence-structure-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "put-call-ratio-options-sentiment-explained",
     "title": "The Put/Call Ratio Needs a Denominator and Context",
-    "dek": "Option volume can indicate demand for protection or speculation. A ratio alone does not establish traders' intentions or forecast a reversal.",
+    "dek": "Put/call ratios reflect trading activity, but need context before signaling sentiment or a reversal.",
     "author": "TTN Research Desk",
     "date": "2026-08-09T11:00:00",
     "image": "assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp",
@@ -4696,10 +4696,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/put-call-ratio-options-sentiment-explained-editorial-480.webp 480w, assets/responsive/put-call-ratio-options-sentiment-explained-editorial-960.webp 960w, assets/editorial/put-call-ratio-options-sentiment-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "unemployment-rate-u3-u6-participation-explained",
     "title": "A Lower Unemployment Rate Can Have More Than One Cause",
-    "dek": "U-3, U-6 and labor-force participation measure different parts of employment. Together they show more than the headline rate.",
+    "dek": "Unemployment rates and labor-force participation together explain more than a single jobs headline.",
     "author": "TTN Research Desk",
     "date": "2026-08-09T13:00:00",
     "image": "assets/editorial/unemployment-rate-u3-u6-participation-explained.webp",
@@ -4741,10 +4741,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp",
     "imageSrcset": "assets/responsive/unemployment-rate-u3-u6-participation-explained-480.webp 480w, assets/responsive/unemployment-rate-u3-u6-participation-explained-960.webp 960w, assets/editorial/unemployment-rate-u3-u6-participation-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "currency-intervention-explained",
     "title": "Currency Intervention Changes Supply, but Expectations Still Matter",
-    "dek": "Official purchases and sales can affect exchange markets. Reserves, policy consistency and sterilization determine the operation's reach.",
+    "dek": "Currency intervention affects supply. Reserves and policy credibility shape its lasting impact.",
     "author": "TTN Research Desk",
     "date": "2026-08-10T09:00:00",
     "image": "assets/editorial/currency-intervention-explained.webp",
@@ -4786,10 +4786,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/currency-intervention-explained-960.webp",
     "imageSrcset": "assets/responsive/currency-intervention-explained-480.webp 480w, assets/responsive/currency-intervention-explained-960.webp 960w, assets/editorial/currency-intervention-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "corporate-bonds-explained",
     "title": "Why a Cash-Rich Company May Still Issue Bonds",
-    "dek": "Corporate borrowing creates a contractual claim on cash flow. The use of proceeds, maturity profile and credit spread explain the transaction.",
+    "dek": "A bond creates a claim on cash flow. Use of proceeds, maturity and credit spread explain the borrowing.",
     "author": "TTN Research Desk",
     "date": "2026-08-10T11:00:00",
     "image": "assets/editorial/corporate-bonds-explained.webp",
@@ -4832,10 +4832,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/corporate-bonds-explained-960.webp",
     "imageSrcset": "assets/responsive/corporate-bonds-explained-480.webp 480w, assets/responsive/corporate-bonds-explained-960.webp 960w, assets/editorial/corporate-bonds-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "money-market-funds-vs-savings-explained",
     "title": "Money Market Funds and Savings Accounts Carry Different Protections",
-    "dek": "Both can hold short-term cash, but one is a fund investment and the other a bank deposit. Yield alone does not capture the difference.",
+    "dek": "Money market funds and savings accounts have different protections, even when both hold short-term cash.",
     "author": "TTN Research Desk",
     "date": "2026-08-10T13:00:00",
     "image": "assets/editorial/money-market-funds-vs-savings-explained.webp",
@@ -4877,10 +4877,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/money-market-funds-vs-savings-explained-960.webp",
     "imageSrcset": "assets/responsive/money-market-funds-vs-savings-explained-480.webp 480w, assets/responsive/money-market-funds-vs-savings-explained-960.webp 960w, assets/editorial/money-market-funds-vs-savings-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "weekly-jobless-claims-explained",
     "title": "Weekly Jobless Claims Offer a Fast but Noisy Labor-Market Read",
-    "dek": "Initial and continuing claims measure different stages of unemployment insurance. Revisions and a moving average help interpret the change.",
+    "dek": "Weekly claims track stages of unemployment insurance. Revisions and averages help reveal the trend.",
     "author": "TTN Research Desk",
     "date": "2026-08-11T09:00:00",
     "image": "assets/editorial/weekly-jobless-claims-explained.webp",
@@ -4927,10 +4927,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/weekly-jobless-claims-explained-960.webp",
     "imageSrcset": "assets/responsive/weekly-jobless-claims-explained-480.webp 480w, assets/responsive/weekly-jobless-claims-explained-960.webp 960w, assets/editorial/weekly-jobless-claims-explained.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "circular-ai-financing-explained",
     "title": "When an AI Supplier Helps Finance Its Customer",
-    "dek": "Vendor investment can support a real project, but it makes the customer's independent ability to pay especially important.",
+    "dek": "Supplier financing can support an AI project while increasing the need to test customers’ ability to pay.",
     "author": "TTN Research Desk",
     "date": "2026-08-11T11:00:00",
     "image": "assets/editorial/circular-ai-financing-explained.webp",
@@ -4975,10 +4975,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/circular-ai-financing-explained-960.webp",
     "imageSrcset": "assets/responsive/circular-ai-financing-explained-480.webp 480w, assets/responsive/circular-ai-financing-explained-960.webp 960w, assets/editorial/circular-ai-financing-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bitcoin-51-percent-attack-forks-explained",
     "title": "What a Majority Hash-Power Attack Can Do to Bitcoin",
-    "dek": "Mining power influences which valid chain accumulates work. It does not give an attacker authority to spend anyone else's coins or change every rule.",
+    "dek": "A majority hash-power attack can alter transaction ordering, but cannot spend anyone else’s bitcoin.",
     "author": "TTN Research Desk",
     "date": "2026-08-11T13:00:00",
     "image": "assets/editorial/bitcoin-51-percent-attack-forks-explained.webp",
@@ -5020,10 +5020,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp 480w, assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp 960w, assets/editorial/bitcoin-51-percent-attack-forks-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "nfib-small-business-optimism-explained",
     "title": "Reading the NFIB Survey Beyond the Optimism Score",
-    "dek": "Hiring plans, sales expectations and reported problems can move differently. The components explain the headline better than the score alone.",
+    "dek": "NFIB hiring plans, sales expectations and reported problems explain more than its optimism score alone.",
     "author": "TTN Research Desk",
     "date": "2026-08-12T09:00:00",
     "image": "assets/editorial/nfib-small-business-optimism-explained.webp",
@@ -5073,10 +5073,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/nfib-small-business-optimism-explained-960.webp",
     "imageSrcset": "assets/responsive/nfib-small-business-optimism-explained-480.webp 480w, assets/responsive/nfib-small-business-optimism-explained-960.webp 960w, assets/editorial/nfib-small-business-optimism-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "private-credit-shadow-banking-explained",
     "title": "Private Credit's Risks Sit in the Loan and the Fund Structure",
-    "dek": "Negotiated lending can provide flexible financing. Valuation, borrower concentration and investor withdrawal terms determine the exposure.",
+    "dek": "Private credit risk depends on borrower concentration, loan valuation and fund withdrawal terms.",
     "author": "TTN Research Desk",
     "date": "2026-08-12T11:00:00",
     "image": "assets/editorial/private-credit-shadow-banking-explained-editorial.webp",
@@ -5127,10 +5127,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp 480w, assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp 960w, assets/editorial/private-credit-shadow-banking-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "defi-basics-explained",
     "title": "DeFi Moves Financial Rules Into Software, but Leaves Risks Behind",
-    "dek": "Lending pools and automated exchanges depend on collateral, code and price inputs. Decentralization does not remove every intermediary or point of control.",
+    "dek": "DeFi replaces some financial processes with code while retaining collateral, pricing and control risks.",
     "author": "TTN Research Desk",
     "date": "2026-08-12T13:00:00",
     "image": "assets/editorial/defi-basics-explained.webp",
@@ -5173,10 +5173,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/defi-basics-explained-960.webp",
     "imageSrcset": "assets/responsive/defi-basics-explained-480.webp 480w, assets/responsive/defi-basics-explained-960.webp 960w, assets/editorial/defi-basics-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "take-private-leveraged-buyout-explained",
     "title": "A Take-Private Deal Transfers Ownership and Debt Risk",
-    "dek": "The buyout premium matters to selling shareholders. The financing and cash-flow plan determine the risk for the company after closing.",
+    "dek": "A take-private deal transfers ownership and financing risk. The premium is only part of the transaction.",
     "author": "TTN Research Desk",
     "date": "2026-08-13T09:00:00",
     "image": "assets/editorial/take-private-leveraged-buyout-explained-editorial.webp",
@@ -5219,10 +5219,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/take-private-leveraged-buyout-explained-editorial-480.webp 480w, assets/responsive/take-private-leveraged-buyout-explained-editorial-960.webp 960w, assets/editorial/take-private-leveraged-buyout-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "us-budget-deficit-national-debt-explained",
     "title": "How a Federal Deficit Reaches the Treasury Market",
-    "dek": "The deficit is a flow and debt is a stock. Issuance, refinancing and interest expense explain their connection to borrowing costs.",
+    "dek": "Deficits add to borrowing needs. Issuance, refinancing and interest costs connect them to Treasury debt.",
     "author": "TTN Research Desk",
     "date": "2026-08-13T11:00:00",
     "image": "assets/editorial/us-budget-deficit-national-debt-explained.webp",
@@ -5265,10 +5265,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/us-budget-deficit-national-debt-explained-960.webp",
     "imageSrcset": "assets/responsive/us-budget-deficit-national-debt-explained-480.webp 480w, assets/responsive/us-budget-deficit-national-debt-explained-960.webp 960w, assets/editorial/us-budget-deficit-national-debt-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "credit-default-swaps-explained",
     "title": "A CDS Spread Prices Credit Protection, With Qualifications",
-    "dek": "The contract responds to defined credit events. Its spread reflects risk, liquidity and contract terms rather than a direct default probability.",
+    "dek": "A CDS spread prices credit protection, reflecting contract terms and liquidity as well as default risk.",
     "author": "TTN Research Desk",
     "date": "2026-08-13T13:00:00",
     "image": "assets/editorial/credit-default-swaps-explained-editorial.webp",
@@ -5318,10 +5318,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/credit-default-swaps-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/credit-default-swaps-explained-editorial-480.webp 480w, assets/responsive/credit-default-swaps-explained-editorial-960.webp 960w, assets/editorial/credit-default-swaps-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "yen-carry-trade-explained",
     "title": "The Yen Carry Trade Depends on the Exchange Rate as Well as the Yield",
-    "dek": "Borrowing in yen to hold higher-yielding assets creates currency and financing risks. A policy surprise can force both sides of the position to change.",
+    "dek": "A yen carry trade faces currency and financing risks that can offset a higher investment yield.",
     "author": "TTN Research Desk",
     "date": "2026-08-14T09:00:00",
     "image": "assets/editorial/yen-carry-trade-explained.webp",
@@ -5372,10 +5372,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/yen-carry-trade-explained-960.webp",
     "imageSrcset": "assets/responsive/yen-carry-trade-explained-480.webp 480w, assets/responsive/yen-carry-trade-explained-960.webp 960w, assets/editorial/yen-carry-trade-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ppi-producer-price-index-explained",
     "title": "PPI Tracks Producer Prices, With an Incomplete Link to CPI",
-    "dek": "Wholesale and consumer-price measures cover different transactions. Cost pass-through depends on margins, demand and contracts.",
+    "dek": "PPI and CPI cover different transactions. Producer costs do not pass automatically to consumers.",
     "author": "TTN Research Desk",
     "date": "2026-08-14T11:00:00",
     "image": "assets/editorial/ppi-producer-price-index-explained.webp",
@@ -5431,10 +5431,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ppi-producer-price-index-explained-960.webp",
     "imageSrcset": "assets/responsive/ppi-producer-price-index-explained-480.webp 480w, assets/responsive/ppi-producer-price-index-explained-960.webp 960w, assets/editorial/ppi-producer-price-index-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bitcoin-mining-economics-explained",
     "title": "A Bitcoin Miner Sells Computing Work Against a Volatile Reward",
-    "dek": "Power, equipment efficiency and network competition shape mining returns. Production volume alone cannot establish profitability.",
+    "dek": "Bitcoin mining returns depend on energy costs, equipment efficiency and network competition.",
     "author": "TTN Research Desk",
     "date": "2026-08-14T13:00:00",
     "image": "assets/editorial/bitcoin-mining-economics-explained.webp",
@@ -5484,10 +5484,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-mining-economics-explained-480.webp 480w, assets/responsive/bitcoin-mining-economics-explained-960.webp 960w, assets/editorial/bitcoin-mining-economics-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "consumer-sentiment-index-explained",
     "title": "Consumer Sentiment Measures Expectations, Not Spending Receipts",
-    "dek": "The Michigan survey captures household assessments. Its components and methodology explain why confidence can diverge from sales or share prices.",
+    "dek": "Consumer sentiment measures household assessments, which can diverge from spending or market prices.",
     "author": "TTN Research Desk",
     "date": "2026-08-15T09:00:00",
     "image": "assets/editorial/consumer-sentiment-index-explained.webp",
@@ -5541,10 +5541,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/consumer-sentiment-index-explained-960.webp",
     "imageSrcset": "assets/responsive/consumer-sentiment-index-explained-480.webp 480w, assets/responsive/consumer-sentiment-index-explained-960.webp 960w, assets/editorial/consumer-sentiment-index-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "secondary-stock-offerings-dilution-explained",
     "title": "New Share Sales and Existing-Holder Sales Have Different Effects",
-    "dek": "A follow-on offering can raise money for the company or let current owners sell. Only the creation of additional shares directly changes the denominator.",
+    "dek": "New shares can dilute existing holdings. Sales by current owners do not increase the share count.",
     "author": "TTN Research Desk",
     "date": "2026-08-15T11:00:00",
     "image": "assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp",
@@ -5594,10 +5594,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/secondary-stock-offerings-dilution-explained-editorial-480.webp 480w, assets/responsive/secondary-stock-offerings-dilution-explained-editorial-960.webp 960w, assets/editorial/secondary-stock-offerings-dilution-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "smaller-company-acquiring-bigger-company-explained",
     "title": "How a Smaller Bidder Can Buy a Larger Company",
-    "dek": "Market capitalization does not cap an acquisition bid. Debt, equity and the strength of financing commitments determine whether it can close.",
+    "dek": "A smaller company can finance a larger acquisition through debt, equity and committed funding.",
     "author": "TTN Research Desk",
     "date": "2026-08-15T13:00:00",
     "image": "assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp",
@@ -5643,10 +5643,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-480.webp 480w, assets/responsive/smaller-company-acquiring-bigger-company-explained-editorial-960.webp 960w, assets/editorial/smaller-company-acquiring-bigger-company-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "13f-filings-explained",
     "title": "A 13F Filing Is a Dated Portfolio Snapshot",
-    "dek": "Institutional disclosures have a reporting lag and limited coverage. They do not reveal a manager's complete strategy or current holdings.",
+    "dek": "A 13F filing is delayed and incomplete. It cannot reveal a manager’s current or full portfolio.",
     "author": "TTN Research Desk",
     "date": "2026-08-17T09:00:00",
     "image": "assets/editorial/13f-filings-explained-editorial.webp",
@@ -5685,10 +5685,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/13f-filings-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/13f-filings-explained-editorial-480.webp 480w, assets/responsive/13f-filings-explained-editorial-960.webp 960w, assets/editorial/13f-filings-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "strategic-petroleum-reserve-explained",
     "title": "The Strategic Petroleum Reserve Buys Time During a Supply Disruption",
-    "dek": "Emergency crude releases can bridge shortages. Refining capacity, transport and replenishment limit what the reserve can accomplish.",
+    "dek": "Emergency oil releases can bridge a shortage, but refining, transport and replenishment limit their reach.",
     "author": "TTN Research Desk",
     "date": "2026-08-17T11:00:00",
     "image": "assets/editorial/strategic-petroleum-reserve-explained.webp",
@@ -5730,10 +5730,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/strategic-petroleum-reserve-explained-960.webp",
     "imageSrcset": "assets/responsive/strategic-petroleum-reserve-explained-480.webp 480w, assets/responsive/strategic-petroleum-reserve-explained-960.webp 960w, assets/editorial/strategic-petroleum-reserve-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "central-bank-policy-divergence-explained",
     "title": "Why Central Banks Can Respond Differently to the Same Shock",
-    "dek": "Inflation exposure, labor markets and policy starting points differ across economies. The expected paths affect assets as well as current rates.",
+    "dek": "Central banks face different inflation risks and policy starting points, creating divergent rate paths.",
     "author": "TTN Research Desk",
     "date": "2026-08-17T13:00:00",
     "image": "assets/editorial/central-bank-policy-divergence-explained-editorial.webp",
@@ -5784,10 +5784,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/central-bank-policy-divergence-explained-editorial-480.webp 480w, assets/responsive/central-bank-policy-divergence-explained-editorial-960.webp 960w, assets/editorial/central-bank-policy-divergence-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "global-bond-yield-synchronization-explained",
     "title": "Why Bond Yields Can Rise Across Countries Together",
-    "dek": "Shared inflation news and international portfolios transmit pressure between markets. National policy and debt structures still shape the outcome.",
+    "dek": "Shared inflation news and global portfolios can move bond yields together despite national differences.",
     "author": "TTN Research Desk",
     "date": "2026-08-19T09:00:00",
     "image": "assets/editorial/global-bond-yield-synchronization-explained.webp",
@@ -5837,10 +5837,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/global-bond-yield-synchronization-explained-960.webp",
     "imageSrcset": "assets/responsive/global-bond-yield-synchronization-explained-480.webp 480w, assets/responsive/global-bond-yield-synchronization-explained-960.webp 960w, assets/editorial/global-bond-yield-synchronization-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "retailer-earnings-consumer-bellwether-explained",
-    "title": "Retail Earnings Show Which Customers Are Spending—and Where",
-    "dek": "Company sales provide a timely view of particular shoppers and products. They must be separated from inflation, market share and national spending.",
+    "title": "Retail Earnings Show Which Customers Are Spending and Where",
+    "dek": "Retail earnings show particular shoppers and products, rather than the whole economy’s spending.",
     "author": "TTN Research Desk",
     "date": "2026-08-19T11:00:00",
     "image": "assets/editorial/retailer-earnings-consumer-bellwether-explained.webp",
@@ -5883,16 +5883,16 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
         "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
       }
     ],
-    "dateModified": "2026-10-18T14:24:18-04:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp",
     "imageMedium": "assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp",
     "imageSrcset": "assets/responsive/retailer-earnings-consumer-bellwether-explained-480.webp 480w, assets/responsive/retailer-earnings-consumer-bellwether-explained-960.webp 960w, assets/editorial/retailer-earnings-consumer-bellwether-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "free-cash-flow-explained",
     "title": "Free Cash Flow Is Useful, but Its Definition and Timing Matter",
-    "dek": "Cash generation can differ from accounting profit. Capital spending, working capital and adjustments explain the gap.",
+    "dek": "Free cash flow can differ from accounting profit because of investment, working capital and adjustments.",
     "author": "TTN Research Desk",
     "date": "2026-08-19T13:00:00",
     "image": "assets/editorial/free-cash-flow-explained-editorial.webp",
@@ -5943,10 +5943,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/free-cash-flow-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/free-cash-flow-explained-editorial-480.webp 480w, assets/responsive/free-cash-flow-explained-editorial-960.webp 960w, assets/editorial/free-cash-flow-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "treasury-debt-buyback-explained",
     "title": "Treasury Buybacks Support Market Functioning and Cash Management",
-    "dek": "Buying outstanding securities differs from reducing a deficit. The targeted bonds and funding arrangements explain the operation.",
+    "dek": "Treasury buybacks support market functioning and cash management; they do not directly reduce a deficit.",
     "author": "TTN Research Desk",
     "date": "2026-08-20T09:00:00",
     "image": "assets/editorial/treasury-debt-buyback-explained-editorial.webp",
@@ -5995,10 +5995,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/treasury-debt-buyback-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/treasury-debt-buyback-explained-editorial-480.webp 480w, assets/responsive/treasury-debt-buyback-explained-editorial-960.webp 960w, assets/editorial/treasury-debt-buyback-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "crack-spread-refining-margins-explained",
     "title": "The Crack Spread Measures a Refining Margin Before Many Costs",
-    "dek": "The gap between crude and product prices helps explain refinery economics. It is not the same as a refinery's net profit.",
+    "dek": "A crack spread compares crude and product prices before many costs. It is not a refinery’s net profit.",
     "author": "TTN Research Desk",
     "date": "2026-08-20T11:00:00",
     "image": "assets/editorial/crack-spread-refining-margins-explained.webp",
@@ -6049,10 +6049,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/crack-spread-refining-margins-explained-960.webp",
     "imageSrcset": "assets/responsive/crack-spread-refining-margins-explained-480.webp 480w, assets/responsive/crack-spread-refining-margins-explained-960.webp 960w, assets/editorial/crack-spread-refining-margins-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "clarity-act-crypto-legislation-explained",
     "title": "Reading the CLARITY Act's Proposed Crypto Market Structure",
-    "dek": "The House-passed 2025 text describes a regulatory framework. Its provisions and legislative status must be distinguished from current requirements.",
+    "dek": "The 2025 House CLARITY text maps a crypto framework. Its version matters when comparing it with law.",
     "author": "TTN Research Desk",
     "date": "2026-08-20T13:00:00",
     "image": "assets/editorial/clarity-act-crypto-legislation-explained.webp",
@@ -6097,10 +6097,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
     "imageSrcset": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp 480w, assets/responsive/clarity-act-crypto-legislation-explained-960.webp 960w, assets/editorial/clarity-act-crypto-legislation-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "tips-inflation-protected-bonds-explained",
     "title": "TIPS Protect Principal Against Measured Inflation, With Price Risk",
-    "dek": "Inflation adjustments change principal and coupon payments. Real yields, market prices and taxes still affect the holder's return.",
+    "dek": "TIPS adjust principal for measured inflation, while real yields, market prices and taxes affect returns.",
     "author": "TTN Research Desk",
     "date": "2026-08-21T09:00:00",
     "image": "assets/editorial/tips-inflation-protected-bonds-explained.webp",
@@ -6143,10 +6143,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/tips-inflation-protected-bonds-explained-960.webp",
     "imageSrcset": "assets/responsive/tips-inflation-protected-bonds-explained-480.webp 480w, assets/responsive/tips-inflation-protected-bonds-explained-960.webp 960w, assets/editorial/tips-inflation-protected-bonds-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "housing-starts-builder-confidence-explained",
     "title": "Housing Permits, Starts and Sentiment Measure Different Stages",
-    "dek": "Construction data show authorized and begun projects. Builder surveys add expectations, while financing and regional conditions shape follow-through.",
+    "dek": "Permits, housing starts and builder sentiment track different stages of residential construction.",
     "author": "TTN Research Desk",
     "date": "2026-08-21T11:00:00",
     "image": "assets/editorial/housing-starts-builder-confidence-explained.webp",
@@ -6201,10 +6201,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/housing-starts-builder-confidence-explained-960.webp",
     "imageSrcset": "assets/responsive/housing-starts-builder-confidence-explained-480.webp 480w, assets/responsive/housing-starts-builder-confidence-explained-960.webp 960w, assets/editorial/housing-starts-builder-confidence-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "dollar-reserve-currency-status-explained",
     "title": "Dollar Dominance Rests on More Than Oil Pricing",
-    "dek": "Reserve holdings, trade invoicing and funding markets reinforce one another. They are different measures of the dollar's international role.",
+    "dek": "Dollar dominance rests on reserves, trade and funding markets, which measure different roles.",
     "author": "TTN Research Desk",
     "date": "2026-08-21T13:00:00",
     "image": "assets/editorial/dollar-reserve-currency-status-explained.webp",
@@ -6247,10 +6247,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/dollar-reserve-currency-status-explained-960.webp",
     "imageSrcset": "assets/responsive/dollar-reserve-currency-status-explained-480.webp 480w, assets/responsive/dollar-reserve-currency-status-explained-960.webp 960w, assets/editorial/dollar-reserve-currency-status-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "sp500-concentration-risk-explained",
     "title": "Index Diversification Can Conceal Concentration at the Top",
-    "dek": "A broad stock benchmark may still depend heavily on a few large companies. Weighting rules determine how their results affect the index.",
+    "dek": "A broad index can still depend on a few large companies. Its weighting rules determine the exposure.",
     "author": "TTN Research Desk",
     "date": "2026-08-22T09:00:00",
     "image": "assets/editorial/sp500-concentration-risk-explained-editorial.webp",
@@ -6306,10 +6306,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/sp500-concentration-risk-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/sp500-concentration-risk-explained-editorial-480.webp 480w, assets/responsive/sp500-concentration-risk-explained-editorial-960.webp 960w, assets/editorial/sp500-concentration-risk-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "debt-spiral-r-versus-g-explained",
     "title": "Debt Sustainability Depends on Interest, Growth and the Primary Balance",
-    "dek": "A favorable interest-growth gap can help stabilize debt relative to the economy. It does not make deficits or refinancing risks disappear.",
+    "dek": "Debt sustainability depends on the primary balance as well as the gap between interest and growth.",
     "author": "TTN Research Desk",
     "date": "2026-08-22T11:00:00",
     "image": "assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp",
@@ -6352,10 +6352,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/debt-spiral-r-versus-g-explained-editorial-480.webp 480w, assets/responsive/debt-spiral-r-versus-g-explained-editorial-960.webp 960w, assets/editorial/debt-spiral-r-versus-g-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "jackson-hole-symposium-explained",
     "title": "Why Markets Listen to Jackson Hole Speeches",
-    "dek": "The Kansas City Fed's symposium is a forum for research and policy communication. A speech can change expectations without changing the policy rate.",
+    "dek": "Jackson Hole speeches can change rate expectations without changing the actual policy rate.",
     "author": "TTN Research Desk",
     "date": "2026-08-23T09:00:00",
     "image": "assets/editorial/jackson-hole-symposium-explained.webp",
@@ -6400,10 +6400,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/jackson-hole-symposium-explained-960.webp",
     "imageSrcset": "assets/responsive/jackson-hole-symposium-explained-480.webp 480w, assets/responsive/jackson-hole-symposium-explained-960.webp 960w, assets/editorial/jackson-hole-symposium-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "tariffs-who-actually-pays-explained",
-    "title": "Who Pays a Tariff at the Border—and Who Bears Its Cost",
-    "dek": "The importer remits the duty. Suppliers, businesses and consumers may share the economic burden through prices, margins and changes in trade.",
+    "title": "Who Pays a Tariff at the Border and Who Bears Its Cost",
+    "dek": "Importers remit tariffs, while suppliers, businesses and consumers can share the economic cost.",
     "author": "TTN Research Desk",
     "date": "2026-08-24T09:00:00",
     "image": "assets/editorial/tariffs-who-actually-pays-explained.webp",
@@ -6442,16 +6442,16 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
         "url": "https://libertystreeteconomics.newyorkfed.org/2026/02/who-is-paying-for-the-2025-u-s-tariffs/"
       }
     ],
-    "dateModified": "2026-10-18T14:24:18-04:00",
+    "dateModified": "2026-10-20T10:37:25+00:00",
     "editorialNote": null,
     "imageSmall": "assets/responsive/tariffs-who-actually-pays-explained-480.webp",
     "imageMedium": "assets/responsive/tariffs-who-actually-pays-explained-960.webp",
     "imageSrcset": "assets/responsive/tariffs-who-actually-pays-explained-480.webp 480w, assets/responsive/tariffs-who-actually-pays-explained-960.webp 960w, assets/editorial/tariffs-who-actually-pays-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "crypto-rally-three-catalysts-explained",
     "title": "Explaining a Crypto Rally Requires More Than a Headline",
-    "dek": "Policy news, financing conditions and trading positions can coincide. Establishing their contribution requires a timeline and evidence.",
+    "dek": "A crypto rally can reflect policy, financing and positioning. Causation requires a timeline and evidence.",
     "author": "TTN Research Desk",
     "date": "2026-08-24T11:00:00",
     "image": "assets/editorial/crypto-rally-three-catalysts-explained.webp",
@@ -6502,10 +6502,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
     "imageSrcset": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp 480w, assets/responsive/crypto-rally-three-catalysts-explained-960.webp 960w, assets/editorial/crypto-rally-three-catalysts-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "block-trades-dark-pools-explained",
     "title": "How Large Share Sales Are Executed Away From a Single Order",
-    "dek": "Blocks, brokers and off-exchange venues can limit information leakage. They do not eliminate price impact or the need for a willing buyer.",
+    "dek": "Block trades can reduce information leakage, but cannot eliminate price impact or the need for buyers.",
     "author": "TTN Research Desk",
     "date": "2026-08-24T13:00:00",
     "image": "assets/editorial/block-trades-dark-pools-explained.webp",
@@ -6556,10 +6556,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/block-trades-dark-pools-explained-960.webp",
     "imageSrcset": "assets/responsive/block-trades-dark-pools-explained-480.webp 480w, assets/responsive/block-trades-dark-pools-explained-960.webp 960w, assets/editorial/block-trades-dark-pools-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "treasury-general-account-liquidity-explained",
     "title": "The Treasury Cash Balance Changes Bank Reserves Through the Fed's Balance Sheet",
-    "dek": "Payments and borrowing move cash between government and private accounts. The net liquidity effect depends on who funds the transactions.",
+    "dek": "Treasury payments and borrowing move cash through the Fed’s balance sheet, affecting bank reserves.",
     "author": "TTN Research Desk",
     "date": "2026-08-25T09:00:00",
     "image": "assets/editorial/treasury-general-account-liquidity-explained.webp",
@@ -6608,10 +6608,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/treasury-general-account-liquidity-explained-960.webp",
     "imageSrcset": "assets/responsive/treasury-general-account-liquidity-explained-480.webp 480w, assets/responsive/treasury-general-account-liquidity-explained-960.webp 960w, assets/editorial/treasury-general-account-liquidity-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "emerging-market-carry-trade-explained",
     "title": "A High-Yield Currency Brings Risks the Interest Rate Does Not Show",
-    "dek": "Currency losses, financing costs and liquidity can offset an emerging market's higher yield. The source of that yield matters.",
+    "dek": "Currency losses, financing and liquidity can offset the higher yield on an emerging-market investment.",
     "author": "TTN Research Desk",
     "date": "2026-08-26T09:00:00",
     "image": "assets/editorial/emerging-market-carry-trade-explained.webp",
@@ -6662,10 +6662,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/emerging-market-carry-trade-explained-960.webp",
     "imageSrcset": "assets/responsive/emerging-market-carry-trade-explained-480.webp 480w, assets/responsive/emerging-market-carry-trade-explained-960.webp 960w, assets/editorial/emerging-market-carry-trade-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "bond-duration-explained",
     "title": "Duration Estimates a Bond's Sensitivity to Yield Changes",
-    "dek": "Maturity and duration are different measures. Modified duration gives a first-order price estimate, with limits for larger moves and complex bonds.",
+    "dek": "Duration estimates bond-price sensitivity to yield changes, with limits for large moves or complex bonds.",
     "author": "TTN Research Desk",
     "date": "2026-08-27T09:00:00",
     "image": "assets/editorial/bond-duration-explained-editorial.webp",
@@ -6710,10 +6710,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/bond-duration-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/bond-duration-explained-editorial-480.webp 480w, assets/responsive/bond-duration-explained-editorial-960.webp 960w, assets/editorial/bond-duration-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "merger-arbitrage-deal-spread-explained",
     "title": "The Merger Spread Prices Time and the Risk of Failure",
-    "dek": "The gap between an offer and a target's share price is not free money. Payment terms, closing conditions and the value without a deal shape it.",
+    "dek": "A merger spread reflects time and failure risk, including closing conditions and the no-deal value.",
     "author": "TTN Research Desk",
     "date": "2026-08-28T09:00:00",
     "image": "assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp",
@@ -6758,10 +6758,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp",
     "imageSrcset": "assets/responsive/merger-arbitrage-deal-spread-explained-editorial-480.webp 480w, assets/responsive/merger-arbitrage-deal-spread-explained-editorial-960.webp 960w, assets/editorial/merger-arbitrage-deal-spread-explained-editorial.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "prediction-markets-circuit-split-explained",
     "title": "Why Prediction-Market Cases Turn on Jurisdiction and Preemption",
-    "dek": "The legal classification of an event contract can affect state and federal authority. Conflicting appellate decisions require precise comparison.",
+    "dek": "Prediction-market litigation depends on contract classification, jurisdiction and federal preemption.",
     "author": "TTN Research Desk",
     "date": "2026-08-30T09:00:00",
     "image": "assets/editorial/prediction-markets-circuit-split-explained.webp",
@@ -6815,10 +6815,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/prediction-markets-circuit-split-explained-960.webp",
     "imageSrcset": "assets/responsive/prediction-markets-circuit-split-explained-480.webp 480w, assets/responsive/prediction-markets-circuit-split-explained-960.webp 960w, assets/editorial/prediction-markets-circuit-split-explained.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-monetization-gap-explained",
     "title": "The AI Revenue Test Begins After the Infrastructure Bill",
-    "dek": "Paid demand, utilization and cash generation determine whether a data-center buildout earns its cost of capital.",
+    "dek": "Paid demand, capacity use and cash flow determine whether AI infrastructure earns its financing cost.",
     "author": "TTN Research Desk",
     "date": "2026-09-05T09:00:00",
     "image": "assets/editorial/ai-monetization-gap-explained.webp",
@@ -6867,10 +6867,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-monetization-gap-explained-960.webp",
     "imageSrcset": "assets/responsive/ai-monetization-gap-explained-480.webp 480w, assets/responsive/ai-monetization-gap-explained-960.webp 960w, assets/editorial/ai-monetization-gap-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "ceo-succession-stock-impact-explained",
     "title": "A CEO Change Reprices Expectations Before It Changes Results",
-    "dek": "The market response reflects the transition, the company's condition and its strategic options. It cannot isolate the new leader's contribution.",
+    "dek": "A CEO change shifts expectations before results. The market response cannot isolate the leader’s impact.",
     "author": "TTN Research Desk",
     "date": "2026-09-05T11:00:00",
     "image": "assets/editorial/ceo-succession-stock-impact-explained.webp",
@@ -6916,10 +6916,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ceo-succession-stock-impact-explained-960.webp",
     "imageSrcset": "assets/responsive/ceo-succession-stock-impact-explained-480.webp 480w, assets/responsive/ceo-succession-stock-impact-explained-960.webp 960w, assets/editorial/ceo-succession-stock-impact-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "second-round-inflation-effects-explained",
     "title": "When an Energy Shock Spreads Beyond Energy Prices",
-    "dek": "Freight costs, pricing decisions and wages can extend an initial shock. The persistence depends on demand, contracts and expectations.",
+    "dek": "An energy shock can spread through freight, prices and wages, depending on contracts and demand.",
     "author": "TTN Research Desk",
     "date": "2026-09-05T13:00:00",
     "image": "assets/editorial/second-round-inflation-effects-explained.webp",
@@ -6962,10 +6962,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/second-round-inflation-effects-explained-960.webp",
     "imageSrcset": "assets/responsive/second-round-inflation-effects-explained-480.webp 480w, assets/responsive/second-round-inflation-effects-explained-960.webp 960w, assets/editorial/second-round-inflation-effects-explained.webp 1920w"
   },
-  {
+  {"section":"Market Analysis",
     "id": "oil-near-100-inflation-2026",
     "title": "What a $100 Oil Scenario Would Mean for Inflation",
-    "dek": "An illustrative oil-price level helps expose transmission channels. The duration of the shock and the economy's starting point determine its impact.",
+    "dek": "A $100 oil scenario illustrates cost pressures. Its impact depends on the shock’s duration and context.",
     "author": "TTN Research Desk",
     "date": "2026-10-06T09:00:00",
     "image": "assets/editorial/oil-near-100-inflation-2026.webp",
@@ -7022,10 +7022,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/oil-near-100-inflation-2026-960.webp",
     "imageSrcset": "assets/responsive/oil-near-100-inflation-2026-480.webp 480w, assets/responsive/oil-near-100-inflation-2026-960.webp 960w, assets/editorial/oil-near-100-inflation-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-agents-enterprise-roi-2026",
     "title": "An AI Agent's Return Depends on the Work Left for People",
-    "dek": "Automation can save time while creating review and correction tasks. A pilot needs to measure completed work against its full cost.",
+    "dek": "AI agent returns must include human review, correction work and the full cost of completing a task.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:00:00",
     "image": "assets/editorial/ai-agents-enterprise-roi-2026.webp",
@@ -7077,10 +7077,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-agents-enterprise-roi-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-agents-enterprise-roi-2026-480.webp 480w, assets/responsive/ai-agents-enterprise-roi-2026-960.webp 960w, assets/editorial/ai-agents-enterprise-roi-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "ai-chips-bottlenecks-2026",
     "title": "AI Computing Capacity Depends on Memory, Networks and Cooling",
-    "dek": "A faster processor cannot fix every system bottleneck. The useful measure is reliable workload output at a given total cost.",
+    "dek": "AI capacity depends on memory, networks and cooling, not just the speed of its processors.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:05:00",
     "image": "assets/editorial/ai-chips-bottlenecks-2026.webp",
@@ -7136,10 +7136,10 @@ const TTN_ARTICLES = [{"id":"nvidia-china-workstation-gpu-orders-october-20-2026
     "imageMedium": "assets/responsive/ai-chips-bottlenecks-2026-960.webp",
     "imageSrcset": "assets/responsive/ai-chips-bottlenecks-2026-480.webp 480w, assets/responsive/ai-chips-bottlenecks-2026-960.webp 960w, assets/editorial/ai-chips-bottlenecks-2026.webp 1920w"
   },
-  {
+  {"section":"Tech & AI",
     "id": "small-business-ai-adoption-2026",
     "title": "Small-Business AI Savings Need a Baseline",
-    "dek": "A useful tool reduces the cost of a repeatable task after review and corrections. Subscription price and apparent speed are incomplete measures.",
+    "dek": "Small firms need a task-cost baseline to measure AI savings after subscription, review and correction.",
     "author": "TTN Research Desk",
     "date": "2026-10-11T12:10:00",
     "image": "assets/editorial/small-business-ai-adoption-2026.webp",
