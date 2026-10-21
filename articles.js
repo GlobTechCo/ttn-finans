@@ -1,6 +1,168 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ecb-energy-resilience-october-21-2026",
+    "section": "Market Analysis",
+    "title": "ECB Sees Cleaner Energy and AI Demand Cushioning Europe’s Energy Shock",
+    "dek": "New ECB analysis separates lasting reductions in fossil-fuel exposure from temporary support provided by government spending and AI investment.",
+    "tickers": [
+      "EURUSD"
+    ],
+    "imageAlt": "Generated illustration of wind turbines, rooftop solar panels and electricity lines in an unnamed European rural landscape.",
+    "sources": [
+      {
+        "label": "ECB, October 21: euro-area resilience, energy exposure and fiscal-stance estimates",
+        "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261021~1c5ec8f223.en.html"
+      },
+      {
+        "label": "European Commission: electricity market structure and components of retail bills; background",
+        "url": "https://energy.ec.europa.eu/topics/markets-and-consumers/electricity-prices_en"
+      },
+      {
+        "label": "ECB, September Economic Bulletin: transmission of wholesale energy prices to consumer bills; background",
+        "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202606_04~5f026ee8e2.en.html"
+      },
+      {
+        "label": "ECB: monetary-policy transmission mechanism; background",
+        "url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+      }
+    ],
+    "body": [
+      "<p>The euro area has absorbed this year’s energy shock better than feared because its economy uses less fossil fuel, while public spending and demand linked to artificial intelligence have supported activity, European Central Bank economists said in analysis published Wednesday.</p>",
+      "<p>The authors distinguish structural protection from support that could fade. That matters for investors assessing whether European businesses can sustain earnings when energy remains expensive: resilience during one shock does not establish immunity to another.</p>",
+      "<h2>Using less oil changes the exposure</h2>",
+      "<p>The ECB estimates that oil intensity, measured against real economic output, is roughly half its early-1990s level. More renewable and nuclear electricity also reduces the frequency with which gas generation determines power prices. The finding concerns exposure per unit of activity, rather than a claim that Europe has stopped importing energy.</p>",
+      "<p>The European Commission’s explanation of electricity markets helps clarify the mechanism. Gas and coal generators face fuel costs that wind and solar operators do not. Electricity can also flow across interconnected national systems, allowing cheaper available generation to serve demand elsewhere. The resulting price depends on the generation mix, available connections and conditions at the time electricity is needed.</p>",
+      "<p>A larger renewable fleet therefore changes the supply options available to the market. It cannot guarantee cheap power in every hour. Weather changes both demand and renewable output, while limitations on cross-border connections can prevent low-cost electricity from reaching a neighboring market. Storage, flexible consumption and networks remain relevant alongside the number of turbines or panels installed.</p>",
+      "<p>Retail bills introduce another layer. The Commission distinguishes the energy component from network charges and taxes. A fall in wholesale electricity prices need not reduce the entire customer bill by the same proportion because maintaining the grid and collecting taxes are separate costs. Comparing wholesale prices with a household’s final bill without accounting for those components can exaggerate the apparent disconnect.</p>",
+      "<p>The ECB’s September research on energy-price transmission also emphasizes differences in contracts, charges and national arrangements. Wholesale movements can reach consumer gas and electricity indices at different speeds and with different intensity. Consequently, improved generation economics can coexist with households still experiencing elevated bills.</p>",
+      "<h2>Public spending and AI provide a different kind of buffer</h2>",
+      "<p>Wednesday’s analysis puts the 2026 fiscal loosening at about 0.5 percentage points of GDP, compared with 0.25 expected in December. Germany’s defense and infrastructure spending is the main driver. This measures a change in the fiscal stance, not a calculated 0.5-percentage-point contribution to GDP growth.</p>",
+      "<p>The authors also identify AI-related exports and investment as support for demand. These are potential offsets to an energy shock, but they differ from permanently reducing fuel consumption. An order supported by a spending boom still depends on the customer’s willingness and ability to keep investing.</p>",
+      "<p>For a business assessment, those channels should be examined separately. Lower energy use can reduce sensitivity to an input-price increase. A government contract or technology order supports revenue. A company may benefit from one without benefiting from the other, and an aggregate improvement does not reveal the position of every manufacturer.</p>",
+      "<h2>Resilient growth does not settle the interest-rate question</h2>",
+      "<p>The ECB’s monetary-policy framework explains why borrowing conditions remain part of the picture. Expected policy changes affect market rates and the rates banks charge customers. Higher financing costs can discourage investment and consumption, while exchange-rate movements can change import prices. Those effects operate with uncertain delays, so today’s activity does not reveal the full effect of earlier financial tightening.</p>",
+      "<p>That leaves investors with two separate questions: how well the economy absorbs energy costs, and how persistent inflation becomes. Stronger demand can support company sales while complicating the task of containing price increases. The Wednesday blog is an economic assessment, not a new interest-rate decision or a promise about the ECB’s next meeting.</p>",
+      "<p>For U.S. readers following European stocks or the euro, the useful distinction is between durable efficiency gains and spending-dependent demand. The two can support growth together, but their durability differs. That distinction also helps explain <a href=\"central-bank-policy-divergence-explained.html\">why central banks can respond differently to a shared global shock</a>.</p>"
+    ],
+    "image": "assets/editorial/ecb-energy-resilience-october-21-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ecb-energy-resilience-october-21-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ecb-energy-resilience-october-21-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ecb-energy-resilience-october-21-2026-cover-v1-480.webp 480w, assets/responsive/ecb-energy-resilience-october-21-2026-cover-v1-960.webp 960w, assets/editorial/ecb-energy-resilience-october-21-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T09:29:35Z",
+    "dateModified": "2026-10-21T09:29:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "uk-inflation-debt-september-2026",
+    "section": "Market Analysis",
+    "title": "UK Inflation Reaches 3.5% as Public Debt Passes £3 Trillion",
+    "dek": "September figures show broader price pressures and higher debt-interest costs, complicating the choices facing monetary and fiscal policymakers.",
+    "tickers": [
+      "GBPUSD"
+    ],
+    "imageAlt": "Generated illustration of a shopper comparing produce in an ordinary British grocery store; not a photograph of an identified person or business.",
+    "sources": [
+      {
+        "label": "ONS, October 21 at 7 a.m. British Summer Time: September consumer-price inflation",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+      },
+      {
+        "label": "ONS, October 21 at 7 a.m. British Summer Time: September public-sector finances",
+        "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/september2026"
+      },
+      {
+        "label": "Bank of England: Andrew Bailey’s May 2026 explanation of energy shocks and inflation policy; background",
+        "url": "https://www.bankofengland.co.uk/speech/2026/may/andrew-bailey-speech-at-the-reykjavik-2026-economic-conference"
+      },
+      {
+        "label": "Bank of England: the MPC’s remit and trade-off management; background",
+        "url": "https://www.bankofengland.co.uk/bank-insights/2026/the-mpcs-remit-and-trade-off-management"
+      }
+    ],
+    "body": [
+      "<p>UK consumer-price inflation accelerated to 3.5% in September from 3.1% in August, while public-sector net debt provisionally crossed £3 trillion, official figures released Wednesday showed. Together, the reports expose the pressure that higher prices place on both household spending power and government finances.</p>",
+      "<p>The Office for National Statistics said motor fuels were the largest upward driver of the change in annual inflation. But measures excluding volatile items also increased, making the report more consequential than a rise confined to petrol prices.</p>",
+      "<h2>Underlying measures also move higher</h2>",
+      "<p>Core CPI, which excludes energy, food, alcohol and tobacco, rose 2.8% over the year, up from 2.6%. CPI services inflation increased to 3.7% from 3.4%. Headline CPI increased 0.4% during September itself, compared with little change in the same month last year.</p>",
+      "<p>Those comparisons describe different things. The monthly figure measures the price change from August to September. The annual figure compares the latest basket with September 2025. Because an annual rate replaces one month in a twelve-month calculation, what happened a year earlier can change the rate even without a dramatic new monthly movement.</p>",
+      "<p>Core inflation helps identify pressures beyond the most volatile categories, but it does not exclude every effect of energy. Fuel and electricity can enter the costs of producing and delivering other goods and services. A rise in core inflation therefore warrants scrutiny without, on its own, proving that every business has permanently changed its pricing behavior.</p>",
+      "<h2>The debt milestone comes with an important qualification</h2>",
+      "<p>Public-sector net borrowing was £24.5 billion in September, £1.9 billion above the Office for Budget Responsibility’s forecast. Central-government debt interest reached £10.9 billion, £2 billion above forecast. The ONS attributed the broader borrowing pressure to spending increasing faster than receipts, including higher interest costs.</p>",
+      "<p>Net debt was provisionally £3,005 billion, or 94% of GDP. Although the cash amount crossed a new threshold, the ratio to economic output was 0.7 percentage points lower than a year earlier. These measures can move in different directions because the cash value of the economy changes as well as the debt stock.</p>",
+      "<p>Borrowing across the financial year to September was £97.8 billion, £4.4 billion below the comparable period last year but £6 billion above forecast. Both comparisons matter: an improvement against last year can still leave policymakers with less room than their budget plans assumed. The latest estimates are provisional and can be revised.</p>",
+      "<p>The milestone should not be read as a specific trigger for a funding crisis. A debt stock describes accumulated obligations; borrowing describes the deficit during a period. Assessing sustainability also requires financing costs, growth, maturities and the future balance between revenue and spending, as explained in <a href=\"debt-spiral-r-versus-g-explained.html\">the relationship between interest rates, growth and debt</a>.</p>",
+      "<h2>An energy shock creates a difficult policy choice</h2>",
+      "<p>Bank of England Governor Andrew Bailey set out the underlying dilemma in a May speech. Monetary policy cannot remove the initial loss of purchasing power caused by more expensive imported energy. Its role is to prevent the adjustment from becoming persistent inflation, while recognizing that interest-rate changes affect demand with a delay.</p>",
+      "<p>The distinction between direct and second-round effects matters here. A direct effect is the price of fuel itself. A second-round effect can arise when expectations of continuing inflation alter wage bargaining and businesses’ subsequent prices. The September core and services readings add information, but they do not alone establish the strength or duration of that process.</p>",
+      "<p>The Bank’s explanation of its remit also recognizes a trade-off between bringing inflation back to target and unnecessary volatility in output. Tightening too little risks persistent price pressure; tightening too strongly can weaken activity after the initial energy shock has faded. Wednesday’s statistics inform that judgment rather than predetermine a policy vote.</p>",
+      "<p>For U.S. investors, the combination is relevant to sterling assets, British government bonds and companies with UK customers. Higher expected rates can support a currency through yield differences, while weaker spending prospects can weigh on earnings. Neither channel guarantees a particular market reaction. The next policy decisions will also depend on subsequent evidence about wages, demand and the persistence of price increases.</p>"
+    ],
+    "image": "assets/editorial/uk-inflation-debt-september-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/uk-inflation-debt-september-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/uk-inflation-debt-september-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/uk-inflation-debt-september-2026-cover-v1-480.webp 480w, assets/responsive/uk-inflation-debt-september-2026-cover-v1-960.webp 960w, assets/editorial/uk-inflation-debt-september-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T09:29:35Z",
+    "dateModified": "2026-10-21T09:29:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "micron-taichung-union-agreement-october-2026",
+    "section": "Tech & AI",
+    "title": "Micron Reaches Taiwan Labor Deal, With Separate Strike Plans Still Unclear",
+    "dek": "The memory-chip maker and its Taichung union withdraw from mediation, while the status of a separate Taoyuan warning strike remains unconfirmed.",
+    "tickers": [
+      "MU"
+    ],
+    "imageAlt": "Generated conceptual illustration of gloved hands inspecting unbranded memory-chip packages; not a photograph of a Micron facility or the labor agreement.",
+    "sources": [
+      {
+        "label": "Reuters, October 21 at 06:23 UTC: company-union joint statement and unresolved Taoyuan strike status",
+        "url": "https://www.reuters.com/business/world-at-work/micron-says-it-has-reached-agreement-with-taiwan-union-2026-10-21/"
+      },
+      {
+        "label": "Reuters, via MarketScreener, October 20: bonus dispute and separate union’s planned warning strike; background",
+        "url": "https://ca.marketscreener.com/news/micron-union-in-taiwan-to-launch-strike-as-bonus-dispute-escalates-ce785cdbde8af522"
+      },
+      {
+        "label": "Micron: high-bandwidth memory architecture and its role in AI; technical background",
+        "url": "https://www.micron.com/products/memory/hbm"
+      },
+      {
+        "label": "Micron: HBM4 packaging, processor compatibility and specifications; company technical background",
+        "url": "https://www.micron.com/products/memory/hbm/hbm4"
+      }
+    ],
+    "body": [
+      "<p>Micron Memory Taiwan and the union at its Taichung operations have signed a labor-management agreement and withdrawn from mediation scheduled for October 22, Reuters reported Wednesday, citing their joint statement. Financial terms were not disclosed.</p>",
+      "<p>The agreement does not establish that a separate Taoyuan union has canceled its planned one-day warning strike. That union had not confirmed its intentions to Reuters. The distinction matters for investors assessing labor risk at an important manufacturing base for the U.S. memory-chip maker.</p>",
+      "<h2>Two unions, two different positions</h2>",
+      "<p>Tuesday’s reporting described the Taoyuan dispute as a demand for a clearer profit-sharing system and an acceptable one-off bonus. The union had selected October 22 to coincide with mediation involving Taichung. A settlement with one bargaining group should therefore not be presented as proof that every outstanding issue across the company’s Taiwan workforce has been resolved.</p>",
+      "<p>For shareholders, the immediate question is operational continuity. The announced agreement supplies evidence of progress in negotiations, but it does not disclose a measurable change in chip output. There is no basis in the available statement to calculate additional deliveries, a revenue benefit or the cost of the settlement.</p>",
+      "<p>That uncertainty runs in both directions. A warning strike does not automatically mean an entire manufacturing system stops, just as a labor agreement does not automatically raise its capacity. Assessing a production effect would require details about participation, affected tasks, duration and the ability to maintain those tasks safely.</p>",
+      "<h2>Why memory manufacturing matters to the AI buildout</h2>",
+      "<p>Micron’s technical documentation explains why memory is more than a commodity attachment to an AI processor. High-bandwidth memory, or HBM, stacks multiple DRAM dies vertically and connects them through pathways in the silicon. Its wide interface moves large quantities of data between memory and computing hardware.</p>",
+      "<p>That arrangement addresses a different constraint from the number of calculations a processor can perform. An accelerator waiting for information cannot fully use its computing resources. Memory capacity determines how much data can be kept close at hand; bandwidth determines how quickly it can be moved. Those measures should not be treated as interchangeable.</p>",
+      "<p>HBM also depends on packaging that places memory close to the processor. Micron’s HBM4 material describes the need for a compatible processor interface and appropriate packaging. This helps explain why replacing a missing component is not simply a matter of buying any memory chip with a similar storage capacity.</p>",
+      "<p>The company lists more than 2.8 terabytes per second of bandwidth per stack for its HBM4 product. That is a product specification, not a measure of this week’s factory output or the performance of an entire server. It illustrates the role of specialized memory without showing how a particular labor action would affect customer shipments.</p>",
+      "<p>For buyers building AI systems, the relevant commercial unit is a usable combination of processors, memory and packaging that arrives when needed. More capacity in one component does not necessarily offset a shortage elsewhere. This is part of <a href=\"ai-chips-bottlenecks-2026.html\">the wider supply-chain constraint on turning chip orders into working AI capacity</a>.</p>",
+      "<h2>The financial effect depends on terms and continuity</h2>",
+      "<p>Labor compensation and production continuity affect the economics through different routes. A higher recurring payment would increase costs, while an avoided interruption could protect deliveries and customer relationships. Which effect dominates depends on facts that the public agreement has not supplied. A settlement headline alone cannot establish whether quarterly profit expectations should rise or fall.</p>",
+      "<p>A one-time bonus and a recurring profit-sharing formula would also have different implications. The first primarily concerns a particular payment; the second can change how future operating gains are distributed. Investors would need the final terms and their accounting treatment before translating either into a margin estimate. Neither structure should be assumed from the announcement.</p>",
+      "<p>The next useful evidence would be confirmation of the Taoyuan union’s plans, any disclosure of material agreement terms and a company assessment of operational effects. Until then, Wednesday’s news supports a narrower conclusion: Micron has reached a deal with its Taichung bargaining group, while the separate dispute and its production implications require their own confirmation.</p>"
+    ],
+    "image": "assets/editorial/micron-taichung-union-agreement-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/micron-taichung-union-agreement-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/micron-taichung-union-agreement-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/micron-taichung-union-agreement-october-2026-cover-v1-480.webp 480w, assets/responsive/micron-taichung-union-agreement-october-2026-cover-v1-960.webp 960w, assets/editorial/micron-taichung-union-agreement-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T09:29:35Z",
+    "dateModified": "2026-10-21T09:29:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "meta-muse-ten-million-us-downloads-october-20-2026",
     "section": "Tech & AI",
     "title": "Meta’s Muse Passes 10 Million U.S. Downloads in Its First 40 Days",

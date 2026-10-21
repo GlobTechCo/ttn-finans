@@ -4,7 +4,7 @@
     <loc>https://globtechco.github.io/ttn-finans/</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-10-21T08:28:19Z</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ai-data-center-electricity-demand-2026.html</loc>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tech-ai.html</loc>
-    <lastmod>2026-10-21T08:28:19Z</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
@@ -24,7 +24,7 @@
     <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-10-21T08:28:19Z</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/brokers.html</loc>
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/oil-shock-market-ripple.html</loc>
-    <lastmod>2026-10-21T06:57:56Z</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -514,7 +514,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/second-round-inflation-effects-explained.html</loc>
-    <lastmod>2026-10-21T07:02:18Z</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -580,7 +580,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/ai-chips-bottlenecks-2026.html</loc>
-    <lastmod>2026-10-20T10:37:25+00:00</lastmod>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/small-business-ai-adoption-2026.html</loc>
@@ -810,5 +810,17 @@
     <lastmod>2026-10-21T08:28:19Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/ecb-energy-resilience-october-21-2026.html</loc>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/uk-inflation-debt-september-2026.html</loc>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
+  </url>
+  <url>
+    <loc>https://globtechco.github.io/ttn-finans/micron-taichung-union-agreement-october-2026.html</loc>
+    <lastmod>2026-10-21T09:29:35Z</lastmod>
   </url>
 </urlset>

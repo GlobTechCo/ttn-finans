@@ -694,6 +694,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/crypto-taxes-us-explained.html"
     },
     {
+      "page": "crypto.html",
+      "source": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
+      "image": "assets/social/bitcoin-etf-institutional-adoption-editorial-bf317615acac.webp",
+      "sha256": "bf317615acace7a2dd7dfbd03ceb3d2dd0d4fb5c8c538d951a5f4d142d636bf0",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 278912,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/crypto.html"
+    },
+    {
       "page": "currency-converter.html",
       "source": "assets/editorial/currency-intervention-explained.webp",
       "image": "assets/social/currency-intervention-explained-45a79fd81d04.webp",
@@ -791,6 +802,17 @@
       "bytes": 142740,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/earnings-beat-miss-explained.html"
+    },
+    {
+      "page": "ecb-energy-resilience-october-21-2026.html",
+      "source": "assets/editorial/ecb-energy-resilience-october-21-2026-cover-v1.webp",
+      "image": "assets/social/ecb-energy-resilience-october-21-2026-cover-v1-1de554f92b47.webp",
+      "sha256": "1de554f92b470b69704b7836463f5d042aafe87fff5cf4770a3af27a3f98bb6f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 376440,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ecb-energy-resilience-october-21-2026.html"
     },
     {
       "page": "eka-robotics-series-a-tactile-ai-october-20-2026.html",
@@ -1198,6 +1220,17 @@
       "bytes": 1858843,
       "type": "image/png",
       "shareUrl": "https://globtechco.github.io/ttn-finans/meta-muse-ten-million-us-downloads-october-20-2026.html"
+    },
+    {
+      "page": "micron-taichung-union-agreement-october-2026.html",
+      "source": "assets/editorial/micron-taichung-union-agreement-october-2026-cover-v1.webp",
+      "image": "assets/social/micron-taichung-union-agreement-october-2026-cover-v1-9c6d97302186.webp",
+      "sha256": "9c6d97302186e3ae6300c261015758080b236769aca2f57afad964dd9d537b9e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 152076,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/micron-taichung-union-agreement-october-2026.html"
     },
     {
       "page": "microsoft-nscale-loughton-lease-exit-power-2026.html",
@@ -1739,6 +1772,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/tsmc-q3-2026-ai-chip-demand.html"
     },
     {
+      "page": "uk-inflation-debt-september-2026.html",
+      "source": "assets/editorial/uk-inflation-debt-september-2026-cover-v1.webp",
+      "image": "assets/social/uk-inflation-debt-september-2026-cover-v1-1b9761eecc9e.webp",
+      "sha256": "1b9761eecc9e054c0ae718416306a1142380730f43aee02f574d20b48de43e3e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 268032,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/uk-inflation-debt-september-2026.html"
+    },
+    {
       "page": "unemployment-rate-u3-u6-participation-explained.html",
       "source": "assets/editorial/unemployment-rate-u3-u6-participation-explained.webp",
       "image": "assets/social/unemployment-rate-u3-u6-participation-explained-22e1f83d785c.webp",
@@ -1924,17 +1968,6 @@
       "bytes": 185396,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html"
-    },
-    {
-      "page": "crypto.html",
-      "source": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
-      "image": "assets/social/bitcoin-etf-institutional-adoption-editorial-bf317615acac.webp",
-      "sha256": "bf317615acace7a2dd7dfbd03ceb3d2dd0d4fb5c8c538d951a5f4d142d636bf0",
-      "width": 1920,
-      "height": 1080,
-      "bytes": 278912,
-      "type": "image/webp",
-      "shareUrl": "https://globtechco.github.io/ttn-finans/crypto.html"
     }
   ]
 }

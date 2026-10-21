@@ -1230,5 +1230,56 @@
     ],
     "processing": "Lanczos resize and minimal 16:9 crop; WebP quality 90, method 6",
     "bytes": 424336
+  },
+  {
+    "article": "ecb-energy-resilience-october-21-2026",
+    "file": "assets/editorial/ecb-energy-resilience-october-21-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T09:26:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native dimensions retained; WebP quality 90; responsive 480/960 variants",
+    "bytes": 376440,
+    "provenance": "Illustrative generic scene, not a documentary photograph, named facility or participant. Generation prompts in scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "uk-inflation-debt-september-2026",
+    "file": "assets/editorial/uk-inflation-debt-september-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T09:26:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native dimensions retained; WebP quality 90; responsive 480/960 variants",
+    "bytes": 268032,
+    "provenance": "Illustrative generic scene, not a documentary photograph, named facility or participant. Generation prompts in scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "micron-taichung-union-agreement-october-2026",
+    "file": "assets/editorial/micron-taichung-union-agreement-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T09:26:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native dimensions retained; WebP quality 90; responsive 480/960 variants",
+    "bytes": 152076,
+    "provenance": "Illustrative generic scene, not a documentary photograph, named facility or participant. Generation prompts in scripts/editorial-news-20261021.md."
   }
 ]

@@ -1,4 +1,7 @@
 TITLES = '''
+ecb-energy-resilience-october-21-2026|ECB Sees Cleaner Energy Cushioning Europe’s Shock
+uk-inflation-debt-september-2026|UK Inflation Hits 3.5%; Debt Passes £3 Trillion
+micron-taichung-union-agreement-october-2026|Micron Reaches Taichung Labor Agreement
 nacha-same-day-ach-growth-third-quarter-2026|Same-Day ACH Payments Rise 36.7%
 meta-muse-ten-million-us-downloads-october-20-2026|Meta Muse Passes 10 Million U.S. Downloads
 eka-robotics-series-a-tactile-ai-october-20-2026|Eka Raises $150 Million for Force-Aware Robots
@@ -103,6 +106,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+ecb-energy-resilience-october-21-2026|New ECB analysis separates lasting reductions in fossil-fuel exposure from temporary support provided by government spending and AI investment.
+uk-inflation-debt-september-2026|September figures show broader price pressures and higher debt-interest costs, complicating the choices facing monetary and fiscal policymakers.
+micron-taichung-union-agreement-october-2026|The memory-chip maker and its Taichung union withdraw from mediation, while the status of a separate Taoyuan warning strike remains unconfirmed.
 ai-agents-india-cert-in-security-warning-2026|CERT-In describes unauthorized AI agent access and criminal use of agent tools, highlighting exposed credentials and excessive permissions.
 asml-q3-2026-ai-demand|ASML’s record sales and higher outlook support AI chip demand. Long-term customer interest remains different from revenue already earned.
 bank-of-america-q3-2026-results|Bank of America’s settlement charge explains part of its profit decline. An adjusted earnings miss also raises questions about operating performance.
