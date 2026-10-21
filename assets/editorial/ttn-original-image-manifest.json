@@ -1281,5 +1281,56 @@
     "processing": "Native dimensions retained; WebP quality 90; responsive 480/960 variants",
     "bytes": 152076,
     "provenance": "Illustrative generic scene, not a documentary photograph, named facility or participant. Generation prompts in scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "tesla-q3-2026-cash-flow-results",
+    "file": "assets/editorial/tesla-q3-2026-cash-flow-results-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T21:09:10Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 508786,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "openai-google-cloud-model-garden-october-2026",
+    "file": "assets/editorial/openai-google-cloud-model-garden-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T21:09:10Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 314516,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "occ-genius-final-stablecoin-rule-october-2026",
+    "file": "assets/editorial/occ-genius-final-stablecoin-rule-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-21T21:09:10Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 262760,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
   }
 ]

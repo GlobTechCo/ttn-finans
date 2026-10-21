@@ -2067,6 +2067,39 @@
       "bytes": 185396,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html"
+    },
+    {
+      "page": "tesla-q3-2026-cash-flow-results.html",
+      "source": "assets/editorial/tesla-q3-2026-cash-flow-results-cover-v1.webp",
+      "image": "assets/social/tesla-q3-2026-cash-flow-results-cover-v1-63a1ed8f2afe.webp",
+      "sha256": "63a1ed8f2afe7280c9b53ec89da04f5625cbf584d1bae56bd260d0ed0334bc54",
+      "width": 1672,
+      "height": 941,
+      "bytes": 508786,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tesla-q3-2026-cash-flow-results.html"
+    },
+    {
+      "page": "openai-google-cloud-model-garden-october-2026.html",
+      "source": "assets/editorial/openai-google-cloud-model-garden-october-2026-cover-v1.webp",
+      "image": "assets/social/openai-google-cloud-model-garden-october-2026-cover-v1-9a41e6991e91.webp",
+      "sha256": "9a41e6991e91475a03769743449f34680ae56a65bfa77c7bf12d60c926f6dcbb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 314516,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/openai-google-cloud-model-garden-october-2026.html"
+    },
+    {
+      "page": "occ-genius-final-stablecoin-rule-october-2026.html",
+      "source": "assets/editorial/occ-genius-final-stablecoin-rule-october-2026-cover-v1.webp",
+      "image": "assets/social/occ-genius-final-stablecoin-rule-october-2026-cover-v1-09861e99d54d.webp",
+      "sha256": "09861e99d54d5638f088f8aeaa4f4b1fec5fc93284fdbf5ce90df56cb8f33eaa",
+      "width": 1672,
+      "height": 941,
+      "bytes": 262760,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/occ-genius-final-stablecoin-rule-october-2026.html"
     }
   ]
 }

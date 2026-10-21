@@ -1,4 +1,158 @@
+/* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
+  {
+    "id": "tesla-q3-2026-cash-flow-results",
+    "section": "Market Analysis",
+    "title": "Tesla Returns to Positive Free Cash Flow as Operating Profit Falls 56%",
+    "dek": "Tesla generated $1.53 billion of free cash flow in Q3, but higher operating expenses weighed on profit as revenue stayed nearly flat.",
+    "tickers": [
+      "TSLA"
+    ],
+    "imageAlt": "Generated editorial reconstruction of Tesla Model 3 and Model Y vehicles at an outdoor charging area, based on official vehicle references.",
+    "sources": [
+      {
+        "label": "Tesla: Q3 2026 shareholder update and financial statements",
+        "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+      },
+      {
+        "label": "Tesla: October 2 production, deliveries and storage deployment release",
+        "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments"
+      },
+      {
+        "label": "Tesla Investor Relations: quarterly disclosure and webcast",
+        "url": "https://ir.tesla.com/"
+      }
+    ],
+    "body": [
+      "<p>Tesla returned to positive free cash flow in the third quarter, generating $1.53 billion after a cash outflow in the preceding quarter, according to its shareholder update released Wednesday after the U.S. market close. Operating profit nevertheless fell 56% from a year earlier. The figures give investors two different measures of the electric-vehicle maker’s performance: a recovery in cash generation and continued pressure on the profitability of its operations.</p>",
+      "<p>Revenue was $28.05 billion, essentially unchanged from a year earlier. Operating income was $718 million, with an operating margin of 2.6%. A nearly flat sales total therefore did not translate into stable earnings. The distinction matters as investors assess how much of the company’s future investment its existing businesses can support.</p>",
+      "<h2>Lower sequential investment spending helps cash flow</h2>",
+      "<p>The update reports $6.26 billion of operating cash flow and $4.73 billion of capital expenditure. Subtracting the latter produces the reported free cash flow. Capital expenditure declined from $5.79 billion in the second quarter, although it remained substantially above the year-earlier level. The sequential cash improvement should consequently be read alongside the timing of investment spending.</p>",
+      "<p>Free cash flow measures the money left after investment in long-lived assets. It does not measure the same thing as accounting profit. A business can record expenses before paying cash, receive money before recognizing revenue, or spend heavily on equipment that will be expensed over several years. TTN’s <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why those differences matter when evaluating a quarter.</p>",
+      "<p>For Tesla, the useful question is whether cash generation can remain positive while planned projects proceed. One quarter of lower spending does not establish a lasting reduction in the cost of expansion. Conversely, a large investment payment does not by itself show that the underlying business has become unprofitable. Both the spending schedule and returns on completed assets deserve attention.</p>",
+      "<h2>Expenses explain the squeeze on operating profit</h2>",
+      "<p>Tesla’s operating expenses rose 39% year over year to $4.78 billion. Its total gross margin improved to 19.6%, but that improvement was insufficient to offset the higher expense base. The report illustrates how better economics before operating costs can coexist with weaker profitability after those costs are included.</p>",
+      "<p>That relationship is more informative than treating revenue growth as a complete verdict on the business. Investors need to distinguish the contribution from selling products and services from the resources spent developing future offerings and running the organization. Higher spending may support future growth, but the spending itself cannot demonstrate that the anticipated demand or returns will arrive.</p>",
+      "<h2>Deliveries provide context, rather than the whole answer</h2>",
+      "<p>Tesla had already disclosed on October 2 that it delivered 486,532 vehicles and deployed 13.7 gigawatt-hours of energy storage during the quarter. Those operational counts were not first announced with Wednesday’s financial results. The company also cautioned in that earlier release that deliveries and storage deployments alone should not be treated as indicators of quarterly financial performance.</p>",
+      "<p>A vehicle count does not reveal the average price received, manufacturing cost, currency effect or expense required to support sales. Storage deployment measures physical capacity delivered, rather than revenue or cash collected in the same period. Comparing an operating volume directly with a financial total can therefore hide changes in pricing, product mix and the timing of recognition.</p>",
+      "<h2>The next test is the durability of the recovery</h2>",
+      "<p>The financial reading is mixed: Tesla generated cash after capital expenditure, while a higher operating-cost base absorbed a larger share of revenue. The next reports will show whether investment spending rises again and whether operating earnings can recover without depending on a temporary pause in payments. Those are separate questions, and a stronger answer on one does not settle the other.</p>",
+      "<p>For shareholders following TSLA, the most useful comparison will combine operating margin, cash from operations and capital expenditure across several quarters. That approach avoids confusing a favorable cash-timing movement with a permanent improvement in earnings power. Wednesday’s update supplies evidence of a cash recovery, but the decline in operating profit keeps the cost of financing Tesla’s ambitions central to the investment debate.</p>"
+    ],
+    "image": "assets/editorial/tesla-q3-2026-cash-flow-results-cover-v1.webp",
+    "imageSmall": "assets/responsive/tesla-q3-2026-cash-flow-results-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/tesla-q3-2026-cash-flow-results-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/tesla-q3-2026-cash-flow-results-cover-v1-480.webp 480w, assets/responsive/tesla-q3-2026-cash-flow-results-cover-v1-960.webp 960w, assets/editorial/tesla-q3-2026-cash-flow-results-cover-v1.webp 1672w",
+    "date": "2026-10-21T21:09:10Z",
+    "dateModified": "2026-10-21T21:09:10Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "openai-google-cloud-model-garden-october-2026",
+    "section": "Tech & AI",
+    "title": "OpenAI Brings Its Models and Codex to Google Cloud in Enterprise Distribution Deal",
+    "dek": "The partnership adds OpenAI models to Google Cloud’s catalog, with private preview first and purchases drawing on existing cloud commitments.",
+    "tickers": [
+      "GOOGL",
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative 3D rendering of a black OpenAI emblem connected to a multicolored Google Cloud emblem inside a transparent glass structure.",
+    "sources": [
+      {
+        "label": "OpenAI: partnership, procurement and planned general availability",
+        "url": "https://openai.com/index/openai-models-google-cloud/"
+      },
+      {
+        "label": "Google Cloud: model lineup, private preview and security roadmap",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+      },
+      {
+        "label": "Google Cloud Marketplace: procurement, billing and governance",
+        "url": "https://cloud.google.com/marketplace"
+      }
+    ],
+    "body": [
+      "<p>OpenAI and Google Cloud announced Wednesday that OpenAI’s models and Codex coding workflows are coming to Google Cloud’s Model Garden, giving enterprise buyers another route to purchase and deploy the AI developer’s technology. The agreement lets customers use existing Google Cloud spending commitments for purchases through its marketplace. It extends distribution to a competing AI company’s infrastructure and sales channel.</p>",
+      "<p>The initial rollout is restricted. Google says GPT-Astra, GPT-6.1 Sol and GPT-6 Luna are entering private preview for selected enterprise customers. OpenAI says general availability is planned in the coming weeks. Those stages should not be collapsed into a claim that every Google Cloud customer already has unrestricted access.</p>",
+      "<h2>A distribution change with a budget implication</h2>",
+      "<p>For a business already committed to buying cloud services, the purchasing arrangement can be as significant as the model catalog. A contractual spending commitment allocates part of a technology budget to a provider. Allowing model purchases to count toward that commitment can make an additional service easier to fund within an existing commercial relationship.</p>",
+      "<p>It does not make the computing free. Usage still consumes budget, and companies must compare the effective cost with other routes to the same capability. An organization that spends its commitment on model inference has less of that commitment available for other eligible services. The financial benefit depends on contract terms and what the customer would otherwise have purchased.</p>",
+      "<p>Google Cloud Marketplace already combines discovery, procurement, deployment and billing for third-party services. Its general marketplace description also outlines tools for controlling which products employees may use. Bringing OpenAI into that channel connects the model choice with procurement and governance processes that enterprise technology teams already operate.</p>",
+      "<h2>What the rollout includes, and what remains planned</h2>",
+      "<p>Google’s announcement differentiates the models by workload and cost, rather than presenting a single model as the answer to every task. It also says customers can connect local Codex command-line and desktop workflows to its platform for inference. OpenAI separately says access through Google Antigravity and the Gemini Agent is coming soon.</p>",
+      "<p>The security roadmap has a similar distinction between present claims and future features. Google describes controlled data boundaries and says customer prompts, context and outputs are not used to train foundation models. Its announcement lists Zero Data Retention options and Confidential Compute as forthcoming. Buyers should check the actual available configuration rather than assume every item in the announcement is already included.</p>",
+      "<h2>Model choice still requires application testing</h2>",
+      "<p>The practical opportunity is to compare models within a common purchasing environment. A company might prefer a more capable model for difficult code changes and a less costly one for a routine classification task. That is an architectural choice about the work being performed, rather than evidence that one supplier will dominate every application.</p>",
+      "<p>Changing the underlying model can still change results. Tool use, response formatting, latency and the way an application handles errors may differ. Teams need representative evaluations, spending limits and permission controls before expanding access to sensitive systems. A common catalog can simplify adoption, but it cannot replace those checks or guarantee that a workflow remains reliable after a model change.</p>",
+      "<p>The same distinction applies to productivity claims. Faster generation of code does not establish that a software release is correct, secure or cheaper to maintain. The cost of reviewing and validating output belongs in the comparison. TTN’s coverage of <a href=\"blacksmith-series-c-code-testing-october-2026.html\">investment in automated code validation</a> describes another part of that operating challenge.</p>",
+      "<h2>Cloud competition extends beyond proprietary models</h2>",
+      "<p>OpenAI explicitly says Microsoft remains its primary cloud partner. The new arrangement therefore expands the routes through which customers can buy OpenAI technology without announcing an end to that relationship. Alphabet’s GOOGL shares and Microsoft’s MSFT shares offer listed-market context, while OpenAI itself has no public stock ticker.</p>",
+      "<p>For cloud providers, hosting a rival’s models can help retain a customer’s broader application spending. For model developers, wider distribution can reduce the friction of reaching enterprises that have already standardized on another platform. The announcement does not disclose the revenue split, so its financial value cannot be calculated from the rollout alone. Actual usage, pricing and renewal decisions will determine the commercial outcome.</p>"
+    ],
+    "image": "assets/editorial/openai-google-cloud-model-garden-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/openai-google-cloud-model-garden-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/openai-google-cloud-model-garden-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/openai-google-cloud-model-garden-october-2026-cover-v1-480.webp 480w, assets/responsive/openai-google-cloud-model-garden-october-2026-cover-v1-960.webp 960w, assets/editorial/openai-google-cloud-model-garden-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T21:09:10Z",
+    "dateModified": "2026-10-21T21:09:10Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "occ-genius-final-stablecoin-rule-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "OCC Finalizes Stablecoin Rules Ahead of January 2027 Compliance Deadline",
+    "dek": "The OCC’s final GENIUS Act framework takes effect January 18, 2027, alongside licensing guidance and a separate reporting process.",
+    "tickers": [],
+    "imageAlt": "Illustrative photographic still life with a stablecoin rules folder, dollar notes, a generic dollar token and a payment confirmation screen.",
+    "sources": [
+      {
+        "label": "OCC Bulletin 2026-50: final rule, scope and effective date",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+      },
+      {
+        "label": "OCC Bulletin 2026-51: applications and waiver guidance",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-51.html"
+      },
+      {
+        "label": "OCC Bulletin 2026-52: revised reporting forms and conditions",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-52.html"
+      },
+      {
+        "label": "OCC: October 21 announcement of the final GENIUS Act rule",
+        "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+      }
+    ],
+    "body": [
+      "<p>The Office of the Comptroller of the Currency issued its final rule implementing the GENIUS Act on Wednesday, setting a January 18, 2027 effective date for a federal framework covering payment stablecoin issuers under its jurisdiction. Accompanying bulletins address applications, possible waivers and reporting. The package turns a legislative framework into operational requirements that affected issuers must prepare to meet.</p>",
+      "<p>The development is a final implementing rule, rather than a new law or an approval of every existing stablecoin. Congress enacted the GENIUS Act in July 2025. The OCC’s October 21 bulletin describes the requirements for entities within its authority, including relevant bank subsidiaries, federally qualified nonbank issuers and certain foreign and state-qualified issuers.</p>",
+      "<h2>From authorization to ongoing supervision</h2>",
+      "<p>The OCC says its new 12 CFR Part 15 addresses reserves, redemption, risk management, custody, audits, applications and supervision. It also covers capital and an operational backstop. The framework extends beyond the technical ability to create or transfer a token: the issuer’s financial and operational arrangements become part of regulatory oversight.</p>",
+      "<p>The final rule does not complete every related regulatory process. The agency says Bank Secrecy Act, anti-money-laundering and sanctions requirements will be addressed through a separate rulemaking coordinated with the Treasury Department. Readers should therefore distinguish finalization of this package from a claim that all stablecoin-related rulemaking is finished.</p>",
+      "<p>For token users, the distinction between a payment instrument and its issuer remains essential. A blockchain can record that a transfer occurred without establishing that the recipient can redeem at the expected value when needed. TTN’s <a href=\"stablecoins-explained-depeg-risk.html\">guide to stablecoins and depegging</a> explains how reserve quality, liquidity and redemption arrangements affect that relationship.</p>",
+      "<h2>An application does not equal approval</h2>",
+      "<p>Separate OCC guidance warns that submitting an application before the deadline may not itself satisfy the requirement for prior approval. Its waiver process addresses the possibility that an issuer seeking to comply could still be waiting for a decision when the law takes effect. A request for relief and an authorization to continue operating are different steps.</p>",
+      "<p>The bulletin describes an initial 30-day review to determine whether an application is substantially complete, with missing information returned to the applicant for correction. The agency commits to acting no later than 120 days after that completeness determination. Those periods make the quality and timing of a filing commercially important, rather than a purely administrative detail.</p>",
+      "<p>An issuer planning a launch must coordinate regulatory review with banking relationships, custody, technology and customer commitments. Promising a product before the required authorization is in place can create a mismatch between commercial expectations and what the business is permitted to do. The existence of a waiver mechanism should not be treated as an automatic extension for every applicant.</p>",
+      "<h2>Reporting has its own approval process</h2>",
+      "<p>The OCC also published revised weekly and quarterly reporting forms for comment. Bulletin 2026-52 says the collection is intended to support compliance, supervision and transparency about issuers’ financial condition. It requests comments within 30 days of publication in the Federal Register, preserving a separate review step for the reporting arrangements.</p>",
+      "<p>Subject to Office of Management and Budget approval, the proposed collection would begin with a January 25, 2027 weekly report date and a March 31, 2027 quarterly report date. These reporting dates are distinct from the January 18 effective date of the law and final rule. Treating all three as one deadline would obscure what the agency actually announced.</p>",
+      "<h2>What matters for the market next</h2>",
+      "<p>The business implication is a clearer set of preparations for affected issuers, accompanied by licensing and implementation work. Compliance systems have costs, but a formal framework can also help banks, payment businesses and customers evaluate potential counterparties. Neither effect establishes which issuer will gain market share or whether demand for a particular token will increase.</p>",
+      "<p>The next useful evidence will be application decisions, any granted waivers and completion of the reporting process. Users and business partners should look for the permissions and redemption terms that apply to the specific issuer they use. Wednesday’s action advances the regulatory framework; it does not remove the need to assess the actual company, product and arrangements behind an individual stablecoin.</p>"
+    ],
+    "image": "assets/editorial/occ-genius-final-stablecoin-rule-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/occ-genius-final-stablecoin-rule-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/occ-genius-final-stablecoin-rule-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/occ-genius-final-stablecoin-rule-october-2026-cover-v1-480.webp 480w, assets/responsive/occ-genius-final-stablecoin-rule-october-2026-cover-v1-960.webp 960w, assets/editorial/occ-genius-final-stablecoin-rule-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T21:09:10Z",
+    "dateModified": "2026-10-21T21:09:10Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
   {
     "id": "us-treasury-20-year-auction-october-21-2026",
     "section": "Market Analysis",

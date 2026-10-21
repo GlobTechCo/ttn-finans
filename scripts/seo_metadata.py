@@ -1,4 +1,7 @@
 TITLES = '''
+occ-genius-final-stablecoin-rule-october-2026|OCC Finalizes GENIUS Act Stablecoin Rules
+openai-google-cloud-model-garden-october-2026|OpenAI Models and Codex Are Coming to Google Cloud
+tesla-q3-2026-cash-flow-results|Tesla Q3: Cash Recovers, Operating Profit Falls
 us-treasury-20-year-auction-october-21-2026|US 20-Year Treasury Auction Clears at 5.469%
 anthropic-christopher-stubbs-benefit-trust-october-2026|Anthropic Adds Physicist to Governance Trust
 grayscale-in-kind-crypto-subscriptions-october-2026|Grayscale Expands In-Kind Crypto Subscriptions
@@ -115,6 +118,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+occ-genius-final-stablecoin-rule-october-2026|The OCC’s final GENIUS Act framework takes effect January 18, 2027, alongside licensing guidance and a separate reporting process.
+openai-google-cloud-model-garden-october-2026|The partnership adds OpenAI models to Google Cloud’s catalog, with private preview first and purchases drawing on existing cloud commitments.
+tesla-q3-2026-cash-flow-results|Tesla generated $1.53 billion of free cash flow in Q3, but higher operating expenses weighed on profit as revenue stayed nearly flat.
 ecb-energy-resilience-october-21-2026|New ECB analysis separates lasting reductions in fossil-fuel exposure from temporary support provided by government spending and AI investment.
 uk-inflation-debt-september-2026|September figures show broader price pressures and higher debt-interest costs, complicating the choices facing monetary and fiscal policymakers.
 micron-taichung-union-agreement-october-2026|The memory-chip maker and its Taichung union withdraw from mediation, while the status of a separate Taoyuan warning strike remains unconfirmed.
