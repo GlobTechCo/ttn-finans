@@ -5,7 +5,7 @@ const TTN_ARTICLES = [
     "title": "US Treasury Sells $13 Billion of 20-Year Bonds at a 5.469% Yield",
     "dek": "The reopening keeps a 5.125% coupon but sells below face value, illustrating how long-term borrowing costs differ from the Fed’s policy rate.",
     "tickers": [],
-    "imageAlt": "Generated 3D editorial illustration of stylized Treasury bond certificates and a percentage symbol; not an official security certificate or auction photograph.",
+    "imageAlt": "Generated reference-based illustration of the U.S. Treasury building in Washington, D.C.; not a photograph of the bond auction.",
     "sources": [
       {
         "label": "TreasuryDirect: October 21 auction results, CUSIP 912810UX4, 20-year bond reopening",
@@ -38,10 +38,10 @@ const TTN_ARTICLES = [
       "<p>Wednesday’s result fixes the terms of this auction, not the government’s cost of borrowing across its entire debt portfolio. Bills, notes and other bonds have different maturities and financing schedules. Nor does the sale mechanically reset mortgage rates or corporate borrowing costs, although Treasury yields help form the reference rates against which other financing is priced.</p>",
       "<p>The next evidence will come from secondary-market trading and subsequent debt sales. The separate <a href=\"https://www.tradingview.com/symbols/TVC-US20Y/\" target=\"_blank\" rel=\"noopener noreferrer\">TradingView page for the 20-year Treasury yield</a> tracks a market yield series, not a continuing auction or an offer to buy this particular bond. Comparing those later yields with the auction result can help assess how readily the newly issued supply is absorbed after settlement.</p>"
     ],
-    "image": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-480.webp 480w, assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-960.webp 960w, assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp 1672w",
+    "image": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v2-480.webp 480w, assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v2-960.webp 960w, assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v2.webp 1672w",
     "date": "2026-10-21T18:39:17Z",
     "dateModified": "2026-10-21T18:39:17Z",
     "author": "TTN Research Desk",
@@ -53,7 +53,7 @@ const TTN_ARTICLES = [
     "title": "Anthropic Adds Harvard Physicist Christopher Stubbs to Its Governance Trust",
     "dek": "The former Harvard science dean joins an independent body with board-appointment powers, bringing scientific expertise to AI oversight.",
     "tickers": [],
-    "imageAlt": "Generated conceptual 3D illustration of independent governance panels around a council platform; not Anthropic’s actual office, boardroom or trustees.",
+    "imageAlt": "Generated editorial composite of the Anthropic wordmark, Claude emblem and hands reviewing generic research pages; not an actual company meeting.",
     "sources": [
       {
         "label": "Anthropic, October 21: Christopher Stubbs joins the Long-Term Benefit Trust",
@@ -86,10 +86,10 @@ const TTN_ARTICLES = [
       "<p>Anthropic’s published governance description includes mechanisms for amending the trust arrangement, including provisions involving large shareholder supermajorities. That makes the actual governing documents and applicable conditions more useful than a simple claim that an oversight body is either all-powerful or purely symbolic. Neither characterization follows from the appointment announcement alone.</p>",
       "<p>For customers, the immediate commercial service remains separate from the new trustee’s role. For investors, the development draws attention to how control, accountability and commercial incentives fit together. Future disclosures about the trust’s work and the company’s responses to its assessments will provide more concrete evidence of that balance than the credentials of any single appointee.</p>"
     ],
-    "image": "assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-480.webp 480w, assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-960.webp 960w, assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1.webp 1672w",
+    "image": "assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2-480.webp 480w, assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2-960.webp 960w, assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2.webp 1672w",
     "date": "2026-10-21T18:39:17Z",
     "dateModified": "2026-10-21T18:39:17Z",
     "author": "TTN Research Desk",
@@ -107,7 +107,7 @@ const TTN_ARTICLES = [
       "SOL",
       "XRP"
     ],
-    "imageAlt": "Generated 3D editorial illustration of labeled crypto tokens and investment-share certificates, representing an in-kind transfer rather than an actual Grayscale interface.",
+    "imageAlt": "Generated editorial collage of symbolic Bitcoin, Ethereum and XRP medallions with reference-based Grayscale and NYSE signage; not a photograph of a real event.",
     "sources": [
       {
         "label": "Grayscale, October 21 at 9 a.m. EDT: in-kind access, eligible products, minimums and risk disclosures; GlobeNewswire distribution",
@@ -136,10 +136,10 @@ const TTN_ARTICLES = [
       "<p>Grayscale says contributing tokens may simplify portfolio administration and potentially reduce some execution costs. Those are possible benefits, not guaranteed savings for every holder. Shares can trade above or below the value of the assets backing them, and transfers depend on the successful coordination of intermediaries and custodians. A failed or incorrectly routed transfer can create problems even without an adverse market move.</p>",
       "<p>The firm’s disclosures also caution that tax treatment is uncertain and that transactions can trigger taxable events, particularly if an investor must sell or swap assets to supply the required token. The relevant comparison is therefore the complete transfer, ownership and eventual exit process. The expanded service changes access to fund shares, while Bitcoin, Ethereum, Solana and XRP exposure continues to carry its underlying market risks.</p>"
     ],
-    "image": "assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-480.webp 480w, assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-960.webp 960w, assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1.webp 1672w",
+    "image": "assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2-480.webp 480w, assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2-960.webp 960w, assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2.webp 1672w",
     "date": "2026-10-21T18:39:17Z",
     "dateModified": "2026-10-21T18:39:17Z",
     "author": "TTN Research Desk",

@@ -117,3 +117,40 @@ Image provenance:
 ```
 
 Live correction: TVC:US20Y exists on TradingView but its embedded chart explicitly reports availability only on TradingView. Removed the unsupported widget and new mapping; linked the real external yield chart contextually in the Treasury article instead. No existing supported instrument controls removed.
+
+
+## Approved cover replacements for the late package
+
+Owner clarified that the earlier Blacksmith 3D/motion request applied only to that one cover and did not change global editorial policy. All three replacements were shown and specifically approved; the Grayscale collage approval followed a further revision. Article copy and publication/modification instants are preserved. References guide illustrations; none is described as documentary evidence of the announcements.
+
+```json
+[
+  {
+    "id": "us-treasury-20-year-auction-october-21-2026",
+    "source": "exec-42394425-6281-48b0-9a4c-25488684185b.png",
+    "asset": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v2.webp",
+    "sha256": "42898c627cb90b90ee536d0176a73821ba78c8861a3a07d1d5bd4706bfb1f77a",
+    "reference": "https://www.theclio.com/entry/20310",
+    "approved": "User approved displayed Treasury and Anthropic previews, then explicitly approved the revised Grayscale collage.",
+    "description": "Generated reference-based illustration of the U.S. Treasury building in Washington, D.C.; not a photograph of the bond auction."
+  },
+  {
+    "id": "anthropic-christopher-stubbs-benefit-trust-october-2026",
+    "source": "exec-370a9a3d-b60e-4769-b682-2ca3709e2901.png",
+    "asset": "assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v2.webp",
+    "sha256": "f3bb46018a0f74a6befe09a08c3bdee72aaf37d8dce569fe808038f3edeb4654",
+    "reference": "https://apps.apple.com/la/iphone/story/id1806667385",
+    "approved": "User approved displayed Treasury and Anthropic previews, then explicitly approved the revised Grayscale collage.",
+    "description": "Generated editorial composite of the Anthropic wordmark, Claude emblem and hands reviewing generic research pages; not an actual company meeting."
+  },
+  {
+    "id": "grayscale-in-kind-crypto-subscriptions-october-2026",
+    "source": "exec-d46c23cf-cb71-4f43-82ca-93d2226f12c8.png",
+    "asset": "assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v2.webp",
+    "sha256": "456ea520b0524fb1dc54f0555b77e16a37e346b0dc66cd0925760d09bdc2a4ac",
+    "reference": "https://www.bloomberg.com/news/articles/2024-02-26/grayscale-s-gbtc-bitcoin-etf-exodus-reaches-7-4-billion-in-30-days",
+    "approved": "User approved displayed Treasury and Anthropic previews, then explicitly approved the revised Grayscale collage.",
+    "description": "Generated editorial collage of symbolic Bitcoin, Ethereum and XRP medallions with reference-based Grayscale and NYSE signage; not a photograph of a real event."
+  }
+]
+```
