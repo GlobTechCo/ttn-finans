@@ -148,6 +148,8 @@ def refresh():
             if page.stem in byid:
                 text=re.sub(r'<script\b[^>]*src="config\.js[^\"]*"[^>]*></script>\s*','',text)
         if text!=old:page.write_text(text)
+    from article_tickers import refresh_article_tickers
+    refresh_article_tickers(ROOT)
     from ad_placements import refresh_ad_placements
     refresh_ad_placements(ROOT)
     print(f'Refreshed {len(articles)} article links, three full topic archives and homepage fallbacks.')

@@ -70,6 +70,14 @@ Related reading selections and adds a block to pages that lack one. Review new
 articles in `scripts/editorial_topics.py` to assign a topic and specific related
 reading. Uncategorized new entries still appear in the static archive.
 
+The same refresh checks static ticker controls below every original article.
+`scripts/article_tickers.py` owns reviewed TradingView mappings and explicit
+benchmark/crypto-name matching; keep this separate from aggregator configuration.
+For a new unsupported catalog ticker, verify and add its mapping before publishing.
+`verify_site.py` rejects missing controls or a missing chart controller. Instrument
+matching excludes source lists and related reading, and distinguishes the Nasdaq
+Composite from the Nasdaq-100 and Dow Jones reporting from the industrial index.
+
 `refresh_seo_metadata.py` applies reviewed search titles/descriptions from
 `scripts/seo_metadata.py`; it does not replace visible article headlines.
 

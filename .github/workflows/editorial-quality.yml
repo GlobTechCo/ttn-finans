@@ -2,7 +2,7 @@ name: TTN editorial quality
 on:
   pull_request:
   push:
-    branches: [main, codex/crypto-section]
+    branches: [main, codex/crypto-section, codex/article-tickers]
     paths:
       - '*.html'
       - 'articles.js'
@@ -11,6 +11,9 @@ on:
       - 'chart.js'
       - 'market-tape.js'
       - 'scripts/test-crypto-section.cjs'
+      - 'scripts/test-article-tickers.cjs'
+      - 'scripts/article_tickers.py'
+      - 'scripts/refresh_static_editorial.py'
       - 'scripts/audit_article_lengths.py'
       - 'scripts/verify_site.py'
       - '.github/workflows/editorial-quality.yml'
@@ -41,6 +44,7 @@ jobs:
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           TTN_TEST_BASE=http://127.0.0.1:8765/ TTN_SCREENSHOT_DIR=/tmp/ttn-crypto-browser node scripts/test-crypto-section.cjs
+          TTN_TEST_BASE=http://127.0.0.1:8765/ TTN_SCREENSHOT_DIR=/tmp/ttn-crypto-browser node scripts/test-article-tickers.cjs
       - uses: actions/upload-artifact@v7
         if: always()
         with:

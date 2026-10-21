@@ -59,6 +59,15 @@ def verify():
     assert not broken,broken
     for a in articles:
         doc=docs[a['id']+'.html']
+        from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH
+        ticker_labels=expected_tickers(a,doc)
+        ticker_tags=doc.xpath(TAG_XPATH)
+        expected_symbols=sorted(INSTRUMENTS[label][0] for label in ticker_labels)
+        assert sorted(t.get('data-tv') for t in ticker_tags)==expected_symbols,(a['id'],'missing or incorrect article tickers')
+        if ticker_labels:
+            assert len(doc.xpath('//div[@class="article-tickers"]'))==1,(a['id'],'ticker block')
+            assert doc.xpath('//script[starts-with(@src,"chart.js") ]'),(a['id'],'missing chart controller')
+            assert all(t.get('data-label') for t in ticker_tags),(a['id'],'ticker chart labels')
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
         assert schema['articleSection']==a['section'],(a['id'],'article section')
