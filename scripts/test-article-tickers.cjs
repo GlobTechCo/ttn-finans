@@ -25,7 +25,7 @@ const cases = [
       // rendering is checked separately after deployment.
       await context.route('https://s3.tradingview.com/tv.js', route => route.fulfill({
         contentType: 'application/javascript',
-        body: 'window.TradingView={widget:function(o){const d=document.createElement("div");d.setAttribute("data-chart-symbol",o.symbol);document.getElementById(o.container_id).appendChild(d);}};',
+        body: 'window.TradingView={widget:function(o){const d=document.createElement("div");d.setAttribute("data-chart-symbol",o.symbol);d.textContent=o.symbol;document.getElementById(o.container_id).appendChild(d);}};',
       }));
       const page = await context.newPage();
       const errors = []; page.on('pageerror', e => errors.push(e.message));
@@ -49,7 +49,7 @@ const cases = [
         await page.keyboard.press('Escape');
         assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
         if (id.startsWith('micron-')) {
-          await control.scrollIntoViewIfNeeded?.();
+          await control.scrollIntoViewIfNeeded();
           await page.screenshot({ path: path.join(shots, name + '-article-tickers.png') });
         }
       }
