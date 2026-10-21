@@ -67,14 +67,14 @@ const cases = [
     }
     const nojs = await browser.newContext({ javaScriptEnabled: false });
     const page = await nojs.newPage();
-    await page.goto(base + cases[1][0] + '.html');
+    await page.goto(base + cases.find(([, symbol]) => symbol === 'NASDAQ:MU')[0] + '.html');
     assert.equal(new URL(await page.locator('.article-ticker-tag[data-tv="NASDAQ:MU"]').getAttribute('href')).searchParams.get('symbol'), 'NASDAQ:MU');
     assert(await page.locator('.editorial-body').isVisible());
     await nojs.close();
     const blocked = await browser.newContext();
     await blocked.route(/tradingview/, route => route.abort());
     const b = await blocked.newPage();
-    await b.goto(base + cases[1][0] + '.html');
+    await b.goto(base + cases.find(([, symbol]) => symbol === 'NASDAQ:MU')[0] + '.html');
     await b.locator('.article-ticker-tag[data-tv="NASDAQ:MU"]').click();
     await b.getByText('TradingView could not be loaded.', { exact: false }).waitFor();
     assert(await b.locator('.editorial-body').isVisible());
