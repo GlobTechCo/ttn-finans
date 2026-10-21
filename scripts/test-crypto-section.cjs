@@ -42,6 +42,8 @@ async function noOverflow(page,label) {
    assert.equal(await page.locator('.crypto-chart-links a').count(),4);
    assert.match(await page.locator('tv-ticker-tape').getAttribute('symbols'),/COINBASE:SOLUSD,BITSTAMP:XRPUSD/);
    await noOverflow(page,name+' crypto');
+   await page.waitForFunction(()=>{const w=document.querySelector('tv-ticker-tape');return w?.shadowRoot && /[0-9]+[.,][0-9]+/.test(w.shadowRoot.textContent);}, null, {timeout:10000}).catch(()=>{});
+   console.log('QUOTE',name,await page.locator('tv-ticker-tape').evaluate(w=>({defined:!!customElements.get('tv-ticker-tape'),text:w.shadowRoot?.textContent?.slice(-1600),html:w.shadowRoot?.innerHTML?.slice(-1500)})));
    await page.screenshot({path:path.join(shots,name+'-crypto.png'),fullPage:true});
    await page.locator('.crypto-chart-links a').first().click();
    await page.getByRole('button',{name:'Close chart',exact:true}).waitFor();
@@ -73,7 +75,7 @@ async function noOverflow(page,label) {
   assert.equal(await p.locator('.editorial-topics a').count(),sorted('Crypto').length);
   assert.equal(await p.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>a.format==='news').length));
   assert(await p.locator('#nav-links').getByRole('link',{name:'Crypto',exact:true}).isVisible());
-  assert(await p.getByText('Interactive quotes require JavaScript.',{exact:false}).isVisible());
+  assert(await p.locator('.crypto-market noscript p').isVisible());
   await noOverflow(p,'no-JavaScript mobile');await nojs.close();
   // Block widgets: article reading and external chart fallbacks remain available.
   const blocked=await browser.newContext();await blocked.route(/tradingview/,route=>route.abort());const b=await blocked.newPage();await b.goto(base+'crypto.html');
