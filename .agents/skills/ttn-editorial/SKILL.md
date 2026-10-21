@@ -15,7 +15,7 @@ Write public articles in English for a U.S. audience. Communicate progress and r
 
 ## Research and editorial judgment
 
-Cover significant developments in the economy, monetary policy, banking, corporate finance, equities, foreign exchange, crypto, technology and AI. Select news by substance, recency, verification and reader relevance. Compare both sections and recent coverage to avoid duplicate stories and excessive company/topic concentration. Use a material new development, not a recycled explanation, as a new article's reason to exist.
+Cover significant developments in the economy, monetary policy, banking, corporate finance, equities, foreign exchange, crypto, technology and AI. Select news by substance, recency, verification and reader relevance. Compare all editorial sections and recent coverage to avoid duplicate stories and excessive company/topic concentration. Use a material new development, not a recycled explanation, as a new article's reason to exist.
 
 Verify current claims using Western news sources and primary announcements, filings, official datasets or documentation. Read the underlying material; a search snippet is insufficient for important claims. Check critical claims across sources where possible. Record the original event/release and first reporting times with timezones. Syndication and cosmetic updates do not make an old event new. Apply the user's requested window exactly in Europe/Kyiv, including a last-three-hours request. Withhold an unverified story rather than invent facts or fill a quota.
 
@@ -31,7 +31,7 @@ For recurring work, inspect actual automation configuration before claiming it i
 
 ## Classification and internal links
 
-Use Market Analysis for the owner's TTN Original and Tech & AI for technology/AI coverage. Decide the section from the story's main angle. Keep the catalog, standalone page, breadcrumb, schema, homepage and archives consistent. Treat explicit catalog sections as authoritative while preserving compatible legacy IDs. Verify rendered section exclusivity, not only HTML fallback or a section label.
+Use Market Analysis for general financial reporting and explainers, Tech & AI for technology/AI coverage, and Crypto for digital-asset markets, stablecoins, tokenization and crypto regulation. Set Crypto format to news or explainer and keep it aligned with the article schema. General prediction-market coverage stays in Market Analysis unless its main angle is specifically crypto. Decide the section from the story's main angle. Keep the catalog, standalone page, breadcrumb, schema, homepage and archives consistent. Treat explicit catalog sections as authoritative while preserving compatible legacy IDs. Verify rendered section exclusivity, not only HTML fallback or a section label.
 
 Use visible contextual internal links to relevant existing articles and specific related reading. Add a useful incoming link from an established related article where appropriate. Avoid irrelevant link stuffing. Preserve accurate published URLs and dates; correct at the existing URL unless withdrawal has a substantive documented reason. Freshness alone does not justify deleting an accurate published article.
 

@@ -7,7 +7,7 @@ a separate external news feed, TradingView quotes and financial calculators.
 ## Project structure
 
 - `index.html`: homepage with static editorial cards and an external news feed.
-- `analysis.html`, `tech-ai.html`: paginated original-content archives with a
+- `analysis.html`, `tech-ai.html`, `crypto.html`: paginated original-content archives with a
   complete, static directory of article links grouped by topic.
 - Individual `.html` article pages: complete text, sources, social metadata and
   contextual Related reading links. Reading an article does not require JavaScript.
@@ -94,7 +94,7 @@ flag, not proof of backdating or authorization to invent a new publication date.
 
 The visible quote tape is a TradingView widget using Bitstamp BTC/USD and ETH/USD,
 FOREX.com S&P 500 and Nasdaq-100 instruments, CMC Markets Gold, FXCM Brent
-(`FX:UKOIL`) and FXCM EUR/USD. UKOIL is an FXCM CFD based on Brent oil futures,
+(`FX:UKOIL`) and FXCM EUR/USD, plus Coinbase SOL/USD and Bitstamp XRP/USD. UKOIL is an FXCM CFD based on Brent oil futures,
 not a direct ICE exchange quote; its chart panel identifies the instrument and
 provider. It was verified in TradingView's Ticker Tape configurator before use.
 The FOREX.com instruments are broker quotes, not the official cash-index feeds.
@@ -168,3 +168,5 @@ clear advertisement labels and responsive sizing have been configured and tested
 Changing the disabled flag alone deliberately refuses activation.
 
 The length audit counts only paragraphs in the standalone article body. The owner's PDF audit targets are 600+ words for news and 700+ for explainers; headings, sources and related reading do not count. These are editorial targets, not a Google AdSense minimum. `--format csv` or `--format json` exports the complete inventory. The editorial-quality workflow checks these targets and site integrity on content pushes and pull requests. Passing a length check does not replace source verification or substantive editing.
+
+Crypto is a distinct canonical section. Set `section: "Crypto"` and `format: "news"` or `"explainer"` in articles.js. Keep Article/NewsArticle schema aligned with that format. crypto.js renders four news cards on the homepage, paginated reporting and four featured explainers on crypto.html; its complete static directory includes every crypto article. Other sections exclude Crypto. Crypto quotes use Bitstamp BTC/USD, ETH/USD and XRP/USD plus Coinbase SOL/USD through TradingView, with chart links that remain available if widgets fail. The original aggregator is unchanged.

@@ -899,7 +899,7 @@ const TTN_ARTICLES = [
   },
   {
     "id": "bitcoin-rebound-etf-outflows-october-19-2026",
-    "section": "Market Analysis",
+    "section": "Crypto",
     "title": "Bitcoin Rebounds Above $82,000 as Oil Retreats",
     "dek": "Bitcoin recovered with risk assets on Monday, while two weeks of US spot-ETF outflows kept the strength of underlying demand in question.",
     "imageAlt": "Three-dimensional editorial illustration of a copper Bitcoin symbol behind ribbed glass with abstract market candlesticks; not a chart of actual prices.",
@@ -940,7 +940,8 @@ const TTN_ARTICLES = [
       "<p>Bloomberg placed Bitcoin within last week’s $80,000–$85,000 trading range. Remaining inside that interval does not establish a breakout, and the interval itself is historical context rather than a promised floor or ceiling.</p>",
       "<p>For readers watching the recovery, price persistence and subsequent fund flows answer different questions. The first shows whether buyers keep accepting higher prices; the second describes one route through which capital enters or leaves exposure. The account of the <a href=\"bitcoin-ether-selloff-liquidations-october-15-2026.html\">recent crypto selloff</a> provides the preceding market context.</p>",
       "<p>Leverage can amplify a recovery as well as a decline. A forced close is an execution event, not evidence of improving fundamentals. Understanding <a href=\"crypto-liquidation-leverage-explained.html\">how liquidation works</a> helps separate a sharp price move from a durable change in investment demand.</p>"
-    ]
+    ],
+    "format": "news"
   },
   {
     "id": "gold-oil-retreat-fed-outlook-october-19-2026",
@@ -1414,7 +1415,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
     "dateModified": "2026-10-21T07:02:18Z",
-    "section": "Market Analysis",
+    "section": "Crypto",
     "image": "assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp",
     "imageAlt": "Illustrative analyst viewing generic semiconductor and perpetual-contract charts; not actual market data or a documented trader.",
     "tickers": [],
@@ -1454,7 +1455,8 @@ const TTN_ARTICLES = [
     ],
     "imageSmall": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp",
     "imageMedium": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp",
-    "imageSrcset": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp 480w, assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp 960w, assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp 1672w"
+    "imageSrcset": "assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-480.webp 480w, assets/responsive/chip-stock-perpetuals-weekend-liquidations-2026-960.webp 960w, assets/editorial/chip-stock-perpetuals-weekend-liquidations-2026.webp 1672w",
+    "format": "news"
   },
   {
     "id": "ai-data-center-boom-power-delivery-debt-2026",
@@ -1570,7 +1572,7 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "date": "2026-10-18T04:46:15-04:00",
     "dateModified": "2026-10-21T07:02:18Z",
-    "section": "Market Analysis",
+    "section": "Crypto",
     "image": "assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp",
     "imageAlt": "Illustrative bakery payment using a generic USDC demonstration screen; not an actual Circle app, merchant partnership or transaction.",
     "tickers": [],
@@ -1607,7 +1609,8 @@ const TTN_ARTICLES = [
     ],
     "imageSmall": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp",
     "imageMedium": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp",
-    "imageSrcset": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp 480w, assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp 960w, assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp 1672w"
+    "imageSrcset": "assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-480.webp 480w, assets/responsive/circle-usdc-revenue-sharing-stablecoin-competition-2026-960.webp 960w, assets/editorial/circle-usdc-revenue-sharing-stablecoin-competition-2026.webp 1672w",
+    "format": "news"
   },
   {
     "section": "Tech & AI",
@@ -1663,7 +1666,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-480.webp 480w, assets/responsive/replit-openai-preferred-partner-claude-choice-2026-v2-960.webp 960w, assets/editorial/replit-openai-preferred-partner-claude-choice-2026-v2.webp 1672w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "richard-heart-turkey-detention-confirmed-2026",
     "title": "Turkey Confirms Richard Heart’s Detention and Reports $7.15 Million Cash Seizure",
     "dek": "The announcement adds official details to the Istanbul operation involving the HEX founder. His detention, Finland’s allegations and the dismissed US securities case are separate legal developments.",
@@ -1712,10 +1715,11 @@ const TTN_ARTICLES = [
     ],
     "imageSmall": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp",
     "imageMedium": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp",
-    "imageSrcset": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp 480w, assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp 960w, assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp 1672w"
+    "imageSrcset": "assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-480.webp 480w, assets/responsive/richard-heart-turkey-detention-confirmed-2026-v2-960.webp 960w, assets/editorial/richard-heart-turkey-detention-confirmed-2026-v2.webp 1672w",
+    "format": "news"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "okxice-stock-token-issuer-objections-2026",
     "title": "Broadcom, Verizon and CoreWeave Object to Stock Tokens on OKXICE",
     "dek": "Nine companies have filed objections with the proposed trading venue, highlighting the gap between regulatory permission and corporate acceptance of tokenized shares.",
@@ -1767,7 +1771,8 @@ const TTN_ARTICLES = [
     ],
     "imageSmall": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp",
     "imageMedium": "assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp",
-    "imageSrcset": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp 480w, assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp 960w, assets/editorial/okxice-stock-token-issuer-objections-2026.webp 1672w"
+    "imageSrcset": "assets/responsive/okxice-stock-token-issuer-objections-2026-480.webp 480w, assets/responsive/okxice-stock-token-issuer-objections-2026-960.webp 960w, assets/editorial/okxice-stock-token-issuer-objections-2026.webp 1672w",
+    "format": "news"
   },
   {
     "section": "Tech & AI",
@@ -2703,7 +2708,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-480.webp 480w, assets/responsive/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3-960.webp 960w, assets/editorial/google-news-ai-pilot-publisher-licensing-2026-pancras-approved-v3.webp 1672w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "bitcoin-ether-selloff-liquidations-october-15-2026",
     "title": "Bitcoin Breaks Below $80,000 as Inflation Shock and AI Selloff Hit Crypto",
     "dek": "Bitcoin lost 3.5% over 24 hours at a Thursday morning snapshot. Ether suffered heavier forced selling as ETF withdrawals and a broader retreat from risk weakened the market.",
@@ -2754,7 +2759,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp",
     "imageMedium": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp 480w, assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp 960w, assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp 1672w"
+    "imageSrcset": "assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-480.webp 480w, assets/responsive/bitcoin-ether-selloff-liquidations-october-15-2026-960.webp 960w, assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp 1672w",
+    "format": "news"
   },
   {
     "section": "Market Analysis",
@@ -3890,7 +3896,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/fed-policy-2026-editorial-480.webp 480w, assets/responsive/fed-policy-2026-editorial-960.webp 960w, assets/editorial/fed-policy-2026-editorial.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "bitcoin-halving-cycles",
     "title": "Bitcoin Halvings Change Supply, Not the Rules of Valuation",
     "dek": "The block subsidy falls on a programmed schedule. The effect on price still depends on demand, market conditions and miners' costs.",
@@ -3942,7 +3948,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-halving-cycles-480.webp",
     "imageMedium": "assets/responsive/bitcoin-halving-cycles-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-halving-cycles-480.webp 480w, assets/responsive/bitcoin-halving-cycles-960.webp 960w, assets/editorial/bitcoin-halving-cycles.webp 1920w"
+    "imageSrcset": "assets/responsive/bitcoin-halving-cycles-480.webp 480w, assets/responsive/bitcoin-halving-cycles-960.webp 960w, assets/editorial/bitcoin-halving-cycles.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -4174,7 +4181,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/treasury-yields-spike-2026-480.webp 480w, assets/responsive/treasury-yields-spike-2026-960.webp 960w, assets/editorial/treasury-yields-spike-2026.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "stablecoins-explained-depeg-risk",
     "title": "A Stablecoin's Peg Depends on Its Backing and Redemption",
     "dek": "A dollar target does not make every token equivalent to cash. Reserve assets, redemption access and market liquidity determine the risks.",
@@ -4228,7 +4235,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/stablecoins-explained-depeg-risk-480.webp",
     "imageMedium": "assets/responsive/stablecoins-explained-depeg-risk-960.webp",
-    "imageSrcset": "assets/responsive/stablecoins-explained-depeg-risk-480.webp 480w, assets/responsive/stablecoins-explained-depeg-risk-960.webp 960w, assets/editorial/stablecoins-explained-depeg-risk.webp 1920w"
+    "imageSrcset": "assets/responsive/stablecoins-explained-depeg-risk-480.webp 480w, assets/responsive/stablecoins-explained-depeg-risk-960.webp 960w, assets/editorial/stablecoins-explained-depeg-risk.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -4278,7 +4286,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/earnings-beat-miss-explained-editorial-480.webp 480w, assets/responsive/earnings-beat-miss-explained-editorial-960.webp 960w, assets/editorial/earnings-beat-miss-explained-editorial.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "bitcoin-etf-institutional-adoption",
     "title": "What a Bitcoin ETF Changes About Ownership",
     "dek": "A listed fund makes bitcoin exposure accessible through a securities account. Its shares do not give every investor direct ownership of coins.",
@@ -4321,7 +4329,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp",
     "imageMedium": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp 480w, assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp 960w, assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp 1920w"
+    "imageSrcset": "assets/responsive/bitcoin-etf-institutional-adoption-editorial-480.webp 480w, assets/responsive/bitcoin-etf-institutional-adoption-editorial-960.webp 960w, assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -4379,7 +4388,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/eur-usd-rate-differential-explained-480.webp 480w, assets/responsive/eur-usd-rate-differential-explained-960.webp 960w, assets/editorial/eur-usd-rate-differential-explained.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "crypto-liquidation-leverage-explained",
     "title": "Crypto Liquidation Begins Before All the Margin Is Gone",
     "dek": "Leverage magnifies losses. Maintenance-margin rules, fees and the exchange's price reference determine when a position is closed.",
@@ -4431,7 +4440,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp",
     "imageMedium": "assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp",
-    "imageSrcset": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp 480w, assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp 960w, assets/editorial/crypto-liquidation-leverage-explained-editorial.webp 1920w"
+    "imageSrcset": "assets/responsive/crypto-liquidation-leverage-explained-editorial-480.webp 480w, assets/responsive/crypto-liquidation-leverage-explained-editorial-960.webp 960w, assets/editorial/crypto-liquidation-leverage-explained-editorial.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -4641,7 +4651,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/correlation-breakdown-diversification-editorial-480.webp 480w, assets/responsive/correlation-breakdown-diversification-editorial-960.webp 960w, assets/editorial/correlation-breakdown-diversification-editorial.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "crypto-taxes-us-explained",
     "title": "US Crypto Taxes Begin With the Type of Transaction",
     "dek": "Selling, swapping and receiving digital assets can have different tax consequences. Records of value, basis and timing are essential.",
@@ -4694,7 +4704,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-taxes-us-explained-480.webp",
     "imageMedium": "assets/responsive/crypto-taxes-us-explained-960.webp",
-    "imageSrcset": "assets/responsive/crypto-taxes-us-explained-480.webp 480w, assets/responsive/crypto-taxes-us-explained-960.webp 960w, assets/editorial/crypto-taxes-us-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/crypto-taxes-us-explained-480.webp 480w, assets/responsive/crypto-taxes-us-explained-960.webp 960w, assets/editorial/crypto-taxes-us-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -5908,7 +5919,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/circular-ai-financing-explained-480.webp 480w, assets/responsive/circular-ai-financing-explained-960.webp 960w, assets/editorial/circular-ai-financing-explained.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "bitcoin-51-percent-attack-forks-explained",
     "title": "What a Majority Hash-Power Attack Can Do to Bitcoin",
     "dek": "Mining power influences which valid chain accumulates work. It does not give an attacker authority to spend anyone else's coins or change every rule.",
@@ -5951,7 +5962,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp",
     "imageMedium": "assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp 480w, assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp 960w, assets/editorial/bitcoin-51-percent-attack-forks-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/bitcoin-51-percent-attack-forks-explained-480.webp 480w, assets/responsive/bitcoin-51-percent-attack-forks-explained-960.webp 960w, assets/editorial/bitcoin-51-percent-attack-forks-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -6063,7 +6075,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/private-credit-shadow-banking-explained-editorial-480.webp 480w, assets/responsive/private-credit-shadow-banking-explained-editorial-960.webp 960w, assets/editorial/private-credit-shadow-banking-explained-editorial.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "defi-basics-explained",
     "title": "DeFi Moves Financial Rules Into Software, but Leaves Risks Behind",
     "dek": "Lending pools and automated exchanges depend on collateral, code and price inputs. Decentralization does not remove every intermediary or point of control.",
@@ -6107,7 +6119,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/defi-basics-explained-480.webp",
     "imageMedium": "assets/responsive/defi-basics-explained-960.webp",
-    "imageSrcset": "assets/responsive/defi-basics-explained-480.webp 480w, assets/responsive/defi-basics-explained-960.webp 960w, assets/editorial/defi-basics-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/defi-basics-explained-480.webp 480w, assets/responsive/defi-basics-explained-960.webp 960w, assets/editorial/defi-basics-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -6373,7 +6386,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/ppi-producer-price-index-explained-480.webp 480w, assets/responsive/ppi-producer-price-index-explained-960.webp 960w, assets/editorial/ppi-producer-price-index-explained.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "bitcoin-mining-economics-explained",
     "title": "A Bitcoin Miner Sells Computing Work Against a Volatile Reward",
     "dek": "Power, equipment efficiency and network competition shape mining returns. Production volume alone cannot establish profitability.",
@@ -6424,7 +6437,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/bitcoin-mining-economics-explained-480.webp",
     "imageMedium": "assets/responsive/bitcoin-mining-economics-explained-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-mining-economics-explained-480.webp 480w, assets/responsive/bitcoin-mining-economics-explained-960.webp 960w, assets/editorial/bitcoin-mining-economics-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/bitcoin-mining-economics-explained-480.webp 480w, assets/responsive/bitcoin-mining-economics-explained-960.webp 960w, assets/editorial/bitcoin-mining-economics-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -7005,7 +7019,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/crack-spread-refining-margins-explained-480.webp 480w, assets/responsive/crack-spread-refining-margins-explained-960.webp 960w, assets/editorial/crack-spread-refining-margins-explained.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "clarity-act-crypto-legislation-explained",
     "title": "Reading the CLARITY Act's Proposed Crypto Market Structure",
     "dek": "The House-passed 2025 text describes a regulatory framework. Its provisions and legislative status must be distinguished from current requirements.",
@@ -7053,7 +7067,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp",
     "imageMedium": "assets/responsive/clarity-act-crypto-legislation-explained-960.webp",
-    "imageSrcset": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp 480w, assets/responsive/clarity-act-crypto-legislation-explained-960.webp 960w, assets/editorial/clarity-act-crypto-legislation-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/clarity-act-crypto-legislation-explained-480.webp 480w, assets/responsive/clarity-act-crypto-legislation-explained-960.webp 960w, assets/editorial/clarity-act-crypto-legislation-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",
@@ -7414,7 +7429,7 @@ const TTN_ARTICLES = [
     "imageSrcset": "assets/responsive/tariffs-who-actually-pays-explained-480.webp 480w, assets/responsive/tariffs-who-actually-pays-explained-960.webp 960w, assets/editorial/tariffs-who-actually-pays-explained.webp 1920w"
   },
   {
-    "section": "Market Analysis",
+    "section": "Crypto",
     "id": "crypto-rally-three-catalysts-explained",
     "title": "Explaining a Crypto Rally Requires More Than a Headline",
     "dek": "Policy news, financing conditions and trading positions can coincide. Establishing their contribution requires a timeline and evidence.",
@@ -7466,7 +7481,8 @@ const TTN_ARTICLES = [
     "editorialNote": null,
     "imageSmall": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp",
     "imageMedium": "assets/responsive/crypto-rally-three-catalysts-explained-960.webp",
-    "imageSrcset": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp 480w, assets/responsive/crypto-rally-three-catalysts-explained-960.webp 960w, assets/editorial/crypto-rally-three-catalysts-explained.webp 1920w"
+    "imageSrcset": "assets/responsive/crypto-rally-three-catalysts-explained-480.webp 480w, assets/responsive/crypto-rally-three-catalysts-explained-960.webp 960w, assets/editorial/crypto-rally-three-catalysts-explained.webp 1920w",
+    "format": "explainer"
   },
   {
     "section": "Market Analysis",

@@ -4,6 +4,7 @@
  */
 const TTNChart = (() => {
   let currentSymbol = null;
+  let returnFocus = null;
 
   function ensurePanel() {
     let panel = document.getElementById("chart-panel");
@@ -12,6 +13,9 @@ const TTNChart = (() => {
     panel = document.createElement("div");
     panel.id = "chart-panel";
     panel.className = "chart-panel";
+    panel.hidden = true;
+    panel.setAttribute("role", "region");
+    panel.setAttribute("aria-label", "Market chart");
     panel.innerHTML = `
       <div class="chart-panel-inner">
         <div class="chart-panel-head">
@@ -30,6 +34,7 @@ const TTNChart = (() => {
   }
 
   function open(tvSymbol, label) {
+    if (!document.getElementById("chart-panel")?.contains(document.activeElement)) returnFocus = document.activeElement;
     const panel = ensurePanel();
     document.getElementById("chart-panel-title").textContent = `${label} · ${tvSymbol}`;
 
@@ -43,8 +48,10 @@ const TTNChart = (() => {
     // TradingView script (e.g. a page missing the script tag, or the
     // script failing to load) still leaves the panel visibly open
     // and scrolled to, instead of silently doing nothing.
+    panel.hidden = false;
     panel.classList.add("open");
     panel.scrollIntoView({ behavior: "smooth", block: "start" });
+    panel.querySelector("#chart-panel-close").focus({ preventScroll: true });
 
     // Fully replace the container node (not just clear its innerHTML) —
     // TradingView's widget script doesn't always reinitialize cleanly in a
@@ -100,8 +107,9 @@ const TTNChart = (() => {
 
   function close() {
     const panel = document.getElementById("chart-panel");
-    if (panel) panel.classList.remove("open");
+    if (panel) { panel.classList.remove("open"); panel.hidden = true; }
     currentSymbol = null;
+    if (returnFocus?.isConnected) returnFocus.focus({ preventScroll: true });
     document.querySelectorAll(".ticker-cell.active").forEach((c) => c.classList.remove("active"));
   }
 
@@ -119,6 +127,8 @@ const TTNChart = (() => {
       "FX:UKOIL": "Brent Oil CFD · FXCM",
       "BITSTAMP:BTCUSD": "Bitcoin",
       "BITSTAMP:ETHUSD": "Ethereum",
+      "COINBASE:SOLUSD": "Solana · Coinbase",
+      "BITSTAMP:XRPUSD": "XRP · Bitstamp",
       "FX:EURUSD": "EUR/USD",
     };
     open(symbol, labels[symbol] || symbol.split(":").pop());
@@ -134,6 +144,7 @@ const TTNChart = (() => {
   });
 
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && currentSymbol) { event.preventDefault(); close(); return; }
     if (event.key !== "Enter" && event.key !== " ") return;
     const tag = event.target.closest && event.target.closest(".article-ticker-tag");
     if (!tag) return;

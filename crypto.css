@@ -1,0 +1,24 @@
+/* Crypto shares the archive typography, cards and theme variables. */
+.crypto-intro{margin-bottom:28px}
+.crypto-intro>p{max-width:660px;color:var(--text-dim);font-size:17px;line-height:1.65}
+.crypto-jump-links,.crypto-chart-links{display:flex;flex-wrap:wrap;gap:12px 20px}
+.crypto-jump-links a{font-size:14px;font-weight:600;text-underline-offset:4px}
+.crypto-market{margin:0 0 38px;padding:20px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);min-width:0}
+.crypto-market h2{margin:0 0 16px}
+.crypto-market #ticker-strip{position:static;padding:0;display:block;border:0;background:transparent;overflow:hidden;min-height:62px}
+.crypto-market .ttn-ticker-label{display:none}
+.crypto-market .ttn-live-tape{min-width:0;width:100%}
+.crypto-market tv-ticker-tape{display:block;width:100%;min-height:62px}
+.crypto-market .crypto-price-note{font-size:12px;line-height:1.6;color:var(--text-dim);margin:12px 0 16px}
+.crypto-chart-links a{display:inline-flex;align-items:center;min-height:44px;padding:9px 13px;border:1px solid var(--border);border-radius:5px;color:var(--text);background:var(--surface);font-size:13px;text-decoration:none;cursor:pointer}
+.crypto-chart-links a:hover{border-color:var(--accent);color:var(--accent)}
+.crypto-jump-links a:focus-visible,.crypto-chart-links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.crypto-page>section>h2{scroll-margin-top:95px}
+.crypto-section-intro{color:var(--text-dim)}
+.crypto-page .chart-panel.open{max-height:490px}
+#crypto-archive:focus{outline:none}
+@media(max-width:560px){.crypto-intro>p{font-size:16px}.crypto-chart-links{gap:8px}.crypto-market{margin-bottom:28px}.crypto-market .chart-panel-inner{padding:10px 8px}}
+.crypto-intro h1{font-family:var(--font-body);font-size:clamp(2rem,3.4vw,2.8rem);line-height:1.15;letter-spacing:-.025em;color:var(--text);margin:12px 0 18px}
+.crypto-page>section>h2{font-family:var(--font-body);font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.3;letter-spacing:-.012em;margin:28px 0 16px;color:var(--text)}
+.crypto-jump-links{margin-top:18px}.crypto-jump-links a{min-height:44px;display:inline-flex;align-items:center;color:var(--accent)}
+.crypto-section-intro{margin-bottom:22px;font-size:15px;line-height:1.65}

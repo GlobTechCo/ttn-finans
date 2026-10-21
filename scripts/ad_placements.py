@@ -61,7 +61,7 @@ def refresh_ad_placements(root=None):
             text = text.replace(needle, placeholder('home-editorial-end')+needle, 1)
             text = text.replace('</main>', placeholder('home-content-end')+'</main>', 1)
             count += 2
-        elif page.name in {'analysis.html', 'tech-ai.html'}:
+        elif page.name in {'analysis.html', 'tech-ai.html', 'crypto.html'}:
             needle = '<!-- editorial-topics:start -->'
             assert needle in text
             text = text.replace(needle, placeholder('archive-content-end')+needle, 1)

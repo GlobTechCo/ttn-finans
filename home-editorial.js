@@ -135,49 +135,12 @@ const TTNArticlesUI = (() => {
   // of everything pointing at index.html).
 
   // Tech & AI has its own exclusive homepage/archive section.
-  const TECH_AI_IDS = new Set([
-    "ai-agents-website-breaches-norforge-october-2026",
-    "anthropic-public-benefit-fund-five-percent-shares-2026",
-    "meta-commercial-terms-crawling-publishers-clarification-2026",
-    "tiktok-musk-documentary-account-suspension-2026",
-
-    "china-solar-manufacturing-technology-export-controls-2026",
-    "replit-openai-preferred-partner-claude-choice-2026",
-    "ai-agents-websites-block-access-2026",
-    "tesla-slovakia-assisted-driving-approval-2026",
-    "tesla-fsd-class-certification-appeal-october-2026",
-    "china-ai-technology-export-controls-draft-2026",
-    "ai-agents-india-cert-in-security-warning-2026",
-    "iphone-duo-preorder-delays-january-2027",
-    "germany-nvidia-industrial-ai-agreement-2026",
-    "meta-muse-spark-open-coding-model-2026",
-    "google-news-ai-pilot-publisher-licensing-2026",
-    "tsmc-q3-2026-ai-chip-demand",
-    "ftc-openai-anthropic-safety-subpoenas-2026",
-    "cohere-aisle-cybersecurity-deal-2026",
-    "asml-q3-2026-ai-demand",
-    "apple-homeview-siri-ai-2026",
-    "scaleway-amd-sweden-ai-supercomputer",
-    "anthropic-ai-self-replication-iot-2026",
-    "broadcom-ai-networking-ocp-2026",
-    "ai-inference-unit-economics-2026",
-    "enterprise-ai-data-security-2026",
-    "ai-search-publisher-economics-2026",
-    "robotics-ai-factory-roi-2026",
-    "ai-data-center-electricity-demand-2026",
-    "ai-capex-nasdaq-correction",
-    "circular-ai-financing-explained",
-    "ai-monetization-gap-explained",
-    "ai-agents-enterprise-roi-2026",
-    "ai-chips-bottlenecks-2026",
-    "small-business-ai-adoption-2026",
-]);
   const HOMEPAGE_LIMIT = 4;
 
   async function render() {
     const el = document.getElementById("ttn-articles");
     if (!el) return;
-    const sorted = TTN_ARTICLES.filter(a => a.section !== "Tech & AI" && !TECH_AI_IDS.has(a.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sorted = TTN_ARTICLES.filter(a => a.section === "Market Analysis").sort((a, b) => new Date(b.date) - new Date(a.date));
     const shown = sorted.slice(0, HOMEPAGE_LIMIT);
     el.classList.add('editorial-archive-grid');
     el.innerHTML = shown.map(a => TTNArchive.card(a, 'Market Analysis', tickerChipsHtml(a), {home:true})).join('');
@@ -197,49 +160,34 @@ const TTNArticlesUI = (() => {
 
 document.addEventListener("DOMContentLoaded", () => TTNArticlesUI.render());
 ;
-/* Featured original technology analyses. No changes to TTNNews/news feed. */
-(()=>{function init(){const el=document.getElementById("tech-ai-home");if(!el||typeof TTN_ARTICLES==="undefined")return;
-const techIds=new Set([
-    "ai-agents-website-breaches-norforge-october-2026",
-"anthropic-public-benefit-fund-five-percent-shares-2026",
-    "meta-commercial-terms-crawling-publishers-clarification-2026",
-    "tiktok-musk-documentary-account-suspension-2026",
-
-    "china-solar-manufacturing-technology-export-controls-2026",
-    "replit-openai-preferred-partner-claude-choice-2026",
-    "ai-agents-websites-block-access-2026",
-    "tesla-slovakia-assisted-driving-approval-2026",
-    "tesla-fsd-class-certification-appeal-october-2026",
-    "china-ai-technology-export-controls-draft-2026",
-    "ai-agents-india-cert-in-security-warning-2026",
-    "iphone-duo-preorder-delays-january-2027",
-    "germany-nvidia-industrial-ai-agreement-2026",
-    "meta-muse-spark-open-coding-model-2026",
-    "google-news-ai-pilot-publisher-licensing-2026",
-    "tsmc-q3-2026-ai-chip-demand",
-    "ftc-openai-anthropic-safety-subpoenas-2026",
-    "cohere-aisle-cybersecurity-deal-2026",
-    "asml-q3-2026-ai-demand",
-    "apple-homeview-siri-ai-2026",
-    "scaleway-amd-sweden-ai-supercomputer",
-    "anthropic-ai-self-replication-iot-2026",
-    "broadcom-ai-networking-ocp-2026",
-    "ai-inference-unit-economics-2026",
-    "enterprise-ai-data-security-2026",
-    "ai-search-publisher-economics-2026",
-    "robotics-ai-factory-roi-2026",
-    "ai-data-center-electricity-demand-2026",
-    "ai-capex-nasdaq-correction",
-    "circular-ai-financing-explained",
-    "ai-monetization-gap-explained",
-    "ai-agents-enterprise-roi-2026",
-    "ai-chips-bottlenecks-2026",
-    "small-business-ai-adoption-2026",
-]);
-const all=TTN_ARTICLES.filter(a=>a.section === "Tech & AI" || techIds.has(a.id)).sort((a,b)=>new Date(b.date)-new Date(a.date));
-const selected=all.slice(0,4);
-el.classList.add('editorial-archive-grid');
-el.innerHTML=selected.map(a=>TTNArchive.card(a, 'Tech & AI', '', {home:true})).join("")||'<p class="tech-ai-intro">Technology reporting is coming to TTN.</p>';
-if(all.length)el.insertAdjacentHTML("afterend",'<p class="tech-ai-view-all"><a href="tech-ai.html" class="view-all-analysis">View all '+all.length+' Tech &amp; AI articles &rarr;</a></p>');
-}
-if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init()})();
+/* Featured original technology coverage. External news loads independently. */
+(() => {
+  function render() {
+    const element = document.getElementById('tech-ai-home');
+    if (!element || typeof TTN_ARTICLES === 'undefined') return;
+    const articles = TTN_ARTICLES.filter(a => a.section === 'Tech & AI').sort((a,b) => new Date(b.date)-new Date(a.date));
+    element.classList.add('editorial-archive-grid');
+    element.innerHTML = articles.slice(0,4).map(a => TTNArchive.card(a,'Tech & AI','',{home:true})).join('');
+    if (articles.length > 4) element.insertAdjacentHTML('afterend','<p class="tech-ai-view-all"><a href="tech-ai.html" class="view-all-analysis">View all '+articles.length+' Tech &amp; AI articles &rarr;</a></p>');
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',render); else render();
+})();
+;
+/* Crypto uses the shared cards; news and explainers remain distinct. */
+(() => {
+  function render() {
+    if (typeof TTN_ARTICLES === 'undefined') return;
+    const articles = TTN_ARTICLES.filter(a => a.section === 'Crypto').sort((a,b) => new Date(b.date)-new Date(a.date));
+    const home = document.getElementById('crypto-home');
+    if (home) {
+      home.classList.add('editorial-archive-grid');
+      home.innerHTML = articles.filter(a => a.format === 'news').slice(0,4).map(a => TTNArchive.card(a,'Crypto','',{home:true})).join('');
+      if (articles.length > 4) home.insertAdjacentHTML('afterend','<a href="crypto.html" class="view-all-analysis">View all '+articles.length+' Crypto articles &rarr;</a>');
+    }
+    const element = document.getElementById('crypto-archive');
+    if (element) TTNArchive.mount({element, articles:articles.filter(a=>a.format==='news'), label:'Crypto news', renderArticle:(a,index)=>TTNArchive.card(a,'Crypto','',{eager:index<2})});
+    const explainers = document.getElementById('crypto-explainers');
+    if (explainers) explainers.innerHTML = articles.filter(a=>a.format==='explainer').slice(0,4).map(a=>TTNArchive.card(a,'Crypto explainer')).join('');
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',render); else render();
+})();

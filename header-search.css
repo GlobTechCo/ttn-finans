@@ -25,3 +25,5 @@
  .topnav>.nav-toggle{padding:11px;width:44px}
 }
 @media(max-width:1200px) and (pointer:coarse){.topnav{grid-template-columns:auto minmax(0,1fr) 44px 44px}.topnav>.nav-toggle{min-height:44px}}
+/* Eight section links still leave room for search above the compact breakpoint. */
+@media(min-width:1201px) and (max-width:1399px){.topnav{grid-template-columns:auto minmax(0,1fr) minmax(160px,220px) 44px;gap:12px}.topnav>.nav-links{gap:12px}.topnav>.nav-links a{font-size:13px}}

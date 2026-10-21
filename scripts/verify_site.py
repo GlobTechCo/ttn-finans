@@ -28,6 +28,7 @@ def verify():
         assert len(menu) == 1, (name, 'menu relationship')
         navigation = doc.xpath('//header//nav[@id="nav-links"][@aria-label="Main navigation"]')
         assert len(navigation) == 1 and navigation[0].xpath('.//a[contains(@href,"contact.html")]'), (name, 'contact navigation')
+        assert len(navigation[0].xpath('.//a[contains(@href,"crypto.html")]')) == 1, (name, 'Crypto navigation')
         assert not any('nav-toggle' in (script.text or '') for script in doc.xpath('//script[not(@src)]')), (name, 'duplicate menu handler')
         all_ids = doc.xpath('//@id')
         assert len(all_ids) == len(set(all_ids)), (name, 'duplicate IDs')
@@ -60,6 +61,7 @@ def verify():
         doc=docs[a['id']+'.html']
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
+        assert schema['articleSection']==a['section'],(a['id'],'article section')
         assert schema['datePublished']==a['date']==cards_by_id[a['id']]['date'],(a['id'],'publication date')
         published=doc.xpath('//meta[@property="article:published_time"]/@content')
         if published:assert published==[a['date']],(a['id'],'publication metadata')
@@ -68,6 +70,8 @@ def verify():
         links=blocks[0].xpath('.//a/@href')
         assert len(links)==3 and len(set(links))==3,(a['id'],links)
         assert all(i.endswith('.html') and (ROOT/i).is_file() and i!=a['id']+'.html' for i in links)
+        assert a['section'] in {'Market Analysis','Tech & AI','Crypto'},a['id']
+        if a['section']=='Crypto':assert a.get('format') in {'news','explainer'},a['id']
         assert inbound[a['id']+'.html'],(a['id'],'orphan')
         assert 'articles.js' not in (ROOT/(a['id']+'.html')).read_text()
     # Card previews must resolve without JavaScript, query-string workarounds, or missing assets.
@@ -89,19 +93,21 @@ def verify():
             assert doc.xpath(f'//meta[@property="{prop}"]/@content')==[expected],(name,prop)
         assert doc.xpath('//meta[@property="og:url"]/@content')==[canonical],(name,'og:url')
     directory_links=set()
-    for name in ['analysis.html','tech-ai.html']:
+    for name in ['analysis.html','tech-ai.html','crypto.html']:
         directory=docs[name].xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-topics ")]')
         assert len(directory)==1
         directory_links.update(directory[0].xpath('.//a/@href'))
+        section={'analysis.html':'Market Analysis','tech-ai.html':'Tech & AI','crypto.html':'Crypto'}[name]
+        assert set(directory[0].xpath('.//a/@href')) == {a['id']+'.html' for a in articles if a['section']==section}, (name,'section exclusivity')
     assert directory_links=={i+'.html' for i in ids}
     card_version=hashlib.sha256((ROOT/'article-cards.js').read_bytes()).hexdigest()[:12]
-    for name in ['index.html','analysis.html','tech-ai.html']:
+    for name in ['index.html','analysis.html','tech-ai.html','crypto.html']:
         assert docs[name].xpath('//script[starts-with(@src,"article-cards.js")]/@src')==['article-cards.js?v='+card_version],(name,'stale card catalog')
         bundle='home-editorial.js' if name=='index.html' else 'archive-editorial.js'
         version=hashlib.sha256((ROOT/bundle).read_bytes()).hexdigest()[:12]
         sources=docs[name].xpath('//script/@src')
         assert sources.count(bundle+'?v='+version)==1,(name,'stale editorial bundle')
-        assert not any(s.split('?')[0] in {'editorial-meta.js','archive-pagination.js','articles-ui.js','tech-ai-home.js','articles-archive.js','tech-ai.js'} for s in sources),(name,'duplicate editorial component')
+        assert not any(s.split('?')[0] in {'editorial-meta.js','archive-pagination.js','articles-ui.js','tech-ai-home.js','articles-archive.js','tech-ai.js','crypto.js'} for s in sources),(name,'duplicate editorial component')
     assert docs['index.html'].xpath('//noscript')
     assert 'This page could not be found' in docs['404.html'].text_content()
     assert not docs['404.html'].xpath('//base')

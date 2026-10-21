@@ -1924,6 +1924,17 @@
       "bytes": 185396,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/yield-curve-inversion-recession-signal.html"
+    },
+    {
+      "page": "crypto.html",
+      "source": "assets/editorial/bitcoin-etf-institutional-adoption-editorial.webp",
+      "image": "assets/social/bitcoin-etf-institutional-adoption-editorial-bf317615acac.webp",
+      "sha256": "bf317615acace7a2dd7dfbd03ceb3d2dd0d4fb5c8c538d951a5f4d142d636bf0",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 278912,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/crypto.html"
     }
   ]
 }
