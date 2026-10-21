@@ -1299,6 +1299,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/nvidia-china-workstation-gpu-orders-october-20-2026.html"
     },
     {
+      "page": "nvidia-dsx-europe-power-cooling-october-2026.html",
+      "source": "assets/editorial/nvidia-dsx-europe-power-cooling-october-2026-cover-v1.webp",
+      "image": "assets/social/nvidia-dsx-europe-power-cooling-october-2026-cover-v1-65ae4ce23162.webp",
+      "sha256": "65ae4ce231626516b195585ed83ff4374c4242d16c870fb9057bab32e2273ad3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 332204,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/nvidia-dsx-europe-power-cooling-october-2026.html"
+    },
+    {
       "page": "ny-fed-services-prices-october-2026.html",
       "source": "assets/editorial/ny-fed-services-prices-october-2026.webp",
       "image": "assets/social/ny-fed-services-prices-october-2026-486f875de674.webp",
@@ -1431,6 +1442,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/put-call-ratio-options-sentiment-explained.html"
     },
     {
+      "page": "randstad-q3-2026-staffing-recovery.html",
+      "source": "assets/editorial/randstad-q3-2026-staffing-recovery-cover-v1.webp",
+      "image": "assets/social/randstad-q3-2026-staffing-recovery-cover-v1-102f5f74252e.webp",
+      "sha256": "102f5f74252e5f985d5973d51c2885b88632602422debee06e5259539f345a4b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 278966,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/randstad-q3-2026-staffing-recovery.html"
+    },
+    {
       "page": "reliable-robotics-financing-autonomous-flight-october-20-2026.html",
       "source": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2.png",
       "image": "assets/social/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2-7072bb0f22db.png",
@@ -1550,6 +1572,17 @@
       "bytes": 521938,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/sector-rotation-explained.html"
+    },
+    {
+      "page": "shinhan-sbi-yen-stablecoin-payments-october-2026.html",
+      "source": "assets/editorial/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1.webp",
+      "image": "assets/social/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1-49ae3c6b1f4f.webp",
+      "sha256": "49ae3c6b1f4f649a0e094d7c1af14e3b246f640195d993f9d17cf044ea457ba0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 211828,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/shinhan-sbi-yen-stablecoin-payments-october-2026.html"
     },
     {
       "page": "short-squeeze-mechanics-explained.html",

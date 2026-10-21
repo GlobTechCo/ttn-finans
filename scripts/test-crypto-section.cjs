@@ -79,7 +79,7 @@ async function noOverflow(page,label) {
   await noOverflow(p,'no-JavaScript mobile');await nojs.close();
   // Block widgets: article reading and external chart fallbacks remain available.
   const blocked=await browser.newContext();await blocked.route(/tradingview/,route=>route.abort());const b=await blocked.newPage();await b.goto(base+'crypto.html');
-  assert.equal(await b.locator('#crypto-archive .editorial-archive-card').count(),6);
+  assert.equal(await b.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>a.format==='news').length));
   await b.locator('.crypto-chart-links a').first().click();
   await b.getByText('TradingView could not be loaded.',{exact:false}).waitFor();
   assert(await b.locator('#crypto-archive').isVisible());await blocked.close();

@@ -76,3 +76,11 @@ RELATED['inspired-capital-fourth-fund-450-million-october-20-2026'] = ['private-
 
 # October 21 commissioned news package.
 RELATED.update({'ecb-energy-resilience-october-21-2026': ['central-bank-policy-divergence-explained', 'oil-shock-market-ripple', 'ai-investment-central-banks-interest-rates-2026'], 'uk-inflation-debt-september-2026': ['cpi-inflation-explained', 'second-round-inflation-effects-explained', 'debt-spiral-r-versus-g-explained'], 'micron-taichung-union-agreement-october-2026': ['ai-chips-bottlenecks-2026', 'tsmc-q3-2026-ai-chip-demand', 'asml-q3-2026-ai-demand']})
+
+# October 21 balanced news package.
+GROUPS['Jobs and housing'].insert(0, 'randstad-q3-2026-staffing-recovery')
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'nvidia-dsx-europe-power-cooling-october-2026')
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'shinhan-sbi-yen-stablecoin-payments-october-2026')
+RELATED['randstad-q3-2026-staffing-recovery'] = ['nonfarm-payrolls-jobs-report-explained', 'earnings-beat-miss-explained', 'germany-industrial-jobs-loss-ifo-october-2026']
+RELATED['nvidia-dsx-europe-power-cooling-october-2026'] = ['ai-inference-unit-economics-2026', 'ai-data-center-electricity-demand-2026', 'microsoft-nscale-loughton-lease-exit-power-2026']
+RELATED['shinhan-sbi-yen-stablecoin-payments-october-2026'] = ['stablecoins-explained-depeg-risk', 'circle-usdc-revenue-sharing-stablecoin-competition-2026', 'defi-basics-explained']

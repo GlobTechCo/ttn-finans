@@ -1,6 +1,152 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "randstad-q3-2026-staffing-recovery",
+    "section": "Market Analysis",
+    "title": "Staffing Firm Randstad Reports Faster Growth as US Industrial Hiring Strengthens",
+    "dek": "Third-quarter results show stronger demand in North America and Germany, while weaker professional recruitment keeps the recovery uneven.",
+    "tickers": [
+      "RAND"
+    ],
+    "imageAlt": "Generated illustration of warehouse workers scanning and packing cartons in an unnamed distribution center.",
+    "sources": [
+      {
+        "label": "Randstad: Q3 2026 results and financial statements, October 21",
+        "url": "https://www.randstad.com/s3fs-media/rscom/public/2026-10/Q3_2026_Press_Release.pdf?VersionId=sogRuO.G4f8yisHicOEh4aspUw_imURA"
+      },
+      {
+        "label": "Randstad: Q3 2026 investor presentation",
+        "url": "https://www.randstad.com/s3fs-media/rscom/public/2026-10/Q3_2026_Presentation_1.pdf?VersionId=8DDfdiZf0z4FNtGZtw7k_NcRFp0eu0Mj"
+      },
+      {
+        "label": "Reuters, October 21: earnings expectations and intraday share reaction",
+        "url": "https://www.reuters.com/business/randstad-tops-revenue-expectations-as-key-labour-markets-improve-2026-10-21/"
+      }
+    ],
+    "body": [
+      "<p>Randstad, the Dutch recruitment and temporary-staffing group, reported faster third-quarter revenue growth Wednesday as demand for industrial workers strengthened in the United States and its German business continued recovering. The results offer a company-level sign of improving hiring appetite, although demand for technology and professional roles remains weaker.</p>",
+      "<p>Organic revenue per working day increased 3.9% from a year earlier, accelerating from 1.9% in the second quarter. Revenue totaled €6.115 billion, while underlying earnings before interest, taxes and amortization reached €211 million. Both the growth rate and underlying earnings exceeded analyst expectations reported by Reuters.</p>",
+      "<h2>Industrial staffing leads the improvement</h2>",
+      "<p>North American organic revenue rose 9%, including 10% growth across Randstad’s combined U.S. businesses. Within the United States, operational staffing, which includes industrial and other blue-collar assignments, grew 19%. Professional staffing increased 3%, while digital staffing was flat. Those differences matter more for assessing the labor market than the regional average alone.</p>",
+      "<p>A manufacturer adding shifts can create demand for temporary workers before it commits to permanent recruitment. Conversely, a business uncertain about future orders can reduce outside staffing without immediately changing its permanent workforce. That makes staffing orders useful evidence about employer behavior, while leaving them sensitive to individual client contracts and the recruiter’s market share.</p>",
+      "<p>Randstad’s results cannot establish that employment is improving across the entire U.S. economy. They measure revenue at one supplier, with its own mix of industries and customers. A broader assessment still requires payrolls, unemployment and participation data. Our guide to <a href=\"nonfarm-payrolls-jobs-report-explained.html\">reading the U.S. jobs report</a> explains why those measures can send different signals.</p>",
+      "<h2>European demand remains mixed</h2>",
+      "<p>Germany’s organic revenue grew 5%, and the Netherlands returned to growth with a 3% increase. France declined 3%, while Belgium and Luxembourg fell 5%. The geographical split argues against treating the quarter as evidence of a synchronized European hiring boom. Improvements in several markets coexist with continued retrenchment elsewhere.</p>",
+      "<p>The specialization figures reinforce that caution. Across the group, operational staffing grew 6%, but professional revenue slipped 1% and digital revenue fell 2%. Permanent-placement fees declined 4%. An employer’s willingness to purchase additional temporary labor therefore should not be confused with a broad recovery in permanent hiring or white-collar recruitment.</p>",
+      "<p>For investors, the distinction affects the quality of growth. Different staffing services generate different fee structures and margins. Faster sales in one category can offset weaker activity elsewhere without returning the overall business to its earlier profitability. Comparing the revenue mix with the margin trend is more informative than assuming that every additional euro of sales earns the same return.</p>",
+      "<h2>Profit improves despite pressure on gross margin</h2>",
+      "<p>Randstad’s underlying EBITA margin rose to 3.5% from 3.3% a year earlier, even as its underlying gross margin fell to 17.8% from 18.4%. Underlying operating expenses were €878 million, unchanged in reported terms. Keeping those expenses stable allowed a greater share of the additional gross profit to reach operating earnings.</p>",
+      "<p>The measures require care. Underlying EBITA removes specified integration costs and one-off items and is different from both operating profit and net income. The financial statements report operating profit of €177 million and net income of €110 million. Readers comparing the business with another recruiter should check that both companies’ profit measures make comparable adjustments.</p>",
+      "<p>Reuters reported that the shares were up about 20% in Amsterdam at 09:15 GMT, an intraday observation rather than a closing return. Such a reaction reflects how results compare with expectations as well as the absolute strength of the business. A sharp rally alone does not establish that future earnings growth is assured.</p>",
+      "<p>Management said activity trends improved into October. The next test is whether stronger assignments translate into sustained gross profit and cash generation as the quarter progresses. Continued recovery in industrial staffing would support that case; persistent weakness in professional recruitment would limit how broadly investors can read the improvement.</p>"
+    ],
+    "image": "assets/editorial/randstad-q3-2026-staffing-recovery-cover-v1.webp",
+    "imageSmall": "assets/responsive/randstad-q3-2026-staffing-recovery-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/randstad-q3-2026-staffing-recovery-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/randstad-q3-2026-staffing-recovery-cover-v1-480.webp 480w, assets/responsive/randstad-q3-2026-staffing-recovery-cover-v1-960.webp 960w, assets/editorial/randstad-q3-2026-staffing-recovery-cover-v1.webp 1672w",
+    "date": "2026-10-21T13:48:13Z",
+    "dateModified": "2026-10-21T13:48:13Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "nvidia-dsx-europe-power-cooling-october-2026",
+    "section": "Tech & AI",
+    "title": "Nvidia Targets AI Data Center Power and Water Constraints With European Partners",
+    "dek": "New DSX announcements focus on dry cooling and flexible power use, but test results do not establish savings across an entire data center fleet.",
+    "tickers": [
+      "NVDA"
+    ],
+    "imageAlt": "Generated illustration of outdoor dry-cooling equipment and coolant pipes at an anonymous data center; not a photograph of a named Nvidia facility.",
+    "sources": [
+      {
+        "label": "Nvidia, October 21: European DSX partnerships, cooling designs and test results",
+        "url": "https://nvidianews.nvidia.com/news/european-ecosystem-builds-worlds-most-efficient-ai-factories-with-nvidia-dsx"
+      },
+      {
+        "label": "Nvidia: DSX platform functions and software architecture",
+        "url": "https://www.nvidia.com/en-us/data-center/products/dsx/"
+      },
+      {
+        "label": "Nvidia: Lambda case study, test configuration and workload details; background",
+        "url": "https://www.nvidia.com/en-us/case-studies/lambda/"
+      }
+    ],
+    "body": [
+      "<p>Nvidia announced an expanded European push for its DSX data center platform Wednesday, bringing power, cooling and infrastructure partners into an effort to make artificial-intelligence computing less constrained by electricity connections and water consumption. The announcements at GTC Berlin put operating efficiency alongside chip supply as a practical limit on AI expansion.</p>",
+      "<p>The company says its designs can bring facility cooling-water use close to zero and generate the same AI output with up to 30% less power. Those are conditional company claims, not independently established savings for every installation. Local weather, equipment, workloads and the baseline used for comparison remain central to interpreting the numbers.</p>",
+      "<h2>Moving heat without evaporating water</h2>",
+      "<p>Conventional cooling towers reject heat by evaporating water, which must then be replaced. Nvidia’s proposed approach connects liquid-cooled computing equipment to a closed coolant circuit and outdoor dry coolers. The latter transfer heat to the air through radiator-like surfaces rather than consuming water through evaporation.</p>",
+      "<p>The distinction is narrower than saying an AI business uses no water. The claim concerns facility cooling, rather than every water requirement associated with electricity generation, chip manufacturing or the wider supply chain. Nvidia also says local climate determines whether extra mechanical cooling is needed during the hottest periods. A design suitable for one location cannot simply be assigned the same operating economics somewhere else.</p>",
+      "<p>For an operator deciding where to build, that changes the comparison between sites. Water availability, summer temperatures and the cost of moving heat become investment inputs alongside land and power. Avoiding evaporative cooling may address one local constraint while leaving electricity delivery and equipment procurement unresolved.</p>",
+      "<h2>More computing within a fixed power budget</h2>",
+      "<p>Nvidia describes DSX as a coordinated architecture covering computing, networking, storage, software, power and cooling. Its MaxLPS software allocates power dynamically across equipment and workloads. The commercial idea is to use an existing electrical allowance more productively, rather than assume that every increase in computing capacity requires an equivalent increase in the site’s power connection.</p>",
+      "<p>A previously published Lambda case study illustrates the difference between efficiency and outright electricity reduction. In a five-rack test, the cloud provider ran 19 computing nodes within the power budget of a 16-node baseline. Nvidia reports 24% higher token throughput and 23% better performance per watt. Those results describe a specified configuration and workload, not a measured 24% fall in Lambda’s electricity bill.</p>",
+      "<p>Tokens are the units of text or other information processed by a language model. More tokens per second can mean more output from an installation, but the financial benefit depends on whether customers buy that extra capacity. Our analysis of <a href=\"ai-inference-unit-economics-2026.html\">AI inference economics</a> explains why utilization and the cost of serving each request matter alongside maximum technical throughput.</p>",
+      "<h2>Power flexibility has a different purpose</h2>",
+      "<p>Another component, DSX Flex, coordinates computing demand with grid conditions and available energy resources. Nvidia reports that an early trial involving Emerald AI, EPRI, Nebius and the U.K.’s National Grid reduced a cluster’s power draw by up to 40% during simulated grid events while critical workloads continued. That is a response during a test event, not a claim of permanently cutting all consumption by 40%.</p>",
+      "<p>The distinction matters for utilities and investors. A customer able to temporarily change its power draw presents a different operating proposition from one requiring the same supply at every moment. Whether that flexibility actually accelerates a connection depends on the utility’s requirements and the site’s agreement. Software capability alone does not create a guaranteed grid allocation.</p>",
+      "<p>Nor does better efficiency establish that total AI electricity demand will decline. An operator may use the additional headroom to install more equipment or serve more customers. The relevant financial question is whether the extra useful output justifies hardware, facilities and financing costs, after accounting for the limits of the local power system.</p>",
+      "<p>Wednesday’s announcement advances Nvidia’s ambition to influence the whole computing facility rather than only its processors. Investors still need evidence from commercial deployments: actual uptime, workload performance, cooling requirements and revenue earned from available capacity. Reference designs and pilot results help frame those questions, while leaving the eventual return on each project to be demonstrated.</p>"
+    ],
+    "image": "assets/editorial/nvidia-dsx-europe-power-cooling-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/nvidia-dsx-europe-power-cooling-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/nvidia-dsx-europe-power-cooling-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/nvidia-dsx-europe-power-cooling-october-2026-cover-v1-480.webp 480w, assets/responsive/nvidia-dsx-europe-power-cooling-october-2026-cover-v1-960.webp 960w, assets/editorial/nvidia-dsx-europe-power-cooling-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T13:48:13Z",
+    "dateModified": "2026-10-21T13:48:13Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "shinhan-sbi-yen-stablecoin-payments-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "SBI and Shinhan Card Plan Yen Stablecoin Payment Tests Between Japan and Korea",
+    "dek": "The partners will examine retail payments and trade settlement under a preliminary agreement, without announcing a commercial launch date.",
+    "tickers": [],
+    "imageAlt": "Generated illustration of a traveler holding a phone near a contactless terminal in an unbranded shop; not a photograph of an operational SBI-Shinhan payment service.",
+    "sources": [
+      {
+        "label": "SBI VC Trade, October 21: agreement with Shinhan Card and SBI XDC Network APAC; Japanese-language primary announcement",
+        "url": "https://www.sbivc.co.jp/newsview/f2l24jc4omr"
+      },
+      {
+        "label": "Financial News, October 21: signing on October 20 and payment proof of concept",
+        "url": "https://en.fnnews.com/news/202610211431492932"
+      },
+      {
+        "label": "BIS: stablecoin redemption, monetary integrity and payment-system risks; background",
+        "url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system"
+      }
+    ],
+    "body": [
+      "<p>Japan’s SBI VC Trade and SBI XDC Network APAC have reached a preliminary agreement with South Korea’s Shinhan Card to examine blockchain-based payments, including the use of yen-denominated stablecoins in physical shops and cross-border settlement. SBI disclosed the agreement Wednesday, presenting it as a framework for testing commercial possibilities rather than an available payment service.</p>",
+      "<p>The proposal brings together a digital-asset trading business, a blockchain infrastructure venture and an established card company. Its significance lies in the attempt to connect tokens with existing merchant payment systems. Demonstrating that a token can move between wallets is a different task from making it useful to a traveler buying something at a checkout.</p>",
+      "<h2>A preliminary agreement with several possible uses</h2>",
+      "<p>SBI says the companies will explore ways to link digital assets with traditional financial and payment infrastructure. The work includes assessing the user experience, transaction process and technical and operational arrangements for yen-denominated stablecoins at physical merchants. The partners also intend to examine international settlement, including payments for cross-border trade.</p>",
+      "<p>Korean reporting places the signing in Tokyo on October 20; the announcement followed on October 21. SBI’s release says concrete initiatives will be disclosed later. It does not announce a commercial launch date, merchant coverage, customer fees or a completed rollout. Those omissions leave the scale and economics of any future service unresolved.</p>",
+      "<p>The agreement also includes cooperation around XDC Network infrastructure. That does not mean every possible payment route has been finalized, or that the announcement establishes new demand for a particular tradable token. A partnership concerning a blockchain and a commercial commitment to purchase its native asset are separate propositions.</p>",
+      "<h2>The checkout still needs a complete settlement process</h2>",
+      "<p>A yen stablecoin aims to maintain a value linked to Japan’s currency. A Korean merchant, however, may want proceeds in won. As an analytical matter, connecting those two preferences requires decisions about conversion, liquidity and who bears exchange-rate movements. Calling a payment blockchain-based does not itself answer those questions.</p>",
+      "<p>The customer’s experience depends on more than the transfer speed recorded on a ledger. Funding a wallet, passing identity checks, paying conversion charges and resolving a failed purchase can all influence whether the service is practical. The announcement does not provide enough detail to compare its full cost with a conventional card purchase or international bank payment.</p>",
+      "<p>Trade settlement raises another set of operating questions. A payment can arrive quickly while the goods, invoice or compliance review remains unresolved. A useful trial would therefore need to show how the token transfer fits the broader transaction, including recordkeeping and responsibility when one stage fails. These are evaluation criteria, not features the partners have already demonstrated.</p>",
+      "<h2>Redemption and controls matter as much as the peg</h2>",
+      "<p>The Bank for International Settlements has argued that stablecoins must be evaluated against monetary and payment-system requirements, including acceptance at face value and protection against financial crime. Its analysis also distinguishes moving a token from maintaining confidence in the institution and assets behind the token’s promised value.</p>",
+      "<p>For a traveler, the practical question is whether the balance can be converted back into usable money on predictable terms. A nominal yen reference does not settle eligibility, redemption timing or the treatment of a service interruption. Our guide to <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin backing and redemption risk</a> examines why the promise of a stable value depends on the arrangement supporting it.</p>",
+      "<p>For merchants, refunds and reconciliation are equally relevant. A shop needs to match what a customer paid with what it received, handle returns and maintain accounting records. A token-based service can retain familiar card interfaces while changing how funds move behind them, but the operating responsibilities must still be assigned.</p>",
+      "<p>The next meaningful milestones will be a defined proof of concept, named settlement arrangements and evidence that ordinary users and merchants can complete transactions reliably. Until those details emerge, the agreement is evidence of institutional interest in stablecoin payments across the Japan-Korea corridor, rather than proof that a cheaper or commercially available alternative has arrived.</p>"
+    ],
+    "image": "assets/editorial/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1-480.webp 480w, assets/responsive/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1-960.webp 960w, assets/editorial/shinhan-sbi-yen-stablecoin-payments-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T13:48:13Z",
+    "dateModified": "2026-10-21T13:48:13Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "ecb-energy-resilience-october-21-2026",
     "section": "Market Analysis",
     "title": "ECB Sees Cleaner Energy and AI Demand Cushioning Europe’s Energy Shock",
@@ -3963,7 +4109,7 @@ const TTN_ARTICLES = [
     ],
     "body": [
       "A data center can have customers, financing and server orders while still lacking a firm date for usable electricity. The connection between digital demand and physical supply has become central to AI investment. Capacity in a presentation is not the same as an operating facility with power available under a workable tariff.",
-      "The IEA's 2026 report, Key Questions on Energy and AI, projects global data-center electricity consumption rising from 485 terawatt-hours in 2025 to about 950 TWh in 2030. This is a projection for all data centers, not a measurement of electricity used solely by AI, and its delivery depends on constraints across the supply chain.",
+      "The IEA's 2026 report, Key Questions on Energy and AI, projects global data-center electricity consumption rising from 485 terawatt-hours in 2025 to about 950 TWh in 2030. This is a projection for all data centers, not a measurement of electricity used solely by AI, and its delivery depends on constraints across the supply chain. <a href=\"nvidia-dsx-europe-power-cooling-october-2026.html\">Nvidia’s European power and cooling announcement</a> illustrates the separate roles of efficiency and grid-responsive computing.",
       "Distinguish power capacity from energy consumption",
       "Megawatts describe power at a point in time. Megawatt-hours describe energy used over a period. A 100 MW connection does not mean a facility consumes 100 MWh in a year, and a planned connection does not prove that its full capacity is continuously occupied by operating servers.",
       "For a hypothetical facility drawing 100 MW around the clock for 365 days, annual consumption is 876,000 MWh, or 0.876 TWh. At a 60 MW average draw, annual consumption is 525,600 MWh. The same nominal connection can support different annual consumption depending on how the facility is filled and operated.",
@@ -4355,7 +4501,7 @@ const TTN_ARTICLES = [
     ],
     "body": [
       "A stablecoin aims to maintain a reference value, often one US dollar. The target does not make the token equivalent to a dollar in a bank account. Its ability to trade near that value depends on its backing, redemption arrangements, market liquidity and the systems through which holders can move between tokens and money.",
-      "The distinction becomes visible during a depeg, when the market price moves away from the target. A small deviation can reflect transaction costs or temporary trading conditions. A persistent discount can indicate deeper doubts about reserves or access to redemption. Price alone does not identify the cause.",
+      "The distinction becomes visible during a depeg, when the market price moves away from the target. A small deviation can reflect transaction costs or temporary trading conditions. A persistent discount can indicate deeper doubts about reserves or access to redemption. Price alone does not identify the cause. <a href=\"shinhan-sbi-yen-stablecoin-payments-october-2026.html\">SBI and Shinhan Card’s yen-payment tests</a> put these redemption and settlement questions into a proposed retail-payment setting.",
       "Different backing models create different exposures",
       "A reserve-backed token may rely on cash and financial assets held by an issuer. Other designs use crypto collateral, often with additional collateral above the amount issued. Algorithmic arrangements may depend heavily on incentives involving another token. These mechanisms should not be grouped together as though the word stablecoin described one balance sheet.",
       "Circle's disclosures provide an issuer-specific example of reserve reporting for USDC. They do not establish the backing of unrelated tokens. The Federal Reserve's analysis of stablecoin fragility emphasizes that demand for prompt redemption can create stress even when an instrument is designed to maintain a fixed value.",
@@ -5233,7 +5379,7 @@ const TTN_ARTICLES = [
     ],
     "body": [
       "<p>The monthly U.S. employment report combines evidence from two surveys. The establishment survey measures payroll jobs, hours and earnings. The household survey measures people and their labor-force status, including unemployment. The headline payroll change is important, but it is not a complete measure of how many people found work or how household income changed.</p>",
-      "<p>BLS explains that the payroll reference period is the pay period including the 12th of the month. A person holding jobs at two establishments can appear twice in the job count. The household survey uses different concepts and coverage. Understanding those differences prevents a common mistake: treating payroll growth and the change in employed people as interchangeable figures that must always match.</p>",
+      "<p>BLS explains that the payroll reference period is the pay period including the 12th of the month. A person holding jobs at two establishments can appear twice in the job count. The household survey uses different concepts and coverage. Understanding those differences prevents a common mistake: treating payroll growth and the change in employed people as interchangeable figures that must always match. <a href=\"randstad-q3-2026-staffing-recovery.html\">Randstad’s October staffing results</a> show how one recruiter’s client mix can differ from the national labor market.</p>",
       "<h2>A net gain does not count every hire</h2>",
       "<p>Imagine a hypothetical economy in which employers add 300,000 payroll jobs while other positions disappear by 200,000 over the relevant comparison. The net increase is 100,000. The headline does not say only 100,000 people were hired. It summarizes the difference between increases and decreases, while actual movements between employers and labor-force statuses can be much larger.</p>",
       "<p>A worker moving from one employer to another also does not automatically create an additional net job. The effect depends on what happens to the old position and whether the new employer expands its payroll. A useful report distinguishes the net employment change from gross hiring, layoffs and worker turnover. Those related questions require additional data rather than being inferred from the headline alone.</p>",

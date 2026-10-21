@@ -1,4 +1,7 @@
 TITLES = '''
+randstad-q3-2026-staffing-recovery|Randstad Growth Accelerates on US Industrial Hiring
+nvidia-dsx-europe-power-cooling-october-2026|Nvidia Targets AI Data Center Power and Cooling
+shinhan-sbi-yen-stablecoin-payments-october-2026|SBI and Shinhan Plan Yen Stablecoin Payment Tests
 ecb-energy-resilience-october-21-2026|ECB Sees Cleaner Energy Cushioning Europe’s Shock
 uk-inflation-debt-september-2026|UK Inflation Hits 3.5%; Debt Passes £3 Trillion
 micron-taichung-union-agreement-october-2026|Micron Reaches Taichung Labor Agreement
