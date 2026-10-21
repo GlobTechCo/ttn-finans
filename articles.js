@@ -4,9 +4,7 @@ const TTN_ARTICLES = [
     "section": "Market Analysis",
     "title": "US Treasury Sells $13 Billion of 20-Year Bonds at a 5.469% Yield",
     "dek": "The reopening keeps a 5.125% coupon but sells below face value, illustrating how long-term borrowing costs differ from the Fed’s policy rate.",
-    "tickers": [
-      "US20Y"
-    ],
+    "tickers": [],
     "imageAlt": "Generated 3D editorial illustration of stylized Treasury bond certificates and a percentage symbol; not an official security certificate or auction photograph.",
     "sources": [
       {
@@ -38,7 +36,7 @@ const TTN_ARTICLES = [
       "<p>For existing bondholders, the immediate risk runs through price sensitivity. When the yield buyers demand rises, the price of a fixed stream of payments generally falls. Longer-dated securities can move substantially because more of their cash flows lie in the future. Our guide to <a href=\"bond-duration-explained.html\">bond duration and interest-rate sensitivity</a> explains why a modest yield move can have a larger effect on a long bond’s market value.</p>",
       "<h2>The financing signal after the sale</h2>",
       "<p>Wednesday’s result fixes the terms of this auction, not the government’s cost of borrowing across its entire debt portfolio. Bills, notes and other bonds have different maturities and financing schedules. Nor does the sale mechanically reset mortgage rates or corporate borrowing costs, although Treasury yields help form the reference rates against which other financing is priced.</p>",
-      "<p>The next evidence will come from secondary-market trading and subsequent debt sales. The US20Y chart below tracks a market yield series, not a continuing auction or an offer to buy this particular bond. Comparing those later yields with the auction result can help assess how readily the newly issued supply is absorbed after settlement.</p>"
+      "<p>The next evidence will come from secondary-market trading and subsequent debt sales. The separate <a href=\"https://www.tradingview.com/symbols/TVC-US20Y/\" target=\"_blank\" rel=\"noopener noreferrer\">TradingView page for the 20-year Treasury yield</a> tracks a market yield series, not a continuing auction or an offer to buy this particular bond. Comparing those later yields with the auction result can help assess how readily the newly issued supply is absorbed after settlement.</p>"
     ],
     "image": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp",
     "imageSmall": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-480.webp",

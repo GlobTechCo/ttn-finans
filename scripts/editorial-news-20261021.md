@@ -115,3 +115,5 @@ Image provenance:
   }
 ]
 ```
+
+Live correction: TVC:US20Y exists on TradingView but its embedded chart explicitly reports availability only on TradingView. Removed the unsupported widget and new mapping; linked the real external yield chart contextually in the Treasury article instead. No existing supported instrument controls removed.
