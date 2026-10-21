@@ -77,3 +77,41 @@ Internal source timing and image provenance:
 
 
 Approved Blacksmith cover correction: owner approved the displayed 3D validation-module preview. Source `exec-9e92e75a-0832-4b11-8c49-3b1a3d959d58.png`; installed `assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v3.webp`; SHA-256 `22c45fb080f27cbeb10bfc9010b0b868f2bab290321a9ae0cdd6074ff396a2f2`. Abstract concept, not a real product. Original publication and content-modification dates preserved.
+
+
+## Late package: Treasury auction, Anthropic trustee, Grayscale subscriptions
+
+Treasury official record: CUSIP 912810UX4, competitive close 2026-10-21 13:00 EDT, update 13:03:15 EDT; $13bn, high yield 5.469%, coupon 5.125%, bid-to-cover 2.73, price 95.853363 per $100 before accrued interest; settlement October 23, maturity August 15, 2046. Retrieved and read TreasuryDirect data service; XML filename advertised by API returned 404 so linked official data service and results landing page instead. No highest-since-1986 claim or independently unverified auction-tail claim.
+
+Anthropic primary announcement dated October 21; first verified time-stamped coverage Fortune 12:30 EDT, Reuters 13:49:21 EDT. Read full company announcement and governance explanation. Appointment is to LTBT, not corporate board.
+
+Grayscale primary release October 21, 09:00 EDT; full release and risk disclosures read. Reported by The Block 11:12 EDT. No narrow freshness window was requested for this package. These are distinct significant developments today; not syndication treated as a new event. Read SEC July 29, 2025 in-kind approval as background.
+
+TVC:US20Y verified on TradingView official symbol page. Yield-series widget is distinct from auction yield and security purchase quote.
+
+Image provenance:
+```json
+[
+  {
+    "id": "us-treasury-20-year-auction-october-21-2026",
+    "generatedSource": "exec-bc24195d-1e1e-43c2-a526-be9f0b8b398f.png",
+    "cover": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp",
+    "sha256": "7ec3bc3585244bf5c6c81f0c20a2d45447dc9e0cbcf5f2352b4507429483b67e",
+    "review": "Inspected native size; neutral noncinematic 3D conceptual illustration, not a photograph or an authentic product/security."
+  },
+  {
+    "id": "anthropic-christopher-stubbs-benefit-trust-october-2026",
+    "generatedSource": "exec-cca214bc-3208-4fd3-8375-ed1457cf068b.png",
+    "cover": "assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1.webp",
+    "sha256": "abe61820fccace0e498f17d540a2bb8a609c0c906f61851f967f759a1fca9a1f",
+    "review": "Inspected native size; neutral noncinematic 3D conceptual illustration, not a photograph or an authentic product/security."
+  },
+  {
+    "id": "grayscale-in-kind-crypto-subscriptions-october-2026",
+    "generatedSource": "exec-455c38c9-4ff7-4fab-8b7b-f7cf37a25a41.png",
+    "cover": "assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1.webp",
+    "sha256": "0fdd2e859c2c8502320de8d6fc6c686852beefecdba52960c960dcac21aa0abf",
+    "review": "Inspected native size; neutral noncinematic 3D conceptual illustration, not a photograph or an authentic product/security."
+  }
+]
+```

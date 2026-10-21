@@ -1,5 +1,153 @@
 const TTN_ARTICLES = [
   {
+    "id": "us-treasury-20-year-auction-october-21-2026",
+    "section": "Market Analysis",
+    "title": "US Treasury Sells $13 Billion of 20-Year Bonds at a 5.469% Yield",
+    "dek": "The reopening keeps a 5.125% coupon but sells below face value, illustrating how long-term borrowing costs differ from the Fed’s policy rate.",
+    "tickers": [
+      "US20Y"
+    ],
+    "imageAlt": "Generated 3D editorial illustration of stylized Treasury bond certificates and a percentage symbol; not an official security certificate or auction photograph.",
+    "sources": [
+      {
+        "label": "TreasuryDirect: October 21 auction results, CUSIP 912810UX4, 20-year bond reopening",
+        "url": "https://www.treasurydirect.gov/auctions/announcements-data-results/"
+      },
+      {
+        "label": "TreasuryDirect: auction data service; October 21 record for CUSIP 912810UX4",
+        "url": "https://www.treasurydirect.gov/TA_WS/securities/search?cusip=912810UX4&format=json"
+      },
+      {
+        "label": "TreasuryDirect: auction mechanics and single-price awards; background",
+        "url": "https://www.treasurydirect.gov/auctions/how-auctions-work/"
+      }
+    ],
+    "body": [
+      "<p>The U.S. Treasury sold $13 billion of 20-year bonds Wednesday at a high yield of 5.469%, providing a fresh measure of the cost of financing federal debt at longer maturities. The auction reopened an existing security rather than creating a new bond with a newly set coupon. Its results show why the interest printed on a bond and the return available to a new buyer can differ.</p>",
+      "<p>Treasury’s October 21 results list a bid-to-cover ratio of 2.73 and a price of 95.853363 for each $100 of face value, before accrued interest. The security carries a 5.125% annual coupon, matures on August 15, 2046, and is scheduled to settle on October 23. Competitive bidding closed at 1 p.m. Eastern time.</p>",
+      "<h2>A lower price produces a higher yield</h2>",
+      "<p>A reopening adds to the amount outstanding of an existing security. The coupon and maturity remain attached to that bond, while bidders determine the price at which the additional supply can be sold. Wednesday’s auction therefore did not raise the coupon to 5.469%. Buyers accepted a fixed coupon at a discounted purchase price, producing the higher yield to maturity.</p>",
+      "<p>For $1,000 of face value, the 5.125% coupon corresponds to $51.25 of annual interest, paid in two installments. The quoted auction price equates to approximately $958.53 before accrued interest. That arithmetic describes the purchase price and contractual coupon; it does not mean an investor earns the entire difference immediately or receives a guaranteed return from selling before maturity.</p>",
+      "<p>Yield to maturity combines the purchase price, scheduled interest payments and eventual repayment of principal. An investor who sells earlier faces the market price available at that time. A buyer who holds the bond still needs to consider how future coupons are reinvested and what inflation does to the purchasing power of the payments received.</p>",
+      "<h2>What the bid-to-cover ratio can establish</h2>",
+      "<p>The reported 2.73 ratio compares submitted bids with the amount awarded. It shows that bids exceeded the available offering, but it is not a direct measure of investor confidence in the government or proof that the price was especially favorable. Bidders can submit offers at yields that Treasury does not ultimately accept, so the amount bid and the price of winning bids answer different questions.</p>",
+      "<p>Treasury uses a single-price auction. It accepts compliant noncompetitive bids and then competitive bids in order, beginning with the lowest yields, until the offering is allocated. Successful bidders receive the highest accepted yield. The high yield is consequently the clearing result, rather than the average of every rate investors were willing to request.</p>",
+      "<p>Judging whether an auction was stronger or weaker than expected also requires a comparable pre-auction market quote and information about prevailing conditions. The official result alone does not supply that benchmark. A large bid total can coexist with a clearing yield above expectations, and a smaller total can still produce an orderly sale at an anticipated price.</p>",
+      "<h2>A different rate from the Fed’s target</h2>",
+      "<p>A 20-year Treasury yield reflects pricing over a much longer horizon than the Federal Reserve’s overnight policy target. Expectations for inflation and future short-term rates matter, alongside the compensation investors require for holding long-duration debt and the supply available to buy. The auction does not represent a Federal Reserve decision, even when its yield changes financial conditions.</p>",
+      "<p>For existing bondholders, the immediate risk runs through price sensitivity. When the yield buyers demand rises, the price of a fixed stream of payments generally falls. Longer-dated securities can move substantially because more of their cash flows lie in the future. Our guide to <a href=\"bond-duration-explained.html\">bond duration and interest-rate sensitivity</a> explains why a modest yield move can have a larger effect on a long bond’s market value.</p>",
+      "<h2>The financing signal after the sale</h2>",
+      "<p>Wednesday’s result fixes the terms of this auction, not the government’s cost of borrowing across its entire debt portfolio. Bills, notes and other bonds have different maturities and financing schedules. Nor does the sale mechanically reset mortgage rates or corporate borrowing costs, although Treasury yields help form the reference rates against which other financing is priced.</p>",
+      "<p>The next evidence will come from secondary-market trading and subsequent debt sales. The US20Y chart below tracks a market yield series, not a continuing auction or an offer to buy this particular bond. Comparing those later yields with the auction result can help assess how readily the newly issued supply is absorbed after settlement.</p>"
+    ],
+    "image": "assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-480.webp 480w, assets/responsive/us-treasury-20-year-auction-october-21-2026-cover-v1-960.webp 960w, assets/editorial/us-treasury-20-year-auction-october-21-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T18:39:17Z",
+    "dateModified": "2026-10-21T18:39:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "anthropic-christopher-stubbs-benefit-trust-october-2026",
+    "section": "Tech & AI",
+    "title": "Anthropic Adds Harvard Physicist Christopher Stubbs to Its Governance Trust",
+    "dek": "The former Harvard science dean joins an independent body with board-appointment powers, bringing scientific expertise to AI oversight.",
+    "tickers": [],
+    "imageAlt": "Generated conceptual 3D illustration of independent governance panels around a council platform; not Anthropic’s actual office, boardroom or trustees.",
+    "sources": [
+      {
+        "label": "Anthropic, October 21: Christopher Stubbs joins the Long-Term Benefit Trust",
+        "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+      },
+      {
+        "label": "Anthropic: Long-Term Benefit Trust structure, Class T rights and amendment provisions; background",
+        "url": "https://www.anthropic.com/news/the-long-term-benefit-trust"
+      },
+      {
+        "label": "Reuters, October 21: appointment of the former Harvard science dean",
+        "url": "https://www.reuters.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-2026-10-21/"
+      }
+    ],
+    "body": [
+      "<p>Anthropic said Wednesday that Christopher Stubbs, an experimental physicist and former Harvard University science dean, has joined its Long-Term Benefit Trust. The appointment adds scientific experience to an independent governance body with authority to appoint a majority of the AI developer’s board. It is a change to the company’s oversight structure, rather than a new model release or a claim that its systems have become safer.</p>",
+      "<p>Stubbs served as Harvard’s dean of science from 2018 to 2024 and works on observational cosmology and precision measurement. Anthropic’s announcement also notes his experience advising the U.S. government on national security and arms control. He joins a trust whose other members include chair Neil Buddy Shah, national security specialist Richard Fontaine and former Federal Reserve Chair Ben Bernanke.</p>",
+      "<h2>Why a trustee is different from a director</h2>",
+      "<p>The distinction between the trust and the corporate board is central to the news. Stubbs is joining the body that holds specified governance rights; the announcement does not appoint him directly to a seat on Anthropic’s board. The board oversees management, while the trust’s appointment powers give it a separate route to influence who performs that oversight.</p>",
+      "<p>In its published explanation of the arrangement, Anthropic describes a special class of stock held by the trust that carries director-election and removal rights. The company says the trustees are independent of management and investors. That design aims to make consequential decisions accountable to a public-benefit purpose alongside the interests of people who provide capital.</p>",
+      "<p>Those powers should not be confused with routine management. Anthropic’s governance explanation says the trust is not expected to intervene in ordinary commercial strategy or day-to-day decisions. A trustee’s presence therefore does not mean that every product launch, customer contract or research choice receives the same kind of direct approval from the trust.</p>",
+      "<h2>Scientific experience at a commercial AI company</h2>",
+      "<p>Anthropic highlighted Stubbs’s work on scientific collaboration and the reproducibility of AI-assisted research. Reproducibility matters when a researcher needs to understand whether a result can be obtained again under comparable conditions. A persuasive answer from a model is not the same thing as a documented method whose assumptions, inputs and limitations can be examined.</p>",
+      "<p>The relevance extends beyond a laboratory. A business using AI to assist research or operational decisions needs a way to investigate mistakes and establish which evidence supported an output. Scientific experience can inform the questions an overseer asks about that process. An appointment alone, however, cannot demonstrate that the company has implemented adequate controls or that a particular system behaves reliably.</p>",
+      "<p>The practical test is whether oversight leads to better evidence, clearer decisions and meaningful responses when problems arise. The public announcement supplies a biography and a description of responsibilities. It does not report an independent assessment of how much the trust has changed product decisions or quantify the effect of Stubbs’s participation before that work occurs.</p>",
+      "<h2>Public benefit does not mean nonprofit</h2>",
+      "<p>Anthropic operates as a public benefit corporation. That form is part of its stated effort to balance commercial growth with its public-benefit purpose, rather than abandon commercial activity. The trust adds governance rights to that structure; it is not interchangeable with a charitable fund or a public regulator. Those institutions have different roles, incentives and sources of authority.</p>",
+      "<p>The distinction also matters for the company’s separate proposal to allocate shares to a public-benefit fund, discussed in our <a href=\"anthropic-public-benefit-fund-five-percent-shares-2026.html\">coverage of Anthropic’s proposed fund</a>. A share allocation concerns an economic stake and the terms attached to it. The trust’s core relevance here is its role in corporate oversight. Wednesday’s appointment does not, by itself, establish that a separate shareholder-approval condition has been satisfied.</p>",
+      "<h2>What investors and customers can evaluate</h2>",
+      "<p>Anthropic’s published governance description includes mechanisms for amending the trust arrangement, including provisions involving large shareholder supermajorities. That makes the actual governing documents and applicable conditions more useful than a simple claim that an oversight body is either all-powerful or purely symbolic. Neither characterization follows from the appointment announcement alone.</p>",
+      "<p>For customers, the immediate commercial service remains separate from the new trustee’s role. For investors, the development draws attention to how control, accountability and commercial incentives fit together. Future disclosures about the trust’s work and the company’s responses to its assessments will provide more concrete evidence of that balance than the credentials of any single appointee.</p>"
+    ],
+    "image": "assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-480.webp 480w, assets/responsive/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1-960.webp 960w, assets/editorial/anthropic-christopher-stubbs-benefit-trust-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T18:39:17Z",
+    "dateModified": "2026-10-21T18:39:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "grayscale-in-kind-crypto-subscriptions-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Grayscale Opens In-Kind Subscriptions Across 10 Crypto Investment Products",
+    "dek": "Eligible holders can contribute tokens for fund shares through authorized intermediaries, with product-specific minimums, fees and terms.",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP"
+    ],
+    "imageAlt": "Generated 3D editorial illustration of labeled crypto tokens and investment-share certificates, representing an in-kind transfer rather than an actual Grayscale interface.",
+    "sources": [
+      {
+        "label": "Grayscale, October 21 at 9 a.m. EDT: in-kind access, eligible products, minimums and risk disclosures; GlobeNewswire distribution",
+        "url": "https://www.globenewswire.com/fr/news-release/2026/10/21/3385595/0/en/grayscale-expands-access-to-in-kind-transfers-across-its-digital-asset-investment-platform.html"
+      },
+      {
+        "label": "SEC, July 29, 2025: approval of in-kind creation and redemption by authorized participants; regulatory background",
+        "url": "https://www.sec.gov/newsroom/press-releases/2025-101-sec-permits-kind-creations-redemptions-crypto-etps"
+      }
+    ],
+    "body": [
+      "<p>Grayscale said Wednesday that eligible investors can contribute digital assets directly in exchange for shares of 10 of its investment products, expanding access to in-kind subscriptions across its platform. The arrangement gives existing token holders a route into fund shares without first making a separate sale for cash. It remains an intermediated process with eligibility requirements, fees and product-specific terms.</p>",
+      "<p>The October 21 announcement covers products tied to Bitcoin, Ethereum, Solana, XRP and six other digital assets. Grayscale says clients accessing primary-market subscriptions must work with an authorized participant, or a firm connecting them to one. The announcement does not turn an ordinary brokerage buy order into a direct wallet-to-fund conversion available on identical terms to every account holder.</p>",
+      "<h2>What changes when tokens become shares</h2>",
+      "<p>An investor holding cryptocurrency directly controls, or relies on a service to control, the underlying position. After an in-kind contribution, the investor instead holds shares representing exposure through the investment vehicle. The economic objective may be continuity of exposure, but the legal and operational form changes. The investor must evaluate the fund’s structure as well as the asset it holds.</p>",
+      "<p>That difference affects custody and access. A fund arrangement can remove some of the practical work of protecting private keys from an individual holder. It also introduces reliance on the fund’s custodian, transfer arrangements and intermediaries. Replacing self-custody changes where responsibilities sit; it does not remove the possibility of operational errors or a loss of value.</p>",
+      "<p>Our guide to <a href=\"bitcoin-etf-institutional-adoption.html\">what a Bitcoin ETF changes about ownership</a> explains the distinction between owning a token and owning a security linked to it. An in-kind subscription changes how the shares are obtained. It does not make the shares and the underlying cryptocurrency interchangeable for every purpose, including transfers and use within blockchain applications.</p>",
+      "<h2>Minimums are substantial and can change</h2>",
+      "<p>The release lists approximate minimum investments ranging from $80,300 for its Solana product to $364,800 for its Bitcoin product. The corresponding examples for Ethereum and XRP are $232,300 and $257,000. Grayscale calculated those dollar amounts using market prices on October 20 and says they can change without notice as asset prices move.</p>",
+      "<p>These are not posted retail share prices or guaranteed all-in conversion quotes. A minimum tells an eligible participant how much exposure may be required to enter a particular process. The eventual cost also depends on intermediary charges, the assets accepted and the applicable product terms. Readers should not confuse a quoted minimum with a promise that any smaller position can be transferred at no extra cost.</p>",
+      "<p>The distinction is particularly relevant when comparing products. Different dollar thresholds do not establish that one fund is cheaper to own over time. Ongoing expenses, execution costs and the relationship between share prices and underlying asset values remain separate parts of the comparison. The announcement expands a route for moving holdings; it does not eliminate the need to examine those costs.</p>",
+      "<h2>The SEC framework predates this announcement</h2>",
+      "<p>In July 2025, the Securities and Exchange Commission approved orders permitting authorized participants to create and redeem crypto exchange-traded product shares in kind. Earlier spot Bitcoin and Ether arrangements had been limited to cash-based creations and redemptions. Wednesday’s news is Grayscale’s expansion of access under product-specific arrangements, rather than the first regulatory approval of the mechanism.</p>",
+      "<p>An authorized participant helps connect the investment vehicle’s primary market with trading in its shares. Investors buying existing shares on an exchange generally interact with the secondary market instead. Keeping those markets separate helps explain why an available creation process does not mean a retail shareholder can personally redeem a small holding for cryptocurrency whenever desired.</p>",
+      "<h2>Convenience does not remove market or tax questions</h2>",
+      "<p>Grayscale says contributing tokens may simplify portfolio administration and potentially reduce some execution costs. Those are possible benefits, not guaranteed savings for every holder. Shares can trade above or below the value of the assets backing them, and transfers depend on the successful coordination of intermediaries and custodians. A failed or incorrectly routed transfer can create problems even without an adverse market move.</p>",
+      "<p>The firm’s disclosures also caution that tax treatment is uncertain and that transactions can trigger taxable events, particularly if an investor must sell or swap assets to supply the required token. The relevant comparison is therefore the complete transfer, ownership and eventual exit process. The expanded service changes access to fund shares, while Bitcoin, Ethereum, Solana and XRP exposure continues to carry its underlying market risks.</p>"
+    ],
+    "image": "assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-480.webp 480w, assets/responsive/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1-960.webp 960w, assets/editorial/grayscale-in-kind-crypto-subscriptions-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T18:39:17Z",
+    "dateModified": "2026-10-21T18:39:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "us-oil-inventories-eia-october-21-2026",
     "section": "Market Analysis",
     "title": "US Oil Inventories Fall 3.1 Million Barrels as Gasoline Stocks Also Decline",
@@ -1591,7 +1739,7 @@ const TTN_ARTICLES = [
       "<h2>The employment question remains concrete</h2>",
       "<p>The fund's eventual impact will depend on its rules, resources and results. Published governance could clarify decision-making, conflicts of interest, spending priorities and reporting. A public-benefit report could then show what was actually funded and how the outcomes were assessed.</p>",
       "<p>That assessment should also distinguish improved productivity from workers' experience. As the guide to <a href=\"ai-agents-enterprise-roi-2026.html\">AI agents and workplace returns</a> explains, time saved and financial savings are different measures. Neither automatically tells readers which workers benefit or who bears the costs of a transition.</p>",
-      "<p>For now, the new development is a conditional equity commitment, with important implementation details to follow. It adds a mechanism for sharing potential AI gains, while leaving the commercial question of <a href=\"ai-monetization-gap-explained.html\">how durable AI revenue becomes</a> separate from the public-benefit pledge.</p>"
+      "<p>For now, the new development is a conditional equity commitment, with important implementation details to follow. It adds a mechanism for sharing potential AI gains, while leaving the commercial question of <a href=\"ai-monetization-gap-explained.html\">how durable AI revenue becomes</a> separate from the public-benefit pledge. The company subsequently <a href=\"anthropic-christopher-stubbs-benefit-trust-october-2026.html\">appointed physicist Christopher Stubbs to its Long-Term Benefit Trust</a>, a separate governance body with board-appointment powers.</p>"
     ]
   },
   {
@@ -4766,7 +4914,7 @@ const TTN_ARTICLES = [
       "<p>Assets under management also combine more than one influence. A hypothetical product holding the same number of coins can become larger in dollar terms when Bitcoin rises. Describing that entire increase as new investor money would confuse price appreciation with flows. A useful adoption report separates assets, net creations or redemptions, trading activity and the observation period rather than using any one as a substitute for all the others.</p>",
       "<h2>Institutional ownership needs a narrower claim</h2>",
       "<p>A reported position can show that a manager held particular shares on a particular date. It may represent client accounts, a hedge or one part of a broader strategy. The guide to <a href=\"13f-filings-explained.html\">Form 13F's coverage and reporting lag</a> explains why a disclosed holding is not a complete picture of current institutional conviction. The filing establishes ownership within its scope, not the manager's motive.</p>",
-      "<p>For an investor, the decision remains an assessment of the asset, the product and the portfolio role. Check structure, custody, expenses, market-price differences and withdrawal rights before treating the wrapper as interchangeable with direct Bitcoin ownership. Easier access can be meaningful. It does not prove that volatility has diminished, that the product is diversified or that another investor's disclosed position is a reliable signal to follow.</p>"
+      "<p>For an investor, the decision remains an assessment of the asset, the product and the portfolio role. Check structure, custody, expenses, market-price differences and withdrawal rights before treating the wrapper as interchangeable with direct Bitcoin ownership. Easier access can be meaningful. It does not prove that volatility has diminished, that the product is diversified or that another investor's disclosed position is a reliable signal to follow. Grayscale’s <a href=\"grayscale-in-kind-crypto-subscriptions-october-2026.html\">October 21 expansion of in-kind subscriptions</a> illustrates how eligible token holders can enter that structure through authorized intermediaries.</p>"
     ],
     "sources": [
       {
@@ -8131,7 +8279,7 @@ const TTN_ARTICLES = [
       "Funds and spending dates require another distinction",
       "For an individual bond, maturity provides a contractual repayment date, subject to default and any relevant terms. An ordinary bond fund holds a changing collection of securities. As bonds mature or are sold, the manager can replace them, so waiting several years does not necessarily make the fund's interest-rate exposure disappear.",
       "For a hypothetical portfolio split equally between investments with durations of two and eight, the simple weighted duration is five. That is useful arithmetic, but the result does not establish that the portfolio will pay a known amount on a particular future date. Portfolio turnover, distributions and different yield movements still matter.",
-      "A practical reading therefore pairs duration with the measure's definition, the size and type of yield shock, credit exposure and the date the money is needed. Low duration can reduce one sensitivity while leaving substantial default or liquidity risk. The number describes a dimension of the investment, rather than certifying the safety of the whole position."
+      "A practical reading therefore pairs duration with the measure's definition, the size and type of yield shock, credit exposure and the date the money is needed. Low duration can reduce one sensitivity while leaving substantial default or liquidity risk. The number describes a dimension of the investment, rather than certifying the safety of the whole position. The <a href=\"us-treasury-20-year-auction-october-21-2026.html\">October 21 Treasury reopening</a> gives a concrete example of an existing coupon trading at a price that produces a different yield."
     ],
     "sources": [
       {

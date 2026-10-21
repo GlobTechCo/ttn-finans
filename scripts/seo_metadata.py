@@ -1,4 +1,7 @@
 TITLES = '''
+us-treasury-20-year-auction-october-21-2026|US 20-Year Treasury Auction Clears at 5.469%
+anthropic-christopher-stubbs-benefit-trust-october-2026|Anthropic Adds Physicist to Governance Trust
+grayscale-in-kind-crypto-subscriptions-october-2026|Grayscale Expands In-Kind Crypto Subscriptions
 us-oil-inventories-eia-october-21-2026|US Oil Inventories Fall 3.1 Million Barrels
 blacksmith-series-c-code-testing-october-2026|Blacksmith Raises $66 Million for Code Testing
 solana-alpenglow-mainnet-october-2026|Solana Alpenglow Targets Faster Finality

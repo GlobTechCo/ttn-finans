@@ -92,3 +92,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'blacksmith-s
 RELATED['blacksmith-series-c-code-testing-october-2026'] = ['ai-boom-capital-financing-2026', 'enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'solana-alpenglow-mainnet-october-2026')
 RELATED['solana-alpenglow-mainnet-october-2026'] = ['defi-basics-explained', 'stablecoins-explained-depeg-risk', 'bitcoin-rebound-etf-outflows-october-19-2026']
+
+# October 21 late news package.
+GROUPS['Bonds, credit and public finances'].insert(0,'us-treasury-20-year-auction-october-21-2026')
+RELATED['us-treasury-20-year-auction-october-21-2026'] = ['bond-duration-explained', 'treasury-yields-spike-2026', 'us-budget-deficit-national-debt-explained']
+GROUPS['Technology policy, security and platforms'].insert(0,'anthropic-christopher-stubbs-benefit-trust-october-2026')
+RELATED['anthropic-christopher-stubbs-benefit-trust-october-2026'] = ['anthropic-public-benefit-fund-five-percent-shares-2026', 'ftc-openai-anthropic-safety-subpoenas-2026', 'enterprise-ai-data-security-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0,'grayscale-in-kind-crypto-subscriptions-october-2026')
+RELATED['grayscale-in-kind-crypto-subscriptions-october-2026'] = ['bitcoin-etf-institutional-adoption', 'crypto-liquidation-leverage-explained', 'stablecoins-explained-depeg-risk']
