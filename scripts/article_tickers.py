@@ -23,6 +23,7 @@ INSTRUMENTS = {
     'XRP': ('BITSTAMP:XRPUSD', 'XRP / USD · Bitstamp'),
     'GOLD': ('TVC:GOLD', 'Gold · TVC'),
     'OIL': ('TVC:USOIL', 'WTI Oil · TVC'),
+    'Brent Oil': ('FX:UKOIL', 'Brent Oil CFD · FXCM'),
     'EUR/USD': ('FX:EURUSD', 'EUR/USD · FXCM'),
     'GBP/USD': ('FX:GBPUSD', 'GBP/USD · FXCM'),
 }
@@ -38,6 +39,9 @@ MENTIONS = {
     'ETH': r'\bEthereum\b|\bEther\b|\bETH\b',
     'SOL': r'\bSolana\b',
     'XRP': r'\bXRP\b',
+    'GOLD': r'\bgold\b',
+    'OIL': r'\bWTI\b|\bWest Texas Intermediate\b',
+    'Brent Oil': r'\bBrent\b',
 }
 TAG_XPATH = '//*[contains(concat(" ",normalize-space(@class)," ")," article-ticker-tag ")]'
 

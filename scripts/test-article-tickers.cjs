@@ -9,6 +9,7 @@ fs.mkdirSync(shots, { recursive: true });
 const cases = [
   ['wall-street-close-october-19-2026-ai-rebound', 'FOREXCOM:SPXUSD'],
   ['micron-taichung-union-agreement-october-2026', 'NASDAQ:MU'],
+  ['ai-stocks-oil-110-premarket-october-20-2026', 'FX:UKOIL'],
   ['bitcoin-rebound-etf-outflows-october-19-2026', 'BINANCE:BTCUSDT'],
 ];
 (async () => {
