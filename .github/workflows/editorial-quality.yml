@@ -1,0 +1,25 @@
+name: TTN editorial quality
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'articles.js'
+      - 'scripts/audit_article_lengths.py'
+      - 'scripts/verify_site.py'
+      - '.github/workflows/editorial-quality.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Enforce approved editorial lengths
+        run: python3 scripts/audit_article_lengths.py
+      - name: Install site verification dependencies
+        run: python3 -m pip install -r requirements-maintenance.txt
+      - name: Check metadata and site integrity
+        run: python3 scripts/verify_site.py

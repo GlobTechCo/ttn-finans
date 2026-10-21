@@ -1,27 +1,52 @@
 #!/usr/bin/env python3
-"""Audit Original TTN imagery. Never modifies news.js, config.js or external feeds.
-Usage: python3 scripts/audit_original_images.py
+"""Audit currently referenced TTN covers, variants and social images.
+Reads the canonical JSON catalog; does not replace images or change feeds.
 """
+import json
 from pathlib import Path
-from collections import Counter
-import re
-ROOT=Path(__file__).resolve().parent.parent
-articles=(ROOT/"articles.js").read_text(encoding="utf-8")
-matches=re.findall(r'\bimage:\s*["\']([^"\']+)["\']',articles)
-pages=[p for p in ROOT.glob("*.html") if 'TTN Original' in p.read_text(encoding="utf-8",errors="replace") and p.name not in ("index.html","analysis.html")]
-stock_pages=[]
-social_stock=[]
-for page in pages:
-    text=page.read_text(encoding="utf-8",errors="replace")
-    if 'images.pexels.com' in text:
-        stock_pages.append(page.name)
-    if re.search(r'<meta\s+(?:name|property)=["\'](?:twitter:image|og:image)["\'][^>]*pexels',text):
-        social_stock.append(page.name)
-print(f"Original TTN article images (articles.js): {len(matches)}")
-print(f"Pexels entries in articles.js: {sum('pexels.com' in x for x in matches)}")
-print(f"TTN Original standalone pages: {len(pages)}")
-print(f"Standalone pages still containing Pexels: {len(stock_pages)}")
-print(f"Social share images still using Pexels: {len(social_stock)}")
-print("Pages requiring replacement:")
-for name in stock_pages:
-    print(" -",name)
+from urllib.parse import urlsplit
+from lxml import html
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parents[1]
+BASE = 'https://globtechco.github.io/ttn-finans/'
+
+
+def main():
+    articles = json.loads((ROOT / 'articles.js').read_text().split('=', 1)[1].strip().removesuffix(';'))
+    errors, large, checked, external = [], [], set(), set()
+    for article in articles:
+        tree = html.fromstring((ROOT / (article['id'] + '.html')).read_text())
+        refs = [article['image']]
+        refs.extend(article[k] for k in ['imageSmall', 'imageMedium'] if article.get(k))
+        refs.extend(part.strip().split()[0] for part in article.get('imageSrcset', '').split(',') if part.strip())
+        refs.extend(tree.xpath('//meta[@property="og:image" or @name="twitter:image"]/@content'))
+        for ref in refs:
+            if ref.startswith(BASE):
+                ref = ref[len(BASE):]
+            if urlsplit(ref).scheme:
+                external.add((article['id'], ref))
+                continue
+            path = ROOT / urlsplit(ref).path
+            if path in checked:
+                continue
+            checked.add(path)
+            try:
+                with Image.open(path) as image:
+                    image.verify()
+                if path.stat().st_size > 1_000_000:
+                    large.append((ref, path.stat().st_size))
+            except (OSError, ValueError) as error:
+                errors.append((ref, str(error)))
+    print(f"{'FAIL' if errors else 'PASS'}: {len(articles)} articles, {len(checked)} distinct referenced local images decoded; {len(errors)} errors.")
+    print(f'External image references: {len(external)}')
+    print(f'Performance review: {len(large)} referenced files exceed 1 MB; approved images and immutable social assets preserved.')
+    for ref, size in sorted(large):
+        print(f'  {ref}: {size:,} bytes')
+    for ref, error in errors:
+        print(f'FAIL: {ref}: {error}')
+    return bool(errors)
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

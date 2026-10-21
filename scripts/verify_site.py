@@ -113,5 +113,8 @@ def verify():
     assert not any(u.find('s:loc',ns).text.endswith('404.html') for u in urls)
     assert (ROOT/'_config.yml').read_text().count('  - scripts')==1
     assert len(list((ROOT/'scripts').glob('*.json')))==2
-    print(f'PASS: {len(docs)} pages; {len(articles)} articles; {schema_count} JSON-LD blocks; no broken local references or orphan articles; complete topic directories, concise metadata and dated sitemap.')
+    from audit_article_lengths import audit as audit_lengths
+    short = [r for r in audit_lengths(ROOT) if r['status'] == 'FAIL']
+    assert not short, [(r['id'], r['words'], r['minimum']) for r in short]
+    print(f'PASS: {len(docs)} pages; {len(articles)} articles; {schema_count} JSON-LD blocks; no broken local references or orphan articles; complete topic directories, concise metadata, dated sitemap and approved editorial lengths.')
 if __name__=='__main__':verify()

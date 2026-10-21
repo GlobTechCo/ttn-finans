@@ -54,6 +54,7 @@ After adding or updating a catalog entry and its standalone HTML page:
 ```sh
 python3 scripts/refresh_static_editorial.py
 python3 scripts/refresh_seo_metadata.py
+python3 scripts/audit_article_lengths.py
 python3 scripts/verify_site.py
 node scripts/test-independent-loading.cjs
 node scripts/test-navigation.cjs
@@ -165,3 +166,5 @@ Run `python3 scripts/ad_placements.py` to refresh placements. The regular
 templates into live ads until an actual publisher ID, slot IDs, consent integration,
 clear advertisement labels and responsive sizing have been configured and tested.
 Changing the disabled flag alone deliberately refuses activation.
+
+The length audit counts only paragraphs in the standalone article body. The owner's PDF audit targets are 600+ words for news and 700+ for explainers; headings, sources and related reading do not count. These are editorial targets, not a Google AdSense minimum. `--format csv` or `--format json` exports the complete inventory. The editorial-quality workflow checks these targets and site integrity on content pushes and pull requests. Passing a length check does not replace source verification or substantive editing.
