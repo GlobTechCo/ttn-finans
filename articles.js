@@ -56,7 +56,7 @@ const TTN_ARTICLES = [
     "title": "Code-Testing Startup Blacksmith Raises $66 Million at a $1 Billion Valuation",
     "dek": "Sequoia leads the round as AI-assisted coding increases demand for systems that build and test software before release.",
     "tickers": [],
-    "imageAlt": "Generated editorial illustration of code documents and automated test-result cards, representing software verification rather than a Blacksmith product screenshot.",
+    "imageAlt": "Generated 3D editorial illustration of code tiles passing through an abstract validation module and emerging with check marks; not a Blacksmith product photograph.",
     "sources": [
       {
         "label": "Blacksmith: Series C announcement, October 21 at 9:15 a.m. EDT, distributed through PR Newswire",
@@ -89,10 +89,10 @@ const TTN_ARTICLES = [
       "<p>The company's security documentation says it integrates with GitHub Actions and executes jobs in isolated Firecracker micro virtual machines that are destroyed after completion. That describes an important operational boundary, rather than a guarantee against every possible security incident. Build systems can handle sensitive code, dependencies and credentials, making access controls and the treatment of stored artifacts relevant purchasing questions.</p>",
       "<p>For Blacksmith, the funding creates room to meet a growing workload while competing on speed, price and operational trust. The figures to watch next are repeat customer spending, service reliability and the relationship between computing costs and revenue. More AI-generated code expands the potential workload; retaining that workload profitably is the separate business challenge.</p>"
     ],
-    "image": "assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-480.webp 480w, assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-960.webp 960w, assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v1.webp 1672w",
+    "image": "assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v3.webp",
+    "imageSmall": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v3-480.webp",
+    "imageMedium": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v3-960.webp",
+    "imageSrcset": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v3-480.webp 480w, assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v3-960.webp 960w, assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v3.webp 1672w",
     "date": "2026-10-21T16:15:14Z",
     "dateModified": "2026-10-21T16:15:14Z",
     "author": "TTN Research Desk",

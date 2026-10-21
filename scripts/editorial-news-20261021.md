@@ -74,3 +74,6 @@ Internal source timing and image provenance:
   ]
 }
 ```
+
+
+Approved Blacksmith cover correction: owner approved the displayed 3D validation-module preview. Source `exec-9e92e75a-0832-4b11-8c49-3b1a3d959d58.png`; installed `assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v3.webp`; SHA-256 `22c45fb080f27cbeb10bfc9010b0b868f2bab290321a9ae0cdd6074ff396a2f2`. Abstract concept, not a real product. Original publication and content-modification dates preserved.
