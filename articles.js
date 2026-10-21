@@ -1,5 +1,150 @@
-/* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
+  {
+    "id": "us-oil-inventories-eia-october-21-2026",
+    "section": "Market Analysis",
+    "title": "US Oil Inventories Fall 3.1 Million Barrels as Gasoline Stocks Also Decline",
+    "dek": "The weekly EIA report shows smaller crude and gasoline buffers, while a rise in distillate stocks complicates the demand picture.",
+    "tickers": [
+      "OIL",
+      "Brent Oil"
+    ],
+    "imageAlt": "Generated editorial illustration of large white oil storage tanks at an unnamed facility; not a photograph of the inventories surveyed by EIA.",
+    "sources": [
+      {
+        "label": "EIA: Weekly Petroleum Status Report, released October 21 at 10:30 a.m. EDT; data through October 16",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/"
+      },
+      {
+        "label": "EIA: weekly report summary; the live file changes with subsequent releases",
+        "url": "https://ir.eia.gov/wpsr/summary.txt"
+      },
+      {
+        "label": "EIA: how weekly balances and product-supplied estimates should be interpreted; background",
+        "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=53399"
+      }
+    ],
+    "body": [
+      "<p>U.S. commercial crude oil inventories fell by 3.1 million barrels last week, the Energy Information Administration reported Wednesday, leaving a smaller buffer of immediately available supply. Gasoline stocks also declined, while distillate inventories increased. The combination points to tighter balances in some parts of the petroleum market without establishing that every category of fuel demand is strengthening.</p>",
+      "<p>The report, released at 10:30 a.m. Eastern time on October 21, covers the week ended October 16. Commercial crude stocks, excluding the Strategic Petroleum Reserve, stood at 412.5 million barrels, about 3% below their five-year seasonal average. The reserve exclusion matters: this measure tracks commercial holdings rather than the government's emergency stockpile.</p>",
+      "<h2>Lower imports help explain the draw</h2>",
+      "<p>A stock draw means more crude left commercial storage than entered it during the reporting period. It can result from stronger refinery demand, lower imports, higher exports or changes in domestic production. The headline alone cannot identify the cause, and it should not automatically be described as evidence that American motorists or manufacturers consumed more fuel.</p>",
+      "<p>This week's report offers a concrete supply-side contributor. Crude imports fell by 291,000 barrels a day to 5.8 million, while refinery processing increased by only 34,000 barrels a day to 16.6 million. Refineries operated at 93.4% of capacity. Lower incoming volumes therefore accompanied a comparatively modest increase in refinery throughput.</p>",
+      "<p>Timing can make those weekly flows uneven. A tanker unloading just before or after the reporting cutoff can affect measured imports and storage without signaling a lasting change in the market. The more useful follow-up is whether subsequent reports show repeated draws alongside similar operating conditions, rather than treating one observation as a durable shortage.</p>",
+      "<h2>Gasoline and diesel send different signals</h2>",
+      "<p>Gasoline inventories declined by 3.0 million barrels and were about 5% below their five-year seasonal average. Distillate inventories, which include diesel and heating oil, rose by 1.7 million barrels but remained about 9% below that benchmark. Total commercial petroleum inventories decreased by 8.5 million barrels across the broader set of products.</p>",
+      "<p>Those differences affect how the report reaches consumers and businesses. Crude is an input; gasoline and diesel are refined products with their own storage, processing and distribution constraints. A refinery can have access to crude while a particular region still faces limited supplies of a finished fuel. Conversely, stronger product output can rebuild fuel inventories even as crude stocks decline.</p>",
+      "<p>For a transportation company, the relevant cost is the delivered fuel it buys, including refining margins, distribution and taxes. For an oil producer, the selling price of crude has a more direct role. Our analysis of <a href=\"oil-shock-market-ripple.html\">how an oil shock spreads through the economy</a> explains why the same market development can help one business and squeeze another.</p>",
+      "<h2>Demand estimates need a careful reading</h2>",
+      "<p>EIA's four-week average for gasoline product supplied was 8.7 million barrels a day, up 1.5% from a year earlier. Distillate product supplied averaged 3.9 million barrels a day, down 2.4%. That split does not support a blanket claim that all fuel demand is accelerating, even though aggregate petroleum inventories fell.</p>",
+      "<p>Product supplied is an estimate of movement out of the primary supply chain, used as a proxy for consumption. It is not a direct count of purchases at gasoline stations. EIA recommends considering four-week averages because shipment timing and estimation variability can distort a single week's reading. Monthly data provide a broader benchmark when they become available.</p>",
+      "<h2>What the figures mean for oil markets</h2>",
+      "<p>For traders following WTI and Brent oil, U.S. inventories offer evidence about one important physical market. Falling stocks can support a tighter-supply interpretation, but prices also depend on expectations, supplies elsewhere and the cost of moving barrels between regions. This report by itself cannot establish either benchmark's subsequent direction or isolate the cause of an intraday price change.</p>",
+      "<p>The next useful checks are whether crude imports recover, gasoline stocks continue shrinking and the distillate build persists. Together, those details will help distinguish a temporary shipping imbalance from a more sustained tightening. Wednesday's release reduces the available inventory cushion; the mix of refinery activity and product demand determines how much economic pressure follows.</p>"
+    ],
+    "image": "assets/editorial/us-oil-inventories-eia-october-21-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-oil-inventories-eia-october-21-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-oil-inventories-eia-october-21-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-oil-inventories-eia-october-21-2026-cover-v1-480.webp 480w, assets/responsive/us-oil-inventories-eia-october-21-2026-cover-v1-960.webp 960w, assets/editorial/us-oil-inventories-eia-october-21-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T16:15:14Z",
+    "dateModified": "2026-10-21T16:15:14Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "blacksmith-series-c-code-testing-october-2026",
+    "section": "Tech & AI",
+    "title": "Code-Testing Startup Blacksmith Raises $66 Million at a $1 Billion Valuation",
+    "dek": "Sequoia leads the round as AI-assisted coding increases demand for systems that build and test software before release.",
+    "tickers": [],
+    "imageAlt": "Generated editorial illustration of code documents and automated test-result cards, representing software verification rather than a Blacksmith product screenshot.",
+    "sources": [
+      {
+        "label": "Blacksmith: Series C announcement, October 21 at 9:15 a.m. EDT, distributed through PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html"
+      },
+      {
+        "label": "Blacksmith: security architecture and managed GitHub Actions runners; company documentation, background",
+        "url": "https://www.blacksmith.sh/security"
+      },
+      {
+        "label": "Fortune: first reporting of the round, October 21 at 7 a.m. EDT",
+        "url": "https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/"
+      }
+    ],
+    "body": [
+      "<p>Blacksmith, a startup that provides computing infrastructure for building and testing software, announced a $66 million funding round Wednesday led by Sequoia Capital. The deal values the company at $1 billion and finances a business positioned around a practical consequence of AI-assisted coding: producing more code also creates more work to verify before release.</p>",
+      "<p>The Series C includes Premji Invest and returning investors Peak XV Partners, GV and Y Combinator. Blacksmith said total funding has reached $125 million and that the new capital will support hiring and a larger computing footprint. The financing is an investment in a privately held company, rather than a public stock offering available to ordinary brokerage customers.</p>",
+      "<h2>The work after an AI writes code</h2>",
+      "<p>Generating a software change is only one part of delivering a functioning product. A development team still needs to assemble the application, run automated tests and investigate failures before accepting the change. Continuous integration, commonly shortened to CI, automates much of that work whenever developers submit changes to a shared project.</p>",
+      "<p>The business opportunity is straightforward. If developers and coding agents submit more changes, the computers running those checks can become a bottleneck. Faster code production may then increase waiting time instead of accelerating delivery. Blacksmith sells the infrastructure for executing that validation workload; it does not establish that every submitted change is correct or that automated tests catch every defect.</p>",
+      "<p>Blacksmith reports that weekly CI jobs on its platform increased from 5 million in January to more than 90 million, while annual recurring revenue grew seventeenfold. It also says more than 10,000 companies use the service. These are company-reported operating figures, not independently audited financial results, and the announcement does not disclose the absolute revenue base behind the growth multiple.</p>",
+      "<h2>A valuation is different from revenue</h2>",
+      "<p>A $1 billion valuation describes the pricing of an ownership stake in the financing. It is not annual sales, cash in the bank or profit. Likewise, the $66 million round should not be confused with the company's total funding. Keeping those measures separate is especially useful when rapid usage growth makes a young infrastructure business appear larger than its disclosed financial record can establish.</p>",
+      "<p>Annual recurring revenue is also a different measure from revenue recognized in financial statements. Without the underlying definition, customer contracts and revenue disclosures, the seventeenfold figure cannot support a reliable calculation of a valuation-to-sales multiple. The release provides evidence of investor support and reported expansion, while leaving important profitability and customer-retention questions unanswered.</p>",
+      "<p>Our analysis of <a href=\"ai-boom-capital-financing-2026.html\">the financing demands behind the AI boom</a> examines the same distinction at a broader level. Capital can pay for capacity before the operating business produces enough cash to finance expansion itself. The commercial test is whether customers continue buying the service at prices that cover its full costs.</p>",
+      "<h2>Faster tests still have to earn their cost</h2>",
+      "<p>Blacksmith's announcement advertises faster jobs and lower average costs, but those claims should be evaluated against a customer's actual workload. A short test with little computing demand and a large application build can have very different constraints. Moving execution to faster infrastructure will not repair a poorly designed test or remove an external service that slows a pipeline.</p>",
+      "<p>For buyers, a useful comparison includes waiting time, execution time, failure investigation and the engineering effort required to operate alternatives. A lower computing bill is only part of the calculation. Reliability matters because interrupted checks can delay a release, while weak test coverage can allow defects through even when every automated job finishes successfully.</p>",
+      "<h2>Security remains part of the purchase</h2>",
+      "<p>The company's security documentation says it integrates with GitHub Actions and executes jobs in isolated Firecracker micro virtual machines that are destroyed after completion. That describes an important operational boundary, rather than a guarantee against every possible security incident. Build systems can handle sensitive code, dependencies and credentials, making access controls and the treatment of stored artifacts relevant purchasing questions.</p>",
+      "<p>For Blacksmith, the funding creates room to meet a growing workload while competing on speed, price and operational trust. The figures to watch next are repeat customer spending, service reliability and the relationship between computing costs and revenue. More AI-generated code expands the potential workload; retaining that workload profitably is the separate business challenge.</p>"
+    ],
+    "image": "assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-480.webp 480w, assets/responsive/blacksmith-series-c-code-testing-october-2026-cover-v1-960.webp 960w, assets/editorial/blacksmith-series-c-code-testing-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T16:15:14Z",
+    "dateModified": "2026-10-21T16:15:14Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "solana-alpenglow-mainnet-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Solana Lists Alpenglow as Active on Mainnet, Targeting Faster Finality",
+    "dek": "The consensus upgrade targets roughly 150-millisecond finality, but that goal differs from measured wallet or exchange response times.",
+    "tickers": [
+      "SOL"
+    ],
+    "imageAlt": "Generated conceptual editorial graphic with the word Solana and abstract network connections; not a measured performance chart or exact validator topology.",
+    "sources": [
+      {
+        "label": "Solana Foundation: Alpenglow activation status, October 21 epoch schedule and migration guidance",
+        "url": "https://solana.com/upgrades/alpenglow"
+      },
+      {
+        "label": "Anza: Alpenglow consensus architecture, operator changes and delivery of finalization information",
+        "url": "https://docs.anza.xyz/consensus/alpenglow"
+      }
+    ],
+    "body": [
+      "<p>Solana's official upgrade page lists Alpenglow as active on its main network, marking a change in the mechanism validators use to agree on transactions. The update targets much faster finality, the point at which a transaction is treated as settled under the network's consensus rules. It does not by itself establish a guaranteed response time for every wallet, exchange or payment application.</p>",
+      "<p>The Solana Foundation scheduled the transition for epoch 1064 on Wednesday, October 21, with an approximate start of 13:20 UTC. Its status table now marks mainnet activation as active. The approximate schedule should not be read as an independently measured switch time, and the page's roughly 150-millisecond finality figure remains a protocol target rather than a performance result established by this article.</p>",
+      "<h2>Agreement is a separate part of a transaction</h2>",
+      "<p>A blockchain application must do several things before a user sees a completed action. It receives a request, submits a transaction, executes the relevant instructions and learns whether the network has settled the result. Alpenglow addresses the agreement and finality layer. Faster agreement can shorten one important wait without eliminating delays elsewhere in that sequence.</p>",
+      "<p>That distinction matters for payments and trading. A merchant deciding when to release goods wants confidence that an accepted payment will remain settled. A trading service also needs to coordinate the state it observes with its own accounting. Neither business can assume that a protocol's target becomes an identical end-to-end experience across all of its software and service providers.</p>",
+      "<p>Anza's technical documentation illustrates why observation times can differ. Some nodes receive consensus information directly, while others learn about finalization from certificates carried in later blocks. Network conditions and the route by which a service receives that information can add delay. A credible assessment therefore needs measurements from the actual service being used, alongside the underlying protocol's design goal.</p>",
+      "<h2>Why transaction counters may change</h2>",
+      "<p>Alpenglow separates validator voting from the ordinary transactions recorded in blocks. That changes the interpretation of activity dashboards: a counter that previously included consensus votes can fall when those votes move elsewhere, without a corresponding fall in user transactions. Comparing raw totals across the transition without checking their definitions risks drawing the wrong conclusion about adoption.</p>",
+      "<p>For readers assessing network use, the useful question is what the series counts. User transfers, application interactions and validator coordination are different activities. A dashboard can be internally accurate while still giving a misleading before-and-after comparison if the underlying category changes. The same caution applies to headline transactions-per-second figures during a protocol migration.</p>",
+      "<p>Those measurement questions also affect financial claims. Faster settlement may make some applications more convenient, but it does not establish higher fee revenue, stronger demand for SOL or a particular token price. Our guide to <a href=\"defi-basics-explained.html\">how decentralized finance works</a> explains why network operation, application risks and the economics of a financial position require separate analysis.</p>",
+      "<h2>The immediate work falls on infrastructure operators</h2>",
+      "<p>For ordinary holders, the upgrade does not create a requirement to move tokens to a new wallet or send funds to an upgrade service. The Foundation's guidance leaves routine wallet interactions unchanged. The operational burden falls primarily on validators, data providers and developers whose systems depend on the old consensus messages or block structure.</p>",
+      "<p>A useful risk distinction follows from that division of work. A protocol can activate while individual services are still adapting their monitoring, transaction-status handling or data processing. Users should distinguish a problem at one service from a verified network-wide failure. Conversely, a healthy network status alone cannot prove that every application has correctly updated its integration.</p>",
+      "<h2>What would demonstrate the upgrade&#x27;s value</h2>",
+      "<p>The next evidence should come from sustained operation: finality distributions under different loads, service availability and reliable reporting of user activity. A single best-case latency observation would say less than a record showing how consistently transactions settle, especially during congestion or delayed communication. Those measurements will determine how much practical improvement reaches applications.</p>",
+      "<p>For SOL investors, Alpenglow is a concrete infrastructure development, but translating technical progress into investment returns requires additional steps. Application demand, costs and competitive conditions still matter. The near-term story is a change in how the network reaches agreement; whether that change produces durable commercial benefits will become clearer through operating data rather than the speed target alone.</p>"
+    ],
+    "image": "assets/editorial/solana-alpenglow-mainnet-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/solana-alpenglow-mainnet-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/solana-alpenglow-mainnet-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/solana-alpenglow-mainnet-october-2026-cover-v1-480.webp 480w, assets/responsive/solana-alpenglow-mainnet-october-2026-cover-v1-960.webp 960w, assets/editorial/solana-alpenglow-mainnet-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-21T16:15:14Z",
+    "dateModified": "2026-10-21T16:15:14Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
   {
     "id": "randstad-q3-2026-staffing-recovery",
     "section": "Market Analysis",
@@ -3679,7 +3824,7 @@ const TTN_ARTICLES = [
     "dek": "Broadcom’s chief points to capital as a constraint. Investors need to follow the funding behind capacity plans, not just demand for chips.",
     "author": "TTN Research Desk",
     "date": "2026-10-13T16:01:47+03:00",
-    "dateModified": "2026-10-21T06:57:56Z",
+    "dateModified": "2026-10-21T16:15:14Z",
     "image": "assets/editorial/ai-boom-capital-financing-2026.webp",
     "tickers": [
       "NASDAQ",
@@ -3704,7 +3849,7 @@ const TTN_ARTICLES = [
       "<p>A plan relying on new borrowing to repay earlier debt needs to identify when that refinancing occurs and what happens if terms worsen. Expected long-run demand does not guarantee lenders will supply funds on the original schedule.</p>",
       "<h2>A funding test is more useful than a bubble label</h2>",
       "<p>Projects can survive slower growth if they have credible customers and financing that lasts long enough for the asset to earn its return. Other projects may depend on continually improving expectations. The difference is specific to the business and cannot be resolved by labeling the whole industry a bubble.</p>",
-      "<p>The next earnings releases should help expose that difference through investment schedules, cash collections and disclosed funding needs. TTN’s analytical test is whether the operating business is catching up with the capacity being financed. Tan’s warning matters because it puts that test at the center of the AI investment discussion.</p>"
+      "<p>The next earnings releases should help expose that difference through investment schedules, cash collections and disclosed funding needs. TTN’s analytical test is whether the operating business is catching up with the capacity being financed. Tan’s warning matters because it puts that test at the center of the AI investment discussion. The <a href=\"blacksmith-series-c-code-testing-october-2026.html\">Blacksmith code-testing funding round</a> offers a more specific example of capital financing the infrastructure needed around AI-assisted development.</p>"
     ],
     "sources": [
       {
@@ -4350,7 +4495,7 @@ const TTN_ARTICLES = [
       "<p>A barrel benchmark is an input to many prices, not the final invoice for every fuel user. Refining, transport, taxes and contract terms can change the connection. A business may also have fixed part of its cost earlier. The same daily crude move can therefore reach two firms at different times and in different amounts. Evaluating the actual exposure requires the relevant fuel, delivery location and purchasing arrangement.</p>",
       "<h2>Markets price more than headline inflation</h2>",
       "<p>A persistent energy shock can lift measured inflation while reducing real purchasing power. Bonds then reflect competing expectations about inflation, growth, policy and demand for safety. Shares reflect the distribution of costs and revenues across companies. Neither gold nor crypto has a compulsory response to an oil headline.</p>",
-      "<p>The practical analysis begins with the disruption, available substitutes and the duration of higher delivered costs. The companion <a href=\"oil-near-100-inflation-2026.html\">$100 oil scenario</a> examines price-index arithmetic. A round barrel price alone cannot establish the scale of the economic damage or the central bank's response.</p>"
+      "<p>The practical analysis begins with the disruption, available substitutes and the duration of higher delivered costs. The companion <a href=\"oil-near-100-inflation-2026.html\">$100 oil scenario</a> examines price-index arithmetic. A round barrel price alone cannot establish the scale of the economic damage or the central bank's response. The <a href=\"us-oil-inventories-eia-october-21-2026.html\">October 21 U.S. inventory report</a> illustrates how crude and refined-product stocks can move in different directions.</p>"
     ],
     "sources": [
       {
@@ -4366,7 +4511,7 @@ const TTN_ARTICLES = [
         "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/prices-and-outlook.php"
       }
     ],
-    "dateModified": "2026-10-21T06:57:56Z",
+    "dateModified": "2026-10-21T16:15:14Z",
     "editorialNote": null,
     "imageSmall": "assets/responsive/oil-shock-market-ripple-480.webp",
     "imageMedium": "assets/responsive/oil-shock-market-ripple-960.webp",
@@ -6411,7 +6556,7 @@ const TTN_ARTICLES = [
       "If that assumption fails, the yield alone does not describe the outcome. Incentive tokens may also change in value before they can be sold. Liquidity providers face an additional question about how the composition of their position changes as relative prices move. Compare the final value and cash flows with the assets originally supplied, rather than treating the displayed annualized percentage as a promised bank-like payment.",
       "Audits and decentralization claims need specific meanings",
       "A security review can identify problems within its scope, but it cannot guarantee every future interaction or software change. Governance and administrative permissions also deserve attention. Ask whether someone can upgrade a contract, pause activity or alter risk parameters, and how those powers are controlled. The relevant answer belongs to the particular application and version, not to DeFi as a single category.",
-      "Stablecoins can introduce claims on reserves or institutions outside the blockchain, depending on their design. Bridges can add another set of contracts and validation assumptions. A complete account follows the whole path to redemption, including those dependencies. DeFi becomes easier to assess when the analysis names each obligation and failure point instead of assuming that visible code makes every financial and operational risk transparent."
+      "Stablecoins can introduce claims on reserves or institutions outside the blockchain, depending on their design. Bridges can add another set of contracts and validation assumptions. A complete account follows the whole path to redemption, including those dependencies. DeFi becomes easier to assess when the analysis names each obligation and failure point instead of assuming that visible code makes every financial and operational risk transparent. Solana’s <a href=\"solana-alpenglow-mainnet-october-2026.html\">Alpenglow consensus upgrade</a> illustrates why faster network settlement and the risks of a financial application need separate assessment."
     ],
     "sources": [
       {
@@ -6423,7 +6568,7 @@ const TTN_ARTICLES = [
         "url": "https://ethereum.org/developers/docs/smart-contracts/security/"
       }
     ],
-    "dateModified": "2026-10-18T14:42:13-04:00",
+    "dateModified": "2026-10-21T16:15:14Z",
     "editorialNote": null,
     "imageSmall": "assets/responsive/defi-basics-explained-480.webp",
     "imageMedium": "assets/responsive/defi-basics-explained-960.webp",

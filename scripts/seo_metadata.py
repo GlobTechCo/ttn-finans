@@ -1,4 +1,7 @@
 TITLES = '''
+us-oil-inventories-eia-october-21-2026|US Oil Inventories Fall 3.1 Million Barrels
+blacksmith-series-c-code-testing-october-2026|Blacksmith Raises $66 Million for Code Testing
+solana-alpenglow-mainnet-october-2026|Solana Alpenglow Targets Faster Finality
 randstad-q3-2026-staffing-recovery|Randstad Growth Accelerates on US Industrial Hiring
 nvidia-dsx-europe-power-cooling-october-2026|Nvidia Targets AI Data Center Power and Cooling
 shinhan-sbi-yen-stablecoin-payments-october-2026|SBI and Shinhan Plan Yen Stablecoin Payment Tests

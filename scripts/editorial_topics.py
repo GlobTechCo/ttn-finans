@@ -84,3 +84,11 @@ GROUPS['Crypto, stablecoins and market structure'].insert(0, 'shinhan-sbi-yen-st
 RELATED['randstad-q3-2026-staffing-recovery'] = ['nonfarm-payrolls-jobs-report-explained', 'earnings-beat-miss-explained', 'germany-industrial-jobs-loss-ifo-october-2026']
 RELATED['nvidia-dsx-europe-power-cooling-october-2026'] = ['ai-inference-unit-economics-2026', 'ai-data-center-electricity-demand-2026', 'microsoft-nscale-loughton-lease-exit-power-2026']
 RELATED['shinhan-sbi-yen-stablecoin-payments-october-2026'] = ['stablecoins-explained-depeg-risk', 'circle-usdc-revenue-sharing-stablecoin-competition-2026', 'defi-basics-explained']
+
+# October 21 owner-approved oil, software testing and Solana package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'us-oil-inventories-eia-october-21-2026')
+RELATED['us-oil-inventories-eia-october-21-2026'] = ['oil-shock-market-ripple', 'oil-near-100-inflation-2026', 'cpi-inflation-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'blacksmith-series-c-code-testing-october-2026')
+RELATED['blacksmith-series-c-code-testing-october-2026'] = ['ai-boom-capital-financing-2026', 'enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'solana-alpenglow-mainnet-october-2026')
+RELATED['solana-alpenglow-mainnet-october-2026'] = ['defi-basics-explained', 'stablecoins-explained-depeg-risk', 'bitcoin-rebound-etf-outflows-october-19-2026']
