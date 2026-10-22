@@ -1,6 +1,58 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "honeywell-q3-2026-automation-outlook",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Honeywell Raises Its Outlook as Automation Growth Outruns Reported Sales",
+    "dek": "Honeywell lifted its annual earnings forecast after 7% organic sales growth, while divestitures and one-time items complicated the headline comparisons.",
+    "tickers": [
+      "HON"
+    ],
+    "imageAlt": "Illustrative reconstruction of Honeywell’s Charlotte headquarters with its red installed sign, based on the company’s reference photograph.",
+    "sources": [
+      {
+        "label": "Honeywell: third-quarter results, segment tables and revised guidance",
+        "url": "https://honeywell.gcs-web.com/news-releases/news-release-details/honeywell-technologies-reports-third-quarter-results-raises-full"
+      },
+      {
+        "label": "The Wall Street Journal: Honeywell raises its outlook",
+        "url": "https://www.wsj.com/business/earnings/honeywell-technologies-raises-outlook-as-sales-climb-cafb5ca6"
+      },
+      {
+        "label": "Barron’s: earnings and automation performance",
+        "url": "https://www.barrons.com/articles/honeywell-technologies-earnings-stock-price-00f29e35"
+      }
+    ],
+    "body": [
+      "<p>Honeywell Technologies raised its full-year earnings and sales forecasts Thursday after stronger demand and cost reductions lifted its automation businesses. The company now expects adjusted earnings of $8.40 to $8.45 a share, compared with its earlier $8.05 to $8.35 range. The upgrade gives investors a clearer view of the industrial business after the separation of its aerospace operations.</p>",
+      "<p>The quarter also illustrates a reporting trap. Sales rose just 1% to $4.994 billion, but organic growth reached 7%. Adjusted earnings climbed 34% to $2.27 a share, while earnings from continuing operations fell 20% to $2.40. Those figures describe different comparisons, rather than contradictory accounts of the same result.</p>",
+      "<h2>The business underneath the portfolio changes</h2>",
+      "<p>Honeywell’s release attributes the gap between reported and organic sales growth partly to portfolio changes. Its backlog approached $19 billion, up 7% excluding two divested businesses. Management cited pricing, productivity and the removal of costs left behind by previous separations as contributors to improved profitability.</p>",
+      "<p>For a company selling businesses, a smaller perimeter can obscure demand at the operations it retains. A divested unit no longer contributes sales even if remaining customers place more orders. Organic growth attempts to remove specified changes in the portfolio and currency, making it useful alongside the actual dollar revenue recorded in the accounts.</p>",
+      "<p>The two measures answer different investor questions. Reported revenue shows the scale of the current business. Organic growth helps assess its momentum on a more comparable basis. Neither removes the need to check whether customers are buying more equipment, paying higher prices or changing the mix of products they purchase.</p>",
+      "<h2>Three divisions, different profit pressures</h2>",
+      "<p>Building Automation’s sales increased about 8% to $2.02 billion, while Process Automation and Technology rose 16% to $1.86 billion. Industrial Automation’s reported sales fell 23%, although organic growth was positive. The divisional contrast makes a single company-wide growth rate an incomplete description of demand.</p>",
+      "<p>Process Automation’s margin fell even as revenue expanded, reflecting project mix and acquisition effects, according to Honeywell. That matters because a large project can add substantial sales before delivering the profitability associated with service work or a mature installed base. Faster growth does not automatically mean a larger profit on every sales dollar.</p>",
+      "<p>Building controls, industrial measurement and process technology also serve customers with different investment schedules. A building owner can buy a security upgrade on a different timetable from an operator commissioning a major energy project. A diversified order book can spread those exposures, but it does not eliminate changes in customer budgets or the risk of delayed execution.</p>",
+      "<h2>Cash comparisons need the same discipline</h2>",
+      "<p>Operating cash flow was $607 million, down sharply against a prior year helped by a one-time settlement. Honeywell’s adjusted free cash flow increased to $688 million. The release reconciles that measure to operating cash after capital expenditure and specified adjustments, including separation payments.</p>",
+      "<p>A reader using <a href=\"free-cash-flow-explained.html\">free cash flow to judge financial flexibility</a> needs that reconciliation. A cost excluded from an adjusted measure can still require cash. Conversely, an unusually large receipt in the comparison year can make the current cash result look weak without establishing that customer collections have deteriorated to the same degree.</p>",
+      "<p>The question is how much cash the retained business can repeatedly generate after the spending needed to operate and grow. That recurring capacity supports debt repayment, investment and <a href=\"stock-buybacks-explained.html\">distributions to shareholders</a>. A single quarter affected by separation work or exceptional receipts cannot establish the sustainable amount on its own.</p>",
+      "<h2>What the higher forecast requires</h2>",
+      "<p>Honeywell now projects annual sales of $20.0 billion to $20.1 billion and organic growth of 4% to 5%. Those are management forecasts. Their importance lies in the stronger operating performance required over the rest of the year, rather than a guarantee that the announced range will be achieved.</p>",
+      "<p>For shareholders following HON, the next comparison is whether demand, project delivery and cost savings support that outlook together. The <a href=\"earnings-beat-miss-explained.html\">difference between better earnings and performance against expectations</a> remains central: Thursday’s upgrade is evidence of greater management confidence, while the quality of subsequent cash generation will test how much of the improvement reaches the balance sheet.</p>"
+    ],
+    "image": "assets/editorial/honeywell-q3-2026-automation-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/honeywell-q3-2026-automation-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/honeywell-q3-2026-automation-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/honeywell-q3-2026-automation-outlook-cover-v1-480.webp 480w, assets/responsive/honeywell-q3-2026-automation-outlook-cover-v1-960.webp 960w, assets/editorial/honeywell-q3-2026-automation-outlook-cover-v1.webp 1672w",
+    "date": "2026-10-22T12:04:25Z",
+    "dateModified": "2026-10-22T12:04:25Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "barclays-q3-2026-profit-share-buyback",
     "section": "Market Analysis",
     "title": "Barclays Lifts Quarterly Profit 12% and Announces a £500 Million Buyback",

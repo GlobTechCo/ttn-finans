@@ -1383,5 +1383,22 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 199552,
     "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "honeywell-q3-2026-automation-outlook",
+    "file": "assets/editorial/honeywell-q3-2026-automation-outlook-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-22T12:04:25Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 296032,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
   }
 ]
