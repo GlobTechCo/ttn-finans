@@ -1,6 +1,165 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "barclays-q3-2026-profit-share-buyback",
+    "section": "Market Analysis",
+    "title": "Barclays Lifts Quarterly Profit 12% and Announces a £500 Million Buyback",
+    "dek": "Higher profit and a new buyback contrast with uneven trading revenue, showing why growth alone does not settle an earnings assessment.",
+    "tickers": [
+      "BCS"
+    ],
+    "imageAlt": "Generated editorial reconstruction of a documented red-brick Barclays branch facade with its blue eagle and wordmark.",
+    "sources": [
+      {
+        "label": "Reuters: October 22 results, buyback and investment-bank breakdown",
+        "url": "https://www.reuters.com/business/finance/barclays-q3-profit-rises-12-announces-670-million-buyback-2026-10-22/"
+      },
+      {
+        "label": "The Wall Street Journal: profit and buyback versus company-compiled expectations",
+        "url": "https://www.wsj.com/business/earnings/barclays-pretax-profit-misses-estimates-on-fixed-income-weakness-072a1b72"
+      },
+      {
+        "label": "Financial News: equities trading and weaker fixed-income performance",
+        "url": "https://www.fnlondon.com/articles/barclays-investment-bank-misses-expectations-despite-47-stock-trading-gain-b0ee2526"
+      }
+    ],
+    "body": [
+      "<p>Barclays reported third-quarter pre-tax profit of £2.3 billion on Thursday, up 12% from a year earlier, and announced a £500 million share buyback. The result combines growth in earnings with another distribution to shareholders. It also contains a less favorable comparison: profit was below the roughly £2.4 billion expected in the bank’s company-compiled consensus.</p>",
+      "<p>The difference between annual growth and performance against expectations matters. A bank can earn more than it did a year ago and still disappoint investors who had priced in a stronger result. Barclays’ quarter offers a useful example of why an earnings headline needs both comparisons, rather than treating a positive growth rate as a complete assessment.</p>",
+      "<h2>Trading desks move in different directions</h2>",
+      "<p>Investment-bank income was £3.1 billion, compared with forecasts of £3.3 billion, Reuters reported. Equities trading revenue rose 47%, while fixed-income trading income fell 19%. The contrast shows how the label “investment banking” can conceal sharply different conditions across businesses operating inside the same institution.</p>",
+      "<p>An equities desk and a fixed-income desk serve different customer needs and respond to different market conditions. Revenue also depends on client activity, financing, execution and the risks a bank takes to facilitate trades. A busy stock market therefore does not establish that every part of a diversified trading operation will benefit equally.</p>",
+      "<p>The practical analytical task is to separate a broad improvement in the franchise from strength concentrated in one line of business. If growth depends heavily on one activity, the next quarter may be more sensitive to a change in that activity. This is a question about the durability and mix of earnings, rather than a prediction that a strong trading desk must reverse.</p>",
+      "<h2>A buyback is a use of capital</h2>",
+      "<p>The Wall Street Journal reported that the new repurchase program was smaller than the £579 million in the company-compiled consensus. A buyback announcement can consequently carry two messages at once: management is allocating capital to shareholders, but the amount may differ from what investors anticipated. The size should be assessed alongside profitability and the capital the bank needs to retain.</p>",
+      "<p>Repurchases involve buying shares from investors willing to sell. When shares are subsequently retired, the remaining owners hold a larger proportion of the business, all else equal. The company also parts with cash or other available resources. The transaction changes the balance between the number of shares and the assets supporting them; it does not create operating revenue.</p>",
+      "<p>That distinction is especially relevant for a bank. Capital supports its ability to absorb losses and conduct business. Distributing more of it can benefit shareholders, but retaining it can support lending, resilience or future investment. The appropriate balance depends on the bank’s requirements and opportunities, rather than the assumption that the largest possible buyback is always the strongest outcome.</p>",
+      "<p>For the mechanics, see <a href=\"stock-buybacks-explained.html\">how share buybacks affect ownership and per-share figures</a>. A rise in earnings per share driven partly by a smaller denominator should be distinguished from growth in the total profit earned by the business.</p>",
+      "<h2>Costs and the next evidence to watch</h2>",
+      "<p>Reuters also reported £201 million of structural cost actions in the quarter. Such spending makes the timing of a cost program important: a charge can reduce current earnings while management seeks savings later. Whether those savings arrive, and whether the business can maintain service and revenue while changing its operations, are separate questions.</p>",
+      "<p>For the next reporting period, the useful checks are the breadth of income growth, the cost base after restructuring and the relationship between distributions and retained capital. A single profitable quarter cannot establish that a cost program has delivered its intended return. Equally, a current charge does not demonstrate that the program has failed.</p>",
+      "<p>U.S. readers can follow Barclays through its BCS depositary receipts on the New York Stock Exchange. The operating figures in this report are in pounds sterling; a dollar-denominated security quotation is a different measurement. Keeping that distinction clear helps avoid mixing the bank’s financial performance with currency movements or the trading price of its U.S. listing.</p>"
+    ],
+    "image": "assets/editorial/barclays-q3-2026-profit-share-buyback-cover-v1.webp",
+    "imageSmall": "assets/responsive/barclays-q3-2026-profit-share-buyback-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/barclays-q3-2026-profit-share-buyback-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/barclays-q3-2026-profit-share-buyback-cover-v1-480.webp 480w, assets/responsive/barclays-q3-2026-profit-share-buyback-cover-v1-960.webp 960w, assets/editorial/barclays-q3-2026-profit-share-buyback-cover-v1.webp 1672w",
+    "date": "2026-10-22T08:04:44Z",
+    "dateModified": "2026-10-22T08:04:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "nokia-q3-2026-ai-cloud-network-orders",
+    "section": "Tech & AI",
+    "title": "Nokia Books €1.5 Billion of AI and Cloud Orders as Cash Demands Rise",
+    "dek": "AI demand lifts Nokia’s networking business, while accelerated restructuring and working-capital needs complicate the profit picture.",
+    "tickers": [
+      "NOK"
+    ],
+    "imageAlt": "Generated editorial reconstruction of Nokia’s documented Espoo headquarters facade, with its white angular wordmark on wood cladding.",
+    "sources": [
+      {
+        "label": "Nokia: Q3 2026 interim report, outlook and financial statements",
+        "url": "https://www.nokia.com/system/files/2026-10/nokia_results_2026_q3.pdf"
+      },
+      {
+        "label": "Nokia: official quarterly results and supporting materials",
+        "url": "https://www.nokia.com/financials/"
+      },
+      {
+        "label": "Dow Jones: network demand and restructuring outlook",
+        "url": "https://www.marketscreener.com/news/nokia-reports-continued-strength-from-ai-data-center-rollout-ce785cd9de8cf322"
+      },
+      {
+        "label": "Bloomberg: quarterly comparable profit and market context",
+        "url": "https://www.moneycontrol.com/news/business/earnings/nokia-s-ai-bet-pays-off-q3-profit-beats-estimates-as-data-centre-demand-surges-14057370.html"
+      }
+    ],
+    "body": [
+      "<p>Nokia secured €1.5 billion of new orders from AI and cloud customers in the third quarter, according to its interim report released Thursday. Sales to that customer group more than doubled from a year earlier. The figures show demand for the connections that move data between computing systems, even as investment in AI is more commonly associated with processors and data-center buildings.</p>",
+      "<p>The company’s group net sales reached €5.154 billion, up 10% as reported and 9% on a constant-currency basis. Those growth rates answer different questions: reported sales include exchange-rate effects, while the adjusted comparison helps assess the operating movement. Neither figure should be substituted for the other without specifying the basis.</p>",
+      "<h2>Networking connects the AI buildout</h2>",
+      "<p>Nokia sells optical and internet-protocol networking technology used to connect infrastructure. Its network-infrastructure segment reported 15% constant-currency sales growth in the quarter. Stronger demand from AI and cloud customers provides evidence that infrastructure investment is reaching connectivity suppliers, rather than stopping at the companies that design computing chips.</p>",
+      "<p>An AI system has to move information as well as process it. Links between equipment, buildings and regions can become constraints when computing capacity expands. More processors do not by themselves guarantee that data can reach the right place quickly enough or that a growing facility can connect efficiently with the rest of an operator’s network.</p>",
+      "<p>That creates an opportunity for suppliers of optical transport and routing equipment. It also means the value of their products depends on a customer’s broader deployment schedule. Power availability, equipment installation and acceptance testing can influence when an order becomes revenue. A healthy order book is commercially meaningful, but it is not the same thing as cash already received.</p>",
+      "<h2>Comparable profit and reported profit diverge</h2>",
+      "<p>Nokia reported comparable operating profit of €605 million, up 35%, while reported operating profit fell 22% to €196 million. Restructuring and integration costs explain much of the divergence. The company kept its full-year comparable operating-profit outlook at €2.1 billion to €2.6 billion.</p>",
+      "<p>The two measures should be read together. A comparable figure can make the performance of ongoing operations easier to assess by removing specified items. The reported figure still records costs borne by the company. Excluding a cost from an analytical measure does not mean the expense disappears or that it can have no effect on shareholder returns.</p>",
+      "<p>This is particularly relevant when a business is changing its portfolio and integrating an acquisition. Savings may emerge over time, while the work needed to achieve them affects current accounts. Investors need to inspect the reconciliation and the timing of payments, rather than assume an improving adjusted measure provides a complete picture of the transition.</p>",
+      "<h2>Growth also absorbs cash</h2>",
+      "<p>Nokia’s full-year assumptions now include an additional €400 million investment in working capital and a lower free-cash-flow conversion range of 35% to 55%. It expects restructuring and associated charges of €1.1 billion. These assumptions qualify the demand story: preparing to supply more equipment can require funding before the related customer payments arrive.</p>",
+      "<p>Working capital includes resources tied up in items such as inventory and receivables. A supplier may need components on hand to meet delivery schedules, then wait for payment after shipping equipment. That can make revenue growth and cash generation move in different directions during an expansion. It is a financing requirement that deserves attention alongside margins.</p>",
+      "<p>TTN’s <a href=\"ai-chips-bottlenecks-2026.html\">explanation of AI supply bottlenecks</a> describes why a hardware expansion depends on several linked inputs. Nokia’s report adds a supplier-level example: orders can expand while preparations to fulfill them consume cash. The figures do not establish the return customers will ultimately earn from the AI capacity being connected.</p>",
+      "<h2>The next test is conversion into deliveries and cash</h2>",
+      "<p>The next useful comparisons will track how the order book turns into revenue, whether restructuring delivers the expected operating benefits and how working capital evolves as shipments increase. Those measures would help distinguish a sustained improvement in the business from a strong quarter supported by the timing of orders or deliveries.</p>",
+      "<p>Nokia’s U.S. depositary receipts trade under NOK, while this earnings report uses euros. For readers following the listed security, the central question is how demand, implementation costs and cash collection work together. Thursday’s results support the case for growing AI-networking demand while making clear that supplying that growth also carries financial demands.</p>"
+    ],
+    "image": "assets/editorial/nokia-q3-2026-ai-cloud-network-orders-cover-v1.webp",
+    "imageSmall": "assets/responsive/nokia-q3-2026-ai-cloud-network-orders-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/nokia-q3-2026-ai-cloud-network-orders-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/nokia-q3-2026-ai-cloud-network-orders-cover-v1-480.webp 480w, assets/responsive/nokia-q3-2026-ai-cloud-network-orders-cover-v1-960.webp 960w, assets/editorial/nokia-q3-2026-ai-cloud-network-orders-cover-v1.webp 1672w",
+    "date": "2026-10-22T08:04:44Z",
+    "dateModified": "2026-10-22T08:04:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "bitcoin-pullback-ai-market-risk-october-22-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Bitcoin Retreats Toward $82,000 After Its Push Near $85,000 Fades",
+    "dek": "Bitcoin gave back an overnight rally as technology-market nerves resurfaced; ether, Solana and XRP also weakened in a timed exchange snapshot.",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP"
+    ],
+    "imageAlt": "Illustrative photograph-style still life of Bitcoin and Ethereum medallions beside a computer keyboard, with an abstract red line blurred behind.",
+    "sources": [
+      {
+        "label": "Binance public market data: BTC, ETH, SOL and XRP rolling 24-hour snapshot",
+        "url": "https://data-api.binance.vision/api/v3/ticker/24hr?symbols=%5B%22BTCUSDT%22,%22ETHUSDT%22,%22SOLUSDT%22,%22XRPUSDT%22%5D"
+      },
+      {
+        "label": "CoinDesk: overnight Bitcoin reversal and technology-market context",
+        "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves"
+      },
+      {
+        "label": "Reuters: Asian markets, technology concerns and Gulf tensions",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/"
+      }
+    ],
+    "body": [
+      "<p>Bitcoin retreated toward $82,000 on Thursday morning after an overnight attempt to approach $85,000 failed to hold. A Binance spot-market snapshot showed the BTC/USDT pair near the bottom of its rolling 24-hour range, while several other large tokens also weakened. The reversal came as renewed concern about technology earnings and AI spending weighed on risk appetite across markets.</p>",
+      "<p>At 4:01 a.m. Eastern Time on October 22, Binance quoted bitcoin at about $82,232, down 1.14% over the preceding 24 hours. Its high over that window was $84,898 and its low was $82,111. These are time-specific figures from one exchange’s USDT trading pair, rather than a live global dollar price or a forecast of where the session will end.</p>",
+      "<h2>The overnight rally gives way</h2>",
+      "<p>CoinDesk’s earlier Asian-morning report described a move through $84,000 late Wednesday, followed by a retreat of more than $2,000 from the peak. It linked the weaker backdrop to mixed corporate results and doubts about the AI trade. Reuters separately reported weakness in Asian equities alongside technology concerns and renewed tensions in the Gulf.</p>",
+      "<p>The subsequent Binance snapshot was lower than the roughly $82,800 described in CoinDesk’s earlier report. The difference reflects observations taken at different times and through different data sources. It should not be smoothed into one continuous quotation. The important common development is that the attempted advance did not remain intact into the Asian session.</p>",
+      "<p>A cryptocurrency market can trade through the night while the U.S. cash-equity market is closed. Traders still react to company announcements and changes in stock-index futures during those hours. That gives bitcoin a route to reflect shifts in broader risk appetite without requiring a new development in the Bitcoin network itself.</p>",
+      "<h2>Other major tokens also weaken</h2>",
+      "<p>The same exchange snapshot put ether near $2,430, down 1.19% over 24 hours. Solana was about $104.40, down 2.33%, while XRP was approximately $1.3393, down 0.57%. The different magnitudes show that a broad retreat does not affect every token equally, even when the direction of the observed move is shared.</p>",
+      "<p>The 24-hour comparison is a moving window. As an earlier rally drops out of that window, the percentage change can shift even without a dramatic new price movement. Readers should distinguish that calculation from a change since midnight, a U.S. market close or the start of the Asian trading session.</p>",
+      "<p>USDT pairs also involve a dollar-linked token rather than a direct U.S. dollar bank balance. Their quotations are useful market observations, but prices can differ between venues and pairs. A comparison with another exchange should use compatible timestamps and instruments before treating a small difference as evidence of a meaningful trading gap.</p>",
+      "<h2>Why technology-market nerves can reach crypto</h2>",
+      "<p>The connection is financial rather than a direct dependency between an AI company’s earnings and the Bitcoin protocol. An investor facing more uncertainty in one risky asset may reduce exposure elsewhere, raise cash or reassess a leveraged position. Common ownership and financing conditions can therefore make otherwise different markets move together for a period.</p>",
+      "<p>That mechanism is a plausible explanation for the shared backdrop, not proof that one corporate announcement caused every crypto trade. The available price snapshot does not identify who sold, whether positions were leveraged or how much of the move came from forced liquidations. Claims about those details would require separate evidence.</p>",
+      "<p>TTN’s <a href=\"crypto-liquidation-leverage-explained.html\">guide to leverage and liquidations</a> explains how a modest price move can become more consequential for a heavily financed position. The mechanism matters for interpreting volatility, but it should not be used to invent a liquidation total for this session.</p>",
+      "<h2>What would establish a stronger recovery</h2>",
+      "<p>A recovery would need evidence beyond a brief return to a round price level. Sustained buying, the behavior of other major tokens and the market’s response to subsequent financial news would provide more useful context. A failed overnight advance, on its own, does not determine the next trend or establish an inevitable further decline.</p>",
+      "<p>The immediate finding is narrower: bitcoin surrendered its attempted move toward $85,000 and traded close to its observed 24-hour low by the stated snapshot. The active charts below provide a way to inspect subsequent trading. The figures in the article preserve their original observation time so that later price changes do not rewrite what happened.</p>"
+    ],
+    "image": "assets/editorial/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T08:04:44Z",
+    "dateModified": "2026-10-22T08:04:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "tesla-q3-2026-cash-flow-results",
     "section": "Market Analysis",
     "title": "Tesla Returns to Positive Free Cash Flow as Operating Profit Falls 56%",

@@ -2100,6 +2100,39 @@
       "bytes": 262760,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/occ-genius-final-stablecoin-rule-october-2026.html"
+    },
+    {
+      "page": "barclays-q3-2026-profit-share-buyback.html",
+      "source": "assets/editorial/barclays-q3-2026-profit-share-buyback-cover-v1.webp",
+      "image": "assets/social/barclays-q3-2026-profit-share-buyback-cover-v1-05d032900441.webp",
+      "sha256": "05d032900441b6e100742da3efdfd4870e1a3b264b0aa2e7a4f8f0c17bfc11df",
+      "width": 1672,
+      "height": 941,
+      "bytes": 359950,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/barclays-q3-2026-profit-share-buyback.html"
+    },
+    {
+      "page": "nokia-q3-2026-ai-cloud-network-orders.html",
+      "source": "assets/editorial/nokia-q3-2026-ai-cloud-network-orders-cover-v1.webp",
+      "image": "assets/social/nokia-q3-2026-ai-cloud-network-orders-cover-v1-3a77563aeb95.webp",
+      "sha256": "3a77563aeb956108a2e99966075e9476e6a7d26e37cf66159bb4713f44fa1826",
+      "width": 1672,
+      "height": 940,
+      "bytes": 265248,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/nokia-q3-2026-ai-cloud-network-orders.html"
+    },
+    {
+      "page": "bitcoin-pullback-ai-market-risk-october-22-2026.html",
+      "source": "assets/editorial/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1.webp",
+      "image": "assets/social/bitcoin-pullback-ai-market-risk-october-22-2026-cover-v1-962e0b69f171.webp",
+      "sha256": "962e0b69f1717a977742ce3019dedc13a9e518dcb788f2b153f72d5f1b9a8be3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 199552,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-pullback-ai-market-risk-october-22-2026.html"
     }
   ]
 }

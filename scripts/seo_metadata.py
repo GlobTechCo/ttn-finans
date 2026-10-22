@@ -1,4 +1,7 @@
 TITLES = '''
+bitcoin-pullback-ai-market-risk-october-22-2026|Bitcoin Retreats Toward $82,000 as AI Nerves Return
+nokia-q3-2026-ai-cloud-network-orders|Nokia Books €1.5 Billion of AI and Cloud Orders
+barclays-q3-2026-profit-share-buyback|Barclays Q3 Profit Rises 12%; £500 Million Buyback
 occ-genius-final-stablecoin-rule-october-2026|OCC Finalizes GENIUS Act Stablecoin Rules
 openai-google-cloud-model-garden-october-2026|OpenAI Models and Codex Are Coming to Google Cloud
 tesla-q3-2026-cash-flow-results|Tesla Q3: Cash Recovers, Operating Profit Falls
@@ -118,6 +121,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+bitcoin-pullback-ai-market-risk-october-22-2026|Bitcoin gave back an overnight rally as technology-market nerves resurfaced; ether, Solana and XRP also weakened in a timed exchange snapshot.
+nokia-q3-2026-ai-cloud-network-orders|AI demand lifts Nokia’s networking business, while accelerated restructuring and working-capital needs complicate the profit picture.
+barclays-q3-2026-profit-share-buyback|Higher profit and a new buyback contrast with uneven trading revenue, showing why growth alone does not settle an earnings assessment.
 occ-genius-final-stablecoin-rule-october-2026|The OCC’s final GENIUS Act framework takes effect January 18, 2027, alongside licensing guidance and a separate reporting process.
 openai-google-cloud-model-garden-october-2026|The partnership adds OpenAI models to Google Cloud’s catalog, with private preview first and purchases drawing on existing cloud commitments.
 tesla-q3-2026-cash-flow-results|Tesla generated $1.53 billion of free cash flow in Q3, but higher operating expenses weighed on profit as revenue stayed nearly flat.
