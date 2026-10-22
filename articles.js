@@ -7,7 +7,7 @@ const TTN_ARTICLES = [
     "title": "Treasury’s $26 billion TIPS auction locks in a 2.367% real yield",
     "dek": "A new five-year inflation-protected Treasury pays a 2.25% coupon. Its auction yield shows why inflation protection and price stability differ.",
     "tickers": [],
-    "imageAlt": "Illustrative reconstruction of the U.S. Treasury entrance and Albert Gallatin statue in daylight",
+    "imageAlt": "Illustrative reconstruction of the southeast corner of the U.S. Treasury Building, based on an official photographic reference",
     "sources": [
       {
         "label": "Treasury: October 22 five-year TIPS auction results",
@@ -38,10 +38,10 @@ const TTN_ARTICLES = [
       "<p>Nor does the inflation adjustment track every household’s budget. A renter facing a steep renewal increase and a homeowner with a fixed mortgage can experience very different changes in living costs. The security follows its designated index, rather than an investor’s personal spending basket. That distinction matters when evaluating purchasing-power protection.</p>",
       "<p>The auction follows this week’s <a href=\"us-treasury-20-year-auction-october-21-2026.html\">20-year Treasury sale</a>, but the two instruments answer different questions: long-term nominal financing versus a shorter inflation-linked commitment. For investors assessing the new issue, the next relevant evidence will be its secondary-market real yield and the inflation adjustments over its life, rather than the coupon number viewed in isolation.</p>"
     ],
-    "image": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-480.webp 480w, assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-960.webp 960w, assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp 1672w",
+    "image": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v2-480.webp 480w, assets/responsive/five-year-tips-auction-october-22-2026-cover-v2-960.webp 960w, assets/editorial/five-year-tips-auction-october-22-2026-cover-v2.webp 1672w",
     "date": "2026-10-22T19:09:48Z",
     "dateModified": "2026-10-22T19:09:48Z",
     "author": "TTN Research Desk",

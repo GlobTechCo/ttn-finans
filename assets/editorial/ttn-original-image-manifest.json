@@ -1539,9 +1539,9 @@
   },
   {
     "article": "five-year-tips-auction-october-22-2026",
-    "file": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp",
+    "file": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v2.webp",
     "source": "OpenAI built-in image generation",
-    "generatedAt": "2026-10-22T19:09:48Z",
+    "generatedAt": "2026-10-22T19:45:29Z",
     "nativeSize": [
       1672,
       941
@@ -1551,8 +1551,8 @@
       941
     ],
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
-    "bytes": 441242,
-    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+    "bytes": 440934,
+    "provenance": "Owner approved exact southeast-corner preview and instructed publication. Reference https://home.treasury.gov/system/files/301/6_southeast_corner_1.jpg. Illustrative reconstruction, not documentary evidence. Prior frontal cover retained as historical asset."
   },
   {
     "article": "uber-chatgpt-work-rollout-october-2026",
