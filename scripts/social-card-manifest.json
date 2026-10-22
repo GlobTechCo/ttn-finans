@@ -2232,6 +2232,39 @@
       "bytes": 441962,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/fireblocks-denies-visa-acquisition-talks-october-2026.html"
+    },
+    {
+      "page": "five-year-tips-auction-october-22-2026.html",
+      "source": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp",
+      "image": "assets/social/five-year-tips-auction-october-22-2026-cover-v1-e3d5184675c8.webp",
+      "sha256": "e3d5184675c8a8e41b4e2d1268c23cc313a80600405f3dd222fdb93b30016df3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 441242,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/five-year-tips-auction-october-22-2026.html"
+    },
+    {
+      "page": "uber-chatgpt-work-rollout-october-2026.html",
+      "source": "assets/editorial/uber-chatgpt-work-rollout-october-2026-cover-v1.webp",
+      "image": "assets/social/uber-chatgpt-work-rollout-october-2026-cover-v1-1c212a78a4a1.webp",
+      "sha256": "1c212a78a4a17733d0b4e9edca5758f206c3a0fbb4866ce6c7a77857c847c996",
+      "width": 1672,
+      "height": 941,
+      "bytes": 440248,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/uber-chatgpt-work-rollout-october-2026.html"
+    },
+    {
+      "page": "sofi-earn-tokenized-deposit-october-2026.html",
+      "source": "assets/editorial/sofi-earn-tokenized-deposit-october-2026-cover-v1.webp",
+      "image": "assets/social/sofi-earn-tokenized-deposit-october-2026-cover-v1-0c613b717d00.webp",
+      "sha256": "0c613b717d00de3ac98c29723bc0cf06d22b03c690cc16875dc150c0ca54f534",
+      "width": 1672,
+      "height": 941,
+      "bytes": 184476,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/sofi-earn-tokenized-deposit-october-2026.html"
     }
   ]
 }

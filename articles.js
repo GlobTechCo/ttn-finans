@@ -1,6 +1,159 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "five-year-tips-auction-october-22-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Treasury’s $26 billion TIPS auction locks in a 2.367% real yield",
+    "dek": "A new five-year inflation-protected Treasury pays a 2.25% coupon. Its auction yield shows why inflation protection and price stability differ.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the U.S. Treasury entrance and Albert Gallatin statue in daylight",
+    "sources": [
+      {
+        "label": "Treasury: October 22 five-year TIPS auction results",
+        "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261022_4.pdf"
+      },
+      {
+        "label": "TreasuryDirect: how TIPS work",
+        "url": "https://www.treasurydirect.gov/marketable-securities/tips/"
+      },
+      {
+        "label": "Tipswatch: auction assessment",
+        "url": "https://tipswatch.com/2026/10/22/5-year-tips-auction-gets-real-yield-of-2-367-on-a-strong-day-for-treasurys/"
+      }
+    ],
+    "body": [
+      "<p>The U.S. Treasury sold $26 billion of new five-year inflation-protected notes on October 22 at a real yield of 2.367%. The result establishes the return above the securities’ inflation adjustment for buyers at the auction price, giving investors a fresh benchmark for the cost of protecting purchasing power over the next five years.</p>",
+      "<p>The issue carries a 2.25% annual coupon and matures on October 15, 2031, according to the <a href=\"https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261022_4.pdf\" rel=\"noopener noreferrer\">official auction results</a>. Settlement is October 30. The difference between the coupon and the auction yield is important: the coupon determines interest payments, while the yield also reflects what buyers pay for the security.</p>",
+      "<h2>Demand cleared slightly above the market’s indication</h2>",
+      "<p>The bid-to-cover ratio was 2.41, meaning submitted bids totaled about 2.41 times the amount awarded. That measures the volume of bidding relative to supply; it does not tell investors that every bidder was willing to pay the same price, or that the security will appreciate after settlement.</p>",
+      "<p>Specialist publication Tipswatch reported a pre-auction when-issued yield of 2.360%. The final 2.367% result was therefore 0.7 basis point higher, a small auction tail. Buyers received a slightly higher yield than that indication suggested. This is a useful execution detail, rather than evidence on its own of a broad loss of confidence in Treasury debt.</p>",
+      "<p>Treasury reported a settlement index ratio of 1.00154, which links the adjusted and unadjusted principal values for this issue. It is a settlement calculation, not an additional annual interest rate. The unadjusted auction price was $99.454587 per $100 of principal. Treasury also reported an inflation-adjusted price of $99.607747 and adjusted accrued interest of $0.92863 per $1,000. Those separate figures explain why multiplying the quoted unadjusted price by an order’s face value does not necessarily reproduce the final settlement payment.</p>",
+      "<h2>What the real yield actually promises</h2>",
+      "<p><a href=\"https://www.treasurydirect.gov/marketable-securities/tips/\" rel=\"noopener noreferrer\">Treasury Inflation-Protected Securities</a>, or TIPS, adjust principal with changes in the Consumer Price Index. Their fixed coupon rate is applied to that adjusted principal, with interest paid twice a year. As principal changes, the dollar amount of interest changes too. The coupon percentage itself stays fixed for the life of the note.</p>",
+      "<p>For illustration, a 2.25% coupon on $1,000 of principal corresponds to $22.50 of annual interest before any inflation adjustment. If adjusted principal rises, the same coupon produces a larger dollar payment. This example explains the mechanism; it is not a calculation of this auction buyer’s total return, which also depends on purchase price and subsequent inflation.</p>",
+      "<p>At maturity, Treasury pays the greater of original principal or inflation-adjusted principal. That protection applies at maturity. Someone who sells earlier can receive less than the purchase price if market real yields have risen. The familiar <a href=\"bond-duration-explained.html\">inverse relationship between bond prices and yields</a> still matters for an inflation-linked bond.</p>",
+      "<h2>A benchmark, not a forecast for household inflation</h2>",
+      "<p>The 2.367% figure should not be read as Treasury’s prediction for inflation. It is a real yield, distinct from a nominal Treasury yield that does not adjust principal. Comparing the two can help assess market pricing of inflation compensation, but that comparison also reflects liquidity and risk premiums. It cannot isolate a pure forecast of future consumer prices.</p>",
+      "<p>Nor does the inflation adjustment track every household’s budget. A renter facing a steep renewal increase and a homeowner with a fixed mortgage can experience very different changes in living costs. The security follows its designated index, rather than an investor’s personal spending basket. That distinction matters when evaluating purchasing-power protection.</p>",
+      "<p>The auction follows this week’s <a href=\"us-treasury-20-year-auction-october-21-2026.html\">20-year Treasury sale</a>, but the two instruments answer different questions: long-term nominal financing versus a shorter inflation-linked commitment. For investors assessing the new issue, the next relevant evidence will be its secondary-market real yield and the inflation adjustments over its life, rather than the coupon number viewed in isolation.</p>"
+    ],
+    "image": "assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-480.webp 480w, assets/responsive/five-year-tips-auction-october-22-2026-cover-v1-960.webp 960w, assets/editorial/five-year-tips-auction-october-22-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T19:09:48Z",
+    "dateModified": "2026-10-22T19:09:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "uber-chatgpt-work-rollout-october-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Uber opens ChatGPT Work to more than 30,000 employees",
+    "dek": "Uber is expanding a 1,000-person pilot across its workforce. The rollout tests whether AI agents can turn broad access into measurable work savings.",
+    "tickers": [
+      "UBER"
+    ],
+    "imageAlt": "Illustrative Uber Mission Bay headquarters scene with a separate OpenAI brand overlay",
+    "sources": [
+      {
+        "label": "OpenAI: Uber companywide ChatGPT Work rollout",
+        "url": "https://openai.com/index/uber-chatgpt-work-rollout/"
+      },
+      {
+        "label": "OpenAI: ChatGPT Work capabilities and controls",
+        "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/"
+      },
+      {
+        "label": "OpenAI: earlier Uber customer-facing applications",
+        "url": "https://openai.com/index/uber/"
+      },
+      {
+        "label": "TechCrunch: rollout reporting",
+        "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+      }
+    ],
+    "body": [
+      "<p>Uber is making ChatGPT Work available to more than 30,000 employees, expanding a roughly 1,000-person pilot into a companywide deployment announced October 22. The move takes OpenAI’s workplace agent beyond a limited trial and creates a larger test of whether software that completes tasks across business applications can become part of everyday corporate operations.</p>",
+      "<p>According to <a href=\"https://openai.com/index/uber-chatgpt-work-rollout/\" rel=\"noopener noreferrer\">OpenAI’s announcement</a>, the rollout starts today within Uber’s ChatGPT Enterprise environment. Availability across the workforce does not mean that every employee is already using the product. The announcement concerns employees, rather than a new entitlement for the drivers and couriers who earn through Uber’s marketplace.</p>",
+      "<h2>From answering questions to completing work</h2>",
+      "<p>ChatGPT Work is designed to carry out multistep assignments using connected applications and company information. OpenAI describes research, briefs, presentations and data analysis among the intended uses, with connections to services including Google Drive, Gmail, Calendar and Slack. That makes integration with the organization’s existing workflows central to the deployment.</p>",
+      "<p>Uber is also developing an internal library of reusable skills and providing training, while its developers continue using Codex. These are different routes into the same organization: a coding assistant serves software development, whereas the wider workplace rollout reaches functions such as operations, finance and marketing. The companywide initiative is therefore broader than expanding an engineering tool.</p>",
+      "<p>The practical distinction is the output expected from an agent. A conventional question might produce an explanation of a spreadsheet. An agent assignment could involve locating the relevant files, analyzing their contents and assembling a finished presentation. That is an illustrative workflow, not a disclosed Uber production example, but it explains why connected tools change the scope of employee review.</p>",
+      "<h2>Access is the first milestone; useful adoption comes next</h2>",
+      "<p>The companies plan to share further findings about adoption and measurable outcomes. They have not established through this announcement how much labor the wider rollout will save, or whether any savings will exceed the deployment’s full cost. Uber did not disclose the rollout’s cost to TechCrunch.</p>",
+      "<p>The relevant business test is completed work that remains useful after review. If an agent produces a report quickly but leaves an employee checking every figure and rebuilding its conclusions, the time saved at the drafting stage can overstate the overall benefit. Our <a href=\"ai-agents-enterprise-roi-2026.html\">enterprise AI return-on-investment analysis</a> explains why licensing and implementation costs also belong in that calculation.</p>",
+      "<p>A useful comparison would also match tasks of similar complexity and account for training time. Otherwise, changes in the work assigned could be mistaken for improvements caused by the software. Managers would need to distinguish frequent use from improved performance. A task might be opened often because it is valuable, or because employees are repeatedly correcting the output. Comparing completion time, error rates and rework against an earlier process would provide stronger evidence than counting prompts alone. These are evaluation criteria, rather than results Uber has reported.</p>",
+      "<h2>A broader partnership, with different permission boundaries</h2>",
+      "<p>OpenAI’s May customer case study described separate Uber applications for drivers and riders, including marketplace guidance and voice-based ride booking. Those product features provide context for the relationship but are not the same as today’s employee deployment. A consumer assistant responding inside a transportation app and a workplace agent accessing corporate files operate in different information environments.</p>",
+      "<p>OpenAI’s product documentation describes enterprise controls over integrations, access and sensitive actions. Their existence does not remove the need to configure them for a specific organization. As our guide to <a href=\"enterprise-ai-data-security-2026.html\">enterprise AI data security</a> discusses, a useful deployment must limit which information and actions each user can reach, as well as review what the system produces.</p>",
+      "<p>For Uber, the next meaningful milestone will be evidence that staff keep using the system for repeatable work with acceptable accuracy and lower overall effort. For OpenAI, the rollout is a substantial distribution commitment inside an established global business. It is a customer expansion today; the productivity and financial effects remain questions to be measured.</p>"
+    ],
+    "image": "assets/editorial/uber-chatgpt-work-rollout-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/uber-chatgpt-work-rollout-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/uber-chatgpt-work-rollout-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/uber-chatgpt-work-rollout-october-2026-cover-v1-480.webp 480w, assets/responsive/uber-chatgpt-work-rollout-october-2026-cover-v1-960.webp 960w, assets/editorial/uber-chatgpt-work-rollout-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T19:09:48Z",
+    "dateModified": "2026-10-22T19:09:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "sofi-earn-tokenized-deposit-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "SoFi launches a 4.40% tokenized deposit with a bridge to crypto",
+    "dek": "SoFi Earn represents bank deposits, while conversion to SoFiUSD moves funds into a different product. The insurance boundary matters as much as the rate.",
+    "tickers": [
+      "SOFI"
+    ],
+    "imageAlt": "Illustrative smartphone displaying SoFi Earn branding beside a light ceramic planter",
+    "sources": [
+      {
+        "label": "SoFi: SoFi Earn launch and product terms",
+        "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Launches-SoFi-Earn-SOFIE-the-First-and-Only-National-Bank-Issued-Tokenized-Deposit-for-Consumers/default.aspx"
+      },
+      {
+        "label": "FDIC: deposit insurance at a glance",
+        "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/deposits-at-a-glance"
+      },
+      {
+        "label": "FDIC: deposit insurance FAQs",
+        "url": "https://www.fdic.gov/resources/deposit-insurance/faq"
+      },
+      {
+        "label": "Crypto.news: SoFi product reporting",
+        "url": "https://crypto.news/sofi-launches-sofie-tokenized-deposit-4-40-apy/"
+      }
+    ],
+    "body": [
+      "<p>SoFi launched SoFi Earn on October 22, offering consumers a tokenized bank deposit with a stated variable annual percentage yield of 4.40%. The product links an interest-bearing deposit to a route into digital assets, putting the distinction between a bank balance and a stablecoin at the center of the offer.</p>",
+      "<p>The company says each SoFi Earn token, identified as SOFIE, represents one dollar deposited at SoFi Bank, N.A. The advertised rate was current as of October 20 and can change. There is no minimum balance, according to the <a href=\"https://investors.sofi.com/news/news-details/2026/SoFi-Launches-SoFi-Earn-SOFIE-the-First-and-Only-National-Bank-Issued-Tokenized-Deposit-for-Consumers/default.aspx\" rel=\"noopener noreferrer\">launch announcement</a>. Access is rolling out through November, so the announcement does not mean all customers can use it immediately.</p>",
+      "<h2>Two tokens with different financial roles</h2>",
+      "<p>SOFIE is a bank deposit representation, separate from the company’s SoFiUSD stablecoin. SoFi describes a one-for-one conversion route into SoFiUSD, after which customers can use the crypto app or transfer the stablecoin to supported external wallets. The deposit product and the transferable stablecoin should therefore be evaluated separately, despite sharing an issuer’s brand.</p>",
+      "<p>The attraction is a shorter path between holding money in a yield-bearing account and putting it to use in digital-asset transactions. A customer could leave funds in the deposit product until needed, then convert them. That is an explanation of the proposed workflow, rather than a claim that every transfer will be instant, free or supported on every blockchain.</p>",
+      "<p>The rate is variable, rather than a fixed commitment for a specified term, and fees may reduce earnings. Annual percentage yield also expresses an annualized measure; it is not a promise that someone holding the product for a few days will receive 4.40% of the opening balance. The rate, holding period and applicable terms all affect the actual result.</p>",
+      "<h2>Deposit insurance has an aggregation rule</h2>",
+      "<p>SoFi says the deposit is eligible for FDIC insurance subject to the applicable rules and limits. The standard limit is $250,000 per depositor, per insured bank, per ownership category. This is not automatically a fresh $250,000 allowance for every app feature or separately named product a customer opens at the same institution.</p>",
+      "<p>The <a href=\"https://www.fdic.gov/resources/deposit-insurance/brochures/deposits-at-a-glance\" rel=\"noopener noreferrer\">FDIC explains</a> that deposits held in the same ownership category at the same insured bank are added together when determining coverage. An existing balance at SoFi Bank can therefore matter when evaluating a new SOFIE balance. The relevant question is the combined eligible deposit amount and its ownership category, rather than the number of account labels.</p>",
+      "<p>For example, consider a single owner with $200,000 in one eligible deposit and $100,000 in another at the same insured bank, both in the same ownership category. The combined amount is $300,000 against the standard $250,000 limit. Calling the second balance a token does not by itself change that arithmetic. Different ownership categories have their own requirements.</p>",
+      "<h2>The conversion changes what the customer holds</h2>",
+      "<p>Deposit insurance does not follow funds into a stablecoin or another cryptoasset merely because the conversion began inside a bank-branded app. A depositor’s claim on a bank and ownership of a digital token are different financial positions. Before converting, the important details include redemption rights, transfer restrictions, supported networks and which entity owes the customer money.</p>",
+      "<p>Our <a href=\"stablecoins-explained-depeg-risk.html\">guide to stablecoins and depeg risk</a> explains why a dollar reference does not make every instrument equivalent to an insured dollar deposit. Meanwhile, the <a href=\"occ-genius-final-stablecoin-rule-october-2026.html\">new stablecoin regulatory framework</a> concerns payment-token obligations; readers should not assume those obligations replace the deposit-insurance rules that apply on the banking side.</p>",
+      "<p>The launch’s significance is the connection between those two environments. Its success will depend on whether customers find the conversion route useful and understand when their exposure changes. The next evidence to watch is the actual rollout, the product’s evolving rate and transaction terms, and any disclosure of usage. A launch announcement alone cannot establish demand or the profitability of the new service.</p>"
+    ],
+    "image": "assets/editorial/sofi-earn-tokenized-deposit-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/sofi-earn-tokenized-deposit-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/sofi-earn-tokenized-deposit-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/sofi-earn-tokenized-deposit-october-2026-cover-v1-480.webp 480w, assets/responsive/sofi-earn-tokenized-deposit-october-2026-cover-v1-960.webp 960w, assets/editorial/sofi-earn-tokenized-deposit-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T19:09:48Z",
+    "dateModified": "2026-10-22T19:09:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "us-jobless-claims-october-22-2026",
     "section": "Market Analysis",
     "format": "news",

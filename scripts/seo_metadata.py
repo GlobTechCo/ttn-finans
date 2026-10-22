@@ -1,4 +1,7 @@
 TITLES = '''
+sofi-earn-tokenized-deposit-october-2026|SoFi Earn launches tokenized deposits at 4.40% APY
+uber-chatgpt-work-rollout-october-2026|Uber rolls out ChatGPT Work to 30,000-plus staff
+five-year-tips-auction-october-22-2026|Five-year TIPS auction sets 2.367% real yield
 fireblocks-denies-visa-acquisition-talks-october-2026|Fireblocks Denies Reported Visa Takeover Talks
 hugging-face-carbon-x-dna-model-october-2026|Hugging Face Releases Carbon-X DNA Chat Model
 us-jobless-claims-october-22-2026|US Claims Fall to 194,000; Repeat Claims Rise
@@ -130,6 +133,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+sofi-earn-tokenized-deposit-october-2026|SoFi Earn represents bank deposits, while conversion to SoFiUSD moves funds into a different product. The insurance boundary matters as much as the rate.
+uber-chatgpt-work-rollout-october-2026|Uber is expanding a 1,000-person pilot across its workforce. The rollout tests whether AI agents can turn broad access into measurable work savings.
+five-year-tips-auction-october-22-2026|A new five-year inflation-protected Treasury pays a 2.25% coupon. Its auction yield shows why inflation protection and price stability differ.
 fireblocks-denies-visa-acquisition-talks-october-2026|Fireblocks rejected a report about acquisition talks with Visa. The dispute comes as payment networks expand their stablecoin infrastructure.
 hugging-face-carbon-x-dna-model-october-2026|Carbon-X combines DNA sequences and language in an open model. Local deployment and developer benchmarks come with important research limits.
 us-jobless-claims-october-22-2026|New unemployment claims fell by 6,000, while continuing claims increased. The two measures give different readings on the labor market.
