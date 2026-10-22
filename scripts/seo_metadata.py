@@ -1,4 +1,7 @@
 TITLES = '''
+ethereum-decoupled-consensus-finality-proposal-2026|Ethereum Draft Targets Fourfold Faster Finality
+deepseek-15-billion-financing-reports-october-2026|DeepSeek’s Reported $15B Round Raises AI Stakes
+lockheed-f35-framework-850-jets-october-2026|Lockheed’s 850-Jet F-35 Plan Faces Funding Gate
 coinbase-ireland-safeguarding-fine-october-2026|Coinbase Ireland Agrees to €3.25 Million Penalty
 spotify-q3-2026-subscribers-ai-spending|Spotify Reaches 306 Million Paying Subscribers
 honeywell-q3-2026-automation-outlook|Honeywell Raises 2026 Outlook as Automation Grows
@@ -124,6 +127,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+ethereum-decoupled-consensus-finality-proposal-2026|A new Ethereum draft separates two validator voting jobs to pursue faster finality. It remains unfinished and has no activation date.
+deepseek-15-billion-financing-reports-october-2026|Reports put DeepSeek’s new financing near $15 billion, but closing terms, valuation and an eventual public listing remain distinct questions.
+lockheed-f35-framework-850-jets-october-2026|A ten-year F-35 framework offers Lockheed longer demand visibility, but congressional funding and final contract terms still matter.
 coinbase-ireland-safeguarding-fine-october-2026|Ireland’s central bank cited customer-fund and outsourcing failures; sanctions await court confirmation, and Coinbase says customers suffered no losses.
 spotify-q3-2026-subscribers-ai-spending|Spotify beat its subscriber target and forecast €820 million in fourth-quarter operating profit, while marketing and cloud spending rose.
 honeywell-q3-2026-automation-outlook|Honeywell lifted its annual earnings forecast after 7% organic sales growth, while divestitures and one-time items complicated the headline comparisons.

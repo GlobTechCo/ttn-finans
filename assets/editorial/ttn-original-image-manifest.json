@@ -1434,5 +1434,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 387488,
     "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "lockheed-f35-framework-850-jets-october-2026",
+    "file": "assets/editorial/lockheed-f35-framework-850-jets-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-22T13:54:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 203638,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "deepseek-15-billion-financing-reports-october-2026",
+    "file": "assets/editorial/deepseek-15-billion-financing-reports-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-22T13:54:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 152288,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "ethereum-decoupled-consensus-finality-proposal-2026",
+    "file": "assets/editorial/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-22T13:54:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 245382,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
   }
 ]

@@ -2166,6 +2166,39 @@
       "bytes": 387488,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/coinbase-ireland-safeguarding-fine-october-2026.html"
+    },
+    {
+      "page": "lockheed-f35-framework-850-jets-october-2026.html",
+      "source": "assets/editorial/lockheed-f35-framework-850-jets-october-2026-cover-v1.webp",
+      "image": "assets/social/lockheed-f35-framework-850-jets-october-2026-cover-v1-ce6bfd620b4e.webp",
+      "sha256": "ce6bfd620b4eaebc157914c99f33ded93170d2c020f28d9e1869c29f468c626b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 203638,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/lockheed-f35-framework-850-jets-october-2026.html"
+    },
+    {
+      "page": "deepseek-15-billion-financing-reports-october-2026.html",
+      "source": "assets/editorial/deepseek-15-billion-financing-reports-october-2026-cover-v1.webp",
+      "image": "assets/social/deepseek-15-billion-financing-reports-october-2026-cover-v1-f19912aee169.webp",
+      "sha256": "f19912aee1691a3d225d19a6b9883c12ece68d375e46d8ca91c3e6e0971eac0e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 152288,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/deepseek-15-billion-financing-reports-october-2026.html"
+    },
+    {
+      "page": "ethereum-decoupled-consensus-finality-proposal-2026.html",
+      "source": "assets/editorial/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1.webp",
+      "image": "assets/social/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1-ee2717901875.webp",
+      "sha256": "ee2717901875333ef494b7a980f3a6e0f81c204caf834bdcaba8973d6d68263b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 245382,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ethereum-decoupled-consensus-finality-proposal-2026.html"
     }
   ]
 }

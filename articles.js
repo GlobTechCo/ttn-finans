@@ -1,6 +1,178 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "lockheed-f35-framework-850-jets-october-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Lockheed’s 850-Jet F-35 Framework Puts Funding and Factory Capacity in Focus",
+    "dek": "A ten-year F-35 framework offers Lockheed longer demand visibility, but congressional funding and final contract terms still matter.",
+    "tickers": [
+      "LMT"
+    ],
+    "imageAlt": "Illustrative reconstruction of a complete gray F-35A on an airfield apron, with both wings visible.",
+    "sources": [
+      {
+        "label": "Lockheed Martin: F-35 framework announcement, October 22",
+        "url": "https://www.prnewswire.com/news-releases/new-framework-agreement-for-multiyear-f35-production-and-sustainment-302916446.html"
+      },
+      {
+        "label": "U.S. Defense Department statement, reproduced by Mirage News",
+        "url": "https://www.miragenews.com/war-department-lockheed-finalize-10-year-f-35-1764869/"
+      },
+      {
+        "label": "Lockheed Martin: third-quarter earnings and outlook",
+        "url": "https://investors.lockheedmartin.com/node/53326/pdf"
+      },
+      {
+        "label": "Reuters: initial agreement and investment commitment",
+        "url": "https://www.reuters.com/business/aerospace-defense/lockheed-pentagon-strike-initial-deal-produce-850-f-35-jets-2026-10-22/"
+      }
+    ],
+    "body": [
+      "<p>Lockheed Martin and the Pentagon unveiled a ten-year F-35 production and support framework on October 22 covering 850 U.S. aircraft. The announcement offers the defense contractor a longer planning horizon, but it is not a completed production order: congressional authority, appropriations and final contract negotiations remain necessary.</p>",
+      "<p>The Defense Department said Lockheed would finance at least $7 billion of initiatives supporting the fighter program. For shareholders, the central question is how that investment converts a more predictable customer pipeline into manufacturing capacity, available spare parts and cash returns. A decade of prospective demand does not eliminate the upfront cost of fulfilling it.</p>",
+      "<h2>What the framework actually covers</h2>",
+      "<p>Lockheed’s announcement includes U.S. aircraft, initial spares, modification kits and sustainment, alongside international purchases across production Lots 21 through 30. The envisaged production rate remains 156 aircraft annually across U.S. and international customers. That figure should not be read as 156 additional American aircraft each year on top of the 850.</p>",
+      "<p>The distinction matters when translating the headline into revenue expectations. Dividing 850 by ten gives an average of 85 U.S. aircraft annually, but does not establish the delivery schedule or price. International orders and support work enlarge the commercial opportunity; they also make a simple aircraft-count calculation an incomplete measure of the program’s economics.</p>",
+      "<p>The company says a multiyear approach can support bulk purchases and improve supplier planning. Those are anticipated benefits, rather than independently demonstrated savings from a signed contract. Lockheed explicitly says terms, pricing and schedules will be finalized through a formal award if the required authority and funding arrive.</p>",
+      "<h2>A stronger quarter, with a cash-flow wrinkle</h2>",
+      "<p>The framework landed alongside third-quarter results showing sales of $20.711 billion, up 11% from a year earlier, and diluted earnings of $7.97 a share, compared with $6.95. Backlog reached $292 billion, including a $52.5 billion multiyear PAC-3 interceptor award. These are reported quarterly figures, separate from the new F-35 framework.</p>",
+      "<p>Lockheed lifted its full-year sales forecast to $80 billion–$82 billion and projected earnings of $30.35–$30.75 a share. Free cash flow guidance rose to $7.8 billion–$8 billion. Yet quarterly free cash flow fell to about $3 billion from $3.35 billion, illustrating why investors should distinguish earnings growth from the timing of customer receipts.</p>",
+      "<p>As our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains, money available after capital spending is a different test from booked profit. A supplier can report rising sales while cash remains tied up in work awaiting payment. A long demand horizon can improve planning without making those working-capital needs disappear.</p>",
+      "<h2>The immediate contract issue is still unresolved</h2>",
+      "<p>The earnings release also warns that costs on the Lot 20 advance acquisition contract had begun exceeding existing contractual authorization and funding during the quarter. Lockheed said insufficient additional authorization and funding would hurt future operations, cash flows and financial condition. A framework for later production does not, by itself, resolve that nearer-term exposure.</p>",
+      "<p>That warning gives the announcement a concrete financial test. Investors can watch whether the government authorizes current work, whether final multiyear terms provide adequate economics and whether production investments improve delivery and support performance. The relevant comparison is between funded commitments and the capital required to execute them, rather than the largest headline number.</p>",
+      "<p>For broader context, <a href=\"earnings-beat-miss-explained.html\">earnings surprises and guidance changes</a> can point in different directions because they answer different questions. Today’s results establish recent performance; the framework concerns future procurement; the updated outlook reflects management’s current expectations. Keeping those categories separate is particularly useful for a government contractor whose customer controls both requirements and funding.</p>",
+      "<p>Lockheed trades on the New York Stock Exchange under LMT. Its latest disclosure strengthens the evidence of demand, while leaving execution and authorization as the next milestones. The financial value of the proposed arrangement will become clearer when appropriated funding, final pricing and actual cash conversion can be assessed together.</p>"
+    ],
+    "image": "assets/editorial/lockheed-f35-framework-850-jets-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/lockheed-f35-framework-850-jets-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/lockheed-f35-framework-850-jets-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/lockheed-f35-framework-850-jets-october-2026-cover-v1-480.webp 480w, assets/responsive/lockheed-f35-framework-850-jets-october-2026-cover-v1-960.webp 960w, assets/editorial/lockheed-f35-framework-850-jets-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T13:54:55Z",
+    "dateModified": "2026-10-22T13:54:55Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "deepseek-15-billion-financing-reports-october-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "DeepSeek’s Reported $15 Billion Round Raises the Stakes in the AI Funding Race",
+    "dek": "Reports put DeepSeek’s new financing near $15 billion, but closing terms, valuation and an eventual public listing remain distinct questions.",
+    "tickers": [],
+    "imageAlt": "Illustrative developer workspace with a hand holding a phone displaying DeepSeek’s blue whale welcome screen.",
+    "sources": [
+      {
+        "label": "Reuters: financing nearing completion, sources say",
+        "url": "https://www.reuters.com/world/asia-pacific/deepseek-raises-15-billion-challenge-leading-us-labs-bloomberg-news-reports-2026-10-22/"
+      },
+      {
+        "label": "Bloomberg News: reported 100 billion yuan financing",
+        "url": "https://news.bloomberglaw.com/artificial-intelligence/deepseek-raises-15-billion-in-challenge-to-leading-us-labs"
+      },
+      {
+        "label": "The Wall Street Journal: financing and potential IPO",
+        "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49"
+      },
+      {
+        "label": "Quartz: attributed account of Journal and Bloomberg reporting",
+        "url": "https://qz.com/deepseek-15-billion-funding-round-possible-ipo-102226"
+      },
+      {
+        "label": "DeepSeek: official products and API documentation",
+        "url": "https://www.deepseek.com/"
+      },
+      {
+        "label": "DeepSeek: Search and Fetch API documentation",
+        "url": "https://api-docs.deepseek.com/zh-cn/guides/search/"
+      }
+    ],
+    "body": [
+      "<p>DeepSeek is approaching a financing round of roughly 100 billion yuan, or $15 billion, according to reports published October 22. The scale would give the Chinese AI developer substantially more capital to compete, while underscoring that a reputation for efficient models does not remove the need to fund computing infrastructure and commercial operations.</p>",
+      "<p>Bloomberg reported the financing first, citing people familiar with it. Reuters subsequently described the round as nearing completion and said terms could still change. CATL and Tencent were named among major investors. Neither account constitutes a company announcement of settled terms, and their descriptions of the closing stage should not be flattened into an unconditional claim that all money has arrived.</p>",
+      "<h2>Funding, valuation and an IPO are different events</h2>",
+      "<p>Bloomberg’s account said the fundraising target expanded from 50 billion yuan to 80 billion yuan before reaching about 100 billion. That trajectory points to investor appetite for a larger transaction. It does not establish the final ownership stakes, investor protections or valuation attached to the capital being raised.</p>",
+      "<p>The Wall Street Journal reported a valuation of roughly $74 billion before the round’s final close, according to Quartz’s attributed account. A pre-money valuation measures the business before new investment; it is different from both the size of the financing and the resulting post-money valuation. Adding two headline figures is only meaningful if their timing and accounting basis match.</p>",
+      "<p>The Journal also reported preparations for a possible Shanghai listing and a role for CITIC Securities. A private transaction and a public offering have different disclosure and approval requirements. As our <a href=\"ipo-process-explained.html\">guide to the IPO process</a> explains, hiring advisers or planning a listing does not create a publicly tradable security or guarantee a flotation date.</p>",
+      "<h2>The product business behind the fundraising</h2>",
+      "<p>DeepSeek’s official website currently promotes its V4.1 Flash update and directs developers to its API platform. Its documentation also describes Search and Fetch interfaces: one returns structured web-search results, while the other retrieves a webpage’s contents. These are product capabilities documented by the company, rather than evidence confirming its financing or commercial success.</p>",
+      "<p>The distinction is useful because developer adoption and financial sustainability are measured differently. A service can be attractive to programmers because it is inexpensive and capable, yet still need substantial investment to support a larger customer base. Lower computing cost per task can improve unit economics while total spending rises as usage expands.</p>",
+      "<p>Our analysis of <a href=\"ai-inference-unit-economics-2026.html\">AI inference economics</a> describes that tension. Serving a model repeatedly generates operating costs, unlike simply publishing a research result. Investors assessing a model developer therefore need to separate the cost of creating new systems from the expense of answering customers’ requests and maintaining reliable services.</p>",
+      "<p>A financing round provides resources to manage those demands, but is not revenue earned from users. Likewise, a company valuation is not cash available for equipment, hiring or electricity. Those distinctions become more consequential as AI transactions grow large enough for financing headlines to overshadow the underlying business that must eventually support them.</p>",
+      "<h2>What the money would and would not prove</h2>",
+      "<p>A large raise can give a developer more freedom to secure computing resources, recruit staff and absorb the cost of product expansion. These are possible uses of capital, not a verified allocation of this reported round. Public reporting has not supplied a complete, company-confirmed spending plan or a full set of transaction documents.</p>",
+      "<p>For customers, the practical question is whether additional resources translate into dependable capacity and useful products. For investors in the wider sector, the question is whether competition from better-funded developers pressures pricing or encourages still more spending. Our discussion of the <a href=\"ai-monetization-gap-explained.html\">gap between AI investment and monetization</a> provides the relevant framework without assuming that every financing produces the same outcome.</p>",
+      "<p>The next decisive evidence would be confirmation of final closing terms, subsequent company disclosures and, if a listing proceeds, formal offering documents. Until then, the reported amount signals a potentially significant change in DeepSeek’s financial resources. It does not establish a final market value, an IPO timetable or an independently verified return on that capital.</p>"
+    ],
+    "image": "assets/editorial/deepseek-15-billion-financing-reports-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/deepseek-15-billion-financing-reports-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/deepseek-15-billion-financing-reports-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/deepseek-15-billion-financing-reports-october-2026-cover-v1-480.webp 480w, assets/responsive/deepseek-15-billion-financing-reports-october-2026-cover-v1-960.webp 960w, assets/editorial/deepseek-15-billion-financing-reports-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T13:54:55Z",
+    "dateModified": "2026-10-22T13:54:55Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "ethereum-decoupled-consensus-finality-proposal-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Ethereum’s New Consensus Draft Targets a Fourfold Cut in Finality Time",
+    "dek": "A new Ethereum draft separates two validator voting jobs to pursue faster finality. It remains unfinished and has no activation date.",
+    "tickers": [
+      "ETH"
+    ],
+    "imageAlt": "Illustrative silver Ethereum token beside a mechanical stopwatch, symbolizing transaction finality time.",
+    "sources": [
+      {
+        "label": "EIP-8453 draft: Decoupled Consensus, submitted October 21",
+        "url": "https://github.com/ethereum/EIPs/pull/12566"
+      },
+      {
+        "label": "Full draft specification in the author’s branch",
+        "url": "https://github.com/benjaminion/EIPs/blob/dc/EIPS/eip-8453.md"
+      },
+      {
+        "label": "Ethereum developer documentation: proof of stake and finality",
+        "url": "https://ethereum.org/developers/docs/consensus-mechanisms/pos/"
+      },
+      {
+        "label": "Circle: Cross-Chain Transfer Protocol technical guide",
+        "url": "https://developers.circle.com/cctp/references/technical-guide"
+      },
+      {
+        "label": "CoinDesk: proposed settlement-time reduction, October 22",
+        "url": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto"
+      }
+    ],
+    "body": [
+      "<p>Ethereum researchers have submitted a draft that seeks to reduce the time needed for transactions to become final by at least fourfold. The proposal, created October 21 and reported by CoinDesk on October 22, would separate two voting duties currently linked in Ethereum’s consensus system. It is a design proposal, not a live network upgrade.</p>",
+      "<p>The initial ambition translates roughly into moving from today’s approximately 16-minute finality interval toward four minutes, subject to the parameters developers ultimately select. The distinction matters for readers moving assets between networks: a transaction appearing in a block is not the same as the network giving it the stronger settlement guarantee known as finality.</p>",
+      "<h2>Two voting jobs, on different schedules</h2>",
+      "<p>The draft, titled Decoupled Consensus and numbered EIP-8453 in its working branch, was authored by Francesco D’Amato, Roberto Saltini, Yann Vonlanthen, Mikhail Kalinin and Ben Edgington. Its core change is to separate votes that help choose the chain’s current head from attestations that establish finality. The finality process could then run on its own schedule.</p>",
+      "<p>The authors want the design to improve resilience against reorganizations, shorten settlement delays and create a foundation for a possible later transition to post-quantum cryptography. The proposal does not select a quantum-resistant signature scheme. Nor does it say that existing Ethereum transactions become quantum resistant merely because the two voting processes are separated.</p>",
+      "<p>The working design uses a smaller committee for head votes and the full validator set for finality attestations. Finalization relies on quorums representing at least two-thirds of active stake. Important choices remain unresolved, including timing, penalties, integration details and parts of the security analysis. The draft explicitly calls for further executable tests.</p>",
+      "<h2>Why a few minutes can matter financially</h2>",
+      "<p>A cross-chain service may provide funds to a customer before the original transaction is fully settled. That can improve the customer’s experience, but leaves the service bearing exposure while it waits. Reducing that interval can let the same pool of capital support more transfers, provided the security assumptions remain acceptable to the service.</p>",
+      "<p>Consider an illustrative operation that advances $600,000 an hour at a steady rate. A 16-minute settlement wait would leave about $160,000 awaiting completion; a four-minute wait would reduce that amount to about $40,000. This is a simple flow-times-delay calculation, not an observed Ethereum business result. It excludes reserves for volatility, operational failures and uneven customer demand.</p>",
+      "<p>The mechanism is relevant to <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin transfers</a>, where users may care more about reliable dollar delivery than the price of the network’s token. Circle’s Cross-Chain Transfer Protocol documentation, for example, distinguishes messages handled at different finality thresholds. Application designers already make explicit decisions about how much settlement assurance a transfer requires.</p>",
+      "<p>Faster base-layer finality could alter those decisions, but would not automatically lower every customer fee. A provider’s pricing also reflects infrastructure costs, available liquidity, its risk policy and competition. Nor would a shorter finality interval by itself reduce the gas required to execute a transaction. Settlement confidence and transaction-processing costs are related business concerns, not interchangeable technical measurements.</p>",
+      "<h2>A hard fork would require considerably more work</h2>",
+      "<p>The specification says implementation would require a consensus-layer hard fork and support from consensus and validator clients. Transition rules must preserve accountability for earlier votes. The authors also identify unresolved questions about recovery after network partitions, validator participation and processing limits. Those are central requirements for evaluating whether a faster design remains robust under stress.</p>",
+      "<p>For readers of our <a href=\"defi-basics-explained.html\">DeFi guide</a>, the practical implication is that applications would still need to assess the security of the complete transaction path. A faster source chain cannot remove an unrelated smart-contract vulnerability, destination-network failure or custody risk. Developers would have to evaluate the proposed guarantees rather than substitute a headline speed figure for a risk assessment.</p>",
+      "<p>The proposal adds a concrete new direction to Ethereum’s research pipeline without committing the network to a deployment date. The milestones to watch are a complete specification, security analysis, interoperable client implementations, testing and an agreed upgrade schedule. Until those steps occur, users should continue to follow the confirmation requirements of the services they actually use.</p>"
+    ],
+    "image": "assets/editorial/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1-480.webp 480w, assets/responsive/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1-960.webp 960w, assets/editorial/ethereum-decoupled-consensus-finality-proposal-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T13:54:55Z",
+    "dateModified": "2026-10-22T13:54:55Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "coinbase-ireland-safeguarding-fine-october-2026",
     "section": "Crypto",
     "format": "news",
