@@ -16,6 +16,10 @@ on:
       - 'scripts/refresh_static_editorial.py'
       - 'scripts/audit_article_lengths.py'
       - 'scripts/verify_site.py'
+      - 'scripts/refresh_social_cards.py'
+      - 'scripts/social-card-manifest.json'
+      - 'assets/social/**'
+      - 'requirements-maintenance.txt'
       - '.github/workflows/editorial-quality.yml'
   workflow_dispatch:
 permissions:
