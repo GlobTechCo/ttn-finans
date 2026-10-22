@@ -2144,6 +2144,17 @@
       "bytes": 296032,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/honeywell-q3-2026-automation-outlook.html"
+    },
+    {
+      "page": "spotify-q3-2026-subscribers-ai-spending.html",
+      "source": "assets/editorial/spotify-q3-2026-subscribers-ai-spending-cover-v1.webp",
+      "image": "assets/social/spotify-q3-2026-subscribers-ai-spending-cover-v1-68609c5cbc11.webp",
+      "sha256": "68609c5cbc11f015339b2ebc19b8c98e1c7b32d35f3e01c2723643452028d823",
+      "width": 1672,
+      "height": 941,
+      "bytes": 208634,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/spotify-q3-2026-subscribers-ai-spending.html"
     }
   ]
 }

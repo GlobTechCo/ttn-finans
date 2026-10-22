@@ -1,4 +1,5 @@
 TITLES = '''
+spotify-q3-2026-subscribers-ai-spending|Spotify Reaches 306 Million Paying Subscribers
 honeywell-q3-2026-automation-outlook|Honeywell Raises 2026 Outlook as Automation Grows
 bitcoin-pullback-ai-market-risk-october-22-2026|Bitcoin Retreats Toward $82,000 as AI Nerves Return
 nokia-q3-2026-ai-cloud-network-orders|Nokia Books €1.5 Billion of AI and Cloud Orders
@@ -122,6 +123,7 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+spotify-q3-2026-subscribers-ai-spending|Spotify beat its subscriber target and forecast €820 million in fourth-quarter operating profit, while marketing and cloud spending rose.
 honeywell-q3-2026-automation-outlook|Honeywell lifted its annual earnings forecast after 7% organic sales growth, while divestitures and one-time items complicated the headline comparisons.
 bitcoin-pullback-ai-market-risk-october-22-2026|Bitcoin gave back an overnight rally as technology-market nerves resurfaced; ether, Solana and XRP also weakened in a timed exchange snapshot.
 nokia-q3-2026-ai-cloud-network-orders|AI demand lifts Nokia’s networking business, while accelerated restructuring and working-capital needs complicate the profit picture.

@@ -1,6 +1,62 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "spotify-q3-2026-subscribers-ai-spending",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Spotify Reaches 306 Million Paying Users as AI Spending Tests Its Margins",
+    "dek": "Spotify beat its subscriber target and forecast €820 million in fourth-quarter operating profit, while marketing and cloud spending rose.",
+    "tickers": [
+      "SPOT"
+    ],
+    "imageAlt": "Illustrative photograph-style scene of a commuter wearing headphones and holding a phone displaying the Spotify logo; the head and headphones are fully within the frame.",
+    "sources": [
+      {
+        "label": "Spotify SEC exhibit: Q3 2026 shareholder update and financial statements",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm"
+      },
+      {
+        "label": "Spotify newsroom: third-quarter results and product developments",
+        "url": "https://newsroom.spotify.com/2026-10-22/spotify-q3-2026-earnings/"
+      },
+      {
+        "label": "Reuters: fourth-quarter profit forecast and analyst comparisons",
+        "url": "https://www.reuters.com/business/spotify-forecasts-fourth-quarter-profit-above-estimates-ai-bets-2026-10-22/"
+      },
+      {
+        "label": "Barron’s: revenue expectations and spending pressures",
+        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-e383db00"
+      }
+    ],
+    "body": [
+      "<p>Spotify added six million paying subscribers in the third quarter, exceeding its own target by one million, as the streaming company expanded its listening features and invested more in cloud and AI services. Thursday’s report puts a practical question behind the growth: whether a richer product can keep attracting customers without allowing the cost of serving them to outrun revenue.</p>",
+      "<p>Premium subscriptions reached 306 million and monthly active users rose to 788 million. Spotify reported €4.969 billion in revenue and €672 million in operating income. For the fourth quarter, it forecast 316 million paying subscribers, €5.2 billion in revenue and €820 million in operating profit. The outlook is a company projection, rather than a result already earned.</p>",
+      "<h2>A bigger audience and a larger bill</h2>",
+      "<p>The report’s strongest customer comparison is with Spotify’s previous guidance. Monthly users met the target, while paid subscriptions exceeded it. Reuters reported that the fourth-quarter operating-profit outlook was above analysts’ estimates, although third-quarter earnings per share fell short of the consensus it cited.</p>",
+      "<p>Those comparisons should remain separate. Customer additions, operating profit and net earnings measure different parts of the business. An <a href=\"earnings-beat-miss-explained.html\">earnings report can exceed one expectation and miss another</a>, particularly when financial items, taxes or share-related costs affect the bottom line. Calling the entire quarter a beat would hide that distinction.</p>",
+      "<p>Spotify’s shareholder update identifies higher marketing and cloud/AI spending among the forces lifting operating expenses. Gross margin improved from a year earlier but slipped from the preceding quarter. The company is therefore expanding a profitable business while accepting costs associated with its next stage of product development.</p>",
+      "<p>For a subscription service, the commercial test is whether those investments improve retention, conversion or revenue enough to cover their continuing expense. A feature can be popular without immediately creating a separate stream of revenue. Its contribution may instead appear when listeners renew, choose a paid plan or spend more time using services that support advertising.</p>",
+      "<h2>Personalization becomes more visible to listeners</h2>",
+      "<p>Spotify’s newsroom highlighted Taste Profile, a beta feature for adult Premium subscribers in the United States. It lets users inspect and edit how the service understands their listening preferences. That changes the relationship between a recommendation system and the person receiving its suggestions: listeners gain a direct way to correct the profile behind their home feed.</p>",
+      "<p>The practical appeal is understandable. A household’s shared listening, a temporary interest or an unusual session can make recommendations less useful. Giving users a way to adjust those signals could reduce frustration. The earnings announcement, however, does not isolate how much subscriber growth came from this particular feature, so the two developments should not be presented as proven cause and effect.</p>",
+      "<p>The distinction is relevant to the wider <a href=\"ai-monetization-gap-explained.html\">question of how AI features earn their cost</a>. Useful technology can reinforce an existing product instead of replacing it with a new business model. In streaming, a recommendation still has to lead to something a listener wants to hear; producing more suggestions is not itself a measure of customer value.</p>",
+      "<h2>More books and more ways to pay creators</h2>",
+      "<p>Spotify also described an audiobook expansion from 22 markets to more than 180 by year-end. Creator Memberships are rolling out in 34 markets, while the Spotify Partner Program is expanding to more than 35 additional markets. The initiatives give authors and podcast creators additional routes to reach listeners and earn money on the platform.</p>",
+      "<p>A broader catalog can make a subscription more useful across a person’s day, but it also adds complexity. Music, books and creator memberships involve different consumption patterns and payment arrangements. Audience growth alone cannot show whether the mix improves profitability. The economics depend on what customers use, what they pay and the associated content and infrastructure costs.</p>",
+      "<h2>The holiday-quarter test</h2>",
+      "<p>The next quarter will test Spotify’s forecast against actual subscriber additions and spending. Readers following SPOT should watch the relationship between revenue growth and operating costs, alongside the <a href=\"free-cash-flow-explained.html\">cash generated after investment</a>. Profit and cash can move differently when payment schedules and working capital change.</p>",
+      "<p>Thursday’s results show a service still adding paying customers while broadening what it offers them. The sharper investment question is whether that larger offering makes each customer relationship more durable and profitable. Spotify’s forecast points to stronger operating income; the coming results will establish how successfully its expansion turns listening into earnings.</p>"
+    ],
+    "image": "assets/editorial/spotify-q3-2026-subscribers-ai-spending-cover-v1.webp",
+    "imageSmall": "assets/responsive/spotify-q3-2026-subscribers-ai-spending-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/spotify-q3-2026-subscribers-ai-spending-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/spotify-q3-2026-subscribers-ai-spending-cover-v1-480.webp 480w, assets/responsive/spotify-q3-2026-subscribers-ai-spending-cover-v1-960.webp 960w, assets/editorial/spotify-q3-2026-subscribers-ai-spending-cover-v1.webp 1672w",
+    "date": "2026-10-22T12:28:51Z",
+    "dateModified": "2026-10-22T12:28:51Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "honeywell-q3-2026-automation-outlook",
     "section": "Market Analysis",
     "format": "news",
