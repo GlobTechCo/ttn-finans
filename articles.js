@@ -1,6 +1,68 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "coinbase-ireland-safeguarding-fine-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Coinbase Ireland Agrees to €3.25 Million Safeguarding Penalty",
+    "dek": "Ireland’s central bank cited customer-fund and outsourcing failures; sanctions await court confirmation, and Coinbase says customers suffered no losses.",
+    "tickers": [
+      "COIN"
+    ],
+    "imageAlt": "Illustrative photograph-style still life of a phone displaying the Coinbase welcome screen beside euro banknotes.",
+    "sources": [
+      {
+        "label": "Central Bank of Ireland: October 22 enforcement announcement",
+        "url": "https://www.centralbank.ie/news/article/press-release-central-bank-takes-enforcement-action-against-coinbase-ireland-22-october-2026"
+      },
+      {
+        "label": "Coinbase: response and explanation of historical safeguarding issues",
+        "url": "https://www.coinbase.com/blog/resolving-past-safeguarding-issues-our-settlement-with-the-central-bank-of-ireland"
+      },
+      {
+        "label": "Reuters: settlement reporting and company response",
+        "url": "https://www.reuters.com/legal/government/irish-central-bank-fines-coinbase-unit-325-million-2026-10-22/"
+      },
+      {
+        "label": "Central Bank of Ireland: separate November 2025 Coinbase Europe enforcement case",
+        "url": "https://www.centralbank.ie/news/article/press-release-enforcement-action-against-coinbase-europe-limited-6-November-2025"
+      },
+      {
+        "label": "Coinbase Global SEC annual report: corporate registration and group structure",
+        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm"
+      }
+    ],
+    "body": [
+      "<p>Coinbase Ireland agreed to a €3.25 million penalty over failures in protecting customer money and overseeing outsourced operations, Ireland’s central bank announced Thursday. The case concerns the e-money institution that handled fiat services for customers using the wider group’s crypto platform. It puts the financial plumbing around a crypto trade, rather than the performance of a token, under scrutiny.</p>",
+      "<p>The exact agreed penalty is €3,252,618, following a 30% settlement discount. The Central Bank of Ireland said Coinbase Ireland admitted the breaches, covering November 2020 to August 2025. The reprimand and monetary sanction still require confirmation by the High Court before taking effect. Thursday’s announcement follows a settlement reached on October 21.</p>",
+      "<p>Its parent, Coinbase Global, is a U.S. company incorporated in Texas. This settlement applies to the Irish e-money subsidiary, rather than the American parent itself. The distinction explains why the regulator is Irish and the penalty is denominated in euros.</p>",
+      "<h2>The account behind the crypto purchase</h2>",
+      "<p>The regulator found excessive reliance on the U.S. Coinbase group, inadequate local oversight and weaknesses in safeguarding systems and testing. It said designated safeguarding accounts were underfunded for lengthy periods. The findings also include failures in governance, escalation and reporting material safeguarding changes to the central bank.</p>",
+      "<p>Safeguarding addresses what happens to customer money held by an intermediary. It is a different issue from whether a blockchain processes a transfer correctly or whether a crypto asset rises in value. A platform can offer functioning trading software while still facing a regulatory problem in how money moves through its accounts.</p>",
+      "<p>That distinction matters for someone depositing dollars or euros before making a purchase. The immediate exposure sits partly in the arrangements of the legal entity receiving the money. Brand recognition and a familiar application do not, by themselves, explain which company holds a balance or which protections apply to it.</p>",
+      "<h2>Coinbase says the historical issues are resolved</h2>",
+      "<p>In its response, Coinbase said no customer lost money or was unable to access funds because of the practices. It said many issues were self-reported in January 2024 and that the underlying concerns have now been addressed. Those statements are the company’s account and should be read alongside the regulator’s findings.</p>",
+      "<p>Coinbase described coding errors in its safeguarding calculation, deposits initially routed through accounts of other group entities, and arrangements made during the 2023 U.S. banking crisis. It said a calculation error left its safeguarding account underfunded by an average of approximately 0.54% of the relevant obligation in 2023 and the first half of 2024.</p>",
+      "<p>The company also described stronger technical controls, external validation and an additional €25 million guaranty bond. It said services for European Economic Area customers would continue without interruption. The announcement is therefore not evidence of an instruction to freeze customer accounts or a confirmed loss of customer assets.</p>",
+      "<h2>Why daily rebalancing was not enough</h2>",
+      "<p>Coinbase’s explanation says some arrangements moved money back to the required accounts daily but did not prevent the initial mixing of customer funds between entities. That is a useful distinction between correcting a balance at a particular time and operating an account structure that meets the rules throughout the process.</p>",
+      "<p>For a financial intermediary, reliable controls have to follow the money through deposits, withdrawals and transfers. A dashboard that reconciles at the end of a cycle can miss a problem earlier in that cycle. Outsourcing the work adds another operational boundary: the local regulated business needs enough expertise and information to supervise what its service provider does.</p>",
+      "<p>This is also why the protections behind a balance deserve separate attention from its label. Our explanation of <a href=\"money-market-funds-vs-savings-explained.html\">how financial products carry different protections</a> addresses that broader distinction. It does not mean an e-money balance is the same product as a bank deposit or a money-market fund.</p>",
+      "<h2>Separate from the earlier money-laundering case</h2>",
+      "<p>The action is distinct from the central bank’s November 2025 case against Coinbase Europe, another group entity, over transaction-monitoring failures. That earlier case involved a roughly €21.5 million fine. Combining the entities, periods and legal obligations would obscure what Thursday’s settlement actually addresses.</p>",
+      "<p>For investors following Coinbase Global’s COIN shares, the issue is operational discipline as well as the penalty itself. A crypto business needs dependable banking and control systems alongside its trading technology. <a href=\"occ-genius-final-stablecoin-rule-october-2026.html\">Recent stablecoin rulemaking</a> illustrates a separate area in which financial infrastructure faces detailed implementation requirements, although it does not govern this Irish settlement.</p>",
+      "<p>The next formal milestone is the court’s decision on the agreed sanctions. Beyond that, the relevant test is whether the strengthened safeguards prevent recurrence. Thursday’s announcement establishes admitted historical failures and an agreed penalty; it does not establish current customer losses, a new trading restriction or a forecast for Coinbase’s stock.</p>"
+    ],
+    "image": "assets/editorial/coinbase-ireland-safeguarding-fine-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/coinbase-ireland-safeguarding-fine-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coinbase-ireland-safeguarding-fine-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coinbase-ireland-safeguarding-fine-october-2026-cover-v1-480.webp 480w, assets/responsive/coinbase-ireland-safeguarding-fine-october-2026-cover-v1-960.webp 960w, assets/editorial/coinbase-ireland-safeguarding-fine-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T12:41:24Z",
+    "dateModified": "2026-10-22T12:41:24Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "spotify-q3-2026-subscribers-ai-spending",
     "section": "Tech & AI",
     "format": "news",
