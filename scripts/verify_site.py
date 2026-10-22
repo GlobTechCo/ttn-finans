@@ -88,7 +88,19 @@ def verify():
     manifest_by_page={record['page']: record for record in manifest}
     assert set(manifest_by_page).issubset(docs), ('unknown social card pages')
     assert len(manifest_by_page) >= 150, ('social card coverage unexpectedly reduced')
+    from PIL import Image
     for name,record in manifest_by_page.items():
+        # Reject malformed or mismatched social images before publishing.
+        card_path=ROOT/record['image']
+        with Image.open(card_path) as image:
+            image.verify()
+        with Image.open(card_path) as image:
+            actual_width,actual_height=image.size
+            actual_type=Image.MIME.get(image.format)
+        assert (actual_width,actual_height)==(record['width'],record['height']),(name,'incorrect social image dimensions')
+        assert actual_type==record['type'],(name,'incorrect social image MIME type')
+        assert actual_width>=300 and actual_height>=157,(name,'social image too small for a large card')
+        assert '?' not in record['image'] and '#' not in record['image'],(name,'non-immutable social image URL')
         doc=docs[name]
         canonical=BASE if name=='index.html' else BASE+name
         assert record['shareUrl']==canonical,(name,'canonical share URL')
