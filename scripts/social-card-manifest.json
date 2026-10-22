@@ -2199,6 +2199,39 @@
       "bytes": 245382,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/ethereum-decoupled-consensus-finality-proposal-2026.html"
+    },
+    {
+      "page": "us-jobless-claims-october-22-2026.html",
+      "source": "assets/editorial/us-jobless-claims-october-22-2026-cover-v1.webp",
+      "image": "assets/social/us-jobless-claims-october-22-2026-cover-v1-30ea396cdd6c.webp",
+      "sha256": "30ea396cdd6ce6b1f7aa997981f120c439ca0212339403f69fbbaf3d4bd34864",
+      "width": 1672,
+      "height": 941,
+      "bytes": 252076,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-jobless-claims-october-22-2026.html"
+    },
+    {
+      "page": "hugging-face-carbon-x-dna-model-october-2026.html",
+      "source": "assets/editorial/hugging-face-carbon-x-dna-model-october-2026-cover-v1.webp",
+      "image": "assets/social/hugging-face-carbon-x-dna-model-october-2026-cover-v1-f93b954ee4bc.webp",
+      "sha256": "f93b954ee4bcf9cd208b318f2f9f6e277fda8209862823560b49dfeb25507270",
+      "width": 1672,
+      "height": 941,
+      "bytes": 271976,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/hugging-face-carbon-x-dna-model-october-2026.html"
+    },
+    {
+      "page": "fireblocks-denies-visa-acquisition-talks-october-2026.html",
+      "source": "assets/editorial/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1.webp",
+      "image": "assets/social/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1-cc67f4552639.webp",
+      "sha256": "cc67f4552639c6caffd0841ee5b62276231eb8bb5e9c0d8f868b325bdb723ae1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 441962,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/fireblocks-denies-visa-acquisition-talks-october-2026.html"
     }
   ]
 }

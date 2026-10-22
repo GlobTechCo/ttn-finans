@@ -1,6 +1,169 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-jobless-claims-october-22-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "U.S. Jobless Claims Fall to 194,000 as Continuing Claims Rise",
+    "dek": "New unemployment claims fell by 6,000, while continuing claims increased. The two measures give different readings on the labor market.",
+    "tickers": [],
+    "imageAlt": "Illustrative warehouse scene with a worker checking an inventory scanner, representing employment conditions.",
+    "sources": [
+      {
+        "label": "Labor Department: October 22 weekly unemployment insurance release",
+        "url": "https://www.dol.gov/ui/data.pdf"
+      },
+      {
+        "label": "Reuters: weekly claims and economists’ expectations",
+        "url": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/"
+      },
+      {
+        "label": "AP: jobless claims fall to lowest since July",
+        "url": "https://apnews.com/article/8e962dcdefefa86ebc91ee9c663f1f3b"
+      }
+    ],
+    "body": [
+      "<p>New U.S. unemployment benefit claims fell to 194,000 in the week ended October 17, the Labor Department reported Thursday, suggesting employers remain reluctant to shed workers. Continuing claims moved in the opposite direction, however, offering a reminder that a low rate of new layoffs does not necessarily mean finding another job is easy.</p>",
+      "<p>Initial claims declined by 6,000 from the previous week’s revised 200,000. Economists polled by Reuters had expected 200,000. The report therefore delivered a firmer reading than that forecast, but its strongest message concerns job retention rather than the pace at which businesses are recruiting. Those are separate parts of the employment cycle.</p>",
+      "<h2>Fewer new filings, more people remaining on benefits</h2>",
+      "<p>The number receiving ongoing state unemployment benefits rose by 25,000 to a seasonally adjusted 1.728 million in the week ended October 10. That measure is reported with a one-week lag relative to initial claims. The two figures should not be treated as observations of precisely the same seven-day period.</p>",
+      "<p>The four-week average of new claims fell by 1,000 to 197,750. The corresponding average for continuing claims increased by 4,000 to 1.711 million. Looking at both averages reduces the influence of a single week and makes the divergence clearer: new applications eased, while the ongoing beneficiary count edged higher.</p>",
+      "<p>Our <a href=\"weekly-jobless-claims-explained.html\">guide to weekly jobless claims</a> explains why the distinction matters. Initial filings help track the flow of workers entering the benefit system. Continuing claims describe people still receiving benefits. Neither is a complete measure of everyone out of work, and eligibility rules mean some unemployed workers never appear in these totals.</p>",
+      "<h2>Revisions change the comparison</h2>",
+      "<p>The prior week’s initial reading was revised upward by 1,000, from 199,000 to 200,000. That makes the latest decline 6,000, rather than the 5,000 a reader might calculate using the previously published number. The previous continuing-claims level was revised down by 7,000 to 1.703 million, creating the correct base for this week’s increase.</p>",
+      "<p>Seasonal adjustment also matters. Actual, unadjusted new applications totaled 172,390, down 19,321. The department’s seasonal factors had anticipated a decline of 14,179. Adjustment accounts for recurring calendar patterns; it does not create a separate group of claimants. Readers should compare adjusted figures with adjusted figures and avoid mixing the two series to calculate a trend.</p>",
+      "<p>The insured unemployment rate remained at 1.1% for the week ended October 10. This rate covers the population insured under the relevant benefit programs. It is different from the broader unemployment rate produced by the monthly household survey, which our <a href=\"unemployment-rate-u3-u6-participation-explained.html\">unemployment and participation explainer</a> examines in detail.</p>",
+      "<h2>A layoff signal cannot substitute for a hiring measure</h2>",
+      "<p>For households, fewer new benefit applications are reassuring because they point away from a broad acceleration in job losses. But someone already searching for work faces a different question: how many suitable openings are available and how quickly employers are filling them. A rising continuing count can reflect difficulty leaving benefits, although it does not establish a single cause.</p>",
+      "<p>Businesses and investors therefore need the next monthly employment report and hiring data to complete the picture. Payroll growth, labor-force participation and wage measures capture developments that weekly benefit filings cannot. Our <a href=\"nonfarm-payrolls-jobs-report-explained.html\">guide to the payrolls report</a> sets out why a change in employment should be assessed alongside revisions and the household survey.</p>",
+      "<p>The monetary-policy implications are similarly conditional. A labor market that avoids heavy layoffs can support consumer spending, but this release does not measure inflation or determine the Federal Reserve’s next decision. Reading an automatic interest-rate response into one weekly number would give the report more forecasting power than it has.</p>",
+      "<p>Thursday’s release leaves a specific combination to watch: relatively few new claimants alongside a modest increase in continuing beneficiaries. If that pattern persists, attention will remain on the pace of hiring and movement out of unemployment. The next weekly release will also show whether today’s estimates survive revision.</p>"
+    ],
+    "image": "assets/editorial/us-jobless-claims-october-22-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-jobless-claims-october-22-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-jobless-claims-october-22-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-jobless-claims-october-22-2026-cover-v1-480.webp 480w, assets/responsive/us-jobless-claims-october-22-2026-cover-v1-960.webp 960w, assets/editorial/us-jobless-claims-october-22-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T16:03:51Z",
+    "dateModified": "2026-10-22T16:03:51Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "hugging-face-carbon-x-dna-model-october-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Hugging Face Releases Carbon-X, an Open AI Model That Reads DNA in Chat",
+    "dek": "Carbon-X combines DNA sequences and language in an open model. Local deployment and developer benchmarks come with important research limits.",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of a DNA helix transitioning into genetic sequence letters, with Hugging Face branding and Carbon-X identification.",
+    "sources": [
+      {
+        "label": "Hugging Face Bio: Carbon-X model card, capabilities and limitations",
+        "url": "https://huggingface.co/HuggingFaceBio/Carbon-X"
+      },
+      {
+        "label": "Hugging Face Bio: release article and evaluation methodology",
+        "url": "https://huggingface.co/spaces/HuggingFaceBio/Carbon-X-Release"
+      },
+      {
+        "label": "Hugging Face Bio: local GGUF versions, memory and software requirements",
+        "url": "https://huggingface.co/HuggingFaceBio/Carbon-X-GGUF"
+      },
+      {
+        "label": "Wired: independent reporting on the release and validation limits",
+        "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+      },
+      {
+        "label": "The Next Web: release coverage and attributed performance claims",
+        "url": "https://thenextweb.com/news/hugging-face-carbon-x-dna-ai-model"
+      }
+    ],
+    "body": [
+      "<p>Hugging Face has released Carbon-X, an open AI model that accepts DNA sequences inside a chat and answers questions about them in English. Announced October 22, the project connects the conversational interface familiar from general-purpose assistants with specialist genomic tasks, while allowing researchers to run the model on their own infrastructure.</p>",
+      "<p>The release is aimed at research, not clinical decision-making. Its documentation explicitly says Carbon-X has not been clinically validated. That qualification is central to the news: making genetic analysis more accessible does not establish that a conversational prediction is reliable enough to guide treatment or interpret an individual patient’s medical situation.</p>",
+      "<h2>A language model trained to work with genetic sequences</h2>",
+      "<p>Carbon-X starts from Qwen3-14B and contains about 14.8 billion parameters. The developers report training it on 302 billion tokens combining DNA, biology material, English and instruction data. It processes DNA and language together rather than relying on a separate DNA encoder attached to the language model.</p>",
+      "<p>The intended tasks include estimating mutation effects, identifying regions involved in gene activity and predicting subsequent DNA bases. A specialist model could also assist a larger AI system with sequence-related questions. These are described capabilities and evaluation tasks; they should not be confused with evidence that the model has discovered a new medicine or produced experimentally confirmed biological findings.</p>",
+      "<p>The team includes researchers at Hugging Face, Zhongguancun Academy and the Telethon Institute of Genetics and Medicine/University of Naples Federico II. The release uses the Apache 2.0 license. Open availability gives other researchers a route to inspect, adapt and evaluate the model instead of depending exclusively on access to a hosted service.</p>",
+      "<h2>Benchmarks show promise, with a narrow comparison</h2>",
+      "<p>In the developers’ five-task evaluation, Carbon-X averaged 66.7%, compared with 67.5% for GPT-6.1 Sol under the comparison settings they selected. The release also claims substantially lower inference cost per problem. These are the team’s measurements, not an independent TTN replication, and the average does not mean every task reached the same standard.</p>",
+      "<p>The cost comparison uses standard API prices for comparison models and measured Carbon-X throughput on an H200, priced at $5 an hour. That assumption matters: a laboratory’s total expense also includes hardware access, deployment and staff time. Our <a href=\"ai-inference-unit-economics-2026.html\">analysis of inference economics</a> explains why a favorable per-request estimate is not automatically the same as a lower total operating budget.</p>",
+      "<p>Hugging Face’s own release identifies stronger and weaker areas across the evaluations. A benchmark is useful for comparing systems on defined questions, but cannot establish performance on every sequence, patient population or experimental setting. Independent testing would help clarify how well the reported gains carry over to other research workflows.</p>",
+      "<h2>Local operation changes the deployment choice</h2>",
+      "<p>The standard weights fit on a single 80GB graphics card, according to the model card. Separate compressed GGUF versions support local use through llama.cpp. The recommended Q8_0 file is 15.8GB; a smaller Q4_K_M option is 9.6GB. Those download sizes are not a complete system-memory requirement because running the model also needs working memory.</p>",
+      "<p>The local package documentation warns that older llama.cpp builds can tokenize DNA incorrectly even if they load the files. That is a practical reminder that downloading an open model is only the first step toward a dependable implementation. For organizations handling sensitive material, <a href=\"enterprise-ai-data-security-2026.html\">deployment and data-security decisions</a> remain part of the evaluation.</p>",
+      "<h2>The remaining gap is biological reliability</h2>",
+      "<p>The developers acknowledge errors involving base counts, coordinates and precise sequence edits, as well as invented sequence identities when context is missing. Long DNA generation also degrades. These limitations help define the product’s current role: a research tool whose outputs need checking, rather than an authoritative source of biological conclusions.</p>",
+      "<p>For the wider AI market, Carbon-X is another concrete example of specialization competing with general-purpose scale. Our <a href=\"ai-monetization-gap-explained.html\">discussion of AI investment and monetization</a> highlights the importance of useful applications. Here, the next evidence will be independent evaluation and reproducible research use, rather than the mere availability of a chat interface.</p>"
+    ],
+    "image": "assets/editorial/hugging-face-carbon-x-dna-model-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/hugging-face-carbon-x-dna-model-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/hugging-face-carbon-x-dna-model-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/hugging-face-carbon-x-dna-model-october-2026-cover-v1-480.webp 480w, assets/responsive/hugging-face-carbon-x-dna-model-october-2026-cover-v1-960.webp 960w, assets/editorial/hugging-face-carbon-x-dna-model-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T16:03:51Z",
+    "dateModified": "2026-10-22T16:03:51Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "fireblocks-denies-visa-acquisition-talks-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Fireblocks Denies Visa Takeover Talks After Report of a $2.5 Billion Deal",
+    "dek": "Fireblocks rejected a report about acquisition talks with Visa. The dispute comes as payment networks expand their stablecoin infrastructure.",
+    "tickers": [
+      "V"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Fireblocks Singapore reception, with its white wordmark on a green plant wall.",
+    "sources": [
+      {
+        "label": "The Block: Fireblocks denial and Visa response",
+        "url": "https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926"
+      },
+      {
+        "label": "Axios: original, disputed acquisition report",
+        "url": "https://www.axios.com/pro/fintech-deals/2026/10/22/visa-fireblocks-talks-2-billion"
+      },
+      {
+        "label": "Fireblocks: January 2022 Series E announcement",
+        "url": "https://www.fireblocks.com/press/fireblocks-raises-550-million-in-series-e-funding-to-become-the-highest-valued-digital-asset-infrastructure-provider"
+      },
+      {
+        "label": "Visa: stablecoin-linked cards and settlement financing, September 8",
+        "url": "https://www.visa.com/en-us/thought-leadership/innovation/financing-stablecoin-linked-card-programs"
+      },
+      {
+        "label": "Fireblocks: wallet and institutional infrastructure products",
+        "url": "https://www.fireblocks.com/"
+      }
+    ],
+    "body": [
+      "<p>Fireblocks denied on October 22 that it was in acquisition talks with Visa, pushing back against a report that placed a possible takeover at about $2.5 billion. The denial leaves the transaction unconfirmed and puts the focus on the distinction between an anonymously sourced deal report and the companies’ public responses.</p>",
+      "<p>Axios reported possible $2.5 billion acquisition talks, citing multiple sources. Fireblocks subsequently told The Block the report was news to the company and was not true at that time. A Visa spokesperson declined to discuss rumors or speculation. Neither response supports presenting a signed agreement, an agreed valuation or a completed acquisition as established fact.</p>",
+      "<h2>The business behind the report</h2>",
+      "<p>Fireblocks supplies technology for institutions to manage and move digital assets, including wallet and stablecoin infrastructure. That places it in a different part of the industry from a token issuer or an exchange primarily serving retail traders. The infrastructure business concerns how institutions authorize, secure and process transfers, rather than simply which cryptocurrency customers choose to buy.</p>",
+      "<p>Its January 2022 financing announcement documented a $550 million Series E round at an $8 billion valuation. That historical financing mark is a verified company disclosure. The price appearing in today’s disputed takeover report has a different status. The two should not be combined into a claim that Fireblocks has now accepted a specific reduction in value.</p>",
+      "<p>A private fundraising valuation also describes the terms of an investment at a particular moment. An acquisition can involve a different ownership scope, payment structure and set of obligations. Without agreed transaction documents, a comparison cannot establish what existing investors would receive. Our <a href=\"mergers-acquisitions-explained.html\">guide to mergers and acquisitions</a> explains why headline consideration and the economics for shareholders can differ.</p>",
+      "<h2>Visa’s stablecoin activity is already documented</h2>",
+      "<p>Separate from the disputed acquisition story, Visa has published concrete information about its stablecoin operations. In a September 8 article, it reported more than 160 stablecoin-linked card programs in its fiscal second quarter and said stablecoin settlement volume had recently exceeded a $20 billion annualized run rate. Those figures are company-reported operating measures.</p>",
+      "<p>An annualized run rate extrapolates activity at a particular pace; it is not the same as a full year of recorded transactions. Settlement volume is also not Visa revenue. Keeping the units clear matters when comparing the scale of payment flows with the price of a company or the income a service earns from processing those flows.</p>",
+      "<p>Visa’s article describes a less visible constraint on new card programs: funding daily settlement before money is collected from cardholders. Some stablecoin-linked programs need that financing across weekends and holidays. This makes working capital, reliable transfer infrastructure and repayment controls commercially important even when the customer sees an ordinary card purchase.</p>",
+      "<p>The company describes a Credit Coop financing arrangement that uses settlement receivables and program data. That is an example of infrastructure and credit being combined to support payments. It is not evidence of an acquisition relationship with Fireblocks. Readers can distinguish the payment token from these operational arrangements through our <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin explainer</a>.</p>",
+      "<h2>Partnership, ownership and custody are separate questions</h2>",
+      "<p>Payment businesses can expand through internal development, partnerships or acquisitions. A documented effort to increase stablecoin use does not prove a particular takeover rumor. Each route involves different integration costs and control over technology, and each requires evidence specific to the arrangement being discussed.</p>",
+      "<p>There is also a difference between software used to secure assets and the legal responsibility to safeguard customer funds. That distinction is relevant to our coverage of <a href=\"coinbase-ireland-safeguarding-fine-october-2026.html\">Coinbase Ireland’s safeguarding settlement</a>: technical transfer capability and regulatory obligations address different risks. Neither disappears merely because a larger payments company becomes involved in the sector.</p>",
+      "<p>For now, the most important development is the public contradiction of the original report. A subsequent announcement, filing or clearly documented change in the companies’ positions would provide a new basis for assessment. Visa trades under V on the New York Stock Exchange; today’s reporting should not be read as confirmation that it has agreed to buy Fireblocks.</p>"
+    ],
+    "image": "assets/editorial/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1-480.webp 480w, assets/responsive/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1-960.webp 960w, assets/editorial/fireblocks-denies-visa-acquisition-talks-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-22T16:03:51Z",
+    "dateModified": "2026-10-22T16:03:51Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "lockheed-f35-framework-850-jets-october-2026",
     "section": "Market Analysis",
     "format": "news",

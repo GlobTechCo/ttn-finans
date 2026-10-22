@@ -1,4 +1,7 @@
 TITLES = '''
+fireblocks-denies-visa-acquisition-talks-october-2026|Fireblocks Denies Reported Visa Takeover Talks
+hugging-face-carbon-x-dna-model-october-2026|Hugging Face Releases Carbon-X DNA Chat Model
+us-jobless-claims-october-22-2026|US Claims Fall to 194,000; Repeat Claims Rise
 ethereum-decoupled-consensus-finality-proposal-2026|Ethereum Draft Targets Fourfold Faster Finality
 deepseek-15-billion-financing-reports-october-2026|DeepSeek’s Reported $15B Round Raises AI Stakes
 lockheed-f35-framework-850-jets-october-2026|Lockheed’s 850-Jet F-35 Plan Faces Funding Gate
@@ -127,6 +130,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+fireblocks-denies-visa-acquisition-talks-october-2026|Fireblocks rejected a report about acquisition talks with Visa. The dispute comes as payment networks expand their stablecoin infrastructure.
+hugging-face-carbon-x-dna-model-october-2026|Carbon-X combines DNA sequences and language in an open model. Local deployment and developer benchmarks come with important research limits.
+us-jobless-claims-october-22-2026|New unemployment claims fell by 6,000, while continuing claims increased. The two measures give different readings on the labor market.
 ethereum-decoupled-consensus-finality-proposal-2026|A new Ethereum draft separates two validator voting jobs to pursue faster finality. It remains unfinished and has no activation date.
 deepseek-15-billion-financing-reports-october-2026|Reports put DeepSeek’s new financing near $15 billion, but closing terms, valuation and an eventual public listing remain distinct questions.
 lockheed-f35-framework-850-jets-october-2026|A ten-year F-35 framework offers Lockheed longer demand visibility, but congressional funding and final contract terms still matter.
