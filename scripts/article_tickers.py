@@ -94,7 +94,9 @@ def refresh_article_tickers(root=ROOT):
         if labels:
             pattern=r'<script\b[^>]*src="chart\.js[^\"]*"[^>]*></script>'
             script=f'<script defer src="chart.js?v={version}"></script>'
-            if not re.search(pattern,text):
+            if re.search(pattern,text):
+                text=re.sub(pattern,script,text)
+            else:
                 text=text.replace('</body>',script+'</body>')
         if text!=before:
             page.write_text(text);changed.append(page.name)

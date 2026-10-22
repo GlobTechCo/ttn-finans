@@ -185,7 +185,7 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   background: var(--surface-2);
   border-bottom: 1px solid var(--border);
-  transition: max-height 0.35s ease;
+  /* Stable geometry keeps chart navigation reliable on mobile. */
 }
 .chart-panel.open { max-height: 480px; }
 .chart-panel-inner {

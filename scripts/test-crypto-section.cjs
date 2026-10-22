@@ -40,10 +40,10 @@ async function noOverflow(page,label) {
    const all=await page.locator('.editorial-topics a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
    assert.deepEqual([...new Set(all)].sort(),expected(sorted('Crypto')).sort());
    assert.equal(await page.locator('.crypto-chart-links a').count(),4);
-   assert.match(await page.locator('tv-ticker-tape').getAttribute('symbols'),/COINBASE:SOLUSD,BITSTAMP:XRPUSD/);
+   assert.deepEqual(await page.locator('tv-mini-chart').evaluateAll(es=>es.map(e=>e.getAttribute('symbol'))), ['BITSTAMP:BTCUSD','BITSTAMP:ETHUSD','COINBASE:SOLUSD','BITSTAMP:XRPUSD']);
    await noOverflow(page,name+' crypto');
-   await page.waitForFunction(()=>{const w=document.querySelector('tv-ticker-tape');return w?.shadowRoot && /[0-9]+[.,][0-9]+/.test(w.shadowRoot.textContent);}, null, {timeout:10000}).catch(()=>{});
-   console.log('QUOTE',name,await page.locator('tv-ticker-tape').evaluate(w=>({defined:!!customElements.get('tv-ticker-tape'),text:w.shadowRoot?.textContent?.slice(-1600),html:w.shadowRoot?.innerHTML?.slice(-1500)})));
+   await page.waitForFunction(()=>{const w=document.querySelector('tv-mini-chart');return w?.shadowRoot && /[0-9]+[.,][0-9]+/.test(w.shadowRoot.textContent);}, null, {timeout:10000}).catch(()=>{});
+   console.log('QUOTE',name,await page.locator('tv-mini-chart').first().evaluate(w=>({defined:!!customElements.get('tv-mini-chart'),text:w.shadowRoot?.textContent?.slice(-1600),html:w.shadowRoot?.innerHTML?.slice(-1500)})));
    await page.screenshot({path:path.join(shots,name+'-crypto.png'),fullPage:true});
    await page.locator('.crypto-chart-links a').first().click();
    await page.getByRole('button',{name:'Close chart',exact:true}).waitFor();

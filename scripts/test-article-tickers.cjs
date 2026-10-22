@@ -43,9 +43,15 @@ const cases = [
         const control = page.locator('.static-page .article-ticker-tag[data-tv="' + symbol + '"]');
         await control.waitFor();
         assert.equal(new URL(await control.getAttribute('href')).searchParams.get('symbol'), symbol);
+        await control.scrollIntoViewIfNeeded();
+        assert(await control.evaluate(e => e.getBoundingClientRect().top > 300), 'Start at article-end control');
         await control.click();
         await page.locator('#tv-chart-container [data-chart-symbol="' + symbol + '"]').waitFor();
         assert(await page.locator('#chart-panel').isVisible());
+        await page.waitForFunction(() => {
+          const r = document.getElementById('chart-panel').getBoundingClientRect();
+          return r.top >= 0 && r.top < 120 && r.bottom <= innerHeight;
+        });
         assert((await page.locator('#chart-panel-title').innerText()).includes(symbol));
         await page.keyboard.press('Escape');
         assert(await page.locator('#chart-panel').isHidden());

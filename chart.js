@@ -13,6 +13,7 @@ const TTNChart = (() => {
     panel = document.createElement("div");
     panel.id = "chart-panel";
     panel.className = "chart-panel";
+    panel.style.transition = "none";
     panel.hidden = true;
     panel.setAttribute("role", "region");
     panel.setAttribute("aria-label", "Market chart");
@@ -50,8 +51,15 @@ const TTNChart = (() => {
     // and scrolled to, instead of silently doing nothing.
     panel.hidden = false;
     panel.classList.add("open");
-    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+    // Focus first: mobile browsers can cancel a pending smooth scroll when
+    // focus or the newly inserted panel changes the document's scroll anchor.
+    // Expand synchronously, then navigate after layout has settled.
     panel.querySelector("#chart-panel-close").focus({ preventScroll: true });
+    requestAnimationFrame(() => {
+      if (!panel.hidden && currentSymbol === tvSymbol) {
+        panel.scrollIntoView({ behavior: "instant", block: "start" });
+      }
+    });
 
     // Fully replace the container node (not just clear its innerHTML) —
     // TradingView's widget script doesn't always reinitialize cleanly in a
@@ -116,7 +124,7 @@ const TTNChart = (() => {
   // TradingView web components expose a cancelable symbol-navigation event.
   // Keep ticker-tape charts on TTN, using the same panel as article tickers.
   document.addEventListener("tv-link-open", (event) => {
-    if (event.detail?.context?.widget !== "tv-ticker-tape") return;
+    if (!["tv-ticker-tape", "tv-mini-chart"].includes(event.detail?.context?.widget)) return;
     const symbol = event.detail.context.symbol;
     if (typeof symbol !== "string" || !symbol.includes(":")) return;
     event.preventDefault();
