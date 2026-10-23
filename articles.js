@@ -64,7 +64,7 @@ const TTN_ARTICLES = [
     "title": "SoftBank suspends disaster alerts as PHP security repairs reach critical services",
     "dek": "Japan’s mobile operator paused earthquake, tsunami and evacuation alerts for emergency maintenance, showing the operational cost of patching shared software.",
     "tickers": [
-      "9434"
+      "SOBKY"
     ],
     "imageAlt": "Reference-based illustration of the SoftBank Ginza store entrance with its installed wordmark and ordinary customers",
     "sources": [
