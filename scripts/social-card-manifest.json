@@ -2298,6 +2298,39 @@
       "bytes": 375356,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/hsbc-redcoin-payme-launch-october-2026.html"
+    },
+    {
+      "page": "amex-q3-2026-profit-workforce-cut.html",
+      "source": "assets/editorial/amex-q3-2026-profit-workforce-cut-cover-v1.webp",
+      "image": "assets/social/amex-q3-2026-profit-workforce-cut-cover-v1-97b1c0a954a5.webp",
+      "sha256": "97b1c0a954a5e1e3f16867f15d816929981b7757e47270b2ac488a349392059f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 596816,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/amex-q3-2026-profit-workforce-cut.html"
+    },
+    {
+      "page": "spacex-80000-cell-sites-wireless-talks-2026.html",
+      "source": "assets/editorial/spacex-80000-cell-sites-wireless-talks-2026-cover-v1.webp",
+      "image": "assets/social/spacex-80000-cell-sites-wireless-talks-2026-cover-v1-11a20dd3549c.webp",
+      "sha256": "11a20dd3549ceeaa058779857c8caa578246d4e079701533da1a29f91e3211af",
+      "width": 1672,
+      "height": 941,
+      "bytes": 318858,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/spacex-80000-cell-sites-wireless-talks-2026.html"
+    },
+    {
+      "page": "bloom-mas-malaysia-thailand-ripple-visa-2026.html",
+      "source": "assets/editorial/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1.webp",
+      "image": "assets/social/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1-6d3ecd78dc13.webp",
+      "sha256": "6d3ecd78dc13f67c67589ba1e4c6f8394f77acebe64d52414555cacebfb99098",
+      "width": 1672,
+      "height": 941,
+      "bytes": 576906,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bloom-mas-malaysia-thailand-ripple-visa-2026.html"
     }
   ]
 }

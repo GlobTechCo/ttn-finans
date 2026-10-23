@@ -7,6 +7,10 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['amex-q3-2026-profit-workforce-cut', 'NYSE:AXP'],
+  ['spacex-80000-cell-sites-wireless-talks-2026', 'NASDAQ:SPCX'],
+  ['spacex-80000-cell-sites-wireless-talks-2026', 'NYSE:CCI'],
+  ['bloom-mas-malaysia-thailand-ripple-visa-2026', 'NYSE:MA'],
   ['softbank-emergency-alerts-php-security-october-2026', 'OTC:SOBKY'],
   ['hsbc-redcoin-payme-launch-october-2026', 'NYSE:HSBC'],
   ['uber-chatgpt-work-rollout-october-2026', 'NYSE:UBER'],

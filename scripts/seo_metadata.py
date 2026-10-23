@@ -1,4 +1,7 @@
 TITLES = '''
+bloom-mas-malaysia-thailand-ripple-visa-2026|Ripple, Visa Join BLOOM Digital-Money Project
+spacex-80000-cell-sites-wireless-talks-2026|SpaceX Seeks 80,000 US Cell Sites, Report Says
+amex-q3-2026-profit-workforce-cut|Amex Raises Profit Floor, Plans 5% Workforce Cut
 hsbc-redcoin-payme-launch-october-2026|HSBC launches RedCoin stablecoin through PayMe
 softbank-emergency-alerts-php-security-october-2026|SoftBank halts disaster alerts for PHP repairs
 uk-retail-sales-september-2026-decline|UK retail sales fall 0.4% in September
@@ -136,6 +139,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+bloom-mas-malaysia-thailand-ripple-visa-2026|Malaysia and Thailand join Singapore in shaping cross-border settlement rules for tokenized deposits and regulated stablecoins.
+spacex-80000-cell-sites-wireless-talks-2026|Reported tower talks would extend Starlink beyond satellites. Spectrum approval, construction and network economics remain major hurdles.
+amex-q3-2026-profit-workforce-cut|Record card spending lifted Amex revenue, but asset-sale gains and tax benefits complicate the earnings picture.
 hsbc-redcoin-payme-launch-october-2026|The Hong Kong dollar token is rolling out to PayMe users. Its private network, reserve disclosures and lack of deposit protection define what customers receive.
 softbank-emergency-alerts-php-security-october-2026|Japan’s mobile operator paused earthquake, tsunami and evacuation alerts for emergency maintenance, showing the operational cost of patching shared software.
 uk-retail-sales-september-2026-decline|Weak autumn clothing demand pulled September sales lower. Upward revisions and a stronger quarter complicate the picture for consumers and rates.

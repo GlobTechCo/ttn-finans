@@ -6,6 +6,16 @@ Never use a cinematic style for TTN imagery. Apply this to every new cover, illu
 
 Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns image acceptance and correction approvals.
 
+## Mandatory quality threshold: 8/10
+
+The owner explicitly requires a minimum self-assessed quality of 8/10 for every TTN generated image, including previews presented as candidates and published covers. Never knowingly present a lower-rated generation as a deliverable or ask the owner to perform the first quality check.
+
+Before generating, review the concept for its direct connection to the news, visual clarity, originality relative to recent covers and feasibility of accurate details. After generation, inspect the actual output at full article size and card size. A promising prompt or concept score cannot substitute for reviewing the result.
+
+Record an internal score out of 10 using five criteria, each worth up to two points: relevance to the reported event; clarity and audience-facing visual strength; factual/brand/architectural and anatomical credibility; composition and framing; technical quality and compliance with the established visual style. Require a total of at least 8/10 and no critical defect. Incorrect branding, invented named architecture, cropped heads or essential objects, unreadable key content, anatomical errors and cinematic treatment fail the gate regardless of the total.
+
+Reject and revise or regenerate a failing result autonomously before presenting it as ready or publishing it. Do not inflate scores to meet the threshold. The score is editorial judgment, not an objective guarantee of audience response. Keep scores and rejected attempts internal unless the owner requests an assessment; do not add ratings to public articles. Existing approval requirements for requested image corrections still apply to the specific accepted preview.
+
 - Use neutral natural daylight, realistic white balance/exposure and believable color. Exclude cinematic/moody grading, dramatic skies, film grain, teal/orange effects, strong vignettes, artificial glow and harsh glare. Neutral does not mean gray or desaturated.
 - Exclude staged advertising behavior: posed agent-and-buyer groups, handshakes, matching smiles and showroom-perfect settings. For housing-market coverage, prefer ordinary residential construction and credible everyday activity. Include people when the scene calls for them without inventing named participants.
 - Inspect the actual result for anatomy, perspective, architecture, signage, equipment and plausible placement. Reject weak results and regenerate before seeking approval. Keep keypads readable with digits/symbols, equipment intact and vehicles parked realistically.

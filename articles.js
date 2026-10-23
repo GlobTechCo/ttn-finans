@@ -1,6 +1,169 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "amex-q3-2026-profit-workforce-cut",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Amex lifts its profit floor and plans a 5% workforce cut",
+    "dek": "Record card spending lifted Amex revenue, but asset-sale gains and tax benefits complicate the earnings picture.",
+    "tickers": [
+      "AXP"
+    ],
+    "imageAlt": "Illustrative reconstruction of the American Express Tower entrance at 200 Vesey Street in New York.",
+    "sources": [
+      {
+        "label": "American Express Q3 2026 earnings release",
+        "url": "https://s26.q4cdn.com/747928648/files/doc_earnings/2026/q3/earnings-result/Q3-2026-Earnings-Press-Release.pdf"
+      },
+      {
+        "label": "American Express Q3 2026 earnings presentation",
+        "url": "https://s26.q4cdn.com/747928648/files/doc_earnings/2026/q3/presentation/Q3-2026-Earnings-Presentation.pdf"
+      },
+      {
+        "label": "Reuters: CEO discloses planned workforce reduction",
+        "url": "https://www.reuters.com/business/amex-ceo-says-company-cut-5-total-workforce-2026-10-23/"
+      },
+      {
+        "label": "Business Wire: company release published at 7:00 a.m. Eastern",
+        "url": "https://www.businesswire.com/news/home/20261022834130/en/American-Express-Reports-Third-Quarter-2026-Financial-Results"
+      }
+    ],
+    "body": [
+      "<p>American Express raised the lower end of its annual adjusted profit forecast Friday as customers continued spending, while preparing a restructuring expected to eliminate about 5% of its global workforce. The combination puts two competing signals into the same report: a premium card business still growing and management seeking a leaner cost base.</p>",
+      "<p>The card issuer reported third-quarter revenue of $20.06 billion, up 9%, and $454 billion of billed business, an 8% increase. Adjusted earnings reached $4.68 a share, up 13%. Chief executive Stephen Squeri disclosed the planned workforce reduction during the earnings call, according to Reuters; the financial release described restructuring tied to efficiency initiatives.</p>",
+      "<h2>The forecast increased at the bottom</h2>",
+      "<p>Amex now expects adjusted 2026 earnings of $17.60 to $17.90 a share, compared with its previous $17.30 to $17.90 range. The upper limit did not change. That is a more measured improvement than a comparison with the new headline GAAP forecast of $18.30 to $18.60 might suggest. Management maintained its expectation for 10% annual revenue growth.</p>",
+      "<p>The distinction matters because accounting profit includes a gain from selling the company's equity stake in Global Business Travel Group. A disposal produces real value for shareholders, but it cannot be repeated indefinitely from the same asset. Comparing the adjusted ranges gives readers a clearer view of the change management expects from the continuing business.</p>",
+      "<p>Amex's presentation reconciles the figures explicitly. Third-quarter GAAP earnings were $5.42 a share, up 31%. Removing the sale gain and adding back the restructuring charge produces the $4.68 adjusted result. The annual outlook includes a net 73-cent contribution from those exceptional items. Neither number is interchangeable with the other, an important distinction when assessing an <a href=\"earnings-beat-miss-explained.html\">earnings report against market expectations</a>.</p>",
+      "<h2>Premium spending remains a strength</h2>",
+      "<p>American Express earns money from spending across its network, card fees and lending. Those revenue streams respond differently to consumer behavior. More purchases can increase merchant-related revenue, while customers carrying larger balances can generate additional interest income. Higher spending alone does not establish that households are buying more goods or taking more trips; prices also influence dollar totals.</p>",
+      "<p>This is a useful qualification for a business serving relatively affluent customers. Its results offer evidence about its own customer base, rather than a complete reading of American household finances. As with <a href=\"retailer-earnings-consumer-bellwether-explained.html\">retail earnings as a consumer indicator</a>, the mix of customers matters as much as the headline growth rate. A resilient premium segment can coexist with pressure elsewhere.</p>",
+      "<h2>Adjusted earnings still contain moving parts</h2>",
+      "<p>The presentation shows adjusted pretax income rose just 2%, considerably less than the 13% increase in adjusted earnings per share. It also identifies a $195 million discrete tax benefit and a $215 million provision benefit from a credit-loss model update. Both remained inside adjusted earnings, alongside a $400 million pretax charge for legal matters.</p>",
+      "<p>Those disclosures show why adjusted does not mean free of unusual influences. Lower taxes, reserve assumptions and a smaller share count can lift earnings per share without an equivalent acceleration in operating income. Investors evaluating the quarter need to separate spending growth, credit costs and these accounting effects instead of treating the headline EPS increase as a single measure of underlying momentum.</p>",
+      "<p>The workforce plan adds another execution test. The company booked a $336 million pretax restructuring charge, or $253 million after tax. A charge records an expected cost; it does not demonstrate that future savings have already materialized. Maintaining customer service and growth while changing staffing will determine whether the restructuring improves the economics of the business.</p>",
+      "<p>The next results will therefore need to answer a more specific question than whether revenue is higher. Sustained billings growth, the behavior of credit losses and expenses after the restructuring will show how much of today's profit improvement can carry into the following year. The raised earnings floor signals confidence, but the unchanged ceiling and the detailed earnings reconciliation keep that confidence in perspective.</p>"
+    ],
+    "image": "assets/editorial/amex-q3-2026-profit-workforce-cut-cover-v1.webp",
+    "imageSmall": "assets/responsive/amex-q3-2026-profit-workforce-cut-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/amex-q3-2026-profit-workforce-cut-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/amex-q3-2026-profit-workforce-cut-cover-v1-480.webp 480w, assets/responsive/amex-q3-2026-profit-workforce-cut-cover-v1-960.webp 960w, assets/editorial/amex-q3-2026-profit-workforce-cut-cover-v1.webp 1672w",
+    "date": "2026-10-23T13:40:57Z",
+    "dateModified": "2026-10-23T13:40:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "spacex-80000-cell-sites-wireless-talks-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "SpaceX seeks 80,000 cell sites in push toward a US wireless network",
+    "dek": "Reported tower talks would extend Starlink beyond satellites. Spectrum approval, construction and network economics remain major hurdles.",
+    "tickers": [
+      "SPCX",
+      "CCI"
+    ],
+    "imageAlt": "Editorial illustration of a US cellular tower with a superimposed Starlink wordmark.",
+    "sources": [
+      {
+        "label": "Reuters: reported SpaceX cell-site negotiations",
+        "url": "https://www.investing.com/news/stock-market-news/spacex-seeks-access-to-80000-us-cell-sites-for-wireless-network-bloomberg-news-reports-4967805"
+      },
+      {
+        "label": "Investor's Business Daily: October 23 market reaction",
+        "url": "https://www.investors.com/news/spacex-cell-site-report-hits-verizon-att-lifts-these-tower-plays/"
+      },
+      {
+        "label": "Grain Management: October 8 spectrum agreement",
+        "url": "https://www.prnewswire.com/news-releases/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex-302902974.html"
+      },
+      {
+        "label": "Starlink Mobile: current service and proposed next-generation capabilities",
+        "url": "https://starlink.com/Mobile"
+      },
+      {
+        "label": "Crown Castle: October 21 quarterly results",
+        "url": "https://investor.crowncastle.com/node/29361"
+      }
+    ],
+    "body": [
+      "<p>SpaceX is seeking access to at least 80,000 US cellular sites, according to a Bloomberg report Thursday evening, a proposed expansion that would move Starlink closer to competing as a nationwide wireless carrier. The reported negotiations include tower owner Crown Castle. No completed lease agreement or nationwide commercial launch was announced in the report.</p>",
+      "<p>The potential competitive shift remained in focus Friday. Investor's Business Daily reported pressure on incumbent carrier shares and gains for tower operators. The distinction reflects different business models: another network could challenge companies selling mobile subscriptions while creating an additional customer for businesses that rent space for antennas. That opportunity depends on contracts, rather than discussions alone.</p>",
+      "<h2>A satellite business needs a ground strategy</h2>",
+      "<p>Starlink Mobile's existing proposition connects compatible LTE phones to satellites where users have a view of the sky. The company describes integration with mobile networks as similar to a roaming arrangement. A terrestrial network addresses a different requirement: carrying concentrated traffic where large numbers of people use their phones in the same area, including places where satellite visibility is limited.</p>",
+      "<p>Owning satellites does not eliminate the practical tasks involved in a ground network. A cellular site needs power, antenna equipment and a connection into the wider communications system. Buildings and local conditions influence coverage. Access to a tower is therefore one input into service, rather than a complete working network or proof that customers can immediately switch providers.</p>",
+      "<p>For investors, that separates an impressive footprint target from the spending needed to make it productive. Leases would create continuing obligations before a new carrier necessarily has enough customers to cover them. Network equipment, integration and support would add costs beyond site access. Our explanation of <a href=\"free-cash-flow-explained.html\">capital expenditure and free cash flow</a> sets out why a growth project can strengthen long-term capacity while consuming cash upfront.</p>",
+      "<h2>The spectrum agreement is real; its approval is pending</h2>",
+      "<p>A separate, confirmed step came October 8, when Grain Management announced an agreement for SpaceX to acquire its nationwide 800 MHz spectrum portfolio. Grain said the transaction remained subject to Federal Communications Commission approval and customary closing conditions. Its announcement described the frequencies as supporting Starlink Mobile connections from both the ground and space.</p>",
+      "<p>Spectrum supplies the permission to transmit using particular frequencies; site access supplies locations from which ground equipment could transmit. Securing one does not automatically secure the other. Combining them could support a wider service, but regulatory conditions, installation schedules and device compatibility would still influence what can be sold and when. The reported tower talks add a possible infrastructure component to the earlier spectrum transaction.</p>",
+      "<p>SpaceX's product page also describes a next-generation satellite system intended to improve throughput and deliver a cellular experience comparable to terrestrial service in most environments. Those are the company's stated capabilities and ambitions. They should not be read as independently measured performance for a completed nationwide hybrid network. Announced capacity and operating results answer different questions, much as <a href=\"nokia-q3-2026-ai-cloud-network-orders.html\">network-equipment orders differ from recognized revenue</a>.</p>",
+      "<h2>What tower owners can actually book</h2>",
+      "<p>Crown Castle said in its October 21 results that it operates approximately 40,000 US cell towers. Its current annual outlook projects $3.875 billion in site rental revenue at the midpoint. Those existing operations provide scale for a prospective tenant, but the 80,000-site figure is an industry-wide target in the report, not an announced order covering Crown Castle's entire portfolio twice.</p>",
+      "<p>Reuters reported that Crown Castle chief executive Christian Hillabrant had discussed engagement with potential customers without identifying specific counterparties. That leaves material terms unresolved publicly, including the number of sites involved, lease duration, installation timing and rental economics. A large potential customer can improve an infrastructure owner's prospects, but its financial value depends on those details.</p>",
+      "<p>For consumers, the meaningful milestone would be a service offering with defined coverage, device support and pricing. For investors, it would be signed commitments and a credible construction budget. The reported negotiations make the competitive possibility more concrete; they do not yet establish the timetable or economics of a fourth nationwide carrier.</p>"
+    ],
+    "image": "assets/editorial/spacex-80000-cell-sites-wireless-talks-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/spacex-80000-cell-sites-wireless-talks-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/spacex-80000-cell-sites-wireless-talks-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/spacex-80000-cell-sites-wireless-talks-2026-cover-v1-480.webp 480w, assets/responsive/spacex-80000-cell-sites-wireless-talks-2026-cover-v1-960.webp 960w, assets/editorial/spacex-80000-cell-sites-wireless-talks-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T13:40:57Z",
+    "dateModified": "2026-10-23T13:40:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "bloom-mas-malaysia-thailand-ripple-visa-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Ripple, Visa and Mastercard join Singapore-led digital-money push",
+    "dek": "Malaysia and Thailand join Singapore in shaping cross-border settlement rules for tokenized deposits and regulated stablecoins.",
+    "tickers": [
+      "V",
+      "MA",
+      "XRP"
+    ],
+    "imageAlt": "Illustrative reconstruction of the Monetary Authority of Singapore headquarters sign and stone facade.",
+    "sources": [
+      {
+        "label": "MAS: central banks and industry expand BLOOM, October 23",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+      },
+      {
+        "label": "Full republication of the MAS announcement",
+        "url": "https://mondovisione.com/media-and-resources/news/monetary-authority-of-singapore-bank-negara-malaysia-and-bank-of-thailand-partn-20261023/"
+      },
+      {
+        "label": "MAS: BLOOM objectives, workstreams and membership",
+        "url": "https://www.mas.gov.sg/schemes-and-initiatives/BLOOM"
+      }
+    ],
+    "body": [
+      "<p>Singapore's digital-money settlement initiative is expanding across Southeast Asia, with the central banks of Malaysia and Thailand joining as policymaker members and Ripple, Visa and Mastercard among the new participants. The Monetary Authority of Singapore announced the changes Friday, bringing payment networks, banks and digital-asset providers into a broader effort to make different forms of money work across borders.</p>",
+      "<p>The initiative, called BLOOM, covers tokenized bank deposits and regulated stablecoins. Its expansion is a coordination step, rather than the launch of a new regional currency or a single payment network. The practical objective is to establish how institutions accept digital money from one another, exchange it and complete settlement when different technologies and legal systems are involved.</p>",
+      "<h2>Moving a token is only part of making a payment</h2>",
+      "<p>A business paying a supplier abroad needs more than a quick transfer on a ledger. The recipient must be willing and legally able to accept the asset, identify the sender, value what it receives and determine when the payment obligation is discharged. A technically successful transfer can still leave questions about redemption, compliance or which institution owes the money.</p>",
+      "<p>BLOOM's significance lies in addressing these connections between systems. MAS says participants will examine cross-jurisdiction acceptance and settlement, interoperability and programmable controls. Those controls include identity verification, sanctions screening and transaction restrictions. The program is attempting to make institutional digital money usable within financial arrangements that still have distinct supervisory requirements.</p>",
+      "<p>That is different from assuming all tokens represent the same claim. A tokenized deposit records a claim on a bank, while a stablecoin depends on its issuer's legal structure, reserves and redemption terms. Our <a href=\"stablecoins-explained-depeg-risk.html\">guide to stablecoin backing and redemption</a> explains why a stated peg alone does not settle those questions. Connecting systems does not erase the underlying differences between their assets.</p>",
+      "<h2>Why the central-bank membership matters</h2>",
+      "<p>Bank Negara Malaysia and the Bank of Thailand will participate alongside Singapore's monetary authority. MAS said the institutions will work with industry on common approaches while allowing for differences in local requirements. This gives the initiative a way to examine regulatory and operational questions across jurisdictions, instead of treating one market's framework as universally applicable.</p>",
+      "<p>The economic case is that institutions could avoid negotiating every technical and operating arrangement separately with every counterparty. MAS identifies lower implementation costs and shorter deployment times as intended benefits. Those are program objectives, not measured savings announced Friday. Whether they emerge will depend on usable frameworks and financial institutions implementing them in actual services.</p>",
+      "<p>The expanded group also includes the World Bank Group, whose role brings experience in payment-system modernization and financial inclusion. Airwallex, Maybank, Monee, Nium and ShopeePay were also named as new participants. The mix points toward business payments and financial infrastructure, rather than a project centered on trading tokens on cryptocurrency exchanges.</p>",
+      "<h2>Ripple's participation is not an XRP adoption announcement</h2>",
+      "<p>For crypto readers, Ripple's presence is notable, but the announcement does not say that XRP will be used for BLOOM settlement. Ripple the company, the XRP Ledger network and the XRP asset are distinct. Membership provides no basis to infer a mandatory bridge token, future transaction volume or a direct effect on the token's price.</p>",
+      "<p>The same distinction applies to Visa and Mastercard: joining a collaborative initiative does not establish that every transaction will run on either company's existing card network. The commercial value will depend on the services ultimately built and the roles participants perform. A membership list is evidence of engagement, rather than a disclosed revenue contract.</p>",
+      "<p>MAS's initiative page identifies corporate treasury, trade finance and payments as relevant uses. It also includes exploration of AI agents making payments within predefined limits. Such applications would need clear authorization and safeguards. The design question is who permits a transaction and bears responsibility for it, alongside how efficiently the money moves.</p>",
+      "<p>Recent launches show why product-specific terms remain essential. <a href=\"hsbc-redcoin-payme-launch-october-2026.html\">HSBC's Hong Kong stablecoin</a> and <a href=\"sofi-earn-tokenized-deposit-october-2026.html\">SoFi's tokenized deposit</a> have different structures and operating arrangements. BLOOM's next consequential step will be demonstrating how institutions connect such arrangements across borders, with clear settlement rules and published evidence of working transactions.</p>"
+    ],
+    "image": "assets/editorial/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1-480.webp 480w, assets/responsive/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1-960.webp 960w, assets/editorial/bloom-mas-malaysia-thailand-ripple-visa-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T13:40:57Z",
+    "dateModified": "2026-10-23T13:40:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "uk-retail-sales-september-2026-decline",
     "section": "Market Analysis",
     "format": "news",
