@@ -1,6 +1,173 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "uk-retail-sales-september-2026-decline",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "British retail sales fall 0.4%, but the quarter still ends higher",
+    "dek": "Weak autumn clothing demand pulled September sales lower. Upward revisions and a stronger quarter complicate the picture for consumers and rates.",
+    "tickers": [
+      "GBP/USD"
+    ],
+    "imageAlt": "Illustrative British clothing shop scene showing autumn garments and customers in ordinary daytime conditions",
+    "sources": [
+      {
+        "label": "ONS: September 2026 retail sales bulletin",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2026"
+      },
+      {
+        "label": "ONS: September 2026 consumer price inflation",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+      },
+      {
+        "label": "ONS: August retail sales and measurement background",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026"
+      },
+      {
+        "label": "Reuters: October flash UK business survey",
+        "url": "https://www.reuters.com/world/uk/uk-businesses-report-strongest-month-since-february-pmi-shows-2026-10-23/"
+      },
+      {
+        "label": "Reuters: September retail sales reporting",
+        "url": "https://www.reuters.com/world/uk/british-retail-sales-fall-by-04-september-2026-10-23/"
+      }
+    ],
+    "body": [
+      "<p>British shoppers bought fewer goods in September, with unusually warm weather weakening demand for autumn clothing and supermarket sales slipping. Retail sales volumes fell 0.4% from August, the Office for National Statistics said October 23, although upward revisions to earlier months left the third quarter stronger than the latest monthly figure might suggest.</p>",
+      "<p>The quantity sold increased 0.7% in July through September compared with the previous quarter. September sales were also 0.8% above a year earlier. Those comparisons matter: a monthly retreat can signal a change in momentum without establishing that spending has contracted over a longer period. The release covers Great Britain, rather than every part of the United Kingdom.</p>",
+      "<h2>The revisions change the starting point</h2>",
+      "<p>The <a href=\"https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2026\" rel=\"noopener noreferrer\">ONS bulletin</a> revised August’s increase to 0.7% from 0.5% and July’s decline to 0.4% from 0.5%. September therefore followed a stronger August than initially reported. Comparing the new monthly reading with an unrevised prior estimate would miss part of the change in the underlying series.</p>",
+      "<p>Online clothing retailers reported that autumn and winter ranges sold poorly in the warm conditions. Supermarkets also lost ground after gains in July and August, while non-food store volumes fell 0.4%. Automotive fuel moved in the opposite direction. The weakness was consequently uneven across products, rather than a uniform retreat by every type of retailer.</p>",
+      "<p>For clothing sellers, the commercial issue extends beyond a delayed purchase. If demand arrives after the intended selling season, retailers may need discounts to clear stock. That can support the number of items sold while reducing profit per item. This is an implication of the reported pattern, not evidence that every affected chain has already cut its earnings forecast.</p>",
+      "<h2>Cash spent and goods purchased can diverge</h2>",
+      "<p>Retail volumes measure quantities after allowing for price changes. They answer a different question from a retailer’s cash receipts. A household can spend more money and leave with fewer goods if prices rise sufficiently. Our guide to <a href=\"us-inflation-retail-sales-september-2026.html\">inflation and retail spending</a> explains why a nominal sales increase should not automatically be treated as stronger purchasing power.</p>",
+      "<p>Britain’s separate inflation release this week put September consumer price inflation at 3.5%, up from 3.1% in August. Motor fuels were the largest upward contributor to the change in the annual rate. That is relevant context for household budgets, but an annual inflation reading and a monthly retail volume change cannot be subtracted from each other to produce a meaningful measure of real spending growth.</p>",
+      "<p>The distinction also matters for company results. A retailer’s revenue can reflect new stores, changes in product mix, price increases and overseas operations, as well as the number of goods sold. The national release is therefore a demand indicator, not a direct forecast for a particular chain’s profit. Our <a href=\"retailer-earnings-consumer-bellwether-explained.html\">retailer earnings explainer</a> sets out those differences.</p>",
+      "<h2>A different survey gives a stronger signal</h2>",
+      "<p>Friday’s business survey offered a counterweight to the retail figures. Reuters reported that the preliminary S&P Global UK composite purchasing managers’ index rose to 53.1 in October from 52.0 in September, its highest reading since February. That survey covers a broader mix of private-sector activity and a later month than the retail release.</p>",
+      "<p>There is no requirement for those indicators to move together. Services and business investment can improve while households buy fewer discretionary goods. A <a href=\"ism-pmi-explained.html\">purchasing managers’ index</a> measures the breadth of reported changes among surveyed firms; its numerical level is not a percentage growth rate and is not directly comparable with the ONS sales estimate.</p>",
+      "<p>For GBP/USD and interest-rate expectations, the combined message is mixed: weaker goods demand sits alongside persistent inflation and stronger reported business activity. None of those releases alone determines the Bank of England’s next decision. The next useful evidence will be whether the clothing slowdown reverses, whether broader household spending holds up, and whether price pressures ease without a deeper loss of demand.</p>"
+    ],
+    "image": "assets/editorial/uk-retail-sales-september-2026-decline-cover-v1.webp",
+    "imageSmall": "assets/responsive/uk-retail-sales-september-2026-decline-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/uk-retail-sales-september-2026-decline-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/uk-retail-sales-september-2026-decline-cover-v1-480.webp 480w, assets/responsive/uk-retail-sales-september-2026-decline-cover-v1-960.webp 960w, assets/editorial/uk-retail-sales-september-2026-decline-cover-v1.webp 1672w",
+    "date": "2026-10-23T09:22:44Z",
+    "dateModified": "2026-10-23T09:22:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "softbank-emergency-alerts-php-security-october-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "SoftBank suspends disaster alerts as PHP security repairs reach critical services",
+    "dek": "Japan’s mobile operator paused earthquake, tsunami and evacuation alerts for emergency maintenance, showing the operational cost of patching shared software.",
+    "tickers": [
+      "9434"
+    ],
+    "imageAlt": "Reference-based illustration of the SoftBank Ginza store entrance with its installed wordmark and ordinary customers",
+    "sources": [
+      {
+        "label": "SoftBank: emergency alert maintenance notice, October 23",
+        "url": "https://www.softbank.jp/corp/news/info/2026/20261023_01/"
+      },
+      {
+        "label": "PHP project: critical security advisory and fixed releases",
+        "url": "https://www.php.net/archive/2026.php"
+      },
+      {
+        "label": "CERT-EU: advisory 2026-018",
+        "url": "https://cert.europa.eu/publications/security-advisories/2026-018/"
+      },
+      {
+        "label": "Reuters: Japan response and service disruption",
+        "url": "https://www.reuters.com/business/media-telecom/japan-simulate-cyberattacks-php-flaws-roil-global-internet-2026-10-23/"
+      },
+      {
+        "label": "SoftBank: October 22 website maintenance update",
+        "url": "https://www.softbank.jp/corp/news/info/2026/20261022_01/"
+      }
+    ],
+    "body": [
+      "<p>SoftBank has temporarily stopped delivering emergency earthquake, tsunami and disaster evacuation alerts to customers of its Japanese mobile services while it carries out security maintenance. The October 23 notice turns a critical flaw in widely used web software into a disruption of a service people depend on for urgent warnings.</p>",
+      "<p>The operator said the suspension covers SoftBank, Y!mobile and LINEMO. Maintenance began at 6:47 a.m. Japan time on October 23, and completion is planned for October 26. In its <a href=\"https://www.softbank.jp/corp/news/info/2026/20261023_01/\" rel=\"noopener noreferrer\">official notice</a>, the company directs customers to alternative services such as the Yahoo! disaster-alert application during the interruption.</p>",
+      "<h2>A preventive shutdown is not proof of a breach</h2>",
+      "<p>SoftBank attributes the work to vulnerabilities in PHP, the software language used to run many websites and online services. Its notice does not establish that attackers compromised the emergency-alert system or stole customer information. The stated event is a maintenance-related suspension; treating it as a confirmed intrusion would go beyond the evidence the operator has provided.</p>",
+      "<p>The affected service is the emergency-alert delivery channel identified in the notice. It should not be described as a shutdown of all SoftBank mobile communications, or of every warning mechanism available in Japan. The distinction matters because an exaggerated description could obscure the practical step the company is recommending: using an alternative source of alerts while this channel is unavailable.</p>",
+      "<p>This is also separate from SoftBank’s October 22 website maintenance. The company said the Y!mobile and LINEMO official sites resumed at 5:30 p.m. that day. Restoration of those websites does not mean the later emergency-alert maintenance was already complete. Each service has its own status and recovery timetable.</p>",
+      "<h2>The weakness sits below individual applications</h2>",
+      "<p>The <a href=\"https://www.php.net/archive/2026.php\" rel=\"noopener noreferrer\">PHP project released security fixes</a> on October 21 for two vulnerabilities, CVE-2026-109618 and CVE-2026-109619. Both can allow remote code execution without an attacker first logging in. The fixed releases are PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Older unsupported branches require a supported upgrade path, rather than an assumption that they are unaffected.</p>",
+      "<p>PHP’s developers say the risk spans web-serving configurations including PHP-FPM and Apache’s mod_php. In the latter configuration, they describe an attack that can trigger before application code runs. That helps explain why checking only a website’s own scripts is insufficient: the vulnerable component can sit underneath the application and process requests before its normal business logic begins.</p>",
+      "<p><a href=\"https://cert.europa.eu/publications/security-advisories/2026-018/\" rel=\"noopener noreferrer\">CERT-EU recommends</a> updating affected installations promptly and considering isolation of exposed applications when a fix cannot yet be applied and verified. It also highlights products that embed PHP internally. An organization may therefore have affected software even when its own development team does not normally write PHP applications.</p>",
+      "<h2>Security fixes carry an operational bill</h2>",
+      "<p>For operators, installing a patch is only one part of restoration. They need to locate affected components, establish which vendor package contains the correction, test dependent functions and confirm the service behaves correctly before reconnecting it. That process can create downtime even when the purpose is to prevent an intrusion. It is a resilience problem as well as a software-maintenance task.</p>",
+      "<p>Japan is also planning a team that will use AI to simulate cyberattacks and identify weaknesses, Reuters reported Friday. That is a proposed defensive initiative, not evidence that such a team has already repaired the PHP flaws or secured every affected service. AI-assisted testing still needs authorized scope, technical validation and a process for fixing what it finds.</p>",
+      "<p>Our coverage of <a href=\"ai-agents-india-cert-in-security-warning-2026.html\">security risks from AI agents</a> and <a href=\"enterprise-ai-data-security-2026.html\">enterprise access controls</a> addresses related governance questions. Here, the immediate measure of recovery is more concrete: confirmation from SoftBank that emergency-alert delivery has resumed. Its October 26 target remains a plan until the operator reports completion. A maintenance deadline is not a substitute for a service-status confirmation, particularly for warnings whose usefulness depends on timely delivery.</p>"
+    ],
+    "image": "assets/editorial/softbank-emergency-alerts-php-security-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/softbank-emergency-alerts-php-security-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/softbank-emergency-alerts-php-security-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/softbank-emergency-alerts-php-security-october-2026-cover-v1-480.webp 480w, assets/responsive/softbank-emergency-alerts-php-security-october-2026-cover-v1-960.webp 960w, assets/editorial/softbank-emergency-alerts-php-security-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T09:22:44Z",
+    "dateModified": "2026-10-23T09:22:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "hsbc-redcoin-payme-launch-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "HSBC launches RedCoin payments, keeping the stablecoin inside its own network",
+    "dek": "The Hong Kong dollar token is rolling out to PayMe users. Its private network, reserve disclosures and lack of deposit protection define what customers receive.",
+    "tickers": [
+      "HSBC"
+    ],
+    "imageAlt": "Reference-based illustration of the upper HSBC Main Building in Hong Kong with its installed rooftop brand and exposed steel frame",
+    "sources": [
+      {
+        "label": "HSBC: October 23 RedCoin launch announcement",
+        "url": "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today"
+      },
+      {
+        "label": "HSBC: live RedCoin product information and reserve disclosures",
+        "url": "https://www.hsbc.com.hk/stablecoins/"
+      },
+      {
+        "label": "HSBC: RedCoin white paper, October 23",
+        "url": "https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/mobile/stablecoin-whitepaper.pdf"
+      },
+      {
+        "label": "The Block: RedCoin retail launch reporting",
+        "url": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+      }
+    ],
+    "body": [
+      "<p>HSBC began launching its Hong Kong dollar stablecoin, RedCoin, through the PayMe payments app on October 23, moving the product beyond September’s naming announcement into retail use. The rollout gives an established bank a route to distribute digital tokens through an existing payments network, rather than relying first on a cryptocurrency exchange.</p>",
+      "<p>The bank says more than 3.3 million PayMe users will be able to activate a stablecoin wallet over the coming days. That is the size of the potential user base, not a count of active RedCoin holders. Payments can go to other users and to more than 100,000 merchants through PayMe, according to the <a href=\"https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today\" rel=\"noopener noreferrer\">launch announcement</a>.</p>",
+      "<h2>The token’s limits matter as much as its reach</h2>",
+      "<p>RedCoin, identified as RCHKD, is referenced to the Hong Kong dollar and is redeemable one-for-one subject to its terms. It is not a U.S. dollar token. A stable value against HKD therefore does not mean a fixed value against every currency a customer might use, and a familiar bank brand does not make all digital balances the same financial product.</p>",
+      "<p>HSBC’s <a href=\"https://www.hsbc.com.hk/content/dam/hsbc/hk/docs/mobile/stablecoin-whitepaper.pdf\" rel=\"noopener noreferrer\">October 23 white paper</a> describes a private, permissioned blockchain. The token uses ERC-20-compatible smart contracts, a familiar format in digital-asset software. Technical compatibility does not mean RedCoin is circulating on a public blockchain or can automatically be sent to an outside crypto wallet.</p>",
+      "<p>Customers also do not receive a conventional interest-bearing deposit. The white paper says RedCoin pays no interest and is not protected by Hong Kong’s Deposit Protection Scheme. That is a central distinction from the <a href=\"sofi-earn-tokenized-deposit-october-2026.html\">tokenized bank deposit launched by SoFi this week</a>. Similar-looking digital dollar products can create different rights for the person holding them.</p>",
+      "<h2>Reserve information is available, but attestations come later</h2>",
+      "<p>The bank’s <a href=\"https://www.hsbc.com.hk/stablecoins/\" rel=\"noopener noreferrer\">product disclosure page</a>, dated October 23, reports approximately HK$80.58 million in token par value outstanding and HK$81.58 million in reserve assets. The amounts are issuer-reported figures for that date. They are not an independently verified transaction-volume measure, and they do not establish how many individuals used the token.</p>",
+      "<p>The same page says the first independent reserve-attestation report is expected after the fourth quarter of 2026. Daily published figures and an outside attestation serve different purposes: the first offers a current issuer statement; the second provides external assurance over specified evidence and dates. A future commitment to publish a report is not an already completed audit.</p>",
+      "<p>The white paper describes reserve assets held under a trust arrangement and a custodian holding customer tokens in an omnibus wallet, with internal records identifying each holder’s entitlement. Those arrangements explain where control and recordkeeping sit. They do not make custody, redemption and operational risk disappear simply because the underlying ledger is a blockchain.</p>",
+      "<h2>Payments now, investment functions later</h2>",
+      "<p>HSBC plans to add wallet functionality in its Hong Kong mobile banking app and subscriptions to tokenized investment products later this year. The product page marks those functions as coming soon. It also says customers will not be able to transfer RedCoin between the PayMe and mobile-banking-app wallets. The future expansion should therefore not be presented as one unrestricted wallet system already available today.</p>",
+      "<p>For merchants, the initial proposition is distribution through a payment method they may already accept. For the bank, that avoids starting with an empty network of potential counterparties. The commercial question is whether token balances lead to repeated payments and useful new services, rather than merely initial wallet activations or transfers prompted by launch promotions.</p>",
+      "<p>Our <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin explainer</a> distinguishes a target value from a guarantee against every form of loss. RedCoin’s launch provides a concrete example of another distinction: a bank-issued token can use blockchain technology while remaining tightly controlled within the bank’s distribution channels. Usage, redemption performance and the first independent reserve reports will offer better evidence of its progress than the potential customer count alone.</p>"
+    ],
+    "image": "assets/editorial/hsbc-redcoin-payme-launch-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/hsbc-redcoin-payme-launch-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/hsbc-redcoin-payme-launch-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/hsbc-redcoin-payme-launch-october-2026-cover-v1-480.webp 480w, assets/responsive/hsbc-redcoin-payme-launch-october-2026-cover-v1-960.webp 960w, assets/editorial/hsbc-redcoin-payme-launch-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T09:22:44Z",
+    "dateModified": "2026-10-23T09:22:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "five-year-tips-auction-october-22-2026",
     "section": "Market Analysis",
     "format": "news",

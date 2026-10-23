@@ -2265,6 +2265,39 @@
       "bytes": 184476,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/sofi-earn-tokenized-deposit-october-2026.html"
+    },
+    {
+      "page": "uk-retail-sales-september-2026-decline.html",
+      "source": "assets/editorial/uk-retail-sales-september-2026-decline-cover-v1.webp",
+      "image": "assets/social/uk-retail-sales-september-2026-decline-cover-v1-7e3af7444f3d.webp",
+      "sha256": "7e3af7444f3dbaac4a6d6aed52fb104641c7bc445b9eceea57a8394f58bfc22c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 417040,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/uk-retail-sales-september-2026-decline.html"
+    },
+    {
+      "page": "softbank-emergency-alerts-php-security-october-2026.html",
+      "source": "assets/editorial/softbank-emergency-alerts-php-security-october-2026-cover-v1.webp",
+      "image": "assets/social/softbank-emergency-alerts-php-security-october-2026-cover-v1-0f85d8f33e73.webp",
+      "sha256": "0f85d8f33e7385401a70599772a91f080e5e0728e385ad2d6e18c76b40d53072",
+      "width": 1672,
+      "height": 941,
+      "bytes": 273598,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/softbank-emergency-alerts-php-security-october-2026.html"
+    },
+    {
+      "page": "hsbc-redcoin-payme-launch-october-2026.html",
+      "source": "assets/editorial/hsbc-redcoin-payme-launch-october-2026-cover-v1.webp",
+      "image": "assets/social/hsbc-redcoin-payme-launch-october-2026-cover-v1-442dae4f58c0.webp",
+      "sha256": "442dae4f58c0be47eb0a68be68b49ca459a0a9181ef9fa7f99af2577d5dc59c5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 375356,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/hsbc-redcoin-payme-launch-october-2026.html"
     }
   ]
 }

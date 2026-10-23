@@ -1,4 +1,7 @@
 TITLES = '''
+hsbc-redcoin-payme-launch-october-2026|HSBC launches RedCoin stablecoin through PayMe
+softbank-emergency-alerts-php-security-october-2026|SoftBank halts disaster alerts for PHP repairs
+uk-retail-sales-september-2026-decline|UK retail sales fall 0.4% in September
 sofi-earn-tokenized-deposit-october-2026|SoFi Earn launches tokenized deposits at 4.40% APY
 uber-chatgpt-work-rollout-october-2026|Uber rolls out ChatGPT Work to 30,000-plus staff
 five-year-tips-auction-october-22-2026|Five-year TIPS auction sets 2.367% real yield
@@ -133,6 +136,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+hsbc-redcoin-payme-launch-october-2026|The Hong Kong dollar token is rolling out to PayMe users. Its private network, reserve disclosures and lack of deposit protection define what customers receive.
+softbank-emergency-alerts-php-security-october-2026|Japan’s mobile operator paused earthquake, tsunami and evacuation alerts for emergency maintenance, showing the operational cost of patching shared software.
+uk-retail-sales-september-2026-decline|Weak autumn clothing demand pulled September sales lower. Upward revisions and a stronger quarter complicate the picture for consumers and rates.
 sofi-earn-tokenized-deposit-october-2026|SoFi Earn represents bank deposits, while conversion to SoFiUSD moves funds into a different product. The insurance boundary matters as much as the rate.
 uber-chatgpt-work-rollout-october-2026|Uber is expanding a 1,000-person pilot across its workforce. The rollout tests whether AI agents can turn broad access into measurable work savings.
 five-year-tips-auction-october-22-2026|A new five-year inflation-protected Treasury pays a 2.25% coupon. Its auction yield shows why inflation protection and price stability differ.

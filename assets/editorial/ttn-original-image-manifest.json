@@ -1587,5 +1587,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 184476,
     "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "uk-retail-sales-september-2026-decline",
+    "file": "assets/editorial/uk-retail-sales-september-2026-decline-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-23T09:22:44Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 417040,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "softbank-emergency-alerts-php-security-october-2026",
+    "file": "assets/editorial/softbank-emergency-alerts-php-security-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-23T09:22:44Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 273598,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "hsbc-redcoin-payme-launch-october-2026",
+    "file": "assets/editorial/hsbc-redcoin-payme-launch-october-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-23T09:22:44Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 375356,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
   }
 ]
