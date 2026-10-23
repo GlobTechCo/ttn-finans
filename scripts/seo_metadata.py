@@ -1,4 +1,7 @@
 TITLES = '''
+initia-network-halt-security-incident-october-2026|Initia Halts Network After Reported $2.7M Exploit
+pathos-ai-237-million-bms-tempus-2026|Pathos AI Raises $237M With Bristol Myers Backing
+slb-q3-2026-revenue-middle-east-recovery|SLB Sales Rise 6% as Middle East Activity Recovers
 phantom-kalshi-us-launch-october-2026|Phantom Launches Kalshi Markets for US Users
 iphone-duo-retail-launch-october-23-2026|Apple’s $1,999 iPhone Duo Reaches Stores
 us-consumer-sentiment-october-2026-final|US Consumer Mood Stays Low as Inflation Fears Rise
@@ -142,6 +145,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+initia-network-halt-security-incident-october-2026|Initia pauses its main chain and rollups after unauthorized token creation. Its co-founder estimates $2.7 million bridged out; final losses remain unverified.
+pathos-ai-237-million-bms-tempus-2026|Pathos AI raises $237 million led by Bristol Myers and signs a separate $55 million data agreement with Tempus to support neuroscience research.
+slb-q3-2026-revenue-middle-east-recovery|SLB reports $9.45 billion in quarterly revenue, but growth falls to 2% excluding the ChampionX acquisition. Regional disruption still clouds its outlook.
 phantom-kalshi-us-launch-october-2026|The rollout connects Phantom Cash to Kalshi event contracts, with identity checks, trading fees and state-specific limits.
 iphone-duo-retail-launch-october-23-2026|The iPhone Duo’s retail debut shifts attention from preorder queues to supply, practical app support and the case for a $1,999 starting price.
 us-consumer-sentiment-october-2026-final|October’s final Michigan survey shows weaker buying conditions for big-ticket goods and rising inflation expectations despite resilient business activity.

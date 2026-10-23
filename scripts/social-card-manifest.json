@@ -2364,6 +2364,39 @@
       "bytes": 297884,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/phantom-kalshi-us-launch-october-2026.html"
+    },
+    {
+      "page": "slb-q3-2026-revenue-middle-east-recovery.html",
+      "source": "assets/editorial/slb-q3-2026-revenue-middle-east-recovery-cover-v1.webp",
+      "image": "assets/social/slb-q3-2026-revenue-middle-east-recovery-cover-v1-504328fa77c8.webp",
+      "sha256": "504328fa77c83cf0d9ee13952605fa115b2d1f9c91e16fae36d84aeafe7e3a6f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 708372,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/slb-q3-2026-revenue-middle-east-recovery.html"
+    },
+    {
+      "page": "pathos-ai-237-million-bms-tempus-2026.html",
+      "source": "assets/editorial/pathos-ai-237-million-bms-tempus-2026-cover-v1.webp",
+      "image": "assets/social/pathos-ai-237-million-bms-tempus-2026-cover-v1-cc600a4cb9ce.webp",
+      "sha256": "cc600a4cb9ce2186760a07cc0288f9684043fd632bbe4d3fcf8571eb2736fd69",
+      "width": 1672,
+      "height": 941,
+      "bytes": 171676,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/pathos-ai-237-million-bms-tempus-2026.html"
+    },
+    {
+      "page": "initia-network-halt-security-incident-october-2026.html",
+      "source": "assets/editorial/initia-network-halt-security-incident-october-2026-cover-v1.webp",
+      "image": "assets/social/initia-network-halt-security-incident-october-2026-cover-v1-609210152901.webp",
+      "sha256": "609210152901c24d6cf6dd7dd4444a8d5cc8d8440b88b8e517bb7ad2250eff6d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 460590,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/initia-network-halt-security-incident-october-2026.html"
     }
   ]
 }

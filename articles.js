@@ -1,6 +1,170 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "slb-q3-2026-revenue-middle-east-recovery",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "SLB’s sales rise 6%, but acquisitions explain much of the growth",
+    "dek": "The oilfield-services group reports $9.45 billion in quarterly revenue and forecasts about $10 billion next quarter, with regional disruption still clouding its outlook.",
+    "tickers": [
+      "SLB"
+    ],
+    "imageAlt": "Illustrative reconstruction of the authentic SLB monument sign at 5599 San Felipe in Houston, based on the company’s reference photograph.",
+    "sources": [
+      {
+        "label": "SLB: third-quarter 2026 results and acquisition-adjusted comparisons",
+        "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-third-quarter-2026-results"
+      },
+      {
+        "label": "SLB: October 23 earnings-call prepared remarks and fourth-quarter outlook",
+        "url": "https://investorcenter.slb.com/static-files/ae8a0441-90e0-4ec8-ba78-fbc8c96fe99a"
+      },
+      {
+        "label": "Reuters: quarterly results and oilfield activity",
+        "url": "https://www.reuters.com/business/energy/top-oilfield-services-firm-slb-beats-quarterly-profit-estimates-2026-10-23/"
+      }
+    ],
+    "body": [
+      "<p>SLB reported higher quarterly sales Friday as oilfield activity recovered across several regions, but the headline growth rate overstated the improvement in its existing business. Revenue reached $9.45 billion, up 6% from a year earlier. Excluding the impact of its ChampionX acquisition, the increase was 2%, a more restrained measure of underlying demand for its services.</p>",
+      "<p>The distinction matters for an industry whose recovery depends on customers committing money to drilling, production and reservoir work. An acquisition brings additional sales into the accounts even if the wider market barely grows. SLB's latest results show both effects at work: a larger corporate footprint and improving activity, with continuing pressure on some measures of profitability.</p>",
+      "<h2>A recovery from the previous quarter is clearer than a yearly rebound</h2>",
+      "<p>Adjusted earnings were 64 cents a share, up from 55 cents in the second quarter but below 69 cents a year earlier. Under generally accepted accounting principles, earnings were 49 cents a share. Net income attributable to SLB was $735 million, compared with $739 million a year earlier. Sales growth therefore did not translate into higher annual net profit.</p>",
+      "<p>The different earnings measures serve different purposes. Adjusted figures can help isolate operations from identified charges, but investors still need to understand the expenses left out. Comparing the adjusted result with the previous quarter also answers a different question from comparing it with last year. Our <a href=\"earnings-beat-miss-explained.html\">guide to reading earnings reports</a> explains why those baselines should remain separate.</p>",
+      "<p>North American revenue increased 24% from a year earlier, or 13% excluding the acquisition's impact. The Middle East and Asia reporting region rose 9% from the second quarter but remained 6% below the prior year. Neither number should be confused with the narrower Middle East business, which management said grew 13% sequentially as activity gradually recovered.</p>",
+      "<h2>The next quarter still depends on disruption easing</h2>",
+      "<p>In its earnings-call remarks, SLB projected fourth-quarter revenue of approximately $10 billion, up 5% to 7% sequentially. That outlook assumes Middle East revenue remains near $1.9 billion, about 83% of the amount recorded there in the fourth quarter of 2025. The forecast incorporates a continuing regional shortfall rather than assuming an immediate return to normal operations.</p>",
+      "<p>Management also expects the adjusted earnings-before-interest, tax, depreciation and amortization margin to expand by 100 to 150 basis points. That means an improvement of one to 1.5 percentage points. These are company expectations. The combination of anticipated revenue growth and margin expansion describes the intended operating improvement, while the regional assumption shows a major dependency behind it.</p>",
+      "<p>SLB points to deepwater projects, production-restoration work and customers seeking more geographically diverse supplies as sources of future activity. Its prepared remarks also forecast that Venezuela revenue would more than double this year. Such projects can support demand over several quarters, but contracts and management expectations are not the same as cash already collected from completed work.</p>",
+      "<p>Oilfield-services companies occupy a different position from producers selling crude. Their income depends on the work customers authorize, the equipment supplied and the services delivered. A higher oil price can support investment decisions without instantly turning into additional service revenue. The <a href=\"oil-shock-market-ripple.html\">transmission of an oil shock through the economy</a> therefore has several stages between a price move and a contractor's financial results.</p>",
+      "<h2>Cash generation is the other test</h2>",
+      "<p>SLB generated $1.51 billion in operating cash flow and reported $828 million in free cash flow during the quarter. Those figures offer another way to assess its ability to finance investment and shareholder distributions. They should be read alongside profit because collecting customer payments, carrying inventories and paying suppliers can move cash at a different pace from reported earnings.</p>",
+      "<p>Our explanation of <a href=\"free-cash-flow-explained.html\">free cash flow and its definitions</a> sets out why the calculation and period both matter. One quarter's cash generation does not establish a permanently higher run rate. Equally, a slower cash quarter would need to be examined for timing effects before being treated as evidence that the underlying business had deteriorated.</p>",
+      "<p>Friday's report gives investors a concrete comparison for the next release: roughly $10 billion of projected sales, an expected margin improvement and a Middle East business still operating below its year-earlier level. Delivering those outcomes would make the recovery more visible. The acquisition-adjusted figures will remain essential to establishing how much comes from stronger demand rather than the size of the company itself.</p>"
+    ],
+    "image": "assets/editorial/slb-q3-2026-revenue-middle-east-recovery-cover-v1.webp",
+    "imageSmall": "assets/responsive/slb-q3-2026-revenue-middle-east-recovery-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/slb-q3-2026-revenue-middle-east-recovery-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/slb-q3-2026-revenue-middle-east-recovery-cover-v1-480.webp 480w, assets/responsive/slb-q3-2026-revenue-middle-east-recovery-cover-v1-960.webp 960w, assets/editorial/slb-q3-2026-revenue-middle-east-recovery-cover-v1.webp 1672w",
+    "date": "2026-10-23T20:29:23Z",
+    "dateModified": "2026-10-23T20:29:23Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "pathos-ai-237-million-bms-tempus-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "AI drug developer Pathos raises $237 million as Bristol Myers backs its research platform",
+    "dek": "A roughly $3 billion valuation accompanies a separate $55 million data agreement with Tempus as the companies target better drug-development decisions and neuroscience trials.",
+    "tickers": [
+      "BMY",
+      "TEM"
+    ],
+    "imageAlt": "Editorial illustration combining the Pathos AI name with an assay plate used in drug research; it does not depict a named laboratory, actual trial or approved treatment.",
+    "sources": [
+      {
+        "label": "Pathos AI: Series E financing and oncology-development priorities",
+        "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+      },
+      {
+        "label": "Pathos AI: Bristol Myers Squibb and Tempus neuroscience collaborations",
+        "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+      },
+      {
+        "label": "Reuters: financing and research agreements, October 23",
+        "url": "https://www.reuters.com/legal/litigation/pathos-ai-teams-up-with-bristol-myers-tempus-ai-advance-drug-development-2026-10-23/"
+      },
+      {
+        "label": "Pathos AI: description of Foundry and its drug-development approach",
+        "url": "https://www.pathos.com/"
+      }
+    ],
+    "body": [
+      "<p>Pathos AI raised $237 million in financing led by Bristol Myers Squibb, the companies announced Friday, giving the drug developer more capital to test whether artificial intelligence can improve decisions in clinical research. The Series E round values the New York company at approximately $3 billion after the investment. Existing investors also participated.</p>",
+      "<p>The financing arrives alongside collaborations with Bristol Myers and Tempus AI focused initially on Alzheimer's disease and other neurological conditions. Together, the announcements connect three expensive parts of drug development: securing useful patient data, analyzing it and deciding how to test potential treatments. The commercial bet is that better decisions across those stages can justify the cost of the technology.</p>",
+      "<h2>Investment capital and patient-data spending are separate commitments</h2>",
+      "<p>Under a distinct five-year, $55 million agreement, Pathos will license a dataset that Tempus plans to assemble from hundreds of thousands of patients with neurological conditions. The data will be de-identified and longitudinal, meaning it follows outcomes over time. That design is intended to help researchers study how disease develops, rather than provide only a single snapshot of a patient's condition.</p>",
+      "<p>The $55 million agreement is a spending commitment by Pathos, not an additional investment in the company. Nor does the $3 billion valuation represent annual revenue or cash available for research. It is the value assigned to the company after the fundraising. Those distinctions are useful when comparing this transaction with other <a href=\"inspired-capital-fourth-fund-450-million-october-20-2026.html\">venture-capital financing commitments</a>, where large headline figures can describe very different flows of money.</p>",
+      "<p>Bristol Myers gains non-exclusive strategic access to Pathos Foundry across its broader portfolio and three-year exclusive rights for its neuroscience-development programs. The scope matters. The announcement does not describe an exclusive purchase of the whole company or all uses of its platform. For the pharmaceutical group, access to the tools accompanies its role as the financing round's lead investor.</p>",
+      "<h2>The product is a decision system, not a newly approved medicine</h2>",
+      "<p>Pathos describes Foundry as a platform of specialized AI agents that brings together clinical information, genomics, biological-sample data and developments in competing treatments. Its intended uses include identifying patient groups, testing hypotheses and informing changes to trial design. Those are the company's descriptions of its approach, rather than independent proof that the system improves the success rate of every drug program.</p>",
+      "<p>The financing will also support its cancer-drug pipeline, including moving the experimental antibody-drug conjugate JSKN016 toward registrational studies. Such studies are intended to support a potential application for approval. Announcing the money to pursue them does not establish that they have begun, met their endpoints or produced an approved treatment. The distinction is especially important when AI claims are attached to medical research.</p>",
+      "<p>A system can generate a plausible hypothesis quickly while the clinical question still takes substantial time to resolve. Researchers must determine whether the observed pattern persists in the appropriate patients and whether the proposed treatment delivers a meaningful benefit. Faster analysis can change which experiment is chosen; it cannot substitute for the evidence that experiment is meant to produce.</p>",
+      "<h2>Better data must translate into measurable decisions</h2>",
+      "<p>Longitudinal records can help identify differences between patients who appear similar at first. They can also contain missing follow-up information or reflect differences in who receives care. A model must therefore distinguish a useful biological signal from patterns created by the way the data were collected. A larger dataset increases analytical possibilities without automatically making every comparison reliable.</p>",
+      "<p>That makes the partnership's allocation of responsibilities relevant. Tempus supplies the data infrastructure, Pathos applies its AI platform and Bristol Myers contributes drug-development expertise. Each addresses a different constraint. The <a href=\"enterprise-ai-data-security-2026.html\">handling of sensitive data in enterprise AI</a> remains part of that assessment, alongside the scientific question of whether a result can guide a prospective trial.</p>",
+      "<p>For the companies, the financial test is whether the tools improve choices enough to justify data licensing, computing and development costs. A useful system might help reject an unpromising direction earlier or identify a patient group worth testing. The value would come from the resulting decision and evidence, rather than simply from the number of agents running in the background.</p>",
+      "<p>The deal broadens the <a href=\"ai-monetization-gap-explained.html\">debate about AI's commercial returns</a> beyond subscriptions and software coding. Here, the proposed payoff depends on a much longer research process. Friday's commitments provide money, access and a defined collaboration. Clinical milestones and evidence from the programs will determine whether those resources produce an advantage that investors can measure.</p>"
+    ],
+    "image": "assets/editorial/pathos-ai-237-million-bms-tempus-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/pathos-ai-237-million-bms-tempus-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/pathos-ai-237-million-bms-tempus-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/pathos-ai-237-million-bms-tempus-2026-cover-v1-480.webp 480w, assets/responsive/pathos-ai-237-million-bms-tempus-2026-cover-v1-960.webp 960w, assets/editorial/pathos-ai-237-million-bms-tempus-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T20:29:23Z",
+    "dateModified": "2026-10-23T20:29:23Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "initia-network-halt-security-incident-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Initia halts its blockchain after an exploit, with about $2.7 million reportedly bridged out",
+    "dek": "The project paused its main chain and connected rollups while investigating unauthorized token creation. Its co-founder’s initial estimate is not a final accounting of losses.",
+    "tickers": [
+      "INIT",
+      "ETH"
+    ],
+    "imageAlt": "Metaphorical editorial collage using the Initia brand mark and interrupted printed connections to represent the announced network halt; it is not a technical network diagram.",
+    "sources": [
+      {
+        "label": "Initia: October 23 announcement of the L1 and rollup halt",
+        "url": "https://x.com/initia/status/2113661738625155217"
+      },
+      {
+        "label": "Initia co-founder Zon: preliminary assessment of the incident",
+        "url": "https://x.com/ItsAlwaysZonny/status/2113667290059190466"
+      },
+      {
+        "label": "The Block: incident reporting and co-founder update",
+        "url": "https://www.theblock.co/news/defi/2026-10-23-initia-halts-network-after-security-incident-attacker-reportedly-mints-tokens-427755"
+      },
+      {
+        "label": "Initia: architecture and the relationship between its L1 and rollups",
+        "url": "https://docs.initia.xyz/home/core-concepts/initia-and-rollups/high-level-architecture"
+      },
+      {
+        "label": "The Defiant: Agora’s account of the third-party AUSD exposure",
+        "url": "https://thedefiant.io/news/hacks/agora-says-initia-exploit-hit-third-party-product-using-ausd"
+      }
+    ],
+    "body": [
+      "<p>Initia halted its main blockchain and connected rollups Friday after a security incident, interrupting an ecosystem designed to move assets between application-specific networks. Co-founder Ezaan Mangalji, known as Zon, estimated that an attacker had minted tokens without authorization and bridged out approximately $2.7 million in assets before the pause. The assessment was preliminary, with a full accounting of losses still outstanding.</p>",
+      "<p>The project's announcement put the halt at 3:41:30 p.m. UTC on October 23, or 11:41:30 a.m. Eastern. Initia said it was investigating with security teams, validators and exchanges. The immediate financial issue extends beyond the estimated amount moved: a stopped network can prevent ordinary transactions from settling while teams establish which assets and applications were affected.</p>",
+      "<h2>The initial diagnosis concerns token creation</h2>",
+      "<p>Zon said the early findings pointed to a previously unknown bug in Initia's implementation of the Move virtual machine on the Cosmos software framework. That software executes smart-contract instructions. He said the issue did not apply to the native INIT token. His comments identify the team's initial diagnosis, rather than a completed technical investigation or evidence of a flaw in every network using related software.</p>",
+      "<p>The estimated amount reportedly bridged out and the eventual loss are also different measurements. Investigators must establish which transactions were unauthorized, who bore the exposure and whether assets can be recovered. An amount transferred through several wallets can appear in several observations. Adding those movements together without tracing their relationship could count the same money more than once.</p>",
+      "<p>There is a further distinction around AUSD, a stablecoin issued by Agora. The Defiant reported that Agora described the exposure as involving a third-party product using AUSD and said it had no smart contracts deployed on Initia. That account should not be simplified into a claim that Agora itself issued unauthorized native AUSD on Initia or that its entire reserve backing disappeared.</p>",
+      "<h2>An interconnected design broadens the operational impact</h2>",
+      "<p>Initia's documentation describes its layer-1 chain as the central coordination and liquidity hub for connected rollups. Rollups are separate execution environments built around the underlying network. The architecture supplies shared services including security, governance and interoperability. Those links help explain why the announced response covered both the main chain and the surrounding rollups, rather than a single isolated application.</p>",
+      "<p>In general, a bridge links representations of value across networks. If one side accepts a token balance or message that should not exist, the consequences can extend to assets available on another side. Establishing the precise path matters because a successful transfer does not, by itself, identify whether the original fault sat in token creation, message validation or the receiving contract's controls.</p>",
+      "<p>That is why <a href=\"defi-basics-explained.html\">the dependencies behind decentralized-finance services</a> deserve attention alongside transaction speed and fees. A user may interact with one application while relying on shared software, a base chain and a bridge. The practical risk includes the availability of those services, as well as the market value shown for the asset in a wallet.</p>",
+      "<h2>A token-price rebound does not establish recovery</h2>",
+      "<p>In its 1:31 p.m. Eastern update, The Block reported that INIT had reversed an initial 14% decline and was trading about 14% higher on the day. That was a time-specific market observation, not evidence that the network had restarted or that affected funds were recovered. Exchange trading can continue while transfers involving the underlying blockchain are restricted.</p>",
+      "<p>The distinction between a quoted price and usable liquidity becomes especially relevant during interruptions. A holder may see a changing exchange price while an on-chain position cannot be moved. Our explanation of <a href=\"crypto-liquidation-leverage-explained.html\">crypto leverage and liquidation mechanics</a> discusses why market liquidity, collateral and the ability to act are separate parts of a position's risk.</p>",
+      "<p>Stablecoin exposure also needs to be located precisely. Holding a token through a third-party bridge is a different claim from holding the issuer's directly supported version on another network. The <a href=\"stablecoins-explained-depeg-risk.html\">backing and redemption structure of a stablecoin</a> helps explain why identifying the asset, contract and route matters before drawing conclusions about the wider currency.</p>",
+      "<p>The announcements reviewed did not provide a verified restart timetable or a final recovery plan. The next substantive evidence will be a reconciled transaction account, a confirmed explanation of the defect and a tested path to restoring affected services. Until those details are available, the roughly $2.7 million figure describes the co-founder's early estimate, while the network halt is the confirmed operational development.</p>"
+    ],
+    "image": "assets/editorial/initia-network-halt-security-incident-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/initia-network-halt-security-incident-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/initia-network-halt-security-incident-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/initia-network-halt-security-incident-october-2026-cover-v1-480.webp 480w, assets/responsive/initia-network-halt-security-incident-october-2026-cover-v1-960.webp 960w, assets/editorial/initia-network-halt-security-incident-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T20:29:23Z",
+    "dateModified": "2026-10-23T20:29:23Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "us-consumer-sentiment-october-2026-final",
     "section": "Market Analysis",
     "format": "news",

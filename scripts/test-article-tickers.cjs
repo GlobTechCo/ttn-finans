@@ -7,6 +7,10 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['slb-q3-2026-revenue-middle-east-recovery', 'NYSE:SLB'],
+  ['pathos-ai-237-million-bms-tempus-2026', 'NYSE:BMY'],
+  ['pathos-ai-237-million-bms-tempus-2026', 'NASDAQ:TEM'],
+  ['initia-network-halt-security-incident-october-2026', 'BINANCE:INITUSDT'],
   ['iphone-duo-retail-launch-october-23-2026', 'NASDAQ:AAPL'],
   ['iphone-duo-retail-launch-october-23-2026', 'NASDAQ:MSFT'],
   ['phantom-kalshi-us-launch-october-2026', 'COINBASE:SOLUSD'],
