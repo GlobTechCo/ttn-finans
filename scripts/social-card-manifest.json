@@ -2331,6 +2331,39 @@
       "bytes": 576906,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bloom-mas-malaysia-thailand-ripple-visa-2026.html"
+    },
+    {
+      "page": "us-consumer-sentiment-october-2026-final.html",
+      "source": "assets/editorial/us-consumer-sentiment-october-2026-final-cover-v1.webp",
+      "image": "assets/social/us-consumer-sentiment-october-2026-final-cover-v1-fe1183b71074.webp",
+      "sha256": "fe1183b710745050b393d4beb7f9f07a1af58ddb6ec9751dac6b938e520f8179",
+      "width": 1672,
+      "height": 941,
+      "bytes": 230348,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-consumer-sentiment-october-2026-final.html"
+    },
+    {
+      "page": "iphone-duo-retail-launch-october-23-2026.html",
+      "source": "assets/editorial/iphone-duo-retail-launch-october-23-2026-cover-v1.webp",
+      "image": "assets/social/iphone-duo-retail-launch-october-23-2026-cover-v1-19529e9f76c2.webp",
+      "sha256": "19529e9f76c2b9f7715b4a6fc14102bf9743fb7192c95875664cb2fac5280d3c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 196844,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/iphone-duo-retail-launch-october-23-2026.html"
+    },
+    {
+      "page": "phantom-kalshi-us-launch-october-2026.html",
+      "source": "assets/editorial/phantom-kalshi-us-launch-october-2026-cover-v1.webp",
+      "image": "assets/social/phantom-kalshi-us-launch-october-2026-cover-v1-eaa6a3e0eac6.webp",
+      "sha256": "eaa6a3e0eac663a85e3b8c074fcbae03c589913b326e5b57900c6b73446b49be",
+      "width": 1672,
+      "height": 941,
+      "bytes": 297884,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/phantom-kalshi-us-launch-october-2026.html"
     }
   ]
 }

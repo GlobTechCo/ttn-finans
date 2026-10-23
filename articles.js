@@ -1,6 +1,164 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-consumer-sentiment-october-2026-final",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "US consumer mood stays near a historic low as inflation fears rise",
+    "dek": "October’s final Michigan survey shows weaker buying conditions for big-ticket goods and rising inflation expectations despite resilient business activity.",
+    "tickers": [],
+    "imageAlt": "Illustrative US appliance-store scene showing a shopper comparing expensive refrigerators, reflecting weaker buying conditions for durable goods.",
+    "sources": [
+      {
+        "label": "University of Michigan: final October 2026 results",
+        "url": "https://www.sca.isr.umich.edu/"
+      },
+      {
+        "label": "University of Michigan: monthly sentiment history",
+        "url": "https://www.sca.isr.umich.edu/files/tbcics.pdf"
+      },
+      {
+        "label": "University of Michigan: October 23 report on long-run inflation expectations",
+        "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=82238"
+      },
+      {
+        "label": "Reuters: October 23 flash US business survey",
+        "url": "https://www.reuters.com/business/us-business-activity-cools-october-strong-demand-fueling-price-pressures-2026-10-23/"
+      }
+    ],
+    "body": [
+      "<p>American consumers entered the final stretch before the midterm elections with confidence still near a historic low and growing concern about inflation, even as businesses continued to report solid activity. The University of Michigan's final October survey, released Friday, showed that an almost unchanged headline concealed a sharper deterioration in views about major purchases.</p>",
+      "<p>The sentiment index stood at 48.0, barely below September's 48.1. Current economic conditions fell to 46.7 from 50.9, while the expectations index rose to 48.8 from 46.3. Those opposing movements explain why the overall reading moved so little. The headline offers evidence of stabilization at a weak level, rather than a broad improvement in household finances.</p>",
+      "<h2>Big-ticket purchases are becoming harder to justify</h2>",
+      "<p>Survey director Joanne Hsu attributed the entire decline in current conditions to the buying climate for durable goods, which dropped 18%. Higher interest rates and affordability concerns were central to the deterioration. Appliances, vehicles and other expensive purchases create a particular strain because households must assess both the price and the cost of financing it.</p>",
+      "<p>A household can remain employed and continue paying for essentials while postponing a refrigerator or car. That makes purchase intentions relevant to retailers, manufacturers and lenders without turning them into a direct forecast of sales. The distinction is central to <a href=\"consumer-sentiment-index-explained.html\">how consumer sentiment should be interpreted</a>: a survey measures attitudes, whereas spending data record transactions that have actually occurred.</p>",
+      "<p>The difference also matters within the retail sector. A customer delaying an appliance may continue buying groceries, repairing an older product or looking for a cheaper substitute. Weak sentiment therefore need not affect every business equally. <a href=\"retailer-earnings-consumer-bellwether-explained.html\">Retail earnings and customer mix</a> can help establish where those choices are showing up in company results.</p>",
+      "<h2>Inflation expectations are moving in the wrong direction</h2>",
+      "<p>Consumers expected 4.7% inflation over the next year, up from 4.6% in September. Longer-run expectations increased to 3.5% from 3.4%. Both measures rose for a second consecutive month. These are respondents' expectations, not a forecast endorsed by the Federal Reserve and not a measurement of the inflation rate already recorded in government statistics.</p>",
+      "<p>The university accompanied the release with a separate report examining the risk that higher expectations become entrenched. Hsu's analysis argues that repeated shocks can change how people think about future prices. Its comparisons use historical web interviews to make the recent and earlier survey readings methodologically consistent, an important qualification when assessing changes across collection methods.</p>",
+      "<p>The report identifies a possible feedback loop: consumers who anticipate higher prices may bring purchases forward, supporting demand and making disinflation harder. It presents that mechanism as a risk, not an inevitable outcome or proof that all current spending is precautionary. A person buying early to avoid another increase can sound pessimistic in a survey while still adding to today's sales.</p>",
+      "<h2>Household frustration and business growth can coexist</h2>",
+      "<p>A separate S&P Global flash survey Friday put October's US composite business-activity index at 57.6, down from 58.4 in September but still comfortably above the 50 expansion threshold, Reuters reported. Its output-price gauge rose to 59.8 from 58.4. That combination offers a contrasting view: businesses were still expanding while selling-price pressures intensified.</p>",
+      "<p>The two surveys cover different respondents and different questions. Business activity can strengthen because customers continue buying, inventories rise or investment remains robust. None of those developments automatically restores purchasing power for a household that has watched necessities become more expensive. Slower inflation would mean prices rising less quickly; it would not, by itself, reverse the earlier increases.</p>",
+      "<p>For monetary policy, that leaves an uncomfortable balance. Higher borrowing costs can discourage discretionary purchases, but persistent expectations of rising prices can complicate efforts to cool inflation. For companies, the useful test is whether pricing power offsets weaker volumes and financing-sensitive demand. <a href=\"second-round-inflation-effects-explained.html\">Second-round inflation effects</a> explain how an initial shock can spread beyond its original source. Friday's survey shows why a steady confidence headline offers limited reassurance on that question.</p>"
+    ],
+    "image": "assets/editorial/us-consumer-sentiment-october-2026-final-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-consumer-sentiment-october-2026-final-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-consumer-sentiment-october-2026-final-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-consumer-sentiment-october-2026-final-cover-v1-480.webp 480w, assets/responsive/us-consumer-sentiment-october-2026-final-cover-v1-960.webp 960w, assets/editorial/us-consumer-sentiment-october-2026-final-cover-v1.webp 1672w",
+    "date": "2026-10-23T16:55:20Z",
+    "dateModified": "2026-10-23T16:55:20Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "iphone-duo-retail-launch-october-23-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Apple’s $1,999 folding iPhone reaches stores, putting its premium pitch to the test",
+    "dek": "The iPhone Duo’s retail debut shifts attention from preorder queues to supply, practical app support and the case for a $1,999 starting price.",
+    "tickers": [
+      "AAPL",
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative reconstruction of Apple iPhone Duo devices in opened and folded forms on a retail display table, based on official product references.",
+    "sources": [
+      {
+        "label": "Apple: October 23 worldwide store arrival",
+        "url": "https://www.apple.com/newsroom/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/"
+      },
+      {
+        "label": "Apple: original product specifications, price and availability",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+      },
+      {
+        "label": "Apple: app adaptations and release schedules, October 22",
+        "url": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/"
+      },
+      {
+        "label": "Reuters: retail launch and constrained initial supply",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-bets-iphone-duo-can-remake-foldable-market-sales-begin-2026-10-22/"
+      }
+    ],
+    "body": [
+      "<p>Apple's first folding iPhone reached stores Friday, moving the iPhone Duo from a closely watched preorder into a retail test of how many customers will pay at least $1,999 for a larger screen that folds into a pocket. Apple confirmed the October 23 arrival at stores worldwide, while Reuters reported scarce initial supply.</p>",
+      "<p>The distinction between a launch and broad availability matters. Customers can now try the device in person and initial buyers can begin using it, but that does not establish that every configuration is readily available. The earlier <a href=\"iphone-duo-preorder-delays-january-2027.html\">preorder delays extending into 2027</a> remain relevant context, rather than a reliable count of units sold or proof of unconstrained demand.</p>",
+      "<h2>The extra screen needs to earn its premium</h2>",
+      "<p>Apple's published specifications describe a 7.6-inch inner display and a 5.4-inch outer display, powered by its A20 Pro chip. The US starting price is $1,999, with storage options running from 256GB to 2TB. Those are company specifications and list prices. They do not establish how comfortable the device is in everyday use or how well its durability claims hold up over time.</p>",
+      "<p>The commercial argument is that buyers can carry a compact phone and unfold it into a more useful workspace. That proposition needs software to do more than stretch an ordinary screen. A wider view is valuable when it shows additional information or removes steps from a task. It is less compelling if it simply makes the same interface larger without improving what the user can accomplish.</p>",
+      "<p>Apple is making app support a central part of the launch. Its October 22 developer update describes Split View for using two apps alongside one another and an App Store badge identifying software adapted for iPhone Duo. These are practical ways to help customers distinguish a demonstrated use from a general promise that more screen space will automatically make them more productive.</p>",
+      "<h2>Some software benefits are still on a schedule</h2>",
+      "<p>The timing of individual app updates deserves attention. Apple said Microsoft's Word and Outlook would introduce expanded layouts in the coming weeks, rather than confirming those specific updates for every customer on launch day. A product demonstration can show where an experience is heading without establishing that the entire software package is already available to all buyers.</p>",
+      "<p>Other examples in Apple's update focus on editing video with more controls visible, displaying schedules and tasks together, and separating video playback from supporting information when the device is partially folded. These illustrate the design opportunity. They remain developer and company descriptions, not independent tests of time saved or evidence that the phone can replace a laptop for every professional task.</p>",
+      "<p>That distinction is especially important at this price. A buyer comparing the Duo with a conventional iPhone must weigh the additional functionality against portability, purchase cost and the apps used most often. The relevant comparison is a person's repeated workflow, rather than the number of screens displayed in a launch presentation. An occasional attractive demonstration does not necessarily justify a permanent change in device habits.</p>",
+      "<h2>Apple now faces an execution test</h2>",
+      "<p>For Apple, the retail debut creates a new set of questions beyond preorder interest. Sustaining the product will require dependable deliveries, enough optimized software and a convincing experience for customers who can now handle it in a store. A high selling price could support revenue, but the eventual contribution also depends on the number of units delivered and the costs of producing them.</p>",
+      "<p>A queue or a long wait can reflect constrained supply as well as strong demand. Neither observation alone reveals the size of the market or the profit on each phone. Investors will need company disclosures and subsequent financial results to assess those outcomes. Our guide to <a href=\"earnings-beat-miss-explained.html\">reading earnings beyond the headline</a> explains why attractive product demand does not translate mechanically into an earnings surprise.</p>",
+      "<p>Friday's significance is concrete: the folding iPhone is now a product customers can buy and assess, rather than only reserve. The next test is whether its larger display, evolving app support and retail availability make the premium useful enough to sustain demand after the first wave of enthusiasts. Launch-day visibility begins that test; it does not settle it.</p>"
+    ],
+    "image": "assets/editorial/iphone-duo-retail-launch-october-23-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/iphone-duo-retail-launch-october-23-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/iphone-duo-retail-launch-october-23-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/iphone-duo-retail-launch-october-23-2026-cover-v1-480.webp 480w, assets/responsive/iphone-duo-retail-launch-october-23-2026-cover-v1-960.webp 960w, assets/editorial/iphone-duo-retail-launch-october-23-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T16:55:20Z",
+    "dateModified": "2026-10-23T16:55:20Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "phantom-kalshi-us-launch-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Phantom brings Kalshi prediction markets to US crypto-wallet users",
+    "dek": "The rollout connects Phantom Cash to Kalshi event contracts, with identity checks, trading fees and state-specific limits.",
+    "tickers": [
+      "SOL"
+    ],
+    "imageAlt": "Editorial illustration of Phantom’s prediction-market interface on a phone with separate Phantom and Kalshi brand marks; the screen is illustrative, not live market data.",
+    "sources": [
+      {
+        "label": "The Block: October 23 US rollout and state restrictions",
+        "url": "https://www.theblock.co/news/markets/2026-10-23-phantom-rolls-out-kalshi-prediction-markets-us-421652"
+      },
+      {
+        "label": "Phantom: US Kalshi trading, funding, settlement and fees",
+        "url": "https://help.phantom.com/articles/trade-kalshi-prediction-markets-in-phantom-us-56546828429587"
+      },
+      {
+        "label": "Phantom: US prediction-market terms and commercial disclosures, updated October 22",
+        "url": "https://phantom.com/us-prediction-markets-disclosures"
+      },
+      {
+        "label": "CFTC: conditional no-action position concerning Phantom, March 17",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9197-26"
+      }
+    ],
+    "body": [
+      "<p>Crypto wallet provider Phantom began rolling out Kalshi prediction markets to US users Friday, adding event-contract trading to an app better known for holding and moving digital assets. The rollout will expand over the coming weeks, The Block reported. The new US arrangement connects a familiar wallet interface with a separate regulated exchange, rather than making Phantom itself the operator of the markets.</p>",
+      "<p>Users must complete Kalshi identity verification. The initial funding method described for the launch is CASH, Phantom's dollar-pegged stablecoin, held through Phantom Cash accounts. Funds move to Kalshi for trading and settlement, with withdrawals and winning payouts returning to the user's Cash account. That makes the payment route central to the crypto story, even though the underlying contracts concern real-world events.</p>",
+      "<h2>A wallet interface does not remove the exchange</h2>",
+      "<p>Phantom's US help documentation says Kalshi creates and lists contracts, sets market rules, executes trades and determines outcomes and payouts. Phantom supplies the app interface and fund-transfer experience. Understanding that division matters when a user disputes a result or encounters a delay. A familiar balance screen can make several institutions feel like one service while their responsibilities remain distinct.</p>",
+      "<p>The product documentation describes positions represented by Solana outcome tokens. Those technical connections do not turn an event contract into a conventional crypto holding. Its value depends on a defined outcome and the contract's settlement terms. Our <a href=\"prediction-markets-explained.html\">explanation of prediction markets</a> sets out how that differs from owning an asset whose future resale value remains open-ended.</p>",
+      "<h2>The small fee has a measurable effect</h2>",
+      "<p>Phantom's help page lists a combined prediction fee of two cents per contract traded: one cent for Phantom and one cent for Kalshi. Its example puts the charge for 10 contracts at 20 cents. A separate network-related charge can apply to moving money. The app presents the estimated fees before confirmation, so the contract price alone is not the full cost of a position.</p>",
+      "<p>Consider a hypothetical contract bought for 50 cents with a $1 payout if the selected outcome occurs. A two-cent purchase fee would raise the initial outlay to 52 cents, before any other applicable charge. The arithmetic is straightforward, but it illustrates why a displayed probability and the economics of a trade are different. Fees and the spread between buying and selling prices affect the result.</p>",
+      "<p>Early exit also requires someone willing to buy the position. A displayed gain is not a guarantee that a seller can realize that amount immediately. The help page explicitly describes liquidity constraints on cash-outs. That feature separates an indicative account value from cash already available to withdraw, an important distinction when the interface presents rapidly changing event prices.</p>",
+      "<h2>US access comes with geographic limits</h2>",
+      "<p>According to The Block, Phantom initially blocks sports markets in Michigan; sports, elections, politics and entertainment in Nevada; and additional categories in Washington. Those restrictions could change as legal disputes develop. The company told the publication it was comfortable proceeding, but that position should not be confused with a court resolving every dispute over the reach of state gambling laws.</p>",
+      "<p>The CFTC's March announcement provides narrower background. Its staff said it would not recommend introducing-broker registration enforcement against Phantom for specified software-related activities, subject to conditions. That is a conditional staff position concerning registration. It is not a blanket legal clearance for every contract, customer or jurisdiction, a distinction discussed in our coverage of the <a href=\"prediction-markets-circuit-split-explained.html\">prediction-market jurisdiction dispute</a>.</p>",
+      "<p>Phantom's own commercial disclosures identify another relevant incentive: the company receives a share of Kalshi exchange fees and has agreed to give the markets prominent placement for a period after launch. More activity can therefore benefit the platform regardless of a particular user's outcome. Convenient access should be assessed alongside that business model and the <a href=\"stablecoins-explained-depeg-risk.html\">terms of the stablecoin used to fund it</a>.</p>",
+      "<p>The launch demonstrates a broader shift in crypto wallets toward distributing financial services. The meaningful measures will be how reliably the funding and withdrawal route works, what eligible users can actually access and whether the interface makes costs and responsibilities clear. Expanding the menu of trades is the immediate development; simplifying the underlying financial risks is not an automatic consequence.</p>"
+    ],
+    "image": "assets/editorial/phantom-kalshi-us-launch-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/phantom-kalshi-us-launch-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/phantom-kalshi-us-launch-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/phantom-kalshi-us-launch-october-2026-cover-v1-480.webp 480w, assets/responsive/phantom-kalshi-us-launch-october-2026-cover-v1-960.webp 960w, assets/editorial/phantom-kalshi-us-launch-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-23T16:55:20Z",
+    "dateModified": "2026-10-23T16:55:20Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "amex-q3-2026-profit-workforce-cut",
     "section": "Market Analysis",
     "format": "news",

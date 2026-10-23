@@ -1,4 +1,7 @@
 TITLES = '''
+phantom-kalshi-us-launch-october-2026|Phantom Launches Kalshi Markets for US Users
+iphone-duo-retail-launch-october-23-2026|Apple’s $1,999 iPhone Duo Reaches Stores
+us-consumer-sentiment-october-2026-final|US Consumer Mood Stays Low as Inflation Fears Rise
 bloom-mas-malaysia-thailand-ripple-visa-2026|Ripple, Visa Join BLOOM Digital-Money Project
 spacex-80000-cell-sites-wireless-talks-2026|SpaceX Seeks 80,000 US Cell Sites, Report Says
 amex-q3-2026-profit-workforce-cut|Amex Raises Profit Floor, Plans 5% Workforce Cut
@@ -139,6 +142,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+phantom-kalshi-us-launch-october-2026|The rollout connects Phantom Cash to Kalshi event contracts, with identity checks, trading fees and state-specific limits.
+iphone-duo-retail-launch-october-23-2026|The iPhone Duo’s retail debut shifts attention from preorder queues to supply, practical app support and the case for a $1,999 starting price.
+us-consumer-sentiment-october-2026-final|October’s final Michigan survey shows weaker buying conditions for big-ticket goods and rising inflation expectations despite resilient business activity.
 bloom-mas-malaysia-thailand-ripple-visa-2026|Malaysia and Thailand join Singapore in shaping cross-border settlement rules for tokenized deposits and regulated stablecoins.
 spacex-80000-cell-sites-wireless-talks-2026|Reported tower talks would extend Starlink beyond satellites. Spectrum approval, construction and network economics remain major hurdles.
 amex-q3-2026-profit-workforce-cut|Higher card spending lifted Amex revenue, but asset-sale gains and tax benefits complicate the earnings picture.
