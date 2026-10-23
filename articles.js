@@ -5,7 +5,7 @@ const TTN_ARTICLES = [
     "section": "Market Analysis",
     "format": "news",
     "title": "Amex lifts its profit floor and plans a 5% workforce cut",
-    "dek": "Record card spending lifted Amex revenue, but asset-sale gains and tax benefits complicate the earnings picture.",
+    "dek": "Higher card spending lifted Amex revenue, but asset-sale gains and tax benefits complicate the earnings picture.",
     "tickers": [
       "AXP"
     ],
@@ -98,7 +98,7 @@ const TTN_ARTICLES = [
       "<p>Spectrum supplies the permission to transmit using particular frequencies; site access supplies locations from which ground equipment could transmit. Securing one does not automatically secure the other. Combining them could support a wider service, but regulatory conditions, installation schedules and device compatibility would still influence what can be sold and when. The reported tower talks add a possible infrastructure component to the earlier spectrum transaction.</p>",
       "<p>SpaceX's product page also describes a next-generation satellite system intended to improve throughput and deliver a cellular experience comparable to terrestrial service in most environments. Those are the company's stated capabilities and ambitions. They should not be read as independently measured performance for a completed nationwide hybrid network. Announced capacity and operating results answer different questions, much as <a href=\"nokia-q3-2026-ai-cloud-network-orders.html\">network-equipment orders differ from recognized revenue</a>.</p>",
       "<h2>What tower owners can actually book</h2>",
-      "<p>Crown Castle said in its October 21 results that it operates approximately 40,000 US cell towers. Its current annual outlook projects $3.875 billion in site rental revenue at the midpoint. Those existing operations provide scale for a prospective tenant, but the 80,000-site figure is an industry-wide target in the report, not an announced order covering Crown Castle's entire portfolio twice.</p>",
+      "<p>Crown Castle said in its October 21 results that it operates approximately 40,000 US cell towers. Its current annual outlook projects $3.875 billion in site rental revenue at the midpoint. Those existing operations provide scale for a prospective tenant, but the 80,000-site figure describes SpaceX's broader reported ambition, not a completed contract with Crown Castle.</p>",
       "<p>Reuters reported that Crown Castle chief executive Christian Hillabrant had discussed engagement with potential customers without identifying specific counterparties. That leaves material terms unresolved publicly, including the number of sites involved, lease duration, installation timing and rental economics. A large potential customer can improve an infrastructure owner's prospects, but its financial value depends on those details.</p>",
       "<p>For consumers, the meaningful milestone would be a service offering with defined coverage, device support and pricing. For investors, it would be signed commitments and a credible construction budget. The reported negotiations make the competitive possibility more concrete; they do not yet establish the timetable or economics of a fourth nationwide carrier.</p>"
     ],
