@@ -25,9 +25,17 @@ const BASE=process.env.TTN_TEST_BASE || 'https://globtechco.github.io/ttn-finans
    assert(await page.locator('#news-feed .news-item').count()>0);
    if(await page.locator('#cookie-decline').count())await page.locator('#cookie-decline').click();
    const link=page.locator('#featured-article .open-article').first();
-   const expected=await link.getAttribute('data-link');
+   // Live sources can replace the featured story between a DOM read and click.
+   // Capture the URL of the element actually clicked, in the same event, so
+   // the assertion still detects an incorrect modal without racing a refresh.
+   await page.evaluate(()=>document.addEventListener('click',event=>{
+    const clicked=event.target.closest('#featured-article .open-article');
+    if(clicked)window.__ttnTestClickedSource=clicked.dataset.link;
+   },true));
    await link.click();
    await page.waitForSelector('#news-modal.open');
+   const expected=await page.evaluate(()=>window.__ttnTestClickedSource);
+   assert(/^https?:\/\//.test(expected),'Capture the clicked original source URL');
    assert.equal(await page.locator('.news-modal-source-link').getAttribute('href'),expected);
    assert((await page.locator('#news-modal h2').innerText()).length>5);
    await page.keyboard.press('Escape');
