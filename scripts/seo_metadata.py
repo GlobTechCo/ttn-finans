@@ -1,5 +1,5 @@
 TITLES = '''
-etherfi-zeal-assets-wallet-migration-october-2026|Ether.fi Buys Zeal Assets as Wallet App Winds Down
+etherfi-zeal-assets-wallet-migration-october-2026|EtherFi Buys Zeal Assets as Wallet App Winds Down
 aws-capacity-2027-jassy-october-2026|AWS Capacity Largely Booked for 2027, Jassy Says
 canada-tariff-product-changes-october-30-2026|Canada Tariff Changes Bring Relief and New Costs
 initia-network-halt-security-incident-october-2026|Initia Halts Network After Reported $2.7M Exploit
@@ -148,7 +148,7 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
-etherfi-zeal-assets-wallet-migration-october-2026|Zeal asks users to move assets by December 1. Migration to ether.fi is optional, and the deal does not transfer customer accounts, keys or funds.
+etherfi-zeal-assets-wallet-migration-october-2026|Zeal asks users to move assets by December 1. Migration to EtherFi is optional, and the deal does not transfer customer accounts, keys or funds.
 aws-capacity-2027-jassy-october-2026|Amazon is keeping capacity for on-demand users even as large commitments reach into 2028. Its next earnings report will test the investment story.
 canada-tariff-product-changes-october-30-2026|Changes effective October 30 spare selected plywood, packaging and machinery while adding other products. Importers still face overlapping duties.
 initia-network-halt-security-incident-october-2026|Initia pauses its main chain and rollups after unauthorized token creation. Its co-founder estimates $2.7 million bridged out; final losses remain unverified.

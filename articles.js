@@ -110,8 +110,8 @@ const TTN_ARTICLES = [
     "id": "etherfi-zeal-assets-wallet-migration-october-2026",
     "section": "Crypto",
     "format": "news",
-    "title": "Crypto app ether.fi buys Zeal assets as wallet users face a December move",
-    "dek": "Zeal asks users to move assets by December 1. Migration to ether.fi is optional, and the deal does not transfer customer accounts, keys or funds.",
+    "title": "Crypto app EtherFi buys Zeal assets as wallet users face a December move",
+    "dek": "Zeal asks users to move assets by December 1. Migration to EtherFi is optional, and the deal does not transfer customer accounts, keys or funds.",
     "tickers": [
       "ETH",
       "V"
