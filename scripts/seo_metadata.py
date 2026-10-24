@@ -1,4 +1,7 @@
 TITLES = '''
+tether-mdk-mining-industry-backing-october-2026|Tether MDK Wins 15 Mining Industry Commitments
+kimi-k31-pro-launch-weights-november-2026|Kimi K3.1 Pro Launches With Weights Due in November
+uk-state-investment-capital-budget-october-2026|UK Plans £20.4 Billion Boost for State Investment
 etherfi-zeal-assets-wallet-migration-october-2026|EtherFi Buys Zeal Assets as Wallet App Winds Down
 aws-capacity-2027-jassy-october-2026|AWS Capacity Largely Booked for 2027, Jassy Says
 canada-tariff-product-changes-october-30-2026|Canada Tariff Changes Bring Relief and New Costs
@@ -148,6 +151,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+tether-mdk-mining-industry-backing-october-2026|Manufacturers and pools plan shared software integrations. The documentation shows how much operational control still rests with mining-site operators.
+kimi-k31-pro-launch-weights-november-2026|The new model is available through hosted services. Pricing and research claims give buyers more to test, while downloadable weights remain promised.
+uk-state-investment-capital-budget-october-2026|The proposed capital goes to two state-backed institutions. Their lending, guarantees and private partners will determine how much reaches businesses.
 etherfi-zeal-assets-wallet-migration-october-2026|Zeal asks users to move assets by December 1. Migration to EtherFi is optional, and the deal does not transfer customer accounts, keys or funds.
 aws-capacity-2027-jassy-october-2026|Amazon is keeping capacity for on-demand users even as large commitments reach into 2028. Its next earnings report will test the investment story.
 canada-tariff-product-changes-october-30-2026|Changes effective October 30 spare selected plywood, packaging and machinery while adding other products. Importers still face overlapping duties.

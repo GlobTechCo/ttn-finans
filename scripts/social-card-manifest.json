@@ -2430,6 +2430,39 @@
       "bytes": 242708,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/etherfi-zeal-assets-wallet-migration-october-2026.html"
+    },
+    {
+      "page": "uk-state-investment-capital-budget-october-2026.html",
+      "source": "assets/editorial/uk-state-investment-capital-budget-october-2026-cover-v1.webp",
+      "image": "assets/social/uk-state-investment-capital-budget-october-2026-cover-v1-7e6f683b225c.webp",
+      "sha256": "7e6f683b225c7b088bfe578e3e05171b29ca98824d4ef366f57ffa8d9a7467a3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 227942,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/uk-state-investment-capital-budget-october-2026.html"
+    },
+    {
+      "page": "kimi-k31-pro-launch-weights-november-2026.html",
+      "source": "assets/editorial/kimi-k31-pro-launch-weights-november-2026-cover-v1.webp",
+      "image": "assets/social/kimi-k31-pro-launch-weights-november-2026-cover-v1-f8d9d996fb79.webp",
+      "sha256": "f8d9d996fb799cbe41524ab4cef4b50b7c526ddc7967090551562fc4d9c6f9e1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 96904,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/kimi-k31-pro-launch-weights-november-2026.html"
+    },
+    {
+      "page": "tether-mdk-mining-industry-backing-october-2026.html",
+      "source": "assets/editorial/tether-mdk-mining-industry-backing-october-2026-cover-v1.webp",
+      "image": "assets/social/tether-mdk-mining-industry-backing-october-2026-cover-v1-73e6dbfb3e5a.webp",
+      "sha256": "73e6dbfb3e5acbf9556790d56194edc4764cfeea7539a91d1f656bc802ac5df1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 279010,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tether-mdk-mining-industry-backing-october-2026.html"
     }
   ]
 }

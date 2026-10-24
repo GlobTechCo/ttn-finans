@@ -1,6 +1,168 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "uk-state-investment-capital-budget-october-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Britain plans £20.4 billion boost for business and infrastructure finance",
+    "dek": "The proposed capital goes to two state-backed institutions. Their lending, guarantees and private partners will determine how much reaches businesses.",
+    "tickers": [],
+    "imageAlt": "Illustrative British manufacturing workshop with an editorial annotation identifying the planned £20.4 billion capital boost; it does not depict a named funding recipient.",
+    "sources": [
+      {
+        "label": "Reuters: Treasury confirmation of the planned capital allocations",
+        "url": "https://www.reuters.com/business/finance/uks-healey-give-two-state-backed-lenders-20-billion-capital-boost-budget-2026-10-24/"
+      },
+      {
+        "label": "National Wealth Fund: investment principles, minimum commitments and remit",
+        "url": "https://www.nationalwealthfund.org.uk/private-sector-finance/investment-principles/"
+      },
+      {
+        "label": "National Wealth Fund: loans, guarantees and equity terms",
+        "url": "https://www.nationalwealthfund.org.uk/private-sector-finance/our-products-and-terms/"
+      },
+      {
+        "label": "British Business Bank: July 21 release of 2025/26 results and impact estimates",
+        "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-supports-ps94bn-finance-smaller-business-202526-returning-statutory-profit"
+      }
+    ],
+    "body": [
+      "<p>Britain plans to give the National Wealth Fund and British Business Bank £20.4 billion in additional capital over roughly five years, Reuters reported Saturday, citing the Treasury. The proposed split is £15.4 billion for the wealth fund and £5 billion for the business bank, with details expected in Wednesday's budget. The Treasury expects the support to help sustain around 100,000 jobs by 2035, including in AI, defence and green energy.</p>",
+      "<p>The proposal expands the government's capacity to finance investment through specialist institutions. How that capacity translates into spending depends on the instruments used, the projects selected and the participation of private investors. A loan, a guarantee and an equity investment all support a business differently, with different consequences for the taxpayer and the recipient.</p>",
+      "<h2>Two institutions address different financing gaps</h2>",
+      "<p>The National Wealth Fund focuses on capital-intensive projects, businesses and assets. Its published private-sector principles require investments to support government growth and clean-energy objectives, aim for a positive financial return to the Exchequer and attract significant private capital over time. Meeting those principles establishes eligibility for consideration; the fund says it does not guarantee an investment will receive financing.</p>",
+      "<p>Its minimum private investment is £25 million, with commitments typically above £100 million. That places its work at a different scale from an ordinary small-business loan. Its published policy also says it does not bail out distressed companies. The fund's remit is therefore important when interpreting the new allocation: additional capital does not automatically become a general rescue facility for any business facing a shortage of cash.</p>",
+      "<p>The British Business Bank targets access to finance for smaller companies. In its July release covering 2025/26, it reported supporting £9.4 billion of finance, including £1.3 billion of public funding, £4.3 billion of private capital brought in alongside it and £3.7 billion of lending it guaranteed. Those rounded components describe different sources and forms of support, rather than £9.4 billion of government cash paid out directly.</p>",
+      "<p>The bank said its activity reached 38,000 businesses, including around 30,000 receiving its support for the first time. Those figures provide a baseline for assessing the scale and reach of its programmes. They cover the previous financial year, not the results of the additional capital now being proposed. The useful comparison will be how future commitments and business participation change against that existing activity.</p>",
+      "<h2>Capital can support more than one kind of transaction</h2>",
+      "<p>The wealth fund offers loans, guarantees and equity investments, with most capital expected to work through debt and guarantees. It considers each investment separately. Its published products include fixed- or floating-rate debt and several forms of guarantee, while direct equity is reserved for a more limited set of sectors. It does not offer revolving credit or working-capital facilities.</p>",
+      "<p>A loan supplies money with an obligation to repay it. An equity investment gives the investor an ownership interest whose value depends on the business. A guarantee can help another lender provide financing by shifting specified risks to the guarantor. These mechanisms explain why a public-capital allocation and the eventual amount of project financing are different measurements. Our <a href=\"corporate-bonds-explained.html\">guide to business debt</a> follows the relationship between financing costs, repayment obligations and credit risk.</p>",
+      "<p>The commercial question is whether public participation brings forward worthwhile investment that private lenders or investors would otherwise leave unfunded. Attracting private capital can increase the amount available for a project, but the result still depends on its revenues, construction costs and ability to service debt. A large funding announcement cannot answer those project-level questions in advance.</p>",
+      "<h2>Returns and economic benefits need separate evidence</h2>",
+      "<p>The business bank reported a £426 million statutory pre-tax profit for 2025/26. It also estimated that the year's financing would create 39,000 additional jobs over its lifetime. One figure is an accounting result; the other is an assessment of future economic impact. They answer different questions about the institution's performance and should be tracked separately.</p>",
+      "<p>The same distinction applies to the new package. Public investment also affects <a href=\"debt-spiral-r-versus-g-explained.html\">the relationship between economic growth and public debt</a>. Its economic impact has to be assessed against what would have happened without it, as well as the timing of activity. Jobs supported by a programme are not necessarily jobs already created, and a multiyear capital allocation is not an immediate increase of the same amount in annual output.</p>",
+      "<p>Wednesday's budget will be the next place to establish the funding timetable and how the commitments fit into the <a href=\"uk-inflation-debt-september-2026.html\">wider public-finance plan</a>. For businesses, the subsequent evidence will be specific financing programmes and completed investments. For taxpayers, it will include the returns earned and risks retained alongside the promised economic benefits. Both are needed to judge whether greater financial capacity turns into lasting productive investment.</p>"
+    ],
+    "image": "assets/editorial/uk-state-investment-capital-budget-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/uk-state-investment-capital-budget-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/uk-state-investment-capital-budget-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/uk-state-investment-capital-budget-october-2026-cover-v1-480.webp 480w, assets/responsive/uk-state-investment-capital-budget-october-2026-cover-v1-960.webp 960w, assets/editorial/uk-state-investment-capital-budget-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T12:08:35Z",
+    "dateModified": "2026-10-24T12:08:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "kimi-k31-pro-launch-weights-november-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Moonshot launches Kimi K3.1 Pro for coding and research, with model weights due in November",
+    "dek": "The new model is available through hosted services. Pricing and research claims give buyers more to test, while downloadable weights remain promised.",
+    "tickers": [],
+    "imageAlt": "Editorial montage of the Kimi brand and K3.1 Pro model name with research documents and an unbranded laptop; it is not a screenshot of the application.",
+    "sources": [
+      {
+        "label": "Moonshot AI: Kimi K3.1 Pro announcement, evaluations and release timetable",
+        "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+      },
+      {
+        "label": "Kimi API: model capabilities and implementation documentation",
+        "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart"
+      },
+      {
+        "label": "Kimi API: billing, context window and model-pricing explanation",
+        "url": "https://platform.kimi.ai/docs/pricing/chat"
+      },
+      {
+        "label": "OpenRouter: available provider pricing for Kimi K3.1 Pro",
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      }
+    ],
+    "body": [
+      "<p>Moonshot AI has launched Kimi K3.1 Pro across its hosted products and developer API, targeting longer coding jobs and financial research as competition among advanced AI models intensifies. The company says downloadable model weights will follow by November 4. Customers can use the service now, while organisations planning to run the model on their own infrastructure still face a separate release milestone.</p>",
+      "<p>The model follows Kimi K3 and supports a context window of about one million tokens. Moonshot also offers a Highspeed version, which it says runs two to three times faster. The company's launch materials describe improvements in coding, three-dimensional design and research involving financial documents. Those are the capabilities it wants buyers to evaluate, rather than evidence that every workflow will become faster or more profitable.</p>",
+      "<h2>An available API and downloadable weights create different options</h2>",
+      "<p>Hosted access lets a developer send requests to a provider's infrastructure and pay for processing. Downloadable weights would allow a different deployment model, subject to the eventual release terms and the computing resources required. The promised November date should therefore remain distinct from the October 23 service launch. Calling the weights already available would overstate what Moonshot has delivered so far.</p>",
+      "<p>This matters to procurement teams comparing operating cost, control and implementation time. Using a hosted model removes some infrastructure work but adds a provider relationship and usage charges. Operating a model independently moves more responsibility to the customer. The <a href=\"ai-inference-unit-economics-2026.html\">economics of running AI</a> include utilisation, technical support and the resources needed to deliver an acceptable result, as well as the model's nominal price.</p>",
+      "<p>Kimi's documentation supports tool calls and workflows in which the model interacts with software rather than only returning a chat response. A coding agent might inspect information, propose changes and invoke tools over several steps. Each step adds opportunities to gather evidence, but also creates dependencies on the tools' permissions, outputs and error handling. Better reasoning does not remove the need to check the resulting work.</p>",
+      "<h2>Price per token is a starting point for a cost comparison</h2>",
+      "<p>OpenRouter lists the standard Moonshot endpoint at $2 per million input tokens and $10 per million output tokens, with cached-input pricing listed separately. Its Highspeed listing is $4 and $20 respectively, with the same listed cache-read rate. These are the provider listings checked for this report, not a guarantee that every channel, plan or future request will carry identical charges.</p>",
+      "<p>At the standard listed rates, one million uncached input tokens and 100,000 output tokens would cost $3 before other applicable charges. That is a hypothetical calculation: $2 for the input plus $1 for the output. Repeated attempts, additional tool use and larger outputs can change the bill. A lower quoted rate only becomes a meaningful saving if the system completes the required task at an acceptable quality.</p>",
+      "<p>The official pricing explanation distinguishes API usage from subscriptions to Kimi's other products. It also describes billing for repeated context and separately priced cache behaviour. A long context window establishes how much information the system can accept; it does not establish that every document will be relevant or that every important detail will be recalled correctly. Keeping the input focused can matter to both cost and reviewability.</p>",
+      "<h2>Research claims still need to survive a real workflow</h2>",
+      "<p>Moonshot's launch report presents stronger results on coding and financial-research evaluations. An organisation considering the system can test those claims against its own work: whether a calculation traces back to the correct filing, whether linked spreadsheet formulas remain coherent and whether generated code passes meaningful checks. The <a href=\"ai-agents-enterprise-roi-2026.html\">return on an enterprise AI deployment</a> depends on completed, usable work after review and correction.</p>",
+      "<p>The company also describes deliberately reducing offensive cyber capability before the planned weight release by removing cyber-related training material. On its internal vulnerability benchmark, the final model scored 81%, against 90.5% for a comparison model without those controls. That is a 9.5-percentage-point gap on the company's test, not an independently verified measure of the chance that any particular system can be attacked.</p>",
+      "<p>The result illustrates the difficulty of separating useful coding ability from capabilities that can be misused. It does not establish that a model needs no operational controls. Access to sensitive information and tools remains a distinct deployment decision, as our discussion of <a href=\"enterprise-ai-data-security-2026.html\">enterprise AI and data security</a> explains. A benchmark about code execution cannot substitute for a company's own access policy.</p>",
+      "<p>Kimi K3.1 Pro adds another product for buyers to compare on difficult coding and research work. The immediate tests are its output quality, completion time and total cost on those tasks. November's promised weight release will then determine which additional deployment options become available, and under what terms. Those two stages should be assessed separately as the model moves from a launch claim to repeatable use.</p>"
+    ],
+    "image": "assets/editorial/kimi-k31-pro-launch-weights-november-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/kimi-k31-pro-launch-weights-november-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/kimi-k31-pro-launch-weights-november-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/kimi-k31-pro-launch-weights-november-2026-cover-v1-480.webp 480w, assets/responsive/kimi-k31-pro-launch-weights-november-2026-cover-v1-960.webp 960w, assets/editorial/kimi-k31-pro-launch-weights-november-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T12:08:35Z",
+    "dateModified": "2026-10-24T12:08:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "tether-mdk-mining-industry-backing-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Tether wins 15 industry commitments for software linking Bitcoin mining equipment",
+    "dek": "Manufacturers and pools plan shared software integrations. The documentation shows how much operational control still rests with mining-site operators.",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Editorial collage of Tether and MDK identification with generic Bitcoin ASIC mining machines; it does not depict a named company’s actual facility.",
+    "sources": [
+      {
+        "label": "Tether: October 24 announcement and list of 15 participating organisations",
+        "url": "https://tether.io/news/tethers-mdk-gains-broad-industry-backing-to-accelerate-the-next-generation-of-bitcoin-mining-automation/"
+      },
+      {
+        "label": "Tether: original April 27 MDK launch, distinct from the new commitments",
+        "url": "https://tether.io/news/tether-launches-mdk-an-open-infrastructure-layer-for-bitcoin-mining/"
+      },
+      {
+        "label": "MDK: current architecture, device integration and capability limits",
+        "url": "https://docs.mdk.tether.io/concepts/"
+      },
+      {
+        "label": "MDK: security boundaries and operator responsibilities",
+        "url": "https://docs.mdk.tether.io/concepts/security-boundaries/"
+      },
+      {
+        "label": "MDK: product overview and integration model",
+        "url": "https://mdk.tether.io/"
+      }
+    ],
+    "body": [
+      "<p>Tether said Saturday that 15 mining companies, equipment manufacturers and related industry participants have committed to building and maintaining integrations for its Mining Development Kit. The open-source software is intended to let applications work across different Bitcoin mining systems. The new commitments address an operational problem: keeping a growing fleet of machines manageable when its components come from different suppliers.</p>",
+      "<p>The announcement names Bitmain, Bitdeer, Canaan and MicroBT among manufacturers and operators, alongside pools and other participants including Foundry Digital, F2Pool and Luxor. The list also includes Proto, part of Block, and Stratum V2. Tether describes commitments to integration work, rather than reporting a completed deployment across every participant's equipment or providing a verified share of the global mining fleet using the platform.</p>",
+      "<h2>Shared interfaces are the immediate product</h2>",
+      "<p>Under Tether's plan, each participant maintains a software component called a Worker that translates between its own system and MDK's common interface. That would let a developer build against the shared interface instead of writing a different connection for every supplier. Tether targets a first stable version 1.0 by the end of 2026. The framework itself was introduced in April; Saturday's news concerns broader participation, not its first launch.</p>",
+      "<p>The current documentation describes a central coordination component, or Kernel, communicating with Workers rather than directly with machines. Applications can then use connecting software to query status or request actions. That separation gives a hardware supplier a place to maintain its integration while an operator builds monitoring and control around the common system. It does not replace the physical equipment doing the mining.</p>",
+      "<p>For a mining business, this kind of integration can affect the engineering time needed to add equipment, diagnose faults and maintain monitoring. The financial benefit would depend on whether those changes improve uptime or reduce operating costs after implementation. The <a href=\"bitcoin-mining-economics-explained.html\">economics of Bitcoin mining</a> still depend on computing output, electricity expenditure and competition for rewards. Shared software does not eliminate those underlying constraints.</p>",
+      "<h2>An AI-ready design is not a completed autonomous mine</h2>",
+      "<p>Tether presents MDK as a foundation for AI-driven operations, and its product page describes uses spanning miners, cooling, pools and electrical infrastructure. A common interface can make data easier for an application to interpret. Whether an automated system should also change a machine's settings is a separate question from whether it can read the machine's status.</p>",
+      "<p>The technical documentation makes that distinction more concrete. It describes intended uses for a shared device-contract file across validation, user interfaces and agent reasoning, but says the user-interface and agent connections to that file are not yet wired up. It also says each site runs its own coordination instance; combining views across sites requires the operator's application code. These limits matter when translating a broad automation claim into a deployment plan.</p>",
+      "<p>The business case therefore involves more than installing a package. An operator needs to establish which devices and commands its integration supports, how failures are handled and which actions require approval. Our examination of <a href=\"robotics-ai-factory-roi-2026.html\">AI's return in physical operations</a> follows the same distinction between a working demonstration and a reliable process integrated into everyday production.</p>",
+      "<h2>The operator still owns the access controls</h2>",
+      "<p>MDK's security documentation says the framework does not supply user-identity enforcement across its layers. Operators must implement appropriate authentication and authorisation around the application and control paths. The documents also distinguish encrypted communication with an endpoint from permission for a person or application to operate equipment. A secure transport connection does not, by itself, answer who is entitled to issue a command.</p>",
+      "<p>That is a design responsibility, not evidence of an announced breach. The guidance calls for restricting access to device-management interfaces, isolating components and recording control actions. Connecting more systems through one interface can make operations easier to coordinate while increasing the importance of the controls around that interface. A successful integration needs both useful device access and a clear boundary around who can use it.</p>",
+      "<p>This also explains why automation claims should be assessed against the actual work allowed to run unattended. Monitoring can identify a problem without making a physical change. A control action may affect cooling, power use or availability. The relevant <a href=\"enterprise-ai-data-security-2026.html\">permissions and review process</a> depend on the consequence of that action, rather than simply on whether the software includes an AI model.</p>",
+      "<p>Saturday's commitments give MDK a wider set of prospective maintainers and integrations. The next evidence of adoption will be working connections, supported-device coverage and operating experience from deployments. Tether has provided a participant list and a development target. Whether that produces a durable shared layer for mining will depend on the integrations being delivered and maintained as equipment and site requirements change.</p>"
+    ],
+    "image": "assets/editorial/tether-mdk-mining-industry-backing-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/tether-mdk-mining-industry-backing-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/tether-mdk-mining-industry-backing-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/tether-mdk-mining-industry-backing-october-2026-cover-v1-480.webp 480w, assets/responsive/tether-mdk-mining-industry-backing-october-2026-cover-v1-960.webp 960w, assets/editorial/tether-mdk-mining-industry-backing-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T12:08:35Z",
+    "dateModified": "2026-10-24T12:08:35Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "canada-tariff-product-changes-october-30-2026",
     "section": "Market Analysis",
     "format": "news",
