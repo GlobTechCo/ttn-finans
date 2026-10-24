@@ -2463,6 +2463,39 @@
       "bytes": 279010,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/tether-mdk-mining-industry-backing-october-2026.html"
+    },
+    {
+      "page": "kotak-q2-2027-profit-margin-pressure.html",
+      "source": "assets/editorial/kotak-q2-2027-profit-margin-pressure-cover-v1.webp",
+      "image": "assets/social/kotak-q2-2027-profit-margin-pressure-cover-v1-14cf28ec34de.webp",
+      "sha256": "14cf28ec34defc0a76b289a9a4f84fb7927a3317c37a1a153ec163954acafcae",
+      "width": 1672,
+      "height": 941,
+      "bytes": 260734,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/kotak-q2-2027-profit-margin-pressure.html"
+    },
+    {
+      "page": "block-dessa-speech-ai-research-preview-2026.html",
+      "source": "assets/editorial/block-dessa-speech-ai-research-preview-2026-cover-v1.webp",
+      "image": "assets/social/block-dessa-speech-ai-research-preview-2026-cover-v1-55ec8fc0ecf0.webp",
+      "sha256": "55ec8fc0ecf0b79a120278652e6c88a39698caa332e1132ddac5a57a38fca1d4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 265364,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/block-dessa-speech-ai-research-preview-2026.html"
+    },
+    {
+      "page": "electrum-483-bitcoin-wallet-security-update-2026.html",
+      "source": "assets/editorial/electrum-483-bitcoin-wallet-security-update-2026-cover-v3.webp",
+      "image": "assets/social/electrum-483-bitcoin-wallet-security-update-2026-cover-v3-99695ab84be6.webp",
+      "sha256": "99695ab84be60b16d5b3ed54d5c14b752c57e685dbe99f4b99f12182bd8a21d5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 505682,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/electrum-483-bitcoin-wallet-security-update-2026.html"
     }
   ]
 }

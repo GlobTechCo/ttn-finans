@@ -1,4 +1,7 @@
 TITLES = '''
+electrum-483-bitcoin-wallet-security-update-2026|Electrum 4.8.3 Fixes Bitcoin Wallet Security Risk
+block-dessa-speech-ai-research-preview-2026|Block Previews Dessa Speech-Only Voice AI
+kotak-q2-2027-profit-margin-pressure|Kotak Bank Profit Rises as Lending Margin Narrows
 tether-mdk-mining-industry-backing-october-2026|Tether MDK Wins 15 Mining Industry Commitments
 kimi-k31-pro-launch-weights-november-2026|Kimi K3.1 Pro Launches With Weights Due in November
 uk-state-investment-capital-budget-october-2026|UK Plans £20.4 Billion Boost for State Investment
@@ -151,6 +154,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+electrum-483-bitcoin-wallet-security-update-2026|Electrum 4.8.3 fixes a high-severity issue involving a malicious server and transaction replacement. Authentic downloads remain essential.
+block-dessa-speech-ai-research-preview-2026|Block’s Dessa research preview explores conversation without text-based training. Outside testing and a public release remain separate hurdles.
+kotak-q2-2027-profit-margin-pressure|India’s Kotak reports stronger September-quarter earnings, while foreign-currency deposits complicate the picture behind its rapid expansion.
 tether-mdk-mining-industry-backing-october-2026|Manufacturers and pools plan shared software integrations. The documentation shows how much operational control still rests with mining-site operators.
 kimi-k31-pro-launch-weights-november-2026|The new model is available through hosted services. Pricing and research claims give buyers more to test, while downloadable weights remain promised.
 uk-state-investment-capital-budget-october-2026|The proposed capital goes to two state-backed institutions. Their lending, guarantees and private partners will determine how much reaches businesses.

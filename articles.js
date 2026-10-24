@@ -1,6 +1,154 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "kotak-q2-2027-profit-margin-pressure",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Kotak Bank profit rises 29%, but deposit growth squeezes its lending margin",
+    "dek": "India’s Kotak reports stronger September-quarter earnings, while foreign-currency deposits complicate the picture behind its rapid expansion.",
+    "tickers": [
+      "KOTAKBANK"
+    ],
+    "imageAlt": "Illustrative rupee cash-processing counter with Kotak Mahindra Bank quarterly-results typography.",
+    "sources": [
+      {
+        "label": "Kotak Mahindra Bank: October 24 quarterly results",
+        "url": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2027/q2/PressRelease/Q2FY27-Press-Release.pdf"
+      },
+      {
+        "label": "Kotak: Q2FY27 investor presentation",
+        "url": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2027/q2/investor-presentation/Q2FY27-Investor-Presentation.pdf"
+      },
+      {
+        "label": "Reuters: results and analyst consensus, October 24",
+        "url": "https://www.reuters.com/world/india/indias-kotak-bank-q2-profit-rises-29-beats-estimates-2026-10-24/"
+      }
+    ],
+    "body": [
+      "<p>Kotak Mahindra Bank reported a 29% increase in September-quarter standalone profit on October 24, as stronger interest income and lower provisions outweighed pressure on its lending margin. The Indian lender earned about 42.12 billion rupees, while its net interest margin narrowed to 4.31%. For investors, the result offers a useful distinction: a bank can earn more from a larger business even as the return it collects on each unit of interest-earning assets declines.</p>",
+      "<p>The quarter ended September 30 is Kotak’s second quarter of fiscal 2027, rather than the second quarter of the calendar year. Reuters reported that profit exceeded the 41.04 billion rupees expected by analysts in LSEG’s compilation. That is an earnings beat, rather than evidence of an immediate stock-market reaction. The results were announced on Saturday; the announcement itself supplies no post-results trading price.</p>",
+      "<h2>The balance sheet grew faster than its margin</h2>",
+      "<p>Net interest income, the difference between interest earned and interest paid, rose 16% from a year earlier to about 84.59 billion rupees. However, net interest margin fell from 4.53% in the preceding quarter and 4.54% a year earlier. The sequential decline was 22 basis points, or 0.22 percentage points. Growth in income and contraction in margin are consistent when the asset base expands sufficiently; treating those measures as interchangeable would obscure the main tension in these results.</p>",
+      "<p>Kotak attributed much of the margin moderation to foreign-currency nonresident deposits, known as FCNR(B) deposits. Its presentation also showed funding costs rising to 4.52% from 4.46% in the June quarter. These deposits therefore deserve attention alongside the headline growth rate. A larger funding base can support additional lending, but its contribution to earnings depends on the cost of obtaining and deploying it. Our <a href=\"central-bank-policy-divergence-explained.html\">explanation of different interest-rate cycles</a> provides background on why funding conditions require a country-specific reading.</p>",
+      "<p>Period-end deposits increased 23% from a year earlier, while net advances increased 25%. The bank’s adjusted comparisons were more restrained: deposits excluding FCNR(B) balances grew 13%, and advances excluding specified deposit-backed loans and an acquired portfolio grew 19%. Those are the bank’s disclosed adjustments, not an alternative set of audited earnings. They help readers separate broad underlying growth from particular transactions and funding initiatives that enlarged the reported balance sheet.</p>",
+      "<h2>Credit quality helped, with a quarterly qualification</h2>",
+      "<p>The investor presentation showed gross nonperforming loans at 1.04% of loans, down from 1.18% in June and 1.39% a year earlier. Net nonperforming loans were 0.24%. Improved problem-loan ratios support the earnings story, although a ratio alone cannot show whether every borrower segment is improving: its denominator also changes when lending grows. The absolute problem-loan balance and the movement of loans into and out of that category remain useful checks.</p>",
+      "<p>Provisions fell 15% from the year-earlier quarter, helping profit. They nevertheless increased from the June quarter. This is why a year-over-year improvement should not be described as an uninterrupted quarterly decline in credit charges. The distinction also matters when comparing Kotak with other banks: <a href=\"bank-of-america-q3-2026-results.html\">our recent Bank of America earnings report</a> illustrates the importance of examining the components behind a profit headline rather than assuming a single reported change explains the whole result.</p>",
+      "<h2>Bank earnings and group earnings are different measures</h2>",
+      "<p>Kotak’s consolidated profit, which includes its wider financial-services businesses, reached 56.45 billion rupees, up 26% from a year earlier. That figure is separate from the standalone bank profit cited in the headline. Mixing consolidated earnings with the bank’s own margin would give readers mismatched scopes. The broader group comparison can be useful, but it cannot substitute for examining how the lending operation generates income and absorbs credit costs.</p>",
+      "<p>The next results will show whether funding obtained during this expansion produces enough additional income to stabilize the margin. Investors can assess that through deposit composition, funding costs, adjusted loan growth and credit charges, rather than extrapolating the 29% profit increase alone. The investment issue is the durability of earnings after the balance-sheet expansion: growth financed at a higher marginal cost needs to earn its place in future returns.</p>"
+    ],
+    "image": "assets/editorial/kotak-q2-2027-profit-margin-pressure-cover-v1.webp",
+    "imageSmall": "assets/responsive/kotak-q2-2027-profit-margin-pressure-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/kotak-q2-2027-profit-margin-pressure-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/kotak-q2-2027-profit-margin-pressure-cover-v1-480.webp 480w, assets/responsive/kotak-q2-2027-profit-margin-pressure-cover-v1-960.webp 960w, assets/editorial/kotak-q2-2027-profit-margin-pressure-cover-v1.webp 1672w",
+    "date": "2026-10-24T17:09:24Z",
+    "dateModified": "2026-10-24T17:09:24Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "block-dessa-speech-ai-research-preview-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Block previews Dessa, a voice AI trained on speech rather than text",
+    "dek": "Block’s Dessa research preview explores conversation without text-based training. Outside testing and a public release remain separate hurdles.",
+    "tickers": [
+      "XYZ",
+      "AAPL"
+    ],
+    "imageAlt": "Editorial illustration identifying Block’s Dessa voice AI beside a microphone and decorative overlapping sound ribbons.",
+    "sources": [
+      {
+        "label": "Block: Dessa research preview and access information",
+        "url": "https://block.xyz/dessa"
+      },
+      {
+        "label": "Block: company-news listing, October 23 announcement",
+        "url": "https://block.xyz/news/block"
+      },
+      {
+        "label": "Kyutai: Moshi research paper, October 2024",
+        "url": "https://kyutai.org/Moshi.pdf"
+      }
+    ],
+    "body": [
+      "<p>Block introduced Dessa on October 23, a conversational AI research preview it says was trained on human speech without text or a pretrained model. The project explores learning conversation directly from audio. Its significance lies in that training approach, rather than simply answering aloud, which other voice systems already do.</p>",
+      "<p>Block says Dessa can listen while speaking, a capability called full-duplex. It has posted selected recordings and invited a small group of safety researchers to seek early access. The public page offers a waitlist. Those access terms distinguish the preview from a general consumer launch.</p>",
+      "<h2>The distinction is in training, not just the microphone</h2>",
+      "<p>The company says Dessa runs on an Apple MacBook Pro with an M4 Max chip or better, a claim rather than an independent benchmark. Ragavan Thurairatnam leads the team, which reports to Jack Dorsey. Block has not supplied public-product pricing or a general-release date.</p>",
+      "<p>Full-duplex speech itself has a research history. In its 2024 Moshi paper, French research laboratory Kyutai described a system that models the user’s speech and its own output in parallel. Moshi starts from a text language model and combines text and audio processing. That makes it a useful comparison: Dessa’s speech-only training claim should not be shortened into a claim that Block invented simultaneous listening and speaking.</p>",
+      "<p>Kyutai’s paper also explains a limitation of traditional voice pipelines: transcription can discard nonverbal information, while separate recognition, language-generation and speech-synthesis stages add delay. A response can contain the right words yet arrive at the wrong moment. A system that keeps speaking over a correction creates a different user problem from one that misunderstands vocabulary. These are practical design issues, not proof that any particular model has solved them.</p>",
+      "<h2>Conversation quality needs tests beyond selected clips</h2>",
+      "<p>For an independent evaluation, the important question would be how consistently Dessa handles interruptions across speakers, accents and background noise. A useful test would measure the delay between a person correcting an instruction and the model actually stopping or changing course. It should also distinguish a helpful acknowledgment from an interruption that prevents the person finishing. A polished sample alone cannot establish either result.</p>",
+      "<p>Expressive delivery creates a second evaluation task. A sympathetic tone can make an answer feel more trustworthy without making its factual content more reliable. Evaluators should score the correctness of an answer separately from naturalness, and check whether confidence in the voice matches uncertainty in the information. Emotional-sounding output should not be treated as evidence of feelings or a validated ability to understand a person’s mental state.</p>",
+      "<p>Those considerations connect to <a href=\"ai-agents-enterprise-roi-2026.html\">our analysis of work left for people after AI adoption</a>. For a possible support application, a natural conversation is valuable only if the task is completed accurately, corrections are respected and a human can take over when needed. These are potential evaluation criteria, not an announced Dessa integration or a claim that Block has deployed the model in its financial products.</p>",
+      "<h2>Local execution does not settle cost or privacy</h2>",
+      "<p>The reported laptop capability opens a useful line of investigation into deployment economics. However, running a model locally does not by itself establish its total cost: hardware requirements, power use, simultaneous sessions and maintenance would all matter. Our <a href=\"ai-inference-unit-economics-2026.html\">guide to AI inference costs</a> explains why a completed, usable task is a more meaningful unit than an isolated demonstration. There are no public measurements here that justify a numerical savings claim.</p>",
+      "<p>Likewise, a local model could reduce the need to send raw speech to a remote inference service, but the privacy of a future application would still depend on its recording, logging and retention settings. That distinction belongs alongside the <a href=\"enterprise-ai-data-security-2026.html\">access controls needed for enterprise AI</a>. The next substantive milestone is outside testing that exposes failure rates and limitations, followed separately by clear access terms. The preview establishes an interesting research direction; it leaves those operating questions open.</p>"
+    ],
+    "image": "assets/editorial/block-dessa-speech-ai-research-preview-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/block-dessa-speech-ai-research-preview-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/block-dessa-speech-ai-research-preview-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/block-dessa-speech-ai-research-preview-2026-cover-v1-480.webp 480w, assets/responsive/block-dessa-speech-ai-research-preview-2026-cover-v1-960.webp 960w, assets/editorial/block-dessa-speech-ai-research-preview-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T17:09:24Z",
+    "dateModified": "2026-10-24T17:09:24Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "electrum-483-bitcoin-wallet-security-update-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Electrum updates Bitcoin wallet after finding a transaction-replacement risk",
+    "dek": "Electrum 4.8.3 fixes a high-severity issue involving a malicious server and transaction replacement. Authentic downloads remain essential.",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Editorial illustration of a blue Bitcoin software wallet and transaction streams, with a mismatched red fragment diverted away.",
+    "sources": [
+      {
+        "label": "Electrum: official downloads, signatures and release information",
+        "url": "https://electrum.org/"
+      },
+      {
+        "label": "Electrum developers: 4.8.3 release notes, October 23",
+        "url": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES"
+      },
+      {
+        "label": "Electrum: server trust and wallet FAQ",
+        "url": "https://electrum.readthedocs.io/en/latest/faq.html"
+      },
+      {
+        "label": "Bitcoin BIP 125: replace-by-fee specification and background",
+        "url": "https://bips.dev/125/"
+      }
+    ],
+    "body": [
+      "<p>Electrum has released version 4.8.3 of its Bitcoin wallet with a high-severity security fix involving a malicious server and transaction replacement. The release notes, dated October 23 and drawing wider attention October 24, describe a scenario in which a server can substitute a just-broadcast transaction and try to persuade the user to replace it through the wallet’s fee-bumping process. The official download site now identifies 4.8.3 as the latest release.</p>",
+      "<p>The developer notes establish a software vulnerability and a fix. They do not, in the material reviewed for this report, establish a total amount stolen or identify confirmed victims. Nor do they describe a failure of Bitcoin’s underlying consensus rules. The distinction matters: a wallet can mishandle information surrounding a transaction even while the network continues to apply its normal validation rules.</p>",
+      "<h2>Why an unconfirmed transaction is a sensitive boundary</h2>",
+      "<p>Electrum is a lightweight wallet that uses servers to obtain blockchain information and broadcast transactions. Its documentation explains that the client does not send private keys to those servers and checks confirmed transactions using simplified payment verification. However, it also states that the main server is trusted about unconfirmed transactions. That difference helps explain why a transaction still waiting for confirmation can present a distinct application-security problem.</p>",
+      "<p>The release notes describe an attempt to trick the user into performing an RBF operation, shorthand for replace-by-fee. At a high level, fee replacement lets a spender submit a replacement transaction spending the same inputs, commonly to improve its chances of timely confirmation. Bitcoin’s BIP 125 documents the older opt-in signaling approach. It is useful background, not a claim that every present-day node follows only that original policy.</p>",
+      "<p>A fee adjustment should therefore be understood as approval of a transaction, rather than an inconsequential refresh button. The relevant defensive question is whether the transaction being approved still matches the intended payment, including its destination, amount and change. This does not supply an alternative fix for vulnerable software. It explains why the wallet’s handling of transaction information is important even when private keys have not simply been handed to a server.</p>",
+      "<h2>The update source matters as much as its version label</h2>",
+      "<p>Electrum’s own website warns against downloading the wallet from other sources and provides signatures for its distribution files. A malicious installer can display a reassuring version number too. Users should begin at the official project site and follow its signature-verification instructions, including checking the signer’s key fingerprint through independent sources. A signature check depends on trusting the correct signing key; a filename or an unfamiliar page’s claim of authenticity is insufficient.</p>",
+      "<p>The website also describes reproducible executables and multiple independent builders signing releases. These measures address the provenance of the distributed software. They do not make every future wallet operation infallible, and they should not be confused with proof that a particular user’s device is free of malware. Keeping those claims separate makes the security guidance more useful than simply telling readers that an update is safe.</p>",
+      "<p>The project further warns that it does not provide private user support. Someone approaching a holder through a private channel and asking for wallet secrets should not be assumed to represent Electrum. An update does not require sending a recovery phrase to an alleged support agent or entering it into a web page supplied through a direct message. That is a separate phishing risk that can become especially relevant when urgent software notices circulate.</p>",
+      "<h2>A wallet issue calls for a wallet response</h2>",
+      "<p>The wider lesson is the separation between owning Bitcoin and trusting each tool used to spend it. Our <a href=\"bitcoin-etf-institutional-adoption.html\">guide to Bitcoin investment products</a> distinguishes fund exposure from holding coins in a personal wallet. Direct holders take responsibility for their chosen software. A vulnerability in one client does not automatically establish an exchange breach, a network-wide disruption or an investment conclusion about Bitcoin’s price.</p>",
+      "<p>Readers should treat the published update as a concrete maintenance action rather than a reason to follow sensational loss claims. Our reporting on <a href=\"initia-network-halt-security-incident-october-2026.html\">Initia’s separate network security incident</a> shows why affected systems and confirmed consequences must be identified precisely. For Electrum, the verified development is version 4.8.3 and its disclosed transaction-replacement fix. Further claims about exploitation, affected balances or losses require their own evidence.</p>"
+    ],
+    "image": "assets/editorial/electrum-483-bitcoin-wallet-security-update-2026-cover-v3.webp",
+    "imageSmall": "assets/responsive/electrum-483-bitcoin-wallet-security-update-2026-cover-v3-480.webp",
+    "imageMedium": "assets/responsive/electrum-483-bitcoin-wallet-security-update-2026-cover-v3-960.webp",
+    "imageSrcset": "assets/responsive/electrum-483-bitcoin-wallet-security-update-2026-cover-v3-480.webp 480w, assets/responsive/electrum-483-bitcoin-wallet-security-update-2026-cover-v3-960.webp 960w, assets/editorial/electrum-483-bitcoin-wallet-security-update-2026-cover-v3.webp 1672w",
+    "date": "2026-10-24T17:09:24Z",
+    "dateModified": "2026-10-24T17:09:24Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "uk-state-investment-capital-budget-october-2026",
     "section": "Market Analysis",
     "format": "news",

@@ -1893,5 +1893,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 279010,
     "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "kotak-q2-2027-profit-margin-pressure",
+    "file": "assets/editorial/kotak-q2-2027-profit-margin-pressure-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-24T15:46:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 260734,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "block-dessa-speech-ai-research-preview-2026",
+    "file": "assets/editorial/block-dessa-speech-ai-research-preview-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-24T15:46:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 265364,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "electrum-483-bitcoin-wallet-security-update-2026",
+    "file": "assets/editorial/electrum-483-bitcoin-wallet-security-update-2026-cover-v3.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-24T15:46:55Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 505682,
+    "provenance": "Illustrative editorial painting, not documentary evidence or actual software interface; v3 explicitly approved by owner with publication instruction."
   }
 ]
