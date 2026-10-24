@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T14:47:52.244251+00:00",
+  "generatedAt": "2026-10-24T17:39:11.171112+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,6 +35,190 @@
   ],
   "items": [
     {
+      "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
+      "desc": "Nearly half of Americans haven’t calculated what they’ll need in retirement.",
+      "link": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-73908727",
+      "pubDate": "2026-10-24T17:23:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+      "desc": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
+      "link": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "image": null,
+      "pubDate": "2026-10-24T17:22:21+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+      "desc": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
+      "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-21652349",
+      "pubDate": "2026-10-24T16:59:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+      "desc": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
+      "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-00292967",
+      "pubDate": "2026-10-24T16:46:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "XSPI: Inside The Boosted Option Book Going Into Q4",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957229-xspi-inside-the-boosted-option-book-going-into-q4?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T16:20:37+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
+      "desc": "Store aisles are getting a digital makeover.",
+      "link": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-37834610",
+      "pubDate": "2026-10-24T16:18:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "eBay Earnings Preview: Innovation Tops GameStop Bid",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957235-ebay-earnings-preview-innovation-tops-gamestop-bid?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T16:17:51+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "desc": "The rotation out of AI stocks benefited several defensive Club stocks.",
+      "link": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "image": null,
+      "pubDate": "2026-10-24T16:14:00+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
+      "desc": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
+      "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-45881566",
+      "pubDate": "2026-10-24T16:04:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Fed Decision, Microsoft, Alphabet Earnings Highlight Blockbuster Week",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957196-fed-decision-microsoft-alphabet-earnings-highlight-blockbuster-week?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T16:00:47+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
+      "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+      "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-96138879",
+      "pubDate": "2026-10-24T16:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The AI Bubble Has A $3.6 Trillion Problem, And It's Getting Worse",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957233-the-ai-bubble-has-a-3-6-trillion-problem-and-its-getting-worse?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T15:44:12+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Truist Financial: A Combination Of High-Yielding Preferreds And Common Stock Makes The Most Sense",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4956634-truist-financial-combination-high-yielding-preferreds-and-common-stock-makes-sense?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T15:35:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Chemung Financial: Strong Q3 2026 Results But Watch Out For Balance Sheet Constraints",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957205-chemung-financial-strong-3q26-results-but-watch-out-for-balance-sheet-constraints?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T15:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Newmont Q3 Earnings: Investors Are Walking On Thin Ice",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957232-newmont-q3-earnings-investors-are-walking-on-thin-ice?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T15:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Money-saving habits to cope with higher prices — from our readers",
+      "desc": "I asked people what they’re doing to make life more affordable today. I’ll definitely be trying some of these.",
+      "link": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-66111298",
+      "pubDate": "2026-10-24T15:27:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Why popular airplanes are getting scrapped years early",
+      "desc": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "image": null,
+      "pubDate": "2026-10-24T15:18:30+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
+      "desc": "“I am slightly anxious about purchasing something so big” from an online retailer known for cut-price duplicates of popular clothes and accessories.",
+      "link": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-23308572",
+      "pubDate": "2026-10-24T15:10:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "desc": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
+      "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "image": null,
+      "pubDate": "2026-10-24T15:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "New to The Street Announces \"The Backbone,\" a Monthly Series on the Companies Powering the Digital Economy",
+      "desc": "<i>Each featured company receives a three-part series with an on-site visit, Bloomberg Television coverage across four continents, social media and Times Square billboard exposure. Premieres January 2027.</i> <strong id=",
+      "link": "https://markets.businessinsider.com/news/stocks/new-to-the-street-announces-the-backbone-a-monthly-series-on-the-companies-powering-the-digital-economy-1036662124",
+      "image": null,
+      "pubDate": "2026-10-24T15:00:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Setbacks Mounting On The AI Data Center Front",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957234-setbacks-mounting-on-the-ai-data-center-front?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T14:51:32+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "CNS Issues Report To Promote International Ceramic Expo Held in China's Porcelain Capital Jingdezhen",
+      "desc": "<strong id=\"dateline\">JINGDEZHEN, CHINA / <a href='https://www.accessnewswire.com/' rel=\"noopener nofollow\" target=\"_blank\">ACCESS Newswire</a> / October 24, 2026 / China News Service (CNS) issued a media report on Frida",
+      "link": "https://markets.businessinsider.com/news/stocks/cns-issues-report-to-promote-international-ceramic-expo-held-in-china-s-porcelain-capital-jingdezhen-1036662123",
+      "image": null,
+      "pubDate": "2026-10-24T14:50:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Earnings scorecard: 17 out of 20 industrial companies beat EPS estimates this week",
+      "desc": "",
+      "link": "https://seekingalpha.com/news/4656678-earnings-scorecard-17-out-of-20-industrial-companies-beat-eps-estimates-this-week?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+      "image": null,
+      "pubDate": "2026-10-24T14:45:01+00:00",
+      "source": "Business Insider"
+    },
+    {
       "title": "Barclays: AI-Driven Job Cuts And Overdone Bank Tax Fears",
       "desc": "",
       "link": "https://seekingalpha.com/article/4957231-barclays-ai-driven-job-cuts-and-overdone-bank-tax-fears?source=feed_all_articles",
@@ -59,6 +243,22 @@
       "source": "Seeking Alpha"
     },
     {
+      "title": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+      "desc": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
+      "link": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+      "image": null,
+      "pubDate": "2026-10-24T14:36:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Couche-Tard proposes up to $8 billion offer for Cumberland Farms, The Times reports",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/couchetard-proposes-up-to-8-billion-offer-for-cumberland-farms-the-times-reports-4970845",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9N0EL_L.jpg",
+      "pubDate": "2026-10-24T14:30:26+00:00",
+      "source": "Investing.com"
+    },
+    {
       "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
       "desc": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
       "link": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
@@ -67,12 +267,28 @@
       "source": "CNBC Markets"
     },
     {
+      "title": "From Private Credit to Fusion Power: New to The Street Show #777 Premieres Tonight on Bloomberg Television",
+      "desc": "<i>Stewards Investment Capital, BioVie, FreeCast and American Fusion Headline a Four-Region Broadcast Across the U.S., Latin America, MENA and Southeast Asia</i> <strong id=\"dateline\">NEW YORK CITY, NY / <a href='https:/",
+      "link": "https://markets.businessinsider.com/news/stocks/from-private-credit-to-fusion-power-new-to-the-street-show-777-premieres-tonight-on-bloomberg-television-1036662120",
+      "image": null,
+      "pubDate": "2026-10-24T14:30:00+00:00",
+      "source": "Business Insider"
+    },
+    {
       "title": "Cooking Up An Average Of 10% Yield From These Two CEFs",
       "desc": "",
       "link": "https://seekingalpha.com/article/4956757-cooking-up-an-average-of-10-percent-yield-from-these-two-cefs?source=feed_all_articles",
       "image": null,
       "pubDate": "2026-10-24T14:30:00+00:00",
       "source": "Seeking Alpha"
+    },
+    {
+      "title": "ROSEN, A HIGHLY RECOGNIZED LAW FIRM, Encourages Fervo Energy Company Investors to Inquire About Securities Class Action Investigation - FRVO",
+      "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/320416/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - October 24, 2026) - <b>WHY: </b>Rosen Law",
+      "link": "https://markets.businessinsider.com/news/stocks/rosen-a-highly-recognized-law-firm-encourages-fervo-energy-company-investors-to-inquire-about-securities-class-action-investigation-frvo-1036662118",
+      "image": null,
+      "pubDate": "2026-10-24T14:25:00+00:00",
+      "source": "Business Insider"
     },
     {
       "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
@@ -99,6 +315,14 @@
       "source": "Seeking Alpha"
     },
     {
+      "title": "Earnings Scorecard: Financials log 80% EPS beat rate vs. revenue this week",
+      "desc": "",
+      "link": "https://seekingalpha.com/news/4656570-earnings-scorecard-financials-log-80-eps-beat-rate-vs-revenue-this-week?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+      "image": null,
+      "pubDate": "2026-10-24T14:15:14+00:00",
+      "source": "Business Insider"
+    },
+    {
       "title": "American International Group: An 11.5% ROE Could Justify A Higher Multiple",
       "desc": "",
       "link": "https://seekingalpha.com/article/4957226-american-international-group-an-11-5-percent-roe-could-justify-a-higher-multiple?source=feed_all_articles",
@@ -113,14 +337,6 @@
       "image": null,
       "pubDate": "2026-10-24T14:08:36+00:00",
       "source": "Seeking Alpha"
-    },
-    {
-      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
-      "desc": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
-      "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-25886732",
-      "pubDate": "2026-10-24T14:06:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "The AI data center boom has a ghost problem",
@@ -145,14 +361,6 @@
       "image": null,
       "pubDate": "2026-10-24T14:00:01+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
-      "desc": "“Nothing has been set aside for his needs.”",
-      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-40456327",
-      "pubDate": "2026-10-24T14:00:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "Melbourne coach Dominik Kulewski's Weight Loss Lab clients have now lost about 3 tonnes combined",
@@ -187,14 +395,6 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "Investors’ recent money moves show a preference for lowering risks over boosting rewards",
-      "desc": "Investors have been steadily pouring money into the Invesco S&P 500 Quality ETF this year.",
-      "link": "https://www.marketwatch.com/story/investors-recent-money-moves-show-a-preference-for-quality-over-momentum-within-the-s-p-500-ed6b5149?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-80001516",
-      "pubDate": "2026-10-24T13:37:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Kinder Morgan Expands Backlog Driven By Major Natural Gas Projects",
       "desc": "",
       "link": "https://seekingalpha.com/article/4957206-kinder-morgan-expands-backlog-driven-by-major-natural-gas-projects?source=feed_all_articles",
@@ -211,28 +411,12 @@
       "source": "Business Insider"
     },
     {
-      "title": "My niece’s college rent is covered by a 529 plan. What else can I pay for tax-free?",
-      "desc": "“We worked out a monthly budget of $1,500 for her share of rent, utilities and food, including groceries and meals on campus.”",
-      "link": "https://www.marketwatch.com/story/my-nieces-college-rent-is-covered-by-a-529-plan-what-else-can-i-pay-for-tax-free-d1686b63?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-46638874",
-      "pubDate": "2026-10-24T13:28:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Tesla: 2027 Could Be A Massive Growth Inflection Point (Rating Upgrade)",
       "desc": "",
       "link": "https://seekingalpha.com/article/4957222-tesla-2027-could-be-massive-growth-inflection-point-upgrade?source=feed_all_articles",
       "image": null,
       "pubDate": "2026-10-24T13:22:00+00:00",
       "source": "Seeking Alpha"
-    },
-    {
-      "title": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Coastal Financial Corporation Investors to Secure Counsel Before Important Deadline in Securities Class Action - CCB",
-      "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/320530/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - October 24, 2026) - <b>WHY:</b> Rosen Law",
-      "link": "https://markets.businessinsider.com/news/stocks/rosen-skilled-investor-counsel-encourages-coastal-financial-corporation-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-ccb-1036622800",
-      "image": null,
-      "pubDate": "2026-10-24T13:17:00+00:00",
-      "source": "Business Insider"
     },
     {
       "title": "Netflix's Apocalypse Fears Overly Done - Cash Cow With Renewal Prospects",
@@ -283,30 +467,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "SRLN: 3 Reasons To Own Floating Rate In A No-Cut World, And 1 Fear To Keep In Mind",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957217-srln-3-reasons-to-own-floating-rate-in-a-no-cut-world-and-1-fear-to-keep-in-mind?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:02:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Inside the cyber flaw scramble that brought the AI threat to life",
-      "desc": "",
-      "link": "https://www.businessinsider.com/black-october-php-vulnerability-cybersecurity-ai-threat-2026-10",
-      "image": null,
-      "pubDate": "2026-10-24T13:02:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Widgets & Web Launches AI-Operated Investor Relations Websites for Public Companies at a Fixed $299 per Month",
-      "desc": "<img src=\"https://app.financewire.com/storage/uploads/users/1-ww-logo-wire_1792832040RH35DRPk56.jpg\" alt=\"Featured Image\" /><p class=\"sc-kGTyPW jmTMzx\">Miami, Florida, United States, October 24th, 2026, FinanceWire<br><a",
-      "link": "https://markets.businessinsider.com/news/currencies/widgets-web-launches-ai-operated-investor-relations-websites-for-public-companies-at-a-fixed-299-per-month-1034944786",
-      "image": null,
-      "pubDate": "2026-10-24T13:01:35+00:00",
-      "source": "Business Insider"
-    },
-    {
       "title": "Ukraine says Starlink and Starshield high speed restrictions have been lifted",
       "desc": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
       "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
@@ -315,132 +475,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
-      "desc": "“I retired in 2020 and subsequently went through a divorce a few years later.”",
-      "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-78876477",
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Thousands of Ontarians to Attend âTogether for Publicly Funded Educationâ Rallies",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />Ontario, Oct. 24, 2026 (GLOBE NEWSWIRE) -- This afternoon, thousands of teachers, education workers, families, and support",
-      "link": "https://markets.businessinsider.com/news/stocks/thousands-of-ontarians-to-attend-together-for-publicly-funded-education-rallies-1036662109",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "2026 National Poppy Campaign launches with a donation âfirstâ â¦ and stunning mural: Donât forget to Remember",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" />OTTAWA, Oct. 24, 2026 (GLOBE NEWSWIRE) -- The Royal Canadian Legionâs <a...",
-      "link": "https://markets.businessinsider.com/news/stocks/2026-national-poppy-campaign-launches-with-a-donation-first-and-stunning-mural-don-t-forget-to-remember-1036662110",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "TJ Avazona's Founders in Focus Vol. 3 Reaches #1 in Three Amazon Categories",
-      "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/320697/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\"><b>Summary:</b> Founders in Focus: Inside the Journeys Decisions of Visionary E",
-      "link": "https://markets.businessinsider.com/news/stocks/tj-avazonas-founders-in-focus-vol.-3-reaches-1-in-three-amazon-categories-1036662112",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "SLB Stock: Upgrading Back To A Buy As The Earnings Recovery Takes Shape",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957198-slb-stock-upgrading-back-to-buy-as-earnings-recovery-takes-shape?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Ares Capital: This 10%+ Yield Is An Undervalued Buy",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957213-ares-capital-this-10-percent-yield-is-an-undervalued-buy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Buying Main Street's Pain Won't Work This Time",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4955825-buying-main-streets-pain-wont-work-this-time?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Why popular airplanes are getting scrapped years early",
-      "desc": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
-      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
-      "image": null,
-      "pubDate": "2026-10-24T12:59:59+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Meta: The Ads Business Is Better Than Ever, But The Cash Flow Isn't",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957216-meta-the-ads-business-is-better-than-ever-the-cash-flow-isnt?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T12:56:24+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Berkshire shares shake the Buffett blues with new all-time highs",
       "desc": "After almost 18 months, Berkshire Hathaway shares have entirely erased all the ground they lost in the wake of Warren Buffett's surprise announcement at the 2025 shareholders meeting that he would step down as CEO.",
       "link": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
       "image": null,
       "pubDate": "2026-10-24T12:48:32+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "908 Devices Has Earned Attention, But Its Valuation Needs More Proof",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957214-908-devices-has-earned-attention-but-its-valuation-needs-more-proof?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T12:44:56+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "desc": "“My late father bought our house for $250,000 in the 1990s.”",
-      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-92522168",
-      "pubDate": "2026-10-24T12:30:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The Great Semiconductor Pullback Looks Like A Generational Buying Opportunity",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957053-great-semiconductor-pullback-looks-like-generational-buying-opportunity?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T12:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Moderna’s cancer vaccine is ‘likely’ to get approved. Skeptics question if it will be the best option.",
-      "desc": "The first Phase 3 data for a custom cancer vaccine has raised questions about whether the potential new treatment is needed.",
-      "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-30668986",
-      "pubDate": "2026-10-24T12:25:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Our Top 10 High Growth Dividend Stocks - October 2026",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4955608-our-top-10-high-growth-dividend-stocks-october-2026?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T12:20:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
-      "desc": "The runaway success of the artificial-intelligence trade has left investors hungry for the next big market theme. Wall Street fund managers are happily obliging with a flurry of new targeted products, helping investors i",
-      "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-69922561",
-      "pubDate": "2026-10-24T12:00:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
@@ -563,14 +603,6 @@
       "source": "Investing.com"
     },
     {
-      "title": "Wall Street closes lower to end rocky week",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-dip-after-ai-rout-telecoms-slide-4968816",
-      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M0WN_L.jpg",
-      "pubDate": "2026-10-23T23:48:23+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
       "desc": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
       "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
@@ -635,43 +667,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-      "desc": "Meta shares just had their worst week in four years. Here's why Mike Khouw is buying now",
-      "link": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
-      "image": null,
-      "pubDate": "2026-10-23T19:25:18+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-      "desc": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
-      "link": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
-      "image": null,
-      "pubDate": "2026-10-23T19:19:08+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "CrowdStrike CEO's alarming prediction — plus, the sell-off spreads beyond tech",
-      "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "link": "https://www.cnbc.com/investingclub/2026/10/23/crowdstrikes-alarming-prediction-plus-sell-off-spreads-beyond-tech.html",
-      "image": null,
-      "pubDate": "2026-10-23T18:49:56+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "AI's 'Black October': Critical PHP flaws set off global security scramble",
       "desc": "Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.",
       "link": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
       "image": null,
       "pubDate": "2026-10-23T16:55:37+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
-      "desc": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
-      "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
-      "image": null,
-      "pubDate": "2026-10-23T15:35:36+00:00",
       "source": "CNBC Markets"
     }
   ]
