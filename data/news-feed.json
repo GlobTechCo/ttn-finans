@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T01:39:55.664865+00:00",
+  "generatedAt": "2026-10-24T06:31:29.403355+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,20 +35,236 @@
   ],
   "items": [
     {
-      "title": "Vertex Pharmaceuticals Incorporated (VRTX) Presents at American Society of Nephrology (ASN) Kidney Week 2026 - Slideshow",
+      "title": "Logan Energy: Strategic Alternative Rumors Are Flying",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4957139-vertex-pharmaceuticals-incorporated-vrtx-presents-at-american-society-of-nephrology-asn?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4957158-logan-energy-strategic-alternative-rumors-flying?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-24T01:31:05+00:00",
+      "pubDate": "2026-10-24T06:10:26+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Galderma Group AG (GALDY) Q3 2026 Sales/ Trading Statement Call - Slideshow",
+      "title": "Diös Fastigheter AB (publ) 2026 Q3 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4957134-galderma-group-ag-galdy-q3-2026-sales-trading-statement-call-slideshow?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4957164-dios-fastigheter-ab-publ-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-24T01:01:21+00:00",
+      "pubDate": "2026-10-24T06:01:32+00:00",
       "source": "Seeking Alpha"
+    },
+    {
+      "title": "AAK AB (publ.) 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957163-aak-ab-publ-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T06:01:14+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/moonshot-curbs-hacking-ability-in-new-kimi-model-as-fears-grow-over-aipowered-cyberattacks-4970639",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9N036_L.jpg",
+      "pubDate": "2026-10-24T06:00:39+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Swedencare AB (publ) 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957161-swedencare-ab-publ-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T05:48:02+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "U.S. Flash PMI Signals Sustained Strong Growth, But Also Further Inflation Uplift In October",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957160-us-flash-pmi-signals-sustained-strong-growth-further-inflation-uplift-in-october?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T05:45:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nucor Has What It Takes To Capitalize On The Tailwinds In The Steel Market",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957154-nucor-has-what-it-takes-to-capitalize-on-the-tailwinds-in-the-steel-market?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:51:58+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Novartis AG (NVS) Discusses REMODEL Trial Results for Remibrutinib in Relapsing Multiple Sclerosis Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957132-novartis-ag-nvs-discusses-remodel-trial-results-for-remibrutinib-in-relapsing-multiple?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:37:15+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Margin Debt Increases 1.8% In September",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957149-margin-debt-increases-1-8-percent-september?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Consumer Sentiment At 5-Month Low",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957153-consumer-sentiment-at-5-month-low?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "China Is Winning Tomorrow, But Losing Today",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957157-china-winning-tomorrow-losing-today?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Zomedica Corp. (ZOMDF) Discusses Clinical Program and Evidence-Driven Adoption in Veterinary Products Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957114-zomedica-corp-zomdf-discusses-clinical-program-and-evidence-driven-adoption-in-veterinary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:27:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Cathay General Bancorp: Strong ROE And Loan Re-Pricing In A Higher Rate Environment",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957152-cathay-general-bancorp-strong-roe-loan-re-pricing-higher-rate-environment?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:26:49+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "U.S. IPO Weekly Recap: Trickle Of Biotech Activity Continues Amid Tech Sell-Off",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957155-us-ipo-trickle-of-biotech-activity-continues-amid-tech-sell-off?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:20:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Hercules Capital: Close To A Buy, But Not Before Q3 2026",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957151-hercules-capital-close-to-a-buy-but-not-before-3q26?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:18:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Politics And The Markets 10/24/26",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4950166-politics-and-the-markets-102426?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T04:00:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Lattice Semiconductor: An AI Beneficiary In The Server Tray",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957150-lattice-semiconductor-an-ai-beneficiary-in-the-server-tray?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:59:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Sell-Off Widens As Oil Rallies Amid Middle East Conflict",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957156-sell-off-widens-oil-rallies-amid-middle-east-conflict?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:59:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Bread Financial Series A Preferreds: Proximity To Par Partly Offsets High-Yield Appeal",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957148-bread-financial-series-a-preferreds-proximity-to-par-partly-offsets-high-yield-appeal?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:57:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "NNN REIT: A 6% Yield For Long-Term Investors",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957146-nnn-reit-a-great-6-percent-yield-for-long-term-investors?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:38:28+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "NioCorp: The Bear Case Is Real, But At $3 I'm Still Buying",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957138-niocorp-stock-bear-case-real-but-at-3-i-still-buying?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:15:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "BDC Weekly Review: Early Bird Q3 BDC Reporting Solid",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957144-bdc-weekly-review-early-bird-q3-bdc-reporting-solid?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:12:56+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Treasury Yields Snapshot: October 23, 2026",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957147-treasury-yields-snapshot-october-23-2026?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T03:00:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "PAXS: Widening Discount To NAV And Higher Dividend Yield As Fixed Income Gets Disrupted",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957142-paxs-widening-discount-to-nav-and-higher-dividend-yield-as-fixed-income-gets-disrupted?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T02:54:08+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Eldorado Gold: Skouries Is A Mine Now, The Stock Still Prices A Project",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957136-eldorado-gold-skouries-is-a-mine-now-the-stock-still-prices-a-project?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T02:24:13+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Dividend Champion, Contender, And Challenger Highlights: Week October 25",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957135-dividend-champion-contender-and-challenger-highlights-week-october-25?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T02:16:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "desc": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "image": null,
+      "pubDate": "2026-10-24T01:57:24+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "JetBlue creditors working with restructuring adviser PJT Partners, WSJ reports",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/jetblue-creditors-working-with-restructuring-adviser-pjt-partners-wsj-reports-4970498",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1XS_L.jpg",
+      "pubDate": "2026-10-24T01:54:18+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Democrat on US FCC urges broadcast industry to be more aggressive confronting the agency",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/democrat-on-us-fcc-urges-broadcast-industry-to-be-more-aggressive-confronting-the-agency-4970551",
+      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9N01V_L.jpg",
+      "pubDate": "2026-10-24T01:42:20+00:00",
+      "source": "Investing.com"
     },
     {
       "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
@@ -59,36 +275,12 @@
       "source": "Investing.com"
     },
     {
-      "title": "Novartis AG (NVS) Discusses REMODEL Trial Results for Remibrutinib in Relapsing Multiple Sclerosis - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957133-novartis-ag-nvs-discusses-remodel-trial-results-for-remibrutinib-in-relapsing-multiple?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T00:28:16+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "REA Group Limited (RPGRY) Analyst/Investor Day Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957131-rea-group-limited-rpgry-analyst-investor-day-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T00:27:15+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "France spared Moody’s ratings downgrade as it struggles with unrest",
       "desc": "",
       "link": "https://www.investing.com/news/stock-market-news/unresthit-france-poised-for-moodys-ratings-verdict-4968793",
       "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M0VX_L.jpg",
       "pubDate": "2026-10-24T00:24:22+00:00",
       "source": "Investing.com"
-    },
-    {
-      "title": "Ocular Therapeutix, Inc. (OCUL) Discusses Progress and Regulatory Update on AXPAXLI NDA Filing Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957111-ocular-therapeutix-inc-ocul-discusses-progress-and-regulatory-update-on-axpaxli-nda-filing?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:57:14+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Exclusive-Boeing supplier dispute has halted 777 freighter production for two months, sources say",
@@ -107,171 +299,11 @@
       "source": "Investing.com"
     },
     {
-      "title": "Inpex Corporation (IPXHY) Analyst/Investor Day Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957096-inpex-corporation-ipxhy-analyst-investor-day-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:47:15+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "CoreWeave: Backlog Alone Isn't Enough",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957115-coreweave-backlog-alone-isnt-enough?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:25:19+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Aardvark Therapeutics, Inc. (AARD) Discusses Efficacy and Safety Data From Terminated HERO Phase III and Open-Label Extension Trials Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4956970-aardvark-therapeutics-inc-aard-discusses-efficacy-and-safety-data-from-terminated-hero-phase?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:17:15+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Amazon cloud capacity sold out through 2027, CEO Jassy says",
       "desc": "",
       "link": "https://www.investing.com/news/stock-market-news/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-4970506",
       "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1Y6_L.jpg",
       "pubDate": "2026-10-23T23:12:17+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "AddLife AB (publ) 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957130-addlife-ab-publ-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:12:12+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Helus Pharma Inc. (HELP) Discusses Clinical Pipeline and Phase 3 Strategies for Novel Serotonergic Agonists in Mental Health - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957129-helus-pharma-inc-help-discusses-clinical-pipeline-and-phase-3-strategies-for-novel?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:11:24+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "MLP SE (MLPKF) Discusses Business Model Highlights and Strategic Growth Drivers - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957128-mlp-se-mlpkf-discusses-business-model-highlights-and-strategic-growth-drivers-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:10:11+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Salvatore Ferragamo S.p.A. (SFRGY) Nine Months 2026 Sales/ Trading Statement Call - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957127-salvatore-ferragamo-s-p-a-sfrgy-nine-months-2026-sales-trading-statement-call-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:09:49+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "OPmobility SE (PASTF) Q3 2026 Sales/ Trading Statement Call - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957126-opmobility-se-pastf-q3-2026-sales-trading-statement-call-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:09:23+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Satellogic Inc. (SATL) Presents at LD Micro 20th Annual Main Event Conference - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957125-satellogic-inc-satl-presents-at-ld-micro-20th-annual-main-event-conference-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:08:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "MLP SE (MLPKF) Presents at ODDO BHF Around Round Table Conference 2026 - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957124-mlp-se-mlpkf-presents-at-oddo-bhf-around-round-table-conference-2026-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:07:45+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Dr. Reddy's Laboratories Limited (RDY) Q2 2027 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957012-dr-reddys-laboratories-limited-rdy-q2-2027-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:07:15+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Scanfil Oyj 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957123-scanfil-oyj-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:06:55+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Neptune Insurance Holdings Inc. 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957122-neptune-insurance-holdings-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:06:34+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "América Móvil, S.A.B. de C.V. 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957121-america-movil-s-a-b-de-c-v-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:05:43+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "UWM Holdings: Why An 80% Decline Still May Not Be Enough",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957110-uwm-holdings-why-80-percent-decline-still-may-not-be-enough?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:05:28+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "TMBThanachart Bank Public Company Limited 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957120-tmbthanachart-bank-public-company-limited-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:05:26+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Mercantile Bank Corporation 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957119-mercantile-bank-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:04:44+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Intuitive Surgical, Inc. 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957118-intuitive-surgical-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:03:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "HMS Networks AB (publ) 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957117-hms-networks-ab-publ-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T23:03:29+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "JetBlue creditors working with restructuring adviser PJT Partners, WSJ reports",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/jetblue-creditors-working-with-restructuring-adviser-pjt-partners-wsj-reports-4970498",
-      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1XS_L.jpg",
-      "pubDate": "2026-10-23T22:54:20+00:00",
       "source": "Investing.com"
     },
     {
@@ -283,28 +315,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-      "desc": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
-      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-      "image": null,
-      "pubDate": "2026-10-23T22:49:04+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
       "desc": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
       "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-27247005",
       "pubDate": "2026-10-23T22:49:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Connect Biopharma Holdings Limited (CNTB) Discusses Rademikibart and SEABREEZE Trial Results in Acute COPD Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957116-connect-biopharma-holdings-limited-cntb-discusses-rademikibart-and-seabreeze-trial-results-in?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-23T22:47:15+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
@@ -339,28 +355,12 @@
       "source": "Investing.com"
     },
     {
-      "title": "Allegiant exercises options for six Boeing 737 MAX jets worth over $720 million",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/allegiant-exercises-options-for-six-boeing-737-max-jets-worth-over-720-million-4970464",
-      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1VD_L.jpg",
-      "pubDate": "2026-10-23T21:48:26+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
       "desc": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
       "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-51837852",
       "pubDate": "2026-10-23T21:46:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Fintech platform OPay files for $336 million U.S. initial public offering",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/fintech-platform-opay-files-for-336-million-us-initial-public-offering-4970460",
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEM741K3_L.jpg",
-      "pubDate": "2026-10-23T21:38:53+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
