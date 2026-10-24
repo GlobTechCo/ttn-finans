@@ -2397,6 +2397,39 @@
       "bytes": 460590,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/initia-network-halt-security-incident-october-2026.html"
+    },
+    {
+      "page": "canada-tariff-product-changes-october-30-2026.html",
+      "source": "assets/editorial/canada-tariff-product-changes-october-30-2026-cover-v1.webp",
+      "image": "assets/social/canada-tariff-product-changes-october-30-2026-cover-v1-04adbb8f8384.webp",
+      "sha256": "04adbb8f838436902f2caafdad8b388411e73363a68036ac0ad047202e243aac",
+      "width": 1672,
+      "height": 941,
+      "bytes": 450170,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/canada-tariff-product-changes-october-30-2026.html"
+    },
+    {
+      "page": "aws-capacity-2027-jassy-october-2026.html",
+      "source": "assets/editorial/aws-capacity-2027-jassy-october-2026-cover-v1.webp",
+      "image": "assets/social/aws-capacity-2027-jassy-october-2026-cover-v1-96be8ea0aa1c.webp",
+      "sha256": "96be8ea0aa1c3f2111554f3868544896260956dc55aa0190c7b35be306dd1628",
+      "width": 1672,
+      "height": 941,
+      "bytes": 285696,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/aws-capacity-2027-jassy-october-2026.html"
+    },
+    {
+      "page": "etherfi-zeal-assets-wallet-migration-october-2026.html",
+      "source": "assets/editorial/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1.webp",
+      "image": "assets/social/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-6da9953c3da1.webp",
+      "sha256": "6da9953c3da144f93e63f5edab8fac8df38232f1a96875e01ec12b54cd68a100",
+      "width": 1672,
+      "height": 941,
+      "bytes": 242708,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/etherfi-zeal-assets-wallet-migration-october-2026.html"
     }
   ]
 }

@@ -1,6 +1,164 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "canada-tariff-product-changes-october-30-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Trump removes 50% tariff from some Canadian goods, adds others to the list",
+    "dek": "Changes effective October 30 spare selected plywood, packaging and machinery while adding other products. Importers still face overlapping duties.",
+    "tickers": [],
+    "imageAlt": "Illustrative Canadian freight-yard scene with plywood, packaging and a Canadian flag; it does not depict a specific shipment or border crossing.",
+    "sources": [
+      {
+        "label": "White House: October 23 proclamation and effective-date provisions",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/"
+      },
+      {
+        "label": "White House: product changes and interaction with USMCA and Section 232",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/"
+      },
+      {
+        "label": "Annex I: tariff classifications removed from and added to coverage",
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/10/2026ModifyingAuto338.prc_.AnnexI-3.pdf"
+      }
+    ],
+    "body": [
+      "<p>President Donald Trump has removed an additional 50% U.S. tariff from selected Canadian products while extending the same duty to others, reshaping the cost of cross-border trade without ending the dispute. The proclamation signed October 23 takes effect on October 30. For businesses buying Canadian materials, the immediate question is which side of the revised product list their imports occupy.</p>",
+      "<p>The White House identifies selected plywood sheets, paper products, packaging, machinery and refrigeration equipment among the removals. Certain valves, carpets and waste products join the covered list. These changes create winners and losers within supply chains, rather than a uniform reduction in the cost of importing from Canada. The distinction matters before a buyer assumes a familiar product category has become cheaper.</p>",
+      "<h2>The customs code determines the result</h2>",
+      "<p>The order's Annex I divides products into removals and additions using Harmonized Tariff Schedule classifications. Its descriptions illustrate the categories; the document specifically says they do not define the legal scope. For plywood, the listed distinctions include thickness, face wood and surface covering. A business importing a different specification cannot infer an exemption merely because its order also contains plywood.</p>",
+      "<p>The packaging removals include designated plastic containers, corrugated cartons and paper bags. Selected packing and wrapping machinery also appears. On the additions side, the annex includes numerous sweetened cocoa-powder classifications as well as industrial items. The changes therefore reach beyond lumber and beyond the automotive dispute that originally prompted this particular tariff action.</p>",
+      "<p>The annex also preserves a qualification for civil-aircraft articles and parts meeting the tariff schedule's relevant criteria. That exception illustrates why classification details matter more than a broad sector label. A supplier's description, customs treatment and the rule's exceptions must line up before an importer can establish its actual exposure under the revised schedule.</p>",
+      "<h2>October 30 is an entry date, not an order date</h2>",
+      "<p>The proclamation applies the changes to goods entered for consumption, or withdrawn from a warehouse for consumption, at or after 12:01 a.m. Eastern on October 30. Placing a purchase order earlier does not by itself establish the tariff treatment. The relevant customs event and the applicable classification govern the change, rather than the date a company first agreed to buy the goods.</p>",
+      "<p>For companies holding inventory on both sides of that date, the economic effects can arrive unevenly. Previously imported stock may carry a different landed cost from a later shipment of the same product. Whether that difference appears in selling prices, margins or inventory values depends on contracts and business decisions. Our explanation of <a href=\"tariffs-who-actually-pays-explained.html\">who pays a tariff</a> follows those costs from the importer through the supply chain.</p>",
+      "<p>The 50% figure describes the additional Section 338 duty affected by this action. Removing it does not establish that an item enters entirely free of other duties. The White House says covered Section 338 tariffs operate regardless of whether goods qualify under the U.S.-Mexico-Canada Agreement and apply alongside Section 232 tariffs. Different legal measures therefore need to be checked separately.</p>",
+      "<h2>Lower costs for an importer need not mean lower prices immediately</h2>",
+      "<p>Consider a hypothetical buyer whose shipment has a customs value of $100,000 and falls within a removed classification. Eliminating a 50% additional duty would remove $50,000 from that particular charge, before considering other applicable measures. This is an arithmetic illustration, not an estimate of the savings across Canadian trade or a promise about the price a customer will pay.</p>",
+      "<p>A distributor may already have paid the higher duty on existing stock. A supplier might renegotiate its price, and freight costs can move independently. Those factors help explain why a policy change and a shelf-price change need not coincide. The <a href=\"ppi-producer-price-index-explained.html\">difference between producer costs and final prices</a> is relevant when assessing whether tariff relief reaches households.</p>",
+      "<p>The administration presents the action as a response to Canadian discrimination against U.S. commerce. That is its stated justification for the measure, rather than evidence that negotiations have produced a settlement. Friday's proclamation revises an existing list and leaves the underlying tariff mechanism in place. It does not announce a comprehensive bilateral trade agreement.</p>",
+      "<p>For investors, the useful next evidence will come from companies identifying affected purchases, updated landed costs and changes to their guidance. As with <a href=\"earnings-beat-miss-explained.html\">other inputs to an earnings report</a>, a favorable policy headline needs to be translated into a company's actual exposure. October 30 changes the rules for specific goods; contracts and inventory will determine how quickly the financial effects become visible.</p>"
+    ],
+    "image": "assets/editorial/canada-tariff-product-changes-october-30-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/canada-tariff-product-changes-october-30-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/canada-tariff-product-changes-october-30-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/canada-tariff-product-changes-october-30-2026-cover-v1-480.webp 480w, assets/responsive/canada-tariff-product-changes-october-30-2026-cover-v1-960.webp 960w, assets/editorial/canada-tariff-product-changes-october-30-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T08:14:52Z",
+    "dateModified": "2026-10-24T08:14:52Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "aws-capacity-2027-jassy-october-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "AWS capacity is largely booked for 2027, Jassy says, as Amazon builds for AI demand",
+    "dek": "Amazon is keeping capacity for on-demand users even as large commitments reach into 2028. Its next earnings report will test the investment story.",
+    "tickers": [
+      "AMZN"
+    ],
+    "imageAlt": "Editorial collage of the AWS wordmark and generic server racks, illustrating demand for computing capacity; it does not depict a named Amazon facility.",
+    "sources": [
+      {
+        "label": "The a16z Show: October 23 interview with Amazon CEO Andy Jassy",
+        "url": "https://podcasts.apple.com/us/podcast/amazon-ceo-andy-jassy-on-the-%24220-billion-ai-buildout/id842818711?i=1000797758421"
+      },
+      {
+        "label": "Reuters: capacity commitments and the on-demand qualification",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+      },
+      {
+        "label": "Amazon: second-quarter results, AWS sales and cash-flow comparison",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "Amazon EC2: computing service and pricing models",
+        "url": "https://aws.amazon.com/ec2/"
+      },
+      {
+        "label": "Amazon Bedrock: model access and application platform",
+        "url": "https://aws.amazon.com/bedrock/"
+      }
+    ],
+    "body": [
+      "<p>Amazon Web Services has largely committed its 2027 computing capacity and already booked significant portions of 2028, chief executive Andy Jassy said in a podcast released Friday. The statement gives investors a fresh indication of demand behind Amazon's artificial-intelligence expansion. It also raises a more practical issue for customers: obtaining the right infrastructure when a project needs it.</p>",
+      "<p>Jassy preserved an important qualification, according to Reuters' account of the interview with Andreessen Horowitz's Ben Horowitz and Erik Torenberg. AWS keeps some capacity for on-demand services, including EC2 and Bedrock. The comments describe large commitments and tight supply, rather than an announcement that AWS has stopped accepting ordinary cloud customers.</p>",
+      "<h2>Committed capacity and available services are different measurements</h2>",
+      "<p>EC2 supplies virtual computing servers for applications and other workloads. Its on-demand model charges for usage without an upfront commitment, while other purchasing arrangements trade commitments for different prices. Bedrock provides access to AI models and tools for building applications. These are services with different ways of consuming computing resources, rather than a single interchangeable pool that every customer buys in the same form.</p>",
+      "<p>That helps explain how a provider can have substantial future capacity committed while continuing to serve on-demand demand. For a particular customer, the relevant questions include the location, hardware, service and time required. A broad description of next year's bookings cannot establish that every combination is either available or unavailable, nor does it supply a public percentage for each region.</p>",
+      "<p>This is where the <a href=\"ai-chips-bottlenecks-2026.html\">physical bottlenecks behind AI computing</a> become a commercial issue. A software team can change a deployment plan much faster than a provider can bring an entire new facility into operation. Capacity planning therefore links a customer's launch schedule to the provider's investment decisions, even when the customer never owns a server.</p>",
+      "<h2>The spending is already visible in cash flow</h2>",
+      "<p>The a16z episode describes Amazon's roughly $220 billion capital-expenditure plan for 2026 and Jassy's view that demand could support more investment. That is an account of management's spending expectations and assessment of opportunity. It is not a new disclosure that all of the money has already been spent, nor a separately verified forecast of the return the assets will earn.</p>",
+      "<p>Amazon's previously published second-quarter figures give the discussion a financial baseline. AWS sales reached $42.2 billion, up 37% from a year earlier, with operating income of $16.6 billion. Across Amazon as a whole, trailing twelve-month operating cash flow reached $161.4 billion, yet free cash flow was an outflow of $7.6 billion. The company attributed the decline chiefly to higher property and equipment purchases reflecting AI investment.</p>",
+      "<p>Those figures cover different scopes. AWS revenue and operating income describe a segment; the cash-flow measures describe the broader group. They should not be combined into a supposed stand-alone AWS free-cash-flow calculation. Our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why spending on long-lived equipment can create a gap between reported operating profit and cash remaining after investment.</p>",
+      "<h2>Bookings support the growth case, but do not settle the return question</h2>",
+      "<p>A commitment for future computing gives a provider more information than an expression of interest. It can help shape the timing and size of an investment. It still differs from revenue already recognized for services delivered. The customer must use or pay for the contracted service under its terms, and the provider must supply the infrastructure required to fulfill that obligation.</p>",
+      "<p>Investors therefore need both sides of the equation. Faster consumption can support sales, while purchasing, powering and maintaining infrastructure affects its economics. Scarcity can demonstrate strong demand while also delaying the activity from which a provider expects to earn money. Neither a crowded order book nor a large construction budget alone establishes the eventual margin on the new capacity.</p>",
+      "<p>For enterprise buyers, a reservation also needs to match the intended workload. An application that runs economically on one configuration may need adjustments to use another. The <a href=\"ai-inference-unit-economics-2026.html\">cost of running AI after training</a> includes utilization and workload design, not simply the advertised price of a unit of computing power. Availability and efficiency can consequently pull a deployment decision in different directions.</p>",
+      "<p>Friday's comments strengthen the evidence that Amazon sees continuing demand for its expansion. The next financial report will offer a more comparable test through actual AWS growth, operating results and investment cash flows. Until then, the distinction to preserve is straightforward: much of the large-scale future capacity is spoken for, while Amazon is still reserving resources for customers buying services on demand.</p>"
+    ],
+    "image": "assets/editorial/aws-capacity-2027-jassy-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/aws-capacity-2027-jassy-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/aws-capacity-2027-jassy-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/aws-capacity-2027-jassy-october-2026-cover-v1-480.webp 480w, assets/responsive/aws-capacity-2027-jassy-october-2026-cover-v1-960.webp 960w, assets/editorial/aws-capacity-2027-jassy-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T08:14:52Z",
+    "dateModified": "2026-10-24T08:14:52Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "etherfi-zeal-assets-wallet-migration-october-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Crypto app ether.fi buys Zeal assets as wallet users face a December move",
+    "dek": "Zeal asks users to move assets by December 1. Migration to ether.fi is optional, and the deal does not transfer customer accounts, keys or funds.",
+    "tickers": [
+      "ETH",
+      "V"
+    ],
+    "imageAlt": "Illustrative editorial montage of ether.fi and Zeal names, a wallet and payment terminal, representing the selected-asset acquisition and optional migration.",
+    "sources": [
+      {
+        "label": "ether.fi: acquisition clarification and guided Zeal migration",
+        "url": "https://www.ether.fi/zeal"
+      },
+      {
+        "label": "Zeal: wind-down notice, voluntary transfer choices and supported assets",
+        "url": "https://www.zeal.app/"
+      },
+      {
+        "label": "TradingView / CoinMarketCal: October 23 announcement and selected-asset clarification",
+        "url": "https://www.tradingview.com/news/coinmarketcal%3A7461a2e3b094b%3A0-ether-fi-acquires-selected-zeal-assets-and-enables-in-app-migration-23-oct-2026/"
+      }
+    ],
+    "body": [
+      "<p>Crypto-finance app ether.fi has acquired selected assets of Zeal, with the wallet app preparing to wind down and asking users to move their holdings by December 1. The acquisition, announced October 23, does not automatically transfer customers' accounts, private keys or money. Users can choose the offered migration or move their assets elsewhere.</p>",
+      "<p>The distinction changes the practical meaning of the deal. This is a purchase of selected business assets accompanied by an invitation to users, rather than an automatic relocation of their balances. For Zeal customers, the immediate issue is continuity: how to move holdings and payment functions before the app closes, while understanding the terms of whichever service they choose next.</p>",
+      "<h2>December 1 is the requested move date</h2>",
+      "<p>Zeal says a final date for the app to stop working has not yet been set. Its request to move assets by December 1 should therefore be distinguished from a confirmed shutdown at a specific hour that day. The company says it will publish the closing date in the app and on its website.</p>",
+      "<p>That distinction is useful for customers planning around payments or transfers. A requested migration deadline supplies a planning point; an app's final operating date determines when its interface becomes unavailable. Neither should be replaced by an assumption that every feature will continue indefinitely. The notice gives users a reason to review their arrangements before the wind-down progresses further.</p>",
+      "<p>The acquisition also illustrates a limit to the idea that self-custody removes every dependency. Control of an asset and continued access through a particular app are separate matters. Our explanation of <a href=\"defi-basics-explained.html\">how decentralized-finance services fit together</a> describes why the wallet interface, networks and applications can each create operational dependencies even when a user retains control over a transaction.</p>",
+      "<h2>The offered migration creates a separate account</h2>",
+      "<p>Ether.fi's migration page describes a flow beginning inside Zeal: the user supplies an email address, confirms a code, moves assets and completes verification for the new service. Identity verification is required for access to all features, including its Visa card. Creating an account and meeting card eligibility requirements are consequently separate steps in the transition.</p>",
+      "<p>The companies say unsupported assets may be converted during migration, with network fees and a possible loss of some value. That means a guided move does not necessarily leave every holding unchanged. The amount received needs to be assessed after the proposed conversion and fees, rather than inferred from the balance displayed before the process begins.</p>",
+      "<p>A conversion also changes what a customer owns. Moving an existing asset to another interface differs from exchanging it for a different token first. The <a href=\"stablecoins-explained-depeg-risk.html\">issuer and redemption structure behind stablecoins</a> remains relevant after a wallet changes: a dollar label or familiar app does not make every token, contract and network representation equivalent.</p>",
+      "<p>Zeal's published supported-assets list includes ETH, the native asset of Ethereum, alongside several stablecoins and other tokens on Optimism. That is a statement about the migration route it supports, not evidence that every asset bearing the same ticker can be sent from any network. The asset and the network both need to match the receiving service's instructions.</p>",
+      "<h2>Users can choose a different destination</h2>",
+      "<p>Zeal also outlines alternatives for customers who do not want an ether.fi account, including sending assets to another wallet or selling and transferring money to a bank. Its instructions distinguish Smart Wallets, which it says stop working when Zeal closes, from secret-phrase or hardware wallets that can continue through other wallet apps. The applicable wallet type therefore matters to the next step.</p>",
+      "<p>From a business perspective, the transaction tests whether a crypto service can retain another app's users through an offered transition. Asset ownership does not guarantee that customers will join. They still have to choose a destination, complete the process and decide whether the receiving product suits their requirements. The announcement does not provide a completed migration count or evidence of subsequent customer activity.</p>",
+      "<p>Payment access is another separate relationship. The ether.fi page describes a Visa card, but explicitly says eligibility, availability and restrictions apply. A functioning wallet does not itself establish card approval in every jurisdiction. Similarly, a card-network brand identifies the payment rail; it does not guarantee the value of the crypto assets used alongside it.</p>",
+      "<p>The companies' notices do not disclose a purchase price or detailed asset valuation. The development is therefore best assessed through the confirmed operational change and the choices offered to users, rather than an invented deal size. As with <a href=\"mergers-acquisitions-explained.html\">other asset acquisitions</a>, the scope of what was bought matters. Here, selected assets change hands, while customers retain the decision about where their money goes.</p>"
+    ],
+    "image": "assets/editorial/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-480.webp 480w, assets/responsive/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-960.webp 960w, assets/editorial/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1.webp 1672w",
+    "date": "2026-10-24T08:14:52Z",
+    "dateModified": "2026-10-24T08:14:52Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "slb-q3-2026-revenue-middle-east-recovery",
     "section": "Market Analysis",
     "format": "news",

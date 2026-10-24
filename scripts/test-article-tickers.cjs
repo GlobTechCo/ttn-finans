@@ -7,6 +7,9 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['aws-capacity-2027-jassy-october-2026', 'NASDAQ:AMZN'],
+  ['etherfi-zeal-assets-wallet-migration-october-2026', 'BINANCE:ETHUSDT'],
+  ['etherfi-zeal-assets-wallet-migration-october-2026', 'NYSE:V'],
   ['slb-q3-2026-revenue-middle-east-recovery', 'NYSE:SLB'],
   ['pathos-ai-237-million-bms-tempus-2026', 'NYSE:BMY'],
   ['pathos-ai-237-million-bms-tempus-2026', 'NASDAQ:TEM'],
