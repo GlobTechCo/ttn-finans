@@ -7,7 +7,6 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
-  ['kotak-q2-2027-profit-margin-pressure', 'NSE:KOTAKBANK'],
   ['block-dessa-speech-ai-research-preview-2026', 'NYSE:XYZ'],
   ['block-dessa-speech-ai-research-preview-2026', 'NASDAQ:AAPL'],
   ['electrum-483-bitcoin-wallet-security-update-2026', 'BINANCE:BTCUSDT'],
@@ -97,6 +96,15 @@ const cases = [
           await page.screenshot({ path: path.join(shots, name + '-article-tickers.png') });
         }
       }
+      // NSE licenses do not allow this symbol in the embedded widget. Keep
+      // a working native provider link instead of opening an invalid chart.
+      await page.goto(base + 'kotak-q2-2027-profit-margin-pressure.html');
+      const external = page.getByRole('link', { name: 'KOTAKBANK · View NSE chart on TradingView ↗', exact: true });
+      assert.equal(new URL(await external.getAttribute('href')).searchParams.get('symbol'), 'NSE:KOTAKBANK');
+      assert.equal(await external.getAttribute('target'), '_blank');
+      assert.equal(await external.getAttribute('role'), null);
+      assert.equal(await page.locator('#chart-panel').count(), 0);
+      await page.goto(base + cases[cases.length - 1][0] + '.html');
       // A second instrument must replace the first chart rather than keep a stale symbol.
       await page.locator('.article-ticker-tag[data-tv="COINBASE:SOLUSD"]').click();
       await page.locator('#tv-chart-container [data-chart-symbol="COINBASE:SOLUSD"]').waitFor();

@@ -6,9 +6,7 @@ const TTN_ARTICLES = [
     "format": "news",
     "title": "Kotak Bank profit rises 29%, but deposit growth squeezes its lending margin",
     "dek": "India’s Kotak reports stronger September-quarter earnings, while foreign-currency deposits complicate the picture behind its rapid expansion.",
-    "tickers": [
-      "KOTAKBANK"
-    ],
+    "tickers": [],
     "imageAlt": "Illustrative rupee cash-processing counter with Kotak Mahindra Bank quarterly-results typography.",
     "sources": [
       {
