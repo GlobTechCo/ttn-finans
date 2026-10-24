@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T19:51:10.488154+00:00",
+  "generatedAt": "2026-10-24T21:59:33.570829+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,6 +35,62 @@
   ],
   "items": [
     {
+      "title": "Trump set to announce plan by Audi to build US factory in Georgia, source says",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9N0OO_L.jpg",
+      "pubDate": "2026-10-24T21:36:22+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+      "desc": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
+      "link": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "image": null,
+      "pubDate": "2026-10-24T21:07:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
+      "desc": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
+      "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "image": null,
+      "pubDate": "2026-10-24T20:38:30+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Amgen Inc. (AMGN) Presents at 2026 European Society for Medical Oncology (ESMO) Annual Congress - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957244-amgen-inc-amgn-presents-at-2026-european-society-for-medical-oncology-esmo-annual-congress?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T20:30:50+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "desc": "“Nothing has been set aside for his needs.”",
+      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-40456327",
+      "pubDate": "2026-10-24T20:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "desc": "“My late father bought our house for $250,000 in the 1990s.”",
+      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-92522168",
+      "pubDate": "2026-10-24T20:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+      "desc": "Lawsuits filed by candidate Mary Peltola and a voters' rights group challenge Trump's preemptive efforts to block a Democratic Senate victory in Alaska.",
+      "link": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+      "image": null,
+      "pubDate": "2026-10-24T19:57:24+00:00",
+      "source": "CNBC Markets"
+    },
+    {
       "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
       "desc": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
       "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
@@ -65,14 +121,6 @@
       "image": null,
       "pubDate": "2026-10-24T19:06:30+00:00",
       "source": "Seeking Alpha"
-    },
-    {
-      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
-      "desc": "Biotech stocks are rallying as clinical wins, M&A and new drug technologies revive the sector. Here are the ETFs and stocks analysts favor.",
-      "link": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
-      "image": null,
-      "pubDate": "2026-10-24T18:56:29+00:00",
-      "source": "CNBC Markets"
     },
     {
       "title": "SK hynix: Don't Bet On The Slower Boat In A Fast Tide",
@@ -139,14 +187,6 @@
       "source": "MarketWatch"
     },
     {
-      "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-      "desc": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
-      "link": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
-      "image": null,
-      "pubDate": "2026-10-24T17:22:21+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
       "desc": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
       "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
@@ -195,14 +235,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
-      "desc": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
-      "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-45881566",
-      "pubDate": "2026-10-24T16:04:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Fed Decision, Microsoft, Alphabet Earnings Highlight Blockbuster Week",
       "desc": "",
       "link": "https://seekingalpha.com/article/4957196-fed-decision-microsoft-alphabet-earnings-highlight-blockbuster-week?source=feed_all_articles",
@@ -211,12 +243,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?",
-      "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
-      "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-96138879",
-      "pubDate": "2026-10-24T16:00:00+00:00",
-      "source": "MarketWatch"
+      "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
+      "desc": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
+      "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
+      "image": null,
+      "pubDate": "2026-10-24T15:53:30+00:00",
+      "source": "CNBC Markets"
     },
     {
       "title": "The AI Bubble Has A $3.6 Trillion Problem, And It's Getting Worse",
@@ -459,36 +491,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "SCHD: You Have To Know What You Own",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957223-schd-you-have-to-know-what-you-own?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:42:47+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Widgets & Web Launches AI-Operated Investor Relations Websites for Public Companies at a Fixed $299 per Month",
       "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p style=\"padding-left:0pt;\">MIAMI, Oct. 24, 2026 (GLOBE NEWSWIRE) -- <a href=\"https://widgetsandweb.com/\" rel=\"nofollow\" ",
       "link": "https://markets.businessinsider.com/news/stocks/widgets-web-launches-ai-operated-investor-relations-websites-for-public-companies-at-a-fixed-299-per-month-1036662113",
       "image": null,
       "pubDate": "2026-10-24T13:28:29+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
-      "desc": "As peptides gain popularity among some wellness influencers and federal government officials, doctors share what you need to know.",
-      "link": "https://www.cnbc.com/make-it/2026/10/24/peptides-safety-risks-benefits.html",
-      "image": null,
-      "pubDate": "2026-10-24T13:05:01+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Ukraine says Starlink and Starshield high speed restrictions have been lifted",
-      "desc": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
-      "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
-      "image": null,
-      "pubDate": "2026-10-24T13:00:35+00:00",
-      "source": "CNBC Markets"
     },
     {
       "title": "Berkshire shares shake the Buffett blues with new all-time highs",
@@ -600,14 +608,6 @@
       "link": "https://www.investing.com/news/stock-market-news/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-4970304",
       "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1TJ_L.jpg",
       "pubDate": "2026-10-24T00:55:01+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "France spared Moody’s ratings downgrade as it struggles with unrest",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/unresthit-france-poised-for-moodys-ratings-verdict-4968793",
-      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M0VX_L.jpg",
-      "pubDate": "2026-10-24T00:24:22+00:00",
       "source": "Investing.com"
     },
     {
