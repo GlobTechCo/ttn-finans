@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T17:39:11.171112+00:00",
+  "generatedAt": "2026-10-24T19:51:10.488154+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -34,6 +34,102 @@
     }
   ],
   "items": [
+    {
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "desc": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+      "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-80913840",
+      "pubDate": "2026-10-24T19:45:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Adobe: A Fairly Priced Compounder In An Expensive Market",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957242-adobe-a-fairly-priced-compounder-in-an-expensive-market?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T19:23:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Tesla Plus SpaceX: 5 Reasons This Merger Is A Terrible Idea",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957241-tesla-plus-spacex-5-reasons-this-merger-is-a-terrible-idea?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T19:19:02+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "The Trade Desk: Great Tech, Bad Timing - Hold",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957240-the-trade-desk-great-tech-bad-timing-hold?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T19:06:30+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Biotech stocks are surging. How investors can play the new drug innovation boom",
+      "desc": "Biotech stocks are rallying as clinical wins, M&A and new drug technologies revive the sector. Here are the ETFs and stocks analysts favor.",
+      "link": "https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html",
+      "image": null,
+      "pubDate": "2026-10-24T18:56:29+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "SK hynix: Don't Bet On The Slower Boat In A Fast Tide",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957239-sk-hynix-dont-bet-on-the-slower-boat-in-a-fast-tide?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T18:56:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Eni: I Sold Out In Early/Mid-2026 And Why I Won't Buy Back Here (Downgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957238-eni-i-sold-out-in-earlymid-2026-and-why-i-wont-buy-back-here-downgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T18:46:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Young Americans are giving up on car ownership. It’s a path to financial freedom for some.",
+      "desc": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
+      "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-25886732",
+      "pubDate": "2026-10-24T18:45:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Moderna: Why Positive Phase 3 Results Weren't Enough",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957237-moderna-why-positive-phase-3-results-werent-enough?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T18:31:22+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Microsoft Q1: A $744 Billion AI Reckoning Is Coming",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957236-microsoft-q1-a-744-billion-ai-reckoning-is-coming?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-24T18:21:24+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
+      "desc": "For a person looking to make their portfolio more conservative, a TIPS ladder may achieve the same effect",
+      "link": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-99346979",
+      "pubDate": "2026-10-24T18:03:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+      "desc": "“I’m 32 years old and feel like I should know how to do this stuff by now.”",
+      "link": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-36620363",
+      "pubDate": "2026-10-24T17:39:00+00:00",
+      "source": "MarketWatch"
+    },
     {
       "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
       "desc": "Nearly half of Americans haven’t calculated what they’ll need in retirement.",
@@ -155,14 +251,6 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "Money-saving habits to cope with higher prices — from our readers",
-      "desc": "I asked people what they’re doing to make life more affordable today. I’ll definitely be trying some of these.",
-      "link": "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-66111298",
-      "pubDate": "2026-10-24T15:27:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Why popular airplanes are getting scrapped years early",
       "desc": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
       "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
@@ -171,12 +259,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Is getting a wedding band from Quince a bad idea? It’s a third of the price of a local jeweler.",
-      "desc": "“I am slightly anxious about purchasing something so big” from an online retailer known for cut-price duplicates of popular clothes and accessories.",
-      "link": "https://www.marketwatch.com/story/is-getting-a-wedding-band-from-quince-a-bad-idea-its-a-third-of-the-price-fa89c9b2?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-23308572",
-      "pubDate": "2026-10-24T15:10:00+00:00",
-      "source": "MarketWatch"
+      "title": "Apax, Nordic Capital and Dalmore circling UK supplier JLA Group - Bloomberg",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/apax-nordic-capital-and-dalmore-circling-uk-supplier-jla-group--bloomberg-4970855",
+      "image": "https://content-media.investing.com/news/LYNXMPED0C0KP_M.jpg",
+      "pubDate": "2026-10-24T15:09:31+00:00",
+      "source": "Investing.com"
     },
     {
       "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
@@ -225,14 +313,6 @@
       "image": null,
       "pubDate": "2026-10-24T14:41:32+00:00",
       "source": "Seeking Alpha"
-    },
-    {
-      "title": "Looking for AI stocks that are still cheap? Consider these two under-the-radar picks.",
-      "desc": "Simon King of Saturna Capital names two stocks tied to base metals, for investors who want to look beyond the beaten path for AI-related trades.",
-      "link": "https://www.marketwatch.com/story/looking-for-ai-stocks-that-are-still-cheap-consider-these-two-under-the-radar-picks-b4ca2b28?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-91198545",
-      "pubDate": "2026-10-24T14:40:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "IBIT: I'm Waiting For $75,000 Bitcoin",
@@ -289,14 +369,6 @@
       "image": null,
       "pubDate": "2026-10-24T14:25:00+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
-      "desc": "You have to do the math to figure out your best tax strategy in retirement, and converting might not be for you.",
-      "link": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-02166585",
-      "pubDate": "2026-10-24T14:24:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "SpaceX Q3 Just Changed My AI Thesis (Upgrade)",
@@ -395,68 +467,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "Kinder Morgan Expands Backlog Driven By Major Natural Gas Projects",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957206-kinder-morgan-expands-backlog-driven-by-major-natural-gas-projects?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Widgets & Web Launches AI-Operated Investor Relations Websites for Public Companies at a Fixed $299 per Month",
       "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p style=\"padding-left:0pt;\">MIAMI, Oct. 24, 2026 (GLOBE NEWSWIRE) -- <a href=\"https://widgetsandweb.com/\" rel=\"nofollow\" ",
       "link": "https://markets.businessinsider.com/news/stocks/widgets-web-launches-ai-operated-investor-relations-websites-for-public-companies-at-a-fixed-299-per-month-1036662113",
       "image": null,
       "pubDate": "2026-10-24T13:28:29+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Tesla: 2027 Could Be A Massive Growth Inflection Point (Rating Upgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957222-tesla-2027-could-be-massive-growth-inflection-point-upgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:22:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Netflix's Apocalypse Fears Overly Done - Cash Cow With Renewal Prospects",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957167-netflixs-apocalypse-fears-overly-done-cash-cow-with-renewal-prospects?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:15:36+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Why I'm Capping My BDC Exposure At 15%",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4956993-why-im-capping-bdc-exposure-at-15-percent?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Spot Gold: Ready To Start Buying Again, After Being Pessimistic Year-To-Date",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957200-spot-gold-ready-to-start-buying-again-after-being-pessimistic-year-to-date?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:14:44+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Energy Transfer: Likely To Deliver Growth, But Don't Bet On Data Centers",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957220-energy-transfer-likely-to-deliver-growth-do-not-bet-on-data-centers?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:13:49+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Macro Concerns Grow, But Synchrony's Earnings Remain Resilient",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957219-macro-concerns-grow-but-synchronys-earnings-remain-resilient?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-24T13:09:15+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Fact vs. fiction: Doctors share whether peptides are safe and effective",
@@ -595,14 +611,6 @@
       "source": "Investing.com"
     },
     {
-      "title": "Exclusive-Boeing supplier dispute has halted 777 freighter production for two months, sources say",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveboeing-supplier-dispute-has-halted-777-freighter-production-for-two-months-sources-say-4970513",
-      "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9M1YC_L.jpg",
-      "pubDate": "2026-10-23T23:48:39+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
       "desc": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
       "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
@@ -648,14 +656,6 @@
       "link": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
       "image": null,
       "pubDate": "2026-10-23T20:06:37+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
-      "desc": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
-      "link": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
-      "image": null,
-      "pubDate": "2026-10-23T19:50:26+00:00",
       "source": "CNBC Markets"
     },
     {
