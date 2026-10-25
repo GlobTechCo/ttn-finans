@@ -1,6 +1,169 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ubs-swiss-jobs-capital-rules-warning-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "UBS Faces Swiss Jobs Warning as Capital Fight Intensifies",
+    "dek": "An employee group warns of a worst-case employment hit while UBS and Swiss policymakers dispute the cost and purpose of tougher capital rules.",
+    "tickers": [
+      "UBS"
+    ],
+    "imageAlt": "Illustrative reconstruction of the UBS entrance at Bahnhofstrasse 45 in Zurich.",
+    "sources": [
+      {
+        "label": "Reuters: employee group warning, October 25",
+        "url": "https://www.reuters.com/business/world-at-work/employees-group-warns-major-swiss-job-losses-if-ubs-relocates-newspaper-says-2026-10-25/"
+      },
+      {
+        "label": "UBS: September 23 response to banking regulation",
+        "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20260923-banking-regulation.html"
+      },
+      {
+        "label": "UBS: position on banking stability and capital proposals",
+        "url": "https://www.ubs.com/global/en/our-firm/bankingstability.html"
+      },
+      {
+        "label": "Swiss Federal Council: April 22 capital proposals",
+        "url": "https://www.edi.admin.ch/en/newnsb/_9e8qd5sXEzLww7dK3H_9"
+      }
+    ],
+    "body": [
+      "<p>An employee association has added a jobs warning to Switzerland's battle over UBS capital rules. Reuters reported Sunday that the Swiss Bank Employees Association sees 10,000 to 12,000 Swiss positions at risk in a worst-case relocation, sale or <a href=\"mergers-acquisitions-explained.html\">merger</a> scenario. That is a conditional forecast, not an announced redundancy program or a decision by UBS to leave Switzerland.</p>",
+      "<p>The warning matters because the dispute concerns how Switzerland should protect itself from the failure of a globally active bank without weakening its appeal as a financial center. Employment raises the political stakes, but it does not resolve the underlying question: how much financial protection should sit at the Swiss parent company before another crisis occurs?</p>",
+      "<p>UBS says on its banking-stability website that it remains committed to operating its global business from Switzerland. It argues that regulation should reflect international competition and preserve the advantages of its diversified structure. That stated position is important context for readers interpreting Sunday's warning as evidence of an imminent headquarters move. A contingency discussed in a policy argument is different from an approved corporate transaction.</p>",
+      "<h2>What the capital dispute actually covers</h2>",
+      "<p>The contested percentages concern the capital backing for a Swiss parent bank's ownership interests in foreign subsidiaries. They are not a proposal requiring UBS to hold common equity equal to 90% of all its assets. Common Equity Tier 1, or CET1, is the highest-quality regulatory capital, designed to absorb losses while a bank continues operating.</p>",
+      "<p>In its April proposal, the Federal Council sought full CET1 backing for those foreign participations. Its reasoning is that losses abroad can weaken the parent's own capital position. Stronger backing should make it easier to sell a foreign subsidiary during a recovery without undermining the Swiss parent's regulatory ratios. The government links the reform to lessons from Credit Suisse's collapse and the risk borne by taxpayers.</p>",
+      "<p>The 90% approach discussed subsequently is a separate parliamentary proposal. In its September 23 response, UBS estimated that this approach would require approximately $16 billion of additional CET1 at UBS AG, alongside around $2 billion associated with ordinance measures. Those are the bank's estimates of requirements under specified proposals, not a new trading loss or a bill already paid.</p>",
+      "<h2>Why more capital has a cost</h2>",
+      "<p>The government's objective is resilience. The bank's objection concerns the price of achieving it. Equity can absorb losses without the same contractual payments as debt, but shareholders expect a return for bearing that risk. Requiring more equity against a business can therefore change its economics even when that business remains profitable.</p>",
+      "<p>For investors, the distinction is between a stronger balance sheet and the returns earned on the equity supporting it. Those outcomes can move in different directions. More capital may improve a bank's ability to withstand a shock while reducing the return generated per unit of shareholder funds. That helps explain why a safety proposal can become contentious without either side disputing the importance of stability.</p>",
+      "<p>Capital requirements also interact with distributions. As our <a href=\"stock-buybacks-explained.html\">guide to stock buybacks</a> explains, repurchases return resources to shareholders. A bank facing additional capital needs must assess distributions alongside earnings, business investment and its regulatory buffer. Sunday's employment warning does not establish a new buyback decision or provide a revised earnings forecast.</p>",
+      "<h2>What would make the warning more concrete</h2>",
+      "<p>The key evidence would be a final legislative framework, an updated implementation timetable and a formal bank response identifying actual operational changes. The original government proposal envisaged a lengthy transition. Investors should distinguish that legislative process from ordinance changes scheduled for January 2027; the disputed foreign-subsidiary backing requirement should not be described as an already enacted 90% rule.</p>",
+      "<p>There is also an integration backdrop. UBS absorbed Credit Suisse, making organizational change a separate consideration from this capital dispute. The mechanics of mergers and acquisitions explain why combining businesses can involve overlapping operations and restructuring costs. Readers should resist treating every future staffing change as proof that one particular capital proposal caused it.</p>",
+      "<p>For now, the employment estimate is a political warning attached to a scenario. Its financial significance lies in the tension it highlights: Switzerland wants a bank that can survive losses without extraordinary public support, while UBS wants rules that allow its international business to remain competitive. The next meaningful development is a concrete policy or corporate decision, rather than a larger hypothetical job-loss number.</p>"
+    ],
+    "image": "assets/editorial/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1-480.webp 480w, assets/responsive/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1-960.webp 960w, assets/editorial/ubs-swiss-jobs-capital-rules-warning-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T18:17:44Z",
+    "dateModified": "2026-10-25T18:17:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "meta-interactiveworld-ai-glasses-benchmark-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Meta Releases a 120-Task Test for Everyday AI Glasses Assistants",
+    "dek": "InteractiveWorld tests how AI assistants help with everyday tasks, but a simulated benchmark is still a step away from reliable wearable products.",
+    "tickers": [
+      "META",
+      "NVDA"
+    ],
+    "imageAlt": "Illustrative Ray-Ban Meta smart glasses beside keys on a kitchen table; not a newly announced device.",
+    "sources": [
+      {
+        "label": "Meta FAIR: InteractiveWorld official repository",
+        "url": "https://github.com/facebookresearch/InteractiveWorld"
+      },
+      {
+        "label": "InteractiveWorld: benchmark protocols and scoring",
+        "url": "https://github.com/facebookresearch/InteractiveWorld/blob/main/docs/BENCHMARK.md"
+      },
+      {
+        "label": "InteractiveWorld: installation and infrastructure requirements",
+        "url": "https://github.com/facebookresearch/InteractiveWorld/blob/main/docs/INSTALL.md"
+      },
+      {
+        "label": "InteractiveWorld: noncommercial license",
+        "url": "https://github.com/facebookresearch/InteractiveWorld/blob/main/LICENSE"
+      },
+      {
+        "label": "Initial public release: October 24, 23:19 UTC",
+        "url": "https://github.com/facebookresearch/InteractiveWorld/commit/6648db4455cd76f51fc46f0c90b43706b2e4d431"
+      }
+    ],
+    "body": [
+      "<p>Meta has released InteractiveWorld, a research environment for testing whether an AI assistant can help someone complete everyday tasks through a first-person view and conversation. Its accompanying InteractiveBench contains 120 fixed tasks. The initial public code release appeared late October 24 UTC, putting a new evaluation tool behind a practical question: can an assistant help a person act, rather than simply describe what it sees?</p>",
+      "<p>That distinction matters for smart glasses. A convincing answer to a question is useful, but a wearable assistant must also follow what changes around its user. If an object moves, a task is interrupted or a warning arrives too late, fluent language alone may not produce a successful outcome. Our <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of AI agent returns</a> addresses the same broader issue: useful performance needs to connect to completed work.</p>",
+      "<p>This is a research release, not the announcement of a new Ray-Ban Meta device or a claim that existing glasses have passed every task. The repository provides a way to study assistance inside a simulated environment. TTN has reviewed the published documentation; it has not independently run the benchmark or verified real-world wearable performance.</p>",
+      "<h2>A person acts, an assistant advises</h2>",
+      "<p>InteractiveWorld separates the assistant from the person carrying out actions. The assistant receives first-person observations and dialogue. A second model plays the human participant, interacting with a stateful three-dimensional world. That separation makes advice consequential: an instruction must be understood and acted upon before the environment changes.</p>",
+      "<p>The simulation includes 44 environments drawn from BEHAVIOR-1K and supports 36 families of actions. Its benchmark organizes tasks into six categories: guidance, planning, accessibility, decision-making, prevention and finding. Each category contains 20 tasks. Together, they broaden evaluation beyond whether a model can recognize a static image or answer a single isolated question.</p>",
+      "<p>The benchmark guide describes tasks involving activities such as finding objects and helping with food-related decisions. It also allows the assistant to remain silent. That is a significant design choice: an assistant that interrupts constantly may offer many technically relevant observations while still being unpleasant or distracting to use. Evaluating when to speak is part of evaluating whether assistance is useful.</p>",
+      "<h2>Scoring includes human judgment</h2>",
+      "<p>The documentation describes two evaluation layers. Simulator checks can determine whether specified world-state goals and process conditions were satisfied. Separately, the official release rubric uses human adjudication of transcripts and video, with 464 criteria across six protocols. The existence of verifiable simulation states therefore does not make the entire assessment automatic.</p>",
+      "<p>These approaches answer different questions. A final state can show that an object reached the correct place. Reviewing the interaction can reveal whether the assistant communicated effectively along the way. For product developers, that distinction prevents a narrow success measure from concealing poor user experience. A technically completed task can still involve confusing instructions or unnecessary interruptions.</p>",
+      "<p>Holding the simulated human model fixed is intended to make comparisons more consistent. Nevertheless, results will depend on the evaluation setup. A model's performance with a simulated participant cannot establish how people with different habits, abilities or communication styles would respond. That limitation is a reason for further testing, not a reason to dismiss the benchmark.</p>",
+      "<h2>Research infrastructure, not a phone app</h2>",
+      "<p>Running InteractiveWorld requires substantial infrastructure. The installation guide specifies Linux, an NVIDIA GPU and roughly 100 GB of disk capacity for the environment and assets. It depends on simulation software and separately obtained datasets. This is a technical research workflow, not a consumer app that a glasses owner can download and start using over breakfast.</p>",
+      "<p>The code's CC BY-NC 4.0 license also matters. Public availability does not automatically grant unrestricted commercial use, and external assets carry their own conditions. Companies assessing the release need to examine those terms before incorporating material into a commercial workflow. Describing it simply as unrestricted open-source software would obscure a practical constraint.</p>",
+      "<p>Privacy remains another step between research and deployment. A first-person assistant may observe rooms, documents and other people. The benchmark release does not settle how a commercial product should obtain permission, retain observations or limit access. Our <a href=\"enterprise-ai-data-security-2026.html\">guide to AI data security</a> explains why those controls belong alongside performance measures.</p>",
+      "<p>InteractiveWorld's immediate contribution is a more demanding way to ask whether assistance works. The next evidence to watch is reproducible model comparisons, clear reporting of failure cases and testing with real users. A useful benchmark can expose the gap between an impressive demonstration and dependable help; closing that gap still requires evidence beyond the simulator.</p>"
+    ],
+    "image": "assets/editorial/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1-480.webp 480w, assets/responsive/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1-960.webp 960w, assets/editorial/meta-interactiveworld-ai-glasses-benchmark-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T18:17:44Z",
+    "dateModified": "2026-10-25T18:17:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "coindcx-usdt-loss-old-wallet-sweep-failure-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "CoinDCX Confirms $15.99 Million Loss After Old-Wallet Sweep Failure",
+    "dek": "CoinDCX says it will absorb a 15.99 million USDT loss after a failed sweep service left deposits in previously compromised wallet infrastructure.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of a CoinDCX reception area with the company name on the wall.",
+    "sources": [
+      {
+        "label": "CoinDCX: October 25 wallet-activity update",
+        "url": "https://coindcx.com/blog/coindcx-news/on-chain-wallet-activity-update-21-oct-2026"
+      },
+      {
+        "label": "Bitquery: dated on-chain investigation, updated October 23",
+        "url": "https://bitquery.io/investigations/coindcx-hack"
+      },
+      {
+        "label": "Crypto.news: October 25 confirmation and earlier response",
+        "url": "https://crypto.news/coindcx-confirms-15-99m-loss-old-wallets/"
+      }
+    ],
+    "body": [
+      "<p>CoinDCX has confirmed a loss of 15.99 million USDT after an automated service failed to move deposits out of old wallet infrastructure. In an October 25 update, the Indian cryptocurrency exchange said it would absorb the loss. The admission replaces uncertainty about suspicious transfers with a confirmed custody loss.</p>",
+      "<p>The exchange says customer funds remain secure and its active trading, deposit and withdrawal systems have continued operating. Those are company statements, not the conclusion of an independent audit reviewed by TTN. The distinction matters because <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin transfers</a> recorded on a blockchain can establish movements between addresses, but cannot by itself establish the full relationship between an exchange's assets and customer liabilities.</p>",
+      "<h2>An account credit is not a completed sweep</h2>",
+      "<p>CoinDCX says the affected infrastructure was connected to a wallet compromised in July 2025 and subsequently deprecated. Some customers continued using older deposit addresses. According to the company, a sweeping service failed, allowing funds to accumulate there instead of moving into the intended custody setup. It acknowledged that communication about the incident should have come sooner.</p>",
+      "<p>The operational distinction is between crediting an exchange account and moving the underlying tokens. CoinDCX describes these as separate processes. A customer can see a deposit credited while the corresponding tokens remain at the receiving address awaiting a sweep. A balance displayed in an app therefore does not necessarily reveal where the associated assets are being held on-chain at that moment.</p>",
+      "<p>That creates a control problem even when a customer-facing service appears normal. A monitoring system needs to detect whether the custody process completed, rather than merely whether the customer received an account credit. Retiring an address also requires a clear policy for later deposits. Calling infrastructure deprecated does not make funds arriving there inaccessible to someone who still controls a compromised key.</p>",
+      "<h2>What the independent tracing shows</h2>",
+      "<p>Bitquery's investigation, updated October 23, tracked the movement of approximately 15.99 million USDT from 40 TRON wallets. It reported that about 15.82 million came from one address where deposits had accumulated over months. Its analysis also identified routine sweeping activity shortly before the theft, complicating any assumption that the entire older setup had simply become inactive.</p>",
+      "<p>The same investigation reported that Tether froze roughly $2.21 million across nine wallets late October 22. That figure must be kept attached to its date and meaning. Frozen tokens are not necessarily returned tokens. The tracing report does not establish that the full loss has been recovered, and it should not be used as a current, independently verified recovery balance for October 25.</p>",
+      "<p>Blockchain analysis is valuable here because it preserves a sequence of observable transactions. Its limits are equally important: address labels and fund flows are not a complete set of exchange books. The evidence supports questions about how assets moved and which controls failed. It does not automatically prove how every customer's account was treated or whether any particular receiving intermediary participated in wrongdoing.</p>",
+      "<p>Crypto.news reported Sunday's confirmation after earlier public responses to the suspicious activity. The contrast highlights the importance of precise incident communication. An exchange can distinguish active systems from older infrastructure, but that distinction is not a substitute for explaining what was lost, when the loss was established and who bears the financial impact.</p>",
+      "<h2>A stable token can still carry custody risk</h2>",
+      "<p>This was not presented as a USDT depeg. The relevant risk was access to tokens held at exchange-controlled addresses. Our stablecoin risk guide explains why price stability does not eliminate issuer, network or custody risks. A token can remain close to its intended dollar value while being stolen from a compromised wallet.</p>",
+      "<p>Readers should also separate this incident from failures at a blockchain's consensus layer. In the <a href=\"initia-network-halt-security-incident-october-2026.html\">recent Initia security incident</a>, the network response itself was central to the story. Here, the confirmed explanation concerns an exchange's legacy custody workflow. Treating all cryptocurrency incidents as interchangeable makes it harder to identify which safeguard actually needs improvement.</p>",
+      "<p>For customers assessing an exchange response, the most useful follow-up evidence would include an independently assessed incident timeline, reconciliation of affected assets and liabilities, and confirmation of any funds actually recovered. A promise to absorb a loss addresses who is supposed to bear it; evidence of completed remediation addresses whether the same operational exposure remains.</p>",
+      "<p>CoinDCX says it plans stronger monitoring of legacy infrastructure and clearer warnings about older deposit addresses. It has not supplied a precise public closure timetable in the update reviewed here. Sunday's admission provides a clearer loss figure and mechanism, but the broader test is whether the exchange can demonstrate that retired infrastructure no longer creates an unmonitored route for customer deposits.</p>"
+    ],
+    "image": "assets/editorial/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1-480.webp 480w, assets/responsive/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1-960.webp 960w, assets/editorial/coindcx-usdt-loss-old-wallet-sweep-failure-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T18:17:44Z",
+    "dateModified": "2026-10-25T18:17:44Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "western-sydney-airport-passenger-opening-2026",
     "section": "Market Analysis",
     "format": "news",

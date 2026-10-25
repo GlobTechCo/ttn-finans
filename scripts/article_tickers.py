@@ -17,7 +17,7 @@ INSTRUMENTS = {
     'NOK': ('NYSE:NOK', 'Nokia ADR · NYSE'),
     'RAND': ('EURONEXT:RAND', 'Randstad · Euronext Amsterdam'),
     **{s: (f'NASDAQ:{s}', s) for s in ['TEM','SPCX','SOFI','HON','COIN','AAPL','NVDA','INTC','CRWV','AMZN','MSFT','GOOGL','AVGO','TSLA','META','MU','BRZE','ASML']},
-    **{s: (f'NYSE:{s}', s) for s in ['SLB','BMY','AXP','CCI','MA','HSBC','UBER','V','LMT','SPOT','LEN','DHI','ORCL','TSM','CRM','BABA','MMM']},
+    **{s: (f'NYSE:{s}', s) for s in ['UBS','SLB','BMY','AXP','CCI','MA','HSBC','UBER','V','LMT','SPOT','LEN','DHI','ORCL','TSM','CRM','BABA','MMM']},
     'S&P 500': ('FOREXCOM:SPXUSD', 'S&P 500 CFD · FOREX.com'),
     'NASDAQ': ('FOREXCOM:NSXUSD', 'Nasdaq-100 CFD · FOREX.com'),
     'Nasdaq Composite': ('NASDAQ:IXIC', 'Nasdaq Composite'),

@@ -1,4 +1,7 @@
 TITLES = '''
+coindcx-usdt-loss-old-wallet-sweep-failure-2026|CoinDCX Confirms $15.99M Loss in Old Wallets
+meta-interactiveworld-ai-glasses-benchmark-2026|Meta Releases InteractiveWorld AI Glasses Benchmark
+ubs-swiss-jobs-capital-rules-warning-2026|UBS Jobs Warning and the Swiss Capital Fight
 bitcoin-weekend-rebound-80000-october-25-2026|Bitcoin Rebounds Above $80,000 After Weekend Slide
 microsoft-agensh-open-source-ai-agents-2026|Microsoft Opens Agensh AI Agent Coordination Code
 western-sydney-airport-passenger-opening-2026|Western Sydney Airport Opens to Passenger Flights
@@ -160,6 +163,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+coindcx-usdt-loss-old-wallet-sweep-failure-2026|CoinDCX says it will absorb a 15.99 million USDT loss after a failed sweep service left deposits in previously compromised wallet infrastructure.
+meta-interactiveworld-ai-glasses-benchmark-2026|InteractiveWorld tests how AI assistants help with everyday tasks, but a simulated benchmark is still a step away from reliable wearable products.
+ubs-swiss-jobs-capital-rules-warning-2026|An employee group warns of a worst-case employment hit while UBS and Swiss policymakers dispute the cost and purpose of tougher capital rules.
 bitcoin-weekend-rebound-80000-october-25-2026|Bitcoin recovers from a 24-hour low near $79,300. Middle East concerns and two days of US ETF outflows frame the market ahead of the Fed meeting.
 microsoft-agensh-open-source-ai-agents-2026|Microsoft’s Agensh release lets researchers test self-organizing AI coding teams. Higher benchmark scores still leave a demanding economic test.
 western-sydney-airport-passenger-opening-2026|Sydney’s new airport starts passenger flights with room for 10 million travelers a year. Airline schedules and ground access will determine its payoff.
