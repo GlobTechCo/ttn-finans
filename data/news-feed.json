@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T17:34:46.583525+00:00",
+  "generatedAt": "2026-10-25T19:54:56.504219+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,6 +35,110 @@
   ],
   "items": [
     {
+      "title": "Third Avenue Real Estate Value Fund Q3 2026 Letter",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957345-third-avenue-real-estate-value-fund-q3-2026-letter?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T19:51:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
+      "desc": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”",
+      "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-13210750",
+      "pubDate": "2026-10-25T19:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Amkor Technology: Nvidia's $3 Billion Vote Of Confidence Lands On A De-Rated Stock",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957344-amkor-technology-nvidia-3-billion-vote-of-confidence-lands-on-a-de-rated-stock?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T19:24:04+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Meta Q3: Non-Recurring Charge Hit GAAP Earnings, Q4 Capex Will Jump Sharply",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957343-meta-q3-non-recurring-charge-hit-gaap-earnings-q4-capex-will-jump-sharply?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T19:13:49+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "GreensKeeper Value Fund Q3 2026 Portfolio Activity",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957342-greenskeeper-value-fund-q3-2026-portfolio-activity?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T19:11:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "GreensKeeper Value Fund Q3 2026 Letter",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957341-greenskeeper-value-fund-q3-2026-letter?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T19:02:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ionis Pharmaceuticals: Compelling Long-Term Commercial Upside",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957340-ionis-pharmaceuticals-compelling-long-term-commercial-upside?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T18:56:16+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "REITs Rebound As Earnings Deliver",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957339-reits-rebound-as-earnings-deliver?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T18:45:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Lam Research: Down 29% Since My Sell Call, But The Math Has Changed (Upgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957338-lam-research-down-29-percent-since-my-sell-call-but-the-math-has-changed-upgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T18:41:44+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+      "desc": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
+      "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+      "image": null,
+      "pubDate": "2026-10-25T18:18:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+      "desc": "“Nothing has been set aside for his needs.”",
+      "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-40456327",
+      "pubDate": "2026-10-25T18:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Miller Value Deep Value Select Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957337-miller-value-deep-value-select-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-25T17:54:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Oppenheimer sees web, commerce software Q3 backdrop improving, AI worries linger",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/oppenheimer-sees-web-commerce-software-q3-backdrop-improving-ai-worries-linger-4971234",
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEL4K0QN_L.jpg",
+      "pubDate": "2026-10-25T17:48:15+00:00",
+      "source": "Investing.com"
+    },
+    {
       "title": "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
       "desc": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
       "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
@@ -47,14 +151,6 @@
       "desc": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
       "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-37061158",
-      "pubDate": "2026-10-25T17:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?",
-      "desc": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”",
-      "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-13210750",
       "pubDate": "2026-10-25T17:00:00+00:00",
       "source": "MarketWatch"
     },
@@ -371,30 +467,6 @@
       "source": "Business Insider"
     },
     {
-      "title": "2 Investment Grade Dividend Stocks On Sale: 1 Buy, 1 Sell",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957321-2-investment-grade-dividend-stocks-on-sale-1-buy-1-sell?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T13:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SK hynix Stock: Micron's AI Boom Sets Up A Cash Flow Test",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957324-sk-hynix-stock-microns-ai-boom-sets-up-a-cash-flow-test?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T13:05:19+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Digital Marketing Leader Klaviyo Deserves A Strong Buy",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957323-digital-marketing-leader-klaviyo-deserves-a-strong-buy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T13:01:43+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
       "desc": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
       "link": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
@@ -403,68 +475,12 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Bloom Energy's Selloff Misses The Upgrade",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957318-bloom-energy-s-selloff-misses-the-upgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T13:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 2.65%",
       "desc": "",
       "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-265-4971175",
       "image": "https://content-media.investing.com/news/LYNXNPED9015J_M.jpg",
       "pubDate": "2026-10-25T12:45:03+00:00",
       "source": "Investing.com"
-    },
-    {
-      "title": "Flagstar Bank: High Margin Of Safety, Despite Credit Issues",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957303-flagstar-bank-high-margin-of-safety-despite-credit-issues?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T12:45:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
-      "desc": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
-      "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-25605110",
-      "pubDate": "2026-10-25T12:44:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Mako Mining: 48% Below NAV With Production Growth Ahead",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957320-mako-mining-48-percent-below-nav-with-production-growth-ahead?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T12:34:21+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "This Week I Am Going Shopping With History On My Side",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957215-this-week-i-am-going-shopping-with-history-on-my-side?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T12:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Deckers: Sharp DTC Slowdown Offset By Cheap Price (Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957291-deckers-sharp-dtc-slowdown-offset-by-cheap-price-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T12:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Southwest Airlines: Revenue Transformation Accelerates",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4957294-southwest-airlines-revenue-transformation-accelerates?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-25T12:30:00+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "What Democrats and Republicans fear most about each other: CNBC survey has the answers",
@@ -539,14 +555,6 @@
       "source": "Investing.com"
     },
     {
-      "title": "Chinese equities face prolonged downturn as earnings forecasts tumble",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/chinese-equities-face-prolonged-downturn-as-earnings-forecasts-tumble-4971016",
-      "image": "https://content-media.investing.com/news/LYNXNPEB7U0BG_M.jpg",
-      "pubDate": "2026-10-25T01:37:10+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
       "desc": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
       "link": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
@@ -555,11 +563,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
-      "desc": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
-      "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+      "desc": "Lawsuits filed by candidate Mary Peltola and a voters' rights group challenge Trump's preemptive efforts to block a Democratic Senate victory in Alaska.",
+      "link": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
       "image": null,
-      "pubDate": "2026-10-24T20:38:30+00:00",
+      "pubDate": "2026-10-24T19:57:24+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -595,14 +603,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
-      "desc": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmons.",
-      "link": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
-      "image": null,
-      "pubDate": "2026-10-24T14:36:01+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
       "desc": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
       "link": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
@@ -624,6 +624,14 @@
       "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
       "image": null,
       "pubDate": "2026-10-24T11:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+      "desc": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election.",
+      "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "image": null,
+      "pubDate": "2026-10-24T10:59:16+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -656,14 +664,6 @@
       "link": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
       "image": null,
       "pubDate": "2026-10-23T22:27:06+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
-      "desc": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
-      "link": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
-      "image": null,
-      "pubDate": "2026-10-23T21:26:59+00:00",
       "source": "CNBC Markets"
     },
     {
