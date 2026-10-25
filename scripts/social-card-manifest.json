@@ -2496,6 +2496,39 @@
       "bytes": 505682,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/electrum-483-bitcoin-wallet-security-update-2026.html"
+    },
+    {
+      "page": "audi-georgia-4-billion-us-plant-2026.html",
+      "source": "assets/editorial/audi-georgia-4-billion-us-plant-2026-cover-v1.webp",
+      "image": "assets/social/audi-georgia-4-billion-us-plant-2026-cover-v1-b79e806f1307.webp",
+      "sha256": "b79e806f1307af3b42b1d996a59c1c4a2def00182459e2cf1b49e4e21ea0a76a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 274990,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/audi-georgia-4-billion-us-plant-2026.html"
+    },
+    {
+      "page": "uk-ai-biosecurity-lab-funding-2026.html",
+      "source": "assets/editorial/uk-ai-biosecurity-lab-funding-2026-cover-v2.webp",
+      "image": "assets/social/uk-ai-biosecurity-lab-funding-2026-cover-v2-f5870ad02fe8.webp",
+      "sha256": "f5870ad02fe86ea510334746f84144eecb412baf4653d8f8cf14123f2b84e15a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 232678,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/uk-ai-biosecurity-lab-funding-2026.html"
+    },
+    {
+      "page": "south-korea-crypto-tax-delay-proposal-2026.html",
+      "source": "assets/editorial/south-korea-crypto-tax-delay-proposal-2026-cover-v4.webp",
+      "image": "assets/social/south-korea-crypto-tax-delay-proposal-2026-cover-v4-b43b903b849b.webp",
+      "sha256": "b43b903b849b90db3a660fdc159faa923af06a90a09945b11f64ec76c38f65ec",
+      "width": 1672,
+      "height": 941,
+      "bytes": 319324,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/south-korea-crypto-tax-delay-proposal-2026.html"
     }
   ]
 }

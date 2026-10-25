@@ -4,6 +4,8 @@
 
 Never use a cinematic style for TTN imagery. Apply this to every new cover, illustration, regeneration and replacement. Inspect the actual output: a prompt saying “no cinematic” does not establish compliance. Reject and regenerate any result with film-like grading, dramatic lighting, warm/cool color separation, artificial glow, heavy contrast or polished movie-frame staging before publication. Use natural editorial photography aesthetics or a clearly designed editorial graphic when appropriate. This restriction does not require making all images gray or removing relevant people.
 
+Owner reaffirmation, October 25, 2026: reject cinematic treatment even in a bright daytime scene. Hyper-saturated cyan skies or vivid green landscaping, HDR-like microcontrast, glowing gold and polished advertising highlights can fail this rule without dramatic lighting. Preserve believable everyday color, diffuse natural light and restrained reflections. A photographic reference does not excuse a cinematic-looking generated result.
+
 Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns image acceptance and correction approvals.
 
 ## Mandatory quality threshold: 8/10

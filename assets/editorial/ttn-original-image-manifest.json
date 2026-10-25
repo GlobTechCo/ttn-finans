@@ -1944,5 +1944,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 505682,
     "provenance": "Illustrative editorial painting, not documentary evidence or actual software interface; v3 explicitly approved by owner with publication instruction."
+  },
+  {
+    "article": "audi-georgia-4-billion-us-plant-2026",
+    "file": "assets/editorial/audi-georgia-4-billion-us-plant-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-25T06:50:29Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 274990,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "uk-ai-biosecurity-lab-funding-2026",
+    "file": "assets/editorial/uk-ai-biosecurity-lab-funding-2026-cover-v2.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-25T06:50:29Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 232678,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
+  },
+  {
+    "article": "south-korea-crypto-tax-delay-proposal-2026",
+    "file": "assets/editorial/south-korea-crypto-tax-delay-proposal-2026-cover-v4.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-25T06:50:29Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 319324,
+    "provenance": "Illustrative image; not documentary evidence. See scripts/editorial-news-20261021.md."
   }
 ]

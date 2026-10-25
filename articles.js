@@ -1,6 +1,162 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "audi-georgia-4-billion-us-plant-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Audi plans a $4 billion Georgia plant, turning tariff pressure into a long-term US investment",
+    "dek": "Audi plans its first US factory with capacity for 200,000 SUVs a year. The investment promises a local production base, with full output years away.",
+    "tickers": [
+      "VWAGY"
+    ],
+    "imageAlt": "Illustrative Audi four-ring grille emblem with automotive assembly equipment in a generic factory, not the planned Georgia facility.",
+    "sources": [
+      {
+        "label": "Audi: first US production-site announcement, October 25",
+        "url": "https://www.audi.com/en/press-releases/audi-to-establish-first-us-production-site-in-georgia-investing-4-billion-and-creating-4500-jobs-18420"
+      },
+      {
+        "label": "Georgia governor: investment, site and detailed schedule, October 24",
+        "url": "https://gov.georgia.gov/press-releases/2026-10-24/gov-kemp-audi-ag-selects-georgia-invest-4-billion-first-us-manufacturing"
+      },
+      {
+        "label": "Reuters: announcement and tariff context, October 24",
+        "url": "https://www.reuters.com/business/autos-transportation/trump-set-announce-plan-by-audi-build-us-factory-georgia-source-says-2026-10-24/"
+      }
+    ],
+    "body": [
+      "<p>Audi plans to invest about $4 billion in its first US manufacturing plant, giving the Volkswagen-owned premium brand a domestic production base after years of serving American buyers with imported vehicles. The project, announced in Georgia on October 24 and detailed by Audi on October 25, targets annual capacity of up to 200,000 SUVs and approximately 4,500 jobs. Its immediate significance is a multiyear capital commitment, while the production benefits remain years away.</p>",
+      "<p>President Donald Trump announced the investment at a rally in Perry, Georgia, alongside Audi Chief Executive Gernot Döllner. Audi and the state separately confirmed the project. Reuters placed the decision against the pressure of US auto tariffs, reporting that the company currently imports its American-market vehicles from Europe or Mexico. Local assembly would change part of that exposure, although the final cost of an American-built vehicle would still depend on its components and supply chain.</p>",
+      "<h2>A major investment with a staged timetable</h2>",
+      "<p>The state identifies the Middle Georgia Megasite as the location. Its release gives a more detailed schedule than the company’s broad description: grading is expected in 2027, construction in 2028 and full production in 2031. Audi describes construction beginning in 2027 and production in the early 2030s. Those descriptions should not be compressed into a claim that the plant opens next year. Site preparation, construction and a factory operating at full capacity are separate milestones.</p>",
+      "<p>The projected 200,000 vehicles are annual capacity, rather than an existing order book or a guaranteed sales forecast. Similarly, the job figure is a planned result of the investment. Hiring, supplier contracts and construction spending will arrive on their own schedules. For local businesses, the opportunity therefore lies partly in preparing for the project’s development stages, rather than assuming the entire economic contribution appears when the announcement is made.</p>",
+      "<p>Georgia says the site has nearby industrial utilities, Class I rail access through Norfolk Southern and connections to the ports of Savannah and Brunswick. Georgia Quick Start will work with Audi on customized training, alongside technical-college campuses. Those details matter because a vehicle plant depends on a much wider operating system than its assembly line: employees, logistics, suppliers and utilities must be ready at compatible times.</p>",
+      "<h2>Domestic assembly changes costs without settling them</h2>",
+      "<p>Audi describes North America as a third major pillar of its production network alongside Europe and China. It presents the investment as a way to strengthen competitiveness and reduce trade and currency risks. That is the company’s strategic case, rather than an independently established return on the $4 billion. A factory can bring production closer to buyers while also creating substantial fixed costs that need sufficient demand over time.</p>",
+      "<p>Our <a href=\"tariffs-who-actually-pays-explained.html\">guide to who bears a tariff’s cost</a> explains why the location of final assembly is only one part of the calculation. Imported components can retain their own trade exposure, while companies can absorb costs, change sourcing or adjust prices. Audi’s announcement does not establish how much of any eventual saving would reach buyers, nor does it provide a complete future sourcing mix for the Georgia operation.</p>",
+      "<p>There is also a timing issue. The investment is being announced under today’s trade conditions, but vehicles are expected to emerge under the conditions prevailing in the early 2030s. Management must therefore assess a long-lived asset against more than the current tariff schedule. Our reporting on <a href=\"canada-tariff-product-changes-october-30-2026.html\">changes to Canadian-product tariffs</a> illustrates how individual product coverage and effective dates can shift even within an established trade dispute.</p>",
+      "<h2>The test is execution and returns on the new capacity</h2>",
+      "<p>For Volkswagen investors, the commitment belongs in an assessment of the parent group’s capital allocation, not in a standalone stock valuation for Audi. Our <a href=\"free-cash-flow-explained.html\">explanation of free cash flow</a> sets out why investment spending and reported earnings answer different questions. Building productive capacity requires cash before the resulting vehicles can generate revenue. The announcement alone does not establish the eventual margin, utilization rate or payback period.</p>",
+      "<p>The next useful evidence will be the project’s construction progress, supplier arrangements, hiring milestones and more specific production plans. The opportunity is clear: a large US base could bring Audi closer to an important market. The financial result will depend on delivering that base at a competitive cost and selling enough vehicles to use it. Neither the capacity figure nor the investment headline settles that outcome.</p>"
+    ],
+    "image": "assets/editorial/audi-georgia-4-billion-us-plant-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/audi-georgia-4-billion-us-plant-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/audi-georgia-4-billion-us-plant-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/audi-georgia-4-billion-us-plant-2026-cover-v1-480.webp 480w, assets/responsive/audi-georgia-4-billion-us-plant-2026-cover-v1-960.webp 960w, assets/editorial/audi-georgia-4-billion-us-plant-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T06:50:29Z",
+    "dateModified": "2026-10-25T06:50:29Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "uk-ai-biosecurity-lab-funding-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Britain backs an AI biosecurity lab with £100 million, plus company model credits",
+    "dek": "The new nonprofit will target biological-threat detection and medical research. OpenAI and Anthropic pledge up to £200 million in additional support.",
+    "tickers": [
+      "GOOGL"
+    ],
+    "imageAlt": "Illustrative computational-biology research scene with a scientist checking samples beside an automated liquid-handling workstation.",
+    "sources": [
+      {
+        "label": "Cabinet Office: AI Biosecurity Lab announcement, October 24",
+        "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab"
+      },
+      {
+        "label": "HM Treasury: wider AI funding package, October 24",
+        "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+      },
+      {
+        "label": "OpenAI: Rosalind Biodefense programme and trusted access",
+        "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/"
+      },
+      {
+        "label": "The Next Web: funding distinctions and open questions, October 24",
+        "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic"
+      }
+    ],
+    "body": [
+      "<p>Britain is establishing an AI Biosecurity Lab with £100 million in government funding, seeking to turn increasingly powerful artificial intelligence into earlier warnings of biological threats and faster research on medical countermeasures. The October 24 announcement adds up to £200 million in commitments from OpenAI and Anthropic. That second figure consists of access to computing, models and support, rather than an equivalent cash contribution to the laboratory.</p>",
+      "<p>The distinction is central to understanding the package. Public funding can support the institution’s development, while company credits provide specified technological resources. Their usefulness depends on access terms and the work they can support. Adding the figures produces an envelope of up to £300 million, but describing that entire amount as government spending, cash already transferred or laboratory construction would misstate what has been announced.</p>",
+      "<h2>Two research priorities, with operating details still to come</h2>",
+      "<p>The Cabinet Office says initial work will concentrate on earlier detection of emerging biological threats and faster development of vaccines, treatments and other countermeasures. The organization will be an independent nonprofit with a scientific advisory committee. These are its intended functions and structure. They are not evidence that a particular detection system or treatment has already been validated, deployed or shown to improve an outbreak response.</p>",
+      "<p>The Next Web noted that the announcement did not identify a director, a location or an operating start date. That leaves meaningful implementation questions between the funding announcement and a working institution. Recruitment, research partnerships and usable evaluation methods will help determine whether model access becomes practical scientific capability. Readers should distinguish the creation of an organization from an opening ceremony at a completed physical laboratory.</p>",
+      "<h2>Company support has a defined form</h2>",
+      "<p>OpenAI’s contribution is £100 million in compute and model credits, alongside trusted model access through its Rosalind Biodefense programme. Anthropic’s commitment is up to £100 million in model credits, trusted access and technical support. OpenAI describes Rosalind Biodefense as a route for qualified developers and government partners to build defensive applications. Those access conditions matter: this is support for vetted research, rather than an unrestricted public release of advanced biological capabilities.</p>",
+      "<p>Google DeepMind, part of Alphabet, and Britain’s Basecamp Research are also named as research partners. Their participation broadens the technical relationships around the new lab, but it does not make every collaboration interchangeable with cash funding. Our <a href=\"pathos-ai-237-million-bms-tempus-2026.html\">report on AI drug developer Pathos</a> shows a related distinction between financing a company, gaining access to research data and demonstrating that an approach produces useful scientific results.</p>",
+      "<p>The Treasury places the lab inside a £165 million National AI Biosecurity Initiative. That includes the £100 million lab allocation and a separate £65 million for biological surveillance and medical countermeasures. The lab’s £100 million therefore should not be added again to that £165 million total. The wider announcement separately allocates another £120 million to the AI Security Institute, an institution with a different testing and research role.</p>",
+      "<h2>Useful performance measures come after the funding headline</h2>",
+      "<p>A practical evaluation of the lab would need to distinguish quicker analysis from better decisions. For a threat-detection project, a useful question is whether a system finds a relevant signal early enough to change an authorized response without overwhelming specialists with false alarms. For research support, the useful output is work that survives scientific checks, not simply a greater volume of generated suggestions. These are evaluation priorities, not results claimed for an existing AIBL system.</p>",
+      "<p>Our <a href=\"ai-inference-unit-economics-2026.html\">guide to AI inference economics</a> explains why access to computing is only one part of an operating model. Skilled people, integration and verification also consume resources. Likewise, <a href=\"enterprise-ai-data-security-2026.html\">research access and data controls</a> remain relevant even where models come through a trusted programme. An institution needs clear responsibility for the information it uses and the outputs it accepts.</p>",
+      "<p>The announcement creates a substantial opportunity to connect AI expertise with public-interest biological research. Its progress will be clearer when leadership, operating arrangements and specific research evaluations are disclosed. The immediate development is a funded institutional plan with significant company support. Its ultimate value will depend on the capabilities that researchers can demonstrate and public-health partners can actually use.</p>"
+    ],
+    "image": "assets/editorial/uk-ai-biosecurity-lab-funding-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/uk-ai-biosecurity-lab-funding-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/uk-ai-biosecurity-lab-funding-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/uk-ai-biosecurity-lab-funding-2026-cover-v2-480.webp 480w, assets/responsive/uk-ai-biosecurity-lab-funding-2026-cover-v2-960.webp 960w, assets/editorial/uk-ai-biosecurity-lab-funding-2026-cover-v2.webp 1672w",
+    "date": "2026-10-25T06:50:29Z",
+    "dateModified": "2026-10-25T06:50:29Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "south-korea-crypto-tax-delay-proposal-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "South Korea moves toward another crypto-tax delay, with a legal change still needed",
+    "dek": "Seoul’s presidential office reportedly backs postponing the January 2027 levy. A proposed 2029 start still requires action by lawmakers.",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Illustrative Bitcoin medallion in front of South Korea’s National Assembly, using a photographic architectural reference for the building.",
+    "sources": [
+      {
+        "label": "Seoul Economic Daily: presidential-office position, October 25",
+        "url": "https://en.sedaily.com/politics/2026/10/25/presidential-office-decides-to-delay-crypto-tax-again"
+      },
+      {
+        "label": "Electronic Times: proposed two-year postponement, October 25",
+        "url": "https://www.etnews.com/20261025000076"
+      },
+      {
+        "label": "OECD Global Forum: CARF implementation commitments, September 14 update",
+        "url": "https://www.oecd.org/content/dam/oecd/en/networks/global-forum-tax-transparency/commitments-carf.pdf"
+      },
+      {
+        "label": "IRS: digital-asset reporting and tax responsibilities",
+        "url": "https://www.irs.gov/filing/digital-assets"
+      },
+      {
+        "label": "Architectural reference: South Korean National Assembly photograph, Times Higher Education",
+        "url": "https://www.timeshighereducation.com/news/south-korea-threatens-punish-universities-over-admissions-tests"
+      }
+    ],
+    "body": [
+      "<p>South Korea’s presidential office is moving toward another postponement of a cryptocurrency income tax scheduled to begin January 1, 2027, according to local reporting on October 25. A proposal to shift the start to 2029 is gaining political support, but the reported executive position is not itself an enacted change to the Income Tax Act. The immediate news is a stronger push for delay, rather than a completed repeal of the levy.</p>",
+      "<p>Seoul Economic Daily cited an unnamed presidential-office official who said discussions were moving toward postponement. Electronic Times separately reported that the administration was considering a two-year delay. The reports point to incomplete preparations for tax collection, concerns among younger investors and the challenge of collecting information across overseas trading venues. They describe a policy direction that still needs to pass through the legislative process.</p>",
+      "<h2>The scheduled levy and the proposed delay are separate</h2>",
+      "<p>As described in the reporting, the planned regime applies a combined 22% national and local tax rate to annual income from transfers or lending of virtual assets after a 2.5 million won basic deduction. It is therefore not described as a 22% charge on the entire value of every transaction. The distinction between proceeds and taxable income matters when interpreting the financial effect of the proposal.</p>",
+      "<p>The levy has already been postponed three times since the 2020 legislative revision that established the framework. A further delay would extend that implementation history rather than create a new general exemption for all cryptocurrency activity. Our <a href=\"clarity-act-crypto-legislation-explained.html\">guide to reading proposed crypto legislation</a> explains why the status of a measure matters as much as its headline: support, introduction, passage and an effective date are different stages.</p>",
+      "<p>Seoul Economic Daily reported that a ruling-party bill would move the start to 2029 and that the opposition also favors postponement. It expects further government-party discussions after the parliamentary audit period, followed by consideration during November’s tax-law review. Those expectations make the calendar important, but they do not guarantee the wording or passage of a final amendment. A proposal can change during negotiations.</p>",
+      "<h2>Cross-border reporting is part of the argument</h2>",
+      "<p>The overseas-exchange concern has a concrete international reference point. The OECD Global Forum’s September 14, 2026 commitment list places South Korea among jurisdictions undertaking their first exchanges under the Crypto-Asset Reporting Framework by 2027. It places the United States in the group undertaking first exchanges by 2029. These are commitments concerning information exchange, not a universal timetable for starting or ending cryptocurrency taxes.</p>",
+      "<p>Local reports link that gap to concerns about unequal collection between users of domestic and overseas services. The policy argument is that a tax system needs sufficiently consistent access to relevant transaction information. That does not establish that every overseas trade would be invisible, or that an offshore account removes a person’s obligations. Information coverage and the legal obligation to pay are related enforcement questions, but they are not the same rule.</p>",
+      "<p>The distinction also limits what a delay can accomplish. Extra preparation time could help authorities and trading platforms organize records and reporting processes. It would not, by itself, settle every issue surrounding taxable income, record quality or consistent treatment across venues. Those questions depend on the eventual legislation and implementing arrangements. Postponement would change a deadline; its administrative benefits would need to be demonstrated.</p>",
+      "<h2>A Korean proposal does not change another country’s tax rules</h2>",
+      "<p>For US readers holding Bitcoin, the report should not be read as a change to American tax obligations. The IRS continues to explain that digital-asset activity can generate reportable income, gains or losses under US rules. Our <a href=\"crypto-taxes-us-explained.html\">US crypto-tax explainer</a> sets out the importance of identifying the transaction and relevant jurisdiction before drawing conclusions from an international policy headline.</p>",
+      "<p>The next decisive development would be a published amendment with an approved commencement date, followed by the guidance needed to implement it. Until then, the verified reporting supports a narrower conclusion: South Korea’s administration is leaning toward another delay and lawmakers are considering 2029. It does not establish that the tax has been abolished, that the new date is already law or that the announcement caused a particular move in crypto prices.</p>"
+    ],
+    "image": "assets/editorial/south-korea-crypto-tax-delay-proposal-2026-cover-v4.webp",
+    "imageSmall": "assets/responsive/south-korea-crypto-tax-delay-proposal-2026-cover-v4-480.webp",
+    "imageMedium": "assets/responsive/south-korea-crypto-tax-delay-proposal-2026-cover-v4-960.webp",
+    "imageSrcset": "assets/responsive/south-korea-crypto-tax-delay-proposal-2026-cover-v4-480.webp 480w, assets/responsive/south-korea-crypto-tax-delay-proposal-2026-cover-v4-960.webp 960w, assets/editorial/south-korea-crypto-tax-delay-proposal-2026-cover-v4.webp 1672w",
+    "date": "2026-10-25T06:50:29Z",
+    "dateModified": "2026-10-25T06:50:29Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "kotak-q2-2027-profit-margin-pressure",
     "section": "Market Analysis",
     "format": "news",

@@ -1,4 +1,7 @@
 TITLES = '''
+south-korea-crypto-tax-delay-proposal-2026|South Korea Weighs Another Crypto-Tax Delay
+uk-ai-biosecurity-lab-funding-2026|UK Backs AI Biosecurity Lab With £100 Million
+audi-georgia-4-billion-us-plant-2026|Audi Plans $4 Billion Georgia SUV Plant
 electrum-483-bitcoin-wallet-security-update-2026|Electrum 4.8.3 Fixes Bitcoin Wallet Security Risk
 block-dessa-speech-ai-research-preview-2026|Block Previews Dessa Speech-Only Voice AI
 kotak-q2-2027-profit-margin-pressure|Kotak Bank Profit Rises as Lending Margin Narrows
@@ -154,6 +157,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+south-korea-crypto-tax-delay-proposal-2026|Seoul’s presidential office reportedly backs postponing the January 2027 levy. A proposed 2029 start still requires action by lawmakers.
+uk-ai-biosecurity-lab-funding-2026|The new nonprofit will target biological-threat detection and medical research. OpenAI and Anthropic pledge up to £200 million in additional support.
+audi-georgia-4-billion-us-plant-2026|Audi plans its first US factory with capacity for 200,000 SUVs a year. The investment promises a local production base, with full output years away.
 electrum-483-bitcoin-wallet-security-update-2026|Electrum 4.8.3 fixes a high-severity issue involving a malicious server and transaction replacement. Authentic downloads remain essential.
 block-dessa-speech-ai-research-preview-2026|Block’s Dessa research preview explores conversation without text-based training. Outside testing and a public release remain separate hurdles.
 kotak-q2-2027-profit-margin-pressure|India’s Kotak reports stronger September-quarter earnings, while foreign-currency deposits complicate the picture behind its rapid expansion.
