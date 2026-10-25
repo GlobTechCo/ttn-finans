@@ -2529,6 +2529,39 @@
       "bytes": 319324,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/south-korea-crypto-tax-delay-proposal-2026.html"
+    },
+    {
+      "page": "western-sydney-airport-passenger-opening-2026.html",
+      "source": "assets/editorial/western-sydney-airport-passenger-opening-2026-cover-v1.webp",
+      "image": "assets/social/western-sydney-airport-passenger-opening-2026-cover-v1-0627fe38735e.webp",
+      "sha256": "0627fe38735ea64a200a38e80204dd561ba172a9cb76f1d6409482e5bd450f55",
+      "width": 1672,
+      "height": 941,
+      "bytes": 265208,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/western-sydney-airport-passenger-opening-2026.html"
+    },
+    {
+      "page": "microsoft-agensh-open-source-ai-agents-2026.html",
+      "source": "assets/editorial/microsoft-agensh-open-source-ai-agents-2026-cover-v1.webp",
+      "image": "assets/social/microsoft-agensh-open-source-ai-agents-2026-cover-v1-317627e85d4a.webp",
+      "sha256": "317627e85d4ac9e64f7b9ac1f01a1f306145a78be39ca22c49434cf887c09a21",
+      "width": 1672,
+      "height": 941,
+      "bytes": 471598,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/microsoft-agensh-open-source-ai-agents-2026.html"
+    },
+    {
+      "page": "bitcoin-weekend-rebound-80000-october-25-2026.html",
+      "source": "assets/editorial/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1.webp",
+      "image": "assets/social/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1-9167ee39a3a4.webp",
+      "sha256": "9167ee39a3a4493ac65ab8fa3c994f0214eae338cbece6196c58f0f476c7e60e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 172828,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-weekend-rebound-80000-october-25-2026.html"
     }
   ]
 }

@@ -1,4 +1,7 @@
 TITLES = '''
+bitcoin-weekend-rebound-80000-october-25-2026|Bitcoin Rebounds Above $80,000 After Weekend Slide
+microsoft-agensh-open-source-ai-agents-2026|Microsoft Opens Agensh AI Agent Coordination Code
+western-sydney-airport-passenger-opening-2026|Western Sydney Airport Opens to Passenger Flights
 south-korea-crypto-tax-delay-proposal-2026|South Korea Weighs Another Crypto-Tax Delay
 uk-ai-biosecurity-lab-funding-2026|UK Backs AI Biosecurity Lab With £100 Million
 audi-georgia-4-billion-us-plant-2026|Audi Plans $4 Billion Georgia SUV Plant
@@ -157,6 +160,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+bitcoin-weekend-rebound-80000-october-25-2026|Bitcoin recovers from a 24-hour low near $79,300. Middle East concerns and two days of US ETF outflows frame the market ahead of the Fed meeting.
+microsoft-agensh-open-source-ai-agents-2026|Microsoft’s Agensh release lets researchers test self-organizing AI coding teams. Higher benchmark scores still leave a demanding economic test.
+western-sydney-airport-passenger-opening-2026|Sydney’s new airport starts passenger flights with room for 10 million travelers a year. Airline schedules and ground access will determine its payoff.
 south-korea-crypto-tax-delay-proposal-2026|Seoul’s presidential office reportedly backs postponing the January 2027 levy. A proposed 2029 start still requires action by lawmakers.
 uk-ai-biosecurity-lab-funding-2026|The new nonprofit will target biological-threat detection and medical research. OpenAI and Anthropic pledge up to £200 million in additional support.
 audi-georgia-4-billion-us-plant-2026|Audi plans its first US factory with capacity for 200,000 SUVs a year. The investment promises a local production base, with full output years away.

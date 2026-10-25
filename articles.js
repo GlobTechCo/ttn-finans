@@ -1,6 +1,176 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "western-sydney-airport-passenger-opening-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Sydney opens a second major airport, putting round-the-clock capacity to a commercial test",
+    "dek": "Sydney’s new airport starts passenger flights with room for 10 million travelers a year. Airline schedules and ground access will determine its payoff.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of Western Sydney International’s referenced terminal, with an unbranded passenger aircraft and ground equipment.",
+    "sources": [
+      {
+        "label": "Australian government: first passenger services, October 25",
+        "url": "https://www.pm.gov.au/media/first-passengers-lift-wsi"
+      },
+      {
+        "label": "Australian government: opening capacity and airline rollout",
+        "url": "https://www.pm.gov.au/media/its-official-western-sydney-open-passengers-25-october-and-freight-26-july-2026"
+      },
+      {
+        "label": "ABC: inaugural departure and long-term capacity distinction",
+        "url": "https://www.abc.net.au/news/2026-10-25/western-sydney-international-airport-open-day-sunday-october-25/107293784"
+      },
+      {
+        "label": "Reuters: airport investment and existing airport curfew",
+        "url": "https://www.reuters.com/world/asia-pacific/sydneys-new-international-airport-opens-passengers-2026-10-25/"
+      },
+      {
+        "label": "Jetstar: domestic services and five-year airport agreement",
+        "url": "https://www.jetstar.com/au/en/newsroom/qantas-and-jetstar-to-launch-flights-western-sydney-international-airport"
+      }
+    ],
+    "body": [
+      "<p>Western Sydney International Airport opened to passengers on Sunday, adding a second major gateway to Australia’s largest city and starting the commercial test of a multibillion-dollar infrastructure investment. Its most consequential advantage is time: the new airport can operate around the clock, allowing airlines to build schedules outside the constraints at Sydney’s existing airport.</p>",
+      "<p>Jetstar’s first passenger departure, flight JQ362 to the Gold Coast, took off shortly before 11:30 a.m. local time, ABC reported. The Australian government had scheduled it for 11 a.m. The distinction is small but useful: this is an airport entering service, rather than another announcement of a future opening date.</p>",
+      "<p>Reuters put the airport investment at A$5.6 billion. That figure should be kept separate from the government’s roughly A$18 billion wider Western Sydney investment program, which also includes transport infrastructure. Combining those numbers would overstate the airport’s own construction bill.</p>",
+      "<h2>Ten million passengers is capacity, not opening-day demand</h2>",
+      "<p>The initial terminal is designed for about 10 million passengers annually. Airport chief executive Simon Hickey told ABC that traffic would grow toward that level, potentially in the early to mid-2030s. A much larger figure, about 82 million passengers, describes a possible expanded airport in the 2060s, requiring additional terminals and another runway.</p>",
+      "<p>For investors evaluating the project’s economic impact, those are three different measures: available capacity, expected utilization and a distant expansion scenario. A completed terminal creates the ability to earn aeronautical fees, retail income and parking revenue. It does not establish how quickly those revenues will cover the costs of operating and maintaining the facility.</p>",
+      "<p>The same distinction applies to employment. Construction work supports activity while an airport is built; operating jobs depend on the services that follow. As with other large investments, the <a href=\"free-cash-flow-explained.html\">gap between spending money and generating cash</a> matters more than the size of the announcement alone.</p>",
+      "<h2>Airlines are adding services in stages</h2>",
+      "<p>Jetstar’s published launch plan includes up to 14 weekly Melbourne flights, four to the Gold Coast and three to Brisbane. Its parent group’s agreement with the airport covers five years of domestic passenger and freight operations. Qantas-branded passenger services are scheduled to begin in March 2027, rather than alongside Sunday’s first departure.</p>",
+      "<p>International connections also have separate start dates. The government’s published rollout puts Air New Zealand’s Auckland service on October 26 and Singapore Airlines’ Singapore service in November. These dates illustrate why an airport’s opening should not be confused with a fully developed route network: passengers need useful destinations, frequencies and connections before they can switch regular travel habits.</p>",
+      "<p>Round-the-clock operation gives airlines more scheduling flexibility. Sydney’s existing airport generally restricts takeoffs and landings between 11 p.m. and 6 a.m., Reuters reported. The new gateway can therefore compete partly by offering hours that the incumbent cannot, rather than simply adding another departure point for the same daytime flights.</p>",
+      "<h2>The economic return extends beyond the runway</h2>",
+      "<p>That flexibility could be especially useful for freight businesses coordinating overnight deliveries and international connections. Cargo operations already began in July. The next question is whether airlines, distribution businesses and nearby employers build enough sustained activity around that access to justify further investment.</p>",
+      "<p>Surface transport remains part of the calculation. The government identifies the airport rail connection and road improvements as further elements of the regional program. Travelers compare the complete journey, including time and cost to reach the terminal. A cheaper ticket can lose its appeal if ground transport absorbs the saving.</p>",
+      "<p>Nor does additional airport capacity remove airlines’ other costs. Fuel, staffing and fleet availability still shape fares and route economics, including the <a href=\"oil-shock-market-ripple.html\">way an oil shock reaches transport businesses and consumers</a>. New infrastructure changes the competitive options; it does not guarantee lower prices on every route.</p>",
+      "<p>The useful indicators now are published flight frequencies, passenger volumes and progress on ground access. Those will show whether Western Sydney is becoming a routinely used alternative. Sunday’s departure establishes that the asset is operating. Its commercial value will emerge from the traffic it attracts over the years that follow.</p>"
+    ],
+    "image": "assets/editorial/western-sydney-airport-passenger-opening-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/western-sydney-airport-passenger-opening-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/western-sydney-airport-passenger-opening-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/western-sydney-airport-passenger-opening-2026-cover-v1-480.webp 480w, assets/responsive/western-sydney-airport-passenger-opening-2026-cover-v1-960.webp 960w, assets/editorial/western-sydney-airport-passenger-opening-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T12:09:43Z",
+    "dateModified": "2026-10-25T12:09:43Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "microsoft-agensh-open-source-ai-agents-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Microsoft opens code for teams of up to 1,024 AI agents, with costs and reliability still in question",
+    "dek": "Microsoft’s Agensh release lets researchers test self-organizing AI coding teams. Higher benchmark scores still leave a demanding economic test.",
+    "tickers": [
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Microsoft sign and arched canopy at its Redmond campus.",
+    "sources": [
+      {
+        "label": "Microsoft: Agensh release announcement and current results",
+        "url": "https://github.com/microsoft/Agensh"
+      },
+      {
+        "label": "Microsoft Research: September technical paper and experiment design",
+        "url": "https://arxiv.org/html/2609.26781v1"
+      },
+      {
+        "label": "Microsoft: experiment reproduction guide and release limitations",
+        "url": "https://github.com/microsoft/Agensh/blob/main/REPRODUCE.md"
+      },
+      {
+        "label": "Architectural reference: Microsoft Redmond campus sign",
+        "url": "https://techblog.ap-com.co.jp/entry/2024/03/22/180000"
+      }
+    ],
+    "body": [
+      "<p>Microsoft released the code for Agensh on October 24, giving outside researchers a way to test an unusual approach to AI software development: large groups of coding agents that divide work among themselves instead of relying on a single supervising agent. The release includes the coordination software, experiment launch scripts and a guide to reproducing the tests.</p>",
+      "<p>The opening is significant because it makes the system inspectable and testable beyond a research paper. It does not mean Microsoft has launched a new commercial coding service, or demonstrated that a thousand AI agents can replace a thousand software engineers. The company’s own results describe a narrower experiment with substantial work still left unsolved.</p>",
+      "<p>Agensh’s research paper appeared on September 22. The new event is the October code release, not a newly published discovery of its headline benchmark results. That distinction matters in an AI market where a fresh distribution date can make older research look like a new performance breakthrough.</p>",
+      "<h2>A team without one agent assigning every task</h2>",
+      "<p>In the researchers’ design, workers consult shared information, claim tasks, exchange findings, verify their contributions and merge changes into a common workspace. Each worker can then choose further work. This reduces dependence on one central coordinator that must keep track of every assignment and integrate every result.</p>",
+      "<p>The infrastructure uses Gitea for shared code work and Mattermost for communication. These are practical coordination tools, rather than evidence that the agents have acquired independent business judgment. The purpose is to let multiple streams of software work proceed together while preserving enough shared context to make their contributions useful.</p>",
+      "<p>That addresses a real operational difficulty. Splitting work creates opportunities for parallel progress, but also for duplicated effort, incompatible changes and mistakes that spread between workers. The commercial question is whether better coordination produces enough verified output to cover those additional costs, the same issue behind <a href=\"ai-agents-enterprise-roi-2026.html\">evaluating an AI agent’s return on investment</a>.</p>",
+      "<h2>Better scores still leave many tests failing</h2>",
+      "<p>The original study used five difficult ProgramBench tasks, in which agents reconstructed software behavior during a six-hour run without internet access. Across those tasks, the reported average test-pass rate rose from 19.31% with one agent to 28.78% with 128. That is a gain of 9.47 percentage points, or about 49% relative to the lower starting score.</p>",
+      "<p>The relative increase sounds large because the baseline is low. A 28.78% pass rate still leaves more than seven in ten tests unsatisfied. The result is evidence of improvement within the selected experiment, rather than broad proof of production-ready reliability.</p>",
+      "<p>The 1,024-agent result concerns Pandoc, a document-conversion task. The paper reports 55.06% of tests passing, compared with 50.94% for 128 agents. Eight times as many workers added 4.12 percentage points in that comparison. It would be incorrect to present the largest team’s result as an average across all five tasks.</p>",
+      "<p>The current repository separately reports a newer-model Pandoc experiment, with a 79.59% score from 32 agents versus 56.19% from one. That comparison should remain separate from the older-model experiments: both the model and the team configuration affect the outcome.</p>",
+      "<h2>The release makes independent scrutiny more practical</h2>",
+      "<p>Microsoft’s reproduction guide describes a Linux and Docker setup, a standalone baseline and the configuration needed to evaluate submissions. It also distinguishes the released setup from the paper’s experiments. Publishing that machinery gives other teams a route to investigate the claims; TTN has not independently reproduced the benchmarks.</p>",
+      "<p>For a business buyer, elapsed time is only one part of the bill. More simultaneous workers can mean more model calls, infrastructure and integration work. A useful comparison measures the <a href=\"ai-inference-unit-economics-2026.html\">cost per successfully completed task</a>, including human review, rather than celebrating agent count as an outcome in itself.</p>",
+      "<p>Security boundaries also remain necessary when software workers share code, messages and access to tools. The <a href=\"enterprise-ai-data-security-2026.html\">controls governing enterprise AI data and permissions</a> do not disappear when coordination becomes decentralized. Agensh’s immediate contribution is to open an experimental design for inspection. Whether it becomes economical depends on how reliably that design turns concurrent activity into work customers can actually use.</p>"
+    ],
+    "image": "assets/editorial/microsoft-agensh-open-source-ai-agents-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/microsoft-agensh-open-source-ai-agents-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/microsoft-agensh-open-source-ai-agents-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/microsoft-agensh-open-source-ai-agents-2026-cover-v1-480.webp 480w, assets/responsive/microsoft-agensh-open-source-ai-agents-2026-cover-v1-960.webp 960w, assets/editorial/microsoft-agensh-open-source-ai-agents-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T12:09:43Z",
+    "dateModified": "2026-10-25T12:09:43Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "bitcoin-weekend-rebound-80000-october-25-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Bitcoin returns above $80,000 after a weekend slide as geopolitical risk meets ETF outflows",
+    "dek": "Bitcoin recovers from a 24-hour low near $79,300. Middle East concerns and two days of US ETF outflows frame the market ahead of the Fed meeting.",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Illustrative silver Bitcoin medallion beside an unlabeled market trace showing a decline and partial recovery; not a chart of actual prices.",
+    "sources": [
+      {
+        "label": "CoinGecko: Bitcoin price and rolling 24-hour range, checked October 25",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinDesk: October 24 selloff and contemporaneous geopolitical reporting",
+        "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations"
+      },
+      {
+        "label": "Wall Street Journal: reported evacuation of US personnel, accessible article excerpt",
+        "url": "https://www.wsj.com/world/middle-east/u-s-evacuates-mideast-outposts-after-suspected-iranian-plot-to-target-americans-4b876fbc"
+      },
+      {
+        "label": "Farside Investors: US spot Bitcoin ETF daily flow table",
+        "url": "https://farside.co.uk/btc/"
+      },
+      {
+        "label": "Federal Reserve: official 2026 meeting calendar",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ],
+    "body": [
+      "<p>Bitcoin was back above $80,000 on Sunday after a weekend drop below that level, as traders weighed heightened Middle East concerns against a market already facing withdrawals from US spot Bitcoin funds. The recovery regained a widely watched round number, but left the cryptocurrency close enough to the weekend low for another change in risk appetite to matter.</p>",
+      "<p>CoinGecko’s market page, checked on October 25, showed Bitcoin at about $80,500 and a rolling 24-hour range of roughly $79,263 to $80,949. That put the quoted price about 1.6% above the bottom of the range, while still below its upper end. These are a provider’s market snapshots, not a fixed closing price or a promise that the recovery will hold.</p>",
+      "<p>The latest position also differs from Saturday’s selloff report. CoinDesk recorded Bitcoin near $79,700 at 11:11 a.m. Eastern Time on October 24, down about 2.2% over the preceding day. That percentage belongs to Saturday’s reporting window and should not be carried forward as Sunday’s current 24-hour change.</p>",
+      "<h2>Geopolitical headlines met an already cautious market</h2>",
+      "<p>The Wall Street Journal reported that the United States was evacuating personnel from Middle East embassies and military bases after intelligence warnings about possible Iranian attacks. Its accessible article excerpt attributed the warning to US officials and described a Friday intelligence memo. TTN has not reviewed that memo independently.</p>",
+      "<p>CoinDesk linked Saturday’s crypto decline to the same reporting. The timing makes geopolitical concern a credible part of the market backdrop, but does not establish that every sale came from that concern. Prices combine many decisions, including discretionary selling, portfolio adjustments and transactions triggered by earlier positions.</p>",
+      "<p>That distinction helps avoid treating a market explanation as a measured causal result. The observable event is the price decline and partial recovery. The reported evacuation is a separate news development that could change investors’ willingness to hold volatile assets. No verified evidence in the reviewed material assigns it a precise share of Bitcoin’s move.</p>",
+      "<h2>ETF demand weakened before the weekend</h2>",
+      "<p>There was also a clearly dated change in a major institutional channel. Farside Investors’ table showed net US spot Bitcoin ETF outflows of $635.6 million on Thursday, October 22, followed by $137.9 million on Friday. Together, the two sessions represented approximately $773.5 million leaving the funds on a net basis.</p>",
+      "<p>Those figures concern fund subscriptions and redemptions, not the dollar value of all Bitcoin sold across exchanges. They nevertheless help explain why the market entered the weekend without the same demand support those products provide during periods of net inflows. The <a href=\"bitcoin-etf-institutional-adoption.html\">ETF ownership structure</a> connects securities-market investors to Bitcoin exposure through a channel with its own trading and settlement arrangements.</p>",
+      "<p>The table’s latest daily row was Friday. Calling those withdrawals a fresh Sunday ETF outflow would be wrong. Crypto trades through the weekend, while US-listed fund shares have a different trading schedule. The distinction matters when comparing a continuously moving token price with daily fund-flow reports.</p>",
+      "<h2>The Fed is the next scheduled policy test</h2>",
+      "<p>The Federal Reserve’s official calendar puts its next meeting on October 27 and 28. That is an upcoming event, not a rate decision already made. Expectations around policy can affect the appeal of holding cash and other assets, including through the <a href=\"fed-policy-2026.html\">channels linking interest rates to crypto markets</a>.</p>",
+      "<p>A firmer price above $80,000 would show that buyers are absorbing supply at higher levels than the weekend low. It would not, by itself, establish that fund demand has reversed or geopolitical risk has faded. Those claims require their own evidence: subsequent flow data, sustained trading and further verified reporting.</p>",
+      "<p>For now, the market is showing a partial recovery within a narrow distance of a recent downside break. The relevant next checks are whether the price can remain above that break, what Monday’s fund activity reveals and how expectations evolve ahead of Wednesday’s policy announcement. A round number gives traders a reference point; it does not provide a fundamental floor.</p>"
+    ],
+    "image": "assets/editorial/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-weekend-rebound-80000-october-25-2026-cover-v1.webp 1672w",
+    "date": "2026-10-25T12:09:43Z",
+    "dateModified": "2026-10-25T12:09:43Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "audi-georgia-4-billion-us-plant-2026",
     "section": "Market Analysis",
     "format": "news",

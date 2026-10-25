@@ -46,7 +46,7 @@ MENTIONS = {
     'ETH': r'\bEthereum\b|\bEther\b|\bETH\b',
     'SOL': r'\bSolana\b',
     'XRP': r'\bXRP\b',
-    'GOLD': r'\bgold\b',
+    'GOLD': r'\bgold\b(?!\s+Coast\b)',
     'OIL': r'\bWTI\b|\bWest Texas Intermediate\b',
     'Brent Oil': r'\bBrent\b',
 }

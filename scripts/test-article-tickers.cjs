@@ -7,6 +7,8 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['microsoft-agensh-open-source-ai-agents-2026', 'NASDAQ:MSFT'],
+  ['bitcoin-weekend-rebound-80000-october-25-2026', 'BINANCE:BTCUSDT'],
   ['audi-georgia-4-billion-us-plant-2026', 'OTC:VWAGY'],
   ['uk-ai-biosecurity-lab-funding-2026', 'NASDAQ:GOOGL'],
   ['south-korea-crypto-tax-delay-proposal-2026', 'BINANCE:BTCUSDT'],
@@ -99,6 +101,9 @@ const cases = [
           await page.screenshot({ path: path.join(shots, name + '-article-tickers.png') });
         }
       }
+      // Gold Coast is a destination, not a mention of the gold instrument.
+      await page.goto(base + 'western-sydney-airport-passenger-opening-2026.html');
+      assert.equal(await page.locator('.article-ticker-tag').count(), 0);
       // NSE licenses do not allow this symbol in the embedded widget. Keep
       // a working native provider link instead of opening an invalid chart.
       await page.goto(base + 'kotak-q2-2027-profit-margin-pressure.html');
