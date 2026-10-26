@@ -1,4 +1,5 @@
-/* TTN GA4: one configuration per page, activated only by analytics consent. */
+/* TTN GA4: measurement ID confirmed by the site owner on 2026-10-26.
+   One configuration per page, activated only by analytics consent. */
 (() => {
   const id = 'G-2VM6S0QL1H';
   let initialized = false;
