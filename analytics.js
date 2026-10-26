@@ -1,6 +1,6 @@
 /* TTN GA4: one configuration per page, activated only by analytics consent. */
 (() => {
-  const id = 'G-5542H9Y9D3';
+  const id = 'G-2VM6S0QL1H';
   let initialized = false;
   function apply(choice) {
     window['ga-disable-' + id] = choice !== 'accepted';
