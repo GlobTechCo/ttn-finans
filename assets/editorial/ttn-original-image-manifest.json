@@ -2148,5 +2148,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 268960,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "eqt-range-resources-stock-merger-2026",
+    "file": "assets/editorial/eqt-range-resources-stock-merger-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T11:30:41Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 326906,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "tata-communications-ai-fiber-network-india-2026",
+    "file": "assets/editorial/tata-communications-ai-fiber-network-india-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T11:30:41Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 440888,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "aviva-sterling-tokenised-fund-xrp-ledger-2026",
+    "file": "assets/editorial/aviva-sterling-tokenised-fund-xrp-ledger-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T11:30:41Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 245506,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
   }
 ]

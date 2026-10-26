@@ -2628,6 +2628,39 @@
       "bytes": 268960,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bloom-trading-bot-wallet-losses-reimbursement-2026.html"
+    },
+    {
+      "page": "eqt-range-resources-stock-merger-2026.html",
+      "source": "assets/editorial/eqt-range-resources-stock-merger-2026-cover-v1.webp",
+      "image": "assets/social/eqt-range-resources-stock-merger-2026-cover-v1-0f6f1ff9a154.webp",
+      "sha256": "0f6f1ff9a15474309f9de5465d889ab4d7727d5e2e2cf4a1e5e3e55bbd976d37",
+      "width": 1672,
+      "height": 941,
+      "bytes": 326906,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/eqt-range-resources-stock-merger-2026.html"
+    },
+    {
+      "page": "tata-communications-ai-fiber-network-india-2026.html",
+      "source": "assets/editorial/tata-communications-ai-fiber-network-india-2026-cover-v1.webp",
+      "image": "assets/social/tata-communications-ai-fiber-network-india-2026-cover-v1-6d6c18a8ee84.webp",
+      "sha256": "6d6c18a8ee84c62abfb98e0847a066fa16fbc886baa638d44bfe44e1e19bf749",
+      "width": 1672,
+      "height": 941,
+      "bytes": 440888,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tata-communications-ai-fiber-network-india-2026.html"
+    },
+    {
+      "page": "aviva-sterling-tokenised-fund-xrp-ledger-2026.html",
+      "source": "assets/editorial/aviva-sterling-tokenised-fund-xrp-ledger-2026-cover-v1.webp",
+      "image": "assets/social/aviva-sterling-tokenised-fund-xrp-ledger-2026-cover-v1-dd8d499edde8.webp",
+      "sha256": "dd8d499edde812e36f6bea911286ebd422a066dd560110b5236edf7f9c10b4bd",
+      "width": 1672,
+      "height": 941,
+      "bytes": 245506,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/aviva-sterling-tokenised-fund-xrp-ledger-2026.html"
     }
   ]
 }

@@ -7,6 +7,9 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['eqt-range-resources-stock-merger-2026', 'NYSE:EQT'],
+  ['eqt-range-resources-stock-merger-2026', 'NYSE:RRC'],
+  ['aviva-sterling-tokenised-fund-xrp-ledger-2026', 'BITSTAMP:XRPUSD'],
   ['nextdc-ceo-incentives-m3-power-delay-2026', 'ASX:NXT'],
   ['bloom-trading-bot-wallet-losses-reimbursement-2026', 'COINBASE:SOLUSD'],
   ['microsoft-agensh-open-source-ai-agents-2026', 'NASDAQ:MSFT'],
@@ -116,6 +119,13 @@ const cases = [
       assert.equal(new URL(await external.getAttribute('href')).searchParams.get('symbol'), 'NSE:KOTAKBANK');
       assert.equal(await external.getAttribute('target'), '_blank');
       assert.equal(await external.getAttribute('role'), null);
+      assert.equal(await page.locator('#chart-panel').count(), 0);
+      // NSE:TATACOMM is available on the native provider page, not its embed.
+      await page.goto(base + 'tata-communications-ai-fiber-network-india-2026.html');
+      const tata = page.getByRole('link', { name: 'TATACOMM · View NSE chart on TradingView ↗', exact: true });
+      assert.equal(new URL(await tata.getAttribute('href')).searchParams.get('symbol'), 'NSE:TATACOMM');
+      assert.equal(await tata.getAttribute('target'), '_blank');
+      assert.equal(await tata.getAttribute('role'), null);
       assert.equal(await page.locator('#chart-panel').count(), 0);
       await page.goto(base + cases[cases.length - 1][0] + '.html');
       // A second instrument must replace the first chart rather than keep a stale symbol.

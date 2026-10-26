@@ -1,4 +1,7 @@
 TITLES = '''
+aviva-sterling-tokenised-fund-xrp-ledger-2026|Aviva Launches Tokenized Sterling Fund on XRPL
+tata-communications-ai-fiber-network-india-2026|Tata Plans $450 Million AI Fiber Network in India
+eqt-range-resources-stock-merger-2026|EQT Agrees to Buy Range in $13 Billion Stock Deal
 bloom-trading-bot-wallet-losses-reimbursement-2026|Bloom Bot Promises Repayment After Wallet Drains
 nextdc-ceo-incentives-m3-power-delay-2026|NEXTDC Cuts CEO Incentives After Power Delay
 revolut-uk-personal-loans-rollout-2026|Revolut Starts UK Personal Loan Rollout
@@ -166,6 +169,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+aviva-sterling-tokenised-fund-xrp-ledger-2026|Aviva seeded the new fund share class with £50 million; the launch adds blockchain access to an existing sterling money-market portfolio.
+tata-communications-ai-fiber-network-india-2026|The communications provider plans roughly 10,000 km of new fiber linking data-center hubs, adding connectivity to India’s AI infrastructure buildout.
+eqt-range-resources-stock-merger-2026|The gas producers would form a company worth over $50 billion including debt; Range shareholders would receive 0.987 EQT shares for each share.
 bloom-trading-bot-wallet-losses-reimbursement-2026|Reports trace about 9,408 SOL to a suspected drainer while Bloom says it will reimburse confirmed losses; the cause and final scope remain unresolved.
 nextdc-ceo-incentives-m3-power-delay-2026|A board shake-up follows a grid delay that disrupted NEXTDC’s revenue outlook, showing why contracted data-center demand still needs usable power.
 revolut-uk-personal-loans-rollout-2026|The digital bank is rolling out £2,000–£25,000 unsecured loans, moving beyond payments into a business where repayment quality determines returns.
