@@ -1,6 +1,175 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "brazil-election-lula-etf-real-selloff-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Brazil ETF Sinks in Premarket Trading as Lula Win Upends Investors’ Election Bets",
+    "dek": "EWZ tumbled in U.S. premarket trading after Lula’s election win, while currency futures also fell as investors unwound bets on a right-wing victory.",
+    "tickers": [
+      "EWZ"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented B3 exchange entrance on Rua XV de Novembro in São Paulo.",
+    "sources": [
+      {
+        "label": "Brazilian electoral court: official runoff result",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+      },
+      {
+        "label": "Reuters: Brazilian assets and U.S. premarket trading, October 26",
+        "url": "https://www.reuters.com/business/finance/investors-expect-markets-unwind-brazils-lula-reelected-2026-10-26/"
+      },
+      {
+        "label": "Bloomberg: early market reaction, published by Moneycontrol",
+        "url": "https://www.moneycontrol.com/news/markets/global-markets/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win-14059798.html"
+      },
+      {
+        "label": "iShares: EWZ objective, benchmark and portfolio disclosures",
+        "url": "https://www.ishares.com/us/products/239612/ishares-msci-brazil-capped-etf"
+      }
+    ],
+    "body": [
+      "<p>Brazilian assets faced a sharp repricing Monday after President Luiz Inácio Lula da Silva won reelection, overturning investors' bets on a victory for Flávio Bolsonaro. The U.S.-listed iShares MSCI Brazil ETF, known by its EWZ ticker, fell 26% in premarket trading, Reuters reported. That was an early U.S. trading indication, not the closing performance of Brazil's main stock index.</p>",
+      "<p>Brazil's electoral court confirmed Lula won 51.79% of valid votes against Bolsonaro's 48.21% in Sunday's runoff. The financial shock came from the gap between that result and the outcome investors had positioned for. An election can be resolved at the ballot box while the prices built around a different expected winner still have to adjust.</p>",
+      "<p>The reversal matters beyond Brazil. U.S. investors can hold Brazilian companies through single-country funds or broader emerging-market portfolios. Currency movements can add to equity losses when those holdings are valued in dollars. Our <a href=\"correlation-breakdown-diversification.html\">guide to diversification under market stress</a> explains why several apparently different positions can respond to the same political or financing shock.</p>",
+      "<h2>A rapid unwind of the election trade</h2>",
+      "<p>Reuters also reported a drop of more than 10% in November Brazilian real futures. That figure concerns a derivatives contract, rather than a directly interchangeable measure of the spot exchange rate. Comparing prices from different instruments without specifying the market can exaggerate or obscure what investors are actually seeing.</p>",
+      "<p>Earlier, Bloomberg reported that a Brazil equity ETF traded in Japan had fallen as much as 16%. Its account described trading desks preparing for a difficult local opening, including the possibility of circuit breakers. Those were expectations about trading conditions, not confirmation that an exchange halt had already occurred. The Japanese fund and U.S.-listed EWZ are separate observations from different sessions.</p>",
+      "<p>Bloomberg's report linked the pressure to positions built for a more market-friendly right-wing government. The important distinction is between investors' preferences and an established assessment of future policy. Monday's initial reaction shows how markets were positioned; it does not establish the economic outcome of Lula's next term before that term begins.</p>",
+      "<h2>What an American fund investor actually owns</h2>",
+      "<p>EWZ tracks Brazilian equities through the MSCI Brazil 25/50 Index, according to iShares. Its portfolio disclosure for October 23 showed approximately 38% in financial companies and 18% in energy. That makes the fund a concentrated exposure to a particular market and sector mix, rather than an equal slice of every part of Brazil's economy.</p>",
+      "<p>A dollar-listed fund also does not remove currency exposure from its underlying holdings. A Brazilian company can be worth less in dollars if its local share price falls, if the real weakens, or both. Our <a href=\"etf-creation-redemption-mechanism.html\">explanation of ETF creation and redemption</a> describes how fund shares connect to portfolios, while also distinguishing a traded price from the value calculated for the underlying assets.</p>",
+      "<p>Premarket prices deserve that distinction. Trading conditions outside the main session can differ from those after the opening bell. An early percentage decline is a time-specific observation, not a settlement value that every holder can transact at. The more useful comparison will include the U.S. session, Brazil's local equity trading and the currency, with matching observation times.</p>",
+      "<h2>The next test is a fiscal plan</h2>",
+      "<p>The policy question now is how the next administration balances spending commitments with the cost of financing the state. Higher required yields can make borrowing more expensive; a credible budget path can change that assessment. Our <a href=\"debt-spiral-r-versus-g-explained.html\">guide to debt, interest costs and growth</a> sets out the mechanism without assuming that one election result determines it permanently.</p>",
+      "<p>For readers following the selloff, the evidence to watch is concrete: budget proposals, appointments to the economic team, congressional support and the market's required financing rates. A sharp first reaction captures surprise and an unwinding of positions. Sustained repricing will depend on the policies that follow and the earnings and cash flows of the companies investors own.</p>"
+    ],
+    "image": "assets/editorial/brazil-election-lula-etf-real-selloff-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/brazil-election-lula-etf-real-selloff-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/brazil-election-lula-etf-real-selloff-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/brazil-election-lula-etf-real-selloff-2026-cover-v1-480.webp 480w, assets/responsive/brazil-election-lula-etf-real-selloff-2026-cover-v1-960.webp 960w, assets/editorial/brazil-election-lula-etf-real-selloff-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T12:06:37Z",
+    "dateModified": "2026-10-26T12:06:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "meta-95-billion-equity-ai-financing-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Meta Plans Up to $95 Billion in Equity Financing for Its AI Expansion",
+    "dek": "Meta launched roughly $35 billion of offerings and outlined another $60 billion of share sales to fund AI, raising questions about timing and dilution.",
+    "tickers": [
+      "META",
+      "NVDA",
+      "AMD",
+      "AVGO"
+    ],
+    "imageAlt": "Illustrative reconstruction of Meta’s documented entrance sign at 1 Hacker Way in Menlo Park.",
+    "sources": [
+      {
+        "label": "Meta: offering launch and financing plan, October 26",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+      },
+      {
+        "label": "Meta: third-quarter financial results, October 21",
+        "url": "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html"
+      },
+      {
+        "label": "Reuters: financing announcement and chipmaker interest",
+        "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+      },
+      {
+        "label": "Financial Times: reporting on the announced financing plan; full text subscription-restricted",
+        "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555"
+      }
+    ],
+    "body": [
+      "<p>Meta Platforms announced an equity-financing plan of up to $95 billion Monday to support its artificial intelligence expansion. The Facebook, Instagram and WhatsApp parent launched roughly $35 billion of public offerings and outlined another $60 billion of potential share sales. The announcement puts the cost of funding AI capacity alongside the question of how much revenue that capacity can produce.</p>",
+      "<p>The full headline amount is a plan, rather than cash already received. Meta describes the initial package as $22.5 billion of common stock linked to forward-sale agreements and about $12.5 billion of depositary shares representing mandatory convertible preferred stock. The proposed additional program is a separate, later financing channel, with execution still uncertain.</p>",
+      "<p>For existing shareholders, the central trade-off is straightforward: new capital can pay for expansion, but additional shares can spread future earnings across a larger ownership base. Our <a href=\"secondary-stock-offerings-dilution-explained.html\">guide to stock offerings and dilution</a> explains why raising money and creating shareholder value are separate achievements. The eventual return on the funded investment determines whether that trade-off proves worthwhile.</p>",
+      "<h2>The cash does not all arrive on announcement day</h2>",
+      "<p>Meta says it will not initially receive proceeds from the common shares sold by the forward purchasers. Cash would arrive through subsequent settlement. The proposed $60 billion at-the-market program is not expected to begin before the first quarter of 2027, after its new Class C stock starts trading. No agreement for that program has yet been entered into.</p>",
+      "<p>That timing affects how readers should interpret the total. A financing announcement can describe access to future funding without increasing today's cash balance by the same amount. An at-the-market program also generally allows shares to be sold over time. It is not equivalent to one buyer handing over a fixed sum for an immediately completed transaction.</p>",
+      "<p>Reuters reported that Nvidia, AMD and Broadcom indicated interest in buying up to $5 billion of Meta's Class A shares. Meta makes clear that those indications are nonbinding. They should not be presented as completed investments or guaranteed purchases. The interest nevertheless puts attention on relationships between a major buyer of computing infrastructure and its chip suppliers.</p>",
+      "<h2>A profitable business can still consume cash</h2>",
+      "<p>Meta's October 21 quarterly results reported $64.60 billion of revenue, up 26% from a year earlier, and $32.79 billion of operating cash flow. Capital expenditures, including principal payments on finance leases, were $34.91 billion. Its defined free cash flow was therefore negative $2.12 billion, despite positive accounting profit and substantial cash coming through the business.</p>",
+      "<p>Those figures explain why the financing debate cannot be settled by pointing to revenue growth alone. Cash needed for buildings and equipment can exceed cash generated by operations in a particular period. Our <a href=\"free-cash-flow-explained.html\">free cash flow guide</a> separates that investment demand from profit, borrowing and proceeds from selling shares. Each measure answers a different financial question.</p>",
+      "<p>The same results set 2026 capital expenditure expectations at $135 billion to $145 billion and showed $82.45 billion of cash and marketable securities at September 30. A cash balance provides flexibility, but it is a dated stock of resources, not a recurring source of income. A capital-spending forecast, meanwhile, describes planned investment rather than a guaranteed future return.</p>",
+      "<h2>Investors need evidence of the payoff</h2>",
+      "<p>The commercial test is whether additional computing capacity improves the economics of advertising and new products enough to justify its cost. Stronger engagement may help, but revenue, operating costs, equipment utilization and replacement spending all affect the result. A successful fundraising would establish access to capital; it would not by itself validate every project that capital supports.</p>",
+      "<p>Our <a href=\"ai-data-center-boom-power-delivery-debt-2026.html\">coverage of data-center power, delivery and financing risks</a> explains why infrastructure commitments deserve scrutiny alongside model launches. For Meta, the next useful milestones are the actual offering terms, the amount and timing of proceeds, and subsequent evidence that investment is translating into durable cash generation. Monday's announcement makes that financing question unusually explicit.</p>"
+    ],
+    "image": "assets/editorial/meta-95-billion-equity-ai-financing-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/meta-95-billion-equity-ai-financing-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/meta-95-billion-equity-ai-financing-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/meta-95-billion-equity-ai-financing-2026-cover-v1-480.webp 480w, assets/responsive/meta-95-billion-equity-ai-financing-2026-cover-v1-960.webp 960w, assets/editorial/meta-95-billion-equity-ai-financing-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T12:06:37Z",
+    "dateModified": "2026-10-26T12:06:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "bitcoin-80000-fed-week-october-26-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Bitcoin Retests $80,000 as Fed Week Opens With Investors Cutting Risk",
+    "dek": "Bitcoin recovered an early dip below $80,000 as traders weighed AI-market worries, recent ETF withdrawals and Wednesday’s Federal Reserve decision.",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "XRP",
+      "SOL"
+    ],
+    "imageAlt": "Illustrative still life of a commemorative Bitcoin token and U.S. dollar banknotes; the token is a visual metaphor.",
+    "sources": [
+      {
+        "label": "Bloomberg: Monday Asian-session decline, distributed by Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-dips-below-80-000-053556739.html"
+      },
+      {
+        "label": "CoinDesk: October 26 market report at 7:24 AM EDT",
+        "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms"
+      },
+      {
+        "label": "Unchained: timestamped Monday Bitcoin and broader-market observations",
+        "url": "https://unchainedcrypto.com/bitcoin-briefly-dips-below-80000-as-ai-worries-weigh-on-asian-stocks-before-the-fed-decides/"
+      },
+      {
+        "label": "Farside Investors: U.S. spot Bitcoin ETF daily flows",
+        "url": "https://farside.co.uk/btc/"
+      },
+      {
+        "label": "Federal Reserve: official October 27–28 meeting calendar",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ],
+    "body": [
+      "<p>Bitcoin slipped below $80,000 again during Asian trading Monday before recovering much of the decline, leaving the market near a closely watched round number ahead of the Federal Reserve's rate decision. Bloomberg reported an intraday fall of as much as 1.4% to below $79,300. By CoinDesk's 7:24 a.m. Eastern report, the cryptocurrency was around $80,400 and little changed since midnight UTC.</p>",
+      "<p>That sequence matters more than a headline describing only the low. Monday brought another test of demand near $80,000, rather than an uninterrupted fall or a confirmed breakout. Unchained's earlier report put Bitcoin at $80,440 at 9:40 a.m. UTC, approximately 0.4% higher over 24 hours. Different observation times and comparison windows explain why a recovering market can carry both positive and negative percentage changes.</p>",
+      "<p>Bloomberg linked the initial pressure to caution ahead of the Fed and unease over the AI investment trade. The relationship is a market interpretation, not evidence that one technology announcement mechanically determines Bitcoin's price. Our <a href=\"crypto-liquidation-leverage-explained.html\">guide to leverage and crypto liquidations</a> explains how positioning can amplify an initial move without establishing what caused the first sale.</p>",
+      "<h2>The Fed decision is still ahead</h2>",
+      "<p>The Federal Reserve's official calendar places its next meeting on October 27–28, with the decision due Wednesday. No decision had been announced when Monday's market reports were published. Expectations about rates should therefore be distinguished from an actual policy change. Traders can reposition for an anticipated outcome and still react sharply to different guidance.</p>",
+      "<p>Unchained reported that futures favored an unchanged rate at that meeting. Such pricing describes contracts and assumptions at a particular moment; it is not a commitment from policymakers. Our <a href=\"fed-funds-futures-rate-odds-explained.html\">explanation of rate-futures probabilities</a> sets out how those estimates are derived and why they can change as new information arrives.</p>",
+      "<p>For Bitcoin, the relevant channel is the price and availability of capital. Changes in expected borrowing costs and the appeal of interest-bearing assets can alter demand for speculative holdings. There is no fixed formula converting a policy rate into a Bitcoin price. The response also depends on how much of the eventual decision investors have already anticipated.</p>",
+      "<h2>ETF withdrawals came before Monday's trading</h2>",
+      "<p>Farside Investors' table showed net withdrawals of $635.6 million from U.S. spot Bitcoin ETFs on Thursday and $137.9 million on Friday. Added together, the displayed daily totals equal $773.5 million. The same table showed $1.0747 billion of inflows across Monday through Wednesday, leaving the full week positive by approximately $301.2 million.</p>",
+      "<p>The contrast is useful: a positive weekly total can conceal a deterioration over the final two sessions. It also prevents Friday's data from being described as fresh Monday outflows. The figures reviewed here cover completed prior sessions, not a result for the U.S. trading day that had yet to finish. The provider's automatically generated data can also be revised.</p>",
+      "<p>Our <a href=\"bitcoin-etf-institutional-adoption.html\">guide to spot Bitcoin ETFs</a> explains why fund subscriptions and redemptions are relevant to demand. They are one channel, alongside trading on crypto exchanges and other investment vehicles. A daily flow figure does not identify every buyer or seller in the broader market, and it cannot by itself prove the cause of an intraday price change.</p>",
+      "<h2>A recovery is not yet a change in trend</h2>",
+      "<p>Other large cryptocurrencies were also under pressure during the early session, including Ether, XRP and Solana, according to Bloomberg. Bitcoin's subsequent recovery showed buyers were still willing to transact around the $80,000 area. It did not establish a floor that must hold through the week's policy announcements or changes in broader risk appetite.</p>",
+      "<p>The next useful evidence will be whether the recovery persists through U.S. trading, what completed ETF-flow figures show, and how the market responds to the Fed's actual statement. Until then, Monday's move is best read as a dip and partial recovery within a cautious market, with prices tied to explicitly stated observation times rather than presented as live quotes.</p>"
+    ],
+    "image": "assets/editorial/bitcoin-80000-fed-week-october-26-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-80000-fed-week-october-26-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-80000-fed-week-october-26-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-80000-fed-week-october-26-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-80000-fed-week-october-26-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-80000-fed-week-october-26-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T12:06:37Z",
+    "dateModified": "2026-10-26T12:06:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "eqt-range-resources-stock-merger-2026",
     "section": "Market Analysis",
     "format": "news",

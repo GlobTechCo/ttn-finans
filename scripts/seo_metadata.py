@@ -1,4 +1,7 @@
 TITLES = '''
+bitcoin-80000-fed-week-october-26-2026|Bitcoin Retests $80,000 Before Fed Decision
+meta-95-billion-equity-ai-financing-2026|Meta Plans $95 Billion Equity Raise for AI
+brazil-election-lula-etf-real-selloff-2026|Brazil ETF Sinks After Lula’s Election Win
 aviva-sterling-tokenised-fund-xrp-ledger-2026|Aviva Launches Tokenized Sterling Fund on XRPL
 tata-communications-ai-fiber-network-india-2026|Tata Plans $450 Million AI Fiber Network in India
 eqt-range-resources-stock-merger-2026|EQT Agrees to Buy Range in $13 Billion Stock Deal
@@ -169,6 +172,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+bitcoin-80000-fed-week-october-26-2026|Bitcoin recovered an early dip below $80,000 as traders weighed AI-market worries, recent ETF withdrawals and Wednesday’s Federal Reserve decision.
+meta-95-billion-equity-ai-financing-2026|Meta launched roughly $35 billion of offerings and outlined another $60 billion of share sales to fund AI, raising questions about timing and dilution.
+brazil-election-lula-etf-real-selloff-2026|EWZ tumbled in U.S. premarket trading after Lula’s election win, while currency futures also fell as investors unwound bets on a right-wing victory.
 aviva-sterling-tokenised-fund-xrp-ledger-2026|Aviva seeded the new fund share class with £50 million; the launch adds blockchain access to an existing sterling money-market portfolio.
 tata-communications-ai-fiber-network-india-2026|The communications provider plans roughly 10,000 km of new fiber linking data-center hubs, adding connectivity to India’s AI infrastructure buildout.
 eqt-range-resources-stock-merger-2026|The gas producers would form a company worth over $50 billion including debt; Range shareholders would receive 0.987 EQT shares for each share.

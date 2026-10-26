@@ -7,6 +7,10 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['brazil-election-lula-etf-real-selloff-2026', 'AMEX:EWZ'],
+  ['meta-95-billion-equity-ai-financing-2026', 'NASDAQ:AMD'],
+  ['meta-95-billion-equity-ai-financing-2026', 'NASDAQ:META'],
+  ['bitcoin-80000-fed-week-october-26-2026', 'BINANCE:BTCUSDT'],
   ['eqt-range-resources-stock-merger-2026', 'NYSE:EQT'],
   ['eqt-range-resources-stock-merger-2026', 'NYSE:RRC'],
   ['aviva-sterling-tokenised-fund-xrp-ledger-2026', 'BITSTAMP:XRPUSD'],

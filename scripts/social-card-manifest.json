@@ -2661,6 +2661,39 @@
       "bytes": 245506,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/aviva-sterling-tokenised-fund-xrp-ledger-2026.html"
+    },
+    {
+      "page": "brazil-election-lula-etf-real-selloff-2026.html",
+      "source": "assets/editorial/brazil-election-lula-etf-real-selloff-2026-cover-v1.webp",
+      "image": "assets/social/brazil-election-lula-etf-real-selloff-2026-cover-v1-4053e21a3c9a.webp",
+      "sha256": "4053e21a3c9a7f107ede907e9ce5c7bee7a54788fa2f0a53b5cf9ee84ffc3127",
+      "width": 1672,
+      "height": 941,
+      "bytes": 470330,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/brazil-election-lula-etf-real-selloff-2026.html"
+    },
+    {
+      "page": "meta-95-billion-equity-ai-financing-2026.html",
+      "source": "assets/editorial/meta-95-billion-equity-ai-financing-2026-cover-v1.webp",
+      "image": "assets/social/meta-95-billion-equity-ai-financing-2026-cover-v1-c02288d7752c.webp",
+      "sha256": "c02288d7752c3f008048b36c46a4457f8fb1a8e84b9e5a3499a6949b485cbb20",
+      "width": 1672,
+      "height": 941,
+      "bytes": 546212,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/meta-95-billion-equity-ai-financing-2026.html"
+    },
+    {
+      "page": "bitcoin-80000-fed-week-october-26-2026.html",
+      "source": "assets/editorial/bitcoin-80000-fed-week-october-26-2026-cover-v1.webp",
+      "image": "assets/social/bitcoin-80000-fed-week-october-26-2026-cover-v1-a8ff95732494.webp",
+      "sha256": "a8ff9573249416852b4f0ac0ce1808488a655c76ad2d7b8583d635a323e1a040",
+      "width": 1672,
+      "height": 941,
+      "bytes": 272246,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-80000-fed-week-october-26-2026.html"
     }
   ]
 }
