@@ -2301,5 +2301,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 621088,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "doordash-instacart-17-billion-talks-2026",
+    "file": "assets/editorial/doordash-instacart-17-billion-talks-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T22:22:20Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 292150,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027.md."
+  },
+  {
+    "article": "apple-iphone-duo-display-replacements-2026",
+    "file": "assets/editorial/apple-iphone-duo-display-replacements-2026-cover-v2.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T22:22:20Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 159406,
+    "provenance": "Illustrative service-bench context based on the complete official Apple iPhone Duo foldable product reference. Phone form and perspective reviewed against the reference; not a photo of a failed customer device."
+  },
+  {
+    "article": "kraken-hyperliquid-us-perpetuals-testnet-2026",
+    "file": "assets/editorial/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T22:22:20Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 148908,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027.md."
   }
 ]

@@ -1,6 +1,174 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "doordash-instacart-17-billion-talks-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "DoorDash Is in Advanced Talks to Buy Instacart in a Deal Worth About $17 Billion",
+    "dek": "Reports of advanced negotiations put grocery delivery, retailer relationships and acquisition costs in focus. Neither company has announced a signed deal.",
+    "tickers": [
+      "DASH",
+      "CART"
+    ],
+    "imageAlt": "Illustrative grocery-delivery scene with a courier, a bicycle and a red DoorDash insulated backpack.",
+    "sources": [
+      {
+        "label": "Wall Street Journal: advanced acquisition talks, October 26",
+        "url": "https://www.wsj.com/business/hospitality/doordash-is-in-advanced-talks-to-acquire-delivery-rival-instacart-2b3d3d18"
+      },
+      {
+        "label": "Reuters: independent sourcing and Monday trading reaction",
+        "url": "https://www.reuters.com/business/doordash-talks-buy-instacart-wsj-reports-2026-10-26/"
+      },
+      {
+        "label": "DoorDash: second-quarter 2026 financial results, August 5",
+        "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "Instacart: second-quarter 2026 financial results, August 6",
+        "url": "https://investors.instacart.com/News/news-releases/news-details/2026/Instacart-Announces-Second-Quarter-2026-Financial-Results-08-06-2026/default.aspx"
+      },
+      {
+        "label": "Bloomberg: Caper Cart wind-down and company explanation, via Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/articles/instacart-wind-down-smart-cart-200500427.html"
+      }
+    ],
+    "body": [
+      "<p>DoorDash is in advanced talks to acquire Instacart in a transaction that could value the grocery-delivery company at about $17 billion, The Wall Street Journal reported Monday. The talks would bring together a large restaurant-delivery network and an established grocery marketplace. Neither company has announced a signed acquisition agreement, and negotiations could still end without a deal.</p>",
+      "<p>Reuters independently reported the advanced discussions, citing a person familiar with the matter. Its account put Instacart's market value at approximately $13 billion at Friday's close. During Monday's regular trading, Reuters reported Instacart shares up about 8% and DoorDash down around 6%. Those are observations from its report, rather than a claim about either stock's final closing price.</p>",
+      "<p>The different share reactions put the two sides of an acquisition into view. A seller's investors may anticipate a higher offer, while a buyer's investors consider what that offer would cost. Our <a href=\"mergers-acquisitions-explained.html\">guide to mergers and acquisitions</a> explains why a strategic rationale, an agreed price and a completed transaction are separate stages. Monday's news concerns the first stages, with essential terms still unavailable.</p>",
+      "<h2>Grocery relationships are central to the potential purchase</h2>",
+      "<p>Instacart brings more than delivery orders. In its August results, the company described a business spanning its consumer marketplace, retailers' ecommerce systems and advertising. It said it partnered with more than 2,200 retail banners representing nearly 100,000 stores. A buyer would need to preserve those relationships while deciding how much of the business to integrate with its existing platform.</p>",
+      "<p>The same results show the size of that operation. Instacart reported $10.351 billion in gross transaction value and $1.043 billion in revenue for the quarter ended June 30, both up 14% from a year earlier. Gross transaction value measures activity through the platform; it is not the amount Instacart books as its own revenue. Confusing the two would overstate the business's sales.</p>",
+      "<p>DoorDash's second-quarter report showed $4.454 billion in revenue and 970 million total orders. Its marketplace gross order value was $33.078 billion. These are historical company-wide figures, covering a broader business than Instacart's grocery-focused operation. They establish scale, but simply adding platform activity together would not establish the revenue, costs or competitive position of a combined company.</p>",
+      "<h2>The price needs an operating case</h2>",
+      "<p>Combining networks could create opportunities to share technology, reach customers more often or spread delivery costs across more orders. Whether that happens depends on practical details: where demand overlaps, how retailers respond, how workers are organized and whether customers keep ordering without additional incentives. None of those benefits arrives automatically when an acquisition is announced.</p>",
+      "<p>Instacart reported $111 million in quarterly net income and DoorDash reported $200 million attributable to common stockholders. Profit is relevant to an acquisition's economics, but funding and integration also require cash. Our <a href=\"free-cash-flow-explained.html\">free cash flow guide</a> explains why earnings alone cannot answer how much a buyer can spend while supporting its existing operations and commitments.</p>",
+      "<p>Bloomberg separately reported Monday that Instacart is winding down its Caper smart-cart business. A company representative told the publication that the decision had been developing for months and predated the sale reports. It should therefore not be presented as a restructuring ordered by DoorDash or as evidence that the acquisition has already been negotiated and approved.</p>",
+      "<h2>What shareholders still need to see</h2>",
+      "<p>A definitive agreement would need to resolve the consideration, financing, conditions and timetable. Competition review would also depend on the actual transaction and the markets regulators assess. It is premature to assign a certain approval outcome, or to assume a reported headline valuation is money that shareholders are already entitled to receive.</p>",
+      "<p>Our <a href=\"merger-arbitrage-deal-spread-explained.html\">explanation of merger deal spreads</a> describes why even an agreed takeover can trade below its stated offer value. An unannounced deal carries an earlier layer of uncertainty: the parties may never sign. For now, the development is a reported acceleration in talks, with a potentially substantial reshaping of grocery delivery still dependent on terms and execution.</p>"
+    ],
+    "image": "assets/editorial/doordash-instacart-17-billion-talks-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/doordash-instacart-17-billion-talks-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/doordash-instacart-17-billion-talks-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/doordash-instacart-17-billion-talks-2026-cover-v1-480.webp 480w, assets/responsive/doordash-instacart-17-billion-talks-2026-cover-v1-960.webp 960w, assets/editorial/doordash-instacart-17-billion-talks-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T22:33:57Z",
+    "dateModified": "2026-10-26T22:33:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "apple-iphone-duo-display-replacements-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Apple Offers Replacements for iPhone Duo Display Problems Days After Launch",
+    "dek": "Apple acknowledged problems affecting some inner displays. An independent teardown points to a possible hinge stress area, but the cause remains unconfirmed.",
+    "tickers": [
+      "AAPL"
+    ],
+    "imageAlt": "Illustrative service-bench view of an unfolded iPhone Duo, based on Apple's official full-device reference.",
+    "sources": [
+      {
+        "label": "Reuters: Apple statement on affected devices and replacements, October 26",
+        "url": "https://www.reuters.com/business/media-telecom/apple-says-it-will-replace-iphone-duo-units-showing-screen-problems-2026-10-26/"
+      },
+      {
+        "label": "iFixit: iPhone Duo teardown and provisional failure analysis, October 25",
+        "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown"
+      },
+      {
+        "label": "Apple: iPhone Duo construction and display specifications",
+        "url": "https://www.apple.com/iphone-duo/"
+      },
+      {
+        "label": "Apple Support: cover-layer service procedure and required fixtures",
+        "url": "https://support.apple.com/en-us/127672"
+      }
+    ],
+    "body": [
+      "<p>Apple says it will replace iPhone Duo devices affected by inner-display problems, addressing reports of early failures just days after its first folding iPhone reached customers. In a statement reported by Reuters on Monday, the company described the affected population as small and directed owners experiencing display issues to contact AppleCare. It did not identify a cause.</p>",
+      "<p>The response shifts attention from launch demand to the reliability of the folding mechanism and screen. Our <a href=\"iphone-duo-retail-launch-october-23-2026.html\">coverage of the October 23 retail launch</a> described the product's arrival. The immediate test now is how Apple handles affected buyers and whether it can establish what is going wrong, rather than how many customers queued to purchase the device.</p>",
+      "<p>Apple has not published a numerical failure rate in the statement. A collection of damaged devices can reveal a pattern worth investigating, but it cannot establish how common a defect is without knowing how many devices are in use and how reports were collected. The replacement response is confirmed; the size and engineering explanation of the problem remain less certain.</p>",
+      "<h2>A possible stress point, with a cause still to prove</h2>",
+      "<p>Repair specialist iFixit's October 25 teardown provides an independent look beneath the display. The team combined teardown footage, patents and CT scans to model the hinge, then compared that model with reported damage locations. It found the damage clustered near the transition between a cable gap and the central hinge support, rather than directly over the cable itself.</p>",
+      "<p>One simulation showed a central support bar failing to move sufficiently out of the display's path as the phone closed. That could create a concentrated stress point near the reported break location. It is a proposed mechanism from iFixit's investigation, not an engineering finding confirmed by Apple. The report leaves room for more than one component or interaction to contribute.</p>",
+      "<p>That qualification matters because a flexible screen and its supporting mechanism work together. A local problem can produce a much larger visible symptom if it interrupts a row or column of pixels. The visible extent of a line across a display therefore does not, by itself, show how large the initiating fault was or identify the part responsible.</p>",
+      "<h2>The cover layer and the screen are different repairs</h2>",
+      "<p>Apple describes the 7.6-inch inner display as a construction of more than ten thin layers, with a nano-texture finish intended to reduce glare. That design is more complicated than a rigid piece of glass placed over an ordinary screen. The outer surface, underlying display and hinge support have different jobs, even though buyers experience them as one viewing surface.</p>",
+      "<p>The distinction also affects repair. Apple's published cover-layer procedure uses dedicated alignment and display fixtures. It describes replacing that layer, not replacing the entire inner display. Owners should not infer from the existence of that procedure that a failed panel is a routine screen-protector swap or that removing a surface layer will resolve an unexplained display fault.</p>",
+      "<p>This is also separate from the support route Apple has now described. The company's statement directs affected users to AppleCare for a replacement; it does not say in that statement that buying a paid AppleCare+ plan is a condition. Individual service arrangements and the diagnosis of a particular device should come from Apple rather than assumptions based on unrelated repair-price listings.</p>",
+      "<h2>Reliability will shape the commercial outcome</h2>",
+      "<p>Our earlier reporting on <a href=\"iphone-duo-preorder-delays-january-2027.html\">iPhone Duo delivery delays</a> showed why availability was a major launch concern. Replacements add a different operational task: identifying affected units, supplying working devices and helping customers complete the transition. Tight initial supply does not establish how quickly that service can be delivered in every market.</p>",
+      "<p>For investors following <a href=\"earnings-beat-miss-explained.html\">Apple's future earnings disclosures</a>, useful evidence would include any material service costs, changes to production and the company's own explanation of the issue. No such cost estimate should be invented from social-media reports. For buyers, the confirmed practical message is narrower and more immediate: Apple has acknowledged affected inner displays and provided a replacement-support channel while the cause is still being investigated.</p>"
+    ],
+    "image": "assets/editorial/apple-iphone-duo-display-replacements-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/apple-iphone-duo-display-replacements-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/apple-iphone-duo-display-replacements-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/apple-iphone-duo-display-replacements-2026-cover-v2-480.webp 480w, assets/responsive/apple-iphone-duo-display-replacements-2026-cover-v2-960.webp 960w, assets/editorial/apple-iphone-duo-display-replacements-2026-cover-v2.webp 1672w",
+    "date": "2026-10-26T22:33:57Z",
+    "dateModified": "2026-10-26T22:33:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "kraken-hyperliquid-us-perpetuals-testnet-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Kraken Parent’s U.S. Hyperliquid Futures Plan Takes a Testnet Step, With Approval Still Pending",
+    "dek": "Hyperliquid confirmed Payward’s intended role and outlined optional account restrictions. The proposed U.S. offering has no announced launch date or approval.",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Illustrative laptop showing a Kraken Desktop sample trading board; it does not depict the proposed U.S. Hyperliquid product.",
+    "sources": [
+      {
+        "label": "Hyperliquid: official announcement of HIP-3* and Payward, October 26",
+        "url": "https://t.me/hyperliquid_announcements/598"
+      },
+      {
+        "label": "Hyperliquid: public announcement channel with the complete statement",
+        "url": "https://t.me/s/hyperliquid_announcements"
+      },
+      {
+        "label": "Payward: original U.S. onchain-futures plan, September 16",
+        "url": "https://www.payward.com/press-release/payward-hyperliquid-onchain-perpetual-futures"
+      },
+      {
+        "label": "The Block: current confirmation, testnet status and regulatory conditions",
+        "url": "https://www.theblock.co/news/markets/2026-10-26-hyperliquid-payward-kraken-cftc-regulated-hip-3-deployer-431787"
+      },
+      {
+        "label": "Hyperliquid: official explanation of its onchain order-book infrastructure",
+        "url": "https://hyperliquid.gitbook.io/hyperliquid-docs"
+      }
+    ],
+    "body": [
+      "<p>Hyperliquid has confirmed plans for Kraken parent Payward to become the first CFTC-regulated operator deploying markets through its proposed permissioned framework, adding a technical step toward U.S. onchain perpetual futures. The initial functionality is available on a test network. The production upgrade and Payward's offering are still ahead, with regulatory approval required and no launch date announced.</p>",
+      "<p>The October 26 statement develops a plan Payward announced on September 16. Monday's news is Hyperliquid's own confirmation of the intended arrangement and its description of optional account controls. It is not the first announcement of Kraken's ambition, nor a finding that the U.S. public can now trade the proposed contracts. The distinction separates a development milestone from a financial product's actual availability.</p>",
+      "<p>The commercial goal is to connect blockchain-based market infrastructure with a regulated U.S. trading and clearing structure. A successful implementation would create another way to distribute derivatives, rather than simply opening unrestricted access to an existing website. Our <a href=\"defi-basics-explained.html\">guide to decentralized finance</a> explains why moving financial activity into software does not remove the organizations responsible for operating a service.</p>",
+      "<h2>The operator, broker and blockchain have different jobs</h2>",
+      "<p>Payward's original announcement assigns the proposed markets to Bitnomial, its exchange and clearinghouse. Bitnomial would create and administer them, then handle clearing and settlement. NinjaTrader Clearing would carry customer accounts. Payward identifies these entities as regulated by the Commodity Futures Trading Commission in their respective exchange, clearing and brokerage roles, rather than treating the entire blockchain as one licensed institution.</p>",
+      "<p>Hyperliquid would provide the infrastructure, including an onchain order book that matches and records trading activity. Its announcement says independent market operators retain responsibility and control over their deployments. That division matters: a protocol can supply shared technology while the company offering a particular contract remains accountable for the market it operates and the customers it accepts.</p>",
+      "<p>Payward said only accounts onboarded by NinjaTrader and included on both its and Bitnomial's approved-account lists could trade. That is a specific access structure, not an invitation to bypass U.S. restrictions through a different interface. The final offering would still need to meet the requirements applying to its contracts and regulated entities.</p>",
+      "<h2>Permissioning is an addition, not a network-wide conversion</h2>",
+      "<p>Hyperliquid calls the extra functionality HIP-3*, building on its framework for markets deployed by independent operators. The proposed configuration would let an operator or designated sub-operators manage an onchain allowlist. It is optional, and Hyperliquid explicitly says existing markets remain unchanged. Monday's announcement does not mean every market on the network is becoming permissioned or regulated in the United States.</p>",
+      "<p>The first implementation is on testnet, with preliminary specifications open to feedback. Production support is planned for a later network upgrade. Testing can reveal whether account controls and market operations function as designed, but it does not supply regulatory permission. Conversely, the regulated status of an operator does not establish that a particular new contract has completed every step needed for launch.</p>",
+      "<p>Our reporting on <a href=\"chip-stock-perpetuals-weekend-liquidations-2026.html\">weekend trading in stock-linked perpetuals</a> illustrates why the contract and venue matter alongside the underlying asset. Perpetual futures provide price exposure without an ordinary expiry and can involve leverage and funding payments. They are different from buying Bitcoin outright, even where a contract references its price. Payward has not provided a final list of markets for this proposed offering.</p>",
+      "<h2>More access would not remove trading risk</h2>",
+      "<p>A broker, clearinghouse and controlled onboarding process change the structure through which customers trade. They do not prevent prices from moving against a leveraged position. Our <a href=\"crypto-liquidation-leverage-explained.html\">explanation of leverage and liquidation</a> sets out how losses can accelerate when collateral becomes insufficient, independently of whether the market infrastructure is centralized or blockchain-based.</p>",
+      "<p>The useful next milestones are a production specification, the required regulatory approvals and an actual product notice describing eligible customers, contracts and operating terms. Until those appear, the evidence supports a testnet development and a confirmed intended operator. It does not support claims of an approved U.S. launch or a guarantee about the investment value of any token.</p>"
+    ],
+    "image": "assets/editorial/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1-480.webp 480w, assets/responsive/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1-960.webp 960w, assets/editorial/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T22:33:57Z",
+    "dateModified": "2026-10-26T22:33:57Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "microsoft-60000-voluntary-buyout-offer-2026",
     "section": "Market Analysis",
     "format": "news",

@@ -2727,6 +2727,39 @@
       "bytes": 621088,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/occ-community-banks-stablecoin-invitation-2026.html"
+    },
+    {
+      "page": "doordash-instacart-17-billion-talks-2026.html",
+      "source": "assets/editorial/doordash-instacart-17-billion-talks-2026-cover-v1.webp",
+      "image": "assets/social/doordash-instacart-17-billion-talks-2026-cover-v1-e3bdb9a54a85.webp",
+      "sha256": "e3bdb9a54a85ed4efbfee5764f88d64b5a3306d5c5498bb6d0755dd7fc500e84",
+      "width": 1672,
+      "height": 941,
+      "bytes": 292150,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/doordash-instacart-17-billion-talks-2026.html"
+    },
+    {
+      "page": "apple-iphone-duo-display-replacements-2026.html",
+      "source": "assets/editorial/apple-iphone-duo-display-replacements-2026-cover-v2.webp",
+      "image": "assets/social/apple-iphone-duo-display-replacements-2026-cover-v2-869643e0d525.webp",
+      "sha256": "869643e0d5250d26f3ce42c19481844ec1aaf82eead0cd6b98301162890dcdd8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 159406,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/apple-iphone-duo-display-replacements-2026.html"
+    },
+    {
+      "page": "kraken-hyperliquid-us-perpetuals-testnet-2026.html",
+      "source": "assets/editorial/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1.webp",
+      "image": "assets/social/kraken-hyperliquid-us-perpetuals-testnet-2026-cover-v1-e16f624a284b.webp",
+      "sha256": "e16f624a284b8ca3d6a3b3efb18d2ff7b73479c6dcf19e148c18f2b365124c82",
+      "width": 1672,
+      "height": 941,
+      "bytes": 148908,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/kraken-hyperliquid-us-perpetuals-testnet-2026.html"
     }
   ]
 }

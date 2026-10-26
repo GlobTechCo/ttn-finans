@@ -1,4 +1,7 @@
 TITLES = '''
+kraken-hyperliquid-us-perpetuals-testnet-2026|Kraken’s Hyperliquid Plan Advances on Testnet
+apple-iphone-duo-display-replacements-2026|Apple Offers Replacements for iPhone Duo Faults
+doordash-instacart-17-billion-talks-2026|DoorDash in Talks for $17 Billion Instacart Deal
 occ-community-banks-stablecoin-invitation-2026|OCC Urges Community Banks Into Stablecoins
 anthropic-public-ipo-filing-revenue-costs-2026|Anthropic IPO Filing Reveals Sales and AI Costs
 microsoft-60000-voluntary-buyout-offer-2026|Microsoft Offers Buyouts to About 60,000 Workers
@@ -175,6 +178,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+kraken-hyperliquid-us-perpetuals-testnet-2026|Hyperliquid confirmed Payward’s intended role and outlined optional account restrictions. The proposed U.S. offering has no announced launch date or approval.
+apple-iphone-duo-display-replacements-2026|Apple acknowledged problems affecting some inner displays. An independent teardown points to a possible hinge stress area, but the cause remains unconfirmed.
+doordash-instacart-17-billion-talks-2026|Reports of advanced negotiations put grocery delivery, retailer relationships and acquisition costs in focus. Neither company has announced a signed deal.
 occ-community-banks-stablecoin-invitation-2026|The OCC is encouraging smaller lenders to explore payment tokens, while its official implementation page says applications and waiver requests are not yet open.
 anthropic-public-ipo-filing-revenue-costs-2026|The Claude maker filed publicly for a Nasdaq listing under ANT. Its financial disclosures separate rapid growth from operating costs and a large noncash charge.
 microsoft-60000-voluntary-buyout-offer-2026|The voluntary offer covers selected teams in four countries. Eligibility reaches roughly 27% of the workforce, but actual departures remain unknown.
