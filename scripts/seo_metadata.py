@@ -1,4 +1,7 @@
 TITLES = '''
+bloom-trading-bot-wallet-losses-reimbursement-2026|Bloom Bot Promises Repayment After Wallet Drains
+nextdc-ceo-incentives-m3-power-delay-2026|NEXTDC Cuts CEO Incentives After Power Delay
+revolut-uk-personal-loans-rollout-2026|Revolut Starts UK Personal Loan Rollout
 coindcx-usdt-loss-old-wallet-sweep-failure-2026|CoinDCX Confirms $15.99M Loss in Old Wallets
 meta-interactiveworld-ai-glasses-benchmark-2026|Meta Releases InteractiveWorld AI Glasses Benchmark
 ubs-swiss-jobs-capital-rules-warning-2026|UBS Jobs Warning and the Swiss Capital Fight
@@ -163,6 +166,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+bloom-trading-bot-wallet-losses-reimbursement-2026|Reports trace about 9,408 SOL to a suspected drainer while Bloom says it will reimburse confirmed losses; the cause and final scope remain unresolved.
+nextdc-ceo-incentives-m3-power-delay-2026|A board shake-up follows a grid delay that disrupted NEXTDC’s revenue outlook, showing why contracted data-center demand still needs usable power.
+revolut-uk-personal-loans-rollout-2026|The digital bank is rolling out £2,000–£25,000 unsecured loans, moving beyond payments into a business where repayment quality determines returns.
 coindcx-usdt-loss-old-wallet-sweep-failure-2026|CoinDCX says it will absorb a 15.99 million USDT loss after a failed sweep service left deposits in previously compromised wallet infrastructure.
 meta-interactiveworld-ai-glasses-benchmark-2026|InteractiveWorld tests how AI assistants help with everyday tasks, but a simulated benchmark is still a step away from reliable wearable products.
 ubs-swiss-jobs-capital-rules-warning-2026|An employee group warns of a worst-case employment hit while UBS and Swiss policymakers dispute the cost and purpose of tougher capital rules.

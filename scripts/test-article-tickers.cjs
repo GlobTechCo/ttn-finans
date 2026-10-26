@@ -7,6 +7,8 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['nextdc-ceo-incentives-m3-power-delay-2026', 'ASX:NXT'],
+  ['bloom-trading-bot-wallet-losses-reimbursement-2026', 'COINBASE:SOLUSD'],
   ['microsoft-agensh-open-source-ai-agents-2026', 'NASDAQ:MSFT'],
   ['bitcoin-weekend-rebound-80000-october-25-2026', 'BINANCE:BTCUSDT'],
   ['audi-georgia-4-billion-us-plant-2026', 'OTC:VWAGY'],
