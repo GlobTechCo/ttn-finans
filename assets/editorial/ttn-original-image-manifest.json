@@ -2250,5 +2250,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 272246,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "microsoft-60000-voluntary-buyout-offer-2026",
+    "file": "assets/editorial/microsoft-60000-voluntary-buyout-offer-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T18:26:30Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 650116,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
+  },
+  {
+    "article": "anthropic-public-ipo-filing-revenue-costs-2026",
+    "file": "assets/editorial/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T18:26:30Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 206832,
+    "provenance": "Original illustrative device scene, not a documentary photo of an IPO. Official Claude icon reference from Apple App Store; reviewed against prior TTN Anthropic covers."
+  },
+  {
+    "article": "occ-community-banks-stablecoin-invitation-2026",
+    "file": "assets/editorial/occ-community-banks-stablecoin-invitation-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-26T18:26:30Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 621088,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261026.md."
   }
 ]

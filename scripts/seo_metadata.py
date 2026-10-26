@@ -1,4 +1,7 @@
 TITLES = '''
+occ-community-banks-stablecoin-invitation-2026|OCC Urges Community Banks Into Stablecoins
+anthropic-public-ipo-filing-revenue-costs-2026|Anthropic IPO Filing Reveals Sales and AI Costs
+microsoft-60000-voluntary-buyout-offer-2026|Microsoft Offers Buyouts to About 60,000 Workers
 bitcoin-80000-fed-week-october-26-2026|Bitcoin Retests $80,000 Before Fed Decision
 meta-95-billion-equity-ai-financing-2026|Meta Plans $95 Billion Equity Raise for AI
 brazil-election-lula-etf-real-selloff-2026|Brazil ETF Sinks After Lula’s Election Win
@@ -172,6 +175,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+occ-community-banks-stablecoin-invitation-2026|The OCC is encouraging smaller lenders to explore payment tokens, while its official implementation page says applications and waiver requests are not yet open.
+anthropic-public-ipo-filing-revenue-costs-2026|The Claude maker filed publicly for a Nasdaq listing under ANT. Its financial disclosures separate rapid growth from operating costs and a large noncash charge.
+microsoft-60000-voluntary-buyout-offer-2026|The voluntary offer covers selected teams in four countries. Eligibility reaches roughly 27% of the workforce, but actual departures remain unknown.
 bitcoin-80000-fed-week-october-26-2026|Bitcoin recovered an early dip below $80,000 as traders weighed AI-market worries, recent ETF withdrawals and Wednesday’s Federal Reserve decision.
 meta-95-billion-equity-ai-financing-2026|Meta launched roughly $35 billion of offerings and outlined another $60 billion of share sales to fund AI, raising questions about timing and dilution.
 brazil-election-lula-etf-real-selloff-2026|EWZ tumbled in U.S. premarket trading after Lula’s election win, while currency futures also fell as investors unwound bets on a right-wing victory.

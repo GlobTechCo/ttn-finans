@@ -1,6 +1,173 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "microsoft-60000-voluntary-buyout-offer-2026",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Microsoft Offers Buyouts to About 60,000 Workers as It Reshapes Its Workforce",
+    "dek": "The voluntary offer covers selected teams in four countries. Eligibility reaches roughly 27% of the workforce, but actual departures remain unknown.",
+    "tickers": [
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Microsoft campus sign and office buildings in Redmond.",
+    "sources": [
+      {
+        "label": "Microsoft: Amy Coleman’s published employee communication, October 26",
+        "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
+      },
+      {
+        "label": "GeekWire: company confirmation of eligibility and expected participation",
+        "url": "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/"
+      },
+      {
+        "label": "Microsoft: 2026 annual report, human capital and financial statements",
+        "url": "https://www.microsoft.com/investor/reports/ar26/"
+      },
+      {
+        "label": "Business Insider: company confirmation, decision deadline and package context",
+        "url": "https://www.businessinsider.com/microsoft-is-offering-buyouts-read-the-memo-2026-10"
+      },
+      {
+        "label": "Bloomberg: cost-cutting context and excluded employee groups",
+        "url": "https://news.bloomberglaw.com/daily-labor-report/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut"
+      }
+    ],
+    "body": [
+      "<p>Microsoft is offering voluntary buyouts to about 60,000 employees, extending its workforce reshaping to a group equivalent to more than a quarter of its global staff. The company confirmed the eligibility figure to GeekWire on Monday. It has not announced that 60,000 people will leave, and the eventual reduction will depend on how many workers accept.</p>",
+      "<p>In a published employee communication, Chief People Officer Amy Coleman said the time-limited offer applies to eligible staff at internal level 70 and below in participating teams in Canada, India, the United Kingdom and the United States. Some organizations are excluded. Microsoft described financial support and career-planning resources for employees choosing to make a transition outside the company.</p>",
+      "<p>The offer puts labor costs and the shape of Microsoft's business back in focus as investors assess the resources required for its AI expansion. A smaller workforce could reduce recurring expenses, but an exit program also creates an immediate cost and can remove experienced staff. The number eligible for an offer does not reveal either the eventual savings or the effect on execution.</p>",
+      "<h2>A large invitation, with an unknown take-up</h2>",
+      "<p>Microsoft's annual report lists approximately 223,000 full-time employees as of June 30, including 121,000 in the United States and 102,000 internationally. Comparing the new eligibility figure with that dated total gives roughly 27%. It is a measure of the program's potential reach, rather than a forecast that Microsoft's headcount will fall by the same proportion.</p>",
+      "<p>GeekWire reported that Microsoft expects a substantially smaller participation share than in its earlier voluntary retirement program, which attracted roughly 30% of eligible employees. That earlier offer targeted longtime workers more likely to retire. Applying its acceptance rate to this broader population would therefore produce an unsupported estimate of how many people will leave under the new offer.</p>",
+      "<p>Business Insider reported that employees have until early December to decide, with departures at year-end, and that terms would resemble Microsoft's standard severance. The published company memo does not set out a universal payment amount. An individual's package should consequently not be inferred from one headline figure or from terms that applied to a different worker in an earlier round.</p>",
+      "<h2>Why the financial effect is more complicated than headcount</h2>",
+      "<p>A voluntary departure can exchange an upfront payment for lower future compensation costs. How quickly that pays back depends on the package, the role, replacement hiring and whether work shifts to contractors or other teams. Our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why a cash payment today and a reduction in later operating expenses affect different reporting periods.</p>",
+      "<p>Microsoft remains a highly profitable business. Its fiscal 2026 annual report shows revenue of $331.84 billion and operating income of $155.24 billion for the year ended June 30. Those historical results help establish scale; they do not measure the new program's cost. The company has not supplied a take-up result or a savings figure for this offer.</p>",
+      "<p>Bloomberg described the move as part of cost control and workforce changes for the AI era, with some data-center, sales and marketing personnel outside the offer. That selectivity matters: labor reductions across some functions can coexist with investment and hiring in others. It does not establish that a specific departing employee's job has been replaced by an AI system.</p>",
+      "<h2>The test is what the business can deliver afterward</h2>",
+      "<p>Our reporting on <a href=\"microsoft-nscale-loughton-lease-exit-power-2026.html\">Microsoft's reported Nscale lease exit</a> shows another side of the same capital-allocation problem: spending plans depend on usable infrastructure and delivery schedules. Workforce decisions deserve an equally practical assessment. Lower compensation expense helps only if the remaining organization can maintain products, serve customers and deliver the work supporting future revenue.</p>",
+      "<p>Microsoft is also experimenting with new ways of organizing AI work, including the <a href=\"microsoft-agensh-open-source-ai-agents-2026.html\">Agensh framework for coordinating software agents</a>. That research and Monday's employment offer are distinct developments. The evidence investors need next is actual participation, disclosed exit costs, subsequent staffing levels and operating performance. Until those arrive, the confirmed news is a broad voluntary invitation, with its financial outcome still open.</p>"
+    ],
+    "image": "assets/editorial/microsoft-60000-voluntary-buyout-offer-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/microsoft-60000-voluntary-buyout-offer-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/microsoft-60000-voluntary-buyout-offer-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/microsoft-60000-voluntary-buyout-offer-2026-cover-v1-480.webp 480w, assets/responsive/microsoft-60000-voluntary-buyout-offer-2026-cover-v1-960.webp 960w, assets/editorial/microsoft-60000-voluntary-buyout-offer-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T18:36:19Z",
+    "dateModified": "2026-10-26T18:36:19Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "anthropic-public-ipo-filing-revenue-costs-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Anthropic Opens Its Books for an IPO, Revealing Surging Sales and Heavy AI Costs",
+    "dek": "The Claude maker filed publicly for a Nasdaq listing under ANT. Its financial disclosures separate rapid growth from operating costs and a large noncash charge.",
+    "tickers": [],
+    "imageAlt": "Illustrative close-up of a smartphone showing the Claude by Anthropic app listing and its terracotta icon.",
+    "sources": [
+      {
+        "label": "Anthropic: announcement of public S-1 filing, October 26",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      {
+        "label": "SEC: Anthropic public Form S-1, financial statements and risk factors",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      },
+      {
+        "label": "Reuters: revenue, reported losses and prospective offering context",
+        "url": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/"
+      },
+      {
+        "label": "Associated Press: proposed IPO and voting-control arrangements",
+        "url": "https://apnews.com/article/ca2f4c282bef3201a392e59e3df2300c"
+      }
+    ],
+    "body": [
+      "<p>Anthropic publicly filed for an initial public offering Monday, giving prospective investors a detailed view of the business behind Claude. The company said it plans to list Class A common shares on the Nasdaq Global Select Market under ANT. The number of shares and the price range have not been determined, and the registration statement is not yet effective.</p>",
+      "<p>The filing moves the debate about AI economics from private fundraising headlines toward financial statements that public-market investors can examine. Reuters reported first-half revenue of about $16.3 billion alongside a net loss of approximately $80.7 billion. Those numbers describe very different aspects of the company, and the loss figure should not be mistaken for cash consumed in six months.</p>",
+      "<p>For users and businesses buying Claude, the commercial question is whether fast-growing demand can support the expensive infrastructure required to answer requests and train future models. For prospective shareholders, another question is what price they would pay for that growth. Monday's announcement establishes neither an offer valuation nor a completed sale of publicly traded stock.</p>",
+      "<h2>Revenue growth is closing an operating gap</h2>",
+      "<p>The S-1 shows a first-half operating loss of $693 million, compared with $2.135 billion in the same period a year earlier. Compute and infrastructure expense reached $8.945 billion. The figures show both a narrowing operating shortfall and the absolute scale of resources needed to run the business. Strong sales growth has not eliminated the need to scrutinize costs.</p>",
+      "<p>The much larger net loss includes a $72.388 billion fair-value charge related to convertible notes, derivative liabilities and agreements for future equity. The filing links that expense primarily to increases in the company's valuation. This is an accounting remeasurement, rather than an equivalent payment to suppliers or employees. It should be assessed separately from the cost of delivering Claude.</p>",
+      "<p>That distinction is consequential because a single bottom-line number can obscure the operating business. Comparing revenue with operating expenses helps assess the services being sold. Examining financing-related charges answers a different question about how existing financial instruments are accounted for. Neither exercise makes the other irrelevant, but combining them under a vague label such as cash burn would mislead readers.</p>",
+      "<h2>Positive operating cash flow does not remove funding needs</h2>",
+      "<p>The cash-flow statement reports $3.929 billion generated by operating activities in the first half, alongside $17.181 billion used in investing activities. Those separate categories explain why positive operating cash flow does not mean the company can fund every investment internally. Our <a href=\"free-cash-flow-explained.html\">cash-flow guide</a> sets out the differences between accounting profit, operating cash generation and investment spending.</p>",
+      "<p>An IPO could add funding flexibility and create a public market for the shares. It also subjects the business to regular reporting and a daily market judgment about value. Our <a href=\"ipo-process-explained.html\">guide to the IPO process</a> explains the steps between an initial registration statement, pricing, allocations and trading. A proposed ticker is not evidence that an investor can already buy that stock on an exchange.</p>",
+      "<p>The relevant comparison is therefore broader than one loss figure. Readers need to consider the durability of demand, the cost of serving customers and the cash committed to future capacity. Growth can improve the economics of existing infrastructure while also encouraging a company to commit more money to expansion. A larger revenue base does not settle the balance between those forces.</p>",
+      "<h2>Governance remains part of the investment case</h2>",
+      "<p>Associated Press reported that the proposed voting arrangements would preserve at least 50.1% of voting power for the founders. Economic ownership and voting control can differ, affecting the influence available to new shareholders. The offer should therefore be evaluated through its share rights as well as its financial statements, rather than by assuming every dollar invested carries the same decision-making power.</p>",
+      "<p>Anthropic's mission and oversight structure have already drawn attention, including the <a href=\"anthropic-christopher-stubbs-benefit-trust-october-2026.html\">appointment of Christopher Stubbs to its governance trust</a>. Public ownership will add another constituency to that structure. The next concrete milestones are amended offering terms, effectiveness and pricing. Until then, the filing provides unusually detailed evidence of AI's commercial growth and its costs, without establishing what the eventual investment will be worth.</p>"
+    ],
+    "image": "assets/editorial/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2-480.webp 480w, assets/responsive/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2-960.webp 960w, assets/editorial/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2.webp 1672w",
+    "date": "2026-10-26T18:36:19Z",
+    "dateModified": "2026-10-26T18:36:19Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "occ-community-banks-stablecoin-invitation-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "U.S. Bank Regulator Urges Community Banks Into Stablecoins as Licensing Deadline Nears",
+    "dek": "The OCC is encouraging smaller lenders to explore payment tokens, while its official implementation page says applications and waiver requests are not yet open.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented Office of the Comptroller of the Currency headquarters entrance in Washington.",
+    "sources": [
+      {
+        "label": "CoinDesk: October 26 outreach to community banks",
+        "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market"
+      },
+      {
+        "label": "OCC: official October 26 social post, identified in CoinDesk reporting",
+        "url": "https://x.com/USOCC/status/2114703676501574088"
+      },
+      {
+        "label": "OCC: current GENIUS Act implementation and application status",
+        "url": "https://www.occ.gov/topics/charters-and-licensing/genius-act/index-genius-act.html"
+      },
+      {
+        "label": "OCC Bulletin 2026-51: applications, waivers and submission guidance",
+        "url": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-51.html"
+      },
+      {
+        "label": "OCC: October 21 final-rule announcement",
+        "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+      },
+      {
+        "label": "Federal Register: final rule, including community-bank reserve-deposit considerations",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm"
+      }
+    ],
+    "body": [
+      "<p>The Office of the Comptroller of the Currency is encouraging community banks to enter the payment-stablecoin market, bringing smaller U.S. lenders into a debate often dominated by large banks and crypto companies. CoinDesk reported Monday that the agency's outreach includes the possibility of seeking permission to issue stablecoins. It is an invitation to explore the business, rather than approval of a new bank-issued token.</p>",
+      "<p>There is an immediate procedural limitation. The OCC's official GENIUS Act implementation page says it is not yet accepting applications or waiver requests. Intake depends on final Office of Management and Budget approval of the information collection associated with application forms. The regulator says it will announce the opening in a separate press release and update its page accordingly.</p>",
+      "<p>For consumers, the significance lies in who may eventually provide digital-dollar payments and under what controls. For banks, it is a strategic choice about customer relationships, payment services and funding. The agency's encouragement does not establish that issuing a token will be profitable for every institution or that customers will automatically prefer it to existing payment methods.</p>",
+      "<h2>A new invitation follows last week's rule</h2>",
+      "<p>The outreach follows the OCC's October 21 announcement of a final rule implementing the GENIUS Act for issuers and activities within its jurisdiction. The rule takes effect January 18, 2027. Our <a href=\"occ-genius-final-stablecoin-rule-october-2026.html\">coverage of that final rule</a> explains the earlier regulatory decision. Monday's development is the message directed at smaller lenders, rather than a second announcement of the same rule.</p>",
+      "<p>The OCC says its framework addresses reserve backing, redemption and risk management, among other requirements. Its announcement also identifies work still to come on Bank Secrecy Act, anti-money-laundering and sanctions matters through a separate rulemaking with Treasury. A final rule in one part of the framework therefore does not mean every related regulatory process has finished.</p>",
+      "<p>Issuing a stablecoin, providing services to an issuer and using a token to make a payment are different business activities. A bank could assess demand and operational requirements without deciding to create its own coin. Our <a href=\"stablecoins-explained-depeg-risk.html\">explanation of stablecoin backing and redemption</a> describes why the ability to exchange a token for its reference currency matters more than a dollar symbol on a screen.</p>",
+      "<h2>The application process will require more than a launch plan</h2>",
+      "<p>The OCC's application guidance calls for information on the business plan, management, reserves, issuance and redemption, capital, liquidity and risk controls. It also covers third-party arrangements, compliance and audit functions. Preparing that material is a substantive operational task. A prospective issuer needs to show how the service will function when customers want their money back, not simply how quickly a token can move.</p>",
+      "<p>Under the guidance, the agency will notify an applicant within 30 days whether a submission is substantially complete. It commits to acting no later than 120 days after that determination. That latter clock does not begin with an expression of interest or an incomplete proposal. Nor does a review deadline mean that every applicant must receive permission to operate.</p>",
+      "<p>Existing issuers with substantially complete applications pending by January 18 may request temporary waivers from specified requirements. The guidance describes a route intended to limit disruption while applications are reviewed, with individual requests assessed on their merits. Prospective new issuers should not treat that transition mechanism as an automatic right to launch before obtaining the required approval.</p>",
+      "<h2>Reserve deposits bring their own banking questions</h2>",
+      "<p>In its final-rule discussion, the OCC acknowledges that deposits used as stablecoin reserves could currently be less stable funding than other deposit types. It does not require issuers to place those deposits with community banks or force community banks to accept them. Smaller lenders retain a business judgment about whether that exposure fits their balance sheets and risk appetite.</p>",
+      "<p>The competitive backdrop also includes established token businesses, as our reporting on <a href=\"circle-usdc-revenue-sharing-stablecoin-competition-2026.html\">stablecoin revenue sharing</a> illustrates. Entering payments means competing on distribution, reliability and economics as well as regulatory status. The practical next milestones are the opening of applications and evidence of specific bank proposals. Monday's invitation broadens the field of potential participants; it does not yet tell readers which banks will issue tokens or which services will gain customers.</p>"
+    ],
+    "image": "assets/editorial/occ-community-banks-stablecoin-invitation-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/occ-community-banks-stablecoin-invitation-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/occ-community-banks-stablecoin-invitation-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/occ-community-banks-stablecoin-invitation-2026-cover-v1-480.webp 480w, assets/responsive/occ-community-banks-stablecoin-invitation-2026-cover-v1-960.webp 960w, assets/editorial/occ-community-banks-stablecoin-invitation-2026-cover-v1.webp 1672w",
+    "date": "2026-10-26T18:36:19Z",
+    "dateModified": "2026-10-26T18:36:19Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "brazil-election-lula-etf-real-selloff-2026",
     "section": "Market Analysis",
     "format": "news",

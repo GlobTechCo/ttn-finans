@@ -2694,6 +2694,39 @@
       "bytes": 272246,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-80000-fed-week-october-26-2026.html"
+    },
+    {
+      "page": "microsoft-60000-voluntary-buyout-offer-2026.html",
+      "source": "assets/editorial/microsoft-60000-voluntary-buyout-offer-2026-cover-v1.webp",
+      "image": "assets/social/microsoft-60000-voluntary-buyout-offer-2026-cover-v1-b55e7d2d96e9.webp",
+      "sha256": "b55e7d2d96e943ab06f1975c85fb475e6f9126b5ae6260742f508f478bdd44f5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 650116,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/microsoft-60000-voluntary-buyout-offer-2026.html"
+    },
+    {
+      "page": "anthropic-public-ipo-filing-revenue-costs-2026.html",
+      "source": "assets/editorial/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2.webp",
+      "image": "assets/social/anthropic-public-ipo-filing-revenue-costs-2026-cover-v2-67b612fc3faa.webp",
+      "sha256": "67b612fc3faaf1ec0486a77e8cf3f5353bc024ff8f312e9a5f5cbcadc23f4462",
+      "width": 1672,
+      "height": 941,
+      "bytes": 206832,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-public-ipo-filing-revenue-costs-2026.html"
+    },
+    {
+      "page": "occ-community-banks-stablecoin-invitation-2026.html",
+      "source": "assets/editorial/occ-community-banks-stablecoin-invitation-2026-cover-v1.webp",
+      "image": "assets/social/occ-community-banks-stablecoin-invitation-2026-cover-v1-4366226684cd.webp",
+      "sha256": "4366226684cdb87923d703b9f77b75b6abb6456e042e14771fa237e2969e80ac",
+      "width": 1672,
+      "height": 941,
+      "bytes": 621088,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/occ-community-banks-stablecoin-invitation-2026.html"
     }
   ]
 }
