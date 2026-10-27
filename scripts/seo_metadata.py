@@ -1,4 +1,7 @@
 TITLES = '''
+robinhood-q3-2026-crypto-revenue-profit|Robinhood Crypto Revenue Falls 55% in Third Quarter
+amazon-globalstar-fcc-acquisition-approval-2026|Amazon’s Globalstar Deal Wins FCC Approval
+visa-q4-2026-profit-payments-volume|Visa Profit Hits $6 Billion as Card Spending Grows
 janus-henderson-jqqq-nasdaq-stellar-fund-2026|Nasdaq-100 Fund JQQQ Launches on Stellar
 oracle-google-tpu-nvidia-cloud-expansion-2026|Oracle Adds Google TPUs, Expands Nvidia AI Deal
 boeing-q3-2026-737-production-cash-outlook|Boeing’s 737 Delay Pushes Cash Recovery Further Out
@@ -190,6 +193,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+robinhood-q3-2026-crypto-revenue-profit|Crypto trading weakened while options and equities grew. Robinhood reported record revenue, but net income fell to $476 million.
+amazon-globalstar-fcc-acquisition-approval-2026|The roughly $11.6 billion acquisition advances, but closing and Amazon’s planned direct-to-device constellation remain separate milestones.
+visa-q4-2026-profit-payments-volume|Revenue rose 13% in Visa’s fiscal fourth quarter. Payment volume and cross-border activity grew, while client incentives increased faster than revenue.
 janus-henderson-jqqq-nasdaq-stellar-fund-2026|Janus Henderson and Centrifuge announced JQQQ, a tokenized index fund. Its legal structure and investor restrictions matter as much as its blockchain.
 oracle-google-tpu-nvidia-cloud-expansion-2026|Google’s TPUs are due on Oracle Cloud in 2027. A separate Nvidia expansion combines already available systems with a larger planned rollout.
 boeing-q3-2026-737-production-cash-outlook|The planemaker reported positive quarterly free cash flow, but slower production and a weaker 2027 outlook put its recovery timetable under pressure.

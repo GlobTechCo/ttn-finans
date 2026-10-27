@@ -2892,6 +2892,39 @@
       "bytes": 437686,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/janus-henderson-jqqq-nasdaq-stellar-fund-2026.html"
+    },
+    {
+      "page": "visa-q4-2026-profit-payments-volume.html",
+      "source": "assets/editorial/visa-q4-2026-profit-payments-volume-cover-v1.webp",
+      "image": "assets/social/visa-q4-2026-profit-payments-volume-cover-v1-4722e7a7769c.webp",
+      "sha256": "4722e7a7769c57a342056e4c40c8c546d8d60930f840ac5e726486c440c6ffe4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 333862,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/visa-q4-2026-profit-payments-volume.html"
+    },
+    {
+      "page": "amazon-globalstar-fcc-acquisition-approval-2026.html",
+      "source": "assets/editorial/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1.webp",
+      "image": "assets/social/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1-7502a7ea83e7.webp",
+      "sha256": "7502a7ea83e75ff490c39b51b43174bbe1cceae692599bce4a0243d731b57826",
+      "width": 1672,
+      "height": 941,
+      "bytes": 246002,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/amazon-globalstar-fcc-acquisition-approval-2026.html"
+    },
+    {
+      "page": "robinhood-q3-2026-crypto-revenue-profit.html",
+      "source": "assets/editorial/robinhood-q3-2026-crypto-revenue-profit-cover-v1.webp",
+      "image": "assets/social/robinhood-q3-2026-crypto-revenue-profit-cover-v1-045c4f0055b7.webp",
+      "sha256": "045c4f0055b7d6de1fe6d90775b4b709ffb9b63897a3a5a3861b09b5b8930fb0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 197300,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/robinhood-q3-2026-crypto-revenue-profit.html"
     }
   ]
 }

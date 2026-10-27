@@ -1,6 +1,166 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "visa-q4-2026-profit-payments-volume",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Visa’s Quarterly Profit Reaches $6 Billion as Card Spending Keeps Growing",
+    "dek": "Revenue rose 13% in Visa’s fiscal fourth quarter. Payment volume and cross-border activity grew, while client incentives increased faster than revenue.",
+    "tickers": [
+      "V"
+    ],
+    "imageAlt": "Illustrative reconstruction of Visa’s documented Market Support Center entrance at 300 Dr. Maya Angelou Lane, San Francisco.",
+    "sources": [
+      {
+        "label": "Visa: fiscal fourth-quarter and full-year 2026 release, unaltered issuer publication via Publicnow",
+        "url": "https://www.marketscreener.com/news/visa-q4-2026-earnings-release-ce785cddde80fe20"
+      },
+      {
+        "label": "Reuters: quarterly net income and consumer-spending context",
+        "url": "https://www.reuters.com/technology/visa-quarterly-profit-jumps-resilient-consumer-spending-2026-10-27/"
+      },
+      {
+        "label": "Visa: official financial results directory",
+        "url": "https://investor.visa.com/financial-information/quarterly-earnings/default.aspx"
+      },
+      {
+        "label": "Stock Titan: independent analysis of fiscal-quarter spending growth",
+        "url": "https://www.stocktitan.net/articles/visa-q4-2026-earnings-card-spending-travel"
+      }
+    ],
+    "body": [
+      "<p>Visa reported $6 billion of quarterly net income on Tuesday as spending through its card network continued to expand. Net revenue reached $12.1 billion, up 13% from a year earlier, in the fiscal fourth quarter ended September 30. The results show a payments business still growing even as investors look for signs of strain in consumer demand.</p>",
+      "<p>Reuters reported net income of $3.19 a share, compared with $2.62 a year earlier. Visa's issuer release puts adjusted, non-GAAP earnings at $3.48 a share. The two figures should remain separate: the adjusted measure excludes items that affect the financial statements, rather than representing an additional pool of profit earned on top of reported income.</p>",
+      "<p>The more useful question is what drove the expansion. Visa reports spending, transactions, international activity and the commercial incentives paid to clients. Those measures describe different parts of its business. Our <a href=\"earnings-beat-miss-explained.html\">guide to interpreting earnings</a> explains why a strong headline profit does not remove the need to examine the operating figures underneath it.</p>",
+      "<h2>Spending grew, but the pace eased</h2>",
+      "<p>Payments volume increased 9% in constant dollars during July through September. That compares with 10% in the preceding quarter, a slowdown highlighted in Stock Titan's analysis of the release. These are year-over-year growth rates, not a statement that spending fell from one quarter to the next. Positive growth can become slower while the total level of activity continues to increase.</p>",
+      "<p>The constant-dollar comparison removes currency movements from the reported growth rate. It does not remove the effect of higher prices on the amount spent. Nor does it show whether every household is financially comfortable. Consumers can spend more in dollars because purchases cost more, because they buy more, or because their mix of purchases changes.</p>",
+      "<p>Our <a href=\"retailer-earnings-consumer-bellwether-explained.html\">consumer-spending coverage</a> makes a related distinction between broad totals and the experience of particular customers. A payment network sees transactions across many sellers. A retailer sees its own categories and customer base. Reading both can be useful, but neither should be presented as a complete household balance sheet or as a direct measure of the whole economy.</p>",
+      "<h2>International activity has its own economics</h2>",
+      "<p>Visa reported 14% growth in cross-border volume excluding transactions within Europe and 10% growth in processed transactions, both for the September quarter. The first measure concerns spending across borders; the second counts the transactions Visa processes. More transactions and larger payment amounts are different sources of activity, so the percentages need not match.</p>",
+      "<p>Timing also affects the revenue comparison. Visa recognizes service revenue using payment volume from the preceding quarter, while its other revenue categories reflect current-quarter activity. That means one earnings report combines information from different operating periods. A change in July-to-September spending does not flow through every revenue line at the same moment.</p>",
+      "<p>This helps explain why applying a single growth rate to the entire company can be misleading. The commercial mix, the timing of recognition and the terms of client relationships all affect how activity becomes revenue. Investors following the business need to track that conversion rather than assume that each extra dollar spent on a card produces an identical increase in Visa's earnings.</p>",
+      "<h2>Client incentives show the cost of distribution</h2>",
+      "<p>Client incentives increased 21% to $5.1 billion, faster than the quarter's 13% net revenue growth. The comparison deserves attention because incentives are part of the economics of attracting and retaining business. A larger network can still face competitive costs in securing the institutions and partners that bring transactions to it.</p>",
+      "<p>Visa's results differ from those of a company whose main activity is lending directly to cardholders. Our <a href=\"amex-q3-2026-profit-workforce-cut.html\">report on American Express</a> illustrates why business models matter when comparing payment companies. Similar exposure to consumer activity does not make every revenue source, funding obligation or credit risk interchangeable.</p>",
+      "<p>For Visa, the next reports will show whether spending growth stabilizes and how much expanding activity remains after client incentives and operating costs. Tuesday's release supplies evidence of continued demand and rising profit. It also provides a more specific test for the coming quarters: the relationship between transaction growth, international activity and the revenue the network ultimately retains.</p>"
+    ],
+    "image": "assets/editorial/visa-q4-2026-profit-payments-volume-cover-v1.webp",
+    "imageSmall": "assets/responsive/visa-q4-2026-profit-payments-volume-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/visa-q4-2026-profit-payments-volume-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/visa-q4-2026-profit-payments-volume-cover-v1-480.webp 480w, assets/responsive/visa-q4-2026-profit-payments-volume-cover-v1-960.webp 960w, assets/editorial/visa-q4-2026-profit-payments-volume-cover-v1.webp 1672w",
+    "date": "2026-10-27T20:42:17Z",
+    "dateModified": "2026-10-27T20:42:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "amazon-globalstar-fcc-acquisition-approval-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Amazon’s Globalstar Deal Clears FCC Review in Satellite-to-Phone Push",
+    "dek": "The roughly $11.6 billion acquisition advances, but closing and Amazon’s planned direct-to-device constellation remain separate milestones.",
+    "tickers": [
+      "AMZN",
+      "GSAT",
+      "AAPL"
+    ],
+    "imageAlt": "Illustrative reconstruction of documented Amazon satellite-processing hardware and its branded payload fairing in a cleanroom; not a photograph of the Globalstar transaction.",
+    "sources": [
+      {
+        "label": "Reuters: FCC approval and current transaction development, October 27",
+        "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/"
+      },
+      {
+        "label": "Fierce Network: company responses and pending direct-to-device application",
+        "url": "https://www.fierce-network.com/wireless/fcc-gives-ok-amazon-leos-acquisition-globalstar"
+      },
+      {
+        "label": "Amazon: original April merger agreement, closing conditions and Apple service arrangement",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple"
+      },
+      {
+        "label": "FCC: public transaction review page",
+        "url": "https://www.fcc.gov/transaction/amazon-globalstar"
+      }
+    ],
+    "body": [
+      "<p>Amazon's plan to expand satellite connections to mobile devices cleared a major regulatory hurdle on Tuesday when the Federal Communications Commission approved its acquisition of Globalstar. Reuters reported the decision on the roughly $11.6 billion transaction, which would add satellite operations and mobile-satellite spectrum to Amazon Leo's connectivity business.</p>",
+      "<p>The approval advances a deal announced in April; it is not evidence that the acquisition has closed or that a new phone service is available today. Amazon's original agreement set an expected 2027 closing, subject to conditions including regulatory approvals and specified replacement-satellite milestones. Those conditions make the distinction between approval and completion important for both customers and shareholders.</p>",
+      "<p>Fierce Network reported that Amazon thanked the FCC for approving the transfer of control of Globalstar's licenses. The company described the decision as a step toward new connectivity capabilities but did not provide a closing date to the publication. Our <a href=\"mergers-acquisitions-explained.html\">merger analysis</a> explains why clearing a regulatory hurdle and completing the operational combination are different stages of an acquisition.</p>",
+      "<h2>The scarce asset is more than a satellite fleet</h2>",
+      "<p>Globalstar brings established mobile-satellite operations, infrastructure and spectrum authorizations. Amazon's original announcement identified those assets as a foundation for direct-to-device services, which connect compatible mobile equipment to satellites. Acquiring an operating system and its rights can shorten some development work, but it does not make every component of two networks immediately interchangeable.</p>",
+      "<p>Spectrum is especially significant because radio services need permission to use particular frequencies under defined conditions. Owning hardware alone does not establish the right to transmit everywhere or to provide every kind of service. Network performance also depends on satellite capacity, ground infrastructure, compatible devices and the systems that coordinate customer connections.</p>",
+      "<p>Amazon's broader plan is to work with mobile network operators and other partners. That commercial approach puts the emphasis on filling coverage gaps and extending existing communications services. It does not mean satellites replace every terrestrial tower. Dense urban traffic, remote coverage and emergency messaging present different engineering and business requirements, even when all are described loosely as mobile connectivity.</p>",
+      "<h2>Apple's existing services and Amazon's future system are distinct</h2>",
+      "<p>Globalstar already supports satellite features for compatible Apple devices. In April, Amazon and Apple announced an agreement intended to continue those services and support future capabilities. That existing relationship gives the transaction a recognizable consumer connection, but it should not be described as an immediate switch of every iPhone to an entirely new Amazon network.</p>",
+      "<p>Amazon's original announcement envisaged deployment of its own next-generation direct-to-device system beginning in 2028. Fierce reported on Tuesday that a separate application for a constellation of up to 5,105 satellites remains pending. Approval of the acquisition therefore should not be confused with approval, launch or activation of that entire proposed constellation.</p>",
+      "<p>The distinction is similar to the one in our <a href=\"spacex-80000-cell-sites-wireless-talks-2026.html\">coverage of SpaceX's reported wireless infrastructure talks</a>: an infrastructure strategy, a commercial agreement and an operating service are separate developments. Customers need confirmed device compatibility, coverage and service terms before the practical value of a new network can be assessed.</p>",
+      "<h2>The transaction still has an execution timetable</h2>",
+      "<p>Amazon's April terms offer Globalstar shareholders an election between cash and Amazon shares, subject to limits and proration. That structure makes the transaction more complicated than a fixed cash payment arriving immediately after one approval. The remaining conditions and the time until closing still matter to the investment calculation.</p>",
+      "<p>Our <a href=\"merger-arbitrage-deal-spread-explained.html\">explanation of merger spreads</a> describes how timing and completion risk can affect a target company's trading price. Tuesday's FCC decision removes a specific obstacle, but it does not justify treating every remaining condition as fulfilled or every planned service as commercially proven.</p>",
+      "<p>The next concrete milestones are completion of the transaction, progress on the separate network authorizations and deployment of usable capacity. For Amazon, the strategic opportunity is to combine a large technology and infrastructure business with Globalstar's existing satellite capabilities. The commercial test will be reliable service that reaches customers on clear terms, rather than the size of the announced deal alone.</p>"
+    ],
+    "image": "assets/editorial/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1-480.webp 480w, assets/responsive/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1-960.webp 960w, assets/editorial/amazon-globalstar-fcc-acquisition-approval-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T20:42:17Z",
+    "dateModified": "2026-10-27T20:42:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "robinhood-q3-2026-crypto-revenue-profit",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Robinhood’s Crypto Revenue Falls 55% Despite Record Company Sales",
+    "dek": "Crypto trading weakened while options and equities grew. Robinhood reported record revenue, but net income fell to $476 million.",
+    "tickers": [
+      "HOOD"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Robinhood Menlo Park lobby, with its installed feather logo and wordmark.",
+    "sources": [
+      {
+        "label": "Robinhood: official third-quarter 2026 results and operating metrics",
+        "url": "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results"
+      },
+      {
+        "label": "Reuters: independent profit report and comparison with prior year",
+        "url": "https://www.reuters.com/business/robinhood-quarterly-profit-falls-softer-crypto-activity-outweighs-robust-trading-2026-10-27/"
+      },
+      {
+        "label": "Robinhood: investor relations, reporting definitions and results materials",
+        "url": "https://investors.robinhood.com/"
+      }
+    ],
+    "body": [
+      "<p>Robinhood's cryptocurrency revenue fell 55% from a year earlier to $120 million in the third quarter, even as the company reported record overall revenue on Tuesday. The contrast shows how activity in digital assets can diverge from the rest of a trading platform, rather than moving in step with every other product offered to customers.</p>",
+      "<p>Total net revenue rose 12% to about $1.42 billion. Net income fell 14% to $476 million, or 51 cents a diluted share, according to the company's release. Reuters independently reported the profit decline and weaker crypto activity. A larger business therefore did not translate into a larger reported bottom line in this quarter.</p>",
+      "<p>For crypto readers, the operating data are more revealing than the company-wide sales record. Total crypto notional trading volume declined 38% to $50 billion. Robinhood's app accounted for $21 billion, down 48%, while Bitstamp contributed $29 billion, down 28%. These are year-over-year comparisons, not changes since the second quarter or measures of a particular token's price performance.</p>",
+      "<h2>Trading volume and revenue tell different stories</h2>",
+      "<p>Crypto revenue declined faster than the dollar value traded. That gap means volume alone cannot explain the entire change in revenue. A platform's product mix, customer mix and transaction economics can affect how trading becomes income. The quarterly totals do not, by themselves, identify the contribution from each of those possible factors.</p>",
+      "<p>The distinction also matters when comparing a trading platform with a cryptocurrency investment. A token's market price, the amount customers trade and the revenue a company receives from those transactions are separate variables. Higher asset prices do not guarantee more trading, and more trading does not guarantee the same revenue per dollar of activity.</p>",
+      "<p>Our <a href=\"bitcoin-etf-institutional-adoption.html\">explanation of crypto investment wrappers</a> examines a related ownership distinction: exposure to an asset is not the same as exposure to the business providing access to it. Robinhood's results are evidence about its own operations. They should not be generalized into a precise measure of worldwide crypto trading or used to explain every exchange's performance.</p>",
+      "<h2>Other trading products supplied the growth</h2>",
+      "<p>Options revenue rose 31% to $399 million and equities revenue increased 41% to $121 million. Event-contract revenue reached $173 million. Those activities helped lift transaction-based revenue overall despite the crypto decline. Their growth explains why a strong company-wide trading headline can coexist with a weak digital-asset business.</p>",
+      "<p>This is a revenue-mix story rather than proof that the same customers moved a fixed amount of money from one product to another. The release supplies aggregate business figures, not a customer-by-customer account of why trades were placed. Establishing substitution between products would require more detailed evidence than two revenue lines moving in opposite directions.</p>",
+      "<p>Our <a href=\"crypto-liquidation-leverage-explained.html\">guide to crypto leverage</a> also shows why activity and risk need separate consideration. Products with different collateral arrangements, settlement rules and loss mechanisms cannot be compared only by the number of contracts or dollars traded. That is relevant to the platform's growing range of products, without implying that every new activity carries the same risks as spot crypto.</p>",
+      "<h2>Record sales did not protect reported earnings</h2>",
+      "<p>Robinhood reported $67 million of unrealized losses, primarily associated with the valuation of Robinhood Ventures Fund I. It also introduced adjusted net income and adjusted earnings per share as new non-GAAP measures this quarter. Adjusted net income was $550 million and adjusted diluted earnings were 60 cents a share; those measures also declined from a year earlier.</p>",
+      "<p>The adjustments help distinguish some non-operating effects, but they do not replace the reported accounts. A useful comparison keeps both measures visible and checks whether the definitions remain consistent over time. Excluding an unrealized valuation movement may clarify operating trends, while the economic exposure represented by the underlying investment still belongs to the business.</p>",
+      "<p>Our <a href=\"sofi-earn-tokenized-deposit-october-2026.html\">coverage of SoFi's tokenized deposit offering</a> illustrates why a financial platform's expanding product range requires attention to the economics of each business. For Robinhood, the next results will test whether crypto activity recovers and whether other products can keep supporting growth. Tuesday's report establishes diversification in revenue, but also a clear limit to the headline: record sales alone did not deliver higher quarterly profit.</p>"
+    ],
+    "image": "assets/editorial/robinhood-q3-2026-crypto-revenue-profit-cover-v1.webp",
+    "imageSmall": "assets/responsive/robinhood-q3-2026-crypto-revenue-profit-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/robinhood-q3-2026-crypto-revenue-profit-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/robinhood-q3-2026-crypto-revenue-profit-cover-v1-480.webp 480w, assets/responsive/robinhood-q3-2026-crypto-revenue-profit-cover-v1-960.webp 960w, assets/editorial/robinhood-q3-2026-crypto-revenue-profit-cover-v1.webp 1672w",
+    "date": "2026-10-27T20:42:17Z",
+    "dateModified": "2026-10-27T20:42:17Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "boeing-q3-2026-737-production-cash-outlook",
     "section": "Market Analysis",
     "format": "news",
