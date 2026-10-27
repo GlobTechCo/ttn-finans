@@ -2474,20 +2474,20 @@
   },
   {
     "article": "apple-m6-macbook-pro-imac-launch-2026",
-    "file": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1.webp",
-    "source": "Existing TTN Finance neutral brand card, temporary placeholder requested by owner",
+    "file": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v5-approved.webp",
+    "source": "Owner-approved generated image, uploaded as image(20261027-162715).png",
     "generatedAt": "2026-10-27T15:43:56Z",
     "nativeSize": [
-      1200,
-      630
+      1672,
+      941
     ],
     "outputSize": [
-      1200,
-      630
+      1672,
+      941
     ],
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
-    "bytes": 22606,
-    "provenance": "Owner rejected generated cover v4. Removed from active article, cards and social metadata; neutral temporary placeholder until a revised preview is specifically approved."
+    "bytes": 259266,
+    "provenance": "Owner explicitly selected and supplied this exact generated field-work image on October 27. Approved replacement for the temporary placeholder; no changes to image content. Original generation exec-86fabf35-99bd-4e15-8b9d-c5adc80c4c32."
   },
   {
     "article": "circle-aci-usdc-colombia-settlement-pilot-2026",
