@@ -1,4 +1,7 @@
 TITLES = '''
+circle-aci-usdc-colombia-settlement-pilot-2026|Circle and ACI Plan USDC Settlement Pilot
+apple-m6-macbook-pro-imac-launch-2026|Apple Launches M6 MacBook Pro and iMac
+sofi-q3-2026-profit-members-guidance|SoFi Raises Outlook After $241 Million Profit
 zcash-bowe-grants-subsidy-reserve-proposal-2026|Zcash Draft Would Redirect Grants Subsidy
 guidewire-hyperexponential-ai-acquisition-2026|Guidewire Agrees to Buy Insurance AI Firm
 coca-cola-q3-2026-volume-profit-outlook|Coca-Cola Raises Outlook as Beverage Volumes Grow
@@ -184,6 +187,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+circle-aci-usdc-colombia-settlement-pilot-2026|Circle and ACI plan a USDC settlement pilot in Colombia. The initiative evaluates banking integration, with no nationwide rollout announced.
+apple-m6-macbook-pro-imac-launch-2026|Apple announced M6 MacBook Pro and iMac models, with November 6 availability. Compare U.S. prices and the limits of its AI performance claims.
+sofi-q3-2026-profit-members-guidance|SoFi raised its outlook after quarterly net income reached $241 million. Read the growth figures, lending risks and new 2027 forecast.
 zcash-bowe-grants-subsidy-reserve-proposal-2026|Sean Bowe proposes redirecting the 8% grants subsidy to a network reserve. Existing funds stay with ZCG, and no activation height is assigned.
 guidewire-hyperexponential-ai-acquisition-2026|The agreement includes $1.7 billion in cash and a possible $400 million earnout, linking part of the price to recurring revenue targets.
 coca-cola-q3-2026-volume-profit-outlook|Coca-Cola raised its outlook as global beverage volumes grew 5%. Flat North American volumes contrast with international growth.

@@ -1,6 +1,166 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "sofi-q3-2026-profit-members-guidance",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "SoFi Raises Its Outlook as Quarterly Profit Climbs to $241 Million",
+    "dek": "The digital lender reported 44% revenue growth and outlined a larger business for 2027. Credit quality and the cost of funding remain central to that expansion.",
+    "tickers": [
+      "SOFI"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented SoFi headquarters facade and installed sign at 1 Tehama Street, San Francisco.",
+    "sources": [
+      {
+        "label": "SoFi: third-quarter 2026 financial results and guidance",
+        "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx"
+      },
+      {
+        "label": "Reuters: independent earnings coverage and LSEG analyst expectations",
+        "url": "https://www.reuters.com/technology/sofis-shares-jump-after-fintech-beats-estimates-raises-revenue-forecast-2026-10-27/"
+      },
+      {
+        "label": "Wall Street Journal: membership growth and updated outlook",
+        "url": "https://www.wsj.com/business/earnings/sofi-lifts-outlook-after-profit-revenue-and-memberships-jump-8cc45f94"
+      }
+    ],
+    "body": [
+      "<p>SoFi Technologies raised its annual outlook on Tuesday after third-quarter net income reached $241 million, up 73% from a year earlier. The digital financial-services company is expanding its lending and customer relationships while trying to turn that larger business into sustained earnings. Its new forecast also gives shareholders an early benchmark for growth next year.</p>",
+      "<p>The company reported GAAP net revenue of $1.385 billion and adjusted net revenue of $1.371 billion, both up 44%. Diluted earnings were 18 cents a share. Those closely rounded revenue figures describe different accounting measures, even though both can be summarized as roughly $1.4 billion. Adjusted results should be compared with adjusted expectations rather than substituted silently for the financial statements.</p>",
+      "<p>Reuters reported that adjusted revenue exceeded the $1.25 billion consensus compiled by LSEG. It put the new annual revenue forecast above analysts' $4.87 billion expectation. The comparison helps explain the positive initial market reception, but an <a href=\"earnings-beat-miss-explained.html\">earnings beat</a> answers a narrower question than whether the company's growth will remain profitable through a full credit cycle.</p>",
+      "<h2>More customers, and a bigger relationship with each</h2>",
+      "<p>The Wall Street Journal reported that SoFi added a record 1.2 million members, taking the total to 17.1 million, a 35% annual increase. A larger membership provides more opportunities to offer saving, borrowing and investing services. It does not mean each member uses every product, or that every account contributes the same amount of revenue.</p>",
+      "<p>For a digital lender, the economics depend on what happens after a customer joins. A relationship that produces regular deposits and several useful services can spread acquisition and servicing costs across more activity. An account opened for a single incentive or a short-lived borrowing need may produce a different return. Membership growth therefore needs to be read alongside usage, revenue and expenses.</p>",
+      "<p>SoFi's consumer-facing platform and its technology services also serve different customers. The latter supplies infrastructure to other businesses. Combining all activity into a single user-growth story would obscure the distinction between attracting an individual depositor and winning or retaining a large corporate client. Each business has its own sales cycle, concentration exposure and demands on investment.</p>",
+      "<h2>Lending growth brings a second balance sheet test</h2>",
+      "<p>SoFi reported $16.9 billion of total loan originations, including $3.8 billion generated through its Loan Platform Business. That platform activity involves originating loans for third parties and referrals; it should not all be treated as lending retained on SoFi's own balance sheet. Origination volume, recognized revenue and the amount of credit risk held are separate measures.</p>",
+      "<p>This distinction matters when comparing a lender with a software company. Software revenue can expand without funding an equivalent amount of customer borrowing. A retained loan needs financing and exposes the holder to the borrower's ability to repay. Selling or arranging loans changes the distribution of those obligations, although it still requires buyers, operational controls and reliable underwriting.</p>",
+      "<p>Our <a href=\"bank-of-america-q3-2026-results.html\">coverage of bank earnings</a> explains why funding and credit deserve attention alongside headline revenue. Lower funding costs can support lending margins, while unexpected defaults can consume income earned earlier. Fast growth makes it especially useful to follow how different groups of loans perform as they age, rather than judging the entire portfolio from new production alone.</p>",
+      "<h2>The 2027 forecast raises expectations, too</h2>",
+      "<p>Management now projects $5.04 billion in adjusted net revenue and 61 cents of adjusted earnings per share for 2026. Its initial 2027 outlook calls for $6.4 billion of adjusted revenue and 90 cents a share. Those are company forecasts, not booked income. The revenue target implies roughly 27% growth next year, compared with about 40% in this year's outlook.</p>",
+      "<p>A slower growth percentage can accompany a larger absolute addition to revenue as the starting base expands. What matters for shareholders is the income retained after funding, servicing, marketing and credit costs. Our <a href=\"free-cash-flow-explained.html\">cash flow explainer</a> also shows why accounting earnings and immediately available cash do not move in lockstep. SoFi's next reports will show how much of its expanding customer base translates into durable returns, and whether execution matches the higher expectations now built into management's forecast.</p>"
+    ],
+    "image": "assets/editorial/sofi-q3-2026-profit-members-guidance-cover-v1.webp",
+    "imageSmall": "assets/responsive/sofi-q3-2026-profit-members-guidance-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/sofi-q3-2026-profit-members-guidance-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/sofi-q3-2026-profit-members-guidance-cover-v1-480.webp 480w, assets/responsive/sofi-q3-2026-profit-members-guidance-cover-v1-960.webp 960w, assets/editorial/sofi-q3-2026-profit-members-guidance-cover-v1.webp 1672w",
+    "date": "2026-10-27T16:08:38Z",
+    "dateModified": "2026-10-27T16:08:38Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "apple-m6-macbook-pro-imac-launch-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Apple Launches M6 MacBook Pro and iMac With a Bigger On-Device AI Pitch",
+    "dek": "The 14-inch notebook starts at $1,999 and the desktop at $1,499. Apple’s performance claims use different comparison models, making the fine print important.",
+    "tickers": [
+      "AAPL"
+    ],
+    "imageAlt": "Illustrative reconstruction of a silver M6 MacBook Pro with its Apple logo visible and a blue M6 iMac, based on official Apple product references.",
+    "sources": [
+      {
+        "label": "Apple: new 14-inch MacBook Pro with M6, official specifications and test qualifications",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+      },
+      {
+        "label": "Apple: new iMac with M6, pricing and availability",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+      },
+      {
+        "label": "Reuters: product announcement and launch timing",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-launches-m6-macbook-pro-imac-pitches-faster-on-device-ai-2026-10-27/"
+      },
+      {
+        "label": "MacRumors: configuration details for the new MacBook Pro",
+        "url": "https://www.macrumors.com/2026/10/27/m6-14-inch-macbook-pro-pre-orders-release-date/"
+      }
+    ],
+    "body": [
+      "<p>Apple announced a 14-inch MacBook Pro and a new iMac powered by its M6 chip on Tuesday, putting local AI processing at the center of another Mac refresh. The notebook starts at $1,999 in the United States and the desktop at $1,499. Preorders open October 28, with customer deliveries and retail availability beginning November 6.</p>",
+      "<p>The launches give Apple two different ways to sell the same broad proposition: more computing work performed on the device rather than sent to a remote server. That can matter for responsiveness, offline operation and the handling of sensitive material. It also makes software compatibility and memory capacity important parts of the buying decision, beyond a processor's headline performance number.</p>",
+      "<p>Reuters confirmed the announcement and release schedule. These are announced products with published specifications, separate from the speculation surrounding Apple's October 28 event. Our <a href=\"apple-pro-and-tell-october-28-2026-event.html\">earlier event preview</a> covered what was expected; Tuesday's releases now establish which changes are official without confirming every other rumored device or feature.</p>",
+      "<h2>The laptop and desktop use different benchmarks</h2>",
+      "<p>Apple says the M6 MacBook Pro offers up to 30% faster graphics and up to 25% faster AI workloads than the M5 model. Its claim of up to five times faster on-device AI for the iMac uses the older M4 as the comparison. Those percentages cannot be placed side by side as though they measure the relative speed of the two new computers.</p>",
+      "<p>The distinction is practical for existing owners. A result measured against an older generation can show a much larger improvement than one measured against the immediate predecessor. Specific tasks can also stress different parts of the system. Prompt processing, image generation and a long video export do not necessarily respond equally to extra CPU cores, graphics resources or dedicated AI hardware.</p>",
+      "<p>Apple's figures are manufacturer test claims, not independent TTN measurements. An “up to” result describes a selected test outcome rather than the improvement every application will deliver. Anyone comparing upgrade options needs the relevant workload, configuration and baseline. A large improvement in one benchmark does not establish that ordinary document editing or browsing will feel proportionately faster.</p>",
+      "<h2>Memory can decide which local models are useful</h2>",
+      "<p>The notebook's official configuration includes a 12-core CPU, a 12-core GPU and two 16-core Neural Engines. It starts with 16GB of unified memory and can be configured with up to 32GB. MacRumors reports that the base notebook includes 1TB of storage. Memory and storage perform different jobs: more SSD capacity does not replace the memory required to keep an AI model and its working data available.</p>",
+      "<p>Our <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of AI returns</a> describes why usable workflow improvements matter more than a demonstration alone. A local model that loads successfully still needs to produce sufficiently accurate results at an acceptable speed. Editing, checking and integrating its output remain part of the total work, particularly for professional tasks where errors have a cost.</p>",
+      "<p>Local processing can reduce the amount of information sent elsewhere, but it is not a blanket description of everything an application does. A program may combine device-based features with online services, account synchronization or cloud inference. The <a href=\"enterprise-ai-data-security-2026.html\">data-security implications</a> depend on the actual workflow and permissions, rather than simply on whether the computer contains a faster AI accelerator.</p>",
+      "<h2>The iMac offers a different upgrade calculation</h2>",
+      "<p>The new iMac retains a 24-inch 4.5K display and seven color options. Apple lists a $1,499 version with a 10-core CPU and GPU and a $1,699 version with 12 cores of each. Both product families add Wi-Fi 7 and Bluetooth 6. Those wireless specifications are capabilities, not guarantees of a faster internet connection without suitable networking equipment.</p>",
+      "<p>A desktop buyer gets an integrated display and a fixed workstation; a notebook buyer pays for portability as well as computing capacity. That difference can outweigh a benchmark gap. Tuesday's announcements supply concrete configurations and dates for that comparison. Independent application testing, once the machines are available, will provide the missing evidence about how consistently Apple's claimed gains appear in everyday professional use.</p>"
+    ],
+    "image": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v4.webp",
+    "imageSmall": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-480.webp",
+    "imageMedium": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-960.webp",
+    "imageSrcset": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-480.webp 480w, assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-960.webp 960w, assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v4.webp 1672w",
+    "date": "2026-10-27T16:08:38Z",
+    "dateModified": "2026-10-27T16:08:38Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "circle-aci-usdc-colombia-settlement-pilot-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Circle and ACI Plan a USDC Settlement Pilot in Colombia",
+    "dek": "The initiative tests stablecoin settlement alongside existing banking infrastructure. It does not announce a nationwide USDC rollout or replace Colombia’s peso payments system.",
+    "tickers": [
+      "CRCL",
+      "ACIW"
+    ],
+    "imageAlt": "Illustrative reconstruction of ACI Worldwide’s documented Florida office entrance and authentic installed branding, not a photograph of the pilot.",
+    "sources": [
+      {
+        "label": "Circle: USDC settlement collaboration with ACI Worldwide, October 27",
+        "url": "https://www.circle.com/pressroom/aci-worldwide-and-circle-collaborate-to-bring-usdc-settlement-to-existing-payments-infrastructure-in-latin-america"
+      },
+      {
+        "label": "ACI Worldwide: announcement and Colombian pilot scope",
+        "url": "https://investor.aciworldwide.com/news-releases/news-release-details/aci-worldwide-and-circle-collaborate-bring-usdc-settlement"
+      },
+      {
+        "label": "Circle: USDC issuance and dollar redemption framework",
+        "url": "https://www.circle.com/usdc"
+      },
+      {
+        "label": "Circle: reserve assets and transparency disclosures",
+        "url": "https://www.circle.com/transparency"
+      },
+      {
+        "label": "StreetInsider: reported pilot announcement and original release time",
+        "url": "https://www.streetinsider.com/Corporate%2BNews/ACI%2BWorldwide%2Band%2BCircle%2Bto%2Bpilot%2BUSDC%2Bsettlement%2Bin%2BColombia/27235938.html?classic=1"
+      }
+    ],
+    "body": [
+      "<p>Circle and payments-software company ACI Worldwide announced a collaboration on Tuesday to demonstrate USDC settlement inside existing banking infrastructure, with Colombia as the initial focus. The initiative addresses a less visible part of digital payments: how institutions complete the movement of value after a customer or business starts a transfer.</p>",
+      "<p>The companies plan to use ACI Connetic, a platform that coordinates different payment systems, together with Circle's USDC infrastructure. ACI built the central infrastructure behind Bre-B, Colombia's interoperable instant-payments ecosystem. The announcement describes a pilot alongside that established infrastructure. It does not say that Bre-B has switched to USDC or that every participating bank is offering stablecoin accounts.</p>",
+      "<p>This distinction matters because a dollar-linked token and a domestic account transfer solve different problems. USDC represents a claim intended to track the U.S. dollar, while a local payment system connects accounts and institutions. Our <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin explainer</a> examines why the asset's backing, redemption arrangements and access to liquidity remain important even when its transfer takes place quickly.</p>",
+      "<h2>A payment instruction is only part of a payment</h2>",
+      "<p>An institution connecting stablecoins to its existing operations must track more than a transaction identifier. It needs to associate the transfer with the right customer or obligation, decide when the payment is considered complete, and reconcile the resulting balances. The operational record must remain understandable when one part of a journey uses a bank account and another uses a blockchain.</p>",
+      "<p>Consider a business that needs to pay an invoice denominated in pesos but holds dollar-linked tokens. A token transfer alone does not establish the exchange rate, identify the provider of pesos or guarantee that the recipient can spend the local currency immediately. These are examples of implementation questions, not features that Tuesday's pilot announcement says have already been solved.</p>",
+      "<p>ACI and Circle describe their work as helping institutions evaluate settlement within familiar operating environments. The release does not disclose transaction volumes, participating financial institutions, a production launch date or measured customer savings. The relevant evidence will be how a live implementation handles the full journey, including conversion, controls, reconciliation and exceptions, rather than simply whether a token can be sent.</p>",
+      "<h2>Dollar reserves and local liquidity are separate issues</h2>",
+      "<p>Circle describes USDC as redeemable one-for-one for U.S. dollars. Its transparency materials describe reserves that include bank deposits, short-term Treasuries and overnight Treasury repurchase agreements. That framework concerns the backing of the token. It does not mean a Colombian payment recipient automatically has direct access to Circle's redemption service or receives pesos without an intermediary.</p>",
+      "<p>The difference resembles the distinction between owning an asset and having access to the cash needed for a particular payment. An institution may need liquidity in both currencies, contractual arrangements with service providers and procedures for handling a delay. A dollar redemption promise does not fix the dollar-peso exchange rate or eliminate the cost of moving between financial systems.</p>",
+      "<p>Our <a href=\"circle-usdc-revenue-sharing-stablecoin-competition-2026.html\">coverage of stablecoin distribution economics</a> shows why access and commercial arrangements matter alongside token issuance. A broader payments footprint can create opportunities for an issuer, but an announced integration does not establish new revenue, profitable transaction volumes or the share of any fees retained by the companies involved.</p>",
+      "<h2>The pilot tests integration rather than a new currency regime</h2>",
+      "<p>The companies say Connetic supports traditional payments, card activity and digital assets through one orchestration platform. That is a proposed way to coordinate routes, not evidence that all those routes share the same legal treatment, settlement finality or hours of cash redemption. A useful pilot would make those differences manageable within the institution's actual operations.</p>",
+      "<p>The announcement also leaves room for other networks and future settlement models. It should therefore be read as an integration initiative rather than an exclusive conversion of Colombia's financial system to one token. Our <a href=\"defi-basics-explained.html\">guide to blockchain financial infrastructure</a> explains why moving instructions into software does not remove the surrounding custody and governance decisions. For Circle and ACI, the next meaningful milestone is evidence from implementation: which institutions participate, what goes live, and what costs or operational problems the system demonstrably resolves.</p>"
+    ],
+    "image": "assets/editorial/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1-480.webp 480w, assets/responsive/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1-960.webp 960w, assets/editorial/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T16:08:38Z",
+    "dateModified": "2026-10-27T16:08:38Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "coca-cola-q3-2026-volume-profit-outlook",
     "section": "Market Analysis",
     "format": "news",

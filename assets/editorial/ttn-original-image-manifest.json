@@ -2454,5 +2454,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 170072,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-afternoon.md."
+  },
+  {
+    "article": "sofi-q3-2026-profit-members-guidance",
+    "file": "assets/editorial/sofi-q3-2026-profit-members-guidance-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T15:43:56Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 403822,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-evening.md."
+  },
+  {
+    "article": "apple-m6-macbook-pro-imac-launch-2026",
+    "file": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v4.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T15:43:56Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 108974,
+    "provenance": "Generated editorial reconstruction from official Apple M6 MacBook Pro rear-lid lifestyle reference and M6 iMac full product reference. Laptop logo visible at card size; complete products and geometry inspected. Not documentary evidence."
+  },
+  {
+    "article": "circle-aci-usdc-colombia-settlement-pilot-2026",
+    "file": "assets/editorial/circle-aci-usdc-colombia-settlement-pilot-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T15:43:56Z",
+    "nativeSize": [
+      1672,
+      940
+    ],
+    "outputSize": [
+      1672,
+      940
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 311748,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-evening.md."
   }
 ]
