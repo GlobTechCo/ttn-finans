@@ -1,6 +1,151 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "boeing-q3-2026-737-production-cash-outlook",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Boeing’s 737 Delay Pushes Its Cash Recovery Further Out",
+    "dek": "The planemaker reported positive quarterly free cash flow, but slower production and a weaker 2027 outlook put its recovery timetable under pressure.",
+    "tickers": [
+      "BA"
+    ],
+    "imageAlt": "Illustrative reconstruction of a Boeing 737 MAX in Boeing house colors on an airport apron, based on documented aircraft references.",
+    "sources": [
+      {
+        "label": "Boeing: third-quarter results, cash flow reconciliation and segment figures",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "Reuters: conference-call production timetable and 2027 cash outlook",
+        "url": "https://www.reuters.com/business/aerospace-defense/boeing-jetliner-production-challenges-weigh-third-quarter-results-2026-10-27/"
+      }
+    ],
+    "body": [
+      "<p>Boeing's recovery is taking longer to reach the factory floor. The planemaker now expects to achieve a 737 production rate of 47 aircraft a month in early 2027, rather than this summer, Reuters reported after Tuesday's earnings call. Its roughly $3 billion free cash flow outlook for next year also fell short of Wall Street's $5.5 billion expectation, according to the report.</p>",
+      "<p>The immediate tension is between a business generating cash again and a production system that has yet to deliver the pace investors expected. Boeing's third-quarter release showed $464 million of free cash flow. Across the first nine months, however, that measure remained negative by $359 million. A positive quarter therefore does not establish that the full year's cash recovery has already been secured.</p>",
+      "<p>Revenue rose 4% to $24.188 billion, while the company recorded a $116 million net loss. Boeing's non-GAAP core loss was 34 cents a share. The contrast between sales growth and a bottom-line loss is a reminder that delivering more business and retaining more of its value are separate tasks. Our <a href=\"earnings-beat-miss-explained.html\">guide to reading earnings results</a> explains why the outlook can matter as much as the reported quarter.</p>",
+      "<h2>Orders are abundant; conversion is the constraint</h2>",
+      "<p>Boeing ended September with a record total backlog of about $745 billion. Its commercial aircraft business accounted for roughly $612 billion and more than 6,300 airplanes. That order book supports a long runway of potential work. It is neither cash already received nor a guarantee that every future aircraft will be produced at the margin originally expected.</p>",
+      "<p>For shareholders, the important conversion is from an order into a completed, accepted delivery with its associated costs and payments. An assembly delay can extend the time that materials and partially completed aircraft tie up resources. Raising output also requires the preceding stages to keep pace. Additional capacity at one workstation cannot by itself resolve a shortage of usable components arriving from another.</p>",
+      "<p>Reuters identified wing production as a continuing constraint on the 737 ramp. That makes the timetable more consequential than a monthly production target viewed in isolation. A rate has to be supported repeatedly by the broader manufacturing system. Briefly achieving a higher number is less useful than sustaining it without creating another round of disruption, rework or unfinished inventory.</p>",
+      "<h2>The commercial business still loses money</h2>",
+      "<p>Boeing delivered 161 commercial airplanes during the quarter and 475 in the first nine months. Those totals cover its commercial aircraft portfolio, not just the 737. The commercial division generated $10.720 billion of quarterly revenue but lost $697 million from operations, an operating margin of negative 6.5%.</p>",
+      "<p>These figures help explain why a large order book does not settle the investment debate. Revenue can grow while a segment consumes economic value if production and delivery costs remain too high. The relevant recovery would combine dependable output, profitable aircraft economics and stronger cash conversion. None of those measures can substitute completely for the others.</p>",
+      "<p>Our <a href=\"free-cash-flow-explained.html\">free cash flow explainer</a> also distinguishes operating cash from the money left after investment in equipment and facilities. Boeing reported $1.496 billion of operating cash flow and $1.032 billion of capital expenditure in the quarter. Subtracting the second from the first produces the $464 million free cash flow figure; presenting operating cash alone would overstate the amount remaining after that investment.</p>",
+      "<h2>A later recovery changes the financing calculation</h2>",
+      "<p>The company held $20.7 billion of cash and marketable securities against $45.9 billion of consolidated debt at quarter-end. Those balances describe liquidity and obligations, not an immediate repayment schedule. Still, the longer a recovery takes, the longer resources remain committed before the business can use the expected cash for other purposes.</p>",
+      "<p>The same distinction appears in our <a href=\"tesla-q3-2026-cash-flow-results.html\">coverage of Tesla's cash flow and operating profit</a>: cash generation and earnings can tell different stories within one reporting period. For Boeing, subsequent delivery figures will test the manufacturing timetable, while future financial reports will show whether those deliveries translate into sustained positive cash after capital spending. Tuesday's results leave that conversion, rather than demand for aircraft alone, at the center of the recovery.</p>"
+    ],
+    "image": "assets/editorial/boeing-q3-2026-737-production-cash-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/boeing-q3-2026-737-production-cash-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/boeing-q3-2026-737-production-cash-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/boeing-q3-2026-737-production-cash-outlook-cover-v1-480.webp 480w, assets/responsive/boeing-q3-2026-737-production-cash-outlook-cover-v1-960.webp 960w, assets/editorial/boeing-q3-2026-737-production-cash-outlook-cover-v1.webp 1672w",
+    "date": "2026-10-27T18:45:37Z",
+    "dateModified": "2026-10-27T18:45:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "oracle-google-tpu-nvidia-cloud-expansion-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Oracle Adds Google AI Chips as Nvidia Partnership Expands",
+    "dek": "Google’s TPUs are due on Oracle Cloud in 2027. A separate Nvidia expansion combines already available systems with a larger planned rollout.",
+    "tickers": [
+      "ORCL",
+      "GOOGL",
+      "NVDA"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Oracle Waterfront Campus entrance sign at 2300 Oracle Way, Austin.",
+    "sources": [
+      {
+        "label": "Oracle and Google: TPU availability and architecture announcement",
+        "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/"
+      },
+      {
+        "label": "Oracle and Nvidia: availability of Vera Rubin systems and expansion plans",
+        "url": "https://www.oracle.com/news/announcement/ai-world-nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-2026-10-27/"
+      },
+      {
+        "label": "Reuters: independent reporting on Oracle’s chip supply expansion",
+        "url": "https://www.reuters.com/business/oracle-expands-chip-supply-deal-with-nvidia-adds-google-cerebras-offerings-2026-10-27/"
+      }
+    ],
+    "body": [
+      "<p>Oracle is widening the choice of processors inside its cloud, announcing on Tuesday that customers will be able to use Google's AI chips through Oracle Cloud Infrastructure starting in calendar 2027. The agreement makes Oracle the first hyperscale cloud provider outside Google to offer the company's Tensor Processing Units, or TPUs, according to the companies.</p>",
+      "<p>At the same event in Las Vegas, Oracle and Nvidia announced a separate plan to expand Vera Rubin computing systems to multi-gigawatt scale. Oracle said Vera Rubin NVL72 systems and Nvidia Vera CPUs are now generally available on its cloud. The larger expansion remains a plan. Those two timelines matter: an available configuration is different from an entire future fleet already being installed and generating revenue.</p>",
+      "<p>Together, the announcements position Oracle as a place to rent several kinds of AI computing rather than rely on one processor design. They also extend the competition beyond the chip itself. Power, cooling, networking, software and the ability to keep expensive equipment busy determine how useful that choice becomes. Our <a href=\"ai-capex-nasdaq-correction.html\">analysis of returns on AI spending</a> explains why capacity announcements need to be tested against productive use.</p>",
+      "<h2>Google gains a new route to customers</h2>",
+      "<p>Google's TPUs are purpose-built AI accelerators. The new arrangement brings them into Oracle's infrastructure, where Oracle will supply the data-center power, cooling and networking needed for deployment. Availability is planned for 2027, with capacity increasing over several years. The announcement does not say that customers can rent those TPUs from Oracle today.</p>",
+      "<p>The commercial implication is a broader distribution channel for Google's technology. A customer considering Oracle's cloud would gain another hardware option without necessarily moving the entire application to Google's own cloud. But access to an additional processor is not the same as effortless migration. Software dependencies, model behavior, data movement and operational processes remain part of a real deployment decision.</p>",
+      "<p>Oracle and Google describe the eighth TPU generation as separate designs for training and inference, the work of running a trained model. That division reflects different demands. Building or updating a large model and repeatedly responding to users do not necessarily make the same hardware choice economical. A useful comparison would measure the complete workload and required service quality, rather than equating a chip's headline capability with a lower bill.</p>",
+      "<h2>Nvidia remains central to the expansion</h2>",
+      "<p>The Nvidia agreement adds scale while keeping a familiar software foundation. Oracle says its planned expansion builds on existing Blackwell-generation infrastructure and uses Nvidia's CUDA software. The companies also outlined a smaller eight-GPU Rubin configuration, separate from the 72-GPU rack-scale design. That gives the announced portfolio different deployment sizes rather than a single mandatory configuration.</p>",
+      "<p>Oracle's announcement also separates CPU work from GPU work. An AI agent may call a model, then execute code, retrieve information or operate a tool before asking the model for another response. The companies say their infrastructure lets customers scale the corresponding CPU and GPU resources independently. The intended benefit is to avoid paying for idle capacity while one stage waits for another.</p>",
+      "<p>That is a useful design objective, not an independently measured saving established by Tuesday's announcement. Our <a href=\"ai-agents-enterprise-roi-2026.html\">coverage of enterprise AI economics</a> examines how integration, accuracy and supervision affect the final return. Faster computation can improve a workflow, but it does not eliminate the cost of checking an agent's work or connecting it safely to business systems.</p>",
+      "<h2>More suppliers do not remove the physical bottlenecks</h2>",
+      "<p>Reuters reported that financial terms of the expanded Nvidia relationship were not disclosed. Consequently, the multi-gigawatt description should not be converted into an invented contract value. It describes intended infrastructure scale, not a disclosed dollar payment, a revenue guarantee or proof that all the necessary sites are energized.</p>",
+      "<p>Power and cooling still have to be delivered at the right location and time. Our <a href=\"nvidia-dsx-europe-power-cooling-october-2026.html\">report on Nvidia's European infrastructure partnerships</a> shows why those physical constraints are becoming part of the AI supply chain. Oracle's announcements broaden its technological options; their economic value will depend on deployment schedules, customer uptake and the cost of turning the available equipment into consistently useful computing. The next meaningful evidence will be delivered capacity and actual service performance, rather than another comparison of theoretical chip specifications.</p>"
+    ],
+    "image": "assets/editorial/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1-480.webp 480w, assets/responsive/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1-960.webp 960w, assets/editorial/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T18:45:37Z",
+    "dateModified": "2026-10-27T18:45:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "janus-henderson-jqqq-nasdaq-stellar-fund-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Nasdaq-100 Fund Launches on Stellar, With U.S. Investors Excluded",
+    "dek": "Janus Henderson and Centrifuge announced JQQQ, a tokenized index fund. Its legal structure and investor restrictions matter as much as its blockchain.",
+    "tickers": [
+      "Nasdaq-100"
+    ],
+    "imageAlt": "Illustrative reconstruction of Nasdaq MarketSite’s documented curved display and storefront in Times Square; not a photograph of a JQQQ launch event.",
+    "sources": [
+      {
+        "label": "Janus Henderson and Centrifuge: fund launch, legal structure and eligibility disclosures",
+        "url": "https://www.businesswire.com/news/home/20261026416295/en/Janus-Henderson-and-Centrifuge-Launch-Blockchain-Native-Fund-Tracking-the-Nasdaq-100-Index-JQQQ"
+      },
+      {
+        "label": "Centrifuge: original announcement and full fund disclaimers",
+        "url": "https://centrifuge.io/blog/jqqq-janushenderson-nasdaq"
+      },
+      {
+        "label": "CoinDesk: independent coverage of the launch and issuer-sponsored model",
+        "url": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund"
+      }
+    ],
+    "body": [
+      "<p>Janus Henderson and Centrifuge announced a blockchain-native fund tracking the Nasdaq-100 on Tuesday, taking a widely followed stock-market benchmark onto the Stellar network. The product, called JQQQ, is available only to eligible investors in permitted jurisdictions and is not available to U.S. persons, according to the launch disclosures.</p>",
+      "<p>That restriction is central to understanding the news. A fund can provide exposure to a U.S. equity benchmark without being a U.S. retail investment product. A public blockchain makes transactions visible and programmable; it does not by itself make every investment accessible to everyone with a wallet. Eligibility and the legal vehicle still determine who may participate.</p>",
+      "<p>CoinDesk reported that the launch follows the earlier Janus Henderson Anemoy S&P 500 Fund, SPXA. The new product broadens the firm's onchain index offerings, but it should not be confused with an announcement that an existing U.S.-listed ETF has moved to Stellar. Our <a href=\"etf-creation-redemption-mechanism.html\">explanation of ETF mechanics</a> describes a particular market structure; a blockchain-native fund needs to be assessed on its own terms.</p>",
+      "<h2>The legal roles are more precise than the headline</h2>",
+      "<p>The fund is a segregated portfolio of Anemoy Capital SPC Limited, a British Virgin Islands company. Its investment manager is Anemoy Asset Management Limited, with Janus Henderson Investors US LLC serving as sub-investment manager. Centrifuge supplies the onchain infrastructure, while Nasdaq licenses the index. Nasdaq does not issue, endorse or sell the fund, the disclosures state.</p>",
+      "<p>These roles separate the investment exposure from the systems used to operate and distribute it. Index licensing identifies the benchmark that a strategy seeks to follow; it does not transfer responsibility for the fund's operations to the index company. Nor does a recognizable benchmark name make the token equivalent to holding each underlying company's shares directly.</p>",
+      "<p>The launch materials expressly describe indirect economic exposure and say the product does not convey shareholder rights with respect to the index. For readers, the practical question is which legal claim the fund share represents, who administers it and how that claim is exercised. The blockchain record is one part of that arrangement, rather than a replacement for the surrounding documents.</p>",
+      "<h2>Moving fund shares is different from trading the holdings</h2>",
+      "<p>Issuing shares on a network can make it easier to connect a fund with software-based financial services. But the transfer of a token and the valuation, trading or settlement of underlying investments are distinct processes. A continuously operating network does not automatically create continuous liquidity at the fund's fair value.</p>",
+      "<p>Our <a href=\"defi-basics-explained.html\">guide to decentralized finance</a> explains why a transaction executed by software still relies on rules and outside inputs. For an index fund, a useful assessment would examine dealing arrangements, valuation, costs and the ability to meet redemptions. Tuesday's announcement is evidence of a product launch, not an independent demonstration that those features outperform conventional alternatives.</p>",
+      "<p>The companies also describe potential collateral, lending and other onchain uses. Their disclosures qualify those possibilities: third parties would provide such functionality, it may not be available to every investor or jurisdiction, and it falls outside Janus Henderson's management of the fund. Reporting it as an already universal borrowing service would go beyond what has been announced.</p>",
+      "<h2>The important test is usable distribution</h2>",
+      "<p>The Stellar launch adds another venue for tokenized investment products. It does not establish a particular increase in demand for the network's native token, and the announcement does not disclose JQQQ's opening assets. The more than $1 billion cited for Janus Henderson's onchain platform covers multiple strategies; it is not the amount raised by this new fund.</p>",
+      "<p>Our <a href=\"aviva-sterling-tokenised-fund-xrp-ledger-2026.html\">coverage of a tokenized sterling fund class</a> highlights the same distinction between a new distribution format and the investment underneath it. JQQQ's significance is the extension of an established equity benchmark into that format. Its next tests will be actual investor adoption, reliable operation and clarity about how eligible holders can use and redeem their shares. None of those outcomes can be inferred from the presence of a token alone.</p>"
+    ],
+    "image": "assets/editorial/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1-480.webp 480w, assets/responsive/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1-960.webp 960w, assets/editorial/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T18:45:37Z",
+    "dateModified": "2026-10-27T18:45:37Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "sofi-q3-2026-profit-members-guidance",
     "section": "Market Analysis",
     "format": "news",

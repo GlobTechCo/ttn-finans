@@ -2859,6 +2859,39 @@
       "bytes": 311748,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/circle-aci-usdc-colombia-settlement-pilot-2026.html"
+    },
+    {
+      "page": "boeing-q3-2026-737-production-cash-outlook.html",
+      "source": "assets/editorial/boeing-q3-2026-737-production-cash-outlook-cover-v1.webp",
+      "image": "assets/social/boeing-q3-2026-737-production-cash-outlook-cover-v1-6e271375ca60.webp",
+      "sha256": "6e271375ca60ed915b8521c872a44ed55f4e264551bcce5ae203fefc005f3a0f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 195400,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/boeing-q3-2026-737-production-cash-outlook.html"
+    },
+    {
+      "page": "oracle-google-tpu-nvidia-cloud-expansion-2026.html",
+      "source": "assets/editorial/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1.webp",
+      "image": "assets/social/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1-faba5e6e0bd5.webp",
+      "sha256": "faba5e6e0bd5c6a06cd337c84318465f6b854c654440044248a5b3d581e81281",
+      "width": 1672,
+      "height": 941,
+      "bytes": 380506,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/oracle-google-tpu-nvidia-cloud-expansion-2026.html"
+    },
+    {
+      "page": "janus-henderson-jqqq-nasdaq-stellar-fund-2026.html",
+      "source": "assets/editorial/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1.webp",
+      "image": "assets/social/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1-1606bfa3c3e0.webp",
+      "sha256": "1606bfa3c3e0ff30a3ab2c71b93631ed06da4d63195974ed206bad0137e0c4d0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 437686,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/janus-henderson-jqqq-nasdaq-stellar-fund-2026.html"
     }
   ]
 }

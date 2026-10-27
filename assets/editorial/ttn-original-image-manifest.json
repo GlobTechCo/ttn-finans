@@ -2505,5 +2505,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 311748,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-evening.md."
+  },
+  {
+    "article": "boeing-q3-2026-737-production-cash-outlook",
+    "file": "assets/editorial/boeing-q3-2026-737-production-cash-outlook-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T18:45:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 195400,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-late.md."
+  },
+  {
+    "article": "oracle-google-tpu-nvidia-cloud-expansion-2026",
+    "file": "assets/editorial/oracle-google-tpu-nvidia-cloud-expansion-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T18:45:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 380506,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-late.md."
+  },
+  {
+    "article": "janus-henderson-jqqq-nasdaq-stellar-fund-2026",
+    "file": "assets/editorial/janus-henderson-jqqq-nasdaq-stellar-fund-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T18:45:37Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 437686,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-late.md."
   }
 ]

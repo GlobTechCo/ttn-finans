@@ -1,4 +1,7 @@
 TITLES = '''
+janus-henderson-jqqq-nasdaq-stellar-fund-2026|Nasdaq-100 Fund JQQQ Launches on Stellar
+oracle-google-tpu-nvidia-cloud-expansion-2026|Oracle Adds Google TPUs, Expands Nvidia AI Deal
+boeing-q3-2026-737-production-cash-outlook|Boeing’s 737 Delay Pushes Cash Recovery Further Out
 circle-aci-usdc-colombia-settlement-pilot-2026|Circle and ACI Plan USDC Settlement Pilot
 apple-m6-macbook-pro-imac-launch-2026|Apple Launches M6 MacBook Pro and iMac
 sofi-q3-2026-profit-members-guidance|SoFi Raises Outlook After $241 Million Profit
@@ -187,6 +190,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+janus-henderson-jqqq-nasdaq-stellar-fund-2026|Janus Henderson and Centrifuge announced JQQQ, a tokenized index fund. Its legal structure and investor restrictions matter as much as its blockchain.
+oracle-google-tpu-nvidia-cloud-expansion-2026|Google’s TPUs are due on Oracle Cloud in 2027. A separate Nvidia expansion combines already available systems with a larger planned rollout.
+boeing-q3-2026-737-production-cash-outlook|The planemaker reported positive quarterly free cash flow, but slower production and a weaker 2027 outlook put its recovery timetable under pressure.
 circle-aci-usdc-colombia-settlement-pilot-2026|Circle and ACI plan a USDC settlement pilot in Colombia. The initiative evaluates banking integration, with no nationwide rollout announced.
 apple-m6-macbook-pro-imac-launch-2026|Apple announced M6 MacBook Pro and iMac models, with November 6 availability. Compare U.S. prices and the limits of its AI performance claims.
 sofi-q3-2026-profit-members-guidance|SoFi raised its outlook after quarterly net income reached $241 million. Read the growth figures, lending risks and new 2027 forecast.
