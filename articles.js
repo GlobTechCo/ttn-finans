@@ -58,7 +58,7 @@ const TTN_ARTICLES = [
     "tickers": [
       "AAPL"
     ],
-    "imageAlt": "Illustrative reconstruction of a silver M6 MacBook Pro with its Apple logo visible and a blue M6 iMac, based on official Apple product references.",
+    "imageAlt": "Temporary TTN Finance placeholder while the Apple article cover is being replaced.",
     "sources": [
       {
         "label": "Apple: new 14-inch MacBook Pro with M6, official specifications and test qualifications",
@@ -93,10 +93,10 @@ const TTN_ARTICLES = [
       "<p>The new iMac retains a 24-inch 4.5K display and seven color options. Apple lists a $1,499 version with a 10-core CPU and GPU and a $1,699 version with 12 cores of each. Both product families add Wi-Fi 7 and Bluetooth 6. Those wireless specifications are capabilities, not guarantees of a faster internet connection without suitable networking equipment.</p>",
       "<p>A desktop buyer gets an integrated display and a fixed workstation; a notebook buyer pays for portability as well as computing capacity. That difference can outweigh a benchmark gap. Tuesday's announcements supply concrete configurations and dates for that comparison. Independent application testing, once the machines are available, will provide the missing evidence about how consistently Apple's claimed gains appear in everyday professional use.</p>"
     ],
-    "image": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v4.webp",
-    "imageSmall": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-480.webp",
-    "imageMedium": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-960.webp",
-    "imageSrcset": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-480.webp 480w, assets/responsive/apple-m6-macbook-pro-imac-launch-2026-cover-v4-960.webp 960w, assets/editorial/apple-m6-macbook-pro-imac-launch-2026-cover-v4.webp 1672w",
+    "image": "assets/editorial/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1.webp",
+    "imageSmall": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1-480.webp",
+    "imageMedium": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1-960.webp",
+    "imageSrcset": "assets/responsive/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1-480.webp 480w, assets/responsive/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1-960.webp 960w, assets/editorial/apple-m6-macbook-pro-imac-launch-2026-temporary-placeholder-v1.webp 1200w",
     "date": "2026-10-27T16:08:38Z",
     "dateModified": "2026-10-27T16:08:38Z",
     "author": "TTN Research Desk",
