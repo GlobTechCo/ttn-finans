@@ -77,7 +77,7 @@ const TTNChart = (() => {
         new TradingView.widget({
         autosize: true,
         symbol: tvSymbol,
-        interval: "60",
+        interval: tvSymbol === "XETR:IFX" ? "D" : "60",
         timezone: "Etc/UTC",
         theme: document.documentElement.dataset.theme === "dark" ? "dark" : "light",
         style: "1",
