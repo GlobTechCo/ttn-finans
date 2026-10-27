@@ -1,4 +1,7 @@
 TITLES = '''
+zcash-bowe-grants-subsidy-reserve-proposal-2026|Zcash Draft Would Redirect Grants Subsidy
+guidewire-hyperexponential-ai-acquisition-2026|Guidewire Agrees to Buy Insurance AI Firm
+coca-cola-q3-2026-volume-profit-outlook|Coca-Cola Raises Outlook as Beverage Volumes Grow
 ripple-final-occ-trust-bank-approval-2026|Ripple Says OCC Grants Final Trust Bank Approval
 infineon-villach-gan-11-billion-2026|Infineon Plans €1.1 Billion GaN Chip Expansion
 hsbc-q3-2026-revenue-miss-wealth|HSBC Revenue Miss Overshadows 32% Profit Growth
@@ -181,6 +184,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+zcash-bowe-grants-subsidy-reserve-proposal-2026|Sean Bowe proposes redirecting the 8% grants subsidy to a network reserve. Existing funds stay with ZCG, and no activation height is assigned.
+guidewire-hyperexponential-ai-acquisition-2026|The agreement includes $1.7 billion in cash and a possible $400 million earnout, linking part of the price to recurring revenue targets.
+coca-cola-q3-2026-volume-profit-outlook|Coca-Cola raised its outlook as global beverage volumes grew 5%. Flat North American volumes contrast with international growth.
 ripple-final-occ-trust-bank-approval-2026|The company says the charter covers RLUSD reserve management and institutional custody. Stablecoin issuance remains with its New York-regulated subsidiary.
 infineon-villach-gan-11-billion-2026|The Villach project targets 300-millimeter gallium nitride wafers, with production scheduled for late 2027 and investment extending through 2034.
 hsbc-q3-2026-revenue-miss-wealth|Wealth revenue stalled and investors marked down the shares, despite higher quarterly profit and another planned buyback of up to $1 billion.

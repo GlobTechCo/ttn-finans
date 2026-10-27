@@ -10,6 +10,9 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
+    'KO': ('NYSE:KO', 'Coca-Cola · NYSE'),
+    'GWRE': ('NYSE:GWRE', 'Guidewire Software · NYSE'),
+    'ZEC': ('BINANCE:ZECUSDT', 'Zcash / Tether · Binance'),
     'IFX': ('XETR:IFX', 'Infineon Technologies · Xetra'),
     'EWZ': ('AMEX:EWZ', 'iShares MSCI Brazil ETF'),
     'NXT': ('ASX:NXT', 'NEXTDC · ASX'),

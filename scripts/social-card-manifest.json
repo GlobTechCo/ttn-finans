@@ -2793,6 +2793,39 @@
       "bytes": 263804,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/ripple-final-occ-trust-bank-approval-2026.html"
+    },
+    {
+      "page": "coca-cola-q3-2026-volume-profit-outlook.html",
+      "source": "assets/editorial/coca-cola-q3-2026-volume-profit-outlook-cover-v1.webp",
+      "image": "assets/social/coca-cola-q3-2026-volume-profit-outlook-cover-v1-02c38edf3c3b.webp",
+      "sha256": "02c38edf3c3b0a832caca524bf8150efd4c02aa071d1d62e62da4a02b61e0746",
+      "width": 1672,
+      "height": 941,
+      "bytes": 213308,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/coca-cola-q3-2026-volume-profit-outlook.html"
+    },
+    {
+      "page": "guidewire-hyperexponential-ai-acquisition-2026.html",
+      "source": "assets/editorial/guidewire-hyperexponential-ai-acquisition-2026-cover-v1.webp",
+      "image": "assets/social/guidewire-hyperexponential-ai-acquisition-2026-cover-v1-a6594f1ff0e9.webp",
+      "sha256": "a6594f1ff0e9401c942f081af29d15c24a1b726c29d6f80ed74b742e2f7899ec",
+      "width": 1672,
+      "height": 940,
+      "bytes": 413138,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/guidewire-hyperexponential-ai-acquisition-2026.html"
+    },
+    {
+      "page": "zcash-bowe-grants-subsidy-reserve-proposal-2026.html",
+      "source": "assets/editorial/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1.webp",
+      "image": "assets/social/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1-00b36e71982e.webp",
+      "sha256": "00b36e71982ef0563b4338d92ab9e22627898ca480dc99406d1ebda866507b3d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 170072,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/zcash-bowe-grants-subsidy-reserve-proposal-2026.html"
     }
   ]
 }

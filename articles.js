@@ -1,6 +1,160 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "coca-cola-q3-2026-volume-profit-outlook",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "Coca-Cola Raises Its Profit Outlook as Global Volumes Grow 5%",
+    "dek": "International demand supported the upgrade, while flat North American volumes show why price, product mix and regional performance need separate scrutiny.",
+    "tickers": [
+      "KO"
+    ],
+    "imageAlt": "Illustrative grocery-shelf view of Coca-Cola Original Taste cans, based on an official packaging reference.",
+    "sources": [
+      {
+        "label": "Coca-Cola: third-quarter 2026 results and updated guidance, October 27",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
+      },
+      {
+        "label": "Reuters: analyst expectations, regional demand and premarket context",
+        "url": "https://www.reuters.com/business/retail-consumer/coca-cola-lifts-annual-profit-target-2026-10-27/"
+      },
+      {
+        "label": "Wall Street Journal: reported earnings and revised comparable EPS outlook",
+        "url": "https://www.wsj.com/business/earnings/coca-cola-raises-outlook-as-increased-volumes-prices-boost-results-323f3710"
+      }
+    ],
+    "body": [
+      "<p>Coca-Cola raised its full-year outlook on Tuesday after global unit case volumes grew 5% in the third quarter. The beverage company's results show demand expanding beyond price increases, with international markets supporting the performance. North American volumes, however, were flat. That regional split makes the release a more selective account of consumer spending than an unqualified signal of strength everywhere.</p>",
+      "<p>The company reported quarterly revenue of about $13.4 billion. Reuters put analysts' revenue expectation at $12.92 billion and their adjusted earnings expectation at 88 cents per share, compared with the company's 91 cents. Those comparisons explain the earnings beat without implying that every division exceeded its own forecast or that the subsequent share price must move in a particular direction.</p>",
+      "<p>For investors, the useful distinction is between selling more beverages, collecting more revenue per unit and translating overseas sales into dollars. Our <a href=\"earnings-beat-miss-explained.html\">guide to earnings beats and misses</a> explains why those operating details matter alongside the headline comparison with consensus. A result can beat estimates while still leaving open questions about the durability and geographic distribution of growth.</p>",
+      "<h2>Volume adds substance to the growth story</h2>",
+      "<p>Coca-Cola's release reported 7% organic revenue growth, a non-GAAP measure, alongside 1% growth in price/mix. Concentrate sales grew faster than unit case volume because of shipment timing. These measures track different parts of the system: concentrate shipments are not identical to the finished beverages being sold through the network in a particular period.</p>",
+      "<p>That distinction helps avoid a common mistake in reading consumer-company results. Revenue can increase because of pricing, a shift toward higher-value products or packaging, currencies, or more underlying demand. The contribution of each changes the interpretation. Stronger volume provides evidence of consumption growth, while a higher average sales value does not establish that consumers bought more physical product.</p>",
+      "<p>The regional comparison reinforces that point. The company cited India, China, Mexico and Brazil as contributors to global volume growth. North America's flat total included gains in trademark Coca-Cola offset elsewhere in the portfolio. A diversified beverage business can therefore gain in one category while losing enough in another to leave the region unchanged overall.</p>",
+      "<h2>Profit measures answer different questions</h2>",
+      "<p>Reported operating margin reached 33.4%, compared with 32% a year earlier; the comparable margin was 32.9%. The difference illustrates why reported and adjusted measures should be labeled consistently. Adjustments can help compare operating periods, but they do not replace the financial statements or make every excluded item irrelevant to shareholders.</p>",
+      "<p>The Wall Street Journal reported that Coca-Cola lifted its full-year comparable earnings-per-share growth target to at least 11%, from 9% to 10%. That is distinct from the currency-neutral measure excluding acquisitions and divestitures. Mixing those targets would create a false impression of the size of the upgrade, since each uses a different basis of comparison.</p>",
+      "<p>The revised organic revenue target is growth of at least 5%. Both targets remain management expectations. Their eventual delivery will depend on demand, costs, currencies and execution through the remainder of the year. A forecast revision is meaningful new information, but it is not an additional quarter of earnings already earned or a guaranteed outcome.</p>",
+      "<h2>Cash generation gives the outlook another test</h2>",
+      "<p>Our <a href=\"free-cash-flow-explained.html\">free cash flow explainer</a> sets out why cash generation deserves attention alongside accounting earnings. A company can report growing profit while spending more on equipment or carrying additional working capital. The timing of collections and payments can also make a single period's cash performance differ from the pace of the income statement.</p>",
+      "<p>For Coca-Cola, the next evidence to follow is whether volume momentum continues and how costs affect the conversion of sales into profit. It would be premature to treat one company's global beverage performance as a direct estimate of the health of every American household. Our <a href=\"retailer-earnings-consumer-bellwether-explained.html\">guide to consumer bellwethers</a> discusses why a company's customers, products and geographic exposure determine what its results can reveal.</p>",
+      "<p>Tuesday's upgrade rests on a real operating improvement, with rising global volumes accompanying the profit outlook. The flat North American volume result remains part of the same story. Reading both together produces a more useful assessment than treating either the global growth number or the regional weakness as a complete description of demand.</p>"
+    ],
+    "image": "assets/editorial/coca-cola-q3-2026-volume-profit-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/coca-cola-q3-2026-volume-profit-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coca-cola-q3-2026-volume-profit-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coca-cola-q3-2026-volume-profit-outlook-cover-v1-480.webp 480w, assets/responsive/coca-cola-q3-2026-volume-profit-outlook-cover-v1-960.webp 960w, assets/editorial/coca-cola-q3-2026-volume-profit-outlook-cover-v1.webp 1672w",
+    "date": "2026-10-27T12:45:48Z",
+    "dateModified": "2026-10-27T12:45:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "guidewire-hyperexponential-ai-acquisition-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Guidewire Agrees to Buy Insurance AI Firm hyperexponential for Up to $2.1 Billion",
+    "dek": "The agreement includes $1.7 billion in cash and a possible $400 million earnout, linking part of the price to recurring revenue targets.",
+    "tickers": [
+      "GWRE"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Guidewire office exterior with its authentic installed sign.",
+    "sources": [
+      {
+        "label": "Guidewire: definitive acquisition agreement and funding terms, via PR Newswire, October 27",
+        "url": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html"
+      },
+      {
+        "label": "Reuters: independent reporting on the agreement and insurance software market",
+        "url": "https://www.reuters.com/legal/litigation/guidewire-buy-uk-insurance-ai-firm-hyperexponential-deal-worth-up-21-billion-2026-10-27/"
+      }
+    ],
+    "body": [
+      "<p>Guidewire has agreed to acquire London-based hyperexponential, a provider of AI-enabled insurance underwriting and pricing software, for $1.7 billion in cash plus up to $400 million tied to recurring revenue targets. The deal announced Tuesday would expand Guidewire's tools for commercial property and casualty insurers, moving further into the decisions that determine which risks an insurer accepts and what it charges.</p>",
+      "<p>The distinction from a general-purpose chatbot acquisition is important. Insurance underwriting combines customer information, loss history, pricing assumptions and limits on how much risk an insurer can carry. Guidewire is buying software intended to operate inside that process. Reuters independently reported the agreement, which has been signed but has not yet closed.</p>",
+      "<p>Our <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of enterprise AI returns</a> explains why a specialized workflow can offer a clearer commercial test than a broad claim about automation. The relevant outcome is not simply whether an agent can produce an answer. It is whether the software improves a decision, fits existing controls and delivers enough value for the customer to keep paying for it.</p>",
+      "<h2>The headline price includes a conditional payment</h2>",
+      "<p>The announced $2.1 billion maximum combines the base purchase price and an earnout. The additional $400 million depends on specified recurring revenue targets. It should not be presented as cash that will necessarily be paid. The final acquisition cost will depend on the agreement's adjustments and on whether the conditions for the contingent consideration are met.</p>",
+      "<p>An earnout connects part of a valuation to performance after an agreement is signed. It can narrow the difference between a seller's growth expectations and the buyer's willingness to pay immediately. It also makes the definition and measurement of the target important. A recurring revenue milestone is not the same thing as a profit, cash flow or insurance-loss target.</p>",
+      "<p>Our <a href=\"mergers-acquisitions-explained.html\">guide to mergers and acquisitions</a> describes why price, financing and completion need separate attention. A definitive agreement is a more concrete stage than preliminary talks, but the acquired business does not become part of the buyer merely because the companies announce a transaction. Closing conditions and the operational transition still stand between the agreement and the intended result.</p>",
+      "<h2>Faster underwriting still needs accountable decisions</h2>",
+      "<p>Guidewire describes its goal as agents working alongside underwriters and actuaries. That is a company strategy, rather than independent proof that the combined products will deliver better insurance results. The acquisition announcement does not establish a measured improvement in customer loss ratios or demonstrate that human review can be removed from every underwriting decision.</p>",
+      "<p>Consider the practical chain behind a quote. Software may need to extract information from a submission, reconcile incomplete records, apply a pricing model and flag exceptions. An answer generated quickly can still be wrong if an input is missing or a risk falls outside the model's useful range. The insurer needs to know which information informed the decision and when escalation is required.</p>",
+      "<p>This makes integration and control part of the product's economics. Our <a href=\"enterprise-ai-data-security-2026.html\">coverage of enterprise AI data security</a> examines why access permissions and information handling matter when an AI system operates on business records. In underwriting, a faster workflow must preserve the ability to inspect decisions and manage the consequences of incorrect or inappropriate outputs.</p>",
+      "<h2>Debt funding raises the execution stakes</h2>",
+      "<p>Guidewire expects to use $1 billion of new term-loan financing and existing cash, with a binding debt commitment from Bank of America and Citi. It targets closing in its fiscal second quarter of 2027. That fiscal period should not be confused with the second calendar quarter. The company expects to update annual guidance on its December earnings call.</p>",
+      "<p>Borrowing creates a funding obligation that is separate from the acquired software's technical potential. Commercial progress must be assessed against the resources committed, the expense of financing and the work of connecting products and customer relationships. Adding an acquired revenue base can increase reported growth immediately after consolidation without showing that the existing business is growing faster organically.</p>",
+      "<p>The deal's next tests are completion, integration and evidence of sustained customer use. Guidewire is making a substantial commitment to specialized insurance AI. The conditional portion of the price acknowledges that part of the valuation rests on future recurring revenue, which still has to be delivered after the agreement is signed.</p>"
+    ],
+    "image": "assets/editorial/guidewire-hyperexponential-ai-acquisition-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/guidewire-hyperexponential-ai-acquisition-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/guidewire-hyperexponential-ai-acquisition-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/guidewire-hyperexponential-ai-acquisition-2026-cover-v1-480.webp 480w, assets/responsive/guidewire-hyperexponential-ai-acquisition-2026-cover-v1-960.webp 960w, assets/editorial/guidewire-hyperexponential-ai-acquisition-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T12:45:48Z",
+    "dateModified": "2026-10-27T12:45:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "zcash-bowe-grants-subsidy-reserve-proposal-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Zcash Developer Proposes Redirecting the Grants Program’s 8% Subsidy to a Network Reserve",
+    "dek": "Sean Bowe’s draft leaves existing grant funds in place. Its $125 million treasury estimate depends on an assumed ZEC price, and no activation height is assigned.",
+    "tickers": [
+      "ZEC"
+    ],
+    "imageAlt": "Illustrative open-source development workspace with a laptop bearing the authentic Zcash logo; it does not depict a vote or approved upgrade.",
+    "sources": [
+      {
+        "label": "Zcash ZIP repository: draft proposal and complete specification by Sean Bowe",
+        "url": "https://github.com/zcash/zips/blob/end-zcg-stream/zips/draft-bowe-end-zcg-stream.md"
+      },
+      {
+        "label": "Zcash ZIP repository: pull request 1414, opened October 27 and not merged when reviewed",
+        "url": "https://github.com/zcash/zips/pull/1414"
+      },
+      {
+        "label": "ZIP 1016: community and coinholder funding model",
+        "url": "https://zips.z.cash/zip-1016"
+      },
+      {
+        "label": "ZIP 237: network sustainability mechanism and future issuance",
+        "url": "https://zips.z.cash/zip-0237"
+      },
+      {
+        "label": "CoinDesk: reporting on Bowe’s proposal, October 27",
+        "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury"
+      }
+    ],
+    "body": [
+      "<p>Zcash developer Sean Bowe has proposed ending the automatic allocation of 8% of new block subsidies to Zcash Community Grants and redirecting that share to the Network Sustainability Mechanism. His draft would preserve the grants program's existing treasury and its ability to award further grants. It would change future funding, rather than confiscate money already allocated.</p>",
+      "<p>The proposal is dated October 26, and its pull request was opened in the Zcash ZIP repository on October 27. When reviewed, it was open and unmerged, with no assigned mainnet or testnet activation height. It is not included in the currently specified NU7 upgrade. A published draft is a request to change network rules, not evidence that those rules have already changed.</p>",
+      "<p>The issue is how a cryptocurrency finances development as the market value of its native asset changes. An automatic share of issuance can provide more dollars when the token price rises, even without a new spending decision. Our <a href=\"bitcoin-mining-economics-explained.html\">guide to mining economics</a> explains why the destination of newly created coins matters alongside the amount miners receive.</p>",
+      "<h2>Existing funds would remain with the grants program</h2>",
+      "<p>Bowe's draft cites a dashboard snapshot showing approximately 91,453 ZEC, $8.8 million in dollar assets and $2.4 million of outstanding grant liabilities. It values the net holdings at about $125.3 million using an illustrative price of $1,300 per ZEC. The document explicitly says the dashboard inputs have not been independently reconciled and notes that the worksheet requires updating.</p>",
+      "<p>The $125 million figure is therefore a scenario, not an audited current cash balance. The same calculation gives roughly $97.8 million at $1,000 per ZEC and $52.1 million at $500. Those differences are central to the funding debate: a treasury held largely in the network's own asset can appear much larger or smaller in dollars without receiving or spending a single additional coin.</p>",
+      "<p>The draft argues that the accumulated resources are sufficient to support continued grant-making without automatic new subsidies. That is Bowe's judgment, supported by stated assumptions. Future spending, token prices, conversion costs and obligations can change the effective runway. A committee holding assets for several years still has to manage liquidity and decide which commitments it can prudently make.</p>",
+      "<h2>A reserve contribution is not an immediate miner bonus</h2>",
+      "<p>The proposed 8% allocation would be withheld from issuance and credited to the NSM balance. It would create no spendable payment output or recipient address. The draft preserves the miner-subsidy formula for a given total subsidy, so the redirected allocation could not simply be claimed by the miner producing that block.</p>",
+      "<p>The reserve's later treatment is governed separately by the NSM specification. ZIP 237 describes gradual reissuance over time while preserving the halving structure and supply limit. That is different from paying miners an extra 8% immediately, permanently destroying those coins or handing a discretionary wallet to a new committee. The contribution and its future distribution are distinct mechanisms.</p>",
+      "<p>The separate 12% Coinholder-Controlled Fund allocation would remain unchanged under Bowe's proposal. The draft also leaves existing transaction formats, historical block validity and transaction privacy properties intact. Its focus is a funding destination, rather than a redesign of shielded payments. Our <a href=\"defi-basics-explained.html\">explanation of decentralized financial infrastructure</a> discusses why governance and asset custody remain relevant even when transactions follow software-defined rules.</p>",
+      "<h2>Adoption requires more than a merged document</h2>",
+      "<p>A ZIP supplies a specification for review. Even a completed document would not, by itself, activate new consensus rules on the live network. Implementation, testing and deployment parameters would still be needed. Bowe's draft lists no reference implementation and requires the relevant NU7 funding and accounting changes to be effective before its own activation.</p>",
+      "<p>That creates a clear distinction for ZEC holders following the discussion. The current allocation continues until an applicable network change actually takes effect. No price response should be attributed mechanically to a draft, and a proposed reduction in grant inflows does not establish that development spending would stop. Our <a href=\"crypto-liquidation-leverage-explained.html\">guide to leverage and liquidation</a> explains why a technical or governance headline cannot remove ordinary trading risk.</p>",
+      "<p>The next substantive milestones are review of the financial assumptions, agreement on the funding policy, implementation and a deployment specification. Bowe has put a concrete alternative into the public process. The economic tradeoff remains open: limiting automatic treasury accumulation while ensuring the network can continue financing useful development and long-term security.</p>"
+    ],
+    "image": "assets/editorial/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1-480.webp 480w, assets/responsive/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1-960.webp 960w, assets/editorial/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T12:45:48Z",
+    "dateModified": "2026-10-27T12:45:48Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "hsbc-q3-2026-revenue-miss-wealth",
     "section": "Market Analysis",
     "format": "news",

@@ -2403,5 +2403,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 263804,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-morning.md."
+  },
+  {
+    "article": "coca-cola-q3-2026-volume-profit-outlook",
+    "file": "assets/editorial/coca-cola-q3-2026-volume-profit-outlook-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T12:45:48Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 213308,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-afternoon.md."
+  },
+  {
+    "article": "guidewire-hyperexponential-ai-acquisition-2026",
+    "file": "assets/editorial/guidewire-hyperexponential-ai-acquisition-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T12:45:48Z",
+    "nativeSize": [
+      1672,
+      940
+    ],
+    "outputSize": [
+      1672,
+      940
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 413138,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-afternoon.md."
+  },
+  {
+    "article": "zcash-bowe-grants-subsidy-reserve-proposal-2026",
+    "file": "assets/editorial/zcash-bowe-grants-subsidy-reserve-proposal-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T12:45:48Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 170072,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-afternoon.md."
   }
 ]
