@@ -1,4 +1,7 @@
 TITLES = '''
+ripple-final-occ-trust-bank-approval-2026|Ripple Says OCC Grants Final Trust Bank Approval
+infineon-villach-gan-11-billion-2026|Infineon Plans €1.1 Billion GaN Chip Expansion
+hsbc-q3-2026-revenue-miss-wealth|HSBC Revenue Miss Overshadows 32% Profit Growth
 kraken-hyperliquid-us-perpetuals-testnet-2026|Kraken’s Hyperliquid Plan Advances on Testnet
 apple-iphone-duo-display-replacements-2026|Apple Offers Replacements for iPhone Duo Faults
 doordash-instacart-17-billion-talks-2026|DoorDash in Talks for $17 Billion Instacart Deal
@@ -178,6 +181,9 @@ yen-carry-trade-explained|Yen Carry Trades: Exchange Rates and Yield
  yield-curve-inversion-recession-signal|Yield-Curve Inversion and Recession Risk
 '''
 DESCRIPTIONS = '''
+ripple-final-occ-trust-bank-approval-2026|The company says the charter covers RLUSD reserve management and institutional custody. Stablecoin issuance remains with its New York-regulated subsidiary.
+infineon-villach-gan-11-billion-2026|The Villach project targets 300-millimeter gallium nitride wafers, with production scheduled for late 2027 and investment extending through 2034.
+hsbc-q3-2026-revenue-miss-wealth|Wealth revenue stalled and investors marked down the shares, despite higher quarterly profit and another planned buyback of up to $1 billion.
 kraken-hyperliquid-us-perpetuals-testnet-2026|Hyperliquid confirmed Payward’s intended role and outlined optional account restrictions. The proposed U.S. offering has no announced launch date or approval.
 apple-iphone-duo-display-replacements-2026|Apple acknowledged problems affecting some inner displays. An independent teardown points to a possible hinge stress area, but the cause remains unconfirmed.
 doordash-instacart-17-billion-talks-2026|Reports of advanced negotiations put grocery delivery, retailer relationships and acquisition costs in focus. Neither company has announced a signed deal.

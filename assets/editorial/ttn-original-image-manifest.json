@@ -2352,5 +2352,56 @@
     "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
     "bytes": 148908,
     "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027.md."
+  },
+  {
+    "article": "hsbc-q3-2026-revenue-miss-wealth",
+    "file": "assets/editorial/hsbc-q3-2026-revenue-miss-wealth-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T08:30:04Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 340702,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-morning.md."
+  },
+  {
+    "article": "infineon-villach-gan-11-billion-2026",
+    "file": "assets/editorial/infineon-villach-gan-11-billion-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T08:30:04Z",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "outputSize": [
+      1672,
+      941
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 413142,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-morning.md."
+  },
+  {
+    "article": "ripple-final-occ-trust-bank-approval-2026",
+    "file": "assets/editorial/ripple-final-occ-trust-bank-approval-2026-cover-v1.webp",
+    "source": "OpenAI built-in image generation",
+    "generatedAt": "2026-10-27T08:30:04Z",
+    "nativeSize": [
+      1672,
+      940
+    ],
+    "outputSize": [
+      1672,
+      940
+    ],
+    "processing": "Native size retained; WebP quality 93; responsive 480/960 sizes",
+    "bytes": 263804,
+    "provenance": "Illustrative reconstruction, not documentary evidence. Internal research and references in scripts/editorial-news-20261027-morning.md."
   }
 ]

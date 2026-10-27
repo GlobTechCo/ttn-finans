@@ -2760,6 +2760,39 @@
       "bytes": 148908,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/kraken-hyperliquid-us-perpetuals-testnet-2026.html"
+    },
+    {
+      "page": "hsbc-q3-2026-revenue-miss-wealth.html",
+      "source": "assets/editorial/hsbc-q3-2026-revenue-miss-wealth-cover-v1.webp",
+      "image": "assets/social/hsbc-q3-2026-revenue-miss-wealth-cover-v1-c62409e2bd95.webp",
+      "sha256": "c62409e2bd953546382b6e8e8dd37ea16352e4347d6186886cccd05ed608b570",
+      "width": 1672,
+      "height": 941,
+      "bytes": 340702,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/hsbc-q3-2026-revenue-miss-wealth.html"
+    },
+    {
+      "page": "infineon-villach-gan-11-billion-2026.html",
+      "source": "assets/editorial/infineon-villach-gan-11-billion-2026-cover-v1.webp",
+      "image": "assets/social/infineon-villach-gan-11-billion-2026-cover-v1-4719a432dd22.webp",
+      "sha256": "4719a432dd2204ebb3a939cc1a6ca1a836010f564a59ffc19987fca8e03cf159",
+      "width": 1672,
+      "height": 941,
+      "bytes": 413142,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/infineon-villach-gan-11-billion-2026.html"
+    },
+    {
+      "page": "ripple-final-occ-trust-bank-approval-2026.html",
+      "source": "assets/editorial/ripple-final-occ-trust-bank-approval-2026-cover-v1.webp",
+      "image": "assets/social/ripple-final-occ-trust-bank-approval-2026-cover-v1-32251fbb219f.webp",
+      "sha256": "32251fbb219fd34614b3549e976afa58c42bfdd86ca6e9d712e70faa52b84de6",
+      "width": 1672,
+      "height": 940,
+      "bytes": 263804,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ripple-final-occ-trust-bank-approval-2026.html"
     }
   ]
 }

@@ -1,6 +1,162 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "hsbc-q3-2026-revenue-miss-wealth",
+    "section": "Market Analysis",
+    "format": "news",
+    "title": "HSBC Shares Fall as Revenue Miss Overshadows a 32% Profit Increase",
+    "dek": "Wealth revenue stalled and investors marked down the shares, despite higher quarterly profit and another planned buyback of up to $1 billion.",
+    "tickers": [
+      "HSBC"
+    ],
+    "imageAlt": "Illustrative reconstruction of HSBC’s documented Park Avenue Wealth Center in New York, based on the bank’s official photograph.",
+    "sources": [
+      {
+        "label": "HSBC: third-quarter 2026 earnings release, October 27",
+        "url": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/3q/pdfs/hsbc-holdings-plc/261027-3q-2026-earnings-release.pdf"
+      },
+      {
+        "label": "HSBC: third-quarter quick read, outlook and capital context",
+        "url": "https://www.hsbc.com/investors/results-and-announcements/all-reporting/3q-2026-quick-read"
+      },
+      {
+        "label": "Reuters: revenue expectations, wealth results and Hong Kong trading reaction",
+        "url": "https://www.reuters.com/business/finance/hsbcs-third-quarter-profit-jumps-32-line-with-estimates-2026-10-27/"
+      },
+      {
+        "label": "HSBC USA: Park Avenue Wealth Center and the U.S. wealth strategy, July 3",
+        "url": "https://www.about.us.hsbc.com/newsroom/press-releases/hsbc-opens-new-park-avenue-wealth-center"
+      }
+    ],
+    "body": [
+      "<p>HSBC reported a 32% increase in third-quarter pretax profit on Tuesday, but its revenue disappointed investors looking for stronger growth. The bank earned $9.6 billion before tax and generated $18.6 billion in revenue. The contrast puts the quality of the improvement at the center of the results: a large increase in profit did not mean the underlying business was expanding at the same speed.</p>",
+      "<p>Reuters reported that revenue fell short of analysts' $19 billion forecast and that Hong Kong-listed shares slid about 6% during trading. Wealth revenue was flat at $2.7 billion, following growth of 15% and 23% in the first two quarters. Those observations concern the results release and the reported trading session, rather than a final closing price or the performance of HSBC's U.S.-listed depositary shares.</p>",
+      "<p>The distinction between growth and expectations explains why an apparently strong headline can accompany a falling share price. Our <a href=\"earnings-beat-miss-explained.html\">guide to earnings beats and misses</a> describes how investors compare a release with what was already anticipated. A bank can become more profitable while still delivering less revenue momentum than shareholders had priced in.</p>",
+      "<h2>Last year's charges change the comparison</h2>",
+      "<p>HSBC's earnings release identifies a $1.4 billion favorable movement in notable items, reflecting legal provisions booked a year earlier that did not recur. Excluding notable items and currency movements, pretax profit rose to $10 billion. The reported increase therefore combines operating progress with an easier comparison, rather than representing a 32% acceleration across every activity.</p>",
+      "<p>This matters when assessing how much of an earnings increase can repeat. The absence of a previous charge lifts the annual comparison once. Maintaining that benefit in a subsequent year does not produce another equivalent increase. Investors evaluating the quarter need to separate the revenue and cost trends from the accounting effect of moving past an unusually expensive period.</p>",
+      "<p>The bank also reported expected credit losses of $800 million, down 17%, with lower charges related to Hong Kong commercial property contributing. That is a reduction in the period's impairment expense. It does not establish that every borrower has recovered or that future credit costs must keep falling. Loan performance remains a separate part of the investment case from growth in fees or deposits.</p>",
+      "<h2>Wealth growth faces a higher bar</h2>",
+      "<p>HSBC's U.S. strategy offers a concrete example of the wealth business it is building. The bank opened a Wealth Center at 430 Park Avenue in June, replacing its previous location. Its July announcement described purpose-built spaces for financial planning and access to its international capabilities. Physical distribution and advisers create capacity, but they also need customer activity and recurring business to earn a return.</p>",
+      "<p>A flat quarterly revenue number does not reveal, on its own, whether customers stopped bringing assets, traded less or generated a different mix of fees. It does show why investors need more than an expansion narrative. Comparing balances, activity and income over several periods is more informative than treating one quarter as proof that the entire wealth strategy has succeeded or failed.</p>",
+      "<h2>Buybacks share the stage with capital requirements</h2>",
+      "<p>HSBC approved a $0.10 interim dividend per ordinary share and intends another buyback of up to $1 billion. Our <a href=\"stock-buybacks-explained.html\">explanation of share repurchases</a> sets out how reducing the share count can support per-share measures. It does not create additional customer revenue, and the authorized amount is a ceiling rather than proof that the full purchase has already occurred.</p>",
+      "<p>In its results overview, HSBC put its common equity tier 1 ratio at 13.9% and reiterated a medium-term operating range of 14% to 14.5%. It expects the final Basel 3.1 standards to provide a benefit of roughly 40 to 50 basis points in January 2027, based on its latest modeling. That prospective regulatory effect is different from raising new equity or generating an equivalent amount of cash.</p>",
+      "<p>For shareholders, the next comparison will combine wealth income, credit charges and capital available for distributions. Our <a href=\"bank-of-america-q3-2026-results.html\">recent coverage of Bank of America's results</a> provides another bank-specific earnings case. HSBC's release shows why profit growth, revenue expectations and the capacity to return capital need to be read together, with each answering a different question.</p>"
+    ],
+    "image": "assets/editorial/hsbc-q3-2026-revenue-miss-wealth-cover-v1.webp",
+    "imageSmall": "assets/responsive/hsbc-q3-2026-revenue-miss-wealth-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/hsbc-q3-2026-revenue-miss-wealth-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/hsbc-q3-2026-revenue-miss-wealth-cover-v1-480.webp 480w, assets/responsive/hsbc-q3-2026-revenue-miss-wealth-cover-v1-960.webp 960w, assets/editorial/hsbc-q3-2026-revenue-miss-wealth-cover-v1.webp 1672w",
+    "date": "2026-10-27T08:30:04Z",
+    "dateModified": "2026-10-27T08:30:04Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "infineon-villach-gan-11-billion-2026",
+    "section": "Tech & AI",
+    "format": "news",
+    "title": "Infineon Plans €1.1 Billion Austrian Expansion for Chips That Power AI Data Centers",
+    "dek": "The Villach project targets 300-millimeter gallium nitride wafers, with production scheduled for late 2027 and investment extending through 2034.",
+    "tickers": [
+      "IFX"
+    ],
+    "imageAlt": "Illustrative close view of a 300-millimeter patterned wafer and gloved cleanroom hands, based on Infineon’s official GaN manufacturing reference.",
+    "sources": [
+      {
+        "label": "Infineon: Villach 300-millimeter GaN investment announcement, October 27",
+        "url": "https://www.infineon.com/press-release/2026/infpr202610-021"
+      },
+      {
+        "label": "Infineon: gallium nitride technology, benefits and integration challenges",
+        "url": "https://www.infineon.com/technology/gallium-nitride-gan"
+      },
+      {
+        "label": "Reuters: independent reporting on the investment announcement",
+        "url": "https://www.reuters.com/business/infineon-invest-11-billion-austria-chip-site-2026-10-27/"
+      }
+    ],
+    "body": [
+      "<p>Infineon plans to invest around €1.1 billion in its Villach site in Austria through 2034, expanding production of gallium nitride power semiconductors on 300-millimeter wafers. The company announced Tuesday that production is scheduled to begin by the end of 2027. The investment targets the electrical infrastructure behind AI data centers, alongside markets such as energy systems, electric mobility and robotics.</p>",
+      "<p>The project will use existing cleanroom capacity and upgraded infrastructure. Infineon describes it as the world's first high-volume facility for this next generation of 300-millimeter GaN power chips. That is the company's characterization of a planned manufacturing capability, rather than independent evidence that the new production line is already operating at commercial scale.</p>",
+      "<p>Reuters separately reported the investment announcement. The distinction from an AI processor factory is central to understanding it. These components handle power conversion, rather than running a language model or replacing the accelerator doing the computation. Our <a href=\"ai-data-center-electricity-demand-2026.html\">coverage of data-center electricity demand</a> explains why the equipment delivering electricity has become part of the AI expansion story.</p>",
+      "<h2>A larger wafer changes manufacturing economics</h2>",
+      "<p>Infineon says a 300-millimeter wafer can yield 2.3 times as many chips as a 200-millimeter wafer. It also says the European Commission approved €319 million in state aid, with Austria's formal funding commitment still expected within the required time limits. The proposed support and the multi-year investment should not be mistaken for the same money arriving immediately.</p>",
+      "<p>Moving to a larger wafer gives a manufacturer more surface area on which to produce devices. The commercial benefit depends on how many of those devices meet specification, how reliably the process runs and how much equipment time each usable chip requires. More chip positions per wafer do not automatically translate into the same percentage reduction in the customer's final component price.</p>",
+      "<p>That makes the transfer from a technical demonstration to repeatable volume production a substantive step. A manufacturer needs predictable quality across many wafers, not just a working example. Our <a href=\"ai-chips-bottlenecks-2026.html\">guide to AI chip bottlenecks</a> considers how constraints at different production stages can determine the availability of a finished system, even when one part of the chain expands.</p>",
+      "<h2>Power conversion has its own design constraints</h2>",
+      "<p>Infineon's technical overview explains why gallium nitride attracts interest: fast switching and low switching losses can enable more compact power electronics. Higher switching frequencies can reduce the size of some surrounding components. For a data-center designer, the objective is an efficient power supply that can fit the available space and manage heat while supplying the computing equipment reliably.</p>",
+      "<p>The same overview acknowledges manufacturing complexity, cost, integration and reliability as adoption challenges. Switching from a silicon device to GaN can require changes to the circuit design. The surrounding layout and gate-driving arrangements matter, so an improved transistor is not a guarantee that an unchanged power supply will deliver the technology's potential benefits.</p>",
+      "<p>This is why a component efficiency claim should not be presented as an equivalent reduction in a whole data center's electricity bill. Computing, networking, cooling and other electrical stages still consume energy. A saving at one conversion stage can be valuable, but its contribution to the total depends on the system and workload. Tuesday's announcement provides no measured facility-wide saving for a customer deployment.</p>",
+      "<h2>The spending timetable matters to the AI investment case</h2>",
+      "<p>The end-2027 production target and spending through 2034 describe different milestones. Starting a line is the beginning of a manufacturing ramp, while a longer investment program can support further equipment and capacity. Neither date establishes a customer order book, an annual revenue contribution or an immediate return on the full announced investment.</p>",
+      "<p>For investors following Infineon on Xetra under IFX, useful subsequent evidence will include production qualification, customer adoption, utilization and the cost of manufacturing saleable devices. Our <a href=\"ai-inference-unit-economics-2026.html\">analysis of AI inference economics</a> explains why operating costs matter alongside computing performance. Power-semiconductor expansion addresses one part of that cost structure, with its value ultimately determined by working products and sustained demand.</p>"
+    ],
+    "image": "assets/editorial/infineon-villach-gan-11-billion-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/infineon-villach-gan-11-billion-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/infineon-villach-gan-11-billion-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/infineon-villach-gan-11-billion-2026-cover-v1-480.webp 480w, assets/responsive/infineon-villach-gan-11-billion-2026-cover-v1-960.webp 960w, assets/editorial/infineon-villach-gan-11-billion-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T08:30:04Z",
+    "dateModified": "2026-10-27T08:30:04Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
+    "id": "ripple-final-occ-trust-bank-approval-2026",
+    "section": "Crypto",
+    "format": "news",
+    "title": "Ripple Says It Has Final U.S. Approval for Its National Trust Bank",
+    "dek": "The company says the charter covers RLUSD reserve management and institutional custody. Stablecoin issuance remains with its New York-regulated subsidiary.",
+    "tickers": [
+      "XRP"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Ripple headquarters interior in San Francisco, based on LMNL Studio’s architectural photograph.",
+    "sources": [
+      {
+        "label": "Ripple: final OCC approval announcement, October 26",
+        "url": "https://ripple.com/ripple-press/ripple-receives-final-occ-approval-to-establish-national-trust-bank/"
+      },
+      {
+        "label": "OCC: December 12, 2025 preliminary conditional decision and proposed bank structure",
+        "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125b.pdf"
+      },
+      {
+        "label": "Ripple: RLUSD issuer, backing, transparency and distinction from XRP",
+        "url": "https://ripple.com/products/stablecoin/"
+      },
+      {
+        "label": "The Block: reporting on the final approval announcement",
+        "url": "https://www.theblock.co/news/regulation/2026-10-26-ripple-gains-final-occ-approval-rlusd-431810"
+      }
+    ],
+    "body": [
+      "<p>Ripple says it has received final approval from the Office of the Comptroller of the Currency to establish Ripple National Trust Bank, completing the organization process that followed conditional approval in December 2025. Its October 26 announcement puts reserve management and institutional digital-asset custody at the center of the new federally supervised entity's work.</p>",
+      "<p>The company says the approved activities include managing segregated reserves backing its RLUSD stablecoin, serving as collateral trustee for holders and providing fiduciary digital-asset custody. Standard Custody & Trust Company, its New York-regulated subsidiary, will continue issuing RLUSD. The distinction matters: a federal charter for the trust bank does not mean the token's issuer has been replaced by that bank.</p>",
+      "<p>The Block also reported the final-approval announcement. TTN reviewed Ripple's current release and the OCC's original conditional decision; a separate final OCC decision letter was not available in the materials reviewed. The current approval claim is therefore attributed to Ripple. The December letter establishes the earlier structure and conditions, rather than independently documenting this week's final step.</p>",
+      "<h2>A trust charter has a specific job</h2>",
+      "<p>The OCC's December 12, 2025 letter described a proposed New York national trust bank, with Ripple as its direct holding company. It authorized a path toward reserve management, collateral-trustee work and fiduciary custody for affiliated and unaffiliated institutions. The letter explicitly granted preliminary conditional approval only, with authorization to begin business dependent on meeting pre-opening requirements.</p>",
+      "<p>That original decision also said the bank would not be an insured depository institution. A national trust-bank charter should not be read as an ordinary retail-bank account, a general lending authorization or an FDIC guarantee for a token. The customer relationship and the assets being held determine the relevant protections. The word bank, on its own, cannot describe all of them.</p>",
+      "<p>Our <a href=\"occ-community-banks-stablecoin-invitation-2026.html\">report on the OCC's invitation to community banks</a> examines another route into stablecoin services. Ripple's proposed structure places a specialist trust institution within the infrastructure supporting a token, rather than requiring every participant in a payment chain to perform the same banking functions.</p>",
+      "<h2>RLUSD and XRP remain different assets</h2>",
+      "<p>Ripple's product documentation describes RLUSD as a dollar-backed stablecoin, supported by cash, U.S. government securities and other cash equivalents. It identifies monthly reserve attestations as part of its transparency arrangements. These disclosures concern the assets supporting a dollar redemption promise. They do not make every exchange listing or intermediary equally liquid, accessible or free of operational risk.</p>",
+      "<p>The same documentation distinguishes RLUSD from XRP, the XRP Ledger's native cryptocurrency, whose price is set in the market. Holding XRP is not holding a share in Ripple National Trust Bank or a claim on RLUSD's reserve assets. A development in the company's regulatory structure cannot, by itself, establish how demand for the separate cryptocurrency will change.</p>",
+      "<p>Our <a href=\"stablecoins-explained-depeg-risk.html\">guide to stablecoin backing and depeg risk</a> explains why reserve quality and access to redemption need separate attention. A holder selling through an exchange relies on that venue's liquidity and rules. An institution redeeming directly relies on its agreement with the issuer. Federal supervision adds oversight to the stated bank activities without making those two transactions identical.</p>",
+      "<h2>Custody expands the commercial opportunity</h2>",
+      "<p>Ripple says the bank will also serve enterprise custody customers beyond its role supporting RLUSD. That creates a potential service business, but the announcement does not supply a revenue forecast or demonstrate the volume of new customer assets the bank will attract. Regulatory authorization and commercial adoption are different stages of building a financial operation.</p>",
+      "<p>For an institution considering custody, the practical work includes understanding who controls transfers, how customer assets are recorded and segregated, and what happens if a service provider fails. Blockchain settlement does not eliminate those questions. Our <a href=\"defi-basics-explained.html\">explanation of decentralized finance</a> discusses the distinction between transaction infrastructure and the responsibilities of organizations using it.</p>",
+      "<p>The next useful evidence will be operational disclosures, customer agreements and reserve reporting under the announced structure. Ripple's statement represents a material claimed advance from the conditional charter stage. The investment implications still depend on the services delivered, the risks retained by each entity and the demand those services generate.</p>"
+    ],
+    "image": "assets/editorial/ripple-final-occ-trust-bank-approval-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ripple-final-occ-trust-bank-approval-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ripple-final-occ-trust-bank-approval-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ripple-final-occ-trust-bank-approval-2026-cover-v1-480.webp 480w, assets/responsive/ripple-final-occ-trust-bank-approval-2026-cover-v1-960.webp 960w, assets/editorial/ripple-final-occ-trust-bank-approval-2026-cover-v1.webp 1672w",
+    "date": "2026-10-27T08:30:04Z",
+    "dateModified": "2026-10-27T08:30:04Z",
+    "author": "TTN Research Desk",
+    "editorialNote": null
+  },
+  {
     "id": "doordash-instacart-17-billion-talks-2026",
     "section": "Market Analysis",
     "format": "news",
