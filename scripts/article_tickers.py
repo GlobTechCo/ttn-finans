@@ -30,7 +30,7 @@ INSTRUMENTS = {
     'S&P 500': ('FOREXCOM:SPXUSD', 'S&P 500 CFD · FOREX.com'),
     'NASDAQ': ('FOREXCOM:NSXUSD', 'Nasdaq-100 CFD · FOREX.com'),
     'Nasdaq Composite': ('NASDAQ:IXIC', 'Nasdaq Composite'),
-    'Nasdaq-100': ('NASDAQ:NDX', 'Nasdaq-100'),
+    'Nasdaq-100': ('FOREXCOM:NSXUSD', 'Nasdaq-100 CFD · FOREX.com'),
     'Dow Jones': ('TVC:DJI', 'Dow Jones Industrial Average'),
     'BTC': ('BINANCE:BTCUSDT', 'Bitcoin / Tether · Binance'),
     'ETH': ('BINANCE:ETHUSDT', 'Ethereum / Tether · Binance'),
