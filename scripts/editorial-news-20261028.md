@@ -31,3 +31,6 @@ The local commit preparing two pages succeeded, but automatic approval review re
 
 
 Owner explicitly approved publication and corrected cover: "Годжую, публикуй." Subsequent release preparation uses 2026-10-28T11:24:50Z. All three articles approved; earlier pending notes describe history, not a continuing approval requirement. Responsive960px SK image was regenerated and all15newassets decoded successfully. Publication uses authenticated GitHub tools because git push lacks credentials.
+
+
+Live QA: all3pages returnedHTTP200; main/social/480/960images decoded, eachsectionexclusiveonitsarchive andall3onhomepage/sitemap. Cloudbrowser inspectedactualSKandbankpages inlight/dark. Actual embeddedprovider rejectsKRX:000660andLSE:STAN asonlyavailableonTradingView despitevalidpublicsymbolpages. Replacedonlythosenewunavailableembeds withdirectnativeTradingViewshare-chartlinks, nofictitiousproxyorprice. Removedtheirautomaticembedmappings. Existingactivechartbehaviorunchanged. Minorlinkmaintenancepreservespublicationinstants.

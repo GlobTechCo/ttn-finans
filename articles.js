@@ -5,9 +5,7 @@ const TTN_ARTICLES = [
     "section": "Tech & AI",
     "title": "SK hynix Reports Record Profit as AI Memory Demand Drives Expansion",
     "dek": "Quarterly revenue reached 104.6 trillion won. Long-term customer agreements and planned shareholder returns put capacity and cash allocation in focus.",
-    "tickers": [
-      "000660"
-    ],
+    "tickers": [],
     "imageAlt": "Editorial illustration of SK hynix HBM4 memory packages based on documented product references.",
     "sources": [
       {
@@ -58,9 +56,7 @@ const TTN_ARTICLES = [
     "section": "Market Analysis",
     "title": "Standard Chartered Raises Outlook as Wealth and Trading Lift Profit",
     "dek": "The bank reported $2.25 billion in quarterly pretax profit. Stronger fees and lower credit charges helped it lift its full-year income outlook.",
-    "tickers": [
-      "STAN"
-    ],
+    "tickers": [],
     "imageAlt": "Illustrative reconstruction of the documented Standard Chartered headquarters entrance at 1 Basinghall Avenue, London.",
     "sources": [
       {
