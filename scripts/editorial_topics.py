@@ -237,3 +237,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'sap-cheaper-
 RELATED['sap-cheaper-ai-models-cost-per-task-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'ai-monetization-gap-explained']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coinbase-ripple-rlusd-launch-october-2026')
 RELATED['coinbase-ripple-rlusd-launch-october-2026'] = ['stablecoins-explained-depeg-risk', 'circle-aci-usdc-colombia-settlement-pilot-2026', 'circle-usdc-revenue-sharing-stablecoin-competition-2026']
+
+# October 28 evening commissioned package.
+GROUPS['Energy, trade and global markets'].insert(0, 'us-goods-trade-deficit-september-2026')
+RELATED['us-goods-trade-deficit-september-2026'] = ['tariffs-who-actually-pays-explained', 'ai-monetization-gap-explained', 'us-inflation-retail-sales-september-2026']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'amazon-alexa-devices-echo-time-launch-2026')
+RELATED['amazon-alexa-devices-echo-time-launch-2026'] = ['ai-monetization-gap-explained', 'ai-inference-unit-economics-2026', 'amazon-globalstar-fcc-acquisition-approval-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'dtcc-tokenization-service-live-october-2026')
+RELATED['dtcc-tokenization-service-live-october-2026'] = ['okxice-stock-token-issuer-objections-2026', 'janus-henderson-jqqq-nasdaq-stellar-fund-2026', 'aviva-sterling-tokenised-fund-xrp-ledger-2026']

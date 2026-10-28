@@ -311,3 +311,11 @@ def parse(text):return dict(line.strip().split('|',1) for line in text.strip().s
 TITLES=parse(TITLES);DESCRIPTIONS=parse(DESCRIPTIONS)
 assert all(len(v+' | TTN Finance')<=65 for v in TITLES.values()),[(k,len(v+' | TTN Finance')) for k,v in TITLES.items() if len(v+' | TTN Finance')>65]
 assert all(len(v)<=160 for v in DESCRIPTIONS.values())
+
+# October 28 evening editorial metadata.
+TITLES['us-goods-trade-deficit-september-2026'] = 'US Goods Trade Deficit Widens to $134.9 Billion'
+DESCRIPTIONS['us-goods-trade-deficit-september-2026'] = 'September imports rose faster than exports. The figures complicate the growth picture ahead of the third-quarter GDP report.'
+TITLES['amazon-alexa-devices-echo-time-launch-2026'] = 'Amazon Launches Alexa Clock and Photo Frame'
+DESCRIPTIONS['amazon-alexa-devices-echo-time-launch-2026'] = 'Five new Alexa devices extend Amazon’s home hardware range. The rollout comes as its devices and services unit reduces staff.'
+TITLES['dtcc-tokenization-service-live-october-2026'] = 'DTCC Launches Tokenized Securities Service'
+DESCRIPTIONS['dtcc-tokenization-service-live-october-2026'] = 'The market infrastructure group’s service is live on Canton and its private Besu network. Eligible asset value is distinct from tokens issued.'

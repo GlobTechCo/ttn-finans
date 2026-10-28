@@ -2991,6 +2991,39 @@
       "bytes": 176954,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/coinbase-ripple-rlusd-launch-october-2026.html"
+    },
+    {
+      "page": "us-goods-trade-deficit-september-2026.html",
+      "source": "assets/editorial/us-goods-trade-deficit-september-2026-cover-v1.webp",
+      "image": "assets/social/us-goods-trade-deficit-september-2026-cover-v1-3a3350bea557.webp",
+      "sha256": "3a3350bea5578c0850112ccde0a73ad61306121930a7a66030c086fd6c25fe44",
+      "width": 1672,
+      "height": 941,
+      "bytes": 324670,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-goods-trade-deficit-september-2026.html"
+    },
+    {
+      "page": "amazon-alexa-devices-echo-time-launch-2026.html",
+      "source": "assets/editorial/amazon-alexa-devices-echo-time-launch-2026-cover-v1.webp",
+      "image": "assets/social/amazon-alexa-devices-echo-time-launch-2026-cover-v1-73cab58537eb.webp",
+      "sha256": "73cab58537eb599902a8a265af07fced557e433ed6b1c496de1ede652df5e6b5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 183914,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/amazon-alexa-devices-echo-time-launch-2026.html"
+    },
+    {
+      "page": "dtcc-tokenization-service-live-october-2026.html",
+      "source": "assets/editorial/dtcc-tokenization-service-live-october-2026-cover-v1.webp",
+      "image": "assets/social/dtcc-tokenization-service-live-october-2026-cover-v1-9bfd220bd7fd.webp",
+      "sha256": "9bfd220bd7fdfa8210737fbc25cf2025b47915e4592647929daf8b81b3f8db35",
+      "width": 1672,
+      "height": 941,
+      "bytes": 163292,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/dtcc-tokenization-service-live-october-2026.html"
     }
   ]
 }

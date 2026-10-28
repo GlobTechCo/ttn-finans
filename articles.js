@@ -1,6 +1,173 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-goods-trade-deficit-september-2026",
+    "section": "Market Analysis",
+    "title": "US Goods Trade Deficit Widens as Capital-Goods Imports Surge",
+    "dek": "September imports rose faster than exports. The figures complicate the growth picture ahead of the third-quarter GDP report.",
+    "tickers": [],
+    "imageAlt": "Illustrative container-terminal scene with cargo handling equipment; not a photograph of a specific shipment.",
+    "sources": [
+      {
+        "label": "US Census Bureau: September advance release and inventory estimates",
+        "url": "https://www.census.gov/econ/indicators/current/index.html"
+      },
+      {
+        "label": "US Census Bureau: complete report, end-use tables and methodology",
+        "url": "https://www.census.gov/econ/indicators/advance_report.pdf"
+      },
+      {
+        "label": "Federal Reserve Bank of St. Louis: why imports are subtracted in GDP accounting",
+        "url": "https://fred.stlouisfed.org/blog/2018/09/do-imports-subtract-from-gdp/"
+      },
+      {
+        "label": "Reuters: October 28 reporting on trade, AI investment and GDP expectations",
+        "url": "https://www.reuters.com/business/us-goods-trade-deficit-unexpectedly-widens-september-2026-10-28/"
+      }
+    ],
+    "body": [
+      "<p>The U.S. goods trade deficit widened to $134.9 billion in September as imports of capital equipment surged, adding a complication to the growth picture ahead of Thursday's third-quarter gross domestic product report. Census Bureau figures released Wednesday showed imports rising faster than exports even though overseas sales also increased. The shortfall grew $2.8 billion from August, or 2.1%.</p>",
+      "<p>Imports reached $344.1 billion, an increase of $8.1 billion, while exports rose $5.3 billion to $209.2 billion. The difference matters for interpreting the report: the widening gap did not result from an overall collapse in American exports. Demand for foreign goods simply expanded by more in dollar terms than shipments going the other way.</p>",
+      "<p>Reuters linked the import strength to the buildout of artificial-intelligence infrastructure. The official end-use tables show a sharp increase in capital goods, a broad equipment category rather than an exclusive measure of AI purchases. Treating every dollar in that category as a data-center investment would overstate what the government release establishes.</p>",
+      "<h2>Equipment explains much of the increase</h2>",
+      "<p>Seasonally adjusted capital-goods imports climbed 7.5% from August to about $157.4 billion. They were 77.2% above September 2025. The monthly increase in that category, roughly $10.9 billion using the published tables, exceeded the rise in total goods imports because declines elsewhere offset part of the gain. Industrial-supply imports fell 6%, while vehicle imports dropped 4%.</p>",
+      "<p>Consumer-goods imports increased 3.1% during the month, although they remained below their year-earlier level. That mixed comparison cautions against describing every part of import demand as uniformly strong. Food imports also declined. On the export side, capital goods rose 5.4%, food shipments increased 12.8%, and motor vehicles fell 5.6%, illustrating different conditions across industries.</p>",
+      "<p>For companies building computing capacity, imported equipment is an input into an investment program. The commercial question comes later: whether the completed capacity produces sufficient revenue and profit. TTN's <a href=\"ai-monetization-gap-explained.html\">analysis of AI investment and monetization</a> explains why purchasing infrastructure and earning an adequate return on it are separate milestones.</p>",
+      "<h2>A larger deficit is not a standalone recession signal</h2>",
+      "<p>GDP measures production inside the United States. Spending on imported equipment can appear within investment, but the foreign-produced portion must be removed through the imports adjustment. The Federal Reserve Bank of St. Louis explains that this subtraction prevents overseas production from being counted as American output; buying an import does not itself destroy an equal amount of domestic production.</p>",
+      "<p>That distinction allows vigorous investment spending and a negative contribution from net exports to appear in the same growth report. Wednesday's dollar-denominated goods balance cannot, by itself, establish the size of the contribution to inflation-adjusted quarterly GDP. The calculation also needs price adjustments, the full quarter, services trade and other national-accounting information.</p>",
+      "<p>The advance trade estimates are seasonally adjusted but not adjusted for price changes. A larger dollar total therefore is not automatically an equivalent increase in physical shipments. The report also uses Census definitions for goods, rather than presenting the complete goods-and-services balance. Our <a href=\"tariffs-who-actually-pays-explained.html\">guide to tariffs and import costs</a> examines another distinction relevant to businesses: border measures, merchandise values and the final costs customers face are different quantities.</p>",
+      "<h2>Inventories add another piece of the growth puzzle</h2>",
+      "<p>The same release put wholesale inventories at $1,011.5 billion, up 0.6% from August. Retail inventories increased 0.3% to $885.3 billion. These are end-of-month stocks, not sales figures. An increase can accompany planned restocking, supply arriving ahead of demand or slower movement of merchandise; the inventory level alone cannot identify which explanation dominates.</p>",
+      "<p>Thursday's GDP release will put those flows alongside consumption, investment and government activity. For readers assessing the economy, the useful comparison is between domestic demand and domestic production, rather than a single trade number labeled good or bad. September's report shows a larger import bill and expanding exports, with equipment demand central to the difference. It leaves the final third-quarter growth calculation to the broader accounts.</p>"
+    ],
+    "date": "2026-10-28T17:33:02Z",
+    "dateModified": "2026-10-28T17:33:02Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/us-goods-trade-deficit-september-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-goods-trade-deficit-september-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-goods-trade-deficit-september-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-goods-trade-deficit-september-2026-cover-v1-480.webp 480w, assets/responsive/us-goods-trade-deficit-september-2026-cover-v1-960.webp 960w, assets/editorial/us-goods-trade-deficit-september-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "amazon-alexa-devices-echo-time-launch-2026",
+    "section": "Tech & AI",
+    "title": "Amazon Adds an Alexa Clock and Photo Frame as Devices Unit Cuts Jobs",
+    "dek": "Five new Alexa devices extend Amazon’s home hardware range. The rollout comes as its devices and services unit reduces staff.",
+    "tickers": [
+      "AMZN"
+    ],
+    "imageAlt": "Illustrative reconstruction of Amazon’s documented white Echo Time smart clock on a bedside table.",
+    "sources": [
+      {
+        "label": "Amazon: official October 28 Alexa device lineup and availability",
+        "url": "https://www.aboutamazon.com/news/devices/new-alexa-devices-2026"
+      },
+      {
+        "label": "Amazon: Echo Time design, sleep-sensing controls and US pricing",
+        "url": "https://www.aboutamazon.com/news/devices/echo-time-smart-alarm-clock"
+      },
+      {
+        "label": "Amazon: Echo Show 16 specifications, preorder terms and shipping status",
+        "url": "https://www.aboutamazon.com/news/devices/echo-show-16-smart-display"
+      },
+      {
+        "label": "Amazon: Alexa Photo Frame features and US pricing",
+        "url": "https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame"
+      },
+      {
+        "label": "Amazon: Echo speaker hardware and smart-home compatibility",
+        "url": "https://www.aboutamazon.com/news/devices/echo-speaker-lineup"
+      },
+      {
+        "label": "Reuters: confirmed devices-unit cuts and reported scale",
+        "url": "https://www.reuters.com/business/world-at-work/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-2026-10-28/"
+      }
+    ],
+    "body": [
+      "<p>Amazon introduced five Alexa-powered devices Wednesday, adding a bedside clock and a photo frame to its home hardware range while refreshing its speakers and largest smart display. The launch extends the company's AI assistant into more everyday routines, from setting alarms to finding family pictures. It also arrives alongside a reduction in staff in the business developing those products.</p>",
+      "<p>Reuters reported that the devices and services unit cut about 250 jobs, primarily in software development. Amazon confirmed eliminating a small number of roles and said the changes would improve efficiency and alignment with its product plans. The company did not publicly provide a detailed breakdown of the affected teams or product budgets.</p>",
+      "<p>The two developments show expansion of a product range and a smaller workforce happening together. They do not establish that AI replaced those particular employees or that any one new device is profitable. TTN's <a href=\"ai-monetization-gap-explained.html\">analysis of AI monetization</a> explains the wider distinction between putting a technology into more products and demonstrating the financial return.</p>",
+      "<h2>The clock takes Alexa to the bedside</h2>",
+      "<p>Echo Time, available Wednesday for $199.99, is a spherical smart clock with a 3.2-inch circular touchscreen and no camera. Amazon says its optional sleep-sensing system combines presence detection, temperature information and ultrasound to support an alarm that can wake users during lighter sleep within a selected window. Those are the manufacturer's descriptions, rather than results of an independent TTN sleep study.</p>",
+      "<p>The absence of a camera does not mean the product has no sensors or microphones. Amazon says sleep sensing is opt-in and can be disabled through settings or by muting the microphones. That distinction is useful for a bedroom device: the relevant choice concerns the particular sensing functions and controls, rather than the presence of a screen alone.</p>",
+      "<p>The Alexa Photo Frame starts at $199.99 and uses a 10-inch touchscreen connected to Amazon Photos. Its announced functions include voice-based photo searches, automatic updates and voice notes attached to pictures. Amazon says some features require Alexa+, which is included with Prime, and the frame includes 90 days of Alexa+. Hardware purchase and continuing service access should therefore be assessed separately.</p>",
+      "<h2>Speakers gain connections and a camera</h2>",
+      "<p>The new $99.99 Echo Dot includes a smart-home hub supporting Zigbee, Matter and Thread, plus an eero Wi-Fi extender. Amazon says its custom AZ3 chip helps process some AI functions on the device. Those specifications describe capabilities and compatibility; they do not mean the speaker replaces every router or works with every connected appliance without additional setup.</p>",
+      "<p>The $249.99 Echo Studio with Home Camera adds visual input to the speaker range. Amazon describes recognizing objects held up to the camera and checking a room through the Alexa app. The business implication is a broader set of tasks for the assistant, but useful performance still depends on recognition accuracy and reliable completion. Our <a href=\"ai-inference-unit-economics-2026.html\">guide to the cost of completed AI tasks</a> explains why usage alone does not settle the economics.</p>",
+      "<h2>The largest screen remains a preorder</h2>",
+      "<p>Echo Show 16 starts at $499.99, with a $569.99 Nanomatte version. Amazon opened preorders Wednesday and says shipping will begin later this year. The announcement is therefore not evidence that every new product is already in customers' homes. The 16-inch display includes Fire TV, a wide-angle camera with night vision and layouts for calendars, photographs and connected-home controls.</p>",
+      "<p>Amazon says Echo Show has been its fastest-growing Echo line, growing more than 25% year over year. Its product announcement does not supply a separate profit statement or a detailed definition of that growth measure. The figure indicates the company's stated momentum, but should not be converted into a claim about unit sales, margins or independently verified market share.</p>",
+      "<p>For investors, the next test is whether the wider range produces repeated, valuable use at a sustainable delivery cost. For customers, it is whether a particular device solves a recurring household task and whether the relevant service terms fit that use. Wednesday establishes new hardware, prices and distinct availability stages. It leaves product demand and the financial benefit of the staffing changes to subsequent evidence.</p>"
+    ],
+    "date": "2026-10-28T17:33:02Z",
+    "dateModified": "2026-10-28T17:33:02Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/amazon-alexa-devices-echo-time-launch-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/amazon-alexa-devices-echo-time-launch-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/amazon-alexa-devices-echo-time-launch-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/amazon-alexa-devices-echo-time-launch-2026-cover-v1-480.webp 480w, assets/responsive/amazon-alexa-devices-echo-time-launch-2026-cover-v1-960.webp 960w, assets/editorial/amazon-alexa-devices-echo-time-launch-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "dtcc-tokenization-service-live-october-2026",
+    "section": "Crypto",
+    "title": "Wall Street’s DTCC Launches Tokenized Securities Service",
+    "dek": "The market infrastructure group’s service is live on Canton and its private Besu network. Eligible asset value is distinct from tokens issued.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented DTCC facade and installed sign at its Jersey City office.",
+    "sources": [
+      {
+        "label": "DTCC: October 28 service launch, participants and supported networks",
+        "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live"
+      },
+      {
+        "label": "DTCC: current service specifications and launch eligibility",
+        "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization"
+      },
+      {
+        "label": "DTCC: tokenization resource hub and voluntary participation framework",
+        "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub"
+      },
+      {
+        "label": "SEC staff: December 11, 2025 no-action letter and attached DTC request",
+        "url": "https://www.sec.gov/files/tm/no-action/dtc-nal-121125.pdf"
+      },
+      {
+        "label": "CoinDesk: October 28 launch reporting and attributed eligible-asset valuation",
+        "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks"
+      }
+    ],
+    "body": [
+      "<p>DTCC, a central part of the infrastructure behind U.S. securities markets, launched a service Wednesday that lets eligible financial firms hold representations of existing securities on blockchain networks. The DTCC Tokenization Service is operating on Canton and DTCC's private Besu network. The launch connects digital transfers to securities already held at its Depository Trust Company subsidiary, rather than creating a new unbacked asset.</p>",
+      "<p>DTCC said 20 participants had signed access agreements. Its product page lists 34 securities available to tokenize at launch, backed one-for-one by assets held at DTC. CoinDesk reported, citing a DTCC spokesperson, that the eligible securities represent approximately $30 trillion in market value. That is the value of the underlying eligible pool, not a disclosure that $30 trillion has already been converted into tokens.</p>",
+      "<p>The distinction is central to assessing adoption. A large pool gives the service room to grow, while actual issuance and repeated transfers show how much firms use it. Wednesday's launch materials establish availability and institutional participation. They do not provide a comparable headline figure for tokenized balances already outstanding.</p>",
+      "<h2>The claim remains tied to an existing security</h2>",
+      "<p>A token records an entitlement associated with a security in custody. DTCC says the digital form retains the legal rights, economic interests and protections of the underlying asset. The service supports around-the-clock transfers between DTC-registered wallets. It does not follow that an investor can send a share to any anonymous wallet or trade every listed security continuously on a public exchange.</p>",
+      "<p>The structure differs from a product that merely tracks a stock's price. Rights, custody and access conditions matter alongside the technology used to move a token. TTN's <a href=\"okxice-stock-token-issuer-objections-2026.html\">report on issuer objections to a separate stock-token plan</a> examines why companies and investors distinguish exposure to a price from the rights attached to the underlying shares.</p>",
+      "<p>Connecting a token to established securities records also changes the operational question. A transfer must leave a clear answer about who holds the entitlement and which system maintains the relevant record. Faster movement is useful only if reconciliation, corporate actions and controls remain dependable. A blockchain entry alone does not remove those obligations.</p>",
+      "<h2>The regulatory framework has defined limits</h2>",
+      "<p>The December 2025 SEC staff no-action letter describes a pilot framework for DTC participants. It sets out registered-wallet requirements, mechanisms for converting entitlements into tokens and back again, and tracking through DTC's LedgerScan system. The underlying securities remain registered in the name of DTC's nominee, Cede &amp; Co. Moving a token does not require the issuer to create an additional share.</p>",
+      "<p>The letter also describes controls intended to prevent the same security from being transferred twice, along with procedures to address erroneous entries, lost tokens or wrongdoing. This is a controlled institutional arrangement. The existence of those interventions is an important part of understanding the product, especially for readers accustomed to blockchain transfers being described as irreversible.</p>",
+      "<p>Staff no-action relief is specific to the facts and conditions in the request; it should not be read as approval of every tokenized-security business model. The pilot letter also says the tokenized entitlements receive no collateral or settlement value in DTC's own specified risk calculations. That provision is separate from the broader possibility that firms develop uses for tokenized collateral.</p>",
+      "<h2>Live infrastructure precedes proof of scale</h2>",
+      "<p>DTCC plans to add more networks in 2027. Those additions remain future steps, distinct from Wednesday's Canton and private Besu availability. Our <a href=\"janus-henderson-jqqq-nasdaq-stellar-fund-2026.html\">coverage of a separate digital fund launch</a> illustrates the same need to distinguish an operating product, its eligible customers and later expansion plans.</p>",
+      "<p>The practical opportunity is to reduce friction when institutions move securities and arrange financing. The evidence needed to judge that opportunity will include actual tokenized balances, transfer activity, dependable conversion and integration with cash payments. Wednesday moves DTCC's program into a live service, but the size of the eligible market and the number of access agreements remain starting conditions rather than proof of achieved liquidity.</p>"
+    ],
+    "date": "2026-10-28T17:33:02Z",
+    "dateModified": "2026-10-28T17:33:02Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/dtcc-tokenization-service-live-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/dtcc-tokenization-service-live-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/dtcc-tokenization-service-live-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/dtcc-tokenization-service-live-october-2026-cover-v1-480.webp 480w, assets/responsive/dtcc-tokenization-service-live-october-2026-cover-v1-960.webp 960w, assets/editorial/dtcc-tokenization-service-live-october-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "bank-of-canada-rate-hike-october-28-2026",
     "section": "Market Analysis",
     "title": "Bank of Canada Raises Rates as Energy Inflation Threatens to Spread",
