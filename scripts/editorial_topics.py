@@ -219,3 +219,13 @@ RELATED.update({'visa-q4-2026-profit-payments-volume': ['earnings-beat-miss-expl
 RELATED['amex-q3-2026-profit-workforce-cut'] = ['visa-q4-2026-profit-payments-volume'] + [v for v in RELATED.get('amex-q3-2026-profit-workforce-cut', []) if v != 'visa-q4-2026-profit-payments-volume'][:2]
 RELATED['spacex-80000-cell-sites-wireless-talks-2026'] = ['amazon-globalstar-fcc-acquisition-approval-2026'] + [v for v in RELATED.get('spacex-80000-cell-sites-wireless-talks-2026', []) if v != 'amazon-globalstar-fcc-acquisition-approval-2026'][:2]
 RELATED['bitcoin-etf-institutional-adoption'] = ['robinhood-q3-2026-crypto-revenue-profit'] + [v for v in RELATED.get('bitcoin-etf-institutional-adoption', []) if v != 'robinhood-q3-2026-crypto-revenue-profit'][:2]
+
+# October 28 commissioned news package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'standard-chartered-q3-2026-profit-outlook')
+RELATED['standard-chartered-q3-2026-profit-outlook'] = ['hsbc-q3-2026-revenue-miss-wealth', 'earnings-beat-miss-explained', 'bank-of-america-q3-2026-results']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bithumb-data-breach-employee-system-october-2026')
+RELATED['bithumb-data-breach-employee-system-october-2026'] = ['electrum-483-bitcoin-wallet-security-update-2026', 'coindcx-usdt-loss-old-wallet-sweep-failure-2026', 'enterprise-ai-data-security-2026']
+
+# Prepared for review; publication awaits explicit approval.
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'sk-hynix-q3-2026-ai-memory-profit')
+RELATED['sk-hynix-q3-2026-ai-memory-profit'] = ['ai-chips-bottlenecks-2026','ai-monetization-gap-explained','tsmc-q3-2026-ai-chip-demand']

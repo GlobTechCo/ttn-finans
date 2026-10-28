@@ -2925,6 +2925,39 @@
       "bytes": 197300,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/robinhood-q3-2026-crypto-revenue-profit.html"
+    },
+    {
+      "page": "bithumb-data-breach-employee-system-october-2026.html",
+      "source": "assets/editorial/bithumb-data-breach-employee-system-october-2026-cover-v1.webp",
+      "image": "assets/social/bithumb-data-breach-employee-system-october-2026-cover-v1-4ec4d70e639a.webp",
+      "sha256": "4ec4d70e639a87fd0e9a92786a7224c9ec65f6f84b5a61908f7c39152d257aae",
+      "width": 1672,
+      "height": 941,
+      "bytes": 391270,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bithumb-data-breach-employee-system-october-2026.html"
+    },
+    {
+      "page": "standard-chartered-q3-2026-profit-outlook.html",
+      "source": "assets/editorial/standard-chartered-q3-2026-profit-outlook-cover-v1.webp",
+      "image": "assets/social/standard-chartered-q3-2026-profit-outlook-cover-v1-c9cd68147aea.webp",
+      "sha256": "c9cd68147aeaa0ca636fbfa3207ae78d0245f22507224e09a1b8f283dbace03a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 629394,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/standard-chartered-q3-2026-profit-outlook.html"
+    },
+    {
+      "page": "sk-hynix-q3-2026-ai-memory-profit.html",
+      "source": "assets/editorial/sk-hynix-q3-2026-ai-memory-profit-cover-v2.webp",
+      "image": "assets/social/sk-hynix-q3-2026-ai-memory-profit-cover-v2-0c680c2585a3.webp",
+      "sha256": "0c680c2585a3c40713b5628a3bd724e170d50e6efb20efbc9d24f293b3cb0d84",
+      "width": 1672,
+      "height": 941,
+      "bytes": 245710,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/sk-hynix-q3-2026-ai-memory-profit.html"
     }
   ]
 }

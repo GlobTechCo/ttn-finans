@@ -1,6 +1,167 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "sk-hynix-q3-2026-ai-memory-profit",
+    "section": "Tech & AI",
+    "title": "SK hynix Reports Record Profit as AI Memory Demand Drives Expansion",
+    "dek": "Quarterly revenue reached 104.6 trillion won. Long-term customer agreements and planned shareholder returns put capacity and cash allocation in focus.",
+    "tickers": [
+      "000660"
+    ],
+    "imageAlt": "Editorial illustration of SK hynix HBM4 memory packages based on documented product references.",
+    "sources": [
+      {
+        "label": "SK hynix: preliminary third-quarter financial results and outlook",
+        "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+      },
+      {
+        "label": "Reuters, via Moneycontrol: results, forecasts and shareholder-return plan",
+        "url": "https://www.moneycontrol.com/news/business/earnings/sk-hynix-q3-profit-jumps-sevenfold-to-record-high-nvidia-supplier-unveils-75-billion-shareholder-return-plan-14061687.html"
+      },
+      {
+        "label": "Yonhap: results and the Solidigm listing context",
+        "url": "https://en.yna.co.kr/view/AEN20261028001651320"
+      },
+      {
+        "label": "SK hynix: HBM4 development announcement, September 2025 background",
+        "url": "https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+      }
+    ],
+    "body": [
+      "<p>SK hynix reported record third-quarter revenue and operating profit on Wednesday as spending on artificial intelligence infrastructure supported demand for its memory chips. Revenue reached 104.6 trillion won and operating profit totaled 83.3 trillion won, according to the company's preliminary results. The figures put the economics of supplying AI hardware back at the center of a market debating the cost of the buildout.</p>",
+      "<p>The announcement combined current earnings with commitments over future production and capital returns. Reuters reported that the chipmaker plans approximately 100 trillion won in shareholder returns for 2026. That is a company plan, not a statement that the entire amount was distributed on Wednesday. The timing and form of the payments matter alongside the headline total.</p>",
+      "<p>For readers following American technology companies, the connection runs through their supply chains. Cloud capacity requires processors, memory, storage and power. Suppliers can benefit from those purchases before customers establish the long-term profitability of the services running on the equipment. Our <a href=\"ai-monetization-gap-explained.html\">AI monetization analysis</a> separates infrastructure revenue from the returns earned by the companies paying for it.</p>",
+      "<h2>HBM4 moves from a technical milestone to a revenue product</h2>",
+      "<p>The company expects HBM4 to exceed HBM3E in both shipment volume and revenue in the fourth quarter. HBM means high-bandwidth memory: multiple memory chips are connected vertically to move data rapidly within advanced computing systems. SK hynix announced completion of HBM4 development in September 2025. Wednesday's new information concerns the product's commercial ramp, rather than its initial invention.</p>",
+      "<p>Memory is important because processing power alone does not determine how quickly a system can complete work. Data must reach the processors, and the components must operate together within practical limits on energy and heat. Faster memory can relieve a bottleneck, but a component specification should not be treated as a guaranteed improvement in every customer's application.</p>",
+      "<p>This is the same distinction discussed in TTN's <a href=\"ai-chips-bottlenecks-2026.html\">guide to AI chip constraints</a>. The economically useful milestone is reliable output that customers can install and use. Product development, production readiness, shipments and service revenue occur at different stages. Investors need evidence about each stage instead of assuming that one announcement proves the whole chain is complete.</p>",
+      "<h2>Long-term orders make expansion easier to plan</h2>",
+      "<p>Reuters reported that SK hynix has long-term agreements with 14 major customers covering more than half of its production capacity for 2027 and 2028. The arrangements give the manufacturer a firmer basis for planning facilities and equipment. They should not be read as a public disclosure of every contract's price, cancellation rights or final profit margin.</p>",
+      "<p>A capacity commitment and recognized revenue answer different questions. One concerns future demand; the other concerns products and services already delivered under the relevant accounting rules. When a factory requires large spending before it generates sales, the gap between those stages becomes a financing issue. Agreements can reduce uncertainty without making delivery, production cost or customer concentration irrelevant.</p>",
+      "<p>SK hynix expects demand to exceed supply through 2030. That remains management's forecast. It helps explain the company's expansion strategy, but does not establish what prices or competitive conditions will be when new facilities operate. Our <a href=\"ai-data-center-boom-power-delivery-debt-2026.html\">coverage of AI infrastructure delivery</a> examines the related problem of matching spending commitments with usable capacity.</p>",
+      "<h2>Cash allocation now matters as much as growth</h2>",
+      "<p>Yonhap reported that the company had suspended plans to list its U.S. subsidiary Solidigm, following shareholder opposition and scrutiny of the proposal. A separate listing could raise outside money, while retaining ownership leaves financing and future returns within the existing corporate structure. The choice affects how the expansion burden and its potential rewards are shared.</p>",
+      "<p>The shareholder-return announcement makes that allocation decision more visible. A manufacturer can invest in additional production, retain liquidity, distribute cash or repurchase shares. Those uses compete for resources even during an exceptionally profitable period. The next meaningful evidence will be delivered output, completed payments and the spending required to maintain production growth. Record quarterly profit establishes the strength of current demand; execution will determine how much value remains after the next investment cycle.</p>"
+    ],
+    "date": "2026-10-28T11:24:50Z",
+    "dateModified": "2026-10-28T11:24:50Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/sk-hynix-q3-2026-ai-memory-profit-cover-v2.webp",
+    "imageSmall": "assets/responsive/sk-hynix-q3-2026-ai-memory-profit-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/sk-hynix-q3-2026-ai-memory-profit-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/sk-hynix-q3-2026-ai-memory-profit-cover-v2-480.webp 480w, assets/responsive/sk-hynix-q3-2026-ai-memory-profit-cover-v2-960.webp 960w, assets/editorial/sk-hynix-q3-2026-ai-memory-profit-cover-v2.webp 1672w"
+  },
+  {
+    "id": "standard-chartered-q3-2026-profit-outlook",
+    "section": "Market Analysis",
+    "title": "Standard Chartered Raises Outlook as Wealth and Trading Lift Profit",
+    "dek": "The bank reported $2.25 billion in quarterly pretax profit. Stronger fees and lower credit charges helped it lift its full-year income outlook.",
+    "tickers": [
+      "STAN"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Standard Chartered headquarters entrance at 1 Basinghall Avenue, London.",
+    "sources": [
+      {
+        "label": "Standard Chartered: third-quarter results and revised guidance",
+        "url": "https://www.sc.com/en/press-release/q3-2026-financial-results/"
+      },
+      {
+        "label": "Standard Chartered: full financial statement, reported and constant-currency comparisons",
+        "url": "https://www.sc.com/en/uploads/sites/66/content/docs/standard-chartered-plc-q3-2026-results.pdf"
+      },
+      {
+        "label": "Reuters: results and initial Hong Kong share reaction",
+        "url": "https://www.reuters.com/business/finance/stanchart-third-quarter-profit-surges-27-lifts-income-target-2026-10-28/"
+      },
+      {
+        "label": "Standard Chartered: results release calendar",
+        "url": "https://www.sc.com/en/investors/events-and-presentations/"
+      }
+    ],
+    "body": [
+      "<p>Standard Chartered raised its full-year income outlook on Wednesday after stronger wealth-management and trading activity helped third-quarter pretax profit reach $2.25 billion. The London-listed international bank now expects income growth above its previous 5% to 7% range, measured at constant exchange rates and excluding specified notable items. It targets a full-year return on tangible equity of around 14%.</p>",
+      "<p>The change gives investors something more substantial than a backward-looking earnings increase: management expects the stronger performance to carry into its annual results. Reuters reported that the bank's Hong Kong-listed shares rose 8% after the announcement. That was a reported trading-session move, rather than a closing price or a forecast of further gains.</p>",
+      "<p>Standard Chartered serves businesses and individuals across markets including Asia, Africa and the Middle East. Its results offer a different view of financial activity from a lender concentrated on American households. The main development this quarter was the contribution from client services alongside lending, with implications for how dependent future earnings will be on interest rates.</p>",
+      "<h2>Fees provided a second engine for growth</h2>",
+      "<p>The bank's release showed non-interest income of approximately $2.8 billion, up 19%, with Wealth Solutions income increasing 26% and Global Markets income rising 21%. Its comparison uses constant currencies unless otherwise stated. Investment products and insurance distribution supported wealth revenue, while market activity supported the trading businesses. These figures describe revenue growth; they are not returns earned by wealth-management customers.</p>",
+      "<p>That distinction matters because banks earn money in several ways. Lending produces interest income, while investment distribution, advice and transaction services can generate fees. Trading desks can earn revenue when clients adjust exposures. These businesses respond differently to economic conditions. A more active market can create demand for transactions even when the direction of asset prices makes some clients more cautious.</p>",
+      "<p>Our <a href=\"hsbc-q3-2026-revenue-miss-wealth.html\">coverage of HSBC's latest results</a> shows why comparing banks requires more than checking whether profit rose. Expectations, the source of revenue and the durability of customer activity can produce different market reactions. For Standard Chartered, the growth in fees provides a specific operating measure to follow after Wednesday's upgraded outlook.</p>",
+      "<h2>Credit charges also helped the bottom line</h2>",
+      "<p>The financial statement reports $90 million of credit impairment, compared with $188 million a year earlier. A $24 million net release in Corporate &amp; Investment Banking partly offset a $114 million charge in Wealth &amp; Retail Banking. The improvement therefore includes an accounting reassessment of expected losses, alongside the expansion in customer-facing revenue.</p>",
+      "<p>A release reduces the amount of previously recognized protection against lending losses. It can improve current profit without representing a new stream of fees or interest. Reading the impairment line separately helps distinguish operating growth from changes in the expected collectability of existing loans. Neither contribution should be ignored, but they do not necessarily repeat at the same rate.</p>",
+      "<p>On the reported basis in the financial statement, pretax profit increased 27% and operating income rose 13% to $5.781 billion. The release's higher growth comparisons reflect constant-currency calculations. Our <a href=\"earnings-beat-miss-explained.html\">earnings guide</a> explains why keeping the measurement basis consistent matters when comparing a company's headline with its detailed accounts.</p>",
+      "<h2>A stronger quarter does not remove the capital constraint</h2>",
+      "<p>Quarterly return on tangible equity reached 15.7%, compared with 10.5% a year earlier, according to the statement. That quarterly measure is separate from the around-14% target for the whole of 2026. The bank also reported a common equity Tier 1 capital ratio of 13.8%, down 31 basis points from the preceding quarter, while underlying customer lending expanded.</p>",
+      "<p>For shareholders, the practical test is whether the bank can sustain fee activity and contain expenses while funding that lending growth. Capital supports the risks on the balance sheet; it is not interchangeable with quarterly revenue. The next results will show how much of the improvement survives changes in client trading, credit charges and funding conditions. Wednesday's outlook upgrade raises the earnings benchmark against which that performance will be judged.</p>"
+    ],
+    "date": "2026-10-28T11:24:50Z",
+    "dateModified": "2026-10-28T11:24:50Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/standard-chartered-q3-2026-profit-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/standard-chartered-q3-2026-profit-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/standard-chartered-q3-2026-profit-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/standard-chartered-q3-2026-profit-outlook-cover-v1-480.webp 480w, assets/responsive/standard-chartered-q3-2026-profit-outlook-cover-v1-960.webp 960w, assets/editorial/standard-chartered-q3-2026-profit-outlook-cover-v1.webp 1672w"
+  },
+  {
+    "id": "bithumb-data-breach-employee-system-october-2026",
+    "section": "Crypto",
+    "title": "Bithumb Reports Data Breach as South Korea Reviews Financial Cyberattacks",
+    "dek": "The exchange is investigating whether customer information was exposed. It says the affected employee system is separate from its trading platform.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented Bithumb Lounge Gangnam entrance in Seoul; not a photograph of the cybersecurity incident.",
+    "sources": [
+      {
+        "label": "SBS: Bithumb intrusion, discovery date and regulator notifications",
+        "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008818476"
+      },
+      {
+        "label": "CoinDesk: exchange statement on trading-system separation and unresolved questions",
+        "url": "https://www.coindesk.com/tech/2026/10/28/bithumb-hacked-through-employee-system-as-south-korean-financial-firms-face-cyberattacks"
+      },
+      {
+        "label": "Yonhap: separate breaches at financial firms and Daishin customer count",
+        "url": "https://en.yna.co.kr/view/AEN20261028002751320?section=national/national"
+      },
+      {
+        "label": "SBS: distinct company accounts of the incidents",
+        "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008818628"
+      },
+      {
+        "label": "Yonhap: presidential-office emergency meeting and phishing response",
+        "url": "https://en.yna.co.kr/view/AEN20261028007151315"
+      }
+    ],
+    "body": [
+      "<p>Bithumb reported a breach of an internal employee system on Wednesday as South Korean authorities reviewed cyberattacks affecting several financial firms. The cryptocurrency exchange was investigating the scope of a personal-information leak, including whether member information was involved. The public reports did not establish how many Bithumb users were affected or identify a confirmed theft of customer cryptoassets.</p>",
+      "<p>According to SBS, the exchange detected unauthorized access to its internal mobile groupware system on Tuesday and reported the incident to the Korea Internet &amp; Security Agency and the Personal Information Protection Commission. Groupware is software employees use for work and communication. The breach concerns that internal environment, rather than a disclosed exploit in a public blockchain.</p>",
+      "<p>The distinction is central to understanding the incident. A centralized exchange operates trading, customer-service, identity and employee systems alongside its asset custody arrangements. A compromise of one system can be serious without proving that every other system was accessed. TTN's <a href=\"electrum-483-bitcoin-wallet-security-update-2026.html\">coverage of a separate wallet-security update</a> illustrates why identifying the affected component matters before drawing conclusions about funds.</p>",
+      "<h2>The exchange's assurance has a defined scope</h2>",
+      "<p>CoinDesk reported Bithumb's statement that the compromised system is separate from its trading platform and cannot be used to access customer virtual assets. That is the exchange's account of the system boundary, rather than an independently published forensic finding. Its investigation into possible member-data exposure was still continuing in the reports reviewed for this article.</p>",
+      "<p>The exchange had not disclosed a count of affected people or said whether deposits and withdrawals were disrupted, according to CoinDesk. Those unanswered points should remain distinct. A missing operational update is not evidence that transfers were suspended, just as an assurance about assets does not establish that no personal information was exposed.</p>",
+      "<p>For users, the significance of a data breach extends beyond an immediate account balance. Contact information can help a fraudster construct a convincing impersonation attempt. That risk does not require possession of a customer's cryptoassets. Claims about stolen funds, leaked credentials and exposed personal records therefore need separate evidence; they cannot be substituted for one another in describing the incident.</p>",
+      "<h2>Other firms reported separate incidents</h2>",
+      "<p>Yonhap reported that Daishin Securities said personal information belonging to 38,490 customers had been leaked. The number belongs to Daishin, not Bithumb. The brokerage described names, email addresses and mobile-phone numbers among the information affected, and said it was investigating with authorities and notifying customers. Applying that figure to the exchange would materially overstate what is known.</p>",
+      "<p>Mirae Asset Global Investments also reported abnormal access to some web systems. SBS reported the company's statement that it blocked the access route and activated an emergency response, with the information involved understood to relate to certain administrative systems rather than retail-investor records. The firms' descriptions concern different environments and should not be merged into a single confirmed technical attack.</p>",
+      "<p>The incidents nevertheless created a broader financial-sector concern. Yonhap reported that the presidential office held an emergency meeting on Wednesday involving financial, science, privacy and cybersecurity officials. The discussions covered the investigations, information sharing and measures to prevent phishing using leaked personal information. The report described a coordinated government response, not proof that the separate intrusions had the same attacker.</p>",
+      "<h2>The next evidence needs to identify exposure and impact</h2>",
+      "<p>For Bithumb, a substantive update would specify which records were accessed, the number of affected people and any consequences for account operations. Technical findings about the entry point and the separation of systems would help readers evaluate the exchange's initial assurance. None of those details can be inferred simply from a change in cryptocurrency market prices.</p>",
+      "<p>There is also a difference between an unauthorized asset transfer and a privacy incident. Our <a href=\"coindcx-usdt-loss-old-wallet-sweep-failure-2026.html\">report on CoinDCX's separate wallet loss</a> concerns a disclosed asset-loss mechanism. Bithumb's current report concerns access to an employee system and unresolved data exposure. Keeping those categories precise allows readers to assess the actual development without treating every crypto-related security headline as evidence of the same failure.</p>"
+    ],
+    "date": "2026-10-28T11:24:50Z",
+    "dateModified": "2026-10-28T11:24:50Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bithumb-data-breach-employee-system-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bithumb-data-breach-employee-system-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bithumb-data-breach-employee-system-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bithumb-data-breach-employee-system-october-2026-cover-v1-480.webp 480w, assets/responsive/bithumb-data-breach-employee-system-october-2026-cover-v1-960.webp 960w, assets/editorial/bithumb-data-breach-employee-system-october-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "visa-q4-2026-profit-payments-volume",
     "section": "Market Analysis",
     "format": "news",
