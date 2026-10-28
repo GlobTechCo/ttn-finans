@@ -1,6 +1,173 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "bank-of-canada-rate-hike-october-28-2026",
+    "section": "Market Analysis",
+    "title": "Bank of Canada Raises Rates as Energy Inflation Threatens to Spread",
+    "dek": "The first increase since July 2023 lifts the policy rate by 25 basis points. Policymakers say further increases remain possible as energy costs persist.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented Bank of Canada stone entrance and carved inscription in Ottawa.",
+    "sources": [
+      {
+        "label": "Bank of Canada: October 28 policy decision and economic outlook",
+        "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+      },
+      {
+        "label": "Bank of Canada: Governor Macklem’s opening statement and policy deliberations",
+        "url": "https://www.bankofcanada.ca/2026/10/opening-statement-2026-10-28/"
+      },
+      {
+        "label": "Bank of Canada: release timetable, 9:45 a.m. Eastern Time",
+        "url": "https://www.bankofcanada.ca/2026/10/fad-announcement-release-mpr-2026-10-28/"
+      },
+      {
+        "label": "Reuters: decision and international market context",
+        "url": "https://www.reuters.com/world/americas/bank-canada-raises-key-interest-rate-says-another-hike-possible-2026-10-28/"
+      }
+    ],
+    "body": [
+      "<p>The Bank of Canada raised its policy interest rate to 2.5% on Wednesday, acting against the risk that persistently expensive energy will push inflation into a wider range of goods and services. The quarter-percentage-point increase was its first since July 2023. Policymakers left open the possibility of further increases while stressing that decisions would depend on incoming developments.</p>",
+      "<p>The decision changes the cost of overnight money in Canada; it does not reset every household mortgage or business loan to the same rate. The effect reaches borrowers through lenders, market yields and contract terms. Readers comparing policy announcements across countries need to distinguish the central bank's target from the financing costs actually faced by households and companies.</p>",
+      "<p>For an American audience, the significance extends beyond a neighboring country's borrowing rates. The bank described strong U.S. demand, consumer spending and AI investment alongside higher global energy costs. Its decision illustrates the tension facing policymakers when activity remains resilient but an external price shock makes the route back to low inflation less certain.</p>",
+      "<h2>The concern is persistence, not just the price of gasoline</h2>",
+      "<p>In his published opening statement, Governor Tiff Macklem explained that the council considered both holding and raising the rate. The case for waiting included remaining economic slack, the effect of U.S. tariffs and inflation measures that were still relatively contained outside energy. Inflation excluding gasoline was 2.2% in September, while core measures remained close to 2%.</p>",
+      "<p>The case for acting rested on how long the energy shock could last. A business can initially absorb a more expensive fuel bill through a lower margin. If the increase persists, it may instead change delivery charges, product prices or contracts. TTN's <a href=\"second-round-inflation-effects-explained.html\">explanation of second-round inflation</a> describes why that transmission matters more for policy than one isolated jump at the pump.</p>",
+      "<p>The bank's announcement projects inflation of around 3.5% at the end of this year and an average of 3% in 2027, before a return to 2% around the middle of 2028. Those are forecasts, not observed future readings. They also depend on assumptions about the Middle East conflict and the extent to which businesses pass higher costs to customers.</p>",
+      "<h2>Better growth gives policymakers room to respond</h2>",
+      "<p>The bank expects Canada's economy to grow 1% in 2026 and 2% in both 2027 and 2028. It described stronger activity through the middle of this year, supported by investment and exports, while expecting new U.S. tariffs to slow growth in the fourth quarter. The forecast therefore combines a better overall outlook with a near-term trade obstacle.</p>",
+      "<p>This is a difficult combination for interest-rate policy. Higher rates cannot create additional oil supply or remove a tariff. They can restrain demand and influence financing conditions, which may limit the ability of rising costs to become sustained price increases. The tradeoff is that tighter conditions also affect businesses and households that did not cause the original shock.</p>",
+      "<p>Our <a href=\"central-bank-policy-divergence-explained.html\">guide to diverging central-bank policies</a> explains why a Canadian decision does not mechanically predict the next Federal Reserve move. Domestic inflation, spare capacity, trade exposure and the starting level of rates differ. A common energy shock can produce different policy responses without either bank following the other's timetable.</p>",
+      "<h2>The next decision remains conditional</h2>",
+      "<p>The next scheduled rate announcement is December 9. The council said additional increases could be needed, while emphasizing caution because uncertainty remains high. That wording preserves an option; it is not a commitment to raise rates at every meeting or to reach a particular level on a specified date.</p>",
+      "<p>For investors, the useful evidence between meetings will include whether energy pressure spreads, whether demand remains resilient and how trade restrictions affect activity. Our <a href=\"bond-duration-explained.html\">bond-duration guide</a> explains how changing rate expectations can alter existing bond prices before a policy meeting occurs. Wednesday's action makes that expectations process more consequential, while leaving the scale and timing of any further tightening unresolved.</p>"
+    ],
+    "date": "2026-10-28T14:37:57Z",
+    "dateModified": "2026-10-28T14:37:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bank-of-canada-rate-hike-october-28-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bank-of-canada-rate-hike-october-28-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bank-of-canada-rate-hike-october-28-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bank-of-canada-rate-hike-october-28-2026-cover-v1-480.webp 480w, assets/responsive/bank-of-canada-rate-hike-october-28-2026-cover-v1-960.webp 960w, assets/editorial/bank-of-canada-rate-hike-october-28-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "sap-cheaper-ai-models-cost-per-task-2026",
+    "section": "Tech & AI",
+    "title": "SAP Replaces Costly AI Models as It Focuses on Profit per Task",
+    "dek": "New details of SAP’s model selection show why lower costs per useful task can matter even when total spending on artificial intelligence keeps rising.",
+    "tickers": [
+      "SAP"
+    ],
+    "imageAlt": "Illustrative reconstruction of SAP’s documented Walldorf campus entrance, stone sign wall and office facade.",
+    "sources": [
+      {
+        "label": "Reuters: October 28 interview on replacing costly AI models",
+        "url": "https://www.reuters.com/world/china/sap-swaps-costly-ai-models-cheaper-alternatives-targets-over-2-bln-gains-2026-10-28/"
+      },
+      {
+        "label": "SAP: official AI plans, consumption units and commercial model",
+        "url": "https://www.sap.com/products/artificial-intelligence/pricing.html"
+      },
+      {
+        "label": "SAP: third-quarter 2026 results, published October 21",
+        "url": "https://www.sap.com/investors/en/financial-documents-and-events/recent-results.html?page=1&pdf-asset=ee4695fa-6f7f-0010-bca6-c68f7e60039b"
+      },
+      {
+        "label": "SAP: October 26 explanation of Joule assistants and business workflows",
+        "url": "https://news.sap.com/2026/10/ai-release-highlights-q3-2026/"
+      }
+    ],
+    "body": [
+      "<p>SAP is replacing some expensive artificial-intelligence models with lower-cost alternatives where performance remains adequate, finance chief Dominik Asam told Reuters on Wednesday. The changes include its internal consulting assistant. The business-software company still expects total AI spending to rise as use expands. Its objective is healthier margins as the business grows.</p>",
+      "<p>That distinction puts a concrete business issue behind the debate over AI expenditure. A company can pay less for an individual operation while spending more overall because customers use the service more often. For shareholders, the relevant comparison is the revenue and cost attached to useful work, rather than whether the aggregate technology bill rises or falls.</p>",
+      "<p>SAP supplies systems used to manage finance, employees and supply chains. Its AI tools operate within those business processes, where an answer may need to become an approved invoice, a purchasing action or another completed workflow. TTN's <a href=\"ai-inference-unit-economics-2026.html\">analysis of inference economics</a> explains why the price of running a model is only one part of the cost of delivering that result.</p>",
+      "<h2>Customer billing and model costs are different measures</h2>",
+      "<p>SAP's current pricing documentation separates included Base AI, Premium AI and custom-built applications. Premium services use AI Units, with agents charged by action and other features by request or processed record. Joule for Consultants uses a per-user monthly arrangement. A business task can involve multiple actions, so one completed workflow should not automatically be treated as one billable unit.</p>",
+      "<p>This matters when assessing the benefit of a cheaper underlying model. The customer's bill follows the applicable product and contract terms, while the supplier pays to operate the service. Lower operating expense does not necessarily mean an immediate reduction in every customer's price. Conversely, a low model price does not establish the total bill for an implementation.</p>",
+      "<p>Replacing a model is therefore an operating decision as well as a technology choice. If the required output can be produced at lower expense without extra rework, more revenue can remain after delivery costs. If a cheaper service needs repeated attempts or more human review, part of that saving can disappear. Performance must be judged against the business requirement being served.</p>",
+      "<h2>The latest financial statement supplies a useful baseline</h2>",
+      "<p>In results published October 21, SAP reported third-quarter cloud revenue of €6.668 billion, up 26% in reported currency. Its IFRS cloud gross margin was 73.9%, compared with 74.6% a year earlier. Reported operating profit nevertheless increased 18% to €2.930 billion. These are group and cloud-business measures, not a separate profit statement for its AI products.</p>",
+      "<p>The figures illustrate why faster sales growth alone cannot settle a margin question. More revenue can coexist with a lower percentage retained after delivery costs, while the absolute profit of the wider company still increases. The statement does not isolate the effect of Wednesday's model-selection details, so attributing the entire change in cloud margins to AI would go beyond the disclosed evidence.</p>",
+      "<p>Our <a href=\"earnings-beat-miss-explained.html\">guide to interpreting earnings</a> makes a related distinction between growth, profitability and expectations. The next disclosures will be more informative if they show how changing delivery costs interact with customer usage and pricing, rather than relying solely on the number of announced AI features.</p>",
+      "<h2>Adoption creates an execution test</h2>",
+      "<p>SAP's October 26 product update described assistants that coordinate specialized agents within existing permissions and audit processes. Its examples included creating invoices and identifying supply shortages. These are the company's descriptions of intended functionality, rather than independently measured productivity gains for every customer using the software.</p>",
+      "<p>The practical test is whether those workflows become reliable enough to use repeatedly at an acceptable cost. TTN's <a href=\"ai-agents-enterprise-roi-2026.html\">enterprise-agent return analysis</a> examines that conversion from capability to operating value. Wednesday's report adds evidence that model expense is already being managed at the product level. It does not establish a universal winning model or prove that every new AI feature will earn an adequate return.</p>"
+    ],
+    "date": "2026-10-28T14:37:57Z",
+    "dateModified": "2026-10-28T14:37:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/sap-cheaper-ai-models-cost-per-task-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/sap-cheaper-ai-models-cost-per-task-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/sap-cheaper-ai-models-cost-per-task-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/sap-cheaper-ai-models-cost-per-task-2026-cover-v1-480.webp 480w, assets/responsive/sap-cheaper-ai-models-cost-per-task-2026-cover-v1-960.webp 960w, assets/editorial/sap-cheaper-ai-models-cost-per-task-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "coinbase-ripple-rlusd-launch-october-2026",
+    "section": "Crypto",
+    "title": "Coinbase Adds Ripple’s RLUSD as Stablecoin Distribution Broadens",
+    "dek": "RLUSD is available across Coinbase’s retail and institutional platforms. Planned collateral support remains a later step, distinct from today’s launch.",
+    "tickers": [
+      "COIN",
+      "XRP",
+      "ETH"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Coinbase reception interior; not a photograph of the RLUSD launch or a current-headquarters claim.",
+    "sources": [
+      {
+        "label": "Ripple: October 28 Coinbase partnership and current versus planned availability",
+        "url": "https://ripple.com/ripple-press/ripple-and-coinbase-partner-to-expand-access-to-rlusd/"
+      },
+      {
+        "label": "Coinbase: launch announcement and supported regional access",
+        "url": "https://www.coinbase.com/blog/rlusd-is-now-available-on-coinbase"
+      },
+      {
+        "label": "Ripple: RLUSD user terms, redemption conditions and third-party prices",
+        "url": "https://ripple.com/legal/stablecoin/"
+      },
+      {
+        "label": "Ripple: reserve transparency and dated balances",
+        "url": "https://ripple.com/products/stablecoin/transparency/"
+      },
+      {
+        "label": "Reuters: launch and stablecoin competition",
+        "url": "https://www.reuters.com/legal/transactional/coinbase-adds-ripples-stablecoin-its-exchange-2026-10-28/"
+      },
+      {
+        "label": "Ripple: redemption workflow and network requirements",
+        "url": "https://docs.ripple.com/products/stablecoin/user-interface/tutorials/redeem-rlusd"
+      }
+    ],
+    "body": [
+      "<p>Coinbase added Ripple's RLUSD stablecoin to its retail and institutional platforms on Wednesday, widening access to another dollar-backed token inside a major U.S. cryptocurrency business. The launch covers Coinbase Prime, Coinbase Exchange and the retail app. Customers in supported regions can trade and manage the token, according to the companies' announcements.</p>",
+      "<p>Deposits and withdrawals are supported across the XRP Ledger, Base and Ethereum, with conversion from U.S. dollars into RLUSD at a one-to-one rate. The practical development is distribution: customers can access the asset through platforms they already use. That is different from evidence that all existing payment or treasury operations will immediately switch to the token.</p>",
+      "<p>Ripple said availability for Coinbase Global Exchange customers, including the ability to use RLUSD as collateral, would follow. The announcement did not give a launch date for that stage. Treating a planned collateral feature as already operating would overstate the scope of Wednesday's release and blur the difference between spot access and financing activity.</p>",
+      "<h2>An exchange listing improves access, not every part of settlement</h2>",
+      "<p>A stablecoin needs more than reserve assets to become useful in an operating workflow. Customers need places to acquire it, systems that accept it and reliable ways to convert it back into bank money. Adding retail and institutional access points can remove one source of friction, but each business still has its own operating and compliance requirements.</p>",
+      "<p>Coinbase Prime, a retail application and an exchange address different customer needs. An institution arranging custody and execution is not doing the same thing as an individual buying a token. TTN's <a href=\"circle-aci-usdc-colombia-settlement-pilot-2026.html\">coverage of a separate USDC settlement pilot</a> explains why access to a token and integration into a payment process should be evaluated as different milestones.</p>",
+      "<p>Support across three networks also does not make every transfer interchangeable. The sender and recipient must use compatible services and the correct network for the particular transaction. Ripple's redemption documentation identifies network-specific requirements, including fees and destination information. The announcement expands the available routes; it does not remove the operating details associated with each one.</p>",
+      "<h2>The reserve and redemption terms remain important</h2>",
+      "<p>RLUSD's user terms identify Standard Custody &amp; Trust Company as the issuer and describe reserves of liquid assets maintained to support outstanding tokens. They distinguish a general holder from a customer eligible to redeem directly with Ripple. A holder's ability to sell on an exchange and an eligible customer's contractual redemption route are related but different arrangements.</p>",
+      "<p>The same terms say Ripple does not guarantee that RLUSD will always trade at exactly one dollar on unaffiliated platforms. A one-dollar redemption framework therefore should not be mistaken for a promise that every secondary-market trade has the same price. Our <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin guide</a> explains the distinction between reserve backing, redemption access and the price available in a particular market.</p>",
+      "<p>Ripple publishes reserve information and monthly third-party attestations. Its transparency page displayed balances dated October 22, before this listing announcement. Those dated disclosures should be read on their own terms, rather than presented as a real-time audit of every token issued or transaction completed after the Coinbase launch.</p>",
+      "<h2>Commercial reach is separate from token-price speculation</h2>",
+      "<p>Ripple said it would provide liquidity for RLUSD on Base. That commitment concerns the stablecoin's use and market access; it does not establish a predictable return for XRP holders. RLUSD, XRP and shares in Coinbase represent different assets and economic claims. Their names appearing in one partnership announcement does not make their risks or potential cash flows identical.</p>",
+      "<p>For Coinbase, adding another issuer gives customers a broader choice of settlement assets. For Ripple, the new distribution route increases the opportunity to compete for actual usage. The relevant evidence after launch will be functioning access, usable liquidity and any separately confirmed collateral rollout. Wednesday establishes that the listing is live, while leaving the scale of subsequent adoption to be demonstrated.</p>"
+    ],
+    "date": "2026-10-28T14:37:57Z",
+    "dateModified": "2026-10-28T14:37:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/coinbase-ripple-rlusd-launch-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/coinbase-ripple-rlusd-launch-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coinbase-ripple-rlusd-launch-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coinbase-ripple-rlusd-launch-october-2026-cover-v1-480.webp 480w, assets/responsive/coinbase-ripple-rlusd-launch-october-2026-cover-v1-960.webp 960w, assets/editorial/coinbase-ripple-rlusd-launch-october-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "sk-hynix-q3-2026-ai-memory-profit",
     "section": "Tech & AI",
     "title": "SK hynix Reports Record Profit as AI Memory Demand Drives Expansion",

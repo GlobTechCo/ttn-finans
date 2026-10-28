@@ -2958,6 +2958,39 @@
       "bytes": 245710,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/sk-hynix-q3-2026-ai-memory-profit.html"
+    },
+    {
+      "page": "bank-of-canada-rate-hike-october-28-2026.html",
+      "source": "assets/editorial/bank-of-canada-rate-hike-october-28-2026-cover-v1.webp",
+      "image": "assets/social/bank-of-canada-rate-hike-october-28-2026-cover-v1-b74a39b48987.webp",
+      "sha256": "b74a39b489873e1ea68afe2ff0bbdbe5fe9ea41e73ed88d7bcb85c3d72126584",
+      "width": 1672,
+      "height": 941,
+      "bytes": 528544,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bank-of-canada-rate-hike-october-28-2026.html"
+    },
+    {
+      "page": "sap-cheaper-ai-models-cost-per-task-2026.html",
+      "source": "assets/editorial/sap-cheaper-ai-models-cost-per-task-2026-cover-v1.webp",
+      "image": "assets/social/sap-cheaper-ai-models-cost-per-task-2026-cover-v1-12ef494d280d.webp",
+      "sha256": "12ef494d280dc85c24d55cf047c3063d152c0ae7754cffeb387d6cb36a303c79",
+      "width": 1672,
+      "height": 941,
+      "bytes": 385274,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/sap-cheaper-ai-models-cost-per-task-2026.html"
+    },
+    {
+      "page": "coinbase-ripple-rlusd-launch-october-2026.html",
+      "source": "assets/editorial/coinbase-ripple-rlusd-launch-october-2026-cover-v1.webp",
+      "image": "assets/social/coinbase-ripple-rlusd-launch-october-2026-cover-v1-3646bcf02fb7.webp",
+      "sha256": "3646bcf02fb7939d435d1c3713313c1ae3335802e3faacc0e619646aaa388288",
+      "width": 1672,
+      "height": 941,
+      "bytes": 176954,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/coinbase-ripple-rlusd-launch-october-2026.html"
     }
   ]
 }

@@ -229,3 +229,11 @@ RELATED['bithumb-data-breach-employee-system-october-2026'] = ['electrum-483-bit
 # Prepared for review; publication awaits explicit approval.
 GROUPS['AI investment, infrastructure and productivity'].insert(0, 'sk-hynix-q3-2026-ai-memory-profit')
 RELATED['sk-hynix-q3-2026-ai-memory-profit'] = ['ai-chips-bottlenecks-2026','ai-monetization-gap-explained','tsmc-q3-2026-ai-chip-demand']
+
+# October 28 afternoon commissioned package.
+GROUPS['Central banks and currencies'].insert(0, 'bank-of-canada-rate-hike-october-28-2026')
+RELATED['bank-of-canada-rate-hike-october-28-2026'] = ['second-round-inflation-effects-explained', 'central-bank-policy-divergence-explained', 'bond-duration-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'sap-cheaper-ai-models-cost-per-task-2026')
+RELATED['sap-cheaper-ai-models-cost-per-task-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'ai-monetization-gap-explained']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coinbase-ripple-rlusd-launch-october-2026')
+RELATED['coinbase-ripple-rlusd-launch-october-2026'] = ['stablecoins-explained-depeg-risk', 'circle-aci-usdc-colombia-settlement-pilot-2026', 'circle-usdc-revenue-sharing-stablecoin-competition-2026']
