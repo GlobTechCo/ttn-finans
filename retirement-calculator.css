@@ -1,6 +1,7 @@
 .retirement-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:24px;align-items:start;margin:28px 0}.retirement-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.retirement-fields small{display:block;color:var(--text-dim);font-size:12px;line-height:1.5;margin-top:6px}.retirement-summary .big{font-size:28px}.retirement-summary .calc-result{margin:14px 0}.retirement-table{min-width:0;max-width:100%;overflow-x:auto}.retirement-table table{width:100%;border-collapse:collapse;font-size:13px}.retirement-table th,.retirement-table td{text-align:left;padding:12px 8px;border-bottom:1px solid var(--border);font-variant-numeric:tabular-nums}.retirement-table caption{text-align:left;color:var(--text-dim);margin:8px 0}.retirement-table th{font-weight:600}#rt-error{color:var(--down)}#rt-chart svg{width:100%;height:auto;display:block}.static-page details{margin:14px 0}.static-page summary{cursor:pointer;font-weight:600}.static-page h3{font-size:18px;margin:24px 0 12px}[hidden]{display:none!important}@media(max-width:850px){.retirement-layout{grid-template-columns:1fr}}@media(max-width:420px){.retirement-fields{grid-template-columns:1fr}}@media print{.topnav,footer,#rt-print,#rt-reset,.cookie-consent{display:none!important}.retirement-layout{display:block}.calc-card{break-inside:avoid}body{background:white;color:black}.static-page{padding:0}details{display:none}}
 
 /* Grid children must shrink to the viewport, including before the chart loads. */
+.retirement-layout>.calc-card{container-type:inline-size;container-name:retirement-panel}
 .retirement-layout>.calc-card,.retirement-fields>.calc-field,#rt-results,#rt-chart{min-width:0;max-width:100%}
 .retirement-layout .calc-field input{min-width:0}
 .retirement-summary .big{overflow-wrap:anywhere}
@@ -12,6 +13,8 @@
  .retirement-fields{grid-template-columns:minmax(0,1fr)}
  .retirement-layout input{font-size:16px;min-height:44px}
  .retirement-layout .calc-swap-btn{min-height:44px;white-space:normal}
+}
+@container retirement-panel (max-width:600px){
  /* Stack each scenario so readers do not have to pan a five-column table. */
  .retirement-scenarios,.retirement-scenarios tbody{display:block}
  .retirement-scenarios thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%)}
