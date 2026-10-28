@@ -319,3 +319,11 @@ TITLES['amazon-alexa-devices-echo-time-launch-2026'] = 'Amazon Launches Alexa Cl
 DESCRIPTIONS['amazon-alexa-devices-echo-time-launch-2026'] = 'Five new Alexa devices extend Amazon’s home hardware range. The rollout comes as its devices and services unit reduces staff.'
 TITLES['dtcc-tokenization-service-live-october-2026'] = 'DTCC Launches Tokenized Securities Service'
 DESCRIPTIONS['dtcc-tokenization-service-live-october-2026'] = 'The market infrastructure group’s service is live on Canton and its private Besu network. Eligible asset value is distinct from tokens issued.'
+
+# October 28 late editorial metadata.
+TITLES['fed-october-2026-rate-hold-two-dissents'] = 'Fed Holds Rates at 3.75–4% With Two Dissents'
+DESCRIPTIONS['fed-october-2026-rate-hold-two-dissents'] = 'The Fed kept borrowing costs steady while describing strong activity and elevated inflation. Two voters preferred a quarter-point increase.'
+TITLES['google-gemini-4-carbon-cybersecurity-access-2026'] = 'Google Unveils Gemini 4 Carbon With Limited Access'
+DESCRIPTIONS['google-gemini-4-carbon-cybersecurity-access-2026'] = 'Google’s new AI model targets software security and longer coding tasks. Initial access and introductory pricing have important limits.'
+TITLES['cftc-ai-crypto-trading-agent-liability-2026'] = 'CFTC Chief Questions AI Crypto Trading Liability'
+DESCRIPTIONS['cftc-ai-crypto-trading-agent-liability-2026'] = 'At a new public forum, Michael Selig examined who controls autonomous trading software. His remarks did not create a new registration rule.'

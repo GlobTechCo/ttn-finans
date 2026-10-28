@@ -1,6 +1,161 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "fed-october-2026-rate-hold-two-dissents",
+    "section": "Market Analysis",
+    "title": "Fed Holds Rates at 3.75–4% as Two Officials Back an Increase",
+    "dek": "The Fed kept borrowing costs steady while describing strong activity and elevated inflation. Two voters preferred a quarter-point increase.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented Eccles Building marble facade and Federal Reserve Board inscription.",
+    "sources": [
+      {
+        "label": "Federal Reserve: October 28 FOMC statement, vote and economic assessment",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      {
+        "label": "Federal Reserve: October 28 implementation note and reserve-management instructions",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm"
+      },
+      {
+        "label": "Reuters: October 28 decision reporting and policy context",
+        "url": "https://www.reuters.com/business/fed-likely-go-into-wait-and-see-mode-rates-2026-10-28/"
+      }
+    ],
+    "body": [
+      "<p>The Federal Reserve left its target interest-rate range at 3.75% to 4% on Wednesday, pausing while it assesses an economy that policymakers described as expanding strongly with inflation still elevated. The decision passed by a 10–2 vote. Lisa Cook and Beth Hammack dissented because they preferred a quarter-percentage-point increase, making the disagreement about tighter policy rather than an immediate cut.</p>",
+      "<p>The statement puts additional economic information at the center of the next decision. It says more evidence will help officials determine the stance needed to return inflation to their 2% goal. It does not commit the committee to a December increase, promise a cut or publish a timetable for a particular destination for rates.</p>",
+      "<p>For borrowers, Wednesday means the central bank's overnight target is unchanged. It does not freeze every mortgage quote, credit-card rate or corporate financing cost. Those prices also reflect contract terms, lenders' decisions and expectations for future policy. Our <a href=\"fed-funds-futures-rate-odds-explained.html\">guide to rate expectations</a> explains why market pricing can change even when the current target stays in place.</p>",
+      "<h2>A pause accompanies a stronger description of activity</h2>",
+      "<p>The committee described domestic spending as resilient, productivity growth as strong and capital investment as robust. It said job gains had kept pace with the workforce and unemployment had changed little. Together, those observations explain why an unchanged rate should not automatically be interpreted as a response to collapsing demand or rapidly deteriorating employment.</p>",
+      "<p>At the same time, officials said inflation remained elevated and uncertainty was high, partly because of geopolitical developments. The combination leaves a policy tradeoff: strong activity may give the economy room to absorb restraint, while persistent price pressure argues against assuming that the inflation problem has already been resolved. The statement describes that tension without supplying a guaranteed next move.</p>",
+      "<p>The two dissenters make the distinction especially clear. Cook and Hammack favored raising the range by 0.25 percentage point at this meeting. Their preferred action would have tightened policy sooner. It would be inaccurate to group these dissents with votes for lower rates or to describe the outcome as a unanimous judgment that further restraint is unnecessary.</p>",
+      "<h2>The operating framework remains in place</h2>",
+      "<p>A separate implementation note maintains the interest rate on reserve balances at 3.90%, effective October 29. The standing overnight repurchase rate remains 4%, while overnight reverse repurchase operations have an offering rate of 3.75%. These are tools used to implement monetary policy, rather than separate retail borrowing offers available to households.</p>",
+      "<p>The instructions also allow purchases of Treasury bills and, if needed, other short-dated Treasury securities to maintain ample reserves. Treasury principal payments are to be rolled over, while agency-security principal payments are reinvested in Treasury bills. The stated reserve-management purpose matters: those operational instructions should not, by themselves, be presented as a new rate cut or a promise of broad economic stimulus.</p>",
+      "<p>Investors therefore need to read the target decision alongside the implementation details. Different rates and transactions serve different functions within the same framework. TTN's <a href=\"treasury-general-account-liquidity-explained.html\">explanation of banking-system liquidity</a> discusses why the amount of reserves and the price of overnight money are related, but are not interchangeable policy measures.</p>",
+      "<h2>The evidence between meetings still matters</h2>",
+      "<p>The U.S. decision also differs from Wednesday's <a href=\"bank-of-canada-rate-hike-october-28-2026.html\">Canadian quarter-point increase</a>. A shared international energy shock does not require central banks to act on identical schedules. Domestic demand, inflation dynamics and the starting level of interest rates can lead neighboring economies to different decisions without either announcement determining the other's next step.</p>",
+      "<p>For households and businesses planning financing, the practical consequence is continued uncertainty about the path rather than an automatic change in today's payments. For investors, coming inflation, spending and employment evidence will test the balance described in the statement. Wednesday delivers an unchanged target and a visible minority favoring an increase. It leaves the next policy choice conditional on the information still to arrive.</p>"
+    ],
+    "date": "2026-10-28T20:35:05Z",
+    "dateModified": "2026-10-28T20:35:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/fed-october-2026-rate-hold-two-dissents-cover-v1.webp",
+    "imageSmall": "assets/responsive/fed-october-2026-rate-hold-two-dissents-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/fed-october-2026-rate-hold-two-dissents-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/fed-october-2026-rate-hold-two-dissents-cover-v1-480.webp 480w, assets/responsive/fed-october-2026-rate-hold-two-dissents-cover-v1-960.webp 960w, assets/editorial/fed-october-2026-rate-hold-two-dissents-cover-v1.webp 1672w"
+  },
+  {
+    "id": "google-gemini-4-carbon-cybersecurity-access-2026",
+    "section": "Tech & AI",
+    "title": "Google Unveils Gemini 4 Carbon With Early Access Limited to Cyber Defenders",
+    "dek": "Google’s new AI model targets software security and longer coding tasks. Initial access and introductory pricing have important limits.",
+    "tickers": [
+      "GOOGL"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Google DeepMind London entrance and installed wall wordmark.",
+    "sources": [
+      {
+        "label": "Google: October 28 Carbon announcement, rollout and pricing footnote",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      {
+        "label": "Google DeepMind: Fairwind access, defensive-use controls and partner requirements",
+        "url": "https://deepmind.google/fairwind-program/"
+      },
+      {
+        "label": "SEC-bench Pro: security-task evaluation methodology and versioned results",
+        "url": "https://sec-bench.github.io/"
+      },
+      {
+        "label": "NIST: voluntary AI Risk Management Framework and lifecycle evaluation",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      {
+        "label": "Reuters: October 28 model announcement and restricted rollout",
+        "url": "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-2026-10-28/"
+      }
+    ],
+    "body": [
+      "<p>Google announced Gemini 4 Carbon on Wednesday, emphasizing software-security work and sustained coding tasks while limiting the initial rollout to selected cyber defenders. The model is not yet a general release for every developer, business or consumer. Google says access will expand through trusted partners as it evaluates safeguards and feedback.</p>",
+      "<p>The announcement makes access conditions as important as the model's claimed performance. Organizations cannot assume that a new model announcement means an immediate replacement is available in their existing applications. For security teams, an early-access program is a way to evaluate a capability under defined conditions, rather than evidence that production systems can already depend on unrestricted use.</p>",
+      "<h2>The first rollout has a defensive purpose</h2>",
+      "<p>Google says a subset of defenders will receive access starting this week, with additional trusted partners admitted through its Fairwind Program. The program's published framework prioritizes organizations such as governments, critical-infrastructure operators and major technology platforms. Its controls include organizational vetting, restricted distribution and requirements around employee access and authentication.</p>",
+      "<p>Those program documents still describe the earlier Argon model in parts of the technology and governance sections. They provide context for the access framework, but should not be treated as a separate announcement that every existing partner already has Carbon. Wednesday's Carbon release is the relevant source for the new model's staged availability.</p>",
+      "<p>The distinction between permission to test a system and permission to let it change important software matters. A team can initially assess proposed fixes in an isolated environment, compare them with existing checks and retain approval over deployment. That approach lets an organization measure useful work while limiting the consequences of a faulty suggestion or an incorrectly authorized action.</p>",
+      "<h2>Benchmarks measure tasks, not immunity from attacks</h2>",
+      "<p>Google reports improvements in vulnerability discovery, exploitation testing and patching, including more than twice Argon's secure-code success rate on an internal benchmark. These are company-reported findings. They do not establish that the model will find every flaw in a customer's software or that every suggested change is safe to deploy without review.</p>",
+      "<p>SEC-bench Pro, one of the evaluations cited by Google, describes tests of security-bug discovery and proof-of-concept generation on targets including browsers and the Linux kernel. Its methodology uses specified environments, task prompts, time limits and checking procedures. Results therefore depend on the version, tools and test conditions, rather than measuring a universal probability that any system is secure.</p>",
+      "<p>For a buyer, the more informative comparison is the number of valid problems found and correctly repaired, with the time spent reviewing false positives included. NIST's voluntary AI Risk Management Framework organizes risk work around governing, mapping, measuring and managing systems across their lifecycle. It supplies an evaluation approach, not a certification that Carbon or another model is suitable for a particular organization.</p>",
+      "<h2>The pricing footnote changes the cost comparison</h2>",
+      "<p>Google lists introductory pricing of $2 per million input tokens and $10 per million output tokens. Its footnote says the rates become $4 and $20 after the introductory period. A token is a unit of processed text or other model input and output; it is not the same as one completed security investigation or one accepted software patch.</p>",
+      "<p>At an unchanged workload, those later per-token rates would double the corresponding model bill. Actual project costs also depend on repeated attempts, the length of the material processed, supporting tools and human review. Our <a href=\"ai-inference-unit-economics-2026.html\">analysis of inference economics</a> explains why a price per token needs to be translated into the cost of a completed task.</p>",
+      "<p>Wednesday's announcement adds a new model to that evaluation process. It establishes a restricted rollout and published pricing terms, while the performance claims still need to be tested against an organization's own requirements. TTN's <a href=\"ai-agents-enterprise-roi-2026.html\">guide to enterprise-agent returns</a> examines that final step: turning an impressive capability into reliable work whose benefit exceeds its full operating cost.</p>"
+    ],
+    "date": "2026-10-28T20:35:05Z",
+    "dateModified": "2026-10-28T20:35:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1-480.webp 480w, assets/responsive/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1-960.webp 960w, assets/editorial/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "cftc-ai-crypto-trading-agent-liability-2026",
+    "section": "Crypto",
+    "title": "CFTC Chief Raises Liability Questions for AI Crypto Trading Agents",
+    "dek": "At a new public forum, Michael Selig examined who controls autonomous trading software. His remarks did not create a new registration rule.",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented CFTC entrance, official seal and installed agency plaque.",
+    "sources": [
+      {
+        "label": "CFTC: Chairman Selig’s October 28 Frontier Forum remarks",
+        "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/opaselig14"
+      },
+      {
+        "label": "CFTC: October 28 forum scope, agenda and participant-view disclaimer",
+        "url": "https://www.cftc.gov/PressRoom/Events/opaeventiac102826"
+      },
+      {
+        "label": "CFTC: September 21 announcement of the public Frontier Forum series",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9301-26"
+      },
+      {
+        "label": "CoinDesk: October 28 reporting on agent accountability and crypto-market parallels",
+        "url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading"
+      }
+    ],
+    "body": [
+      "<p>CFTC Chairman Michael Selig raised questions Wednesday about who should register, who should be identified and who bears responsibility when autonomous software trades for a user. Speaking at the agency's inaugural Frontier Forum, he pointed to crypto markets as an existing source of regulatory experience and to blockchains as infrastructure that can let agents hold and trade assets without traditional intermediaries.</p>",
+      "<p>The remarks open a policy discussion rather than announce a new licensing requirement. Selig explicitly said he was presenting his own views as chairman, which did not necessarily reflect those of the Commodity Futures Trading Commission. His questions about agent identification and developer liability should therefore not be reported as rules that already require every AI application to register.</p>",
+      "<p>For crypto users and businesses, the practical issue is the transfer of control. Software that summarizes a market is performing a different function from software authorized to submit a trade or move assets. As tools move from generating an answer to exercising permissions, identifying the relevant operator, customer and decision maker becomes more consequential.</p>",
+      "<h2>The focus is on function and control</h2>",
+      "<p>Selig asked whether a developer becomes subject to registration when an agent identifies opportunities and executes transactions for a user. He also raised responsibility when the system acts unexpectedly and how regulators can determine whom an agent represents. He suggested an agent-identification concept as a possible question for discussion, rather than establishing a new mandatory identification standard.</p>",
+      "<p>He said the agency's approach should consider the functions performed, the control exercised and the economic realities of a transaction. Those factors are especially relevant when a developer publishes code, another business operates the service, and a customer authorizes activity through a wallet. The same visible interface can sit above different arrangements for custody, execution and discretion.</p>",
+      "<p>Our <a href=\"bloom-trading-bot-wallet-losses-reimbursement-2026.html\">report on a trading-bot wallet incident</a> explains why access to an account and control over its assets need to be evaluated carefully. In an agent workflow, the useful questions include which actions are authorized, how authority can be revoked and what evidence records a transaction. These are operating questions raised by the technology, not a claim that Wednesday's speech answered every legal issue.</p>",
+      "<h2>Similar models can create shared market risks</h2>",
+      "<p>Selig identified unexpected responses to market conditions, correlated trading by systems using similar models and the speed of autonomous transactions as potential challenges for surveillance and risk management. The concern is not limited to one agent making one bad decision. Many systems reacting similarly can make a common exposure more important than it appears when each application is evaluated alone.</p>",
+      "<p>That observation is relevant to markets where participants can trade continuously and move quickly between venues. A control that works during a quiet test may encounter different conditions when prices change sharply or a venue becomes unavailable. TTN's <a href=\"crypto-liquidation-leverage-explained.html\">explanation of crypto liquidations</a> describes how forced position closures can amplify an initial price move, adding a separate transmission channel to consider when assessing automated execution.</p>",
+      "<p>The chairman also described possible supervisory benefits. He said AI could help exchanges detect suspicious activity, clearinghouses monitor exposures and regulators identify misconduct. These are potential uses and his assessment of the agency's direction. The speech does not provide independent measurements proving that a particular agent makes a market safer or that all model-related risks have been resolved.</p>",
+      "<h2>A public forum begins the process</h2>",
+      "<p>The CFTC announced the forum series in September as a venue for public dialogue about changing financial technology and market structure. Wednesday's event focused on AI, increasingly autonomous systems and financial transactions. Holding that event is a concrete regulatory-engagement step, but a public discussion is different from a proposed rule, a final regulation or an enforcement finding against a named developer.</p>",
+      "<p>The next useful evidence will be specific agency documents explaining any proposed obligations, their legal basis and the activities covered. For now, the message for crypto businesses is that autonomous execution brings accountability and identification into the policy debate. Wednesday clarifies the questions being asked while leaving the final regulatory answers, and the responsibilities of particular participants, unresolved.</p>"
+    ],
+    "date": "2026-10-28T20:35:05Z",
+    "dateModified": "2026-10-28T20:35:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/cftc-ai-crypto-trading-agent-liability-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/cftc-ai-crypto-trading-agent-liability-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/cftc-ai-crypto-trading-agent-liability-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/cftc-ai-crypto-trading-agent-liability-2026-cover-v1-480.webp 480w, assets/responsive/cftc-ai-crypto-trading-agent-liability-2026-cover-v1-960.webp 960w, assets/editorial/cftc-ai-crypto-trading-agent-liability-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "us-goods-trade-deficit-september-2026",
     "section": "Market Analysis",
     "title": "US Goods Trade Deficit Widens as Capital-Goods Imports Surge",

@@ -245,3 +245,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'amazon-alexa
 RELATED['amazon-alexa-devices-echo-time-launch-2026'] = ['ai-monetization-gap-explained', 'ai-inference-unit-economics-2026', 'amazon-globalstar-fcc-acquisition-approval-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'dtcc-tokenization-service-live-october-2026')
 RELATED['dtcc-tokenization-service-live-october-2026'] = ['okxice-stock-token-issuer-objections-2026', 'janus-henderson-jqqq-nasdaq-stellar-fund-2026', 'aviva-sterling-tokenised-fund-xrp-ledger-2026']
+
+# October 28 late commissioned package.
+GROUPS['Central banks and currencies'].insert(0, 'fed-october-2026-rate-hold-two-dissents')
+RELATED['fed-october-2026-rate-hold-two-dissents'] = ['fed-funds-futures-rate-odds-explained', 'bank-of-canada-rate-hike-october-28-2026', 'treasury-general-account-liquidity-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'google-gemini-4-carbon-cybersecurity-access-2026')
+RELATED['google-gemini-4-carbon-cybersecurity-access-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'enterprise-ai-data-security-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'cftc-ai-crypto-trading-agent-liability-2026')
+RELATED['cftc-ai-crypto-trading-agent-liability-2026'] = ['bloom-trading-bot-wallet-losses-reimbursement-2026', 'crypto-liquidation-leverage-explained', 'dtcc-tokenization-service-live-october-2026']

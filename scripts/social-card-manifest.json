@@ -3024,6 +3024,39 @@
       "bytes": 163292,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/dtcc-tokenization-service-live-october-2026.html"
+    },
+    {
+      "page": "fed-october-2026-rate-hold-two-dissents.html",
+      "source": "assets/editorial/fed-october-2026-rate-hold-two-dissents-cover-v1.webp",
+      "image": "assets/social/fed-october-2026-rate-hold-two-dissents-cover-v1-4ad8bdf56b71.webp",
+      "sha256": "4ad8bdf56b71a067305b73dafa96f5a6f650645447596ae47f4397085c33da16",
+      "width": 1672,
+      "height": 940,
+      "bytes": 372226,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/fed-october-2026-rate-hold-two-dissents.html"
+    },
+    {
+      "page": "google-gemini-4-carbon-cybersecurity-access-2026.html",
+      "source": "assets/editorial/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1.webp",
+      "image": "assets/social/google-gemini-4-carbon-cybersecurity-access-2026-cover-v1-4f1c043024b6.webp",
+      "sha256": "4f1c043024b622eed2e1827604d00424cf2224028767c1dae2f246f866f8184a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 512022,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/google-gemini-4-carbon-cybersecurity-access-2026.html"
+    },
+    {
+      "page": "cftc-ai-crypto-trading-agent-liability-2026.html",
+      "source": "assets/editorial/cftc-ai-crypto-trading-agent-liability-2026-cover-v1.webp",
+      "image": "assets/social/cftc-ai-crypto-trading-agent-liability-2026-cover-v1-c4013ed061e9.webp",
+      "sha256": "c4013ed061e938ba42e4a99d9f3c2c76dd0f7a8bfc2ab8515c2b3a615e604f15",
+      "width": 1672,
+      "height": 941,
+      "bytes": 404556,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/cftc-ai-crypto-trading-agent-liability-2026.html"
     }
   ]
 }
