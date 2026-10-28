@@ -1,0 +1,37 @@
+name: Retirement calculator mobile layout
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'retirement-calculator.*'
+      - 'style.css'
+      - 'editorial-theme.css'
+      - 'footer.css'
+      - 'scripts/test-retirement-layout.cjs'
+      - '.github/workflows/retirement-layout.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  responsive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - run: node scripts/verify_retirement_calculator.cjs
+      - run: npm install --no-save playwright@1.64.1
+      - run: npx playwright install --with-deps chromium
+      - name: Check narrow screens, first load and resizing
+        run: |
+          python3 -m http.server 8765 >/tmp/ttn-retirement-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-retirement-layout.cjs
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: retirement-layout-review
+          path: /tmp/ttn-retirement-layout/*.png
+          retention-days: 3

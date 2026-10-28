@@ -37,6 +37,15 @@
     const ids = ['age','retire','end','savings','monthly','spending','income','inflation','before','after','fee'];
     const el = id => document.getElementById(id);
     const money = n => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+    let chartState;
+    function renderChart() {
+      if (!chartState || el('rt-results').hidden) return;
+      const {x,b} = chartState;
+      const max = Math.max(1,...b.points.map(p=>p.balance),b.target), width = Math.max(240,Math.round(el('rt-chart').getBoundingClientRect().width) || 800), height = 230;
+      const px = age => 55 + (age-x.age)/(x.end-x.age)*(width-80), py = v => 190 - v/max*160;
+      const path = b.points.map((p,i)=>(i?'L':'M')+px(p.age).toFixed(2)+','+py(p.balance).toFixed(2)).join(' ');
+      el('rt-chart').innerHTML = '<svg viewBox="0 0 '+width+' '+height+'" role="img" aria-labelledby="rt-chart-title rt-chart-desc"><title id="rt-chart-title">Base retirement balance in today’s dollars</title><desc id="rt-chart-desc">'+el('rt-status').textContent+' Balance at retirement: '+money(b.balance)+'.</desc><line x1="55" y1="190" x2="'+(width-25)+'" y2="190" stroke="currentColor" opacity=".3"/><line x1="'+px(x.retire)+'" y1="30" x2="'+px(x.retire)+'" y2="190" stroke="currentColor" stroke-dasharray="5 5" opacity=".5"/><path d="'+path+'" fill="none" stroke="var(--accent)" stroke-width="3"/><text x="55" y="20" fill="currentColor" font-size="13">'+money(max)+'</text><text x="55" y="215" fill="currentColor" font-size="13">Age '+x.age+'</text><text x="'+px(x.retire)+'" y="215" text-anchor="middle" fill="currentColor" font-size="13">Retire '+x.retire+'</text><text x="'+(width-25)+'" y="215" text-anchor="end" fill="currentColor" font-size="13">Age '+x.end+'</text></svg>';
+    }
     function update() {
       const x = Object.fromEntries(ids.map(id => [id, el('rt-'+id).value.trim() === '' ? NaN : Number(el('rt-'+id).value)]));
       try {
@@ -46,14 +55,13 @@
         el('rt-required').textContent = b.required === null ? 'Already at retirement' : money(b.required) + ' / month';
         el('rt-status').textContent = (b.gap >= 0 ? 'Modeled surplus: ' : 'Modeled shortfall: ') + money(Math.abs(b.gap)) + '. ' + (b.depletedAge === null ? 'The base scenario funds the selected spending through age '+x.end+'.' : 'The base scenario first cannot cover a full withdrawal at age '+b.depletedAge.toFixed(1)+'.');
         el('rt-nominal').textContent = 'Base balance in retirement-year dollars: '+money(b.nominal)+'. All headline results and chart values use today’s purchasing power.';
-        el('rt-scenarios').innerHTML = scenarios.map((s,i)=>'<tr><th scope="row">'+['Lower return','Base','Higher return'][i]+'</th><td>'+ (s.netBefore*100).toFixed(1)+'% / '+(s.netAfter*100).toFixed(1)+'%</td><td>'+money(s.balance)+'</td><td>'+money(s.target)+'</td><td>'+(s.required === null ? '—' : money(s.required))+'</td></tr>').join('');
-        const max = Math.max(1,...b.points.map(p=>p.balance),b.target), width = 800, height = 230;
-        const px = age => 55 + (age-x.age)/(x.end-x.age)*720, py = v => 190 - v/max*160;
-        const path = b.points.map((p,i)=>(i?'L':'M')+px(p.age).toFixed(2)+','+py(p.balance).toFixed(2)).join(' ');
-        el('rt-chart').innerHTML = '<svg viewBox="0 0 '+width+' '+height+'" role="img" aria-labelledby="rt-chart-title rt-chart-desc"><title id="rt-chart-title">Base retirement balance in today’s dollars</title><desc id="rt-chart-desc">'+el('rt-status').textContent+' Balance at retirement: '+money(b.balance)+'.</desc><line x1="55" y1="190" x2="775" y2="190" stroke="currentColor" opacity=".3"/><line x1="'+px(x.retire)+'" y1="30" x2="'+px(x.retire)+'" y2="190" stroke="currentColor" stroke-dasharray="5 5" opacity=".5"/><path d="'+path+'" fill="none" stroke="var(--accent)" stroke-width="3"/><text x="55" y="20" fill="currentColor" font-size="13">'+money(max)+'</text><text x="55" y="215" fill="currentColor" font-size="13">Age '+x.age+'</text><text x="'+px(x.retire)+'" y="215" text-anchor="middle" fill="currentColor" font-size="13">Retire '+x.retire+'</text><text x="775" y="215" text-anchor="end" fill="currentColor" font-size="13">Age '+x.end+'</text></svg>';
+        el('rt-scenarios').innerHTML = scenarios.map((s,i)=>'<tr><th scope="row">'+['Lower return','Base','Higher return'][i]+'</th><td data-label="Net return: before / during">'+ (s.netBefore*100).toFixed(1)+'% / '+(s.netAfter*100).toFixed(1)+'%</td><td data-label="Savings">'+money(s.balance)+'</td><td data-label="Target">'+money(s.target)+'</td><td data-label="Monthly contribution">'+(s.required === null ? '—' : money(s.required))+'</td></tr>').join('');
+        chartState = {x,b}; renderChart();
         el('rt-yearly').innerHTML = b.points.map(p=>'<tr><th scope="row">'+p.age+'</th><td>'+money(p.balance)+'</td></tr>').join('');
       } catch (e) {el('rt-error').textContent=e.message;el('rt-results').hidden=true;}
     }
+    if (typeof ResizeObserver !== 'undefined') new ResizeObserver(renderChart).observe(el('rt-chart'));
+    else root.addEventListener('resize',renderChart);
     ids.forEach(id=>el('rt-'+id).addEventListener('input',update));
     el('rt-reset').addEventListener('click',()=>{el('rt-form').reset();update();});
     el('rt-print').addEventListener('click',()=>window.print());
