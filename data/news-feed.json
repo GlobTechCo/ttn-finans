@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T07:18:02.905140+00:00",
+  "generatedAt": "2026-10-28T14:06:09.563538+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,364 +35,540 @@
   ],
   "items": [
     {
-      "title": "UBS pre-tax profits jump 27% to $3.59 billion in the third quarter",
-      "desc": "UBS reported a third quarter pre-tax profit of almost $3.6 billion.",
+      "title": "Bearista cups are returning at Starbucks. Can the viral sensation boost holiday sales again?",
+      "desc": "Starbucks CEO Brian Niccol is hoping to recapture lightning in a bottle and keep his turnaround plan moving forward.",
+      "link": "https://www.cnbc.com/investingclub/2026/10/28/bearista-cups-are-back-at-starbucks-can-they-boost-holiday-sales-again.html",
+      "image": null,
+      "pubDate": "2026-10-28T14:04:13+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Lennox International Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958581-lennox-international-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T14:02:15+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "TE Connectivity plc 2026 Q4 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958580-te-connectivity-plc-2026-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T14:01:53+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Trustmark Corporation 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958579-trustmark-corporation-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T14:01:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Baker Hughes Company 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958578-baker-hughes-company-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T14:01:04+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Why is Bausch + Lomb stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-bausch--lomb-stock-surging-today-93CH-4979660",
+      "image": "https://content-media.investing.com/news/LYNXNPEBAG0BO_M.jpg",
+      "pubDate": "2026-10-28T13:58:53+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Genmab stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-genmab-stock-surging-today-93CH-4979656",
+      "image": "https://content-media.investing.com/news/LYNXNPEC0D0AP_M.jpg",
+      "pubDate": "2026-10-28T13:57:43+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Ensign Group stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-ensign-group-stock-surging-today-93CH-4979653",
+      "image": "https://content-media.investing.com/news/LYNXNPEC0E0NI_M.jpg",
+      "pubDate": "2026-10-28T13:56:51+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "CoreWeave: The Market Isn't Wrong",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958518-coreweave-the-market-isnt-wrong?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:55:43+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Dodge & Cox International Stock Fund Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958561-dodge-and-cox-international-stock-fund-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:55:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Genmab stock surges 16% on positive cancer trial results",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/genmab-stock-surges-16-on-positive-cancer-trial-results-4979637",
+      "image": "https://content-media.investing.com/news/LYNXMPEM5F17R_1200_L.jpg",
+      "pubDate": "2026-10-28T13:54:47+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Brinker International stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-brinker-international-stock-surging-today-93CH-4979641",
+      "image": "https://content-media.investing.com/news/LYNXMPEDAF0IH_M.jpg",
+      "pubDate": "2026-10-28T13:54:38+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Is that used EV worth the price? This checklist could save you thousands of dollars.",
+      "desc": "Pain at the pump is pushing cost-conscious drivers away from traditional gas-powered cars toward electric vehicles.",
+      "link": "https://www.marketwatch.com/story/is-that-used-ev-worth-the-price-this-checklist-could-save-you-thousands-of-dollars-2e1ab876?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-92843466",
+      "pubDate": "2026-10-28T13:53:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Why is OneSpaWorld stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-onespaworld-stock-surging-today-93CH-4979631",
+      "image": "https://content-media.investing.com/news/LYNXMPEB59082_M.jpg",
+      "pubDate": "2026-10-28T13:52:44+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
+      "desc": "Google is opening its TPU business beyond its own cloud as custom chips become a bigger engine for growth.",
+      "link": "https://www.cnbc.com/2026/10/28/google-alters-cloud-playbook-turning-to-partners-to-sell-more-ai-chips.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:52:27+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Why is Axogen stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-axogen-stock-surging-today-93CH-4979626",
+      "image": "https://content-media.investing.com/news/LYNXMPED0C0KP_M.jpg",
+      "pubDate": "2026-10-28T13:50:59+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "SK Hynix sparks a chip rally: Two oversold enablers primed to rebound",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/sk-hynix-sparks-a-chip-rally-two-oversold-enablers-primed-to-rebound-4979458",
+      "image": "https://content-media.investing.com/news/AppliedMaterials_800x533_L_1645098425.jpg",
+      "pubDate": "2026-10-28T13:50:49+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "America's largest budget airline reports 71% jump in airfare",
+      "desc": "Frontier Airlines reported a 71% jump in airfare for the third quarter and said customers continue to book",
+      "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:50:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "The Stock Market Looks Pricey, But Not Necessarily Irrational",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958560-stock-market-looks-pricey-not-necessarily-irrational?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:50:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "UnitedHealth: Raised Premiums, Market Exits, And Member Attrition Deliver Future Resilience",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958320-unitedhealth-raised-premiums-market-exits-and-member-attrition-deliver-future-resilience?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:49:41+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Oklo: Bullish On Nuclear Energy, Skeptical Of Execution",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958516-oklo-bullish-on-nuclear-energy-skeptical-of-execution?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:49:30+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Monro: Expecting A Strategic Transaction",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958515-monro-expecting-a-strategic-transaction?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:49:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Why is Seagate Technology stock sliding today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-sliding-today-93CH-4979605",
+      "image": "https://content-media.investing.com/news/Seagate_800x533_L_1674719149.jpg",
+      "pubDate": "2026-10-28T13:48:16+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stellantis stock rises 12% as automaker's turnaround plan, cost cuts gain traction",
+      "desc": "European car giant Stellantis said Wednesday that it recorded a 4 billion euro ($4.5 billion) cash shortfall in the third quarter.",
+      "link": "https://www.cnbc.com/2026/10/28/stellantis-45-billion-cash-drain-turnaround.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:48:05+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Why is Teradyne stock sliding today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-teradyne-stock-sliding-today-93CH-4979589",
+      "image": "https://content-media.investing.com/news/LYNXMPEDAF0IH_M.jpg",
+      "pubDate": "2026-10-28T13:45:51+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Hut 8: Positioned For A Bounce Back After The Neocloud Sell-Off",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958514-hut-8-positioned-for-a-bounce-back-after-the-neocloud-sell-off?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:40:55+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Federal National Mortgage Association (FNMA) Q3 2026 Earnings Call Prepared Remarks Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958520-federal-national-mortgage-association-fnma-q3-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:39:54+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nvidia May Actually Raise Its 70% Growth Guide In November",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958511-nvidia-may-actually-raise-its-70-percent-growth-guide-in-november?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:37:47+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "BNP Paribas SA 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958552-bnp-paribas-sa-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:32:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Clean Harbors, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958550-clean-harbors-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:32:13+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "TTM Technologies: The Market Is Punishing The Cash Flow, But The Stock Is In An Interesting Zone",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958501-ttm-technologies-the-market-is-punishing-the-cash-flow-but-the-stock-is-in-an-interesting-zone?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:31:50+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Symrise AG 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958549-symrise-ag-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:31:39+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Verallia Société Anonyme (VRLAF) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958546-verallia-societe-anonyme-vrlaf-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:30:14+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "SLB Stock: A Move To Rebuild Inventories Makes It A Buy",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4957963-slb-stock-a-move-to-rebuild-inventories-makes-it-a-buy?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nvidia: Brace For The Worst",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958219-nvidia-brace-for-the-worst?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "S4 Capital plc (SFCAY) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958545-s4-capital-plc-sfcay-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:29:57+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+      "desc": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-39326019",
+      "pubDate": "2026-10-28T13:27:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "PayPal: A Potential Bid Holds The Floor",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958497-paypal-a-potential-bid-holds-the-floor?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:25:31+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Anthropic Exposes SpaceX's Hidden AI Risk",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958496-anthropic-exposes-spacex-hidden-ai-risk?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:22:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
+      "desc": "Wendy's has endured a tough two-year stretch as diners eat out less often.",
+      "link": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:21:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "FEC campaign finance system offline days before midterms after hackers reportedly target site",
+      "desc": "Total political ad spending and reservations for the 2026 cycle has topped $11.2 billion, according to AdImpact.",
+      "link": "https://www.cnbc.com/2026/10/28/fec-hack-outage-campaign-finance-filings.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:20:54+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Aston Martin Lagonda Global Holdings plc (ARGGY) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958535-aston-martin-lagonda-global-holdings-plc-arggy-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:19:54+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Wheaton Precious Metals' Stable Structure Is Not Favored By The Sector's Cycle",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4958495-wheaton-precious-metals-stable-structure-is-not-favored-by-the-sectors-cycle?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-28T13:18:18+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Why China is desperate to ship cars outside of the country",
+      "desc": "Autumn has traditionally been the peak time to buy vehicles in China, but this year many showrooms are empty or shut.",
+      "link": "https://www.cnbc.com/2026/10/28/china-car-exports.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:17:20+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
+      "desc": "CNBC calculated the rolling 60-day correlation of daily returns for each of the 21 unique pairs among the Magnificent Seven.",
+      "link": "https://www.cnbc.com/2026/10/28/magnificent-seven-stocks-correlation-breakdown.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:09:08+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "At least 64 people dead in high-speed Spain train crash",
+      "desc": "It is the second deadly high-speed train collision in Spain this year.",
+      "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
+      "image": null,
+      "pubDate": "2026-10-28T13:01:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "11 bargain-priced stocks of companies that have huge growth potential over the next two years",
+      "desc": "These stocks trade at low price/earnings valuations, and the companies are projected to achieve very high revenue growth rates through 2028.",
+      "link": "https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-98694626",
+      "pubDate": "2026-10-28T12:54:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as affordability looms over midterm",
+      "desc": "Trump's joke comes as Americans say in polls they believe that Democrats would do a better job than Republicans at address concerns about affordability.",
+      "link": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
+      "image": null,
+      "pubDate": "2026-10-28T12:49:09+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
+      "desc": "Vertiv’s big sales beat affirms that the AI buildout is accelerating.",
+      "link": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-21062271",
+      "pubDate": "2026-10-28T12:48:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "We are in our 70s. Should we pay off our 2.5% mortgage early or build up our savings?",
+      "desc": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-65126339",
+      "pubDate": "2026-10-28T12:45:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade",
+      "desc": "South Korea memory-chip giant says supply constraints will last through 2030.",
+      "link": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-89156249",
+      "pubDate": "2026-10-28T12:34:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
+      "desc": "“When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”",
+      "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-19916000",
+      "pubDate": "2026-10-28T12:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+      "desc": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
+      "link": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-95596293",
+      "pubDate": "2026-10-28T12:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
+      "desc": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
+      "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
+      "image": null,
+      "pubDate": "2026-10-28T12:27:07+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
+      "desc": "Trump's statement comes as a report from The Hill revealed that the costs of the Iran conflict have ballooned to $47 billion.",
+      "link": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
+      "image": null,
+      "pubDate": "2026-10-28T12:25:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Traders are betting big against this restaurant giant into earnings",
+      "desc": "There’s a lot of big earnings but the giant that traders are most worried about is apparently fast-casual titan Chipotle.",
+      "link": "https://www.cnbc.com/2026/10/28/traders-are-betting-big-against-chipotle-into-earnings.html",
+      "image": null,
+      "pubDate": "2026-10-28T12:04:47+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "DraftKings CEO Jason Robins says parents should talk with kids about gambling addiction",
+      "desc": "DraftKings CEO Jason Robins said parents should talk with their children about gambling addiction, describing how he approaches the subject with his own family.",
+      "link": "https://www.cnbc.com/2026/10/28/draftkings-ceo-jason-robins-parents-kids-should-talk-about-gambling.html",
+      "image": null,
+      "pubDate": "2026-10-28T12:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Luxury round-the-world cruise ends abruptly as fuel costs skyrocket",
+      "desc": "Cruise operator Villa Vie Residences said it would disembark passengers and crew, and restructure its business due to soaring fuel costs.",
+      "link": "https://www.cnbc.com/2026/10/28/villa-vie-odyssey-fuel-costs.html",
+      "image": null,
+      "pubDate": "2026-10-28T11:39:44+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Mortgage rates fell for the second straight week, but more borrowers still sought savings in riskier loans",
+      "desc": "Mortgage rates have fallen over the past two weeks, but demand is only slightly higher, and more borrowers are looking for savings in riskier loans.",
+      "link": "https://www.cnbc.com/2026/10/28/mortgage-rates-fell-for-the-second-straight-week.html",
+      "image": null,
+      "pubDate": "2026-10-28T11:33:43+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "The AI boom is starting to break time-tested stock-market signals",
+      "desc": "The relationship between gold and platinum used to be a reliable stock-market signal. Has artificial-intelligence spending caused it to short-circuit? Meanwhile, the Fed faces a big question of its own today.",
+      "link": "https://www.marketwatch.com/story/the-ai-boom-is-starting-to-break-time-tested-stock-market-signals-b172d67e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-52486912",
+      "pubDate": "2026-10-28T11:25:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "A Democratic win in midterms could put prediction markets and the CFTC in the hot seat",
+      "desc": "A Democratic House could increase scrutiny of prediction markets, the CFTC and the industry’s ties to the Trump family after the midterms.",
+      "link": "https://www.cnbc.com/2026/10/28/democrats-prediction-markets-cftc-midterms.html",
+      "image": null,
+      "pubDate": "2026-10-28T11:24:49+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "The real way to tell if Amazon’s AI spending is paying off",
+      "desc": "Investors focus on Amazon’s cloud business, but the most important indicator might lie in the company’s warehouses.",
+      "link": "https://www.marketwatch.com/story/the-real-way-to-tell-if-amazons-ai-spending-is-paying-off-42a8a637?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-23584807",
+      "pubDate": "2026-10-28T10:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Musk's PAC lawyer runs in Texas House district that is home to billionaire's business interests",
+      "desc": "A chip factory being built by Elon Musk's Tesla and SpaceX is in Texas's 10th District, where his PAC's former lawyer Chris Gober is the GOP U.S. House nominee.",
+      "link": "https://www.cnbc.com/2026/10/28/elon-musk-chris-gober-rourk-texas-10th-congress-election.html",
+      "image": null,
+      "pubDate": "2026-10-28T10:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "UBS pretax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+      "desc": "UBS reported a third quarter pretax profit of almost $3.6 billion.",
       "link": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
       "image": null,
-      "pubDate": "2026-10-28T07:14:01+00:00",
+      "pubDate": "2026-10-28T09:42:03+00:00",
       "source": "CNBC Markets"
     },
     {
-      "title": "Brown Advisory Flexible Equity Strategy Q3 2026 Commentary",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958356-brown-advisory-flexible-equity-strategy-q3-2026-commentary?source=feed_all_articles",
+      "title": "Robinhood shares fall as crypto slump weighs on profits, offsetting gains in new businesses",
+      "desc": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+      "link": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
       "image": null,
-      "pubDate": "2026-10-28T07:10:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Buy SLV: Unsustainable Global Debt And Rising Contagion Risks",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958348-buy-slv-unsustainable-global-debt-and-rising-contagion-risks?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:07:19+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Medifast Is Running The Same Playbook, And I Have The Same Concerns",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958345-medifast-q3-running-the-same-playbook-and-i-have-the-same-concerns?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:05:19+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "2026 ABS East Conference Takeaways: Overcast Skies",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958355-2026-abs-east-conference-takeaways-overcast-skies?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:05:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "CoreWeave: The Warning Sign AI Investors Shouldn't Ignore",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958344-coreweave-the-warning-sign-ai-investors-shouldnt-ignore?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:04:57+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "ASML: Exceptional Semiconductor Business, Expensive Valuation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958343-asml-exceptional-semiconductor-business-expensive-valuation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:02:51+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SpaceX's AI Boom Has Yet To Pay For Its Build-Out",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958342-spacexs-ai-boom-has-yet-to-pay-for-its-build-out?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T07:01:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
-      "desc": "Shares of South Korean chipmaker SK Hynix soared 11% on Wednesday as third-quarter profit sharply beats estimates.",
-      "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-      "image": null,
-      "pubDate": "2026-10-28T06:56:49+00:00",
+      "pubDate": "2026-10-28T09:29:26+00:00",
       "source": "CNBC Markets"
     },
     {
-      "title": "Generic drugmaker Sandoz lowers sales outlook, lifts profit forecast",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/generic-drugmaker-sandoz-lowers-sales-outlook-lifts-profit-forecast-4977561",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R0HQ_L.jpg",
-      "pubDate": "2026-10-28T06:54:24+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Ariel Appreciation Fund Q3 2026 Scorecard: Buys, Sells, And Standouts",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958352-ariel-appreciation-fund-q3-2026-scorecard-buys-sells-and-standouts?source=feed_all_articles",
+      "title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
+      "desc": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
+      "link": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
       "image": null,
-      "pubDate": "2026-10-28T06:50:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "StanChart lifts full-year targets after quarterly profit trounces forecasts",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/stanchart-thirdquarter-profit-surges-27-lifts-income-target-4977451",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R08Q_L.jpg",
-      "pubDate": "2026-10-28T06:48:16+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "UBS posts $2.7 billion profit, speeds up share buybacks",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/ubs-meets-expectations-with-27-billion-q3-profit-4977500",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R0CY_L.jpg",
-      "pubDate": "2026-10-28T06:42:34+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Heineken has more to do to deliver growth, new CEO says",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/heineken-has-more-to-do-to-deliver-growth-new-ceo-says-4977540",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R0FB_L.jpg",
-      "pubDate": "2026-10-28T06:42:22+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "4DMedical Limited (FDMDF) Shareholder/Analyst Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958277-4dmedical-limited-fdmdf-shareholder-analyst-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:39:59+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Lufax Holding Ltd (LU) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958293-lufax-holding-ltd-lu-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:39:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "BHK: A CEF Upgrade As Risk Factors Exhaust",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958336-bhk-a-cef-upgrade-as-risk-factors-exhaust?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:35:56+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Why is Samsung Electro-Mechanics stock surging today?",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-samsung-electromechanics-stock-surging-today-93CH-4977538",
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEM6L181_L.jpg",
-      "pubDate": "2026-10-28T06:33:54+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Fluor: Stronger Balance Sheet Doesn't Fix The Sub-Par Margins",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958334-fluor-stronger-balance-sheet-doesnt-fix-the-sub-par-margins?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:31:57+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Get InvestingPro for less than $2 per week before our sale ends",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/get-investingpro-for-less-than-2-per-week-before-our-sale-ends-4977534",
-      "image": "https://content-media.investing.com/news/LYNXMPEM5713J_1200_L.jpg",
-      "pubDate": "2026-10-28T06:29:50+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "NXP Semiconductors N.V. 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958349-nxp-semiconductors-n-v-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:25:18+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "First Eagle Global Fund Q3 202 Portfolio Update",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958346-first-eagle-global-fund-q3-202-portfolio-update?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:10:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "ULTY: 60% Distribution Rate Hides Falling NAV And Payouts",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958330-ulty-60-percent-distribution-rate-hides-falling-nav-and-payouts?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:09:40+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "FPE: Better Than Preferred Stock Index Funds, But Inflation Is A Real Risk",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958329-fpe-better-than-preferred-stock-index-funds-but-inflation-is-a-real-risk?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:07:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Alibaba: At $100, The Market Is Pricing The Bear Case",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958328-alibaba-at-100-the-market-is-pricing-the-bear-case?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:03:29+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Taiwan stocks higher at close of trade; Taiwan Weighted up 2.09%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-higher-at-close-of-trade-taiwan-weighted-up-209-4977502",
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEHAN02G_L.jpg",
-      "pubDate": "2026-10-28T06:00:05+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "First Eagle Global Fund Q3 2026 Commentary",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958340-first-eagle-global-fund-q3-2026-commentary?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T06:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Ambani’s Jio surges 21% in Mumbai debut as valuation soars to $131.5 billion",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/ambanis-jio-surges-21-in-mumbai-debut-after-record-32-billion-india-ipo-4977466",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R09H_L.jpg",
-      "pubDate": "2026-10-28T05:55:12+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Gail India to invest $63.1 million in Ratnagiri LNG heating unit",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/gail-india-to-invest-631-million-in-ratnagiri-lng-heating-unit-93CH-4977501",
-      "image": "https://content-media.investing.com/news/LYNXNPEB6U08A_M.jpg",
-      "pubDate": "2026-10-28T05:54:57+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "BNP Paribas beats Q3 profit forecast, unveils €1.3 billion share buyback",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/bnp-paribas-beats-q3-profit-forecast-unveils-13-billion-share-buyback-4977499",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R0CL_L.jpg",
-      "pubDate": "2026-10-28T05:54:23+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-      "desc": "Oil prices climbed Wednesday as investors weighed the prospect of a prolonged conflict in the Middle East.",
-      "link": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-      "image": null,
-      "pubDate": "2026-10-28T05:52:51+00:00",
+      "pubDate": "2026-10-28T07:58:09+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Celestica Inc. (CLS:CA) 2026 Investor and Analyst Day Presentation - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958338-celestica-inc-cls-ca-2026-investor-and-analyst-day-presentation-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:52:16+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Higher Hurdle: Rising Investor Expectations Poses Risk To The AI Trade",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958335-higher-hurdle-rising-investor-expectations-poses-risk-to-ai-trade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:40:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Boss Energy Limited (BQSSF) Q1 2027 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958337-boss-energy-limited-bqssf-q1-2027-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:39:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Bank of the Philippine Islands 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958333-bank-of-the-philippine-islands-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:31:02+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "AllianceBernstein Holding L.P. Limited Partnership Units 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958332-alliancebernstein-holding-l-p-limited-partnership-units-2026-q3-results-earnings-call?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:30:47+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SK hynix Inc. (SKHY) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958286-sk-hynix-inc-skhy-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Delta Electronics (Thailand) Public Company Limited (DLEGF) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958308-delta-electronics-thailand-public-company-limited-dlegf-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-28T05:29:54+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
       "desc": "Jio had offered 270 million shares in the IPO priced at 1,119 rupees apiece, raising 302 billion rupees ($3.2 billion) in the country's largest-ever IPO.",
       "link": "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
       "image": null,
-      "pubDate": "2026-10-28T05:16:41+00:00",
+      "pubDate": "2026-10-28T07:48:35+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as cost of living looms over midterms",
-      "desc": "Trump joked that the $5,000 payments for U.S. adults would buy little more than \"a hamburger and maybe a small dessert\" as cost of living looms over midterms.",
-      "link": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
-      "image": null,
-      "pubDate": "2026-10-28T04:29:20+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
-      "desc": "Chinese state media has warned Kylian Mbappé that his apology over remarks referring to Mao Zedong as a dictator will be judged against his actions.",
-      "link": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html",
-      "image": null,
-      "pubDate": "2026-10-28T03:33:53+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
-      "desc": "Trump's statement comes as a report from The Hill revealed that the costs of the Iran conflict has ballooned to $47 billion.",
-      "link": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
-      "image": null,
-      "pubDate": "2026-10-28T03:02:44+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Labubu-maker Pop Mart's shares extend declines as third-quarter sales plunge",
-      "desc": "The company reported a 45% to 50% year-on-year drop in third-quarter revenue.",
-      "link": "https://www.cnbc.com/2026/10/28/labubu-pop-mart-third-quarter-earnings.html",
-      "image": null,
-      "pubDate": "2026-10-28T02:57:36+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
-      "desc": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
-      "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
-      "image": null,
-      "pubDate": "2026-10-28T02:15:55+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
-      "desc": "If you needed any further reasons to be worried about the bubble that has inflated the stock market, look no further.",
-      "link": "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-38942746",
-      "pubDate": "2026-10-28T02:15:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
@@ -408,150 +584,6 @@
       "link": "https://www.cnbc.com/2026/10/27/cassidy-hutchinson-doj-grand-jury-trump.html",
       "image": null,
       "pubDate": "2026-10-27T23:50:03+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Chart: Anthropic's cash pile towers over nearly every U.S. company",
-      "desc": "Anthropic's cash pile of $131.7 billion is more than every non-bank U.S. company except for Berkshire Hathaway and Alphabet.",
-      "link": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html",
-      "image": null,
-      "pubDate": "2026-10-27T23:03:09+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
-      "desc": "Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”",
-      "link": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-564483",
-      "pubDate": "2026-10-27T22:51:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Speaker Mike Johnson calls election-transfer concerns ‘absurd’",
-      "desc": "Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.",
-      "link": "https://www.cnbc.com/2026/10/27/speaker-johnson-peaceful-transfer-midterms.html",
-      "image": null,
-      "pubDate": "2026-10-27T22:35:25+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
-      "desc": "CNBC’s Jim Cramer warned that the latest rally in AI stocks doesn't mean the data center trade is out of the woods.",
-      "link": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
-      "image": null,
-      "pubDate": "2026-10-27T22:24:19+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
-      "desc": "The diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared to total demand, analysts say.",
-      "link": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
-      "image": null,
-      "pubDate": "2026-10-27T22:18:59+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-      "desc": "“My late father bought our house for $250,000 in the 1990s.”",
-      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-92522168",
-      "pubDate": "2026-10-27T22:18:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
-      "desc": "Credit markets will be closely watching updates from Oracle and other hyperscalers later this week. What to expect.",
-      "link": "https://www.cnbc.com/2026/10/27/ai-debt-hyperscaler-earnings.html",
-      "image": null,
-      "pubDate": "2026-10-27T21:58:48+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
-      "desc": "Now that investors have been able to dive further into Anthropic’s IPO filing, they’re seeing the same sorts of trends that helped buoy AI stocks for much of this year.",
-      "link": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-31372691",
-      "pubDate": "2026-10-27T21:41:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever",
-      "desc": "President Donald Trump can’t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of next week’s midterm elections.",
-      "link": "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-76497917",
-      "pubDate": "2026-10-27T21:29:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
-      "desc": "The artificial-intelligence trade carried the U.S. stock market in September. But in October, it is being carried out on a stretcher.",
-      "link": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-67253857",
-      "pubDate": "2026-10-27T21:28:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform",
-      "desc": "The federal agency had previously investigated whether Polymarket allowed U.S. users on to its offshore platform in 2024, but dropped the measures in July 2025.",
-      "link": "https://www.cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html",
-      "image": null,
-      "pubDate": "2026-10-27T21:24:06+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
-      "desc": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
-      "link": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
-      "image": null,
-      "pubDate": "2026-10-27T21:12:55+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
-      "desc": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
-      "link": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
-      "image": null,
-      "pubDate": "2026-10-27T21:07:51+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "My husband wants to sell our $1.5 million home and downsize. But this is where we raised our kids — and I can’t bear to leave.",
-      "desc": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
-      "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-80913840",
-      "pubDate": "2026-10-27T21:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The big reason Boeing’s stock is falling so hard after earnings",
-      "desc": "Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.",
-      "link": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-04941676",
-      "pubDate": "2026-10-27T20:43:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’",
-      "desc": "Broadcom’s stock has gone nowhere this year, but an analyst thinks it and other quality chip stocks like Nvidia will soon start trading at higher valuations.",
-      "link": "https://www.marketwatch.com/story/how-broadcoms-stock-can-surge-and-overcome-the-biggest-dislocation-in-the-market-9719e2a8?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-35353496",
-      "pubDate": "2026-10-27T20:40:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "JetBlue has been losing money for years. It just charted a path to profitability.",
-      "desc": "JetBlue’s stock rises nearly 20% as a new profit target helps calm fears about the airline’s viability.",
-      "link": "https://www.marketwatch.com/story/jetblue-has-been-losing-money-for-years-it-just-charted-a-path-to-profitability-03be75c8?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-70579743",
-      "pubDate": "2026-10-27T20:38:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Neil Young sues Trump committee for $10M for playing 'Rockin' in the Free World' at rally",
-      "desc": "\"'Rockin' in the Free World' is the opposite of everything that Donald J. Trump stands for,\" the suit by the two-time Rock and Roll Hall of Fame member says.",
-      "link": "https://www.cnbc.com/2026/10/27/neil-young-trump-lawsuit-song-copyright-free-world.html",
-      "image": null,
-      "pubDate": "2026-10-27T19:49:18+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -635,43 +667,11 @@
       "source": "Business Insider"
     },
     {
-      "title": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
-      "desc": "Boeing reset investor expectations on free cash flow growth in the coming years. We're hopeful this represents a clearing event.",
-      "link": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
-      "image": null,
-      "pubDate": "2026-10-27T19:21:20+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
       "desc": "Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.",
       "link": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
       "image": null,
       "pubDate": "2026-10-27T18:57:45+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
-      "desc": "Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.",
-      "link": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
-      "image": null,
-      "pubDate": "2026-10-27T17:26:34+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-      "desc": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
-      "link": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-      "image": null,
-      "pubDate": "2026-10-27T01:24:28+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
-      "desc": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
-      "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
-      "image": null,
-      "pubDate": "2026-10-26T22:50:07+00:00",
       "source": "CNBC Markets"
     }
   ]
