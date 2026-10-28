@@ -17,6 +17,7 @@
 @container retirement-panel (max-width:600px){
  /* Stack each scenario so readers do not have to pan a five-column table. */
  .retirement-scenarios,.retirement-scenarios tbody{display:block}
+ .retirement-scenarios caption{display:block;width:100%}
  .retirement-scenarios thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%)}
  .retirement-scenarios tbody tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px;border:1px solid var(--border);border-radius:6px;padding:8px 12px;margin:12px 0}
  .retirement-scenarios tbody th{grid-column:1/-1}
