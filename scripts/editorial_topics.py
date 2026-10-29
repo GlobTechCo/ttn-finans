@@ -261,3 +261,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'microsoft-q1
 RELATED['microsoft-q1-2027-azure-cash-flow-ai-spending'] = ['ai-inference-unit-economics-2026', 'free-cash-flow-explained', 'microsoft-nscale-loughton-lease-exit-power-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitcoin-core-node-crash-security-fixes-october-2026')
 RELATED['bitcoin-core-node-crash-security-fixes-october-2026'] = ['bitcoin-51-percent-attack-forks-explained', 'electrum-483-bitcoin-wallet-security-update-2026', 'bitcoin-mining-economics-explained']
+
+# October 29 three-hour commissioned package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'shell-q3-2026-profit-five-billion-buyback')
+RELATED['shell-q3-2026-profit-five-billion-buyback'] = ['stock-buybacks-explained', 'free-cash-flow-explained', 'earnings-beat-miss-explained']
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'volkswagen-q3-2026-loss-porsche-writedown')
+RELATED['volkswagen-q3-2026-loss-porsche-writedown'] = ['ford-q3-2026-profit-guidance-commodity-costs', 'tariffs-who-actually-pays-explained', 'free-cash-flow-explained']
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'lloyds-q3-2026-profit-deposit-competition')
+RELATED['lloyds-q3-2026-profit-deposit-competition'] = ['barclays-q3-2026-profit-share-buyback', 'earnings-beat-miss-explained', 'bank-of-america-q3-2026-results']

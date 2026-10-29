@@ -1,6 +1,176 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "shell-q3-2026-profit-five-billion-buyback",
+    "title": "Shell Lifts Buyback to $5 Billion as Refining Powers Quarterly Profit",
+    "dek": "Shell nearly doubled adjusted earnings from a year earlier and expanded its buyback. Strong refining margins helped offset lower crude prices.",
+    "section": "Market Analysis",
+    "tickers": [
+      "SHEL",
+      "Brent Oil"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Shell fuel-station forecourt in South Weald, Brentwood, with its yellow-and-red canopy and parked cars.",
+    "body": [
+      "<p>Shell announced a $5 billion share buyback for the next three months on Thursday after strong refining earnings helped lift third-quarter adjusted profit to $10.8 billion. The larger repurchase program channels more of the energy company's cash toward shareholders, even as it pays for acquisitions and expands its liquefied natural gas business.</p>",
+      "<p>The buyback increases from $3 billion in the preceding program. Adjusted earnings of $10.814 billion compared with $5.432 billion a year earlier and $9.836 billion in the second quarter. Reuters reported that the result exceeded an analyst forecast of $10.33 billion. Those comparisons describe Shell's adjusted measure; income attributable to shareholders under its financial statements was higher, at $12.057 billion.</p>",
+      "<h2>Refining supplied the biggest earnings lift</h2>",
+      "<p>Shell's investor slides show why an integrated energy company can earn more even when crude prices fall. Its indicative refining margin rose to $42 a barrel from $24 in the second quarter, while the quarterly average Brent crude price declined to $97 from $104. The refining measure tracks the environment for turning crude into fuels, rather than the price of the crude itself.</p>",
+      "<p>The spread between input costs and the value of finished products matters alongside the headline oil price. A producer exposed mainly to extracting crude and a group with substantial refineries can therefore experience the same market differently. Shell's results provide a concrete example of that distinction; they do not establish that higher refining margins will persist into the next quarter.</p>",
+      "<p>Chemicals and Products generated $3.855 billion in adjusted earnings, up from about $2.9 billion in the preceding quarter. Integrated Gas contributed $3.037 billion, while Upstream contributed $3.189 billion. Shell attributed the overall improvement to stronger refining margins, higher realized LNG prices and increased Integrated Gas volumes, partly offset by weaker trading contributions in crude and oil products and lower realized liquids prices.</p>",
+      "<h2>Cash generation supports a larger distribution</h2>",
+      "<p>Operating cash flow reached $21.043 billion. That was substantially above the year-earlier result but slightly below the second quarter's $21.432 billion. Earnings growth and cash growth consequently tell different quarter-to-quarter stories. Timing effects, including payments, asset sales and movements in working capital, help explain why the two measures should be examined separately.</p>",
+      "<p>Shell's unaudited statements report $16.322 billion in free cash flow, including the effects of investing cash flows. Cash capital expenditure reached $7.922 billion and included consideration for the ARC Resources acquisition, while divestment proceeds supplied $2.7 billion. As TTN's <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains, an acquisition-heavy quarter requires attention to the company's definition and reconciliation, rather than a mechanical comparison of the headline numbers.</p>",
+      "<p>The company ended September with net debt of $39.7 billion, down from $41.8 billion at the end of June. That provides a second check on the distribution decision: a large buyback is easier to sustain when cash generation can cover investment and shareholder payments without steadily increasing financial obligations. One strong quarter, however, is a snapshot of that capacity rather than a permanent payout guarantee.</p>",
+      "<h2>Ordinary shares and US receipts receive different amounts</h2>",
+      "<p>Separately, Shell declared a quarterly dividend of $0.3906 per ordinary share. Each U.S. American Depositary Share represents two ordinary shares, making the corresponding gross amount $0.7812 per ADS. The distinction matters for U.S. holders comparing the dividend announcement with the security in their brokerage account. ADS dividends default to payment in dollars.</p>",
+      "<p>The dividend and buyback also have different mechanics. A dividend pays eligible holders cash, while a repurchase reduces the shares outstanding if the acquired stock is canceled. Our <a href=\"stock-buybacks-explained.html\">explanation of stock buybacks</a> examines why the price paid and the cash used affect the benefit to remaining shareholders.</p>",
+      "<p>Shell now places 2026 cash capital spending at $23 billion to $25 billion, including roughly $4 billion for ARC. Its presentation also retains a $20 billion to $22 billion annual range for 2027 and 2028. The next test is whether operating cash remains strong as the newly acquired production enters a full quarter and refining conditions change. Thursday's higher buyback reflects cash already generated; the later spending ranges remain management plans.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Shell, October 29: quarterly press release and segment performance",
+        "url": "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item0.stream/1793238861562/c51182ec68b70b120e29f5a1ede9bd4911d54432/q3-2026-quarterly-press-release.pdf"
+      },
+      {
+        "label": "Shell: third-quarter unaudited results and financial reconciliations",
+        "url": "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item1.stream/1793238865458/4bc70d25b73a07e71802c547bf6df9afbb724171/q3-2026-qra-document.pdf"
+      },
+      {
+        "label": "Shell: third-quarter investor presentation, price markers and capital framework",
+        "url": "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item3.stream/1793255697577/56f58c07f51ddb6c3724889964ce2ffa14484f48/q3-2026-slides.pdf"
+      },
+      {
+        "label": "Shell, October 29: ordinary-share dividend and ADS entitlement",
+        "url": "https://www.shell.com/investors/dividend-information/dividend-announcements/third-quarter-2026-interim-dividend.html"
+      },
+      {
+        "label": "Reuters, October 29: earnings consensus and increase in buybacks",
+        "url": "https://www.reuters.com/business/energy/shell-beats-expectations-with-108-billion-third-quarter-profit-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T09:36:01Z",
+    "dateModified": "2026-10-29T09:36:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/shell-q3-2026-profit-five-billion-buyback-cover-v1.webp",
+    "imageSmall": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-480.webp 480w, assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-960.webp 960w, assets/editorial/shell-q3-2026-profit-five-billion-buyback-cover-v1.webp 1672w"
+  },
+  {
+    "id": "volkswagen-q3-2026-loss-porsche-writedown",
+    "title": "Volkswagen Posts €5.9 Billion Operating Loss as Porsche Writedown Bites",
+    "dek": "A Porsche goodwill charge deepened Volkswagen’s quarterly loss. Even before special items, weaker margins keep pressure on its restructuring.",
+    "section": "Market Analysis",
+    "tickers": [
+      "VWAGY"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Volkswagen Wolfsburg brick industrial facade with its installed VW emblem and chimney bases.",
+    "body": [
+      "<p>Volkswagen reported a third-quarter operating loss of €5.86 billion on Thursday, as a major Porsche goodwill impairment magnified the financial strain from weak demand and a less profitable vehicle mix. The result puts fresh numbers behind the German automaker's restructuring challenge: removing large accounting charges still leaves a business earning relatively little on its sales.</p>",
+      "<p>The quarterly loss widened from €1.30 billion a year earlier. Revenue fell 6.3% to €75.28 billion, according to the group's investor presentation. Reuters reported that analysts tracked by Visible Alpha had expected an operating loss of €2.6 billion. The newly published accounts therefore describe a worse quarter than that forecast, rather than a new announcement of a problem investors had never been warned about.</p>",
+      "<h2>A large accounting charge meets thin underlying margins</h2>",
+      "<p>Volkswagen recorded €7.76 billion in third-quarter special effects. Across the first nine months, special items reached €8.69 billion, including a €6.4 billion noncash impairment of Porsche goodwill and roughly €1 billion in impairments on assets of fully consolidated companies in China. Goodwill represents value recorded in acquisition accounting; writing it down reduces reported profit without requiring an equivalent cash payment that day.</p>",
+      "<p>That distinction makes the operating loss different from an immediate €5.9 billion drain on the bank account. It does not make the impairment economically irrelevant. A lower carrying value recognizes diminished expectations for the earnings associated with an acquired business. Investors must judge both the cash available now and whether the assumptions behind past investment can still be delivered.</p>",
+      "<p>Before special items, Volkswagen's nine-month operating result was €8.8 billion, corresponding to a 3.8% return on sales. CFO Arno Antlitz said that level was insufficient to support the company's future investment needs. The group identified lower-margin electric vehicles, greater pricing pressure and difficult conditions in China as continuing sources of earnings pressure alongside the exceptional charges.</p>",
+      "<p>A shift toward electric models can thus improve a manufacturer's competitive position while weighing on near-term profitability. Orders, deliveries and earnings measure different stages of the business. An expanding order book shows customer interest; it does not establish what margin will be earned when those vehicles are produced, sold and supported.</p>",
+      "<h2>Cash flow offers a more mixed picture</h2>",
+      "<p>For the first nine months, automotive net cash flow rose to €4.4 billion from €1.8 billion a year earlier. Volkswagen attributed the improvement partly to lower investment and portfolio transactions. Adjusted for merger-and-acquisition effects, the measure was about €3.9 billion, compared with €3.5 billion. Automotive net liquidity ended September at approximately €33 billion.</p>",
+      "<p>The quarterly detail was weaker than the nine-month comparison: automotive net cash flow fell to €1.23 billion from €3.15 billion in the year-earlier quarter. The two comparisons can both be correct. Readers assessing a turnaround need to distinguish accumulated cash generation from the latest quarter's pace, as well as recurring operations from disposal proceeds. TTN's <a href=\"free-cash-flow-explained.html\">free-cash-flow guide</a> explains why those boundaries matter.</p>",
+      "<p>The accounts also show that the group's nine-month after-tax result was a €2.72 billion loss, despite a small positive operating result of €71 million. The Porsche goodwill impairment was not tax deductible. An operating result excludes financing and tax effects, so it should not be substituted for the amount left after those items.</p>",
+      "<h2>The annual forecast was cut in September</h2>",
+      "<p>Volkswagen retained its expectation of around €315 billion in annual revenue and an operating margin of up to 1%. Those targets were announced on September 18, when the group had already warned of approximately €10 billion in full-year special effects. Thursday's development is the actual quarterly performance and its detailed breakdown, rather than a fresh cut to that outlook.</p>",
+      "<p>The forecast assumes the current tariff environment continues and excludes effects Volkswagen says it cannot yet reliably assess from a further Middle East escalation. These are limits around the projection, not separate predictions that those events will occur. TTN's <a href=\"tariffs-who-actually-pays-explained.html\">explanation of tariff costs</a> sets out how import charges can reach manufacturers through margins, pricing and sourcing decisions.</p>",
+      "<p>The immediate financial task is to improve the earnings produced by each euro of sales while maintaining cash for product development and restructuring. The latest <a href=\"ford-q3-2026-profit-guidance-commodity-costs.html\">Ford earnings report</a> illustrates a related industry problem: sales mix and cost pressure can matter as much as overall demand. For Volkswagen, progress will have to appear in underlying margins and operating cash, as well as in the eventual disappearance of exceptional charges.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Volkswagen, October 29: nine-month results, special items and divisional performance",
+        "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-nine-month-results-underline-urgent-need-for-action-20799"
+      },
+      {
+        "label": "Volkswagen: January–September 2026 interim report and financial statements",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/404/file_en/b99b69ac1fb4c2ee21ff12af3fcc339dd7d0f573/2026-10-29-volkswagen-group-q3-2026-interim-report-en.pdf?1793225491="
+      },
+      {
+        "label": "Volkswagen: October 29 investor presentation, quarterly data and cash flow",
+        "url": "https://uploads.vw-mms.de/system/production/documents/cws/003/405/file_en/3c1bdaa9a1b90e1cb2d8683aff1330dc0394a36a/2026-10-29-volkswagen-group-9m-conference-call-website-en.pdf?1793225348="
+      },
+      {
+        "label": "Volkswagen, September 18: previously announced annual forecast",
+        "url": "https://www.volkswagen-group.com/en/ad-hoc/volkswagen-ag-updates-its-forecast-for-fiscal-year-2026-20701"
+      },
+      {
+        "label": "Reuters, October 29: quarterly loss and analyst expectations",
+        "url": "https://www.reuters.com/world/china/volkswagen-loss-widens-more-than-expected-q3-raising-restructuring-stakes-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T09:36:01Z",
+    "dateModified": "2026-10-29T09:36:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/volkswagen-q3-2026-loss-porsche-writedown-cover-v1.webp",
+    "imageSmall": "assets/responsive/volkswagen-q3-2026-loss-porsche-writedown-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/volkswagen-q3-2026-loss-porsche-writedown-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/volkswagen-q3-2026-loss-porsche-writedown-cover-v1-480.webp 480w, assets/responsive/volkswagen-q3-2026-loss-porsche-writedown-cover-v1-960.webp 960w, assets/editorial/volkswagen-q3-2026-loss-porsche-writedown-cover-v1.webp 1672w"
+  },
+  {
+    "id": "lloyds-q3-2026-profit-deposit-competition",
+    "title": "Lloyds Nearly Doubles Quarterly Profit but Holds Its Annual Targets",
+    "dek": "Lloyds reported £2.33 billion in quarterly pretax profit. Lower remediation costs helped, while deposit competition limited the earnings outlook.",
+    "section": "Market Analysis",
+    "tickers": [
+      "LYG"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Lloyds Bank entrance at 399 Oxford Street in London, with green signage and two ordinary customers.",
+    "body": [
+      "<p>Lloyds Banking Group nearly doubled third-quarter pretax profit to £2.33 billion, but kept its annual financial targets unchanged on Thursday. The British lender's results show stronger interest income and a much smaller remediation bill, alongside competition for customer deposits that is limiting how much of the improvement can flow through to margins.</p>",
+      "<p>Statutory profit before tax increased 99% from £1.174 billion in the year-earlier quarter. Reuters reported that the result matched analysts' expectations and that the shares fell about 6% in early trading as investors reacted to the absence of upgraded targets. That was an initial trading response, rather than a closing price or a measure of the quarter's operating performance.</p>",
+      "<h2>The comparison benefits from a lower remediation bill</h2>",
+      "<p>Lloyds recorded £22 million in quarterly remediation costs, compared with £875 million a year earlier. The reduction explains a substantial part of the improvement in reported profit. A comparison that treats the entire increase as new revenue or a sudden acceleration in lending would therefore overstate what changed in the underlying business.</p>",
+      "<p>There was operating growth as well. Quarterly underlying net interest income increased 10% to £3.806 billion, and total net income rose 9% to £5.072 billion. The bank's net interest margin reached 3.25%, compared with 3.22% in the preceding quarter and 3.06% a year earlier. The sequential increase was three basis points, or 0.03 percentage point, rather than three percentage points.</p>",
+      "<p>Net interest income reflects the difference between what a bank earns on interest-bearing assets and what it pays for funding. A bank can increase that income by lending more, improving the spread, or benefiting from hedges that reset over time. The margin alone consequently does not explain the whole change in earnings.</p>",
+      "<h2>Hedges help while deposits remain competitive</h2>",
+      "<p>In its presentation, Lloyds attributed the quarter's margin improvement to income from its structural hedge, partly offset by pressure in mortgages and deposits. The hedge supplied £1.9 billion in income in the quarter. It is a mechanism for managing the interest-rate exposure of parts of the balance sheet, rather than evidence that all customer borrowing rates rose by the same amount.</p>",
+      "<p>Underlying customer lending rose £4 billion during the quarter to £495.5 billion. The presentation shows commercial lending as the main growth contributor, while mortgage balances increased more modestly. Deposits increased £1.9 billion to £502.8 billion, with commercial deposits growing and retail balances broadly stable. That combination supports balance-sheet growth without demonstrating that attracting deposits has become cheaper.</p>",
+      "<p>Competition for savings can raise a bank's funding costs even when customers leave their money in place. The relevant question is what the institution must pay to retain those balances. Strong lending growth and a modestly rising margin therefore need to be read together with management's comments about deposit pricing, rather than treated as proof that competitive pressure has ended.</p>",
+      "<h2>Credit costs and capital remain separate checks</h2>",
+      "<p>Lloyds' presentation reports a £313 million quarterly impairment charge and says arrears remained low and stable. The charge was below the preceding quarter, while the nine-month impairment total increased to £930 million. Provisions respond to observed credit performance, model changes and the economic outlook; they are not the same thing as cash already lost on every affected loan.</p>",
+      "<p>The lender ended September with a common equity tier 1 capital ratio of 13.3%. This regulatory measure compares core capital with risk-weighted assets. It should not be read as the share of deposits sitting idle in cash. Lending growth can consume capital as well as generate interest income, giving shareholders another reason to examine the balance sheet alongside the earnings headline.</p>",
+      "<p>The bank's factbook reiterates full-year targets including more than £14.9 billion in underlying net interest income, a cost-to-income ratio below 50% and a return on tangible equity above 16%. It also retains an approximately 13% year-end CET1 objective. These remain management targets; quarterly progress is evidence relevant to them, not a guarantee of their delivery.</p>",
+      "<p>For investors, the distinction between improvement and a positive surprise is central. TTN's <a href=\"earnings-beat-miss-explained.html\">guide to earnings expectations</a> explains why a much higher profit can still disappoint when the market hoped for a stronger outlook. The recent <a href=\"barclays-q3-2026-profit-share-buyback.html\">Barclays results and buyback announcement</a> provide a useful banking comparison, but each lender has a different business mix. At Lloyds, the next useful evidence will be whether hedge income and lending growth can continue to offset funding competition as the unusually favorable remediation comparison fades.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Lloyds, October 29: interim management statement and quarterly income statement",
+        "url": "https://www.lloydsbankinggroup.com/assets/pdfs/investors/financial-performance/lloyds-banking-group-plc/2026/q3/2026-lbg-q3-ims.pdf"
+      },
+      {
+        "label": "Lloyds: quarterly investor presentation, hedge income, customer balances and credit",
+        "url": "https://www.lloydsbankinggroup.com/assets/pdfs/investors/financial-performance/lloyds-banking-group-plc/2026/q3/2026-lbg-q3-presentation.pdf"
+      },
+      {
+        "label": "Lloyds: shareholder factbook and unchanged annual guidance",
+        "url": "https://www.lloydsbankinggroup.com/assets/pdfs/investors/financial-performance/lloyds-banking-group-plc/2026/q3/2026-lbg-q3-shareholder-factbook.pdf"
+      },
+      {
+        "label": "Reuters, October 29: profit consensus and initial share-price response",
+        "url": "https://www.reuters.com/business/finance/lloyds-reports-third-quarter-profit-rise-britains-banks-face-higher-taxes-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T09:36:01Z",
+    "dateModified": "2026-10-29T09:36:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/lloyds-q3-2026-profit-deposit-competition-cover-v1.webp",
+    "imageSmall": "assets/responsive/lloyds-q3-2026-profit-deposit-competition-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/lloyds-q3-2026-profit-deposit-competition-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/lloyds-q3-2026-profit-deposit-competition-cover-v1-480.webp 480w, assets/responsive/lloyds-q3-2026-profit-deposit-competition-cover-v1-960.webp 960w, assets/editorial/lloyds-q3-2026-profit-deposit-competition-cover-v1.webp 1672w"
+  },
+  {
     "id": "ford-q3-2026-profit-guidance-commodity-costs",
     "title": "Ford Raises Profit Forecast Floor as Higher Costs Test Its Recovery",
     "dek": "Ford lifted the bottom of its annual profit forecast by $500 million. Higher commodity costs and weaker vehicle volumes complicate the improvement.",

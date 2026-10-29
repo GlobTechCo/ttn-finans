@@ -3090,6 +3090,39 @@
       "bytes": 294912,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-core-node-crash-security-fixes-october-2026.html"
+    },
+    {
+      "page": "shell-q3-2026-profit-five-billion-buyback.html",
+      "source": "assets/editorial/shell-q3-2026-profit-five-billion-buyback-cover-v1.webp",
+      "image": "assets/social/shell-q3-2026-profit-five-billion-buyback-cover-v1-d2c3de530384.webp",
+      "sha256": "d2c3de530384d961ba5719f0a021cfe2537b16b4121f8ef94d28cd2508dd9921",
+      "width": 1672,
+      "height": 941,
+      "bytes": 302526,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/shell-q3-2026-profit-five-billion-buyback.html"
+    },
+    {
+      "page": "volkswagen-q3-2026-loss-porsche-writedown.html",
+      "source": "assets/editorial/volkswagen-q3-2026-loss-porsche-writedown-cover-v1.webp",
+      "image": "assets/social/volkswagen-q3-2026-loss-porsche-writedown-cover-v1-b9c9668f3cc8.webp",
+      "sha256": "b9c9668f3cc89dd176b1e0463b941b2562f6c9779c73605f6ae553df1bfc2ce2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 397336,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/volkswagen-q3-2026-loss-porsche-writedown.html"
+    },
+    {
+      "page": "lloyds-q3-2026-profit-deposit-competition.html",
+      "source": "assets/editorial/lloyds-q3-2026-profit-deposit-competition-cover-v1.webp",
+      "image": "assets/social/lloyds-q3-2026-profit-deposit-competition-cover-v1-b321b6fc83b5.webp",
+      "sha256": "b321b6fc83b5dfbf86f63e2155fe3d7a0ec5f63d4bd1fa5acbe2c7f477a6cc13",
+      "width": 1672,
+      "height": 941,
+      "bytes": 378026,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/lloyds-q3-2026-profit-deposit-competition.html"
     }
   ]
 }

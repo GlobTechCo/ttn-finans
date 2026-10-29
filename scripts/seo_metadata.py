@@ -335,3 +335,11 @@ TITLES['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Microsoft Azure Grows
 DESCRIPTIONS['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Azure revenue rose 48% and free cash flow reached $18.6 billion. Delayed infrastructure deliveries mean Microsoft’s spending test is still ahead.'
 TITLES['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Bitcoin Core Discloses Node-Crash Bugs and Fixes'
 DESCRIPTIONS['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Three Bitcoin Core advisories explain crash risks and available fixes. One flaw affects Windows, macOS and BSD nodes, while Linux avoids that code path.'
+
+# Reviewed metadata: October 29 three-hour package.
+TITLES['shell-q3-2026-profit-five-billion-buyback'] = 'Shell Lifts Buyback to $5 Billion as Profit Jumps'
+DESCRIPTIONS['shell-q3-2026-profit-five-billion-buyback'] = 'Shell nearly doubled adjusted earnings from a year earlier and expanded its buyback. Strong refining margins helped offset lower crude prices.'
+TITLES['volkswagen-q3-2026-loss-porsche-writedown'] = 'Volkswagen Posts €5.9 Billion Q3 Operating Loss'
+DESCRIPTIONS['volkswagen-q3-2026-loss-porsche-writedown'] = 'A Porsche goodwill charge deepened Volkswagen’s quarterly loss. Even before special items, weaker margins keep pressure on its restructuring.'
+TITLES['lloyds-q3-2026-profit-deposit-competition'] = 'Lloyds Profit Nearly Doubles; Annual Targets Hold'
+DESCRIPTIONS['lloyds-q3-2026-profit-deposit-competition'] = 'Lloyds reported £2.33 billion in quarterly pretax profit. Lower remediation costs helped, while deposit competition limited the earnings outlook.'
