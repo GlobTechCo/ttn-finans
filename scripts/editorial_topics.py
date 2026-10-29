@@ -301,3 +301,9 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'openai-agent-moni
 RELATED['openai-agent-monitoring-security-gaps-2026'] = ['enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026', 'ftc-openai-anthropic-safety-subpoenas-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'franklin-stock-dividend-bitcoin-etfs-2026')
 RELATED['franklin-stock-dividend-bitcoin-etfs-2026'] = ['bitcoin-etf-institutional-adoption', 'etf-creation-redemption-mechanism', 'correlation-breakdown-diversification']
+
+# October 29 late commissioned package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'amazon-q3-2026-holiday-outlook-aws-cash-flow')
+RELATED['amazon-q3-2026-holiday-outlook-aws-cash-flow'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'microsoft-q1-2027-azure-cash-flow-ai-spending']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'intel-q3-2026-server-growth-outlook-supply')
+RELATED['intel-q3-2026-server-growth-outlook-supply'] = ['asml-q3-2026-ai-demand', 'ai-chips-bottlenecks-2026', 'ai-capex-nasdaq-correction']

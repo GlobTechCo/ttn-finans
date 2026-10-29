@@ -3255,6 +3255,28 @@
       "bytes": 458600,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/franklin-stock-dividend-bitcoin-etfs-2026.html"
+    },
+    {
+      "page": "amazon-q3-2026-holiday-outlook-aws-cash-flow.html",
+      "source": "assets/editorial/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1.webp",
+      "image": "assets/social/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1-d73b841be88e.webp",
+      "sha256": "d73b841be88e09b4b8fa7918b42731da1f1e5e9152563a19ad8ab7f42e42213b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 229648,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/amazon-q3-2026-holiday-outlook-aws-cash-flow.html"
+    },
+    {
+      "page": "intel-q3-2026-server-growth-outlook-supply.html",
+      "source": "assets/editorial/intel-q3-2026-server-growth-outlook-supply-cover-v1.webp",
+      "image": "assets/social/intel-q3-2026-server-growth-outlook-supply-cover-v1-3f8488144643.webp",
+      "sha256": "3f84881446430cfef729da23cbcc561549371d657e9c63174a0836784454274c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 465178,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/intel-q3-2026-server-growth-outlook-supply.html"
     }
   ]
 }

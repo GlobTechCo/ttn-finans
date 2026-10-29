@@ -375,3 +375,9 @@ TITLES['openai-agent-monitoring-security-gaps-2026'] = 'OpenAI Details Wider Mon
 DESCRIPTIONS['openai-agent-monitoring-security-gaps-2026'] = 'OpenAI says its expanded checks can detect unauthorized agent actions. Coverage and automatic stopping differ, leaving businesses with oversight work to do.'
 TITLES['franklin-stock-dividend-bitcoin-etfs-2026'] = 'Franklin ETFs Put Stock Dividends Into Bitcoin'
 DESCRIPTIONS['franklin-stock-dividend-bitcoin-etfs-2026'] = 'Two new Franklin ETFs start with 95% stocks and 5% bitcoin exposure. Their rules redirect dividends into crypto, with limits on how large that slice can grow.'
+
+TITLES['amazon-q3-2026-holiday-outlook-aws-cash-flow'] = 'Amazon Holiday Outlook Tempers AWS Growth Surge'
+DESCRIPTIONS['amazon-q3-2026-holiday-outlook-aws-cash-flow'] = 'AWS sales jumped 39%, but Amazon’s holiday revenue forecast midpoint missed expectations. Heavy AI investment also pushed annual free cash flow below zero.'
+
+TITLES['intel-q3-2026-server-growth-outlook-supply'] = 'Intel Server Growth Meets a Weaker Outlook'
+DESCRIPTIONS['intel-q3-2026-server-growth-outlook-supply'] = 'Intel’s data-center sales surged, but its next-quarter forecast disappointed. A factory disruption adds another constraint as server demand remains strong.'

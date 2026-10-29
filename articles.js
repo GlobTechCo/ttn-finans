@@ -1,6 +1,105 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "amazon-q3-2026-holiday-outlook-aws-cash-flow",
+    "title": "Amazon’s Holiday Sales Outlook Tempers an AWS Growth Surge",
+    "dek": "AWS sales jumped 39%, but Amazon’s holiday revenue forecast midpoint missed expectations. Heavy AI investment also pushed annual free cash flow below zero.",
+    "section": "Market Analysis",
+    "tickers": [
+      "AMZN"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Amazon reception area, with fictional visitors and staff; not a photograph of the earnings announcement.",
+    "body": [
+      "<p>Amazon forecast holiday-quarter sales whose midpoint fell slightly short of Wall Street expectations Thursday, tempering a sharp acceleration in its cloud business. The results leave investors weighing stronger operating profitability against the enormous cash commitment required to expand artificial-intelligence infrastructure.</p>",
+      "<p>The company projected fourth-quarter revenue of $240 billion to $247 billion. The $243.5 billion midpoint was about $1 billion below the $244.51 billion analyst estimate compiled by LSEG and reported by Reuters. The upper end exceeded that estimate, so the guidance was not uniformly below expectations. Amazon shares fell in after-hours trading, Reuters reported.</p>",
+      "<p>That distinction matters when interpreting a forecast range. A midpoint gives investors a convenient comparison with consensus, but it does not specify where management expects the final result to land. Thursday’s announcement describes several possible outcomes, including one above the analyst benchmark, rather than a confirmed holiday sales shortfall.</p>",
+      "<h2>Cloud growth carries a larger profit contribution</h2>",
+      "<p>Amazon’s third-quarter sales reached $201.9 billion, up 12% from a year earlier. Amazon Web Services, the division selling computing infrastructure and related services, generated $46 billion in revenue, up roughly 39%. Its operating income reached $17.8 billion, compared with $11.4 billion a year earlier, according to the company’s results.</p>",
+      "<p>Those figures put AWS at approximately 23% of group sales but about 63% of group operating income, calculations based on the reported totals. The relationship helps explain why cloud performance can dominate the investment debate even when shoppers and delivery vans remain the company’s most visible business.</p>",
+      "<p>It also means a dollar of additional sales does not have the same financial significance across Amazon’s operations. A change in the mix between cloud services and retail can alter consolidated profitability even if total revenue growth barely changes. Reading only the group sales figure misses that difference between the businesses.</p>",
+      "<p>The broader question resembles the one raised in <a href=\"microsoft-q1-2027-azure-cash-flow-ai-spending.html\">Microsoft’s latest cloud and cash-flow results</a>: whether demand for computing services is translating into financial returns quickly enough to support the infrastructure being built. Rising sales establish customer activity; they do not, by themselves, establish the return on each new facility.</p>",
+      "<h2>Record operating margin, negative free cash flow</h2>",
+      "<p>Amazon reported operating income of $28.1 billion and a 13.9% operating margin, which it described as a company record. Yet free cash flow over the trailing twelve months was negative $42.4 billion, compared with positive $14.8 billion a year earlier. The company attributed the deterioration primarily to higher property and equipment spending, largely for AI.</p>",
+      "<p>These measures answer different questions. Operating profit spreads the accounting cost of long-lived equipment across its useful life. Cash flow records money leaving the business when investments are paid for. Expanding infrastructure can therefore coincide with improving operating earnings and a weaker cash balance after investment.</p>",
+      "<p>The negative figure covers twelve months, not just the third quarter. It should not be described as a three-month cash loss. Nor does negative free cash flow mean the underlying operations stopped generating money. TTN’s <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why the spending deducted from operating cash is central to interpreting this measure.</p>",
+      "<p>Amazon maintained its approximately $220 billion forecast for 2026 cash capital expenditures. That full-year projection and the trailing-twelve-month free-cash-flow calculation cover different periods and definitions. Subtracting one from the other would not produce a meaningful estimate of cash remaining at year-end.</p>",
+      "<h2>The holiday test extends beyond a headline beat</h2>",
+      "<p>For investors, the next quarter tests two connected propositions: that cloud expansion can sustain profitable demand, and that the wider company can deliver the revenue implied by its holiday outlook. Stronger performance in one division can offset weakness elsewhere, but it does not eliminate the cash obligations of the group.</p>",
+      "<p>Thursday’s release illustrates why <a href=\"earnings-beat-miss-explained.html\">an earnings assessment requires more than a beat-or-miss label</a>. The forecast comparison is relatively narrow, while the difference between operating profitability and cash investment is much larger. Subsequent revenue, margins and cash spending will show whether those measures move closer together as the new capacity becomes productive.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Amazon official Business Wire results, October 29: financial statements and guidance",
+        "url": "https://www.financialcontent.com/article/bizwire-2026-10-29-amazoncom-announces-third-quarter-results"
+      },
+      {
+        "label": "Reuters, October 29: analyst sales benchmark and initial market reaction",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T20:53:30Z",
+    "dateModified": "2026-10-29T20:53:30Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1.webp",
+    "imageSmall": "assets/responsive/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1-480.webp 480w, assets/responsive/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1-960.webp 960w, assets/editorial/amazon-q3-2026-holiday-outlook-aws-cash-flow-cover-v1.webp 1672w"
+  },
+  {
+    "id": "intel-q3-2026-server-growth-outlook-supply",
+    "title": "Intel’s Server Boom Meets a Weaker Outlook and a Factory Disruption",
+    "dek": "Intel’s data-center sales surged, but its next-quarter forecast disappointed. A factory disruption adds another constraint as server demand remains strong.",
+    "section": "Tech & AI",
+    "tickers": [
+      "INTC"
+    ],
+    "imageAlt": "Illustrative reconstruction of Intel’s documented Santa Clara campus monument sign, with fictional background employees; not a photograph of the factory incident.",
+    "body": [
+      "<p>Intel reported a surge in data-center sales Thursday but forecast a weaker fourth quarter, exposing the gap between demand for server processors and its ability to convert that demand into sustained growth. A factory disruption and pressure in the personal-computer market complicate the chipmaker’s near-term outlook.</p>",
+      "<p>Third-quarter revenue rose 21% to $16.5 billion, while adjusted earnings reached 52 cents a share. Intel’s fourth-quarter forecast called for $15 billion to $16 billion in sales and adjusted earnings of 25 cents a share. Reuters reported analyst expectations of $17.07 billion and 43 cents, respectively, using LSEG estimates.</p>",
+      "<p>The revenue midpoint of $15.5 billion implies a decline of roughly 6% from the reported quarter, a calculation using rounded company figures. That is a sequential comparison, not a forecast of the year-over-year change. It explains why a strong quarter and a disappointing outlook can coexist in the same announcement.</p>",
+      "<h2>Server demand is outrunning the PC business</h2>",
+      "<p>Intel’s data-center and artificial-intelligence segment produced $7.3 billion in sales, up 78% from a year earlier. Its client-computing and physical-AI division, which includes PC-related products, generated $8.1 billion, down 5%. The divergence leaves two large parts of the company moving in opposite directions.</p>",
+      "<p>Server processors perform general computing and coordinate work across data-center systems. Demand associated with AI infrastructure can therefore benefit the processor business without making every server chip a specialized AI accelerator. The distinction helps readers understand why a broad computing supplier can participate in the expansion beyond the most prominently discussed training chips.</p>",
+      "<p>Intel’s presentation linked pressure in the PC market to industry memory shortages and said the downturn was expected to persist through at least the first half of 2027. That is management’s assessment, rather than an independently established forecast for every computer manufacturer. It nevertheless limits how quickly improving server sales can translate into balanced company growth.</p>",
+      "<p>The problem is not simply finding customers. Product availability determines how much demand becomes revenue within a reporting period. TTN’s coverage of <a href=\"asml-q3-2026-ai-demand.html\">AI-related chip supply constraints</a> explains why more orders across the industry do not immediately mean more finished processors reaching buyers.</p>",
+      "<h2>A factory interruption creates a separate constraint</h2>",
+      "<p>Chief Financial Officer David Zinsner told Reuters that an explosion at Intel’s Kiryat Gat facility in Israel had stopped production for about two weeks. He estimated a $300 million fourth-quarter revenue impact and a similar effect in the following quarter. The disruption was also expected to reduce fourth-quarter gross margin by about two percentage points.</p>",
+      "<p>That interview supplies a specific explanation for part of the forecast weakness; it does not establish that the entire gap to analyst estimates comes from the incident. A production interruption, softer PC conditions and the product mix are separate pressures, and their effects should not be collapsed into a single cause.</p>",
+      "<p>An expected revenue impact is also different from the cost of repairing a facility. Lost or delayed shipments can reduce sales, while underused equipment and production expenses can affect margins. The company’s estimates should not be presented as a verified physical-damage bill or a final insurance claim.</p>",
+      "<h2>Factory economics still matter after the sales surge</h2>",
+      "<p>Intel’s earnings presentation showed a $1.9 billion operating loss in its foundry segment, improved from $2.3 billion a year earlier. The segment’s $6.7 billion in revenue includes internal business, with substantial intersegment eliminations in the consolidated accounts. It is not evidence that outside manufacturing customers bought $6.7 billion of services.</p>",
+      "<p>That accounting boundary is essential to judging the manufacturing strategy. A company can report higher internal factory revenue as its product divisions purchase more chips, without demonstrating the same increase in independent customer demand. Consolidated results eliminate transactions within the group so they are not counted twice.</p>",
+      "<p>For investors assessing <a href=\"ai-capex-nasdaq-correction.html\">returns on AI-related capital spending</a>, Thursday’s results supply both progress and unresolved costs. Server growth supports the demand case, while foundry losses and production constraints show why additional revenue does not automatically produce a comparable improvement in cash generation.</p>",
+      "<p>The next earnings report will test shipment recovery, the balance between PC and server sales, and the margin consequences of the disruption. Those are measurable developments. Strong demand alone cannot settle how much Intel will deliver, when customers will receive it or how profitable that production will be.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Intel official results, October 29: quarterly financial results and guidance",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+      },
+      {
+        "label": "Intel third-quarter earnings presentation: segment results, PC outlook and foundry economics",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_ffd99f3df5abba36043370ca56d23144/intel/db/887/9273/earnings_presentation/Q3_2026_Earnings_Deck.pdf"
+      },
+      {
+        "label": "Reuters, October 29: analyst estimates and CFO interview on the factory interruption",
+        "url": "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T20:53:30Z",
+    "dateModified": "2026-10-29T20:53:30Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/intel-q3-2026-server-growth-outlook-supply-cover-v1.webp",
+    "imageSmall": "assets/responsive/intel-q3-2026-server-growth-outlook-supply-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/intel-q3-2026-server-growth-outlook-supply-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/intel-q3-2026-server-growth-outlook-supply-cover-v1-480.webp 480w, assets/responsive/intel-q3-2026-server-growth-outlook-supply-cover-v1-960.webp 960w, assets/editorial/intel-q3-2026-server-growth-outlook-supply-cover-v1.webp 1672w"
+  },
+  {
     "id": "ftc-toast-restaurant-fees-lawsuit-2026",
     "title": "FTC Sues Toast Over Alleged Hidden Restaurant Fees and Cancellation Barriers",
     "dek": "The case challenges how Toast charges restaurants and lets them leave its platform. Toast previously disputed the FTC’s legal claims and prepared to fight.",
