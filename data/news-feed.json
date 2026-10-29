@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T02:44:48.393320+00:00",
+  "generatedAt": "2026-10-29T08:57:39.508992+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,124 +35,348 @@
   ],
   "items": [
     {
-      "title": "AerCap Holdings N.V. 2026 Q3 - Results - Earnings Call Presentation",
+      "title": "MediaAlpha, Inc. (MAX) Q3 2026 Earnings Call Transcript",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959030-aercap-holdings-n-v-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959138-mediaalpha-inc-max-q3-2026-earnings-call-transcript?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:40:28+00:00",
+      "pubDate": "2026-10-29T08:48:30+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Alkami Technology, Inc. (ALKT) Q3 2026 Earnings Call Transcript",
+      "title": "Undercovered Dozen: Micron, i-80 Gold, Hercules Capital, And More",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959024-alkami-technology-inc-alkt-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959119-undercovered-dozen-micron-i-80-gold-hercules-capital-and-more?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:40:07+00:00",
+      "pubDate": "2026-10-29T08:47:49+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "McGrath RentCorp (MGRC) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959029-mcgrath-rentcorp-mgrc-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "title": "Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high",
+      "desc": "The oil major hiked its share buyback program as global volatility in energy markets saw profits soar.",
+      "link": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
       "image": null,
-      "pubDate": "2026-10-29T02:39:59+00:00",
+      "pubDate": "2026-10-29T08:46:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Why is Teladoc Health stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-teladoc-health-stock-surging-today-93CH-4981874",
+      "image": "https://content-media.investing.com/news/LYNXMPEC0409P_M.jpg",
+      "pubDate": "2026-10-29T08:44:43+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Chipotle Mexican Grill stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-chipotle-mexican-grill-stock-surging-today-93CH-4981873",
+      "image": "https://content-media.investing.com/news/LYNXNPEB6R0AQ_M.jpg",
+      "pubDate": "2026-10-29T08:44:21+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "American Century Equity Income Fund Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959117-american-century-equity-income-fund-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T08:43:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Develop Global Limited (VTEXF) Q1 2027 Earnings Call Transcript",
+      "title": "Lloyds shares drop on muted third quarter results as higher taxes loom",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958988-develop-global-limited-vtexf-q1-2027-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/lloyds-reports-thirdquarter-profit-rise-as-britains-banks-face-higher-taxes-4981641",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S0PI_L.jpg",
+      "pubDate": "2026-10-29T08:42:22+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Campari sales beat estimates but stock slips 5% on US outlook",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/campari-sales-beat-estimates-but-stock-slips-on-us-outlook-4980495",
+      "image": "https://content-media.investing.com/news/LYNXMPEM5L113_1200_L.jpg",
+      "pubDate": "2026-10-29T08:42:16+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Haleon stock plunging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-haleon-stock-plunging-today-93CH-4981855",
+      "image": "https://content-media.investing.com/news/LYNXNPEB9M0BY_M.jpg",
+      "pubDate": "2026-10-29T08:40:11+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Microsoft stock surging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-microsoft-stock-surging-today-93CH-4981832",
+      "image": "https://content-media.investing.com/news/LYNXMPEABP0EU_M.jpg",
+      "pubDate": "2026-10-29T08:34:40+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Alphabet stock plunging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-alphabet-stock-plunging-today-93CH-4981830",
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEI1R04U_L.jpg",
+      "pubDate": "2026-10-29T08:34:09+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is ServiceNow stock plunging today?",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-servicenow-stock-plunging-today-93CH-4981831",
+      "image": "https://content-media.investing.com/news/LYNXMPECBE0OL_M.jpg",
+      "pubDate": "2026-10-29T08:33:47+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Is Tech Oversold Following Trend Reversals?",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959114-is-tech-oversold-following-trend-reversals?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:39:53+00:00",
+      "pubDate": "2026-10-29T08:33:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Carvana Continues To Improve",
+      "title": "ZOZO, Inc. 2027 Q2 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959007-carvana-q3-continuing-to-improve?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959133-zozo-inc-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:36:03+00:00",
+      "pubDate": "2026-10-29T08:31:47+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Hayward Holdings, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "title": "Japan Tobacco Inc. 2026 Q3 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959027-hayward-holdings-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959132-japan-tobacco-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:31:13+00:00",
+      "pubDate": "2026-10-29T08:31:14+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Carvana Co. (CVNA) Q3 2026 Earnings Call Transcript",
+      "title": "Befesa S.A. 2026 Q3 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958969-carvana-co-cvna-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959131-befesa-s-a-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:31:09+00:00",
+      "pubDate": "2026-10-29T08:30:57+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Gen Digital Inc. (GEN) Q2 2027 Earnings Call Transcript",
+      "title": "Adidas sees return to growth in Europe in fourth-quarter, confirms raised guidance",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958960-gen-digital-inc-gen-q2-2027-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/adidas-confirms-preliminary-results-raises-guidance-4981583",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S0L1_L.jpg",
+      "pubDate": "2026-10-29T08:30:35+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "FTSE 100 today: Stocks edge up as budget, Fed pause reassure investors",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-up-as-budget-fed-pause-reassure-investors-4981822",
+      "image": "https://content-media.investing.com/news/LYNXMPEA9S0AF_M.jpg",
+      "pubDate": "2026-10-29T08:30:11+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Amazon Earnings Preview: Q3 2026",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959129-amazon-earnings-preview-q3-2026?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:30:58+00:00",
+      "pubDate": "2026-10-29T08:25:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "FedEx Corporation (FDX) Q3 2026 Earnings Call Transcript",
+      "title": "W. P. Carey Inc. 2026 Q3 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958968-fedex-corporation-fdx-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959128-w-p-carey-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:30:30+00:00",
+      "pubDate": "2026-10-29T08:14:51+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Q2 Holdings, Inc. (QTWO) Q3 2026 Earnings Call Transcript",
+      "title": "American Century Equity Income Fund Q3 2026 Portfolio Activity",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959026-q2-holdings-inc-qtwo-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959124-american-century-equity-income-fund-q3-2026-portfolio-activity?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:30:21+00:00",
+      "pubDate": "2026-10-29T08:10:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Microsoft Corporation (MSFT) Q1 2027 Earnings Call Transcript",
+      "title": "IGO Limited (IIDDY) Q1 2027 Earnings Call Transcript",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958970-microsoft-corporation-msft-q1-2027-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959126-igo-limited-iiddy-q1-2027-earnings-call-transcript?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:30:13+00:00",
+      "pubDate": "2026-10-29T08:08:27+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Chipotle Mexican Grill, Inc. (CMG) Q3 2026 Earnings Call Transcript",
+      "title": "QDTE: The Total Return Could Be Worse Than You Think",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4958925-chipotle-mexican-grill-inc-cmg-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959107-qdte-the-total-return-could-be-worse-than-you-think?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:30:03+00:00",
+      "pubDate": "2026-10-29T08:05:53+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "NeoGenomics, Inc. (NEO) Q3 2026 Earnings Call Transcript",
+      "title": "Melexis NV 2026 Q3 - Results - Earnings Call Presentation",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959025-neogenomics-inc-neo-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959123-melexis-nv-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:29:57+00:00",
+      "pubDate": "2026-10-29T08:02:34+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Glaukos Corporation (GKOS) Q3 2026 Earnings Call Transcript",
+      "title": "Perpetual Limited (PPTTF) Shareholder/Analyst Call Transcript",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959023-glaukos-corporation-gkos-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959121-perpetual-limited-ppttf-shareholder-analyst-call-transcript?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:20:00+00:00",
+      "pubDate": "2026-10-29T07:58:32+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "MicroVision, Inc. (MVIS) Q3 2026 Earnings Call Transcript",
+      "title": "Harding Loevner Emerging Markets Equity Q3 2026 Commentary",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4959022-microvision-inc-mvis-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4959102-harding-loevner-emerging-markets-equity-q3-2026-commentary?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-29T02:19:54+00:00",
+      "pubDate": "2026-10-29T07:58:00+00:00",
       "source": "Seeking Alpha"
+    },
+    {
+      "title": "Diamond Hill Small-Mid Cap Fund Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959116-diamond-hill-small-mid-cap-fund-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:50:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Diamond Hill Small-Mid Cap Fund Q3 2026 Contributors And Detractors",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959118-diamond-hill-small-mid-cap-fund-q3-2026-contributors-and-detractors?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:50:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Cryptocurrencies: Bitcoin Down 3% This Week",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959099-cryptocurrencies-bitcoin-down-3-percent-this-week?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:44:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Johnson & Johnson: Strong Q3 Growth, But 2027 Could Test Its Earnings",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959098-johnson-and-johnson-strong-q3-growth-but-2027-could-test-its-earnings?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:40:29+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Prospect Capital: Upgrading The Preferred Shares To 'Hold' As Yield Realignment Completes",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959097-prospect-capital-upgrading-the-preferred-shares-to-hold-as-yield-realignment-completes?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:39:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "West Wits Mining Limited (WMWWF) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959115-west-wits-mining-limited-wmwwf-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:38:28+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
+      "desc": "Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.",
+      "link": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html",
+      "image": null,
+      "pubDate": "2026-10-29T07:35:45+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Canadian Pacific Kansas City Limited 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959113-canadian-pacific-kansas-city-limited-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:32:27+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Banco de Sabadell, S.A. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959112-banco-de-sabadell-s-a-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:31:24+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Seaport Therapeutics: Borrowed Efficacy, Engineered Safety, And A Post-IPO Discount",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959087-seaport-therapeutics-borrowed-efficacy-engineered-safety-and-a-post-ipo-discount?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:27:28+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "TCW MetWest Investment Grade Credit Fund Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959111-tcw-metwest-investment-grade-credit-fund-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-29T07:25:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Tencent, Visa deepen payments push in China after regulatory green light",
+      "desc": "Tencent and Visa are expanding their payments partnership following recent regulatory approvals for foreign financial firms in China.",
+      "link": "https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html",
+      "image": null,
+      "pubDate": "2026-10-29T07:01:50+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
+      "desc": "Samsung Electronics reported third-quarter earnings on Thursday.",
+      "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+      "image": null,
+      "pubDate": "2026-10-29T06:53:19+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+      "desc": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
+      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "image": null,
+      "pubDate": "2026-10-29T06:03:35+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
+      "desc": "Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 50 years.",
+      "link": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
+      "image": null,
+      "pubDate": "2026-10-29T04:55:17+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Over 41,000 U.S. Homeland Security officials' details apparently exposed after massive data breach",
+      "desc": "CNBC was able to access the database on the website, and saw it contained names alleged to be of officials, titles, agencies, and offices in cities and states.",
+      "link": "https://www.cnbc.com/2026/10/29/dhs-data-breach-ice-cdp-deportations.html",
+      "image": null,
+      "pubDate": "2026-10-29T04:29:32+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
+      "desc": "The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.",
+      "link": "https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html",
+      "image": null,
+      "pubDate": "2026-10-29T04:00:51+00:00",
+      "source": "CNBC Markets"
     },
     {
       "title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
@@ -163,188 +387,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Airline groups urge US CDC to reconsider Ebola declaration requirements",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/airline-groups-urge-us-cdc-to-reconsider-ebola-declaration-requirements-4981333",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S03Z_L.jpg",
-      "pubDate": "2026-10-29T02:12:38+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Samsung Electronics stock sliding today?",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-samsung-electronics-stock-sliding-today-93CH-4981346",
-      "image": "https://content-media.investing.com/news/LYNXNPEBAG0BO_M.jpg",
-      "pubDate": "2026-10-29T02:10:46+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Equinix, Inc. (EQIX) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958962-equinix-inc-eqix-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:09:54+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Meta's AI Ambitions Come At A High Price",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958996-meta-q3-ai-ambitions-come-at-a-high-price-reiterate-hold?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:07:14+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Seoul court dismisses lawsuit by Tesla owners seeking refunds for ’Full Self-Driving’ tech",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/seoul-court-dismisses-lawsuit-by-tesla-owners-seeking-refunds-for-full-selfdriving-tech-4981351",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S056_L.jpg",
-      "pubDate": "2026-10-29T02:06:34+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
-      "desc": "Samsung Electronics reported third-quarter earnings on Thursday.",
-      "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
-      "image": null,
-      "pubDate": "2026-10-29T02:06:04+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Hang Seng Bear Flag 80% complete near resistance: Live levels",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/hang-seng-nears-oversold-in-bear-flag-setup-live-levels-93CH-4971350",
-      "image": "https://content-media.investing.com/news/LYNXNPEC0K08U_M.jpg",
-      "pubDate": "2026-10-29T02:02:50+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Sprouts Farmers Market, Inc. 2026 Q3 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959017-sprouts-farmers-market-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:00:41+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "FinWise Bancorp (FINW) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959015-finwise-bancorp-finw-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:00:33+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Align Technology, Inc. (ALGN) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958934-align-technology-inc-algn-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:00:18+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Consumer Confidence Recovers Significantly In October",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959013-consumer-confidence-recovers-significantly-in-october?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Canadian Pacific Kansas City Limited (CP:CA) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958929-canadian-pacific-kansas-city-limited-cp-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T02:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Raymond James Financial, Inc. (RJF) Q4 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958944-raymond-james-financial-inc-rjf-q4-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T01:59:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Lucid: Distressed Valuation Meets A Make-Or-Break 2027",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958992-lucid-stock-distressed-valuation-meets-make-break-2027?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T01:58:23+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
       "desc": "A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
       "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-69922963",
       "pubDate": "2026-10-29T01:58:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Samsung posts record profit in Q3 on AI chip boom",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/samsung-posts-record-profit-in-q3-on-ai-chip-boom-4981289",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S02T_L.jpg",
-      "pubDate": "2026-10-29T01:54:37+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "OpenAI’s Astra used by Chinese AI firms to train models- The Information",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/openais-astra-used-by-chinese-ai-firms-to-train-models-the-information-93CH-4981331",
-      "image": "https://content-media.investing.com/news/LYNXNPEC0L0PD_M.jpg",
-      "pubDate": "2026-10-29T01:52:06+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Fortinet, Inc. (FTNT) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4958933-fortinet-inc-ftnt-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-29T01:50:04+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Mizuho doubles down on top REIT pick as senior housing growth gains momentum",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/mizuho-doubles-down-on-top-reit-pick-as-senior-housing-growth-gains-momentum-4981325",
-      "image": "https://content-media.investing.com/news/LYNXMPEA5O0FE_M.jpg",
-      "pubDate": "2026-10-29T01:45:19+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9R2CP_L.jpg",
-      "pubDate": "2026-10-29T01:12:23+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Exclusive-Bloomberg, two trading firms agree to pay Trump’s Truth Social for faster access to president’s posts, sources say",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivebloomberg-two-trading-firms-agree-to-pay-trumps-truth-social-for-faster-access-to-presidents-posts-sources-say-4981264",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9S00N_L.jpg",
-      "pubDate": "2026-10-29T01:06:50+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "SK Hynix hits 50% Fib & cloud resistance: Live levels",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/sk-hynix-neutral-in-notrade-zone-awaiting-breakout-live-93CH-4971337",
-      "image": "https://content-media.investing.com/news/LYNXNPEB9M0BY_M.jpg",
-      "pubDate": "2026-10-29T01:06:06+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
-      "desc": "Microsoft shares are up nearly 3% in after-hours trading, putting the stock in record-high territory.",
-      "link": "https://www.cnbc.com/investingclub/2026/10/28/microsofts-quarter-validates-stock-rebound-heres-our-new-price-target.html",
-      "image": null,
-      "pubDate": "2026-10-29T00:32:02+00:00",
-      "source": "CNBC Markets"
     },
     {
       "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
@@ -385,6 +433,14 @@
       "image": "https://images.mktw.net/im-99465391",
       "pubDate": "2026-10-29T00:10:00+00:00",
       "source": "MarketWatch"
+    },
+    {
+      "title": "As Waymo expands overseas, it remains a niche cash-burning business",
+      "desc": "Alphabet's Other Bets segment, which includes Waymo, accounted for 0.3% of total revenue in the quarter.",
+      "link": "https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html",
+      "image": null,
+      "pubDate": "2026-10-28T23:53:58+00:00",
+      "source": "CNBC Markets"
     },
     {
       "title": "One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next",
@@ -435,14 +491,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-      "desc": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
-      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-      "image": null,
-      "pubDate": "2026-10-28T22:34:56+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
       "desc": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
       "link": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
@@ -481,14 +529,6 @@
       "image": "https://images.mktw.net/im-13210750",
       "pubDate": "2026-10-28T22:00:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
-      "desc": "Nvidia faces DOJ inquiry over its $12.9 billion purchase of Hugging Face.",
-      "link": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
-      "image": null,
-      "pubDate": "2026-10-28T21:58:51+00:00",
-      "source": "CNBC Markets"
     },
     {
       "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
@@ -547,27 +587,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns",
-      "desc": "Oracle issued a revenue forecast for fiscal year 2030 of $225 billion, and said it will limit additional fundraising over that stretch to $20 billion.",
-      "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
-      "image": null,
-      "pubDate": "2026-10-28T20:00:44+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
       "desc": "The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed held interest rates steady.",
       "link": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
       "image": null,
       "pubDate": "2026-10-28T19:53:50+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Here is what changed in the new Fed statement",
-      "desc": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in September.",
-      "link": "https://www.cnbc.com/2026/10/28/fed-statement-redline-october-2026.html",
-      "image": null,
-      "pubDate": "2026-10-28T18:06:50+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -649,30 +673,6 @@
       "image": null,
       "pubDate": "2026-10-28T16:22:12+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
-      "desc": "Wendy's has endured a tough two-year stretch as diners eat out less often.",
-      "link": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
-      "image": null,
-      "pubDate": "2026-10-28T14:35:51+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Luxury round-the-world cruise ends abruptly as fuel costs skyrocket",
-      "desc": "Cruise operator Villa Vie Residences said it would disembark passengers and crew, and restructure its business due to soaring fuel costs.",
-      "link": "https://www.cnbc.com/2026/10/28/villa-vie-odyssey-fuel-costs.html",
-      "image": null,
-      "pubDate": "2026-10-28T11:39:44+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
-      "desc": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
-      "link": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
-      "image": null,
-      "pubDate": "2026-10-28T07:58:09+00:00",
-      "source": "CNBC Markets"
     }
   ]
 }
