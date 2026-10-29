@@ -36,3 +36,10 @@ Reject and revise or regenerate a failing result autonomously before presenting 
 - Include people when they belong in the scene: customers and staff in shops, pedestrians in urban settings, and people working where relevant. Use varied ages, appearances, clothing and compositions. Neither remove people categorically nor force them into every image. For reference-faithful architecture, retain the documented setting and avoid fabricating an event or crowd.
 - Prefer neutral natural lighting and realistic proportions. Keep original brand geometry and colors where those signs exist in the reference. Respect image source terms and place necessary credits in the compact references section.
 - Use distinct versioned cover filenames when replacing images, regenerate immutable social card URLs, and verify both article and homepage asset references. Keep earlier social assets available for existing posts.
+
+## Instagram distribution artwork, agreed October 29
+
+- For newly commissioned article packages, also prepare a separate portrait social image at 4:5, exported at 1080 by 1350 pixels. This is the owner's chosen working format for Facebook-to-Instagram/Threads cross-posting, not a claim that Instagram supports no other ratios.
+- Use a realistic editorial image, a short factual English headline readable on a phone, and a restrained TTN Finance logo. Preserve the complete news meaning when shortening a headline. Compose for the vertical canvas; do not stretch a landscape cover or crop away essential subjects, branding, faces or objects. Keep headline and branding inset from edges for preview crops.
+- Keep the website's landscape cover and existing OG/Twitter images separate and free of the Instagram headline overlay. Do not replace published website covers simply because portrait social artwork has been commissioned.
+- Inspect the portrait image at full size and phone-feed size. Apply the existing factual fidelity, non-cinematic style and minimum substantive quality gates. Provide the export as a downloadable image for the owner's manual posting; do not imply the image or caption has been posted to a social account.

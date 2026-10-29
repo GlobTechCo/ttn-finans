@@ -1,5 +1,12 @@
 # TTN publication gate
 
+## Social distribution and standalone decks, agreed October 29
+
+- Write each article deck so it remains understandable alongside the headline when copied into a social post. Include a concrete factual hook or consequence, name the relevant subject where needed, and complement rather than repeat the headline. Avoid vague teasers and unsupported promises.
+- Prepare a short Instagram caption for newly commissioned packages alongside the separate portrait artwork specified in the visual policy. Use the headline/deck as appropriate and a neutral navigation line such as "Full story via the link in our bio." The owner keeps a permanent website link in the Instagram profile; do not assume a URL copied into the post caption is clickable.
+- Facebook and Threads copy may retain the direct article URL. Keep the platform variants distinguishable for manual posting. Stories for each article are optional, not a required publishing step. A profile-link landing page was discussed as a possible later improvement and has not been commissioned.
+- These distribution instructions do not authorize automatic social posting, account changes, UTM changes or adding calls to action to website articles. Preserve the existing website editorial rules.
+
 Apply alongside `.agents/skills/ttn-editorial/SKILL.md`, the project-wide rules. This file owns the detailed commissioning, freshness, approval and date gates. The latest explicit user instruction overrides an older rule only within its scope.
 
 ## Standing commissioning instructions, October 19
