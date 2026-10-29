@@ -1,6 +1,168 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "starbucks-q4-2026-sales-profit-china-outlook",
+    "title": "Starbucks’ Coffeehouse Recovery Meets a Revenue Decline After Its China Deal",
+    "dek": "Starbucks’ US comparable sales rose 7.7%, but its China deal is shrinking reported revenue. An extra week also boosts the new annual earnings forecast.",
+    "section": "Market Analysis",
+    "tickers": [
+      "SBUX"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Starbucks storefront in Buffalo, New York, with fictional customers; not a photograph of the earnings announcement.",
+    "body": [
+      "<p>Starbucks forecast higher annual adjusted earnings Thursday as its coffeehouse recovery gathered pace, but said reported revenue would decline following the restructuring of its Chinese business. The results separate improving demand at existing stores from the effect of moving a large market outside its company-operated retail accounts.</p>",
+      "<p>For fiscal 2027, Starbucks expects adjusted earnings of $3.15 to $3.25 a share. Reuters reported an analyst benchmark of $3.14, compiled by LSEG. The company also announced a $1 billion share repurchase plan, according to Reuters. Its stronger profit outlook arrived alongside a forecast for an approximately 1% decline in consolidated revenue.</p>",
+      "<p>The apparent contradiction has an accounting explanation. Under a licensed joint-venture model, Starbucks no longer records all Chinese store sales as its own retail revenue. Royalty and related income replace a different set of receipts and expenses. A smaller reported revenue base can therefore coexist with continued activity in the coffeehouses carrying its brand.</p>",
+      "<h2>Customers return, but larger checks do more of the work</h2>",
+      "<p>US comparable coffeehouse sales increased 7.7% in the fourth quarter, with transactions up 2.4% and average spending per transaction up 5.2%. Globally, comparable sales rose 7.2%. These figures measure the eligible existing-store business rather than total consolidated revenue, which fell to about $9.1 billion.</p>",
+      "<p>The transaction component is particularly useful when judging a recovery. A larger average bill can reflect prices, a different product mix or additional items in an order. More transactions provide a separate sign that customers are using the stores more often. The two measures should not be treated as if all the sales growth came from additional visits.</p>",
+      "<p>The percentages also combine multiplicatively. Multiplying a 2.4% increase in transactions by a 5.2% increase in spending produces approximately 7.7% sales growth after rounding. Simply adding the two gives a slightly different result. This is a calculation illustrating the company’s operating measures, not a separate estimate of customer behavior.</p>",
+      "<p>As explained in <a href=\"retailer-earnings-consumer-bellwether-explained.html\">TTN’s guide to reading retail results</a>, a chain’s sales can reveal where consumers are still willing to spend. They do not establish that every age group, market or competing retailer is benefiting equally. Starbucks’ recovery is evidence about its own business, rather than a comprehensive reading of household finances.</p>",
+      "<h2>The calendar adds to the earnings outlook</h2>",
+      "<p>Fiscal 2027 contains 53 weeks instead of 52. Starbucks estimates the additional week will contribute roughly $700 million in revenue and slightly more than 10 cents to adjusted earnings per share. Its North American comparable-sales growth target is approximately 4%, measured on a comparable 52-week basis.</p>",
+      "<p>That extra week changes the interpretation of annual growth. It supplies another period of trading without requiring existing stores to increase their daily sales. Investors comparing next year’s forecast with this year’s earnings need to distinguish the calendar contribution from changes in demand, staffing, productivity and the ownership structure of the business.</p>",
+      "<p>It would also be misleading to deduct exactly 10 cents from the forecast and describe the result as official guidance. The company says slightly more than that amount, and it has not supplied a separate replacement earnings range on that basis. The published forecast remains the 53-week figure.</p>",
+      "<h2>Profitability improves as the store portfolio changes</h2>",
+      "<p>Fourth-quarter adjusted earnings reached 80 cents a share, compared with reported accounting earnings of 59 cents. The difference includes restructuring and other adjustments. Starbucks reported a 10.8% accounting operating margin and a 14% adjusted margin. Both improved, but they describe different treatments of costs rather than two interchangeable readings of profit.</p>",
+      "<p>The company also closed approximately 250 North American company-operated coffeehouses under its latest portfolio review. Store closures can improve the economics of the remaining network, while making headline growth less representative of the experience at every location. The financial test is whether recurring sales and operating improvements persist after the restructuring work.</p>",
+      "<p>The share repurchase plan adds another capital-allocation decision. Buying back stock can reduce the share count, but it does not establish stronger coffee sales or guarantee a higher stock price. TTN’s <a href=\"earnings-beat-miss-explained.html\">earnings comparison guide</a> explains why an above-consensus forecast can still leave unresolved questions about the quality and durability of growth.</p>",
+      "<p>Starbucks enters the next year with a stronger existing-store performance and a materially different reporting perimeter. The next results will show how customer visits, spending per order and margins develop within that smaller revenue base. Those measures will be more informative than treating the China-related decline as proof that the coffeehouse recovery has stopped.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Starbucks official Business Wire release, October 29: results, China accounting and 53-week guidance",
+        "url": "https://www.financialcontent.com/article/bizwire-2026-10-29-starbucks-reports-q4-and-full-fiscal-year-2026-results"
+      },
+      {
+        "label": "Starbucks newsroom and CEO video transcript: coffeehouse recovery and quarterly operating results",
+        "url": "https://about.starbucks.com/press/2026/starbucks-reports-q4-full-fiscal-year-2026-results/"
+      },
+      {
+        "label": "Reuters, October 29: analyst earnings benchmark and repurchase plan",
+        "url": "https://www.reuters.com/business/retail-consumer/starbucks-beats-quarterly-sales-profit-expectations-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T23:33:26Z",
+    "dateModified": "2026-10-29T23:33:26Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/starbucks-q4-2026-sales-profit-china-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/starbucks-q4-2026-sales-profit-china-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/starbucks-q4-2026-sales-profit-china-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/starbucks-q4-2026-sales-profit-china-outlook-cover-v1-480.webp 480w, assets/responsive/starbucks-q4-2026-sales-profit-china-outlook-cover-v1-960.webp 960w, assets/editorial/starbucks-q4-2026-sales-profit-china-outlook-cover-v1.webp 1672w"
+  },
+  {
+    "id": "reddit-login-tests-ai-search-traffic-q3-2026",
+    "title": "Reddit Plans Login Tests as AI Search Squeezes Referral Traffic",
+    "dek": "Reddit will test a primarily logged-in experience outside the US. Sales rose 53%, but declining search referrals threaten its daily audience.",
+    "section": "Tech & AI",
+    "tickers": [
+      "RDDT"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Reddit office corridor and installed Snoo emblem; not a photograph of the login tests or an actual employee.",
+    "body": [
+      "<p>Reddit plans to test a primarily logged-in experience outside the United States as declining search referrals challenge its audience growth. The announcement Thursday connects a familiar frustration for web users, another sign-in prompt, with a larger business struggle over advertising, automated data collection and AI-powered search.</p>",
+      "<p>Chief Executive Steve Huffman said the tests would begin in selected non-US markets in the coming months. In a public post, he said the boundaries between logged-in and logged-out access remained unsettled, including how visitors arriving from search or shared links would see a post. Reddit has not announced an immediate worldwide shutdown of account-free browsing.</p>",
+      "<p>That qualification matters for both users and investors. A test can change after the company measures its effects. Describing the announcement as an already implemented global login requirement would turn a proposed transition into a completed product change and obscure the questions Reddit itself says it has yet to resolve.</p>",
+      "<h2>Strong advertising revenue, weaker search discovery</h2>",
+      "<p>The company reported third-quarter revenue of $895 million, up 53% from a year earlier, and net income of $283 million. Advertising generated $847 million, while other revenue contributed $48 million. The figures show that advertising remains the dominant source of sales, despite the prominence of debates about licensing discussion data to AI companies.</p>",
+      "<p>Advertising accounted for approximately 95% of quarterly revenue, a calculation using the reported totals. That makes the quality and frequency of user engagement commercially significant. More control over access to the site may support data licensing, but the larger existing business still depends on attracting people and making their visits valuable to advertisers.</p>",
+      "<p>Audience trends were less uniform than the revenue increase. Reddit’s quarterly average daily active uniques reached 130.3 million, up 12% globally, while the US measure fell 2% to 50.7 million. Daily active uniques are a platform audience metric, not a count of paying subscribers or a guarantee that each visitor can be monetized equally.</p>",
+      "<p>In its shareholder letter, Reddit said search referrals declined meaningfully during the quarter and continued falling in October, by more than one million referrals on average per week. If that pace continues, management said fourth-quarter daily active uniques could fall by a low-double-digit percentage from the current base. That is a conditional outlook, rather than a reported fourth-quarter result.</p>",
+      "<h2>A login changes the value of a visit</h2>",
+      "<p>Huffman’s post described several reasons for the transition: more personalized recommendations, more relevant advertising, protection against unauthorized scraping and adaptation to regulations. He also said accounts would not require users’ real names or verified identities. A login requirement and a requirement to disclose a legal identity are different policies.</p>",
+      "<p>The commercial logic is to turn occasional visitors into a recurring audience with preferences and an ongoing relationship to the platform. That can improve advertising signals and help users return to communities. It also adds a step before reading, which could discourage some visits. The tests must establish how those effects balance in practice.</p>",
+      "<p>Reddit’s shareholder letter says logged-in and app users together generate more than 80% of monetization. That concentration helps explain why management is emphasizing those audiences even as overall search traffic weakens. It does not mean every lost referral is financially unimportant: search can also bring back existing users or introduce people who later become regular participants.</p>",
+      "<h2>AI answers alter the path to the platform</h2>",
+      "<p>Huffman told the earnings call that Google’s AI Mode was not driving traffic to Reddit, The Verge reported. That is the executive’s assessment of the search relationship, not an independent measurement proving that all AI search products reduce traffic for every publisher. The disclosed referral trend is the more concrete company-specific evidence.</p>",
+      "<p>TTN’s <a href=\"ai-search-publisher-economics-2026.html\">analysis of AI search and publisher economics</a> explains the underlying tension: a service can use or summarize material without sending the reader to its original destination. A company can consequently become important to an information ecosystem while receiving fewer visits through the route that previously supported its advertising business.</p>",
+      "<p>Reddit forecast fourth-quarter revenue of $1 billion to $1.03 billion. The coming tests will therefore take place while it is still projecting substantial sales, rather than responding to a reported collapse in revenue. As with other <a href=\"earnings-beat-miss-explained.html\">earnings assessments</a>, the central distinction is between current financial performance and the audience assumptions supporting future growth. The results of the login tests will help determine whether greater control also produces a more durable business.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reddit CEO Steve Huffman, October 29: planned tests, access boundaries and identity policy",
+        "url": "https://www.reddit.com/user/spez/comments/1xiupm0/about_that_login_screen/"
+      },
+      {
+        "label": "Reddit official third-quarter results: audience metrics, revenue and guidance",
+        "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "label": "Reddit shareholder letter: search referrals, conditional audience outlook and monetization",
+        "url": "https://s203.q4cdn.com/380862485/files/doc_financials/2026/q3/v2/Q3-26-Shareholder-Letter.pdf"
+      },
+      {
+        "label": "The Verge, October 29: attributed earnings-call remarks about AI Mode",
+        "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"
+      }
+    ],
+    "date": "2026-10-29T23:33:26Z",
+    "dateModified": "2026-10-29T23:33:26Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1-480.webp 480w, assets/responsive/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1-960.webp 960w, assets/editorial/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "binance-security-investigation-stablecoin-freezes-2026",
+    "title": "Binance Investigates Security Incident as Stablecoin Issuers Freeze Billions",
+    "dek": "Tether and Circle froze more than $2.38 billion, Reuters reports. Binance says user funds are safe; the cause and final financial impact remain unconfirmed.",
+    "section": "Crypto",
+    "tickers": [
+      "CRCL"
+    ],
+    "imageAlt": "Illustrative reconstruction of an archival Binance Blockchain Week installation in Dubai with fictional attendees; not a photograph of the security incident.",
+    "body": [
+      "<p>Binance said Thursday it was investigating a potential security issue as stablecoin issuers moved to restrict billions of dollars in associated tokens. The exchange said user funds were safe, while the cause of the suspicious activity and its final financial impact remained unconfirmed in the public information reviewed for this report.</p>",
+      "<p>Reuters reported that Tether and Circle froze more than $2.38 billion combined, including nearly $1.57 billion in Tether-issued tokens and more than $800 million from Circle. Binance.US, a separate exchange, said it was unaffected. Those statements describe restrictions on assets and the companies’ positions, rather than an independently completed accounting of losses.</p>",
+      "<p>The immediate distinction is between preventing further movement and returning assets to their rightful owner. A freeze can constrain what happens next without proving how an incident started, who controlled an address or when money will be recovered. It should not be described as a completed reimbursement to Binance or its customers.</p>",
+      "<h2>Competing transfer estimates are not a final loss total</h2>",
+      "<p>The Block reported approximately $3.55 billion in incoming transfers to an unlabeled wallet, with nearly $900 million subsequently moved onward. It also cited a larger estimate of up to $5.8 billion from Coinbase executive Conor Grogan. Separately, security firm Blockaid said it was investigating about $3.3 billion in suspicious outflows across several networks.</p>",
+      "<p>These estimates describe different observations and scopes. Money entering one address, funds later leaving it and assets identified across several networks cannot automatically be added together. The same assets may appear at more than one point along their route. Nor should the largest circulating figure be treated as the exchange’s confirmed net loss.</p>",
+      "<p>Binance co-founder Changpeng Zhao said the activity appeared to be a hack and that he expected user funds to be fully covered, The Block reported. He also stated that he no longer manages Binance.com. His assessment and expectation are relevant, but they are distinct from a completed forensic report or a formal reimbursement mechanism announced by the operating company.</p>",
+      "<p>The exchange’s statement that customer funds are safe is likewise an assurance from Binance. Public transfer data can identify movements, but it cannot by itself establish every customer balance, the exchange’s internal accounting or the resources available to meet its obligations. Those questions require evidence beyond the value displayed in a receiving wallet.</p>",
+      "<h2>Why stablecoin issuers can intervene</h2>",
+      "<p>Circle’s published token software illustrates how an issuer-controlled restriction can work. Its blacklist component allows a designated administrative role to mark accounts, while its transfer functions check whether the sender or recipient is restricted. Those controls are part of the token system; they do not require the issuer to control the private key of the flagged wallet.</p>",
+      "<p>That software explains the general mechanism, not the precise technical cause of Thursday’s incident. An address restriction is also different from pausing an entire blockchain. Other assets at the same address can have different transfer rules, so freezing a stablecoin balance does not establish that every asset associated with the activity has been immobilized.</p>",
+      "<p>The distinction complements <a href=\"stablecoins-explained-depeg-risk.html\">TTN’s explanation of stablecoin backing and redemption</a>. A token can be designed to maintain a dollar value while also carrying operational controls over transferability. Price stability, access to funds and the legal process for recovering assets are separate features of the system.</p>",
+      "<h2>The unresolved issue is the path from containment to recovery</h2>",
+      "<p>An exchange security investigation has several financial stages: identifying unauthorized activity, limiting additional movement, reconciling the assets involved and establishing who bears any remaining shortfall. Announcing progress at one stage does not establish that the others are complete. The size of the reported freezes makes containment important even while the total remains unsettled.</p>",
+      "<p>TTN’s reporting on <a href=\"coindcx-usdt-loss-old-wallet-sweep-failure-2026.html\">CoinDCX’s separately disclosed wallet loss</a> shows why an identified cause and a stated allocation of losses matter. It does not establish that the same technical failure occurred at Binance. Thursday’s available statements do not support attributing this incident to a particular vulnerability, insider or national group.</p>",
+      "<p>The next substantive evidence will be Binance’s verified account of the activity, a reconciled asset total and details of any recovery or customer impact. Until those emerge, the defensible description is an active investigation accompanied by major stablecoin freezes, with the final scope still open. This report reflects statements checked late on October 29 UTC.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 29 at 22:26 UTC: issuer freezes, Binance statement and Binance.US distinction",
+        "url": "https://www.reuters.com/legal/transactional/tether-circle-freeze-238-billion-after-binance-reports-security-incident-2026-10-29/"
+      },
+      {
+        "label": "The Block, October 29: attributed transfer estimates, security investigation and co-founder comments",
+        "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171"
+      },
+      {
+        "label": "Circle official token software: administrative address restrictions",
+        "url": "https://github.com/circlefin/stablecoin-evm/blob/master/contracts/v1/Blacklistable.sol"
+      },
+      {
+        "label": "Circle official token software: transfer checks for restricted addresses",
+        "url": "https://github.com/circlefin/stablecoin-evm/blob/master/contracts/v1/FiatTokenV1.sol"
+      }
+    ],
+    "date": "2026-10-29T23:33:26Z",
+    "dateModified": "2026-10-29T23:33:26Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/binance-security-investigation-stablecoin-freezes-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/binance-security-investigation-stablecoin-freezes-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/binance-security-investigation-stablecoin-freezes-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/binance-security-investigation-stablecoin-freezes-2026-cover-v1-480.webp 480w, assets/responsive/binance-security-investigation-stablecoin-freezes-2026-cover-v1-960.webp 960w, assets/editorial/binance-security-investigation-stablecoin-freezes-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "coinbase-q3-2026-profit-investment-gains-trading",
     "title": "Coinbase Returns to Profit, but Investment Gains Dominate the Result",
     "dek": "Coinbase reported $719 million in quarterly profit while trading revenue fell 43%. Its adjusted earnings show how much investment gains changed the picture.",

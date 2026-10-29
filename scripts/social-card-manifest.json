@@ -3288,6 +3288,39 @@
       "bytes": 100170,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/coinbase-q3-2026-profit-investment-gains-trading.html"
+    },
+    {
+      "page": "starbucks-q4-2026-sales-profit-china-outlook.html",
+      "source": "assets/editorial/starbucks-q4-2026-sales-profit-china-outlook-cover-v1.webp",
+      "image": "assets/social/starbucks-q4-2026-sales-profit-china-outlook-cover-v1-6f7adcef2231.webp",
+      "sha256": "6f7adcef22319032d44f45bd533680f09f715e14acc662f487bd5ff12309fe0a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 616704,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/starbucks-q4-2026-sales-profit-china-outlook.html"
+    },
+    {
+      "page": "reddit-login-tests-ai-search-traffic-q3-2026.html",
+      "source": "assets/editorial/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1.webp",
+      "image": "assets/social/reddit-login-tests-ai-search-traffic-q3-2026-cover-v1-826561f8e103.webp",
+      "sha256": "826561f8e10381dd7c212caa03b40e577686658184c63875a8c247a30895874c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 132058,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/reddit-login-tests-ai-search-traffic-q3-2026.html"
+    },
+    {
+      "page": "binance-security-investigation-stablecoin-freezes-2026.html",
+      "source": "assets/editorial/binance-security-investigation-stablecoin-freezes-2026-cover-v1.webp",
+      "image": "assets/social/binance-security-investigation-stablecoin-freezes-2026-cover-v1-aa18e3beac3f.webp",
+      "sha256": "aa18e3beac3f5a6a02293fc3b10a3b855bccc07775f6781921076155ea11de26",
+      "width": 1672,
+      "height": 941,
+      "bytes": 357434,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/binance-security-investigation-stablecoin-freezes-2026.html"
     }
   ]
 }

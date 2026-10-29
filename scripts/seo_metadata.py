@@ -384,3 +384,9 @@ DESCRIPTIONS['intel-q3-2026-server-growth-outlook-supply'] = 'Intel’s data-cen
 
 TITLES['coinbase-q3-2026-profit-investment-gains-trading'] = 'Coinbase Returns to Profit as Investment Gains Rise'
 DESCRIPTIONS['coinbase-q3-2026-profit-investment-gains-trading'] = 'Coinbase reported $719 million in quarterly profit while trading revenue fell 43%. Its adjusted earnings show how much investment gains changed the picture.'
+
+TITLES['starbucks-q4-2026-sales-profit-china-outlook'] = 'Starbucks Recovery Meets a China Revenue Reset'
+DESCRIPTIONS['starbucks-q4-2026-sales-profit-china-outlook'] = 'Starbucks’ US comparable sales rose 7.7%, but its China deal is shrinking reported revenue. An extra week also boosts the new annual earnings forecast.'
+
+TITLES['reddit-login-tests-ai-search-traffic-q3-2026'] = 'Reddit Plans Login Tests as AI Search Traffic Falls'
+DESCRIPTIONS['reddit-login-tests-ai-search-traffic-q3-2026'] = 'Reddit will test a primarily logged-in experience outside the US. Sales rose 53%, but declining search referrals threaten its daily audience.'

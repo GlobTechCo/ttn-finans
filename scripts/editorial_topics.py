@@ -311,3 +311,11 @@ RELATED['intel-q3-2026-server-growth-outlook-supply'] = ['asml-q3-2026-ai-demand
 # October 29 late commissioned package.
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coinbase-q3-2026-profit-investment-gains-trading')
 RELATED['coinbase-q3-2026-profit-investment-gains-trading'] = ['earnings-beat-miss-explained', 'coinbase-ripple-rlusd-launch-october-2026', 'robinhood-q3-2026-crypto-revenue-profit']
+
+# October 30 Kyiv overnight commissioned package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'starbucks-q4-2026-sales-profit-china-outlook')
+RELATED['starbucks-q4-2026-sales-profit-china-outlook'] = ['retailer-earnings-consumer-bellwether-explained', 'earnings-beat-miss-explained', 'consumer-sentiment-index-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'reddit-login-tests-ai-search-traffic-q3-2026')
+RELATED['reddit-login-tests-ai-search-traffic-q3-2026'] = ['ai-search-publisher-economics-2026', 'enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'binance-security-investigation-stablecoin-freezes-2026')
+RELATED['binance-security-investigation-stablecoin-freezes-2026'] = ['stablecoins-explained-depeg-risk', 'coindcx-usdt-loss-old-wallet-sweep-failure-2026', 'coinbase-ireland-safeguarding-fine-october-2026']
