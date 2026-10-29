@@ -3222,6 +3222,39 @@
       "bytes": 555234,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026.html"
+    },
+    {
+      "page": "ftc-toast-restaurant-fees-lawsuit-2026.html",
+      "source": "assets/editorial/ftc-toast-restaurant-fees-lawsuit-2026-cover-v1.webp",
+      "image": "assets/social/ftc-toast-restaurant-fees-lawsuit-2026-cover-v1-0029f1820e39.webp",
+      "sha256": "0029f1820e39c0c7109979cf378918af7fd7fadaeeedcd40ef0e00444ce328c1",
+      "width": 1672,
+      "height": 941,
+      "bytes": 242126,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ftc-toast-restaurant-fees-lawsuit-2026.html"
+    },
+    {
+      "page": "openai-agent-monitoring-security-gaps-2026.html",
+      "source": "assets/editorial/openai-agent-monitoring-security-gaps-2026-cover-v1.webp",
+      "image": "assets/social/openai-agent-monitoring-security-gaps-2026-cover-v1-dc0d2fbca63d.webp",
+      "sha256": "dc0d2fbca63dcbb86c8469748ea39052a59664e82a818b8349903831fd70e634",
+      "width": 1672,
+      "height": 941,
+      "bytes": 348832,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/openai-agent-monitoring-security-gaps-2026.html"
+    },
+    {
+      "page": "franklin-stock-dividend-bitcoin-etfs-2026.html",
+      "source": "assets/editorial/franklin-stock-dividend-bitcoin-etfs-2026-cover-v1.webp",
+      "image": "assets/social/franklin-stock-dividend-bitcoin-etfs-2026-cover-v1-30244cb3636b.webp",
+      "sha256": "30244cb3636bf8386bd18844a875b177a6b2fffd614f1ad8d4825e6fd1441f2c",
+      "width": 1672,
+      "height": 940,
+      "bytes": 458600,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/franklin-stock-dividend-bitcoin-etfs-2026.html"
     }
   ]
 }

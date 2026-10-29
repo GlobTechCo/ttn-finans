@@ -367,3 +367,11 @@ TITLES['mistral-large-4-open-weights-license-2026'] = 'Mistral Releases Large 4 
 DESCRIPTIONS['mistral-large-4-open-weights-license-2026'] = 'Mistral’s Large 4 can now run outside its own cloud. The release gives businesses more control, but model-hosting firms face a separate license requirement.'
 TITLES['ice-tradexyz-hyperliquid-us-perpetuals-plan-2026'] = 'NYSE Owner ICE Plans US Hyperliquid Futures Market'
 DESCRIPTIONS['ice-tradexyz-hyperliquid-us-perpetuals-plan-2026'] = 'ICE is backing a plan to bring Hyperliquid-based derivatives to US retail traders. The agreement is signed, but trading still needs regulatory approvals.'
+
+# October 29 evening commissioned package.
+TITLES['ftc-toast-restaurant-fees-lawsuit-2026'] = 'FTC Sues Toast Over Fees and Cancellation Barriers'
+DESCRIPTIONS['ftc-toast-restaurant-fees-lawsuit-2026'] = 'The case challenges how Toast charges restaurants and lets them leave its platform. Toast previously disputed the FTC’s legal claims and prepared to fight.'
+TITLES['openai-agent-monitoring-security-gaps-2026'] = 'OpenAI Details Wider Monitoring of AI Agents'
+DESCRIPTIONS['openai-agent-monitoring-security-gaps-2026'] = 'OpenAI says its expanded checks can detect unauthorized agent actions. Coverage and automatic stopping differ, leaving businesses with oversight work to do.'
+TITLES['franklin-stock-dividend-bitcoin-etfs-2026'] = 'Franklin ETFs Put Stock Dividends Into Bitcoin'
+DESCRIPTIONS['franklin-stock-dividend-bitcoin-etfs-2026'] = 'Two new Franklin ETFs start with 95% stocks and 5% bitcoin exposure. Their rules redirect dividends into crypto, with limits on how large that slice can grow.'
