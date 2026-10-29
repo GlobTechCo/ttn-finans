@@ -9,7 +9,7 @@ const TTN_ARTICLES = [
       "SHEL",
       "Brent Oil"
     ],
-    "imageAlt": "Illustrative reconstruction of a documented Shell fuel-station forecourt in South Weald, Brentwood, with its yellow-and-red canopy and parked cars.",
+    "imageAlt": "Illustrative reconstruction of Shell’s documented corporate office in The Hague, with its red-and-yellow scallop flag prominent in front of the brick facade and circular glass entrance canopy.",
     "body": [
       "<p>Shell announced a $5 billion share buyback for the next three months on Thursday after strong refining earnings helped lift third-quarter adjusted profit to $10.8 billion. The larger repurchase program channels more of the energy company's cash toward shareholders, even as it pays for acquisitions and expands its liquefied natural gas business.</p>",
       "<p>The buyback increases from $3 billion in the preceding program. Adjusted earnings of $10.814 billion compared with $5.432 billion a year earlier and $9.836 billion in the second quarter. Reuters reported that the result exceeded an analyst forecast of $10.33 billion. Those comparisons describe Shell's adjusted measure; income attributable to shareholders under its financial statements was higher, at $12.057 billion.</p>",
@@ -49,14 +49,14 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T09:36:01Z",
-    "dateModified": "2026-10-29T09:36:01Z",
+    "dateModified": "2026-10-29T10:13:41Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
-    "image": "assets/editorial/shell-q3-2026-profit-five-billion-buyback-cover-v1.webp",
-    "imageSmall": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-480.webp 480w, assets/responsive/shell-q3-2026-profit-five-billion-buyback-cover-v1-960.webp 960w, assets/editorial/shell-q3-2026-profit-five-billion-buyback-cover-v1.webp 1672w"
+    "image": "assets/editorial/shell-q3-2026-profit-five-billion-buyback-approved-office-v2.webp",
+    "imageSmall": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-approved-office-v2-480.webp",
+    "imageMedium": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-approved-office-v2-960.webp",
+    "imageSrcset": "assets/responsive/shell-q3-2026-profit-five-billion-buyback-approved-office-v2-480.webp 480w, assets/responsive/shell-q3-2026-profit-five-billion-buyback-approved-office-v2-960.webp 960w, assets/editorial/shell-q3-2026-profit-five-billion-buyback-approved-office-v2.webp 1672w"
   },
   {
     "id": "volkswagen-q3-2026-loss-porsche-writedown",
