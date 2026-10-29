@@ -3156,6 +3156,39 @@
       "bytes": 260366,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/curve-stellar-stableswap-public-launch-2026.html"
+    },
+    {
+      "page": "us-gdp-q3-2026-september-spending-inflation.html",
+      "source": "assets/editorial/us-gdp-q3-2026-september-spending-inflation-cover-v1.webp",
+      "image": "assets/social/us-gdp-q3-2026-september-spending-inflation-cover-v1-80edb883d7fd.webp",
+      "sha256": "80edb883d7fd4e4fec621689aec7f717a475c825f1045b8af26fd952d315ca89",
+      "width": 1672,
+      "height": 941,
+      "bytes": 333490,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-gdp-q3-2026-september-spending-inflation.html"
+    },
+    {
+      "page": "serval-ai-workflow-series-c-150-million-2026.html",
+      "source": "assets/editorial/serval-ai-workflow-series-c-150-million-2026-cover-v1.webp",
+      "image": "assets/social/serval-ai-workflow-series-c-150-million-2026-cover-v1-e7f14a642675.webp",
+      "sha256": "e7f14a642675df85038b3e02338673f25adbfcbe604d1fb6f35257de0baa45bc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 257412,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/serval-ai-workflow-series-c-150-million-2026.html"
+    },
+    {
+      "page": "polygon-solana-stablecoin-bank-payments-2026.html",
+      "source": "assets/editorial/polygon-solana-stablecoin-bank-payments-2026-cover-v1.webp",
+      "image": "assets/social/polygon-solana-stablecoin-bank-payments-2026-cover-v1-6d9167e18bfd.webp",
+      "sha256": "6d9167e18bfd2a39873bec9a718c9ab36f29cd1ee327c1e4cc7cf007d698c32a",
+      "width": 1673,
+      "height": 940,
+      "bytes": 193884,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/polygon-solana-stablecoin-bank-payments-2026.html"
     }
   ]
 }

@@ -351,3 +351,11 @@ TITLES['stmicro-ai-data-center-revenue-forecast-2026'] = 'STMicro Lifts Data-Cen
 DESCRIPTIONS['stmicro-ai-data-center-revenue-forecast-2026'] = 'The chipmaker raised its 2026 data-center revenue expectation. Optical links and power components extend the AI buildout beyond processors.'
 TITLES['curve-stellar-stableswap-public-launch-2026'] = 'Curve Launches StableSwap on Stellar'
 DESCRIPTIONS['curve-stellar-stableswap-public-launch-2026'] = 'Curve’s Stellar rollout opens a new venue for stablecoin liquidity. Earlier testing preceded the launch, while FXSwap remains a later step.'
+
+# October 29 afternoon commissioned package.
+TITLES['us-gdp-q3-2026-september-spending-inflation'] = 'US GDP Grows 3.4% as Real September Spending Stalls'
+DESCRIPTIONS['us-gdp-q3-2026-september-spending-inflation'] = 'The US economy grew faster in the third quarter, yet September spending barely rose after inflation. The split complicates the Fed’s next move.'
+TITLES['serval-ai-workflow-series-c-150-million-2026'] = 'Serval Raises $150M for AI Challenge to ServiceNow'
+DESCRIPTIONS['serval-ai-workflow-series-c-150-million-2026'] = 'Serval raised $150 million to automate workplace tasks with AI. Its expansion plan includes more than 500 hires, even as it promises less manual work.'
+TITLES['polygon-solana-stablecoin-bank-payments-2026'] = 'Polygon Adds Solana to Stablecoin and Bank Payments'
+DESCRIPTIONS['polygon-solana-stablecoin-bank-payments-2026'] = 'Polygon is connecting Solana payments with bank deposits and payouts. The goal is to make stablecoins usable without customers managing the crypto plumbing.'

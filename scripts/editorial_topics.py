@@ -277,3 +277,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'stmicro-ai-d
 RELATED['stmicro-ai-data-center-revenue-forecast-2026'] = ['microsoft-q1-2027-azure-cash-flow-ai-spending', 'ai-inference-unit-economics-2026', 'sk-hynix-q3-2026-ai-memory-profit']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'curve-stellar-stableswap-public-launch-2026')
 RELATED['curve-stellar-stableswap-public-launch-2026'] = ['defi-basics-explained', 'janus-henderson-jqqq-nasdaq-stellar-fund-2026', 'stablecoins-explained-depeg-risk']
+
+# October 29 afternoon commissioned package.
+GROUPS['Inflation and economic indicators'].insert(0, 'us-gdp-q3-2026-september-spending-inflation')
+RELATED['us-gdp-q3-2026-september-spending-inflation'] = ['fed-october-2026-rate-hold-two-dissents', 'cpi-inflation-explained', 'retailer-earnings-consumer-bellwether-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'serval-ai-workflow-series-c-150-million-2026')
+RELATED['serval-ai-workflow-series-c-150-million-2026'] = ['ai-agents-enterprise-roi-2026', 'enterprise-ai-data-security-2026', 'sap-cheaper-ai-models-cost-per-task-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'polygon-solana-stablecoin-bank-payments-2026')
+RELATED['polygon-solana-stablecoin-bank-payments-2026'] = ['stablecoins-explained-depeg-risk', 'nacha-same-day-ach-growth-third-quarter-2026', 'curve-stellar-stableswap-public-launch-2026']

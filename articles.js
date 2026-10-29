@@ -1,6 +1,177 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-gdp-q3-2026-september-spending-inflation",
+    "title": "US Growth Accelerates to 3.4%, but September Spending Stalls After Inflation",
+    "dek": "The US economy grew faster in the third quarter, yet September spending barely rose after inflation. The split complicates the Fed’s next move.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Illustrative scene of shoppers with groceries outside a US supermarket beneath an American flag; not a photograph of the economic release.",
+    "body": [
+      "<p>The U.S. economy expanded at a 3.4% annualized rate in the third quarter, up from 2.2% in the second, the Bureau of Economic Analysis reported Thursday. A separate September spending release showed a more difficult finish to the period: consumers paid more without buying appreciably more after inflation.</p>",
+      "<p>That combination gives investors two different signals from the same morning’s data. Growth remains resilient enough to challenge expectations of easier monetary policy. Household purchasing power, however, is under pressure, limiting how confidently businesses can extrapolate the quarter’s performance into the holiday shopping season.</p>",
+      "<p>The GDP estimate is adjusted for inflation and describes July through September. Its annualized rate expresses how fast output would grow if that quarterly pace continued for a full year. It does not mean the economy expanded 3.4% in three months. BEA’s technical notes put the actual quarterly increase at 0.8%.</p>",
+      "<h2>Investment strengthens, while trade subtracts</h2>",
+      "<p>BEA identified investment, consumer spending and government spending as positive contributors. Exports fell and imports increased. Investment’s acceleration and a rebound in government spending helped explain why overall growth picked up from the second quarter, despite a less favorable trade contribution.</p>",
+      "<p>The equipment increase was led by computers and peripheral equipment. Inventories also rose, particularly in wholesale trade and manufacturing. These are different sources of growth: equipment can expand productive capacity, while accumulating unsold goods can reflect stocking decisions that will not necessarily repeat in the next quarter.</p>",
+      "<p>A useful measure of demand beneath those fluctuations is real final sales to private domestic purchasers, which combines consumer spending with private fixed investment. It rose at a 4.9% annualized pace, compared with 4.6% previously. That measure excludes inventory changes, government purchases and net exports, helping distinguish private domestic demand from shifts elsewhere in the accounts.</p>",
+      "<p>Imports also require careful interpretation. They are subtracted in GDP accounting because purchases made abroad are already captured in other spending categories. The subtraction prevents foreign production from being counted as U.S. output; an increase in imported equipment can still accompany businesses investing in their operations.</p>",
+      "<h2>September’s higher bills bought little extra</h2>",
+      "<p>The monthly household figures were less comfortable. Spending in current dollars increased 0.5% in September, but the PCE price index also rose 0.5%. After adjusting for prices, consumption increased less than 0.1%, rounded to zero in BEA’s summary table. In August, real spending had risen 0.5%.</p>",
+      "<p>Disposable income, meaning income after personal taxes, increased 0.2% before inflation but fell 0.3% in purchasing-power terms. The saving rate was 3.8%. These figures help explain why solid aggregate output does not automatically translate into households feeling better off: the amount available to spend and the amount that money buys can move in opposite directions.</p>",
+      "<p>Headline PCE inflation reached 3.6% from a year earlier. Excluding food and energy, prices increased 0.3% for the month and 3.1% over the year. The distinction between a slower inflation rate and a lower price level, also relevant to <a href=\"cpi-inflation-explained.html\">reading consumer-price reports</a>, matters when judging pressure on family budgets.</p>",
+      "<h2>A difficult backdrop for the Fed</h2>",
+      "<p>The figures arrived a day after the <a href=\"fed-october-2026-rate-hold-two-dissents.html\">Federal Reserve held its policy range at 3.75% to 4%</a>. Two officials preferred a quarter-point increase. The statement described strong activity and robust capital investment while emphasizing that inflation remained elevated and further information would guide policy.</p>",
+      "<p>Thursday’s releases reinforce that tension without settling the next decision. Sustained demand can support company revenues, but persistent inflation can keep borrowing costs restrictive. For consumer businesses, nominal sales growth needs to be separated from growth in quantities sold, particularly when assessing the <a href=\"retailer-earnings-consumer-bellwether-explained.html\">signals coming from retailer earnings</a>.</p>",
+      "<p>This is an advance GDP estimate, scheduled for revision on November 25. The immediate issue is whether September’s weak real spending was a pause within a strong expansion or an early sign that higher prices are constraining the next quarter.</p>"
+    ],
+    "sources": [
+      {
+        "label": "BEA, October 29 at 8:30 a.m. EDT: third-quarter advance GDP estimate and technical notes",
+        "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+      },
+      {
+        "label": "BEA, October 29 at 8:30 a.m. EDT: September personal income and outlays",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+      },
+      {
+        "label": "BEA: why quarterly growth is expressed at annual rates",
+        "url": "https://www.bea.gov/help/faq/122"
+      },
+      {
+        "label": "Federal Reserve, October 28: monetary-policy statement and votes",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      }
+    ],
+    "date": "2026-10-29T13:38:24Z",
+    "dateModified": "2026-10-29T13:38:24Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/us-gdp-q3-2026-september-spending-inflation-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-gdp-q3-2026-september-spending-inflation-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-gdp-q3-2026-september-spending-inflation-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-gdp-q3-2026-september-spending-inflation-cover-v1-480.webp 480w, assets/responsive/us-gdp-q3-2026-september-spending-inflation-cover-v1-960.webp 960w, assets/editorial/us-gdp-q3-2026-september-spending-inflation-cover-v1.webp 1672w"
+  },
+  {
+    "id": "serval-ai-workflow-series-c-150-million-2026",
+    "title": "AI Workflow Startup Serval Raises $150 Million to Challenge ServiceNow",
+    "dek": "Serval raised $150 million to automate workplace tasks with AI. Its expansion plan includes more than 500 hires, even as it promises less manual work.",
+    "section": "Tech & AI",
+    "tickers": [
+      "NOW"
+    ],
+    "imageAlt": "Illustrative reconstruction of Serval’s documented office lobby and installed logo with fictional workers; not a photograph of the funding announcement.",
+    "body": [
+      "<p>Serval, a software startup that uses artificial intelligence to automate employee requests and business processes, said Thursday it raised $150 million at a $3 billion valuation. The Sequoia-led financing gives the company more resources to compete with ServiceNow in the systems large employers use to organize internal work.</p>",
+      "<p>Its plan contains a revealing tension for the AI industry: selling less manual work still requires substantial human deployment effort. Serval intends to hire more than 500 people over the next year, including over 100 automation engineers in a new professional-services operation called ProServal, according to its announcement.</p>",
+      "<p>The financing is Serval’s third round in 12 months. Existing backers including First Round, General Catalyst and Redpoint participated, alongside new investors Conviction and Headline. The valuation is a negotiated price for a private financing, rather than a public-market price or a measure of annual sales.</p>",
+      "<h2>From writing a workflow to running a business process</h2>",
+      "<p>Serval’s central automation agent, Catalyst, takes business requirements and turns them into code-based workflows. The company’s product materials describe a system that can work from support-ticket histories, written operating procedures or spreadsheets of tasks, rather than requiring every process to begin with a developer writing an integration.</p>",
+      "<p>Consider onboarding an employee. A useful workflow may need to collect information, create access requests, obtain approval and update records in several applications. Generating the code is only one part of that job. The organization must also decide which person can approve access, which records are authoritative and what should happen when an exception occurs.</p>",
+      "<p>Those implementation choices explain the proposed services expansion. Serval says roughly half its new automation engineers will be recent college graduates who complete a four-week training program. Their work is meant to help customers identify repetitive processes and redesign them, rather than simply install another chatbot over an existing service desk.</p>",
+      "<p>As TTN’s <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of enterprise AI returns</a> explains, savings depend on the work left for people after the software is deployed. A workflow that requires frequent correction or duplicate record-keeping can move labor around without eliminating much of it. The relevant comparison is the completed process, including supervision and maintenance.</p>",
+      "<h2>Permissions and testing become part of the product</h2>",
+      "<p>Catalyst became generally available in August. Serval says it inherits the operator’s permissions, is limited to a team workspace and stages proposed automations as drafts. Authorized users must publish changes before those changes affect employees or production systems. That design separates generating a possible action from granting permission to execute it.</p>",
+      "<p>On Wednesday, the company introduced Simulations for testing its Help Desk Agent. Teams can turn historical requests or test data into scenarios, have another model act as the requester and use a judging model to assess the result. Workflows are simulated by default, and access requests do not grant actual access during those tests.</p>",
+      "<p>One example in Serval’s explanation concerns a contractor requesting a laptop: the test checks that the request reaches the contractor’s sponsor rather than an ordinary employee’s manager. This illustrates a practical reliability problem. A fluent answer is insufficient when a small difference in employment status changes the correct approval route.</p>",
+      "<p>Simulated success still cannot establish that every real-world exception will be handled correctly. For buyers, the value lies in making testing and review repeatable before a change is released. It also connects the product’s commercial case to <a href=\"enterprise-ai-data-security-2026.html\">enterprise data and access controls</a>, where mistakes can carry costs beyond a delayed support ticket.</p>",
+      "<h2>The incumbent is expanding too</h2>",
+      "<p>ServiceNow’s results, released Wednesday, show the scale of the competition. It reported $3.988 billion in quarterly subscription revenue, up 21% from a year earlier, and raised its 2026 AI annual contract value target to $1.7 billion. That contract measure differs from revenue already recognized during the quarter.</p>",
+      "<p>Serval therefore faces an incumbent selling AI as well as established workflow software. Its funding supplies resources for product development and customer implementation; it does not establish that customers will abandon existing systems at scale. The commercial test is whether a switch produces durable operating savings after migration, permissions, testing and ongoing support are included.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Serval, October 29: Series C financing, valuation and hiring plan",
+        "url": "https://www.serval.com/blog/we-raised-150m-to-make-everyone-a-builder"
+      },
+      {
+        "label": "Serval, August 20: Catalyst general availability, permissions and draft controls",
+        "url": "https://www.serval.com/blog/catalyst-general-availability"
+      },
+      {
+        "label": "Serval: Catalyst product functions",
+        "url": "https://www.serval.com/product/catalyst"
+      },
+      {
+        "label": "Serval, October 28: Simulations test methodology and safeguards",
+        "url": "https://www.serval.com/blog/simulations"
+      },
+      {
+        "label": "ServiceNow, October 28: third-quarter financial results",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+      }
+    ],
+    "date": "2026-10-29T13:38:24Z",
+    "dateModified": "2026-10-29T13:38:24Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/serval-ai-workflow-series-c-150-million-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/serval-ai-workflow-series-c-150-million-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/serval-ai-workflow-series-c-150-million-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/serval-ai-workflow-series-c-150-million-2026-cover-v1-480.webp 480w, assets/responsive/serval-ai-workflow-series-c-150-million-2026-cover-v1-960.webp 960w, assets/editorial/serval-ai-workflow-series-c-150-million-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "polygon-solana-stablecoin-bank-payments-2026",
+    "title": "Polygon Adds Solana to Its Platform for Stablecoin and Bank Payments",
+    "dek": "Polygon is connecting Solana payments with bank deposits and payouts. The goal is to make stablecoins usable without customers managing the crypto plumbing.",
+    "section": "Crypto",
+    "tickers": [
+      "SOL"
+    ],
+    "imageAlt": "Illustrative reconstruction of a documented Polygon Connect Bogotá registration counter with fictional attendees; not an image of the Solana integration launch.",
+    "body": [
+      "<p>Polygon Labs said Thursday that its Open Money Stack payment platform now supports Solana, giving businesses using that blockchain a route between bank deposits, stablecoin balances and payouts. The expansion targets a practical obstacle to crypto payments: moving a token is different from delivering spendable money to the recipient’s bank account.</p>",
+      "<p>The company describes the Solana integration as live, rather than a proposal for future support. Businesses can use the platform to connect incoming payments, wallets, conversion and outgoing transfers. The announcement concerns payment infrastructure around Solana, not a merger of the Solana and Polygon blockchains or a change to their native tokens.</p>",
+      "<p>For a business selling across borders, that surrounding infrastructure can matter as much as blockchain settlement speed. A supplier may invoice in dollars, receive a stablecoin and ultimately need local bank money. Each handoff introduces a provider relationship, a conversion or an operational record that someone must reconcile.</p>",
+      "<h2>Connecting the beginning and end of a payment</h2>",
+      "<p>Polygon’s launch announcement lists bank transfers, cards, cash and crypto among supported entry routes. It also describes Solana wallet support and routing across Solana, Polygon and other chains. Supported assets in the routing system include USDC, USDT, PYUSD, SOL and wrapped SOL, according to the company.</p>",
+      "<p>An application can therefore keep Solana as its settlement network while using Polygon’s services for other stages of the transaction. Polygon says customers can adopt individual components alongside their existing infrastructure. Adding a payment route does not require a business to rebuild every part of its own ledger, wallet or compliance process around one vendor.</p>",
+      "<p>The Block reported that Kira is among the first customers using the Solana expansion. Kira helps businesses connect U.S. dollar accounts, stablecoins and international supplier payments. Its role makes the intended use concrete: the recipient needs money in the form required to settle an invoice, rather than necessarily wanting to keep a blockchain asset.</p>",
+      "<p>For users, <a href=\"stablecoins-explained-depeg-risk.html\">a stablecoin’s backing and redemption arrangements</a> remain relevant after the transfer completes. Payment software can simplify access to conversion services, but it does not make every token equivalent to an insured bank deposit. The issuer, service provider and destination account each perform different roles in the transaction.</p>",
+      "<h2>Coinme supplies part of the regulated access</h2>",
+      "<p>The Solana addition follows Polygon’s October 14 announcement that it completed its acquisition of Coinme. Through that U.S. payments business, Polygon said its coverage extends across 48 states, comprising 37 money transmitter licenses and 11 applicable exemptions. It also cited registration with the Financial Crimes Enforcement Network as a money services business.</p>",
+      "<p>Those details are more precise than describing the service as having 48 separate state licenses. They also concern the payments business’s regulatory footprint, rather than a blanket approval of every blockchain application or token. Polygon’s accompanying terms say availability depends on applicable law and that configurations may not satisfy every jurisdiction’s requirements.</p>",
+      "<p>That distinction matters for customers comparing providers. Technical connectivity and legal access answer different questions. A transaction can be possible on a network while a particular payout method remains unavailable for a customer, destination or business activity. Businesses still need to establish which entity handles their money and which services their agreement covers.</p>",
+      "<h2>The commercial test is the complete transfer</h2>",
+      "<p>Polygon’s broader payout materials describe sending funds to bank accounts, cash pickup locations, cards or crypto wallets from a common balance. The attraction is operational consolidation: fewer separate payout integrations and reconciliation files for a payments team to maintain. Its wallet materials also describe creating embedded accounts inside the customer’s own product.</p>",
+      "<p>That approach places crypto infrastructure closer to ordinary business cash flow, the same operational concern behind <a href=\"nacha-same-day-ach-growth-third-quarter-2026.html\">growth in faster bank-payment services</a>. The networks differ, but a business ultimately needs a reliable record of what was paid, what arrived and what the process cost.</p>",
+      "<p>The launch does not itself establish transaction volumes or savings achieved by the new Solana route. The useful comparison will include conversion spreads, provider fees, payout availability and the time until a recipient can use the money. Fast blockchain settlement is one stage of that calculation, rather than the finish line for every payment.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Polygon Labs, October 29: Solana support announcement and supported payment stages",
+        "url": "https://polygon.technology/blog/polygon-oms-supports-solana"
+      },
+      {
+        "label": "The Block, October 29 at 9:00 a.m. EDT: Solana integration and Kira customer statement",
+        "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115"
+      },
+      {
+        "label": "Polygon Labs, October 14: completed Coinme acquisition, state coverage and terms",
+        "url": "https://polygon.technology/blog/polygon-open-money-stack-us-regulated-payments-platform"
+      },
+      {
+        "label": "Polygon: payout methods and operational integration",
+        "url": "https://polygon.technology/payouts"
+      },
+      {
+        "label": "Polygon: embedded wallet infrastructure",
+        "url": "https://polygon.technology/wallets"
+      }
+    ],
+    "date": "2026-10-29T13:38:24Z",
+    "dateModified": "2026-10-29T13:38:24Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/polygon-solana-stablecoin-bank-payments-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/polygon-solana-stablecoin-bank-payments-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/polygon-solana-stablecoin-bank-payments-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/polygon-solana-stablecoin-bank-payments-2026-cover-v1-480.webp 480w, assets/responsive/polygon-solana-stablecoin-bank-payments-2026-cover-v1-960.webp 960w, assets/editorial/polygon-solana-stablecoin-bank-payments-2026-cover-v1.webp 1673w"
+  },
+  {
     "id": "lagarde-early-departure-ecb-february-2027",
     "title": "Lagarde Will Leave the ECB Early, Opening a Leadership Contest",
     "dek": "Christine Lagarde will step down before her term ends. Europe must choose a successor while monetary policy remains a collective decision.",
