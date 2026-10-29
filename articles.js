@@ -1,6 +1,170 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "ford-q3-2026-profit-guidance-commodity-costs",
+    "title": "Ford Raises Profit Forecast Floor as Higher Costs Test Its Recovery",
+    "dek": "Ford lifted the bottom of its annual profit forecast by $500 million. Higher commodity costs and weaker vehicle volumes complicate the improvement.",
+    "section": "Market Analysis",
+    "tickers": [
+      "F"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Ford Glass House facade and installed blue oval sign in Dearborn, Michigan.",
+    "body": [
+      "<p>Ford raised the lower end of its 2026 adjusted operating-profit forecast on Wednesday, offering a more confident earnings outlook despite declining revenue and rising raw-material costs. The automaker now expects adjusted earnings before interest and taxes of $10.5 billion to $11 billion, compared with its previous $10 billion to $11 billion range. The change improves the floor by $500 million while leaving the ceiling intact.</p>",
+      "<p>The distinction matters for shareholders assessing the recovery. A narrower range suggests management sees less downside to this year's underlying result. It does not amount to an equivalent increase in every possible outcome, and Ford left its annual adjusted free-cash-flow forecast at $6 billion to $7 billion. Our <a href=\"earnings-beat-miss-explained.html\">guide to earnings expectations</a> explains why a better headline can coexist with a more restrained assessment of the outlook.</p>",
+      "<h2>Profit improves on a smaller sales base</h2>",
+      "<p>Third-quarter revenue fell 2% from a year earlier to $49.5 billion, while adjusted EBIT increased 3% to about $2.7 billion. That combination points to an improvement in the profit generated from each dollar of revenue. Chief Financial Officer Sherry House attributed the performance to a richer mix of higher-margin vehicles and cost control, rather than a broad expansion in sales.</p>",
+      "<p>Those gains have limits. Net income under standard accounting rules fell to $2 billion from $2.4 billion a year earlier. Adjusted EBIT excludes specified items and measures performance before interest and taxes, so it should not be substituted for net earnings. The two measures answer different questions about the quarter; reporting one without the other would exaggerate how uniformly Ford's finances improved.</p>",
+      "<p>The cost challenge also grew. Reuters reported that Ford increased its estimate of full-year commodity headwinds to nearly $2.5 billion from about $2 billion. Its outlook assumes U.S. industry pricing roughly 1% higher than a year earlier. That is an industry assumption within a corporate forecast, not a promise that every Ford transaction price will rise by the same amount.</p>",
+      "<h2>The commercial and electric businesses tell different stories</h2>",
+      "<p>Ford Pro, which serves commercial customers, earned about $1.7 billion before interest and taxes, down 16%. Ford cited higher commodities and temporary launch costs as Super Duty production began at its Oakville Assembly Complex. The gasoline and hybrid business, Ford Blue, earned about $1.4 billion, down 10%. These declines show why the companywide improvement should not be read as equal progress across the vehicle portfolio.</p>",
+      "<p>The electric-vehicle division, Ford Model e, narrowed its quarterly EBIT loss by 25% to about $1.1 billion. A smaller loss helps the group result, but the division remains a substantial use of earnings generated elsewhere. Ford's updated annual outlook still anticipates roughly $4 billion in Model e losses. Investors therefore have to distinguish progress toward lower losses from an established, profitable electric-vehicle operation.</p>",
+      "<h2>Cash and investment remain separate tests</h2>",
+      "<p>Ford generated $5.4 billion in operating cash flow and reported $4.7 billion in company-adjusted free cash flow. These figures use different boundaries and adjustments, particularly around the financing business. They cannot be compared as though the second number were simply the first minus all consolidated investment. The reconciliation accompanying the release is essential context, as our <a href=\"free-cash-flow-explained.html\">explanation of free-cash-flow definitions</a> discusses.</p>",
+      "<p>Beyond vehicles, House said software services and parts produced record quarterly revenue. Ford also continues to target 20 gigawatt-hours of annual Ford Energy battery capacity online by the end of 2027. That is a future manufacturing objective, not capacity already producing the forecast financial return. The nearer test is whether recurring services and manufacturing efficiencies can offset costs without relying solely on selling a more expensive mix of trucks and SUVs.</p>",
+      "<p>Ford declared a regular quarterly dividend of 15 cents a share, payable December 1 to holders of record November 10. Its guidance also excludes a significant escalation in the Middle East conflict or a material U.S. downturn. Those assumptions leave a clear boundary around Wednesday's improvement: a stronger expected earnings floor within the operating conditions management currently anticipates.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Ford, October 28: third-quarter results and financial reconciliations, furnished to the SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000190/exhibit99tooctober282026.htm"
+      },
+      {
+        "label": "Ford CFO Sherry House, October 28: quarterly performance and investment priorities",
+        "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/what-to-know-about-ford-third-quarter-2026"
+      },
+      {
+        "label": "Reuters, October 28: commodity-cost outlook and earnings context",
+        "url": "https://www.reuters.com/business/autos-transportation/fords-third-quarter-core-profit-ticks-higher-despite-rising-commodity-costs-2026-10-28/"
+      },
+      {
+        "label": "Yahoo Finance, October 28: results, unchanged cash-flow forecast and annual EV-loss outlook",
+        "url": "https://finance.yahoo.com/markets/stocks/article/ford-reports-q3-earnings-beat-tightens-lower-end-of-profit-forecast-but-sees-4-billion-in-ev-losses-for-year-200507683.html"
+      }
+    ],
+    "date": "2026-10-29T06:23:22Z",
+    "dateModified": "2026-10-29T06:23:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/ford-q3-2026-profit-guidance-commodity-costs-cover-v1.webp",
+    "imageSmall": "assets/responsive/ford-q3-2026-profit-guidance-commodity-costs-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ford-q3-2026-profit-guidance-commodity-costs-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ford-q3-2026-profit-guidance-commodity-costs-cover-v1-480.webp 480w, assets/responsive/ford-q3-2026-profit-guidance-commodity-costs-cover-v1-960.webp 960w, assets/editorial/ford-q3-2026-profit-guidance-commodity-costs-cover-v1.webp 1672w"
+  },
+  {
+    "id": "microsoft-q1-2027-azure-cash-flow-ai-spending",
+    "title": "Microsoft’s Azure Growth and Cash Flow Lift Its AI Investment Case",
+    "dek": "Azure revenue rose 48% and free cash flow reached $18.6 billion. Delayed infrastructure deliveries mean Microsoft’s spending test is still ahead.",
+    "section": "Tech & AI",
+    "tickers": [
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented Microsoft Building 92 entrance and installed monument sign in Redmond, Washington.",
+    "body": [
+      "<p>Microsoft reported 48% growth in Azure revenue and $18.6 billion in free cash flow for its September quarter, giving investors a stronger financial case for its expensive artificial-intelligence expansion. The results, released Wednesday, also contained a timing complication: some infrastructure deliveries slipped, pushing part of the spending burden into later periods rather than eliminating it.</p>",
+      "<p>That combination makes the quarter more informative than a simple verdict that AI spending has paid off. Microsoft is selling more cloud capacity and generating cash after substantial investment. But the cash available in one period depends partly on when equipment arrives and payments fall due. The company's earnings call made clear that demand and the associated investment requirements remain large.</p>",
+      "<h2>The spending bill has moved, not disappeared</h2>",
+      "<p>Chief Financial Officer Amy Hood said capital expenditures totaled $45.2 billion, below the roughly $50 billion Microsoft had previously anticipated, because some third-party capacity deliveries were delayed. On the earnings call, she projected more than $50 billion of capital expenditure in the December quarter and an acceleration in the second half of the fiscal year, including the deferred capacity. These are management forecasts, not completed purchases.</p>",
+      "<p>The capital-expenditure headline and the cash-flow calculation also measure different things. Microsoft reported $58 billion in operating cash flow and approximately $39.4 billion of cash paid for property and equipment, leaving about $18.6 billion in free cash flow. Capital spending also incorporates finance-lease accounting and timing effects. Subtracting the broader $45.2 billion figure from operating cash flow would therefore produce a different measure.</p>",
+      "<p>This distinction is central to comparing AI infrastructure companies. Signing for capacity, bringing a data center into service and paying for it do not necessarily happen in the same quarter. Our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why the definition and payment schedule matter alongside the resulting number. Deferred deliveries can improve near-term cash retention while limiting the capacity available to earn revenue.</p>",
+      "<h2>Cloud demand is strong, but it is not all AI revenue</h2>",
+      "<p>Microsoft's total revenue increased 19% to $92.3 billion in the first quarter of fiscal 2027, which ended September 30. Its Microsoft Cloud measure reached $63.9 billion, up 30%. Those sales span multiple businesses; Azure's growth rate should not be applied to the entire cloud total, nor should that total be presented as a standalone measure of AI sales.</p>",
+      "<p>The company's investor metrics define Azure to include cloud and AI consumption-based services and virtual desktops. They also show Microsoft Cloud's gross margin at 66%, compared with 68% a year earlier. Strong sales growth can thus coexist with a lower percentage margin when the mix of services changes. Scaling revenue and improving the economics of each workload are related, but separate, tests.</p>",
+      "<p>For the December quarter, Hood forecast Azure growth of 49% to 50% in constant currency, meaning with exchange-rate effects removed. The forecast assumes continued efficiency gains while demand remains above available supply. TTN's <a href=\"ai-inference-unit-economics-2026.html\">analysis of inference economics</a> examines why utilization and computing cost influence what a provider can earn from that demand.</p>",
+      "<h2>Backlog is future work, not cash already collected</h2>",
+      "<p>Commercial remaining performance obligations reached $677 billion. This measure represents contracted revenue still to be recognized; it is not the same as quarterly revenue or available cash. Although it increased substantially from a year earlier, the published metrics put it slightly below the preceding quarter's $678 billion. The comparison illustrates how the same order book can look different depending on the period selected.</p>",
+      "<p>Reuters reported that free cash flow exceeded the Visible Alpha consensus by roughly $10 billion and Microsoft shares rose more than 3% in after-hours trading. That was an initial market response, not a completed Thursday trading session. The next evidence will come as delayed capacity is delivered: how much additional revenue it enables, what customers consume, and how much cash remains after the larger investment bill is paid.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Microsoft, October 28: fiscal 2027 first-quarter earnings release and financial statements",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+      },
+      {
+        "label": "Microsoft: fiscal 2027 first-quarter investor metrics and definitions",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/metrics"
+      },
+      {
+        "label": "Microsoft management, October 28 earnings call: transcript reproduced by Stock Analysis",
+        "url": "https://stockanalysis.com/stocks/msft/transcripts/718712-q1-2027/"
+      },
+      {
+        "label": "Reuters, October 28: cash-flow consensus, spending delays and initial share reaction",
+        "url": "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/"
+      }
+    ],
+    "date": "2026-10-29T06:23:22Z",
+    "dateModified": "2026-10-29T06:23:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1.webp",
+    "imageSmall": "assets/responsive/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1-480.webp 480w, assets/responsive/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1-960.webp 960w, assets/editorial/microsoft-q1-2027-azure-cash-flow-ai-spending-cover-v1.webp 1672w"
+  },
+  {
+    "id": "bitcoin-core-node-crash-security-fixes-october-2026",
+    "title": "Bitcoin Core Discloses Node-Crash Flaws Found in AI-Assisted Review",
+    "dek": "Three Bitcoin Core advisories explain crash risks and available fixes. One flaw affects Windows, macOS and BSD nodes, while Linux avoids that code path.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Illustrative still life of a physical Bitcoin token beside an unbranded compact computer and connected Ethernet cable.",
+    "body": [
+      "<p>Bitcoin Core developers disclosed three software vulnerabilities on Wednesday, including a flaw that could let a connected attacker exhaust the memory of nodes running Windows, macOS or BSD. Fixes were released across four version lines. The findings emerged from an automated language-model review and were checked by human contributors before being reported to the project's security team.</p>",
+      "<p>A node checks and relays transactions and blocks. Disabling one can interrupt the services that depend on it, but the main memory-exhaustion advisory describes a denial-of-service problem, not a mechanism for obtaining a user's private keys. The disclosure should therefore be read as a specific software-maintenance issue, rather than evidence that bitcoin balances were stolen or that the whole network stopped operating.</p>",
+      "<h2>The operating system changes the exposure</h2>",
+      "<p>The most immediately understandable flaw concerns the network code used outside Linux. A malicious peer could bypass a mechanism intended to stop an overloaded connection from accumulating more data. That could keep increasing memory use until the node crashed. Bitcoin Core classifies the vulnerability as medium severity and easily discoverable; Linux uses a different monitoring path and is not affected by this particular issue.</p>",
+      "<p>The advisory lists fixes in versions 29.5, 30.4, 31.2 and 32.1. Its timeline records the initial finding and human validation on October 23, followed by fixes and backports on October 26. Versions 31.2 and 32.1 received the fix on October 27; 29.5 and 30.4 followed on October 28, when the issue became public. Thursday's news coverage does not reset that disclosure date.</p>",
+      "<p>Software availability also differs from control over transaction history. Our <a href=\"bitcoin-51-percent-attack-forks-explained.html\">guide to majority mining attacks</a> explains the separate roles of mining and validation. A software crash can take a particular node offline without establishing that an attacker controls most mining power. Treating those failure modes as interchangeable would obscure both the cause and the appropriate response.</p>",
+      "<h2>Two other bugs have different limits</h2>",
+      "<p>A second medium-severity advisory concerns connections claiming to use an old protocol version. These could leave outgoing message queues paused while announcements continued to accumulate. The resulting memory growth was slower, and nodes configured to relay only blocks were much less affected. The same four point releases contain the fix. Human contributors independently rediscovered the problem after the automated scan, reinforcing why the project treats it as readily discoverable.</p>",
+      "<p>The third advisory involves files a node uses to reverse block processing during a <a href=\"bitcoin-51-percent-attack-forks-explained.html\">chain reorganization</a>. Under extreme conditions, an overflow could corrupt that undo data and shut the node down. Developers classify exploitation as impractical and the issue as low severity. The fixed releases address it on 64-bit systems, but 32-bit machines and nodes storing blocks on FAT32 remain affected. An installed update alone does not remove those stated platform and filesystem limitations.</p>",
+      "<h2>Faster disclosure changes the maintenance window</h2>",
+      "<p>Bitcoin Core's published policy now separates easily discoverable vulnerabilities from its ordinary disclosure timetable. For the former, developers aim to ship a point release for each maintained major version as soon as possible, accompanied by an advisory. The rationale is that a flaw inexpensive to discover cannot reliably be protected by assuming only its original reporter knows about it.</p>",
+      "<p>The release notes add another distinction: version 29.x and older are now at end of life and will no longer receive updates. Receiving a backported fix in 29.5 should not be mistaken for a promise of continuing support. The notes also preannounce disclosure of three other medium- and high-severity vulnerabilities fixed in version 30.0, under the regular schedule. Those are separate from Wednesday's three advisories.</p>",
+      "<p>For operators, the useful inventory is the running version, operating system, storage filesystem and reliance on that node for business services. For other bitcoin holders, the report explains a maintenance event without establishing a change in custody or an observed loss. The broader lesson from the AI-assisted review is practical: discovery can become faster while validation, fixes, deployment and confirmation of normal operation still require coordinated human work.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Bitcoin Core, October 28: TCP memory-exhaustion advisory and fixed versions",
+        "url": "https://bitcoincore.org/en/2026/10/28/disclose-tcp-oom/"
+      },
+      {
+        "label": "Bitcoin Core, October 28: slow memory growth on paused legacy peers",
+        "url": "https://bitcoincore.org/en/2026/10/28/disclose-fpausesend-oom/"
+      },
+      {
+        "label": "Bitcoin Core, October 28: undo-file overflow, severity and remaining platform limits",
+        "url": "https://bitcoincore.org/en/2026/10/28/disclose-undo-overflow/"
+      },
+      {
+        "label": "Bitcoin Core: security disclosure policy",
+        "url": "https://bitcoincore.org/en/security-advisories/"
+      },
+      {
+        "label": "Bitcoin Core 32.1: release notes, support status and pending disclosures",
+        "url": "https://bitcoincore.org/en/releases/32.1/"
+      },
+      {
+        "label": "CoinDesk, October 29: independent reporting on the three disclosures",
+        "url": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public"
+      }
+    ],
+    "date": "2026-10-29T06:23:22Z",
+    "dateModified": "2026-10-29T06:23:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "fed-october-2026-rate-hold-two-dissents",
     "section": "Market Analysis",
     "title": "Fed Holds Rates at 3.75–4% as Two Officials Back an Increase",

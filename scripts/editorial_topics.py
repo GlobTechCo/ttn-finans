@@ -253,3 +253,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'google-gemin
 RELATED['google-gemini-4-carbon-cybersecurity-access-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'enterprise-ai-data-security-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'cftc-ai-crypto-trading-agent-liability-2026')
 RELATED['cftc-ai-crypto-trading-agent-liability-2026'] = ['bloom-trading-bot-wallet-losses-reimbursement-2026', 'crypto-liquidation-leverage-explained', 'dtcc-tokenization-service-live-october-2026']
+
+# October 29 morning commissioned package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'ford-q3-2026-profit-guidance-commodity-costs')
+RELATED['ford-q3-2026-profit-guidance-commodity-costs'] = ['earnings-beat-miss-explained', 'free-cash-flow-explained', 'retailer-earnings-consumer-bellwether-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'microsoft-q1-2027-azure-cash-flow-ai-spending')
+RELATED['microsoft-q1-2027-azure-cash-flow-ai-spending'] = ['ai-inference-unit-economics-2026', 'free-cash-flow-explained', 'microsoft-nscale-loughton-lease-exit-power-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitcoin-core-node-crash-security-fixes-october-2026')
+RELATED['bitcoin-core-node-crash-security-fixes-october-2026'] = ['bitcoin-51-percent-attack-forks-explained', 'electrum-483-bitcoin-wallet-security-update-2026', 'bitcoin-mining-economics-explained']

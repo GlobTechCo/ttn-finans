@@ -327,3 +327,11 @@ TITLES['google-gemini-4-carbon-cybersecurity-access-2026'] = 'Google Unveils Gem
 DESCRIPTIONS['google-gemini-4-carbon-cybersecurity-access-2026'] = 'Google’s new AI model targets software security and longer coding tasks. Initial access and introductory pricing have important limits.'
 TITLES['cftc-ai-crypto-trading-agent-liability-2026'] = 'CFTC Chief Questions AI Crypto Trading Liability'
 DESCRIPTIONS['cftc-ai-crypto-trading-agent-liability-2026'] = 'At a new public forum, Michael Selig examined who controls autonomous trading software. His remarks did not create a new registration rule.'
+
+# October 29 morning reviewed search metadata.
+TITLES['ford-q3-2026-profit-guidance-commodity-costs'] = 'Ford Lifts Profit Forecast Floor as Costs Rise'
+DESCRIPTIONS['ford-q3-2026-profit-guidance-commodity-costs'] = 'Ford lifted the bottom of its annual profit forecast by $500 million. Higher commodity costs and weaker vehicle volumes complicate the improvement.'
+TITLES['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Microsoft Azure Grows 48%; Cash Flow Beats Forecast'
+DESCRIPTIONS['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Azure revenue rose 48% and free cash flow reached $18.6 billion. Delayed infrastructure deliveries mean Microsoft’s spending test is still ahead.'
+TITLES['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Bitcoin Core Discloses Node-Crash Bugs and Fixes'
+DESCRIPTIONS['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Three Bitcoin Core advisories explain crash risks and available fixes. One flaw affects Windows, macOS and BSD nodes, while Linux avoids that code path.'
