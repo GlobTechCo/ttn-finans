@@ -343,3 +343,11 @@ TITLES['volkswagen-q3-2026-loss-porsche-writedown'] = 'Volkswagen Posts €5.9 B
 DESCRIPTIONS['volkswagen-q3-2026-loss-porsche-writedown'] = 'A Porsche goodwill charge deepened Volkswagen’s quarterly loss. Even before special items, weaker margins keep pressure on its restructuring.'
 TITLES['lloyds-q3-2026-profit-deposit-competition'] = 'Lloyds Profit Nearly Doubles; Annual Targets Hold'
 DESCRIPTIONS['lloyds-q3-2026-profit-deposit-competition'] = 'Lloyds reported £2.33 billion in quarterly pretax profit. Lower remediation costs helped, while deposit competition limited the earnings outlook.'
+
+# Reviewed search metadata: October29 midday package.
+TITLES['lagarde-early-departure-ecb-february-2027'] = 'Lagarde to Leave ECB Early on February 7, 2027'
+DESCRIPTIONS['lagarde-early-departure-ecb-february-2027'] = 'Christine Lagarde will step down before her term ends. Europe must choose a successor while monetary policy remains a collective decision.'
+TITLES['stmicro-ai-data-center-revenue-forecast-2026'] = 'STMicro Lifts Data-Center Outlook to $1.3 Billion'
+DESCRIPTIONS['stmicro-ai-data-center-revenue-forecast-2026'] = 'The chipmaker raised its 2026 data-center revenue expectation. Optical links and power components extend the AI buildout beyond processors.'
+TITLES['curve-stellar-stableswap-public-launch-2026'] = 'Curve Launches StableSwap on Stellar'
+DESCRIPTIONS['curve-stellar-stableswap-public-launch-2026'] = 'Curve’s Stellar rollout opens a new venue for stablecoin liquidity. Earlier testing preceded the launch, while FXSwap remains a later step.'

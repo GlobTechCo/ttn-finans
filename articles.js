@@ -1,6 +1,177 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "lagarde-early-departure-ecb-february-2027",
+    "title": "Lagarde Will Leave the ECB Early, Opening a Leadership Contest",
+    "dek": "Christine Lagarde will step down before her term ends. Europe must choose a successor while monetary policy remains a collective decision.",
+    "section": "Market Analysis",
+    "tickers": [
+      "EUR/USD"
+    ],
+    "imageAlt": "Illustrative portrait of Christine Lagarde at a podium modeled on the European Central Bank’s documented press-conference setting; not a photograph of the departure announcement.",
+    "body": [
+      "<p>Christine Lagarde will step down as president of the European Central Bank on February 7, 2027, the institution announced Thursday, opening an early contest for one of the world's most influential economic posts. Her departure will come before the scheduled end of her eight-year term in October 2027 and require euro area leaders to agree on a successor.</p>",
+      "<p>The ECB said Lagarde had informed its Governing Council and European Council President António Costa. The announcement establishes a departure date and the start of a succession process. It does not name a replacement, announce a new interest-rate decision or say that Lagarde has already left office. Those distinctions matter for readers assessing what changes immediately and what remains ahead.</p>",
+      "<h2>Europe’s leaders choose the next president</h2>",
+      "<p>The European Council, comprising national leaders, makes the final appointment. Under the process described by the Council's official guidance, euro area governments propose candidates, the Eurogroup discusses a choice, and the Council of the European Union adopts a recommendation. The European Parliament and the ECB's Governing Council are consulted before the European Council takes its appointing decision.</p>",
+      "<p>The role carries an eight-year, nonrenewable term. Candidates must be nationals of euro area countries and have recognized standing and professional experience in monetary or banking matters. This is an intergovernmental appointment with formal consultation, rather than an internal promotion decided solely by the outgoing president or a direct election by financial markets.</p>",
+      "<p>Reuters identified former Dutch central bank governor Klaas Knot and former Spanish central bank governor Pablo Hernández de Cos as leading potential successors. Those names remain reported contenders. Neither the ECB's departure statement nor the appointment rules make either man the designated next president. A recommendation, parliamentary opinion and final appointment are separate stages, and should be reported as such.</p>",
+      "<h2>The presidency matters, but policy has more than one voter</h2>",
+      "<p>The ECB's own description assigns monetary-policy decisions to the Governing Council. It brings together the six Executive Board members and the governors of the euro area's national central banks. The body sets key interest rates and determines the policy framework; it is not an advisory committee to a president who can unilaterally choose borrowing costs.</p>",
+      "<p>The president nevertheless has a central public role. Monetary-policy decisions are explained at regular press conferences chaired by the president with the vice-president. A change in leadership can influence how disagreements are organized and how the institution communicates its assessment of inflation, growth and financial conditions. It does not by itself replace the Governing Council's responsibilities or establish the direction of its next vote.</p>",
+      "<p>That makes succession analysis different from a straightforward prediction of lower or higher rates. A candidate's record may help investors interpret future decisions, but economic data and the views of other policymakers remain essential. TTN's <a href=\"central-bank-policy-divergence-explained.html\">guide to central-bank policy divergence</a> explains why differences in inflation and economic conditions can produce different rate paths even without a leadership change.</p>",
+      "<h2>An earlier departure changes the political calendar</h2>",
+      "<p>Lagarde has held the presidency since November 2019. The Associated Press reported that the early exit gives European leaders room to choose a successor before France's presidential election next year, while President Emmanuel Macron is still in office. It also reported Costa's intention to start the appointment process immediately. That political context helps explain the timing of negotiations without establishing who will win them.</p>",
+      "<p>The ECB's brief announcement does not offer a detailed personal explanation for the resignation. Speculation about Lagarde's next job should therefore remain separate from the confirmed departure. A potential destination is not a job appointment, just as a politician's preferred candidate is not a completed central-bank succession.</p>",
+      "<p>For U.S. readers, the transition matters through European borrowing costs, international bond markets and the EUR/USD exchange rate. A reassessment of the expected path of rates can change relative returns on euro and dollar assets. Our <a href=\"eur-usd-rate-differential-explained.html\">explanation of interest-rate differences and the euro</a> describes that channel; the resignation alone supplies no reliable forecast of the currency's direction.</p>",
+      "<p>The next concrete milestones are the proposed candidates, the Council's recommendation and the eventual appointing decision. Until those occur, the confirmed development is a scheduled leadership transition with an earlier deadline. Assessing its policy consequences requires the eventual choice and the economic conditions that the next president will inherit.</p>"
+    ],
+    "sources": [
+      {
+        "label": "ECB, October 29: official departure announcement; English text",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+      },
+      {
+        "label": "Council of the European Union: appointment procedure, eligibility and term",
+        "url": "https://www.consilium.europa.eu/en/policies/appointment-of-the-european-central-bank-executive-board/"
+      },
+      {
+        "label": "ECB: Governing Council responsibilities and decision-making",
+        "url": "https://www.ecb.europa.eu/ecb/decisions/govc/html/index.en.html"
+      },
+      {
+        "label": "Reuters, October 29: succession contenders and timing",
+        "url": "https://www.reuters.com/business/finance/ecb-hold-rates-investors-focus-french-bonds-lagardes-future-2026-10-28/"
+      },
+      {
+        "label": "Associated Press, October 29: political calendar and start of the selection process",
+        "url": "https://apnews.com/article/c657d818e8f487f2ce990fe57ba55d4a"
+      }
+    ],
+    "date": "2026-10-29T11:34:36Z",
+    "dateModified": "2026-10-29T11:34:36Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/lagarde-early-departure-ecb-february-2027-cover-v1.webp",
+    "imageSmall": "assets/responsive/lagarde-early-departure-ecb-february-2027-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/lagarde-early-departure-ecb-february-2027-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/lagarde-early-departure-ecb-february-2027-cover-v1-480.webp 480w, assets/responsive/lagarde-early-departure-ecb-february-2027-cover-v1-960.webp 960w, assets/editorial/lagarde-early-departure-ecb-february-2027-cover-v1.webp 1672w"
+  },
+  {
+    "id": "stmicro-ai-data-center-revenue-forecast-2026",
+    "title": "STMicro Raises AI Data-Center Sales Forecast to $1.3 Billion",
+    "dek": "The chipmaker raised its 2026 data-center revenue expectation. Optical links and power components extend the AI buildout beyond processors.",
+    "section": "Tech & AI",
+    "tickers": [
+      "STM",
+      "MSFT"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented STMicroelectronics rooftop lettering and stone-clad office facade in Montrouge, France.",
+    "body": [
+      "<p>STMicroelectronics raised its expected 2026 data-center revenue to about $1.3 billion on Thursday, highlighting how the artificial-intelligence infrastructure boom is reaching suppliers of optical connections and power-management chips. The Franco-Italian semiconductor company retained its ambition for revenue well above $2 billion from data centers in 2027, subject to continued demand and existing customer engagements.</p>",
+      "<p>The new 2026 figure appears in the company's third-quarter investor presentation. Reuters reported that it replaces a July expectation of more than $1 billion and that CEO Jean-Marc Chery identified silicon photonics as the main demand driver. The 2027 ambition was reiterated, rather than newly introduced. These are management's revenue expectations, not completed annual sales or guaranteed customer purchases.</p>",
+      "<h2>AI servers need connections and electricity as well as processors</h2>",
+      "<p>ST's infrastructure materials describe a business built around power conversion, high-speed connectivity and optical interconnects. The company explicitly distinguishes its role from designing graphics processors or AI models. Its opportunity sits in the components that help computing equipment receive electricity and move information efficiently within an expanding data-center system.</p>",
+      "<p>Silicon photonics uses light to carry information through optical connections. As Reuters reported from Chery's comments to analysts, these chips are an important part of ST's current data-center growth. That is a different market from selling the main accelerator that performs AI calculations. Calling every supplier an AI-chip designer without explaining its role obscures what customers are actually buying.</p>",
+      "<p>The distinction also helps connect the company's forecast with the larger investment cycle. More computing capacity creates demand for supporting infrastructure, but a supplier benefits only when its components are selected, manufactured and delivered. Our <a href=\"ai-inference-unit-economics-2026.html\">analysis of AI computing economics</a> explains why bandwidth, utilization and operating costs matter alongside headline processor performance.</p>",
+      "<h2>A stronger forecast sits inside a wider chip recovery</h2>",
+      "<p>ST's earlier earnings release reported third-quarter revenue of $3.76 billion, up 17.9% from a year earlier. Gross margin reached 37.3%. Operating income under U.S. accounting rules was $367 million; the company's adjusted operating income was $429 million. Net income was $291 million under U.S. accounting rules and $344 million on its adjusted measure.</p>",
+      "<p>Those measures should not be interchanged. Adjusted results remove specified items and can be useful for comparing operating performance, while the reported accounts retain the effects of those items. A reader comparing semiconductor companies needs to check the reconciliation and the period being measured, rather than assume that two figures labeled profit share the same accounting basis.</p>",
+      "<p>The presentation puts communications equipment and computer peripherals at 19% of third-quarter revenue, alongside automotive, industrial and personal-electronics customers. That broad category grew 64% year over year. It is larger in scope than the specifically identified data-center revenue forecast, so its sales should not all be relabeled AI revenue. Growth in several end markets contributes to the company's recovery.</p>",
+      "<p>For the fourth quarter, ST projected $4.15 billion in revenue at the midpoint of its guidance, with a range of plus or minus 3.5%. It expects a gross margin of about 39%, including roughly 40 basis points of unused-capacity charges. The revenue midpoint would represent growth of about 10.5% from the third quarter and 24.7% from a year earlier. These remain forecasts for a quarter that has not ended.</p>",
+      "<h2>Demand and capacity have to advance together</h2>",
+      "<p>Management said demand remained above supply and that the company was expanding capacity in line with its strategic roadmap. Meeting an increased revenue expectation requires production capacity as well as customer interest. Semiconductor orders can arrive well before shipment, and bringing additional manufacturing capability into service creates costs before it produces its full sales contribution.</p>",
+      "<p>The latest <a href=\"microsoft-q1-2027-azure-cash-flow-ai-spending.html\">Microsoft results</a> provide a useful view from the buyer's side: delayed infrastructure deliveries can shift spending between quarters. That does not establish a specific relationship between those delays and ST's forecast. It illustrates why announced demand, installed equipment and revenue recognized by suppliers can follow different schedules.</p>",
+      "<p>For investors, the important change Thursday is the higher near-term data-center expectation, supported by a defined place in the infrastructure chain. The next evidence will be shipments, the realized mix of business and the margins generated as capacity expands. A growing forecast broadens ST's AI investment case, while leaving execution and the durability of customer spending as separate tests.</p>"
+    ],
+    "sources": [
+      {
+        "label": "STMicroelectronics, October 29: investor presentation, including $1.3 billion data-center expectation",
+        "url": "https://investors.st.com/static-files/acc1c976-5663-46cf-b45a-9d9f4727fbf2"
+      },
+      {
+        "label": "STMicroelectronics, October 29: reported and adjusted quarterly results, outlook and reconciliations",
+        "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-reports-q3-2026-financial-results.html"
+      },
+      {
+        "label": "STMicroelectronics: role of optical links, connectivity and power in cloud AI infrastructure",
+        "url": "https://newsroom.st.com/media-center/press-item.html/f0022.html"
+      },
+      {
+        "label": "Reuters, October 29: revised data-center forecast and management comments",
+        "url": "https://www.reuters.com/business/retail-consumer/stmicro-beats-q3-profit-estimates-sees-q4-sales-above-4-billion-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T11:34:36Z",
+    "dateModified": "2026-10-29T11:34:36Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/stmicro-ai-data-center-revenue-forecast-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/stmicro-ai-data-center-revenue-forecast-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/stmicro-ai-data-center-revenue-forecast-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/stmicro-ai-data-center-revenue-forecast-2026-cover-v1-480.webp 480w, assets/responsive/stmicro-ai-data-center-revenue-forecast-2026-cover-v1-960.webp 960w, assets/editorial/stmicro-ai-data-center-revenue-forecast-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "curve-stellar-stableswap-public-launch-2026",
+    "title": "Curve Opens Stablecoin Trading on Stellar in a Move Beyond Ethereum’s Software",
+    "dek": "Curve’s Stellar rollout opens a new venue for stablecoin liquidity. Earlier testing preceded the launch, while FXSwap remains a later step.",
+    "section": "Crypto",
+    "tickers": [
+      "XLM"
+    ],
+    "imageAlt": "Illustrative silver medallions bearing the Curve and Stellar symbols and names; symbolic objects rather than official coins or products.",
+    "body": [
+      "<p>Curve Finance has opened its StableSwap exchange on Stellar, extending the decentralized trading protocol beyond the Ethereum-compatible networks where it built its business. The public rollout, reported Thursday by The Block, brings a new venue for exchanging assets with closely related prices. A second product, FXSwap, is planned for a later release after its audit is complete.</p>",
+      "<p>Users can create pools, trade assets and provide liquidity, according to the launch report. The significance is a new implementation for a different blockchain environment, rather than simply adding another deployment on software compatible with Ethereum. It also creates a practical test of whether additional exchange infrastructure can attract usable liquidity on Stellar.</p>",
+      "<h2>Public release follows an earlier engineering project</h2>",
+      "<p>The launch did not begin with Thursday's announcement. In an August governance report, Curve development company Swiss Stake described a Stellar Development Foundation-funded project that followed a first-quarter feasibility study and began implementation in the second quarter. It said a dedicated Rust engineer had been hired and that an early StableSwap implementation had undergone testing on both Stellar testnet and mainnet.</p>",
+      "<p>That history distinguishes initial code deployment from an open product rollout. Testing contracts on a production network does not necessarily mean the public interface, supporting services and intended user flows are ready for general use. The earlier report described work continuing through the second half of 2026 and a path toward Curve's first implementation outside the Ethereum Virtual Machine ecosystem.</p>",
+      "<p>The Ethereum Virtual Machine is a software environment used to execute smart contracts on Ethereum and compatible networks. Moving an application beyond that environment involves a different implementation and integration boundary. It should not be described as merely transferring the same website to another address, or as a guarantee that every product and feature from the original ecosystem is available.</p>",
+      "<h2>Liquidity determines what traders can actually do</h2>",
+      "<p>Curve's documentation describes its core exchange as an automated market maker: users trade against pools of deposited assets rather than requiring a matching buyer or seller for every individual order. StableSwap concentrates liquidity for assets expected to remain near a fixed or adjusted ratio. That makes the design relevant to similarly priced tokens, including stablecoins linked to the same currency.</p>",
+      "<p>The design does not remove the need to assess the assets inside a pool. Two dollar-linked tokens can have different issuers, redemption terms and collateral risks. A shared target price is an economic relationship, not proof that either asset will always trade at one dollar. TTN's <a href=\"defi-basics-explained.html\">guide to decentralized finance</a> explains how software rules interact with collateral, pricing and liquidity risks.</p>",
+      "<p>For a trader, execution depends on how much liquidity is available relative to the order and on the pool's composition. For a liquidity provider, fee income has to be assessed alongside the risks of the assets and the contract. A new deployment creates a venue; it does not by itself establish deep markets, substantial fee revenue or a particular return for depositors.</p>",
+      "<h2>FXSwap is a separate product and timetable</h2>",
+      "<p>The Block reported that Curve intends to add FXSwap after its audit, without giving a release date. Curve's technical documentation describes FXSwap as a two-asset automated market maker designed for markets with external price discovery. Its liquidity can recenter around a changing reference price, unlike a pool organized around assets that are expected to remain close to a fixed ratio.</p>",
+      "<p>That difference is particularly relevant to currencies. A dollar-linked stablecoin and a euro-linked stablecoin track different units of account; the exchange rate between them can move even when both issuers maintain their respective pegs. An additional mechanism is needed to manage that changing relationship. An audit milestone and a software design still do not establish that the future Stellar product is already operating.</p>",
+      "<p>The wider setting is the effort to make blockchain-issued assets easier to use after issuance. The <a href=\"janus-henderson-jqqq-nasdaq-stellar-fund-2026.html\">recent Stellar-based index-fund launch</a> illustrates that trend, but does not establish a Curve listing, unrestricted investor eligibility or an automatic pool for that fund. Issuance, exchange access and legal transfer restrictions remain distinct questions.</p>",
+      "<p>The useful evidence after launch will be funded pools, executable trades and integrations that actually use the venue. Thursday's rollout adds infrastructure for those markets to develop. Whether it produces deeper stablecoin trading will depend on assets, participants and sustained liquidity, rather than the announcement alone.</p>"
+    ],
+    "sources": [
+      {
+        "label": "The Block, October 29, 7:00 a.m. EDT: public Stellar rollout and FXSwap status",
+        "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121"
+      },
+      {
+        "label": "Swiss Stake, August 18: governance report, Annex A on Stellar funding, Rust implementation and earlier testing",
+        "url": "https://gov.curve.finance/t/h1-2026-progress-report-curve-ecosystem-grant/11161/1"
+      },
+      {
+        "label": "Curve: exchange and automated-market-maker documentation",
+        "url": "https://resources.curve.finance/user/introduction"
+      },
+      {
+        "label": "Curve: FXSwap technical overview and differences from fixed-ratio pools",
+        "url": "https://resources.curve.finance/developer/amm/fxswap/overview"
+      },
+      {
+        "label": "Curve: separate Stellar application endpoint",
+        "url": "https://stellar.curve.finance/"
+      }
+    ],
+    "date": "2026-10-29T11:34:36Z",
+    "dateModified": "2026-10-29T11:34:36Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/curve-stellar-stableswap-public-launch-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/curve-stellar-stableswap-public-launch-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/curve-stellar-stableswap-public-launch-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/curve-stellar-stableswap-public-launch-2026-cover-v1-480.webp 480w, assets/responsive/curve-stellar-stableswap-public-launch-2026-cover-v1-960.webp 960w, assets/editorial/curve-stellar-stableswap-public-launch-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "shell-q3-2026-profit-five-billion-buyback",
     "title": "Shell Lifts Buyback to $5 Billion as Refining Powers Quarterly Profit",
     "dek": "Shell nearly doubled adjusted earnings from a year earlier and expanded its buyback. Strong refining margins helped offset lower crude prices.",

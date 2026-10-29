@@ -3123,6 +3123,39 @@
       "bytes": 378026,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/lloyds-q3-2026-profit-deposit-competition.html"
+    },
+    {
+      "page": "lagarde-early-departure-ecb-february-2027.html",
+      "source": "assets/editorial/lagarde-early-departure-ecb-february-2027-cover-v1.webp",
+      "image": "assets/social/lagarde-early-departure-ecb-february-2027-cover-v1-aea7070b6a28.webp",
+      "sha256": "aea7070b6a2898461f3a8f06f57c4b45a8a7d9b3420e0591af7bfb338463c51f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 120976,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/lagarde-early-departure-ecb-february-2027.html"
+    },
+    {
+      "page": "stmicro-ai-data-center-revenue-forecast-2026.html",
+      "source": "assets/editorial/stmicro-ai-data-center-revenue-forecast-2026-cover-v1.webp",
+      "image": "assets/social/stmicro-ai-data-center-revenue-forecast-2026-cover-v1-a8400ba66c27.webp",
+      "sha256": "a8400ba66c27c885266f25bae165708fde15fe5a496253ca21d6423d1fa084ea",
+      "width": 1672,
+      "height": 941,
+      "bytes": 312698,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/stmicro-ai-data-center-revenue-forecast-2026.html"
+    },
+    {
+      "page": "curve-stellar-stableswap-public-launch-2026.html",
+      "source": "assets/editorial/curve-stellar-stableswap-public-launch-2026-cover-v1.webp",
+      "image": "assets/social/curve-stellar-stableswap-public-launch-2026-cover-v1-fcba542593ad.webp",
+      "sha256": "fcba542593ad13a605ad88394cd9b16c7350bd74a0c6c4d7933aad142c96c9ef",
+      "width": 1672,
+      "height": 941,
+      "bytes": 260366,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/curve-stellar-stableswap-public-launch-2026.html"
     }
   ]
 }

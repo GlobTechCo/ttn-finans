@@ -269,3 +269,11 @@ GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'volkswagen-q3-2
 RELATED['volkswagen-q3-2026-loss-porsche-writedown'] = ['ford-q3-2026-profit-guidance-commodity-costs', 'tariffs-who-actually-pays-explained', 'free-cash-flow-explained']
 GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'lloyds-q3-2026-profit-deposit-competition')
 RELATED['lloyds-q3-2026-profit-deposit-competition'] = ['barclays-q3-2026-profit-share-buyback', 'earnings-beat-miss-explained', 'bank-of-america-q3-2026-results']
+
+# October 29 midday commissioned package.
+GROUPS['Central banks and currencies'].insert(0, 'lagarde-early-departure-ecb-february-2027')
+RELATED['lagarde-early-departure-ecb-february-2027'] = ['central-bank-policy-divergence-explained', 'eur-usd-rate-differential-explained', 'fed-october-2026-rate-hold-two-dissents']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'stmicro-ai-data-center-revenue-forecast-2026')
+RELATED['stmicro-ai-data-center-revenue-forecast-2026'] = ['microsoft-q1-2027-azure-cash-flow-ai-spending', 'ai-inference-unit-economics-2026', 'sk-hynix-q3-2026-ai-memory-profit']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'curve-stellar-stableswap-public-launch-2026')
+RELATED['curve-stellar-stableswap-public-launch-2026'] = ['defi-basics-explained', 'janus-henderson-jqqq-nasdaq-stellar-fund-2026', 'stablecoins-explained-depeg-risk']
