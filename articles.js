@@ -112,7 +112,7 @@ const TTN_ARTICLES = [
     "tickers": [
       "BTC"
     ],
-    "imageAlt": "Illustrative still life of a physical Bitcoin token beside an unbranded compact computer and connected Ethernet cable.",
+    "imageAlt": "Illustrative still life of a silver-colored commemorative Bitcoin token beside network connections in a server rack.",
     "body": [
       "<p>Bitcoin Core developers disclosed three software vulnerabilities on Wednesday, including a flaw that could let a connected attacker exhaust the memory of nodes running Windows, macOS or BSD. Fixes were released across four version lines. The findings emerged from an automated language-model review and were checked by human contributors before being reported to the project's security team.</p>",
       "<p>A node checks and relays transactions and blocks. Disabling one can interrupt the services that depend on it, but the main memory-exhaustion advisory describes a denial-of-service problem, not a mechanism for obtaining a user's private keys. The disclosure should therefore be read as a specific software-maintenance issue, rather than evidence that bitcoin balances were stolen or that the whole network stopped operating.</p>",
@@ -159,10 +159,10 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
-    "image": "assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1.webp 1672w"
+    "image": "assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2.webp",
+    "imageSmall": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2-480.webp 480w, assets/responsive/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2-960.webp 960w, assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2.webp 1672w"
   },
   {
     "id": "fed-october-2026-rate-hold-two-dissents",

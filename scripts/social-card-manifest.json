@@ -3082,12 +3082,12 @@
     },
     {
       "page": "bitcoin-core-node-crash-security-fixes-october-2026.html",
-      "source": "assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1.webp",
-      "image": "assets/social/bitcoin-core-node-crash-security-fixes-october-2026-cover-v1-5ec20348895a.webp",
-      "sha256": "5ec20348895a1958e91e955b4baa16847bb1e06d369783a49ab91aa51ee225c0",
+      "source": "assets/editorial/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2.webp",
+      "image": "assets/social/bitcoin-core-node-crash-security-fixes-october-2026-approved-server-v2-3ca143a681cb.webp",
+      "sha256": "3ca143a681cb2de7b9b60a9b69a2a64e3761947e3b31a0a59d8ac620bba180af",
       "width": 1672,
-      "height": 940,
-      "bytes": 334952,
+      "height": 941,
+      "bytes": 294912,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-core-node-crash-security-fixes-october-2026.html"
     }
