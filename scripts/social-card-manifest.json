@@ -3189,6 +3189,39 @@
       "bytes": 193884,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/polygon-solana-stablecoin-bank-payments-2026.html"
+    },
+    {
+      "page": "doordash-instacart-acquisition-agreement-2026.html",
+      "source": "assets/editorial/doordash-instacart-acquisition-agreement-2026-cover-v1.webp",
+      "image": "assets/social/doordash-instacart-acquisition-agreement-2026-cover-v1-528689e80dbf.webp",
+      "sha256": "528689e80dbf151b36071e6882cc7a29747340cce183f06d1ff503eae27c9d8b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 230832,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/doordash-instacart-acquisition-agreement-2026.html"
+    },
+    {
+      "page": "mistral-large-4-open-weights-license-2026.html",
+      "source": "assets/editorial/mistral-large-4-open-weights-license-2026-cover-v1.webp",
+      "image": "assets/social/mistral-large-4-open-weights-license-2026-cover-v1-30a238b202d3.webp",
+      "sha256": "30a238b202d37d7285fed64e40f045b832290663cccb2b20485641adff5e04a9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 139742,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/mistral-large-4-open-weights-license-2026.html"
+    },
+    {
+      "page": "ice-tradexyz-hyperliquid-us-perpetuals-plan-2026.html",
+      "source": "assets/editorial/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1.webp",
+      "image": "assets/social/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1-062a260f9caa.webp",
+      "sha256": "062a260f9caada06eacaa047aa7e00ceac16d48d414ec419cc3ba35c382352cf",
+      "width": 1672,
+      "height": 941,
+      "bytes": 555234,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026.html"
     }
   ]
 }

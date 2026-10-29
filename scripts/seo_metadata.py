@@ -359,3 +359,11 @@ TITLES['serval-ai-workflow-series-c-150-million-2026'] = 'Serval Raises $150M fo
 DESCRIPTIONS['serval-ai-workflow-series-c-150-million-2026'] = 'Serval raised $150 million to automate workplace tasks with AI. Its expansion plan includes more than 500 hires, even as it promises less manual work.'
 TITLES['polygon-solana-stablecoin-bank-payments-2026'] = 'Polygon Adds Solana to Stablecoin and Bank Payments'
 DESCRIPTIONS['polygon-solana-stablecoin-bank-payments-2026'] = 'Polygon is connecting Solana payments with bank deposits and payouts. The goal is to make stablecoins usable without customers managing the crypto plumbing.'
+
+# October 29 US-session commissioned package.
+TITLES['doordash-instacart-acquisition-agreement-2026'] = 'DoorDash Agrees to Buy Instacart for $17 Billion'
+DESCRIPTIONS['doordash-instacart-acquisition-agreement-2026'] = 'DoorDash’s Instacart deal would combine delivery and grocery technology. Shareholders get payment choices, while closing could take until 2028.'
+TITLES['mistral-large-4-open-weights-license-2026'] = 'Mistral Releases Large 4 With Hosting Conditions'
+DESCRIPTIONS['mistral-large-4-open-weights-license-2026'] = 'Mistral’s Large 4 can now run outside its own cloud. The release gives businesses more control, but model-hosting firms face a separate license requirement.'
+TITLES['ice-tradexyz-hyperliquid-us-perpetuals-plan-2026'] = 'NYSE Owner ICE Plans US Hyperliquid Futures Market'
+DESCRIPTIONS['ice-tradexyz-hyperliquid-us-perpetuals-plan-2026'] = 'ICE is backing a plan to bring Hyperliquid-based derivatives to US retail traders. The agreement is signed, but trading still needs regulatory approvals.'

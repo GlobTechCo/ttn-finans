@@ -285,3 +285,11 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'serval-ai-workflo
 RELATED['serval-ai-workflow-series-c-150-million-2026'] = ['ai-agents-enterprise-roi-2026', 'enterprise-ai-data-security-2026', 'sap-cheaper-ai-models-cost-per-task-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'polygon-solana-stablecoin-bank-payments-2026')
 RELATED['polygon-solana-stablecoin-bank-payments-2026'] = ['stablecoins-explained-depeg-risk', 'nacha-same-day-ach-growth-third-quarter-2026', 'curve-stellar-stableswap-public-launch-2026']
+
+# October 29 US-session commissioned package.
+GROUPS['Mergers and acquisitions'].insert(0, 'doordash-instacart-acquisition-agreement-2026')
+RELATED['doordash-instacart-acquisition-agreement-2026'] = ['doordash-instacart-17-billion-talks-2026', 'mergers-acquisitions-explained', 'merger-arbitrage-deal-spread-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'mistral-large-4-open-weights-license-2026')
+RELATED['mistral-large-4-open-weights-license-2026'] = ['ai-inference-unit-economics-2026', 'enterprise-ai-data-security-2026', 'google-gemini-4-carbon-cybersecurity-access-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'ice-tradexyz-hyperliquid-us-perpetuals-plan-2026')
+RELATED['ice-tradexyz-hyperliquid-us-perpetuals-plan-2026'] = ['kraken-hyperliquid-us-perpetuals-testnet-2026', 'crypto-liquidation-leverage-explained', 'chip-stock-perpetuals-weekend-liquidations-2026']

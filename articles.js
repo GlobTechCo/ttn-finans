@@ -1,6 +1,170 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "doordash-instacart-acquisition-agreement-2026",
+    "title": "DoorDash Agrees to Buy Instacart in a $17 Billion Grocery Deal",
+    "dek": "DoorDash’s Instacart deal would combine delivery and grocery technology. Shareholders get payment choices, while closing could take until 2028.",
+    "section": "Market Analysis",
+    "tickers": [
+      "DASH",
+      "CART"
+    ],
+    "imageAlt": "Illustrative grocery pickup scene with a fictional courier holding a reference-faithful DoorDash delivery bag; not a photograph of the acquisition announcement.",
+    "body": [
+      "<p>DoorDash agreed Thursday to acquire Instacart in a cash-and-stock transaction valuing the grocery technology company’s equity at approximately $17 billion. The signed agreement turns <a href=\"doordash-instacart-17-billion-talks-2026.html\">earlier acquisition talks</a> into a concrete offer, but leaves shareholders facing a long period before the companies expect to combine.</p>",
+      "<p>The offer values each Instacart share at $65, a 26% premium to its October 22 closing price. At least three-quarters of the aggregate consideration will be cash. Closing is expected in late 2027 or the first half of 2028, subject to shareholder and regulatory approvals. Until then, the businesses remain independent.</p>",
+      "<p>DoorDash is buying more than another delivery app. Instacart supplies grocery ordering, fulfillment technology and advertising services to retailers. The combination would give DoorDash a larger position across the different stages of an online grocery purchase, from a retailer’s storefront and product promotions to picking the order and delivering it.</p>",
+      "<h2>The payment election has limits</h2>",
+      "<p>Instacart investors can elect $65 in cash, 0.3372 DoorDash shares, or a combination of $48.75 in cash and 0.0843 DoorDash shares for each share they hold. Those choices are subject to allocation rules that keep the overall stock component at no more than 25% of the consideration.</p>",
+      "<p>That cap matters because an election is not an unconditional promise that every investor receives the form of payment requested. If too many shareholders choose stock, the available shares are allocated proportionately. The stock alternative also introduces exposure to DoorDash’s share price while the transaction is pending, unlike a fixed dollar cash payment.</p>",
+      "<p>The companies’ announcement says DoorDash expects to retain Instacart’s brand, app and enterprise technology products. Maintaining a consumer-facing brand is compatible with combining delivery networks and back-end services. It does not mean that the companies will operate as separate economic competitors after a completed acquisition.</p>",
+      "<h2>Both companies enter the deal with growing businesses</h2>",
+      "<p>Instacart’s separately released third-quarter results show gross transaction value of $10.528 billion, up 15% from a year earlier, and 91.4 million orders, up 10%. Revenue increased 17% to $1.095 billion. Gross transaction value measures activity on the platform, rather than revenue that belongs entirely to Instacart.</p>",
+      "<p>Advertising and other revenue increased 23% to $331 million, faster than the 14% growth in transaction revenue. GAAP net income was $147 million, compared with adjusted EBITDA of $342 million. The adjusted measure excludes expenses included in accounting earnings; it should not be treated as an interchangeable profit figure.</p>",
+      "<p>The advertising business helps explain the strategic appeal. A grocery platform can earn money both from arranging purchases and from brands seeking visibility when shoppers make decisions. Combining those activities with a larger delivery network could broaden the commercial opportunity, though the eventual return depends on execution and retailer relationships.</p>",
+      "<p>DoorDash reported quarterly revenue of about $4.6 billion, up 34%, and 993 million orders, up 28%. Those headline growth rates include Deliveroo. Excluding that acquisition’s contribution, revenue increased 23% and orders 17%, a useful distinction when separating underlying expansion from the effects of buying another business.</p>",
+      "<p>DoorDash also set out a multi-year path to at least $500 million in annual synergies after investments. It expects to reinvest more than the total synergies during the first year after closing, with positive net synergies from year two. That is management’s future plan, rather than savings already appearing in either company’s earnings.</p>",
+      "<h2>The waiting period is part of the investment case</h2>",
+      "<p>Instacart cancelled its scheduled November 5 earnings call and suspended financial guidance following the agreement. Investors will therefore need to track the transaction alongside operating disclosures from a business that still has to compete and retain customers while the deal is reviewed.</p>",
+      "<p>The proposed closing window makes <a href=\"merger-arbitrage-deal-spread-explained.html\">the time and completion risk behind merger spreads</a> especially relevant. An agreed offer price describes the transaction’s terms. It does not establish the value an investor can realize immediately or guarantee that approvals arrive on schedule. The next material milestones are regulatory progress, shareholder approval and evidence that the businesses sustain their performance during the wait.</p>"
+    ],
+    "sources": [
+      {
+        "label": "DoorDash, October 29: definitive acquisition agreement, shareholder elections and closing conditions",
+        "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+      },
+      {
+        "label": "Instacart, October 29: third-quarter results, definitions and guidance suspension",
+        "url": "https://investors.instacart.com/News/news-releases/news-details/2026/Instacart-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
+      },
+      {
+        "label": "DoorDash, October 29: quarterly results, comparable growth and synergy assumptions",
+        "url": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Third-Quarter-2026-Financial-Results/default.aspx"
+      }
+    ],
+    "date": "2026-10-29T15:44:46Z",
+    "dateModified": "2026-10-29T15:44:46Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/doordash-instacart-acquisition-agreement-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/doordash-instacart-acquisition-agreement-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/doordash-instacart-acquisition-agreement-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/doordash-instacart-acquisition-agreement-2026-cover-v1-480.webp 480w, assets/responsive/doordash-instacart-acquisition-agreement-2026-cover-v1-960.webp 960w, assets/editorial/doordash-instacart-acquisition-agreement-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "mistral-large-4-open-weights-license-2026",
+    "title": "Mistral Releases Large 4 AI Weights With a Licensing Condition for Model Hosts",
+    "dek": "Mistral’s Large 4 can now run outside its own cloud. The release gives businesses more control, but model-hosting firms face a separate license requirement.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of a documented Mistral AI sign in a transit setting; not a photograph of the Large 4 release.",
+    "body": [
+      "<p>Mistral AI released the downloadable weights of its Large 4 model Thursday, expanding access beyond the public preview it introduced earlier this month. The French company is offering customers more control over where the software runs, while keeping a commercial licensing requirement for businesses that operate a model-hosting service.</p>",
+      "<p>The distinction matters for the economics of open AI. Downloadable weights let organizations deploy and modify the model without sending every request to the developer’s own cloud. They do not automatically make every commercial use unrestricted. Mistral’s published license specifically distinguishes internal deployment, embedded end-user products and services that give customers direct control over a model.</p>",
+      "<p>The release is more than another promise of future availability. Mistral’s official Hugging Face repository now lists the model’s weight files, configuration and license. The important change from the earlier preview is access to those artifacts, alongside an improved model, rather than simply the announcement of a new brand name.</p>",
+      "<h2>Open weights, with a defined commercial boundary</h2>",
+      "<p>Weights are the numerical settings learned during training. Having them gives an organization the ability to run or adapt a model on infrastructure it chooses. That can matter when a company needs to keep sensitive information within its own systems, or wants to evaluate the cost of hosting against paying for an external service.</p>",
+      "<p>Mistral calls the governing terms its Ecosystem Open-Weight License, a modified MIT license. It permits use, modification, distribution and further training, subject to conditions. A business operating a Model-as-a-Service offering must obtain a separate commercial license before using the model or derivatives commercially. Calling the release unrestricted open source would obscure that provision.</p>",
+      "<p>The license defines that service category around third-party access for inference or further training with meaningful control over inputs, parameters or training data. It excludes products where model capabilities are embedded solely within specific features or controlled workflows, and the mere forwarding of requests to another provider’s hosted models.</p>",
+      "<p>It also expressly exempts internal use and use through Mistral’s official products from that separate-license requirement. These distinctions leave room for companies to build applications while reserving a commercial relationship with certain competing infrastructure providers. The practical question for a buyer is what its product allows customers to do, not merely whether it charges money.</p>",
+      "<h2>A large model still needs an operating plan</h2>",
+      "<p>The model documentation describes approximately 1.05 trillion total parameters and 52 billion active parameters, including relevant embedding and output layers. Its mixture-of-experts design uses a subset of the network for each token. That reduces active computation relative to using the entire model at every step, but does not eliminate storage, memory and serving requirements.</p>",
+      "<p>Large 4 accepts text and image inputs and produces text output. Mistral lists a context window of one million tokens and three reasoning settings: low, medium and high. Those controls let developers choose how much reasoning effort to allocate to a request, rather than treating every workload as equally demanding.</p>",
+      "<p>The documentation lists hosted pricing of $0.70 per million input tokens, $0.07 for cached input and $2.10 for output. Those prices describe a hosted service, not the complete cost of running downloaded weights. A self-hosted comparison needs to include hardware utilization, engineering, monitoring and the amount of review required for successful work, as in <a href=\"ai-inference-unit-economics-2026.html\">TTN’s guide to inference economics</a>.</p>",
+      "<h2>Coding gains are claims to test against real work</h2>",
+      "<p>Mistral reports a 48% score on the Artificial Analysis Coding Agent Index, effectively matching GLM-5.3 while using 47% fewer tokens per task on average. It also reports improved terminal-based coding performance since the preview. These are results cited by the developer, not TTN’s own evaluation or a guarantee across customer projects.</p>",
+      "<p>Fewer tokens can improve economics, but only if the system completes the task accurately. Repository changes still need testing, and security work needs authorized environments and controlled access. The <a href=\"enterprise-ai-data-security-2026.html\">data and permission requirements of enterprise AI</a> remain relevant regardless of who hosts the weights.</p>",
+      "<p>The release gives buyers a new combination of deployment choice, model capability and licensing terms. Its commercial significance will depend on whether those choices produce better results for actual workloads after hosting costs, reliability and the relevant license conditions are taken into account.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Mistral AI, October 29: improved Large 4 weights, benchmark claims and availability",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/"
+      },
+      {
+        "label": "Mistral: official Large 4 model card and deployment guidance",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+      },
+      {
+        "label": "Mistral: published Ecosystem Open-Weight License",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/LICENSE"
+      },
+      {
+        "label": "Mistral documentation: architecture, context window and hosted pricing",
+        "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+      },
+      {
+        "label": "Official model repository: published weight-file inventory",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/tree/main"
+      }
+    ],
+    "date": "2026-10-29T15:44:46Z",
+    "dateModified": "2026-10-29T15:44:46Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/mistral-large-4-open-weights-license-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/mistral-large-4-open-weights-license-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/mistral-large-4-open-weights-license-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/mistral-large-4-open-weights-license-2026-cover-v1-480.webp 480w, assets/responsive/mistral-large-4-open-weights-license-2026-cover-v1-960.webp 960w, assets/editorial/mistral-large-4-open-weights-license-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "ice-tradexyz-hyperliquid-us-perpetuals-plan-2026",
+    "title": "NYSE Owner ICE Plans a US Market for Hyperliquid-Based Perpetual Futures",
+    "dek": "ICE is backing a plan to bring Hyperliquid-based derivatives to US retail traders. The agreement is signed, but trading still needs regulatory approvals.",
+    "section": "Crypto",
+    "tickers": [
+      "ICE"
+    ],
+    "imageAlt": "Illustrative reconstruction of the documented New York Stock Exchange facade on Broad Street; not a photograph of the ICE and TradeXYZ agreement.",
+    "body": [
+      "<p>Intercontinental Exchange, the owner of the New York Stock Exchange, agreed Thursday to work with Trade[XYZ] on bringing Hyperliquid-based perpetual futures into a U.S.-regulated market. The agreement is a new route toward domestic access to a product widely associated with offshore crypto trading, rather than a launch that Americans can use immediately.</p>",
+      "<p>ICE plans to operate a dedicated market and clearing structure and is taking a minority investment in Trade[XYZ]. Regulatory approvals remain necessary, including those supporting leveraged trading. The companies describe a retail-focused business separate from ICE’s established institutional futures operation. They did not announce a customer trading start date.</p>",
+      "<p>That separation is central to the proposal. The commercial opportunity is to connect continuous, blockchain-based derivatives markets with regulated operators and brokers. It is not simply a plan to place a crypto-trading website under the New York Stock Exchange name or give retail customers access to every existing Hyperliquid contract.</p>",
+      "<h2>The contracts and the infrastructure do different jobs</h2>",
+      "<p>Trade[XYZ] supplies expertise in designing markets that reference assets such as equities, indices, commodities and currencies. Hyperliquid supplies the underlying technology. ICE would provide regulated market operation and clearing. The planned distribution includes participating futures brokers and ICE’s venture with OKX, whose own relevant U.S. approvals are also pending.</p>",
+      "<p>Hyperliquid’s documentation for builder-deployed perpetuals, known as HIP-3, helps explain the distinction between infrastructure and operator. A deployer defines the market, including its price source and contract specifications, and manages settings such as leverage limits. Using a common trading engine does not make every deployer’s products identical or transfer every operating responsibility to the blockchain.</p>",
+      "<p>The protocol documentation also describes independent margining and order books for each deployed exchange. That is useful technical context, rather than proof that ICE’s proposed legal and clearing arrangements are already in place. The final U.S. product would have to satisfy the requirements applicable to its operator, contracts and customer access.</p>",
+      "<h2>No expiry does not mean no carrying cost</h2>",
+      "<p>A perpetual futures contract has no fixed expiration date. Instead of settling on a scheduled maturity, it uses a funding mechanism to help keep its price close to the asset it references. Holding the contract creates price exposure; it does not by itself give the holder ownership of the underlying share, commodity or currency.</p>",
+      "<p>Hyperliquid’s current funding documentation describes payments between the long and short sides, with direction influenced by the relationship between the contract price and its reference price. Funding is paid hourly on its existing markets. Those are current protocol mechanics, not a confirmed specification for every contract in the proposed ICE venue.</p>",
+      "<p>This distinction affects the economics of keeping a position open. A trader can face changing funding payments as well as price movements. When leverage is involved, losses also consume collateral more quickly. TTN’s <a href=\"crypto-liquidation-leverage-explained.html\">explanation of liquidation and margin</a> describes why a position can be closed before an investor has lost the entire value of the underlying asset.</p>",
+      "<h2>US policy provides a path, not blanket permission</h2>",
+      "<p>The Commodity Futures Trading Commission’s policy statement adopted May 29 and published June 3 accompanied an order allowing a perpetual contract referencing bitcoin’s spot price to be listed as a futures contract. For asset classes outside the scope of that order, the agency said case-by-case review under Regulation 40.3 was appropriate.</p>",
+      "<p>That context matters for a proposal spanning crypto and traditional financial assets. Earlier regulatory action on one class of contract should not be read as automatic approval for every equity, commodity or currency perpetual. Thursday’s announcement itself preserves the condition that the new arrangements require permission before customers can access them.</p>",
+      "<p>The ICE agreement is also distinct from the <a href=\"kraken-hyperliquid-us-perpetuals-testnet-2026.html\">earlier Payward and Kraken-related Hyperliquid plan</a>, which involved different operating entities and a test-network milestone. Multiple firms can pursue regulated deployment of similar infrastructure without sharing one approval or launch schedule.</p>",
+      "<p>For investors assessing the news, the next meaningful evidence will be regulatory filings, permissions, published contract terms and functioning broker access. The signed commercial agreement establishes the partners’ intent. Whether that becomes a significant U.S. retail market will depend on those operating milestones and on customers actually choosing to trade there.</p>"
+    ],
+    "sources": [
+      {
+        "label": "ICE, October 29: definitive agreement, investment and pending regulatory structure",
+        "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-and-TradeXYZ-to-Bring-Hyperliquid-Based-Perpetual-Markets-Onshore/default.aspx"
+      },
+      {
+        "label": "Hyperliquid documentation: HIP-3 market definitions and deployer responsibilities",
+        "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+      },
+      {
+        "label": "Hyperliquid documentation: current perpetual-contract funding mechanics",
+        "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding"
+      },
+      {
+        "label": "CFTC, policy adopted May 29 and published June 3: listing of perpetual contracts",
+        "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11020/policy-statement-concerning-the-listing-of-perpetual-contracts"
+      }
+    ],
+    "date": "2026-10-29T15:44:46Z",
+    "dateModified": "2026-10-29T15:44:46Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1-480.webp 480w, assets/responsive/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1-960.webp 960w, assets/editorial/ice-tradexyz-hyperliquid-us-perpetuals-plan-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "us-gdp-q3-2026-september-spending-inflation",
     "title": "US Growth Accelerates to 3.4%, but September Spending Stalls After Inflation",
     "dek": "The US economy grew faster in the third quarter, yet September spending barely rose after inflation. The split complicates the Fed’s next move.",
