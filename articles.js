@@ -1,6 +1,53 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "coinbase-q3-2026-profit-investment-gains-trading",
+    "title": "Coinbase Returns to Profit, but Investment Gains Dominate the Result",
+    "dek": "Coinbase reported $719 million in quarterly profit while trading revenue fell 43%. Its adjusted earnings show how much investment gains changed the picture.",
+    "section": "Crypto",
+    "tickers": [
+      "COIN"
+    ],
+    "imageAlt": "Illustrative person using a phone with a reference-based Coinbase welcome screen; not an image of an actual customer or the earnings announcement.",
+    "body": [
+      "<p>Coinbase returned to quarterly profit Thursday, but investment gains accounted for much of the improvement while transaction revenue remained sharply below its year-earlier level. The results give investors two different pictures: a substantial accounting profit and a more modest measure after the company’s specified adjustments.</p>",
+      "<p>The cryptocurrency exchange reported third-quarter net income of $718.7 million. Its reconciliation identified $715 million in pretax gains on crypto assets held for investment, alongside other adjustments. Adjusted net income was $77.7 million. Those figures are not interchangeable measures of earnings, and the pretax investment gain cannot simply be subtracted from after-tax profit to recreate the adjusted result.</p>",
+      "<p>Reuters reported that the profit ended three consecutive quarterly losses. Transaction revenue fell 43% from a year earlier to $590.2 million, while operating expenses declined 17% to $1.15 billion. The combination shows why a return to profit does not necessarily establish that trading activity has returned to its previous revenue level.</p>",
+      "<h2>Read the reconciliation before judging the rebound</h2>",
+      "<p>Coinbase’s reconciliation also removed $39.2 million in other investment gains and included a $113.3 million tax adjustment. These entries explain the bridge between reported and adjusted net income. They also show why attributing a fixed percentage of after-tax earnings to one pretax gain would misrepresent the accounting.</p>",
+      "<p>The investment result still belongs in reported earnings. Its presence is not evidence that the profit is invalid. The analytical question is how much of that result provides a useful basis for estimating future operating performance, compared with revenue earned from customers and the costs incurred to serve them.</p>",
+      "<p>Adjusted earnings can help isolate that distinction, but they reflect management’s chosen exclusions. They should be read alongside the accounting statements, rather than replacing them. TTN’s <a href=\"earnings-beat-miss-explained.html\">guide to earnings comparisons</a> explains why the definition behind a headline figure can matter as much as its size.</p>",
+      "<h2>More revenue streams, different measurements</h2>",
+      "<p>Coinbase said subscriptions and services represented 49% of net revenue. It also reported a record $22 billion average USDC balance across its products and a 24% year-over-year increase in paid Coinbase One subscribers. These are company-reported indicators of its effort to build activity beyond transaction fees.</p>",
+      "<p>Balances are assets customers or the platform hold, not revenue the company has earned. Subscriber growth is a count-based measure, not automatically the same percentage increase in subscription dollars. The distinction becomes especially relevant when several measures appear together as evidence of a more diversified business.</p>",
+      "<p>The distribution of stablecoins across trading platforms is part of that strategy. TTN’s reporting on <a href=\"coinbase-ripple-rlusd-launch-october-2026.html\">Coinbase’s recent stablecoin expansion</a> describes a product-development direction, while the new earnings report supplies financial measurements. Offering another token and generating durable income from its use remain separate milestones.</p>",
+      "<p>Coinbase also said prediction markets had surpassed $200 million in annualized revenue. Annualization extrapolates a recent pace across a year; it is not a statement that the company earned that amount during the quarter or a confirmed total for 2026. The pace can change as trading activity fluctuates.</p>",
+      "<h2>Lower costs help, but do not settle the growth question</h2>",
+      "<p>Expense reductions can improve earnings even when transaction revenue is falling. That is a different route to profitability from expanding the trading business. Both can benefit shareholders, but they imply different questions about what can continue: additional cost savings, stronger customer activity or better economics across newer services.</p>",
+      "<p>The contrast is visible elsewhere in the sector. <a href=\"robinhood-q3-2026-crypto-revenue-profit.html\">Robinhood’s latest results</a> also separated weaker crypto revenue from the performance of its wider business. The companies have different operations, so one result does not predict the other. The comparison illustrates why crypto-related stocks cannot be assessed from coin-price direction alone.</p>",
+      "<p>For Coinbase, the next useful evidence will include transaction revenue, the contribution from services and the costs needed to support those activities. Further investment gains could lift reported profit again, but they would answer a different question from whether customer-generated earnings are strengthening. Thursday’s result marks a return to positive net income while leaving that operating-growth test open.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Coinbase official Business Wire results, October 29: financial reconciliations and operating indicators",
+        "url": "https://www.financialcontent.com/article/bizwire-2026-10-29-coinbase-q3-2026-earnings-show-all-time-high-coinbase-one-subscribers-and-prediction-markets-surpassing-200-million-in-annualized-revenue"
+      },
+      {
+        "label": "Reuters, October 29: return to profit, transaction revenue and operating expenses",
+        "url": "https://www.reuters.com/business/finance/coinbase-snaps-losing-streak-with-third-quarter-profit-crypto-trading-rebound-2026-10-29/"
+      }
+    ],
+    "date": "2026-10-29T21:06:00Z",
+    "dateModified": "2026-10-29T21:06:00Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/coinbase-q3-2026-profit-investment-gains-trading-cover-v1.webp",
+    "imageSmall": "assets/responsive/coinbase-q3-2026-profit-investment-gains-trading-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coinbase-q3-2026-profit-investment-gains-trading-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coinbase-q3-2026-profit-investment-gains-trading-cover-v1-480.webp 480w, assets/responsive/coinbase-q3-2026-profit-investment-gains-trading-cover-v1-960.webp 960w, assets/editorial/coinbase-q3-2026-profit-investment-gains-trading-cover-v1.webp 1672w"
+  },
+  {
     "id": "amazon-q3-2026-holiday-outlook-aws-cash-flow",
     "title": "Amazon’s Holiday Sales Outlook Tempers an AWS Growth Surge",
     "dek": "AWS sales jumped 39%, but Amazon’s holiday revenue forecast midpoint missed expectations. Heavy AI investment also pushed annual free cash flow below zero.",

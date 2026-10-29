@@ -3277,6 +3277,17 @@
       "bytes": 465178,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/intel-q3-2026-server-growth-outlook-supply.html"
+    },
+    {
+      "page": "coinbase-q3-2026-profit-investment-gains-trading.html",
+      "source": "assets/editorial/coinbase-q3-2026-profit-investment-gains-trading-cover-v1.webp",
+      "image": "assets/social/coinbase-q3-2026-profit-investment-gains-trading-cover-v1-617923ef1ad4.webp",
+      "sha256": "617923ef1ad478a39d766cfdeb5b20b54d223f284eb3990111670d7e5018f36f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 100170,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/coinbase-q3-2026-profit-investment-gains-trading.html"
     }
   ]
 }

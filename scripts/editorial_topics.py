@@ -307,3 +307,7 @@ GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'amazon-q3-2026-
 RELATED['amazon-q3-2026-holiday-outlook-aws-cash-flow'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'microsoft-q1-2027-azure-cash-flow-ai-spending']
 GROUPS['AI investment, infrastructure and productivity'].insert(0, 'intel-q3-2026-server-growth-outlook-supply')
 RELATED['intel-q3-2026-server-growth-outlook-supply'] = ['asml-q3-2026-ai-demand', 'ai-chips-bottlenecks-2026', 'ai-capex-nasdaq-correction']
+
+# October 29 late commissioned package.
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coinbase-q3-2026-profit-investment-gains-trading')
+RELATED['coinbase-q3-2026-profit-investment-gains-trading'] = ['earnings-beat-miss-explained', 'coinbase-ripple-rlusd-launch-october-2026', 'robinhood-q3-2026-crypto-revenue-profit']

@@ -381,3 +381,6 @@ DESCRIPTIONS['amazon-q3-2026-holiday-outlook-aws-cash-flow'] = 'AWS sales jumped
 
 TITLES['intel-q3-2026-server-growth-outlook-supply'] = 'Intel Server Growth Meets a Weaker Outlook'
 DESCRIPTIONS['intel-q3-2026-server-growth-outlook-supply'] = 'Intel’s data-center sales surged, but its next-quarter forecast disappointed. A factory disruption adds another constraint as server demand remains strong.'
+
+TITLES['coinbase-q3-2026-profit-investment-gains-trading'] = 'Coinbase Returns to Profit as Investment Gains Rise'
+DESCRIPTIONS['coinbase-q3-2026-profit-investment-gains-trading'] = 'Coinbase reported $719 million in quarterly profit while trading revenue fell 43%. Its adjusted earnings show how much investment gains changed the picture.'
