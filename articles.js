@@ -8,7 +8,7 @@ const TTN_ARTICLES = [
     "tickers": [
       "EUR/USD"
     ],
-    "imageAlt": "Editorial reconstruction of the euro sculpture in Frankfurt with a tram on the tracks and pedestrians on the adjoining square.",
+    "imageAlt": "Editorial illustration of Frankfurt’s euro sculpture beside a turquoise tram, with two tracks bounded by kerbs and separate pedestrian areas.",
     "body": [
       "<p>The eurozone economy grew twice as fast as economists expected in the third quarter, but Friday’s data exposed a less comfortable picture beneath the headline. France contracted, the number of unemployed people increased, and professional forecasters raised their inflation estimates. The combination leaves investors weighing resilient output against pressure on household budgets and financing costs.</p>",
       "<p>Gross domestic product increased 0.4% from the preceding quarter, Eurostat’s preliminary estimate showed. Economists in a Reuters poll had expected 0.2%. The expansion was slower than the second quarter’s 0.6% increase, so the report represents an upside surprise alongside a loss of momentum. Both comparisons are necessary to understand what changed.</p>",
@@ -52,10 +52,10 @@ const TTN_ARTICLES = [
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
-    "image": "assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3.webp",
-    "imageSmall": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-480.webp",
-    "imageMedium": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-960.webp",
-    "imageSrcset": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-480.webp 480w, assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-960.webp 960w, assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3.webp 1672w"
+    "image": "assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4.webp",
+    "imageSmall": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4-480.webp",
+    "imageMedium": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4-960.webp",
+    "imageSrcset": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4-480.webp 480w, assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4-960.webp 960w, assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v4.webp 1672w"
   },
   {
     "id": "meta-uk-cma-commercial-terms-publishers-probe-2026",
