@@ -64,7 +64,12 @@ def refresh():
         candidates=RELATED.get(a['id'],[])+ANCHORS.get(topics[a['id']],[])+groups[topics[a['id']]]
         for candidate in candidates:
             if candidate!=a['id'] and candidate in byid and candidate not in selected:selected.append(candidate)
-        selected=[i for i in dict.fromkeys(selected) if i!=a['id']][:3]
+        selected=[i for i in dict.fromkeys(selected) if i!=a['id']]
+        # New topics may have fewer than three articles: backfill from the wider archive.
+        for other in latest:
+            if len(selected)>=3:break
+            if other['id']!=a['id'] and other['id'] not in selected:selected.append(other['id'])
+        selected=selected[:3]
         assert len(selected)==3,(a['id'],selected)
         links=''.join(f'<li><a href="{escape(i)}.html">{escape(byid[i]["title"])}</a></li>' for i in selected)
         block='<aside class="editorial-related" aria-labelledby="related-reading-title"><h2 id="related-reading-title">Related reading</h2><ul>'+links+'</ul></aside>'
