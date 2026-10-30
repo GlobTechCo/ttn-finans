@@ -9,6 +9,11 @@ pkg=root/'.ttn-publication-temp';pkg.mkdir(exist_ok=True)
 with zipfile.ZipFile(zip_path) as z:z.extractall(pkg)
 raw=(root/'articles.js').read_text();match=re.search(r'\[',raw);end=raw.rfind(']')
 entries=json.loads(raw[match.start():end+1]);ids={a['id'] for a in entries}
+expected_slugs={json.loads(p.read_text())['slug'] for p in pkg.glob('*-seo.json')}
+if expected_slugs and expected_slugs.issubset(ids) and all((root/(slug+'.html')).is_file() and all((root/('assets/editorial/' if suffix=='-cover.webp' else 'assets/responsive/')/(slug+suffix)).is_file() for suffix in ('-cover.webp','-480.webp','-960.webp')) for slug in expected_slugs):
+    print('ALREADY PUBLISHED: all three articles and nine images present; no duplicate publishing needed',flush=True)
+    shutil.rmtree(pkg)
+    sys.exit(0)
 now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
 new=[]
 for file in sorted(pkg.glob('*-seo.json')):
