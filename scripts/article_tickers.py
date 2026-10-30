@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
     'BP': ('NYSE:BP', 'BP ADS · NYSE'),
-    '8035': ('TSE:8035', 'Tokyo Electron · TSE'),
     'SBUX': ('NASDAQ:SBUX', 'Starbucks · Nasdaq'),
     'RDDT': ('NYSE:RDDT', 'Reddit · NYSE'),
     'TOST': ('NYSE:TOST', 'Toast · NYSE'),

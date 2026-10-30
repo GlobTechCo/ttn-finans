@@ -66,9 +66,7 @@ const TTN_ARTICLES = [
     "title": "Chip-Equipment Maker Tokyo Electron Forecasts an 87% Annual Profit Jump",
     "dek": "Tokyo Electron’s new full-year forecast targets ¥1.169 trillion in operating profit, even as investors question returns on AI spending.",
     "section": "Tech & AI",
-    "tickers": [
-      "8035"
-    ],
+    "tickers": [],
     "imageAlt": "Illustrative reconstruction of Tokyo Electron Miyagi Development Building No. 3 and its documented TEL sign; not a photograph of the results announcement.",
     "body": [
       "<p>Tokyo Electron forecast an 87.1% increase in annual operating profit Friday, offering a strong sales outlook from a company that supplies the equipment used to manufacture semiconductors. Its forecast contrasts with the concern unsettling technology markets: heavy investment in artificial intelligence does not automatically produce attractive returns for the businesses buying that capacity.</p>",
@@ -112,7 +110,14 @@ const TTN_ARTICLES = [
     "image": "assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp",
     "imageSmall": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-480.webp",
     "imageMedium": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-480.webp 480w, assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-960.webp 960w, assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp 1672w"
+    "imageSrcset": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-480.webp 480w, assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-960.webp 960w, assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp 1672w",
+    "externalCharts": [
+      {
+        "label": "Tokyo Electron · TSE:8035",
+        "url": "https://www.tradingview.com/symbols/TSE-8035/",
+        "reason": "Tokyo Stock Exchange data available on TradingView, unavailable in embedded widget"
+      }
+    ]
   },
   {
     "id": "coindcx-futures-reduce-only-binance-liquidity-2026",
