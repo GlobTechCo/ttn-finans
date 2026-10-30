@@ -319,3 +319,11 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'reddit-login-test
 RELATED['reddit-login-tests-ai-search-traffic-q3-2026'] = ['ai-search-publisher-economics-2026', 'enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'binance-security-investigation-stablecoin-freezes-2026')
 RELATED['binance-security-investigation-stablecoin-freezes-2026'] = ['stablecoins-explained-depeg-risk', 'coindcx-usdt-loss-old-wallet-sweep-failure-2026', 'coinbase-ireland-safeguarding-fine-october-2026']
+
+# October 30 global market selloff commissioned package.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'global-stocks-selloff-ai-cash-flow-treasuries-october-2026')
+RELATED['global-stocks-selloff-ai-cash-flow-treasuries-october-2026'] = ['ai-capex-nasdaq-correction', 'free-cash-flow-explained', 'bond-duration-explained']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026')
+RELATED['bitcoin-selloff-binance-63-billion-impact-liquidations-2026'] = ['binance-security-investigation-stablecoin-freezes-2026', 'stablecoins-explained-depeg-risk', 'bitcoin-etf-institutional-adoption']
+GROUPS['Central banks and currencies'].insert(0, 'bank-of-japan-etf-sales-860-billion-yen-2026')
+RELATED['bank-of-japan-etf-sales-860-billion-yen-2026'] = ['correlation-breakdown-diversification', 'bond-duration-explained', 'ai-capex-nasdaq-correction']

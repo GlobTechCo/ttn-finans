@@ -390,3 +390,12 @@ DESCRIPTIONS['starbucks-q4-2026-sales-profit-china-outlook'] = 'Starbucks’ US 
 
 TITLES['reddit-login-tests-ai-search-traffic-q3-2026'] = 'Reddit Plans Login Tests as AI Search Traffic Falls'
 DESCRIPTIONS['reddit-login-tests-ai-search-traffic-q3-2026'] = 'Reddit will test a primarily logged-in experience outside the US. Sales rose 53%, but declining search referrals threaten its daily audience.'
+
+TITLES['global-stocks-selloff-ai-cash-flow-treasuries-october-2026'] = 'Why Stocks Fall as AI Cash Burn Spooks Markets'
+DESCRIPTIONS['global-stocks-selloff-ai-cash-flow-treasuries-october-2026'] = 'Asian shares and US stock futures fell as investors questioned AI returns. Rising Treasury prices show where some of the retreating money is going.'
+
+TITLES['bitcoin-selloff-binance-63-billion-impact-liquidations-2026'] = 'Bitcoin Selloff: Binance Details $6.3B Incident'
+DESCRIPTIONS['bitcoin-selloff-binance-63-billion-impact-liquidations-2026'] = 'Binance says about $3 billion has been frozen and pledges to cover losses. Leveraged liquidations added pressure as bitcoin fell below $77,000.'
+
+TITLES['bank-of-japan-etf-sales-860-billion-yen-2026'] = 'Bank of Japan Raises ETF Sales Pace to ¥860 Billion'
+DESCRIPTIONS['bank-of-japan-etf-sales-860-billion-yen-2026'] = 'The central bank will more than double annual ETF sales from January. The change adds a separate policy pressure to Japan’s technology-led selloff.'

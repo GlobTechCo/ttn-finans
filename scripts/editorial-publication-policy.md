@@ -1,5 +1,11 @@
 # TTN publication gate
 
+## Mandatory length and self-review, October 30
+
+- Every newly commissioned article and substantive rewrite must contain at least 700 words in its body paragraphs, regardless of section or news/explainer format. Headlines, decks, subheadings, captions, sources and related reading do not count. This replaces the former 600-word requirement for new news articles. Do not rewrite unrelated historical coverage merely to change its length.
+- The editor owns factual, editorial and visual self-review before showing a result or publishing it. Compare proposed covers with the catalog for recurring faces, settings and compositions, not only identical files. A criticism of a repeated person does not prohibit people: retain varied, naturally placed people where the scene calls for them. Never replace a failed image with a superficially altered repetition or an implausibly empty working scene.
+- Enforce the paragraph minimum with `scripts/audit_article_lengths.py` and the publication checks. A technical pass does not excuse weak sourcing, filler, repetition or a cover below the editorial-fit threshold.
+
 ## Social distribution and standalone decks, agreed October 29
 
 - Write each article deck so it remains understandable alongside the headline when copied into a social post. Include a concrete factual hook or consequence, name the relevant subject where needed, and complement rather than repeat the headline. Avoid vague teasers and unsupported promises.

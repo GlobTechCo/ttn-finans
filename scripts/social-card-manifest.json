@@ -3321,6 +3321,39 @@
       "bytes": 357434,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/binance-security-investigation-stablecoin-freezes-2026.html"
+    },
+    {
+      "page": "global-stocks-selloff-ai-cash-flow-treasuries-october-2026.html",
+      "source": "assets/editorial/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2.webp",
+      "image": "assets/social/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2-3e986373f10a.webp",
+      "sha256": "3e986373f10aba1073bff929483e108b2cfcd9a0aaa71f2e9c30e64a67882190",
+      "width": 1672,
+      "height": 941,
+      "bytes": 346350,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/global-stocks-selloff-ai-cash-flow-treasuries-october-2026.html"
+    },
+    {
+      "page": "bitcoin-selloff-binance-63-billion-impact-liquidations-2026.html",
+      "source": "assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1.webp",
+      "image": "assets/social/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-b28165cc4cf1.webp",
+      "sha256": "b28165cc4cf1bb3fea1d229374543d7c0da7ff418d8615b8738d4b6ab905b8e2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 164490,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-selloff-binance-63-billion-impact-liquidations-2026.html"
+    },
+    {
+      "page": "bank-of-japan-etf-sales-860-billion-yen-2026.html",
+      "source": "assets/editorial/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1.webp",
+      "image": "assets/social/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1-9feaae62f2d8.webp",
+      "sha256": "9feaae62f2d88c0c2a96a99a60e20021179e5e8c3a868198069e3b4ab9bf8cf0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 612702,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bank-of-japan-etf-sales-860-billion-yen-2026.html"
     }
   ]
 }

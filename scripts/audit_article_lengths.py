@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Check the owner's PDF audit targets: news 600+, explainers 700+ words.
+"""Enforce 700+ paragraph words for every new or substantially updated article.
 
 Count only paragraph text inside editorial-body, excluding headings, decks,
 sources, related reading and other site furniture. These are TTN editorial
-targets, not a Google word-count requirement. No network requests or writes.
+requirements, not a Google word-count requirement. The October 30 rule applies
+to publications and substantive updates from that date. Unchanged older news
+retains its historical 600-word gate; this is not permission for new short copy.
+No network requests or writes.
 """
 import argparse
 import csv
@@ -63,7 +66,9 @@ def audit(root=ROOT):
         kind = schema['@type']
         if kind not in {'Article', 'NewsArticle'}:
             raise ValueError(f"Unrecognized article type: {article['id']}: {kind}")
-        minimum = 600 if kind == 'NewsArticle' else 700
+        latest = max(str(schema.get('datePublished', article['date'])),
+                     str(schema.get('dateModified', article.get('dateModified', article['date']))))
+        minimum = 700 if kind != 'NewsArticle' or latest[:10] >= '2026-10-30' else 600
         words = sum(len(p.split()) for p in parser.paragraphs)
         text = '\n\n'.join(parser.paragraphs)
         rows.append(dict(id=article['id'], title=article['title'], date=article['date'],
@@ -87,7 +92,7 @@ def main():
     else:
         for row in failures:
             print(f"FAIL: {row['id']}: {row['words']} < {row['minimum']} paragraph words")
-        print(f"{'FAIL' if failures else 'PASS'}: {len(rows)} articles; {len(failures)} below the TTN editorial target (news 600, explainers 700).")
+        print(f"{'FAIL' if failures else 'PASS'}: {len(rows)} articles; {len(failures)} below the applicable minimum (700 words for all new/substantially updated articles from October 30; unchanged earlier news: historical 600).")
     return bool(failures)
 
 

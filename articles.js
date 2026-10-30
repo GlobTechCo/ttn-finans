@@ -1,6 +1,168 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "global-stocks-selloff-ai-cash-flow-treasuries-october-2026",
+    "title": "Global Stocks Slide as AI Cash Burn Sends Investors Toward Bonds",
+    "dek": "Asian shares and US stock futures fell as investors questioned AI returns. Rising Treasury prices show where some of the retreating money is going.",
+    "section": "Market Analysis",
+    "tickers": [
+      "GOOGL",
+      "AMZN"
+    ],
+    "imageAlt": "Reference-based illustration of the Tokyo Stock Exchange Market Center with fictional market-supervision staff and visitors; not a documentary photograph or actual price data.",
+    "body": [
+      "<p>Technology shares fell across Asia and US equity futures weakened Friday as anxiety over the returns on artificial-intelligence investment spread beyond Wall Street. Government bonds moved in the opposite direction, showing that the selloff was a retreat from particular risks rather than an indiscriminate decline in every financial asset.</p>",
+      "<p>In Reuters’ Friday Asian-session report, South Korea’s KOSPI was down more than 3%, Japan’s Nikkei more than 2% and Nasdaq-100 futures 1.9%. Those are intraday observations, not final closing returns. The futures move also describes a different trading session and instrument from Thursday’s completed US stock-market performance.</p>",
+      "<p>The central financial question is becoming more demanding. Large technology companies can report growing cloud revenue and operating profit while spending even more cash on infrastructure. Shareholders must assess both whether customers want the services and whether the eventual cash earnings justify the cost and timing of building the capacity.</p>",
+      "<h2>Strong cloud demand can coexist with cash leaving the business</h2>",
+      "<p>Amazon’s Thursday results illustrate that tension. Its official release showed third-quarter AWS sales rising 39% to $46 billion and total operating income reaching $28.1 billion. Yet free cash flow over the preceding twelve months was negative $42.4 billion, compared with positive $14.8 billion a year earlier.</p>",
+      "<p>The company attributed the deterioration primarily to a $94.8 billion year-over-year increase in net purchases of property and equipment, largely reflecting AI investment. Operating cash flow itself rose 29% to $168.3 billion. The distinction matters: the cash deficit followed substantial investment outlays even as the operating business generated more cash.</p>",
+      "<p>An investment can also raise accounting profit before it produces surplus cash for shareholders. Equipment purchases usually enter cash-flow calculations immediately, while depreciation spreads their accounting cost across later periods. That timing difference helps explain why an earnings headline can leave investors dissatisfied.</p>",
+      "<p>These measures cover different periods and different layers of the accounts. The quarterly AWS growth rate cannot be directly compared with a twelve-month free-cash-flow total as if they described the same quantity. Nor does negative free cash flow, by itself, establish that an otherwise profitable company is unable to pay its bills.</p>",
+      "<p>As <a href=\"free-cash-flow-explained.html\">TTN’s free-cash-flow guide</a> explains, capital spending can create assets that support revenue for years. But shareholders bear the financing cost before all of those revenues arrive. Higher utilization, sustainable customer pricing and control of recurring expenses determine whether the investment ultimately pays off. Revenue growth alone cannot settle that question.</p>",
+      "<p>TTN’s <a href=\"amazon-q3-2026-holiday-outlook-aws-cash-flow.html\">separate report on Amazon’s earnings and holiday outlook</a> examines the company-specific figures. Friday’s development is the transmission of those concerns into a broader market repricing, including businesses whose fortunes depend on the same infrastructure investment cycle.</p>",
+      "<h2>An index loss can conceal very different experiences</h2>",
+      "<p>Thursday’s US session also showed why a falling headline index does not mean every stock collapsed. The Associated Press reported that Alphabet fell 12.6%, while about four-fifths of S&P 500 stocks rose. The S&P 500 nevertheless finished down 0.3%; the Nasdaq Composite fell about 1.4%.</p>",
+      "<p>Large companies carry greater weight in capitalization-weighted indexes. A severe decline in one of the largest constituents can therefore outweigh smaller gains across many other companies. A diversified fund’s index return and the experience of a randomly selected stock can look strikingly different on the same day.</p>",
+      "<p>The distinction is relevant to <a href=\"ai-capex-nasdaq-correction.html\">the connection between AI spending and technology-stock corrections</a>. Companies supplying infrastructure may initially benefit from customers’ investment budgets, while those customers face pressure over cash returns. If investors begin expecting slower future spending, that concern can travel back to suppliers before any announced order cancellation.</p>",
+      "<h2>The bond rally changes the meaning of the selloff</h2>",
+      "<p>Reuters reported the benchmark ten-year US Treasury yield falling more than seven basis points to 4.91% during Tokyo trading. Bond prices rise when yields fall. That move is consistent with demand for government debt during a reduction in equity risk, although price action alone cannot identify every investor’s motive.</p>",
+      "<p>Lower Treasury yields can reduce the discount rate applied to future corporate earnings, which ordinarily helps valuations. Friday’s combination of weaker technology shares and stronger bonds shows that concerns about future business returns can outweigh that support. TTN’s <a href=\"bond-duration-explained.html\">guide to bond duration</a> explains why an existing bond can gain value as its market yield declines.</p>",
+      "<p>The immediate evidence points to a reassessment of expected returns and portfolio risk. It does not establish that AI demand has disappeared or that a recession has begun. Subsequent company spending commitments, cash generation and the breadth of stock-market moves will help distinguish a concentrated valuation adjustment from a more extensive deterioration in the economy.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 30 Asian session: equity futures, Asian shares and Treasury yields; intraday snapshots",
+        "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+      },
+      {
+        "label": "Amazon official October 29 earnings release: quarterly results and twelve-month cash flows",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+      },
+      {
+        "label": "Associated Press, October 29 US close: Alphabet, index returns and market breadth",
+        "url": "https://tvnz-1-news-prod.cdn.arcpublishing.com/2026/10/30/historic-drop-for-alphabets-stock-drags-us-market-lower/"
+      }
+    ],
+    "date": "2026-10-30T07:05:01Z",
+    "dateModified": "2026-10-30T07:05:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2-480.webp 480w, assets/responsive/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2-960.webp 960w, assets/editorial/global-stocks-selloff-ai-cash-flow-treasuries-october-2026-cover-v2.webp 1672w"
+  },
+  {
+    "id": "bitcoin-selloff-binance-63-billion-impact-liquidations-2026",
+    "title": "Why Bitcoin Fell Below $77,000 as Binance Disclosed a $6.3 Billion Incident",
+    "dek": "Binance says about $3 billion has been frozen and pledges to cover losses. Leveraged liquidations added pressure as bitcoin fell below $77,000.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "imageAlt": "Symbolic illustration of silver Bitcoin collectible tokens beside a blurred declining market display; no actual price data or incident evidence is depicted.",
+    "body": [
+      "<p>Bitcoin fell below $77,000 late Thursday as Binance’s security incident added a direct exchange-risk shock to an already unsettled market. In a new October 30 update, Binance estimated the incident’s impact at approximately $6.3 billion and said about $3 billion of affected assets had been frozen on-chain.</p>",
+      "<p>The exchange said it would cover losses using its SAFU protection fund and company resources. Its initial notice announced a temporary suspension of deposits and withdrawals while checks continued. These are Binance’s statements about its response and obligations; they are not an independently completed audit of the loss, recovery or reimbursement process.</p>",
+      "<p>A later update from the official Binance News account said deposits were operating normally while withdrawals remained paused for a security overhaul. The company expected withdrawals to resume within forty-eight hours. That is an operational target, not a confirmed reopening, and the reviewed post did not establish a precise deadline.</p>",
+      "<p>The update materially advances the information available in <a href=\"binance-security-investigation-stablecoin-freezes-2026.html\">TTN’s initial report on the investigation and issuer freezes</a>. That earlier account described competing transfer estimates while the scope remained unsettled. Binance has now provided its own impact estimate and a preliminary explanation, while leaving the final technical findings open.</p>",
+      "<h2>Forced closures amplify a fall that starts elsewhere</h2>",
+      "<p>The Block reported bitcoin at $76,664 at 10 p.m. Eastern on October 29, equivalent to 02:00 UTC on October 30, down 4.5% over the preceding twenty-four hours. Ether was down 5.2% at $2,190 in the same report. A later Reuters Asian-session report put bitcoin back above $78,000, at $78,171.16. The rebound shows why the earlier low should not be presented as a live quotation.</p>",
+      "<p>The report cited CoinGlass data showing $1.55 billion in rolling twenty-four-hour liquidations, including $1.34 billion in long positions. That places approximately 86% of the measured liquidations on the side expecting higher prices, calculated from the reported totals. The rolling window changes over time and should not be treated as the current total for the entire incident.</p>",
+      "<p>A leveraged position uses collateral to support market exposure larger than the trader’s initial cash commitment. As prices move against a long position, the remaining collateral can fall below the platform’s maintenance requirement. The position can then be reduced or closed automatically, adding orders that the trader did not voluntarily choose at that moment.</p>",
+      "<p>This process can intensify a decline, especially where nearby buyers offer limited depth. It does not mean the liquidation total equals money stolen from Binance or the amount withdrawn from investment funds. Liquidated position value, customer collateral losses and an exchange’s security loss measure different things. Adding them together would produce a misleading damage estimate.</p>",
+      "<h2>Binance’s technical account remains preliminary</h2>",
+      "<p>Binance said its initial investigation pointed to a compromised DevOps engineer’s laptop, followed by access to a service container and unauthorized withdrawal transactions. It said it had found no evidence of a wallet private-key leak. The company promised a detailed technical postmortem once its investigation was complete and the facts verified.</p>",
+      "<p>That distinction changes the questions investigators must resolve. Unauthorized access to a system that can request withdrawals can create risk without proving that the underlying cryptographic signing key was exposed. The company’s preliminary account does not yet establish precisely which safeguards failed, how authorization was bypassed or the identity of the attacker.</p>",
+      "<p>Binance also said it revoked the affected address authorization and was working with law enforcement and blockchain-intelligence partners. Those containment steps are separate from the decision to reopen transfers. Reopening requires operational confidence; recovering assets may depend on tracing, counterparties and legal action that follow a different timetable.</p>",
+      "<h2>Frozen assets are not the same as recovered cash</h2>",
+      "<p>The approximately $3 billion frozen should not be described as a completed repayment. A restriction can prevent an identified token balance from moving while ownership and recovery procedures remain unresolved. The wider impact estimate and frozen total are also approximate figures, so subtracting one from the other does not establish a final, audited net loss.</p>",
+      "<p>As explained in <a href=\"stablecoins-explained-depeg-risk.html\">TTN’s guide to stablecoin risks</a>, a dollar reference price and the ability to transfer or redeem an asset are separate issues. Issuer controls can help contain some incidents, but a freeze involving particular tokens does not immobilize every cryptocurrency held by the same address.</p>",
+      "<p>The broader market backdrop matters too: technology stocks and equity futures were already under pressure over AI spending returns. The reviewed evidence does not permit a precise division of bitcoin’s decline between that risk aversion, the exchange incident and leverage. Nor does a falling price prove that identified stolen coins were sold into the market.</p>",
+      "<p>For the next stage, the decisive information is a reconciled incident total, verified recovery progress, transfer-restoration details and the promised postmortem. Binance’s commitment to absorb losses addresses who it says will bear the cost. Demonstrating secure operations and reconciling assets address the separate confidence problem that can keep markets volatile after the initial announcement.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Binance official Security Incident Update, October 30: preliminary investigation, estimated impact, freezes and loss coverage",
+        "url": "https://www.binance.com/en-TR/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+      },
+      {
+        "label": "Official Binance News account, October 30: deposits normal, withdrawals paused and expected restoration window",
+        "url": "https://www.binance.com/en/square/post/10-30-2026-binance-says-deposits-normal-withdrawals-paused-for-security-revamp-eyes-48-hour-restoration-382748430882486"
+      },
+      {
+        "label": "The Block, published October 29 at 10:22 p.m. EDT: price snapshot and CoinGlass liquidation figures",
+        "url": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183"
+      },
+      {
+        "label": "Reuters, October 30: simultaneous equity-market risk aversion",
+        "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+      }
+    ],
+    "date": "2026-10-30T07:05:01Z",
+    "dateModified": "2026-10-30T07:05:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "bank-of-japan-etf-sales-860-billion-yen-2026",
+    "title": "Bank of Japan Accelerates ETF Sales While Holding Its Policy Rate at 1.25%",
+    "dek": "The central bank will more than double annual ETF sales from January. The change adds a separate policy pressure to Japan’s technology-led selloff.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Reference-based illustration of a documented Bank of Japan name plaque; not a photograph of the policy announcement.",
+    "body": [
+      "<p>The Bank of Japan announced Friday that it would accelerate sales of its exchange-traded-fund holdings from January 2027, introducing a separate equity-market policy change while keeping its short-term interest-rate target around 1.25%. The decision arrived during a technology-led market selloff and illustrates why an unchanged policy rate does not mean every part of monetary policy is standing still.</p>",
+      "<p>The new annual ETF sales pace is approximately ¥860 billion measured at book value, up from ¥330 billion. At market value, the bank estimates the new annual amount at about ¥2.46 trillion using the valuation ratio on its recent sales. The two larger figures describe the same disposal pace under different valuation measures, rather than two separate programs.</p>",
+      "<p>Reuters reported that Nikkei futures slipped after the announcement. The policy change was an additional development during an existing decline, not evidence that it caused every earlier loss in Japanese shares. Technology stocks were already reacting to concerns about the returns on substantial AI infrastructure spending overseas.</p>",
+      "<h2>The valuation basis is essential to understanding the size</h2>",
+      "<p>Book value reflects the accounting amount carried for the assets. Market value reflects their estimated current sale value. Confusing the two would understate the amount of stock-market exposure being transferred at prevailing valuations or wrongly suggest that the bank had announced several different annual targets.</p>",
+      "<p>Measured consistently at book value, the new pace is approximately 2.6 times the previous one, calculated by dividing ¥860 billion by ¥330 billion. The bank says the estimated time required to complete the disposal falls from about 112 years to about 43 years. Those figures assume the specified pace and reference holdings, rather than a promise that sales will proceed unchanged for decades.</p>",
+      "<p>The official statement bases the pace on trading value in the Tokyo Stock Exchange Prime Market between January and September and the market-to-book ratio of ETFs sold during that period. This ties the calibration to market activity and the assets’ valuation. It is different from announcing an immediate market order for the entire stock of holdings.</p>",
+      "<h2>A large seller still plans to spread transactions out</h2>",
+      "<p>The central bank’s reference document says the new pace represents approximately 0.1% of market trading value, compared with approximately 0.05% previously. It plans to distribute sales over time and approximately in proportion to each ETF’s share of its holdings. Temporary adjustments or suspensions remain possible in response to market conditions within the annual framework.</p>",
+      "<p>These provisions matter because market impact depends on the timing and execution of orders as well as their annual total. A flow spread across active trading sessions can have a different effect from the same amount offered during a brief period with few buyers. The published safeguards describe intended implementation, rather than guaranteeing a particular stock-price response.</p>",
+      "<p>An ETF is a fund whose shares trade on an exchange and typically represent a basket of underlying assets. When an existing holder sells fund shares, another investor can buy them in the secondary market. That transaction does not automatically require the issuing companies to repay capital or the fund to sell an identical basket of stocks immediately.</p>",
+      "<p>The longer-term effect depends partly on who absorbs the supply and how fund intermediaries manage it. An announced seller can influence investors’ expectations before the first transaction under a new schedule. Friday’s decision starts the revised pace in January, so the announcement itself must be distinguished from completed sales at that pace.</p>",
+      "<h2>The rate decision and asset disposal are separate tools</h2>",
+      "<p>The board held the overnight-rate guideline at approximately 1.25% by an eight-to-one vote. Hajime Takata favored a 1.5% target. The decision to accelerate ETF sales was unanimous, according to the bank’s statement. Its annual sales pace for Japanese real-estate investment trusts remains approximately ¥5 billion at book value.</p>",
+      "<p>A short-term policy-rate target influences funding conditions across the financial system. Disposing of equity-fund holdings changes the central bank’s participation in a particular asset market. The instruments can move on different schedules, which is why investors need to read the balance-sheet decisions alongside the headline interest-rate vote.</p>",
+      "<p>For US readers, the announcement adds a distinct policy consideration to <a href=\"global-stocks-selloff-ai-cash-flow-treasuries-october-2026.html\">Friday’s global equity retreat</a>. Japanese equities can respond both to expectations for corporate profits and to changes in a large domestic institution’s holdings. One explanation should not be used to erase the other.</p>",
+      "<p>The distinction also bears on <a href=\"correlation-breakdown-diversification.html\">how diversification behaves during market stress</a>. Holdings in different countries can share exposure to the same technology cycle while facing different domestic policy pressures. Friday’s statement supplies a concrete new disposal schedule, but neither the schedule nor the initial futures reaction establishes the eventual effect on equity returns.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Bank of Japan official October 30 statement, released at 12:02 Japan time: policy vote, ETF calibration and J-REIT sales",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf"
+      },
+      {
+        "label": "Bank of Japan official reference document: book and market values, disposal horizon and execution safeguards",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf"
+      },
+      {
+        "label": "Reuters, October 30 Asian session: Nikkei futures reaction and pre-existing technology-stock decline",
+        "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+      }
+    ],
+    "date": "2026-10-30T07:05:01Z",
+    "dateModified": "2026-10-30T07:05:01Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1-480.webp 480w, assets/responsive/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1-960.webp 960w, assets/editorial/bank-of-japan-etf-sales-860-billion-yen-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "starbucks-q4-2026-sales-profit-china-outlook",
     "title": "Starbucks’ Coffeehouse Recovery Meets a Revenue Decline After Its China Deal",
     "dek": "Starbucks’ US comparable sales rose 7.7%, but its China deal is shrinking reported revenue. An extra week also boosts the new annual earnings forecast.",
