@@ -28,5 +28,4 @@
 .static-page .editorial-body a[href$=".html"]{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;font-weight:600}
 .static-page .editorial-body a[href$=".html"]:hover{ text-decoration-thickness:2px }
 .static-page .article-tickers{margin:24px 0 18px;align-items:center}
-.static-page .article-tickers::before{content:"Market chart · TradingView";display:block;width:100%;font-size:12px;color:var(--text-dim)}
 .static-page .article-ticker-tag{font-size:13px;padding:7px 12px;border-color:var(--accent-dim)}
