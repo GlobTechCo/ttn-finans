@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/publish_approved_three.py'
+      - 'scripts/refresh_static_editorial.py'
       - 'ttn_three_articles_publication_package.zip'
       - '.github/workflows/publish-approved-three.yml'
 permissions:
