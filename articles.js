@@ -63,7 +63,7 @@ const TTN_ARTICLES = [
       "BTC",
       "ETH"
     ],
-    "imageAlt": "Symbolic illustration of silver Bitcoin collectible tokens beside a blurred declining market display; no actual price data or incident evidence is depicted.",
+    "imageAlt": "Reference-based illustrative composition of Binance exhibition signage and a gold-colored Bitcoin collectible; not a photograph of the security incident.",
     "body": [
       "<p>Bitcoin fell below $77,000 late Thursday as Binance’s security incident added a direct exchange-risk shock to an already unsettled market. In a new October 30 update, Binance estimated the incident’s impact at approximately $6.3 billion and said about $3 billion of affected assets had been frozen on-chain.</p>",
       "<p>The exchange said it would cover losses using its SAFU protection fund and company resources. Its initial notice announced a temporary suspension of deposits and withdrawals while checks continued. These are Binance’s statements about its response and obligations; they are not an independently completed audit of the loss, recovery or reimbursement process.</p>",
@@ -103,14 +103,14 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T07:05:01Z",
-    "dateModified": "2026-10-30T07:05:01Z",
+    "dateModified": "2026-10-30T07:30:04Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
-    "image": "assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1.webp",
-    "imageSmall": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-480.webp",
-    "imageMedium": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-960.webp",
-    "imageSrcset": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-cover-v1.webp 1672w"
+    "image": "assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2.webp",
+    "imageSmall": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2-480.webp 480w, assets/responsive/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2-960.webp 960w, assets/editorial/bitcoin-selloff-binance-63-billion-impact-liquidations-2026-binance-gold-approved-v2.webp 1672w"
   },
   {
     "id": "bank-of-japan-etf-sales-860-billion-yen-2026",
