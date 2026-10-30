@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
     'CAP': ('EURONEXT:CAP', 'Capgemini · Euronext Paris'),
+    'VST': ('NYSE:VST', 'Vistra Corp. · NYSE'),
     'XOM': ('NYSE:XOM', 'ExxonMobil · NYSE'),
     'CVX': ('NYSE:CVX', 'Chevron · NYSE'),
     'TM': ('NYSE:TM', 'Toyota ADR · NYSE'),
@@ -66,6 +67,7 @@ ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD'}
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
 MENTIONS = {
+    'VST': r'\bVistra\b',
     'S&P 500': r'\bS\s*&\s*P\s*500\b',
     'Nasdaq Composite': r'\bNasdaq\s+Composite\b',
     'Nasdaq-100': r'\bNasdaq[-\s]+100\b',
