@@ -408,3 +408,12 @@ DESCRIPTIONS['tokyo-electron-fy2027-profit-forecast-ai-chip-equipment'] = 'Tokyo
 
 TITLES['coindcx-futures-reduce-only-binance-liquidity-2026'] = 'CoinDCX Blocks New Futures Bets in Liquidity Shock'
 DESCRIPTIONS['coindcx-futures-reduce-only-binance-liquidity-2026'] = 'CoinDCX users can reduce or close futures positions but cannot add exposure. The exchange says deposits and withdrawals continue normally.'
+
+TITLES['eurozone-q3-2026-gdp-growth-france-unemployment'] = 'Eurozone Growth Beats Forecasts as France Contracts'
+DESCRIPTIONS['eurozone-q3-2026-gdp-growth-france-unemployment'] = 'Eurozone GDP grew 0.4% in the third quarter. A French contraction, rising unemployment counts and higher inflation forecasts complicate the outlook.'
+
+TITLES['meta-uk-cma-commercial-terms-publishers-probe-2026'] = 'Meta Faces UK Probe Over Website-Crawling Terms'
+DESCRIPTIONS['meta-uk-cma-commercial-terms-publishers-probe-2026'] = 'The CMA is examining whether Meta’s business terms unfairly limit publishers’ control over their content. The proposed changes remain on hold.'
+
+TITLES['strategy-q3-2026-bitcoin-profit-cfo-transition'] = 'Strategy Bitcoin Profit Meets Dilution and CFO Exit'
+DESCRIPTIONS['strategy-q3-2026-bitcoin-profit-cfo-transition'] = 'Strategy’s bitcoin holdings rose 26%, yet its BTC-per-share measure fell. A planned CFO transition adds another test for its financing model.'

@@ -335,3 +335,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'tokyo-electr
 RELATED['tokyo-electron-fy2027-profit-forecast-ai-chip-equipment'] = ['ai-capex-nasdaq-correction', 'intel-q3-2026-server-growth-outlook-supply', 'sk-hynix-q3-2026-ai-memory-profit']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coindcx-futures-reduce-only-binance-liquidity-2026')
 RELATED['coindcx-futures-reduce-only-binance-liquidity-2026'] = ['binance-security-investigation-stablecoin-freezes-2026', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026', 'coindcx-usdt-loss-old-wallet-sweep-failure-2026']
+
+# October 30 midday commissioned package.
+GROUPS['Inflation and economic indicators'].insert(0, 'eurozone-q3-2026-gdp-growth-france-unemployment')
+RELATED['eurozone-q3-2026-gdp-growth-france-unemployment'] = ['second-round-inflation-effects-explained', 'cpi-inflation-explained', 'us-gdp-q3-2026-september-spending-inflation']
+GROUPS['Technology policy, security and platforms'].insert(0, 'meta-uk-cma-commercial-terms-publishers-probe-2026')
+RELATED['meta-uk-cma-commercial-terms-publishers-probe-2026'] = ['meta-commercial-terms-crawling-publishers-clarification-2026', 'ai-search-publisher-economics-2026', 'google-news-ai-pilot-publisher-licensing-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'strategy-q3-2026-bitcoin-profit-cfo-transition')
+RELATED['strategy-q3-2026-bitcoin-profit-cfo-transition'] = ['bitcoin-etf-institutional-adoption', 'earnings-beat-miss-explained', 'free-cash-flow-explained']

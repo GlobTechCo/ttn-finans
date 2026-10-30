@@ -1,6 +1,178 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "eurozone-q3-2026-gdp-growth-france-unemployment",
+    "title": "Eurozone Growth Beats Forecasts, but France Contracts and Unemployment Rises",
+    "dek": "Eurozone GDP grew 0.4% in the third quarter. A French contraction, rising unemployment counts and higher inflation forecasts complicate the outlook.",
+    "section": "Market Analysis",
+    "tickers": [
+      "EUR/USD"
+    ],
+    "imageAlt": "Editorial reconstruction of the euro sculpture in Frankfurt with a tram on the tracks and pedestrians on the adjoining square.",
+    "body": [
+      "<p>The eurozone economy grew twice as fast as economists expected in the third quarter, but Friday’s data exposed a less comfortable picture beneath the headline. France contracted, the number of unemployed people increased, and professional forecasters raised their inflation estimates. The combination leaves investors weighing resilient output against pressure on household budgets and financing costs.</p>",
+      "<p>Gross domestic product increased 0.4% from the preceding quarter, Eurostat’s preliminary estimate showed. Economists in a Reuters poll had expected 0.2%. The expansion was slower than the second quarter’s 0.6% increase, so the report represents an upside surprise alongside a loss of momentum. Both comparisons are necessary to understand what changed.</p>",
+      "<p>The figures measure inflation-adjusted output. A positive real growth rate means production expanded after accounting for price changes, an important distinction when energy is becoming more expensive. Yet the aggregate covers economies with different industrial structures, public finances and demand conditions. A stronger regional result can coexist with weakening activity in a major member country.</p>",
+      "<h2>The national picture is uneven</h2>",
+      "<p>France’s output declined 0.1% from the previous quarter. Germany grew 0.2%, Spain and the Netherlands each expanded 0.6%, and Italy was unchanged. The eurozone’s year-over-year growth rate reached 1.3%. These figures show the difference between the direction of output in the latest quarter and its level relative to a year earlier.</p>",
+      "<p>Ireland reported a 5.5% quarterly increase, the strongest in the available national data. Eurostat labels the Irish flash estimate experimental and urges particular care in interpreting it. A large percentage move in one economy cannot simply be added to the rates in other countries; its contribution to the regional result depends on its economic weight.</p>",
+      "<p>For companies selling across Europe, that dispersion affects the usefulness of a single regional forecast. A business concentrated in French customers can face a different demand environment from one concentrated in Spain. Investors examining sales guidance therefore need to connect the geographic distribution of revenue with local activity, rather than applying the eurozone average to every operation.</p>",
+      "<h2>A stable jobless rate masks a larger unemployment count</h2>",
+      "<p>September’s eurozone unemployment rate held at 6.5%, unchanged from August but above 6.3% a year earlier, according to a separate Eurostat release. The number of unemployed people rose by 122,000 during the month to 11.555 million. The unchanged rounded rate and the increase in people out of work are compatible measures.</p>",
+      "<p>A rate divides the unemployed population by the labor force, while a headcount records the number of people meeting the definition. Changes in that denominator and rounding can make the measures move differently. Eurostat’s definition covers people without a job who recently sought work and are available to start, rather than everyone outside paid employment.</p>",
+      "<p>The younger workforce faced a sharper deterioration. The eurozone unemployment rate for people under 25 rose to 15.4% from 15.1% in August. This rate refers to young people in the labor force, so it should not be read as the proportion of every young resident who lacks a job. Students outside the labor force are treated differently.</p>",
+      "<h2>Inflation expectations complicate the growth signal</h2>",
+      "<p>The European Central Bank’s latest Survey of Professional Forecasters put average inflation at 3.0% for 2026 and 2.6% for 2027, upward revisions of 0.3 and 0.4 percentage points. Respondents principally cited more persistent energy pressures. The survey is a record of outside forecasters’ expectations, distinct from an official ECB interest-rate decision or a newly measured inflation rate.</p>",
+      "<p>The timing also matters. The survey collected 52 responses between October 2 and October 7, before Friday’s GDP release. Its forecasts therefore reflect the information available during that earlier window. Publishing the survey and the output estimate on the same day does not mean the forecasts already incorporate every detail of the new report.</p>",
+      "<p>Higher energy costs can spread through transport, manufacturing and service bills. A separate question is whether workers and businesses seek compensation through wages and prices, creating more persistent <a href=\"second-round-inflation-effects-explained.html\">second-round effects</a>. Forecasters still expect those effects to be limited. Their assessment leaves room for continued output growth while recognizing pressure on purchasing power and margins.</p>",
+      "<h2>What US investors can take from the release</h2>",
+      "<p>American investors encounter the region through multinational earnings, European securities and the EUR/USD exchange rate. Currency translation can change the dollar value of European sales even when the underlying local-currency business is stable. The economic report provides information about activity; the eventual currency response also depends on interest-rate expectations and developments in the United States.</p>",
+      "<p>TTN’s <a href=\"us-gdp-q3-2026-september-spending-inflation.html\">latest US growth report</a> offers a useful comparison, provided the reporting conventions are aligned: US headline quarterly GDP growth is annualized, while the European 0.4% figure is a direct quarter-to-quarter change. Eurostat will publish its next estimate on November 13. That update will help establish how much of Friday’s resilience survives fuller information.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Eurostat, October 30: preliminary third-quarter GDP estimates and national breakdown",
+        "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-30102026-ap"
+      },
+      {
+        "label": "Eurostat, October 30: September unemployment rates, headcounts and definitions",
+        "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-30102026-bp"
+      },
+      {
+        "label": "ECB Survey of Professional Forecasters, fourth quarter 2026: inflation expectations and survey timing",
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2026q4.en.html"
+      },
+      {
+        "label": "Reuters, October 30 at 10:10 UTC: economist poll benchmark",
+        "url": "https://www.reuters.com/world/europe/euro-zone-growth-beats-projections-again-2026-10-30/"
+      }
+    ],
+    "date": "2026-10-30T12:09:57Z",
+    "dateModified": "2026-10-30T12:09:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3.webp",
+    "imageSmall": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-480.webp",
+    "imageMedium": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-960.webp",
+    "imageSrcset": "assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-480.webp 480w, assets/responsive/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-960.webp 960w, assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3.webp 1672w"
+  },
+  {
+    "id": "meta-uk-cma-commercial-terms-publishers-probe-2026",
+    "title": "Meta Faces UK Competition Probe Over Website-Crawling Terms",
+    "dek": "The CMA is examining whether Meta’s business terms unfairly limit publishers’ control over their content. The proposed changes remain on hold.",
+    "section": "Tech & AI",
+    "tickers": [
+      "META"
+    ],
+    "imageAlt": "Illustrative reconstruction of Meta’s documented office sign and facade at 4–5 Grand Canal Square in Dublin with fictional passersby; not a photograph of the UK investigation.",
+    "body": [
+      "<p>Britain’s competition regulator opened an investigation Friday into Meta’s commercial terms for publishers and advertisers, escalating a dispute over access to material on their own websites. The case concerns the conditions businesses face when using a powerful distribution and advertising platform, with potential consequences for how journalism and other content are licensed for new services.</p>",
+      "<p>The Competition and Markets Authority will examine whether Meta has a dominant position in a relevant UK market and whether its terms abuse that position, Reuters reported. The regulator is concerned that businesses could lose control over whether and how website content is collected for Meta’s products. Opening the investigation establishes a review, rather than a finding of unlawful conduct.</p>",
+      "<p>The proposed changes remain on hold. They were initially scheduled for October 30, then postponed to November 20. Meta subsequently said consultation could extend beyond that date and that existing terms would remain in place in the meantime. Treating November 20 as an unconditional launch date would overlook that later qualification.</p>",
+      "<h2>The commercial issue extends beyond a shared link</h2>",
+      "<p>Publishers routinely use social accounts to distribute headlines, previews and links while keeping their complete articles on their own websites. The dispute turns on whether maintaining that commercial relationship can also carry broader permission to collect material from the associated site. That is a different economic transaction from showing the specific material a publisher chooses to post.</p>",
+      "<p>In its October 22 letter, the World Association of News Publishers, WAN-IFRA, asked Meta to suspend the crawling provision and negotiate with the industry. Its requests included a binding recognition of machine-readable reservations of rights, protection for paywalls and access controls, and the ability to decline additional uses without losing access to business tools.</p>",
+      "<p>Those are the publishers’ requested safeguards, rather than rules already imposed by the CMA. They identify the practical choices under dispute: what can be collected, which uses require a license, and whether refusing permission affects distribution. The financial value of those choices depends on the publisher’s audience, subscription model and reliance on advertising or referrals.</p>",
+      "<h2>Meta has promised consultation</h2>",
+      "<p>On October 28, Meta communications executive Andy Stone said the company intended to complete a full consultation with industry groups and leaders before implementing the update, Nieman Lab reported. He said that process could require another delay. Reuters reported no immediate response from Meta to Friday’s investigation announcement; the earlier consultation statement remains relevant context for its position.</p>",
+      "<p>Meta has also said website owners can communicate crawler preferences through robots.txt. Nieman Lab’s October 26 reporting noted a gap between that assurance and the proposed contractual language, which did not expressly include the protection. The distinction concerns the relationship between a technical instruction and an agreement governing commercial use of a service.</p>",
+      "<p>Robots.txt can tell a cooperating crawler which resources a website wants it to avoid. A contract can define the permissions and obligations between the parties. A business assessing control needs to understand both: whether the crawler respects the instruction and whether the contractual terms preserve the intended limits on collection and subsequent use.</p>",
+      "<h2>Revised language did not end the dispute</h2>",
+      "<p>Meta previously removed the word referring to model training and narrowed the stated purposes to advertising and business products, Nieman Lab reported. TTN covered that <a href=\"meta-commercial-terms-crawling-publishers-clarification-2026.html\">earlier wording change</a>. Friday’s investigation is a separate development: the competition authority is now examining the relationship between the terms and Meta’s market position.</p>",
+      "<p>That focus differs from a technical finding that a particular crawler accessed a particular article. The review asks whether the trading conditions themselves unfairly constrain businesses. Evidence about the scope of the terms, realistic alternatives to the platform and the consequences of refusing them will therefore matter alongside any questions about actual automated collection.</p>",
+      "<p>For a publisher, the distribution relationship can have value even when additional reuse needs a separate agreement. An archive requires ongoing spending on reporting, editing, photography and maintenance. Permissions covering that archive can affect future licensing opportunities. The central commercial question is whether the publisher can negotiate those permissions independently while continuing to reach its existing audience.</p>",
+      "<h2>The next evidence is contractual</h2>",
+      "<p>TTN’s <a href=\"ai-search-publisher-economics-2026.html\">analysis of publisher economics in AI search</a> explains a related tension between the value of content and the traffic returned to its creator. The Meta investigation concerns a distinct platform and set of terms, but similarly puts the bargaining relationship between distribution services and content businesses under scrutiny.</p>",
+      "<p>The coming steps will show whether consultation produces revised wording, enforceable safeguards or further regulatory action. A consultation promise offers a process; a final agreement determines the permissions businesses actually accept. For now, the confirmed change is the opening of a UK competition investigation while implementation remains paused. Its outcome, timing and any financial consequences have yet to be established.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, October 30 at 11:15 UTC: CMA investigation, scope, implementation status and immediate response",
+        "url": "https://www.reuters.com/world/europe/uks-cma-opens-investigation-into-metas-terms-publishers-advertisers-2026-10-30/"
+      },
+      {
+        "label": "WAN-IFRA, October 22, updated October 23: publishers’ letter and requested safeguards",
+        "url": "https://wan-ifra.org/2026/10/worlds-news-publishers-call-on-meta-to-halt-scraping-clause-in-new-commercial-terms/"
+      },
+      {
+        "label": "Nieman Lab, October 28: attributed Meta consultation statement and existing terms",
+        "url": "https://www.niemanlab.org/2026/10/meta-pledges-to-consult-publishers-before-finalizing-its-new-terms/"
+      },
+      {
+        "label": "Nieman Lab, October 26: wording revisions, crawler preferences and contractual protections",
+        "url": "https://www.niemanlab.org/2026/10/meta-delays-rollout-of-terms-that-would-allow-broad-scraping-of-news-sites-legal-experts-are-still-skeptical/"
+      }
+    ],
+    "date": "2026-10-30T12:09:57Z",
+    "dateModified": "2026-10-30T12:09:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1-480.webp 480w, assets/responsive/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1-960.webp 960w, assets/editorial/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "strategy-q3-2026-bitcoin-profit-cfo-transition",
+    "title": "Strategy’s $21 Billion Bitcoin Gain Comes With Dilution and a CFO Transition",
+    "dek": "Strategy’s bitcoin holdings rose 26%, yet its BTC-per-share measure fell. A planned CFO transition adds another test for its financing model.",
+    "section": "Crypto",
+    "tickers": [
+      "MSTR",
+      "BTC"
+    ],
+    "imageAlt": "Illustrative reconstruction of Strategy’s documented Tysons Corner headquarters with its archival MicroStrategy signage; not a current photograph of the CFO transition.",
+    "body": [
+      "<p>Strategy reported a record quarter driven by a roughly $21 billion gain on digital assets, but its results presented shareholders with a more demanding comparison. The company accumulated more bitcoin while its own measure of bitcoin per assumed diluted share declined. A planned change in financial leadership adds another transition to a business increasingly defined by capital management.</p>",
+      "<p>The company, formerly MicroStrategy, announced the results Thursday. Chief Financial Officer Andrew Kang will step down on November 5, according to its filing. Friday’s scrutiny of the report therefore combines a major accounting gain, a substantial financing program and a disclosed succession plan. Each has a different implication for holders of its common stock.</p>",
+      "<p>CoinDesk reported a 6.4% decline in MSTR shares in Friday’s premarket trading, alongside a broader bitcoin decline. That is a reported market snapshot, rather than the day’s closing result. The simultaneous moves also leave several influences in play; they do not establish that the management announcement alone caused the share-price reaction.</p>",
+      "<h2>The large gain reflects an asset valuation</h2>",
+      "<p>Third-quarter operating income was $20.91 billion, and the company reported a digital-asset gain of approximately the same amount. Total revenue from its software business was $125.4 million. The size of the valuation change relative to sales shows why investors need to separate the economics of holding bitcoin from the performance of the operating software business.</p>",
+      "<p>An unrealized gain changes reported earnings as the value of an asset rises. It does not require the holder to sell that asset and collect the increase in cash. The reverse also applies: a later decline can reduce the asset’s market value even after a profitable quarter has ended. Accounting results and current funding capacity consequently answer different questions.</p>",
+      "<p>The distinction is particularly relevant during the <a href=\"global-stocks-selloff-ai-cash-flow-treasuries-october-2026.html\">broader retreat from risk assets</a>. Strategy’s third-quarter accounts cover the period through September 30. Its subsequent holdings update uses October 25. Neither date makes the quarterly gain a live statement of the value of the portfolio at every point during Friday’s trading.</p>",
+      "<h2>More bitcoin does not necessarily mean more per share</h2>",
+      "<p>Strategy held 848,517 bitcoin as of October 25, a 26% increase since the start of the year. Its reported year-to-date BTC Yield was negative 3.7%. The measure tracks the percentage change in bitcoin per assumed diluted share. It is a company-defined ownership metric, separate from bitcoin’s price return and the income paid on a security.</p>",
+      "<p>The arithmetic explains the apparent contradiction. If bitcoin holdings rise but the assumed share count expands faster, the amount attributed to each assumed diluted share falls. New financing can therefore enlarge the company’s portfolio while reducing this particular measure of exposure for common shareholders. Barron’s highlighted that tension in its assessment of the results Friday.</p>",
+      "<p>The denominator includes shares that could arise from convertible securities and equity awards under the company’s methodology. It differs from the number of common shares currently trading. That makes the definition material: comparisons need a consistent treatment of potential dilution, rather than dividing the latest holdings by whichever share count produces the most favorable result.</p>",
+      "<h2>Financing decisions create distinct claims</h2>",
+      "<p>Strategy said it had raised $21.23 billion in capital year to date. Capital raised is a source of financing, separate from operating revenue or profit. Issuing common shares spreads ownership across more shares; preferred securities introduce different dividend and priority terms. An investor’s exposure depends on the specific security held and the claims ahead of it.</p>",
+      "<p>This is why a corporate bitcoin vehicle differs from direct ownership or a <a href=\"bitcoin-etf-institutional-adoption.html\">bitcoin exchange-traded fund</a>. The corporate structure adds management decisions, financing costs, other business operations and potentially dilutive instruments. Those features can change shareholder outcomes even when two investments are exposed to the same underlying cryptocurrency price.</p>",
+      "<h2>The finance role will be divided</h2>",
+      "<p>Kang told the company on October 26 that he intended to resign for personal reasons. The filing says his decision did not result from a disagreement over operations, policies or practices. He will remain in an advisory capacity through December 31. That disclosure provides the stated reason; it offers no basis for attributing the departure to a hidden accounting dispute.</p>",
+      "<p>President and Chief Executive Phong Le will assume responsibility for the finance organization during the transition. On January 1, Reza Virasteh, currently executive vice president of operations, will become CFO and serve as co-principal financial officer alongside Le. Le will retain responsibility for the financial management of the bitcoin strategy, while Virasteh will primarily oversee software finances and budgeting.</p>",
+      "<p>The arrangement places the portfolio’s financing and the software operation’s finances under distinct responsibilities. The next disclosures will show how that structure works in practice. For common shareholders, the durable comparison remains the relationship between assets accumulated, claims issued to fund them and the resulting exposure per share. The record quarterly gain is one part of that assessment, alongside dilution and the company’s future funding choices.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Strategy official third-quarter results, October 29: financial results, holdings, financing and BTC Yield methodology",
+        "url": "https://www.strategy.com/press/strategy-announces-third-quarter-2026-financial-results_10-29-2026"
+      },
+      {
+        "label": "Strategy Form 8-K, October 29, page 3: officer transition dates, responsibilities and stated reason",
+        "url": "https://assets.contentstack.io/v3/assets/bltf8d808d9b8cebd37/bltda11a387995866a5/6ae3a4dec7f7690f7a0f2d99/form-8-k_10-29-2026.pdf"
+      },
+      {
+        "label": "CoinDesk, October 30 at 09:41 UTC: Friday premarket trading snapshot and management transition",
+        "url": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6"
+      },
+      {
+        "label": "Barron’s, October 30: growing holdings versus bitcoin attributable per shareholder",
+        "url": "https://www.barrons.com/articles/strategy-earnings-stock-price-d9342d80"
+      }
+    ],
+    "date": "2026-10-30T12:09:57Z",
+    "dateModified": "2026-10-30T12:09:57Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1.webp",
+    "imageSmall": "assets/responsive/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1-480.webp 480w, assets/responsive/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1-960.webp 960w, assets/editorial/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1.webp 1672w"
+  },
+  {
     "id": "bp-q3-2026-profit-debt-deepwater-horizon",
     "title": "BP’s Profit Surge Shifts Attention to Debt and Its Remaining Oil-Spill Bill",
     "dek": "BP generated $14.8 billion in operating cash and cut net debt sharply. Its remaining Deepwater Horizon obligations are the next allocation test.",

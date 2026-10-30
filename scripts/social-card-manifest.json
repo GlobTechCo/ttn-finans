@@ -3387,6 +3387,39 @@
       "bytes": 188140,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/coindcx-futures-reduce-only-binance-liquidity-2026.html"
+    },
+    {
+      "page": "eurozone-q3-2026-gdp-growth-france-unemployment.html",
+      "source": "assets/editorial/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3.webp",
+      "image": "assets/social/eurozone-q3-2026-gdp-growth-france-unemployment-cover-v3-5c50a95dbbfd.webp",
+      "sha256": "5c50a95dbbfdd245736c4b6a189806283f5127bc68200c6722ec77375eba2a21",
+      "width": 1672,
+      "height": 940,
+      "bytes": 581512,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/eurozone-q3-2026-gdp-growth-france-unemployment.html"
+    },
+    {
+      "page": "meta-uk-cma-commercial-terms-publishers-probe-2026.html",
+      "source": "assets/editorial/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1.webp",
+      "image": "assets/social/meta-uk-cma-commercial-terms-publishers-probe-2026-cover-v1-2609410938f7.webp",
+      "sha256": "2609410938f7c03fdfb0a73a0196554c3d351fac45b434e2268a3a0ae35a9560",
+      "width": 1672,
+      "height": 941,
+      "bytes": 287454,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/meta-uk-cma-commercial-terms-publishers-probe-2026.html"
+    },
+    {
+      "page": "strategy-q3-2026-bitcoin-profit-cfo-transition.html",
+      "source": "assets/editorial/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1.webp",
+      "image": "assets/social/strategy-q3-2026-bitcoin-profit-cfo-transition-cover-v1-cfd9ba250f76.webp",
+      "sha256": "cfd9ba250f760fa8ad73df25cdd807d95aae952b3aa7a31238a764af5929204a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 272166,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/strategy-q3-2026-bitcoin-profit-cfo-transition.html"
     }
   ]
 }
