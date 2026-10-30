@@ -3354,6 +3354,39 @@
       "bytes": 612702,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bank-of-japan-etf-sales-860-billion-yen-2026.html"
+    },
+    {
+      "page": "bp-q3-2026-profit-debt-deepwater-horizon.html",
+      "source": "assets/editorial/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1.webp",
+      "image": "assets/social/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1-6661cc80b849.webp",
+      "sha256": "6661cc80b849966052e589c843d04efdf52022939f06e93eb0563924797b8d3b",
+      "width": 1672,
+      "height": 941,
+      "bytes": 491926,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bp-q3-2026-profit-debt-deepwater-horizon.html"
+    },
+    {
+      "page": "tokyo-electron-fy2027-profit-forecast-ai-chip-equipment.html",
+      "source": "assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp",
+      "image": "assets/social/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-ab2e4841a388.webp",
+      "sha256": "ab2e4841a3886a965bbdf82a54cac9148f096c87096e6f6b04248b2e3ef79f5f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 504274,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment.html"
+    },
+    {
+      "page": "coindcx-futures-reduce-only-binance-liquidity-2026.html",
+      "source": "assets/editorial/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1.webp",
+      "image": "assets/social/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1-f8f553109c9d.webp",
+      "sha256": "f8f553109c9d7a78b95c2fe4734236df3922a7310743d92cadf49e8e37766d53",
+      "width": 1672,
+      "height": 941,
+      "bytes": 188140,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/coindcx-futures-reduce-only-binance-liquidity-2026.html"
     }
   ]
 }

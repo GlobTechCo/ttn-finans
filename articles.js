@@ -1,6 +1,171 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "bp-q3-2026-profit-debt-deepwater-horizon",
+    "title": "BP’s Profit Surge Shifts Attention to Debt and Its Remaining Oil-Spill Bill",
+    "dek": "BP generated $14.8 billion in operating cash and cut net debt sharply. Its remaining Deepwater Horizon obligations are the next allocation test.",
+    "section": "Market Analysis",
+    "tickers": [
+      "BP"
+    ],
+    "imageAlt": "Illustrative reconstruction of BP-branded storage tanks at the documented Rotterdam Europoort complex; not a photograph of the earnings announcement.",
+    "body": [
+      "<p>BP’s quarterly profit surged as the oil major reduced net debt and turned its attention to remaining Deepwater Horizon liabilities. The results Friday put capital allocation at the center of the investment story: a stronger quarter can improve the balance sheet without making all the cash available for shareholders.</p>",
+      "<p>Underlying replacement-cost profit reached $8.46 billion, compared with $2.21 billion a year earlier and an analyst consensus of $7.33 billion, according to the Wall Street Journal. BP’s results show net debt fell to $13.9 billion from $22.3 billion in the previous quarter, with the expected Castrol sale still to close.</p>",
+      "<p>BP attributed stronger underlying earnings to higher realized refining margins and energy prices, alongside improved trading. Refining availability rose to 96.5% from 94.7% in the previous quarter. That combines a favorable operating environment with a company-specific performance improvement; neither factor alone explains every movement in the accounts.</p>",
+      "<p>The gap above the profit consensus was approximately 15%, calculated from those figures. That is a meaningful comparison with expectations, but it does not establish how much the shares should rise. As <a href=\"earnings-beat-miss-explained.html\">TTN’s guide to earnings surprises</a> explains, investors also assess recurring performance, adjustments and what management intends to do with the resources generated.</p>",
+      "<h2>Operating cash must cover competing uses</h2>",
+      "<p>BP generated $14.8 billion in operating cash flow, Reuters reported. Chief Executive Meg O’Neill said the company had reached its 2027 net-debt target a year early. BP plans to use excess cash flow to address its remaining Deepwater Horizon liabilities in full; associated payables and provisions stood at $5.94 billion, according to Reuters.</p>",
+      "<p>Those are different financial measures. Operating cash flow describes cash generated through operations before investment spending. A liability is an obligation recorded on the balance sheet. A plan to direct future surplus toward that obligation is a capital-allocation decision, rather than evidence that the entire amount has already been paid.</p>",
+      "<p>The distinction affects how readers interpret the apparently large cash total. Businesses still need to fund capital investment and other commitments. <a href=\"free-cash-flow-explained.html\">Free cash flow</a> is useful precisely because operating receipts alone do not show what remains after investment. Treating the operating cash figure as an immediately distributable pool would skip that part of the accounts.</p>",
+      "<h2>The debt reduction was substantially signaled</h2>",
+      "<p>BP had already guided investors toward quarter-end net debt of $13.5 billion to $14.5 billion in an October 13 trading update filed with the Securities and Exchange Commission. The reported $13.9 billion falls within that range. The improvement from the preceding quarter is substantial, but its broad size was anticipated before Friday’s results.</p>",
+      "<p>That filing also explains an important boundary around the debt number. BP defines net debt using finance debt and related hedge adjustments, less cash and cash equivalents. It is a company-defined financial measure, not a total of every obligation. A lower net-debt balance can therefore coexist with substantial provisions and future payments elsewhere in the accounts.</p>",
+      "<p>Friday’s results put profit attributable to BP shareholders at $4.7 billion, below the underlying figure. The company recorded $4 billion in impairments linked largely to transition businesses. Underlying replacement-cost profit adjusts for inventory effects and other items, which is why the $8.46 billion headline should not be presented as statutory net income.</p>",
+      "<p>An impairment and a cash payment also answer different questions. Reducing the recorded value of an asset changes accounting profit and the balance sheet; it does not necessarily mean an equal amount left the bank during the quarter. Conversely, settling an existing obligation can consume cash without representing a newly incurred operating expense of the same size.</p>",
+      "<h2>A legacy obligation still shapes today’s choices</h2>",
+      "<p>Deepwater Horizon refers to the 2010 Gulf oil spill and the legal and environmental obligations that followed. In 2015, the US Justice Department announced a $20.8 billion settlement covering federal and state civil claims, including Clean Water Act penalties, natural-resource damages and economic damages. The arrangements involved payments over time rather than one immediate transfer.</p>",
+      "<p>That historical total is not a shortcut for calculating today’s remaining bill. It covered several categories and payment arrangements, while BP’s current accounts reflect subsequent payments and accounting estimates. Subtracting one number from another without reconciling their scope would create a misleading estimate of what the company has paid or still owes.</p>",
+      "<p>Addressing the remaining financial liabilities would reduce a long-running claim on future cash. It would not, by itself, establish that every environmental consequence has disappeared. For shareholders, the relevant comparison is how a settlement payment changes future obligations and funding flexibility, alongside the cash needed to maintain the operating business.</p>",
+      "<p>Friday’s report therefore combines a strong earnings outcome with a more specific allocation question. BP has reduced the debt measure it targeted, while a material legacy obligation remains. The next financial disclosures will show how operating cash, investment and payments against that obligation develop. Those movements will clarify how much of the latest quarter’s strength translates into lasting flexibility.</p>"
+    ],
+    "sources": [
+      {
+        "label": "BP official third-quarter results, October 30, distributed through RNS: accounts, operating performance, impairments and allocation priorities",
+        "url": "https://www.investegate.co.uk/announcement/rns/bp--bp./3q26-bp-plc-part-1-of-1/9849203"
+      },
+      {
+        "label": "Wall Street Journal, October 30: underlying profit and analyst consensus",
+        "url": "https://www.wsj.com/business/earnings/bp-slashes-net-debt-as-earnings-soar-ba241a33"
+      },
+      {
+        "label": "Reuters, October 30: operating cash flow, debt target and remaining Deepwater Horizon liabilities",
+        "url": "https://www.reuters.com/business/bp-posts-net-income-846-bln-beating-expectations-2026-10-30/"
+      },
+      {
+        "label": "BP October 13 trading update filed with the SEC: prior debt guidance, adjustments and metric definitions",
+        "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/a6390y.htm"
+      },
+      {
+        "label": "US Justice Department, October 5, 2015: historical Deepwater Horizon civil settlement",
+        "url": "https://www.justice.gov/archives/opa/pr/us-and-five-gulf-states-reach-historic-settlement-bp-resolve-civil-lawsuit-over-deepwater"
+      }
+    ],
+    "date": "2026-10-30T09:02:18Z",
+    "dateModified": "2026-10-30T09:02:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1.webp",
+    "imageSmall": "assets/responsive/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1-480.webp 480w, assets/responsive/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1-960.webp 960w, assets/editorial/bp-q3-2026-profit-debt-deepwater-horizon-cover-v1.webp 1672w"
+  },
+  {
+    "id": "tokyo-electron-fy2027-profit-forecast-ai-chip-equipment",
+    "title": "Chip-Equipment Maker Tokyo Electron Forecasts an 87% Annual Profit Jump",
+    "dek": "Tokyo Electron’s new full-year forecast targets ¥1.169 trillion in operating profit, even as investors question returns on AI spending.",
+    "section": "Tech & AI",
+    "tickers": [
+      "8035"
+    ],
+    "imageAlt": "Illustrative reconstruction of Tokyo Electron Miyagi Development Building No. 3 and its documented TEL sign; not a photograph of the results announcement.",
+    "body": [
+      "<p>Tokyo Electron forecast an 87.1% increase in annual operating profit Friday, offering a strong sales outlook from a company that supplies the equipment used to manufacture semiconductors. Its forecast contrasts with the concern unsettling technology markets: heavy investment in artificial intelligence does not automatically produce attractive returns for the businesses buying that capacity.</p>",
+      "<p>The Japanese supplier projects operating profit of ¥1.169 trillion on revenue of ¥3.7 trillion for the fiscal year ending March 31, 2027. Forecast revenue growth is 51.4%. The company had previously left its full-year outlook undetermined, so this is a newly announced annual forecast, rather than an increase from an earlier full-year target.</p>",
+      "<p>That distinction matters when assessing the announcement. A company can outperform an existing half-year estimate while issuing its first full-year forecast. Calling both developments a guidance upgrade would obscure what investors actually knew before the release. The fiscal-year label also should not be mistaken for a forecast covering the January-to-December 2027 calendar year.</p>",
+      "<h2>The equipment supplier sits upstream from AI revenue</h2>",
+      "<p>Tokyo Electron supplies semiconductor-production equipment, rather than selling the finished chips used in computers. Its tools help chipmakers carry out manufacturing processes. Strong demand at this stage can indicate customers are investing in production capability, but it does not measure how much revenue a cloud provider ultimately earns from an AI service.</p>",
+      "<p>This position in the investment chain helps explain why supplier results and customer concerns can coexist. Equipment manufacturers can recognize sales while the companies funding large projects are still building facilities, installing capacity or finding paying users. The timing and economics of those businesses differ even when they participate in the same expansion.</p>",
+      "<p>TTN’s <a href=\"ai-capex-nasdaq-correction.html\">analysis of AI capital spending</a> examines the distinction between building infrastructure and earning an adequate return on it. Tokyo Electron’s outlook provides evidence about the upstream equipment business. It cannot, on its own, settle the separate debate over the profitability of every data center or application using that infrastructure.</p>",
+      "<h2>The latest quarter shows operating leverage</h2>",
+      "<p>In the July-to-September quarter, sales reached ¥935 billion, up 48.4% from a year earlier and 27.7% from the preceding quarter, according to the company’s results presentation. Operating income rose 86.4% year over year to ¥295.3 billion. The operating margin reached 31.6%, an increase of 6.5 percentage points from the year-earlier period.</p>",
+      "<p>Profit growing faster than sales is evidence of operating leverage in the reported period. It means the business retained a larger portion of each revenue yen after operating expenses. It does not establish that every additional sale carried the same margin or identify one cost saving as the sole explanation for the improvement.</p>",
+      "<p>The distinction between percentages and percentage points is material here. A margin measures profit as a share of revenue. A 6.5-point increase describes the change in that ratio; it is not the same as saying the margin increased by 6.5%. The reported quarterly figures point to a substantial change in profitability, alongside the higher sales base.</p>",
+      "<h2>Half-year results and the remaining delivery task</h2>",
+      "<p>For the six months ended September 30, Tokyo Electron reported sales of ¥1.667 trillion and operating income of ¥506.8 billion. Revenue exceeded its previous half-year forecast by 2.9%, while operating income was 10.6% above that estimate. These completed results provide a firmer reference point than treating the entire annual projection as already earned.</p>",
+      "<p>Subtracting those six-month results from the new full-year forecast implies approximately ¥2.033 trillion in sales and ¥662 billion in operating profit for the second half. These are TTN calculations using the published figures, not an additional quarterly forecast from management. They illustrate the scale of business still required to meet the annual target.</p>",
+      "<p>The implied second-half sales total is about 22% larger than the first half’s. That makes the remaining delivery schedule important. A strong first-half outcome supports the company’s outlook, but fulfilling the annual target still depends on sales and profitability over the following six months. The forecast should remain clearly separated from actual results.</p>",
+      "<h2>Strong suppliers do not resolve every customer concern</h2>",
+      "<p>The announcement follows <a href=\"global-stocks-selloff-ai-cash-flow-treasuries-october-2026.html\">a broader market selloff centered partly on AI spending and cash generation</a>. Friday’s forecast adds a company-specific counterpoint to that concern. It shows substantial expected equipment demand while leaving the eventual returns earned farther down the investment chain open to examination.</p>",
+      "<p>The next useful comparison will be whether subsequent results deliver the sales and margins implied by the annual plan. Tokyo Electron has supplied a concrete financial benchmark, backed by a profitable first half. For investors assessing the AI investment cycle, that is valuable evidence about one stage of production, with a different set of customers, costs and timing from the services ultimately sold to end users.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Tokyo Electron official FY2027 second-quarter financial summary, October 30: first-half actuals, new full-year forecast and stock split",
+        "url": "https://www.tel.com/ir/library/report/i61j9u00000000gf-att/fy27q2tanshin-e.pdf"
+      },
+      {
+        "label": "Tokyo Electron official FY2027 second-quarter presentation: quarterly revenue, profit and margins",
+        "url": "https://www.tel.com/ir/library/report/i61j9u00000000gf-att/fy27q2presentations-e2.pdf"
+      },
+      {
+        "label": "Reuters, October 30 at 08:15 UTC: new profit outlook amid concerns about AI investment returns",
+        "url": "https://www.reuters.com/business/retail-consumer/tokyo-electron-sees-robust-profit-growth-amid-jitters-over-ai-returns-2026-10-30/"
+      }
+    ],
+    "date": "2026-10-30T09:02:18Z",
+    "dateModified": "2026-10-30T09:02:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp",
+    "imageSmall": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-480.webp 480w, assets/responsive/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1-960.webp 960w, assets/editorial/tokyo-electron-fy2027-profit-forecast-ai-chip-equipment-cover-v1.webp 1672w"
+  },
+  {
+    "id": "coindcx-futures-reduce-only-binance-liquidity-2026",
+    "title": "CoinDCX Blocks New Futures Bets After a Liquidity Disruption Linked to Binance",
+    "dek": "CoinDCX users can reduce or close futures positions but cannot add exposure. The exchange says deposits and withdrawals continue normally.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Illustrative reconstruction of the documented CoinDCX Crypto Trading Academy classroom in New Delhi, with fictional learners; not a photograph of the trading restriction.",
+    "body": [
+      "<p>CoinDCX temporarily blocked new cryptocurrency futures positions Friday after a disruption involving a global liquidity provider. The India-based exchange placed its futures service in reduce-only mode, allowing customers to cut existing exposure while preventing them from expanding it. The restriction shows how trouble at one trading venue can affect access at another.</p>",
+      "<p>A CoinDCX spokesperson identified Binance as the affected liquidity partner in comments reported by CoinDesk. CoinDCX’s public announcement referred to a global liquidity provider without naming it. That distinction matters: the connection to Binance comes from the reported spokesperson confirmation, rather than from wording contained in the exchange’s public post.</p>",
+      "<p>The announcement arrived during the <a href=\"binance-security-investigation-stablecoin-freezes-2026.html\">separate investigation into a Binance security incident</a>. It does not establish that CoinDCX itself suffered a new theft. The immediate confirmed change is to the futures positions its customers may open or increase. CoinDCX described the measure as precautionary and said customer funds remained safe.</p>",
+      "<h2>Customers can exit, but cannot expand exposure</h2>",
+      "<p>In its October 30 announcement at 04:08 UTC, CoinDCX said users could not create new futures positions or add quantity to existing ones. Customers could still reduce or close positions and add or reduce margin. The company also said deposits and withdrawals continued normally. Those statements describe its announced operating rules and assurances.</p>",
+      "<p>Reduce-only is a limit on increasing exposure, not a rule that permits only bearish trades. Opening a new short position creates a new bet even though its owner would benefit from falling prices. Under the announced restriction, a customer cannot simply switch from trying to open a long position to creating a new short instead.</p>",
+      "<p>The distinction is easier to see with a hypothetical position. A trader holding ten contracts could submit an order that reduces the holding to six, or closes it entirely. Increasing it to twelve would add quantity. This example illustrates the announced restriction; it does not represent a particular customer account or a contract size offered by CoinDCX.</p>",
+      "<h2>Margin and position size are separate controls</h2>",
+      "<p>The ability to adjust margin does not mean customers can increase the number of contracts they hold. Margin is collateral supporting a leveraged position. Adding collateral can change the position’s buffer against adverse price movements without increasing its quantity. Removing collateral can reduce that buffer even if the market exposure remains unchanged.</p>",
+      "<p>CoinDCX’s published explanation of leverage-based position limits describes how its futures risk controls relate permissible position sizes to leverage and maintenance-margin requirements. That earlier documentation explains the general mechanism, rather than announcing Friday’s temporary restrictions. Its illustrative tables should not be treated as a new set of current limits for every contract.</p>",
+      "<p>A position that remains open can still gain or lose value while new trading is restricted. Reduce-only mode does not freeze market prices or cancel the economic risk in an existing contract. Nor does an announcement that users may close positions guarantee that every desired exit will occur at a particular price or without trading costs.</p>",
+      "<h2>Liquidity access is different from custody</h2>",
+      "<p>A trading service needs counterparties and reliable prices to execute orders. Custody concerns who holds assets and can release them. These functions interact, but they are not interchangeable. A venue can restrict the creation of leveraged positions because a trading connection is disrupted while continuing to process deposits and withdrawals through its other systems.</p>",
+      "<p>That separation explains why a futures restriction should not automatically be described as a withdrawal freeze. CoinDCX explicitly said funding access remained available. Its safety statement is nevertheless a company assurance, not a newly completed independent audit of every wallet, balance or obligation. The public update does not supply such an accounting exercise.</p>",
+      "<p>The Binance connection also does not establish that every CoinDCX product depends on one provider, or that every other exchange using external liquidity faces the same restriction. Those would require additional evidence about their arrangements. What Friday’s announcement demonstrates is a specific transmission channel: disrupted liquidity access can change the trading permissions offered to customers elsewhere.</p>",
+      "<h2>The reopening timetable remains unresolved</h2>",
+      "<p>CoinDesk reported that CoinDCX had not provided a timetable for resuming unrestricted futures trading. The public announcement directed customers to official channels for further updates. The useful next development will be a confirmed change in operating status or additional detail about the affected connection, rather than an assumed reopening based on movements in cryptocurrency prices.</p>",
+      "<p>This event is also distinct from <a href=\"coindcx-usdt-loss-old-wallet-sweep-failure-2026.html\">CoinDCX’s earlier disclosure concerning an old wallet</a>. Similar company names across incident reports do not establish a common technical cause. Friday’s evidence supports a narrower conclusion: the exchange has temporarily limited new futures exposure while saying customers can manage existing positions and continue moving funds.</p>"
+    ],
+    "sources": [
+      {
+        "label": "CoinDCX official public update, October 30 at 04:08 UTC: reduce-only rules, margin management and funding access",
+        "url": "https://x.com/CoinDCX/status/2116019284317290538"
+      },
+      {
+        "label": "CoinDesk, October 30 at 05:43 UTC: spokesperson identification of Binance and unresolved reopening schedule",
+        "url": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity"
+      },
+      {
+        "label": "CoinDCX official explanation of leverage-based position limits and tiered maintenance margin, August 7, 2024",
+        "url": "https://coindcx.com/blog/announcements/leverage-based-position-limits-tiered-maintenance-margin-on-coindcx-explained"
+      }
+    ],
+    "date": "2026-10-30T09:02:18Z",
+    "dateModified": "2026-10-30T09:02:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1-480.webp 480w, assets/responsive/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1-960.webp 960w, assets/editorial/coindcx-futures-reduce-only-binance-liquidity-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "global-stocks-selloff-ai-cash-flow-treasuries-october-2026",
     "title": "Global Stocks Slide as AI Cash Burn Sends Investors Toward Bonds",
     "dek": "Asian shares and US stock futures fell as investors questioned AI returns. Rising Treasury prices show where some of the retreating money is going.",

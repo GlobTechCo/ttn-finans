@@ -399,3 +399,12 @@ DESCRIPTIONS['bitcoin-selloff-binance-63-billion-impact-liquidations-2026'] = 'B
 
 TITLES['bank-of-japan-etf-sales-860-billion-yen-2026'] = 'Bank of Japan Raises ETF Sales Pace to ¥860 Billion'
 DESCRIPTIONS['bank-of-japan-etf-sales-860-billion-yen-2026'] = 'The central bank will more than double annual ETF sales from January. The change adds a separate policy pressure to Japan’s technology-led selloff.'
+
+TITLES['bp-q3-2026-profit-debt-deepwater-horizon'] = 'BP Profit Surge Shifts Focus to Debt and Spill Bill'
+DESCRIPTIONS['bp-q3-2026-profit-debt-deepwater-horizon'] = 'BP generated $14.8 billion in operating cash and cut net debt sharply. Its remaining Deepwater Horizon obligations are the next allocation test.'
+
+TITLES['tokyo-electron-fy2027-profit-forecast-ai-chip-equipment'] = 'Tokyo Electron Forecasts an 87% Annual Profit Jump'
+DESCRIPTIONS['tokyo-electron-fy2027-profit-forecast-ai-chip-equipment'] = 'Tokyo Electron’s new full-year forecast targets ¥1.169 trillion in operating profit, even as investors question returns on AI spending.'
+
+TITLES['coindcx-futures-reduce-only-binance-liquidity-2026'] = 'CoinDCX Blocks New Futures Bets in Liquidity Shock'
+DESCRIPTIONS['coindcx-futures-reduce-only-binance-liquidity-2026'] = 'CoinDCX users can reduce or close futures positions but cannot add exposure. The exchange says deposits and withdrawals continue normally.'

@@ -327,3 +327,11 @@ GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitcoin-selloff-bi
 RELATED['bitcoin-selloff-binance-63-billion-impact-liquidations-2026'] = ['binance-security-investigation-stablecoin-freezes-2026', 'stablecoins-explained-depeg-risk', 'bitcoin-etf-institutional-adoption']
 GROUPS['Central banks and currencies'].insert(0, 'bank-of-japan-etf-sales-860-billion-yen-2026')
 RELATED['bank-of-japan-etf-sales-860-billion-yen-2026'] = ['correlation-breakdown-diversification', 'bond-duration-explained', 'ai-capex-nasdaq-correction']
+
+# October 30 morning commissioned package.
+GROUPS['Energy, trade and global markets'].insert(0, 'bp-q3-2026-profit-debt-deepwater-horizon')
+RELATED['bp-q3-2026-profit-debt-deepwater-horizon'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'shell-q3-2026-profit-five-billion-buyback']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'tokyo-electron-fy2027-profit-forecast-ai-chip-equipment')
+RELATED['tokyo-electron-fy2027-profit-forecast-ai-chip-equipment'] = ['ai-capex-nasdaq-correction', 'intel-q3-2026-server-growth-outlook-supply', 'sk-hynix-q3-2026-ai-memory-profit']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'coindcx-futures-reduce-only-binance-liquidity-2026')
+RELATED['coindcx-futures-reduce-only-binance-liquidity-2026'] = ['binance-security-investigation-stablecoin-freezes-2026', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026', 'coindcx-usdt-loss-old-wallet-sweep-failure-2026']
