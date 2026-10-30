@@ -1,0 +1,89 @@
+{
+  "commission": "Three current TTN articles; no Instagram artwork; no social posting",
+  "reviewed_at_utc": "2026-10-30T15:56:13Z",
+  "google_trends": "US trending RSS reviewed as supplemental audience context; top items not used as evidence of finance-topic search rank. No audience-volume claims published.",
+  "selected": [
+    {
+      "id": "us-employment-cost-index-q3-2026-real-wages",
+      "section": "Market Analysis",
+      "event_time": "2026-10-30T12:30:00Z",
+      "first_reporting": "Reuters 2026-10-30T12:40:17Z",
+      "verification": "Underlying official materials read; important metrics cross-checked where available; forecasts and plans explicitly separated from realized results",
+      "image": {
+        "file": "us-employment-cost-index-q3-2026-real-wages-cover-v1.webp",
+        "generated": true,
+        "reference": null,
+        "editorial_fit": 8.3,
+        "full_and_card_review": true,
+        "notes": "Distinct natural workforce scene; scanner, hands, tape and aisle plausible; no claim of actual observed workplace"
+      }
+    },
+    {
+      "id": "capgemini-q3-2026-ai-revenue-guidance",
+      "section": "Tech & AI",
+      "event_time": "2026-10-30T06:00:00Z",
+      "first_reporting": "Reuters 2026-10-30T07:01:00Z",
+      "verification": "Underlying official materials read; important metrics cross-checked where available; forecasts and plans explicitly separated from realized results",
+      "image": {
+        "file": "capgemini-q3-2026-ai-revenue-guidance-cover-v1.webp",
+        "generated": true,
+        "reference": "https://www.reuters.com/technology/frances-capgemini-posts-lower-q1-revenue-due-market-slowdown-2024-04-30/",
+        "editorial_fit": 8.4,
+        "full_and_card_review": true,
+        "notes": "Actual Paris gate plaque, original branding and limestone facade compared with reference; no invented AI equipment"
+      }
+    },
+    {
+      "id": "anchorpoint-hkdap-solana-visa-mastercard-plans-2026",
+      "section": "Crypto",
+      "event_time": "2026-10-30; issuer PDFs date only, exact release time unavailable",
+      "first_reporting": "Oct 30; independent report clock does not establish issuer release instant",
+      "verification": "Underlying official materials read; important metrics cross-checked where available; forecasts and plans explicitly separated from realized results",
+      "image": {
+        "file": "anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1.webp",
+        "generated": true,
+        "reference": "https://www.leasinghub.com/zh/building/standard-chartered-bank-building/4",
+        "editorial_fit": 8.1,
+        "full_and_card_review": true,
+        "notes": "Documented Hong Kong bank facade and registered issuer address; no invented partner signage; corporate context, not launched payment evidence"
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "event": "Exxon/Chevron results, Waymo/Toyota, Trezor warning",
+      "reason": "Already covered in latest package"
+    },
+    {
+      "event": "Global AI stock selloff, BOJ ETF sales, Binance loss/liquidations",
+      "reason": "Already published; no duplicate explanation"
+    },
+    {
+      "event": "AbbVie Q3 results and dividend",
+      "time": "2026-10-30 before US open",
+      "primary": "https://news.abbvie.com/2026-10-30-AbbVie-Reports-Third-Quarter-2026-Financial-Results",
+      "reason": "Verified alternative; preferred new US labor-cost release for broad macro significance and section balance"
+    },
+    {
+      "event": "Balancer withdrawals-only transition",
+      "primary": "https://forum.balancer.fi/t/bip-928-orderly-winddown-of-balancer-and-distribution-of-the-treasury/7107",
+      "reason": "Old approved schedule; no independently verified fresh activation at review"
+    },
+    {
+      "event": "Polymarket third-party breach",
+      "time": "2026-10-29 18:05Z initial incident",
+      "primary": "https://www.infostealers.com/article/polymarket-breach-alert-wallet-draining-code-found-in-a-third-party-script/",
+      "reason": "Older event; safer verified issuer announcements offer fresher and distinct crypto story"
+    },
+    {
+      "event": "Safe Q3 ecosystem report",
+      "time": "2026-10-30, clock unavailable",
+      "primary": "https://safefoundation.org/reports/q3-2026",
+      "reason": "Accounting-scope change complicates headline growth comparison; issuer partnership development selected"
+    },
+    {
+      "event": "MediaTek AI demand remarks, military AI review, airline fare tools",
+      "reason": "Compared current Reuters coverage; Capgemini offers verified fresh financial targets and distinct enterprise deployment angle"
+    }
+  ]
+}

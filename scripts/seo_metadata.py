@@ -426,3 +426,11 @@ DESCRIPTIONS['waymo-toyota-bz4x-japan-robotaxi-tests-2027'] = 'Toyota will build
 
 TITLES['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = 'Trezor Warns of CryptoBilis Wallet Tampering Risk'
 DESCRIPTIONS['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = 'Trezor is warning buyers from former reseller CryptoBilis after one suspected Safe 5 implant report. It has not examined the unit or confirmed losses.'
+
+# October 30 evening commissioned package. Instagram artwork remains paused.
+TITLES['us-employment-cost-index-q3-2026-real-wages'] = 'US Pay Growth Slows as Real Wages Fall'
+DESCRIPTIONS['us-employment-cost-index-q3-2026-real-wages'] = 'US employment costs rose 0.8% in the third quarter. Slower wage growth eases one inflation pressure, while pay still trails the rise in consumer prices.'
+TITLES['capgemini-q3-2026-ai-revenue-guidance'] = 'Capgemini Raises Outlook as AI Work Lifts Demand'
+DESCRIPTIONS['capgemini-q3-2026-ai-revenue-guidance'] = 'IT consultant Capgemini lifted its 2026 sales-growth target. Acquisitions help the increase, while unchanged cash and margin goals temper the headline.'
+TITLES['anchorpoint-hkdap-solana-visa-mastercard-plans-2026'] = 'HKDAP Plans Solana and Visa–Mastercard Expansion'
+DESCRIPTIONS['anchorpoint-hkdap-solana-visa-mastercard-plans-2026'] = 'Standard Chartered-backed Anchorpoint announced plans for HKDAP on Solana and talks on card settlement. The token remains in restricted beta access.'

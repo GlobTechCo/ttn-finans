@@ -3453,6 +3453,39 @@
       "bytes": 278626,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/trezor-safe-5-cryptobilis-suspected-implant-warning-2026.html"
+    },
+    {
+      "page": "anchorpoint-hkdap-solana-visa-mastercard-plans-2026.html",
+      "source": "assets/editorial/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1.webp",
+      "image": "assets/social/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1-c22a494c3915.webp",
+      "sha256": "c22a494c39150fa8bd2d91700fe43cbf8ab7bfad693c7470534e575fc96ea4c2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 266438,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/anchorpoint-hkdap-solana-visa-mastercard-plans-2026.html"
+    },
+    {
+      "page": "capgemini-q3-2026-ai-revenue-guidance.html",
+      "source": "assets/editorial/capgemini-q3-2026-ai-revenue-guidance-cover-v1.webp",
+      "image": "assets/social/capgemini-q3-2026-ai-revenue-guidance-cover-v1-830aa0b22067.webp",
+      "sha256": "830aa0b22067e71b285afca933f8ef37ac0d1dfe6544547dc8ce2002e4c87cd7",
+      "width": 1672,
+      "height": 941,
+      "bytes": 303874,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/capgemini-q3-2026-ai-revenue-guidance.html"
+    },
+    {
+      "page": "us-employment-cost-index-q3-2026-real-wages.html",
+      "source": "assets/editorial/us-employment-cost-index-q3-2026-real-wages-cover-v1.webp",
+      "image": "assets/social/us-employment-cost-index-q3-2026-real-wages-cover-v1-0f896f6ccf48.webp",
+      "sha256": "0f896f6ccf489d26ae9a00071644b5073a4519a56f85773d71816bd206a3fa2c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 230144,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-employment-cost-index-q3-2026-real-wages.html"
     }
   ]
 }

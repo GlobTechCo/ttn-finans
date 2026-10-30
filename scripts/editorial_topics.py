@@ -351,3 +351,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'waymo-toyota
 RELATED['waymo-toyota-bz4x-japan-robotaxi-tests-2027'] = ['robotics-ai-factory-roi-2026', 'ai-investment-central-banks-interest-rates-2026', 'reliable-robotics-financing-autonomous-flight-october-20-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'trezor-safe-5-cryptobilis-suspected-implant-warning-2026')
 RELATED['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = ['electrum-483-bitcoin-wallet-security-update-2026', 'bitcoin-core-node-crash-security-fixes-october-2026', 'bloom-trading-bot-wallet-losses-reimbursement-2026']
+
+# October 30 evening commissioned package. Instagram artwork remains paused.
+GROUPS['Inflation and economic indicators'].insert(0, 'us-employment-cost-index-q3-2026-real-wages')
+RELATED['us-employment-cost-index-q3-2026-real-wages'] = ['us-gdp-q3-2026-september-spending-inflation', 'second-round-inflation-effects-explained', 'nonfarm-payrolls-jobs-report-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'capgemini-q3-2026-ai-revenue-guidance')
+RELATED['capgemini-q3-2026-ai-revenue-guidance'] = ['ai-agents-enterprise-roi-2026', 'free-cash-flow-explained', 'sap-cheaper-ai-models-cost-per-task-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'anchorpoint-hkdap-solana-visa-mastercard-plans-2026')
+RELATED['anchorpoint-hkdap-solana-visa-mastercard-plans-2026'] = ['stablecoins-explained-depeg-risk', 'hsbc-redcoin-payme-launch-october-2026', 'polygon-solana-stablecoin-bank-payments-2026']

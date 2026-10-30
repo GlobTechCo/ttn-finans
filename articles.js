@@ -1,6 +1,183 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "us-employment-cost-index-q3-2026-real-wages",
+    "title": "US Pay Growth Slows, but Workers Still Lose Purchasing Power",
+    "dek": "US employment costs rose 0.8% in the third quarter. Slower wage growth eases one inflation pressure, while pay still trails the rise in consumer prices.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of employees scanning and packing cartons at an American warehouse.",
+    "sources": [
+      {
+        "label": "BLS: September 2026 Employment Cost Index release and tables",
+        "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm"
+      },
+      {
+        "label": "BLS: Employment Cost Index concepts and coverage",
+        "url": "https://www.bls.gov/opub/hom/eci/concepts.htm"
+      },
+      {
+        "label": "CME Group / Econoday: release results and survey comparison",
+        "url": "https://www.cmegroup.com/education/events/econoday/667016"
+      },
+      {
+        "label": "Reuters: labor costs rise moderately in the third quarter",
+        "url": "https://www.aol.com/articles/us-labor-costs-rise-moderately-124017000.html"
+      }
+    ],
+    "body": [
+      "<p>US employment costs rose more slowly in the third quarter, giving inflation watchers a calmer reading on labor expenses even as workers continued to lose purchasing power. Friday’s report presents a difficult combination for households: smaller wage increases do not necessarily mean that everyday bills have become easier to afford.</p>",
+      "<p>The Employment Cost Index increased 0.8% from June through September, after a 0.9% rise in the previous quarter, the Bureau of Labor Statistics said. The result matched the Econoday survey published by CME Group. It provides evidence of moderation in one important business cost, rather than proof that the broader inflation problem has ended.</p>",
+      "<h2>A slower quarterly increase, with annual costs still rising</h2>",
+      "<p>Civilian wages and salaries increased 0.7% during the quarter, while benefit costs rose 0.9%. Over the year, total compensation increased 3.4%, unchanged from June’s annual rate. Wage growth was 3.1%, compared with a 3.9% increase in benefits. All quarterly comparisons here are seasonally adjusted; the annual comparisons are not.</p>",
+      "<p>That split matters because compensation and a paycheck are different things. Employers can spend more on insurance, retirement contributions or paid leave without putting an equivalent amount of extra cash in a worker’s bank account. Benefits have economic value, but they cannot always be redirected toward rent, groceries or an unexpected repair when a household needs the money.</p>",
+      "<p>For a business, the relevant expense is broader than the salary line. A smaller pay increase can coexist with persistent pressure on the total cost of staffing. That helps explain why softer wage growth does not automatically deliver a matching improvement in operating margins. Hiring decisions also depend on sales, productivity and the cost of the benefits attached to a position.</p>",
+      "<h2>Nominal raises are not the same as greater buying power</h2>",
+      "<p>The BLS reported that private-sector wages and salaries fell 0.6% over the year after adjusting for inflation. State and local government wages declined 0.5% on that basis. These measures describe changes in the index’s purchasing power, not a nominal pay cut for every employee or a statement that all households experienced identical inflation.</p>",
+      "<p>A worker can receive a raise and still be able to buy less if prices increase faster. The household response may involve cutting discretionary purchases, using savings or changing what it buys. Which response dominates cannot be established from the compensation index alone. The data show pressure on purchasing power, but do not measure individual budgets, debt balances or the distribution of those pressures.</p>",
+      "<p>That distinction complements <a href=\"us-gdp-q3-2026-september-spending-inflation.html\">Thursday’s report on US growth and consumer spending</a>. Output, spending and pay answer different questions. An economy can continue expanding while households face a less comfortable comparison between income and prices. Strong activity therefore does not establish that the experience of growth is equally favorable for employees, employers and investors.</p>",
+      "<h2>Why this measure differs from the monthly wage number</h2>",
+      "<p>The ECI is designed to track changes in hourly labor costs without the distortion caused by employment shifting among industries and occupations. A change in the mix of jobs can move a simple average even when the pay for comparable work has barely changed. Keeping that composition effect separate makes the index useful for assessing underlying compensation pressure.</p>",
+      "<p>Its coverage also has boundaries. The civilian measure combines private industry with state and local government, rather than representing every person who works in the United States. Federal employees, military personnel and the self-employed are outside its scope. A national figure should therefore not be read as a personalized pay benchmark for every occupation or employment arrangement.</p>",
+      "<p>The monthly <a href=\"nonfarm-payrolls-jobs-report-explained.html\">jobs report</a> remains important for employment, hours and average earnings. Reading the two releases together is more useful than expecting either to describe the entire labor market. A quarterly cost index also cannot identify the exact month in which a change occurred, making it a complement to faster indicators rather than a substitute for them.</p>",
+      "<h2>What slower labor costs can and cannot tell the Fed</h2>",
+      "<p>Moderating compensation can reduce one potential source of persistent service-price pressure. But the connection runs through productivity, margins and firms’ ability to pass costs to customers. Higher output per hour can absorb some labor-cost growth; weaker sales can prevent price increases. Neither relationship permits a mechanical conversion from a wage reading into a future inflation rate.</p>",
+      "<p>For the Federal Reserve, the useful question is whether price increases are becoming embedded in ongoing wage and pricing decisions, the mechanism explored in TTN’s guide to <a href=\"second-round-inflation-effects-explained.html\">second-round inflation effects</a>. Friday’s result offers a less heated compensation signal. It does not by itself settle the path of interest rates, establish a market reaction or remove pressure from other household expenses.</p>"
+    ],
+    "wordCount": 730,
+    "date": "2026-10-30T15:56:13Z",
+    "dateModified": "2026-10-30T15:56:13Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/us-employment-cost-index-q3-2026-real-wages-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-employment-cost-index-q3-2026-real-wages-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-employment-cost-index-q3-2026-real-wages-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-employment-cost-index-q3-2026-real-wages-cover-v1-480.webp 480w, assets/responsive/us-employment-cost-index-q3-2026-real-wages-cover-v1-960.webp 960w, assets/editorial/us-employment-cost-index-q3-2026-real-wages-cover-v1.webp 1672w"
+  },
+  {
+    "id": "capgemini-q3-2026-ai-revenue-guidance",
+    "title": "Capgemini Raises Its Outlook as Companies Pay to Make AI Work",
+    "dek": "IT consultant Capgemini lifted its 2026 sales-growth target. Acquisitions help the increase, while unchanged cash and margin goals temper the headline.",
+    "section": "Tech & AI",
+    "tickers": [
+      "CAP"
+    ],
+    "imageAlt": "Editorial reconstruction of Capgemini’s documented metal entrance plaque and iron gate at its Paris headquarters.",
+    "sources": [
+      {
+        "label": "Capgemini: full third-quarter 2026 revenue release and definitions",
+        "url": "https://investors.capgemini.com/en/publication/q3-2026-revenues/"
+      },
+      {
+        "label": "Capgemini: release schedule and earnings-call materials",
+        "url": "https://investors.capgemini.com/en/event/q3-2026-revenues/"
+      },
+      {
+        "label": "Reuters: AI deployment demand and management’s outlook comments",
+        "url": "https://www.investing.com/news/stock-market-news/capgemini-raises-2026-guidance-as-ai-push-brings-work-to-it-consultants-4985907"
+      }
+    ],
+    "body": [
+      "<p>Capgemini raised its annual revenue-growth target Friday, offering evidence that the push to introduce artificial intelligence into established businesses is generating work for IT consultants. The French group helps companies redesign processes and upgrade technology, placing it in a different part of the AI economy from the firms selling computing capacity or developing the models themselves.</p>",
+      "<p>Its update suggests that buying access to a capable AI system is only one part of the corporate spending decision. Companies also need usable data, connections to existing software and rules governing what automated tools may do. Those requirements create implementation work, even when the financial return from the finished deployment remains uncertain.</p>",
+      "<h2>The higher sales target has an acquisition component</h2>",
+      "<p>Capgemini now targets 2026 revenue growth of 9.0% to 9.5% at constant exchange rates, compared with 8.5% to 9.0% previously. Third-quarter revenue reached €6.073 billion, up 11.7% on that currency-adjusted basis. Reported growth was 12.6%. These are different comparisons, and neither removes the effect of acquisitions from the group’s sales.</p>",
+      "<p>The company estimates that acquisitions will contribute around five percentage points to annual growth. That is a substantial part of the outlook. Buying another business adds its revenue to the consolidated total, which is economically different from winning more work with the same operating base. Investors assessing AI demand need to distinguish the two before attributing the entire increase to new customer spending.</p>",
+      "<p>The distinction also affects comparisons across quarters. Revenue growth can slow when an acquired company enters the prior-year base, even if the combined business continues performing steadily. Conversely, a large reported increase can overstate the improvement in underlying demand. A useful comparison follows the business through that change in the base rather than treating each headline growth rate as directly interchangeable.</p>",
+      "<h2>Implementation spending reaches beyond the model</h2>",
+      "<p>Chief Executive Aiman Ezzat said clients were concentrating on wider AI deployment and the technology and data changes needed to support it. That is management’s account of customer demand, rather than independent proof that every implementation earns an acceptable return. Reuters reported that the group raised its outlook for the second time this year.</p>",
+      "<p>The practical work can be less visible than a chatbot demonstration. A tool that answers an employee’s question may need access to several internal systems, reliable permissions and a way to handle missing or contradictory records. Automating an action adds another requirement: a company must decide which steps can proceed without review and who remains responsible when an output is wrong.</p>",
+      "<p>For a consultant, that complexity can generate contracts. For the customer, it is part of the cost that must be recovered through better service, higher output or lower expenses. TTN’s guide to <a href=\"ai-agents-enterprise-roi-2026.html\">enterprise AI returns</a> explains why a successful demonstration and a worthwhile operating investment are separate milestones. Revenue earned by an implementation partner does not establish the client’s eventual savings.</p>",
+      "<h2>Margin and cash targets did not follow sales upward</h2>",
+      "<p>Capgemini left its operating-margin target at 13.6% to 13.8% and its organic free-cash-flow objective at roughly €1.8 billion to €1.9 billion. Bookings increased 3.4% at constant currencies, to €5.401 billion. Those figures provide additional checks on the stronger revenue outlook, while measuring different aspects of the business.</p>",
+      "<p>Bookings represent contracted work rather than revenue recognized immediately. Their timing and the duration of projects matter when judging what they imply for future sales. A contract signed during one quarter can support delivery over later periods. Comparing bookings and revenue as if they were cash arriving in the same period would obscure that distinction.</p>",
+      "<p>Unchanged cash and margin objectives also put limits on the interpretation of the upgrade. More revenue need not produce a proportionate increase in money available after investment or a higher profit margin. Delivery costs, integration work and restructuring can absorb part of the improvement. The quarter’s announcement is therefore stronger evidence of demand than of an across-the-board increase in financial targets.</p>",
+      "<p>TTN’s <a href=\"free-cash-flow-explained.html\">free-cash-flow explainer</a> is useful here because a company’s chosen cash measure needs to be read alongside its definition. Revenue, operating profit and cash flow can move differently. For a labor-intensive service provider, the timing of customer payments and delivery expenses can matter even when the underlying contract is profitable.</p>",
+      "<h2>The next test is profitable repeat business</h2>",
+      "<p>The investment question is whether today’s modernization projects become durable, profitable customer relationships. A company that upgrades its systems once may need continuing support, but that does not guarantee an indefinite increase in consulting budgets. Customers can bring work in-house, simplify a project or demand a larger share of the savings achieved through automation.</p>",
+      "<p>Capgemini’s higher outlook gives the AI debate a useful counterpoint: deployment creates work beyond building data centers. The next evidence to examine is the conversion of contracted projects into revenue and cash, with acquisitions separated from underlying progress. That comparison will be more informative than treating any AI-related sales growth as proof that the economics of the entire industry have been resolved.</p>"
+    ],
+    "wordCount": 788,
+    "date": "2026-10-30T15:56:13Z",
+    "dateModified": "2026-10-30T15:56:13Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/capgemini-q3-2026-ai-revenue-guidance-cover-v1.webp",
+    "imageSmall": "assets/responsive/capgemini-q3-2026-ai-revenue-guidance-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/capgemini-q3-2026-ai-revenue-guidance-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/capgemini-q3-2026-ai-revenue-guidance-cover-v1-480.webp 480w, assets/responsive/capgemini-q3-2026-ai-revenue-guidance-cover-v1-960.webp 960w, assets/editorial/capgemini-q3-2026-ai-revenue-guidance-cover-v1.webp 1672w"
+  },
+  {
+    "id": "anchorpoint-hkdap-solana-visa-mastercard-plans-2026",
+    "title": "Hong Kong Dollar Stablecoin Targets Solana and Visa–Mastercard Settlement",
+    "dek": "Standard Chartered-backed Anchorpoint announced plans for HKDAP on Solana and talks on card settlement. The token remains in restricted beta access.",
+    "section": "Crypto",
+    "tickers": [
+      "SOL",
+      "V",
+      "MA"
+    ],
+    "imageAlt": "Editorial reconstruction of the documented Standard Chartered Bank Building facade in Central, Hong Kong, where Anchorpoint is registered.",
+    "sources": [
+      {
+        "label": "Anchorpoint: October 30 Solana Foundation collaboration announcement",
+        "url": "https://anchorpoint.hk/uploads/2026/10/Anchorpoint-Enters-into-Strategic-Collaboration-with-Solana-Foundation-to-Explore-Expanding-Global-Access-to-HKDAP-1.pdf"
+      },
+      {
+        "label": "Anchorpoint: October 30 Mastercard and Visa exploration announcement",
+        "url": "https://anchorpoint.hk/uploads/2026/10/Anchorpoint-to-Explore-Enabling-HKDAP-as-The-First-Regulated-Stablecoin-in-Asia-Supported-Across-Both-Mastercard-and-Visas-Global-Networks.pdf"
+      },
+      {
+        "label": "HKMA: licensed stablecoin issuer register",
+        "url": "https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-licensed-stablecoin-issuers/"
+      },
+      {
+        "label": "HKMA: April licensing announcement and ownership of the issuers",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/insight/2026/04/20260410/"
+      },
+      {
+        "label": "Anchorpoint: HKDAP whitepaper, updated October 21",
+        "url": "https://anchorpoint.hk/hkdap-whitepaper/"
+      },
+      {
+        "label": "Anchorpoint: current beta status and reserve-disclosure framework",
+        "url": "https://anchorpoint.hk/transparency/"
+      }
+    ],
+    "body": [
+      "<p>Anchorpoint, the Standard Chartered-backed issuer of the Hong Kong dollar stablecoin HKDAP, announced plans Friday to expand onto Solana and explore settlement through Visa and Mastercard. The parallel initiatives aim to connect a regulated digital version of the currency with public blockchains and established payment networks, rather than confining it to a single distribution channel.</p>",
+      "<p>The announcements describe development and exploration, not a completed launch across those networks. Anchorpoint’s transparency page still identifies HKDAP as being in restricted beta access. That gap between a partnership announcement and an available service is central to understanding what changed Friday, and what customers still cannot assume is ready to use.</p>",
+      "<h2>A Hong Kong dollar token, with an identified issuer</h2>",
+      "<p>HKDAP is designed to represent HK$1 per token. The Hong Kong Monetary Authority’s register lists Anchorpoint Financial Limited as licensee FRS01, effective April 10, 2026. The regulator identifies Standard Chartered Bank (Hong Kong), HKT and Animoca Brands as the partners behind the issuer. Licensing identifies the accountable entity; it does not turn the token into a government-issued currency.</p>",
+      "<p>A stablecoin’s reference currency matters. A Hong Kong dollar token is not a US dollar token merely because both use the word dollar. A company with Hong Kong dollar receipts, expenses or assets may want settlement in that unit, while a business operating in another currency may still need conversion. Moving money onto a blockchain does not remove the need to match financial obligations with the currency being held.</p>",
+      "<p>The structure also differs from holding a speculative network token. HKDAP’s intended value comes from its relationship to reserves and redemption, rather than a promise that its price will rise. TTN’s guide to <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin backing and depeg risk</a> explains why the asset pool, legal claim and conversion process matter alongside the stated peg.</p>",
+      "<h2>Solana adds a proposed distribution route</h2>",
+      "<p>Anchorpoint said its collaboration with the Solana Foundation would support planned native issuance and redemption on Solana, with retail payments and tokenized-asset trading among the intended uses. The foundation will also join its Tokenised Money Adoption Programme. Neither the collaboration announcement nor the issuer’s current access disclosures establish a general retail launch date for the new network.</p>",
+      "<p>Native issuance means creating the issuer’s token on the destination network, rather than simply assuming that an existing token can be moved there through an unrelated bridge. For potential users, the important checks include the supported chain, official contract and distributor. A familiar name or ticker alone does not establish that a token is the issuer’s genuine product.</p>",
+      "<p>The commercial opportunity is distribution. Wallets, applications and financial services can provide ways to reach users who would not approach an issuer directly. But software compatibility is only one step. Customer eligibility, access to banking, liquidity and the terms for converting back into conventional money all affect whether a technically transferable token becomes a practical payment instrument.</p>",
+      "<h2>Card-network settlement is different from paying at every checkout</h2>",
+      "<p>In a separate release, Anchorpoint announced partnerships with Mastercard and Visa to explore adding HKDAP to their supported stablecoins. The initial focus is settlement options for card issuers. That is a potential change in how participating financial institutions settle obligations, rather than confirmation that every merchant accepting either card network now accepts HKDAP directly.</p>",
+      "<p>The distinction is consequential for consumers. A card payment can look familiar at checkout while the funding or settlement arrangements behind it change. Conversely, a stablecoin integration can be commercially important without requiring the shopper to hold a token or use a new wallet. Friday’s releases do not establish the final customer experience, available markets or complete operating terms.</p>",
+      "<p>These initiatives sit alongside other efforts to join regulated money with existing distribution. <a href=\"hsbc-redcoin-payme-launch-october-2026.html\">HSBC’s RedCoin rollout through PayMe</a> illustrates a different route to customers. The relevant comparison is how each arrangement handles access, conversion and actual use, rather than whether every announcement carries the same stablecoin label.</p>",
+      "<h2>Redemption and reserve disclosures remain separate tests</h2>",
+      "<p>Anchorpoint’s whitepaper says HKDAP reserves are held in trust for token holders, with a value required to cover outstanding tokens at par. It describes redemption through authorized distributors and an aim to process distributor requests within one business day. Blockchain transfer speed therefore should not be confused with an unconditional promise of immediate bank-account redemption for every holder.</p>",
+      "<p>The issuer currently describes its weekly reserve statements as unaudited and says periodic independent attestations will follow full launch. Those are different levels of disclosure. Its whitepaper also states that HKDAP is not legal tender or government insured. The new partnerships do not replace the need to examine those terms, and bank backing should not be interpreted as a government guarantee.</p>",
+      "<p>For the payments industry, Friday’s development is a plan to make regulated local-currency tokens useful across more systems. Evidence of execution would include a confirmed network launch, eligible distribution channels, working settlement arrangements and published operating terms. Until then, the significant change is the scope of the proposed connections, with broader customer access still to be delivered.</p>"
+    ],
+    "wordCount": 795,
+    "date": "2026-10-30T15:56:13Z",
+    "dateModified": "2026-10-30T15:56:13Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1-480.webp 480w, assets/responsive/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1-960.webp 960w, assets/editorial/anchorpoint-hkdap-solana-visa-mastercard-plans-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "exxon-chevron-q3-2026-refining-profits-cash-flow",
     "title": "Exxon and Chevron’s Refining Boom Turns Fuel Shortages Into Cash",
     "dek": "Exxon and Chevron beat profit estimates as fuel-making margins surged. Their cash windfall highlights the gap between crude supply and refinery capacity.",
