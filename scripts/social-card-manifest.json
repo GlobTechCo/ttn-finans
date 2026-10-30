@@ -3420,6 +3420,39 @@
       "bytes": 272166,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/strategy-q3-2026-bitcoin-profit-cfo-transition.html"
+    },
+    {
+      "page": "exxon-chevron-q3-2026-refining-profits-cash-flow.html",
+      "source": "assets/editorial/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1.webp",
+      "image": "assets/social/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1-bd39aae6ff60.webp",
+      "sha256": "bd39aae6ff60342ce93aff86b3090570173839668b5712a6cd3e61acc62762b5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 635640,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/exxon-chevron-q3-2026-refining-profits-cash-flow.html"
+    },
+    {
+      "page": "waymo-toyota-bz4x-japan-robotaxi-tests-2027.html",
+      "source": "assets/editorial/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1.webp",
+      "image": "assets/social/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1-06cc68037fc8.webp",
+      "sha256": "06cc68037fc8e14ffbe75c3badf31ff57509c7c2fdd602ed964727ced5719159",
+      "width": 1672,
+      "height": 941,
+      "bytes": 311478,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/waymo-toyota-bz4x-japan-robotaxi-tests-2027.html"
+    },
+    {
+      "page": "trezor-safe-5-cryptobilis-suspected-implant-warning-2026.html",
+      "source": "assets/editorial/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1.webp",
+      "image": "assets/social/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1-912012c6f66e.webp",
+      "sha256": "912012c6f66e2c29560802959bb87e43295c0526e77c42907fa96665699f34cc",
+      "width": 1672,
+      "height": 941,
+      "bytes": 278626,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/trezor-safe-5-cryptobilis-suspected-implant-warning-2026.html"
     }
   ]
 }

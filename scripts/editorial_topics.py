@@ -343,3 +343,11 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'meta-uk-cma-comme
 RELATED['meta-uk-cma-commercial-terms-publishers-probe-2026'] = ['meta-commercial-terms-crawling-publishers-clarification-2026', 'ai-search-publisher-economics-2026', 'google-news-ai-pilot-publisher-licensing-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'strategy-q3-2026-bitcoin-profit-cfo-transition')
 RELATED['strategy-q3-2026-bitcoin-profit-cfo-transition'] = ['bitcoin-etf-institutional-adoption', 'earnings-beat-miss-explained', 'free-cash-flow-explained']
+
+# October 30 afternoon commissioned package; Instagram artwork paused by owner.
+GROUPS['Energy, trade and global markets'].insert(0, 'exxon-chevron-q3-2026-refining-profits-cash-flow')
+RELATED['exxon-chevron-q3-2026-refining-profits-cash-flow'] = ['crack-spread-refining-margins-explained', 'free-cash-flow-explained', 'bp-q3-2026-profit-debt-deepwater-horizon']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'waymo-toyota-bz4x-japan-robotaxi-tests-2027')
+RELATED['waymo-toyota-bz4x-japan-robotaxi-tests-2027'] = ['robotics-ai-factory-roi-2026', 'ai-investment-central-banks-interest-rates-2026', 'reliable-robotics-financing-autonomous-flight-october-20-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'trezor-safe-5-cryptobilis-suspected-implant-warning-2026')
+RELATED['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = ['electrum-483-bitcoin-wallet-security-update-2026', 'bitcoin-core-node-crash-security-fixes-october-2026', 'bloom-trading-bot-wallet-losses-reimbursement-2026']

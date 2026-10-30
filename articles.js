@@ -1,6 +1,177 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "exxon-chevron-q3-2026-refining-profits-cash-flow",
+    "title": "Exxon and Chevron’s Refining Boom Turns Fuel Shortages Into Cash",
+    "dek": "Exxon and Chevron beat profit estimates as fuel-making margins surged. Their cash windfall highlights the gap between crude supply and refinery capacity.",
+    "section": "Market Analysis",
+    "tickers": [
+      "XOM",
+      "CVX"
+    ],
+    "imageAlt": "Editorial reconstruction of the documented ExxonMobil Beaumont refinery frontage and its installed company sign.",
+    "sources": [
+      {
+        "label": "ExxonMobil: third-quarter 2026 results",
+        "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results"
+      },
+      {
+        "label": "Chevron: third-quarter release distributed by Business Wire",
+        "url": "https://www.aol.com/articles/chevron-reports-third-quarter-2026-101500000.html"
+      },
+      {
+        "label": "Reuters: refining margins and capital-allocation interviews",
+        "url": "https://ca.marketscreener.com/news/exxon-chevron-earnings-propelled-by-war-driven-refining-surge-ce785fdbda80f725"
+      }
+    ],
+    "body": [
+      "<p>ExxonMobil and Chevron beat quarterly profit expectations Friday as the business of turning crude into usable fuel became an unusually powerful earnings engine. The results show why an oil company can benefit from a shortage of refinery capacity even when its production business faces a less favorable comparison. For households and businesses buying fuel, the same imbalance raises costs.</p>",
+      "<p>The immediate story is a refining windfall, rather than a uniform improvement across every energy business. Disruptions to global fuel supplies have made reliable operating plants more valuable. Reuters reported that conflict-related interruptions, including damage to refineries and the effective closure of the Strait of Hormuz, helped widen margins. Those conditions can reward available capacity without signaling that the broader economy is strengthening.</p>",
+      "<h2>Fuel-making profits move to the foreground</h2>",
+      "<p>Exxon reported $15.4 billion in third-quarter net income and $17.5 billion on its adjusted measure. Its Energy Products division generated $7.169 billion in reported earnings, narrowly exceeding the $7.088 billion earned by upstream production. On the adjusted basis, Energy Products contributed $9.053 billion against upstream’s $7.308 billion. The ranking holds under both definitions, although the amounts differ substantially.</p>",
+      "<p>That distinction matters for comparisons. Reported earnings incorporate items that management excludes from adjusted results, and investors should not mix one segment’s adjusted number with another segment’s reported number. The segment tables show a business whose earnings composition shifted toward fuel manufacturing, alongside a total profit number that needs its accounting definition attached.</p>",
+      "<p>A refinery buys or receives crude and converts it into products such as gasoline and diesel. Its economics depend partly on the difference between input costs and product prices. TTN’s explanation of the <a href=\"crack-spread-refining-margins-explained.html\">crack spread</a> describes that relationship before many operating costs. Expensive crude alone therefore does not establish that a refinery is enjoying a better margin; the price of the finished fuel also matters.</p>",
+      "<h2>High utilization makes available capacity count</h2>",
+      "<p>Exxon said its US Gulf Coast refineries achieved 100% crude-unit utilization during the quarter. Chevron reported nearly 98% utilization at its US refineries and record crude throughput of roughly 1.09 million barrels a day. Running an existing plant reliably can bring a quicker supply response than building an entirely new refinery, which requires investment, construction and a much longer planning horizon.</p>",
+      "<p>Chevron’s reported downstream earnings reached $4.931 billion, compared with $1.137 billion a year earlier. Its total reported earnings were $9.924 billion, while adjusted profit was approximately $10.4 billion, or $5.28 per diluted share. Downstream includes more than the physical act of refining, so its earnings should not be treated as a direct measurement of the margin on each barrel processed.</p>",
+      "<p>The company also reported lower total oil-equivalent production than a year earlier. That combination is useful: stronger earnings can reflect better realizations and margins even without greater overall output. An investor looking only at barrels produced would miss a substantial part of the quarter’s financial change. Conversely, higher profit does not demonstrate that physical supply constraints have disappeared.</p>",
+      "<h2>Cash generation and shareholder payments are separate decisions</h2>",
+      "<p>Exxon generated $25.7 billion in operating cash flow and $19.1 billion in company-defined free cash flow. Its shareholder distributions totaled $9.4 billion. Chevron reported $16.0 billion in operating cash flow and $12.0 billion in free cash flow. These are related measures, but neither earnings nor operating cash alone represents the amount that can be distributed after investment and other obligations.</p>",
+      "<p>Company definitions also deserve attention. As TTN’s <a href=\"free-cash-flow-explained.html\">free-cash-flow guide</a> explains, the treatment of investment, disposals and working capital can affect comparisons. Chevron separately reported an adjusted cash-flow measure that includes additional adjustments. Comparing like-for-like measures is more informative than choosing whichever presentation makes the quarter look strongest.</p>",
+      "<p>Both firms used the favorable conditions to strengthen their balance sheets. Reuters reported that Exxon reduced debt by $8 billion during the quarter; Chevron’s release put its quarterly net-debt reduction at $7.8 billion. Debt repayment preserves financial room for weaker markets. It also means that a large increase in quarterly cash does not automatically flow through to an equally large increase in shareholder payouts.</p>",
+      "<h2>A strong quarter does not settle the next one</h2>",
+      "<p>Exxon announced planned 2027 share repurchases of $20 billion, subject to reasonable market conditions. That is a future allocation plan, separate from cash already returned this quarter. Refining profits can change as damaged capacity returns, fuel demand shifts or input and product prices move at different speeds. High utilization is valuable, but it also leaves less unused equipment available to provide an immediate increase in output.</p>",
+      "<p>For US investors, Friday’s reports sharpen the distinction between owning an integrated energy producer and taking a view on crude prices alone. Production, fuel manufacturing, financing and capital allocation can pull earnings in different directions. The next useful comparison is whether strong operating performance and balance-sheet improvement persist as supply conditions change, rather than whether this quarter’s exceptional margins can simply be repeated.</p>"
+    ],
+    "wordCount": 777,
+    "date": "2026-10-30T13:49:45Z",
+    "dateModified": "2026-10-30T13:49:45Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1.webp",
+    "imageSmall": "assets/responsive/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1-480.webp 480w, assets/responsive/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1-960.webp 960w, assets/editorial/exxon-chevron-q3-2026-refining-profits-cash-flow-cover-v1.webp 1672w"
+  },
+  {
+    "id": "waymo-toyota-bz4x-japan-robotaxi-tests-2027",
+    "title": "Waymo and Toyota Pick the bZ4X for a Robotaxi Push Beyond the US",
+    "dek": "Toyota will build Waymo-equipped bZ4X vehicles in Japan. Testing starts in 2027, while fleet size, launch locations and commercial timing remain open.",
+    "section": "Tech & AI",
+    "tickers": [
+      "GOOGL",
+      "TM"
+    ],
+    "imageAlt": "Illustration based on Toyota’s announced bZ4X Waymo vehicle design, shown parked at a representative testing facility; not a deployed Japanese fleet.",
+    "sources": [
+      {
+        "label": "Toyota and Waymo: October 30 collaboration announcement",
+        "url": "https://global.toyota/en/newsroom/corporate/44960881.html"
+      },
+      {
+        "label": "Reuters: proposed markets, testing and undisclosed deployment details",
+        "url": "https://www.reuters.com/world/asia-pacific/toyota-waymo-test-autonomous-bz4xs-japan-2027-eye-overseas-expansion-2026-10-30/"
+      },
+      {
+        "label": "Toyota and Waymo: original April 2025 preliminary agreement",
+        "url": "https://global.toyota/en/newsroom/corporate/42703368.html"
+      },
+      {
+        "label": "NHTSA: driving-automation levels",
+        "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety"
+      }
+    ],
+    "body": [
+      "<p>Waymo and Toyota outlined a manufacturing and testing plan Friday that moves their robotaxi partnership beyond an exploratory agreement. Toyota will build a Waymo-equipped version of its bZ4X electric vehicle in Japan, with initial testing and validation planned for 2027. The announcement gives the project a vehicle and a production site, while leaving important commercial questions unanswered.</p>",
+      "<p>The distinction between a testing milestone and a launched ride-hailing service is central. A factory can prepare vehicles before a fleet is ready to carry paying passengers across a defined area. Neither a future test date nor an announced international ambition establishes that the companies have completed the operational work required for a commercial service.</p>",
+      "<h2>Manufacturing joins the autonomous-driving plan</h2>",
+      "<p>Toyota said assembly and integration of Waymo’s autonomous-driving hardware will happen at its Takaoka plant in Toyota City, Aichi Prefecture. Bringing those steps under one roof makes the manufacturing arrangement more specific than a plan to adapt finished vehicles elsewhere. The companies also identified automatic doors, a powered liftgate and additional rear-seat space as features of the proposed vehicle.</p>",
+      "<p>The commercial significance lies in repeatability. A fleet operator needs vehicles it can acquire, maintain and replace consistently, rather than a collection of individually adapted prototypes. Integrating hardware into a factory process can support that goal, but the announcement does not quantify the cost reduction, production rate or maintenance savings it will deliver. Those outcomes remain to be demonstrated.</p>",
+      "<p>This is also a different kind of AI investment from buying additional computing capacity. Hardware, software and manufacturing have to function as one transport system. TTN’s discussion of <a href=\"robotics-ai-factory-roi-2026.html\">the economics of deploying physical AI</a> offers a relevant comparison: a working demonstration and a repeatable business operation answer different questions about reliability and return on investment.</p>",
+      "<h2>Japan comes before broader deployment</h2>",
+      "<p>The companies’ sequence begins with Japanese testing and validation in 2027, followed by planned deployment in the United Kingdom and other Waymo-serviced markets in subsequent years. The announcement does not give a universal launch date. Reading the sequence as an immediate international rollout would erase the development and validation stage that the companies explicitly describe.</p>",
+      "<p>Reuters reported that Waymo co-CEO Dmitri Dolgov identified Japan and Britain as the initial right-hand-drive markets. The companies did not disclose the starting fleet size or Japanese operating locations, and Toyota executive Hiroki Nakajima described a small initial operation. Reuters also reported that Waymo’s existing Jaguar I-PACE testing program in Japan would continue toward a planned 2027 pilot.</p>",
+      "<p>Those missing details affect the scale of the opportunity. A limited test fleet can establish useful engineering evidence without producing a meaningful commercial revenue stream. The number of vehicles, service geography, available operating hours and eventual utilization would all be needed to evaluate a transport business. Friday’s announcement provides a direction for expansion, rather than enough information to calculate its economics.</p>",
+      "<h2>Level 4 describes a bounded operating capability</h2>",
+      "<p>Toyota describes the collaboration as targeting Level 4 autonomous vehicles. Under the US National Highway Traffic Safety Administration’s explanation, Level 4 systems perform the driving task within limited service areas without requiring occupants to drive. That is different from Level 5 automation, which is defined as universal operation across conditions and roads. The distinction prevents a limited deployment from being mistaken for unrestricted autonomy.</p>",
+      "<p>Driver-assistance features sold in ordinary cars create another potential source of confusion. A system that helps steer or control speed can still require an attentive driver. An autonomous ride-hailing fleet has a different operating model and validation burden. The use of a recognizable Toyota model does not mean a retail buyer will receive Waymo’s driverless capability by purchasing a standard bZ4X.</p>",
+      "<p>The companies continue to explore technology for personally owned vehicles, but that remains a separate strand of the collaboration. Their original April 2025 announcement proposed exploring both an autonomous platform and applications for private vehicles. Friday’s factory and test plan makes the fleet project more concrete; it does not turn the private-car research into an announced consumer product.</p>",
+      "<h2>The investment test comes after the vehicle announcement</h2>",
+      "<p>For Alphabet shareholders, Waymo’s expansion offers another way to assess the company’s long-term AI spending. It reaches beyond selling advertising or cloud services into operating a physical service. The relevant costs include vehicles and sensors, plus the work needed to keep a fleet usable. Friday’s materials provide no project revenue forecast, vehicle purchase volume or profitability timetable.</p>",
+      "<p>That limits what can reasonably be inferred about near-term earnings. A manufacturing partnership can remove an obstacle to scaling while leaving demand, cost and operational questions open. TTN’s <a href=\"ai-investment-central-banks-interest-rates-2026.html\">analysis of AI investment and financing costs</a> explains why the cost of capital also matters when projects require substantial spending before their returns are visible.</p>",
+      "<p>The next milestones are therefore practical: the start of validation, confirmation of operating locations and fleet size, and a clearer transition from testing to service. Toyota and Waymo have advanced the project from a preliminary intention to an identified vehicle and factory arrangement. Investors and potential passengers will need those subsequent disclosures to judge how quickly it becomes a functioning international ride-hailing business.</p>"
+    ],
+    "wordCount": 815,
+    "date": "2026-10-30T13:49:45Z",
+    "dateModified": "2026-10-30T13:49:45Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1.webp",
+    "imageSmall": "assets/responsive/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1-480.webp 480w, assets/responsive/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1-960.webp 960w, assets/editorial/waymo-toyota-bz4x-japan-robotaxi-tests-2027-cover-v1.webp 1672w"
+  },
+  {
+    "id": "trezor-safe-5-cryptobilis-suspected-implant-warning-2026",
+    "title": "Trezor Warns CryptoBilis Buyers After Suspected Wallet Hardware Tampering",
+    "dek": "Trezor is warning buyers from former reseller CryptoBilis after one suspected Safe 5 implant report. It has not examined the unit or confirmed losses.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC"
+    ],
+    "imageAlt": "Illustrative product scene showing an intact Trezor Safe 5 beside a delivery carton; not the reported device or evidence of an implant.",
+    "sources": [
+      {
+        "label": "Trezor: incident notice and affected-purchaser guidance",
+        "url": "https://trezor.io/blog/news/implant-reported-in-a-trezor-sold-by-cryptobilis"
+      },
+      {
+        "label": "Decrypt: report and scope of the investigation",
+        "url": "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5"
+      },
+      {
+        "label": "Trezor: why a hardware-wallet display matters",
+        "url": "https://trezor.io/blog/insights/Why-your-hardware-wallet-needs-a-screen"
+      },
+      {
+        "label": "Trezor: sending funds and address verification",
+        "url": "https://trezor.io/guides/sending-receiving-staking-funds/sending-receiving/send-crypto-in-trezor-suite"
+      }
+    ],
+    "body": [
+      "<p>Trezor warned customers Friday about a suspected hardware implant in a Safe 5 cryptocurrency wallet sold through former reseller CryptoBilis. The manufacturer has not received the unit for laboratory examination and has not confirmed the reported modification. It is nevertheless treating the account as credible and issuing precautionary guidance, bringing attention to the physical supply chain behind self-custody.</p>",
+      "<p>The warning concerns the route through which a wallet reached its owner, rather than an announced failure of the underlying Bitcoin network. That difference matters for readers deciding what the incident means. A compromised device can create a serious individual risk without establishing that every device of the same model, every seller or a blockchain itself has been compromised. Device integrity and <a href=\"bitcoin-core-node-crash-security-fixes-october-2026.html\">node-software security</a> are separate layers.</p>",
+      "<h2>One report, with important limits to the evidence</h2>",
+      "<p>The company’s notice says an Indonesian customer reported the device on October 28 after buying it through CryptoBilis on Tokopedia in August. Trezor reviewed the account, photographs and a video interview before publishing its October 30 warning. The unit’s physical examination is still outstanding, so the suspected mechanism should be described as an allegation under investigation, rather than a completed forensic finding.</p>",
+      "<p>Decrypt reported that Trezor had already inspected four other devices obtained from CryptoBilis and found no evidence of tampering. The company removed the reseller on October 9 after concerns involving another manufacturer’s wallets. Those earlier checks are relevant context, but a small set of unaffected devices cannot establish the condition of every unit that passed through a seller’s inventory.</p>",
+      "<p>Trezor says no CryptoBilis customer has reported a loss of funds to it and that it has no reports involving another reseller. Those are carefully limited statements about the information available to the company. They should not be expanded into either a claim that losses have occurred or a guarantee that every potentially exposed buyer is unaffected.</p>",
+      "<h2>The reported mechanism targets information on the screen</h2>",
+      "<p>The allegation describes an additional board between the wallet’s main board and display, with a cellular module and antenna. According to the account summarized by Decrypt, it could read displayed information, including backup words, and transmit that information through a mobile network. Trezor has not independently verified that operation. It has also not identified who is responsible.</p>",
+      "<p>The potential significance is easier to understand from the display’s normal role. Trezor’s own technical explanation describes the device screen as a place to verify transaction information independently of an internet-connected computer. A separate display helps protect against malicious software that shows a legitimate address on a computer while substituting another address for the transaction being signed.</p>",
+      "<p>Physical interference with that display path raises a different question from ordinary malware on a laptop. If secret backup information were copied while it appeared on a device, keeping the normal signing keys offline would not by itself undo that disclosure. This is the security implication of the alleged mechanism, conditional on laboratory confirmation; it is not proof that the reported unit successfully transmitted a customer’s backup.</p>",
+      "<h2>A replacement device is different from a new wallet</h2>",
+      "<p>Trezor’s guidance covers all of its models supplied by CryptoBilis from March 2026 onward, rather than only the Safe 5 named in the report. It tells affected owners to move funds to a newly created wallet with a new backup and tells buyers who have not configured their device not to set it up. Replacement devices or vouchers are being offered through support.</p>",
+      "<p>The distinction between moving a device and moving funds is fundamental. Backup words are credentials for restoring access, not a protective label attached only to one piece of hardware. Importing the same potentially exposed backup into a replacement device preserves access to the same wallet. Creating a fresh wallet and transferring assets changes that relationship. The manufacturer’s guidance addresses that credential risk rather than merely swapping the casing.</p>",
+      "<p>A transfer also introduces ordinary transaction risks. Trezor’s sending documentation emphasizes choosing the correct network and checking the complete receiving address against its original source. It warns that addresses copied from transaction history can be misleading because of address-poisoning attacks. Those checks remain relevant during an urgent response, when a hurried transaction can create a separate loss even if the original security concern is avoided.</p>",
+      "<h2>Supply-chain risk changes the self-custody comparison</h2>",
+      "<p>Self-custody reduces dependence on an exchange holding assets on a customer’s behalf, but it transfers important responsibilities to the owner. Hardware origin, backup handling and transaction verification become part of the security arrangement. TTN’s coverage of <a href=\"electrum-483-bitcoin-wallet-security-update-2026.html\">a separate wallet-software vulnerability</a> illustrates why software and physical-device risks need distinct remedies.</p>",
+      "<p>The incident also creates an opportunity for impersonators. A legitimate support process should not be confused with messages asking a customer to disclose backup words. Security warnings can increase the urgency of communications, which makes the source and requested action especially important. The company’s incident page is the direct reference for its response, rather than an unsolicited instruction arriving by email or phone.</p>",
+      "<p>The decisive next development will be Trezor’s examination of the reported unit and any confirmed change in the affected population. Until then, the useful distinction is between a credible precautionary warning and a verified account of exploitation. The report challenges assumptions about delivery and reseller controls; it does not establish a system-wide breach of hardware wallets or a failure of Bitcoin’s transaction validation.</p>"
+    ],
+    "wordCount": 855,
+    "date": "2026-10-30T13:49:45Z",
+    "dateModified": "2026-10-30T13:49:45Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "editorialNote": null,
+    "image": "assets/editorial/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1-480.webp 480w, assets/responsive/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1-960.webp 960w, assets/editorial/trezor-safe-5-cryptobilis-suspected-implant-warning-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "eurozone-q3-2026-gdp-growth-france-unemployment",
     "title": "Eurozone Growth Beats Forecasts, but France Contracts and Unemployment Rises",
     "dek": "Eurozone GDP grew 0.4% in the third quarter. A French contraction, rising unemployment counts and higher inflation forecasts complicate the outlook.",

@@ -417,3 +417,12 @@ DESCRIPTIONS['meta-uk-cma-commercial-terms-publishers-probe-2026'] = 'The CMA is
 
 TITLES['strategy-q3-2026-bitcoin-profit-cfo-transition'] = 'Strategy Bitcoin Profit Meets Dilution and CFO Exit'
 DESCRIPTIONS['strategy-q3-2026-bitcoin-profit-cfo-transition'] = 'Strategy’s bitcoin holdings rose 26%, yet its BTC-per-share measure fell. A planned CFO transition adds another test for its financing model.'
+
+TITLES['exxon-chevron-q3-2026-refining-profits-cash-flow'] = 'Exxon, Chevron Profit From a Refining Boom'
+DESCRIPTIONS['exxon-chevron-q3-2026-refining-profits-cash-flow'] = 'Exxon and Chevron beat profit estimates as fuel-making margins surged. Their cash windfall highlights the gap between crude supply and refinery capacity.'
+
+TITLES['waymo-toyota-bz4x-japan-robotaxi-tests-2027'] = 'Waymo, Toyota Plan bZ4X Robotaxi Tests in Japan'
+DESCRIPTIONS['waymo-toyota-bz4x-japan-robotaxi-tests-2027'] = 'Toyota will build Waymo-equipped bZ4X vehicles in Japan. Testing starts in 2027, while fleet size, launch locations and commercial timing remain open.'
+
+TITLES['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = 'Trezor Warns of CryptoBilis Wallet Tampering Risk'
+DESCRIPTIONS['trezor-safe-5-cryptobilis-suspected-implant-warning-2026'] = 'Trezor is warning buyers from former reseller CryptoBilis after one suspected Safe 5 implant report. It has not examined the unit or confirmed losses.'
