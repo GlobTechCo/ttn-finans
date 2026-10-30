@@ -12,7 +12,7 @@ entries=json.loads(raw[match.start():end+1]);ids={a['id'] for a in entries}
 now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
 new=[]
 for file in sorted(pkg.glob('*-seo.json')):
-    spec=json.loads(file.read_text());slug=spec['slug'];section=spec['section']
+    spec=json.loads(file.read_text());slug=spec['slug'];section=spec['section'];canonical_section='Tech & AI' if section=='Tech & AI' else 'Market Analysis'
     if slug in ids or (root/(slug+'.html')).exists():sys.exit('Duplicate '+slug)
     fragment=BeautifulSoup((pkg/(slug+'-fragment.html')).read_text(),'html.parser')
     body=fragment.select_one('.editorial-body');dek=fragment.select_one('.editorial-dek')
@@ -55,11 +55,11 @@ for file in sorted(pkg.glob('*-seo.json')):
     if canon:canon['href']=url
     schema=soup.select_one('script[type="application/ld+json"]')
     if schema:
-        obj=json.loads(schema.string);obj.update({'headline':title,'description':description,'datePublished':now,'dateModified':now,'mainEntityOfPage':url,'image':image,'articleSection':section});schema.string=json.dumps(obj,ensure_ascii=False)
+        obj=json.loads(schema.string);obj.update({'headline':title,'description':description,'datePublished':now,'dateModified':now,'mainEntityOfPage':url,'image':image,'articleSection':canonical_section});schema.string=json.dumps(obj,ensure_ascii=False)
     for node in main.select('details, aside.editorial-related'):node.decompose()
     (root/(slug+'.html')).write_text(str(soup))
     sources=[{'label':a.get_text(' ',strip=True),'url':a['href']} for a in fragment.select('a[href^="https://"]')]
-    new.append({'id':slug,'title':title,'dek':dek.get_text(' ',strip=True),'section':'Tech & AI' if section=='Tech & AI' else 'Market Analysis','tickers':[],'imageAlt':hero['alt'],'date':now,'author':'TTN Research Desk','format':'news' if section!='Tech & AI' else 'explainer','image':spec['image'],'body':[str(n) for n in body.find_all(['p','h2'],recursive=False)],'sources':sources})
+    new.append({'id':slug,'title':title,'dek':dek.get_text(' ',strip=True),'section':canonical_section,'tickers':[],'imageAlt':hero['alt'],'date':now,'author':'TTN Research Desk','format':'news' if section!='Tech & AI' else 'explainer','image':spec['image'],'body':[str(n) for n in body.find_all(['p','h2'],recursive=False)],'sources':sources})
     print('Article ready:',slug,flush=True)
 (root/'articles.js').write_text(raw[:match.start()]+json.dumps(new+entries,ensure_ascii=False,indent=2)+raw[end+1:])
 for command in [['python3','scripts/refresh_static_editorial.py'],['python3','scripts/refresh_seo_metadata.py'],['python3','scripts/audit_article_lengths.py'],['python3','scripts/verify_site.py'],['node','scripts/test-independent-loading.cjs'],['node','scripts/test-navigation.cjs']]:
