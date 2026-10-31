@@ -219,3 +219,14 @@ html:not([data-theme="dark"]) .static-page .editorial-body > p{
  color:#202020;margin-bottom:23px;
 }
 html:not([data-theme="dark"]) .static-page .editorial-body > p a{color:#1359a8}
+
+/* Approved dark-theme article body typography; other UI elements unchanged. */
+html[data-theme="dark"] .static-page .editorial-body > p{
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:19px;
+  font-weight:400;
+  line-height:1.55;
+  letter-spacing:normal;
+  color:#D5DFEB;
+  margin-bottom:23px;
+}
