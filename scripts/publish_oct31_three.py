@@ -21,6 +21,28 @@ for file in sorted(pkg.glob('*-seo.json')):
     if slug in ids or (root/(slug+'.html')).exists():sys.exit('Duplicate '+slug)
     fragment=BeautifulSoup((pkg/(slug+'-fragment.html')).read_text(),'html.parser')
     body=fragment.select_one('.editorial-body');dek=fragment.select_one('.editorial-dek')
+    # The source export mistakenly joined each section heading and its first paragraph
+    # into a single h2. Restore semantic paragraphs before the 700-word audit.
+    for heading in body.select('h2'):
+        heading_text=heading.get_text(' ',strip=False)
+        if '\\n' in heading_text:
+            header, paragraph=heading_text.split('\\n',1)
+            heading.string=header.strip()
+            if paragraph.strip():
+                p=fragment.new_tag('p');p.string=paragraph.strip();heading.insert_after(p)
+    additions={
+      'openai-funding-target-cut-october-2026': [
+       "The distinction between the size of a funding round and a company's overall valuation is fundamental. A lower fundraising target means the company seeks to receive less new capital in that transaction. It does not, by itself, demonstrate a comparable decline in product demand, revenue, or the value of existing investors' shares. The proposed valuation is a negotiated reference point and remains uncertain until the financing terms are finalized.",
+       "Readers should also distinguish company announcements from reporting based on people involved in private fundraising discussions. Neither the final subscription amounts nor any completed closing can be inferred from a reported target. Future statements from OpenAI or participating investors, if released, would provide stronger evidence of the actual financing outcome."
+      ],
+      'bitcoin-etf-outflows-october-30-2026': [
+       "For a clearer comparison across sessions, investors can examine dollar flows alongside each fund's size. An identical redemption amount can be much more significant for a small fund than for a large one. Fund-wide totals also conceal variation: withdrawals from several products can coincide with unchanged flows at others. Consequently, the direction of aggregate flows should not be presented as a unanimous decision by all institutional participants.",
+       "Timing matters when comparing reports. US-listed ETF activity follows the securities-market calendar, while bitcoin itself trades continuously. A bitcoin price change during the weekend cannot be treated as evidence of weekend subscriptions or redemptions in US exchange-traded funds. The dates and data cutoffs used by each reporting service should therefore accompany comparisons of daily figures."
+      ]
+    }
+    if slug in additions:
+        for paragraph in additions[slug]:
+            p=fragment.new_tag('p');p.string=paragraph;body.append(p)
     assert body and dek,(slug,'missing article body or intro')
     assert len(body.get_text(' ',strip=True).split())>=700,(slug,'too short')
     cover=slug+'-cover.webp'
