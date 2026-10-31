@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T14:36:13.400602+00:00",
+  "generatedAt": "2026-10-31T18:43:55.111802+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,19 +35,187 @@
   ],
   "items": [
     {
-      "title": "Social Security’s fate — and your benefits — are in the hands of the candidates elected this year",
-      "desc": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
-      "link": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-13598905",
-      "pubDate": "2026-10-31T14:35:00+00:00",
+      "title": "YPF Sociedad Anónima (YPF) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4959693-ypf-sociedad-anonima-ypf-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T18:38:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "desc": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+      "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-24279758",
+      "pubDate": "2026-10-31T18:33:00+00:00",
       "source": "MarketWatch"
     },
     {
-      "title": "Why Consistent Cash Flow Wins",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959970-why-consistent-cash-flow-wins?source=feed_all_articles",
+      "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+      "desc": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and is planning to resume withdrawals, subject to security checks.",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
       "image": null,
-      "pubDate": "2026-10-31T14:30:00+00:00",
+      "pubDate": "2026-10-31T18:12:09+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Caregivers are now spending more than $11,000 a year out of pocket—up 60% in five years",
+      "desc": "An AARP study shows the financial sacrifices families make and their long-term impacts.",
+      "link": "https://www.marketwatch.com/story/were-spending-more-than-11-000-a-year-of-our-own-money-caring-for-our-aging-parents-and-loved-ones-8fc5b2dc?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-86491605",
+      "pubDate": "2026-10-31T18:10:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Alphabet: Noisy Q3 Metrics Meet Outsized Cloud Opportunities - Deep Value Buy",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960433-alphabet-noisy-q3-metrics-meet-outsized-cloud-opportunities-deep-value-buy?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T18:00:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "HKBN Ltd. (HKBNY) Q4 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960656-hkbn-ltd-hkbny-q4-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:58:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ichor Holdings: Why The Recent Selloff May Have Gone Too Far",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960653-ichor-holdings-why-the-recent-selloff-may-have-gone-too-far?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:43:38+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Puig Brands, S.A. (PUGBY) Analyst/Investor Day Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960548-puig-brands-s-a-pugby-analyst-investor-day-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:38:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "American Electric Power: Texas Could Make It Even Bigger",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960651-aep-texas-could-make-it-even-bigger?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:30:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Eastman Chemical Company 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960655-eastman-chemical-company-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:30:35+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Meta builds humanoid robot with China’s Fourier as home robot push expands: report",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/meta-builds-humanoid-robot-with-chinas-fourier-as-home-robot-push-expands-report-4989306",
+      "image": "https://content-media.investing.com/news/moved_LYNXMPEL3M0V8_L.jpg",
+      "pubDate": "2026-10-31T17:29:26+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Medicare used AI to pre-approve patient care, and it immediately led to a large drop in medical services",
+      "desc": "Medicare is testing the use of AI to conduct prior authorizations to target wasteful medical spending",
+      "link": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-74822336",
+      "pubDate": "2026-10-31T17:26:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Verici Dx plc (VRCDF) Shareholder/Analyst Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960654-verici-dx-plc-vrcdf-shareholder-analyst-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:08:30+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "MGM Resorts: Vegas Weakness Hurts Earnings, But Valuation Keeps Us Bullish",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960649-mgm-resorts-vegas-weakness-hurts-earnings-but-valuation-keeps-us-bullish?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T17:06:55+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "SpaceX exec says she'll donate 2 million shares to kids from low-income families. See who's eligible.",
+      "desc": "",
+      "link": "https://www.businessinsider.com/spacex-stock-children-trump-accounts-gwynne-shotwell-2026-10",
+      "image": null,
+      "pubDate": "2026-10-31T16:58:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Terex Corporation: Portfolio Reorganization Likely To Improve Valuation Into 2027",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960648-terex-corporation-portfolio-reorganization-likely-to-improve-valuation-into-2027?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:57:53+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "80% of workers make this 401(k) mistake when they retire",
+      "desc": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
+      "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-26475652",
+      "pubDate": "2026-10-31T16:46:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Binance says it's replenished losses after a record-breaking heist and will soon let users withdraw funds",
+      "desc": "",
+      "link": "https://www.businessinsider.com/binance-hack-heist-crypto-security-2026-10",
+      "image": null,
+      "pubDate": "2026-10-31T16:42:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Ambev Q3: The Day After The Hangover (Rating Downgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960647-ambev-q3-the-day-after-the-hangover-rating-downgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:41:23+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Woolworths Group Limited (WOLWF) Shareholder/Analyst Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960518-woolworths-group-limited-wolwf-shareholder-analyst-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:28:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "The 1-Minute Market Report October 31, 2026",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960646-the-1-minute-market-report-october-31-2026?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:21:45+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says-4989297",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9U0EE_L.jpg",
+      "pubDate": "2026-10-31T16:18:20+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Lumentum: Buy Before Earnings And A Potential Takeover (Rating Downgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960644-lumentum-buy-before-earnings-and-a-potential-takeover-rating-downgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:16:11+00:00",
       "source": "Seeking Alpha"
     },
     {
@@ -55,80 +223,232 @@
       "desc": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
       "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
       "image": null,
-      "pubDate": "2026-10-31T14:26:29+00:00",
+      "pubDate": "2026-10-31T16:13:06+00:00",
       "source": "CNBC Markets"
     },
     {
-      "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
-      "desc": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
-      "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-56448073",
-      "pubDate": "2026-10-31T14:26:00+00:00",
+      "title": "Binance restores 90% of stolen crypto assets",
+      "desc": "",
+      "link": "https://seekingalpha.com/news/4661860-binance-restores-90-percent-stolen-crypto-assets?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+      "image": null,
+      "pubDate": "2026-10-31T16:11:19+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Jerónimo Martins, SGPS, S.A. (JRONY) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960650-jeronimo-martins-sgps-s-a-jrony-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:08:33+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Microsoft Q1: CROCI Says My 'Trim, Not Exit' Thesis Remains Firmly In Place",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960643-microsoft-q1-croci-says-my-trim-not-exit-thesis-remains-firmly-in-place?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T16:07:02+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+      "desc": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-39326019",
+      "pubDate": "2026-10-31T16:02:00+00:00",
       "source": "MarketWatch"
     },
     {
-      "title": "ConocoPhillips: Drilling Toward Greater Returns",
+      "title": "Real estate stocks shine in October amid broader tech rout, lower long-term borrowing costs",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4960634-conocophillips-drilling-toward-greater-returns?source=feed_all_articles",
+      "link": "https://seekingalpha.com/news/4661661-real-estate-stocks-shine-in-october-amid-broader-tech-rout-lower-long-term-borrowing-costs?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
       "image": null,
-      "pubDate": "2026-10-31T14:23:05+00:00",
-      "source": "Seeking Alpha"
+      "pubDate": "2026-10-31T16:00:31+00:00",
+      "source": "Business Insider"
     },
     {
-      "title": "Capital Limited (CAPFF) Q3 2026 Sales/Trading Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960640-capital-limited-capff-q3-2026-sales-trading-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T14:18:37+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "BKT: Agency Securities Provide Safety, But This Fund Needs To Cut The Distribution",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960603-bkt-agency-securities-provide-safety-but-this-fund-needs-to-cut-the-distribution?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T14:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "NU: Opportunity Following The Brazil Election Results",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960633-nu-opportunity-following-the-brazil-election-results?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T14:03:18+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
-      "desc": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
-      "link": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-67183862",
-      "pubDate": "2026-10-31T14:03:00+00:00",
+      "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+      "desc": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-65126339",
+      "pubDate": "2026-10-31T16:00:00+00:00",
       "source": "MarketWatch"
     },
     {
-      "title": "Sandisk: The Selloff Is Just The Beginning",
+      "title": "Verra Mobility: Strong Operational Cash, But Shrinking Underlying Business, Hold",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4960622-sandisk-the-selloff-is-just-the-beginning?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4960630-verra-mobility-strong-operational-cash-but-shrinking-underlying-business-hold?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-31T14:00:14+00:00",
+      "pubDate": "2026-10-31T16:00:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "WEX: The Fuel Price Tailwind Won't Last Forever",
+      "title": "Cyfrowy Polsat S.A. (CYFWY) Discusses Polsat Plus Group Strategy 2027-2030+ Transcript",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4960632-wex-the-fuel-price-tailwind-wont-last-forever?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4960547-cyfrowy-polsat-s-a-cyfwy-discusses-polsat-plus-group-strategy-2027minus-2030-plus-transcript?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-10-31T13:58:30+00:00",
+      "pubDate": "2026-10-31T15:58:26+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Knorr-Bremse AG (KNRRY) Q3 2026 Earnings Call Transcript",
+      "title": "Earnings Scoreboard: 83% of reporting firms beat EPS estimates, 79% post Y/Y earnings growth",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4960617-knorr-bremse-ag-knrry-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/news/4661167-earnings-scoreboard-83-of-reporting-firms-beat-eps-estimates-79-post-yy-earnings-growth?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
       "image": null,
-      "pubDate": "2026-10-31T13:48:26+00:00",
+      "pubDate": "2026-10-31T15:45:39+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "desc": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "image": null,
+      "pubDate": "2026-10-31T15:37:11+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Bank of America: Clearly A Buy Below $50, While Preferreds Boost Quarterly Income",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960461-bank-of-america-clearly-a-buy-below-50-while-preferreds-boost-quarterly-income?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:35:00+00:00",
       "source": "Seeking Alpha"
+    },
+    {
+      "title": "Host Hotels & Resorts: With A 9% Return Is A Hold",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960642-host-hotels-and-resorts-with-a-9-percent-return-is-a-hold?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:33:10+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Our church has a $1.5 million bequest earning 3.75% in a savings account. Are we throwing money away?",
+      "desc": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
+      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-05792524",
+      "pubDate": "2026-10-31T15:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "ONLYOFFICE 10.0 Brings AI Tools, Modular Apps, and Stronger Security to Its Open-Source Office Suite",
+      "desc": "<i> </i><span class=\"byline\">Latvia, October 31, 2026 -- ONLYOFFICE 10.0 has been officially released. The major autumn update brings context-aware AI tools directly into the editors, new modular Apps, and a significant ",
+      "link": "https://markets.businessinsider.com/news/stocks/onlyoffice-10-0-brings-ai-tools-modular-apps-and-stronger-security-to-its-open-source-office-suite-1036695279",
+      "image": null,
+      "pubDate": "2026-10-31T15:26:08+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+      "desc": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+      "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-51699751",
+      "pubDate": "2026-10-31T15:25:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Yiren Digital Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm - YRD",
+      "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/321810/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - October 31, 2026) - <b>WHY:</b> Rosen Law",
+      "link": "https://markets.businessinsider.com/news/stocks/rosen-skilled-investor-counsel-encourages-yiren-digital-ltd.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-by-the-firm-yrd-1036692788",
+      "image": null,
+      "pubDate": "2026-10-31T15:25:00+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Pixl Robotics Launches Nub on Kickstarter, a Camera-Free Desk Robot That Chirps Instead of Talking",
+      "desc": "<i>The palm-sized robot uses radar to track focus sessions, interruptions and time away. Early backers can get Nub for $260.</i><span class=\"byline\">United States, October 31, 2026 -- Pixl Robotics, Inc. is launching Nub",
+      "link": "https://markets.businessinsider.com/news/stocks/pixl-robotics-launches-nub-on-kickstarter-a-camera-free-desk-robot-that-chirps-instead-of-talking-1036695280",
+      "image": null,
+      "pubDate": "2026-10-31T15:24:29+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "PubMatic: A Good Stock To Buy, But Not At This Price",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960639-pubmatic-a-good-stock-to-buy-but-not-at-this-price?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:16:43+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ambev: The Post-Election Selloff Has Created A More Compelling Buying Opportunity",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960629-ambev-the-post-election-selloff-has-created-a-more-compelling-buying-opportunity?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:16:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Under the Stars: A Coastal Escape for Glamping and Outdoor Adventure in La Paz, Mexico",
+      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"justify\" style=\"text-align:justify;\">La Paz, Baja California Sur, Mexico, Oct. 31, 2026 (GLOBE NEWSWIRE) -- On t",
+      "link": "https://markets.businessinsider.com/news/stocks/under-the-stars-a-coastal-escape-for-glamping-and-outdoor-adventure-in-la-paz-mexico-1036695270",
+      "image": null,
+      "pubDate": "2026-10-31T15:15:54+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Cobram Estate Olives Limited (CBOAF) Shareholder/Analyst Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960035-cobram-estate-olives-limited-cboaf-shareholder-analyst-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:08:35+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "MainStreet Bancshares, Inc. (MNSB) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960635-mainstreet-bancshares-inc-mnsb-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:08:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "LightPath: Demand Is Outrunning Supply, And The Selloff Looks Overdone",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960638-lightpath-demand-is-outrunning-supply-and-the-selloff-looks-overdone?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T15:05:48+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Insider trades: Goldman Sachs, P&G, Texas Instruments among major names",
+      "desc": "",
+      "link": "https://seekingalpha.com/news/4661856-insider-trades-goldman-sachs-pg-texas-instruments-among-major-names?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+      "image": null,
+      "pubDate": "2026-10-31T15:03:13+00:00",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Binance says 90% of stolen assets replenished",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/binance-says-90-of-stolen-assets-replenished-4989287",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9U0C9_L.jpg",
+      "pubDate": "2026-10-31T15:00:25+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
+      "desc": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
+      "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-12441339",
+      "pubDate": "2026-10-31T15:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The S&P 500 isn’t the big winner you may think it is",
+      "desc": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
+      "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-08594984",
+      "pubDate": "2026-10-31T14:54:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Citi explains what ’hawk’ and ’dove’ really mean as ECB faces leadership change",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/citi-explains-what-hawk-and-dove-really-mean-as-ecb-faces-leadership-change-4989285",
+      "image": "https://content-media.investing.com/news/LYNXMPEM4L1MC_1200_L.jpg",
+      "pubDate": "2026-10-31T14:53:31+00:00",
+      "source": "Investing.com"
     },
     {
       "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
@@ -147,92 +467,12 @@
       "source": "Investing.com"
     },
     {
-      "title": "Uber Q3 Earnings Preview: The Buy Case Does Not Need A Rerating",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960631-uber-q3-earnings-preview-the-buy-case-does-not-need-a-rerating?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:41:42+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Automatic 401(k) rollovers reduce cash-outs, research finds — but few accounts reach new employer plans",
       "desc": "Workers with small 401(k) balances are cashing out less often under an automatic portability program, but most accounts remain in temporary IRAs.",
       "link": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html",
       "image": null,
       "pubDate": "2026-10-31T13:30:01+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Microsoft's AI Boom Has A Cost",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960589-microsoft-ai-boom-has-a-cost?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "The Mag 7 No Longer Makes Sense: It Should Now Be MAGMA And BATMANS",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960400-the-mag-7-makes-no-longer-sense-its-magma-and-batmans?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:30:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Fannie Mae And Freddie Mac: Positive Q3 Results May Have Reversed The Downtrend (Upgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960628-fannie-mae-and-freddie-mac-positive-q3-results-may-have-reversed-the-downtrend-upgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:27:16+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Parsons Has Improved, But The Rebound Leaves Little Room For Error",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960627-parsons-has-improved-but-the-rebound-leaves-little-room-for-error?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:25:44+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Hess Midstream: The Quiet Before The Storm",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960626-hess-midstream-quiet-before-storm?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:25:36+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Western Union: Distress Priced In Ahead Of Q3 (Buy)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960625-western-union-distress-priced-in-ahead-of-q3-buy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:25:11+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
-      "desc": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
-      "link": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-08301839",
-      "pubDate": "2026-10-31T13:15:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "2 High-Yield Retirement Staples That Just Became Easier To Buy",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960438-2-high-yield-retirement-staples-that-just-became-easier-to-buy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Endeavour Group Limited (EDVGF) Shareholder/Analyst Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960012-endeavour-group-limited-edvgf-shareholder-analyst-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:08:26+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
@@ -243,60 +483,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Buy Almonty: This Tungsten Champion Is A Potential Winner",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960621-buy-almonty-this-tungsten-champion-potential-winner?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:06:59+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960620-cifr-and-wulf-vs-crwv-less-debt-more-upside?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:05:13+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "35-year-old took on $20K in debt to launch a business from her dining room—now it brings in 8 figures a year",
       "desc": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
       "link": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
       "image": null,
       "pubDate": "2026-10-31T13:05:01+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
-      "desc": "Interest groups tied to cryptocurrency are spending millions to tilt the midterm elections. They had mixed success in 2024",
-      "link": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
-      "image": null,
-      "pubDate": "2026-10-31T13:04:29+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Don't Buy This Halloween Bloodbath",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960619-dont-buy-this-halloween-bloodbath?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T13:03:34+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
-      "desc": "U.S. stocks saw a stronger reversal in fortunes in October, as worries about dwindling free cash flows and rising borrowing costs threw a wrench into the works of the artificial-intelligence trade.",
-      "link": "https://www.marketwatch.com/story/the-stock-markets-front-runners-stumbled-in-october-heres-where-the-smart-money-is-moving-now-f901472a?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-50535257",
-      "pubDate": "2026-10-31T13:01:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
-      "desc": "How to manage “giving while living” without endangering your own retirement.",
-      "link": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-09412605",
-      "pubDate": "2026-10-31T13:00:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "How to start an art collection on any budget",
@@ -307,76 +499,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Alphabet: Market Misunderstanding Is Baffling, But Don't Be Fooled",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960618-alphabet-market-misunderstanding-baffling-but-do-not-be-fooled?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T12:55:40+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
       "desc": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
       "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
       "image": null,
       "pubDate": "2026-10-31T12:49:58+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "iFAST Corporation Ltd. (IFSTF) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960480-ifast-corporation-ltd-ifstf-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T12:48:34+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "PolyNovo Limited (CALZF) Shareholder/Analyst Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4959946-polynovo-limited-calzf-shareholder-analyst-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T12:48:26+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
-      "desc": "Two high-profile security incidents this week, including the largest crypto theft in history, have raised custody and safety concerns.",
-      "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
-      "image": null,
-      "pubDate": "2026-10-31T12:47:08+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Verizon: Buy The SpaceX Fear Before The Rerating",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960082-verizon-buy-the-spacex-fear-before-the-rerating?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T12:45:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "This Halloween, are full-size candy bars a better deal than fun-sized ones?",
-      "desc": "Several TikTokers influencers claim you can save money and be the coolest house on the block with bigger candy this year. Let’s see how that adds up.",
-      "link": "https://www.marketwatch.com/story/this-halloween-are-king-sized-candy-bars-a-better-deal-than-fun-sized-ones-992da0d9?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-10399343",
-      "pubDate": "2026-10-31T12:37:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Colgate-Palmolive: International Growth Push Is Working",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960616-colgate-palmolive-international-growth-push-is-working?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T12:33:59+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Nvidia’s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
-      "desc": "Nvidia CEO Jensen Huang’s business meetings are routine practice and existing U.S. export controls largely miss the cloud, experts say.",
-      "link": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-18756096",
-      "pubDate": "2026-10-31T12:30:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "GS flags interest rates and AI disruption as risks to long-term equity demand",
@@ -411,12 +539,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
-      "desc": "They’ve helped turn this year’s midterms into “the most expensive election cycle on record.”",
-      "link": "https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-27816959",
-      "pubDate": "2026-10-31T12:00:00+00:00",
-      "source": "MarketWatch"
+      "title": "Humans are still doing the work behind some AI agents",
+      "desc": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "link": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "image": null,
+      "pubDate": "2026-10-31T12:00:01+00:00",
+      "source": "CNBC Markets"
     },
     {
       "title": "Tech risk-reward turns favorable after rout, Deutsche Bank says",
@@ -483,46 +611,6 @@
       "source": "Investing.com"
     },
     {
-      "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-      "desc": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
-      "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-40951496",
-      "pubDate": "2026-10-31T04:30:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Alaska Air to cut about 200 jobs as fuel shock squeezes earnings",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/alaska-air-to-cut-200-jobs-as-fuel-costs-threaten-700-million-annual-loss-4988943",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9T25O_L.jpg",
-      "pubDate": "2026-10-31T01:30:39+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-approves-21-billion-patriot-missile-sale-to-ukraine-4988538",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9T1WS_L.jpg",
-      "pubDate": "2026-10-31T00:54:41+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9T0NT_L.jpg",
-      "pubDate": "2026-10-31T00:42:51+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Is the market too bearish on aluminium?",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/is-the-market-too-bearish-on-aluminium-4988986",
-      "image": "https://content-media.investing.com/news/LYNXMPEE380M7_M.jpg",
-      "pubDate": "2026-10-31T00:40:08+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
       "desc": "The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.",
       "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
@@ -563,14 +651,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
-      "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-      "link": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
-      "image": null,
-      "pubDate": "2026-10-30T18:55:44+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
       "desc": "Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman's past ties to Jeffrey Epstein.",
       "link": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
@@ -585,86 +665,6 @@
       "image": null,
       "pubDate": "2026-10-30T17:15:53+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "AIXONA Announces AI-Powered Transaction Optimization and Expansion into European and Canadian Markets",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p style=\"padding-left:0pt;\"><img alt=\"unnamed (8)\" height=\"373\" src=\"https://ml.globenewswire.com/Resource/Download/a2a1a",
-      "link": "https://markets.businessinsider.com/news/stocks/aixona-announces-ai-powered-transaction-optimization-and-expansion-into-european-and-canadian-markets-1036693426",
-      "image": null,
-      "pubDate": "2026-10-30T17:11:35+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "The Orchard, Queensâ Tallest Tower with 800+ Residences, Surpasses 90% Leased in Only Nine Months as Tokimo, Intuit and Mollytea Join Developmentâs Retail Offerings",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"center\" style=\"text-align:center;\"><em>Residential milestone underscores strong demand for the 70-story Long Isl",
-      "link": "https://markets.businessinsider.com/news/stocks/the-orchard-queens-tallest-tower-with-800-residences-surpasses-90-leased-in-only-nine-months-as-tokimo-intuit-and-mollytea-join-development-s-retail-offerings-1036693327",
-      "image": null,
-      "pubDate": "2026-10-30T17:10:14+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Bispecific biotech Bambusa and Parkinsonâs-focused Aspen slide on trading debuts",
-      "desc": "",
-      "link": "https://seekingalpha.com/news/4661581-bambusa-stock-aspen-stock-slide-ipos?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-      "image": null,
-      "pubDate": "2026-10-30T17:05:43+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Eagle Pharmaceuticals Board Extends Limited Duration Stockholder Rights Plan",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"justify\" style=\"text-align:justify;\">WOODCLIFF LAKE, N.J., Oct. 30, 2026 (GLOBE NEWSWIRE) -- Eagle Pharmaceutica",
-      "link": "https://markets.businessinsider.com/news/stocks/eagle-pharmaceuticals-board-extends-limited-duration-stockholder-rights-plan-1036693308",
-      "image": null,
-      "pubDate": "2026-10-30T17:05:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Gin Property in Historic Senoia Celebrates Gold OBIE Win for JW Collection",
-      "desc": "<i>Award-winning attached product at Overlook at Gin Property highlights the architecture, craftsmanship and sense of place shaping the growing Historic Senoia community</i> <strong id=\"dateline\">ATLANTA, GA / <a href='h",
-      "link": "https://markets.businessinsider.com/news/stocks/gin-property-in-historic-senoia-celebrates-gold-obie-win-for-jw-collection-1036693326",
-      "image": null,
-      "pubDate": "2026-10-30T17:05:00+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Exelon declares $0.42 dividend",
-      "desc": "",
-      "link": "https://seekingalpha.com/news/4661582-exelon-declares-0_42-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-      "image": null,
-      "pubDate": "2026-10-30T17:04:33+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Federal Realty Investment Trust 5% CUM PFD C declares $0.3125 dividend",
-      "desc": "",
-      "link": "https://seekingalpha.com/news/4661580-federal-realty-investment-trust-5-percent-cum-pfd-c-declares-0_3125-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-      "image": null,
-      "pubDate": "2026-10-30T17:02:33+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "ITW Board of Directors Declares Quarterly Dividend",
-      "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"justify\" style=\"text-align:justify;\">GLENVIEW, Ill., Oct. 30, 2026 (GLOBE NEWSWIRE) -- Illinois Tool Works Inc. ",
-      "link": "https://markets.businessinsider.com/news/stocks/itw-board-of-directors-declares-quarterly-dividend-1036693309",
-      "image": null,
-      "pubDate": "2026-10-30T17:01:10+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Anthropic may get junk credit rating after its IPO, Blackstone says: report",
-      "desc": "",
-      "link": "https://seekingalpha.com/news/4661563-anthropic-may-get-junk-credit-rating-after-ipo-blackstone-says-report?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-      "image": null,
-      "pubDate": "2026-10-30T17:00:56+00:00",
-      "source": "Business Insider"
-    },
-    {
-      "title": "Oxford Square Capital declares $0.015 dividend",
-      "desc": "",
-      "link": "https://seekingalpha.com/news/4661579-oxford-square-capital-declares-0_015-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-      "image": null,
-      "pubDate": "2026-10-30T17:00:18+00:00",
-      "source": "Business Insider"
     },
     {
       "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
