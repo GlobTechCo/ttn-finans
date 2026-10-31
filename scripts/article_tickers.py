@@ -39,6 +39,10 @@ INSTRUMENTS = {
     'IFX': ('XETR:IFX', 'Infineon Technologies · Xetra'),
     'EWZ': ('AMEX:EWZ', 'iShares MSCI Brazil ETF'),
     'IBIT': ('NASDAQ:IBIT', 'iShares Bitcoin Trust ETF · Nasdaq'),
+    'FBTC': ('BATS:FBTC', 'Fidelity Wise Origin Bitcoin Fund · Cboe BZX'),
+    'GBTC': ('AMEX:GBTC', 'Grayscale Bitcoin Trust ETF · NYSE Arca'),
+    'ARKB': ('BATS:ARKB', 'ARK 21Shares Bitcoin ETF · Cboe BZX'),
+    'BITB': ('AMEX:BITB', 'Bitwise Bitcoin ETF · NYSE Arca'),
     'NXT': ('ASX:NXT', 'NEXTDC · ASX'),
     'VWAGY': ('OTC:VWAGY', 'Volkswagen · OTC'),
     'XYZ': ('NYSE:XYZ', 'Block · NYSE'),
@@ -94,10 +98,10 @@ def expected_tickers(article, doc):
     # A Composite reading must not silently open the Nasdaq-100 broker CFD.
     if 'Nasdaq Composite' in labels and 'NASDAQ' in labels:
         labels.remove('NASDAQ')
-    for label in labels:
-        if label not in INSTRUMENTS:
-            raise ValueError(f"{article['id']}: verify TradingView mapping for {label}")
-    return labels
+    unknown = [label for label in labels if label not in INSTRUMENTS]
+    if unknown:
+        print(f"WARNING: {article['id']}: unmapped tickers {unknown}; retain article and process supported tickers")
+    return [label for label in labels if label in INSTRUMENTS]
 
 def ticker_block(labels):
     items=[]
