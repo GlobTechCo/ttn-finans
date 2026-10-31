@@ -9,6 +9,7 @@ on:
       - '.github/workflows/publish-approved-three.yml'
 permissions:
   contents: write
+  pages: write
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -31,3 +32,11 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           python scripts/publish_approved_three.py
+      - name: Request GitHub Pages rebuild after bot commit
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # GitHub Actions commits do not trigger ordinary push-based Pages builds.
+          # Explicitly request a Pages rebuild for repositories publishing from a branch.
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo 'Pages rebuild API unavailable; inspect Pages source settings.'
