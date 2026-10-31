@@ -1,0 +1,33 @@
+name: Publish October 31 reviewed TTN Finance articles
+on:
+  push:
+    paths:
+      - 'ttn_oct31_approved_publication.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ttn-publish-oct31-2026
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install editorial validation dependencies
+        run: |
+          python -m pip install beautifulsoup4 lxml
+          if [ -f requirements-maintenance.txt ]; then python -m pip install -r requirements-maintenance.txt; fi
+      - name: Publish approved pages and run audits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_oct31_three.py
