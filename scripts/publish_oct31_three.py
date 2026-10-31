@@ -25,8 +25,8 @@ for file in sorted(pkg.glob('*-seo.json')):
     # into a single h2. Restore semantic paragraphs before the 700-word audit.
     for heading in body.select('h2'):
         heading_text=heading.get_text(' ',strip=False)
-        if '\\n' in heading_text:
-            header, paragraph=heading_text.split('\\n',1)
+        if '\n' in heading_text:
+            header, paragraph=heading_text.split('\n',1)
             heading.string=header.strip()
             if paragraph.strip():
                 p=fragment.new_tag('p');p.string=paragraph.strip();heading.insert_after(p)
