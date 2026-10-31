@@ -88,3 +88,14 @@ html:not([data-theme="dark"]) .ttn-footer-brand>p{color:#43566c}
 html:not([data-theme="dark"]) .topnav .ttn-brand-tagline{color:#43566c}
 html:not([data-theme="dark"]) .topnav>.nav-toggle,
 html:not([data-theme="dark"]) .topnav>.theme-switch{color:#34465b}
+
+/* Consistent desktop/mobile supporting text contrast; preserve font weights and layout. */
+html:not([data-theme="dark"]) .topnav .nav-links{color:#34465b}
+html:not([data-theme="dark"]) .ttn-footer-brand .ttn-footer-description,
+html:not([data-theme="dark"]) .ttn-footer-bottom{color:#43566c}
+html:not([data-theme="dark"]) .ttn-footer-bottom .ttn-footer-disclaimer{color:#4a5d72}
+html[data-theme="dark"] .topnav .nav-links,
+html[data-theme="dark"] .ttn-footer,
+html[data-theme="dark"] .ttn-footer a,
+html[data-theme="dark"] .ttn-cookie-preferences{color:var(--text-dim)}
+html[data-theme="dark"] .ttn-footer-bottom .ttn-footer-disclaimer{color:var(--text-faint)}
