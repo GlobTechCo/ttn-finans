@@ -125,7 +125,7 @@ def refresh_article_tickers(root=ROOT):
         # Existing controls can retain their familiar labels and markup. Rebuild
         # only incomplete/wrong blocks, so this is not a site-wide layout rewrite.
         actual_symbols=[s for _,s in actual]
-        if sorted(actual_symbols)!=sorted(s for _,s in expected) or len(actual_symbols)!=len(set(actual_symbols)):
+        if sorted(actual_symbols)!=sorted(s for _,s in expected) or len(actual_symbols)!=len(set(actual_symbols)) or any(not e.get('data-label') for e in tags):
             text=re.sub(r'<div\b[^>]*class="article-tickers"[^>]*>.*?</div>\s*','',text,flags=re.S)
             if labels:
                 body_end=text.index('</section>',text.index('<section class="editorial-body">'))+len('</section>')
