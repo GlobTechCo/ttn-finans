@@ -78,3 +78,13 @@
  .topnav.ttn-nav-ready>.nav-links{max-height:calc(100dvh - 100px);overflow-y:auto;overscroll-behavior:contain}
 }
 @media(prefers-reduced-motion:reduce){.skip-link{transition:none}}
+
+/* Improved auxiliary text contrast in light theme, preserving Inter and layout. */
+html:not([data-theme="dark"]) .ttn-footer{color:#34465b}
+html:not([data-theme="dark"]) .ttn-footer a,
+html:not([data-theme="dark"]) .ttn-cookie-preferences{color:#34465b}
+html:not([data-theme="dark"]) .ttn-footer-bottom .ttn-footer-disclaimer{color:#4a5d72}
+html:not([data-theme="dark"]) .ttn-footer-brand>p{color:#43566c}
+html:not([data-theme="dark"]) .topnav .ttn-brand-tagline{color:#43566c}
+html:not([data-theme="dark"]) .topnav>.nav-toggle,
+html:not([data-theme="dark"]) .topnav>.theme-switch{color:#34465b}
