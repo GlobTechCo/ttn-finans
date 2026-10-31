@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 
 STYLES = {
-    "editorial-theme.css": "20261031-readability-v2",
+    "editorial-theme.css": "20261031-dark-readability-v3",
     "article-share.css": "20261031-compact-v2",
     "footer.css": "20261031-contrast-v2",
 }
