@@ -5,7 +5,10 @@ const TTN_ARTICLES = [
     "title": "Apple Intelligence Is Coming to China With Alibaba's Qwen",
     "dek": "Apple plans to begin testing Apple Intelligence in China on November 4, bringing selected AI features to iPhone users through a partnership with Alibaba.",
     "section": "Tech & AI",
-    "tickers": [],
+    "tickers": [
+      "AAPL",
+      "BABA"
+    ],
     "imageAlt": "Editorial photo illustrating Apple Intelligence Is Coming to China With Alibaba's Qwen",
     "date": "2026-10-31T14:10:43Z",
     "author": "TTN Research Desk",
@@ -14,14 +17,14 @@ const TTN_ARTICLES = [
     "body": [
       "<p>Apple has announced that its first Apple Intelligence features for mainland China will enter developer testing on November 4, with broader availability expected alongside the iOS 27.3 release in December. The October 31 announcement addresses an important gap in the company's AI rollout and introduces an arrangement with Alibaba to support selected experiences through its Qwen models.</p>",
       "<p>The rollout is significant because AI-powered software has become a growing point of competition in premium smartphones. For Chinese iPhone owners, many features available in other markets have remained unavailable. Apple's announcement outlines a staged approach rather than an immediate nationwide launch of every AI capability the company has introduced.</p>",
-      "<p>In its <a href=\"https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/\">October 31 announcement</a>, Apple said initial functions would include tools for writing and proofreading, Live Translation, photo editing, notifications and visual intelligence. The company also said the newer Siri AI features and other next-generation functions unveiled at WWDC 2026 were not part of the first release.</p>",
+      "<p>In its October 31 announcement, Apple said initial functions would include tools for writing and proofreading, Live Translation, photo editing, notifications and visual intelligence. The company also said the newer Siri AI features and other next-generation functions unveiled at WWDC 2026 were not part of the first release.</p>",
       "<h2>The first features and the launch timetable</h2>",
       "<p>Apple said developers will be able to test the initial capabilities beginning November 4 through an upcoming iOS beta. The company expects the public rollout in December with iOS 27.3. That means the beta timetable should not be described as full consumer availability, and the December date remains a planned release window rather than evidence the software is already installed on users' phones.</p>",
       "<p>Writing Tools are intended to help users rewrite, proofread and summarize selected text. Live Translation supports communication across language barriers in compatible experiences. Clean Up is designed to remove unwanted elements from photographs. Other announced functions include Genmoji, priority mail and notification features, and visual intelligence capabilities.</p>",
       "<p>The features are integrated into ordinary smartphone activities. Apple has generally sought to place AI assistance inside applications and system experiences rather than require every task to be completed in a separate chatbot interface. The approach could make AI tools easier to discover in common workflows, although real-world usefulness will depend on accuracy, language support and performance.</p>",
       "<h2>How Alibaba's Qwen fits into the system</h2>",
       "<p>Apple said some experiences will include support from Alibaba's Qwen models, including functions related to Siri, Writing Tools and visual intelligence. That does not establish that Alibaba operates all Apple Intelligence services in China. The partnership concerns selected capabilities within a wider product architecture that also includes Apple's own models and software.</p>",
-      "<p>The distinction matters for understanding both companies' strategies. Apple retains control over the iPhone platform and customer experience, while Alibaba supplies AI technology appropriate for particular local uses. As <a href=\"https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3\">The Verge reported</a>, the initial Chinese rollout will not include Apple's newer AI-powered Siri.</p>",
+      "<p>The distinction matters for understanding both companies' strategies. Apple retains control over the iPhone platform and customer experience, while Alibaba supplies AI technology appropriate for particular local uses. As The Verge reported, the initial Chinese rollout will not include Apple's newer AI-powered Siri.</p>",
       "<p>For Alibaba, distribution through an extensively used device platform could make Qwen more visible to consumers. Yet the announcement does not disclose commercial terms that would justify assigning a particular amount of revenue to the partnership. Any financial impact will depend on implementation, usage and arrangements not fully explained in the public materials.</p>",
       "<h2>Why China requires a distinct AI strategy</h2>",
       "<p>China has specific rules governing the provision of generative AI services, and international technology providers must account for local compliance requirements. Partnerships with established domestic companies can help support localized capabilities. They also create additional responsibilities for quality control and coordination between software components.</p>",
@@ -41,14 +44,25 @@ const TTN_ARTICLES = [
       "<p>Neither outcome can be assumed before launch. What is confirmed is that Apple has committed to a staged introduction of AI tools in mainland China and that Alibaba will support parts of the experience. The rest will become clearer as developers and consumers encounter the software.</p>",
       "<p>For related coverage of how costly AI infrastructure is changing technology companies' finances, read TTN Finance's <a href=\"intel-amazon-ai-spending-tech-selloff-october-2026.html\">analysis of Intel and Amazon</a>.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Apple: Apple Intelligence China announcement",
+        "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/"
+      },
+      {
+        "label": "The Verge: China Apple Intelligence rollout",
+        "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      }
+    ]
   },
   {
     "id": "meta-ai-credit-outlook-october-2026",
     "title": "Meta's AI Spending Puts Its AA- Credit Outlook Under Pressure",
     "dek": "Meta is generating strong advertising revenue, but the scale of its artificial intelligence investment has put free cash flow and leverage under closer scrutiny.",
     "section": "Market Analysis",
-    "tickers": [],
+    "tickers": [
+      "META"
+    ],
     "imageAlt": "Editorial photo illustrating Meta's AI Spending Puts Its AA- Credit Outlook Under Pressure",
     "date": "2026-10-31T14:10:43Z",
     "author": "TTN Research Desk",
@@ -56,7 +70,7 @@ const TTN_ARTICLES = [
     "image": "assets/editorial/meta-ai-credit-outlook-october-2026-cover.webp",
     "body": [
       "<p>Meta Platforms faces a fresh financial test after S&amp;P Global Ratings changed the outlook on its AA- issuer credit rating from stable to negative on October 30. The agency did not downgrade the rating itself. Instead, it signaled concern that Meta's extraordinary investment in artificial intelligence infrastructure could strain the cash generation and leverage measures underpinning its high-grade credit profile.</p>",
-      "<p>That distinction matters for investors. A negative outlook is a warning about potential future credit deterioration, not a statement that a downgrade has already taken place. S&amp;P's assessment reflects uncertainty about how rapidly Meta's capital expenditure might grow and how soon AI investment could translate into meaningful additional operating cash flow. <a href=\"https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/\">Reuters reported the outlook revision</a> after the company disclosed unusually heavy quarterly spending.</p>",
+      "<p>That distinction matters for investors. A negative outlook is a warning about potential future credit deterioration, not a statement that a downgrade has already taken place. S&amp;P's assessment reflects uncertainty about how rapidly Meta's capital expenditure might grow and how soon AI investment could translate into meaningful additional operating cash flow. Reuters reported the outlook revision after the company disclosed unusually heavy quarterly spending.</p>",
       "<h2>Strong advertising earnings meet an expensive investment cycle</h2>",
       "<p>Meta continues to run a large advertising business across Facebook, Instagram and its other applications. Its third-quarter revenue reached $64.60 billion, up 26% from a year earlier, according to results cited in the company's financial disclosures. Advertising volumes and average prices rose, giving management a substantial established source of funds for AI research and infrastructure.</p>",
       "<p>Yet revenue growth alone cannot measure the amount of cash left after new investment. Meta recorded $32.79 billion in operating cash flow during the quarter, while capital expenditures including finance-lease principal payments reached $34.91 billion. The resulting free cash flow was negative $2.12 billion. For a company accustomed to generating substantial cash, the shift illustrates the intensity of its infrastructure expansion.</p>",
@@ -79,21 +93,31 @@ const TTN_ARTICLES = [
       "<p>S&amp;P's negative outlook puts that question at the center of Meta's next stage of expansion. It is neither a downgrade nor a verdict that AI investment will fail. It is a reminder that even very large technology companies must finance ambitious growth within the practical limits of cash generation and debt capacity.</p>",
       "<p>For broader context on capital-intensive technology businesses, see TTN Finance's <a href=\"intel-amazon-ai-spending-tech-selloff-october-2026.html\">analysis of AI spending pressure on Intel and Amazon</a>.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Reuters: Meta credit outlook revision, October 30",
+        "url": "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/"
+      }
+    ]
   },
   {
     "id": "bitcoin-etf-outflows-october-30-2026",
     "title": "Bitcoin ETF Outflows Reported at $643 Million as Data Updates",
     "dek": "Updated data cited by financial publications show significant Oct. 30 bitcoin ETF redemptions, though early fund-level reports were incomplete.",
     "section": "Crypto",
-    "tickers": [],
+    "tickers": [
+      "BTC",
+      "ETH",
+      "IBIT",
+      "FBTC"
+    ],
     "imageAlt": "Editorial photo illustrating Bitcoin ETF Outflows Reported at $643 Million as Data Updates",
     "date": "2026-10-31T10:05:01Z",
     "author": "TTN Research Desk",
     "format": "news",
     "image": "assets/editorial/bitcoin-etf-outflows-october-30-2026-cover.webp",
     "body": [
-      "<p>US-listed spot bitcoin exchange-traded funds experienced a sharp reversal in flows on Friday, October 30, 2026, according to fund-tracking data reported the following morning. <a href=\"https://www.tokenpost.com/news/investing/45342\">TokenPost, citing SoSoValue</a>, reported net redemptions of $643.33 million across the category. However, <a href=\"https://coinlab.info/en/news/btc-etf-outflow-209m-oct-30-2026/\">another early report based on an incomplete fund snapshot</a> showed only $208.59 million. The difference illustrates why ETF flow figures published shortly after the market close must be checked for late or revised fund-level entries.</p>",
+      "<p>US-listed spot bitcoin exchange-traded funds experienced a sharp reversal in flows on Friday, October 30, 2026, according to fund-tracking data reported the following morning. TokenPost, citing SoSoValue, reported net redemptions of $643.33 million across the category. However, another early report based on an incomplete fund snapshot showed only $208.59 million. The difference illustrates why ETF flow figures published shortly after the market close must be checked for late or revised fund-level entries.</p>",
       "<h2>Why two reports showed different totals</h2>",
       "<p>The smaller $208.59 million figure included reported redemptions from ARK 21Shares' ARKB, Grayscale's GBTC and Bitwise's BITB. That report explicitly stated that it did not yet have flow entries for several other funds, including BlackRock's IBIT and Fidelity's FBTC. It was therefore an incomplete snapshot, not necessarily a final contradiction of the larger figure.</p>",
       "<p>TokenPost subsequently listed IBIT outflows of $233.70 million and FBTC outflows of $201.04 million, alongside the same three smaller fund withdrawals. The five entries together total about $643.33 million. This explains the arithmetic behind the larger figure, although investors should continue to consult a live primary-data dashboard because providers may revise historical daily totals.</p>",
@@ -112,14 +136,28 @@ const TTN_ARTICLES = [
       "<p>For a clearer comparison across sessions, investors can examine dollar flows alongside each fund's size. An identical redemption amount can be much more significant for a small fund than for a large one. Fund-wide totals also conceal variation: withdrawals from several products can coincide with unchanged flows at others. Consequently, the direction of aggregate flows should not be presented as a unanimous decision by all institutional participants.</p>",
       "<p>Timing matters when comparing reports. US-listed ETF activity follows the securities-market calendar, while bitcoin itself trades continuously. A bitcoin price change during the weekend cannot be treated as evidence of weekend subscriptions or redemptions in US exchange-traded funds. The dates and data cutoffs used by each reporting service should therefore accompany comparisons of daily figures.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "TokenPost, citing SoSoValue: Bitcoin ETF flows, October 30",
+        "url": "https://www.tokenpost.com/news/investing/45342"
+      },
+      {
+        "label": "Coinlab: Early incomplete Bitcoin ETF flow snapshot",
+        "url": "https://coinlab.info/en/news/btc-etf-outflow-209m-oct-30-2026/"
+      }
+    ]
   },
   {
     "id": "intel-amazon-ai-spending-tech-selloff-october-2026",
     "title": "Intel's 28.6% Fall and Amazon's AI Spending Test Tech Stocks",
     "dek": "Intel slid 28.6% while Amazon investors focused on mounting AI capital costs, even as AWS growth accelerated.",
     "section": "Market Analysis",
-    "tickers": [],
+    "tickers": [
+      "INTC",
+      "AMZN",
+      "NDX",
+      "SPX"
+    ],
     "imageAlt": "Editorial photo illustrating Intel's 28.6% Fall and Amazon's AI Spending Test Tech Stocks",
     "date": "2026-10-31T10:05:01Z",
     "author": "TTN Research Desk",
@@ -142,7 +180,12 @@ const TTN_ARTICLES = [
       "<p>For Intel, the test is whether the fourth-quarter shortfall is temporary and whether higher-value data-center demand can offset weakness elsewhere. For Amazon, attention will shift to capital spending, the pace of AWS growth and whether investment begins to produce stronger free cash flow. Neither company can be judged only by its share-price response to a single earnings announcement.</p>",
       "<p>The broader market will also watch financing conditions, since changes in interest rates affect the valuation of investments whose cash returns may lie years in the future. These are questions about timing and economic returns, rather than a single verdict on the usefulness of AI technology. The immediate lesson of October 30 is that investors want clearer evidence of financial discipline alongside growth.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Reuters, October 30: AI cash spending and technology selloff",
+        "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+      }
+    ]
   },
   {
     "id": "openai-funding-target-cut-october-2026",
@@ -156,7 +199,7 @@ const TTN_ARTICLES = [
     "format": "news",
     "image": "assets/editorial/openai-funding-target-cut-october-2026-cover.webp",
     "body": [
-      "<p>OpenAI has reduced the target for its latest fundraising round by $10 billion to approximately $20 billion, according to an <a href=\"https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f\">October 30 report by the Financial Times</a>. The newspaper said the company was seeking a valuation of about $1.25 trillion, compared with an earlier target of $1.4 trillion. <a href=\"https://www.marketscreener.com/news/openai-cuts-funding-target-by-10-billion-ft-reports-ce785fd8d98bff22\">Reuters subsequently reported the terms</a>, citing the Financial Times. These are reported financing plans, not a completed transaction or an announcement of final proceeds by OpenAI.</p>",
+      "<p>OpenAI has reduced the target for its latest fundraising round by $10 billion to approximately $20 billion, according to an October 30 report by the Financial Times. The newspaper said the company was seeking a valuation of about $1.25 trillion, compared with an earlier target of $1.4 trillion. Reuters subsequently reported the terms, citing the Financial Times. These are reported financing plans, not a completed transaction or an announcement of final proceeds by OpenAI.</p>",
       "<h2>The proposed round is smaller, but still substantial</h2>",
       "<p>The target reduction represents a one-third decrease in the amount OpenAI had sought to raise. The reported change in valuation is about $150 billion, or approximately 11% of the earlier $1.4 trillion figure. Investors were said to have reduced their intended commitments as technology stocks sold off and questions intensified about the cost of the industry's AI infrastructure buildout.</p>",
       "<p>The numbers need careful attribution. A fundraising target is not the same thing as money received, and a proposed valuation is not a price established by public trading. Private financing terms can change before closing, or be accompanied by conditions that make headline valuations difficult to compare. OpenAI did not publicly confirm the revised terms in the reports reviewed for this article. Describing the $20 billion as an amount already raised would therefore overstate what was known.</p>",
@@ -174,7 +217,16 @@ const TTN_ARTICLES = [
       "<p>The distinction between the size of a funding round and a company's overall valuation is fundamental. A lower fundraising target means the company seeks to receive less new capital in that transaction. It does not, by itself, demonstrate a comparable decline in product demand, revenue, or the value of existing investors' shares. The proposed valuation is a negotiated reference point and remains uncertain until the financing terms are finalized.</p>",
       "<p>Readers should also distinguish company announcements from reporting based on people involved in private fundraising discussions. Neither the final subscription amounts nor any completed closing can be inferred from a reported target. Future statements from OpenAI or participating investors, if released, would provide stronger evidence of the actual financing outcome.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Financial Times: Reported OpenAI fundraising revision",
+        "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f"
+      },
+      {
+        "label": "MarketScreener: Coverage of the reported funding target",
+        "url": "https://www.marketscreener.com/news/openai-cuts-funding-target-by-10-billion-ft-reports-ce785fd8d98bff22"
+      }
+    ]
   },
   {
     "id": "ansi-ev-charging-standards-gaps-october-2026",
@@ -203,7 +255,12 @@ const TTN_ARTICLES = [
       "<p>That makes interpretation especially important. The report should not be presented as a finding that a named charging brand failed an inspection. Nor does an identified gap mean that every charger suffers from the same defect. Operators vary widely in hardware, software and maintenance practices. The value of the report lies in identifying system-wide areas where better common practices may improve outcomes for drivers.</p>",
       "<p>The longer-term economic issue is straightforward. EV adoption depends not only on vehicle prices and battery technology but also on whether charging is reliable, easy to use and available to a broad population. Standards can create a common language for testing and service expectations; successful implementation then requires investment, operational discipline and clear accountability. ANSI’s new priorities suggest the industry’s next phase will be judged as much by the ordinary experience of using chargers as by the engineering specifications printed on them.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "ANSI, October 30: EV standards gaps progress report",
+        "url": "https://www.ansi.org/standards-news/all-news/10-30-26-new-ansi-report-charts-progress-on-standards-for-electric-vehicles-at-scale"
+      }
+    ]
   },
   {
     "id": "ping-identity-ai-agents-enterprise-access-security-2026",
@@ -232,14 +289,21 @@ const TTN_ARTICLES = [
       "<p>For enterprises, the immediate priority is less about choosing a particular brand than establishing a defensible operating model. That includes inventorying which agents exist, limiting privileged actions, requiring human approval for higher-risk tasks and ensuring logs can connect each action to an authorized origin. Controls should be evaluated through testing and incident exercises, not solely through a vendor demonstration. It is also important to avoid treating an AI system’s own explanation of an action as a substitute for technical evidence recorded by the surrounding infrastructure.</p>",
       "<p>Ping Identity’s recent work reflects a broad change in the cybersecurity market: identity can no longer be treated solely as the front door to an application. It increasingly determines what autonomous software can do after access is granted. The vendors that succeed will be those able to prove that their controls are effective across real workflows, not simply those with the most ambitious vision of an agent-powered workplace.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Ping Identity Developer Portal: Getting Started with Agent Privilege, October 30",
+        "url": "https://developer.pingidentity.com/blog/getting-started-with-agent-privilege/"
+      }
+    ]
   },
   {
     "id": "vistra-cogentrix-gas-power-acquisition-october-2026",
     "title": "Vistra Closes Cogentrix Acquisition, Adding 5.5 GW of Gas Power Across Key U.S. Markets",
     "dek": "The completed transaction expands Vistra’s power-generation footprint and gives investors a clearer view of the company’s exposure to regional electricity markets, fuel prices and rising power demand.",
     "section": "Market Analysis",
-    "tickers": [],
+    "tickers": [
+      "VST"
+    ],
     "imageAlt": "Editorial photo illustrating Vistra Closes Cogentrix Acquisition, Adding 5.5 GW of Gas Power Across Key U.S. Markets",
     "date": "2026-10-30T20:26:00Z",
     "author": "TTN Research Desk",
@@ -261,7 +325,16 @@ const TTN_ARTICLES = [
       "<p>The closing marks the beginning of the integration stage. Investors will want to see whether the acquired plants deliver the operational reliability assumed in Vistra’s forecasts, and whether maintenance spending remains within expectations. They will also examine financing costs, the trajectory of leverage and whether management maintains its stated capital-return framework while absorbing the new assets.</p>",
       "<p>Natural gas generation sits at an important but contested point in the U.S. energy transition. Gas plants can supply dispatchable electricity when weather-dependent output is limited, but they also produce emissions and remain exposed to fuel-price volatility. For Vistra, the business case rests on earning adequate returns from reliable generation in regional markets, not on the assumption that demand growth guarantees higher margins. The acquisition gives the company a larger platform; the coming quarters will show how much financial value that scale produces.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Vistra, October 30: Cogentrix acquisition completion",
+        "url": "https://investor.vistracorp.com/2026-10-30-Vistra-Completes-Acquisition-of-Cogentrix-Energy%2C-Expanding-Diverse-Generation-Fleet"
+      },
+      {
+        "label": "US Department of Justice: Cogentrix transaction review",
+        "url": "https://www.justice.gov/opa/pr/justice-departments-statement-its-investigation-vistras-acquisition-cogentrix"
+      }
+    ]
   },
   {
     "id": "us-employment-cost-index-q3-2026-real-wages",
