@@ -71,6 +71,6 @@ for command in [['python3','scripts/refresh_static_editorial.py'],['python3','sc
     print('CHECK',*command,flush=True);subprocess.run(command,check=True)
 shutil.rmtree(pkg)
 subprocess.run(['git','add','-A'],check=True)
-subprocess.run(['git','commit','-m','Publish approved Ping Identity, Vistra and ANSI articles'],check=True)
+subprocess.run(['git','commit','-m','Publish approved TTN Finance editorial articles'],check=True)
 subprocess.run(['git','push','origin','HEAD:main'],check=True)
 print('PUBLICATION PUSHED',flush=True)
