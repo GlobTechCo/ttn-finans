@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T18:43:55.111802+00:00",
+  "generatedAt": "2026-10-31T21:54:27.345470+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,6 +35,134 @@
   ],
   "items": [
     {
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4989336",
+      "image": "https://content-media.investing.com/news/LYNXMPEB4H0KM_M.jpg",
+      "pubDate": "2026-10-31T21:20:03+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+      "desc": "By dismissing the suit with prejudice, Trump can't file another amended version in district court. Trump's legal team said the president plans to appeal.",
+      "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+      "image": null,
+      "pubDate": "2026-10-31T21:05:53+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Judge ends Trump’s attempts to sue Wall Street Journal over Epstein reporting",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/us-judge-dismisses-trumps-lawsuit-against-wall-street-journal-with-prejudice-4989324",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9U0KH_L.jpg",
+      "pubDate": "2026-10-31T20:48:20+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Alten S.A. (ABLGF) Q3 2026 Sales/Trading Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960637-alten-s-a-ablgf-q3-2026-sales-trading-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T20:38:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Compagnie de Saint-Gobain S.A. (CODYY) Q3 2026 Sales/Trading Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960641-compagnie-de-saint-gobain-s-a-codyy-q3-2026-sales-trading-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T20:28:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+      "desc": "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
+      "link": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-95596293",
+      "pubDate": "2026-10-31T20:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "desc": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "link": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "image": null,
+      "pubDate": "2026-10-31T20:12:37+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "desc": "The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.",
+      "link": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "image": null,
+      "pubDate": "2026-10-31T19:56:23+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
+      "desc": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
+      "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-21005604",
+      "pubDate": "2026-10-31T19:30:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "FamiCord AG 2026 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960662-famicord-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T19:28:48+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+      "desc": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and is planning to resume withdrawals, subject to security checks.",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "image": null,
+      "pubDate": "2026-10-31T19:16:25+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "This is where most people go wrong in their 30s and 40s",
+      "desc": "These big life decisions will determine just how well you retire.",
+      "link": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-15921386",
+      "pubDate": "2026-10-31T19:02:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+      "desc": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
+      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-65126339",
+      "pubDate": "2026-10-31T19:00:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Palfinger AG (PLFRF) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960660-palfinger-ag-plfrf-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-10-31T18:58:29+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Why the sell-off in French bonds is a warning for global governments",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-the-selloff-in-french-bonds-is-a-warning-for-global-governments-4989316",
+      "image": "https://content-media.investing.com/news/LYNXNPEE9L1CO_M.jpg",
+      "pubDate": "2026-10-31T18:53:38+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+      "desc": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
+      "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-56448073",
+      "pubDate": "2026-10-31T18:50:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
       "title": "YPF Sociedad Anónima (YPF) Q3 2026 Earnings Call Transcript",
       "desc": "",
       "link": "https://seekingalpha.com/article/4959693-ypf-sociedad-anonima-ypf-q3-2026-earnings-call-transcript?source=feed_all_articles",
@@ -49,14 +177,6 @@
       "image": "https://images.mktw.net/im-24279758",
       "pubDate": "2026-10-31T18:33:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
-      "desc": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and is planning to resume withdrawals, subject to security checks.",
-      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-      "image": null,
-      "pubDate": "2026-10-31T18:12:09+00:00",
-      "source": "CNBC Markets"
     },
     {
       "title": "Caregivers are now spending more than $11,000 a year out of pocket—up 60% in five years",
@@ -267,14 +387,6 @@
       "source": "Business Insider"
     },
     {
-      "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
-      "desc": "“Let’s say 10 years from now, when I’m 84, we need a substantial amount of cash.”",
-      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-65126339",
-      "pubDate": "2026-10-31T16:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Verra Mobility: Strong Operational Cash, But Shrinking Underlying Business, Hold",
       "desc": "",
       "link": "https://seekingalpha.com/article/4960630-verra-mobility-strong-operational-cash-but-shrinking-underlying-business-hold?source=feed_all_articles",
@@ -323,28 +435,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "Our church has a $1.5 million bequest earning 3.75% in a savings account. Are we throwing money away?",
-      "desc": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”",
-      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-05792524",
-      "pubDate": "2026-10-31T15:30:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "ONLYOFFICE 10.0 Brings AI Tools, Modular Apps, and Stronger Security to Its Open-Source Office Suite",
       "desc": "<i> </i><span class=\"byline\">Latvia, October 31, 2026 -- ONLYOFFICE 10.0 has been officially released. The major autumn update brings context-aware AI tools directly into the editors, new modular Apps, and a significant ",
       "link": "https://markets.businessinsider.com/news/stocks/onlyoffice-10-0-brings-ai-tools-modular-apps-and-stronger-security-to-its-open-source-office-suite-1036695279",
       "image": null,
       "pubDate": "2026-10-31T15:26:08+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
-      "desc": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
-      "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-51699751",
-      "pubDate": "2026-10-31T15:25:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Yiren Digital Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm - YRD",
@@ -371,44 +467,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "Ambev: The Post-Election Selloff Has Created A More Compelling Buying Opportunity",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960629-ambev-the-post-election-selloff-has-created-a-more-compelling-buying-opportunity?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T15:16:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Under the Stars: A Coastal Escape for Glamping and Outdoor Adventure in La Paz, Mexico",
       "desc": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"justify\" style=\"text-align:justify;\">La Paz, Baja California Sur, Mexico, Oct. 31, 2026 (GLOBE NEWSWIRE) -- On t",
       "link": "https://markets.businessinsider.com/news/stocks/under-the-stars-a-coastal-escape-for-glamping-and-outdoor-adventure-in-la-paz-mexico-1036695270",
       "image": null,
       "pubDate": "2026-10-31T15:15:54+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Cobram Estate Olives Limited (CBOAF) Shareholder/Analyst Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960035-cobram-estate-olives-limited-cboaf-shareholder-analyst-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T15:08:35+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "MainStreet Bancshares, Inc. (MNSB) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960635-mainstreet-bancshares-inc-mnsb-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T15:08:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "LightPath: Demand Is Outrunning Supply, And The Selloff Looks Overdone",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960638-lightpath-demand-is-outrunning-supply-and-the-selloff-looks-overdone?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-10-31T15:05:48+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Insider trades: Goldman Sachs, P&G, Texas Instruments among major names",
@@ -425,22 +489,6 @@
       "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9U0C9_L.jpg",
       "pubDate": "2026-10-31T15:00:25+00:00",
       "source": "Investing.com"
-    },
-    {
-      "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
-      "desc": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
-      "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-12441339",
-      "pubDate": "2026-10-31T15:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The S&P 500 isn’t the big winner you may think it is",
-      "desc": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
-      "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-08594984",
-      "pubDate": "2026-10-31T14:54:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "Citi explains what ’hawk’ and ’dove’ really mean as ECB faces leadership change",
@@ -555,14 +603,6 @@
       "source": "Investing.com"
     },
     {
-      "title": "Power bills and data centers cast rare spotlight on utilities in US midterms",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/power-bills-and-data-centers-cast-rare-spotlight-on-utilities-in-us-midterms-4989220",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEM9U07V_L.jpg",
-      "pubDate": "2026-10-31T11:00:26+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
       "desc": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
       "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
@@ -579,36 +619,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Citi upgrades Hyundai Mobis to buy on 4Q outlook",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/citi-upgrades-hyundai-mobis-to-buy-on-4q-outlook-93CH-4989214",
-      "image": "https://content-media.investing.com/news/LYNXMPED3P07K_M.jpg",
-      "pubDate": "2026-10-31T10:03:53+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
       "desc": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
       "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
       "image": null,
       "pubDate": "2026-10-31T06:00:02+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "AI is coming to construction sites. But does it make workers safer?",
-      "desc": "AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.",
-      "link": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
-      "image": null,
-      "pubDate": "2026-10-31T06:00:02+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Agentic AI excitement runs ahead of results",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/agentic-ai-excitement-runs-ahead-of-results-4989096",
-      "image": "https://content-media.investing.com/news/ArtificialIntelligenceAI_800x533_L_1758714606.jpg",
-      "pubDate": "2026-10-31T05:00:02+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
@@ -640,22 +656,6 @@
       "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
       "image": null,
       "pubDate": "2026-10-30T20:30:57+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
-      "desc": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
-      "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
-      "image": null,
-      "pubDate": "2026-10-30T20:02:45+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
-      "desc": "Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman's past ties to Jeffrey Epstein.",
-      "link": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
-      "image": null,
-      "pubDate": "2026-10-30T18:32:17+00:00",
       "source": "CNBC Markets"
     },
     {
