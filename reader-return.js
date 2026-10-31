@@ -3,6 +3,7 @@
   const key = 'ttn-return-position-v1';
   let pending = null;
   let restoring = false;
+  let started = false;
   const url = location.pathname + location.search;
   const get = () => { try { return JSON.parse(sessionStorage.getItem(key) || 'null'); } catch (_) { return null; } };
   const put = value => { try { sessionStorage.setItem(key, JSON.stringify(value)); } catch (_) {} };
@@ -22,7 +23,8 @@
   }, true);
   const start = () => {
     const data = get();
-    if (!data || !data.pending || data.url !== url || Date.now() - data.saved > 30 * 60 * 1000) return;
+    if (started || !data || !data.pending || data.url !== url || Date.now() - data.saved > 30 * 60 * 1000) return;
+    started = true;
     pending = data;
     restoring = true;
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
@@ -48,6 +50,6 @@
     }, 1750);
   };
   addEventListener('pageshow', start);
-  addEventListener('DOMContentLoaded', () => { if (document.readyState !== 'loading') start(); });
+  addEventListener('DOMContentLoaded', start);
   ['touchstart','wheel','keydown'].forEach(type => addEventListener(type, () => { restoring = false; }, { passive: true }));
 })();
