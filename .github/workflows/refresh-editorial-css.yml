@@ -1,0 +1,33 @@
+name: Refresh editorial CSS cache across older articles
+on:
+  push:
+    paths:
+      - 'scripts/bust_editorial_css_cache.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ttn-editorial-cache-refresh
+  cancel-in-progress: false
+jobs:
+  update-articles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Update older article stylesheet versions
+        run: |
+          python scripts/bust_editorial_css_cache.py
+      - name: Commit updated article references
+        run: |
+          if ! git diff --quiet -- '*.html'; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -- '*.html'
+            git commit -m "Bust stale stylesheet caches on all editorial article pages"
+            git push
+          fi
