@@ -60,3 +60,15 @@
     padding-top:0;
   }
 }
+
+/* Both homepage column pairs align naturally, including while scrolling.
+   Sticky sidebar previously detached Financial Tools from News Feed. */
+@media(min-width:801px){
+ .home-news-row .home-rail-sticky{position:static;top:auto}
+ .home-news-row .home-rail-sticky>.sidebar-block:first-child{
+   padding:0;border:0;background:transparent;box-shadow:none;
+ }
+ .home-news-row .home-rail-sticky>.sidebar-block:first-child>.section-title{
+   margin:0 0 14px;
+ }
+}
