@@ -67,6 +67,13 @@ for file in sorted(pkg.glob('*-seo.json')):
     if schema:
         obj=json.loads(schema.string);obj.update({'headline':title,'description':description,'datePublished':now,'dateModified':now,'mainEntityOfPage':url,'image':image,'articleSection':canonical_section});schema.string=json.dumps(obj,ensure_ascii=False)
     for node in main.select('details, aside.editorial-related'):node.decompose()
+    # Preserve a discreet primary-source block below the article and ticker controls.
+    reference_links=[(a.get_text(' ',strip=True),a['href']) for a in fragment.select('a[href^="https://"]')]
+    if reference_links and not main.select_one('.editorial-sources'):
+        from html import escape as html_escape
+        rows=''.join('<li><a href="'+html_escape(url,quote=True)+'" target="_blank" rel="noopener noreferrer">'+html_escape(label)+'</a></li>' for label,url in reference_links)
+        note=BeautifulSoup('<details class="editorial-sources"><summary>Sources and methodology</summary><p>Primary sources and supporting documentation.</p><ul>'+rows+'</ul></details>','html.parser')
+        main.append(note)
     (root/(slug+'.html')).write_text(str(soup))
     sources=[{'label':a.get_text(' ',strip=True),'url':a['href']} for a in fragment.select('a[href^="https://"]')]
     new.append({'id':slug,'title':title,'dek':dek.get_text(' ',strip=True),'section':canonical_section,'tickers':[],'imageAlt':hero['alt'],'date':now,'author':'TTN Research Desk','format':'news' if section!='Tech & AI' else 'explainer','image':spec['image'],'body':[str(n) for n in body.find_all(['p','h2'],recursive=False)],'sources':sources})
