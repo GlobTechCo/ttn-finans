@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400&display=swap');
 /* TTN editorial design: shared palette and accessible theme switch */
 :root{--bg:#f6f8fb;--surface:#fff;--surface-2:#eef2f7;--border:#dce3ec;--text:#122238;--text-dim:#4e6076;--text-faint:#64748b;--accent:#1359a8;--accent-dim:#aac8e9;--up:#087b58;--down:#c53645;--font-display:"Inter",Arial,sans-serif;color-scheme:light}
 html[data-theme="dark"]{--bg:#101a29;--surface:#162337;--surface-2:#1c2d44;--border:#33445b;--text:#f0f5fc;--text-dim:#b7c6d9;--text-faint:#9eafc3;--accent:#79b9ff;--accent-dim:#365e89;--up:#3cddb0;--down:#ff7e88;color-scheme:dark}
@@ -208,3 +209,13 @@ html[data-theme="dark"] #ticker-strip{color-scheme:dark}
 [data-theme="dark"] .static-page .editorial-body a{color:#80b3ff}
 .static-page .editorial-body a:hover{text-decoration-thickness:2px}
 .static-page .editorial-body a:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+
+/* Approved 2026-10-31: article reading typography in light mode only. */
+html:not([data-theme="dark"]) body:has(.static-page .editorial-body){background:#fff}
+html:not([data-theme="dark"]) .static-page:has(.editorial-body){background:#fff}
+html:not([data-theme="dark"]) .static-page .editorial-body > p{
+ font-family:"Source Serif 4",Georgia,serif;
+ font-size:19px;font-weight:400;line-height:1.55;letter-spacing:normal;
+ color:#202020;margin-bottom:23px;
+}
+html:not([data-theme="dark"]) .static-page .editorial-body > p a{color:#1359a8}
