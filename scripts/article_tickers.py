@@ -38,6 +38,7 @@ INSTRUMENTS = {
     'ZEC': ('BINANCE:ZECUSDT', 'Zcash / Tether · Binance'),
     'IFX': ('XETR:IFX', 'Infineon Technologies · Xetra'),
     'EWZ': ('AMEX:EWZ', 'iShares MSCI Brazil ETF'),
+    'IBIT': ('NASDAQ:IBIT', 'iShares Bitcoin Trust ETF · Nasdaq'),
     'NXT': ('ASX:NXT', 'NEXTDC · ASX'),
     'VWAGY': ('OTC:VWAGY', 'Volkswagen · OTC'),
     'XYZ': ('NYSE:XYZ', 'Block · NYSE'),
