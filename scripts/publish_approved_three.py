@@ -21,6 +21,10 @@ for file in sorted(pkg.glob('*-seo.json')):
     spec=json.loads(file.read_text());slug=spec['slug'];section=spec['section'];canonical_section='Tech & AI' if section=='Tech & AI' else 'Market Analysis'
     if slug in ids or (root/(slug+'.html')).exists():sys.exit('Duplicate '+slug)
     fragment=BeautifulSoup((pkg/(slug+'-fragment.html')).read_text(),'html.parser')
+    # Keep editorial internal links valid: replace outdated placeholder with an existing oil-sector report.
+    for internal in fragment.select('a[href="oil-prices-brent-2026.html"]'):
+        internal['href']='bp-q3-2026-profit-debt-deepwater-horizon.html'
+        internal.string='our coverage of BP’s quarterly results'
     body=fragment.select_one('.editorial-body');dek=fragment.select_one('.editorial-dek')
     assert body and dek,(slug,'missing article body or intro')
     assert len(body.get_text(' ',strip=True).split())>=700,(slug,'too short')
