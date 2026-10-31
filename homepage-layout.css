@@ -36,3 +36,27 @@
 @media(max-width:800px){.home-top-row,.home-news-row{grid-template-columns:minmax(0,1fr)}.home-top-row>aside{display:grid;grid-template-columns:1fr 1fr;gap:20px}.home-rail-sticky{position:static;display:grid;grid-template-columns:1fr 1fr;gap:20px}.home-top-row .sidebar-block,.home-rail-sticky .sidebar-block{margin-bottom:0}.home-news-rail{margin-top:12px}}
 @media(max-width:560px){.home-editorial-section .analysis-grid,.home-editorial-section .tech-ai-grid,.home-top-row>aside,.home-rail-sticky{grid-template-columns:minmax(0,1fr)}.home-top-row{margin-bottom:24px}.home-editorial-section{margin-bottom:24px}.home-editorial-section .analysis-card>img{height:auto!important;aspect-ratio:16/9}.home-editorial-section .tech-ai-card h3,.home-editorial-section .analysis-card h3{font-size:19px}}
 @media(max-height:740px) and (min-width:801px){.home-rail-sticky{position:static}}
+
+/* Desktop column alignment: pair Top Story and Trending headers on one baseline,
+   then align the first content boxes below their labels. */
+@media(min-width:801px){
+  .home-top-row>aside>.sidebar-block:first-child{
+    padding:0;
+    border:0;
+    background:transparent;
+    box-shadow:none;
+  }
+  .home-top-row>aside>.sidebar-block:first-child>.section-title{
+    margin-bottom:14px!important;
+  }
+  .home-top-row>aside>.sidebar-block:first-child>.sidebar-list{
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    background:var(--surface);
+    padding:16px;
+  }
+  /* Match News Feed and Financial Tools heading levels. */
+  .home-news-row .home-rail-sticky>.sidebar-block:first-child{
+    padding-top:0;
+  }
+}
