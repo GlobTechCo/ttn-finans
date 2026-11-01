@@ -1,6 +1,92 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "crypto-polymarket-security-breach-october-2026",
+    "title": "Polymarket Attack Drained $2.73 Million From 737 Accounts, Exposing a Third-Party Security Weakness",
+    "dek": "An on-chain investigation traced nearly $2.73 million in losses to 737 Polymarket accounts during an October 29 attack. The platform says a compromised outside script was responsible and has outlined $3.9 million in reimbursements.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Editorial photo illustrating Polymarket Attack Drained $2.73 Million From 737 Accounts, Exposing a Third-Party Security Weakness",
+    "date": "2026-11-01T20:14:25Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/crypto-polymarket-security-breach-october-2026-cover.webp",
+    "body": [
+      "<p>The compromise of a third-party script on Polymarket's website has become a significant test of how cryptocurrency platforms protect users when their core smart contracts remain intact. On October 29, attackers exploited users' active sessions to redirect money and trading positions. An investigation by blockchain-data firm Bitquery tracked approximately $2.73 million leaving 737 accounts over a one-hour period. Polymarket has confirmed that an external provider was compromised and has committed to reimburse affected users.</p>",
+      "<p>The episode illustrates a security problem that extends beyond the familiar story of a vulnerable smart contract. A website can sit on top of functioning blockchain infrastructure and still become the weak link. When malicious code reaches a user's browser during an authenticated session, the resulting transactions may appear valid to the systems that process them. That does not mean the customer knowingly authorized the transfer.</p>",
+      "<h2>What the blockchain investigation found</h2>",
+      "<p>Bitquery examined Polygon transactions on October 29 and identified 985 withdrawals involving 737 accounts between approximately 17:10 and 18:10 UTC. The research estimates a $2.73 million outflow, with the attacker routing assets through Polymarket's own transaction machinery. The figure is an on-chain estimate based on transactions and valuation assumptions, not a final audited loss statement.</p>",
+      "<p>The platform uses account-linked wallets and a relayer that submits approved transactions. Bitquery found that the withdrawals had valid approvals and that the relayer operated as designed. It found no evidence that the underlying smart contracts had been broken. Assets were converted into Polygon's POL token, distributed to new wallets and, in some cases, moved toward Ethereum through bridging services.</p>",
+      "<h2>What Polymarket has confirmed</h2>",
+      "<p>Polymarket's own status report identifies the entry point as a performance-monitoring script provided by an outside vendor. Attackers replaced that script with code designed to target people who had the website open during a brief period. It used their active sessions to sell positions and move funds out of their wallets.</p>",
+      "<p>The company suspended trading and relayer operations while investigating, removed the compromised script, cleared caches and reset active login sessions. It said it was implementing additional safeguards for third-party code, including tighter content-security policies, explicit version controls, sandboxing and ongoing integrity checks. Polymarket also said it referred the case to law enforcement.</p>",
+      "<p>A company update published October 30 said 95% of affected wallets had been refunded in full as of that afternoon. It put the total reimbursement program at $3.9 million: approximately $2.7 million associated with drained wallets plus $1.2 million for additional trading and pause-related losses. The larger number therefore should not be described as the amount directly stolen.</p>",
+      "<h2>Why normal-looking transactions matter</h2>",
+      "<p>For crypto users, a valid blockchain transaction can be persuasive evidence that something happened, but it does not establish that the person controlling an account intended that transaction. Browser-based session compromise creates precisely this ambiguity. A relayer and a smart wallet may correctly enforce their technical rules while a malicious page script manipulates what reaches them.</p>",
+      "<p>The incident raises practical questions about software suppliers that can execute code inside financial applications. Analytics and performance tools may appear less sensitive than custody infrastructure, yet code loaded into the same page can have access to powerful context. The risk is amplified when trading and withdrawal workflows can be initiated from active sessions.</p>",
+      "<h2>The unresolved questions</h2>",
+      "<p>Bitquery's findings are a snapshot. The investigation notes that wallet labels can be incomplete and that its tracing window does not capture every later movement. Its published analysis also identified activity after the initial public indication that the issue had been fixed, although Polymarket subsequently marked the incident resolved. Those details make an accurate chronology important.</p>",
+      "<p>There is no public basis in the sources reviewed to identify the attacker. Nor does the absence of an exploited smart contract establish that user funds face no remaining operational risk. Independent security review, effective controls over embedded scripts and transparent follow-up reporting are more meaningful tests of recovery than the reopening of trading alone.</p>",
+      "<p>For readers following broader crypto market infrastructure, this episode follows other recent security disruptions, including those described in <a href=\"crypto-binance-withdrawals-reopen-november-2026.html\">TTN Finance's reporting on Binance withdrawal operations</a>. The mechanisms differ, and they should not be confused. The common lesson is that the reliability of crypto services depends on vendors, browsers, authentication and operational controls as much as on the blockchain ledger.</p>",
+      "<p>Polymarket says it has taken corrective steps and made customers whole under its announced program. The lasting issue is whether third-party code can again acquire enough authority in a financial web application to turn a legitimate user session into a route for unauthorized withdrawals.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Polymarket incident history and postmortem",
+        "url": "https://status.polymarket.com/cmvvek1i90eme14ruga1z6tuj"
+      },
+      {
+        "label": "Bitquery on-chain investigation, October 29",
+        "url": "https://www.bitquery.io/investigations/polymarket-hack"
+      }
+    ]
+  },
+  {
+    "id": "tech-ai-deepseek-superagent-research-prototype-october-2026",
+    "title": "DeepSeek Releases Open-Source Super-Agent Prototype, Intensifying the Race to Automate Coding Work",
+    "dek": "DeepSeek's new research repository explores an agent that responds to authorized development requests and carries work through to pull requests. The company cautions that the software is a prototype, not an official production product.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial photo illustrating DeepSeek Releases Open-Source Super-Agent Prototype, Intensifying the Race to Automate Coding Work",
+    "date": "2026-11-01T20:14:25Z",
+    "author": "TTN Research Desk",
+    "format": "explainer",
+    "image": "assets/editorial/tech-ai-deepseek-superagent-research-prototype-october-2026-cover.webp",
+    "body": [
+      "<p>DeepSeek has published an open-source research prototype designed to help software teams delegate coding work with less hands-on coordination. The project, named <code>dsh-superagent</code>, appeared on GitHub on October 31, 2026, and describes a system that can monitor a repository, receive approved requests and carry out tasks in dedicated agent sessions. The release adds another voice to a crowded debate over how autonomous AI systems should operate inside real development teams.</p>",
+      "<p>The distinction between a research publication and a commercial launch is critical. The repository's own introduction explicitly warns that the code is not an official DeepSeek product and is not production-ready software. It also says some concepts discussed in accompanying design materials have not yet been implemented. Calling the release a finished direct replacement for Anthropic's Claude Code would go further than the documentation supports.</p>",
+      "<h2>What the prototype actually does</h2>",
+      "<p>The project is designed for one GitHub repository at a time. It can listen for events from GitHub and, optionally, from Feishu, a workplace communications platform. When an authorized person requests work, the system can create a task, assign it to an agent session and return with an outcome such as a proposed pull request.</p>",
+      "<p>That sequence matters because many existing coding assistants still require a developer to start an interaction, describe the next step and review progress repeatedly. The DeepSeek team is investigating whether an agent can shoulder more of the coordination without generating unnecessary interruptions. Rather than presenting a general-purpose assistant for every task, the prototype focuses on a narrow engineering workflow with explicit permissions and visible human checkpoints.</p>",
+      "<p>Its documentation emphasizes the cost of attention. The stated principle is to use as little human attention as possible while delivering useful work. The agent is supposed to act only when someone authorized requests it or when a team-defined rule permits the action. Work initiated by broader rules can begin in a recording-only mode, letting operators inspect what the agent would have done before trusting it with actual changes.</p>",
+      "<h2>Why permission design is central</h2>",
+      "<p>Developers evaluating such systems face an uncomfortable trade-off. A coding agent that cannot access tools or repositories has limited utility. An agent with broad execution rights can make consequential mistakes, disclose sensitive material or consume substantial engineering time through noisy activity.</p>",
+      "<p>The prototype's philosophy and authorization documents recognize that tension. Operators are meant to define who can request tasks, what sources of input the system accepts and which actions require human intervention. A web panel surfaces items requiring attention rather than trying to become another constantly active dashboard.</p>",
+      "<h2>A different type of AI-agent competition</h2>",
+      "<p>DeepSeek's publication enters a market in which Anthropic, OpenAI, Microsoft and a growing group of developer-tool companies are trying to make coding agents more autonomous. The commercial challenge is not simply producing more lines of code. It is completing changes reliably, coordinating tools, limiting permissions, documenting decisions and creating results that developers can actually inspect.</p>",
+      "<p>That competitive framing is useful, but it should not be confused with a demonstrated head-to-head victory. No independent benchmark in the primary materials reviewed establishes that <code>dsh-superagent</code> outperforms Claude Code or other agent systems. Nor has DeepSeek announced a supported commercial rollout or a verified pricing advantage for this particular prototype.</p>",
+      "<p>The open-source release may nevertheless influence the market by making workflow ideas and implementation choices available to developers. Its MIT license permits teams to study and adapt the published code. For companies already experimenting with internal coding agents, that can reduce the work involved in testing approaches to task routing, authorization and reporting.</p>",
+      "<h2>What teams should watch next</h2>",
+      "<p>The most immediate test will be whether the system can carry realistic tasks through to reviewable results while remaining predictable. Useful evidence would include reproducible coding benchmarks, documented security boundaries, deployment reports and measurements of the human time required to supervise successful work.</p>",
+      "<p>For business readers, the broader importance lies in the potential shift from selling access to powerful AI models toward selling dependable work execution. The value of an agent platform will increasingly depend on whether it can integrate with existing tools and reduce operational overhead, not just answer prompts. That question also underlies <a href=\"ai-publisher-training-controls-openai-google-microsoft-anthropic-2026.html\">TTN Finance's coverage of publisher controls for AI systems</a>, where permissions and legitimate uses of automated systems are similarly central.</p>",
+      "<p>For now, DeepSeek has released an inspectable research artifact and a clear philosophy for lower-noise agent operations. Whether that approach becomes a production tool, a source of ideas for competitors or both remains an open question. Its public GitHub code is the evidence of the release; claims of established performance superiority would be premature.</p>"
+    ],
+    "sources": [
+      {
+        "label": "DeepSeek's official dsh-superagent research repository",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      },
+      {
+        "label": "DeepSeek's philosophy document",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/000-philosophy.md"
+      },
+      {
+        "label": "Repository commit history, October 31, 2026",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commits"
+      }
+    ]
+  },
+  {
     "id": "bitcoin-october-2026-loss-november-seasonality",
     "title": "Bitcoin Lost 7.3% in October as Ether Slid 16%: Can November Seasonality Matter?",
     "dek": "Bitcoin and Ether ended October under pressure. A widely circulated November return average looks bullish, but its dependence on exceptional past gains makes it a poor standalone forecast.",
