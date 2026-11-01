@@ -1,6 +1,58 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "bitcoin-october-2026-loss-november-seasonality",
+    "title": "Bitcoin Lost 7.3% in October as Ether Slid 16%: Can November Seasonality Matter?",
+    "dek": "Bitcoin and Ether ended October under pressure. A widely circulated November return average looks bullish, but its dependence on exceptional past gains makes it a poor standalone forecast.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "imageAlt": "Editorial photo illustrating Bitcoin Lost 7.3% in October as Ether Slid 16%: Can November Seasonality Matter?",
+    "date": "2026-11-01T12:51:58Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/bitcoin-october-2026-loss-november-seasonality-cover.webp",
+    "body": [
+      "<p>Bitcoin closed October 2026 with a reported monthly decline of 7.32%, while Ether dropped 16.06%, according to historical return figures circulated on November 1 by crypto news services and republished in KuCoin’s news feed. The report describes Bitcoin’s result as its fourth-weakest October on record and Ether’s as its second-weakest. For investors, however, the more important question is not where the latest month ranks. It is whether November’s historical reputation for strong cryptocurrency returns offers useful evidence about what happens next.</p>",
+      "<p>A report distributed through KuCoin cites a 34.59% average November return for Bitcoin across 16 observations since 2010. Ten of those Novembers were positive and six negative. That headline average is striking, but the same figures give a median return of just 10.26%. The gap between the two numbers reveals how much the arithmetic mean can be shaped by unusually large years. The figures are attributed to a third-party report on KuCoin’s news page, rather than to a standalone proprietary study by the exchange.</p>",
+      "<h2>Why October's weakness matters</h2>",
+      "<p>October is often presented by cryptocurrency traders as a favorable month for Bitcoin. That seasonal nickname has little analytical value on its own: performance depends on the particular sample, price feed and time zone used to define a monthly closing price. This year’s negative result is therefore noteworthy mainly because it challenges expectations that had already become entrenched in market commentary.</p>",
+      "<p>Ether’s approximately 16% decline was substantially deeper than Bitcoin’s. The difference matters because it can point to weaker demand for riskier or less liquid crypto exposures, though monthly returns alone cannot establish the cause. Changes in derivatives leverage, exchange liquidity, institutional positioning and macroeconomic risk appetite may all affect the relative performance of the two assets. Without matching flow and positioning data, it would be misleading to assign October’s entire decline to any one factor.</p>",
+      "<p>The figures also need to be read as end-of-month estimates rather than as a universal reference price. Different data vendors can report slightly different percentages depending on the exchange basket, candle boundary and whether they measure Bitcoin in dollars or a stablecoin. Independent monthly-return tables broadly support a loss of roughly 7.3% for Bitcoin, although their historical aggregates do not always match the 16-year study quoted in KuCoin’s feed.</p>",
+      "<h2>November's headline average hides extreme outcomes</h2>",
+      "<p>The same November analysis identifies a gain of 453.6% in 2013 and a loss of 36.41% in 2018. Those outcomes show why a 34.59% historical mean should not be used as a base-case forecast. An extraordinary increase in an earlier, smaller market can pull the average sharply higher even if more typical Novembers have been much less dramatic.</p>",
+      "<p>The median of 10.26% is a better description of the center of that particular historical sample, but even the median is not an expected return for November 2026. Six losing months out of 16 demonstrate that the positive seasonal pattern has been far from dependable. Nor are the observations statistically independent: Bitcoin’s market structure, trading venues, investor base and access to institutional capital have changed fundamentally since 2010.</p>",
+      "<h2>What investors should watch instead</h2>",
+      "<p>A useful November assessment begins with market behavior rather than a calendar pattern. Spot trading activity can indicate whether buyers are absorbing supply after October’s selloff. Where available, <a href=\"bitcoin-etf-outflows-october-30-2026.html\">exchange-traded fund flows</a> can offer another view of institutional demand, although a single day of inflows or outflows is not enough to define a durable trend.</p>",
+      "<p>Derivatives funding rates, open interest and liquidation concentrations also deserve attention. A rebound driven mainly by leveraged positioning may look impressive but can reverse quickly when prices move against crowded trades. More sustained improvement would ideally involve rising spot demand alongside measured leverage and healthy liquidity.</p>",
+      "<p>Ether adds another layer to the outlook. If Ether continues to underperform Bitcoin, that could suggest investors remain selective about crypto risk. If the gap narrows while spot volumes improve, it might indicate a broader recovery in market confidence. Neither development would by itself guarantee a lasting trend, and network fundamentals should be assessed separately from short-term price action.</p>",
+      "<p>Broader financial conditions remain relevant. Interest-rate expectations, the dollar, equity-market volatility and investors’ willingness to hold speculative assets can influence cryptocurrency prices even when crypto-specific headlines dominate attention. The direction of those variables is not predetermined by the calendar, and past November gains cannot cancel current market risks.</p>",
+      "<h2>A cautious reading of the data</h2>",
+      "<p>The October losses are a substantive market development. The frequently quoted November average is useful as historical context, not as evidence that Bitcoin is due for a sharp rebound. A 34.59% mean, a 10.26% median and six negative Novembers tell a more complicated story than a single seasonal headline suggests.</p>",
+      "<p>For TTN Finance readers, the practical conclusion is to keep the two claims separate. The reported October declines describe recent performance. November’s historical distribution describes what happened across a limited and changing set of previous years. Neither guarantees a particular outcome in 2026. The next credible signal will come from actual buying and selling, liquidity and <a href=\"crypto-binance-withdrawals-reopen-november-2026.html\">risk conditions</a> as the month unfolds.</p>"
+    ],
+    "sources": [
+      {
+        "label": "KuCoin News, November 1, 2026: historical November return figures and October 2026 performance",
+        "url": "https://www.kucoin.com/news/flash/bitcoin-s-historical-11-month-average-return-rate-at-34-59-with-10-out-of-16-uptrends"
+      },
+      {
+        "label": "SignalPlus, November 1, 2026: November return statistics",
+        "url": "https://t.signalplus.com/crypto-news/detail/bitcoin-november-returns-16-year-average?lang=en-US"
+      },
+      {
+        "label": "Bitcoin monthly return history at Corgano",
+        "url": "https://bitcoinprice.corgano.com/bitcoin-monthly-returns"
+      },
+      {
+        "label": "CoinGlass monthly-return dashboard",
+        "url": "https://www.coinglass.com/today"
+      }
+    ]
+  },
+  {
     "id": "dewa-shanghai-electric-global-energy-mou-november-2026",
     "title": "DEWA International and Shanghai Electric Target Global Energy Projects in New Partnership",
     "dek": "Dubai's utility investment arm and Chinese engineering group agreed to explore energy, water and infrastructure opportunities overseas, but the memorandum contains no announced project awards or financial commitments.",
