@@ -1,6 +1,149 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "crypto-binance-withdrawals-reopen-november-2026",
+    "title": "Binance Reopens Bitcoin Withdrawals After $6.3B Hack",
+    "dek": "Binance gradually restores Bitcoin withdrawals following a $6.3 billion security breach. The exchange says it has covered 95% of affected assets.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP"
+    ],
+    "imageAlt": "Editorial photo illustrating Binance Reopens Bitcoin Withdrawals After $6.3B Hack",
+    "date": "2026-11-01T09:43:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/crypto-binance-withdrawals-reopen-november-2026-cover.webp",
+    "body": [
+      "<p>Binance has begun a phased return of withdrawals after a security incident that compromised its hot-wallet infrastructure and affected an estimated $6.3 billion in digital assets. The exchange's decision to open the <a href=\"bitcoin-etf-outflows-october-30-2026.html\">Bitcoin market</a> first marks a significant operational milestone, although the reopening should not be confused with the completion of the investigation or recovery of the assets lost in the attack.</p>",
+      "<p>The company's November 1 support notice, published at 04:08 in the time format shown on its website, said that the first phase of withdrawals was scheduled between 06:00 and 09:00 UTC. The initial list included Bitcoin, Ethereum, BNB Smart Chain, Solana, XRP and other networks. Binance warned that the availability of particular assets and networks could vary as its technical teams performed additional checks. AFP subsequently reported that Binance announced Bitcoin was the first network opened in the initial phase.</p>",
+      "<h2>A major breach followed by a controlled reopening</h2>",
+      "<p>The disruption began on October 29 at approximately 20:05 UTC, according to a company incident update. Binance said attackers had compromised its hot wallets, leading to unauthorized withdrawals of assets valued at approximately $6.3 billion. The preliminary findings evolved as the investigation progressed: the exchange initially cited a potentially compromised laptop, but later said it had identified additional points of breach. It also said it had found no evidence that wallet private keys had leaked. Those are company statements rather than independently established final forensic conclusions.</p>",
+      "<p>The scale of the incident placed pressure on Binance to demonstrate that it could restore customer access without creating additional vulnerabilities. In its October 30 update, the exchange said it had contained the compromised infrastructure, withdrawn affected authorizations and strengthened security controls. It reported cooperation with law enforcement, token issuers and blockchain intelligence firms to trace or freeze assets associated with the incident.</p>",
+      "<p>The withdrawal suspension was therefore not simply a temporary inconvenience. It became a test of the operating model of a large centralized exchange, in which users depend on the platform's infrastructure to move assets that may ultimately settle on decentralized networks. The Bitcoin network itself did not need to be compromised for customers to lose the ability to withdraw their Bitcoin from an affected intermediary.</p>",
+      "<h2>What does the 95% recovery figure mean?</h2>",
+      "<p>Binance said in its November 1 update that it had covered approximately 95% of the affected amount by using corporate resources and acquiring replacement tokens. The firm said its largest affected balances, including BTC, ETH, USDT, BNB, SOL and USDC, were fully backed. It described the remaining roughly 5% as less-liquid assets that would take longer to acquire at the necessary scale.</p>",
+      "<p>That distinction matters. Replenishing assets with company funds is not the same as recovering stolen assets from attackers. Binance separately reported efforts to trace and freeze compromised funds. Its statement that it would absorb the financial losses, rather than passing them to customers, is a commitment by the company; readers should distinguish that commitment from the outcome of any final audit, legal proceeding or forensic report.</p>",
+      "<p>The size of the reserve replacement effort also raises questions about liquidity management and financial resilience. An exchange facing a large, sudden shortfall may need access to liquid corporate assets, credit arrangements or market counterparties. The speed at which replacement tokens can be sourced depends on trading depth, particularly for smaller cryptocurrencies. The company has not yet published a complete independent account resolving every uncertainty surrounding the breach.</p>",
+      "<h2>Why Bitcoin reopened first</h2>",
+      "<p>Bitcoin is the highest-profile cryptocurrency and a major withdrawal route for exchange customers. Opening the BTC network first was an operational and symbolic step: it allowed the exchange to demonstrate progress on a heavily used network while monitoring demand, transaction processing and security conditions. It did not establish that every listed network was simultaneously available to every customer.</p>",
+      "<p>Binance said withdrawal networks and assets would come online progressively and that customers could experience delays or failed requests during the initial rollout. It directed users to individual network status and withdrawal pages for current availability. Users should rely on those operational notices rather than assuming that one announcement means all services have returned to normal.</p>",
+      "<p>The incident has also reignited scrutiny of reserve disclosures. Binance said it would provide proof-of-reserves information, but an exchange reserve snapshot alone does not necessarily establish the full range of corporate liabilities or explain the financial treatment of every loss. An independent assessment would need to consider custody controls, off-chain obligations, reserve composition and the separation of customer and corporate funds.</p>",
+      "<h2>The questions that remain</h2>",
+      "<p>For the broader crypto industry, the episode highlights a persistent structural risk. Blockchain settlement systems may be resilient while the custodians and software systems that connect customers to them remain vulnerable. Centralized exchanges offer convenience and liquidity, but customers also assume operational and counterparty exposure.</p>",
+      "<p>Investors and customers will be watching for three developments: the complete restoration of withdrawal routes, independent confirmation of balances and replacement reserves, and a detailed post-incident account explaining the attack path and the safeguards introduced afterward. Binance said it intended to publish further findings when the investigation was complete.</p>",
+      "<p>Bitcoin withdrawal access is therefore a recovery milestone, not the end of the story. The longer-term impact on customer confidence will depend less on the timing of the first reopening than on the evidence Binance provides about how it handled the loss and how it intends to prevent a repeat.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Binance — Security Incident Update #2, October 30",
+        "url": "https://www.binance.com/en-GB/support/announcement/security-incident-update-2-2026-10-30-d3306d9dca5243548c813b605e1d1751"
+      },
+      {
+        "label": "Binance — Recovery Update #4, November 1",
+        "url": "https://www.binance.com/en-GB/support/announcement/security-incident-recovery-update-4-withdrawals-resume-in-phases-2026-11-01-73911fb819b240f88b88256bdd318eda"
+      },
+      {
+        "label": "AFP — Binance says resuming withdrawals after major hack, November 1",
+        "url": "https://www.afp.com/en/binance-says-resuming-withdrawals-after-major-hack"
+      }
+    ]
+  },
+  {
+    "id": "finance-south-korea-exports-ai-chips-october-2026",
+    "title": "South Korea Exports Jump 93.7% on AI Chip Demand",
+    "dek": "South Korean exports rose 93.7% in October as AI chip orders surged, but the calendar effect means the headline needs context.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Editorial photo illustrating South Korea Exports Jump 93.7% on AI Chip Demand",
+    "date": "2026-11-01T09:43:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/finance-south-korea-exports-ai-chips-october-2026-cover.webp",
+    "body": [
+      "<p>South Korea reported a striking increase in exports for October 2026, highlighting how rapidly investment in artificial intelligence is changing the composition of global trade. Overseas shipments rose 93.7% from a year earlier to $115.28 billion, according to figures reported by Reuters and attributed to the country's trade ministry. The increase was the strongest annual rate since January 1974, exceeding the median forecast in a Reuters survey.</p>",
+      "<p>Related TTN Finance coverage: <a href=\"nvidia-rtx-spark-local-ai-agent-tools-october-2026.html\">NVIDIA</a>.</p>",
+      "<p>The headline figure points to vigorous international demand for semiconductors and computers, but it requires careful interpretation. The comparison with October 2025 was also affected by the timing of the Chuseok holiday, which resulted in a different number of working days. A large year-on-year percentage change therefore reflects both underlying commercial demand and a favorable calendar comparison. Treating the full 93.7% as a pure measure of AI investment would overstate what the data show.</p>",
+      "<h2>Chips account for an extraordinary share of growth</h2>",
+      "<p>Semiconductor exports rose 259.4% from a year earlier to $56.44 billion, while computer exports increased 496.6%, according to the Reuters report. The technology categories benefited from strong global demand linked to artificial intelligence infrastructure, including servers and advanced memory and processing components used in large computing systems.</p>",
+      "<p>The export performance is consistent with the wider emphasis on AI infrastructure spending among large technology companies. South Korea occupies a crucial position in the semiconductor supply chain, with companies such as Samsung Electronics and SK Hynix supplying memory products required for data centers and advanced computing. When demand for AI servers accelerates, the effects can spread from chip producers to component manufacturers, equipment suppliers and logistics networks.</p>",
+      "<p>That relationship does not mean every dollar of semiconductor exports should be described as AI-related. Memory, logic chips and other semiconductor products have uses across consumer devices, industrial systems and conventional computing. Even so, the scale of the increase in chips and computers indicates that technology demand was a major contributor to October's export strength.</p>",
+      "<h2>The calendar effect and the importance of the base</h2>",
+      "<p>Annual growth rates are sensitive to the amount of activity in the comparison period. The Chuseok holiday shifted the number of available business days between the two Octobers, and the Reuters survey already anticipated an exceptionally large rise. The reported 93.7% increase only modestly exceeded the 93.2% median estimate.</p>",
+      "<p>That small difference matters for financial interpretation. A record-looking figure does not automatically represent a major positive surprise if economists had already incorporated the holiday effect and strong chip demand into their forecasts. The market response depends on expectations, the detailed export mix and the implications for future company profits, not merely on the size of the annual percentage.</p>",
+      "<p>More durable signals include absolute export values, semiconductor shipment volumes, pricing conditions and the trend over several months. South Korea reported September exports of more than $110 billion as well, suggesting that October's result occurred in the context of an already strong trade environment rather than as an isolated monthly spike.</p>",
+      "<h2>Imports, the trade surplus and domestic demand</h2>",
+      "<p>Imports increased 36% year over year to $72.78 billion, Reuters reported. The trade balance remained strongly positive at approximately $42.5 billion, although that surplus was narrower than September's roughly $49.97 billion. Imports can rise for several reasons, including the purchase of manufacturing equipment, energy products and inputs used by domestic industries.</p>",
+      "<p>A widening export sector can support domestic production and corporate earnings, but the broader macroeconomic effect also depends on prices, imports and investment needs. Higher energy costs or capital equipment purchases can increase the import bill even as overseas sales strengthen. In addition, a large merchandise trade surplus is not identical to an equally large increase in national income or government revenues.</p>",
+      "<p>For policymakers, the data offer evidence of external demand at a time when the global economy is adjusting to major technology investment. The sustainability of that demand will depend partly on whether customers continue expanding AI data-center capacity and whether suppliers can increase output without an abrupt weakening of prices.</p>",
+      "<h2>What the figures mean for investors</h2>",
+      "<p>The immediate beneficiaries of an AI-driven semiconductor cycle include chip manufacturers and selected suppliers of equipment, materials and manufacturing capacity. South Korea's export statistics provide a broad gauge of those industries, but they are not a substitute for company-level analysis. Revenue growth can coexist with higher operating expenses, capital spending or volatile profitability.</p>",
+      "<p>Investors should watch both shipment values and pricing. A rise in exports can reflect more units sold, higher prices or a combination of the two. Those sources of growth have different implications for margins and for the duration of the cycle. An expansion led by temporary price increases could reverse more quickly than one supported by durable capacity utilization and long-term customer demand.</p>",
+      "<p>The country's position in the global supply chain also makes its trade releases useful outside Korea. Export orders can provide an early signal about the behavior of technology customers in the United States, Europe and Asia. The figures nevertheless cover a broad range of products and should not be treated as a direct measure of revenue at any one multinational company.</p>",
+      "<p>South Korea's trade ministry suggested cumulative exports could pass $1 trillion for the year during November. Such a milestone would underline the country's growing export scale, but the more important question for markets is whether the semiconductor and server boom can maintain momentum into subsequent quarters.</p>",
+      "<p>The October numbers are therefore strong evidence of substantial demand for advanced technology hardware, while also serving as a reminder to separate calendar effects, export prices and actual volumes. That distinction is essential to understanding whether a remarkable headline translates into sustained economic growth.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters — South Korea exports nearly double in October, November 1",
+        "url": "https://www.reuters.com/world/asia-pacific/south-korea-exports-nearly-double-october-strongest-growth-since-1974-2026-11-01/"
+      },
+      {
+        "label": "MarketScreener — Reuters reporting and publication timing",
+        "url": "https://uk.marketscreener.com/news/south-korea-exports-nearly-double-in-october-on-ai-investment-boom-ce785fd8da89f626"
+      }
+    ]
+  },
+  {
+    "id": "tech-ai-anthropic-sec-s1-ipo-october-26-2026",
+    "title": "Anthropic Files SEC S-1 for Planned IPO",
+    "dek": "Anthropic filed its S-1 on October 26, revealing its intended Nasdaq listing while leaving IPO pricing and timing open.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial photo illustrating Anthropic Files SEC S-1 for Planned IPO",
+    "date": "2026-11-01T09:43:05Z",
+    "author": "TTN Research Desk",
+    "format": "explainer",
+    "image": "assets/editorial/tech-ai-anthropic-sec-s1-ipo-october-26-2026-cover.webp",
+    "body": [
+      "<p>Anthropic has formally taken a step toward becoming a publicly traded company by filing a registration statement on Form S-1 with the United States Securities and Exchange Commission. The filing was submitted on October 26, 2026, according to SEC records and an announcement on the company's website. That date is important: the development is not a new November 1 filing, despite a more recent description circulating in news summaries.</p>",
+      "<p>The proposed transaction would bring one of the most closely followed developers of <a href=\"nvidia-rtx-spark-local-ai-agent-tools-october-2026.html\">large language models</a> into the public equity market. Anthropic intends to seek a listing of its Class A common stock on the Nasdaq Global Select Market under the symbol ANT. The company said the number of shares it will offer and the indicated price range have not yet been determined. The filing also has not become effective, meaning the offering is still subject to the applicable registration process.</p>",
+      "<h2>The difference between filing and listing</h2>",
+      "<p>An S-1 registration statement is a disclosure document, not a completed stock-market debut. Its function is to provide prospective investors with a detailed picture of the issuer, its business, financial position and risks ahead of a possible offering. The timing and final terms of an IPO can change during regulatory review and market preparation.</p>",
+      "<p>Anthropic's October 26 announcement included standard legal language explaining that the proposed shares cannot be sold, and that purchase offers cannot be accepted, until the registration statement becomes effective. It also identified Goldman Sachs and Morgan Stanley as contacts for preliminary prospectus requests. These details show that the company has moved beyond general discussion of a potential listing, but they do not establish a final offering date or valuation.</p>",
+      "<p>For readers following private AI companies, that distinction prevents two common errors: treating filing news as proof that shares are already available to the public, and converting speculative valuations into confirmed deal terms. Neither claim is supported by Anthropic's announcement.</p>",
+      "<h2>Why the filing matters for AI investment</h2>",
+      "<p>Artificial intelligence has created enormous demand for computing infrastructure and has encouraged investors to focus on the economics of model providers. A listed Anthropic would offer public-market investors more direct exposure to a company developing foundation models and related enterprise products. Until an offering takes place, however, the range of investment choices and the price at which public shareholders might participate remain unknown.</p>",
+      "<p>The investment case is different from buying shares in a semiconductor designer or a cloud infrastructure provider. AI model companies must convert research and computing expense into recurring revenue while defending their products against a rapidly changing competitive landscape. Model quality, developer adoption, enterprise contracts, inference efficiency and distribution partnerships all influence the economics of that strategy.</p>",
+      "<p>Public ownership would also mean a new level of ongoing financial reporting and investor scrutiny. Rather than evaluating the company solely through product launches, funding announcements and customer anecdotes, investors could examine audited financial disclosures, operating cash flows and the detail provided about business risks. The final prospectus will be essential to understanding those matters; promotional summaries cannot replace it.</p>",
+      "<h2>What investors should examine in the prospectus</h2>",
+      "<p>A careful reading of the registration statement begins with the company's description of its revenue streams. Enterprise subscriptions, API usage and other commercial arrangements can have different margins and customer-retention characteristics. Investors will want to distinguish revenue growth from the cost of delivering that revenue, especially when large-scale model inference requires substantial accelerator capacity.</p>",
+      "<p>The next question is spending. Training new generations of AI models requires substantial computing resources, engineering talent and access to facilities. The economics can improve with model efficiency, specialized hardware and higher utilization, but the costs do not disappear. Readers should assess how the company characterizes infrastructure commitments and how sensitive its operating model is to changes in compute prices.</p>",
+      "<p>Competition is another central issue. Large AI developers compete not only on raw model capability but also on reliability, security, integration, developer ecosystems and the cost of running applications. Enterprise customers may choose to use several model providers simultaneously, which can create opportunity while reducing the ability of any single developer to rely on exclusive relationships.</p>",
+      "<p>Corporate governance deserves attention as well. Anthropic plans to offer Class A common stock, but the complete ownership and voting arrangements must be assessed through the governing disclosures rather than inferred from the name of the share class. Investors should examine potential dilution, control provisions, related-party relationships and the rights attached to the shares being offered.</p>",
+      "<h2>A listing is not a verdict on the AI market</h2>",
+      "<p>An Anthropic IPO could become a closely watched event for the sector, but its commercial significance cannot be judged from the filing alone. Market conditions at the time of any offering, the eventual pricing and the company's disclosed financial metrics would all shape investor response. The October filing establishes a process and a source of information, not an outcome.</p>",
+      "<p>It also changes how AI-industry narratives can be tested. Claims about explosive demand, model capabilities and enterprise usage become more meaningful when they can be compared with audited financial performance and explicit business risks. That is valuable whether the company's eventual shares rise, fall or never reach the public market on the anticipated timetable.</p>",
+      "<p>For now, the decisive facts are narrow but significant. Anthropic filed its S-1 on October 26, identified Nasdaq and the proposed ANT symbol, and said no share count or price range had yet been set. Future updates should be checked against subsequent SEC amendments and official company disclosures, not attributed retroactively to November 1.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Anthropic — S-1 filing announcement, October 26",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      {
+        "label": "SEC — Anthropic S-1 filing, October 26",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      },
+      {
+        "label": "SEC EDGAR — submission metadata",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index-headers.html"
+      }
+    ]
+  },
+  {
     "id": "nvidia-rtx-spark-local-ai-agent-tools-october-2026",
     "title": "NVIDIA Expands RTX Spark Laptops With Local AI Agent Tools",
     "dek": "NVIDIA is adding new models and agent workflows to its RTX Spark PCs, putting more AI work on laptops as its November earnings call approaches.",
