@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime,timezone
 from bs4 import BeautifulSoup
 # The approved archive is processed by GitHub Actions on upload or script changes. Verified ticker label repair.
-root=Path.cwd(); zip_path=root/'ttn_three_articles_publication_package.zip'
+root=Path.cwd(); zip_path=root/'TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip' if (root/'TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip').is_file() else root/'ttn_three_articles_publication_package.zip'
 if not zip_path.is_file():sys.exit('Publication package missing')
 pkg=root/'.ttn-publication-temp';pkg.mkdir(exist_ok=True)
 with zipfile.ZipFile(zip_path) as z:z.extractall(pkg)
