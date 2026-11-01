@@ -1,6 +1,57 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "dewa-shanghai-electric-global-energy-mou-november-2026",
+    "title": "DEWA International and Shanghai Electric Target Global Energy Projects in New Partnership",
+    "dek": "Dubai's utility investment arm and Chinese engineering group agreed to explore energy, water and infrastructure opportunities overseas, but the memorandum contains no announced project awards or financial commitments.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Editorial photo illustrating DEWA International and Shanghai Electric Target Global Energy Projects in New Partnership",
+    "date": "2026-11-01T11:50:32Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/dewa-shanghai-electric-global-energy-mou-november-2026-cover.webp",
+    "body": [
+      "<p>Dubai Electricity and Water Authority's international development arm has signed a memorandum of understanding with China's Shanghai Electric to pursue potential energy, water and infrastructure projects outside their home markets, broadening a relationship that already has a significant history in Dubai's power sector.</p>",
+      "<p>The agreement, announced on November 1, brings together DEWA International, the global arm of Dubai Electricity and Water Authority, and Shanghai Electric. According to the Emirates News Agency, the partners will identify, evaluate and develop prospective investments, including participation in competitive tenders. Their scope extends beyond renewable electricity into desalination, conventional power generation, electricity networks and emerging low-carbon fuels.</p>",
+      "<p>For the energy industry, the announcement is another indication that large utilities and equipment manufacturers are seeking to combine development capital, engineering capabilities and operating experience across borders. For investors, however, an important distinction applies: a memorandum of understanding creates a route to future business, not confirmed revenue. Neither a specific overseas project nor a contract value was disclosed in the announcement.</p>",
+      "<h2>An unusually broad cooperation framework</h2>",
+      "<p>The companies have identified combined-cycle gas-fired power plants, solar photovoltaic projects, concentrated solar power, wind farms and battery energy storage systems among potential areas of cooperation. Seawater desalination and electricity transmission and distribution are also included. In addition, the agreement covers green hydrogen, green ammonia and the supply of equipment and services to oil and gas projects.</p>",
+      "<p>That mix reflects the practical demands of electricity and water systems rather than a single-technology bet. Solar and wind can provide low-carbon generation, while batteries and dispatchable power capacity help address variability and peak demand. Desalination adds another infrastructure requirement in water-stressed markets, but it can also be energy-intensive, making the design of generation and water assets an interconnected investment decision. For additional industry context, see <a href=\"vistra-cogentrix-gas-power-acquisition-october-2026.html\">TTN Finance analysis of US gas-power investment</a>.</p>",
+      "<p>The two parties may work together on project identification, technical and commercial assessment, project structuring, tender participation and potential investment. The precise division of responsibilities, financing approach and ownership shares would still need to be agreed for individual projects.</p>",
+      "<h2>Why the partnership has commercial logic</h2>",
+      "<p>DEWA brings utility planning, large-scale procurement and experience overseeing complex energy and water infrastructure in Dubai. Shanghai Electric contributes industrial engineering, equipment manufacturing and power-project delivery capabilities. Combining those strengths may help the companies compete for projects whose sponsors want both technical execution and a credible operating or development partner.</p>",
+      "<p>The relationship is not starting from scratch. A consortium led by Shanghai Electric served as the main contractor on the fourth phase of Dubai's Mohammed bin Rashid Al Maktoum Solar Park. In an October 2025 statement, DEWA described that phase as a 950-megawatt combination of concentrated solar power and photovoltaic generation with an investment of AED 15.78 billion. That completed relationship offers relevant context, although the project's historical budget must not be confused with spending under the newly announced memorandum.</p>",
+      "<p>DEWA International has also been expanding its roster of counterparties. In October 2026 it announced separate memoranda with EDF Power Solutions, China Energy International Group, Capital Dynamics and Tata Consultancy Services. Those agreements address investment, engineering and technology cooperation in different parts of the infrastructure market. The Shanghai Electric announcement therefore fits a broader effort to build a global development pipeline rather than representing a stand-alone expansion into a new industry.</p>",
+      "<h2>What investors should—and should not—take from the announcement</h2>",
+      "<p>A cooperation memorandum can improve access to bidding opportunities, but it does not establish that a project will be financed or built. The commercial significance of this agreement will become clearer only if the companies identify target countries, announce tender wins, form investment vehicles or disclose binding contracts. For additional industry context, see <a href=\"bp-q3-2026-profit-debt-deepwater-horizon.html\">TTN Finance coverage of BP’s energy investment outlook</a>.</p>",
+      "<p>Project economics will depend on local regulation, the creditworthiness of electricity or water buyers, currency exposure, construction costs and the cost of financing. These factors can differ substantially across international markets. Capital-intensive technologies such as concentrated solar power, desalination and hydrogen infrastructure can require particularly careful assessment of long-term contracts and expected utilisation.</p>",
+      "<p>Green hydrogen and ammonia are strategically prominent in the partnership's scope, but those businesses remain especially sensitive to demand certainty and production economics. The inclusion of a technology in a memorandum should not be read as evidence that a bankable project or customer contract already exists.</p>",
+      "<p>Likewise, there is no disclosed new revenue guidance for Shanghai Electric, no announced incremental earnings for DEWA and no verified investment budget attached to this specific agreement. Any market valuation conclusion would be premature on the available information.</p>",
+      "<h2>The next milestones</h2>",
+      "<p>The immediate indicators to watch are named project opportunities, country-level agreements, tender participation and any subsequent engineering or investment contracts. A timetable for specific assets, financing details and partner contributions would turn today's broad cooperation framework into something investors could assess quantitatively.</p>",
+      "<p>For now, the agreement signals an ambition to export Dubai's infrastructure expertise alongside Chinese engineering capacity. Its potential spans electricity generation, storage, water and new fuels, but the scale of the eventual business will depend on execution rather than the signature itself.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Emirates News Agency (WAM), November 1, 2026",
+        "url": "https://www.wam.ae/en/article/17i4sf8-dewa-international-shanghai-electric-expand"
+      },
+      {
+        "label": "DEWA, October 23, 2025, existing relationship and Mohammed bin Rashid Al Maktoum Solar Park",
+        "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2025/10/dewa-and-shanghai-electric-strengthen"
+      },
+      {
+        "label": "DEWA, October 2026, other DEWA International agreements",
+        "url": "https://dewa.gov.ae/en/about-us/media-publications/latest-news/2026/10/dewa-international-signs-4-mous-with-global-partners-during-wetex-2026"
+      },
+      {
+        "label": "MEED, October 22, 2026, DEWA International development strategy",
+        "url": "https://guest.meed.com/dewa-international-signs-energy-and-infrastructure-mous/"
+      }
+    ]
+  },
+  {
     "id": "crypto-binance-withdrawals-reopen-november-2026",
     "title": "Binance Reopens Bitcoin Withdrawals After $6.3B Hack",
     "dek": "Binance gradually restores Bitcoin withdrawals following a $6.3 billion security breach. The exchange says it has covered 95% of affected assets.",
