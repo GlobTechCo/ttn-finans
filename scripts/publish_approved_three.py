@@ -41,6 +41,9 @@ for file in sorted(pkg.glob('*-seo.json')):
     assert old,(slug,'template article body missing')
     old.replace_with(body)
     title=spec['headline'];description=spec['metaDescription']
+    if len(description)>160:
+        description=description[:157].rsplit(' ',1)[0].rstrip(' ,;:-.')+'.'
+    assert 70<=len(description)<=160,(slug,'meta description length',len(description))
     main.find('h1').string=title
     intro=main.select_one('.article-dek')
     if intro:intro.string=dek.get_text(' ',strip=True)
