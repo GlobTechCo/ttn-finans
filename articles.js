@@ -1,6 +1,56 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "nvidia-rtx-spark-local-ai-agent-tools-october-2026",
+    "title": "NVIDIA Expands RTX Spark Laptops With Local AI Agent Tools",
+    "dek": "NVIDIA is adding new models and agent workflows to its RTX Spark PCs, putting more AI work on laptops as its November earnings call approaches.",
+    "section": "Tech & AI",
+    "tickers": [
+      "NVDA"
+    ],
+    "imageAlt": "Editorial photo illustrating NVIDIA Expands RTX Spark Laptops With Local AI Agent Tools",
+    "date": "2026-11-01T07:47:01Z",
+    "author": "TTN Research Desk",
+    "format": "explainer",
+    "image": "assets/editorial/nvidia-rtx-spark-local-ai-agent-tools-october-2026-cover.webp",
+    "body": [
+      "<h2>NVIDIA turns RTX Spark into a software story</h2>",
+      "<p>NVIDIA is extending its RTX Spark effort beyond the initial launch of Windows laptops, using an October 28, 2026 update to showcase additional local artificial intelligence models and tools for autonomous software agents. The announcement adds to a PC strategy that connects NVIDIA’s Blackwell graphics, Grace CPU technology and CUDA software with computing tasks that would otherwise run on remote cloud infrastructure. For customers, the question is whether powerful on-device AI can become a useful everyday workflow. For NVIDIA, it is whether its established developer ecosystem can help it capture a larger role in personal computing. NVIDIA made RTX Spark laptops available on October 16, with systems from ASUS, Dell, HP, Lenovo, Microsoft and MSI; the October 28 news expanded the existing platform rather than launching it for the first time.</p>",
+      "<h2>What the October 28 update actually adds</h2>",
+      "<p>NVIDIA highlighted Nemotron 3.5 Transcribe, an open-weight speech model intended for tasks such as transcription, identifying speakers and translation. It also pointed to Liquid AI’s LFM3 models as part of the options available for local inference. These additions are relevant because voice interfaces and smaller, more efficient language models can make a personal AI system useful without every interaction requiring a large remote model. The performance, accuracy and power demands of specific workflows will still depend on model size, software optimization and device configuration.</p>",
+      "<p>The company also discussed additions around Hermes Agent, including NVIDIA OpenShell and Switchyard. The broader aim is to give developers more tools to build agents that can coordinate steps, call software tools and manage work locally. An agent that can read inputs, act on a sequence of instructions and return a result is a more demanding use case than a chatbot answering a single question. It raises practical questions about access permissions, reliability, memory consumption and safeguards when software can take actions on a user’s behalf.</p>",
+      "<h2>Why unified memory matters</h2>",
+      "<p>RTX Spark combines a Grace CPU and Blackwell RTX GPU, with up to 128GB of unified memory and a company-stated maximum of one petaflop of FP4 AI performance. These are upper-end platform claims, not guaranteed performance for every laptop or application. Unified memory can help developers keep large models and datasets accessible to the CPU and GPU, although real-world speed also depends on bandwidth, sustained power, software optimization and thermal limits.</p>",
+      "<h2>An emerging market with clear trade-offs</h2>",
+      "<p>The first independent assessments of RTX Spark laptops have been mixed. Reporting by The Verge described strong potential in integrated graphics and local AI while also identifying high prices, heat, fan noise, limited battery life under demanding workloads and compatibility issues for some software. Those findings do not invalidate the platform, but they underline why the AI PC category remains early. A capable workstation on a desk and an efficient all-day mobile computer are not the same product proposition, even if both use a laptop form factor.</p>",
+      "<p>The possible benefits are nevertheless tangible. Local processing can reduce reliance on network connections, keep certain data on the user’s hardware and avoid recurring per-request cloud inference costs. For another aspect of model deployment and control, see <a href=\"ai-publisher-training-controls-openai-google-microsoft-anthropic-2026.html\">our coverage of publisher AI-training controls</a>. Developers can test models, prototype agents or run transcription and coding assistants without uploading every input. Those advantages are conditional, not automatic: local security still depends on applications and permissions, and cloud services may remain better for the largest models or rapidly changing workloads.</p>",
+      "<h2>NVIDIA reaches beyond the data center</h2>",
+      "<p>NVIDIA’s strategy is to bring more of its AI technology stack into the personal computer. As discussed in <a href=\"google-suncatcher-first-ai-response-orbit-october-2026.html\">our reporting on Google’s orbital AI experiment</a>, the drive to distribute AI workloads spans very different computing environments. Its CUDA ecosystem already shapes how many developers work with accelerated computing. RTX Spark could extend that relationship to laptops that developers use to build, test and run applications directly. The presence of multiple major PC manufacturers gives the platform a route into enterprise and creator markets, but broad availability does not by itself establish broad demand.</p>",
+      "<h2>Investors will also watch November earnings</h2>",
+      "<p>NVIDIA separately announced on October 28 that it will discuss third-quarter results for fiscal 2027 on November 17, 2026, at 2 p.m. Pacific time, or 5 p.m. Eastern time. The quarter ended on October 25. The company said written commentary from Chief Financial Officer Colette Kress would be published after results are released, ahead of the call. The earnings event is distinct from the RTX Spark product update and should not be treated as evidence of specific laptop sales or financial contributions.</p>",
+      "<h2>The next test</h2>",
+      "<p>RTX Spark is emerging as a portable platform for local AI development, inference and autonomous agents rather than simply another premium laptop label. Its commercial prospects depend on practical tools, software compatibility, acceptable battery life and pricing. NVIDIA’s November earnings call may offer broader strategic context, but the more important evidence will come from developers and businesses using these systems consistently in real work.</p>"
+    ],
+    "sources": [
+      {
+        "label": "NVIDIA RTX Spark update — October 28, 2026",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+      },
+      {
+        "label": "NVIDIA RTX Spark launch — October 16, 2026",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs"
+      },
+      {
+        "label": "NVIDIA investor relations: third-quarter conference call",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+      },
+      {
+        "label": "The Verge: first week with RTX Spark laptops",
+        "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
+      }
+    ]
+  },
+  {
     "id": "ai-publisher-training-controls-openai-google-microsoft-anthropic-2026",
     "title": "OpenAI, Google, Microsoft and Anthropic Back Shared AI Training Controls for Publishers",
     "dek": "Four AI companies have backed a shared publisher preference mechanism, but the controls remain voluntary and implementation is not yet uniform.",
