@@ -7,6 +7,7 @@ on:
       - 'scripts/refresh_static_editorial.py'
       - 'ttn_three_articles_publication_package.zip'
       - 'TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip'
+      - 'TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip'
       - 'TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip'
       - '.github/workflows/publish-approved-three.yml'
 permissions:
