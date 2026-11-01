@@ -5,7 +5,7 @@ from datetime import datetime,timezone
 from bs4 import BeautifulSoup
 # The approved archive is processed by GitHub Actions on upload or script changes. Verified ticker label repair.
 root=Path.cwd()
-archives=['TTN_BTC_ETH_October_2026_PUBLISH.zip','TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip','TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
+archives=['TTN_Polymarket_DeepSeek_APPROVED_PUBLISH_2026-11-01.zip','TTN_BTC_ETH_October_2026_PUBLISH.zip','TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip','TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
 zip_path=next((root/name for name in archives if (root/name).is_file()),root/archives[-1])
 if not zip_path.is_file():sys.exit('Publication package missing')
 pkg=root/'.ttn-publication-temp';pkg.mkdir(exist_ok=True)
