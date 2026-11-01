@@ -4,7 +4,9 @@ from pathlib import Path
 from datetime import datetime,timezone
 from bs4 import BeautifulSoup
 # The approved archive is processed by GitHub Actions on upload or script changes. Verified ticker label repair.
-root=Path.cwd(); zip_path=root/'TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip' if (root/'TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip').is_file() else root/'ttn_three_articles_publication_package.zip'
+root=Path.cwd()
+archives=['TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
+zip_path=next((root/name for name in archives if (root/name).is_file()),root/archives[-1])
 if not zip_path.is_file():sys.exit('Publication package missing')
 pkg=root/'.ttn-publication-temp';pkg.mkdir(exist_ok=True)
 with zipfile.ZipFile(zip_path) as z:z.extractall(pkg)
@@ -18,7 +20,8 @@ if expected_slugs and expected_slugs.issubset(ids) and all((root/(slug+'.html'))
 now=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
 new=[]
 for file in sorted(pkg.glob('*-seo.json')):
-    spec=json.loads(file.read_text());slug=spec['slug'];section=spec['section'];canonical_section='Tech & AI' if section=='Tech & AI' else 'Market Analysis'
+    spec=json.loads(file.read_text());slug=spec['slug'];section=spec['section'];canonical_section=section
+    assert section in {'Tech & AI','Market Analysis','Crypto'}, (slug,section)
     if slug in ids or (root/(slug+'.html')).exists():sys.exit('Duplicate '+slug)
     fragment=BeautifulSoup((pkg/(slug+'-fragment.html')).read_text(),'html.parser')
     # Keep editorial internal links valid: replace outdated placeholder with an existing oil-sector report.
@@ -49,7 +52,7 @@ for file in sorted(pkg.glob('*-seo.json')):
     hero['srcset']=f'assets/responsive/{slug}-480.webp 480w, assets/responsive/{slug}-960.webp 960w, assets/editorial/{cover} 1672w'
     hero['alt']=f'Editorial photo illustrating {title}'
     link=main.select_one('a[href="tech-ai.html"],a[href="analysis.html"]')
-    if link:link['href']='tech-ai.html' if section=='Tech & AI' else 'analysis.html'
+    if link:link['href']={'Tech & AI':'tech-ai.html','Market Analysis':'analysis.html','Crypto':'crypto.html'}[section]
     badge=main.select_one('.ttn-original-badge')
     if badge:badge.string=section
     url='https://globtechco.github.io/ttn-finans/'+slug+'.html'
@@ -74,9 +77,13 @@ for file in sorted(pkg.glob('*-seo.json')):
         rows=''.join('<li><a href="'+html_escape(url,quote=True)+'" target="_blank" rel="noopener noreferrer">'+html_escape(label)+'</a></li>' for label,url in reference_links)
         note=BeautifulSoup('<details class="editorial-sources"><summary>Sources and methodology</summary><p>Primary sources and supporting documentation.</p><ul>'+rows+'</ul></details>','html.parser')
         main.append(note)
+    # Keep source references in the lower article area, before related reading.
+    if section=='Crypto':
+        for nav in main.select('a[href="analysis.html"]'):
+            nav['href']='crypto.html'
     (root/(slug+'.html')).write_text(str(soup))
     sources=[{'label':a.get_text(' ',strip=True),'url':a['href']} for a in fragment.select('a[href^="https://"]')]
-    new.append({'id':slug,'title':title,'dek':dek.get_text(' ',strip=True),'section':canonical_section,'tickers':spec.get('tickers',[]),'imageAlt':hero['alt'],'date':now,'author':'TTN Research Desk','format':'news' if section!='Tech & AI' else 'explainer','image':spec['image'],'body':[str(n) for n in body.find_all(['p','h2'],recursive=False)],'sources':sources})
+    new.append({'id':slug,'title':title,'dek':dek.get_text(' ',strip=True),'section':canonical_section,'tickers':spec.get('tickers',[]),'imageAlt':hero['alt'],'date':now,'author':'TTN Research Desk','format':spec.get('format','news' if section!='Tech & AI' else 'explainer'),'image':spec['image'],'body':[str(n) for n in body.find_all(['p','h2'],recursive=False)],'sources':sources})
     print('Article ready:',slug,flush=True)
 (root/'articles.js').write_text(raw[:match.start()]+json.dumps(new+entries,ensure_ascii=False,indent=2)+raw[end+1:])
 for command in [['python3','scripts/refresh_static_editorial.py'],['python3','scripts/refresh_seo_metadata.py'],['python3','scripts/audit_article_lengths.py'],['python3','scripts/verify_site.py'],['node','scripts/test-independent-loading.cjs'],['node','scripts/test-navigation.cjs']]:
