@@ -34,6 +34,23 @@ def marked(text,key,content):
 def refresh():
     articles=json.loads((ROOT/'articles.js').read_text().split('=',1)[1].strip().removesuffix(';'))
     byid={a['id']:a for a in articles}
+    # Sync approved recent editorial leads to standalone article pages.
+    # The article database is canonical; cards and HTML must agree.
+    for article in articles:
+        if not ('2026-10-31' <= article.get('date','')[:10] <= '2026-11-02'):
+            continue
+        target=ROOT/(article['id']+'.html')
+        if not target.is_file():
+            continue
+        lead=next((part for part in article.get('body',[]) if part.startswith('<p>')),None)
+        if not lead:
+            continue
+        text=target.read_text()
+        match=re.search(r'(<div class="editorial-body"[^>]*>\\s*)(<p>[\\s\\S]*?</p>)',text)
+        if not match:
+            raise ValueError('Missing editorial lead in '+target.name)
+        text=text[:match.start(2)]+lead+text[match.end(2):]
+        target.write_text(text)
     sections = {'Market Analysis': 'analysis.html', 'Tech & AI': 'tech-ai.html', 'Crypto': 'crypto.html'}
     assert all(a.get('section') in sections for a in articles), 'Every article needs a canonical section'
     def dates(article):
