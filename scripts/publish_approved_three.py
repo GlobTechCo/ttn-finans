@@ -102,6 +102,7 @@ for file in sorted(pkg.glob('*-seo.json')):
     if badge:badge.string=section
     url='https://globtechco.github.io/ttn-finans/'+slug+'.html'
     image='https://globtechco.github.io/ttn-finans/assets/editorial/'+cover
+    # Derive complete social text from the reviewed headline and deck, not old template tags.
     seo_title=spec['seoTitle']
     if len(seo_title+' | TTN Finance')>65:
         seo_title=seo_title[:65-len(' | TTN Finance')].rsplit(' ',1)[0].rstrip(' ,:-')
@@ -109,6 +110,10 @@ for file in sorted(pkg.glob('*-seo.json')):
     for selector,value in [('meta[name="description"]',description),('meta[property="og:title"]',title),('meta[property="og:description"]',description),('meta[property="og:url"]',url),('meta[property="article:published_time"]',now),('meta[property="og:image"]',image),('meta[property="og:image:secure_url"]',image),('meta[name="twitter:title"]',seo_title+' | TTN Finance'),('meta[name="twitter:description"]',description),('meta[name="twitter:image"]',image)]:
         tag=soup.select_one(selector)
         if tag:tag['content']=value
+    alt='Editorial illustration accompanying '+title
+    for selector in ['meta[property="og:image:alt"]','meta[name="twitter:image:alt"]']:
+        tag=soup.select_one(selector)
+        if tag: tag['content']=alt
     canon=soup.select_one('link[rel="canonical"]')
     if canon:canon['href']=url
     schema=soup.select_one('script[type="application/ld+json"]')

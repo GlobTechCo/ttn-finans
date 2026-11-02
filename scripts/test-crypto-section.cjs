@@ -25,7 +25,7 @@ async function noOverflow(page,label) {
    const page=await context.newPage(); const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base,{waitUntil:'domcontentloaded'});
    await page.locator('#crypto-home .editorial-archive-card').first().waitFor();
-   assert.deepEqual(await links(page,'#crypto-home'),expected(sorted('Crypto').filter(a=>a.format==='news').slice(0,4)));
+   assert.deepEqual(await links(page,'#crypto-home'),expected(sorted('Crypto').filter(a=>['news','analysis'].includes(a.format)).slice(0,4)));
    assert.deepEqual(await links(page,'#ttn-articles'),expected(sorted('Market Analysis').slice(0,4)));
    assert.deepEqual(await links(page,'#tech-ai-home'),expected(sorted('Tech & AI').slice(0,4)));
    const tape=await page.locator('tv-ticker-tape').getAttribute('symbols');
@@ -34,7 +34,7 @@ async function noOverflow(page,label) {
    if (mobile) await page.getByRole('button',{name:'Open navigation',exact:true}).click();
    await page.locator('#nav-links').getByRole('link',{name:'Crypto',exact:true}).click();
    await page.locator('#crypto-archive .editorial-archive-card').first().waitFor();
-   assert.deepEqual(await links(page,'#crypto-archive'),expected(sorted('Crypto').filter(a=>a.format==='news').slice(0,12)));
+   assert.deepEqual(await links(page,'#crypto-archive'),expected(sorted('Crypto').filter(a=>['news','analysis'].includes(a.format)).slice(0,12)));
    assert.deepEqual(await links(page,'#crypto-explainers'),expected(sorted('Crypto').filter(a=>a.format==='explainer').slice(0,4)));
    assert.equal(await page.locator('#nav-links a[aria-current="page"]').innerText(),'Crypto');
    const all=await page.locator('.editorial-topics a').evaluateAll(es=>es.map(e=>e.getAttribute('href')));
@@ -73,13 +73,13 @@ async function noOverflow(page,label) {
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const p=await nojs.newPage();
   await p.goto(base+'crypto.html');
   assert.equal(await p.locator('.editorial-topics a').count(),sorted('Crypto').length);
-  assert.equal(await p.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>a.format==='news').length));
+  assert.equal(await p.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>['news','analysis'].includes(a.format)).length));
   assert(await p.locator('#nav-links').getByRole('link',{name:'Crypto',exact:true}).isVisible());
   assert(await p.locator('.crypto-market noscript p').isVisible());
   await noOverflow(p,'no-JavaScript mobile');await nojs.close();
   // Block widgets: article reading and external chart fallbacks remain available.
   const blocked=await browser.newContext();await blocked.route(/tradingview/,route=>route.abort());const b=await blocked.newPage();await b.goto(base+'crypto.html');
-  assert.equal(await b.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>a.format==='news').length));
+  assert.equal(await b.locator('#crypto-archive .editorial-archive-card').count(),Math.min(12,sorted('Crypto').filter(a=>['news','analysis'].includes(a.format)).length));
   await b.locator('.crypto-chart-links a').first().click();
   await b.getByText('TradingView could not be loaded.',{exact:false}).waitFor();
   assert(await b.locator('#crypto-archive').isVisible());await blocked.close();
