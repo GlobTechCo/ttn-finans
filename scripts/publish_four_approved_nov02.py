@@ -128,6 +128,9 @@ for file in sorted(pkg.glob('*-seo.json')):
     for selector in ['meta[property="og:image:alt"]','meta[name="twitter:image:alt"]']:
         tag=soup.select_one(selector)
         if tag: tag['content']=alt
+    for selector,value in [('meta[property="og:image:width"]','1920'),('meta[property="og:image:height"]','1080'),('meta[property="og:image:type"]','image/webp')]:
+        tag=soup.select_one(selector)
+        if tag:tag['content']=value
     canon=soup.select_one('link[rel="canonical"]')
     if canon:canon['href']=url
     schema=soup.select_one('script[type="application/ld+json"]')
