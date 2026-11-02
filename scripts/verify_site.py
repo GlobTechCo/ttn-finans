@@ -80,7 +80,7 @@ def verify():
         assert len(links)==3 and len(set(links))==3,(a['id'],links)
         assert all(i.endswith('.html') and (ROOT/i).is_file() and i!=a['id']+'.html' for i in links)
         assert a['section'] in {'Market Analysis','Tech & AI','Crypto'},a['id']
-        if a['section']=='Crypto':assert a.get('format') in {'news','explainer'},a['id']
+        if a['section']=='Crypto':assert a.get('format') in {'news','explainer','analysis'},a['id']
         assert inbound[a['id']+'.html'],(a['id'],'orphan')
         assert 'articles.js' not in (ROOT/(a['id']+'.html')).read_text()
     # Card previews must resolve without JavaScript, query-string workarounds, or missing assets.
