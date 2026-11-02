@@ -1,6 +1,144 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "binance-withdrawal-flows-stabilise-november-2-2026",
+    "title": "Binance Says Withdrawal Flows Are Stabilising After $3.64 Billion Exit Rush",
+    "dek": "A new November 2 assessment of withdrawals after the Binance breach tests user confidence, with the exchange and outside data providers reporting different outflow measures.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "imageAlt": "Editorial photo illustrating Binance Says Withdrawal Flows Are Stabilising After $3.64 Billion Exit Rush",
+    "date": "2026-11-02T06:34:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/binance-withdrawal-flows-stabilise-november-2-2026-cover.webp",
+    "body": [
+      "<p>Binance said customer withdrawals were stabilising after an initial rush to move assets away from the cryptocurrency exchange following last week’s massive security breach. A November 2 Reuters report puts customer withdrawals at $3.64 billion, equivalent to about 2.1% of the assets held by the platform. The update represents a different development from the reopening of withdrawals itself: it is an early test of how customers behave once an exchange restores access after a serious loss of funds.</p>",
+      "<p>The scale of the underlying incident remains extraordinary. Binance has said approximately $6.3 billion in cryptocurrency was stolen. The company reported that it had replaced or covered about 95% of affected assets, with less liquid tokens accounting for the remaining portion. These are company statements about its recovery programme, not an independent certification that every customer’s exposure has been resolved.</p>",
+      "<h2>Outflows are a measure of confidence, not a verdict</h2>",
+      "<p>When a cryptocurrency platform suffers a breach, customers face an immediate decision about custody. Some may withdraw all assets, others may reduce exposure, and many may leave funds where they are while monitoring the situation. The amount withdrawn can offer a signal of changing trust, but it cannot by itself establish whether a platform is solvent or whether its security weaknesses have been fully addressed. See also <a href=\"crypto-binance-withdrawals-reopen-november-2026.html\">our earlier report on the restoration of Binance withdrawals</a>.</p>",
+      "<p>Binance said it had around $171 billion in assets under management as of October 28 and 335 million registered users worldwide. Reuters reported the exchange’s claim that deposit volumes remained substantial and that the initial withdrawal spike was easing. These details suggest activity continued after service was restored, but the precise interpretation depends on how deposits, withdrawals and transfers between affiliated or external wallets are classified.</p>",
+      "<p>The distinction is particularly relevant because different data sources do not show identical numbers. Reuters reported that the crypto analytics platform DefiLlama subsequently showed withdrawals of about $5.81 billion, up from an earlier $4.36 billion reading. Binance’s $3.64 billion figure and the third-party estimate should not be presented as directly equivalent without checking their definitions and measurement periods. The company did not immediately answer a Reuters request concerning the updated external figure.</p>",
+      "<h2>Recovery efforts and remaining exposure</h2>",
+      "<p>Binance has said it used its own resources to purchase replacement cryptocurrency, covering about $6 billion of the reported stolen assets. The remaining portion includes tokens that may be more difficult to acquire in sufficient quantities without sharply affecting their market prices. This adds an operational dimension to recovery: reimbursement is not necessarily identical to locating and returning the original stolen coins.</p>",
+      "<p>The exchange reopened withdrawals in phases, prioritising tokens based on user demand. The initial group included major assets such as bitcoin and ether, as well as selected stablecoins and dogecoin. A phased approach can make technical and liquidity management easier, but customers holding unsupported or less liquid assets may face a different experience from users who hold the largest cryptocurrencies.</p>",
+      "<p>For account holders, the practical questions are whether withdrawals are available for their specific assets, whether settlement processes remain reliable and whether the platform publishes transparent updates on remaining restrictions. A general announcement that services are back online should not be confused with proof that every asset and network is functioning under normal conditions.</p>",
+      "<h2>Broader market consequences</h2>",
+      "<p>The incident has coincided with pressure across digital asset markets. Reuters reported that Bitcoin had recovered modestly from a six-week low and traded above $78,000 on Monday, while Ether was around $2,287 after also weakening late last week. Those are observations from the report’s publication period, not live quotes that readers should assume remain current.</p>",
+      "<p>Market responses extended beyond the two largest cryptocurrencies. Reuters cited data showing combined market capitalisation for the largest dollar stablecoins, USDT and USDC, had decreased by about $1.2 billion since Friday. It also reported that spot bitcoin exchange-traded funds had recorded roughly $643 million in withdrawals on Friday. These figures describe concurrent stress; they do not prove the Binance event was the sole cause of every flow.</p>",
+      "<p>A security failure at a large exchange can create second-order risks for trading firms, investors and services that rely on its liquidity. Firms may temporarily redistribute collateral, reduce positions or increase reliance on self-custody. Some of those steps reduce exposure to one platform while introducing other risks, such as the operational difficulty of securely managing private keys or moving assets during volatile market conditions.</p>",
+      "<h2>What would show a durable recovery?</h2>",
+      "<p>Stabilising withdrawals is a meaningful near-term signal, but trust is harder to measure than a single day’s wallet movements. A durable recovery would require consistent services, timely completion of user compensation, credible security explanations and transparent reporting of reserve and liquidity conditions.</p>",
+      "<p>Investors should also distinguish official exchange figures from blockchain analytics estimates, which may apply different definitions and change as more addresses are classified. The most useful monitoring combines both sets of evidence and is explicit about uncertainty.</p>",
+      "<p>The November 2 update therefore shifts the story away from the mechanics of reopening services and toward the platform’s ability to retain user confidence. Binance may have slowed the initial rush to withdraw, but the questions raised by the breach will persist beyond the first wave of customer activity.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/"
+      },
+      {
+        "label": "Binance announcements",
+        "url": "https://www.binance.com/en/support/announcement"
+      },
+      {
+        "label": "DefiLlama",
+        "url": "https://defillama.com/"
+      }
+    ]
+  },
+  {
+    "id": "finance-bank-of-england-november-rate-decision-2026",
+    "title": "Bank of England Faces First Rate Increase Since 2023 as Energy Inflation Returns",
+    "dek": "The Bank of England is widely expected to raise its policy rate to 4%, but its guidance on 2027 may matter more than the quarter-point move.",
+    "section": "Market Analysis",
+    "tickers": [
+      "GBP/USD"
+    ],
+    "imageAlt": "Editorial photo illustrating Bank of England Faces First Rate Increase Since 2023 as Energy Inflation Returns",
+    "date": "2026-11-02T06:34:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/finance-bank-of-england-november-rate-decision-2026-cover.webp",
+    "body": [
+      "<p>The Bank of England enters the first week of November facing a monetary policy decision that looks straightforward in the near term but unusually difficult beyond it. Economists surveyed by Reuters expect the Monetary Policy Committee to increase Bank Rate from 3.75% to 4.0% at its meeting on Thursday, November 5, responding to persistent inflation pressure from higher energy costs. It would be the central bank’s first interest-rate increase since 2023. The expected move is not yet a decision: the vote, policy statement and accompanying guidance remain to be published.</p>",
+      "<h2>Why the rate discussion has changed</h2>",
+      "<p>Britain’s inflation problem has become harder to treat as a temporary rise in imported costs. Consumer prices were 3.5% higher in September than a year earlier, according to the figures cited in Reuters’ November 2 report. That was above the 3.0% inflation rate the Bank of England had forecast in July. The discrepancy matters because monetary policy must act ahead of price changes, rather than wait for every additional increase to materialise in official statistics.</p>",
+      "<p>Energy costs are the central source of anxiety. Higher oil and gas prices can first appear in fuel bills and utility charges, then spread into transport, manufacturing and service prices. A central bank cannot produce additional energy supplies through higher interest rates. It can, however, attempt to stop a temporary shock from changing businesses’ pricing behaviour and workers’ expectations about future wage growth. That is the distinction policymakers refer to when discussing second-round inflation effects. See also <a href=\"dewa-shanghai-electric-global-energy-mou-november-2026.html\">our analysis of international energy infrastructure investment</a>.</p>",
+      "<p>Governor Andrew Bailey has warned that waiting for conclusive proof of these effects could mean acting too late. Yet higher borrowing costs also cool credit, property activity and consumer spending at a moment when the economy remains uneven. For households refinancing mortgages, a quarter-point increase is not merely an abstract financial-market event. It can add to monthly payments while energy and other essential costs are already elevated.</p>",
+      "<h2>An unusually complicated vote</h2>",
+      "<p>The Monetary Policy Committee voted six to three to keep the rate unchanged in September, revealing a genuine difference in judgment. Some members emphasise spare capacity and the danger of weakening demand unnecessarily. Others worry that inflation persistence will prove more expensive to reverse if action is postponed. Reuters’ poll points to a possible seven-to-two vote for a November increase, though the actual decision could differ.</p>",
+      "<p>Markets and economists are also separated by their expectations for next year. Interest-rate markets have priced the possibility of three or four further quarter-point increases in 2027, implying a Bank Rate between 4.75% and 5.0%. Analysts quoted by Reuters are more circumspect. The Bank could signal that a November increase is a precaution against an inflation shock rather than the opening step of a predetermined tightening cycle.</p>",
+      "<p>This divergence is important for sterling and British government bonds. Financial assets respond not only to the rate announced this week but to expectations for the entire path of policy. A hike accompanied by careful language about uncertainty could be interpreted differently from the same hike alongside explicit warnings about further increases. A more cautious message might reduce expectations for 2027 even as the Bank delivers an immediate rise.</p>",
+      "<h2>What borrowers and businesses should watch</h2>",
+      "<p>For businesses, the policy trade-off is particularly uncomfortable. Firms exposed to energy and imported materials face rising costs, but the ability to pass them to customers varies sharply by sector. Companies with little pricing power may absorb those costs in profit margins. Others may raise prices, helping to entrench inflation. Higher interest rates can also increase the cost of inventory, investment and working capital, leaving businesses exposed from both sides.</p>",
+      "<p>Mortgage lenders and property buyers will pay attention to what happens to medium-term swap rates, which influence fixed mortgage products. The relationship is not mechanical: lenders may already have incorporated the anticipated move into their pricing. Still, guidance that changes market expectations can alter mortgage offers even when the immediate policy-rate decision itself was widely expected.</p>",
+      "<p>Investors should also separate the Bank’s domestic mandate from the global energy outlook. Developments in energy diplomacy or commodity supply could change the path of inflation in either direction. A retreat in energy prices would not automatically undo price increases already transmitted through the economy, but it could reduce the need for repeated monetary tightening. Conversely, a prolonged shock would make patience harder to defend.</p>",
+      "<h2>The decision is only the beginning</h2>",
+      "<p>Thursday’s statement, the vote split and Bailey’s explanation will therefore carry as much weight as the rate number. Analysts will look for evidence that the committee expects inflation to subside, for changes to growth assumptions and for any distinction between short-term vigilance and longer-term policy restraint.</p>",
+      "<p>The central point is that a widely forecast increase to 4.0% would not settle the direction of borrowing costs in 2027. It would show how the Bank of England is responding to a renewed inflation threat. Whether that response becomes a sustained tightening campaign depends on incoming price, wage and economic activity data, not on one meeting alone.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/world/uk/bank-england-poised-raise-rates-may-push-back-bets-more-2026-11-02/"
+      },
+      {
+        "label": "Bank of England, Monetary Policy Summary and minutes",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes"
+      }
+    ]
+  },
+  {
+    "id": "hsbc-hong-kong-ai-institute-2027-announcement",
+    "title": "HSBC Plans Hong Kong AI Institute for 2027 as Banks Race to Deploy AI Agents",
+    "dek": "HSBC aims to establish an AI and emerging technology institute in Hong Kong in early 2027, adding to its Singapore initiative and intensifying attention on banking AI safeguards.",
+    "section": "Tech & AI",
+    "tickers": [
+      "HSBC"
+    ],
+    "imageAlt": "Editorial photo illustrating HSBC Plans Hong Kong AI Institute for 2027 as Banks Race to Deploy AI Agents",
+    "date": "2026-11-02T06:34:18Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/hsbc-hong-kong-ai-institute-2027-announcement-cover.webp",
+    "body": [
+      "<p>HSBC has outlined plans for a new artificial intelligence and emerging technology institute in Hong Kong, adding another research and talent centre to its growing regional AI strategy. Chief Executive Georges Elhedery announced the initiative during Hong Kong FinTech Week on November 2, according to Reuters. The bank expects to launch the institute in the first quarter of 2027 and work with the Hong Kong University of Science and Technology as its anchor academic partner.</p>",
+      "<p>The announcement is a plan rather than the opening of an operating centre. HSBC has not disclosed the Hong Kong institute’s initial budget, staffing level or detailed research programme. Those omissions matter for any attempt to estimate the financial impact. Yet the decision signals that the lender wants to build long-term capabilities in artificial intelligence rather than depend solely on externally supplied software.</p>",
+      "<h2>Hong Kong joins a regional AI investment push</h2>",
+      "<p>The planned institute builds on an AI centre announced in Singapore earlier in 2026. HSBC previously said it intended to recruit more than 100 AI specialists there. Hong Kong and Singapore are both major financial hubs, but their roles in HSBC’s regional business differ. A second location could broaden the bank’s access to researchers and engineers, although it remains too early to know whether the centres will specialise in different tasks or share responsibilities. See also <a href=\"tech-ai-deepseek-superagent-research-prototype-october-2026.html\">our coverage of autonomous AI agent development</a>.</p>",
+      "<p>Elhedery said the Hong Kong institute would eventually move to the Northern Metropolis, a major development area close to mainland China, once a location becomes available. That is a future intention rather than an immediate relocation. The bank’s first challenge is to launch a functioning programme that can move ideas from laboratory testing into practical banking operations.</p>",
+      "<p>The commercial opportunities are significant. Large banks handle vast amounts of document-intensive work, from compliance checks and customer support to transaction investigations and software maintenance. AI can help employees search internal knowledge, organise complex files or draft preliminary analyses. But scaling such capabilities across a global financial institution is different from running a successful demonstration. Accuracy, access permissions, traceability and accountability can be more valuable than raw model performance.</p>",
+      "<h2>AI agents make governance a central issue</h2>",
+      "<p>Hong Kong’s financial authorities are focusing on the same challenge. Eddie Yue, chief executive of the Hong Kong Monetary Authority, used the event to discuss Project SAGE, a proposed initiative to develop safeguards for AI agents used in finance. According to Reuters, the regulator intends to convene a cross-sector panel to examine practical applications and interoperability between agent systems.</p>",
+      "<p>Agent technology introduces an additional layer of operational risk. A conventional chatbot produces text for a human to review. An AI agent may be designed to carry out sequences of actions through connected systems. In banking, those actions could involve privileged data, automated instructions or interactions among multiple services. The distinction makes it essential to establish who authorised an action, what information was available and how an error can be reversed or contained.</p>",
+      "<p>Yue also raised questions about governance, central registration of trusted agents and a possible “know your agent” standard. These ideas are under examination rather than completed regulations. They resemble the logic behind identity checks and access controls for human users, extended to automated software systems operating inside regulated institutions.</p>",
+      "<h2>The human and financial consequences</h2>",
+      "<p>HSBC employs roughly 200,000 people globally and approximately 28,000 in Hong Kong, according to figures discussed at the event. Elhedery said the bank was rolling out AI training across its global workforce. Training is important because new systems can change the way tasks are allocated even before they lead to measurable staffing changes. Employees may be expected to supervise automated work, investigate exceptions or handle the most complex customer cases.</p>",
+      "<p>It would be premature to equate the new institute with a specific number of job cuts or a quantifiable saving in operating expenses. HSBC has not announced either. A responsible assessment must distinguish capacity building from the business case for future deployments. Recruitment costs, computing expenses, integration work and ongoing oversight may offset some early efficiency gains.</p>",
+      "<p>For investors, the more useful questions are whether the bank demonstrates improved service quality, lower processing times, reduced compliance errors and sustainable productivity gains. A research partnership is only one component. Technical results must be validated against the bank’s security, privacy and regulatory obligations.</p>",
+      "<h2>What comes next</h2>",
+      "<p>The first-quarter 2027 launch target creates a clear milestone. Additional details about leadership, staffing, academic collaboration and initial use cases will help determine the institute’s practical significance. Hong Kong regulators’ emerging guidance may also influence which activities banks are comfortable delegating to AI agents.</p>",
+      "<p>HSBC’s announcement shows the increasingly close connection between AI strategy and the mechanics of financial supervision. In a sector where trust is a core asset, the most successful AI programme may not be the one that automates the largest number of tasks first. It may be the one that proves automated systems can be deployed reliably, audited and controlled at scale.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/world/asia-pacific/hsbc-open-hong-kong-ai-institute-following-singapore-launch-2026-11-02/"
+      },
+      {
+        "label": "HSBC corporate news",
+        "url": "https://www.hsbc.com/news-and-views"
+      },
+      {
+        "label": "Hong Kong Monetary Authority",
+        "url": "https://www.hkma.gov.hk/eng/"
+      }
+    ]
+  },
+  {
     "id": "crypto-polymarket-security-breach-october-2026",
     "title": "Polymarket Attack Drained $2.73 Million From 737 Accounts, Exposing a Third-Party Security Weakness",
     "dek": "An on-chain investigation traced nearly $2.73 million in losses to 737 Polymarket accounts during an October 29 attack. The platform says a compromised outside script was responsible and has outlined $3.9 million in reimbursements.",
