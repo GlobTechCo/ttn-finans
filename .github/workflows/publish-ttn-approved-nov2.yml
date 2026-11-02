@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  issues: write
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -23,4 +24,13 @@ jobs:
       - name: Install dependencies
         run: pip install beautifulsoup4 pillow
       - name: Publish approved stories and verify
-        run: python3 scripts/publish_approved_three.py
+        run: |
+          set -o pipefail
+          python3 scripts/publish_approved_three.py 2>&1 | tee /tmp/ttn-publish-log.txt
+      - name: Report publication failure for diagnosis
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tail -n 100 /tmp/ttn-publish-log.txt > /tmp/ttn-publish-error.txt || true
+          gh issue create --title 'TTN November 2 publishing error (diagnostic)' --body-file /tmp/ttn-publish-error.txt || true
