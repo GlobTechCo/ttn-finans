@@ -25,6 +25,10 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install beautifulsoup4 pillow lxml
+      - name: Configure publishing commit identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Publish approved stories and verify
         run: |
           set -o pipefail
