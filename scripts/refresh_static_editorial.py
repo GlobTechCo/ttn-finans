@@ -84,7 +84,7 @@ def refresh():
         return f'<article class="editorial-archive-card"><a class="editorial-archive-media" href="{a["id"]}.html"><img src="{image}"{responsive} alt="{escape(a.get("imageAlt") or a["title"])}" width="640" height="360" loading="lazy" decoding="async"></a><div class="editorial-archive-content"><span class="ttn-original-badge">{escape(section)}</span><h3><a href="{a["id"]}.html">{escape(a["title"])}</a></h3><p class="editorial-dek">{escape(a["dek"])}</p><div class="editorial-meta"><span class="editorial-author">{escape(a.get("author") or "TTN Research Desk")}</span><time datetime="{escape(a["date"])}">{label}</time></div></div></article>'
     for filename,identity,section in [('analysis.html','analysis-archive','Market Analysis'),('tech-ai.html','tech-ai-archive','Tech & AI'),('crypto.html','crypto-archive','Crypto')]:
         page=ROOT/filename;text=page.read_text();items=[a for a in latest if a['section']==section];ids={a['id'] for a in items}
-        featured=[a for a in items if a.get('format')=='news'] if section=='Crypto' else items
+        featured=[a for a in items if a.get('format') in {'news','analysis'}] if section=='Crypto' else items
         text=replace_container(text,identity,''.join(card(a,section) for a in featured[:12]))
         if section=='Crypto':
             text=replace_container(text,'crypto-explainers',''.join(card(a,'Crypto explainer') for a in [a for a in items if a.get('format')=='explainer'][:4]))
