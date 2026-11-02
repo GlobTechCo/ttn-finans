@@ -5,11 +5,45 @@ from datetime import datetime,timezone
 from bs4 import BeautifulSoup
 # The approved archive is processed by GitHub Actions on upload or script changes. Sync 21 revised leads. Refresh cards after approved editorial teaser revisions. Supports Crypto analysis format after verifier update.
 root=Path.cwd()
-archives=['TTN_Two_Approved_Articles_PUBLISH_2026-11-02.zip','TTN_Three_Articles_APPROVED_PUBLISH_2026-11-02.zip','TTN_Polymarket_DeepSeek_APPROVED_PUBLISH_2026-11-01.zip','TTN_BTC_ETH_October_2026_PUBLISH.zip','TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip','TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
+archives=['TTN_Finance_3_publications_2026-11-02.zip','TTN_Two_Approved_Articles_PUBLISH_2026-11-02.zip','TTN_Three_Articles_APPROVED_PUBLISH_2026-11-02.zip','TTN_Polymarket_DeepSeek_APPROVED_PUBLISH_2026-11-01.zip','TTN_BTC_ETH_October_2026_PUBLISH.zip','TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip','TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
 zip_path=next((root/name for name in archives if (root/name).is_file()),root/archives[-1])
 if not zip_path.is_file():sys.exit('Publication package missing')
 pkg=root/'.ttn-publication-temp';pkg.mkdir(exist_ok=True)
 with zipfile.ZipFile(zip_path) as z:z.extractall(pkg)
+# Normalize the approved November 2 editorial archive to the site's publication schema.
+if (pkg/'manifest.json').exists():
+    from html import escape
+    from bs4 import BeautifulSoup
+    manifest=json.loads((pkg/'manifest.json').read_text(encoding='utf-8'))
+    assert len(manifest['items'])==3, 'Expected three approved stories'
+    for item in manifest['items']:
+        slug=item['slug']
+        assert item['section'].strip()=='Market Analysis',slug
+        fragment=BeautifulSoup((pkg/item['body_html']).read_text(encoding='utf-8'),'html.parser')
+        body=fragment.select_one('.editorial-body')
+        assert body and len(body.get_text(' ',strip=True).split())>=700,slug
+        if slug.startswith('opec-'):
+            assert not re.search(r'russia|russian',body.get_text(' ',strip=True),re.I),'OPEC editorial restriction'
+        cover=pkg/item['hero']
+        assert cover.is_file(),('approved cover missing',slug)
+        shutil.copy2(cover,pkg/(slug+'-cover.webp'))
+        # Responsive paths are required by the site template.
+        # ImageMagick is available in the publishing runner; fall back to original bytes.
+        for width in (480,960):
+            dst=pkg/(slug+f'-{width}.webp')
+            convert=shutil.which('convert') or shutil.which('magick')
+            if convert:
+                cp=[convert,str(cover),'-resize',f'{width}x',str(dst)]
+                subprocess.run(cp,check=True)
+            else:shutil.copy2(cover,dst)
+        sources=''.join('<li><a href="'+escape(x['url'],quote=True)+'">'+escape(x['label'])+'</a></li>' for x in item['sources'])
+        container=BeautifulSoup('<div class="editorial-dek">'+escape(item['dek'])+'</div>'+str(body)+'<div class="source-links"><ul>'+sources+'</ul></div>','html.parser')
+        (pkg/(slug+'-fragment.html')).write_text(str(container),encoding='utf-8')
+        spec={'slug':slug,'section':'Market Analysis','headline':item['title'],
+              'seoTitle':item['suggested_headline'],'metaDescription':item['dek'][:155].rsplit(' ',1)[0].rstrip(' ,;:-.')+'.',
+              'image':item['hero'],'tickers':item.get('tickers_to_review',[]),'format':'news'}
+        (pkg/(slug+'-seo.json')).write_text(json.dumps(spec,ensure_ascii=False),encoding='utf-8')
+    print('Normalized three approved November 2 articles, sources and images',flush=True)
 raw=(root/'articles.js').read_text();match=re.search(r'\[',raw);end=raw.rfind(']')
 entries=json.loads(raw[match.start():end+1]);ids={a['id'] for a in entries}
 expected_slugs={json.loads(p.read_text())['slug'] for p in pkg.glob('*-seo.json')}
