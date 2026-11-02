@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/publish_approved_three.py'
+      - 'TTN_Nov02_Marvell_China_AIWallet_APPROVED.zip'
       - 'scripts/refresh_static_editorial.py'
       - 'ttn_three_articles_publication_package.zip'
       - 'TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip'
