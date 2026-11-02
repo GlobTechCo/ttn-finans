@@ -46,7 +46,7 @@ def refresh():
         if not lead:
             continue
         text=target.read_text()
-        match=re.search(r'(<div class="editorial-body"[^>]*>\\s*)(<p>[\\s\\S]*?</p>)',text)
+        match=re.search(r'(<div class="editorial-body"[^>]*>\s*)(<p>[\s\S]*?</p>)',text)
         if not match:
             raise ValueError('Missing editorial lead in '+target.name)
         text=text[:match.start(2)]+lead+text[match.end(2):]
