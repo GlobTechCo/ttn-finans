@@ -82,9 +82,13 @@ for file in sorted(pkg.glob('*-seo.json')):
     main=soup.select_one('main');old=main.select_one('.editorial-body')
     assert old,(slug,'template article body missing')
     old.replace_with(body)
-    title=spec['headline'];description=spec['metaDescription']
+    title=spec['headline'];description=spec['metaDescription'].strip()
     if len(description)>160:
-        description=description[:157].rsplit(' ',1)[0].rstrip(' ,;:-.')+'.'
+        complete=[m.end() for m in re.finditer(r'[.!?](?=\\s|$)',description[:160]) if m.end()>=70]
+        if complete:
+            description=description[:complete[-1]]
+        else:
+            description=description[:159].rsplit(' ',1)[0].rstrip(' ,;:-.')+'.'
     assert 70<=len(description)<=160,(slug,'meta description length',len(description))
     main.find('h1').string=title
     intro=main.select_one('.article-dek')
