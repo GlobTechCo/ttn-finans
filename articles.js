@@ -3,7 +3,7 @@ const TTN_ARTICLES = [
   {
     "id": "crypto-us-midterms-176-million-lobbying-november-2026",
     "title": "Crypto Industry Enters US Midterms After $176 Million Political Spending Push",
-    "dek": "The United States heads into its November 3 midterm elections with the cryptocurrency industry playing an unusually prominent financial role. A Reuters investigation published in late October found that industry groups had spent approximately $176 million across more than.",
+    "dek": "Crypto groups have spent about $176 million to influence US politics, Reuters found. With the midterms approaching, the stakes extend well beyond campaign donations to the rules governing digital assets.",
     "section": "Crypto",
     "tickers": [
       "BTC",
@@ -44,7 +44,7 @@ const TTN_ARTICLES = [
   {
     "id": "openai-adnoc-g42-energy-ai-agreement-2026",
     "title": "OpenAI, ADNOC and G42 Sign Energy AI Deal as Abu Dhabi Expands Its Technology Push",
-    "dek": "Abu Dhabi National Oil Company, known as ADNOC, and Emirati artificial intelligence company G42 announced an agreement with OpenAI on November 2 to deploy advanced AI capabilities across ADNOC&#x27;s operations. The announcement came during the ADIPEC energy conference in.",
+    "dek": "OpenAI, ADNOC and G42 are taking AI into the energy sector. The agreement raises a bigger question: how far can the technology reshape operations at one of the world's major oil producers?",
     "section": "Tech & AI",
     "tickers": [],
     "imageAlt": "Editorial photo illustrating OpenAI, ADNOC and G42 Sign Energy AI Deal as Abu Dhabi Expands Its Technology Push",
@@ -79,7 +79,7 @@ const TTN_ARTICLES = [
   {
     "id": "binance-withdrawal-flows-stabilise-november-2-2026",
     "title": "Binance Says Withdrawal Flows Are Stabilising After $3.64 Billion Exit Rush",
-    "dek": "A new November 2 assessment of withdrawals after the Binance breach tests user confidence, with the exchange and outside data providers reporting different outflow measures.",
+    "dek": "Binance says withdrawal activity is settling after a rush to move funds. Outside estimates tell a more complicated story about how quickly confidence can return.",
     "section": "Crypto",
     "tickers": [
       "BTC",
@@ -128,7 +128,7 @@ const TTN_ARTICLES = [
   {
     "id": "finance-bank-of-england-november-rate-decision-2026",
     "title": "Bank of England Faces First Rate Increase Since 2023 as Energy Inflation Returns",
-    "dek": "The Bank of England is widely expected to raise its policy rate to 4%, but its guidance on 2027 may matter more than the quarter-point move.",
+    "dek": "Markets are bracing for a Bank of England rate increase as energy costs revive inflation risks. The bigger signal may come from what policymakers say about 2027.",
     "section": "Market Analysis",
     "tickers": [
       "GBP/USD"
@@ -170,7 +170,7 @@ const TTN_ARTICLES = [
   {
     "id": "hsbc-hong-kong-ai-institute-2027-announcement",
     "title": "HSBC Plans Hong Kong AI Institute for 2027 as Banks Race to Deploy AI Agents",
-    "dek": "HSBC aims to establish an AI and emerging technology institute in Hong Kong in early 2027, adding to its Singapore initiative and intensifying attention on banking AI safeguards.",
+    "dek": "HSBC plans a new AI institute in Hong Kong as banks race to automate more work. The difficult part may be proving that faster systems are also safe.",
     "section": "Tech & AI",
     "tickers": [
       "HSBC"
@@ -217,7 +217,7 @@ const TTN_ARTICLES = [
   {
     "id": "crypto-polymarket-security-breach-october-2026",
     "title": "Polymarket Attack Drained $2.73 Million From 737 Accounts, Exposing a Third-Party Security Weakness",
-    "dek": "An on-chain investigation traced nearly $2.73 million in losses to 737 Polymarket accounts during an October 29 attack. The platform says a compromised outside script was responsible and has outlined $3.9 million in reimbursements.",
+    "dek": "A security breach exposed hundreds of Polymarket accounts and triggered millions in reported losses. The suspected entry point raises questions that extend beyond one prediction market.",
     "section": "Crypto",
     "tickers": [],
     "imageAlt": "Editorial photo illustrating Polymarket Attack Drained $2.73 Million From 737 Accounts, Exposing a Third-Party Security Weakness",
@@ -258,7 +258,7 @@ const TTN_ARTICLES = [
   {
     "id": "tech-ai-deepseek-superagent-research-prototype-october-2026",
     "title": "DeepSeek Releases Open-Source Super-Agent Prototype, Intensifying the Race to Automate Coding Work",
-    "dek": "DeepSeek's new research repository explores an agent that responds to authorized development requests and carries work through to pull requests. The company cautions that the software is a prototype, not an official production product.",
+    "dek": "DeepSeek has published research code for an AI agent designed to carry software tasks through to pull requests. Its limitations show the gap between a promising demo and a dependable tool.",
     "section": "Tech & AI",
     "tickers": [],
     "imageAlt": "Editorial photo illustrating DeepSeek Releases Open-Source Super-Agent Prototype, Intensifying the Race to Automate Coding Work",
