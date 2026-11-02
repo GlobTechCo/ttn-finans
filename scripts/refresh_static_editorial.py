@@ -103,7 +103,7 @@ def refresh():
         page.write_text(text)
     page=ROOT/'index.html';text=page.read_text()
     for identity,section in [('ttn-articles','Market Analysis'),('tech-ai-home','Tech & AI'),('crypto-home','Crypto')]:
-        items=[a for a in latest if a['section']==section and (section!='Crypto' or a.get('format')=='news')][:4]
+        items=[a for a in latest if a['section']==section and (section!='Crypto' or a.get('format') in {'news','analysis'})][:4]
         text=replace_container(text,identity,''.join(card(a,section) for a in items))
     fallback='<noscript><section class="editorial-nojs" aria-labelledby="nojs-latest"><h2 id="nojs-latest">Latest original reporting</h2><p>Live quotes and the external news feed require JavaScript. TTN articles and topic archives remain available below.</p><ul>'+''.join(f'<li><a href="{a["id"]}.html">{escape(a["title"])}</a></li>' for a in latest[:12])+'</ul></section></noscript>'
     replacement=marked(text,'editorial-nojs',fallback)
