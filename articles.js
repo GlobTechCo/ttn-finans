@@ -396,6 +396,10 @@ const TTN_ARTICLES = [
     ],
     "sources": [
       {
+        "label": "DEWA, November 1, 2026: official memorandum announcement",
+        "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2026/11/dewa-international-and-shanghai-electric"
+      },
+      {
         "label": "Emirates News Agency (WAM), November 1, 2026",
         "url": "https://www.wam.ae/en/article/17i4sf8-dewa-international-shanghai-electric-expand"
       },
