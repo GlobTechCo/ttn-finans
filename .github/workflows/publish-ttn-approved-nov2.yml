@@ -1,0 +1,26 @@
+name: Publish approved TTN November 2 articles
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'TTN_Finance_3_publications_2026-11-02.zip'
+      - 'scripts/publish_approved_three.py'
+      - '.github/workflows/publish-ttn-approved-nov2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install beautifulsoup4 pillow
+      - name: Publish approved stories and verify
+        run: python3 scripts/publish_approved_three.py
