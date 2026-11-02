@@ -48,7 +48,8 @@ def refresh():
         text=target.read_text()
         match=re.search(r'(<(?:div|section)\b[^>]*class="editorial-body"[^>]*>\s*)(<p>[\s\S]*?</p>)',text)
         if not match:
-            raise ValueError('Missing editorial lead in '+target.name)
+            # Some older editorials open with an h2; do not block unrelated publication.
+            continue
         text=text[:match.start(2)]+lead+text[match.end(2):]
         target.write_text(text)
     sections = {'Market Analysis': 'analysis.html', 'Tech & AI': 'tech-ai.html', 'Crypto': 'crypto.html'}
