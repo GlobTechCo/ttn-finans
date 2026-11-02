@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T22:53:18.169575+00:00",
+  "generatedAt": "2026-11-02T02:20:25.854266+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,44 +35,316 @@
   ],
   "items": [
     {
-      "title": "Everything changed for the oil, AI and bond trades over the past month",
-      "desc": "The market expects oil to keep rising, but treasury yields have declined, a warning traders and investors may be more worried about an AI crash than inflation.",
-      "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+      "title": "Alphabet: Cloud Acceleration And TPU Sales Hedge Against Search Cannibalization",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960809-alphabet-cloud-acceleration-and-tpu-sales-hedge-against-search-cannibalization?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-01T22:27:40+00:00",
-      "source": "CNBC Markets"
+      "pubDate": "2026-11-02T02:04:27+00:00",
+      "source": "Seeking Alpha"
     },
     {
-      "title": "Westpac’s full-year profit ticks higher, flags slowing loan demand",
+      "title": "China’s top three airlines head for full-year losses as fuel costs weigh",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/chinas-top-three-airlines-head-for-fullyear-losses-as-fuel-costs-weigh-4989803",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA104P_L.jpg",
+      "pubDate": "2026-11-02T02:00:37+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Binance sees outflows stabilising as exchange returns online after $6.3 billion heist",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/binance-sees-outflows-stabilising-as-exchange-returns-online-after-63-billionheist-4989802",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA104B_L.jpg",
+      "pubDate": "2026-11-02T02:00:23+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Carriage Services' Plunge Leaves It Full Of Life",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960805-carriage-services-stock-stable-financials-cheap-valuation-earnings-preview?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-02T01:58:57+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Binance sees spike in withdrawals as exchange returns online after $6.3 billion heist",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/binance-to-resume-withdrawals-after-recovering-bulk-of-6-billion-in-stolen-funds-4989388",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA00U4_L.jpg",
+      "pubDate": "2026-11-02T01:48:38+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "WhiteFiber: AI Infrastructure Growth Still Comes With A Financing Test",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960803-whitefiber-ai-infrastructure-growth-still-comes-with-financing-test?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-02T01:38:47+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Westpac flags deepest housing downturn in nearly two decades, impairment charges double",
       "desc": "",
       "link": "https://www.investing.com/news/stock-market-news/australian-lender-westpacs-fullyear-profit-ticks-higher-4989776",
       "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA01A8_L.jpg",
-      "pubDate": "2026-11-01T21:42:33+00:00",
+      "pubDate": "2026-11-02T01:30:24+00:00",
       "source": "Investing.com"
+    },
+    {
+      "title": "Enterprise Products Partners: 5.8% Yield With Growth Mapped Out Through 2030",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960802-enterprise-products-partners-stock-5-8-percent-yield-growth-mapped-out-2030?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-02T01:28:28+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "China’s robot makers have mastered the moves. Now comes the race for brains",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/chinas-robot-makers-have-mastered-the-moves-now-comes-the-race-for-brains-4989782",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA01F1_L.jpg",
+      "pubDate": "2026-11-02T01:24:20+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/tesla-samsung-oppose-new-us-tariffs-on-vietnam-as-probe-deadline-nears-4989798",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA1029_L.jpg",
+      "pubDate": "2026-11-02T01:06:35+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "SK Hynix trapped in cloud resistance bear flag: Live levels",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/sk-hynix-trapped-in-cloud-resistance-bear-flag-live-levels-93CH-4989796",
+      "image": "https://content-media.investing.com/news/LYNXNPEC0L0PD_M.jpg",
+      "pubDate": "2026-11-02T01:05:53+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nikkei 225 bear flag forms under cloud resistance: Live levels",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/nikkei-225-bear-flag-forms-under-cloud-resistance-live-levels-93CH-4989795",
+      "image": "https://content-media.investing.com/news/LYNXMPED0C0KP_M.jpg",
+      "pubDate": "2026-11-02T01:05:40+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Chain Bridge Bancorp Has Not Done Quite Enough To Get My Vote",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960800-chain-bridge-bancorp-has-not-done-quite-enough-to-get-my-vote?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-02T01:04:57+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nvidia: SpaceX Offers An Ignored Bonus",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960459-nvidia-spacex-offers-an-ignored-bonus?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-02T01:00:00+00:00",
+      "source": "Seeking Alpha"
     },
     {
       "title": "Exclusive-Australian outback data centre pulls timeline after regulator stalls",
       "desc": "",
       "link": "https://www.investing.com/news/stock-market-news/exclusiveaustralian-outback-data-centre-pulls-timeline-after-regulator-stalls-4989777",
       "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA01AK_L.jpg",
-      "pubDate": "2026-11-01T21:42:20+00:00",
+      "pubDate": "2026-11-02T00:48:16+00:00",
       "source": "Investing.com"
+    },
+    {
+      "title": "Asia shares bend under AI stress; Apple earnings loom",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/asia-shares-bend-under-ai-stress-apple-earnings-loom-4989790",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA101F_L.jpg",
+      "pubDate": "2026-11-02T00:42:25+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "This is the biggest threat to the AI-powered bull market",
+      "desc": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+      "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-72130104",
+      "pubDate": "2026-11-02T00:22:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+      "desc": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+      "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-47165214",
+      "pubDate": "2026-11-02T00:21:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
+      "desc": "Binance recorded $3.64 billion in net outflows after resuming withdrawals following a $6.3 billion hack, representing 2.1% of its total assets.",
+      "link": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
+      "image": null,
+      "pubDate": "2026-11-02T00:11:37+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Banco del Bajío, S.A., Institución de Banca Múltiple 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960799-banco-del-bajio-s-a-institucion-de-banca-multiple-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:34:44+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "PTT Global Chemical Public Company Limited (PCHUY) Shareholder/Analyst Call - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960798-ptt-global-chemical-public-company-limited-pchuy-shareholder-analyst-call-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:34:31+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Reliance Industries Limited 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960797-reliance-industries-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:34:17+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Knorr-Bremse AG 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960796-knorr-bremse-ag-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:33:32+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nomura Real Estate Holdings, Inc. 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960795-nomura-real-estate-holdings-inc-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:33:03+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "SPIE SA (SPIIY) Q3 2026 Sales/ Trading Statement Call - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960794-spie-sa-spiiy-q3-2026-sales-trading-statement-call-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:32:10+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Oriental Land Co., Ltd. 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960793-oriental-land-co-ltd-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:31:43+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Amundi S.A. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960792-amundi-s-a-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:30:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Shell plc 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960791-shell-plc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:30:29+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Prysmian S.p.A. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960790-prysmian-s-p-a-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:30:11+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Fortescue Ltd (FSUGY) Shareholder/Analyst Call - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960789-fortescue-ltd-fsugy-shareholder-analyst-call-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:29:38+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Evaxion A/S (EVAX) Discusses EVX-01 Phase II Clinical and Immune Data in Advanced Melanoma - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960788-evaxion-a-s-evax-discusses-evxminus-01-phase-ii-clinical-and-immune-data-in-advanced-melanoma?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:28:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "PolyPid Ltd. (PYPD) Analyst/Investor Day - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960787-polypid-ltd-pypd-analyst-investor-day-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:28:03+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "BluMetric Environmental Inc. (BLM:CA) Presents at Planet MicroCap Showcase: Toronto 2026 - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960786-blumetric-environmental-inc-blm-ca-presents-at-planet-microcap-showcase-toronto-2026?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:26:45+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Rocket Companies, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960785-rocket-companies-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:25:06+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Harvia Oyj 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960784-harvia-oyj-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:24:39+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Spok Holdings, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960783-spok-holdings-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:24:16+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Altisource Portfolio Solutions S.A. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960782-altisource-portfolio-solutions-s-a-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:24:06+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nomura Research Institute, Ltd. 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4960781-nomura-research-institute-ltd-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-01T23:22:35+00:00",
+      "source": "Seeking Alpha"
     },
     {
       "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
       "desc": "Democratic nominee Mary Peltola is facing two candidates named Dan Sullivan in the Alaska Senate election, one of whom is the Republican incumbent.",
       "link": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html",
       "image": null,
-      "pubDate": "2026-11-01T21:25:03+00:00",
+      "pubDate": "2026-11-01T23:17:57+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4989779",
-      "image": "https://content-media.investing.com/news/MoscowExchange_800x533_L_1629375001.jpg",
-      "pubDate": "2026-11-01T21:20:03+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Democratic Rep. Stevens endorses Republican Rogers over rival El-Sayed in Michigan Senate election",
@@ -81,22 +353,6 @@
       "image": null,
       "pubDate": "2026-11-01T21:06:42+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Explainer-How US news organizations will make midterm race calls",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/explainerhow-us-news-organizations-will-make-midterm-race-calls-4989664",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA00YU_L.jpg",
-      "pubDate": "2026-11-01T21:06:23+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "S&P 500: This Setup Is 19-0",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960718-sp500-this-setup-is-19-0?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T21:00:00+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
@@ -115,76 +371,12 @@
       "source": "MarketWatch"
     },
     {
-      "title": "SCHD Vs. FDVV: Which Dividend ETF Wins Into 2027",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960739-schd-vs-fdvv-which-dividend-etf-wins-into-2027?source=feed_all_articles",
+      "title": "Connecticut Sen. Chris Murphy has stroke and is in the hospital, office says",
+      "desc": "Sen. Chris Murphy's office announced Sunday that he suffered a stroke and was hospitalized the day prior, though they say he is 'awake and alert.'",
+      "link": "https://www.cnbc.com/2026/11/01/chris-murphy-stroke-senate-hospital.html",
       "image": null,
-      "pubDate": "2026-11-01T18:25:02+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Binance sees spike in withdrawals as exchange returns online after $6.3 billion heist",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/binance-to-resume-withdrawals-after-recovering-bulk-of-6-billion-in-stolen-funds-4989388",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA00U4_L.jpg",
-      "pubDate": "2026-11-01T18:24:42+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Here are 3 big things we're watching in the stock market in the week ahead",
-      "desc": "The market could use a few victories in the days ahead, which will be filled with more earnings, an election, and jobs data.",
-      "link": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
-      "image": null,
-      "pubDate": "2026-11-01T18:12:05+00:00",
+      "pubDate": "2026-11-01T19:10:12+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "EFV: EAFE Value Offers AI Diversification At A Compelling Price",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960738-efv-eafe-value-offers-ai-diversification-at-a-compelling-price?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T18:11:16+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SOXX: Don't Expect A Quick Recovery For AI Stocks",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960737-soxx-dont-expect-a-quick-recovery-for-ai-stocks?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T18:08:31+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "QQQM: The Nasdaq 100 Is Having A Panic Attack And I Think This Pullback Should Be Bought",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960736-qqqm-the-nasdaq-100-is-having-a-panic-attack-and-i-think-this-pullback-should-be-bought?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T17:55:55+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "It's No Coincidence That PEY Has Doubled (2x) The S&P 500 YoY",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960735-its-no-coincidence-that-pey-has-doubled-2x-the-s-and-p-500-yoy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T17:46:49+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Growth Vs. Value Hit An Extreme As AI Spending Broke Big Tech",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960740-growth-vs-value-hit-extreme-as-ai-spending-broke-big-tech?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T17:40:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "GPTY: High-Risk, High Yield Income - Proceed With Caution",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960734-gpty-high-risk-high-yield-income-proceed-with-caution?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T17:31:00+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
@@ -235,30 +427,6 @@
       "source": "Business Insider"
     },
     {
-      "title": "Full Truck Alliance: Q3 2026 Preview, Macro Pressure Piling (Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960733-full-truck-alliance-q3-2026-preview-macro-pressure-piling-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:52:13+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SoFi: Silly Wall St. Games Can't Outlast Results",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960732-sofi-silly-wall-st-games-cant-outlast-results?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:42:39+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Lumentum Earnings Preview: The AI Boom Is Already Priced In",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960731-lumentum-earnings-preview-the-ai-boom-is-already-priced-in?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:40:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
       "desc": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
       "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
@@ -275,22 +443,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Alphabet: This Isn't Time To Buy The Dip (Rating Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960730-alphabet-not-time-to-buy-dip-rating-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:34:32+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Intel: PC Demand Destruction Meets AI Supply Headwinds-Profit Taking Continues",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960729-intel-pc-demand-destruction-meets-ai-supply-headwinds-profit-taking-continues?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:28:56+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "ROSEN, A RANKED AND LEADING LAW FIRM, Encourages D-Wave Quantum Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - QBTS",
       "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/321797/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - November 1, 2026) - <b>WHY:</b> Rosen Law",
       "link": "https://markets.businessinsider.com/news/stocks/rosen-a-ranked-and-leading-law-firm-encourages-dwave-quantum-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-qbts-1036662792",
@@ -299,36 +451,12 @@
       "source": "Business Insider"
     },
     {
-      "title": "Dutch Bros' Great Growth Doesn't Mean It Avoids A Downgrade",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960728-dutch-bros-great-growth-doesnt-mean-it-avoids-a-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T16:15:16+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "ROSEN, NATIONAL INVESTOR COUNSEL, Encourages Everest Group, Ltd. Investors to Secure Counsel Before Important Deadline in Securities Class Action - EG",
       "desc": "<img src=\"https://api.newsfilecorp.com/newsinfo/321742/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px; height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - November 1, 2026) - <b>WHY:</b> Rosen Law",
       "link": "https://markets.businessinsider.com/news/stocks/rosen-national-investor-counsel-encourages-everest-group-ltd.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-eg-1036696081",
       "image": null,
       "pubDate": "2026-11-01T16:15:00+00:00",
       "source": "Business Insider"
-    },
-    {
-      "title": "Financial Institutions: Despite Disappointing Q3, The Big Picture Is Still Compelling",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960726-financial-institutions-despite-disappointing-q3-big-picture-still-compelling?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T15:47:03+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Cavvy Energy Benefits Tremendously From The Iran War - And Not Because Of Oil",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960473-cavvy-energy-benefits-tremendously-from-the-iran-war-and-not-because-of-oil?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T15:35:00+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "TIGO DEADLINE; ROSEN, SKILLED INVESTOR COUNSEL, Encourages Tigo Energy, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm - TYGO",
@@ -379,62 +507,6 @@
       "source": "Business Insider"
     },
     {
-      "title": "Amazon: Keep It Simple, Buy The Dip",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960725-amazon-keep-it-simple-buy-dip?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T15:15:11+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Brandywine Realty Trust: The Philly Skyline Is Paying Me +10%",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960475-brandywine-realty-trust-philly-skyline-paying-me-10-percent?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T15:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Apple’s new earnings era begins at a critical time for Big Tech",
-      "desc": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
-      "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-47165214",
-      "pubDate": "2026-11-01T15:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "November 2026 Monthly",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960727-november-2026-monthly?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T15:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "I'm Not Swayed By AI Bubble Burst Doomerism",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960723-i-am-not-swayed-by-ai-bubble-burst-doomerism?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T14:55:22+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "The Credit Market's Warning Is Coming Back To Haunt AI Stocks",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960701-credit-markets-warning-coming-back-to-haunt-ai-stocks?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T14:55:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Wall Street Brunch: Midterms, Jobs And Apple",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960724-wall-street-brunch-midterms-jobs-and-apple?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T14:45:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "I'm a psychologist who studies couples: People in the happiest relationships do 1 thing differently after time apart—whether it's hours, days or weeks",
       "desc": "Psychologist Mark Travers argues that the first few minutes after time apart are key to a close, happy relationship, and shares five tips to get them right.",
       "link": "https://www.cnbc.com/make-it/2026/11/01/reconnect-partner-after-time-apart.html",
@@ -451,38 +523,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "L'Oréal: The World's Beauty Champion Still Isn't A Buy",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960721-loreal-world-beauty-champion-still-not-buy?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T14:30:38+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Hedge Your Retirement Income With These 2 Cash-Generating Picks",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960710-hedge-your-retirement-income-with-these-2-cash-generating-picks?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T14:15:34+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "This is the biggest threat to the AI-powered bull market",
-      "desc": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
-      "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-72130104",
-      "pubDate": "2026-11-01T14:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Netflix's U.S. Audience Engagement Problem Is Hurting The Stock (Rating Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4960719-netflixs-us-audience-engagement-problem-is-hurting-the-stock-rating-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-01T13:36:07+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "America is doing better than you think. Your algorithm is just hiding it.",
       "desc": "The bottom half of Americans has more than doubled its net worth since 2019. You wouldn’t know it from scrolling social media.",
       "link": "https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories",
@@ -497,14 +537,6 @@
       "image": "https://images.mktw.net/im-99774246",
       "pubDate": "2026-11-01T13:00:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.84%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-084-4989744",
-      "image": "https://content-media.investing.com/news/LYNXNPEB7T0F9_M.jpg",
-      "pubDate": "2026-11-01T12:45:04+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Companies promised AI gains — here's how the payoff showed up in earnings",
@@ -529,46 +561,6 @@
       "image": null,
       "pubDate": "2026-11-01T12:30:48+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
-      "desc": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
-      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-      "image": null,
-      "pubDate": "2026-11-01T12:19:33+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "After a +193% return: A new list of AI-picks for November is NOW LIVE",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/after-a-193-return-a-new-list-of-aipicks-for-november-is-now-live-4986615",
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEM280Z9_L.jpg",
-      "pubDate": "2026-11-01T11:58:08+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "China’s BYD extends sales growth streak on strong exports",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/chinas-byd-extends-sales-growth-streak-on-strong-exports-4989716",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA00ZC_L.jpg",
-      "pubDate": "2026-11-01T11:42:23+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Street Calls of the Week",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-4989309",
-      "image": "https://content-media.investing.com/news/LYNXMPEM180MW_1200_L.jpg",
-      "pubDate": "2026-11-01T10:00:02+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Xiaomi’s October EV deliveries top 50,000, hit 2026 monthly high",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/xiaomis-october-ev-deliveries-top-50000-hit-2026-monthly-high-4989416",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMA00W7_L.jpg",
-      "pubDate": "2026-11-01T07:42:22+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
@@ -632,6 +624,14 @@
       "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html",
       "image": null,
       "pubDate": "2026-10-31T12:47:08+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Berkshire ekes out some new highs, but October rally stalls",
+      "desc": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+      "link": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "image": null,
+      "pubDate": "2026-10-31T12:26:00+00:00",
       "source": "CNBC Markets"
     },
     {
