@@ -133,7 +133,7 @@ window.TTNArchive = {
     const home = document.getElementById('crypto-home');
     if (home) {
       home.classList.add('editorial-archive-grid');
-      home.innerHTML = articles.filter(a => a.format === 'news').slice(0,4).map(a => TTNArchive.card(a,'Crypto','',{home:true})).join('');
+      home.innerHTML = articles.filter(a => a.format === 'news' || a.format === 'analysis').slice(0,4).map(a => TTNArchive.card(a,'Crypto','',{home:true})).join('');
       if (articles.length > 4) home.insertAdjacentHTML('afterend','<a href="crypto.html" class="view-all-analysis">View all '+articles.length+' Crypto articles &rarr;</a>');
     }
     const element = document.getElementById('crypto-archive');
