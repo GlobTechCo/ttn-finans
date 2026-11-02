@@ -636,7 +636,12 @@ const TTN_ARTICLES = [
       "<p>The shared proposal reflects a growing acknowledgment that the open web needs more explicit rules for automated AI use. Its influence will depend on practical implementation, transparent documentation and the willingness of AI developers to respect expressed preferences. It cannot independently resolve copyright litigation, licensing negotiations or the financial pressure felt by publishers as audience behavior changes.</p>",
       "<p>For news organizations, the next sensible step is to study the emerging standard without rushing to change production settings. They should review existing crawler instructions, identify which uses of content they want to permit and follow the implementation status of the companies involved. The October announcements may become an important piece of the web’s future technical infrastructure, but the actual balance of power between publishers and AI platforms will be determined by enforcement, user behavior and the economics of content distribution.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "OpenAI statement on publisher AI training preferences, October 30",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+      }
+    ]
   },
   {
     "id": "exxon-chevron-refining-earnings-brent-october-2026",
@@ -667,7 +672,12 @@ const TTN_ARTICLES = [
       "<p>Investors should separate the effects of temporary supply disruption from changes produced by efficiency, scale or lower operating costs. The two companies may continue to benefit from diversified portfolios, but earnings forecasts should not simply extrapolate one exceptional quarter. Their latest results offer a clear lesson for the broader market: energy is not a single price, and oil-company profits depend on where a business operates within the chain from extraction to the final customer.</p>",
       "<p>Quarterly adjusted earnings should also be compared with cash generation and capital expenditure. A strong accounting result can look less impressive if a company must spend heavily to maintain refining capacity or replace aging infrastructure. Investors therefore need to consider free cash flow alongside refining margins, rather than treating any one earnings figure as the complete picture.</p>"
     ],
-    "sources": []
+    "sources": [
+      {
+        "label": "Reuters, Exxon and Chevron refining profits, October 30",
+        "url": "https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/"
+      }
+    ]
   },
   {
     "id": "google-suncatcher-first-ai-response-orbit-october-2026",
