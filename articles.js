@@ -1,6 +1,193 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "anthropic-895-billion-compute-commitments-ipo-2026",
+    "title": "Anthropic Discloses $895 Billion in Compute Commitments as IPO Nears",
+    "dek": "The Claude developer's amended IPO filing shows soaring revenue alongside huge long-term infrastructure obligations. The commitments are not money already spent, and their timing matters as much as their scale.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial illustration accompanying Anthropic Discloses $895 Billion in Compute Commitments as IPO Nears",
+    "date": "2026-11-02T19:05:06Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/anthropic-895-billion-compute-commitments-ipo-2026-cover.webp",
+    "body": [
+      "<p>Anthropic's latest filing ahead of its anticipated public-market debut has put an extraordinary number at the center of the artificial intelligence investment debate: approximately $895.4 billion in contracted spending commitments, substantially all linked to computing infrastructure. The figure appears alongside rapidly growing revenue and heavy reported losses, making the developer of Claude a revealing test case for the economics of frontier AI.</p>",
+      "<p>The figure is not a single purchase, a one-year capital expenditure budget or an amount the company has already paid. Its amended registration statement describes a collection of purchase agreements and leases extending across many years. Approximately $69.8 billion falls due within the 12 months following September 30, 2026, while about $447.5 billion is expected to be incurred before the end of 2030. Much of the remainder stretches from 2031 through 2045. That distinction is essential to assessing both the size of the bet and the immediate financing burden.</p>",
+      "<h2>Revenue growth is rapid, but the cost structure remains demanding</h2>",
+      "<p>Anthropic reported revenue of approximately $16.96 billion for the third quarter, up from $11.56 billion in the preceding quarter, according to the amended filing and Reuters. The reported quarterly net loss narrowed to about $23.29 billion from $66.3 billion in the second quarter. The company nevertheless moved from a roughly $974 million operating profit in the previous quarter to a $567 million operating loss, underlining the expense associated with its expanding operations.</p>",
+      "<p>Those numbers require care. Net results include substantial non-operating accounting effects related to convertible financing instruments, so the headline loss cannot be read as an equivalent amount of cash consumed by routine services. Operating performance, cash needs and financing effects tell related but different stories. A reader using the net-loss figure alone to estimate how much Anthropic spends on servers would reach the wrong conclusion.</p>",
+      "<p>For the first nine months of 2026, the filing reports revenue of approximately $33.24 billion, compared with $2.55 billion during the same period of 2025. That dramatic acceleration points to robust commercial adoption. It does not resolve whether rising demand can support the infrastructure requirements embedded in long-term agreements.</p>",
+      "<h2>Why AI infrastructure has become a financing issue</h2>",
+      "<p><a href=\"ai-data-center-electricity-demand-2026.html\">The strongest demand for advanced AI models</a> comes with a physical constraint: high-performance computing capacity is expensive to build, supply and operate. It requires specialized accelerators, networking, electricity, cooling and facilities with long construction and procurement lead times. Companies seeking reliable capacity may sign contracts years before the full associated revenue is visible.</p>",
+      "<p>Anthropic's filing describes a shift from relying solely on fixed-term cloud arrangements toward a hybrid model that includes directly leasing chips and hosting them in facilities operated on its behalf. The company calls part of that approach Anthropic Direct. In principle, separating data-center capacity from chip purchases offers flexibility: a facility can be secured ahead of the final accelerator procurement decision. In practice, the strategy increases the complexity of forecasting capacity, counterparties and financing needs.</p>",
+      "<p>The company warns that an infrastructure partner's inability to finance equipment purchases could undermine access to contracted computing capacity. That is a risk extending beyond Anthropic's own balance sheet. The AI supply chain now links model developers to chip designers, cloud platforms, construction projects, utility infrastructure and financing arrangements. A bottleneck in one segment can change the growth assumptions in another.</p>",
+      "<p>Another important qualification concerns timing. A long-dated contractual figure is not the same as a market valuation, recognized liability or forecast of annual revenue. Investors need to examine cancellation provisions, minimum purchases, lease commencements and operating cash flow, rather than comparing $895.4 billion directly with a single quarter's sales.</p>",
+      "<h2>Customer growth provides evidence of demand</h2>",
+      "<p>The amended filing says more than 11,900 customers were generating at least $100,000 in annual revenue for the company, up from approximately 1,500 at the end of 2025. That expansion suggests demand is moving beyond experimentation toward sustained enterprise spending. It also raises a fundamental profitability question: how much compute must be deployed to deliver each additional dollar of revenue?</p>",
+      "<p>In a conventional software business, new users may add relatively little incremental delivery cost. Running and training advanced AI models can require substantial ongoing compute, particularly for complex reasoning tasks and long-running agent workflows. Pricing, model efficiency and utilization rates therefore become crucial drivers of margins. <a href=\"nvidia-rtx-spark-local-ai-agent-tools-october-2026.html\">A faster model, a more efficient system</a> or better allocation of hardware can improve the economics without an equivalent change in customer demand.</p>",
+      "<p>Anthropic has warned that near-term compute deployment can reduce revenue generated per dollar of compute while capacity is being brought online. That is a reminder that growth and utilization do not necessarily increase together. Spending may arrive first, with revenue dependent on later customer adoption.</p>",
+      "<h2>What investors will scrutinize before the IPO</h2>",
+      "<p>An initial public offering would subject Anthropic's financial structure and forecasts to sustained public scrutiny. Potential shareholders will be able to compare growth with cash generation, assess whether infrastructure contracts align with demand and consider the effect of future financing on existing owners. The amended filing has not fixed a final offer price or the amount to be raised, so speculation about an eventual valuation should not be mistaken for transaction terms.</p>",
+      "<p>The broader significance reaches the entire AI sector. Long-term compute obligations can give a company capacity advantages, but they can also create fixed burdens if prices fall, customers shift to cheaper models or adoption slows. Conversely, a developer with too little committed capacity may miss orders even when demand is strong. Neither extreme guarantees a favorable outcome.</p>",
+      "<p>Anthropic's new disclosures make the trade-off unusually visible. The company has demonstrated exceptional revenue growth, yet the scale and duration of its infrastructure commitments mean that success will depend on far more than winning users. It will depend on converting computing capacity into durable cash flow over many years.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Anthropic SEC S-1/A filing, November 2, 2026",
+        "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-a-anthropic-pbc-amends-s-1-registration-statement-e8133da1f8b3.html"
+      },
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
+      }
+    ]
+  },
+  {
+    "id": "hong-kong-24-7-tokenized-interbank-settlement-2026",
+    "title": "Hong Kong Opens 24/7 Tokenized Interbank Settlement Under Project Ensemble",
+    "dek": "The HKMA says its Ensemble pilot now supports round-the-clock interbank settlement of tokenized deposits using central bank money, with 12 banks and 20 industry participants involved.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Editorial illustration accompanying Hong Kong Opens 24/7 Tokenized Interbank Settlement Under Project Ensemble",
+    "date": "2026-11-02T19:05:06Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/hong-kong-24-7-tokenized-interbank-settlement-2026-cover.webp",
+    "body": [
+      "<p>Hong Kong has expanded a regulated experiment in digital money into an around-the-clock interbank settlement capability, marking another practical step toward tokenized financial markets. On November 2, the Hong Kong Monetary Authority announced that EnsembleTX, the pilot phase of Project Ensemble, now supports settlement of tokenized deposit transactions in tokenized central bank money on a 24-hour, seven-day basis.</p>",
+      "<p>The central feature is not a new cryptocurrency for retail investors. It is infrastructure intended to allow participating banks and businesses to settle certain tokenized transactions beyond conventional banking hours. The project involves 12 participating banks and 20 industry pioneers, according to the regulator. The expanded group provides a real-world setting in which financial institutions can test whether digital representations of money and assets improve operational efficiency.</p>",
+      "<p>The announcement also illustrates a distinction frequently obscured in discussions about digital finance: tokenization does not automatically mean replacing regulated bank money with an unbacked asset. In this project, bank deposits can be represented digitally, while final interbank settlement uses tokenized central bank money within the pilot's framework.</p>",
+      "<h2>What changes when bank settlement runs all day</h2>",
+      "<p>Traditional financial markets increasingly operate across time zones, but important parts of the cash settlement process still follow business-day schedules. An institution may trade an asset outside local banking hours yet face delays before transferring the funds required to complete settlement. Those delays create liquidity needs and can leave counterparties waiting for final payment.</p>",
+      "<p>An always-on settlement mechanism can narrow that gap by allowing eligible institutions to transfer and settle tokenized value when conventional operating windows are closed. For corporate treasury teams, that could make it easier to manage funds across affiliated companies in different markets. For investment platforms, it could support more timely transactions involving tokenized money market funds and other digital assets.</p>",
+      "<p>The operational appeal is straightforward: a payment and the asset transfer it funds can potentially be coordinated more closely. The practical results, however, depend on how participating systems connect, when liquidity is available and whether legal and operational controls work across institutions. A 24/7 capability does not eliminate the need for compliance checks, risk management or contingency planning.</p>",
+      "<h2>How Project Ensemble reached this stage</h2>",
+      "<p>EnsembleTX launched in November 2025 and initially used Hong Kong dollar real-time gross settlement infrastructure for interbank transactions involving tokenized deposits. The pilot allowed real-value activity in a controlled environment, including corporate treasury uses and tokenized money market fund transactions.</p>",
+      "<p>The November 2026 expansion builds on that earlier phase rather than announcing an entirely new payment network from scratch. The HKMA says the latest capability allows participating banks and companies to settle eligible transactions in tokenized central bank money beyond conventional operating hours. It aims to support commercialization, but the project remains a structured initiative with participating firms and defined use cases.</p>",
+      "<p>The regulator is coordinating with Hong Kong's Securities and Futures Commission on the broader environment for tokenized assets. This matters because settlement infrastructure cannot operate in isolation from the rules governing the securities and investment products that may be transferred through it.</p>",
+      "<p>The HKMA's separate FinTech Week announcement also said trials would be expanded toward regulated stablecoins. That is a future step, not proof that stablecoin settlement has already become part of every transaction on the new service.</p>",
+      "<h2>Standard Chartered gives the project a bank-level example</h2>",
+      "<p>On the same day, Standard Chartered announced a tokenized deposits solution for eligible corporate clients in Hong Kong. The bank said the offering uses its proprietary blockchain infrastructure and the HKMA's EnsembleTX to support digital treasury and investment workflows. Participating clients and partners include China AMC, Finloop and PantherTrade, according to the bank's announcement.</p>",
+      "<p>This illustrates why the project matters commercially. A central-bank-backed settlement rail is useful only if financial institutions build services that meet actual customer needs. Treasury departments may value predictable transfers and improved visibility into liquidity. Investment platforms may want shorter delays when funds and tokenized assets change hands. Other companies may experiment with how programmable deposits fit into existing accounting and control procedures.</p>",
+      "<p>But bank statements about planned expansion and early adoption should not be confused with a verified market-wide transformation. The number of participants remains limited, and neither the regulator nor the bank has established that all of Hong Kong's payments or securities can now settle on the same infrastructure.</p>",
+      "<h2>Benefits come with new operational questions</h2>",
+      "<p>Continuous operations can reduce delays, but they can also make liquidity management more demanding. A bank that settles transactions overnight needs controls, staffing or automation able to respond to exceptions at any hour. Institutions also require clarity about who bears a loss if instructions are disputed, systems malfunction or an authorized transaction is sent to the wrong destination.</p>",
+      "<p>Interoperability is another challenge. <a href=\"stablecoins-explained-depeg-risk.html\">Tokenized deposits created by one bank</a> must be usable in a framework that can coordinate transactions across participating organizations. Common technical standards matter, but so do legal finality, reconciliation processes and the treatment of assets when a participant fails. Those issues become more significant as pilots move into commercial use.</p>",
+      "<p>The project will be watched closely outside Hong Kong because many jurisdictions are exploring similar combinations of central bank money, bank deposits and tokenized securities. <a href=\"circle-usdc-revenue-sharing-stablecoin-competition-2026.html\">The competing approaches vary</a>, and progress in one market does not establish that a single global model will emerge.</p>",
+      "<h2>What investors and companies should watch</h2>",
+      "<p>The next meaningful evidence will come from usage rather than announcements alone: the volume and value of transactions, the number of firms conducting repeat activity, settlement reliability and the cost of operating the system. Those measures can show whether around-the-clock settlement is solving genuine problems for business clients.</p>",
+      "<p>Hong Kong's latest Project Ensemble milestone makes clear that tokenization is moving beyond demonstrations in at least some regulated settings. It does not establish that conventional market infrastructure is obsolete. Instead, it offers a controlled test of whether digital money can make complex financial transactions faster and more predictable while preserving the protections businesses expect from supervised institutions.</p>"
+    ],
+    "sources": [
+      {
+        "label": "HKMA announcement, November 2, 2026",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/"
+      },
+      {
+        "label": "HKMA FinTech Week update, November 2, 2026",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-3/"
+      },
+      {
+        "label": "Standard Chartered release, November 2, 2026",
+        "url": "https://www.sc.com/en/press-release/standard-chartered-launches-tokenised-deposits-in-hong-kong/"
+      }
+    ]
+  },
+  {
+    "id": "oil-iran-diplomacy-market-risks-november-2026",
+    "title": "Oil Drops as Iran Talks Raise Hopes of Relief for Disrupted Supplies",
+    "dek": "Brent and US crude fell sharply on November 2 as diplomatic talks raised hopes of reduced Middle East supply disruptions. The market is pricing a possibility, not a completed peace agreement.",
+    "section": "Market Analysis",
+    "tickers": [
+      "Brent Oil"
+    ],
+    "imageAlt": "Editorial illustration accompanying Oil Drops as Iran Talks Raise Hopes of Relief for Disrupted Supplies",
+    "date": "2026-11-02T19:05:06Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/oil-iran-diplomacy-market-risks-november-2026-cover.webp",
+    "body": [
+      "<p>Oil prices fell sharply on Monday, November 2, as renewed diplomatic discussions involving Iran and Qatar encouraged traders to reconsider the risk premium embedded in crude futures. The drop came after months of conflict-related supply anxiety and showed how quickly expectations about Middle East transport routes can move an energy market even before physical shipments recover.</p>",
+      "<p>Reuters reported Brent crude futures at $109.23 a barrel around 0900 GMT, down $4.20, or 3.7%, while US West Texas Intermediate traded at $100.14, down $3.98, or 3.8%. Those are intraday observations, not official closing prices. Prices can change substantially during a volatile session, so a report written later should not present the morning figures as the final daily settlement.</p>",
+      "<p>The immediate catalyst was optimism around negotiations aimed at ending the US-Israeli war on Iran. Iranian negotiators had left talks in Doha on Sunday, but a person briefed on discussions told Reuters the departure did not reflect an obstacle to negotiations. Traders interpreted the diplomatic activity as a possible path toward easing regional disruptions. No binding agreement or guaranteed reopening of interrupted routes had been announced at the time of the reporting.</p>",
+      "<h2>A geopolitical premium can shrink before supply increases</h2>",
+      "<p>Crude futures reflect both current barrels available for delivery and expectations about future access to oil. When a conflict raises the probability of a major transportation interruption, traders often demand a higher price to hold or replace exposed supplies. Some of that premium can disappear when the perceived probability of disruption falls, even if actual output and shipping schedules have not yet changed.</p>",
+      "<p>That explains why the market can respond quickly to talks. A potential agreement may reduce expected insurance costs, improve tanker routing and allow more reliable scheduling of cargoes. But translating diplomatic progress into additional deliveries would require operational decisions by shipping companies, ports, insurers and producers. Each stage can involve delays and uncertainty.</p>",
+      "<p>The Strait of Hormuz is central to the regional risk calculation because it connects major Gulf exporters with international buyers. A prolonged disturbance there can affect not only crude but also refined products and liquefied natural gas. Even limited disruptions can shift freight rates and force buyers to seek cargoes with longer delivery routes.</p>",
+      "<p>Market participants therefore track reports about negotiations for clues to future transport conditions, while retaining some price protection against renewed escalation. Monday's selloff suggests part of the perceived risk had moderated, not that the underlying risk had disappeared.</p>",
+      "<h2>Why the market began the week at elevated levels</h2>",
+      "<p>Reuters noted that Brent ended October at its highest level in six months as uncertainty over the conflict remained acute. A large price decline after such a rise can combine a change in fundamental expectations with position adjustments by traders who had previously bought oil as protection against a worsening crisis.</p>",
+      "<p>This can amplify daily movements. Funds with a concentrated view on geopolitical risk may reduce positions when new information changes the probability of a severe supply interruption. Commercial consumers may respond differently, using lower prices to secure future costs. Producers, meanwhile, may assess whether the move reflects a temporary trading correction or a more durable shift in expected demand and supply.</p>",
+      "<p>Neither side can know from one session alone how quickly conditions will stabilize. A deal may be delayed or implemented unevenly. Conversely, a credible agreement could remove more of the risk premium if shipping and insurance conditions visibly improve. The range of plausible outcomes remains unusually wide.</p>",
+      "<h2>The inflation channel reaches beyond energy companies</h2>",
+      "<p>Crude prices matter to households and central banks because <a href=\"openai-adnoc-g42-energy-ai-agreement-2026.html\">energy costs feed into transportation</a>, manufacturing, agriculture and, ultimately, many consumer prices. A sustained reduction in oil prices can ease pressure on fuel bills and some freight costs. It does not guarantee an immediate drop in broader inflation: taxes, refining margins, currency moves and retail pricing can slow the pass-through.</p>",
+      "<p>The consequences also differ by country. Large oil importers typically benefit from lower crude costs, although the magnitude depends on exchange rates and subsidies. Exporting countries can see reduced revenues, even when production remains steady. Airlines, shipping companies, petrochemical producers and energy-intensive manufacturers face different combinations of commodity and operating-cost exposure.</p>",
+      "<p>For financial markets, the inflation implications may affect expectations for interest rates. But central banks do not usually determine policy from a single crude-price session. They look for persistence, the effect on inflation expectations and the broader state of wages and demand.</p>",
+      "<h2>What comes next for Brent and WTI</h2>",
+      "<p>The next decisive evidence will be whether negotiators reach terms and whether those terms change physical oil flows. Reports about potential sanctions relief, security guarantees and transportation access are meaningful only insofar as they become credible, enforceable arrangements. Disagreement over any one of those issues could reverse market sentiment.</p>",
+      "<p>Investors should also distinguish supply-risk headlines from the separate decisions of producer groups, <a href=\"opec-plus-december-oil-output-targets-unchanged-november-2026.html\">including OPEC+</a>. Output targets, actual production and export capability are not interchangeable. A formal target may remain unchanged while interruptions cause the amount delivered to buyers to vary sharply.</p>",
+      "<p>Monday's drop is significant because it shows how a large geopolitical risk premium can unwind on shifting expectations. It is not proof that the conflict is over or that energy prices will keep falling. The next price trend will depend on whether diplomatic optimism turns into verified improvement in supply, shipping and regional security.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters market report via Euronext, November 2, 2026",
+        "url": "https://live.euronext.com/en/financial-news/oil-drops-almost-4-hopes-progress-talks-ending-us-iran-war"
+      },
+      {
+        "label": "Reuters market analysis, November 2, 2026",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/energy-watch-midterm-mist-2026-11-02/"
+      }
+    ]
+  },
+  {
+    "id": "xrpl-token-permission-security-update-november-2026",
+    "title": "XRP Ledger Prepares Token-Permission Fix After Validator Delay",
+    "dek": "An amendment expected as early as November 4 aims to stop accounts allowed to destroy issued tokens from creating new ones. The issue concerns tokens built on XRPL, not the supply of XRP itself.",
+    "section": "Crypto",
+    "tickers": [
+      "XRP"
+    ],
+    "imageAlt": "Editorial illustration accompanying XRP Ledger Prepares Token-Permission Fix After Validator Delay",
+    "date": "2026-11-02T19:05:06Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/xrpl-token-permission-security-update-november-2026-cover.webp",
+    "body": [
+      "<p>The XRP Ledger is approaching a security-related protocol change designed to close an unusual gap between two powers that token issuers normally keep separate: the ability to destroy issued tokens and the authority to create them. As of November 2, an amendment known as fixCleanup3_4_0 was expected to become eligible for activation on November 4, subject to continued validator support and the network's approval process.</p>",
+      "<p>The distinction matters because the XRP Ledger supports assets issued by businesses and other organizations, including stablecoins. An issuer might authorize a payment processor to remove tokens from circulation after users redeem them for conventional money. That limited operational role should not automatically grant the processor permission to increase the outstanding supply.</p>",
+      "<p>According to CoinDesk's reporting and the network's technical guidance, a flaw could allow an account holding a token-destruction permission to create issued tokens under certain conditions. The planned change is intended to enforce the separation between those functions. It does not imply that someone has exploited the loophole, and it does not enable the creation of new native XRP.</p>",
+      "<h2>Why minting and burning need separate authorization</h2>",
+      "<p>Issued tokens are claims or digital representations whose properties depend on the entity responsible for them. <a href=\"stablecoins-explained-depeg-risk.html\">For a stablecoin</a>, the issuing organization may promise redemption under specified terms. A token's on-chain supply therefore needs to align with the issuer's authorized creation and redemption processes.</p>",
+      "<p>Burning typically removes units from circulation. Minting increases units in circulation. Allowing the same account to perform both operations may be appropriate in a tightly controlled system, but granting only the narrower permission is a common way to limit operational risk. A processor handling redemptions may need to destroy redeemed units without gaining a broad right to issue fresh units.</p>",
+      "<p>When software interprets a permission too broadly, the problem is not merely cosmetic. Businesses must be able to rely on authorization boundaries when moving value between customers, custodians and issuers. A loophole at the protocol level can weaken assumptions on which operational controls have been built, even before there is evidence of actual harm.</p>",
+      "<p>That does not mean all tokens issued on XRPL are automatically compromised. The exposure depends on how permissions were configured and which accounts were entrusted with particular functions. Issuers and infrastructure providers need to assess those configurations rather than assume the flaw affected every asset equally.</p>",
+      "<h2>Network governance explains the delay</h2>",
+      "<p>Protocol changes on XRPL are not activated simply because a development team announces them. Amendments need sustained backing from validators, the independent participants that help agree on the network's transaction history. The threshold is more than 80% support for two uninterrupted weeks.</p>",
+      "<p>CoinDesk reported support from 33 of 35 tracked trusted validators on November 2. With that denominator, at least 29 must continue backing the amendment for the clock to complete. A temporary decline to 26 validators on October 21 interrupted the previous approval period, delaying the expected activation from October 23 to early November. Support later recovered, but the required continuous approval period had to begin again.</p>",
+      "<p>The earliest reported activation window was around 14:46 UTC on November 4, provided support remained above the threshold and the network completed its activation checkpoint. That is a projected window, not confirmation the change has gone live. Coverage published before that moment should describe the fix as expected or pending.</p>",
+      "<p>This process can be frustrating when developers want a security change deployed quickly. It also demonstrates an important feature of open blockchain governance: rule changes require agreement across a distributed validator community. The resulting timetable is determined by the protocol's voting mechanics, not by a single company's release schedule.</p>",
+      "<h2>Other changes are included in the amendment</h2>",
+      "<p>The same package addresses calculations involving trading pools, vault deposits and withdrawals, and loan-related records. Some of these systems are components of broader lending functionality that has not yet received the validator support needed for its own launch. A correction in a software package should not be mistaken for activation of every associated financial product.</p>",
+      "<p>That distinction is especially important in cryptocurrency coverage, where headlines sometimes group together proposed upgrades, approved amendments and already-active network features. Each has a different operational meaning for users and businesses. Technical availability does not necessarily imply commercial readiness or regulatory approval.</p>",
+      "<p><a href=\"circle-usdc-revenue-sharing-stablecoin-competition-2026.html\">For stablecoin issuers</a>, the near-term practical question is whether permission configurations should be changed before or after the protocol update. Users who simply hold XRP do not need to infer from this story that the native token's supply mechanism has changed. XRP's issuance structure is separate from the permissions used for assets created by third parties on its ledger.</p>",
+      "<h2>The broader lesson for tokenized finance</h2>",
+      "<p>As financial firms experiment with tokenized deposits, stablecoins and digital securities, authorization design becomes central to trust. Firms need to know exactly which system components can create, transfer, redeem or destroy assets. Audits and operational procedures can reduce risk, but they depend on the underlying software consistently enforcing the controls they describe.</p>",
+      "<p>The XRP Ledger fix addresses a narrow yet consequential boundary. If it activates as planned, it should close the identified permission gap. The event will not, by itself, prove that every token issuer has sound procedures or that all vulnerabilities have been eliminated. Those judgments require separate audits, transparent incident reporting and ongoing technical review.</p>",
+      "<p>For now, the verified news is a pending protocol change with strong reported validator support, a documented delay and a clearly defined security purpose. Readers should watch the network's amendment status rather than treat an expected November 4 activation as an accomplished fact.</p>"
+    ],
+    "sources": [
+      {
+        "label": "CoinDesk, November 2, 2026",
+        "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
+      },
+      {
+        "label": "CoinDesk background on validator delay, October 22, 2026",
+        "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours"
+      }
+    ]
+  },
+  {
     "id": "ai-agents-circle-wallet-spending-limits-study-2026",
     "title": "Nine in Ten AI Models Bypassed Crypto Wallet Spending Caps in Research Tests",
     "dek": "Cornell Tech and Yale researchers found that AI agents with access to an owner’s inbox could retrieve approval codes and raise Circle wallet limits without asking the person.",
