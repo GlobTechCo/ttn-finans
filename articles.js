@@ -1,6 +1,171 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "deutsche-bank-upgrades-us-tech-after-nasdaq-selloff-november-2026",
+    "title": "Deutsche Bank Turns Bullish on US Technology Stocks After October Selloff",
+    "dek": "The bank has reversed a recent downgrade after technology shares lagged the broader US market. Its argument rests on valuations, investor positioning and earnings, while the return on AI infrastructure spending remains uncertain.",
+    "section": "Market Analysis",
+    "tickers": [
+      "NDX",
+      "SPX"
+    ],
+    "imageAlt": "Editorial photo illustrating Deutsche Bank Turns Bullish on US Technology Stocks After October Selloff",
+    "date": "2026-11-02T12:19:03Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/deutsche-bank-upgrades-us-tech-after-nasdaq-selloff-november-2026-cover.webp",
+    "body": [
+      "<p>Deutsche Bank has upgraded its view of US technology stocks after a sharp October selloff, reversing a downgrade made only three weeks earlier. Strategists argue that prices and investor positioning now offer a more favourable balance of potential return and risk. The change follows a month in which more than $2 trillion was erased from the Nasdaq 100's market value, according to Reuters.</p>",
+      "<p>The call is a shift in the bank's investment assessment, not evidence that the market has reached a bottom. Technology stocks can recover even as spending pressures persist, but the pace of any rebound will depend on earnings, interest rates and investors' willingness to pay for future growth.</p>",
+      "<h2>What changed in three weeks</h2>",
+      "<p>The recent market decline went beyond routine daily volatility. Reuters reported that technology and mega-cap growth stocks fell roughly 11% over a three-week period, while the rest of the S&amp;P 500 gained close to 6%. That left the growth group more than 16 percentage points behind the broader market excluding those stocks.</p>",
+      "<p>Such a large gap changes the comparison facing portfolio managers. Before the decline, a buyer might have been paying a considerable premium for expected earnings growth. After a sharp repricing, some of those same growth expectations may be available at lower share prices.</p>",
+      "<p>Deutsche Bank's argument, as reported by Reuters, is that much of the concern about AI investment costs is now reflected in valuations. The bank also points to lighter investor exposure, meaning fewer portfolios may be positioned for uninterrupted technology-sector gains than earlier in the year.</p>",
+      "<p>The judgement remains conditional. A lower stock price does not guarantee an attractive valuation if forecasts for revenue or profit deteriorate further. The bank's upgrade therefore depends on the earnings assumptions behind its analysis remaining sufficiently resilient.</p>",
+      "<h2>AI spending remains the central challenge</h2>",
+      "<p>Large technology groups are building data centres, purchasing advanced processors and expanding energy and networking capacity to support AI services. These projects require upfront investment, often long before customers generate recurring revenue that can be clearly tied to that spending.</p>",
+      "<p>Capital expenditure can reduce near-term free cash flow even when a company's reported earnings remain healthy. Investors are therefore increasingly asking not just how much AI infrastructure a company can build, but what economic returns it expects from the additional capacity.</p>",
+      "<p>The challenge differs across business models. Cloud providers can seek revenue from customers renting computing resources. Chip designers and manufacturers depend on demand for equipment and components. Software businesses need to show that AI features improve sales, customer retention or productivity enough to justify their operating costs.</p>",
+      "<p>An upgrade to the technology sector does not mean all these businesses face the same opportunity. Debt levels, profit margins, competition and the useful life of computing equipment vary materially from company to company. Individual balance sheets remain important even when sector sentiment improves.</p>",
+      "<h2>Why investor positioning matters</h2>",
+      "<p>Investment strategists examine how much exposure asset managers already hold because crowded positions can intensify a selloff. If many investors own similar stocks and decide to reduce risk simultaneously, market declines can become sharper than changes in company fundamentals alone might justify.</p>",
+      "<p>The reverse can also occur. After investors cut exposure, better-than-expected results or a less severe macroeconomic outlook may encourage them to rebuild positions. Those purchases can support prices even without an immediate acceleration in profit growth.</p>",
+      "<p>Deutsche Bank cited previous technology-sector rebounds from similarly weak relative-performance levels, according to Reuters. The reported historical average gain was around 32%, alongside approximately 30 percentage points of outperformance versus the rest of the S&amp;P 500.</p>",
+      "<p>That figure describes past episodes selected by the bank, not a forecast or guaranteed return for today's market. Historical comparisons can be useful context, but the sample and economic conditions matter. Interest rates, company valuations and the scale of AI spending are not necessarily the same as during earlier recoveries.</p>",
+      "<h2>Earnings may determine whether the upgrade works</h2>",
+      "<p>The strongest support for a technology rebound would come from profits that remain robust despite heavy investment. Companies need to demonstrate that their underlying products and services can finance expansion without placing sustained pressure on free cash flow.</p>",
+      "<p>Investors should also distinguish between the performance of a broad stock index and the financial results of individual companies. Major benchmarks are concentrated in a limited number of very large firms. Their share-price moves can dominate an index even when smaller businesses experience different conditions.</p>",
+      "<p>A rebound driven mostly by changes in valuation could be vulnerable if the next reporting season shows weaker growth. A rebound supported by rising profits and improving cash generation would have a firmer financial basis.</p>",
+      "<p>The economic backdrop presents additional variables. Bond yields influence the value assigned to future profits, while trade policy, regulation and energy costs can change the economics of AI infrastructure. Those factors could either reinforce or challenge Deutsche Bank's revised view.</p>",
+      "<h2>A reversal, not a resolution</h2>",
+      "<p>The bank's change of stance highlights how quickly investment recommendations can respond to price movements. Three weeks ago, strategists considered technology stocks less attractive. After a large relative decline, they now see a more favourable entry point.</p>",
+      "<p>Both positions can be internally consistent if the price paid for expected earnings changes faster than the earnings outlook itself. What remains untested is the ultimate return on the industry's latest generation of AI investment.</p>",
+      "<p>For TTN Finance readers, the relevant development is the renewed disagreement over valuation. Some investors view the selloff as evidence that AI expectations were excessive. Deutsche Bank views the repricing as creating opportunity. Corporate results and cash flow will be more decisive than the upgrade headline in determining which interpretation holds up.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/legal/transactional/deutsche-bank-upgrades-us-tech-says-selloff-has-gone-too-far-2026-11-02/"
+      },
+      {
+        "label": "Investing.com, Reuters report with published research details",
+        "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-upgrades-us-techsays-selloff-has-gone-too-far-4990112"
+      },
+      {
+        "label": "Investing.com, October 31, strategy note coverage",
+        "url": "https://www.investing.com/news/stock-market-news/tech-riskreward-turns-favorable-after-rout-deutsche-bank-says-4989239"
+      }
+    ]
+  },
+  {
+    "id": "ecb-ai-valuations-bond-market-financial-stability-november-2026",
+    "title": "ECB Flags AI Valuations, Bond Stress and Nonbank Losses as Financial Risks",
+    "dek": "An ECB official has identified three potential sources of financial instability. The warning focuses on how falling asset prices could spread through interconnected markets rather than predicting an imminent crisis.",
+    "section": "Market Analysis",
+    "tickers": [
+      "SPX",
+      "NDX"
+    ],
+    "imageAlt": "Editorial photo illustrating ECB Flags AI Valuations, Bond Stress and Nonbank Losses as Financial Risks",
+    "date": "2026-11-02T12:19:03Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/ecb-ai-valuations-bond-market-financial-stability-november-2026-cover.webp",
+    "body": [
+      "<p>European Central Bank Vice-President Boris Vujcic has identified stretched valuations in artificial-intelligence-related stocks, pressure in bond markets and potential losses at nonbank financial firms as significant threats to financial stability. His remarks, reported on November 2, come as investors reassess the costs and expected returns of AI investment following a sharp technology-sector selloff.</p>",
+      "<p>The warning is not a forecast of a financial crash. It draws attention to a common problem across three areas of the financial system: losses can travel beyond the investors or institutions that first incur them. A decline in technology shares becomes a wider concern if leveraged portfolios must sell other assets. Bond-market stress can create funding pressure. Losses in investment funds can force withdrawals or asset sales.</p>",
+      "<h2>Why AI valuations have become a stability question</h2>",
+      "<p>Investors have committed substantial capital to companies supplying the hardware, software and infrastructure behind AI development. Expectations for revenue and productivity gains have also supported premium valuations. These expectations may prove justified for some firms, but the timing and profitability of AI spending remain uncertain.</p>",
+      "<p>The concern is not simply that an individual technology stock could fall. Equity markets regularly reprice businesses when earnings disappoint. A financial-stability problem can arise when crowded investments, leverage or short-term funding turn a price correction into broader forced selling.</p>",
+      "<p>A company may report growing AI demand while facing heavy capital expenditure, rising electricity costs or pressure on margins. Strong revenue therefore does not guarantee that shareholders receive an immediate return from a new investment cycle. That distinction has become more important as investors scrutinise large technology groups and the companies supplying their infrastructure.</p>",
+      "<p>The Nasdaq's October decline sharpened the debate about whether AI optimism had outpaced near-term financial performance. Yet a steep correction on its own does not prove that an entire industry is overvalued. The distribution of earnings, debt and financing commitments matters more than a single index move.</p>",
+      "<h2>Bonds are a separate transmission channel</h2>",
+      "<p>Bond markets affect the financing costs of governments, businesses and households. When yields rise quickly, existing bonds generally lose market value. Institutions that hold large fixed-income portfolios can then face valuation losses even if they intend to hold their securities until maturity.</p>",
+      "<p>Stress can become more serious when investors need cash. Funds may sell liquid government bonds to meet redemptions, pushing prices lower and increasing the cost of raising money. Highly leveraged trades can amplify that process when margin requirements rise.</p>",
+      "<p>The effects are not confined to banks. Insurance firms, pension investors, asset managers and specialist credit vehicles all interact with bond markets in different ways. Some have long-term funding arrangements, while others need to meet withdrawals or collateral calls over much shorter periods.</p>",
+      "<p>This does not mean every increase in bond yields is dangerous. Yields can rise because growth prospects improve or inflation expectations change. The financial-stability question is whether the adjustment is orderly and whether institutions can absorb the associated losses without disrupting credit or payments.</p>",
+      "<h2>The role of nonbank finance</h2>",
+      "<p>The third risk identified in the Reuters report concerns institutions outside the conventional banking sector. Nonbank finance includes investment funds, private credit managers and other entities that provide financing or hold substantial financial assets without operating like deposit-taking banks.</p>",
+      "<p>These institutions can diversify the sources of credit available to the economy. They can also introduce vulnerabilities that are harder to observe. Leverage, liquidity promises and overlapping ownership may be disclosed differently across institutions and jurisdictions.</p>",
+      "<p>Consider a fund holding assets that cannot be sold quickly while allowing investors to withdraw money on short notice. If redemption requests rise, managers may have to sell the most liquid holdings first. That can leave the remaining portfolio less flexible and put additional pressure on market prices.</p>",
+      "<p>A loss at one fund does not automatically spread to the rest of the system. The transmission depends on portfolio concentrations, borrowing arrangements, counterparties and the extent to which market participants depend on similar trades. Regulators watch these connections because problems can develop outside the perimeter of traditional banking supervision.</p>",
+      "<h2>What the ECB will examine next</h2>",
+      "<p>The ECB's next scheduled Financial Stability Review is due on November 18. That publication should provide a fuller account of financial conditions, risks and potential channels of contagion than an individual official's remarks. It will also help distinguish emerging vulnerabilities from shocks that have already affected market functioning.</p>",
+      "<p>Investors should separate three questions when interpreting the central bank's message. Are prices high relative to likely future earnings? Are investors using leverage or fragile funding to hold those assets? And could losses disrupt credit markets or other essential financial activity? The answers can differ substantially across the sectors named by the ECB.</p>",
+      "<p>The review will also be read alongside corporate earnings and bond-market developments. Better-than-expected profits could support parts of the technology sector, while a change in inflation or interest-rate expectations could alter debt-market conditions. Neither would eliminate the need to monitor leverage and liquidity.</p>",
+      "<h2>A warning about connections, not a single trade</h2>",
+      "<p>For households and companies, the significance of financial stability is ultimately practical. Credit availability, retirement portfolios and business financing can be affected when market disruptions are prolonged. Regulators therefore assess how shocks might interact, rather than treating each asset class independently.</p>",
+      "<p>Vujcic's comments put AI equities, bonds and nonbank institutions in the same conversation without claiming they face identical risks. Their common feature is the potential for a relatively contained repricing to become disruptive through leverage, funding pressure and investor behaviour.</p>",
+      "<p>The November 18 review is the next substantive document to watch. Until then, the clearest reading of the warning is that central bankers are monitoring market resilience while investors test assumptions about AI profits and financing costs.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters, November 2, 2026",
+        "url": "https://www.reuters.com/business/finance/ecb-flags-ai-valuations-bond-stress-fund-losses-main-risks-2026-11-02/"
+      },
+      {
+        "label": "European Central Bank, Financial Stability Review landing page",
+        "url": "https://www.ecb.europa.eu/pub/financial-stability/fsr/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "id": "opec-plus-december-oil-output-targets-unchanged-november-2026",
+    "title": "OPEC+ Keeps December Oil Production Targets Unchanged Amid Supply Disruptions",
+    "dek": "Seven producers have maintained their required December output levels while regional disruptions complicate actual shipments. The next decision, due November 29, will come as the group prepares production baselines for 2027.",
+    "section": "Market Analysis",
+    "tickers": [
+      "UKOIL"
+    ],
+    "imageAlt": "Editorial photo illustrating OPEC+ Keeps December Oil Production Targets Unchanged Amid Supply Disruptions",
+    "date": "2026-11-02T12:19:03Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/opec-plus-december-oil-output-targets-unchanged-november-2026-cover.webp",
+    "body": [
+      "<p>Seven OPEC+ producers agreed on November 1 to keep their required oil production levels unchanged for December 2026, according to an official statement from OPEC. The decision maintains previously established production requirements for the seven participating countries rather than announcing another increase in supply.</p>",
+      "<p>The announcement provides policy continuity, but it does not mean that all seven countries will produce or export at their full allocations. Supply disruptions associated with the US-Iran conflict have complicated flows from the Gulf, according to Reuters. Traders therefore need to distinguish the barrels permitted under the agreement from the volumes that actually reach customers.</p>",
+      "<h2>What the seven producers agreed</h2>",
+      "<p>The countries met virtually on Sunday to review market conditions and the outlook for demand and supply. Their statement reaffirmed a commitment to compliance with the wider OPEC+ cooperation framework and confirmed that the next monthly meeting is scheduled for November 29.</p>",
+      "<p>The decision applies to the group of seven producers participating in this monthly review. It should not be described as a new decision made independently by every member of the wider OPEC+ alliance. The broader production framework has separate commitments and monitoring mechanisms.</p>",
+      "<p>The official schedule preserves each participating country's existing December production requirement. The headline outcome is the absence of a new increase, not a change in how those requirements are allocated. The full country-by-country figures remain available in OPEC's published statement.</p>",
+      "<p>These are policy levels, not a measurement of daily physical output. Actual production may be lower because of infrastructure, operational problems or security conditions. Some volumes may also be delayed or redirected before reaching international markets.</p>",
+      "<h2>Why unchanged targets do not guarantee stable supply</h2>",
+      "<p>An oil supply target is a commitment or ceiling within a negotiated framework. The physical market depends on production facilities, storage, pipelines, terminals, tankers and access to shipping routes. A disruption at one point in that chain can reduce deliveries even when producers are permitted to pump more crude.</p>",
+      "<p>Reuters reported that Gulf members had been seeking to rebuild exports disrupted during the US-Iran conflict, but many were still operating below their required production levels. That gap complicates a conventional interpretation of the announcement.</p>",
+      "<p>If a producer cannot meet its target, keeping the target unchanged does not necessarily restrict additional output. It may instead leave room for the country to recover production or shipments toward an existing allocation. Equally, the headline policy number may overstate the amount of oil readily available to buyers.</p>",
+      "<p>The condition of transport links matters alongside production figures. Refineries and trading firms can face higher costs when shipping routes are disrupted or journey times change. Freight, insurance and the availability of particular crude grades can affect delivered prices even without a formal change in OPEC+ quotas.</p>",
+      "<h2>The market must watch more than Brent</h2>",
+      "<p>Brent crude is a widely followed international oil benchmark, but it cannot describe every regional supply problem. Price spreads between different crude grades, refinery feedstock needs and freight costs can all respond differently to a disruption.</p>",
+      "<p>A refinery may be able to replace one supplier with another only if the alternative crude matches its technical requirements. Changes in shipping distance can also affect working capital and inventories. For consumers, the eventual impact depends on refining margins, distribution costs, taxes and local competition.</p>",
+      "<p>The November decision came during a period of heightened uncertainty about the availability of Gulf barrels. It is therefore possible for benchmark oil prices to move significantly even when the policy statement itself is unsurprising. News about diplomatic negotiations, shipping access and production recovery can have a more immediate effect on expected supply than an unchanged quota.</p>",
+      "<p>At the same time, demand conditions remain important. A slowdown in global industrial activity could weaken oil consumption, while stronger transport and petrochemical demand would work in the opposite direction. OPEC+ is balancing those market forces against supply disruptions that are difficult to forecast precisely.</p>",
+      "<h2>The larger negotiation concerns 2027</h2>",
+      "<p>Beyond the December target, the group faces a structural issue: how to set future production baselines. These baselines determine the reference levels from which quotas and adjustments are calculated. They affect both the distribution of future capacity to produce and the political balance within the alliance.</p>",
+      "<p>Reuters has reported that the group is working on assessments of members' production capacity as it prepares for 2027. Such reviews can be sensitive because countries have different investment plans, resource bases and views about how much output they should be allowed to supply.</p>",
+      "<p>An assessment of sustainable capacity is not identical to a promise that every producer will immediately increase production. It is a technical and negotiating input for future decisions. The group must still balance its preferred market management approach with individual countries' commercial objectives.</p>",
+      "<p>The broader alliance also has remaining production adjustments beyond the layer already unwound during 2026. Decisions about when and how to change those arrangements could prove more consequential for future supply expectations than the latest monthly hold.</p>",
+      "<h2>What to monitor before November 29</h2>",
+      "<p>Three categories of evidence will help determine how the oil market interprets the next meeting. The first is physical production and export data, which show whether disrupted volumes are returning. The second is information about shipping and refining conditions, especially where logistical constraints raise costs or delay deliveries. The third is any official progress toward the 2027 capacity assessments and baselines.</p>",
+      "<p>Official statements should be read alongside actual shipment and output data. A policy commitment may remain unchanged while physical availability improves or deteriorates. Conversely, even a future target increase would not guarantee a matching rise in exports.</p>",
+      "<p>The November 1 decision reduces uncertainty about the seven countries' December production policy. It does not resolve the supply difficulties or the negotiations awaiting OPEC+ in 2027. For now, the distinction between permitted production and oil reaching the market remains central to assessing the outlook.</p>"
+    ],
+    "sources": [
+      {
+        "label": "OPEC official announcement, November 1, 2026",
+        "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+      },
+      {
+        "label": "Saudi Press Agency, November 1, 2026",
+        "url": "https://www.spa.gov.sa/en/N2715373"
+      },
+      {
+        "label": "Reuters, November 1, 2026",
+        "url": "https://live.euronext.com/en/financial-news/opec-keeps-december-oil-output-targets-steady-iran-war-continues-disrupt-flows"
+      }
+    ]
+  },
+  {
     "id": "crypto-us-midterms-176-million-lobbying-november-2026",
     "title": "Crypto Industry Enters US Midterms After $176 Million Political Spending Push",
     "dek": "Crypto groups have spent about $176 million to influence US politics, Reuters found. With the midterms approaching, the stakes extend well beyond campaign donations to the rules governing digital assets.",
