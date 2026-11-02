@@ -3,7 +3,7 @@ import json,re,shutil,subprocess,sys,zipfile
 from pathlib import Path
 from datetime import datetime,timezone
 from bs4 import BeautifulSoup
-# The approved archive is processed by GitHub Actions on upload or script changes. Sync 21 revised leads. Refresh cards after approved editorial teaser revisions. Supports Crypto analysis format after verifier update.
+# The approved archive is processed by GitHub Actions on upload or script changes.\n# November 2 archive explicitly supported; workflow exists on main for this push. Sync 21 revised leads. Refresh cards after approved editorial teaser revisions. Supports Crypto analysis format after verifier update.
 root=Path.cwd()
 archives=['TTN_Finance_3_publications_2026-11-02.zip','TTN_Two_Approved_Articles_PUBLISH_2026-11-02.zip','TTN_Three_Articles_APPROVED_PUBLISH_2026-11-02.zip','TTN_Polymarket_DeepSeek_APPROVED_PUBLISH_2026-11-01.zip','TTN_BTC_ETH_October_2026_PUBLISH.zip','TTN_DEWA_approved_article_PUBLISH_2026-11-01.zip','TTN_Finance_3_approved_articles_PUBLISH_2026-11-01.zip','TTN_NVIDIA_RTX_Spark_827_words_FINAL.zip','ttn_three_articles_publication_package.zip']
 zip_path=next((root/name for name in archives if (root/name).is_file()),root/archives[-1])
