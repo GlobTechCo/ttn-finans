@@ -70,6 +70,8 @@ for file in sorted(pkg.glob('*-seo.json')):
         internal.string='our coverage of BP’s quarterly results'
     body=fragment.select_one('.editorial-body');dek=fragment.select_one('.editorial-dek')
     assert body and dek,(slug,'missing article body or intro')
+    # Site ticker refresh expects exactly one semantic section.editorial-body.
+    body.name='section'
     assert len(body.get_text(' ',strip=True).split())>=700,(slug,'too short')
     cover=slug+'-cover.webp'
     for name in [cover,slug+'-480.webp',slug+'-960.webp']:
