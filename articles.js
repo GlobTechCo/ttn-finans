@@ -1,6 +1,141 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "nyse-four-transfer-agents-tokenized-stocks-2026",
+    "title": "NYSE Adds Four Transfer Agents to Build Tokenized Stock Trading Infrastructure",
+    "dek": "NYSE has expanded the partners behind its planned tokenized securities venue, but regulatory approval and shareholder safeguards remain essential.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Editorial illustration accompanying NYSE Adds Four Transfer Agents to Build Tokenized Stock Trading Infrastructure",
+    "date": "2026-11-03T10:04:34Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/nyse-four-transfer-agents-tokenized-stocks-2026-cover.webp",
+    "body": [
+      "<p>The New York Stock Exchange has added four transfer-agent partners to the infrastructure supporting its planned market for tokenized securities, bringing blockchain-based ownership records closer to the operating systems of major public companies. Announced on November 2, the agreements cover Broadridge Financial Solutions, Computershare, Equiniti and Superstate. They join previously announced partners Securitize and tZERO.</p>",
+      "<p>The significance is not simply that another group of financial firms has adopted blockchain terminology. Transfer agents perform the less visible work that makes stock ownership legally and operationally meaningful: maintaining shareholder records, administering corporate actions and helping investors exercise voting rights. A tokenized equity market cannot become a credible alternative to traditional trading unless these functions continue to work as ownership moves between systems.</p>",
+      "<h2>Why transfer agents matter</h2>",
+      "<p>A blockchain token can represent an entitlement, but a technical record alone does not establish how an investor receives dividends, votes at a shareholder meeting or responds to a corporate reorganization. Those rights depend on legal structures, issuer records and regulated market participants. The NYSE’s expanded partner network is designed to connect tokenized trading with that existing infrastructure rather than assume it can be replaced overnight.</p>",
+      "<p>According to the exchange, Computershare, Equiniti and Broadridge collectively serve nearly 5,000 listed companies, including almost 99% of the S&amp;P 500. That figure describes the combined reach of those firms in the traditional market, not the number of issuers that have committed to tokenize their shares. The distinction is crucial: infrastructure capacity is not the same as market adoption.</p>",
+      "<p>Broadridge says it will contribute digital transfer-agency functions and on-chain shareholder governance, including links between verified voting entitlements, proxy materials and supported digital wallets. The company also intends to support access through familiar brokerage channels and its ProxyVote service. If implemented as planned, these tools would let shareholders participate without abandoning the institutional safeguards they already rely on.</p>",
+      "<h2>A planned venue, not a launched market</h2>",
+      "<p>The NYSE has said the new affiliated venue remains subject to regulatory approval. Its plans include round-the-clock trading and faster settlement, but investors should not interpret the partnerships as evidence that an unrestricted tokenized stock exchange is already open. Details of eligible securities, market access, surveillance and technical integration will influence how the proposed system operates in practice.</p>",
+      "<p>The exchange has described both issuer-sponsored tokenized securities and third-party custodial tokens within its framework. It says investors are intended to receive the same dividends and governance rights as shareholders of conventionally issued securities. Preserving those rights is central to the project’s credibility, especially as the term “tokenized stock” is often used for products with significantly different legal structures.</p>",
+      "<p>For issuers, round-the-clock ownership transfers introduce new operational questions. A corporate record date, a voting deadline or an entitlement adjustment must still work when trading systems remain active outside ordinary exchange hours. Custody and digital wallet controls need to link to reliable identity and compliance processes. Transfer agents are positioned to solve some of these problems, but their participation does not remove the need for testing and supervision.</p>",
+      "<h2>Wall Street's blockchain projects are not interchangeable</h2>",
+      "<p>The NYSE initiative is separate from other tokenization projects underway in US financial markets. The Depository Trust &amp; Clearing Corporation recently launched a service that tokenizes certain eligible securities held in custody. Our <a href=\"dtcc-tokenization-service-live-october-2026.html\">coverage of DTCC’s tokenization platform</a> described a system focused on custody and transfer rather than creating a new exchange for continuous trading.</p>",
+      "<p>There is also a distinction between this planned NYSE-affiliated venue and other initiatives associated with Intercontinental Exchange, the parent company of NYSE, including partnerships with crypto trading platforms. Different venues may operate under different permissions, ownership structures and settlement models. Treating all of them as one project would overstate the maturity of the market.</p>",
+      "<p>International efforts are developing in parallel. In Hong Kong, monetary authorities are testing mechanisms for continuous settlement using tokenized money. Our report on <a href=\"hong-kong-24-7-tokenized-interbank-settlement-2026.html\">Hong Kong’s 24-hour tokenized settlement pilot</a> examined the cash side of transactions. The NYSE’s announcement addresses a complementary challenge: maintaining the shareholder and issuer services around the security being traded.</p>",
+      "<h2>What investors and issuers should watch</h2>",
+      "<p>The immediate issue is how regulators assess the venue’s controls. Its eventual scope will depend on permissioned access, market integrity requirements and the way ownership records are reconciled across traditional and blockchain systems. The partners’ long histories in shareholder services may help address operational concerns, but there is still a substantial distance between signing an agreement and demonstrating reliable performance at scale.</p>",
+      "<p>A second question concerns practical benefits. Faster settlement may reduce the period during which trades are exposed to counterparty risk and may improve the flexibility of collateral use. Yet moving to a new technology does not by itself guarantee lower costs. Compliance, custody, cybersecurity, dispute resolution and interoperability can introduce new expenses that need to be measured against the savings.</p>",
+      "<p>The third question is participation. Issuers must have reasons to adopt tokenized shares, brokers need systems to support them and investors must understand their legal protections. Successful infrastructure can make entry easier, but cannot manufacture demand. The NYSE announcement is therefore best understood as a foundational step toward a possible new market structure, not as proof that mainstream stock trading has already migrated onto blockchain rails.</p>",
+      "<p>By connecting established transfer-agent firms with crypto-native providers, the exchange is attempting to make technological change compatible with existing investor rights. Whether that approach leads to active markets will depend on regulatory decisions and credible execution. The next milestones are not token prices or promotional forecasts, but actual approvals, supported securities and operational results.</p>"
+    ],
+    "sources": [
+      {
+        "label": "NYSE, transfer-agent partner announcement",
+        "url": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+      },
+      {
+        "label": "Broadridge, November 2 statement",
+        "url": "https://www.broadridge.com/press-release/2026/broadridge-to-bring-onchain-governance-and-digital-transfer-agency"
+      },
+      {
+        "label": "CoinDesk, November 2 reporting",
+        "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails"
+      }
+    ]
+  },
+  {
+    "id": "rba-november-2026-rate-hike-485",
+    "title": "Australia Raises Interest Rates to 4.85% as Inflation Tests the Economy",
+    "dek": "The Reserve Bank of Australia has lifted its cash rate for the fifth time in 2026, leaving households and investors to weigh the cost of persistent inflation.",
+    "section": "Market Analysis",
+    "tickers": [],
+    "imageAlt": "Editorial illustration accompanying Australia Raises Interest Rates to 4.85% as Inflation Tests the Economy",
+    "date": "2026-11-03T10:04:34Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/rba-november-2026-rate-hike-485-cover.webp",
+    "body": [
+      "<p>Australia’s central bank raised its benchmark interest rate by a quarter percentage point on November 3, taking the cash rate target to 4.85% as policymakers tried to prevent renewed price pressures from becoming entrenched. The decision places Australia among the economies where elevated energy costs, persistent domestic inflation and strong investment demand are forcing central banks to reconsider how restrictive borrowing costs must remain.</p>",
+      "<p>The Reserve Bank of Australia’s Monetary Policy Board voted six to three for the increase, according to the decision and reporting on the meeting. The new rate is the highest since late 2008 and represents the bank’s fifth increase in 2026. That sequence is important: the latest move is not an isolated response to one unexpectedly expensive month but another step in a broader tightening cycle.</p>",
+      "<h2>Why the RBA raised rates again</h2>",
+      "<p>The RBA’s November 3 statement identifies inflation as the central concern. Higher energy and commodity prices have raised costs across the economy, while stronger demand and capacity pressures can make it harder for companies to absorb those increases without passing them on to customers. When price increases begin influencing expectations about future wages and costs, inflation can become more persistent even if an initial supply shock fades.</p>",
+      "<p>Consumer-price inflation exceeded 4% in the year to September, according to reporting on the bank’s latest assessment. The bank expects inflation to remain above 3% over the coming year. The gap matters because the RBA aims to keep inflation within a 2% to 3% band over time, while supporting full employment. With inflation still above that range, holding rates steady would have carried its own risk.</p>",
+      "<p>The decision follows a global pattern in which policymakers are distinguishing between temporary increases in the prices of imported goods and the second-round effects on domestic services, wages and expectations. Our explainer on <a href=\"second-round-inflation-effects-explained.html\">second-round inflation effects</a> examines why the consequences of an initial price shock may last after the shock itself eases.</p>",
+      "<h2>Mortgage borrowers feel the pressure first</h2>",
+      "<p>A higher policy rate does not immediately affect every borrower in the same way. Households with variable-rate loans can see repayment costs rise relatively quickly as lenders update their products. Fixed-rate borrowers may be insulated for a period but face a different borrowing environment when their terms expire. Businesses financing inventory, property or new investment must also reassess the economics of projects that looked attractive under cheaper credit.</p>",
+      "<p>For Australian households, the cumulative effect of five increases is more important than the additional 25 basis points announced today. Each increase reduces disposable income for affected borrowers and can change decisions about spending, saving or moving house. Even households without debt may feel the consequences if tighter credit slows hiring, property activity or discretionary consumption.</p>",
+      "<p>The opposite effect applies to some savers: deposit rates can rise, though the benefit depends on the speed and extent to which banks pass the central bank’s decision to customers. Higher interest income on savings does not automatically offset the larger burden on mortgage borrowers, and the distribution of that burden matters for the overall economy.</p>",
+      "<h2>AI investment is becoming a monetary-policy variable</h2>",
+      "<p>One unusual aspect of the current cycle is the interplay between infrastructure demand and technology costs. Rapid investment in AI data centers can increase demand for energy, construction capacity, equipment and financing. The result is not necessarily inflationary in every circumstance: productivity improvements could eventually reduce costs. But large capital projects can add short-term pressure in sectors where available capacity is already limited.</p>",
+      "<p>Our earlier article on <a href=\"ai-data-center-electricity-demand-2026.html\">data-center electricity demand</a> explored the physical constraints behind the AI investment boom. For central bankers, those constraints mean that technological innovation does not automatically produce lower prices on the timetable that financial markets would prefer.</p>",
+      "<p>The bank also faces uncertainty about global energy supplies and geopolitical developments. Oil prices can move sharply when investors revise their expectations about supply disruptions, as discussed in our <a href=\"oil-iran-diplomacy-market-risks-november-2026.html\">recent oil-market analysis</a>. Such moves feed into transport, manufacturing and consumer spending at different speeds, creating a difficult environment for setting policy based on one month of market prices.</p>",
+      "<h2>What happens next</h2>",
+      "<p>Governor Michele Bullock has indicated that the bank does not expect a recession, but policymakers have not ruled out further tightening. Financial markets must therefore assess both the current rate and the possibility that borrowing costs remain elevated longer than previously anticipated. A reduction in inflation expectations would help the bank, while another sustained rise in domestic prices could raise the cost of waiting.</p>",
+      "<p>A split six-to-three vote highlights that the decision was not without trade-offs. The minority preferred holding at 4.60%, reflecting the risk that additional tightening could suppress demand too aggressively. The majority placed greater weight on the danger of inflation remaining above target. Neither side can know with certainty how quickly previous rate increases will work through the economy.</p>",
+      "<p>The November decision is a reminder that an AI-driven growth narrative and an inflation challenge can coexist. Strong investment does not eliminate pressure on household budgets, and central banks cannot assume that a future productivity dividend will arrive quickly enough to contain present-day prices. The next meaningful evidence will come from inflation, employment, wage and spending data, not from the headline rate alone.</p>"
+    ],
+    "sources": [
+      {
+        "label": "RBA, November 3 monetary policy decision",
+        "url": "https://www.rba.gov.au/news/"
+      },
+      {
+        "label": "RBA, 2026 decisions",
+        "url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/"
+      },
+      {
+        "label": "ABC, November 3 reporting",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
+      }
+    ]
+  },
+  {
+    "id": "uk-ai-ransomware-critical-infrastructure-2028",
+    "title": "UK Cyber Agency Warns AI-Powered Ransomware Is Highly Likely to Hit Critical Infrastructure by 2028",
+    "dek": "The UK warns AI-enabled ransomware may hit critical infrastructure by 2028. Its cyber agency urges urgent action against long-standing security weaknesses.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial illustration accompanying UK Cyber Agency Warns AI-Powered Ransomware Is Highly Likely to Hit Critical Infrastructure by 2028",
+    "date": "2026-11-03T10:04:34Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/uk-ai-ransomware-critical-infrastructure-2028-cover.webp",
+    "body": [
+      "<p>Britain’s National Cyber Security Centre has delivered a warning that shifts the conversation about artificial intelligence and cybercrime from hypothetical threats to operating risk. In an assessment published on November 3, the agency said it was highly likely that AI-powered malware would be used in a ransomware attack on the UK’s critical national infrastructure by 2028. It did not say such an attack had already occurred, and its assessment should not be confused with a prediction of a specific target or date.</p>",
+      "<p>The important distinction is how the technology changes an attacker’s economics. AI does not have to invent an entirely new category of vulnerability to cause serious damage. By shortening the time needed to identify outdated systems, draft convincing phishing messages and automate parts of an intrusion, it can make familiar weaknesses profitable to exploit at a greater scale. For infrastructure companies, the problem is less about a novel piece of software than about a shrinking window to notice and contain an attack.</p>",
+      "<h2>A forecast about capability, not a confirmed breach</h2>",
+      "<p>The NCSC is part of the UK’s GCHQ intelligence agency. Its November 3 assessment considers developments through 2028 under baseline, optimistic and pessimistic scenarios. The agency describes those scenarios as plausible futures rather than guaranteed outcomes. Its most striking judgment is that ransomware using AI-powered malware will highly likely have been used against UK critical national infrastructure within that period.</p>",
+      "<p>The agency also judges that states including Russia and China will routinely use AI-assisted cyber capabilities in pursuit of geopolitical objectives by 2028. That is an assessment of a future threat landscape, not proof that a particular government carried out an incident described in the report. Attribution requires evidence specific to an intrusion, and the published forecast does not replace that standard.</p>",
+      "<p>Critical infrastructure includes systems whose disruption can spread far beyond one organization. Energy networks, transport operators, health services and the suppliers behind them are connected to everyday economic activity. Even where an attack never reaches an industrial controller, unavailable administrative systems can slow deliveries, prevent payments or force a company to stop operations as a precaution.</p>",
+      "<h2>The financial exposure is larger than an IT bill</h2>",
+      "<p>Ransomware creates several kinds of cost at once. Businesses may face interruption to revenue, emergency technology spending, legal obligations, the expense of reconstructing records and the loss of customer confidence. An operator that restores its systems quickly can still find that suppliers and customers are unable to resume normal activity immediately. Companies need to model those indirect consequences rather than treating cybersecurity as a predictable annual software subscription.</p>",
+      "<p>That risk matters especially for industries with older equipment. Industrial systems are often designed to operate for decades, while ordinary corporate software is replaced much more frequently. A control network may have limited maintenance windows or depend on a vendor whose product is no longer supported. The NCSC’s warning therefore lands on a difficult management question: which modernization costs should be paid now to reduce the probability of a much larger interruption later?</p>",
+      "<p>The same debate has been developing across the wider AI economy. Our previous reporting on <a href=\"openai-agent-monitoring-security-gaps-2026.html\">AI monitoring and security gaps</a> examined why access controls and oversight must be built into systems rather than added only after deployment. In operational technology, that principle is particularly important because security failures can affect physical services, not just information.</p>",
+      "<h2>What the NCSC is asking organizations to change</h2>",
+      "<p>Richard Horne, the NCSC’s chief executive, said the era in which organizations could accept cheap technology at the expense of security had to end. The agency wants leaders to address fundamental weaknesses: unsupported systems, unnecessary internet exposure, excessive privileges and unreliable recovery plans. It argues that proven defensive practices remain valuable even as attackers adopt more capable AI tools.</p>",
+      "<p>These are management decisions as much as technical ones. An inventory of critical assets is essential because an organization cannot patch or isolate systems it does not know it operates. Reliable backups need to be tested against actual restoration requirements, while network segmentation can reduce the damage if one account or device is compromised. Procurement teams should also review how vendors support security updates throughout the expected life of a product.</p>",
+      "<p>Investors evaluating businesses that operate essential services will increasingly need to distinguish an impressive AI strategy from a credible resilience strategy. Automation can improve productivity, but it also expands the number of systems and service providers with access to sensitive workflows. Our coverage of <a href=\"ai-agents-enterprise-roi-2026.html\">enterprise AI returns</a> has explored the challenge of translating promised efficiency into measurable business value; security and resilience belong in the same calculation.</p>",
+      "<h2>A two-sided technological race</h2>",
+      "<p>The report does not suggest that defensive organizations should avoid AI altogether. Automation can help analysts prioritize alerts, investigate abnormal behavior and identify vulnerabilities before they are exploited. But the benefits depend on the quality of data, the accountability of human teams and whether the tools work under real operating pressure. A poorly configured security agent can create another access path rather than close one.</p>",
+      "<p>The UK government has announced investments in cyber resilience, including an initial national Cyber Shield, a real-time vulnerability capability and an AI cyber-security center of excellence. Those initiatives may improve coordination, but no national program can replace the day-to-day decisions made by operators responsible for individual networks.</p>",
+      "<p>The signal for businesses is therefore precise: AI is expected to accelerate established attacks, and delaying ordinary security maintenance becomes more costly as the technology improves. The NCSC has provided a risk horizon, not a countdown to an inevitable disaster. The organizations that respond most effectively will be those that can demonstrate recovery capacity, supplier accountability and sustained investment long before a major incident tests them.</p>"
+    ],
+    "sources": [
+      {
+        "label": "NCSC, November 3 statement",
+        "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years"
+      },
+      {
+        "label": "NCSC, AI and cyber intrusion assessment",
+        "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion"
+      }
+    ]
+  },
+  {
     "id": "anthropic-895-billion-compute-commitments-ipo-2026",
     "title": "Anthropic Discloses $895 Billion in Compute Commitments as IPO Nears",
     "dek": "The Claude developer's amended IPO filing shows soaring revenue alongside huge long-term infrastructure obligations. The commitments are not money already spent, and their timing matters as much as their scale.",
