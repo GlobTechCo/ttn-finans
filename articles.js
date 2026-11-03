@@ -1,6 +1,162 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "aramco-q3-2026-profit-free-cash-flow-dividend",
+    "title": "Aramco Reports $36.3 Billion Profit as Refining Margins Lift Cash Flow",
+    "dek": "Saudi Aramco posted $36.25 billion in third-quarter net income and stronger free cash flow, with refining and export flexibility supporting results.",
+    "section": "Market Analysis",
+    "tickers": [
+      "TADAWUL:2222"
+    ],
+    "imageAlt": "Editorial illustration of a Saudi Aramco sign at a refinery complex.",
+    "date": "2026-11-03T18:26:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/aramco-q3-2026-profit-free-cash-flow-dividend-cover.webp",
+    "body": [
+      "<p>Saudi Aramco's third-quarter earnings show how a major oil producer can strengthen cash generation even as energy markets remain vulnerable to geopolitical shocks, shifting refining margins and unpredictable export routes. The Saudi energy company reported $36.252 billion in net income for the quarter, up from $26.937 billion a year earlier, according to figures published on November 3.</p>",
+      "<p>That headline increase should be separated from the company's adjusted result. Adjusted net income, which excludes specified items under the company's non-IFRS definition, rose a more modest 9% to $31.198 billion from $28.581 billion. The distinction is central to understanding performance: statutory profit and adjusted profit answer different questions, and neither should be presented as though it were interchangeable with the other.</p>",
+      "<p>For shareholders, the more durable story may be cash flow. Operating cash flow rose to $38.7 billion, while free cash flow climbed to $28.2 billion from $23.6 billion a year earlier. That allowed Aramco to maintain a sizable dividend while continuing expenditure on major oil, gas and downstream projects.</p>",
+      "<h2>Refining gives Aramco a stronger second engine</h2>",
+      "<p>Aramco attributed much of the improvement to resilience across its integrated operations. Its downstream business, which includes refining and related activities, reported a 234% year-on-year increase in adjusted earnings before interest and tax. Stronger refining margins provided support at a time when crude supply routes and international pricing were unusually volatile.</p>",
+      "<p>Aramco's average realized crude oil price was $95.20 a barrel in the third quarter, compared with $70.10 a year earlier and $108.10 in the second quarter. That sequence reflects the scale of oil-market volatility. A comparison with last year's quarter helps explain the year-on-year earnings improvement, while the decline from the second quarter cautions against treating the recent price environment as a straight-line recovery.</p>",
+      "<p>This volatility was also central to our recent <a href=\"oil-iran-diplomacy-market-risks-november-2026.html\">analysis of oil prices and Iran-related diplomatic risk</a>. Changes in perceived conflict risk can move futures prices quickly, even before any lasting change in physical supply becomes clear.</p>",
+      "<h2>The dividend remains a central financial commitment</h2>",
+      "<p>The board declared a quarterly base dividend of approximately $21.9 billion, a 3.5% rise from a year earlier, payable in the fourth quarter. Dividends are significant for all shareholders, including Saudi Arabia's government, which remains the dominant owner of the company.</p>",
+      "<p>The ratio of free cash flow to declared distributions is worth monitoring. Third-quarter free cash flow of $28.2 billion exceeded the quarterly base dividend, giving the company room to support investment and financial obligations. Yet coverage in a single quarter should not be mistaken for a permanent guarantee; capital spending, oil prices and changes in working capital can alter cash generation substantially.</p>",
+      "<p>Capital expenditure was $10.524 billion, down from $12.555 billion in the comparable period a year earlier. Aramco continues to pursue major upstream and gas developments, including the Zuluf increment, the second phase of Jafurah, the Fadhili Gas Plant expansion and the Dammam development. These projects have different operating and investment profiles and will affect future production flexibility on different timetables.</p>",
+      "<p>Aramco's reported gearing ratio fell to 5.5% at the end of September from 6.2% at the end of June. That suggests improvement in one measure of indebtedness, but the company still faces the broad financial demands associated with an enormous energy infrastructure portfolio.</p>",
+      "<h2>Supply security is becoming an investment issue</h2>",
+      "<p>Management emphasized the value of its East-West Pipeline, which creates an additional export route and reduces exclusive reliance on shipping through the Strait of Hormuz. Aramco also said it was exploring further overseas storage and alternative export options. Such flexibility is particularly valuable during periods of geopolitical tension because it can support deliveries when particular ports or routes face disruption.</p>",
+      "<p>This is not merely an operational concern. Investors price energy companies partly on the reliability of their ability to deliver products, not solely on the spot price of crude. Refinery operations, storage capacity, maritime insurance, port access and pipeline infrastructure therefore have financial significance. Our report on <a href=\"opec-plus-december-oil-output-targets-unchanged-november-2026.html\">OPEC+ production decisions</a> offers related context on the balance between stated output targets and practical supply conditions.</p>",
+      "<h2>What investors should watch next</h2>",
+      "<p>The immediate assessment is that Aramco delivered stronger cash generation and maintained dividend capacity through a difficult quarter. It did so with a combination of improved refining results, substantial oil production and logistics flexibility. The company's results also show how important it is to distinguish adjusted net income from its larger statutory profit.</p>",
+      "<p>The next set of indicators will include realized crude prices, downstream refining margins, spending on major projects and the practical availability of alternative export routes. If geopolitical tensions ease, some of the premium embedded in crude prices may recede; if disruption persists, reliability and storage could carry greater value.</p>",
+      "<p>Aramco's latest quarter demonstrates the financial advantages of scale and integration, but it is not a forecast that oil prices or earnings will remain elevated. For long-term investors, the central question is whether the company can preserve disciplined capital spending and sufficient cash flow across several very different market conditions.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Aramco Q3 2026 results and financial tables",
+        "url": "https://www.zawya.com/en/press-release/government-news/aramco-announces-third-quarter-2026-results-1882995"
+      },
+      {
+        "label": "Aramco investor relations",
+        "url": "https://www.aramco.com/investors"
+      },
+      {
+        "label": "Reuters: energy markets and crude volatility",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-03/"
+      }
+    ]
+  },
+  {
+    "id": "cftc-equity-perpetual-futures-stock-trading-2026",
+    "title": "US Clears Crypto-Style Perpetual Futures on Stocks as CFTC and SEC Align",
+    "dek": "US regulators have cleared a path for perpetual futures on individual stocks, moving a crypto-market trading model toward registered domestic venues.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of the CFTC emblem outside a financial district building.",
+    "date": "2026-11-03T18:26:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/cftc-equity-perpetual-futures-stock-trading-2026-cover.webp",
+    "body": [
+      "<p>A trading structure made famous by cryptocurrency exchanges has received an important regulatory opening in the United States. The Commodity Futures Trading Commission said on November 3 that perpetual futures linked to individual company shares can begin trading on appropriately registered US markets, bringing a product associated with offshore crypto platforms closer to mainstream equity trading.</p>",
+      "<p>The announcement is significant because perpetual futures, commonly called perps, have no fixed expiry date. Unlike a conventional futures contract, a perpetual position does not need to be rolled into a later maturity as the calendar advances. Its price is generally kept near the underlying asset through a financing or funding mechanism, although the precise arrangements depend on the contract.</p>",
+      "<p>The CFTC announcement creates a lawful pathway for eligible exchanges. It should not be confused with confirmation that every platform can immediately offer the product or that trading has already started across the US stock market. Registered venues must satisfy applicable conditions, including securities-market registration requirements.</p>",
+      "<h2>A crypto-market structure crosses into equities</h2>",
+      "<p>Perpetual futures became a major part of digital-asset trading because they allow traders to gain exposure to Bitcoin, Ether and other assets without owning them directly. They can be used for hedging, speculation and short exposure, but the same features that make them flexible also introduce risks. Leverage can magnify gains and losses, while funding costs can change the economics of keeping a position open over time.</p>",
+      "<p>Now regulators are extending the structure to single-company stocks. A contract tied to an equity security occupies a complex legal position: its economic exposure resembles a stock derivative, but its design has similarities with instruments commonly supervised in commodities markets.</p>",
+      "<p>CFTC Chairman Michael Selig said the newly eligible products fall within a security-futures framework and can be listed on designated contract markets that are also notice-registered with the Securities and Exchange Commission for security futures. The arrangement reflects coordination between the CFTC and SEC rather than the elimination of either agency's authority.</p>",
+      "<p>The distinction is important for investors and market operators. A product approved under a specific legal framework may have different clearing, margin, disclosure and investor-protection requirements from a conventional stock trade. Investors should not assume a regulated perpetual contract is economically identical to owning the underlying shares.</p>",
+      "<h2>The decision does not remove the risks of leverage</h2>",
+      "<p>A perpetual contract provides exposure to price changes without the same shareholder rights that generally accompany direct stock ownership. Holding the contract does not automatically confer voting rights or corporate distributions. Its return can also depend on funding payments, contract specifications and the creditworthiness of the trading and clearing arrangements.</p>",
+      "<p>Highly leveraged positions can be liquidated after relatively small market moves. In volatile stocks, such liquidation mechanisms can contribute to short-term price dislocations within derivatives markets, especially if liquidity is thin. The precise safeguards on US platforms will therefore matter as much as the novelty of the instrument itself.</p>",
+      "<p>Our earlier <a href=\"chip-stock-perpetuals-weekend-liquidations-2026.html\">coverage of perpetuals and weekend liquidations</a> described how leveraged products can behave differently from conventional equity investments. The new regulatory opening does not make those concerns disappear. It moves a version of the market into an environment where registered venues and supervisory agencies can impose more formal controls.</p>",
+      "<h2>A bigger contest over market infrastructure</h2>",
+      "<p>The decision also has strategic implications for exchanges. Companies with experience in prediction markets and digital-asset derivatives have been exploring ways to extend their trading businesses into new instruments. Conventional derivatives operators have their own infrastructure, customers and legal interests, creating the potential for competition and litigation over where stock-linked products should trade.</p>",
+      "<p>Reuters reported that CME Group previously challenged CFTC action concerning crypto-linked perpetual futures offered through other venues. The existence of that dispute shows that an announced regulatory pathway does not end debate over market structure or agency authority.</p>",
+      "<p>The latest announcement therefore does not mean every stock will become a blockchain token or that ordinary brokerage settlement is about to disappear. It gives eligible venues a route to offer a specific kind of stock derivative with regulatory oversight.</p>",
+      "<h2>What remains unknown</h2>",
+      "<p>At the time of the November 3 announcement, the CFTC statement did not establish a comprehensive list of tradable stocks, name every platform that would launch immediately or set a universal first trading date. Those practical questions will determine how quickly the policy becomes a meaningful market development.</p>",
+      "<p>Investors should look for verified exchange launch notices, official contract specifications, financing formulas, margin limits and clearing arrangements. Those details will determine the real risk profile and cost of holding positions. For institutions, evidence of market depth and the availability of robust hedges will also be crucial.</p>",
+      "<p>There is a clear financial logic behind bringing more derivatives activity into supervised markets: traders may gain broader access while regulators gain visibility over behavior that could otherwise migrate to less transparent offshore venues. But this is a claim about market design, not a promise of lower risk or higher liquidity.</p>",
+      "<p>The broader significance of the CFTC decision is that a defining feature of crypto trading is increasingly being adapted to traditional securities. The first genuine measure of success will not be the announcement itself. It will be whether regulated contracts attract sustainable trading activity without reproducing the most destabilizing characteristics of highly leveraged offshore markets.</p>"
+    ],
+    "sources": [
+      {
+        "label": "CFTC chairman statement, November 3",
+        "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+      },
+      {
+        "label": "Reuters: trading in single-stock perps can begin",
+        "url": "https://www.reuters.com/legal/government/trading-single-stock-perps-can-begin-us-regulator-says-2026-11-03/"
+      },
+      {
+        "label": "CoinDesk: CFTC equity perps",
+        "url": "https://www.coindesk.com/policy/2026/11/03/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street"
+      },
+      {
+        "label": "SEC notice on single-stock perpetual futures",
+        "url": "https://www.sec.gov/files/rules/sro/ogm/2026/34-106521.pdf"
+      }
+    ]
+  },
+  {
+    "id": "palantir-q3-2026-record-revenue-bookings-slowdown",
+    "title": "Palantir Revenue Nearly Doubles, but Slower Deal Growth Tests Its AI Valuation",
+    "dek": "Palantir reported $2.31 billion in third-quarter revenue and a stronger outlook, yet softer contract momentum prompted scrutiny of its lofty AI valuation.",
+    "section": "Tech & AI",
+    "tickers": [
+      "NYSE:PLTR"
+    ],
+    "imageAlt": "Editorial illustration of a glass Palantir office entrance with pedestrians.",
+    "date": "2026-11-03T18:26:05Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/palantir-q3-2026-record-revenue-bookings-slowdown-cover.webp",
+    "body": [
+      "<p>Palantir has delivered the kind of quarterly growth that most established software businesses would consider extraordinary. Yet investors found an uncomfortable question inside its latest earnings report: how quickly must a company grow to justify the expectations already reflected in its share price?</p>",
+      "<p>The US data analytics and artificial intelligence company reported third-quarter revenue of $2.313 billion, up 96% from a year earlier and 20% from the previous quarter. Its US commercial business grew 148% year on year to $984 million, moving ahead of US government revenue of $953 million for the first time. Those numbers demonstrated that the company's AI-driven expansion is increasingly reaching businesses rather than relying solely on public-sector contracts.</p>",
+      "<p>The stock nevertheless faced selling pressure on November 3, after the results were released the previous evening. Investors looked beyond the headline revenue beat to the pace of newly signed business, where growth was notably less spectacular.</p>",
+      "<h2>Revenue is accelerating faster than new contract value</h2>",
+      "<p>Palantir recorded $2.918 billion in total contract value closed during the quarter, a 6% year-on-year increase. Its US commercial contract value was $1.463 billion, up 11%. Those are positive figures, but they stand in sharp contrast to the near doubling of revenue and the triple-digit growth rate for US commercial sales.</p>",
+      "<p>The distinction matters because revenue reflects software and services delivered and recognized during the period, while contract value represents an estimate of new business commitments. Neither metric perfectly predicts the other. Contract value can fluctuate with deal timing and duration, and large awards can make any single quarter unusually volatile. Still, slower bookings raise questions about how long today's revenue acceleration can continue.</p>",
+      "<p>The company said it closed 212 deals worth at least $1 million, including 64 valued at $10 million or more. Its remaining deal value for the US commercial business reached $6.517 billion, up 79% from a year ago. This supports the argument that Palantir retains a substantial pipeline, even if the pace of fresh bookings softened in the latest quarter.</p>",
+      "<p>For investors, the debate is less about whether demand for enterprise AI exists than how that demand translates into repeatable, increasingly profitable contracts. The broader challenge of moving AI pilots into sustained deployments is one we have explored in our <a href=\"ai-agents-enterprise-roi-2026.html\">coverage of enterprise AI returns</a>.</p>",
+      "<h2>Palantir raises its forecasts again</h2>",
+      "<p>Management guided to fourth-quarter revenue between $2.649 billion and $2.653 billion, exceeding the approximately $2.46 billion analyst expectation reported by Reuters. It also raised full-year revenue guidance to $8.530 billion to $8.534 billion, implying exceptionally rapid annual growth for a software company of its size.</p>",
+      "<p>Profitability figures were also striking. Palantir reported $1.085 billion in generally accepted accounting principles operating income, equal to a 47% margin, and adjusted operating income of $1.427 billion, a 62% margin. Its reported net income attributable to common stockholders was $1.128 billion. These figures reflect an unusually profitable quarter, although investors should distinguish reported accounting outcomes from recurring operational trends.</p>",
+      "<p>Cash generation reinforced the financial picture. Cash provided by operating activities was $1.205 billion, while adjusted free cash flow reached $1.216 billion. The company reported $10.4 billion in cash, cash equivalents and US Treasury securities, giving it significant flexibility to invest in products and operations.</p>",
+      "<h2>Why the AI trade is facing a more demanding market</h2>",
+      "<p>The pressure on Palantir reflects a wider change in the way investors judge artificial intelligence companies. Initial enthusiasm over the availability of powerful models is being replaced by more exacting analysis of deployment costs, contract renewal rates and customer economics.</p>",
+      "<p>Palantir's platform aims to connect AI systems to an organization's operational information and decisions. That is a different proposition from selling computing infrastructure, but the two parts of the industry remain connected. Large customers need hardware, networking capacity, governance and staff training before AI tools can be deployed responsibly and at scale. Our earlier report on <a href=\"ai-data-center-electricity-demand-2026.html\">the energy requirements of AI infrastructure</a> explains one important cost pressure across the sector.</p>",
+      "<p>The company's earnings highlight both sides of this opportunity. Rapid growth in commercial revenue suggests that customers are committing meaningful budgets to AI-powered software. The more moderate rise in new contract value suggests investors should not assume that the recent pace of expansion will automatically persist.</p>",
+      "<h2>The next test is durability, not another headline record</h2>",
+      "<p>Three measures will be particularly important in subsequent earnings reports: growth in newly closed contract value, conversion of existing commitments into recognized revenue, and the margin needed to support higher volumes of AI deployments. US commercial growth will remain a central indicator because it now exceeds the company's US government revenue.</p>",
+      "<p>Management expects stronger revenue in the final quarter, but that forecast is not a guarantee. Contract signing can vary from quarter to quarter, public-sector budgets remain subject to political decisions, and corporate customers can change the pace of technology rollouts.</p>",
+      "<p>Palantir has proved that enterprise AI can support a multibillion-dollar quarterly software business. What the November 3 stock reaction illustrates is that investors increasingly demand a second proof: that today's growth can remain commercially durable after the most dramatic acceleration has passed.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Palantir Q3 earnings exhibit (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+      },
+      {
+        "label": "Palantir shareholder letter",
+        "url": "https://www.palantir.com/q3-2026-letter/en/"
+      },
+      {
+        "label": "Reuters: Palantir results and guidance",
+        "url": "https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/"
+      },
+      {
+        "label": "Business Insider: market response",
+        "url": "https://www.businessinsider.com/palantir-stock-falls-high-earnings-expectations-ai-trade-tech-pltr-2026-11"
+      }
+    ]
+  },
+  {
     "id": "apple-memory-margin-pressure-2026",
     "title": "Apple Faces iPhone Margin Pressure as Memory Prices Rise",
     "dek": "Apple faces higher memory costs and pressure on iPhone margins ahead of the holiday quarter despite resilient demand for its flagship products.",
