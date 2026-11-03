@@ -1,0 +1,40 @@
+name: Publish approved TTN November 3 evening articles
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'TTN_Finance_3_Articles_AUTO_PUBLISH_2026-11-03_EVENING.zip'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: ttn-nov03-evening-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install validator dependencies
+        run: |
+          pip install beautifulsoup4 lxml
+          if [ -f requirements-maintenance.txt ]; then pip install -r requirements-maintenance.txt; fi
+      - name: Validate approved package and publish
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_three_approved_nov03_evening.py
+      - name: Request GitHub Pages rebuild
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true
