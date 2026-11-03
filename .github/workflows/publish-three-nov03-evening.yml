@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'TTN_Finance_3_Articles_AUTO_PUBLISH_2026-11-03_EVENING.zip'
+      - 'scripts/publish_three_approved_nov03_evening.py'
 permissions:
   contents: write
   pages: write

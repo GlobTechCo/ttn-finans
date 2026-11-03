@@ -25,7 +25,7 @@ for item in manifest['items']:
     source=pkg/(slug+'-fragment.html')
     fragment=BeautifulSoup(source.read_text(encoding='utf-8'),'html.parser')
     body=fragment.select_one('section.editorial-body')
-    intro=fragment.select_one('.article-dek')
+    intro=fragment.select_one('.editorial-dek')
     assert body and intro,(slug,'missing article body or dek')
     assert len(body.get_text(' ',strip=True).split())>=700,(slug,'insufficient editorial length')
     for link in body.select('a[href]'):
