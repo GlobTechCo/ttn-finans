@@ -55,6 +55,8 @@ INSTRUMENTS = {
     'SOBKY': ('OTC:SOBKY', 'SoftBank Corp. ADR · OTC'),
     'BCS': ('NYSE:BCS', 'Barclays ADR · NYSE'),
     'NOK': ('NYSE:NOK', 'Nokia ADR · NYSE'),
+    'BTGO': ('NYSE:BTGO', 'BitGo Holdings · NYSE'),
+    'SNPS': ('NASDAQ:SNPS', 'Synopsys · Nasdaq'),
     'RAND': ('EURONEXT:RAND', 'Randstad · Euronext Amsterdam'),
     **{s: (f'NASDAQ:{s}', s) for s in ['DASH','CART','AMD','TEM','SPCX','SOFI','HON','COIN','AAPL','NVDA','INTC','CRWV','AMZN','MSFT','GOOGL','AVGO','TSLA','META','MU','BRZE','ASML']},
     **{s: (f'NYSE:{s}', s) for s in ['EQT','RRC','UBS','SLB','BMY','AXP','CCI','MA','HSBC','UBER','V','LMT','SPOT','LEN','DHI','ORCL','TSM','CRM','BABA','MMM']},

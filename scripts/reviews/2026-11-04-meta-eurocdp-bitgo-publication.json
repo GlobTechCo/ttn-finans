@@ -1,0 +1,96 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-04",
+  "publication_timestamp": "2026-11-04T20:36:38Z",
+  "articles": [
+    {
+      "id": "meta-nine-billion-euro-bond-debut-ai-financing-2026",
+      "source_checks": "Final €9bn size supported by retrieved Reuters syndication content and updated Reuters headline; original mirror origin now shows a login gate, not bypassed. Preliminary SEC prospectus read directly: do not infer final coupons or cash settlement. €53bn order book is not issuance. $15bn dollar deal is November 3 background; do not add EUR and USD figures without conversion. Quarter data from October 21 official release; capex includes finance-lease principal; negative FCF is non-GAAP. No assertion about hedging or cheaper funding. Initial launch older than three hours; material afternoon sale update selected for significance.",
+      "sources": [
+        [
+          "SEC: Meta’s November 4 preliminary euro prospectus",
+          "https://www.sec.gov/Archives/edgar/data/1326801/000119312526446110/d44678d424b5.htm"
+        ],
+        [
+          "Meta: September-quarter financial results, released October 21",
+          "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        ],
+        [
+          "Reuters: euro sale reported at €9 billion, syndicated by MarketScreener",
+          "https://www.marketscreener.com/news/meta-kicks-off-first-euro-bond-sale-in-latest-test-for-tech-sector-ce785fdfd98cf62d"
+        ],
+        [
+          "Reuters: reported investor order book",
+          "https://www.reuters.com/business/meta-draws-record-orders-debut-euro-bond-sale-bloomberg-news-reports-2026-11-04/"
+        ],
+        [
+          "SEC Investor.gov: corporate bonds",
+          "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-f4dbb03a-d6e1-4a84-87e8-1f4c7d2ad5a0.png",
+      "visual_reference_source": "https://www.techtimes.com/articles/320159/20260711/meta-stock-hits-record-670-ai-build-cost-undercuts-wall-street-model-half.htm",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.6,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the Meta cover and the latest EU-chip flag and BitGo smartphone covers explicitly approved in the preceding turn."
+    },
+    {
+      "id": "europe-chip-design-platform-525-million-startups-2026",
+      "source_checks": "Official Commission launch release, factpage and Synopsys agreement read. €525m is 440+85, not money already disbursed or all newly approved November 4. Official factpage also contains a rounded €500m headline: use precise launch figure without combining totals or inventing reconciliation. Less than1% is fabless/design segment, not totalEuropean semiconductor share. Synopsysparticipationnotvendorperformanceproof; no namedgrantrecipients, fabricateddeadlines or fundreturns. Reuters17:43isreporttime, notprooflaunchoccurredthen. Selected over earlier HPsuccession forspecificfunding/technologyangle.",
+      "sources": [
+        [
+          "European Commission: November 4 chip-design investment announcement",
+          "https://digital-strategy.ec.europa.eu/en/news/eu525-million-investment-set-drive-new-generation-european-chip-design-companies"
+        ],
+        [
+          "European Commission: European Chips Design Platform services",
+          "https://digital-strategy.ec.europa.eu/en/factpages/european-chips-design-platform"
+        ],
+        [
+          "Synopsys: November 4 EuroCDP agreement and supported design tools",
+          "https://news.synopsys.com/2026-11-04-Synopsys-Expands-Access-to-Advanced-Chip-Design-Capabilities-Through-European-Chips-Design-Platform"
+        ],
+        [
+          "Reuters: €440 million grant and €85 million platform split",
+          "https://www.reuters.com/world/china/europe-invest-525-million-chip-startups-catch-up-with-us-china-2026-11-04/"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-9194be0c-b782-4fb7-824b-2160a0a8b815.png",
+      "visual_reference_source": "Independent illustrative still life. Editorial composition references: Reuters BitGo and EU policy illustrations, The Register European chip coverage; not a copied photograph.",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.6,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the Meta cover and the latest EU-chip flag and BitGo smartphone covers explicitly approved in the preceding turn."
+    },
+    {
+      "id": "bitgo-global-markets-institutional-financing-derivatives-2026",
+      "source_checks": "Full issuer release and blog downloaded from official origins after search-open failed; SEC August27acquisitionrelease and productdocs read. NewGlobalMarketslaunch, not acquisitionofwholeNYDIG ornewNov4acquisition. PeteJanneyheadconfirmed. Staff30isAugbackground. No clientassets/revenues/volume growthinferred. OESassetsmayleavecustodyifunsupported; do notrepeatunqualifiedzero-riskmarketingclaims. DailyOESsettlementdistinctfrombilateralinstantatomicsettlement. Institutionalandeligiblecounterparties, no universality. Older significant same-day announcement selected; no claim it occurred during lastthreehours.",
+      "sources": [
+        [
+          "BitGo: November 4 Global Markets launch",
+          "https://investors.bitgo.com/news/news-details/2026/BitGo-Launches-Global-Markets-to-Broaden-Institutional-Offerings-Names-Pete-Janney-to-Lead-the-Business/default.aspx"
+        ],
+        [
+          "BitGo: explanation of the expanded Global Markets offering",
+          "https://www.bitgo.com/resources/blog/global-markets-built-on-bitgo/"
+        ],
+        [
+          "SEC: August 27 announcement of the completed NYDIG business acquisition",
+          "https://www.sec.gov/Archives/edgar/data/1740604/000174060426000056/btgo-exhibit991_20260827.htm"
+        ],
+        [
+          "BitGo: Go Network settlement documentation",
+          "https://support.bitgo.com/support/solutions/articles/158000442560-go-network-overview"
+        ],
+        [
+          "BitGo: Allocate and off-exchange settlement documentation",
+          "https://support.bitgo.com/support/solutions/articles/158000442562-allocate"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-575b5107-80e6-412e-a656-bc6f0b65f3cb.png",
+      "visual_reference_source": "https://www.coindesk.com/business/2025/02/11/bitgo-mulling-ipo-this-year-bloomberg",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.6,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the Meta cover and the latest EU-chip flag and BitGo smartphone covers explicitly approved in the preceding turn."
+    }
+  ]
+}

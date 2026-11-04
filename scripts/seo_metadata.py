@@ -630,3 +630,11 @@ TITLES['occ-bank-ai-agent-supervisory-framework-november-2026'] = 'OCC’s Bank 
 DESCRIPTIONS['occ-bank-ai-agent-supervisory-framework-november-2026'] = 'The OCC’s November 4 examiner framework focuses on AI autonomy and potential harm while creating no new enforceable standards or separate AI risk category.'
 TITLES['schroders-emerging-market-bond-solana-centrifuge-2026'] = 'Schroders Brings Emerging-Market Bonds to Solana'
 DESCRIPTIONS['schroders-emerging-market-bond-solana-centrifuge-2026'] = 'Schroders and Centrifuge bring an emerging-market bond strategy to Solana through tokenized feeder-fund shares, extending onchain investing beyond cash.'
+
+# Reviewed November 4 package.
+TITLES['meta-nine-billion-euro-bond-debut-ai-financing-2026'] = 'Meta’s €9 Billion Euro Bond Debut Funds AI Push'
+DESCRIPTIONS['meta-nine-billion-euro-bond-debut-ai-financing-2026'] = 'Meta’s reported €9 billion euro bond debut follows a $15 billion U.S. offering as heavy capital spending puts pressure on free cash flow.'
+TITLES['europe-chip-design-platform-525-million-startups-2026'] = 'Europe Launches €525 Million Chip-Design Plan'
+DESCRIPTIONS['europe-chip-design-platform-525-million-startups-2026'] = 'Europe launches a €525 million chip-design package combining grants and shared infrastructure to help startups move toward commercial production.'
+TITLES['bitgo-global-markets-institutional-financing-derivatives-2026'] = 'BitGo Launches Global Markets Business'
+DESCRIPTIONS['bitgo-global-markets-institutional-financing-derivatives-2026'] = 'BitGo launches Global Markets, combining institutional trading, financing and derivatives after its earlier acquisition of NYDIG’s trading business.'

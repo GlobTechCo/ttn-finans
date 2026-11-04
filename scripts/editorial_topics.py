@@ -646,3 +646,11 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'occ-bank-ai-agent
 RELATED['occ-bank-ai-agent-supervisory-framework-november-2026'] = ['ping-identity-ai-agents-enterprise-access-security-2026', 'ai-agents-enterprise-roi-2026', 'ai-agents-circle-wallet-spending-limits-study-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'schroders-emerging-market-bond-solana-centrifuge-2026')
 RELATED['schroders-emerging-market-bond-solana-centrifuge-2026'] = ['dtcc-tokenization-service-live-october-2026', 'nyse-four-transfer-agents-tokenized-stocks-2026', 'bond-duration-explained']
+
+# November 4: approved Meta euro bonds, European chip design and BitGo package.
+GROUPS['Inflation and economic indicators'].insert(0, 'meta-nine-billion-euro-bond-debut-ai-financing-2026')
+RELATED['meta-nine-billion-euro-bond-debut-ai-financing-2026'] = ['free-cash-flow-explained', 'corporate-bonds-explained', 'bond-duration-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'europe-chip-design-platform-525-million-startups-2026')
+RELATED['europe-chip-design-platform-525-million-startups-2026'] = ['ai-chips-bottlenecks-2026', 'finance-south-korea-exports-ai-chips-october-2026', 'amd-q3-2026-data-center-revenue-helios']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitgo-global-markets-institutional-financing-derivatives-2026')
+RELATED['bitgo-global-markets-institutional-financing-derivatives-2026'] = ['crypto-liquidation-leverage-explained', 'hong-kong-24-7-tokenized-interbank-settlement-2026', 'dtcc-tokenization-service-live-october-2026']

@@ -3618,6 +3618,39 @@
       "bytes": 405196,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/schroders-emerging-market-bond-solana-centrifuge-2026.html"
+    },
+    {
+      "page": "meta-nine-billion-euro-bond-debut-ai-financing-2026.html",
+      "source": "assets/editorial/meta-nine-billion-euro-bond-debut-ai-financing-2026-cover-v1.webp",
+      "image": "assets/social/meta-nine-billion-euro-bond-debut-ai-financing-2026-cover-v1-2b925d6e841e.webp",
+      "sha256": "2b925d6e841ee25f95940c5812a8026e5e06eeafd4f184a574b29ffda15e5907",
+      "width": 1672,
+      "height": 941,
+      "bytes": 471282,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/meta-nine-billion-euro-bond-debut-ai-financing-2026.html"
+    },
+    {
+      "page": "europe-chip-design-platform-525-million-startups-2026.html",
+      "source": "assets/editorial/europe-chip-design-platform-525-million-startups-2026-cover-v1.webp",
+      "image": "assets/social/europe-chip-design-platform-525-million-startups-2026-cover-v1-61aa0e711035.webp",
+      "sha256": "61aa0e71103517f7b12cec3564f327ceee936f5482cda9201bc94475187580f0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 490878,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/europe-chip-design-platform-525-million-startups-2026.html"
+    },
+    {
+      "page": "bitgo-global-markets-institutional-financing-derivatives-2026.html",
+      "source": "assets/editorial/bitgo-global-markets-institutional-financing-derivatives-2026-cover-v1.webp",
+      "image": "assets/social/bitgo-global-markets-institutional-financing-derivatives-2026-cover-v1-a2fdca6e9ded.webp",
+      "sha256": "a2fdca6e9dedfd5556e101a5b311f6cc2193fe3ff0726174cdca34c799c4bc41",
+      "width": 1672,
+      "height": 941,
+      "bytes": 182856,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitgo-global-markets-institutional-financing-derivatives-2026.html"
     }
   ]
 }
