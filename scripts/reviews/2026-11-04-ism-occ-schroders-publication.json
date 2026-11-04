@@ -1,0 +1,96 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-04",
+  "publication_timestamp": "2026-11-04T18:14:59Z",
+  "articles": [
+    {
+      "id": "us-ism-services-october-2026-growth-prices-fed",
+      "source_checks": "Verified headline and component values against the complete ISM report retrieved through search; release calendar fixes 10 a.m. EST (17:00 Kyiv). Prices index is not inflation percentage. BEA data are September background released October 29. Fed decision is October 28 background. No unsupported intraday market reaction or claim about a decided December move.",
+      "sources": [
+        [
+          "ISM: October 2026 Services PMI report",
+          "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/"
+        ],
+        [
+          "Federal Reserve: October 28 policy statement",
+          "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        ],
+        [
+          "BEA: September personal income and outlays, released October 29",
+          "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+        ],
+        [
+          "ISM: official release calendar",
+          "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-e450628d-5caf-4e63-9d6b-4e8a5c1bdd5d.png",
+      "visual_reference_source": "Generic illustrative U.S. restaurant; no named location or actual survey respondent depicted.",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.5,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the three generated covers shown in the preceding turn."
+    },
+    {
+      "id": "occ-bank-ai-agent-supervisory-framework-november-2026",
+      "source_checks": "Primary bulletin and news-release text retrieved in indexed official results; direct origin returned HTTP 503, and linked framework PDF was not accessible. Do not claim the PDF was read. Reuters full report cross-checks autonomy example. Not a binding rule, not AI risk-appetite mandate, not a claim of achieved superhuman AI. Examples and commercial implications explicitly analytical. Older same-day important financial/AI news, earliest reporting 13:02 Kyiv.",
+      "sources": [
+        [
+          "OCC: November 4 supervisory bulletin 2026-54",
+          "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html"
+        ],
+        [
+          "OCC: announcement of the examiner framework",
+          "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-97.html"
+        ],
+        [
+          "Reuters: first report on the AI examiner guidance",
+          "https://www.reuters.com/business/finance/us-bank-regulator-issues-first-ever-ai-guidance-examiners-2026-11-04/"
+        ],
+        [
+          "OCC: interagency third-party risk-management guidance",
+          "https://www.occ.gov/news-issuances/bulletins/2023/bulletin-2023-17.html"
+        ],
+        [
+          "NIST: AI Risk Management Framework",
+          "https://www.nist.gov/itl/ai-risk-management-framework"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-3469864f-3b6b-49ab-9f67-e5db3e0bdea3.png",
+      "visual_reference_source": "https://www.centralbanking.com/central-banks/financial-stability/macro-prudential/7961674/acting-us-comptroller-warns-of-threats-to-stability",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.6,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the three generated covers shown in the preceding turn."
+    },
+    {
+      "id": "schroders-emerging-market-bond-solana-centrifuge-2026",
+      "source_checks": "Primary launch announcement downloaded and read in full. CoinDesk full report verifies feeder ownership and NAV linkage; keep within 200-word derivation budget. Underlying conventional A-share factsheet used only for strategy/risk background, not feeder fees, minimums, live holdings, eligibility or share-class performance. Do not misstate total manager AUM as tokenized issuance, claim all bonds are onchain, universal retail access, 24/7 redemption or existing collateral integrations. Four-hour-old same-day launch selected for significance; exact primary intraday release time unconfirmed.",
+      "sources": [
+        [
+          "Centrifuge: November 4 launch announcement",
+          "https://centrifuge.io/blog/schroders-centrifuge"
+        ],
+        [
+          "Schroders: underlying Emerging Market Bond fund documentation",
+          "https://api.schroders.com/document-store/SISF-Emerging-Market-Bond-A-Acc-FMR-UNEN.pdf"
+        ],
+        [
+          "CoinDesk: launch and feeder-fund structure",
+          "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana"
+        ],
+        [
+          "SEC Investor.gov: tokenized securities",
+          "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
+        ],
+        [
+          "SEC Investor.gov: bond funds and their risks",
+          "https://www.investor.gov/introduction-investing/investing-basics/glossary/bond-funds-and-income-funds"
+        ]
+      ],
+      "cover_source_file": "generated_images/exec-a0c6bc44-88dd-4e0d-b93b-60bc2abc05e9.png",
+      "visual_reference_source": "https://www.bloomberg.com/news/newsletters/2026-02-17/a-late-valentine-s-gift-from-schroders-and-nuveen",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.4,
+      "approval": "Owner explicitly requested publication of the three reviewed English drafts with the three generated covers shown in the preceding turn."
+    }
+  ]
+}

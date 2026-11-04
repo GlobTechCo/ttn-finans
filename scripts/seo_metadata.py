@@ -622,3 +622,11 @@ TITLES['openai-pierre-code-storage-acquisition-ai-coding-2026'] = 'OpenAI’s Pi
 DESCRIPTIONS['openai-pierre-code-storage-acquisition-ai-coding-2026'] = 'OpenAI’s reported Pierre acquisition highlights the infrastructure costs of AI coding, from Git storage and concurrent work to review and software delivery.'
 TITLES['circle-q3-2026-arc-token-sales-reserve-income'] = 'Circle Revenue Rises 17% With ARC Token-Sale Boost'
 DESCRIPTIONS['circle-q3-2026-arc-token-sales-reserve-income'] = 'Circle’s Q3 revenue rose 17% to $865 million, but $182 million of ARC token sales masked lower reserve income and a weaker result excluding the sale.'
+
+# Reviewed November 4 package.
+TITLES['us-ism-services-october-2026-growth-prices-fed'] = 'U.S. Services PMI Slows to 54.5 as Costs Stay High'
+DESCRIPTIONS['us-ism-services-october-2026-growth-prices-fed'] = 'October’s ISM services PMI eased to 54.5. High input costs and weaker real household income complicate the outlook for U.S. growth and Federal Reserve policy.'
+TITLES['occ-bank-ai-agent-supervisory-framework-november-2026'] = 'OCC’s Bank AI Guide Focuses on Agents and Oversight'
+DESCRIPTIONS['occ-bank-ai-agent-supervisory-framework-november-2026'] = 'The OCC’s November 4 examiner framework focuses on AI autonomy and potential harm while creating no new enforceable standards or separate AI risk category.'
+TITLES['schroders-emerging-market-bond-solana-centrifuge-2026'] = 'Schroders Brings Emerging-Market Bonds to Solana'
+DESCRIPTIONS['schroders-emerging-market-bond-solana-centrifuge-2026'] = 'Schroders and Centrifuge bring an emerging-market bond strategy to Solana through tokenized feeder-fund shares, extending onchain investing beyond cash.'

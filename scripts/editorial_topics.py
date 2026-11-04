@@ -638,3 +638,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'openai-pierr
 RELATED['openai-pierre-code-storage-acquisition-ai-coding-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'tencent-hy4-enterprise-ai-pricing-open-weights-november-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'circle-q3-2026-arc-token-sales-reserve-income')
 RELATED['circle-q3-2026-arc-token-sales-reserve-income'] = ['circle-usdc-revenue-sharing-stablecoin-competition-2026', 'stablecoins-explained-depeg-risk', 'circle-aci-usdc-colombia-settlement-pilot-2026']
+
+# November 4: approved ISM services, OCC AI and Schroders package.
+GROUPS['Inflation and economic indicators'].insert(0, 'us-ism-services-october-2026-growth-prices-fed')
+RELATED['us-ism-services-october-2026-growth-prices-fed'] = ['ism-pmi-explained', 'us-gdp-q3-2026-september-spending-inflation', 'bond-duration-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'occ-bank-ai-agent-supervisory-framework-november-2026')
+RELATED['occ-bank-ai-agent-supervisory-framework-november-2026'] = ['ping-identity-ai-agents-enterprise-access-security-2026', 'ai-agents-enterprise-roi-2026', 'ai-agents-circle-wallet-spending-limits-study-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'schroders-emerging-market-bond-solana-centrifuge-2026')
+RELATED['schroders-emerging-market-bond-solana-centrifuge-2026'] = ['dtcc-tokenization-service-live-october-2026', 'nyse-four-transfer-agents-tokenized-stocks-2026', 'bond-duration-explained']

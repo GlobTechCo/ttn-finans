@@ -1,5 +1,176 @@
 const TTN_ARTICLES = [
   {
+    "id": "us-ism-services-october-2026-growth-prices-fed",
+    "title": "U.S. Services Growth Slows as High Costs Complicate the Fed’s Next Move",
+    "dek": "October’s ISM services index fell to 54.5, while the prices gauge stayed at 73.0. Slower orders and strained household purchasing power leave a difficult mix for monetary policy.",
+    "section": "Market Analysis",
+    "tickers": [
+      "US10Y"
+    ],
+    "imageAlt": "Editorial illustration of restaurant staff serving customers, representing U.S. service-sector activity.",
+    "date": "2026-11-04T18:14:59Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/us-ism-services-october-2026-growth-prices-fed-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-ism-services-october-2026-growth-prices-fed-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-ism-services-october-2026-growth-prices-fed-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-ism-services-october-2026-growth-prices-fed-cover-v1-480.webp 480w, assets/responsive/us-ism-services-october-2026-growth-prices-fed-cover-v1-960.webp 960w, assets/editorial/us-ism-services-october-2026-growth-prices-fed-cover-v1.webp 1672w",
+    "body": [
+      "<p>U.S. service businesses continued to expand in October, but weaker momentum did little to resolve the inflation problem facing the Federal Reserve. The Institute for Supply Management’s services index slipped to 54.5 from 54.9 in September, while its measure of input prices remained elevated at 73.0. The report, released November 4, points to an economy still growing with limited relief from the costs confronting businesses.</p>",
+      "<p>The combination matters more than the modest decline in the headline index. A broad collapse in demand would present one set of challenges for policymakers. Continued expansion alongside stubborn cost pressure presents another: easing financial conditions could support spending before inflation is contained, while keeping borrowing costs high could squeeze households whose purchasing power is already under strain.</p>",
+      "<p>New orders fell to 55.9 from 59.8, and business activity eased to 53.8 from 56.5. Employment strengthened to 51.4 from 50.1. Supplier deliveries slowed further, with that index rising to 56.7 from 53.2. Those readings describe an uneven expansion rather than a uniform retreat in demand, hiring and supply conditions.</p>",
+      "<h2>A weaker survey is not a falling price level</h2>",
+      "<p>The headline remained above the 50 threshold separating expansion from contraction. These are survey indexes, not percentage changes in output. Similarly, a prices reading of 73.0 does not mean that prices rose 73%. It signals the balance of reported changes in input costs. Our <a href=\"ism-pmi-explained.html\">guide to the ISM surveys</a> explains how to read these measures without confusing their level with a growth rate.</p>",
+      "<p>For businesses, a softer pace of cost increases can still leave a difficult adjustment. A supplier charging more slowly is still charging more. If customers resist further increases in selling prices, the business must absorb some of the difference, find efficiencies or change what it buys. The survey alone cannot establish which response will dominate across companies.</p>",
+      "<p>That distinction also applies to households. Lower inflation means prices are rising more slowly; it does not automatically restore earlier purchasing power. Wage growth, taxes, financing costs and the composition of spending all matter. A restaurant bill, insurance renewal or rent payment can remain difficult to afford even after the rate of increase begins to moderate.</p>",
+      "<h2>Household cash flow offers a second warning</h2>",
+      "<p>Previously released Bureau of Economic Analysis figures provide a useful check on the survey. In September, disposable personal income increased 0.2% in current dollars but fell 0.3% after inflation. Nominal consumer spending rose 0.5%, while real spending was essentially unchanged. The personal saving rate stood at 3.8%. These are September data, not additional October results.</p>",
+      "<p>The gap between nominal and real spending is important for interpreting company revenue. A higher dollar total can reflect more expensive purchases without a comparable increase in the quantity of goods and services consumed. A business reporting sales growth therefore needs a closer look at volumes, pricing and margins before the figure can be treated as evidence of stronger customer demand.</p>",
+      "<p>The income figures also help explain why resilient spending can coexist with financial pressure. When purchasing power fails to keep pace with outlays, households have less room to save or must make adjustments elsewhere. That does not establish an imminent downturn, but it can reduce the cushion available if employment income weakens or another essential expense rises.</p>",
+      "<p>Our <a href=\"us-gdp-q3-2026-september-spending-inflation.html\">coverage of third-quarter growth and September spending</a> examines that contrast. A strong quarterly aggregate and a softer final month can both be accurate. For the next quarter, the direction of household cash flow may prove more informative than simply carrying forward the previous quarter’s growth rate.</p>",
+      "<h2>The policy decision still depends on broader evidence</h2>",
+      "<p>The Fed held its target range at 3.75% to 4.00% on October 28. Its statement described strong economic activity and elevated inflation. Two officials dissented in favor of a quarter-point increase. That decision preceded Wednesday’s services release; the new survey does not represent a fresh Fed announcement or a commitment to any particular December outcome.</p>",
+      "<p>The central bank’s dilemma is that spending resilience gives it time to seek clearer evidence on inflation, while slowing real income makes additional restraint more consequential. An input-cost survey cannot settle that tradeoff on its own. Consumer prices, labor income and actual spending will help establish whether businesses can pass costs through and whether customers can continue paying them.</p>",
+      "<p>For bond investors, the relevant question is how that evidence changes the expected path of interest rates. Expectations of prolonged inflation can work against the price support that would normally follow weaker growth. Our <a href=\"bond-duration-explained.html\">explanation of duration</a> describes why a bond’s sensitivity to changing yields matters in either direction. Wednesday’s report should be read alongside incoming data, rather than as a standalone signal to buy or sell.</p>",
+      "<p>The next test is whether weaker orders are followed by softer activity and whether relief in costs becomes sustained enough to improve real incomes. If those developments occur together, the economy would have a more convincing route toward slower inflation without a sharp contraction. October’s survey leaves that possibility open, but the evidence is still mixed.</p>"
+    ],
+    "sources": [
+      {
+        "label": "ISM: October 2026 Services PMI report",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/"
+      },
+      {
+        "label": "Federal Reserve: October 28 policy statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      },
+      {
+        "label": "BEA: September personal income and outlays, released October 29",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+      },
+      {
+        "label": "ISM: official release calendar",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+      }
+    ]
+  },
+  {
+    "id": "occ-bank-ai-agent-supervisory-framework-november-2026",
+    "title": "OCC Puts AI Agents’ Financial Powers at the Center of Bank Examinations",
+    "dek": "The U.S. banking regulator’s new examiner guide focuses on what AI systems can do, the consequences of errors and human oversight. It creates no separate AI risk category or new enforceable standard.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial reconstruction of the OCC’s installed seal and entrance at 400 7th Street SW, Washington, D.C.; the pedestrians are illustrative.",
+    "date": "2026-11-04T18:14:59Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1-480.webp 480w, assets/responsive/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1-960.webp 960w, assets/editorial/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>The Office of the Comptroller of the Currency issued a framework on November 4 directing bank examiners to consider the consequences of artificial intelligence use, including how much authority autonomous systems receive. The financial importance lies in the connection between software and decisions: an agent able to initiate a transaction can create a different exposure from a model that only helps an employee prepare an internal document.</p>",
+      "<p>The agency’s bulletin says the framework is a resource for its examination workforce. It does not create enforceable standards or new regulatory expectations for banks. Examiners should tailor their work to the institution and the materiality of each use case. Banks are not required to establish a separate AI risk appetite, and the technology is not a standalone risk category.</p>",
+      "<p>The official document uses the term “super intelligence,” encompassing technologies previously described as artificial intelligence. That terminology should not be read as a finding that a bank has deployed a system exceeding human capabilities. The practical subject is the use of these technologies in ordinary banking activities, including systems that can take actions rather than simply generate information.</p>",
+      "<h2>Authority changes the exposure</h2>",
+      "<p>Reuters, which first reported the guidance, described the distinction between a relatively simple agent authorized to initiate transactions and a sophisticated model used internally. The former can be more consequential despite being technically less advanced. Model size, training cost and a vendor’s performance claims are therefore incomplete ways to judge the financial risk of a deployment.</p>",
+      "<p>Consider an illustrative payment workflow. Software that drafts an instruction for a person to check has one set of failure paths. Giving the same software permission to select the beneficiary and submit the payment changes the consequences of an error. The analysis must include the account permissions and the approval process, not just the quality of the generated text.</p>",
+      "<p>This is where AI governance meets ordinary access management. A highly accurate system can still be dangerous if it has permissions unrelated to its task. A weaker system with narrow permissions may be easier to contain. Our <a href=\"ping-identity-ai-agents-enterprise-access-security-2026.html\">report on identity controls for AI agents</a> examines why assigning and restricting those permissions has become a distinct operational challenge.</p>",
+      "<h2>Existing controls remain relevant</h2>",
+      "<p>The OCC says its guide can supplement existing governance, technology, compliance, operational-risk and model-risk practices. Its stated approach is proportionate: the potential consequences, autonomy and degree of human oversight matter alongside the bank’s size and complexity. That is different from assuming every AI tool deserves the same examination effort simply because it carries the same technology label.</p>",
+      "<p>For a bank assessing the economics of an agent, the cost calculation extends beyond the model’s usage bill. Reviews, access controls, testing, monitoring and handling exceptions consume resources. If those costs were excluded from a business case, apparently attractive automation savings could narrow as the system moves from a demonstration into a production workflow.</p>",
+      "<p>Our <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of enterprise AI returns</a> explains why the work left for employees is central to that calculation. A human approval step can reduce the consequences of a mistaken action, but it also retains labor in the process. Removing that step might improve throughput while increasing the importance of other safeguards. Neither choice can be evaluated from a headline model benchmark.</p>",
+      "<h2>Buying software does not transfer accountability</h2>",
+      "<p>Third-party relationships supply another established supervisory context. Interagency guidance issued in 2023 describes a risk-management life cycle and calls for practices proportionate to the relationship’s criticality and the bank’s complexity. It recognizes that vendors do not all create the same exposure. Wednesday’s AI framework should be understood alongside that existing treatment of outsourced activities.</p>",
+      "<p>For example, a bank could buy an agent from a software company but retain responsibility for choosing its access and deciding when its output becomes an instruction. Vendor documentation might explain how a model behaves without establishing whether the bank’s workflow is adequately controlled. An attractive product specification is therefore only part of the evidence needed to assess a particular deployment.</p>",
+      "<p>NIST’s voluntary AI Risk Management Framework provides a separate reference for considering trustworthiness across design, development, use and evaluation. It is not a bank examination rule, and adopting it does not establish OCC approval. Its relevance here is the broader lifecycle: evaluating a system once before launch cannot answer every question about later changes in its use.</p>",
+      "<h2>The commercial implications</h2>",
+      "<p>The immediate market implication is a clearer focus for conversations between banks and AI suppliers. Products that can explain their permissions, preserve useful records and support human review may be easier to assess than tools marketed primarily through speed or autonomy. That is an analytical implication of the supervisory approach, not a forecast of revenue for any particular vendor.</p>",
+      "<p>The framework also leaves room for low-consequence applications to receive a different level of scrutiny from systems with direct financial authority. It does not announce a general ban on autonomous banking tools or certify any deployment as safe. For banks pursuing productivity gains, the practical test is whether the authority granted to an agent is justified by the task and supported by controls appropriate to what could go wrong.</p>"
+    ],
+    "sources": [
+      {
+        "label": "OCC: November 4 supervisory bulletin 2026-54",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html"
+      },
+      {
+        "label": "OCC: announcement of the examiner framework",
+        "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-97.html"
+      },
+      {
+        "label": "Reuters: first report on the AI examiner guidance",
+        "url": "https://www.reuters.com/business/finance/us-bank-regulator-issues-first-ever-ai-guidance-examiners-2026-11-04/"
+      },
+      {
+        "label": "OCC: interagency third-party risk-management guidance",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2023/bulletin-2023-17.html"
+      },
+      {
+        "label": "NIST: AI Risk Management Framework",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      }
+    ]
+  },
+  {
+    "id": "schroders-emerging-market-bond-solana-centrifuge-2026",
+    "title": "Schroders Brings Emerging-Market Bond Exposure to Solana Through Centrifuge",
+    "dek": "The new structure gives investors tokenized shares in a feeder fund investing in a Schroders bond strategy. It broadens onchain fixed income beyond cash products without removing credit or liquidity risk.",
+    "section": "Crypto",
+    "tickers": [
+      "SOL"
+    ],
+    "imageAlt": "Editorial reconstruction of the Schroders entrance and installed wordmark at 1 London Wall Place; the visitor is illustrative.",
+    "date": "2026-11-04T18:14:59Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1-480.webp 480w, assets/responsive/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1-960.webp 960w, assets/editorial/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>Schroders is bringing an emerging-markets bond strategy to Solana through tokenization specialist Centrifuge, extending the range of professionally managed investments available on public blockchain infrastructure. The November 4 announcement concerns exposure to the Schroder International Selection Fund Emerging Market Bond strategy. Its importance is the type of investment being distributed: a portfolio of debt with credit and interest-rate exposure, rather than another cash-management product.</p>",
+      "<p>The structure requires careful reading. CoinDesk reported that investors hold tokenized shares in a feeder fund that invests in the underlying Schroders fund. The token’s value follows the feeder’s interest in that investment. Investors do not acquire direct title to each bond selected by the manager, and the announcement does not mean the underlying sovereign and corporate bonds themselves have all moved onto Solana.</p>",
+      "<p>Centrifuge described the launch as Schroders’ first deployment on Solana. That is a network-specific milestone, not a claim that Schroders has never previously worked on tokenization. The distinction matters when assessing how much of the development is a new investment strategy and how much is a new way to distribute and administer an existing one.</p>",
+      "<h2>A fund share has a different job from a payment token</h2>",
+      "<p>The investment sits within the broader category of tokenized securities. The SEC’s investor education material describes these as financial instruments, including fund interests, represented or formatted as crypto assets on a blockchain. The digital record is part of how the interest is held or transferred; it does not replace the legal and economic characteristics of the security.</p>",
+      "<p>A feeder adds a layer between the investor and the underlying portfolio. Cash flows, expenses, valuation procedures and rights must therefore be understood at the level of the instrument the investor actually holds. The name of a familiar asset manager helps identify the underlying investment expertise, but it is not sufficient to explain every obligation elsewhere in the structure.</p>",
+      "<p>Our <a href=\"dtcc-tokenization-service-live-october-2026.html\">report on DTCC’s tokenized securities service</a> examines another approach to connecting blockchain records with established financial claims. The common issue is the relationship between the token and the recognized investment interest. Different structures can use similar blockchain language while giving holders different rights, counterparties and routes to liquidity.</p>",
+      "<h2>The portfolio risk remains with the bonds</h2>",
+      "<p>Schroders’ documentation for the underlying Emerging Market Bond fund describes an actively managed portfolio investing in bonds from governments, agencies, supranational institutions and companies in emerging markets. Its stated objective is capital growth and income above its benchmark after fees over a three-to-five-year period. That is an investment objective, not a promise about the tokenized feeder’s future return.</p>",
+      "<p>The same documentation identifies credit, interest-rate, liquidity and operational risks, among others. A borrower’s deteriorating finances can reduce the value of its debt. Changes in market rates can move bond prices even when interest payments continue. Difficult trading conditions can make it harder to sell holdings at an acceptable price and can affect access to redemptions.</p>",
+      "<p>Those risks distinguish the product from a stablecoin intended to maintain a fixed reference value. A bond strategy can experience a drawdown while operating according to its mandate. The presence of a token and a wallet does not convert investment exposure into cash, an insured bank deposit or a guaranteed claim to recover the initial purchase price.</p>",
+      "<p>As the SEC’s guide to bond funds explains, even funds holding government securities can lose value when market interest rates rise. Longer-dated holdings can be more sensitive to those changes. Our <a href=\"bond-duration-explained.html\">guide to bond duration</a> explains that mechanism. For an emerging-markets portfolio, changes in credit conditions can create an additional source of gains or losses alongside the rate exposure.</p>",
+      "<h2>Continuous infrastructure is not continuous liquidity</h2>",
+      "<p>A blockchain can record a transfer outside conventional business hours, but the underlying fund’s valuation and redemption procedures still matter. The ability to move a token between wallets does not establish that an investor can redeem for cash at the latest portfolio value at any moment. Nor does it establish that another investor will be willing to buy it at that value.</p>",
+      "<p>Centrifuge’s announcement emphasizes potential uses in financial applications, collateral and new distribution channels. These are the commercial opportunities behind the launch. Their realization will depend on integration, eligible users and actual demand. The announcement should not be treated as evidence that every proposed lending or collateral use is already available for this product.</p>",
+      "<p>The materials reviewed for this report do not establish universal access for U.S. retail investors or a guaranteed redemption timetable for the tokenized share class. The underlying Schroders factsheet is also not a substitute for the feeder’s own terms. Fees, investor eligibility and operational rights need to be assessed against the documents for the specific instrument being offered.</p>",
+      "<h2>What would make the launch significant</h2>",
+      "<p>For asset managers, the business opportunity is an additional distribution route and the possibility that a fund interest can be used within digital investment workflows. For Solana, the test is whether those workflows attract sustained activity beyond the announcement. Neither outcome can be inferred from the size of Schroders’ overall business or from the use of its name.</p>",
+      "<p>The useful measures will be capital subscribed to the new structure, functioning valuation and redemption arrangements, and integrations that investors actually use. A launch expands the menu of available investments. Demonstrating that investors can hold and use those interests reliably through ordinary market conditions, and difficult ones, is the more demanding commercial test.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Centrifuge: November 4 launch announcement",
+        "url": "https://centrifuge.io/blog/schroders-centrifuge"
+      },
+      {
+        "label": "Schroders: underlying Emerging Market Bond fund documentation",
+        "url": "https://api.schroders.com/document-store/SISF-Emerging-Market-Bond-A-Acc-FMR-UNEN.pdf"
+      },
+      {
+        "label": "CoinDesk: launch and feeder-fund structure",
+        "url": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana"
+      },
+      {
+        "label": "SEC Investor.gov: tokenized securities",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
+      },
+      {
+        "label": "SEC Investor.gov: bond funds and their risks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/bond-funds-and-income-funds"
+      }
+    ]
+  },
+  {
     "id": "us-treasury-november-2026-refunding-125-billion-buybacks",
     "title": "U.S. Treasury Keeps $125 Billion Refunding as Longer-Term Funding Gap Looms",
     "dek": "A $125 billion refinancing will raise about $28 billion in new cash. Larger buyback plans and a future seven-year-note change reshape the debt-management agenda.",

@@ -3585,6 +3585,39 @@
       "bytes": 408930,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/circle-q3-2026-arc-token-sales-reserve-income.html"
+    },
+    {
+      "page": "us-ism-services-october-2026-growth-prices-fed.html",
+      "source": "assets/editorial/us-ism-services-october-2026-growth-prices-fed-cover-v1.webp",
+      "image": "assets/social/us-ism-services-october-2026-growth-prices-fed-cover-v1-b260926d85f3.webp",
+      "sha256": "b260926d85f37cdba880174fbc8a94492950c52259c73b691b55c9e8556a48e6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 353160,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-ism-services-october-2026-growth-prices-fed.html"
+    },
+    {
+      "page": "occ-bank-ai-agent-supervisory-framework-november-2026.html",
+      "source": "assets/editorial/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1.webp",
+      "image": "assets/social/occ-bank-ai-agent-supervisory-framework-november-2026-cover-v1-ae95dbb9ea5f.webp",
+      "sha256": "ae95dbb9ea5f3187149d126917b63f08ab824f7b6e698aef237eed0df41948ed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 631530,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/occ-bank-ai-agent-supervisory-framework-november-2026.html"
+    },
+    {
+      "page": "schroders-emerging-market-bond-solana-centrifuge-2026.html",
+      "source": "assets/editorial/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1.webp",
+      "image": "assets/social/schroders-emerging-market-bond-solana-centrifuge-2026-cover-v1-8e34e57b946c.webp",
+      "sha256": "8e34e57b946cecdd6536cdfbbef8db84817cc2fac2bc53229673a2dd61c33e84",
+      "width": 1672,
+      "height": 941,
+      "bytes": 405196,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/schroders-emerging-market-bond-solana-centrifuge-2026.html"
     }
   ]
 }
