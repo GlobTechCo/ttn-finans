@@ -16,7 +16,7 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-960.webp",
     "imageSrcset": "assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-480.webp 480w, assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-960.webp 960w, assets/editorial/amd-q3-2026-data-center-revenue-helios-cover-v1.webp 1672w",
     "body": [
-      "<p>AMD reported record third-quarter revenue of $13.4 billion on November 3, up 45% from a year earlier, as its data-center business expanded 97% to $8.5 billion. The semiconductor designer expects approximately $17 billion of fourth-quarter sales, plus or minus 3%. That outlook gives the AI infrastructure debate a concrete new test: whether a rapidly expanding supplier can turn demand for computing capacity into another substantial increase in delivered revenue.</p>",
+      "<p>AMD reported record third-quarter revenue of $13.4 billion on November 3, up 45% from a year earlier, as data-center sales rose 97% to $8.5 billion. It forecast approximately $17 billion in fourth-quarter revenue, plus or minus 3%, as demand shifts toward complete AI computing systems.</p>",
       "<h2>A larger business, with a different mix</h2>",
       "<p>According to AMD’s release, GAAP net income reached $2.4 billion, or $1.46 per diluted share. Adjusted earnings were $2.09 per share. The company’s combined Client and Gaming segment generated $3.7 billion, down 8%, while Embedded revenue rose 29% to $1.1 billion. These figures make the quarter more specific than a uniform recovery across semiconductors: the fastest expansion came from infrastructure, while the combined consumer-facing segment moved in the opposite direction.</p>",
       "<p>Using the rounded figures in the release, data centers accounted for roughly 63% of total revenue. That is a TTN calculation, rather than a separately reported company metric. It illustrates how much the composition of AMD’s business now influences the overall result. A smaller percentage movement in a large infrastructure segment can outweigh a more dramatic change in a smaller operation, making the source of growth as important as the consolidated growth rate.</p>",
@@ -43,7 +43,7 @@ const TTN_ARTICLES = [
         "url": "https://www.amd.com/en/products/accelerators/instinct/mi400.html"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "dollar-midterms-ai-growth-risk-november-4-2026",
@@ -62,7 +62,7 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-960.webp",
     "imageSrcset": "assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-480.webp 480w, assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-960.webp 960w, assets/editorial/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1.webp 1672w",
     "body": [
-      "<p>The dollar fell to a one-month low on November 4 after Democratic gains in U.S. congressional elections prompted investors to reassess the outlook for AI investment and economic growth, Reuters reported. In its early report, the agency put the dollar index at 101.41 and the 10-year Treasury yield near 4.921%. These are dated market observations, not live quotations. The combination points to an important distinction: demand for U.S. bonds can rise while demand for the dollar weakens.</p>",
+      "<p>The dollar fell to a one-month low on November 4 after Democratic gains in U.S. congressional elections prompted investors to reassess AI investment and economic growth, Reuters reported. In an early market snapshot, the dollar index stood at 101.41 and the 10-year Treasury yield was near 4.921%.</p>",
       "<p>The election has changed the political setting in which investors evaluate future policy. It has not itself changed the Federal Reserve’s interest rate or enacted a new rule for AI businesses. The immediate currency movement is therefore best understood as a repricing of expectations. Whether those expectations become lasting economic consequences depends on subsequent decisions, business activity and inflation, rather than the election result alone.</p>",
       "<h2>The interest-rate channel</h2>",
       "<p>The Federal Reserve held its policy target at 3.75% to 4% on October 28. Its statement described strong economic activity, robust capital investment and elevated inflation. Two policymakers dissented in favor of an increase. That starting point matters: a market reassessment of future growth is occurring while the central bank is still concerned about price pressures, rather than against a backdrop of an announced easing cycle.</p>",
@@ -87,7 +87,7 @@ const TTN_ARTICLES = [
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "bitcoin-us-midterms-regulation-risk-november-4-2026",
@@ -107,7 +107,7 @@ const TTN_ARTICLES = [
     "imageMedium": "assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-960.webp",
     "imageSrcset": "assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1.webp 1672w",
     "body": [
-      "<p>Bitcoin briefly reached a six-week low on November 4 before recovering to about $78,070 at 07:15 GMT, according to Reuters. Ether traded around $2,292. The agency linked the initial weakness to uncertainty about the U.S. legislative outlook after Democratic congressional victories, alongside continuing concern about exchange custody. The rebound matters as much as the dip: the early trading pattern does not support describing an uninterrupted post-election collapse.</p>",
+      "<p>Bitcoin recovered to about $78,070 at 07:15 GMT on November 4 after briefly touching a six-week low, Reuters reported. Ether traded around $2,292. The initial weakness accompanied uncertainty over U.S. crypto legislation after Democratic congressional victories and continuing concern about exchange custody.</p>",
       "<p>For the digital-asset industry, the immediate issue is the difference between favorable political expectations and an enforceable operating framework. An election can change the perceived probability of future legislation. It does not, by itself, alter the Bitcoin protocol, rewrite an exchange’s customer agreement or resolve the legal treatment of every token. Those separate questions are frequently compressed into a single judgment about whether an outcome is positive or negative for crypto.</p>",
       "<h2>Political expectations have a market price</h2>",
       "<p>When traders expect easier access, clearer rules or greater institutional participation, they may incorporate those expectations into asset prices before the underlying changes occur. If that anticipated path becomes less certain, the premium can shrink. Such a move does not require a new restriction to have taken effect. The change is in the range of possible future outcomes and the probability investors attach to each.</p>",
@@ -131,7 +131,7 @@ const TTN_ARTICLES = [
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "aramco-q3-2026-profit-free-cash-flow-dividend",
@@ -179,7 +179,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-03/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "cftc-equity-perpetual-futures-stock-trading-2026",
@@ -228,7 +228,7 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/files/rules/sro/ogm/2026/34-106521.pdf"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "palantir-q3-2026-record-revenue-bookings-slowdown",
@@ -278,7 +278,7 @@ const TTN_ARTICLES = [
         "url": "https://www.businessinsider.com/palantir-stock-falls-high-earnings-expectations-ai-trade-tech-pltr-2026-11"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "apple-memory-margin-pressure-2026",
@@ -316,7 +316,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/retail-consumer/us-stock-futures-mixed-apple-slides-midterms-loom-2026-11-03/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "thomson-reuters-ai-licensing-growth-q3-2026",
@@ -330,10 +330,10 @@ const TTN_ARTICLES = [
     "format": "news",
     "image": "assets/editorial/thomson-reuters-ai-licensing-growth-q3-2026-cover.webp",
     "body": [
-      "<p>Thomson Reuters has given investors a fresh example of how artificial intelligence can generate revenue for a company whose core asset is specialized information rather than raw computing power. The legal, tax and information-services group reported third-quarter revenue of $1.83 billion, a 10% increase, and raised its full-year organic growth outlook on November 3. Its results also exposed a less comfortable side of the transformation: bringing AI products to market can reduce margins even when customers are buying them.</p>",
+      "<p>Thomson Reuters reported third-quarter revenue of $1.83 billion, up 10%, and raised its full-year organic growth outlook on November 3. AI-related licensing supported news revenue, while higher technology costs reduced the Legal Professionals segment’s adjusted EBITDA margin.</p>",
       "<h2>Guidance improves after a stronger quarter</h2>",
       "<p>The company now expects 2026 organic revenue growth of 8.5% to 9%, up from an earlier expectation of approximately 8%. Organic growth attempts to isolate performance in the existing business by adjusting for currency and portfolio changes. It is therefore a more useful indicator of underlying customer demand than a simple comparison of reported revenue across periods that include acquisitions and disposals.</p>",
-      "<p>Adjusted earnings were 81 cents per share. Organic revenue grew 9% in Legal Professionals and 11% in both Corporates and Tax, Audit &amp; Accounting. The legal segment therefore did not record double-digit growth. Recurring subscriptions remain an important source of revenue across these businesses.</p>",
+      "<p>Adjusted earnings were 81 cents per share. Organic revenue grew 9% in Legal Professionals and 11% in both Corporates and Tax, Audit &amp; Accounting. Recurring subscriptions remain an important source of revenue across these businesses.</p>",
       "<p>The financial presentation excludes the global print division after the company sold a majority stake. Thomson Reuters announced the completion of the sale of 51% of that business to investors advised by KKR, with gross proceeds of about $500 million. The change matters for interpreting guidance: investors should not assume that every headline growth number is calculated against an unchanged corporate portfolio.</p>",
       "<h2>Generative AI becomes a licensing business</h2>",
       "<p>One of the most striking figures concerns Reuters itself. News transaction revenue increased 56% to $44 million, supported by licensing activity connected with generative AI. The figure is not the total revenue of the Reuters news division, nor does it mean that all Reuters content is sold to AI developers. It shows that transactions involving news content are becoming a material growth channel at a time when publishers and software firms are negotiating how valuable information can be used in AI services.</p>",
@@ -358,7 +358,7 @@ const TTN_ARTICLES = [
         "url": "https://investors.thomsonreuters.com/news-releases/news-release-details/thomson-reuters-reports-third-quarter-2026-results"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "uk-pension-default-lifetime-income-reform-2026",
@@ -400,7 +400,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/world/uk/britain-make-lifetime-retirement-income-default-private-pensions-2026-11-03/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "nyse-four-transfer-agents-tokenized-stocks-2026",
@@ -443,7 +443,7 @@ const TTN_ARTICLES = [
         "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "rba-november-2026-rate-hike-485",
@@ -486,7 +486,7 @@ const TTN_ARTICLES = [
         "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "uk-ai-ransomware-critical-infrastructure-2028",
@@ -523,7 +523,7 @@ const TTN_ARTICLES = [
         "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "anthropic-895-billion-compute-commitments-ipo-2026",
@@ -537,7 +537,7 @@ const TTN_ARTICLES = [
     "format": "news",
     "image": "assets/editorial/anthropic-895-billion-compute-commitments-ipo-2026-cover.webp",
     "body": [
-      "<p>Anthropic's latest filing ahead of its anticipated public-market debut has put an extraordinary number at the center of the artificial intelligence investment debate: approximately $895.4 billion in contracted spending commitments, substantially all linked to computing infrastructure. The figure appears alongside rapidly growing revenue and heavy reported losses, making the developer of Claude a revealing test case for the economics of frontier AI.</p>",
+      "<p>Anthropic disclosed approximately $895.4 billion in contracted spending commitments, substantially all linked to computing infrastructure, in its amended IPO filing. Rapidly growing revenue accompanies heavy reported losses and payments extending into 2045, with $69.8 billion due within the next 12 months.</p>",
       "<p>The figure is not a single purchase, a one-year capital expenditure budget or an amount the company has already paid. Its amended registration statement describes a collection of purchase agreements and leases extending across many years. Approximately $69.8 billion falls due within the 12 months following September 30, 2026, while about $447.5 billion is expected to be incurred before the end of 2030. Much of the remainder stretches from 2031 through 2045. That distinction is essential to assessing both the size of the bet and the immediate financing burden.</p>",
       "<h2>Revenue growth is rapid, but the cost structure remains demanding</h2>",
       "<p>Anthropic reported revenue of approximately $16.96 billion for the third quarter, up from $11.56 billion in the preceding quarter, according to the amended filing and Reuters. The reported quarterly net loss narrowed to about $23.29 billion from $66.3 billion in the second quarter. The company nevertheless moved from a roughly $974 million operating profit in the previous quarter to a $567 million operating loss, underlining the expense associated with its expanding operations.</p>",
@@ -562,7 +562,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/anthropics-quarterly-loss-shrinks-revenue-jumps-ahead-blockbuster-ipo-2026-11-02/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "hong-kong-24-7-tokenized-interbank-settlement-2026",
@@ -608,7 +608,7 @@ const TTN_ARTICLES = [
         "url": "https://www.sc.com/en/press-release/standard-chartered-launches-tokenised-deposits-in-hong-kong/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "oil-iran-diplomacy-market-risks-november-2026",
@@ -650,7 +650,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/commentary/reuters-open-interest/energy-watch-midterm-mist-2026-11-02/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "xrpl-token-permission-security-update-november-2026",
@@ -691,7 +691,7 @@ const TTN_ARTICLES = [
         "url": "https://www.coindesk.com/tech/2026/10/22/xrp-ledger-bug-fix-moved-to-november-after-validator-support-dipped-for-two-hours"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "ai-agents-circle-wallet-spending-limits-study-2026",
@@ -729,7 +729,7 @@ const TTN_ARTICLES = [
         "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "china-embodied-ai-robotics-13-billion-investment-2026",
@@ -767,7 +767,7 @@ const TTN_ARTICLES = [
         "url": "https://ca.finance.yahoo.com/news/chinas-robot-makers-mastered-moves-230819674.html"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "marvell-lumentum-115-billion-ai-optics-merger-2026",
@@ -804,7 +804,7 @@ const TTN_ARTICLES = [
         "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "deutsche-bank-upgrades-us-tech-after-nasdaq-selloff-november-2026",
@@ -849,7 +849,7 @@ const TTN_ARTICLES = [
         "url": "https://www.investing.com/news/stock-market-news/tech-riskreward-turns-favorable-after-rout-deutsche-bank-says-4989239"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "ecb-ai-valuations-bond-market-financial-stability-november-2026",
@@ -892,7 +892,7 @@ const TTN_ARTICLES = [
         "url": "https://www.ecb.europa.eu/pub/financial-stability/fsr/html/index.en.html"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "opec-plus-december-oil-output-targets-unchanged-november-2026",
@@ -939,7 +939,7 @@ const TTN_ARTICLES = [
         "url": "https://live.euronext.com/en/financial-news/opec-keeps-december-oil-output-targets-steady-iran-war-continues-disrupt-flows"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "crypto-us-midterms-176-million-lobbying-november-2026",
@@ -979,7 +979,7 @@ const TTN_ARTICLES = [
         "url": "https://www.investing.com/news/stock-market-news/crypto-blitzes-midterms-with-176-million-to-support-allies-as-it-prepares-for-posttrump-era-4974725"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "openai-adnoc-g42-energy-ai-agreement-2026",
@@ -1015,7 +1015,7 @@ const TTN_ARTICLES = [
         "url": "https://www.adnoc.ae/media-center/news/2026/11/ADNOC-Signs-Landmark-Partnership-Agreement-with-OpenAI"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "binance-withdrawal-flows-stabilise-november-2-2026",
@@ -1061,7 +1061,7 @@ const TTN_ARTICLES = [
         "url": "https://defillama.com/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "finance-bank-of-england-november-rate-decision-2026",
@@ -1101,7 +1101,7 @@ const TTN_ARTICLES = [
         "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "hsbc-hong-kong-ai-institute-2027-announcement",
@@ -1144,7 +1144,7 @@ const TTN_ARTICLES = [
         "url": "https://www.hkma.gov.hk/eng/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "crypto-polymarket-security-breach-october-2026",
@@ -1182,7 +1182,7 @@ const TTN_ARTICLES = [
         "url": "https://www.bitquery.io/investigations/polymarket-hack"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "tech-ai-deepseek-superagent-research-prototype-october-2026",
@@ -1223,7 +1223,7 @@ const TTN_ARTICLES = [
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commits"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "bitcoin-october-2026-loss-november-seasonality",
@@ -1271,7 +1271,7 @@ const TTN_ARTICLES = [
         "url": "https://www.coinglass.com/today"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "dewa-shanghai-electric-global-energy-mou-november-2026",
@@ -1322,7 +1322,7 @@ const TTN_ARTICLES = [
         "url": "https://guest.meed.com/dewa-international-signs-energy-and-infrastructure-mous/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "crypto-binance-withdrawals-reopen-november-2026",
@@ -1368,7 +1368,7 @@ const TTN_ARTICLES = [
         "url": "https://www.afp.com/en/binance-says-resuming-withdrawals-after-major-hack"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "finance-south-korea-exports-ai-chips-october-2026",
@@ -1406,7 +1406,7 @@ const TTN_ARTICLES = [
         "url": "https://uk.marketscreener.com/news/south-korea-exports-nearly-double-in-october-on-ai-investment-boom-ce785fd8da89f626"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "tech-ai-anthropic-sec-s1-ipo-october-26-2026",
@@ -1446,7 +1446,7 @@ const TTN_ARTICLES = [
         "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index-headers.html"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "nvidia-rtx-spark-local-ai-agent-tools-october-2026",
@@ -1492,7 +1492,7 @@ const TTN_ARTICLES = [
         "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "ai-publisher-training-controls-openai-google-microsoft-anthropic-2026",
@@ -1535,7 +1535,7 @@ const TTN_ARTICLES = [
         "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/00/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "exxon-chevron-refining-earnings-brent-october-2026",
@@ -1578,7 +1578,7 @@ const TTN_ARTICLES = [
         "url": "https://ca.marketscreener.com/news/exxon-chevron-earnings-propelled-by-war-driven-refining-surge-ce785fdbda80f725"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "google-suncatcher-first-ai-response-orbit-october-2026",
@@ -1610,7 +1610,7 @@ const TTN_ARTICLES = [
         "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "apple-intelligence-china-alibaba-qwen-october-2026",
@@ -1654,7 +1654,7 @@ const TTN_ARTICLES = [
         "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "meta-ai-credit-outlook-october-2026",
@@ -1690,7 +1690,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "bitcoin-etf-outflows-october-30-2026",
@@ -1734,7 +1734,7 @@ const TTN_ARTICLES = [
         "url": "https://coinlab.info/en/news/btc-etf-outflow-209m-oct-30-2026/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "intel-amazon-ai-spending-tech-selloff-october-2026",
@@ -1769,7 +1769,7 @@ const TTN_ARTICLES = [
         "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "openai-funding-target-cut-october-2026",
@@ -1806,7 +1806,7 @@ const TTN_ARTICLES = [
         "url": "https://www.marketscreener.com/news/openai-cuts-funding-target-by-10-billion-ft-reports-ce785fd8d98bff22"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "ansi-ev-charging-standards-gaps-october-2026",
@@ -1837,7 +1837,7 @@ const TTN_ARTICLES = [
         "url": "https://www.ansi.org/standards-news/all-news/10-30-26-new-ansi-report-charts-progress-on-standards-for-electric-vehicles-at-scale"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "ping-identity-ai-agents-enterprise-access-security-2026",
@@ -1869,7 +1869,7 @@ const TTN_ARTICLES = [
         "url": "https://developer.pingidentity.com/blog/getting-started-with-agent-privilege/"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "vistra-cogentrix-gas-power-acquisition-october-2026",
@@ -1909,7 +1909,7 @@ const TTN_ARTICLES = [
         "url": "https://www.justice.gov/opa/pr/justice-departments-statement-its-investigation-vistras-acquisition-cogentrix"
       }
     ],
-    "dateModified": "2026-11-04T09:44:32Z"
+    "dateModified": "2026-11-04T09:57:37Z"
   },
   {
     "id": "us-employment-cost-index-q3-2026-real-wages",
@@ -1954,7 +1954,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 730,
     "date": "2026-10-30T15:56:13Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2001,7 +2001,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 788,
     "date": "2026-10-30T15:56:13Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2065,7 +2065,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 795,
     "date": "2026-10-30T15:56:13Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2116,7 +2116,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 777,
     "date": "2026-10-30T13:49:45Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2170,7 +2170,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 815,
     "date": "2026-10-30T13:49:45Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2224,7 +2224,7 @@ const TTN_ARTICLES = [
     ],
     "wordCount": 855,
     "date": "2026-10-30T13:49:45Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2277,7 +2277,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T12:09:57Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2330,7 +2330,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T12:09:57Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2384,7 +2384,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T12:09:57Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2440,7 +2440,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T09:02:18Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2483,7 +2483,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T09:02:18Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2535,7 +2535,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T09:02:18Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2584,7 +2584,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T07:05:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2638,7 +2638,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T07:05:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2682,7 +2682,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-30T07:05:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2730,7 +2730,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T23:33:26Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2782,7 +2782,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T23:33:26Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2831,7 +2831,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T23:33:26Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2874,7 +2874,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T21:06:00Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2915,7 +2915,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T20:53:30Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -2961,7 +2961,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T20:53:30Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3013,7 +3013,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T18:05:56Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3062,7 +3062,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T18:05:56Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3109,7 +3109,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T18:05:56Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3158,7 +3158,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T15:44:46Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3211,7 +3211,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T15:44:46Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3262,7 +3262,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T15:44:46Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3312,7 +3312,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T13:38:24Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3367,7 +3367,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T13:38:24Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3422,7 +3422,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T13:38:24Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3476,7 +3476,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T11:34:36Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3528,7 +3528,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T11:34:36Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3582,7 +3582,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T11:34:36Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3638,7 +3638,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T09:36:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3693,7 +3693,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T09:36:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3745,7 +3745,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T09:36:01Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3795,7 +3795,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T06:23:22Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3846,7 +3846,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T06:23:22Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,
@@ -3904,7 +3904,7 @@ const TTN_ARTICLES = [
       }
     ],
     "date": "2026-10-29T06:23:22Z",
-    "dateModified": "2026-11-04T09:44:32Z",
+    "dateModified": "2026-11-04T09:57:37Z",
     "author": "TTN Research Desk",
     "format": "news",
     "editorialNote": null,

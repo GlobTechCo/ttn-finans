@@ -26,8 +26,8 @@ REVIEWS = {'ai-agents-circle-wallet-spending-limits-study-2026': {'reason': 'Cut
  'amd-q3-2026-data-center-revenue-helios': {'reason': 'Removed repeated investment caveats and shortened '
                                                       'generic cost explanations.',
                                             'reviewed': '2026-11-04',
-                                            'sha256': '8a91cc07e6b2d1a2dbd681fb16b44679d31248973b371c9bb758f35ac6991e80',
-                                            'words': 533},
+                                            'sha256': '9ba4a10545f263874100e9dca9a9317753e51c171276a4d9cb6693f0d10c9fac',
+                                            'words': 509},
  'anchorpoint-hkdap-solana-visa-mastercard-plans-2026': {'reason': 'Trimmed general currency/payment '
                                                                    'exposition; retained license, restricted '
                                                                    'beta, native issuance and redemption '
@@ -46,8 +46,8 @@ REVIEWS = {'ai-agents-circle-wallet-spending-limits-study-2026': {'reason': 'Cut
                                                                   'retained maturity schedule, losses, '
                                                                   'revenue and financing risks.',
                                                         'reviewed': '2026-11-04',
-                                                        'sha256': '1b12d1572eb1a3992f79d9f883d386849bb7d29245bffd75c3a24c56e8bf3159',
-                                                        'words': 650},
+                                                        'sha256': '7817f2a126775764a4e89be398aff4aa42d6ed9078e6a8abb33f38906a6db8d3',
+                                                        'words': 629},
  'apple-intelligence-china-alibaba-qwen-october-2026': {'reason': 'Removed repeated rollout caveats, '
                                                                   'speculative sales conclusions and '
                                                                   'tangential Intel/Amazon link; retained '
@@ -121,8 +121,8 @@ REVIEWS = {'ai-agents-circle-wallet-spending-limits-study-2026': {'reason': 'Cut
                                                                    'generic closing; replaced with relevant '
                                                                    'custody context.',
                                                          'reviewed': '2026-11-04',
-                                                         'sha256': '5c08a82381f0084bac2accc0f220bdf16b8b24c0edda668e06a2683f1286c3e8',
-                                                         'words': 556},
+                                                         'sha256': '1a7c203b25a5a48efb1324a9453a5c0adf46ef9dcfff8a5ce80bb35175ed6c51',
+                                                         'words': 531},
  'bp-q3-2026-profit-debt-deepwater-horizon': {'reason': 'Cut repeated cash-versus-accounting qualifications; '
                                                         'retained underlying/statutory profit, debt, prior '
                                                         'guidance and spill liability.',
@@ -213,8 +213,8 @@ REVIEWS = {'ai-agents-circle-wallet-spending-limits-study-2026': {'reason': 'Cut
                                                               'caveats while preserving the bond/currency '
                                                               'mechanism.',
                                                     'reviewed': '2026-11-04',
-                                                    'sha256': 'bcc2b530ede7353f19d381740cacd779003a6cb5f9b8f45209d629aa96281c21',
-                                                    'words': 641},
+                                                    'sha256': '38ef163a3974d3d40909fc2bd5b33e6f45aaa5a18170fa535fb7fe8f0b057021',
+                                                    'words': 611},
  'doordash-instacart-acquisition-agreement-2026': {'reason': 'Removed generic merger rationale and final '
                                                              'recap; retained election/proration, '
                                                              'consideration, financials and closing '
@@ -509,8 +509,8 @@ REVIEWS = {'ai-agents-circle-wallet-spending-limits-study-2026': {'reason': 'Cut
                                                            'Professionals growth to 9%, rather than double '
                                                            'digits.',
                                                  'reviewed': '2026-11-04',
-                                                 'sha256': '4155ac4691fa7e62d3fa9ad54e8e744d1ee1563c4cb001619db8590519413863',
-                                                 'words': 529},
+                                                 'sha256': 'd977d6a94e9ed728252e62fdb53019bbb245bdc512243eeed39798366285b3bd',
+                                                 'words': 478},
  'tokyo-electron-fy2027-profit-forecast-ai-chip-equipment': {'reason': 'Removed repeated '
                                                                        'supplier-versus-customer caveats and '
                                                                        'elementary percentage-point '
