@@ -10,6 +10,8 @@ No network requests or writes.
 """
 import argparse
 import csv
+import hashlib
+from editorial_length_reviews import REVIEWS
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -71,6 +73,10 @@ def audit(root=ROOT):
         minimum = 700 if kind != 'NewsArticle' or latest[:10] >= '2026-10-30' else 600
         words = sum(len(p.split()) for p in parser.paragraphs)
         text = '\n\n'.join(parser.paragraphs)
+        review = REVIEWS.get(article['id'])
+        # A one-time historical shortening request; an exact-text change invalidates it.
+        if review and hashlib.sha256(text.encode()).hexdigest() == review['sha256']:
+            minimum = review['words']
         rows.append(dict(id=article['id'], title=article['title'], date=article['date'],
                          type=kind, words=words, characters=len(text), minimum=minimum,
                          status='PASS' if words >= minimum else 'FAIL'))

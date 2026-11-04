@@ -10,6 +10,8 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
+    'PLTR': ('NASDAQ:PLTR', 'Palantir Technologies · Nasdaq'),
+    '2222': ('TADAWUL:2222', 'Saudi Aramco · Saudi Exchange'),
     'CAP': ('EURONEXT:CAP', 'Capgemini · Euronext Paris'),
     'VST': ('NYSE:VST', 'Vistra Corp. · NYSE'),
     'XOM': ('NYSE:XOM', 'ExxonMobil · NYSE'),
@@ -68,7 +70,7 @@ INSTRUMENTS = {
     'EUR/USD': ('FX:EURUSD', 'EUR/USD · FXCM'),
     'GBP/USD': ('FX:GBPUSD', 'GBP/USD · FXCM'),
 }
-ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD'}
+ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD', 'NYSE:PLTR':'PLTR', 'TADAWUL:2222':'2222', 'NDX':'Nasdaq-100', 'SPX':'S&P 500', 'UKOIL':'Brent Oil'}
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
 MENTIONS = {
