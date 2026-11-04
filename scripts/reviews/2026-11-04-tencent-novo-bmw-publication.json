@@ -1,0 +1,84 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-04",
+  "publication_timestamp": "2026-11-04T13:40:28Z",
+  "articles": [
+    {
+      "id": "tencent-hy4-enterprise-ai-pricing-open-weights-november-2026",
+      "source_checks": "News date: November 4. Hosted access verified; final model weights described as forthcoming. OpenRouter pricing is a dated provider quote. Financial benchmark figures are attributed to Tencent. The $1.668 example is arithmetic, not a typical customer bill.",
+      "sources": [
+        [
+          "Tencent: November 4 Hy4 launch",
+          "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+        ],
+        [
+          "OpenRouter: Hy4 access and pricing, checked November 4",
+          "https://openrouter.ai/tencent/hy4"
+        ],
+        [
+          "Tencent: October 29 enterprise and cloud update",
+          "https://www.tencent.com/tencent-cloud-accelerates-international-growth-advances-enterprise-ai-and-expands-global-partnerships/"
+        ],
+        [
+          "Tencent: August Hy4 Preview release",
+          "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
+        ]
+      ],
+      "cover_source_file": "exec-5cc37a8b-02c9-4592-ad27-01d48e347ede.png",
+      "visual_reference_source": "https://www.tencent.com/newsroom/media-resources/photos/",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.2,
+      "approval": "Owner requested publication of the three-image package; corrected BMW close-up explicitly approved."
+    },
+    {
+      "id": "novo-nordisk-q3-2026-wegovy-pill-sales-outlook",
+      "source_checks": "Results released November 4 at 06:30 UTC. Guidance comparisons use the official August release and the November report. Constant-currency growth is distinguished from growth in Danish kroner. The fourth-quarter cash range is explicitly labeled as arithmetic. No medical treatment advice or efficacy comparison is included.",
+      "sources": [
+        [
+          "Novo Nordisk: November 4 results announcement",
+          "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=919765"
+        ],
+        [
+          "Novo Nordisk: full nine-month financial report, pages 4–7 and 14–16",
+          "https://attachment.news.eu.nasdaq.com/abe4f9fe06f62a70f6cbcdc89007c2238"
+        ],
+        [
+          "Novo Nordisk: August 4 results and previous guidance",
+          "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916590"
+        ],
+        [
+          "Reuters: November 4 earnings and sales consensus",
+          "https://www.reuters.com/business/novo-nordisk-q3-profit-beats-forecast-raises-2026-guidance-2026-11-04/"
+        ]
+      ],
+      "cover_source_file": "exec-ce1494ab-e6f0-4dac-9219-46fd607d8898.png",
+      "visual_reference_source": "https://www.novonordisk.com/news-and-media/media-library.html",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.3,
+      "approval": "Owner requested publication of the three-image package; corrected BMW close-up explicitly approved."
+    },
+    {
+      "id": "bmw-q3-2026-margin-outlook-restructuring-cash-flow",
+      "source_checks": "Results dated November 4; margin revision first announced November 3. Automotive EBIT, Group EBT and free cash flow are kept separate. The required fourth-quarter cash amount is explicitly calculated. The 2.5-point burden covers combined portfolio and structural measures, not layoffs alone.",
+      "sources": [
+        [
+          "BMW Group: November 4 results and revised outlook",
+          "https://newsroom.bmwgroup.com/global/bmw-group-accelerates-realignment/"
+        ],
+        [
+          "BMW CFO Walter Mertl: November 4 financial statement",
+          "https://newsroom.bmwgroup.com/global/statement-walter-mertl-member-of-the-board-of-management-of-bmw-ag-finance-conference-call-quarterly-statement-to-30-september-2026-munich-4-november-2026-830-am/"
+        ],
+        [
+          "Reuters: November 4 restructuring and market context",
+          "https://www.reuters.com/world/china/bmw-warns-profit-again-restructuring-costs-bite-2026-11-04/"
+        ]
+      ],
+      "cover_source_file": "exec-9a6a2f4f-858f-4404-aa03-a9831457d648.png",
+      "visual_reference_source": "https://www.press.bmwgroup.com/global",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.3,
+      "approval": "Owner requested publication of the three-image package; corrected BMW close-up explicitly approved."
+    }
+  ]
+}

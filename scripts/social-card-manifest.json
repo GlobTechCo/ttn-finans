@@ -3519,6 +3519,39 @@
       "bytes": 469782,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/dollar-midterms-ai-growth-risk-november-4-2026.html"
+    },
+    {
+      "page": "bmw-q3-2026-margin-outlook-restructuring-cash-flow.html",
+      "source": "assets/editorial/bmw-q3-2026-margin-outlook-restructuring-cash-flow-cover-v1.webp",
+      "image": "assets/social/bmw-q3-2026-margin-outlook-restructuring-cash-flow-cover-v1-da10502e13ad.webp",
+      "sha256": "da10502e13ade5b48948d0396928cb0bad1163962385769e60b43b8282b79550",
+      "width": 1672,
+      "height": 941,
+      "bytes": 227676,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bmw-q3-2026-margin-outlook-restructuring-cash-flow.html"
+    },
+    {
+      "page": "novo-nordisk-q3-2026-wegovy-pill-sales-outlook.html",
+      "source": "assets/editorial/novo-nordisk-q3-2026-wegovy-pill-sales-outlook-cover-v1.webp",
+      "image": "assets/social/novo-nordisk-q3-2026-wegovy-pill-sales-outlook-cover-v1-40b4e77efe00.webp",
+      "sha256": "40b4e77efe00eb7bf5075a2402835adda450a711ea581478ac514031182a7cb8",
+      "width": 1672,
+      "height": 941,
+      "bytes": 284190,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/novo-nordisk-q3-2026-wegovy-pill-sales-outlook.html"
+    },
+    {
+      "page": "tencent-hy4-enterprise-ai-pricing-open-weights-november-2026.html",
+      "source": "assets/editorial/tencent-hy4-enterprise-ai-pricing-open-weights-november-2026-cover-v1.webp",
+      "image": "assets/social/tencent-hy4-enterprise-ai-pricing-open-weights-november-2026-cover-v1-f907676d3a19.webp",
+      "sha256": "f907676d3a195578370a3b822938b7d689c770e917752610dee77280a12be07a",
+      "width": 1672,
+      "height": 941,
+      "bytes": 643346,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tencent-hy4-enterprise-ai-pricing-open-weights-november-2026.html"
     }
   ]
 }

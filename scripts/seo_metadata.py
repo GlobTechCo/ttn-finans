@@ -606,3 +606,11 @@ TITLES['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Microsoft Azure Grows
 DESCRIPTIONS['microsoft-q1-2027-azure-cash-flow-ai-spending'] = 'Azure revenue rose 48% and free cash flow reached $18.6 billion. Delayed infrastructure deliveries mean Microsoft’s spending test is still ahead.'
 TITLES['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Bitcoin Core Discloses Node-Crash Bugs and Fixes'
 DESCRIPTIONS['bitcoin-core-node-crash-security-fixes-october-2026'] = 'Three Bitcoin Core advisories explain crash risks and available fixes. One flaw affects Windows, macOS and BSD nodes, while Linux avoids that code path.'
+
+# Reviewed November 4 package.
+TITLES['tencent-hy4-enterprise-ai-pricing-open-weights-november-2026'] = 'Tencent Hy4 Targets Enterprise AI Spending'
+DESCRIPTIONS['tencent-hy4-enterprise-ai-pricing-open-weights-november-2026'] = 'Tencent launches Hy4 with visual and computer-use capabilities, discounted API access and a planned weights release, targeting enterprise AI spending.'
+TITLES['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = 'Novo Nordisk Raises Outlook on Wegovy Pill Sales'
+DESCRIPTIONS['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = 'Novo Nordisk raises its 2026 outlook as Wegovy pill sales reach DKK 5.4 billion, while impairments separate reported profit from adjusted earnings.'
+TITLES['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = 'BMW Cuts 2026 Margin Outlook as Restructuring Rises'
+DESCRIPTIONS['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = 'BMW cuts its 2026 automotive margin forecast toward break-even as restructuring expands, while maintaining a free-cash-flow target above €2.5 billion.'

@@ -622,3 +622,11 @@ RELATED.update({'amd-q3-2026-data-center-revenue-helios': ['tokyo-electron-fy202
  'bitcoin-core-node-crash-security-fixes-october-2026': ['trezor-safe-5-cryptobilis-suspected-implant-warning-2026',
                                                          'xrpl-token-permission-security-update-november-2026',
                                                          'ai-agents-circle-wallet-spending-limits-study-2026']})
+
+# November 4: owner-authorized Tencent, Novo Nordisk and BMW package.
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'tencent-hy4-enterprise-ai-pricing-open-weights-november-2026')
+RELATED['tencent-hy4-enterprise-ai-pricing-open-weights-november-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'uk-ai-ransomware-critical-infrastructure-2028']
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'novo-nordisk-q3-2026-wegovy-pill-sales-outlook')
+RELATED['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'stock-buybacks-explained']
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'bmw-q3-2026-margin-outlook-restructuring-cash-flow')
+RELATED['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = ['volkswagen-q3-2026-loss-porsche-writedown', 'ford-q3-2026-profit-guidance-commodity-costs', 'free-cash-flow-explained']

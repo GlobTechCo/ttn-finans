@@ -10,6 +10,9 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
+    '700': ('HKEX:700', 'Tencent Holdings · Hong Kong Exchange'),
+    'NVO': ('NYSE:NVO', 'Novo Nordisk ADR · NYSE'),
+    'BMW': ('XETR:BMW', 'BMW · Xetra'),
     'PLTR': ('NASDAQ:PLTR', 'Palantir Technologies · Nasdaq'),
     '2222': ('TADAWUL:2222', 'Saudi Aramco · Saudi Exchange'),
     'CAP': ('EURONEXT:CAP', 'Capgemini · Euronext Paris'),
