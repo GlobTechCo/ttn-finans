@@ -1,0 +1,38 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-04",
+  "publication_timestamp": "2026-11-04T21:02:20Z",
+  "articles": [
+    {
+      "id": "revolut-self-hosted-glm-ai-coding-costs-2026",
+      "source_checks": "User specifically commissioned this older case after freshness disclosure. Latest remote catalog has 358 entries: only a Revolut UK loans report, a Mistral GLM benchmark mention and a general inference explainer, no duplicate deployment case. Figures are attributed company claims. No complete TCO disclosure, no causal productivity assertion, no universal hosting cost, no claim a shift of model alone caused latency improvement, no invented other-company migration. Hypothetical 20% x 90% = 18% calculation explicitly labeled. Technical mechanisms from primary NVIDIA/MLCommons documentation are not claimed to be Revolut software. No verbatim quotes. Primary talk and Register account each used for under 200 words of core reported facts; rest is original economic analysis and separately sourced technical explanation.",
+      "sources": [
+        [
+          "AI Engineer NYC: David Abitbol presentation and transcript, October 13",
+          "https://ai.engineer/nyc/2026/talks/revolut"
+        ],
+        [
+          "The Register: Revolut deployment reporting, November 3",
+          "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+        ],
+        [
+          "NVIDIA: KV cache reuse and performance conditions",
+          "https://nvidia.github.io/TensorRT-LLM/latest/legacy/advanced/kv-cache-reuse.html"
+        ],
+        [
+          "NVIDIA: memory requirements and cache-aware serving",
+          "https://developer.nvidia.com/blog/introducing-new-kv-cache-reuse-optimizations-in-nvidia-tensorrt-llm/"
+        ],
+        [
+          "MLCommons: inference scenarios, metrics and quality targets",
+          "https://mlcommons.org/benchmarks/inference-datacenter/"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/generated_images/exec-77b1d7b2-044e-44ce-9051-3cc1d552b49a.png",
+      "visual_reference_source": "https://www.bankier.pl/wiadomosc/Revolut-z-robodoradca-Fintech-oferuje-automatyczne-inwestowanie-w-ETF-y-8698673.html",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.5,
+      "approval": "Owner approved the Revolut sign cover and explicitly requested publication of the reviewed English article."
+    }
+  ]
+}

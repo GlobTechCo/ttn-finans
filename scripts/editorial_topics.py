@@ -654,3 +654,7 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'europe-chip-desig
 RELATED['europe-chip-design-platform-525-million-startups-2026'] = ['ai-chips-bottlenecks-2026', 'finance-south-korea-exports-ai-chips-october-2026', 'amd-q3-2026-data-center-revenue-helios']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitgo-global-markets-institutional-financing-derivatives-2026')
 RELATED['bitgo-global-markets-institutional-financing-derivatives-2026'] = ['crypto-liquidation-leverage-explained', 'hong-kong-24-7-tokenized-interbank-settlement-2026', 'dtcc-tokenization-service-live-october-2026']
+
+# November 4: approved Revolut self-hosted coding AI report.
+GROUPS['Technology policy, security and platforms'].insert(0, 'revolut-self-hosted-glm-ai-coding-costs-2026')
+RELATED['revolut-self-hosted-glm-ai-coding-costs-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'mistral-large-4-open-weights-license-2026']

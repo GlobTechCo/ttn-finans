@@ -638,3 +638,7 @@ TITLES['europe-chip-design-platform-525-million-startups-2026'] = 'Europe Launch
 DESCRIPTIONS['europe-chip-design-platform-525-million-startups-2026'] = 'Europe launches a €525 million chip-design package combining grants and shared infrastructure to help startups move toward commercial production.'
 TITLES['bitgo-global-markets-institutional-financing-derivatives-2026'] = 'BitGo Launches Global Markets Business'
 DESCRIPTIONS['bitgo-global-markets-institutional-financing-derivatives-2026'] = 'BitGo launches Global Markets, combining institutional trading, financing and derivatives after its earlier acquisition of NYDIG’s trading business.'
+
+# Reviewed November 4 package.
+TITLES['revolut-self-hosted-glm-ai-coding-costs-2026'] = 'Revolut Says Self-Hosted AI Cut Coding Bill 90%'
+DESCRIPTIONS['revolut-self-hosted-glm-ai-coding-costs-2026'] = 'Revolut says self-hosted GLM reduced its coding-model bill by 90%. The case shows why GPU utilization and full operating costs matter.'

@@ -1,5 +1,66 @@
 const TTN_ARTICLES = [
   {
+    "id": "revolut-self-hosted-glm-ai-coding-costs-2026",
+    "title": "Revolut Says Self-Hosted AI Cut Its Coding Model Bill by 90%",
+    "dek": "The fintech runs GLM on 56 NVIDIA B200 GPUs for about 2,000 engineers. Its reported savings put infrastructure utilization and the full cost of AI in focus.",
+    "section": "Tech & AI",
+    "tickers": [
+      "NVDA"
+    ],
+    "imageAlt": "Editorial reconstruction of documented Revolut exterior signage and facade details.",
+    "date": "2026-11-04T21:02:20Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1-480.webp 480w, assets/responsive/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1-960.webp 960w, assets/editorial/revolut-self-hosted-glm-ai-coding-costs-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>Revolut says running an open-weight AI model on infrastructure it controls has reduced its coding-model bill to roughly a tenth of its previous spending with Anthropic and OpenAI. The fintech is using Z.ai’s GLM-5.3 on about 56 NVIDIA B200 GPUs to support approximately 2,000 engineers, according to AI operations leader David Abitbol.</p>",
+      "<p>Abitbol presented the deployment at AI Engineer NYC on October 13. The Register reported on the case on November 3. The results describe an existing internal system, rather than a newly announced November migration. Commercial tools, including Claude Code and Codex, remain available for exceptions.</p>",
+      "<p>For corporate technology budgets, the case raises a concrete buying decision. Paying an external model provider transfers much of the infrastructure work to a supplier. Operating an open-weight model gives the buyer more control over capacity and spending, while making it responsible for the economics of that capacity. The relevant comparison extends beyond the price of generating text.</p>",
+      "<h2>What the 90% figure measures</h2>",
+      "<p>Abitbol put the blended inference price at about $0.30 per million tokens. He described the invoice as one-tenth of earlier Anthropic and OpenAI spending. The presentation does not supply a complete reconciliation of hardware or rental charges, depreciation, electricity, staffing and other operating costs. It therefore cannot establish a 90% reduction in the total cost of software development.</p>",
+      "<p>A blended rate also combines different types of work. Input context, generated output, cached material and the number of attempts needed for an acceptable answer can change a comparison. Without matching the workload and the accounting boundary, one company’s achieved rate should not be read as a price another company can automatically obtain.</p>",
+      "<p>Our <a href=\"ai-inference-unit-economics-2026.html\">guide to AI inference economics</a> explains the distinction between cheap tokens and a cheap completed task. If a lower-priced system produces more work requiring human correction, part of the apparent saving can disappear. Conversely, a system that resolves routine work reliably can be economical even when a more capable model is still needed for difficult cases.</p>",
+      "<h2>The same hardware can deliver a different service</h2>",
+      "<p>Revolut’s slide reports time to first token falling from 14.26 seconds during migration to 1.68 seconds in the stable configuration, with the GPU count unchanged. That measures how quickly an answer begins. It is not the time needed to complete an engineering task, nor a direct latency comparison between GLM and Claude.</p>",
+      "<p>NVIDIA’s serving documentation explains one mechanism behind such improvements: a key-value cache preserves information already computed from earlier tokens. Reusing matching prompt prefixes can avoid processing the same material again. The benefit depends on request overlap, memory availability and scheduling; workloads sharing long prefixes can behave differently from unrelated requests.</p>",
+      "<p>NVIDIA also describes the competing pressure on memory as context lengths and simultaneous requests increase. That creates an operating trade-off. Allocating more space to one request can leave less room to serve others. A nominally powerful fleet can still produce queues if its serving configuration does not match the work arriving.</p>",
+      "<p>These are general infrastructure mechanisms, not independent validation of Revolut’s measurements or proof that it uses NVIDIA’s particular serving library. MLCommons similarly separates inference scenarios and metrics, with defined quality targets. A useful performance comparison needs the conditions under which the service delivers its answers, rather than a single maximum speed.</p>",
+      "<h2>Utilization determines how fixed costs are spread</h2>",
+      "<p>Self-hosting makes utilization a financial variable. Hardware ownership or a capacity commitment can create costs that continue when demand falls. Spreading those costs across a steady volume of useful work can improve unit economics. Keeping the same fleet ready for infrequent peaks can have the opposite effect. A smaller team cannot infer its own break-even point from Revolut’s engineering headcount.</p>",
+      "<p>An illustrative budget calculation shows why the cost boundary matters. If externally purchased inference accounts for 20% of a project’s total costs, cutting that line by 90% would reduce the total by 18%, assuming every other cost stayed unchanged. This is arithmetic using hypothetical inputs, not an estimate of Revolut’s budget. New infrastructure expenses would reduce the net saving further.</p>",
+      "<p>Demand can change after access becomes cheaper, too. A business may spend less per token while processing more tokens, or hold spending steady while attempting more work. Those can both be useful outcomes, but they answer different management questions. Assessing return on investment requires measuring accepted output, review effort and delivery time alongside the invoice.</p>",
+      "<h2>A hybrid model needs an operating owner</h2>",
+      "<p>Keeping commercial models available makes the deployment a choice about routing work, rather than a complete exit from outside suppliers. An organization can reserve more expensive capabilities for tasks where they justify the expense. It must still account for fallback usage and the engineering needed to maintain more than one route.</p>",
+      "<p>Our <a href=\"mistral-large-4-open-weights-license-2026.html\">report on Mistral’s open-weight release</a> examines a related distinction: downloadable weights provide deployment options, while licensing and operating requirements still need separate review. Access to a model is one component of a production service. Capacity planning, upgrades, incident investigation and application integration remain business responsibilities.</p>",
+      "<p>The strongest implication of Revolut’s case is that an inference bill can be managed through infrastructure and workflow choices, alongside model selection. The unresolved financial question is the full cost of delivering useful engineering output at the required quality. Its reported savings make that question worth examining; they do not establish a universal replacement formula for commercial AI services.</p>"
+    ],
+    "sources": [
+      {
+        "label": "AI Engineer NYC: David Abitbol presentation and transcript, October 13",
+        "url": "https://ai.engineer/nyc/2026/talks/revolut"
+      },
+      {
+        "label": "The Register: Revolut deployment reporting, November 3",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+      },
+      {
+        "label": "NVIDIA: KV cache reuse and performance conditions",
+        "url": "https://nvidia.github.io/TensorRT-LLM/latest/legacy/advanced/kv-cache-reuse.html"
+      },
+      {
+        "label": "NVIDIA: memory requirements and cache-aware serving",
+        "url": "https://developer.nvidia.com/blog/introducing-new-kv-cache-reuse-optimizations-in-nvidia-tensorrt-llm/"
+      },
+      {
+        "label": "MLCommons: inference scenarios, metrics and quality targets",
+        "url": "https://mlcommons.org/benchmarks/inference-datacenter/"
+      }
+    ]
+  },
+  {
     "id": "meta-nine-billion-euro-bond-debut-ai-financing-2026",
     "title": "Meta’s €9 Billion Euro Bond Debut Broadens Its AI Financing Drive",
     "dek": "The reported euro bond sale follows a $15 billion U.S. offering. Meta is widening its funding base as heavy capital spending puts pressure on free cash flow.",
