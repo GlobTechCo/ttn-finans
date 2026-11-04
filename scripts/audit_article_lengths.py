@@ -6,7 +6,9 @@ sources, related reading and other site furniture. These are TTN editorial
 requirements, not a Google word-count requirement. The October 30 rule applies
 to publications and substantive updates from that date. Unchanged older news
 retains its historical 600-word gate; this is not permission for new short copy.
-No network requests or writes.
+Owner-authorized historical copy reviews are recorded in editorial_length_reviews.
+Only an exact paragraph-text digest match qualifies; a later body edit restores
+the ordinary minimum. No network requests or writes.
 """
 import argparse
 import csv
