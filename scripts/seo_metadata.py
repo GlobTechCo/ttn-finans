@@ -614,3 +614,11 @@ TITLES['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = 'Novo Nordisk Raises 
 DESCRIPTIONS['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = 'Novo Nordisk raises its 2026 outlook as Wegovy pill sales reach DKK 5.4 billion, while impairments separate reported profit from adjusted earnings.'
 TITLES['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = 'BMW Cuts 2026 Margin Outlook as Restructuring Rises'
 DESCRIPTIONS['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = 'BMW cuts its 2026 automotive margin forecast toward break-even as restructuring expands, while maintaining a free-cash-flow target above €2.5 billion.'
+
+# Reviewed November 4 package.
+TITLES['us-treasury-november-2026-refunding-125-billion-buybacks'] = 'Treasury Sets $125B Refunding, Expands Buybacks'
+DESCRIPTIONS['us-treasury-november-2026-refunding-125-billion-buybacks'] = 'Treasury keeps its $125 billion refunding and plans larger liquidity buybacks, while dealer forecasts point to rising financing needs after fiscal 2027.'
+TITLES['openai-pierre-code-storage-acquisition-ai-coding-2026'] = 'OpenAI’s Pierre Deal Targets AI Code Storage'
+DESCRIPTIONS['openai-pierre-code-storage-acquisition-ai-coding-2026'] = 'OpenAI’s reported Pierre acquisition highlights the infrastructure costs of AI coding, from Git storage and concurrent work to review and software delivery.'
+TITLES['circle-q3-2026-arc-token-sales-reserve-income'] = 'Circle Revenue Rises 17% With ARC Token-Sale Boost'
+DESCRIPTIONS['circle-q3-2026-arc-token-sales-reserve-income'] = 'Circle’s Q3 revenue rose 17% to $865 million, but $182 million of ARC token sales masked lower reserve income and a weaker result excluding the sale.'

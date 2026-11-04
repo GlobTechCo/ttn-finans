@@ -1,5 +1,167 @@
 const TTN_ARTICLES = [
   {
+    "id": "us-treasury-november-2026-refunding-125-billion-buybacks",
+    "title": "U.S. Treasury Keeps $125 Billion Refunding as Longer-Term Funding Gap Looms",
+    "dek": "A $125 billion refinancing will raise about $28 billion in new cash. Larger buyback plans and a future seven-year-note change reshape the debt-management agenda.",
+    "section": "Market Analysis",
+    "tickers": [
+      "US10Y"
+    ],
+    "imageAlt": "Editorial reconstruction of the U.S. Treasury Department facade and its carved inscription in Washington, D.C.",
+    "date": "2026-11-04T15:00:28Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1-480.webp 480w, assets/responsive/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1-960.webp 960w, assets/editorial/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1.webp 1672w",
+    "body": [
+      "<p>The U.S. Treasury kept its quarterly refinancing package at $125 billion on November 4, maintaining regular note and bond auction sizes while expanding planned purchases of older securities. The decision gives investors a stable near-term supply schedule, even as documents released alongside it point to a larger financing challenge in later fiscal years.</p>",
+      "<p>The package will replace about $97 billion of privately held debt coming due and raise approximately $28 billion in additional cash. Those figures describe different parts of the transaction: the full auction amount is not an equivalent increase in government borrowing. Most of the proceeds refinance obligations that investors already hold.</p>",
+      "<h2>Stable auctions, continuing borrowing needs</h2>",
+      "<p>Next week’s sales comprise $58 billion of three-year notes, $42 billion of ten-year notes and $25 billion of thirty-year bonds. Treasury scheduled them for November 9, 10 and 12, respectively, with settlement on November 16. It expects to maintain nominal coupon and floating-rate-note auction sizes for the next several quarters, while using bills and cash-management securities to accommodate changes in financing needs.</p>",
+      "<p>The broader borrowing requirement remains substantial. On November 2, Treasury estimated privately held net marketable borrowing of $618 billion for October–December and $800 billion for January–March 2027. The current-quarter estimate was $10 billion below its August projection, largely because it began the period with more cash than assumed. Excluding that starting-cash difference, the estimate was $24 billion higher.</p>",
+      "<p>That distinction prevents a misleading fiscal interpretation. A smaller borrowing estimate can result from using an existing cash balance, even if the underlying need to finance payments has increased. It is therefore necessary to read the cash assumptions alongside the debt figures before treating a forecast revision as evidence of a smaller deficit.</p>",
+      "<h2>Buybacks address trading conditions</h2>",
+      "<p>Treasury plans up to $70 billion of purchases of older, less actively traded securities for liquidity support over the coming quarter, plus up to $25 billion for cash management. These are maximum planned amounts, rather than completed purchases. The liquidity program provides a potential outlet for securities that can be harder to trade than the newest benchmark issues.</p>",
+      "<p>Dealer feedback recorded in the November 3 advisory-committee minutes, released Wednesday, described at least modest improvements in market functioning following larger long-maturity buybacks. Participants cited a more dependable way to move older bonds and more stable relative pricing. The effect on dealers’ capacity to handle customer flows was mixed, however, and some preferred smaller, more frequent operations.</p>",
+      "<p>As TTN Finance explains in its guide to <a href=\"treasury-debt-buyback-explained.html\">Treasury buybacks and cash management</a>, purchasing existing debt does not by itself establish that total government borrowing is falling. New financing can replace the securities bought back. The relevant question is whether the operations improve trading and payment management sufficiently to justify their costs.</p>",
+      "<p>For bondholders, the distinction between liquidity support and interest-rate exposure also matters. A security that becomes easier to sell can still lose value if market yields rise. Our <a href=\"bond-duration-explained.html\">duration explainer</a> describes why the timing of a bond’s cash flows influences that price sensitivity.</p>",
+      "<h2>The pressure shifts toward future financing</h2>",
+      "<p>The advisory-committee minutes said current issuance sizes could leave a modest funding gap in fiscal 2027 that might be managed through bills. For fiscal 2028–2029, the median primary-dealer forecast implied a $2.14 trillion shortfall relative to the financing generated by current coupon sizes and privately held bill supply. That is a conditional planning estimate, not an announced auction increase or a forecast of default.</p>",
+      "<p>Dealer views also differed across maturities. The minutes identified money-market funds, stablecoins and the Federal Reserve’s securities portfolio as potential sources of growing bill demand, while banks were seen as potential buyers in intermediate maturities. Views on demand for longer-dated bonds were less uniform. A dollar of expected demand in bills cannot automatically be treated as demand for a thirty-year bond.</p>",
+      "<p>Treasury separately announced that seven-year notes will move from monthly new issues to a quarterly new issue followed by two reopenings, beginning in March 2027. Reopening an existing security adds to the same issue instead of creating another distinct bond each month. The change concerns how debt is organized and traded; it does not amount to eliminating monthly seven-year auctions.</p>",
+      "<p>The accompanying advisory report placed the decisions against higher financing costs and a large technology-investment cycle. It discussed the capacity of insurers, pensions, households and foreign investors to absorb additional fixed-income supply. Those observations are a framework for assessing demand, rather than a guarantee that every future auction will clear at today’s yields.</p>",
+      "<p>Near-term auction sizes therefore remain predictable, while the financing mix is still evolving. Next week’s results will show the prices and demand available for the announced securities. The later decision is how Treasury adjusts maturity, liquidity support and bill issuance as borrowing requirements develop, without confusing a stable auction calendar with a permanently settled funding outlook.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Treasury: November 4 refunding policy",
+        "url": "https://home.treasury.gov/news/press-releases/sb0678"
+      },
+      {
+        "label": "Treasury: November 2 borrowing estimates",
+        "url": "https://home.treasury.gov/news/press-releases/sb0675"
+      },
+      {
+        "label": "Treasury Borrowing Advisory Committee: November 4 report",
+        "url": "https://home.treasury.gov/news/press-releases/sb0679"
+      },
+      {
+        "label": "Treasury: November 3 committee minutes, released November 4",
+        "url": "https://home.treasury.gov/news/press-releases/sb0680"
+      }
+    ]
+  },
+  {
+    "id": "openai-pierre-code-storage-acquisition-ai-coding-2026",
+    "title": "OpenAI’s Reported Pierre Deal Targets the Infrastructure Behind AI Coding",
+    "dek": "The reported acquisition puts repository infrastructure in focus as AI agents generate more software. Storage, review and delivery costs shape the business case.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of developers examining a laptop beside an OpenAI exhibition panel; the people do not depict transaction participants.",
+    "date": "2026-11-04T15:00:28Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1-480.webp 480w, assets/responsive/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1-960.webp 960w, assets/editorial/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>OpenAI will acquire developer-tools startup Pierre Computer, Axios reported on November 4. The report puts a less visible part of the AI economy in focus: the infrastructure that stores and coordinates work after a model generates it. The commercial significance extends beyond producing code to the systems businesses need before that code can become a reliable product.</p>",
+      "<p>The reported move comes two days after OpenAI described Pando, the Git backend now supporting its own main software repository. Pierre’s Code Storage and OpenAI’s internal engineering work address a related operational challenge: allowing many developers and automated agents to save, retrieve and update work concurrently without forcing every task through the same bottleneck.</p>",
+      "<h2>Repositories are part of the production cost</h2>",
+      "<p>Git is the version-control system that records changes to files and connects them to a project’s history. A repository allows a team to recover previous versions, compare edits and identify the exact work sent into a build. A coding assistant can generate a plausible file without solving those coordination problems, particularly when several agents are changing different parts of a product at once.</p>",
+      "<p>Pierre describes Code Storage as programmable Git infrastructure for machine-generated material. Its product page lists code, agent memory files, design artifacts and legal documents among the workloads customers store. It offers standard Git access alongside software interfaces and connections to build systems. That puts its service behind the application a customer sees, as part of the infrastructure required to preserve and distribute results.</p>",
+      "<p>For an AI application provider, each additional customer can create storage, transfer and coordination expenses alongside model charges. A project may be downloaded into several execution environments, changed on multiple branches and checked repeatedly before release. The number of accepted features can therefore grow much more slowly than the amount of infrastructure activity generated around them.</p>",
+      "<p>This is a separate layer of the economics examined in TTN Finance’s <a href=\"ai-inference-unit-economics-2026.html\">guide to the cost of an accepted AI task</a>. Lower inference prices do not eliminate the expense of keeping work consistent, running tests or resolving conflicting edits. A useful commercial comparison includes the full delivery process.</p>",
+      "<h2>OpenAI’s internal experience shows the scale</h2>",
+      "<p>In its November 2 engineering account, OpenAI said Pando had reduced median push latency by nearly 80% and was delivering almost a petabyte of Git data per day. A push saves changes to a remote repository; reducing its delay can matter when many jobs are waiting to begin their next step. These are company-reported results for OpenAI’s environment, not an independently measured improvement available to every customer.</p>",
+      "<p>The company’s design lets updates to unrelated branches proceed independently and reuses stored packages of data when many clients need the same history. That trades some coordination work and repeated computation for caching and a different consistency model. The technical choice has a business consequence: serving an additional copy of the same project can require less fresh processing than rebuilding a unique response for every requester.</p>",
+      "<p>It also illustrates why a model supplier might want deeper expertise in development infrastructure. A faster model is less useful if the surrounding system spends its time waiting to fetch files or register changes. Improving that system could support a more responsive product, reduce wasted work or make heavier workloads economical. Those are potential benefits, rather than disclosed financial returns from the reported transaction.</p>",
+      "<h2>Storage and review solve different problems</h2>",
+      "<p>Code Storage’s documentation describes repositories that applications can create and manipulate through an API, while its product materials advertise synchronization with other Git hosting services. That makes compatibility a practical part of the offering. A customer considering new infrastructure can retain existing development relationships while testing a different service underneath a particular workflow.</p>",
+      "<p>Pierre also publishes Diffs, an open-source library for displaying changes between versions of code. Its documentation includes editing, annotations and conflict-resolution interfaces. Those functions address another constraint in AI development: a team must be able to understand what changed before accepting it. Preserving more generated work is valuable only if reviewers can identify useful changes and reject harmful ones.</p>",
+      "<p>TTN Finance’s <a href=\"ai-agents-enterprise-roi-2026.html\">analysis of enterprise-agent returns</a> explains why work left for people belongs in the productivity calculation. Generating many revisions can increase review demand rather than remove it. The financial benefit depends on the share of work that reaches an acceptable standard and the staff time required to get it there.</p>",
+      "<p>The reported acquisition broadens the competitive discussion from coding assistance to development infrastructure. Its ultimate value will depend on execution: reliable storage, manageable operating costs and workflows customers continue using after an initial trial. The available technical materials explain the problem the technology addresses; they do not provide a transaction valuation or establish how much revenue a combined offering would produce.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Axios: November 4 acquisition report",
+        "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github"
+      },
+      {
+        "label": "Pierre: Code Storage product documentation",
+        "url": "https://code.storage/"
+      },
+      {
+        "label": "Pierre: Code Storage introduction",
+        "url": "https://code.storage/docs/getting-started/introduction"
+      },
+      {
+        "label": "OpenAI: November 2 Pando engineering account",
+        "url": "https://openai.com/index/scaling-git-at-openai/"
+      },
+      {
+        "label": "Pierre: Diffs documentation and product description",
+        "url": "https://diffs.com/"
+      }
+    ]
+  },
+  {
+    "id": "circle-q3-2026-arc-token-sales-reserve-income",
+    "title": "Circle’s Revenue Rises 17%, but ARC Token Sales Drive the Increase",
+    "dek": "ARC token sales contributed $182 million to Circle’s quarter. Excluding that line, revenue and reserve income fell even as average USDC circulation increased.",
+    "section": "Crypto",
+    "tickers": [
+      "CRCL"
+    ],
+    "imageAlt": "Editorial reconstruction of a Circle office corridor with installed company branding and illustrative staff.",
+    "date": "2026-11-04T15:00:28Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/circle-q3-2026-arc-token-sales-reserve-income-cover-v1.webp",
+    "imageSmall": "assets/responsive/circle-q3-2026-arc-token-sales-reserve-income-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/circle-q3-2026-arc-token-sales-reserve-income-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/circle-q3-2026-arc-token-sales-reserve-income-cover-v1-480.webp 480w, assets/responsive/circle-q3-2026-arc-token-sales-reserve-income-cover-v1-960.webp 960w, assets/editorial/circle-q3-2026-arc-token-sales-reserve-income-cover-v1.webp 1672w",
+    "body": [
+      "<p>Circle reported a 17% increase in third-quarter revenue and reserve income to $865 million on November 4, but its latest disclosures show that ARC token sales supplied the difference between growth and decline. The $182 million contribution helped offset lower income from the reserves backing USDC, highlighting how a blockchain-network expansion is changing the stablecoin issuer’s earnings mix.</p>",
+      "<p>Without ARC token sales, the total was $683 million, compared with $740 million a year earlier. That is a decline of approximately 7.7%, calculated from Circle’s rounded figures. The comparison does not remove every unusual item from the accounts, but it makes clear that the headline growth rate cannot be read as an equivalent increase in the recurring reserve business.</p>",
+      "<h2>More USDC, a lower return on reserves</h2>",
+      "<p>Average USDC circulation increased 8% to $73.3 billion during the quarter. Reserve income nevertheless fell 8% to $658 million as the reserve return rate declined by 61 basis points. Circle ended September with $73.9 billion of USDC in circulation, broadly unchanged from a year earlier. An average balance and an end-of-period balance answer different questions and should not be substituted for each other.</p>",
+      "<p>The mechanism matters for investors in stablecoin issuers. Reserve income reflects both the amount backing tokens and the return earned on that backing. More circulating tokens can support revenue, but a lower realized reserve yield can offset the benefit. Activity across wallets and payment networks is therefore not a direct measure of the income retained by the issuer.</p>",
+      "<p>Distribution is another part of that calculation. Circle reported $412 million of distribution, transaction and other costs, down 8%. Its revenue after those costs was $453 million. Our earlier reporting on <a href=\"circle-usdc-revenue-sharing-stablecoin-competition-2026.html\">Circle’s revenue-sharing model</a> explains why the income earned on reserves is not the same as the amount available to cover corporate expenses and profit.</p>",
+      "<h2>The ARC contribution changes the earnings comparison</h2>",
+      "<p>Adjusted EBITDA reached $317 million, up 85%, while net income from continuing operations rose 5% to $226 million. In its investor presentation, Circle separated adjusted EBITDA into $135 million excluding ARC sales and the $182 million token-sales contribution. On that presentation, the ex-ARC figure was below the year-earlier adjusted EBITDA of $171 million.</p>",
+      "<p>Circle’s stated 70% adjusted EBITDA margin also uses a specific denominator: revenue and reserve income after distribution, transaction and other costs. It is not adjusted EBITDA divided by the full $865 million top line. Comparing that percentage with another company’s conventional revenue-based margin without checking the definition would overstate how directly comparable the two measures are.</p>",
+      "<p>The token sale is a disclosed part of the quarter’s business, rather than an accounting error. The investment question is how much of the contribution can recur and at what cost. Selling tokens, earning payment fees and receiving future network rewards have different economic characteristics. Treating them as one undifferentiated growth engine would hide those differences.</p>",
+      "<p>Circle’s presentation describes token sales as event-based and distinguishes them from possible staking rewards after Arc moves to proof of stake. It also identifies 2.5 billion ARC tokens held by Circle, equal to 25% of the initial supply, with recognition linked to sale or distribution. Those holdings should not be added to current operating revenue simply because they exist.</p>",
+      "<h2>A payment network still needs commercial adoption</h2>",
+      "<p>The company reported $41.3 billion of annualized payment volume for Circle Payments Network. The presentation defines that annualized figure using the trailing 30 days at quarter-end. It is a run rate, rather than $41.3 billion actually processed over the quarter. This distinction is important when comparing a growing network with a mature payment business reporting full-period transaction totals.</p>",
+      "<p>Arc’s public mainnet began operating on September 16, before Wednesday’s earnings release. Circle’s agreement to acquire Singapore-based payments company Tazapay was announced in September as well. Tazapay says the transaction is expected to close in 2027, subject to regulatory approvals. These developments provide context for the financial results; neither is a newly completed acquisition or a blockchain launch that happened on November 4.</p>",
+      "<p>Tazapay’s role is particularly practical: connecting digital settlement with local currencies, banking partners and payout routes. Those connections can help a stablecoin payment reach a recipient who needs ordinary money in a bank account. TTN Finance’s coverage of <a href=\"circle-aci-usdc-colombia-settlement-pilot-2026.html\">Circle’s planned settlement pilot with ACI in Colombia</a> examines a related effort to connect tokens with existing payment infrastructure.</p>",
+      "<p>Circle’s quarter therefore contains two distinct stories. The company is building additional financial infrastructure, while its established reserve-income business faced a lower return despite higher average circulation. Future results will show whether payment fees and network activity become a durable earnings contribution. For this quarter, the published breakdown gives investors a more demanding comparison than the headline 17% increase alone.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Circle: November 4 earnings exhibit filed with the SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/finalq3epr-110326.htm"
+      },
+      {
+        "label": "Circle: Q3 investor presentation, including ex-ARC comparisons",
+        "url": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/presentation/3Q26-Earnings-Presentation.pdf"
+      },
+      {
+        "label": "Circle: full Q3 earnings release and accounting definitions",
+        "url": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/earnings-result/3Q26-Earnings-Release.pdf"
+      },
+      {
+        "label": "Tazapay: September 8 agreement and expected closing conditions",
+        "url": "https://tazapay.com/blog/circle-acquires-tazapay"
+      }
+    ]
+  },
+  {
     "id": "tencent-hy4-enterprise-ai-pricing-open-weights-november-2026",
     "title": "Tencent Launches Hy4 as AI Competition Moves Into Enterprise Workflows",
     "dek": "Hy4 adds visual and computer-use capabilities, while discounted API access sharpens Tencent’s enterprise pitch. The final model’s weights are still promised for release.",

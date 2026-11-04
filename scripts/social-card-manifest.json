@@ -3552,6 +3552,39 @@
       "bytes": 643346,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/tencent-hy4-enterprise-ai-pricing-open-weights-november-2026.html"
+    },
+    {
+      "page": "us-treasury-november-2026-refunding-125-billion-buybacks.html",
+      "source": "assets/editorial/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1.webp",
+      "image": "assets/social/us-treasury-november-2026-refunding-125-billion-buybacks-cover-v1-44b0d36819de.webp",
+      "sha256": "44b0d36819de94771b3925b65c4a440c99a755fa7028953d87abd9ddd4c34e8d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 480338,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-treasury-november-2026-refunding-125-billion-buybacks.html"
+    },
+    {
+      "page": "openai-pierre-code-storage-acquisition-ai-coding-2026.html",
+      "source": "assets/editorial/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1.webp",
+      "image": "assets/social/openai-pierre-code-storage-acquisition-ai-coding-2026-cover-v1-73096aabb5ec.webp",
+      "sha256": "73096aabb5ec9930f295bc9f4820bc58b2368d44e054d0e21aad1e8c067f12e3",
+      "width": 1672,
+      "height": 941,
+      "bytes": 256050,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/openai-pierre-code-storage-acquisition-ai-coding-2026.html"
+    },
+    {
+      "page": "circle-q3-2026-arc-token-sales-reserve-income.html",
+      "source": "assets/editorial/circle-q3-2026-arc-token-sales-reserve-income-cover-v1.webp",
+      "image": "assets/social/circle-q3-2026-arc-token-sales-reserve-income-cover-v1-2c662118a16b.webp",
+      "sha256": "2c662118a16bbea0cd5e8e1836be9b51d7cf3291e4488a715d577a5194b768ae",
+      "width": 1672,
+      "height": 941,
+      "bytes": 408930,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/circle-q3-2026-arc-token-sales-reserve-income.html"
     }
   ]
 }

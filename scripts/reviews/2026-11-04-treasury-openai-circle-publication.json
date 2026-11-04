@@ -1,0 +1,92 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-04",
+  "publication_timestamp": "2026-11-04T15:00:28Z",
+  "articles": [
+    {
+      "id": "us-treasury-november-2026-refunding-125-billion-buybacks",
+      "source_checks": "New event: November 4 refunding policy, scheduled 08:30 ET (13:30 UTC / 15:30 Kyiv). November 2 borrowing estimates and November 3 meeting are explicitly dated background. The $2.14 trillion number is a conditional FY2028–2029 dealer funding-gap estimate, not current-quarter borrowing. Buybacks are caps, not completed volumes.",
+      "sources": [
+        [
+          "Treasury: November 4 refunding policy",
+          "https://home.treasury.gov/news/press-releases/sb0678"
+        ],
+        [
+          "Treasury: November 2 borrowing estimates",
+          "https://home.treasury.gov/news/press-releases/sb0675"
+        ],
+        [
+          "Treasury Borrowing Advisory Committee: November 4 report",
+          "https://home.treasury.gov/news/press-releases/sb0679"
+        ],
+        [
+          "Treasury: November 3 committee minutes, released November 4",
+          "https://home.treasury.gov/news/press-releases/sb0680"
+        ]
+      ],
+      "cover_source_file": "95d9431f-88fa-4489-9557-56d7fcb070f3.png",
+      "visual_reference_source": "https://www.al-monitor.com/originals/2024/01/us-treasury-sanctions-isis-facilitators-egypt-turkey",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.3,
+      "approval": "Owner explicitly requested publication and attached the three selected final covers, including the OpenAI developer-demo variant."
+    },
+    {
+      "id": "openai-pierre-code-storage-acquisition-ai-coding-2026",
+      "source_checks": "New event: Axios report November 4 at 11:29 UTC / 13:29 Kyiv, with company confirmation attributed to Axios. This is reported acquisition news; no completed-close claim, purchase price or invented valuation. Pando was disclosed November 2 and is dated background. Its performance results are vendor-reported. Slightly outside the default three-hour preference by completion, retained for significance and distinctness.",
+      "sources": [
+        [
+          "Axios: November 4 acquisition report",
+          "https://www.axios.com/2026/11/04/openai-pierre-computer-github"
+        ],
+        [
+          "Pierre: Code Storage product documentation",
+          "https://code.storage/"
+        ],
+        [
+          "Pierre: Code Storage introduction",
+          "https://code.storage/docs/getting-started/introduction"
+        ],
+        [
+          "OpenAI: November 2 Pando engineering account",
+          "https://openai.com/index/scaling-git-at-openai/"
+        ],
+        [
+          "Pierre: Diffs documentation and product description",
+          "https://diffs.com/"
+        ]
+      ],
+      "cover_source_file": "1ca16960-fe67-4e3f-8bd0-21a3fd18d84c.png",
+      "visual_reference_source": "https://images.wsj.net/im-33138169/social",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.3,
+      "approval": "Owner explicitly requested publication and attached the three selected final covers, including the OpenAI developer-demo variant."
+    },
+    {
+      "id": "circle-q3-2026-arc-token-sales-reserve-income",
+      "source_checks": "New event: Q3 results released November 4 before the announced 08:00 ET earnings webcast. Fresh financial breakdown verified against SEC exhibit and investor slides. Ex-ARC revenue comparison: (683/740−1)×100 ≈ −7.7%. Adjusted EBITDA margin denominator is revenue less distribution costs. Annualized CPN volume is based on trailing 30 days. Tazapay and mainnet dates are explicitly historical.",
+      "sources": [
+        [
+          "Circle: November 4 earnings exhibit filed with the SEC",
+          "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/finalq3epr-110326.htm"
+        ],
+        [
+          "Circle: Q3 investor presentation, including ex-ARC comparisons",
+          "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/presentation/3Q26-Earnings-Presentation.pdf"
+        ],
+        [
+          "Circle: full Q3 earnings release and accounting definitions",
+          "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/earnings-result/3Q26-Earnings-Release.pdf"
+        ],
+        [
+          "Tazapay: September 8 agreement and expected closing conditions",
+          "https://tazapay.com/blog/circle-acquires-tazapay"
+        ]
+      ],
+      "cover_source_file": "17012423-9a98-42bc-8267-6a6ce886dc41.png",
+      "visual_reference_source": "https://builtin.com/company/circle/offices",
+      "generated_reconstruction": true,
+      "editorial_fit_score": 8.3,
+      "approval": "Owner explicitly requested publication and attached the three selected final covers, including the OpenAI developer-demo variant."
+    }
+  ]
+}

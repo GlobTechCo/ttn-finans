@@ -630,3 +630,11 @@ GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'novo-nordisk-q3
 RELATED['novo-nordisk-q3-2026-wegovy-pill-sales-outlook'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'stock-buybacks-explained']
 GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'bmw-q3-2026-margin-outlook-restructuring-cash-flow')
 RELATED['bmw-q3-2026-margin-outlook-restructuring-cash-flow'] = ['volkswagen-q3-2026-loss-porsche-writedown', 'ford-q3-2026-profit-guidance-commodity-costs', 'free-cash-flow-explained']
+
+# November 4: approved Treasury, OpenAI/Pierre and Circle package.
+GROUPS['Bonds, credit and public finances'].insert(0, 'us-treasury-november-2026-refunding-125-billion-buybacks')
+RELATED['us-treasury-november-2026-refunding-125-billion-buybacks'] = ['treasury-debt-buyback-explained', 'treasury-general-account-liquidity-explained', 'bond-duration-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'openai-pierre-code-storage-acquisition-ai-coding-2026')
+RELATED['openai-pierre-code-storage-acquisition-ai-coding-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'tencent-hy4-enterprise-ai-pricing-open-weights-november-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'circle-q3-2026-arc-token-sales-reserve-income')
+RELATED['circle-q3-2026-arc-token-sales-reserve-income'] = ['circle-usdc-revenue-sharing-stablecoin-competition-2026', 'stablecoins-explained-depeg-risk', 'circle-aci-usdc-colombia-settlement-pilot-2026']
