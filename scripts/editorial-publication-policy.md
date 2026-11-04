@@ -46,6 +46,23 @@ Updated following the user's editorial correction on October 17, 2026.
 
 Use Reuters standards (https://reutersagency.com/about/standards-values/) and AP sourcing principles (https://www.ap.org/about/news-values-and-principles/telling-the-story/) as references for verification, attribution, balance and clear distinctions between fact, allegation and analysis. Follow Google’s people-first guidance and contextual link practices (https://developers.google.com/search/docs/crawling-indexing/links-crawlable): useful original reporting and reader understanding take priority over clickbait, keyword stuffing or a fixed link count. Review the lead, stakes for the reader, specific comparisons, source transparency, informative subheads and story-specific imagery before publication. Distribute useful internal links through the text rather than reserving them for a closing paragraph or Related reading box. Audience growth is an objective, not a promised outcome.
 
+## Additional discovery sources, requested November 4
+
+Include the following owner-requested sources in editorial news discovery when relevant to the section and event. They supplement the existing broad search and primary-source checks:
+
+- The Register: IT, enterprise technology and infrastructure.
+- Trending Topics: startups and technology.
+- Dealroom: venture-capital data, startup funding and ecosystem analysis.
+- ChainCatcher: fintech, blockchain and digital-asset developments.
+- Binance News: crypto news leads and exchange announcements.
+- KuCoin News: crypto news leads and exchange announcements.
+- Longbridge: finance, markets and corporate developments.
+- Ground News: aggregated coverage and discovery of original reporting.
+- Hacker News: IT and developer-community leads.
+- Reddit: developer-community discussions and leads.
+
+Follow aggregator and community links to the original publication, announcement, filing, technical documentation or other relevant primary evidence. Treat posts, comments, trending rankings and exchange-affiliated news as leads or attributed claims; verify material facts independently where appropriate. An exchange's own product announcement is primary evidence for what that exchange announced, not independent confirmation of investment, adoption or performance claims. Preserve original event times and the existing freshness, significance, verification and duplicate-story gates. This addition applies to editorial research only; it does not modify the website's News Aggregator configuration or activate background monitoring.
+
 ## Broad discovery and direct primary sources, October 22
 
 - Begin each commissioned search with a broad scan across the requested sections and time window. Compare a varied pool of candidate events before selecting the strongest stories. Do not stop discovery simply because the requested number of publishable topics has been found, and do not use the first three convenient results as the default package.
