@@ -1,6 +1,145 @@
 /* TTN original explainers and analysis. */
 const TTN_ARTICLES = [
   {
+    "id": "amd-q3-2026-data-center-revenue-helios",
+    "title": "AMD’s $13.4 Billion Quarter Puts AI Infrastructure Demand Back in Focus",
+    "dek": "Data-center sales nearly doubled, while a $17 billion fourth-quarter forecast raises the stakes for AMD’s transition from individual chips to complete computing systems.",
+    "section": "Tech & AI",
+    "tickers": [
+      "AMD"
+    ],
+    "imageAlt": "Editorial illustration of an AMD Helios rack, reconstructed from AMD’s official hardware reference in an illustrative equipment room.",
+    "date": "2026-11-04T09:11:47Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/amd-q3-2026-data-center-revenue-helios-cover-v1.webp",
+    "imageSmall": "assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-480.webp 480w, assets/responsive/amd-q3-2026-data-center-revenue-helios-cover-v1-960.webp 960w, assets/editorial/amd-q3-2026-data-center-revenue-helios-cover-v1.webp 1672w",
+    "body": [
+      "<p>AMD reported record third-quarter revenue of $13.4 billion on November 3, up 45% from a year earlier, as its data-center business expanded 97% to $8.5 billion. The semiconductor designer expects approximately $17 billion of fourth-quarter sales, plus or minus 3%. That outlook gives the AI infrastructure debate a concrete new test: whether a rapidly expanding supplier can turn demand for computing capacity into another substantial increase in delivered revenue.</p>",
+      "<p>The results show why broad statements about the AI trade can obscure meaningful differences between companies. A chip supplier recognizes sales when its accounting requirements are met; the customer still has to install the equipment, operate it and earn an acceptable return. Strong supplier revenue therefore demonstrates purchasing activity without establishing that the entire chain of AI investment is equally profitable. That distinction matters when assessing both AMD’s opportunity and its customers’ spending.</p>",
+      "<h2>A larger business, with a different mix</h2>",
+      "<p>According to AMD’s release, GAAP net income reached $2.4 billion, or $1.46 per diluted share. Adjusted earnings were $2.09 per share. The company’s combined Client and Gaming segment generated $3.7 billion, down 8%, while Embedded revenue rose 29% to $1.1 billion. These figures make the quarter more specific than a uniform recovery across semiconductors: the fastest expansion came from infrastructure, while the combined consumer-facing segment moved in the opposite direction.</p>",
+      "<p>Using the rounded figures in the release, data centers accounted for roughly 63% of total revenue. That is a TTN calculation, rather than a separately reported company metric. It illustrates how much the composition of AMD’s business now influences the overall result. A smaller percentage movement in a large infrastructure segment can outweigh a more dramatic change in a smaller operation, making the source of growth as important as the consolidated growth rate.</p>",
+      "<p>Investors also need to keep the two earnings measures separate. GAAP and adjusted profit answer different questions because the adjusted presentation excludes specified expenses. A comparison that takes revenue from one accounting presentation and profitability from another can make a quarter appear cleaner than the underlying reconciliation warrants. TTN’s explanation of <a href=\"earnings-beat-miss-explained.html\">why an earnings beat can disappoint investors</a> describes the additional role of expectations and forward guidance.</p>",
+      "<h2>The competitive unit is becoming the rack</h2>",
+      "<p>AMD’s Helios documentation describes a system integrating 72 Instinct MI455X GPUs with EPYC processors and networking. It is a reference design for partners, rather than a single finished AMD retail product. Its double-wide rack format, liquid cooling and modular trays illustrate a wider shift in the industry: competing for a customer’s workload increasingly requires coordinating the entire installation, rather than offering a faster accelerator in isolation.</p>",
+      "<p>For a buyer, the useful comparison is the cost of completing a workload reliably. That includes the purchase price of equipment, electricity, cooling, networking, software work and staff time. A lower-priced processor can become expensive if a deployment needs extensive engineering or suffers poor utilization. Conversely, a costlier system may be economical if it completes more useful work within the same power allocation. Neither outcome can be inferred from a headline specification alone.</p>",
+      "<p>AMD’s product materials also emphasize ROCm, its software environment for running accelerated workloads. Software portability matters because a customer changing hardware suppliers may have to adapt code, retest models and retrain operating teams. These are practical switching costs. Support for familiar tools can reduce friction, but vendor documentation is not an independent measurement of the expense or reliability of a particular customer’s migration.</p>",
+      "<p>The physical installation imposes a separate limit. A delivered rack needs an appropriate electrical connection, cooling capacity and network links before it can produce useful output. Those dependencies help explain why a server order, a shipment and a fully productive deployment are different milestones. TTN’s reporting on <a href=\"ai-data-center-boom-power-delivery-debt-2026.html\">power delivery and financing in the data-center buildout</a> provides the infrastructure context for that distinction.</p>",
+      "<h2>The forecast becomes the next checkpoint</h2>",
+      "<p>AMD’s $17 billion forecast is an expectation, not booked fourth-quarter revenue. Relative to the rounded $13.4 billion reported for the third quarter, it implies approximately 27% sequential growth at the midpoint, a TTN calculation. The scale makes shipment execution consequential: customer acceptance, manufacturing availability and the timing of system integration can influence how much of an anticipated ramp appears within a particular reporting period.</p>",
+      "<p>The next useful evidence will extend beyond a single sales figure. Revenue growth accompanied by sustained margins would suggest that additional volume is contributing to earnings. Cash collection would help establish whether accounting growth is converting into financial resources. A broader deployment base would reduce reliance on any individual buyer. These are analytical checkpoints, not claims that AMD has already achieved every condition or disclosed a particular future outcome.</p>",
+      "<p>The quarter strengthens the evidence that AI infrastructure purchases remain substantial at AMD. It does not settle the return its customers will ultimately earn, the durability of every spending plan or the appropriate valuation of the stock. For readers following the sector, the consequential change is the size of the operating business and the further increase management now expects to deliver. Execution against that forecast will provide a clearer answer than another general declaration about the AI boom.</p>"
+    ],
+    "sources": [
+      {
+        "label": "AMD third-quarter results",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+      },
+      {
+        "label": "AMD Helios reference architecture",
+        "url": "https://www.amd.com/en/products/rackscale-solutions/helios.html"
+      },
+      {
+        "label": "AMD Instinct MI400 product documentation",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi400.html"
+      }
+    ]
+  },
+  {
+    "id": "dollar-midterms-ai-growth-risk-november-4-2026",
+    "title": "Dollar Falls After U.S. Midterms as Investors Reassess the AI Growth Premium",
+    "dek": "A weaker dollar alongside stronger Treasury prices shows how political uncertainty can change expectations for growth and interest rates at the same time.",
+    "section": "Market Analysis",
+    "tickers": [
+      "EUR/USD"
+    ],
+    "imageAlt": "Editorial illustration of U.S. dollar and euro banknotes on a currency-exchange counter.",
+    "date": "2026-11-04T09:11:47Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-480.webp 480w, assets/responsive/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-960.webp 960w, assets/editorial/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>The dollar fell to a one-month low on November 4 after Democratic gains in U.S. congressional elections prompted investors to reassess the outlook for AI investment and economic growth, Reuters reported. In its early report, the agency put the dollar index at 101.41 and the 10-year Treasury yield near 4.921%. These are dated market observations, not live quotations. The combination points to an important distinction: demand for U.S. bonds can rise while demand for the dollar weakens.</p>",
+      "<p>The election has changed the political setting in which investors evaluate future policy. It has not itself changed the Federal Reserve’s interest rate or enacted a new rule for AI businesses. The immediate currency movement is therefore best understood as a repricing of expectations. Whether those expectations become lasting economic consequences depends on subsequent decisions, business activity and inflation, rather than the election result alone.</p>",
+      "<h2>The interest-rate channel</h2>",
+      "<p>The Federal Reserve held its policy target at 3.75% to 4% on October 28. Its statement described strong economic activity, robust capital investment and elevated inflation. Two policymakers dissented in favor of an increase. That starting point matters: a market reassessment of future growth is occurring while the central bank is still concerned about price pressures, rather than against a backdrop of an announced easing cycle.</p>",
+      "<p>A currency reflects the relative appeal of holding assets denominated in it. If investors lower their expected path for U.S. interest rates while expectations elsewhere change less, the prospective income advantage of dollar assets can diminish. Exchange rates can adjust before any central bank acts. This is why the current policy rate and the expected future rate path should be treated as separate pieces of information.</p>",
+      "<p>TTN’s guide to <a href=\"eur-usd-rate-differential-explained.html\">the interest-rate differential behind EUR/USD</a> explains that relationship. It is a useful framework rather than a mechanical trading rule. Currency hedging costs, investor positioning and demand for liquidity can all influence the result. Even a correct reading of relative interest rates does not supply a precise exchange-rate target or a reliable date for a move.</p>",
+      "<p>The same distinction applies to government bonds. A Treasury’s market yield can fall because its price rises, without the Federal Reserve changing its policy target. Investors may purchase longer-term debt when they expect weaker growth, lower inflation or greater demand for safe assets. The move in a benchmark yield is therefore evidence of changing market prices, not proof that a specific monetary decision has already been made.</p>",
+      "<h2>AI spending reaches beyond technology shares</h2>",
+      "<p>Investment in computing infrastructure can affect construction, electrical equipment, financing and services as well as semiconductor revenue. If investors anticipate delays or lower spending, they may reconsider activity across those connected businesses. The currency implication is indirect: a changed assessment of investment can alter expectations for growth and interest rates, which can then alter the relative attraction of dollar assets.</p>",
+      "<p>That transmission should not be confused with an established forecast of economic contraction. A project facing closer scrutiny might be delayed, redesigned or completed with different conditions. Some spending might move to another location instead of disappearing. The eventual effect would depend on the scale, timing and substitution involved. A currency selloff does not measure any of those quantities by itself.</p>",
+      "<p>There is also a difference between a company’s operating prospects and the price investors pay for its stock. A business can continue increasing revenue while its valuation falls if investors demand a higher return or become less confident about later earnings. TTN’s coverage of <a href=\"ai-investment-central-banks-interest-rates-2026.html\">AI investment and central-bank interest rates</a> examines why infrastructure spending and financial conditions need to be considered together.</p>",
+      "<h2>Political control is one input</h2>",
+      "<p>Congressional control can influence spending negotiations, hearings and the legislative agenda, but election results do not reveal the final contents of legislation. Regulatory agencies, courts and state or local authorities have separate roles. For a data-center proposal, land use and electricity connections can matter alongside federal policy. Treating every possible obstacle as a single nationwide ban would overstate what an election outcome establishes.</p>",
+      "<p>The currency impact can also differ from the effect on an individual industry. A policy that restrains one kind of investment could have other implications for borrowing, public spending or competition. Investors must assess the combined consequences. That is one reason a headline-driven move can change as more information arrives, even when the original political result remains unchanged.</p>",
+      "<p>For American households and businesses, a weaker dollar has uneven effects. Foreign-currency expenses become more costly when translated into dollars, while overseas income can translate into more dollars. Import prices may adjust with a delay because contracts, hedging and margins absorb part of the movement. These are general transmission mechanisms; a single trading session does not establish the size of the eventual effect on any particular bill or company.</p>",
+      "<p>The next durable signal will come from the interaction of inflation, employment, investment and policy decisions. If growth remains firm and inflation persistent, expectations for lower interest rates could prove premature. If investment slows and price pressures ease, the initial repricing could receive stronger support. November 4’s move marks a change in the market’s assessment of risk. The economic evidence needed to validate that assessment is still unfolding.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters currency-market report, November 4",
+        "url": "https://www.reuters.com/world/africa/dollar-dips-with-us-midterm-results-focus-2026-11-04/"
+      },
+      {
+        "label": "Federal Reserve statement, October 28",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      }
+    ]
+  },
+  {
+    "id": "bitcoin-us-midterms-regulation-risk-november-4-2026",
+    "title": "Bitcoin’s Post-Election Dip Highlights the Gap Between Policy Hopes and Market Risk",
+    "dek": "Bitcoin recovered toward $78,070 after touching a six-week low, as traders weighed the U.S. legislative outlook and the separate risks of holding assets on exchanges.",
+    "section": "Crypto",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ],
+    "imageAlt": "Editorial illustration of a physical Bitcoin token on dollar banknotes beside U.S. flag fabric.",
+    "date": "2026-11-04T09:11:47Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-480.webp 480w, assets/responsive/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-960.webp 960w, assets/editorial/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>Bitcoin briefly reached a six-week low on November 4 before recovering to about $78,070 at 07:15 GMT, according to Reuters. Ether traded around $2,292. The agency linked the initial weakness to uncertainty about the U.S. legislative outlook after Democratic congressional victories, alongside continuing concern about exchange custody. The rebound matters as much as the dip: the early trading pattern does not support describing an uninterrupted post-election collapse.</p>",
+      "<p>For the digital-asset industry, the immediate issue is the difference between favorable political expectations and an enforceable operating framework. An election can change the perceived probability of future legislation. It does not, by itself, alter the Bitcoin protocol, rewrite an exchange’s customer agreement or resolve the legal treatment of every token. Those separate questions are frequently compressed into a single judgment about whether an outcome is positive or negative for crypto.</p>",
+      "<h2>Political expectations have a market price</h2>",
+      "<p>When traders expect easier access, clearer rules or greater institutional participation, they may incorporate those expectations into asset prices before the underlying changes occur. If that anticipated path becomes less certain, the premium can shrink. Such a move does not require a new restriction to have taken effect. The change is in the range of possible future outcomes and the probability investors attach to each.</p>",
+      "<p>Regulation also affects different parts of the industry differently. A payment-token issuer, a securities intermediary and an offshore derivatives venue do not have identical businesses or obligations. A rule that benefits one service might increase costs for another. Bitcoin’s price is therefore an imperfect summary of the operating outlook for every company described as a crypto business.</p>",
+      "<p>TTN’s earlier reporting on <a href=\"crypto-us-midterms-176-million-lobbying-november-2026.html\">the industry’s involvement in the U.S. midterms</a> provides context for why the election attracted market attention. The relevant next steps are concrete: proposed legislative language, committee action, agency decisions and implementation dates. Campaign commitments and changes in the composition of Congress are inputs into that process, rather than substitutes for completed policy.</p>",
+      "<h2>Custody risk is a different exposure</h2>",
+      "<p>The distinction between an asset and the institution holding it is particularly important during a security incident. A customer may have economic exposure to Bitcoin while relying on an exchange to maintain records and process withdrawals. The market price of the token and the customer’s practical ability to retrieve it are separate risks. A stable quotation cannot establish that a custodial platform is operating normally.</p>",
+      "<p>Self-custody changes the allocation of responsibility rather than removing every hazard. It reduces dependence on an intermediary’s withdrawal process, but makes control of keys, backups and transaction verification critical. A mistaken transfer or compromised signing process can have consequences independent of the market cycle. These distinctions explain why a security event can affect confidence more broadly without demonstrating that the Bitcoin network itself has failed.</p>",
+      "<p>TTN’s coverage of <a href=\"bitcoin-core-node-crash-security-fixes-october-2026.html\">Bitcoin Core security fixes</a> concerns software and network participation, a different layer from exchange custody. Readers evaluating an incident should identify which layer is affected before drawing conclusions. An application outage, compromised account, stolen signing key and consensus failure describe materially different events, even if each is introduced in a headline as a crypto security problem.</p>",
+      "<p>Proof-of-reserves information likewise needs to be interpreted within its scope. Evidence that particular assets exist at a particular moment does not automatically describe all liabilities, legal claims or the availability of funds during stress. The useful questions concern the coverage of the disclosure, the date, who controls the assets and what verification was performed. Treating one snapshot as a complete assessment of financial resilience skips those distinctions.</p>",
+      "<h2>The macroeconomic backdrop still matters</h2>",
+      "<p>The Federal Reserve left its target rate at 3.75% to 4% on October 28 and said inflation remained elevated. That is relevant background for assets whose valuation depends heavily on investors’ willingness to bear risk. Interest-bearing alternatives create a comparison for capital allocation, even though they have different liquidity, credit and market characteristics from digital tokens.</p>",
+      "<p>Bitcoin does not promise a contractual stream of corporate earnings or coupon payments. Its market price depends on the balance of buyers and sellers and their assessment of its future utility and scarcity. Changes in financing conditions can therefore affect demand without changing the issuance rules. That does not imply a fixed relationship with interest rates, equities or the dollar in every trading session.</p>",
+      "<p>Leverage can amplify that adjustment. A position financed with borrowed funds may need additional collateral when prices move against it. Forced reductions can then add selling pressure. This is a general mechanism, not a claim that a verified quantity of liquidations caused the November 4 move. Without reliable position and transaction data, assigning a precise share of a price decline to forced selling would be speculative.</p>",
+      "<p>The practical reading of the session is narrower than a verdict on crypto’s future. Traders reacted to political uncertainty, prices partially recovered and the industry still faces distinct questions about regulation, custody and funding conditions. Evidence of enacted policy, verifiable operating disclosures and sustained market participation will be more informative than assigning a permanent label to an election-night price move. For now, the market has repriced uncertainty; it has not resolved it.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters crypto-market report, November 4",
+        "url": "https://www.reuters.com/business/finance/crypto-dips-democrat-midterm-wins-binance-hack-dent-optimism-2026-11-04/"
+      },
+      {
+        "label": "Federal Reserve statement, October 28",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+      }
+    ]
+  },
+  {
     "id": "aramco-q3-2026-profit-free-cash-flow-dividend",
     "title": "Aramco Reports $36.3 Billion Profit as Refining Margins Lift Cash Flow",
     "dek": "Saudi Aramco posted $36.25 billion in third-quarter net income and stronger free cash flow, with refining and export flexibility supporting results.",

@@ -359,3 +359,9 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'capgemini-q3
 RELATED['capgemini-q3-2026-ai-revenue-guidance'] = ['ai-agents-enterprise-roi-2026', 'free-cash-flow-explained', 'sap-cheaper-ai-models-cost-per-task-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'anchorpoint-hkdap-solana-visa-mastercard-plans-2026')
 RELATED['anchorpoint-hkdap-solana-visa-mastercard-plans-2026'] = ['stablecoins-explained-depeg-risk', 'hsbc-redcoin-payme-launch-october-2026', 'polygon-solana-stablecoin-bank-payments-2026']
+
+# Owner-approved November 4 articles.
+RELATED.update({'amd-q3-2026-data-center-revenue-helios': ['earnings-beat-miss-explained', 'ai-data-center-boom-power-delivery-debt-2026', 'ai-inference-unit-economics-2026'], 'dollar-midterms-ai-growth-risk-november-4-2026': ['eur-usd-rate-differential-explained', 'dxy-dollar-index-explained', 'ai-investment-central-banks-interest-rates-2026'], 'bitcoin-us-midterms-regulation-risk-november-4-2026': ['crypto-us-midterms-176-million-lobbying-november-2026', 'bitcoin-core-node-crash-security-fixes-october-2026', 'crypto-liquidation-leverage-explained']})
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'amd-q3-2026-data-center-revenue-helios')
+GROUPS['Central banks and currencies'].insert(0, 'dollar-midterms-ai-growth-risk-november-4-2026')
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'bitcoin-us-midterms-regulation-risk-november-4-2026')

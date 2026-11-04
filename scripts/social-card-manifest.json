@@ -3486,6 +3486,39 @@
       "bytes": 230144,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/us-employment-cost-index-q3-2026-real-wages.html"
+    },
+    {
+      "page": "amd-q3-2026-data-center-revenue-helios.html",
+      "source": "assets/editorial/amd-q3-2026-data-center-revenue-helios-cover-v1.webp",
+      "image": "assets/social/amd-q3-2026-data-center-revenue-helios-cover-v1-1528ab208a32.webp",
+      "sha256": "1528ab208a32f12fadcebdb2a613f8d21ebd1e164f15232d5d3a69d00dfe61b4",
+      "width": 1672,
+      "height": 941,
+      "bytes": 280322,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/amd-q3-2026-data-center-revenue-helios.html"
+    },
+    {
+      "page": "bitcoin-us-midterms-regulation-risk-november-4-2026.html",
+      "source": "assets/editorial/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1.webp",
+      "image": "assets/social/bitcoin-us-midterms-regulation-risk-november-4-2026-cover-v1-3f724e6cb14a.webp",
+      "sha256": "3f724e6cb14a711362ada011f586eb2da88fd7729e751ddd17322061cd272306",
+      "width": 1672,
+      "height": 941,
+      "bytes": 452346,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-us-midterms-regulation-risk-november-4-2026.html"
+    },
+    {
+      "page": "dollar-midterms-ai-growth-risk-november-4-2026.html",
+      "source": "assets/editorial/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1.webp",
+      "image": "assets/social/dollar-midterms-ai-growth-risk-november-4-2026-cover-v1-c404655d8964.webp",
+      "sha256": "c404655d8964173ad9d1941d3a7ab14239d77098316c1fd77e914b27150a8367",
+      "width": 1672,
+      "height": 941,
+      "bytes": 469782,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/dollar-midterms-ai-growth-risk-november-4-2026.html"
     }
   ]
 }
