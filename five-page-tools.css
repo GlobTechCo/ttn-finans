@@ -1,0 +1,20 @@
+/* Scoped enhancements for the five reviewed guides and tools. */
+.ttn-table-scroll { width:100%; max-width:100%; min-width:0; overflow-x:auto; margin:1.2rem 0; border:1px solid var(--border); border-radius:var(--radius); }
+.ttn-table-scroll:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.ttn-data-table { width:100%; border-collapse:collapse; font:inherit; font-size:.9rem; line-height:1.5; }
+.ttn-data-table caption { text-align:left; font-weight:600; padding:12px; color:var(--text); }
+.ttn-data-table th,.ttn-data-table td { padding:12px; border-bottom:1px solid var(--border); text-align:left; vertical-align:top; overflow-wrap:anywhere; }
+.ttn-data-table th { font-weight:600; background:var(--surface-2); }
+.ttn-formula { padding:14px; border-left:3px solid var(--accent); background:var(--surface-2); overflow-wrap:anywhere; }
+.ttn-updated { color:var(--text-dim); font-size:.85rem; }
+.ttn-result-breakdown { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:8px 12px; margin-top:16px; }
+.ttn-result-breakdown dd { margin:0; text-align:right; overflow-wrap:anywhere; font-variant-numeric:tabular-nums; }
+.ttn-result-breakdown[hidden],[hidden]#ci-breakdown { display:none; }
+#main-content .calc-field { min-width:0; }
+#main-content .calc-field input { box-sizing:border-box; max-width:100%; }
+#main-content .calc-result .big,#main-content .calc-result .sub { overflow-wrap:anywhere; }
+@media(max-width:600px) {
+ .ttn-data-table { min-width:560px; font-size:.85rem; }
+ .ttn-data-table th,.ttn-data-table td { padding:10px; }
+ #main-content .calc-row { grid-template-columns:minmax(0,1fr); }
+}
