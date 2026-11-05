@@ -142,6 +142,7 @@ def verify():
         assert all(field in FIELD_ORDER for field in fields), ('Unknown sitemap field', fields)
         assert fields==sorted(fields,key=FIELD_ORDER.get) and len(fields)==len(set(fields)), ('Invalid sitemap XSD field order', entry.find('s:loc',ns).text, fields)
     sitemap_locations=[u.find('s:loc',ns).text for u in urls]
+    assert (ROOT/'sitemap-pages.txt').read_text(encoding='utf-8').splitlines()==sitemap_locations, 'Plain-text sitemap must match XML'
     assert len(sitemap_locations)==len(set(sitemap_locations)), 'Duplicate sitemap URLs'
     expected_locations=set()
     for name,doc in docs.items():

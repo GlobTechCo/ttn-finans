@@ -63,6 +63,12 @@ def refresh_sitemap(root=ROOT):
     text, repaired = normalize_field_order(text)
     if text != path.read_text():
         path.write_text(text)
+    # A plain-text companion provides an independent supported sitemap format.
+    locations = [node.text for node in ET.fromstring(text).findall('s:url/s:loc', NS)]
+    companion = root / 'sitemap-pages.txt'
+    listing = '\n'.join(locations) + '\n'
+    if not companion.exists() or companion.read_text() != listing:
+        companion.write_text(listing, encoding='utf-8')
     print(f'Sitemap: added {len(additions)} canonical pages; corrected {repaired} field orders; {len(existing) + len(additions)} total URLs.')
     return len(additions)
 
