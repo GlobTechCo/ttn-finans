@@ -13,15 +13,33 @@ document.addEventListener("DOMContentLoaded", () => {
   const money = (v) => "$" + fmt(v);
 
   if (el("ci-principal")) {
+    function clearBreakdown() {
+      if (el("ci-breakdown")) { el("ci-breakdown").hidden = true; el("ci-rows").replaceChildren(); }
+    }
     function calc() {
+      clearBreakdown();
       const p = number("ci-principal"), c = number("ci-monthly"), rate = number("ci-rate"), years = number("ci-years"), months = Math.round(years * 12);
       if (![p,c,rate,years].every(Number.isFinite) || p < 0 || c < 0 || rate <= -100 || rate > 1000 || years < 0 || years > 60 || Math.abs(years * 12 - months) > 0.00001) return invalid("ci", "Enter nonnegative amounts, a rate above −100%, and a horizon of 0–60 years in whole months.");
       const r = rate / 1200;
-      const factor = Math.pow(1 + r, months);
-      const balance = r === 0 ? p + c * months : p * factor + c * Math.expm1(months * Math.log1p(r)) / r;
-      const contributed = p + c * months;
-      if (!Number.isFinite(balance)) return invalid("ci", "These values exceed the calculation range.");
+      const balanceAt = n => r === 0 ? p + c * n : p * Math.pow(1 + r, n) + c * Math.expm1(n * Math.log1p(r)) / r;
+      const balance = balanceAt(months), contributed = p + c * months;
+      if (![balance,contributed,balance-contributed].every(Number.isFinite)) return invalid("ci", "These values exceed the calculation range.");
       result("ci", money(balance), `Contributed: ${money(contributed)} · Growth: ${money(balance - contributed)}`);
+      if (el("ci-rows")) {
+        const periods = [];
+        if (months === 0) periods.push(["Start (0 months)", p, 0, 0, p]);
+        for (let start = 0; start < months; start += 12) {
+          const end = Math.min(start + 12, months), opening = balanceAt(start), closing = balanceAt(end), deposits = c * (end - start);
+          const label = end - start === 12 ? `Year ${start / 12 + 1}` : `Year ${start / 12 + 1} (${end - start} months)`;
+          periods.push([label, opening, deposits, closing - opening - deposits, closing]);
+        }
+        for (const values of periods) {
+          const tr = document.createElement("tr");
+          values.forEach((v,i) => { const cell = document.createElement(i === 0 ? "th" : "td"); if (i === 0) cell.scope = "row"; cell.textContent = i === 0 ? v : money(v); tr.appendChild(cell); });
+          el("ci-rows").appendChild(tr);
+        }
+        el("ci-breakdown").hidden = false;
+      }
     }
     bind(["ci-principal","ci-monthly","ci-rate","ci-years"], calc); calc();
   }
@@ -37,14 +55,30 @@ document.addEventListener("DOMContentLoaded", () => {
     bind(["loan-amount","loan-rate","loan-term"], calc); calc();
   }
   if (el("pnl-entry")) {
+    const feeIds = ["pnl-entry-fee","pnl-exit-fee"].filter(id => el(id));
     function calc() {
+      if (el("pnl-breakdown")) el("pnl-breakdown").hidden = true;
       const entry = number("pnl-entry"), current = number("pnl-current"), amount = number("pnl-amount"), leverage = number("pnl-leverage");
-      if (![entry,current,amount,leverage].every(Number.isFinite) || entry <= 0 || current < 0 || amount < 0 || leverage < 1 || leverage > 125) return invalid("pnl", "Entry price must be above zero; amounts must be nonnegative and leverage must be 1–125x.");
-      const pct = (current - entry) / entry * leverage, pnl = amount * pct;
-      if (!Number.isFinite(pnl)) return invalid("pnl", "These values exceed the calculation range.");
-      result("pnl", (pnl < 0 ? "−" : "+") + money(Math.abs(pnl)), `${pct >= 0 ? "+" : ""}${fmt(pct * 100)}% · Leverage ${leverage}x` + (pct <= -1 ? " · Theoretical loss; liquidation rules are not modeled." : ""), pnl >= 0 ? "var(--up)" : "var(--down)");
+      const entryRate = el("pnl-entry-fee") ? number("pnl-entry-fee") : 0, exitRate = el("pnl-exit-fee") ? number("pnl-exit-fee") : 0;
+      if (![entry,current,amount,leverage,entryRate,exitRate].every(Number.isFinite) || entry <= 0 || current < 0 || amount < 0 || leverage < 1 || leverage > 125 || entryRate < 0 || entryRate > 100 || exitRate < 0 || exitRate > 100) return invalid("pnl", "Entry price must be above zero; amounts must be nonnegative, leverage 1–125x, and each fee 0–100%.");
+      const notional = amount * leverage, exitNotional = notional * (current / entry);
+      const grossPct = (current - entry) / entry * leverage, gross = amount * grossPct;
+      const entryFee = notional * (entryRate / 100), exitFee = exitNotional * (exitRate / 100), net = gross - entryFee - exitFee;
+      const pct = amount > 0 ? net / amount * 100 : null;
+      if (![notional,exitNotional,gross,entryFee,exitFee,net].every(Number.isFinite) || (pct !== null && !Number.isFinite(pct))) return invalid("pnl", "These values exceed the calculation range.");
+      const signedMoney = v => (v < 0 ? "−" : "+") + money(Math.abs(v));
+      const roi = pct === null ? "Not defined (zero margin)" : (pct >= 0 ? "+" : "") + fmt(pct) + "%";
+      result("pnl", signedMoney(net), roi + ` · Leverage ${leverage}x` + (amount > 0 && net <= -amount ? " · Theoretical loss; liquidation rules are not modeled." : ""), net >= 0 ? "var(--up)" : "var(--down)");
+      if (el("pnl-breakdown")) {
+        el("pnl-gross").textContent = signedMoney(gross);
+        el("pnl-entry-cost").textContent = money(entryFee);
+        el("pnl-exit-cost").textContent = money(exitFee);
+        el("pnl-net").textContent = signedMoney(net);
+        el("pnl-roi").textContent = roi;
+        el("pnl-breakdown").hidden = false;
+      }
     }
-    bind(["pnl-entry","pnl-current","pnl-amount","pnl-leverage"], calc); calc();
+    bind(["pnl-entry","pnl-current","pnl-amount","pnl-leverage",...feeIds], calc); calc();
   }
   async function json(url) {
     const response = await fetch(url, { signal: AbortSignal.timeout(10000) });

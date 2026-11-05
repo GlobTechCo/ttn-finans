@@ -1,0 +1,33 @@
+name: TTN five-page verification
+on:
+  pull_request:
+    paths: ['*calculator*', '*explained*', 'ai-inference-unit-economics-2026.html', 'five-page-tools.css', 'scripts/test-five-page-*.cjs', '.github/workflows/five-page-quality.yml']
+  push:
+    branches: [main]
+    paths: ['calculators.js', 'five-page-tools.css', 'scripts/test-five-page-*.cjs', '.github/workflows/five-page-quality.yml']
+permissions:
+  contents: read
+jobs:
+  formulas-and-layout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Verify calculator methods against independent arithmetic and previous behavior
+        run: node scripts/test-five-page-calculators.cjs
+      - run: npm install --no-save playwright@1.64.1
+      - run: npx playwright install --with-deps chromium
+      - name: Verify guides and tools on mobile and desktop in both themes
+        run: |
+          python3 -m http.server 8765 >/tmp/ttn-five-page-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-five-page-browser.cjs
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: five-page-layout-review
+          path: /tmp/ttn-five-page/*.png
+          retention-days: 3

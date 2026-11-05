@@ -658,3 +658,15 @@ TITLES['microsoft-nscale-texas-expansion-option-ai-capacity-2026'] = 'Microsoft 
 DESCRIPTIONS['microsoft-nscale-texas-expansion-option-ai-capacity-2026'] = 'Microsoft will not exercise a Texas expansion option with Nscale, Reuters reports. Existing contracts and optional AI capacity carry different financial weight.'
 TITLES['riot-anthropic-corsicana-lease-financing-rent-credits-2026'] = 'Riot’s Anthropic Lease Reveals Financing Trade-Off'
 DESCRIPTIONS['riot-anthropic-corsicana-lease-financing-rent-credits-2026'] = 'Riot’s Anthropic lease includes a conditional 12% rent-credit mechanism. Financing costs and construction timing will shape the miner’s AI transition.'
+
+# Reviewed five-page SEO and methodology update, November 5, 2026.
+TITLES["free-cash-flow-explained"] = "Free Cash Flow Formula and EBITDA Comparison"
+DESCRIPTIONS["free-cash-flow-explained"] = "Understand free cash flow with a formula, a worked example and an EBITDA comparison. See how capital spending and working capital change the result."
+TITLES["ai-inference-unit-economics-2026"] = "AI Inference Costs per Completed Task"
+DESCRIPTIONS["ai-inference-unit-economics-2026"] = "Calculate AI cost per completed task, including tokens, retries, human review and hosting. Compare assumptions without confusing token prices with total cost."
+TITLES["stablecoins-explained-depeg-risk"] = "Stablecoin Depeg Risks and Redemption"
+DESCRIPTIONS["stablecoins-explained-depeg-risk"] = "Learn why stablecoins depeg and how reserves, redemption access, custody and liquidity affect holders. Compare the claims behind a stable price."
+TITLES["compound-interest-calculator"] = "Monthly Compound Interest Calculator"
+DESCRIPTIONS["compound-interest-calculator"] = "Estimate compound growth with monthly contributions. View the final balance, money contributed and investment growth, with a clear yearly breakdown."
+TITLES["crypto-profit-loss-calculator"] = "Crypto Profit Calculator With Fees"
+DESCRIPTIONS["crypto-profit-loss-calculator"] = "Estimate a long crypto position’s gross and net profit after entry and exit trading fees. Check leverage assumptions and the limits of the calculation."
