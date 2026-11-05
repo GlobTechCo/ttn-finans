@@ -25,6 +25,12 @@ jobs:
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-five-page-browser.cjs
+      - name: Verify published release and both live sitemaps
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: python3 scripts/verify-five-page-live.py
+      - name: Verify interactive behavior on the live site
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: TTN_TEST_BASE=https://globtechco.github.io/ttn-finans/ TTN_SCREENSHOT_DIR=/tmp/ttn-five-page-live node scripts/test-five-page-browser.cjs
       - uses: actions/upload-artifact@v7
         if: always()
         with:
