@@ -136,6 +136,16 @@ def verify():
     assert all(urlparse(url).scheme == 'https' for url in docs['404.html'].xpath('//link[@rel="stylesheet"]/@href'))
     assert docs['404.html'].xpath('//meta[@name="robots"]/@content')==['noindex,follow']
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=ET.parse(ROOT/'sitemap.xml').findall('s:url',ns)
+    sitemap_locations=[u.find('s:loc',ns).text for u in urls]
+    assert len(sitemap_locations)==len(set(sitemap_locations)), 'Duplicate sitemap URLs'
+    expected_locations=set()
+    for name,doc in docs.items():
+        canonical=doc.xpath('//link[@rel="canonical"]/@href')
+        if not canonical or any('noindex' in value.lower() for value in doc.xpath('//meta[@name="robots"]/@content')):
+            continue
+        expected=BASE if name=='index.html' else BASE+name
+        if canonical==[expected]:expected_locations.add(expected)
+    assert set(sitemap_locations)==expected_locations, ('Incomplete sitemap', sorted(expected_locations-set(sitemap_locations)), 'Unexpected URLs', sorted(set(sitemap_locations)-expected_locations))
     assert all(u.find('s:lastmod',ns) is not None and u.find('s:lastmod',ns).text for u in urls)
     assert not any(u.find('s:loc',ns).text.endswith('404.html') for u in urls)
     assert (ROOT/'_config.yml').read_text().count('  - scripts')==1

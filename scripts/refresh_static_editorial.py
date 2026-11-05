@@ -175,5 +175,7 @@ def refresh():
     refresh_article_tickers(ROOT)
     from ad_placements import refresh_ad_placements
     refresh_ad_placements(ROOT)
+    from refresh_sitemap import refresh_sitemap
+    refresh_sitemap(ROOT)
     print(f'Refreshed {len(articles)} article links, three full topic archives and homepage fallbacks.')
 if __name__=='__main__':refresh()
