@@ -1,0 +1,76 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-05",
+  "publication_timestamp": "2026-11-05T13:28:56Z",
+  "articles": [
+    {
+      "id": "maersk-q3-2026-guidance-freight-rates-cash-flow",
+      "source_checks": "Release and interim report read. Report page5 cashflow and841m executed buyback verified. No inconsistent analyst consensus figure used; Reuters11% is intraday, not close. Source-derived release prose under200words; report under200; Reuters under100. Original interpretation clearly conditional.",
+      "sources": [
+        [
+          "Maersk: Q3 results and raised guidance, November 5",
+          "https://www.maersk.com/news/articles/2026/11/05/maersk-higher-earnings-raises-full-year-guidance"
+        ],
+        [
+          "Maersk: Q3 2026 interim report",
+          "https://investor.maersk.com/static-files/d2b58e5f-0772-4ec3-8a62-49533c45d4d1"
+        ],
+        [
+          "Reuters: outlook and intraday market reaction",
+          "https://live.euronext.com/en/financial-news/container-shipping-group-maersk-raises-outlook-again"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/ttn_articles/nov05_afternoon_covers/Контейнеровоз Tangier Maersk у порту.png",
+      "visual_reference_source": "https://www.maersk.com/news/articles/2026/11/05/maersk-higher-earnings-raises-full-year-guidance",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.7,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the replacement Riot/Anthropic cover."
+    },
+    {
+      "id": "microsoft-nscale-texas-expansion-option-ai-capacity-2026",
+      "source_checks": "Anonymous-source report attributed, no corporate confirmation inferred. Existing43.8bn service commitments separate from optional phase. Original2025 deployment plan is not commissionedcapacity. Distinct from LoughtonTTNarticle. Reuters-derived prose under100words; eachprimary under200. No listed Nscale ticker assumed.",
+      "sources": [
+        [
+          "Reuters: Microsoft and the Texas expansion option, November 5",
+          "https://live.euronext.com/en/financial-news/microsoft-will-not-expand-texas-data-center-deal-uks-nscale-source-says"
+        ],
+        [
+          "Nscale: original Microsoft announcement, October 15, 2025",
+          "https://www.nscale.com/press-releases/nscale-microsoft-2025"
+        ],
+        [
+          "SEC: Nscale registration statement, September 18, 2026",
+          "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/ttn_articles/nov05_afternoon_covers/Знак Microsoft серед зелені кампусу Редмонда.png",
+      "visual_reference_source": "https://www.theinformation.com/articles/microsofts-changes-to-business-software-terms-could-lift-its-cloud-service-and-hurt-aws-google",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.8,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the replacement Riot/Anthropic cover."
+    },
+    {
+      "id": "riot-anthropic-corsicana-lease-financing-rent-credits-2026",
+      "source_checks": "SECItem5 andNote3 read. Conditional12% not blanketloaninterest,28bn not current/annual revenue, no claimed committeddebtfunding. SEC factual paraphrases under200words, analysis original. Cover depicts existing miningasset, not unbuiltAnthropiccampus. Cover revision: rejected aerial replaced by logo-led tablet/phone editorial still life; awaits cover approval.",
+      "sources": [
+        [
+          "SEC: Riot quarterly report, subsequent events and Corsicana lease terms",
+          "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm"
+        ],
+        [
+          "Riot: third-quarter results, November 4",
+          "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/"
+        ],
+        [
+          "CoinDesk: conditional financing terms, November 5",
+          "https://www.coindesk.com/tech/2026/11/05/bitcoin-miner-riot-could-pay-anthropic-12-interest-under-usd28-billion-ai-deal"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/generated_images/exec-93a01bd7-3959-48b2-9672-a2dddeb37b20.png",
+      "visual_reference_source": "https://www.prnewswire.com/news-releases/riot-platforms-reports-full-year-2024-financial-results-current-operational-and-financial-highlights-302383700.html",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.7,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the replacement Riot/Anthropic cover."
+    }
+  ]
+}

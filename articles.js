@@ -1,5 +1,161 @@
 const TTN_ARTICLES = [
   {
+    "id": "maersk-q3-2026-guidance-freight-rates-cash-flow",
+    "title": "Maersk Raises Its Outlook, but Investors Question the Freight Windfall",
+    "dek": "Higher freight rates lifted quarterly earnings and the annual forecast. Investors must assess how much of that improvement can survive a normalization of shipping capacity.",
+    "section": "Market Analysis",
+    "tickers": [
+      "MAERSK_B"
+    ],
+    "imageAlt": "AI-generated editorial reconstruction based on Maersk’s documented Tangier Maersk vessel.",
+    "date": "2026-11-05T13:28:56Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1.webp",
+    "imageSmall": "assets/responsive/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1-480.webp 480w, assets/responsive/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1-960.webp 960w, assets/editorial/maersk-q3-2026-guidance-freight-rates-cash-flow-cover-v1.webp 1672w",
+    "body": [
+      "<p>A.P. Moller–Maersk raised its full-year earnings forecast on November 5 after a stronger third quarter, but the improvement failed to satisfy the stock market. Reuters reported an intraday share-price decline of about 11%. Investors were assessing how the revised outlook compared with expectations and how long unusually favorable freight conditions could last.</p>",
+      "<p>The company now forecasts underlying EBITDA of $14.0 billion to $14.5 billion for 2026, compared with $10.5 billion to $12.5 billion previously. Its underlying EBIT forecast rises to $8.0 billion to $8.5 billion from $4.5 billion to $6.5 billion. Expected free cash flow increases to more than $3 billion from more than zero.</p>",
+      "<p>Those revisions establish a stronger expected financial year. They do not establish the level of earnings Maersk could sustain once congestion eases and vessels move more freely. Shipping capacity available to customers can change without an equivalent change in the number of ships. That distinction is central to understanding the current earnings improvement.</p>",
+      "<h2>Rates carry more of the earnings story</h2>",
+      "<p>Quarterly revenue increased 27% to $18.1 billion, while EBITDA reached $4.7 billion from $2.7 billion a year earlier. Maersk said the Shanghai Containerised Freight Index averaged 46% above the preceding quarter. Its Ocean business produced $2.6 billion of EBIT, compared with $567 million a year earlier.</p>",
+      "<p>A rise in transport prices can increase a carrier’s earnings faster than the cargo it carries. When ports are congested or routes become longer, a vessel completes fewer useful trips over a given period. Customers compete for a smaller amount of immediately available capacity even if the physical fleet has not shrunk. The resulting price support can be powerful, but its duration remains uncertain.</p>",
+      "<p>For a manufacturer or retailer buying transport, the same conditions can mean higher costs and less reliable delivery schedules. The carrier’s stronger quarter therefore cannot be read as a straightforward signal that its customers are selling substantially more goods. Transport pricing, service reliability and final demand need separate assessments.</p>",
+      "<h2>Cash generation gives the forecast practical weight</h2>",
+      "<p>The interim report shows operating cash flow of $4.4 billion and capital expenditure of $1.2 billion during the quarter. Reported free cash flow was $2.4 billion, up from $771 million a year earlier. By the end of September, Maersk had executed $841 million of its approximately $1 billion share-buyback program.</p>",
+      "<p>Those figures provide a different perspective from an earnings multiple alone. Cash generated during a strong market gives a company resources to invest, maintain financial flexibility or return capital. The choices still compete with one another. Cash spent buying shares is no longer available for a vessel order, a logistics investment or protection against a weaker freight market.</p>",
+      "<p>Our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> explains why operating earnings and spendable cash can move differently. For a carrier, the investment cycle is especially relevant: ships require large commitments well before they earn revenue. A strong quarter can fund those commitments without proving that future deliveries will enter an equally favorable market.</p>",
+      "<h2>A forecast upgrade can still disappoint</h2>",
+      "<p>A share price reflects what investors already expected, including improvements they anticipated before a company formally changed its guidance. Raising a forecast is favorable relative to the previous official range. The same revision can disappoint investors who had incorporated a larger increase into their valuation.</p>",
+      "<p>Our <a href=\"earnings-beat-miss-explained.html\">explanation of earnings expectations</a> sets out that distinction. The observed market reaction does not make the reported operating improvement disappear. It shows that reported growth and a favorable surprise are different judgments. The first compares results with a historical period; the second compares them with the market’s prior assumptions.</p>",
+      "<p>The durability of the freight environment is part of that comparison. If congestion releases capacity back into the network, customers could have more transport options without a surge in new ship deliveries. Alternatively, persistent disruption could keep equipment occupied for longer. Neither outcome should be treated as settled simply because the latest quarter was profitable.</p>",
+      "<h2>The next comparison is between cash and commitments</h2>",
+      "<p>For the coming reporting periods, the useful evidence will include realized freight rates, cargo volumes, service reliability and the cash required to support operations. A company can maintain a busy fleet while the price earned on each shipment changes. Revenue growth alone would not show which of those forces is dominating the next quarter.</p>",
+      "<p>Maersk’s revised forecast gives investors a higher earnings and cash-flow baseline for this year. The valuation question extends beyond that baseline to the returns earned on capital through a more ordinary shipping cycle. November’s results demonstrate the financial benefit of current conditions; they leave the length of that benefit to be established by subsequent trading.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Maersk: Q3 results and raised guidance, November 5",
+        "url": "https://www.maersk.com/news/articles/2026/11/05/maersk-higher-earnings-raises-full-year-guidance"
+      },
+      {
+        "label": "Maersk: Q3 2026 interim report",
+        "url": "https://investor.maersk.com/static-files/d2b58e5f-0772-4ec3-8a62-49533c45d4d1"
+      },
+      {
+        "label": "Reuters: outlook and intraday market reaction",
+        "url": "https://live.euronext.com/en/financial-news/container-shipping-group-maersk-raises-outlook-again"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-nscale-texas-expansion-option-ai-capacity-2026",
+    "title": "Microsoft’s Nscale Expansion Decision Separates AI Options From Orders",
+    "dek": "Reuters reports that Microsoft will not exercise a Texas capacity option. Existing commitments remain distinct from expansion rights that have not become firm orders.",
+    "section": "Tech & AI",
+    "tickers": [
+      "MSFT"
+    ],
+    "imageAlt": "AI-generated editorial reconstruction of a documented Microsoft campus monument sign.",
+    "date": "2026-11-05T13:28:56Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1-480.webp 480w, assets/responsive/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1-960.webp 960w, assets/editorial/microsoft-nscale-texas-expansion-option-ai-capacity-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>Microsoft will not exercise a Texas expansion option with Nscale, Reuters reported on November 5, citing an unnamed source. Its report distinguishes existing contracted capacity from an additional expansion right.</p>",
+      "<p>Reuters said the decision predated Nscale’s September IPO filing by months and left existing work unaffected. Neither company had responded at publication. The report concerns an earlier decision.</p>",
+      "<p>For investors assessing data-center developers, the distinction changes which revenue can support a financing case. A potential expansion can make a site look strategically valuable. It does not provide the same evidence of future receipts as an executed agreement with defined delivery and payment conditions. Combining the two can overstate the certainty of a development pipeline.</p>",
+      "<h2>The original arrangement contained a separate expansion right</h2>",
+      "<p>Nscale’s October 2025 announcement described a Microsoft deployment of roughly 104,000 NVIDIA GB300 GPUs at a Texas site leased from Ionic Digital, representing approximately 240 megawatts. It separately described Microsoft’s option to support a second phase of about 700 megawatts from late 2027. Those were announced plans, not proof that all capacity had been delivered.</p>",
+      "<p>The initial agreement and the expansion option therefore represented different stages of commitment. A customer could retain the original arrangement while deciding against the additional phase. The unused option would reduce the developer’s prospect of that particular customer taking more capacity, without establishing that the original order had disappeared.</p>",
+      "<p>The difference also matters for construction planning. A developer may reserve land, seek power connections or prepare engineering work for a larger campus before every phase has a tenant. That preparation can create future flexibility. It also puts a cost against a possibility whose timing, customer and commercial terms may still change.</p>",
+      "<h2>Contract value is still subject to delivery</h2>",
+      "<p>Nscale’s September registration statement describes Microsoft statements of work providing for payments of up to $43.8 billion through December 2033, subject to delivery and service availability. A maximum contractual value across several years is neither current annual revenue nor cash already collected. The conditions attached to earning it remain relevant even where the agreement itself is firm.</p>",
+      "<p>A data-center operator typically has to finance equipment and infrastructure before receiving the full stream of customer payments. Delayed delivery can therefore affect both the timing of revenue and the period during which financing costs accumulate. A large headline contract can improve commercial visibility without removing the need to fund that interval.</p>",
+      "<p>Our <a href=\"ai-boom-capital-financing-2026.html\">analysis of financing the AI infrastructure buildout</a> examines that gap between commitments and cash. Investors need to know which party funds construction, who owns the equipment, when service acceptance occurs and how payment obligations respond to delay. A total contract figure cannot answer those questions on its own.</p>",
+      "<h2>An unused option does not establish an industry downturn</h2>",
+      "<p>One customer’s decision on one expansion cannot establish the direction of aggregate demand for AI computing. Microsoft can compare sites, delivery dates, hardware and commercial terms across its wider infrastructure program. Passing on additional capacity at a particular location does not disclose what the company may buy elsewhere.</p>",
+      "<p>The opposite assumption would also be too strong. Continued growth in demand across the sector would not ensure that every proposed campus earns an attractive return. Developers compete on power availability, construction timing, operating reliability and the cost of delivering service. Capacity that arrives late or on expensive terms can be less useful to a customer even during a broader expansion.</p>",
+      "<p>Our earlier <a href=\"microsoft-nscale-loughton-lease-exit-power-2026.html\">coverage of Microsoft, Nscale and the Loughton site</a> concerned a different location and power-connection constraints. It should not be combined with the Texas report as though the two described one canceled facility. The comparison is useful because it shows why site-specific delivery conditions matter alongside broad estimates of AI demand.</p>",
+      "<h2>The financial test is the next binding commitment</h2>",
+      "<p>If a developer seeks another customer for an expansion, discussions are a step toward a possible transaction. They are not a substitute for signed terms, financing or a workable delivery schedule. Investors can assess progress more precisely when reporting separates operating capacity, contracted projects and capacity that remains available for marketing.</p>",
+      "<p>For a prospective public-market investor, that separation also helps identify concentration risk. A project can depend heavily on a small number of customers even when the announced contract values are large. Diversification requires additional credible counterparties and enforceable arrangements, rather than a larger list of potential users.</p>",
+      "<p>The November report narrows the role of a previously advertised expansion right. It does not provide evidence that Microsoft’s existing Nscale contract has ended. The next material development would be a binding replacement commitment, a change in the confirmed delivery schedule or a company disclosure that changes the economics of the existing work.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters: Microsoft and the Texas expansion option, November 5",
+        "url": "https://live.euronext.com/en/financial-news/microsoft-will-not-expand-texas-data-center-deal-uks-nscale-source-says"
+      },
+      {
+        "label": "Nscale: original Microsoft announcement, October 15, 2025",
+        "url": "https://www.nscale.com/press-releases/nscale-microsoft-2025"
+      },
+      {
+        "label": "SEC: Nscale registration statement, September 18, 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
+      }
+    ]
+  },
+  {
+    "id": "riot-anthropic-corsicana-lease-financing-rent-credits-2026",
+    "title": "Riot’s Anthropic Lease Puts a Price on the Funding Gap in Its AI Pivot",
+    "dek": "A conditional 12% rent-credit provision shows why a large AI lease is only part of the investment case for a Bitcoin miner moving into data-center infrastructure.",
+    "section": "Crypto",
+    "tickers": [
+      "RIOT"
+    ],
+    "imageAlt": "Photographic editorial illustration of the Riot and Anthropic logos on a tablet and smartphone.",
+    "date": "2026-11-05T13:28:56Z",
+    "author": "TTN Research Desk",
+    "format": "analysis",
+    "image": "assets/editorial/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1-480.webp 480w, assets/responsive/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1-960.webp 960w, assets/editorial/riot-anthropic-corsicana-lease-financing-rent-credits-2026-cover-v1.webp 1672w",
+    "body": [
+      "<p>Riot Platforms’ new Corsicana lease with Anthropic gives the Bitcoin miner a route into large-scale AI infrastructure, but it also exposes the cost of financing that transition. Its latest quarterly filing describes a conditional rent-credit mechanism carrying 12% annual interest if acceptable financing for eligible reimbursements cannot be obtained.</p>",
+      "<p>The provision drew fresh attention in a November 5 CoinDesk report after Riot’s November 4 disclosures. It is a conditional funding mechanism, rather than a bank loan already drawn at that rate. It also does not apply 12% interest to the entire value of the commercial relationship.</p>",
+      "<p>For shareholders, that distinction puts the focus on the cash Riot ultimately retains. Signing a tenant establishes a commercial opportunity. Delivering the site, funding the required work and meeting the contractual timetable determine how much of that opportunity reaches the owner of the infrastructure.</p>",
+      "<h2>Rent credits change the cash received</h2>",
+      "<p>The filing describes reimbursement of specified module costs up to $4 million per megawatt of achieved critical IT capacity, subject to reasonably acceptable market financing. If unavailable after commercially reasonable efforts, credits amortize the eligible amount and interest over the remaining initial term.</p>",
+      "<p>A rent credit reduces the tenant’s cash payment against its contractual rent obligation. The economic burden therefore can emerge as lower cash receipts over time rather than an immediate interest bill paid to a conventional lender. It still has a cost: the landlord gives up part of the future rent that would otherwise support operating returns and distributions.</p>",
+      "<p>That mechanism creates a meaningful comparison for financing negotiations. An external borrowing arrangement has its own interest, fees, security requirements and repayment terms. The alternative is not necessarily costless tenant funding. Investors need the full economics of each route before concluding that one produces a better return for Riot.</p>",
+      "<h2>Delivery determines when the revenue can begin</h2>",
+      "<p>Effective November 4, the lease covers planned capacity of 910 megawatts, phased from June 2027 through July 2028. Base rent starts at $130 per kilowatt per month for delivered capacity, escalating 3% annually. Specified delays can trigger credits or phase termination.</p>",
+      "<p>Those terms make construction performance financially important before the site has reached its intended scale. A block that has not been delivered does not generate the same receipts as an accepted, operating block. Meanwhile, construction commitments and financing costs can continue. The timing of each phase matters as much as the eventual capacity total.</p>",
+      "<p>The appropriate comparison is therefore between the cash required before delivery and the cash expected after acceptance. Treating a long-term lease value as present revenue would skip that interval. Discounting future receipts also requires assumptions about completion, ongoing obligations and the financing structure used to reach commercial operation.</p>",
+      "<h2>A mining site and an AI facility have different operating demands</h2>",
+      "<p>Access to land and substantial electrical infrastructure can give a miner a useful starting position. It does not mean the existing equipment or buildings are automatically suitable for a large AI customer. Cooling, connectivity, reliability and the agreed specifications still determine whether a project can deliver the contracted service.</p>",
+      "<p>The difference affects the value of operational flexibility. A mining business may choose to reduce activity when the economics of running machines deteriorate. A tenant paying for dependable computing infrastructure may need a different service commitment. An attractive electricity position must therefore be assessed together with the obligations attached to the new customer relationship.</p>",
+      "<p>Our <a href=\"ai-inference-unit-economics-2026.html\">analysis of AI infrastructure unit economics</a> explains why utilization and the cost of supplying usable capacity matter. A megawatt figure measures scale; it does not by itself measure the margin earned after financing, maintenance and the cost of meeting the service requirements.</p>",
+      "<h2>The investment case moves from assets to returns</h2>",
+      "<p>A transition into infrastructure leasing can change the sources of a miner’s revenue and its exposure to Bitcoin economics. It also introduces a development cycle in which substantial spending can precede the associated receipts. A signed lease improves visibility on a prospective customer without establishing that construction funding is complete.</p>",
+      "<p>Our <a href=\"free-cash-flow-explained.html\">guide to free cash flow</a> sets out why reported earnings, investment spending and cash available to shareholders need separate treatment. For Riot, the financing terms will influence both the amount of capital required from the company and the share of future rent committed to paying for that capital.</p>",
+      "<p>Subsequent disclosures can make the assessment more concrete: committed funding, the timing of reimbursements, progress against block-delivery dates and the cash effect of any credits. Those are measurable developments. A change in the company’s description from Bitcoin miner to AI infrastructure provider would not, by itself, establish improved returns.</p>",
+      "<p>The Anthropic lease gives Riot a defined commercial project to execute. The conditional 12% mechanism shows that execution includes financing as well as construction. The size of the announced opportunity matters, but the cash left after fulfilling those obligations will determine its financial value to shareholders.</p>"
+    ],
+    "sources": [
+      {
+        "label": "SEC: Riot quarterly report, subsequent events and Corsicana lease terms",
+        "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926122417/riot-20260930x10q.htm"
+      },
+      {
+        "label": "Riot: third-quarter results, November 4",
+        "url": "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/"
+      },
+      {
+        "label": "CoinDesk: conditional financing terms, November 5",
+        "url": "https://www.coindesk.com/tech/2026/11/05/bitcoin-miner-riot-could-pay-anthropic-12-interest-under-usd28-billion-ai-deal"
+      }
+    ]
+  },
+  {
     "id": "toyota-q2-fy2027-profit-forecast-buyback-2026",
     "title": "Toyota Raises Buyback to ¥1.3 Trillion as Operating Profit Rebounds",
     "dek": "Toyota lifted its annual operating-profit forecast to ¥3.9 trillion. A stronger operating quarter and a larger buyback contrast with a decline in quarterly net income.",

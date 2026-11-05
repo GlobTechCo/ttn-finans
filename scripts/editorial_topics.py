@@ -666,3 +666,11 @@ GROUPS['Technology policy, security and platforms'].insert(0, 'kyndryl-aws-agent
 RELATED['kyndryl-aws-agentic-ai-modernization-2026'] = ['revolut-self-hosted-glm-ai-coding-costs-2026', 'ai-inference-unit-economics-2026', 'occ-bank-ai-agent-supervisory-framework-november-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'canton-cntn-tokenized-stock-first-trades-tsv-2026')
 RELATED['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = ['nyse-four-transfer-agents-tokenized-stocks-2026', 'dtcc-tokenization-service-live-october-2026', 'stablecoins-explained-depeg-risk']
+
+# November 5: approved Maersk, Microsoft/Nscale and Riot/Anthropic reports.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'maersk-q3-2026-guidance-freight-rates-cash-flow')
+RELATED['maersk-q3-2026-guidance-freight-rates-cash-flow'] = ['free-cash-flow-explained', 'earnings-beat-miss-explained', 'stock-buybacks-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'microsoft-nscale-texas-expansion-option-ai-capacity-2026')
+RELATED['microsoft-nscale-texas-expansion-option-ai-capacity-2026'] = ['microsoft-nscale-loughton-lease-exit-power-2026', 'ai-boom-capital-financing-2026', 'ai-inference-unit-economics-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'riot-anthropic-corsicana-lease-financing-rent-credits-2026')
+RELATED['riot-anthropic-corsicana-lease-financing-rent-credits-2026'] = ['ai-boom-capital-financing-2026', 'ai-inference-unit-economics-2026', 'free-cash-flow-explained']

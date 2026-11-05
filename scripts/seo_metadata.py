@@ -650,3 +650,11 @@ TITLES['kyndryl-aws-agentic-ai-modernization-2026'] = 'Kyndryl and AWS Target Le
 DESCRIPTIONS['kyndryl-aws-agentic-ai-modernization-2026'] = 'Kyndryl combines its agentic modernization services with AWS Transform, targeting legacy IT costs while leaving customers to assess savings and risk.'
 TITLES['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = 'Canton Strategic Shares Begin Tokenized Trading'
 DESCRIPTIONS['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = 'Canton Strategic reports first tokenized CNTN trades on TSV. The launch combines shareholder rights and atomic settlement with access and trading limits.'
+
+# Reviewed November 5 package.
+TITLES['maersk-q3-2026-guidance-freight-rates-cash-flow'] = 'Maersk Raises Outlook as Freight Windfall Grows'
+DESCRIPTIONS['maersk-q3-2026-guidance-freight-rates-cash-flow'] = 'Maersk raises its 2026 earnings and cash-flow forecasts. Higher freight rates support results, while investors assess how long the improvement can last.'
+TITLES['microsoft-nscale-texas-expansion-option-ai-capacity-2026'] = 'Microsoft Passes on Nscale Expansion Option'
+DESCRIPTIONS['microsoft-nscale-texas-expansion-option-ai-capacity-2026'] = 'Microsoft will not exercise a Texas expansion option with Nscale, Reuters reports. Existing contracts and optional AI capacity carry different financial weight.'
+TITLES['riot-anthropic-corsicana-lease-financing-rent-credits-2026'] = 'Riot’s Anthropic Lease Reveals Financing Trade-Off'
+DESCRIPTIONS['riot-anthropic-corsicana-lease-financing-rent-credits-2026'] = 'Riot’s Anthropic lease includes a conditional 12% rent-credit mechanism. Financing costs and construction timing will shape the miner’s AI transition.'
