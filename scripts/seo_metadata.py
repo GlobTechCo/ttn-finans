@@ -642,3 +642,11 @@ DESCRIPTIONS['bitgo-global-markets-institutional-financing-derivatives-2026'] = 
 # Reviewed November 4 package.
 TITLES['revolut-self-hosted-glm-ai-coding-costs-2026'] = 'Revolut Says Self-Hosted AI Cut Coding Bill 90%'
 DESCRIPTIONS['revolut-self-hosted-glm-ai-coding-costs-2026'] = 'Revolut says self-hosted GLM reduced its coding-model bill by 90%. The case shows why GPU utilization and full operating costs matter.'
+
+# Reviewed November 5 package.
+TITLES['toyota-q2-fy2027-profit-forecast-buyback-2026'] = 'Toyota Raises Buyback to ¥1.3 Trillion'
+DESCRIPTIONS['toyota-q2-fy2027-profit-forecast-buyback-2026'] = 'Toyota raises its buyback ceiling to ¥1.3 trillion and operating-profit forecast to ¥3.9 trillion, while quarterly net income falls.'
+TITLES['kyndryl-aws-agentic-ai-modernization-2026'] = 'Kyndryl and AWS Target Legacy IT Costs'
+DESCRIPTIONS['kyndryl-aws-agentic-ai-modernization-2026'] = 'Kyndryl combines its agentic modernization services with AWS Transform, targeting legacy IT costs while leaving customers to assess savings and risk.'
+TITLES['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = 'Canton Strategic Shares Begin Tokenized Trading'
+DESCRIPTIONS['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = 'Canton Strategic reports first tokenized CNTN trades on TSV. The launch combines shareholder rights and atomic settlement with access and trading limits.'

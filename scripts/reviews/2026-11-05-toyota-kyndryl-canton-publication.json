@@ -1,0 +1,80 @@
+{
+  "publication_authorized": true,
+  "requested_at": "2026-11-05",
+  "publication_timestamp": "2026-11-05T08:35:30Z",
+  "articles": [
+    {
+      "id": "toyota-q2-fy2027-profit-forecast-buyback-2026",
+      "source_checks": "Primary summary and presentation read; quarterly figures visually checked on presentation PDF page32 and buyback page15. Quarter July-September vs fiscal first half April-September clearly separated. Operating1127.6/839.5-1=34.3%, rounded about34%; net759.4vs932falls. FY op3900vs3400bn; revenue53500vs54000bn. Buyback ceiling1300 adds300, not completed purchases. No unsupported 14trn long-term capital-return detail. News selected after primary broad scan; event04:55UTC, slightly over3h at08:15UTC selection, disclosed morning news.",
+      "sources": [
+        [
+          "Toyota: FY2027 semi-annual financial summary, November 5",
+          "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_summary_en.pdf"
+        ],
+        [
+          "Toyota: FY2027 second-quarter presentation, including quarterly results and share repurchases",
+          "https://global.toyota/pages/global_toyota/ir/financial-results/2027_2q_presentation_en.pdf"
+        ],
+        [
+          "Reuters: operating recovery, hybrid demand and currency context",
+          "https://www.reuters.com/business/autos-transportation/toyota-profit-surges-34-first-rise-six-quarters-2026-11-05/"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/generated_images/exec-8a9e0652-fc00-4794-a303-88651d26405b.png",
+      "visual_reference_source": "https://www.nikkan.co.jp/articles/view/00722763",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.5,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the regenerated Canton folder cover."
+    },
+    {
+      "id": "kyndryl-aws-agentic-ai-modernization-2026",
+      "source_checks": "Official release retrieved directly from Kyndryl after search-open failed and saved locally. AWS primary product page read. No quantification of cost reductions, company valuation or contracted revenue. No survey causal claims or unverified performance benchmarks. Kyndryl launch partner history attributed release. Hypothetical payment example clearly labeled and not an actual customer. Announcement facts under200word source budget; AWS capabilities under200; rest original scoped financial analysis. Selected against HPsuccession, weak readinessindex, Leidosolderagent launch, after broad scan.",
+      "sources": [
+        [
+          "Kyndryl: November 5 announcement of integrated AWS modernization offering",
+          "https://www.kyndryl.com/us/en/about-us/news/2026/11/aws-agentic-ai-enterprise-modernization"
+        ],
+        [
+          "AWS: Transform capabilities, use cases and human review",
+          "https://aws.amazon.com/transform/"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/generated_images/exec-646b07cd-59ba-484f-950f-98376da2c083.png",
+      "visual_reference_source": "https://www.kyndryl.com/ca/en/perspectives/articles/2023/09/fit-for-purpose-technology-enables-continuous-transformation",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.5,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the regenerated Canton folder cover."
+    },
+    {
+      "id": "canton-cntn-tokenized-stock-first-trades-tsv-2026",
+      "source_checks": "Read issuer release, live venue homepage, current notice (1.5) and archived1.2; archived pre-commencement statements superseded by November4 updates, not a contradiction. Read SEC original order: tier1 75symbols0.25%,tier2 250symbols2.5% with defined ADV comparison, not automatic dailyturnover or blanketSECapproval. No unsupported claim firsteverworldwide; issuer first claim not repeated inheadline. No secondary $30,296 /14461share figures, no claimed auditedvolume. CNTNstocknotCCtoken; company notnetworkdeveloper. Privacy/preventingfrontrunning marketing not repeated. Existing shares, no companycapitalraise. Sources budgets eachunder200words; broad final analysis original.",
+      "sources": [
+        [
+          "Canton Strategic Holdings: first tokenized share trades, November 4",
+          "https://www.cantonstrategic.com/news/first-trades-of-tokenized-u-s-equity-under-sec-innovation-exemption-executed-on-the-canton-network"
+        ],
+        [
+          "TSV: live venue model and participant access",
+          "https://www.tokenizedstockvenue.com/"
+        ],
+        [
+          "TSV: current public notice, including November4 commencement updates",
+          "https://www.tokenizedstockvenue.com/notice.html"
+        ],
+        [
+          "TSV: transaction feed field guide and production pool identifiers",
+          "https://www.tokenizedstockvenue.com/trading-data.html"
+        ],
+        [
+          "SEC: September17 temporary conditional exemptive order, Release34-106402",
+          "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf"
+        ]
+      ],
+      "cover_source_file": "/workspace/scratch/705721fd1a2e/generated_images/exec-cc092efb-693c-4ffe-8a2e-bed634e469c0.png",
+      "visual_reference_source": "https://www.canton.network/brand-kit-trademark-use",
+      "generated_illustration": true,
+      "editorial_fit_score": 8.7,
+      "approval": "Owner approved the batch and explicitly requested publication after reviewing the regenerated Canton folder cover."
+    }
+  ]
+}

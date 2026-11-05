@@ -658,3 +658,11 @@ RELATED['bitgo-global-markets-institutional-financing-derivatives-2026'] = ['cry
 # November 4: approved Revolut self-hosted coding AI report.
 GROUPS['Technology policy, security and platforms'].insert(0, 'revolut-self-hosted-glm-ai-coding-costs-2026')
 RELATED['revolut-self-hosted-glm-ai-coding-costs-2026'] = ['ai-inference-unit-economics-2026', 'ai-agents-enterprise-roi-2026', 'mistral-large-4-open-weights-license-2026']
+
+# November 5: approved Toyota, Kyndryl and Canton reports.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'toyota-q2-fy2027-profit-forecast-buyback-2026')
+RELATED['toyota-q2-fy2027-profit-forecast-buyback-2026'] = ['stock-buybacks-explained', 'bmw-q3-2026-margin-outlook-restructuring-cash-flow', 'free-cash-flow-explained']
+GROUPS['Technology policy, security and platforms'].insert(0, 'kyndryl-aws-agentic-ai-modernization-2026')
+RELATED['kyndryl-aws-agentic-ai-modernization-2026'] = ['revolut-self-hosted-glm-ai-coding-costs-2026', 'ai-inference-unit-economics-2026', 'occ-bank-ai-agent-supervisory-framework-november-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'canton-cntn-tokenized-stock-first-trades-tsv-2026')
+RELATED['canton-cntn-tokenized-stock-first-trades-tsv-2026'] = ['nyse-four-transfer-agents-tokenized-stocks-2026', 'dtcc-tokenization-service-live-october-2026', 'stablecoins-explained-depeg-risk']
