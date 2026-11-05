@@ -136,6 +136,11 @@ def verify():
     assert all(urlparse(url).scheme == 'https' for url in docs['404.html'].xpath('//link[@rel="stylesheet"]/@href'))
     assert docs['404.html'].xpath('//meta[@name="robots"]/@content')==['noindex,follow']
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=ET.parse(ROOT/'sitemap.xml').findall('s:url',ns)
+    from refresh_sitemap import FIELD_ORDER
+    for entry in urls:
+        fields=[node.tag.removeprefix('{'+ns['s']+'}') for node in entry if node.tag.startswith('{'+ns['s']+'}')]
+        assert all(field in FIELD_ORDER for field in fields), ('Unknown sitemap field', fields)
+        assert fields==sorted(fields,key=FIELD_ORDER.get) and len(fields)==len(set(fields)), ('Invalid sitemap XSD field order', entry.find('s:loc',ns).text, fields)
     sitemap_locations=[u.find('s:loc',ns).text for u in urls]
     assert len(sitemap_locations)==len(set(sitemap_locations)), 'Duplicate sitemap URLs'
     expected_locations=set()

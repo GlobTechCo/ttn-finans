@@ -3,6 +3,7 @@ from datetime import datetime
 from html import escape
 from pathlib import Path
 import json
+import re
 import subprocess
 import xml.etree.ElementTree as ET
 from lxml import html
@@ -10,6 +11,24 @@ from lxml import html
 BASE = 'https://globtechco.github.io/ttn-finans/'
 ROOT = Path(__file__).resolve().parents[1]
 NS = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+FIELD_ORDER = {'loc': 0, 'lastmod': 1, 'changefreq': 2, 'priority': 3}
+
+
+def normalize_field_order(text):
+    """Honor the sitemap XSD sequence while preserving values and other entries."""
+    repaired = 0
+    fields = re.compile(r'\s*<(?P<tag>loc|lastmod|changefreq|priority)>[^<]*</(?P=tag)>')
+    def reorder(match):
+        nonlocal repaired
+        body = match.group(1)
+        parts = list(fields.finditer(body))
+        ordered = sorted(parts, key=lambda part: FIELD_ORDER[part.group('tag')])
+        if parts == ordered:
+            return match.group()
+        assert not fields.sub('', body).strip(), 'Cannot reorder an extended sitemap entry'
+        repaired += 1
+        return '<url>' + ''.join(part.group() for part in ordered) + body[parts[-1].end():] + '</url>'
+    return re.sub(r'<url>(.*?)</url>', reorder, text, flags=re.S), repaired
 
 
 def refresh_sitemap(root=ROOT):
@@ -40,8 +59,11 @@ def refresh_sitemap(root=ROOT):
         additions.append('<url><loc>' + escape(url) + '</loc><lastmod>' + escape(stamp) + '</lastmod></url>')
     if additions:
         assert text.count('</urlset>') == 1
-        path.write_text(text.replace('</urlset>', '\n'.join(additions) + '\n</urlset>'))
-    print(f'Sitemap: added {len(additions)} canonical pages; {len(existing) + len(additions)} total URLs.')
+        text = text.replace('</urlset>', '\n'.join(additions) + '\n</urlset>')
+    text, repaired = normalize_field_order(text)
+    if text != path.read_text():
+        path.write_text(text)
+    print(f'Sitemap: added {len(additions)} canonical pages; corrected {repaired} field orders; {len(existing) + len(additions)} total URLs.')
     return len(additions)
 
 
