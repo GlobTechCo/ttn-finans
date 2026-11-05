@@ -1,5 +1,143 @@
 const TTN_ARTICLES = [
   {
+    "id": "box-nvidia-context-retrieval-enterprise-ai-2026",
+    "title": "Box Turns to NVIDIA to Help AI Agents Find the Right Company Files",
+    "dek": "The content-management company plans a new retrieval engine for early 2027. Its value will depend on finding useful passages while respecting existing access permissions.",
+    "section": "Tech & AI",
+    "tickers": [
+      "BOX",
+      "NVDA"
+    ],
+    "imageAlt": "Editorial illustration showing Box and NVIDIA branding in a conference-style interior.",
+    "body": [
+      "<p>Box, the enterprise content-management company, announced an expanded NVIDIA partnership on November 5 to improve how AI agents retrieve information from business files. Its new Box Context Retrieval engine is scheduled for general availability to Enterprise Advanced customers in early 2027. The announcement addresses a practical obstacle to deploying agents: identifying the material needed for a task without giving the agent access to unrelated confidential information.</p>",
+      "<p>The company is also adding NVIDIA’s open-weight Nemotron models to Box AI. These are separate parts of the announcement with different availability: Nemotron models, beginning with 3 Ultra, are available now to Enterprise Advanced customers, according to Box’s release. The retrieval engine remains a planned launch. Businesses considering the new search capabilities therefore need to distinguish today’s model access from functionality still awaiting general release.</p>",
+      "<h2>Finding a passage instead of reading every file</h2>",
+      "<p>Box says its engine will use NVIDIA Nemotron Retriever embedding models to identify relevant information across enterprise content. Embeddings represent the meaning of material numerically, helping software match a question with related passages even when the wording differs. Box’s product description combines this semantic approach with keyword matching, which remains useful for exact identifiers such as a contract number or project code.</p>",
+      "<p>That combination matters because business searches often contain both kinds of request. A lawyer might need a clause about terminating an agreement without knowing the document’s exact wording. An operations employee might know a specific invoice number. A system optimized only for broad similarity can struggle with the second task; a literal keyword search can miss the first. A useful retrieval service needs to support both without burying the relevant evidence.</p>",
+      "<p>Returning focused passages can also reduce the amount of text sent to an answering model. Our <a href=\"ai-inference-unit-economics-2026.html\">guide to AI inference costs</a> explains why token consumption is only one component of the cost of a completed task. Retrieval, infrastructure, retries and human checks still contribute to the bill. A shorter prompt is financially useful only if it preserves enough evidence to produce a reliable result.</p>",
+      "<h2>Performance claims require a precise reading</h2>",
+      "<p>Box’s announcement describes potential improvements of 20% in search accuracy measured by Recall@5, 90% lower token usage and fourfold faster question answering. These are company claims about the proposed system, rather than independently verified results for every customer. Recall@5 concerns whether relevant material appears among the first five retrieved results; it is not a measure showing that generated answers contain 20% fewer factual errors.</p>",
+      "<p>A customer evaluating those claims would need to compare results on its own documents and questions. Scanned forms, short emails and long legal agreements present different retrieval problems. The cost of a wrong answer also varies. Finding an outdated office policy is inconvenient; retrieving the wrong contractual obligation can create a more consequential error. Average speed and retrieval scores cannot substitute for testing the tasks a business intends to automate.</p>",
+      "<p>Permissions add another dimension to that evaluation. A search result can be relevant and still be inappropriate for a particular employee to see. Box says retrieval will respect access rights, and its product description says queries check the requester’s live permissions. Our <a href=\"enterprise-ai-data-security-2026.html\">analysis of enterprise AI access controls</a> explains why authorization must remain attached to the underlying information as it moves into an AI workflow.</p>",
+      "<h2>Retrieval and agent actions need separate controls</h2>",
+      "<p>The expanded collaboration also connects Box’s content-governance capabilities with NVIDIA OpenShell for controlled agent execution. Retrieval determines which information an agent receives. Execution controls address what it can do afterward, including the tools it invokes and the operations it attempts. Treating those as separate questions makes it easier to identify where human approval or tighter restrictions are needed.</p>",
+      "<p>For example, an agent could be allowed to find the latest approved contract and summarize payment terms without being allowed to change the document or send it outside the company. A permission to read should not automatically become permission to distribute. This is an implementation issue for each deployment, rather than a guarantee that adding a retrieval product makes an entire workflow safe.</p>",
+      "<p>For Box, the commercial opportunity is to make its existing content platform more useful as customers adopt agents. Relevant retrieval could support demand for its higher-tier offering. The announcement itself does not establish how many customers will upgrade, how intensively they will use the service or what contribution the features will make to earnings. Product adoption and financial results will provide different evidence from a launch presentation.</p>",
+      "<p>The early-2027 release will give customers a clearer opportunity to assess the engine under production conditions. The most useful measures will connect retrieval quality with completed work: whether staff find the right current evidence, whether permission changes take effect correctly, and whether time saved exceeds integration and review costs. Those outcomes will determine the business value of faster search more directly than a headline reduction in tokens alone.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Box: November 5 partnership announcement, distributed by Business Wire",
+        "url": "https://www.stocktitan.net/news/BOX/box-partners-with-nvidia-to-deliver-the-trusted-content-layer-for-uc94dfek0gf2.html"
+      },
+      {
+        "label": "Box: Context Retrieval product description",
+        "url": "https://www.box.com/ai/contextretrieval"
+      }
+    ],
+    "date": "2026-11-05T18:56:14Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1-480.webp 480w, assets/responsive/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1-960.webp 960w, assets/editorial/box-nvidia-context-retrieval-enterprise-ai-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "wendys-q3-2026-sales-daves-way-turnaround",
+    "title": "Wendy’s Sales Decline Puts Franchise Economics at the Center of Its Turnaround",
+    "dek": "U.S. same-restaurant sales fell 5.7% in the third quarter. A proposed purchase of up to 163 restaurants remains conditional as Wendy’s changes its breakfast and operator strategy.",
+    "section": "Market Analysis",
+    "tickers": [
+      "WEN"
+    ],
+    "imageAlt": "Editorial illustration of customers approaching a Wendy’s restaurant entrance.",
+    "body": [
+      "<p>Wendy’s reported another decline in U.S. sales on November 5 and introduced a multiyear turnaround strategy focused on customer traffic and restaurant profitability. U.S. same-restaurant sales fell 5.7% in the third quarter ended September 27. The company’s response includes a more selective approach to breakfast and changes to who operates parts of its restaurant network, putting franchise economics alongside marketing at the center of the recovery effort.</p>",
+      "<p>The company also signed a letter of intent with Meritage Hospitality Group and its lenders to acquire up to 163 Wendy’s restaurants. That is a proposed transaction, subject to a definitive agreement, better and higher offers, and court approval. It should not be treated as a completed acquisition or as evidence that the company has already taken control of those locations. The final scope and outcome remain unresolved.</p>",
+      "<h2>Restaurant sales and corporate revenue tell different stories</h2>",
+      "<p>Wendy’s reported quarterly corporate revenue of $547.0 million and net income of $15.1 million. Global systemwide sales declined 5.9%, with a 7.6% decline in the United States partly offset by 3.5% international growth. These figures describe different parts of a predominantly franchised business: sales across the restaurant network are not the same as revenue recognized by the listed parent company.</p>",
+      "<p>When a franchise restaurant sells a meal, the operator records the customer’s purchase. Wendy’s receives revenue through arrangements such as royalties, rather than recording that entire restaurant sale as its own revenue. Company-operated locations are treated differently. Changes in the mix of owned and franchised restaurants can therefore influence reported revenue without indicating an equivalent improvement in demand across the system.</p>",
+      "<p>That distinction is especially relevant when restaurant ownership is changing. An acquisition can add directly operated sales to the parent’s accounts while bringing operating costs and investment needs with it. Investors need to assess the cash and profit generated by the acquired business, rather than assuming that a larger corporate revenue figure proves the turnaround is working. Our <a href=\"retailer-earnings-consumer-bellwether-explained.html\">guide to interpreting consumer-facing company earnings</a> explains why sales composition matters alongside the headline number.</p>",
+      "<h2>Breakfast becomes a local operating decision</h2>",
+      "<p>Under its Dave’s Way strategy, Wendy’s says its breakfast approach will be location specific, following tests that produced significant profit improvement. The announcement does not describe a uniform nationwide withdrawal from breakfast. It signals that the economics of the daypart should be judged at the restaurant level, where local demand and staffing requirements determine whether additional opening hours are worthwhile.</p>",
+      "<p>The underlying tradeoff is straightforward. Serving another meal period can spread rent and equipment costs across more sales, but it also requires labor, preparation and inventory. If incremental demand is too weak, the added revenue may fail to cover those incremental costs. A restaurant can improve profitability by changing hours or operations even if the immediate effect on sales is less impressive.</p>",
+      "<p>Conversely, reducing service availability can make recovery harder if customers stop considering the brand for that occasion. The operating decision needs evidence from individual markets. Test results give management a basis for changing its approach, but the wider rollout must still demonstrate that restaurant-level gains can be sustained without unnecessarily weakening customer relationships.</p>",
+      "<h2>Operator health shapes the parent company’s recovery</h2>",
+      "<p>The proposed Meritage transaction and planned transfers to better-capitalized operators show that the turnaround extends beyond menu promotions. A franchisor depends on independent owners to maintain service, staffing and investment. An operator under financial pressure may struggle to fund improvements precisely when the brand needs more consistent execution. Changing ownership can address part of that problem, although it cannot by itself create stronger customer demand.</p>",
+      "<p>Acquiring restaurants also changes the parent’s exposure. Direct ownership brings more control over operations and more responsibility for wages, food costs and capital spending. The relevant comparison is between the resources committed and the durable improvement achieved. Our <a href=\"mergers-acquisitions-explained.html\">guide to acquisitions</a> distinguishes announcing a possible transaction from completing it and realizing its intended benefits.</p>",
+      "<p>Wendy’s generated $239.0 million of operating cash flow and $174.2 million of company-defined free cash flow during the first nine months of 2026. Those are year-to-date measures, rather than third-quarter cash flow alone. Our <a href=\"free-cash-flow-explained.html\">free cash flow guide</a> explains why the definition and reporting period need to be checked before comparing a cash figure with quarterly profit or the potential cost of a transaction.</p>",
+      "<p>Cash provides capacity to support the business, but potential uses compete for the same funds. Restaurant investments, debt obligations, acquisitions and shareholder distributions all have to be evaluated together. The release declared a quarterly dividend of seven cents per share; maintaining a distribution does not independently demonstrate that the operating recovery is complete.</p>",
+      "<p>The next useful evidence will be customer traffic, comparable sales and the profitability of the restaurants carrying out the revised strategy. Wendy’s has identified specific operating changes and a possible transaction. Demonstrating a recovery will require those actions to produce more resilient restaurant earnings, rather than simply a different ownership mix or a new description of the turnaround.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Wendy’s: third-quarter 2026 results and strategy",
+        "url": "https://www.irwendys.com/news/news-details/2026/THE-WENDYS-COMPANY-REPORTS-THIRD-QUARTER-2026-RESULTS/default.aspx"
+      }
+    ],
+    "date": "2026-11-05T18:56:14Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/wendys-q3-2026-sales-daves-way-turnaround-cover-v1.webp",
+    "imageSmall": "assets/responsive/wendys-q3-2026-sales-daves-way-turnaround-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/wendys-q3-2026-sales-daves-way-turnaround-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/wendys-q3-2026-sales-daves-way-turnaround-cover-v1-480.webp 480w, assets/responsive/wendys-q3-2026-sales-daves-way-turnaround-cover-v1-960.webp 960w, assets/editorial/wendys-q3-2026-sales-daves-way-turnaround-cover-v1.webp 1672w"
+  },
+  {
+    "id": "hong-kong-carf-crypto-reporting-law-2027-2028",
+    "title": "Hong Kong Passes Crypto Reporting Law With Data Collection Starting in 2027",
+    "dek": "The first tax-information exchanges under CARF will follow in 2028. Service providers face preparation work before the separate, later changes to financial-account reporting.",
+    "section": "Crypto",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of Hong Kong’s regional flag above Victoria Harbour and the skyline.",
+    "body": [
+      "<p>Hong Kong’s Legislative Council passed legislation on November 4 to implement the OECD’s Crypto-Asset Reporting Framework, setting a timetable for collecting and exchanging tax information on crypto transactions. Relevant service providers will begin collecting the required data in 2027, with exchanges between Hong Kong’s Inland Revenue Department and partner jurisdictions starting in 2028. The law moves the city’s earlier commitment into an implementation phase with immediate preparation implications for affected businesses.</p>",
+      "<p>The same bill introduces amendments to the Common Reporting Standard, which governs financial-account information. That part follows a different schedule: the amended CRS takes effect in 2028, with information exchanges under the revised standard starting in 2029. Combining the two timetables would give providers and customers a misleading picture of when their respective obligations begin.</p>",
+      "<h2>Collection comes before the first exchange</h2>",
+      "<p>The most important operational distinction is between gathering information and transmitting it internationally. A first exchange in 2028 does not give providers until that year to start maintaining usable records. Hong Kong’s published implementation materials identify January 1, 2027 as the start of CARF requirements. Systems and customer procedures need to support the earlier collection stage if the later reporting is to be complete.</p>",
+      "<p>The government says the exchanges will be reciprocal and subject to confidentiality and data-security safeguards. It also says the Inland Revenue Department will issue guidance and has established a dedicated team to support industry implementation. Those commitments describe the intended administration of the framework; the technical work of applying it still falls on the organizations required to identify customers and report relevant activity.</p>",
+      "<p>For a provider, preparation is more than adding a field to an account-opening form. Information gathered from a customer must be connected to the correct account and transaction history. Updates need to flow through the reporting process without leaving inconsistent records. A platform that can execute a trade quickly does not automatically have the data controls needed to explain that trade accurately to a tax authority.</p>",
+      "<h2>The framework follows services and transactions</h2>",
+      "<p>CARF is designed to cover relevant crypto-asset service providers and reportable activity, rather than treating every use of blockchain technology as identical. Hong Kong’s published overview describes providers that, as a business, effect exchanges for customers, including intermediaries and trading platforms. Whether an organization falls within the rules depends on its activities and the applicable connection to the jurisdiction, not simply its preferred marketing label.</p>",
+      "<p>The OECD framework covers exchanges between crypto-assets and fiat currency, exchanges between crypto-assets, and relevant transfers. Reporting is structured by transaction category and asset. That design addresses a limitation of looking only at withdrawals into a bank account: a person can change an investment exposure by swapping one token for another without first converting the proceeds into cash.</p>",
+      "<p>For readers familiar with U.S. rules, our <a href=\"crypto-taxes-us-explained.html\">guide to U.S. crypto tax transactions</a> provides a useful comparison of transaction types. It does not determine Hong Kong’s reporting obligations. A tax-information framework and the domestic rules used to calculate a person’s liability are related but separate systems, and a reportable event should not automatically be described as a new tax charge.</p>",
+      "<h2>Reporting does not resolve every compliance question</h2>",
+      "<p>Customer due diligence is central to the OECD framework because authorities need to connect reported activity with the appropriate taxpayer and jurisdiction. The OECD’s implementation guidance describes obtaining information such as self-certification of tax residence. The quality of that identification affects the usefulness of the transaction data that follows. Large volumes of records are less helpful if they are associated with incomplete or inconsistent customer details.</p>",
+      "<p>Businesses with operations in several markets also need to distinguish international standards from each jurisdiction’s implementation. A common framework is intended to make information exchange more consistent; it does not mean all countries begin collecting data in the same year or use an identical domestic filing process. Local guidance, effective dates and the applicable reporting connection remain part of the compliance assessment.</p>",
+      "<p>Our coverage of <a href=\"hong-kong-24-7-tokenized-interbank-settlement-2026.html\">Hong Kong’s tokenized interbank settlement project</a> concerns a different element of digital finance. Settlement infrastructure changes how transactions can be completed. CARF changes how information about relevant crypto activity is collected and shared. Progress on one does not remove the obligations associated with the other, and the two developments should not be mistaken for a single regulatory approval.</p>",
+      "<h2>The practical test is whether the records reconcile</h2>",
+      "<p>For customers, additional information requests can become a visible consequence of the framework. That does not establish that every customer owes additional tax, or that a provider is alleging misconduct. For operators, the challenge is to obtain the necessary information through a process customers can understand while maintaining secure handling of sensitive identity and transaction records.</p>",
+      "<p>The law’s passage establishes a clearer sequence: collection during 2027, initial CARF exchanges from 2028, and the amended CRS exchange cycle from 2029. The next implementation milestones will be the promised guidance, reporting procedures and providers’ readiness to reconcile their customer records with reportable activity. Those details will determine whether an international transparency commitment becomes a dependable operational system.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Hong Kong government: passage of CARF and amended CRS bill, November 4",
+        "url": "https://www.ird.gov.hk/eng/ppr/archives/26110404.htm"
+      },
+      {
+        "label": "Hong Kong IRD: CARF overview and implementation requirements",
+        "url": "https://www.ird.gov.hk/eng/tax/dta_carf.htm"
+      },
+      {
+        "label": "OECD: CARF scope and transaction reporting",
+        "url": "https://www.oecd.org/en/publications/international-standards-for-automatic-exchange-of-information-in-tax-matters_896d79d1-en/full-report/component-5.html"
+      },
+      {
+        "label": "OECD: CARF implementation guide",
+        "url": "https://www.oecd.org/content/dam/oecd/en/networks/global-forum-tax-transparency/step-by-step-guide-understanding-implementing-crypto-asset-reporting-framework.pdf"
+      }
+    ],
+    "date": "2026-11-05T18:56:14Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1.webp",
+    "imageSmall": "assets/responsive/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1-480.webp 480w, assets/responsive/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1-960.webp 960w, assets/editorial/hong-kong-carf-crypto-reporting-law-2027-2028-cover-v1.webp 1672w"
+  },
+  {
     "id": "maersk-q3-2026-guidance-freight-rates-cash-flow",
     "title": "Maersk Raises Its Outlook, but Investors Question the Freight Windfall",
     "dek": "Higher freight rates lifted quarterly earnings and the annual forecast. Investors must assess how much of that improvement can survive a normalization of shipping capacity.",

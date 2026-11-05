@@ -1,0 +1,58 @@
+{
+  "publishedAt": "2026-11-05T18:56:14Z",
+  "authorization": "User requested recovery and publication; user supplied the previously approved three covers.",
+  "articles": [
+    {
+      "id": "box-nvidia-context-retrieval-enterprise-ai-2026",
+      "words": 783,
+      "sources": [
+        {
+          "label": "Box: November 5 partnership announcement, distributed by Business Wire",
+          "url": "https://www.stocktitan.net/news/BOX/box-partners-with-nvidia-to-deliver-the-trusted-content-layer-for-uc94dfek0gf2.html"
+        },
+        {
+          "label": "Box: Context Retrieval product description",
+          "url": "https://www.box.com/ai/contextretrieval"
+        }
+      ],
+      "coverProvenance": "User-supplied previously generated cover; illustrative scene, not documentary evidence.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "wendys-q3-2026-sales-daves-way-turnaround",
+      "words": 798,
+      "sources": [
+        {
+          "label": "Wendy’s: third-quarter 2026 results and strategy",
+          "url": "https://www.irwendys.com/news/news-details/2026/THE-WENDYS-COMPANY-REPORTS-THIRD-QUARTER-2026-RESULTS/default.aspx"
+        }
+      ],
+      "coverProvenance": "User-supplied previously generated cover; illustrative scene, not documentary evidence.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "hong-kong-carf-crypto-reporting-law-2027-2028",
+      "words": 806,
+      "sources": [
+        {
+          "label": "Hong Kong government: passage of CARF and amended CRS bill, November 4",
+          "url": "https://www.ird.gov.hk/eng/ppr/archives/26110404.htm"
+        },
+        {
+          "label": "Hong Kong IRD: CARF overview and implementation requirements",
+          "url": "https://www.ird.gov.hk/eng/tax/dta_carf.htm"
+        },
+        {
+          "label": "OECD: CARF scope and transaction reporting",
+          "url": "https://www.oecd.org/en/publications/international-standards-for-automatic-exchange-of-information-in-tax-matters_896d79d1-en/full-report/component-5.html"
+        },
+        {
+          "label": "OECD: CARF implementation guide",
+          "url": "https://www.oecd.org/content/dam/oecd/en/networks/global-forum-tax-transparency/step-by-step-guide-understanding-implementing-crypto-asset-reporting-framework.pdf"
+        }
+      ],
+      "coverProvenance": "User-supplied previously generated cover; illustrative scene, not documentary evidence.",
+      "editorialFit": 8.5
+    }
+  ]
+}
