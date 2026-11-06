@@ -3827,6 +3827,39 @@
       "bytes": 280642,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/wlfi-buyback-usd1-reserve-income-plan-2026.html"
+    },
+    {
+      "page": "ro-ai-research-lab-patient-outcomes-2026.html",
+      "source": "assets/editorial/ro-ai-research-lab-patient-outcomes-2026-cover-v1.webp",
+      "image": "assets/social/ro-ai-research-lab-patient-outcomes-2026-cover-v1-8d10c4850d1f.webp",
+      "sha256": "8d10c4850d1ffe5e2dedb1f804adc41c2b4d6a4c1eb8c7ecab1f242b7b3accdb",
+      "width": 1672,
+      "height": 941,
+      "bytes": 181930,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ro-ai-research-lab-patient-outcomes-2026.html"
+    },
+    {
+      "page": "us-october-2026-jobs-report-payrolls-revisions.html",
+      "source": "assets/editorial/us-october-2026-jobs-report-payrolls-revisions-cover-v1.webp",
+      "image": "assets/social/us-october-2026-jobs-report-payrolls-revisions-cover-v1-8fe2d7ce388c.webp",
+      "sha256": "8fe2d7ce388c3d8081167f196b6a6e4a2aafe74b5f9f3dca1b8bd31dd30d12fd",
+      "width": 1672,
+      "height": 941,
+      "bytes": 282772,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/us-october-2026-jobs-report-payrolls-revisions.html"
+    },
+    {
+      "page": "zcash-nu7-upgrade-faster-blocks-fee-reserve-2026.html",
+      "source": "assets/editorial/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3.webp",
+      "image": "assets/social/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3-4b8380935806.webp",
+      "sha256": "4b8380935806bd9afdb1360d277fbe5cffa54c15a4353c2bfb84177b1589b576",
+      "width": 1672,
+      "height": 941,
+      "bytes": 185346,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026.html"
     }
   ]
 }

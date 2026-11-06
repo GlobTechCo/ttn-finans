@@ -698,3 +698,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'claude-perso
 RELATED['claude-personal-finance-plaid-bank-accounts-beta-2026'] = ['enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026', 'ai-monetization-gap-explained']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'wlfi-buyback-usd1-reserve-income-plan-2026')
 RELATED['wlfi-buyback-usd1-reserve-income-plan-2026'] = ['stablecoins-explained-depeg-risk', 'defi-basics-explained', 'stock-buybacks-explained']
+
+# Reviewed November 6 third package: US employment, Ro research and Zcash NU7.
+GROUPS['Jobs and housing'].insert(0, 'us-october-2026-jobs-report-payrolls-revisions')
+RELATED['us-october-2026-jobs-report-payrolls-revisions'] = ['nonfarm-payrolls-jobs-report-explained', 'unemployment-rate-u3-u6-participation-explained', 'fed-october-2026-rate-hold-two-dissents']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'ro-ai-research-lab-patient-outcomes-2026')
+RELATED['ro-ai-research-lab-patient-outcomes-2026'] = ['enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026', 'claude-personal-finance-plaid-bank-accounts-beta-2026']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'zcash-nu7-upgrade-faster-blocks-fee-reserve-2026')
+RELATED['zcash-nu7-upgrade-faster-blocks-fee-reserve-2026'] = ['zcash-bowe-grants-subsidy-reserve-proposal-2026', 'defi-basics-explained', 'stablecoins-explained-depeg-risk']

@@ -1,5 +1,197 @@
 const TTN_ARTICLES = [
   {
+    "id": "us-october-2026-jobs-report-payrolls-revisions",
+    "title": "U.S. Adds 165,000 Jobs as Upward Revisions Strengthen the Hiring Picture",
+    "dek": "October hiring exceeded expectations, but a rise in involuntary part-time work complicates the message for households and the Federal Reserve.",
+    "section": "Market Analysis",
+    "tickers": [
+      "S&P 500",
+      "Nasdaq Composite"
+    ],
+    "imageAlt": "Editorial illustration of a hiring notice at an unbranded U.S. business entrance.",
+    "body": [
+      "<p>U.S. employers added 165,000 jobs in October, the Bureau of Labor Statistics reported on November 6, delivering a stronger hiring picture than economists had expected. Upward revisions to the preceding two months reinforced the improvement. The report gives businesses and policymakers a firmer employment backdrop, while leaving a less comfortable question about the quality and purchasing power of the work available.</p>",
+      "<p>The unemployment rate was 4.1%, down from September’s 4.2%. The Guardian’s live coverage reported a forecast of 65,000 additional jobs. That difference is a surprise relative to a forecast, rather than a measure of how far employment has exceeded the economy’s sustainable capacity. The two comparisons answer different questions and can lead to very different interpretations of the same headline.</p>",
+      "<h2>Revisions make the improvement harder to dismiss</h2>",
+      "<p>August’s payroll increase was revised to 186,000 from 133,000, and September’s to 60,000 from 29,000. Together, the revisions add 84,000 jobs to the previously reported total. BLS said professional and business services, health care, and transportation and warehousing added employment in October. Average hourly earnings increased 0.4% over the month and 3.1% over the year.</p>",
+      "<p>Revisions matter because the first payroll estimate is an early reading of an evolving dataset. Additional employer responses and updated seasonal factors can change the picture after financial markets have already reacted. Here, the direction of the revisions supports the stronger October number. It does not establish that every future revision will move the same way, or that one stronger month has become a durable hiring trend.</p>",
+      "<p>For interpreting the release, TTN’s guide to <a href=\"nonfarm-payrolls-jobs-report-explained.html\">the payroll report and its two surveys</a> explains a crucial distinction: jobs counted at establishments and people counted in households are different statistical units. Someone holding more than one payroll job can contribute differently to the two series. A change in payrolls consequently need not match the change in the number of employed people.</p>",
+      "<h2>A low unemployment rate leaves some strain out of view</h2>",
+      "<p>There was a weaker detail beneath the hiring gains. The number working part time for economic reasons rose by 339,000 to 4.8 million. These are people who wanted full-time employment but had reduced hours or could not find full-time jobs. The labor force participation rate was 61.9%, with BLS describing little monthly change.</p>",
+      "<p>That combination illustrates why the unemployment rate cannot carry the entire assessment of household conditions. A person with some paid work can be classified as employed while still lacking the hours needed to meet ordinary expenses. An employer adding a position and an existing worker losing hours can both appear in an economy whose aggregate payroll count is rising. These outcomes concern different dimensions of labor demand.</p>",
+      "<p>The household survey also distinguishes people actively seeking work from those outside the labor force. A lower unemployment rate can therefore have different meanings depending on participation and employment. TTN’s explanation of <a href=\"unemployment-rate-u3-u6-participation-explained.html\">unemployment, underemployment and participation</a> provides the relevant framework. In this release, the part-time measure is a reason to qualify the strong headline rather than disregard it.</p>",
+      "<h2>For the Fed, stronger hiring changes the balance of risks</h2>",
+      "<p>The Federal Reserve’s mandate includes maximum employment and stable prices. A firmer labor market can reduce the immediate concern that restrictive policy is producing a sharp employment contraction. It can also leave policymakers more room to confront inflation. Neither implication automatically dictates a rate increase or a rate cut; the decision depends on the broader evidence and the outlook when officials meet.</p>",
+      "<p>Wages belong in that assessment, but average hourly earnings are not a direct measure of every worker’s raise. Changes in the mix of industries and employees can influence the average. Nor does a nominal earnings increase establish an equivalent gain in purchasing power. A comparison with consumer prices needs matching periods and an appropriate inflation measure, as TTN’s <a href=\"cpi-inflation-explained.html\">inflation guide</a> describes.</p>",
+      "<p>For companies, a stronger employment base can support demand while keeping staffing costs relevant to margins. Those effects differ by business model. A firm selling discretionary services may benefit from household income; a labor-intensive operator also faces the expense of delivering those services. The report alone cannot determine which effect dominates an individual company’s next earnings release.</p>",
+      "<p>The same tension matters for markets. Better growth can support expected corporate revenue, while a higher expected path for interest rates can reduce the present value investors assign to future cash flows. It is entirely possible for encouraging economic data to produce an unsettled trading response. October’s release improves the evidence on hiring; the accompanying hours, wages and future revisions will determine how much confidence that improvement deserves.</p>"
+    ],
+    "sources": [
+      {
+        "label": "BLS: October 2026 Employment Situation, released November 6",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      },
+      {
+        "label": "The Guardian: contemporaneous forecast comparison",
+        "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates"
+      },
+      {
+        "label": "BLS: how unemployment is measured",
+        "url": "https://www.bls.gov/cps/cps_htgm.htm"
+      },
+      {
+        "label": "Federal Reserve: monetary policy goals and operation",
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm"
+      }
+    ],
+    "date": "2026-11-06T14:11:08Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/us-october-2026-jobs-report-payrolls-revisions-cover-v1.webp",
+    "imageSmall": "assets/responsive/us-october-2026-jobs-report-payrolls-revisions-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/us-october-2026-jobs-report-payrolls-revisions-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/us-october-2026-jobs-report-payrolls-revisions-cover-v1-480.webp 480w, assets/responsive/us-october-2026-jobs-report-payrolls-revisions-cover-v1-960.webp 960w, assets/editorial/us-october-2026-jobs-report-payrolls-revisions-cover-v1.webp 1672w"
+  },
+  {
+    "id": "ro-ai-research-lab-patient-outcomes-2026",
+    "title": "Telehealth Firm Ro Launches AI Research Lab, Seeks Drugmaker Partnerships",
+    "dek": "Ro plans to study patient outcomes and is discussing pharmaceutical partnerships. The commercial opportunity depends on evidence that goes beyond a large dataset.",
+    "section": "Tech & AI",
+    "tickers": [
+      "LLY",
+      "NVO"
+    ],
+    "imageAlt": "Editorial illustration of Ro’s existing at-home diagnostic kit and connected digital service, based on its official product reference.",
+    "body": [
+      "<p>Telehealth company Ro said on November 6 that it is launching an artificial intelligence-powered research lab to study patient outcomes, with potential customers extending beyond its own care platform. Reuters reported that Ro is in talks with drug manufacturers about partnerships. The initiative would give the company another way to use information generated through its business, alongside connecting patients with treatment.</p>",
+      "<p>Chief Executive Zach Reitano described potential uses for insurers evaluating coverage and manufacturers examining which patients benefit from treatments. Those are proposed applications, not announced results or evidence of signed new commercial contracts. The distinction matters for a company trying to turn the accumulated experience of delivering care into a research product that other organizations will find useful.</p>",
+      "<h2>A research operation built around an existing care business</h2>",
+      "<p>Ro’s public Research Lab site already lists work on patient-reported outcomes, telehealth care and obesity treatment. Its publication page separates peer-reviewed papers from conference abstracts. Several papers date from before this announcement. The launch should therefore be understood as a new research initiative around an existing body of work, rather than the first time Ro has studied patients using its services.</p>",
+      "<p>That distinction also affects how evidence should be assessed. A conference abstract can describe promising work while providing less methodological detail than a full paper. The existence of either format does not establish that a particular AI model has been validated for clinical decision-making. Ro’s listed research includes an abstract on a large language model-enabled adverse-event triage tool, but a publication listing alone is insufficient to judge its performance.</p>",
+      "<p>The company also documents the infrastructure through which some patient information can be generated. Its at-home testing service links sample collection, laboratory processing and results in a medical record. That helps explain the operational connection between digital care and research data. It does not mean every patient uses the same tests or contributes every category of information to the new initiative.</p>",
+      "<h2>More records do not automatically produce stronger evidence</h2>",
+      "<p>The Food and Drug Administration distinguishes real-world data from real-world evidence. The former includes routinely collected information about health and care delivery; the latter is clinical evidence derived from analyzing that information. The agency already uses appropriate real-world evidence in regulatory decisions. Its guidance for electronic health records and claims data emphasizes considerations for using those sources to support assessments of effectiveness or safety.</p>",
+      "<p>For Ro, that creates a plausible opportunity and a demanding standard. A platform may observe what happens after treatment begins without knowing everything that influenced the outcome. People who remain engaged with a digital service may differ from those who leave. A missing follow-up measurement is not necessarily a successful outcome, and a recorded improvement does not by itself establish which part of care caused it.</p>",
+      "<p>AI can help organize records or identify patterns, but those tasks leave the study design question intact. Consider two hypothetical patient groups receiving different treatments. If their starting health, access to care or follow-up differ, an apparent difference in outcomes could reflect those conditions. Adding more records can make an estimate more precise while leaving a systematic bias unresolved. This is an analytical challenge for the proposed business, not a finding that Ro’s studies contain that error.</p>",
+      "<p>The practical product needs a defined question, a usable comparison and a defensible treatment of missing information. TTN’s coverage of <a href=\"ai-agents-enterprise-roi-2026.html\">AI’s operational value</a> makes a related distinction: accelerating a task and demonstrating a useful outcome are separate accomplishments. For research buyers, faster analysis matters only when the resulting evidence is fit for the intended decision.</p>",
+      "<h2>Privacy controls are part of the research infrastructure</h2>",
+      "<p>The health-data setting also makes access and reuse consequential. U.S. Department of Health and Human Services guidance describes two HIPAA de-identification methods: expert determination and safe harbor. Where information has been de-identified in accordance with the rule, its use for research is treated differently from the use of identifiable protected health information. That general framework does not establish which route Ro will use for any particular partnership.</p>",
+      "<p>The National Institutes of Health separately cautions that information can sometimes support inferences about identity when combined with other sources, even after de-identification. A responsible assessment therefore looks at the dataset and its context, rather than treating removal of a name as the whole privacy analysis. TTN’s <a href=\"enterprise-ai-data-security-2026.html\">discussion of AI access controls</a> explains why permission to read information and governance of later outputs are connected but distinct responsibilities.</p>",
+      "<p>The business test is whether Ro can produce findings that insurers, manufacturers or clinicians can evaluate and use. Evidence about treatment persistence, outcomes and costs could be commercially relevant without being interchangeable with a randomized trial. The announcement establishes Ro’s ambition to expand that research activity. Published methods, subsequent findings and disclosed agreements will show how far the ambition develops into an independently assessable business.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters: Ro announcement and partnership discussions",
+        "url": "https://www.reuters.com/legal/litigation/ro-launches-healthcare-research-unit-plans-offer-data-drugmakers-2026-11-06/"
+      },
+      {
+        "label": "Ro Research Lab: research program and listed work",
+        "url": "https://ro.co/research-lab/"
+      },
+      {
+        "label": "Ro: publication formats and dates",
+        "url": "https://ro.co/research-lab/publications/"
+      },
+      {
+        "label": "Ro: existing at-home testing infrastructure",
+        "url": "https://ro.co/os/at-home-test-kits/"
+      },
+      {
+        "label": "FDA: definitions and regulatory use of real-world evidence",
+        "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence"
+      },
+      {
+        "label": "FDA: guidance on electronic records and claims data",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/real-world-data-assessing-electronic-health-records-and-medical-claims-data-support-regulatory"
+      },
+      {
+        "label": "HHS: de-identification methods",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html"
+      },
+      {
+        "label": "HHS: HIPAA and research",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/research/index.html"
+      },
+      {
+        "label": "NIH: privacy when sharing research participant data",
+        "url": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-22-213.html"
+      }
+    ],
+    "date": "2026-11-06T14:11:08Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/ro-ai-research-lab-patient-outcomes-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/ro-ai-research-lab-patient-outcomes-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/ro-ai-research-lab-patient-outcomes-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/ro-ai-research-lab-patient-outcomes-2026-cover-v1-480.webp 480w, assets/responsive/ro-ai-research-lab-patient-outcomes-2026-cover-v1-960.webp 960w, assets/editorial/ro-ai-research-lab-patient-outcomes-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "zcash-nu7-upgrade-faster-blocks-fee-reserve-2026",
+    "title": "Zcash Activates NU7, Cutting Block Times and Changing How Fees Fund the Network",
+    "dek": "The upgrade targets 25-second blocks and sends 60% of transaction fees into a future-reward mechanism. It also ends spending from the legacy Sprout pool.",
+    "section": "Crypto",
+    "tickers": [
+      "ZEC"
+    ],
+    "imageAlt": "Editorial illustration of Zcash branding on a smartphone in a cafe; no actual payment is depicted.",
+    "body": [
+      "<p>Zcash activated its NU7 network upgrade early on November 6 UTC, bringing a shorter target interval between blocks and a new mechanism for recycling transaction fees into future network rewards. The change is significant for both payments and the economics of securing the privacy-focused cryptocurrency. It also draws a hard boundary around an older part of the system: funds remaining in the legacy Sprout pool can no longer be spent under the new rules.</p>",
+      "<p>The activation occurred at mainnet block 3,543,405, the height specified in the deployment documentation. The ZecStats block tracker records activation at 02:34 UTC on November 6, or 9:34 p.m. Eastern Time on November 5, following preparations that had targeted around November 5. A blockchain upgrade is tied to its activation height rather than an ordinary calendar appointment, so the earlier estimate and the eventual date should not be treated as competing launch announcements.</p>",
+      "<h2>Shorter blocks address one part of the payment wait</h2>",
+      "<p>NU7 reduces the target spacing between blocks to 25 seconds from 75. The Zcash Foundation’s Zebra 7.0.0 release notes describe the change as a reduction in the average wait for a first confirmation. A target is a statistical property of the network: it does not promise that every individual block will arrive exactly on schedule.</p>",
+      "<p>That improvement does not turn every Zcash payment into an immediately available exchange balance. A receiving service can require several confirmations or impose its own processing controls. Wallet synchronization can also influence when a user sees an updated balance. A faster underlying chain helps one component of that journey, while the full experience still depends on the services through which a payment passes.</p>",
+      "<p>The upgrade also adjusts block subsidies and the remaining block-count intervals so that more frequent blocks do not simply triple issuance. The Foundation says daily scheduled issuance, the four-year halving schedule and the 21 million ZEC cap remain unchanged. That is a necessary economic counterpart to the shorter interval: block frequency and currency supply are connected through the reward rules, rather than moving independently.</p>",
+      "<h2>Transaction fees become a source of later rewards</h2>",
+      "<p>Under ZIP 235, 60% of each block’s transaction fees is removed from circulation, with the remaining portion available to miners. The intention is later algorithmic reissuance through the Network Sustainability Mechanism. Calling that change a permanent burn would misdescribe its design. The coins are intended to help fund later rewards, rather than disappear forever or become a discretionary investment fund.</p>",
+      "<p>ZIP 237 defines the reissuance mechanism, and the deployment specification sets its mainnet starting height at 8,939,664. Reissuance is therefore separate from today’s activation. The reserve balance represents value previously removed from circulation or left unclaimed under the specified rules. Its later distribution does not give the network permission to exceed the existing supply cap.</p>",
+      "<p>Economically, the mechanism shifts part of fee revenue across time. The amount accumulated will depend on actual transaction fees, while the later contribution to rewards will depend on the defined formula. Stronger network use could increase the fee base; the existence of the mechanism cannot demonstrate that such use will occur or that the resulting rewards will meet every future security need.</p>",
+      "<p>This is distinct from the <a href=\"zcash-bowe-grants-subsidy-reserve-proposal-2026.html\">separate proposal to redirect the grants program’s subsidy</a> previously covered by TTN. That debate concerns a proposed funding allocation. NU7’s fee rules concern an activated consensus change. Combining the two would make a governance discussion appear settled merely because another reserve-related mechanism has gone live.</p>",
+      "<h2>Sprout’s retirement has an immediate consequence</h2>",
+      "<p>NU7 rejects version 4 transactions, while versions 5 and 6 remain valid. ZIP 2003 explains that Sprout transfers can only be represented through version 4, which makes the remaining Sprout funds unspendable. The effect is broader than a wallet interface changing: a compatible wallet cannot bypass a transaction format that the consensus rules no longer accept.</p>",
+      "<p>The same document explicitly distinguishes that restriction from permanently burning or unissuing the coins. A future consensus change could theoretically restore a retrieval mechanism, but the specification warns that spending may never be re-enabled. It would therefore be misleading either to describe recovery as guaranteed or to say the funds have already been permanently destroyed.</p>",
+      "<h2>Deployment quality now matters as much as the specification</h2>",
+      "<p>The Foundation warned that older nodes could follow a different chain after activation and instructed operators to upgrade. It also described new shielded-activity limits intended to bound processing and synchronization costs as blocks arrive more frequently. A payment improvement has to remain practical for the infrastructure validating and serving the network, not merely attractive in a headline.</p>",
+      "<p>For users and investors, the immediate measures of success are operational: compatible services, reliable synchronization and payment handling under the new rules. Those are different from a forecast for ZEC’s market price. As with the distinction between token mechanics and financial rights in TTN’s <a href=\"defi-basics-explained.html\">DeFi guide</a>, a protocol improvement needs to be assessed on the specific function it changes. NU7 supplies new rules; sustained use will determine their economic importance.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Zcash Foundation: Zebra 7.0.0 release and NU7 implementation",
+        "url": "https://forum.zcashcommunity.com/t/zebra-7-0-0-release/58442"
+      },
+      {
+        "label": "ZIP 259: deployment, activation heights and included changes",
+        "url": "https://zips.z.cash/zip-0259"
+      },
+      {
+        "label": "ZIP 218: 25-second block target spacing",
+        "url": "https://zips.z.cash/zip-0218"
+      },
+      {
+        "label": "ZIP 235: transaction fee removal and later reissuance",
+        "url": "https://zips.z.cash/zip-0235"
+      },
+      {
+        "label": "ZIP 237: Network Sustainability Mechanism",
+        "url": "https://zips.z.cash/zip-0237"
+      },
+      {
+        "label": "ZIP 2003: version 4 rejection and Sprout consequences",
+        "url": "https://zips.z.cash/zip-2003"
+      },
+      {
+        "label": "ZecStats: observed activation block and UTC timestamp",
+        "url": "https://zecstats.org/nu7"
+      }
+    ],
+    "date": "2026-11-06T14:11:08Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3.webp",
+    "imageSmall": "assets/responsive/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3-480.webp",
+    "imageMedium": "assets/responsive/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3-960.webp",
+    "imageSrcset": "assets/responsive/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3-480.webp 480w, assets/responsive/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3-960.webp 960w, assets/editorial/zcash-nu7-upgrade-faster-blocks-fee-reserve-2026-cover-v3.webp 1672w"
+  },
+  {
     "id": "iag-q3-2026-profit-fuel-costs-capacity-outlook",
     "title": "British Airways Owner IAG Earns More Revenue but Less Profit as Fuel Costs Climb",
     "dek": "Third-quarter revenue rose 4.5%, but operating profit fell 15.9%. Premium demand and fuel hedges have cushioned the pressure without eliminating it.",

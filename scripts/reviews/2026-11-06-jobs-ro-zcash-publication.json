@@ -1,0 +1,110 @@
+{
+  "publishedAt": "2026-11-06T14:11:08Z",
+  "authorization": "Owner explicitly requested publication after reviewing the three-article package and the latest Zcash smartphone cover v3.",
+  "articles": [
+    {
+      "id": "us-october-2026-jobs-report-payrolls-revisions",
+      "words": 730,
+      "sources": [
+        {
+          "label": "BLS: October 2026 Employment Situation, released November 6",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        },
+        {
+          "label": "The Guardian: contemporaneous forecast comparison",
+          "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates"
+        },
+        {
+          "label": "BLS: how unemployment is measured",
+          "url": "https://www.bls.gov/cps/cps_htgm.htm"
+        },
+        {
+          "label": "Federal Reserve: monetary policy goals and operation",
+          "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration, not documentary evidence. Zcash uses the specifically selected smartphone v3; no real transaction or merchant acceptance is claimed.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "ro-ai-research-lab-patient-outcomes-2026",
+      "words": 772,
+      "sources": [
+        {
+          "label": "Reuters: Ro announcement and partnership discussions",
+          "url": "https://www.reuters.com/legal/litigation/ro-launches-healthcare-research-unit-plans-offer-data-drugmakers-2026-11-06/"
+        },
+        {
+          "label": "Ro Research Lab: research program and listed work",
+          "url": "https://ro.co/research-lab/"
+        },
+        {
+          "label": "Ro: publication formats and dates",
+          "url": "https://ro.co/research-lab/publications/"
+        },
+        {
+          "label": "Ro: existing at-home testing infrastructure",
+          "url": "https://ro.co/os/at-home-test-kits/"
+        },
+        {
+          "label": "FDA: definitions and regulatory use of real-world evidence",
+          "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence"
+        },
+        {
+          "label": "FDA: guidance on electronic records and claims data",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/real-world-data-assessing-electronic-health-records-and-medical-claims-data-support-regulatory"
+        },
+        {
+          "label": "HHS: de-identification methods",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html"
+        },
+        {
+          "label": "HHS: HIPAA and research",
+          "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/research/index.html"
+        },
+        {
+          "label": "NIH: privacy when sharing research participant data",
+          "url": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-22-213.html"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration, not documentary evidence. Zcash uses the specifically selected smartphone v3; no real transaction or merchant acceptance is claimed.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "zcash-nu7-upgrade-faster-blocks-fee-reserve-2026",
+      "words": 795,
+      "sources": [
+        {
+          "label": "Zcash Foundation: Zebra 7.0.0 release and NU7 implementation",
+          "url": "https://forum.zcashcommunity.com/t/zebra-7-0-0-release/58442"
+        },
+        {
+          "label": "ZIP 259: deployment, activation heights and included changes",
+          "url": "https://zips.z.cash/zip-0259"
+        },
+        {
+          "label": "ZIP 218: 25-second block target spacing",
+          "url": "https://zips.z.cash/zip-0218"
+        },
+        {
+          "label": "ZIP 235: transaction fee removal and later reissuance",
+          "url": "https://zips.z.cash/zip-0235"
+        },
+        {
+          "label": "ZIP 237: Network Sustainability Mechanism",
+          "url": "https://zips.z.cash/zip-0237"
+        },
+        {
+          "label": "ZIP 2003: version 4 rejection and Sprout consequences",
+          "url": "https://zips.z.cash/zip-2003"
+        },
+        {
+          "label": "ZecStats: observed activation block and UTC timestamp",
+          "url": "https://zecstats.org/nu7"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration, not documentary evidence. Zcash uses the specifically selected smartphone v3; no real transaction or merchant acceptance is claimed.",
+      "editorialFit": 8.5
+    }
+  ]
+}
