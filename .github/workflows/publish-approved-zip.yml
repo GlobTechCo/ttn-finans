@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'publish-queue/*.zip'
+      - 'TTN_Finance_*_AutoPublish_*.zip'
+      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -29,13 +31,13 @@ jobs:
         shell: bash
         run: |
           shopt -s nullglob
-          archives=(publish-queue/*.zip)
+          archives=(publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip)
           if (( ${#archives[@]} == 0 )); then
             echo "No approved ZIPs in queue"
             exit 0
           fi
-          python scripts/import_publication_zip.py "publish-queue/"*.zip
-          rm -- publish-queue/*.zip
+          python scripts/import_publication_zip.py "${archives[@]}"
+          rm -- "${archives[@]}"
       - name: Refresh catalog, archives, homepage, social cards and sitemaps
         run: |
           python scripts/refresh_static_editorial.py
