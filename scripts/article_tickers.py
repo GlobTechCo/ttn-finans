@@ -10,6 +10,8 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
+    'IAG': ('BME:IAG', 'International Airlines Group · BME · EUR'),
+    'WLFI': ('BINANCE:WLFIUSDT', 'WLFI / Tether · Binance'),
     'QCOM': ('NASDAQ:QCOM', 'Qualcomm · Nasdaq'),
     'AGLT': ('NASDAQ:AGLT', 'Agility Robotics · Nasdaq'),
     'AAVE': ('COINBASE:AAVEUSD', 'Aave / USD · Coinbase'),

@@ -3794,6 +3794,39 @@
       "bytes": 662058,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/payward-aave-token-stake-secondary-market-2026.html"
+    },
+    {
+      "page": "claude-personal-finance-plaid-bank-accounts-beta-2026.html",
+      "source": "assets/editorial/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2.webp",
+      "image": "assets/social/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2-dd6a1f436514.webp",
+      "sha256": "dd6a1f436514450acfc0a7b12877c9a95b1dc19f3bd2c5e39f366cbc1c56f4a9",
+      "width": 1672,
+      "height": 941,
+      "bytes": 205982,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/claude-personal-finance-plaid-bank-accounts-beta-2026.html"
+    },
+    {
+      "page": "iag-q3-2026-profit-fuel-costs-capacity-outlook.html",
+      "source": "assets/editorial/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1.webp",
+      "image": "assets/social/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1-2a3fe308b088.webp",
+      "sha256": "2a3fe308b088972591e56ada3ad7803cac555519aa21a51b86733ed006289479",
+      "width": 1672,
+      "height": 941,
+      "bytes": 222692,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/iag-q3-2026-profit-fuel-costs-capacity-outlook.html"
+    },
+    {
+      "page": "wlfi-buyback-usd1-reserve-income-plan-2026.html",
+      "source": "assets/editorial/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1.webp",
+      "image": "assets/social/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1-e72d76d71f96.webp",
+      "sha256": "e72d76d71f96aa826eccf97a9d25aaeac6c6c4964d8809df1e4a2246b1003282",
+      "width": 1672,
+      "height": 941,
+      "bytes": 280642,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/wlfi-buyback-usd1-reserve-income-plan-2026.html"
     }
   ]
 }

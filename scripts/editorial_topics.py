@@ -690,3 +690,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'agility-robo
 RELATED['agility-robotics-aglt-nasdaq-digit-orders-2026'] = ['robotics-ai-factory-roi-2026', 'free-cash-flow-explained', 'ipo-process-explained']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'payward-aave-token-stake-secondary-market-2026')
 RELATED['payward-aave-token-stake-secondary-market-2026'] = ['defi-basics-explained', 'crypto-liquidation-leverage-explained', 'kraken-hyperliquid-us-perpetuals-testnet-2026']
+
+# Reviewed November 6 second package: IAG, Claude and WLFI.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'iag-q3-2026-profit-fuel-costs-capacity-outlook')
+RELATED['iag-q3-2026-profit-fuel-costs-capacity-outlook'] = ['crack-spread-refining-margins-explained', 'earnings-beat-miss-explained', 'free-cash-flow-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'claude-personal-finance-plaid-bank-accounts-beta-2026')
+RELATED['claude-personal-finance-plaid-bank-accounts-beta-2026'] = ['enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026', 'ai-monetization-gap-explained']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'wlfi-buyback-usd1-reserve-income-plan-2026')
+RELATED['wlfi-buyback-usd1-reserve-income-plan-2026'] = ['stablecoins-explained-depeg-risk', 'defi-basics-explained', 'stock-buybacks-explained']

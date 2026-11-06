@@ -1,0 +1,74 @@
+{
+  "publishedAt": "2026-11-06T11:15:25Z",
+  "authorization": "Three-article commission; owner approved revised Claude cover v2 after reviewing the package. Publication is within the standing editorial commission.",
+  "articles": [
+    {
+      "id": "iag-q3-2026-profit-fuel-costs-capacity-outlook",
+      "words": 812,
+      "sources": [
+        {
+          "label": "IAG Q3 2026 interim management report",
+          "url": "https://www.iairgroup.com/media/u1raahgn/interim-management-statement-for-the-nine-months-to-30-september-2026.pdf"
+        },
+        {
+          "label": "IAG Q3 2026 results presentation",
+          "url": "https://www.iairgroup.com/media/bbzdkps1/iag-results-presentation-q3-2026.pdf"
+        },
+        {
+          "label": "Reuters: IAG capacity outlook and fuel hedging",
+          "url": "https://www.reuters.com/business/british-airways-owner-iag-sees-2026-capacity-slightly-down-year-on-year-2026-11-06/"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on verified visual references, not documentary evidence. Claude uses the specifically approved v2.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "claude-personal-finance-plaid-bank-accounts-beta-2026",
+      "words": 828,
+      "sources": [
+        {
+          "label": "Anthropic: Introducing Personal Finance in Claude",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+        },
+        {
+          "label": "Claude Help Center: capabilities, access and privacy",
+          "url": "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude"
+        },
+        {
+          "label": "Anthropic Privacy Center: consumer data retention",
+          "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on verified visual references, not documentary evidence. Claude uses the specifically approved v2.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "wlfi-buyback-usd1-reserve-income-plan-2026",
+      "words": 816,
+      "sources": [
+        {
+          "label": "Reuters: World Liberty buyback announcement and dated market context",
+          "url": "https://www.reuters.com/business/trump-backed-world-liberty-financial-launches-wlfi-token-buyback-program-2026-11-06/"
+        },
+        {
+          "label": "CoinDesk: program description and historical purchases",
+          "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide"
+        },
+        {
+          "label": "World Liberty: USD1 backing and redemption disclosures",
+          "url": "https://worldlibertyfinancial.com/usd1"
+        },
+        {
+          "label": "World Liberty: corporate and revenue disclosures",
+          "url": "https://worldlibertyfinancial.com/about"
+        },
+        {
+          "label": "WLFI white paper: tokenholder rights",
+          "url": "https://static.worldlibertyfinancial.com/docs/mica-whitepaper.pdf"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on verified visual references, not documentary evidence. Claude uses the specifically approved v2.",
+      "editorialFit": 8.5
+    }
+  ]
+}

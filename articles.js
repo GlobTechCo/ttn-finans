@@ -1,5 +1,161 @@
 const TTN_ARTICLES = [
   {
+    "id": "iag-q3-2026-profit-fuel-costs-capacity-outlook",
+    "title": "British Airways Owner IAG Earns More Revenue but Less Profit as Fuel Costs Climb",
+    "dek": "Third-quarter revenue rose 4.5%, but operating profit fell 15.9%. Premium demand and fuel hedges have cushioned the pressure without eliminating it.",
+    "section": "Market Analysis",
+    "tickers": [
+      "IAG",
+      "Brent Oil"
+    ],
+    "imageAlt": "Editorial illustration of a British Airways A350-1000, based on official aircraft references.",
+    "body": [
+      "<p>International Airlines Group, the owner of British Airways, reported a 15.9% fall in third-quarter operating profit before exceptional items on November 6, even as revenue increased. The figures show an airline group retaining pricing power but losing part of the benefit to higher fuel costs and operational disruption. Selling more revenue from an established network did not translate into more operating earnings.</p>",
+      "<p>Quarterly revenue reached €9.744 billion, up 4.5% from a year earlier. Operating profit before exceptional items fell to €1.726 billion from €2.053 billion. IAG maintained its full-year target for an operating margin before exceptional items of at least 12%, while now expecting annual capacity to be slightly below 2025. That forecast describes a tighter flying program, rather than a simple continuation of growth.</p>",
+      "<p>For U.S. readers, the North Atlantic is a particularly relevant part of the report. The group’s network includes British Airways, Iberia and Aer Lingus, alongside its other airlines. Changes in how it allocates capacity and prices long-haul seats affect a major set of connections between North America and Europe, although a group earnings release cannot predict the fare on an individual route.</p>",
+      "<h2>Pricing strength meets a larger fuel bill</h2>",
+      "<p>The operating margin before exceptional items was 17.7%, compared with 22.0% in the same quarter last year. That is a decline of 4.3 percentage points. A positive margin still means the business produced operating profit; the deterioration shows that the company retained less of each euro of revenue after the relevant operating costs.</p>",
+      "<p>IAG’s report says third-quarter fuel costs increased 30.4%, after the benefit of hedging. Non-fuel costs per unit of capacity also rose, by 3.4%. The combination is more informative than either measure alone. Fuel is a large variable expense, while disruption and lower-than-planned flying can make staffing, aircraft and other commitments more expensive per unit of service delivered.</p>",
+      "<p>Jet fuel also has its own market economics. A change in the price of crude oil does not necessarily produce an identical change in an airline’s delivered fuel bill. Refining, supply conditions, currency and contract timing can all matter. TTN’s explanation of the <a href=\"crack-spread-refining-margins-explained.html\">crack spread</a> describes why a refined product and its crude input can move differently. For an airline shareholder, a crude-price headline is therefore an incomplete cost forecast.</p>",
+      "<h2>Hedges change timing, not the need to buy fuel</h2>",
+      "<p>Reuters reported that IAG expects a total fuel bill of €8.9 billion for 2026. It said the group was 71% hedged for the remainder of this year and 45% hedged for 2027. These are coverage measures for different periods, not a statement that the same share of all operating expenses has been fixed.</p>",
+      "<p>Hedging can reduce exposure to an abrupt price movement, but it does not make fuel free or erase every difference between a financial contract and actual consumption. The volume an airline ultimately flies still matters. If schedules change, the relationship between forecast fuel needs and existing hedges can change with them. Comparing airlines solely on their hedge percentages would also miss differences in contract prices and maturity dates.</p>",
+      "<p>That makes the capacity outlook part of the financial story. A reduction in flying can avoid weak routes and preserve earnings, yet it can also leave some commitments spread over fewer seats. The commercial benefit depends on which capacity is removed and whether the remaining network supports better revenue relative to its cost. Capacity discipline is a decision about returns, not automatically a sign of either success or failure.</p>",
+      "<h2>The Atlantic offers support, with limits</h2>",
+      "<p>IAG disclosed an 11.0% increase in North Atlantic unit revenue during the quarter, with capacity broadly flat. The result supports management’s account of stronger pricing in an important market. It does not establish that every cabin, route or customer segment improved equally, and a quarterly regional average should not be mistaken for a universal increase in ticket prices.</p>",
+      "<p>The distinction between higher prices and higher profit is central to interpreting this release. A stronger fare mix can help absorb costs while still leaving the operating margin below last year’s level. As TTN’s guide to <a href=\"earnings-beat-miss-explained.html\">reading company earnings against expectations</a> explains, the relevant assessment combines the completed quarter with the assumptions management is making about the period ahead.</p>",
+      "<p>Capital returns add another claim on the business’s cash. IAG says the final €500 million tranche of its €1.5 billion buyback program has commenced, with completion expected by the end of February 2027. That is part of an existing program, rather than a newly announced €1.5 billion purchase. Our <a href=\"stock-buybacks-explained.html\">buyback explainer</a> distinguishes an authorization, a tranche in progress and shares actually repurchased.</p>",
+      "<p>The maintained margin target gives investors a benchmark for the remaining quarter. Whether it is met will depend on the balance between fares, flying, fuel and operational costs. Cash generation also matters because aircraft investment and shareholder distributions compete for funding. The <a href=\"free-cash-flow-explained.html\">difference between accounting profit and free cash flow</a> remains relevant even when demand looks firm: a resilient sales line alone cannot establish how much money is available after the airline has funded its commitments.</p>"
+    ],
+    "sources": [
+      {
+        "label": "IAG Q3 2026 interim management report",
+        "url": "https://www.iairgroup.com/media/u1raahgn/interim-management-statement-for-the-nine-months-to-30-september-2026.pdf"
+      },
+      {
+        "label": "IAG Q3 2026 results presentation",
+        "url": "https://www.iairgroup.com/media/bbzdkps1/iag-results-presentation-q3-2026.pdf"
+      },
+      {
+        "label": "Reuters: IAG capacity outlook and fuel hedging",
+        "url": "https://www.reuters.com/business/british-airways-owner-iag-sees-2026-capacity-slightly-down-year-on-year-2026-11-06/"
+      }
+    ],
+    "date": "2026-11-06T11:15:25Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1.webp",
+    "imageSmall": "assets/responsive/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1-480.webp 480w, assets/responsive/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1-960.webp 960w, assets/editorial/iag-q3-2026-profit-fuel-costs-capacity-outlook-cover-v1.webp 1672w"
+  },
+  {
+    "id": "claude-personal-finance-plaid-bank-accounts-beta-2026",
+    "title": "Claude Adds Bank-Account Connections, With Read-Only Access and New Privacy Boundaries",
+    "dek": "Anthropic’s U.S. Personal Finance beta can analyze connected balances and transactions. It cannot move money, and disconnecting an account does not erase earlier conversations.",
+    "section": "Tech & AI",
+    "tickers": [],
+    "imageAlt": "Editorial illustration of Claude branding on a smartphone beside unbranded bank payment cards.",
+    "body": [
+      "<p>Anthropic is adding bank-account connections to Claude through a Personal Finance beta announced on November 5, extending its AI assistant from general explanations about money to analysis of a user’s own financial records. The feature uses Plaid to connect selected accounts. Its access is read-only: Claude cannot transfer funds, manage an account or invest on the user’s behalf.</p>",
+      "<p>The beta is rolling out gradually to U.S. subscribers on Pro, Max and Ultra plans. It is not available on Free, Team or Enterprise plans, according to Anthropic’s help documentation. Announcing a rollout therefore does not mean every eligible subscriber already has the feature. The company describes a tool for understanding money, rather than a service designed to provide investment advice.</p>",
+      "<p>The commercial proposition is straightforward. A person can ask about spending across connected accounts instead of assembling the same information manually. But connecting an assistant to financial records changes the basis of the interaction. The usefulness of an answer depends on the records retrieved, their age and the way the assistant interprets them, as well as the quality of its language model.</p>",
+      "<h2>A bank connection supplies evidence, not a complete financial picture</h2>",
+      "<p>Anthropic says Claude can read bank and account names, account types and identifying suffixes, balances, credit limits and up to two years of transactions for the accounts a user chooses to share. That can support questions about recurring charges or recent spending. It does not establish a complete picture of every asset, obligation and future expense a household has.</p>",
+      "<p>The documentation says linked investment and loan accounts supply balances and credit limits, rather than holdings, trades, rates or contractual terms. A combined balance is therefore different from a portfolio analysis or a calculation using a loan’s actual interest provisions.</p>",
+      "<p>That distinction matters when a conversational answer moves from describing records to evaluating a choice. An account balance can be accurately retrieved and still be insufficient to determine whether a large purchase is affordable. Future income, irregular bills and obligations outside the connected accounts can change the answer. The connection narrows one information gap, but it does not remove the need for a clearly defined financial question.</p>",
+      "<h2>Read-only access addresses one risk, while data quality remains</h2>",
+      "<p>The sign-in flow goes through Plaid, and Anthropic says Claude does not request or see the user’s bank password. Separating analysis from transaction execution is a meaningful boundary: a mistaken explanation cannot directly become an instruction that moves money through this feature. It is also a limit on the convenience the product can offer. Finding an unwanted subscription does not mean the assistant can cancel its payment from the account.</p>",
+      "<p>Anthropic’s help page identifies practical sources of disagreement with a bank’s own records. Balances can be a day or two old, an account linked through separate logins may be counted twice, and a bank that cannot be read can be left out of the spending figures. These are important qualifications for a product whose answers may appear precise.</p>",
+      "<p>The analytical challenge is reconciliation. Moving money between accounts, paying a card balance and making a purchase are different economic events. Any system summarizing household cash flow needs to distinguish those events so that totals remain meaningful. This is a description of the reporting problem, not a claim that Claude necessarily mishandles a particular transaction. A useful answer needs a traceable connection to the records supporting it.</p>",
+      "<p>TTN’s discussion of <a href=\"ai-agents-enterprise-roi-2026.html\">the work left for people when AI takes on a task</a> applies to that boundary. Faster categorization has value, but the saving is smaller if a person must repeatedly reconstruct the underlying ledger to trust the result. Accuracy and transparency belong in the product’s usefulness assessment alongside speed.</p>",
+      "<h2>Training exclusions and deletion are separate questions</h2>",
+      "<p>Anthropic says conversations inside the Personal Finance hub are excluded from model training. Financial information shared outside that hub follows the user’s ordinary privacy settings. The scope matters: the company is describing a particular product area, rather than announcing a universal exemption for every money-related conversation in Claude.</p>",
+      "<p>Disconnecting a bank also has a narrower effect than deleting a financial history. It stops further reading from that connection, while material already present in chats, artifacts or shared links remains until removed. Anthropic’s general consumer retention guidance says deleted conversations disappear from chat history immediately and are removed from back-end storage within 30 days, subject to stated exceptions. Unlinking and deletion should consequently be understood as different controls.</p>",
+      "<p>The broader issue is familiar from <a href=\"enterprise-ai-data-security-2026.html\">AI access-control design</a>: deciding what a system can read is only part of governing what happens to information afterward. Financial records can reveal sensitive patterns even when only a few account digits are displayed. Limiting access, limiting reuse and handling retained outputs address different parts of that exposure.</p>",
+      "<p>Personal Finance gives Anthropic a direct role in how consumers interpret their accounts. The first test is whether it produces reliable, explainable summaries from the limited data it receives. The company’s stated ambition to explore work with licensed professionals and regulated firms remains a future direction. Today’s release is a read-only beta, with its value and limits both defined by that narrower scope.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Anthropic: Introducing Personal Finance in Claude",
+        "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+      },
+      {
+        "label": "Claude Help Center: capabilities, access and privacy",
+        "url": "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude"
+      },
+      {
+        "label": "Anthropic Privacy Center: consumer data retention",
+        "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data"
+      }
+    ],
+    "date": "2026-11-06T11:15:25Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2.webp",
+    "imageSmall": "assets/responsive/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2-480.webp",
+    "imageMedium": "assets/responsive/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2-960.webp",
+    "imageSrcset": "assets/responsive/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2-480.webp 480w, assets/responsive/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2-960.webp 960w, assets/editorial/claude-personal-finance-plaid-bank-accounts-beta-2026-cover-v2.webp 1672w"
+  },
+  {
+    "id": "wlfi-buyback-usd1-reserve-income-plan-2026",
+    "title": "World Liberty Plans WLFI Buybacks, Linking Token Demand to Possible USD1 Reserve Income",
+    "dek": "The Trump-backed venture says purchases may draw on revenue from its stablecoin business. The distinction between reserve earnings and redemption assets is central to the plan.",
+    "section": "Crypto",
+    "tickers": [
+      "WLFI"
+    ],
+    "imageAlt": "Editorial still life based on World Liberty Financial’s official token emblem and wordmark.",
+    "body": [
+      "<p>World Liberty Financial plans further purchases of its WLFI governance token, potentially using revenue generated from the reserves behind its USD1 stablecoin, according to reports published on November 6. The Trump-backed venture said purchases could draw on other sources as well. The plan creates a possible link between the income of a stablecoin business and demand for a separate, market-traded governance token.</p>",
+      "<p>Reuters reported that the company announced the program on Thursday, November 5, describing an initial allocation that could include reserve-related revenue. The announcement should be distinguished from a completed round of purchases. A program can establish an intended use of money without showing the amount already spent, the number of tokens acquired or the timing of its next transaction.</p>",
+      "<p>The proposal comes after a sharp decline in WLFI. Reuters, citing CoinMarketCap, reported that the token was down about 10% since the U.S. midterm vote and more than 60% for the year at the time of its report. Those are dated market observations, rather than a current price quotation or evidence that repurchases will reverse the decline.</p>",
+      "<h2>Reserve income and reserve assets serve different purposes</h2>",
+      "<p>USD1 and WLFI have different roles. World Liberty describes USD1 as a stablecoin redeemable one-for-one for U.S. dollars, backed by dollars and U.S. government money market funds. WLFI is the venture’s governance token. A plan to purchase WLFI does not make WLFI redeemable for a dollar or extend USD1’s redemption proposition to it.</p>",
+      "<p>The funding language is consequently important. Income earned on assets held to back a stablecoin is different from the principal supporting outstanding redemption obligations. Using eligible business revenue for another purpose does not, by itself, establish that reserves have been removed. Conversely, a headline about reserve income cannot demonstrate that a particular transfer complies with every relevant agreement or leaves every liability fully covered.</p>",
+      "<p>World Liberty’s public disclosures say BitGo and affiliated World Liberty entities are entitled to interest earned on the reserve assets under their agreements. That describes a contractual revenue relationship within the stablecoin business. It does not establish that ordinary WLFI holders directly own those reserves or automatically receive the interest. TTN’s guide to <a href=\"stablecoins-explained-depeg-risk.html\">stablecoin reserves and redemption risks</a> explains why the asset backing, issuer obligations and economic beneficiaries need separate examination.</p>",
+      "<h2>A buyback program needs an execution record</h2>",
+      "<p>CoinDesk reported that World Liberty intends purchases to become an ongoing part of its strategy, with pace and scale connected to ecosystem growth and governance participation. It also noted the company had disclosed $65.6 million of open-market buybacks in April covering the preceding six months. That historical figure is not a budget for the newly described program.</p>",
+      "<p>The financial mechanism depends on execution. Market purchases create demand when they occur, while an announcement describes possible future activity. The significance of that demand depends on the money committed, trading liquidity and what other holders choose to do. The existence of a recurring program cannot establish a price floor, particularly when the public description leaves room for changes in its pace and scale.</p>",
+      "<p>There is also a separate supply question. Tokens acquired by a project can be held, assigned to a particular purpose or removed from circulation through a defined process. The label “buyback” alone does not establish permanent destruction. Treating every purchase as a burn would skip the question of where the acquired tokens go and whether they can return to the market.</p>",
+      "<p>TTN’s <a href=\"stock-buybacks-explained.html\">explanation of corporate share buybacks</a> provides a useful comparison of authorizations and actual purchases. The analogy has limits. WLFI is not ordinary corporate equity, and its token mechanics must be examined on their own terms. A familiar financing label cannot supply rights that the underlying instrument does not grant.</p>",
+      "<h2>Governance goals are not a guaranteed financial return</h2>",
+      "<p>World Liberty says the program is intended to encourage participation and strengthen the voting position of committed, long-term holders. That is the company’s objective, rather than an independently demonstrated outcome. Assessing it would require information about voting eligibility, participation and the treatment of tokens acquired through the program, not simply a record of market purchases.</p>",
+      "<p>The venture’s public corporate disclosures identify economic rights held through affiliated entities. Those arrangements should not be casually attributed to every person owning WLFI. As with other <a href=\"defi-basics-explained.html\">DeFi governance structures</a>, the entity earning revenue, the asset being traded and the voting system can be connected without being identical.</p>",
+      "<p>The distinction also separates this story from <a href=\"payward-aave-token-stake-secondary-market-2026.html\">Payward’s recently disclosed AAVE purchases</a>. That transaction involved an affiliated investment fund and clients building exposure through secondary-market purchases. World Liberty is describing a project-linked program that may use revenue from another part of its ecosystem. Both involve buying tokens, but the source of funds and intended purpose differ.</p>",
+      "<p>The next decisive disclosures would be evidence of purchases, their funding source and the destination of the acquired tokens. Until then, the announced program is a proposed channel for turning part of an ecosystem’s income into token demand. Its effect on governance or market value remains something to measure, rather than a result established by the announcement.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters: World Liberty buyback announcement and dated market context",
+        "url": "https://www.reuters.com/business/trump-backed-world-liberty-financial-launches-wlfi-token-buyback-program-2026-11-06/"
+      },
+      {
+        "label": "CoinDesk: program description and historical purchases",
+        "url": "https://www.coindesk.com/business/2026/11/06/trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide"
+      },
+      {
+        "label": "World Liberty: USD1 backing and redemption disclosures",
+        "url": "https://worldlibertyfinancial.com/usd1"
+      },
+      {
+        "label": "World Liberty: corporate and revenue disclosures",
+        "url": "https://worldlibertyfinancial.com/about"
+      },
+      {
+        "label": "WLFI white paper: tokenholder rights",
+        "url": "https://static.worldlibertyfinancial.com/docs/mica-whitepaper.pdf"
+      }
+    ],
+    "date": "2026-11-06T11:15:25Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1-480.webp 480w, assets/responsive/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1-960.webp 960w, assets/editorial/wlfi-buyback-usd1-reserve-income-plan-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "nasdaq-correction-ai-buildout-selloff-november-5-2026",
     "title": "Nasdaq Falls 5.5% as Chip Selloff Tests the AI Buildout Trade",
     "dek": "A sharp decline in semiconductor shares drove Wall Street lower on November 5, bringing financing and project-delivery risks back into focus.",
