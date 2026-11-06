@@ -706,3 +706,11 @@ GROUPS['AI investment, infrastructure and productivity'].insert(0, 'ro-ai-resear
 RELATED['ro-ai-research-lab-patient-outcomes-2026'] = ['enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026', 'claude-personal-finance-plaid-bank-accounts-beta-2026']
 GROUPS['Crypto, stablecoins and market structure'].insert(0, 'zcash-nu7-upgrade-faster-blocks-fee-reserve-2026')
 RELATED['zcash-nu7-upgrade-faster-blocks-fee-reserve-2026'] = ['zcash-bowe-grants-subsidy-reserve-proposal-2026', 'defi-basics-explained', 'stablecoins-explained-depeg-risk']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('global-equity-funds-3863-billion-inflows-november-2026')
+RELATED['global-equity-funds-3863-billion-inflows-november-2026'] = ['money-market-funds-vs-savings-explained', 'sp500-concentration-risk-explained', 'free-cash-flow-explained']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('microsoft-oracle-rented-ai-capacity-reassessment-2026')
+RELATED['microsoft-oracle-rented-ai-capacity-reassessment-2026'] = ['ai-inference-unit-economics-2026', 'ai-data-center-electricity-demand-2026', 'ai-chips-bottlenecks-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('binance-63-billion-heist-crypto-insurance-scrutiny-2026')
+RELATED['binance-63-billion-heist-crypto-insurance-scrutiny-2026'] = ['stablecoins-explained-depeg-risk', 'enterprise-ai-data-security-2026', 'crypto-liquidation-leverage-explained']
