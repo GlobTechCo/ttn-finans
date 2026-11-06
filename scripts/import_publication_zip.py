@@ -85,6 +85,8 @@ def publish(archive):
             check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
             new_title = html_std.escape(seo_title + seo_suffix)
             original_html = z.read(file).decode("utf-8")
+            # Apply the existing responsive 16:9 article image styles to every imported cover.
+            original_html = original_html.replace('<figure class="ttn-editorial-figure"><img ', '<figure class="ttn-editorial-figure"><img class="article-hero-image" ', 1)
             original_html = re.sub(r"<title>.*?</title>", "<title>" + new_title + "</title>", original_html, count=1, flags=re.S)
             # The site has an inline financial disclaimer, not disclaimer.html.
             # Remove this obsolete footer link rather than introducing a dead URL.
