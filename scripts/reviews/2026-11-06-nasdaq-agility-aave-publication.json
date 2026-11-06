@@ -1,0 +1,74 @@
+{
+  "publishedAt": "2026-11-06T08:08:22Z",
+  "authorization": "User instructed publication after reviewing the three articles and generated covers.",
+  "articles": [
+    {
+      "id": "nasdaq-correction-ai-buildout-selloff-november-5-2026",
+      "words": 756,
+      "sources": [
+        {
+          "label": "Reuters closing market report, via Euronext",
+          "url": "https://live.euronext.com/en/financial-news/deep-chip-selloff-drags-global-stocks-lower-ai-spending-concerns"
+        },
+        {
+          "label": "Qualcomm fiscal 2026 results, SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on official visual references; approved by user publication instruction; not documentary evidence.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "agility-robotics-aglt-nasdaq-digit-orders-2026",
+      "words": 871,
+      "sources": [
+        {
+          "label": "Agility public-market debut announcement, November 5",
+          "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+        },
+        {
+          "label": "Agility financial statements and prospectus, SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm"
+        },
+        {
+          "label": "Agility transaction closing, November 4",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination"
+        },
+        {
+          "label": "Agility capital financing disclosure, October 30",
+          "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination"
+        },
+        {
+          "label": "Official Digit 5 product reference",
+          "url": "https://www.agilityrobotics.com/solutions/digit-5"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on official visual references; approved by user publication instruction; not documentary evidence.",
+      "editorialFit": 8.5
+    },
+    {
+      "id": "payward-aave-token-stake-secondary-market-2026",
+      "words": 777,
+      "sources": [
+        {
+          "label": "Payward token acquisition announcement, November 5",
+          "url": "https://www.payward.com/press-release/aave-token-acquisition"
+        },
+        {
+          "label": "CoinDesk reporting on the transaction",
+          "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push"
+        },
+        {
+          "label": "Aave governance documentation",
+          "url": "https://www.aave.com/docs/ecosystem/governance"
+        },
+        {
+          "label": "Aave health factor and liquidation documentation",
+          "url": "https://aave.com/help/borrowing/liquidations"
+        }
+      ],
+      "coverProvenance": "Generated editorial illustration based on official visual references; approved by user publication instruction; not documentary evidence.",
+      "editorialFit": 8.5
+    }
+  ]
+}

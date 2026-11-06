@@ -682,3 +682,11 @@ GROUPS['Crypto, stablecoins and market structure'].insert(0, 'hong-kong-carf-cry
 RELATED['box-nvidia-context-retrieval-enterprise-ai-2026'] = ['ai-inference-unit-economics-2026', 'enterprise-ai-data-security-2026', 'ai-agents-enterprise-roi-2026']
 RELATED['wendys-q3-2026-sales-daves-way-turnaround'] = ['retailer-earnings-consumer-bellwether-explained', 'free-cash-flow-explained', 'mergers-acquisitions-explained']
 RELATED['hong-kong-carf-crypto-reporting-law-2027-2028'] = ['crypto-taxes-us-explained', 'hong-kong-24-7-tokenized-interbank-settlement-2026', 'stablecoins-explained-depeg-risk']
+
+# Reviewed November 6 publication: Nasdaq, Agility and AAVE.
+GROUPS['Stocks, earnings and portfolio construction'].insert(0, 'nasdaq-correction-ai-buildout-selloff-november-5-2026')
+RELATED['nasdaq-correction-ai-buildout-selloff-november-5-2026'] = ['ai-boom-capital-financing-2026', 'sp500-concentration-risk-explained', 'ai-monetization-gap-explained']
+GROUPS['AI investment, infrastructure and productivity'].insert(0, 'agility-robotics-aglt-nasdaq-digit-orders-2026')
+RELATED['agility-robotics-aglt-nasdaq-digit-orders-2026'] = ['robotics-ai-factory-roi-2026', 'free-cash-flow-explained', 'ipo-process-explained']
+GROUPS['Crypto, stablecoins and market structure'].insert(0, 'payward-aave-token-stake-secondary-market-2026')
+RELATED['payward-aave-token-stake-secondary-market-2026'] = ['defi-basics-explained', 'crypto-liquidation-leverage-explained', 'kraken-hyperliquid-us-perpetuals-testnet-2026']

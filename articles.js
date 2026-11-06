@@ -1,5 +1,164 @@
 const TTN_ARTICLES = [
   {
+    "id": "nasdaq-correction-ai-buildout-selloff-november-5-2026",
+    "title": "Nasdaq Falls 5.5% as Chip Selloff Tests the AI Buildout Trade",
+    "dek": "A sharp decline in semiconductor shares drove Wall Street lower on November 5, bringing financing and project-delivery risks back into focus.",
+    "section": "Market Analysis",
+    "tickers": [
+      "Nasdaq Composite",
+      "S&P 500",
+      "QCOM"
+    ],
+    "imageAlt": "Editorial reconstruction of the Nasdaq MarketSite facade in daylight.",
+    "body": [
+      "<p>U.S. stocks closed sharply lower on November 5, with the Nasdaq Composite falling 5.5% and confirming a correction from its record closing high. The S&P 500 dropped 4.4%, while the Dow Jones Industrial Average lost 3.4%. Semiconductor shares suffered an even steeper decline: the Philadelphia Semiconductor Index fell 12.2%, according to Reuters’ closing market report.</p>",
+      "<p>The session put a familiar investment argument under pressure. Demand for artificial intelligence can keep expanding while the shares of companies financing, supplying and operating that infrastructure lose value. Thursday’s selling reflected renewed doubts about the earnings and project assumptions behind the trade, rather than proof that demand for computing had disappeared.</p>",
+      "<p>Reuters linked the decline to Qualcomm’s earnings and concerns that Democratic victories in the midterm elections could bring greater scrutiny of data-center expansion. Those concerns describe investors’ interpretation of political risk. An election result does not itself cancel a construction contract, revoke a permit or establish a nationwide restriction on new facilities.</p>",
+      "<h2>A chipmaker’s results meet a crowded investment theme</h2>",
+      "<p>Qualcomm shares fell 9.5% on Thursday. Its fiscal fourth-quarter release, issued the previous evening, reported GAAP revenue of $10.322 billion, down 8% from a year earlier. The reporting period ended September 27. Those figures concern Qualcomm’s business, whose exposure extends beyond AI infrastructure, and should not be treated as a direct measure of spending across the entire data-center industry.</p>",
+      "<p>The same release showed why the business cannot be reduced to a single declining market. Qualcomm reported its first $2 billion quarter in automotive chip revenue, up 89% from a year earlier. Management also reiterated a $5 billion fiscal 2027 data-center revenue target. That target is a forecast, whereas the automotive and group revenue figures describe completed reporting periods.</p>",
+      "<p>For shareholders, the distinction is consequential. A company can produce encouraging results in a new division while weakness elsewhere limits current earnings. Its shares can also fall despite promising technology if the price already assumes a rapid transition to higher profits. The mechanics of an <a href=\"earnings-beat-miss-explained.html\">earnings surprise</a> depend on the expectations embedded in the stock, not simply on whether one reported figure increased.</p>",
+      "<h2>Delivery dates can matter as much as demand</h2>",
+      "<p>The economic chain behind an AI facility contains several businesses with different payment schedules. A developer must secure a site, power and financing. Equipment suppliers need orders to become shipments. An operator needs completed infrastructure to become usable capacity, then paying workloads. An attractive demand forecast does not eliminate the time between those steps.</p>",
+      "<p>As an analytical matter, a delay can change a project’s return without destroying its long-term usefulness. Interest and other committed costs may continue while the date of customer billing moves further away. A fully funded project with firm customer commitments therefore presents a different financial exposure from an expansion dependent on another borrowing round. TTN’s examination of <a href=\"ai-boom-capital-financing-2026.html\">how the AI buildout is financed</a> explains why funding terms belong alongside computing demand in the investment case.</p>",
+      "<p>Political uncertainty adds another variable to that timetable. Possible changes to permitting or power policy can raise the range of outcomes a shareholder must consider. But a market reaction is not a substitute for checking the jurisdiction, the project’s existing approvals and the wording of any actual proposal. Treating all projects as equally exposed would miss those distinctions.</p>",
+      "<h2>Index ownership can multiply the same exposure</h2>",
+      "<p>For a household holding a broad equity fund, the relevance extends beyond individual chip stocks. Market-capitalization-weighted portfolios give larger companies larger weights. Several holdings can also depend on the same underlying spending cycle even if they occupy different industry classifications. A cloud customer, a semiconductor supplier and a data-center operator are separate businesses, but their expected growth may share a common assumption about AI spending.</p>",
+      "<p>That relationship helps explain why diversification requires looking through company names to their sources of revenue and financing. It does not establish that every decline has the same cause. TTN’s guide to <a href=\"sp500-concentration-risk-explained.html\">S&P 500 concentration risk</a> sets out the distinction between owning many securities and owning many independent economic exposures.</p>",
+      "<p>Thursday’s closing prices establish the scale of the repricing. They do not settle whether AI assets have become inexpensive or whether earnings forecasts still need to fall. That judgment would require comparing current prices with company-specific cash generation, balance-sheet obligations and realistic deployment schedules. A large percentage decline alone answers none of those questions.</p>",
+      "<p>The next useful evidence will come from operating disclosures: revenue generated by installed capacity, spending still required to complete projects and the cash left after those commitments. The <a href=\"ai-monetization-gap-explained.html\">gap between AI investment and monetization</a> remains a financial question with different answers for each business. Thursday’s selloff made the cost of assuming those answers would all be favorable much more visible.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Reuters closing market report, via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/deep-chip-selloff-drags-global-stocks-lower-ai-spending-concerns"
+      },
+      {
+        "label": "Qualcomm fiscal 2026 results, SEC exhibit",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm"
+      }
+    ],
+    "date": "2026-11-06T08:08:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1-480.webp 480w, assets/responsive/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1-960.webp 960w, assets/editorial/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "agility-robotics-aglt-nasdaq-digit-orders-2026",
+    "title": "Agility Robotics Joins Nasdaq With Robot Orders Still Facing Delivery Tests",
+    "dek": "The Digit maker has disclosed more than $300 million in conditional orders, against roughly $174,000 of first-half sales. The gap puts execution and cash use in focus.",
+    "section": "Tech & AI",
+    "tickers": [
+      "AGLT"
+    ],
+    "imageAlt": "Editorial illustration of Agility Digit 5 based on an official product reference.",
+    "body": [
+      "<p>Agility Robotics began its public-market debut on November 5 under the Nasdaq symbol AGLT, following the completion of its combination with Churchill Capital Corp XI. The maker of the Digit humanoid robot is bringing a business already operating in commercial settings to investors, alongside a next-generation product whose broader rollout remains ahead of it.</p>",
+      "<p>The listing provides a financial test of a technology more often assessed through demonstrations. A robot moving a box establishes a capability. A repeatable business also needs dependable production, economical service and customers willing to expand deployments. Public ownership will make the relationship between those requirements and Agility’s financial results more visible.</p>",
+      "<p>The transaction and related financings represent approximately $465 million in gross capital before expenses, according to Agility’s disclosures. That total includes $100 million of equity funding received before closing. It should not be described as $465 million of new cash arriving on the first trading day, nor as the amount remaining after transaction costs.</p>",
+      "<h2>Orders and revenue sit at different stages</h2>",
+      "<p>Agility says it has more than $300 million of committed multiyear orders for Digit 5. Its announcement also states that those orders depend on contractual milestones, product features and specifications. The number signals customer commitments, but its conditions are central to understanding what has been secured. It does not establish that the same amount has already become revenue or cash.</p>",
+      "<p>The contrast with the existing business is stark. Agility’s SEC prospectus reports total net sales of $174,362 for the six months ended June 30, 2026, compared with $624,866 a year earlier. About $120,699 of the latest period’s sales came from related parties. Those historical results measure recognized business, while the conditional order total describes future commitments.</p>",
+      "<p>The same filing shows a first-half net loss of approximately $361.9 million and operating cash use of $86.2 million. The accounting loss is not equivalent to cash spending: increased stock-based compensation was a major contributor to the expense increase. Both measures matter, but using them interchangeably would misstate the company’s funding needs.</p>",
+      "<p>The timing reinforces that distinction. Agility targets early customer access to Digit 5 in the first half of 2027 and general availability by the end of that year. Both are forward-looking milestones. The current public listing therefore precedes the planned broad availability of the product associated with the disclosed order total.</p>",
+      "<p>For a manufacturer, delivering against such commitments can require spending before payment is collected. Components, assembly work, installation and service preparation all belong in the economics of a deployment. An order can be commercially valuable while still increasing near-term funding needs. TTN’s <a href=\"free-cash-flow-explained.html\">free cash flow guide</a> explains why revenue growth and the cash available after investment can move differently.</p>",
+      "<h2>Commercial experience gives the story a starting point</h2>",
+      "<p>Agility’s existing Digit platform has deployments involving GXO, Schaeffler and Toyota Motor Manufacturing Canada, according to the company’s closing announcement. It also reports more than 65,000 hours of real-world operation. Those are company-reported measures of experience, not an independently standardized comparison of performance against competing robots or conventional automation.</p>",
+      "<p>Operating history nevertheless changes the questions that can be asked. A demonstration is usually designed around a task the machine can perform. A deployed system must also handle interruptions, recovery and integration with the rest of a facility. The cost of human intervention matters alongside the number of successful movements because assistance can absorb some of the labor saving the equipment was intended to deliver.</p>",
+      "<p>The central customer calculation is the cost of useful work over time. That includes the equipment or service charge, integration, maintenance and the effect of downtime. A humanoid form can be attractive in an environment built around people, but it still competes with other ways of completing the job. TTN’s analysis of <a href=\"robotics-ai-factory-roi-2026.html\">robotics returns in factories</a> examines why task-level economics matter more than a general claim that robots improve productivity.</p>",
+      "<h2>Factory capacity needs customers and working capital</h2>",
+      "<p>Agility’s RoboFab facility in Salem, Oregon, is designed for annual production capacity of up to 10,000 robots. Designed capacity describes the manufacturing system’s intended scale. It is not a statement that the plant currently produces that many machines, that customers have accepted them or that the company earns an adequate margin on each one.</p>",
+      "<p>The difference can be substantial during a production ramp. Equipment and staffing commitments may be in place before volumes are high enough to spread fixed costs efficiently. Faster production can also tie up cash in inventory if delivery or customer acceptance takes longer than expected. These are manufacturing considerations, not evidence that Agility has already encountered a particular failure.</p>",
+      "<p>Its route to the market adds a separate financial layer. Agility completed a business combination with a special purpose acquisition company rather than a conventional initial public offering. The <a href=\"ipo-process-explained.html\">mechanics of going public</a> affect the ownership and financing structure, but a listing itself supplies no assurance about future product performance. Common stock and warrants also represent different securities; the latter should not be treated as interchangeable with ordinary shares.</p>",
+      "<p>The practical milestones are now more specific than a broad forecast for humanoid adoption. Conditional orders must become accepted deliveries, the next generation must reach customers on a workable schedule and commercial sites must generate a case for expansion. Agility has brought operating experience and disclosed commitments to public markets. The task ahead is to demonstrate how those assets translate into a durable manufacturing and service business.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Agility public-market debut announcement, November 5",
+        "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+      },
+      {
+        "label": "Agility financial statements and prospectus, SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026109058/ea0297114-07.htm"
+      },
+      {
+        "label": "Agility transaction closing, November 4",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination"
+      },
+      {
+        "label": "Agility capital financing disclosure, October 30",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination"
+      },
+      {
+        "label": "Official Digit 5 product reference",
+        "url": "https://www.agilityrobotics.com/solutions/digit-5"
+      }
+    ],
+    "date": "2026-11-06T08:08:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1-480.webp 480w, assets/responsive/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1-960.webp 960w, assets/editorial/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1.webp 1672w"
+  },
+  {
+    "id": "payward-aave-token-stake-secondary-market-2026",
+    "title": "Payward-Linked Fund and Clients Buy AAVE Tokens in DeFi Investment Push",
+    "dek": "The undisclosed secondary-market purchases give exposure to Aave’s governance token. They do not establish an equity investment in the company building its products.",
+    "section": "Crypto",
+    "tickers": [
+      "AAVE"
+    ],
+    "imageAlt": "Editorial reconstruction of the Aave mural shown in its official brand materials.",
+    "body": [
+      "<p>A Payward-affiliated investment fund and its clients have acquired an undisclosed amount of AAVE tokens through secondary-market purchases, according to a November 5 announcement. Payward, the financial infrastructure company behind Kraken, said it may make further acquisitions. It did not disclose a purchase price, the number of tokens or a timetable for additional buying.</p>",
+      "<p>The named fund is Digital Asset Special Investments I, LP. Its participation brings a recognizable financial-services group into the ownership story of Aave’s governance token. The transaction is narrower than buying the company developing Aave products: the announcement describes token purchases and does not announce an equity acquisition or control of Aave Labs.</p>",
+      "<p>That distinction determines how the news should be assessed. A governance token, an interest in a private investment fund and a share in a software company can provide very different rights. Combining them into a single claim that Payward bought Aave would obscure both the asset acquired and the questions the public statement leaves unanswered.</p>",
+      "<h2>Market purchases do not fund the developer directly</h2>",
+      "<p>In a secondary-market transaction, the buyer acquires an existing asset from another holder. The purchase proceeds go to the seller rather than automatically becoming fresh capital for a project’s developer or treasury. The announcement therefore does not establish a new funding round for Aave Labs or a direct cash contribution to the Aave DAO.</p>",
+      "<p>The scale of the investment also remains unknown. Without the amount purchased, the statement cannot establish Payward’s share of the token supply or its potential voting influence. Nor does it reveal how much belongs to the affiliated fund and how much to clients. The option of buying more is a statement of possible future activity, rather than a binding purchase commitment.</p>",
+      "<p>CoinDesk reported that the announcement followed earlier discussions involving both tokens and equity. Those discussions provide context, but they do not turn previously considered terms into completed transactions. Thursday’s disclosed terms must stand on their own. The same discipline applies to possible future collaboration: exploring a relationship does not establish a launched product, a signed distribution agreement or a measurable contribution to revenue.</p>",
+      "<h2>Governance exposure has its own economic limits</h2>",
+      "<p>Aave’s documentation describes a governance process in which eligible tokenholders can participate in proposals and voting. Governance can influence protocol decisions, including risk settings and treasury matters. Ownership of AAVE should nevertheless be distinguished from ordinary corporate stock and from a borrower’s or supplier’s position within the lending protocol.</p>",
+      "<p>Payward’s statement points to the Aave Will Win framework and says Aave Labs has committed to directing revenue from Aave-branded products to the DAO treasury, alongside network fees. That is the companies’ description of the arrangement. It does not, by itself, establish a fixed dividend per token or an automatic distribution schedule for every holder.</p>",
+      "<p>An analytical investment case must therefore connect several steps rather than stop at protocol activity. Fees must reach the relevant treasury, governance must determine their use and that use must have a defensible relationship to the asset a buyer holds. Revenue accruing somewhere in an ecosystem is not enough to calculate a tokenholder’s return. TTN’s guide to <a href=\"defi-basics-explained.html\">decentralized finance</a> explains why the protocol, its developers and its tokens need to be evaluated separately.</p>",
+      "<h2>Lending risks remain beneath the ownership headline</h2>",
+      "<p>Aave’s lending system lets participants supply and borrow digital assets, with collateral and risk parameters governing borrowing positions. Its published explanation of liquidations uses a health factor to compare collateral protection with debt. A position becomes eligible for liquidation when that measure falls below one. Market movements can therefore change the status of a loan even without a new borrowing transaction.</p>",
+      "<p>That mechanism matters because token ownership does not insulate a lending ecosystem from collateral volatility. The efficiency of liquidations, the reliability of price inputs and the behavior of borrowers during stress remain relevant to the underlying service. None of those risks disappears because a professional investor has bought the governance token. TTN’s explanation of <a href=\"crypto-liquidation-leverage-explained.html\">crypto liquidations and leverage</a> provides additional context for the difference between market exposure and the operation of collateralized loans.</p>",
+      "<p>The buyer also has a separate portfolio problem. A token position can change in market value even when the protocol continues operating. Exit liquidity and position size affect the ability to sell, while custody arrangements determine how the investment is held. The announcement does not provide enough detail to assess those features for either the fund or its clients.</p>",
+      "<p>Payward’s participation is a concrete development in institutional access to DeFi exposure, but its commercial consequences will need further evidence. TTN’s earlier coverage of <a href=\"kraken-hyperliquid-us-perpetuals-testnet-2026.html\">Kraken’s work on a U.S. perpetuals testnet</a> examined another initiative where announced scope and operational availability had to be separated. Here, the completed token purchases are the established event. Any larger claim about ownership, control or a new revenue channel requires additional disclosure.</p>"
+    ],
+    "sources": [
+      {
+        "label": "Payward token acquisition announcement, November 5",
+        "url": "https://www.payward.com/press-release/aave-token-acquisition"
+      },
+      {
+        "label": "CoinDesk reporting on the transaction",
+        "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push"
+      },
+      {
+        "label": "Aave governance documentation",
+        "url": "https://www.aave.com/docs/ecosystem/governance"
+      },
+      {
+        "label": "Aave health factor and liquidation documentation",
+        "url": "https://aave.com/help/borrowing/liquidations"
+      }
+    ],
+    "date": "2026-11-06T08:08:22Z",
+    "author": "TTN Research Desk",
+    "format": "news",
+    "image": "assets/editorial/payward-aave-token-stake-secondary-market-2026-cover-v1.webp",
+    "imageSmall": "assets/responsive/payward-aave-token-stake-secondary-market-2026-cover-v1-480.webp",
+    "imageMedium": "assets/responsive/payward-aave-token-stake-secondary-market-2026-cover-v1-960.webp",
+    "imageSrcset": "assets/responsive/payward-aave-token-stake-secondary-market-2026-cover-v1-480.webp 480w, assets/responsive/payward-aave-token-stake-secondary-market-2026-cover-v1-960.webp 960w, assets/editorial/payward-aave-token-stake-secondary-market-2026-cover-v1.webp 1672w"
+  },
+  {
     "id": "box-nvidia-context-retrieval-enterprise-ai-2026",
     "title": "Box Turns to NVIDIA to Help AI Agents Find the Right Company Files",
     "dek": "The content-management company plans a new retrieval engine for early 2027. Its value will depend on finding useful passages while respecting existing access permissions.",

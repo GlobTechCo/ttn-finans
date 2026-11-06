@@ -3761,6 +3761,39 @@
       "bytes": 365400,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/wendys-q3-2026-sales-daves-way-turnaround.html"
+    },
+    {
+      "page": "agility-robotics-aglt-nasdaq-digit-orders-2026.html",
+      "source": "assets/editorial/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1.webp",
+      "image": "assets/social/agility-robotics-aglt-nasdaq-digit-orders-2026-cover-v1-1b62ace71961.webp",
+      "sha256": "1b62ace71961cd5748ea12bc7cce18c5a8bc5fdb760561f108344d0de251178d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 314734,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/agility-robotics-aglt-nasdaq-digit-orders-2026.html"
+    },
+    {
+      "page": "nasdaq-correction-ai-buildout-selloff-november-5-2026.html",
+      "source": "assets/editorial/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1.webp",
+      "image": "assets/social/nasdaq-correction-ai-buildout-selloff-november-5-2026-cover-v1-7a0a11fadb56.webp",
+      "sha256": "7a0a11fadb564ea5111aae421d106c9051e16944a32d48cb1a8ae266ca7d4094",
+      "width": 1672,
+      "height": 941,
+      "bytes": 448756,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/nasdaq-correction-ai-buildout-selloff-november-5-2026.html"
+    },
+    {
+      "page": "payward-aave-token-stake-secondary-market-2026.html",
+      "source": "assets/editorial/payward-aave-token-stake-secondary-market-2026-cover-v1.webp",
+      "image": "assets/social/payward-aave-token-stake-secondary-market-2026-cover-v1-249b0ca66926.webp",
+      "sha256": "249b0ca669268be8a6f944b1f1eb7079146c97e4293a63659e410ecb06473ee6",
+      "width": 1672,
+      "height": 941,
+      "bytes": 662058,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/payward-aave-token-stake-secondary-market-2026.html"
     }
   ]
 }
