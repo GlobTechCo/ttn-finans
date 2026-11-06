@@ -30,7 +30,7 @@ jobs:
         run: |
           shopt -s nullglob
           archives=(publish-queue/*.zip)
-          if (( archives.length == 0 )); then
+          if (( ${#archives[@]} == 0 )); then
             echo "No approved ZIPs in queue"
             exit 0
           fi
