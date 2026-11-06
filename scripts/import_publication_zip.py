@@ -76,6 +76,9 @@ def publish(archive):
             new_title = html_std.escape(seo_title + seo_suffix)
             original_html = z.read(file).decode("utf-8")
             original_html = re.sub(r"<title>.*?</title>", "<title>" + new_title + "</title>", original_html, count=1, flags=re.S)
+            # The site has an inline financial disclaimer, not disclaimer.html.
+            # Remove this obsolete footer link rather than introducing a dead URL.
+            original_html = re.sub(r'\\s*·\\s*<a\\s+href=["\\\']disclaimer\\.html["\\\']>Disclaimer</a>', "", original_html, flags=re.I)
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
             entries.append(dict(
