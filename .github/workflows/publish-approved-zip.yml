@@ -1,0 +1,68 @@
+name: Publish approved article ZIP
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'publish-queue/*.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: ttn-editorial-zip-import
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements-maintenance.txt
+      - name: Import approved articles
+        shell: bash
+        run: |
+          shopt -s nullglob
+          archives=(publish-queue/*.zip)
+          if (( archives.length == 0 )); then
+            echo "No approved ZIPs in queue"
+            exit 0
+          fi
+          python scripts/import_publication_zip.py "publish-queue/"*.zip
+          rm -- publish-queue/*.zip
+      - name: Refresh catalog, archives, homepage, social cards and sitemaps
+        run: |
+          python scripts/refresh_static_editorial.py
+          python scripts/refresh_seo_metadata.py
+          python scripts/refresh_social_cards.py
+      - name: Verify articles and static site
+        run: |
+          python scripts/audit_article_lengths.py
+          python scripts/verify_site.py
+          node scripts/test-independent-loading.cjs
+          node scripts/test-navigation.cjs
+      - name: Commit validated site
+        id: saved
+        run: |
+          git config user.name "ttn-publication-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Publish approved article ZIP and update site indexes"
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Request GitHub Pages branch rebuild
+        if: steps.saved.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" || echo "::warning::Check Pages deployment status"
