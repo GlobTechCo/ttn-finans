@@ -56,6 +56,16 @@ def publish(archive):
             check(len(body_nodes) == 1, "No editorial body: " + slug)
             word_count = sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath("./p"))
             check(word_count >= 700, "Article shorter than 700 words: " + slug)
+            # An end-of-article Related reading block alone is not contextual linking.
+            # Require at least two distinct TTN Finance article links within body paragraphs.
+            inline_links = [
+                href for href in body_nodes[0].xpath(".//p//a/@href")
+                if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
+            ]
+            check(len(set(inline_links)) >= 2, "Missing contextual TTN Finance links inside the article body: " + slug)
+            for href in set(inline_links):
+                check((ROOT / href).is_file() or href in names, "Unknown internal article link: " + href)
+
             check(doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@src") == [cover], "Cover mismatch: " + slug)
             alt = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@alt")
             check(bool(alt and alt[0]), "Missing image alt text: " + slug)
