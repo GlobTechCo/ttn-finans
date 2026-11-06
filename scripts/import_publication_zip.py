@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Safely import an approved TTN ZIP package; run site regeneration afterwards."""
 import datetime
+import html as html_std
 import json
+import re
 import re
 import sys
 import zipfile
@@ -64,16 +66,28 @@ def publish(archive):
             related = m.get("related", [])
             check(isinstance(related, list) and all(isinstance(s, str) and slug_re.fullmatch(s) for s in related), "Invalid related reading")
             relations[slug] = related
+            # Short SEO titles are required by the static-site audit. Preserve the visible H1.
+            seo_suffix = " | TTN Finance"
+            seo_title = m["title"]
+            if len(seo_title + seo_suffix) > 65:
+                available = 65 - len(seo_suffix)
+                seo_title = seo_title[:available].rsplit(" ", 1)[0].rstrip(" ,:;-")
+            check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
+            new_title = html_std.escape(seo_title + seo_suffix)
+            original_html = z.read(file).decode("utf-8")
+            original_html = re.sub(r"<title>.*?</title>", "<title>" + new_title + "</title>", original_html, count=1, flags=re.S)
+            # These bytes replace the packaged HTML after full archive validation.
+            relations[slug + ":validated-html"] = original_html
             entries.append(dict(
                 id=slug, title=m["title"], dek=m["dek"], section=m["section"], format=m["format"],
-                date=m["date"], author="TTN Research Desk", tickers=[],
+                date=m["date"], author="TTN Research Desk", tickers=m.get("tickers", []),
                 image=cover, imageSmall=sm, imageMedium=md,
                 imageSrcset=sm + " 480w, " + md + " 960w, " + cover + " 1672w",
                 imageAlt=alt[0], body=[html.tostring(el, encoding="unicode") for el in body_nodes[0]],
                 sources=[]
             ))
-        all_ids = existing | set(relations)
-        check(all(r in all_ids for refs in relations.values() for r in refs), "Related reading points to missing articles")
+        all_ids = existing | {a["id"] for a in entries}
+        check(all(r in all_ids for slug, refs in relations.items() if not slug.endswith(":validated-html") for r in refs), "Related reading points to missing articles")
         # Refuse all collisions before writing any files.
         for name in names:
             if name in ("publication-manifest.json", "README-PUBLISH.txt"):
@@ -86,7 +100,10 @@ def publish(archive):
             dest = ROOT / name
             dest.parent.mkdir(parents=True, exist_ok=True)
             if not dest.exists():
-                dest.write_bytes(z.read(name))
+                if name.endswith(".html") and (name[:-5] + ":validated-html") in relations:
+                    dest.write_text(relations[name[:-5] + ":validated-html"], encoding="utf-8")
+                else:
+                    dest.write_bytes(z.read(name))
         catalog.extend(entries)
         catalog_path.write_text("const TTN_ARTICLES = " + json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";\n")
         path = ROOT / "scripts/editorial_topics.py"
