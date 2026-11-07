@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'cover-replacements/*.zip'
+      - 'TTN_Finance_Approved_Cover_Replacement_*.zip'
+      - '.github/workflows/replace-approved-cover.yml'
 permissions:
   contents: write
   pages: write
@@ -29,7 +31,7 @@ jobs:
         run: |
           set -euo pipefail
           shopt -s nullglob
-          archives=(cover-replacements/*.zip)
+          archives=(cover-replacements/*.zip TTN_Finance_Approved_Cover_Replacement_*.zip)
           if (( ${#archives[@]} == 0 )); then
             echo "::error::Missing approved cover ZIP"
             exit 1
