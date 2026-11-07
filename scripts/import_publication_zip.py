@@ -85,6 +85,17 @@ def publish(archive):
             check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
             new_title = html_std.escape(seo_title + seo_suffix)
             original_html = z.read(file).decode("utf-8")
+            # Editorial correction to the November 7 Michigan SEO summary. The
+            # archived 161-character sentence breached the site's 160-character
+            # limit; preserve the article body and all approved images unchanged.
+            if slug == "us-november-consumer-sentiment-51-inflation-ai-bubble-2026":
+                old_summary = "The University of Michigan's preliminary November index rose three points, while inflation expectations eased and worries about living costs remained widespread."
+                new_summary = "The University of Michigan's preliminary November index rose three points, as inflation expectations eased despite lingering cost concerns."
+                original_html = original_html.replace(html_std.escape(old_summary, quote=True), html_std.escape(new_summary, quote=True))
+            # Validate SEO metadata before committing imported files.
+            checked_doc = html.fromstring(original_html)
+            summaries = checked_doc.xpath('//meta[@name="description"]/@content')
+            check(len(summaries) == 1 and 70 <= len(summaries[0]) <= 160, "Invalid SEO meta description (70-160 chars): " + slug)
             # Apply the existing responsive 16:9 article image styles to every imported cover.
             original_html = original_html.replace('<figure class="ttn-editorial-figure"><img ', '<figure class="ttn-editorial-figure"><img class="article-hero-image" ', 1)
             original_html = re.sub(r"<title>.*?</title>", "<title>" + new_title + "</title>", original_html, count=1, flags=re.S)
