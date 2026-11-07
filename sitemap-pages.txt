@@ -400,3 +400,6 @@ https://globtechco.github.io/ttn-finans/usda-ai-crop-report-data-validation-nove
 https://globtechco.github.io/ttn-finans/bitcoin-ether-etfs-1-65-billion-weekly-outflows.html
 https://globtechco.github.io/ttn-finans/democrats-plan-ai-bills-data-centers-congress.html
 https://globtechco.github.io/ttn-finans/wall-street-week-ai-rout-jobs-report-fed-hike-bets.html
+https://globtechco.github.io/ttn-finans/asia-europe-stock-rout-chip-selloff-november-6-2026.html
+https://globtechco.github.io/ttn-finans/bitcoin-prediction-markets-70000-2026-polymarket-kalshi.html
+https://globtechco.github.io/ttn-finans/google-deepmind-ai-agents-rsa-1024-cryptanalysis-2026.html

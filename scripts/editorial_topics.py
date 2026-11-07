@@ -730,3 +730,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-ether-etfs-1-65-billion-weekly-outflows'] = ['bitcoin-etf-outflows-october-30-2026', 'bitcoin-etf-institutional-adoption', 'bitcoin-80000-fed-week-october-26-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('democrats-plan-ai-bills-data-centers-congress')
 RELATED['democrats-plan-ai-bills-data-centers-congress'] = ['ai-data-center-electricity-demand-2026', 'ai-data-center-boom-power-delivery-debt-2026', 'ai-capex-nasdaq-correction']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('asia-europe-stock-rout-chip-selloff-november-6-2026')
+RELATED['asia-europe-stock-rout-chip-selloff-november-6-2026'] = ['nasdaq-correction-ai-buildout-selloff-november-5-2026', 'wall-street-week-ai-rout-jobs-report-fed-hike-bets', 'ai-data-center-boom-power-delivery-debt-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-prediction-markets-70000-2026-polymarket-kalshi')
+RELATED['bitcoin-prediction-markets-70000-2026-polymarket-kalshi'] = ['bitcoin-ether-etfs-1-65-billion-weekly-outflows', 'bitcoin-etf-institutional-adoption', 'bitcoin-80000-fed-week-october-26-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('google-deepmind-ai-agents-rsa-1024-cryptanalysis-2026')
+RELATED['google-deepmind-ai-agents-rsa-1024-cryptanalysis-2026'] = ['ping-identity-ai-agents-enterprise-access-security-2026', 'ai-chips-bottlenecks-2026', 'binance-security-investigation-stablecoin-freezes-2026']
