@@ -39,6 +39,8 @@ jobs:
           python -m py_compile scripts/replace_approved_cover.py
           python scripts/replace_approved_cover.py "${archives[@]}"
           rm -- "${archives[@]}"
+      - name: Refresh article catalog, homepage and section references
+        run: python scripts/refresh_static_editorial.py
       - name: Update article social images
         run: python scripts/refresh_social_cards.py
       - name: Verify website
