@@ -722,3 +722,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['usda-ai-crop-report-data-validation-november-2026'] = ['us-october-2026-jobs-report-payrolls-revisions', 'ai-agents-enterprise-roi-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('greece-crypto-gains-tax-10-percent-staking-15-2027')
 RELATED['greece-crypto-gains-tax-10-percent-staking-15-2027'] = ['defi-basics-explained', 'crypto-taxes-us-explained', 'stablecoins-explained-depeg-risk']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('wall-street-week-ai-rout-jobs-report-fed-hike-bets')
+RELATED['wall-street-week-ai-rout-jobs-report-fed-hike-bets'] = ['nasdaq-correction-ai-buildout-selloff-november-5-2026', 'us-october-2026-jobs-report-payrolls-revisions', 'fed-funds-futures-rate-odds-explained']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-ether-etfs-1-65-billion-weekly-outflows')
+RELATED['bitcoin-ether-etfs-1-65-billion-weekly-outflows'] = ['bitcoin-etf-outflows-october-30-2026', 'bitcoin-etf-institutional-adoption', 'bitcoin-80000-fed-week-october-26-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('democrats-plan-ai-bills-data-centers-congress')
+RELATED['democrats-plan-ai-bills-data-centers-congress'] = ['ai-data-center-electricity-demand-2026', 'ai-data-center-boom-power-delivery-debt-2026', 'ai-capex-nasdaq-correction']

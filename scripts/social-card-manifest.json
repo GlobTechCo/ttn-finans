@@ -650,6 +650,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-etf-outflows-october-30-2026.html"
     },
     {
+      "page": "bitcoin-ether-etfs-1-65-billion-weekly-outflows.html",
+      "source": "assets/editorial/bitcoin-ether-etfs-1-65-billion-weekly-outflows-cover-v1.webp",
+      "image": "assets/social/bitcoin-ether-etfs-1-65-billion-weekly-outflows-cover-v1-49e134049554.webp",
+      "sha256": "49e13404955485f2c11b425c0373891d4342f3a408230318efb3be910401ef21",
+      "width": 1672,
+      "height": 941,
+      "bytes": 207100,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-ether-etfs-1-65-billion-weekly-outflows.html"
+    },
+    {
       "page": "bitcoin-ether-selloff-liquidations-october-15-2026.html",
       "source": "assets/editorial/bitcoin-ether-selloff-liquidations-october-15-2026.webp",
       "image": "assets/social/bitcoin-ether-selloff-liquidations-october-15-2026-cfb527574c9a.webp",
@@ -1473,6 +1484,17 @@
       "bytes": 182236,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/defi-basics-explained.html"
+    },
+    {
+      "page": "democrats-plan-ai-bills-data-centers-congress.html",
+      "source": "assets/editorial/democrats-plan-ai-bills-data-centers-congress-cover-v1.webp",
+      "image": "assets/social/democrats-plan-ai-bills-data-centers-congress-cover-v1-2cd53b78d562.webp",
+      "sha256": "2cd53b78d56299df9d2f02c01fbaaf89951df5fa70bf1d05e9d9bd3c2ae12d3e",
+      "width": 1672,
+      "height": 941,
+      "bytes": 135720,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/democrats-plan-ai-bills-data-centers-congress.html"
     },
     {
       "page": "deutsche-bank-upgrades-us-tech-after-nasdaq-selloff-november-2026.html",
@@ -4278,6 +4300,17 @@
       "bytes": 416992,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/wall-street-close-october-19-2026-ai-rebound.html"
+    },
+    {
+      "page": "wall-street-week-ai-rout-jobs-report-fed-hike-bets.html",
+      "source": "assets/editorial/wall-street-week-ai-rout-jobs-report-fed-hike-bets-cover-v1.webp",
+      "image": "assets/social/wall-street-week-ai-rout-jobs-report-fed-hike-bets-cover-v1-05e77006d0e8.webp",
+      "sha256": "05e77006d0e8070b7507fc9b7dae59db5362a093a86ad5e3106452db834ee309",
+      "width": 1672,
+      "height": 941,
+      "bytes": 346030,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/wall-street-week-ai-rout-jobs-report-fed-hike-bets.html"
     },
     {
       "page": "waymo-toyota-bz4x-japan-robotaxi-tests-2027.html",
