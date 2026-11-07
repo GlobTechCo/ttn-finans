@@ -5,6 +5,8 @@ on:
     paths:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
+      - 'scripts/import_publication_zip.py'
+      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
 permissions:
   contents: write
