@@ -714,3 +714,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['microsoft-oracle-rented-ai-capacity-reassessment-2026'] = ['ai-inference-unit-economics-2026', 'ai-data-center-electricity-demand-2026', 'ai-chips-bottlenecks-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('binance-63-billion-heist-crypto-insurance-scrutiny-2026')
 RELATED['binance-63-billion-heist-crypto-insurance-scrutiny-2026'] = ['stablecoins-explained-depeg-risk', 'enterprise-ai-data-security-2026', 'crypto-liquidation-leverage-explained']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('us-november-consumer-sentiment-51-inflation-ai-bubble-2026')
+RELATED['us-november-consumer-sentiment-51-inflation-ai-bubble-2026'] = ['consumer-sentiment-index-explained', 'ai-data-center-boom-power-delivery-debt-2026', 'us-october-2026-jobs-report-payrolls-revisions']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('usda-ai-crop-report-data-validation-november-2026')
+RELATED['usda-ai-crop-report-data-validation-november-2026'] = ['us-october-2026-jobs-report-payrolls-revisions', 'ai-agents-enterprise-roi-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('greece-crypto-gains-tax-10-percent-staking-15-2027')
+RELATED['greece-crypto-gains-tax-10-percent-staking-15-2027'] = ['defi-basics-explained', 'crypto-taxes-us-explained', 'stablecoins-explained-depeg-risk']
