@@ -96,7 +96,7 @@ def publish(archive):
             # Correct mismatched JSON-LD inside the packaged page before auditing.
             # Keep the site-wide verifier strict so later metadata regressions fail.
             jsonld_pattern = re.compile(
-                r'(<script\\b[^>]*\\btype=["\\\']application/ld\\+json["\\\'][^>]*>)(.*?)(</script>)',
+                r'(<script[^>]+application/ld[+]json[^>]*>)(.*?)(</script>)',
                 flags=re.I | re.S,
             )
             corrected_section = False
