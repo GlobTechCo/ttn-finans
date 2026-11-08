@@ -232,6 +232,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/ai-stocks-oil-110-premarket-october-20-2026.html"
     },
     {
+      "page": "ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings.html",
+      "source": "assets/editorial/ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings-cover-v1.webp",
+      "image": "assets/social/ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings-cover-v1-a8555951b483.webp",
+      "sha256": "a8555951b4833a67e427e0ec3bf7ede9ab2fb42395629496dd5a56a2bb92dd37",
+      "width": 1672,
+      "height": 941,
+      "bytes": 220306,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings.html"
+    },
+    {
       "page": "amazon-alexa-devices-echo-time-launch-2026.html",
       "source": "assets/editorial/amazon-alexa-devices-echo-time-launch-2026-cover-v1.webp",
       "image": "assets/social/amazon-alexa-devices-echo-time-launch-2026-cover-v1-73cab58537eb.webp",
@@ -681,6 +692,17 @@
       "bytes": 369386,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-ether-selloff-liquidations-october-15-2026.html"
+    },
+    {
+      "page": "bitcoin-fifth-losing-week-weekly-close-november-8.html",
+      "source": "assets/editorial/bitcoin-fifth-losing-week-weekly-close-november-8-cover-v1.webp",
+      "image": "assets/social/bitcoin-fifth-losing-week-weekly-close-november-8-cover-v1-a06cea04cc83.webp",
+      "sha256": "a06cea04cc8383f24aeaba3560a4bc5848aaf0cc0ec7a028a88036d2b0f38652",
+      "width": 1672,
+      "height": 941,
+      "bytes": 154994,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-fifth-losing-week-weekly-close-november-8.html"
     },
     {
       "page": "bitcoin-halving-cycles.html",
@@ -2771,6 +2793,17 @@
       "bytes": 448756,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/nasdaq-correction-ai-buildout-selloff-november-5-2026.html"
+    },
+    {
+      "page": "nasdaq-correction-india-nifty-oil-crash-week-review.html",
+      "source": "assets/editorial/nasdaq-correction-india-nifty-oil-crash-week-review-cover-v1.webp",
+      "image": "assets/social/nasdaq-correction-india-nifty-oil-crash-week-review-cover-v1-669e61162353.webp",
+      "sha256": "669e611623534c136e3ff18397a8b8537e42dcf8b24e02f8c6c26ae81ba4bbfd",
+      "width": 1672,
+      "height": 941,
+      "bytes": 437948,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/nasdaq-correction-india-nifty-oil-crash-week-review.html"
     },
     {
       "page": "nextdc-ceo-incentives-m3-power-delay-2026.html",

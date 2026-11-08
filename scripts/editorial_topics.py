@@ -738,3 +738,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-prediction-markets-70000-2026-polymarket-kalshi'] = ['bitcoin-ether-etfs-1-65-billion-weekly-outflows', 'bitcoin-etf-institutional-adoption', 'bitcoin-80000-fed-week-october-26-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('google-deepmind-ai-agents-rsa-1024-cryptanalysis-2026')
 RELATED['google-deepmind-ai-agents-rsa-1024-cryptanalysis-2026'] = ['ping-identity-ai-agents-enterprise-access-security-2026', 'ai-chips-bottlenecks-2026', 'binance-security-investigation-stablecoin-freezes-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('nasdaq-correction-india-nifty-oil-crash-week-review')
+RELATED['nasdaq-correction-india-nifty-oil-crash-week-review'] = ['oil-iran-diplomacy-market-risks-november-2026', 'wall-street-week-ai-rout-jobs-report-fed-hike-bets', 'emerging-market-carry-trade-explained']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-fifth-losing-week-weekly-close-november-8')
+RELATED['bitcoin-fifth-losing-week-weekly-close-november-8'] = ['bitcoin-etf-institutional-adoption', 'prediction-markets-explained', 'bitcoin-ether-etfs-1-65-billion-weekly-outflows']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings')
+RELATED['ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings'] = ['openai-agent-monitoring-security-gaps-2026', 'coreweave-ai-debt-selloff-2026', 'ai-data-center-electricity-demand-2026']
