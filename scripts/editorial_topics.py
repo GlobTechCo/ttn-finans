@@ -746,3 +746,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-fifth-losing-week-weekly-close-november-8'] = ['bitcoin-etf-institutional-adoption', 'prediction-markets-explained', 'bitcoin-ether-etfs-1-65-billion-weekly-outflows']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings')
 RELATED['ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings'] = ['openai-agent-monitoring-security-gaps-2026', 'coreweave-ai-debt-selloff-2026', 'ai-data-center-electricity-demand-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026')
+RELATED['iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026'] = ['oil-shock-market-ripple', 'oil-iran-diplomacy-market-risks-november-2026', 'wall-street-week-ai-rout-jobs-report-fed-hike-bets']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026')
+RELATED['ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026'] = ['bitcoin-etf-institutional-adoption', 'bitcoin-ether-etfs-1-65-billion-weekly-outflows', 'bitcoin-prediction-markets-70000-2026-polymarket-kalshi']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-3-4-billion-gas-generators-onepwr-ai-power-2026')
+RELATED['anthropic-3-4-billion-gas-generators-onepwr-ai-power-2026'] = ['ai-data-center-electricity-demand-2026', 'ai-capex-nasdaq-correction', 'coreweave-ai-debt-selloff-2026']
