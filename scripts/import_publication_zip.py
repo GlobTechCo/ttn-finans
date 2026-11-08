@@ -92,6 +92,28 @@ def publish(archive):
                 old_summary = "The University of Michigan's preliminary November index rose three points, while inflation expectations eased and worries about living costs remained widespread."
                 new_summary = "The University of Michigan's preliminary November index rose three points, as inflation expectations eased despite lingering cost concerns."
                 original_html = original_html.replace(html_std.escape(old_summary, quote=True), html_std.escape(new_summary, quote=True))
+            # The publication manifest is the approved source of the section.
+            # Correct mismatched JSON-LD inside the packaged page before auditing.
+            # Keep the site-wide verifier strict so later metadata regressions fail.
+            jsonld_pattern = re.compile(
+                r'(<script\\b[^>]*\\btype=["\\\']application/ld\\+json["\\\'][^>]*>)(.*?)(</script>)',
+                flags=re.I | re.S,
+            )
+            corrected_section = False
+
+            def align_section(match):
+                nonlocal corrected_section
+                structured = json.loads(match.group(2))
+                if not isinstance(structured, dict) or "articleSection" not in structured:
+                    return match.group(0)
+                corrected_section = True
+                if structured["articleSection"] == m["section"]:
+                    return match.group(0)
+                structured["articleSection"] = m["section"]
+                return match.group(1) + json.dumps(structured, ensure_ascii=False) + match.group(3)
+
+            original_html = jsonld_pattern.sub(align_section, original_html)
+            check(corrected_section, "Missing articleSection JSON-LD: " + slug)
             # Validate SEO metadata before committing imported files.
             checked_doc = html.fromstring(original_html)
             summaries = checked_doc.xpath('//meta[@name="description"]/@content')
