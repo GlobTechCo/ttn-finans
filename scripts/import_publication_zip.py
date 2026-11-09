@@ -166,7 +166,7 @@ def publish(archive):
             for a in entries:
                 out.write("GROUPS.setdefault(" + repr(topic[a["section"]]) + ", []).append(" + repr(a["id"]) + ")\n")
                 out.write("RELATED[" + repr(a["id"]) + "] = " + repr(relations[a["id"]]) + "\n")
-        print("Imported", len(entries), "articles from", archive)
+        # All new pages must expose the same opt-in GA4 controls as historical pages.\n        from repair_analytics_consent import repair as repair_analytics_consent\n        repair_analytics_consent(ROOT)\n        print("Imported", len(entries), "articles from", archive)
 
 if __name__ == "__main__":
     for file in sys.argv[1:]:
