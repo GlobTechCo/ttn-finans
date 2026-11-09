@@ -57,6 +57,22 @@ jobs:
           with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
               checked=list(pool.map(check_page,urls))
           print("SITEMAP_URL_CHECK",json.dumps({"checked":len(checked),"ok":sum(r["status"]==200 for r in checked),"problems":[r for r in checked if r["status"]!=200 or r["x_robots_tag"]]}),flush=True)
+          # Audit both legacy and recent editorial pages, without emitting GA events.
+          for path in [
+              "nonfarm-payrolls-jobs-report-explained.html",
+              "binance-63-billion-heist-crypto-insurance-scrutiny-2026.html",
+              "softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9.html",
+              "pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026.html",
+          ]:
+              item = fetch(BASE + path)
+              body = item["body"].decode("utf-8", "replace")
+              print("EDITORIAL_GA4_CHECK", json.dumps({
+                  "page":path, "status":item["status"],
+                  "analytics": "analytics.js" in body,
+                  "consent": "consent.js" in body,
+                  "preferences": "data-cookie-preferences" in body,
+                  "robots_noindex": bool(re.search(r'noindex', body[:3500], re.I))
+              }),flush=True)
           home=data["homepage"]["body"].decode("utf-8","replace")
           analytics=data["analytics"]["body"].decode("utf-8","replace")
           ids=sorted(set(re.findall(r"G-[A-Z0-9]+",analytics)))
