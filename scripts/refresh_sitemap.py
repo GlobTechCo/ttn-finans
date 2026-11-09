@@ -1,5 +1,5 @@
 """Add missing canonical, indexable HTML pages without inventing modification dates."""
-from datetime import datetime
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 import json
@@ -60,6 +60,23 @@ def refresh_sitemap(root=ROOT):
     if additions:
         assert text.count('</urlset>') == 1
         text = text.replace('</urlset>', '\n'.join(additions) + '\n</urlset>')
+    # Refresh lastmod for existing pages whose tracked HTML actually changed.
+    # Never stamp every page with today's date: unchanged URLs retain genuine dates.
+    changed = subprocess.check_output(
+        ['git', 'diff', '--name-only', '--', '*.html'], cwd=root, text=True
+    ).splitlines()
+    if changed:
+        stamp = datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
+        for filename in changed:
+            if '/' in filename or not filename.endswith('.html'):
+                continue
+            url = BASE if filename == 'index.html' else BASE + filename
+            if url not in existing:
+                continue
+            pattern = r'(<url>\\s*<loc>' + re.escape(url) + r'</loc>\\s*<lastmod>)([^<]+)(</lastmod>)'
+            updated, matches = re.subn(pattern, lambda m: m.group(1) + stamp + m.group(3), text, count=1)
+            assert matches == 1, ('Cannot update existing sitemap lastmod', url)
+            text = updated
     text, repaired = normalize_field_order(text)
     if text != path.read_text():
         path.write_text(text)
