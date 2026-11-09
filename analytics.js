@@ -25,29 +25,4 @@
   let choice;try {choice = localStorage.getItem('ttn_cookie_consent');} catch (_) {}
   apply(choice);
 
-  // Backfill consent UI on editorial pages generated without consent.js.
-  // On pages already loading consent.js, preserve the existing single handler.
-  function ensureConsentControls() {
-    const footer = document.querySelector('.ttn-footer-bottom');
-    if (footer && !footer.querySelector('[data-cookie-preferences]')) {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'ttn-cookie-preferences';
-      button.setAttribute('data-cookie-preferences', '');
-      button.textContent = 'Cookie preferences';
-      const disclaimer = footer.querySelector('.ttn-footer-disclaimer');
-      footer.insertBefore(button, disclaimer || null);
-    }
-    if (!document.querySelector('script[src*="consent.js"]')) {
-      const script = document.createElement('script');
-      script.src = 'consent.js?v=editorial-consent-20261109';
-      script.id = 'ttn-consent-loader';
-      document.body.appendChild(script);
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', ensureConsentControls, {once:true});
-  } else {
-    ensureConsentControls();
-  }
 })();
