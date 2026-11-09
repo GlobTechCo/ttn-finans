@@ -28,7 +28,7 @@ def repair(root=ROOT):
                 content = content[:marker.start()] + PREFERENCE_BUTTON + content[marker.start():]
             else:
                 # A number of older articles use the legacy site-footer layout.
-                legacy = re.search(r'<footer\\b[^>]*class=["\\'][^"\\']*site-footer[^"\\']*["\\'][^>]*>', content, re.I)
+                legacy = re.search(r'<footer\b[^>]*class=[^>]*site-footer[^>]*>', content, re.I)
                 if legacy:
                     closing = content.find("</footer>", legacy.end())
                     if closing < 0:
