@@ -26,3 +26,5 @@ jobs:
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-ga4-delivery.cjs
+      - name: Verify published GitHub Pages GA4 requests without sending events
+        run: TTN_TEST_BASE=https://globtechco.github.io/ttn-finans/ node scripts/test-ga4-delivery.cjs
