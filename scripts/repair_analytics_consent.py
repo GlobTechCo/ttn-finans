@@ -24,9 +24,19 @@ def repair(root=ROOT):
             content = content.replace("</body>", CONSENT_TAG + "</body>", 1)
         if 'data-cookie-preferences' not in content:
             marker = re.search(r'<p\s+class=["\']ttn-footer-disclaimer["\']', content)
-            if not marker:
-                raise ValueError("No footer disclaimer on " + page.name)
-            content = content[:marker.start()] + PREFERENCE_BUTTON + content[marker.start():]
+            if marker:
+                content = content[:marker.start()] + PREFERENCE_BUTTON + content[marker.start():]
+            else:
+                # A number of older articles use the legacy site-footer layout.
+                legacy = re.search(r'<footer\\b[^>]*class=["\\'][^"\\']*site-footer[^"\\']*["\\'][^>]*>', content, re.I)
+                if legacy:
+                    closing = content.find("</footer>", legacy.end())
+                    if closing < 0:
+                        raise ValueError("Unclosed site footer on " + page.name)
+                    content = content[:closing] + PREFERENCE_BUTTON + content[closing:]
+                else:
+                    # Even the oldest layouts must let visitors change consent.
+                    content = content.replace("</body>", PREFERENCE_BUTTON + "</body>", 1)
         if content != original:
             page.write_text(content, encoding="utf-8")
             changes.append(page.name)
