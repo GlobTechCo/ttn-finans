@@ -73,7 +73,7 @@ def refresh_sitemap(root=ROOT):
             url = BASE if filename == 'index.html' else BASE + filename
             if url not in existing:
                 continue
-            pattern = r'(<url>\\s*<loc>' + re.escape(url) + r'</loc>\\s*<lastmod>)([^<]+)(</lastmod>)'
+            pattern = r'(<url>\s*<loc>' + re.escape(url) + r'</loc>\s*<lastmod>)([^<]+)(</lastmod>)'
             updated, matches = re.subn(pattern, lambda m: m.group(1) + stamp + m.group(3), text, count=1)
             assert matches == 1, ('Cannot update existing sitemap lastmod', url)
             text = updated
