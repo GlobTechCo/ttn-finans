@@ -762,3 +762,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-73761-low-liquidations-nvidia-probe-november-9'] = ['asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'nvidia-internal-probe-huang-foreign-intelligence-november-9', 'ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-internal-probe-huang-foreign-intelligence-november-9')
 RELATED['nvidia-internal-probe-huang-foreign-intelligence-november-9'] = ['asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('credit-agricole-banco-bpm-merger-proposal-european-banks-rally-november-9')
+RELATED['credit-agricole-banco-bpm-merger-proposal-european-banks-rally-november-9'] = ['wall-street-week-ai-rout-jobs-report-fed-hike-bets', 'asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('coinbase-final-occ-national-trust-bank-charter-november-9')
+RELATED['coinbase-final-occ-national-trust-bank-charter-november-9'] = ['clarity-act-crypto-legislation-explained', 'crypto-us-midterms-176-million-lobbying-november-2026', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9')
+RELATED['softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9'] = ['democrats-plan-ai-bills-data-centers-congress', 'ai-data-center-electricity-demand-2026', 'ai-boom-capital-financing-2026']
