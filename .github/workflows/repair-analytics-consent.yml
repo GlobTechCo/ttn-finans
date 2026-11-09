@@ -1,0 +1,57 @@
+name: Repair GA4 consent on all published pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/repair_analytics_consent.py'
+      - '.github/workflows/repair-analytics-consent.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ttn-analytics-consent-repair
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repair every published HTML file
+        run: |
+          python -m py_compile scripts/repair_analytics_consent.py
+          python scripts/repair_analytics_consent.py
+      - name: Validate every GA4-enabled page
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          pages = [p for p in Path('.').glob('*.html') if 'analytics.js' in p.read_text()]
+          missing = []
+          for page in pages:
+              content = page.read_text()
+              if not ('consent.js' in content and 'data-cookie-preferences' in content):
+                  missing.append(page.name)
+          print('Audited', len(pages), 'GA4-enabled HTML pages; missing controls:', missing)
+          assert not missing
+          PY
+      - name: Commit validated repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- '*.html'
+          if git diff --cached --quiet; then
+            echo "All pages were already repaired"
+            exit 0
+          fi
+          git config user.name 'ttn-publication-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Repair GA4 consent controls across historical and new pages"
+          git pull --rebase origin main
+          git push origin HEAD:main
