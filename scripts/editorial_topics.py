@@ -754,3 +754,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ether-
 RELATED['ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026'] = ['bitcoin-etf-institutional-adoption', 'bitcoin-ether-etfs-1-65-billion-weekly-outflows', 'bitcoin-prediction-markets-70000-2026-polymarket-kalshi']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-3-4-billion-gas-generators-onepwr-ai-power-2026')
 RELATED['anthropic-3-4-billion-gas-generators-onepwr-ai-power-2026'] = ['ai-data-center-electricity-demand-2026', 'ai-capex-nasdaq-correction', 'coreweave-ai-debt-selloff-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9')
+RELATED['asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9'] = ['bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'nvidia-internal-probe-huang-foreign-intelligence-november-9', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-73761-low-liquidations-nvidia-probe-november-9')
+RELATED['bitcoin-73761-low-liquidations-nvidia-probe-november-9'] = ['asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'nvidia-internal-probe-huang-foreign-intelligence-november-9', 'ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-internal-probe-huang-foreign-intelligence-november-9')
+RELATED['nvidia-internal-probe-huang-foreign-intelligence-november-9'] = ['asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'ai-week-ahead-openai-cyber-event-nvidia-seoul-earnings']
