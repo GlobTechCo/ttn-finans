@@ -32,6 +32,13 @@ def verify():
         assert not any('nav-toggle' in (script.text or '') for script in doc.xpath('//script[not(@src)]')), (name, 'duplicate menu handler')
         all_ids = doc.xpath('//@id')
         assert len(all_ids) == len(set(all_ids)), (name, 'duplicate IDs')
+        # All ordinary pages must load opt-in GA4, expose the consent dialog,
+        # and let readers change their preference directly in the footer.
+        if not name.startswith('google190079b83d1d8ba0'):
+            sources = [src.split('?', 1)[0] for src in doc.xpath('//script/@src')]
+            assert 'analytics.js' in sources, (name, 'missing GA4 loader')
+            assert 'consent.js' in sources, (name, 'missing consent dialog loader')
+            assert doc.xpath('//*[@data-cookie-preferences]'), (name, 'missing cookie preferences control')
         robots=' '.join(doc.xpath('//meta[@name="robots"]/@content'))
         if 'noindex' not in robots:
             assert len(doc.xpath('//h1'))==1,(name,'H1')
