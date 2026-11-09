@@ -175,6 +175,9 @@ def refresh():
     refresh_article_tickers(ROOT)
     from ad_placements import refresh_ad_placements
     refresh_ad_placements(ROOT)
+    # Ensure full, accessible GA4 opt-in on every historical and new article.
+    from repair_analytics_consent import repair as repair_analytics_consent
+    repair_analytics_consent(ROOT)
     from refresh_sitemap import refresh_sitemap
     refresh_sitemap(ROOT)
     print(f'Refreshed {len(articles)} article links, three full topic archives and homepage fallbacks.')
