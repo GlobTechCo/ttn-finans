@@ -35,7 +35,7 @@ def verify():
         # All ordinary pages must load opt-in GA4, expose the consent dialog,
         # and let readers change their preference directly in the footer.
         if not name.startswith('google190079b83d1d8ba0'):
-            sources = [src.split('?', 1)[0] for src in doc.xpath('//script/@src')]
+            sources = [src.split('?', 1)[0].rsplit('/', 1)[-1] for src in doc.xpath('//script/@src')]
             assert 'analytics.js' in sources, (name, 'missing GA4 loader')
             assert 'consent.js' in sources, (name, 'missing consent dialog loader')
             assert doc.xpath('//*[@data-cookie-preferences]'), (name, 'missing cookie preferences control')
