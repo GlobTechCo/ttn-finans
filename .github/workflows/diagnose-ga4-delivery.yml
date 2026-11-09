@@ -1,0 +1,28 @@
+name: Diagnose GA4 real-time delivery
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/test-ga4-delivery.cjs'
+      - 'analytics.js'
+      - 'consent.js'
+      - '.github/workflows/diagnose-ga4-delivery.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-ga4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install browser
+        run: |
+          npm install --no-save playwright@1.64.1
+          npx playwright install --with-deps chromium
+      - name: Verify actual GA4 page-view requests after consent
+        run: |
+          python3 -m http.server 8765 >/tmp/ttn-ga4-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-ga4-delivery.cjs
