@@ -770,3 +770,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('coinba
 RELATED['coinbase-final-occ-national-trust-bank-charter-november-9'] = ['clarity-act-crypto-legislation-explained', 'crypto-us-midterms-176-million-lobbying-november-2026', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9')
 RELATED['softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9'] = ['democrats-plan-ai-bills-data-centers-congress', 'ai-data-center-electricity-demand-2026', 'ai-boom-capital-financing-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026')
+RELATED['wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026'] = ['wall-street-week-ai-rout-jobs-report-fed-hike-bets', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026', 'nvidia-internal-probe-huang-foreign-intelligence-november-9']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026')
+RELATED['google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026'] = ['softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9', 'ai-boom-capital-financing-2026', 'ai-data-center-electricity-demand-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026')
+RELATED['pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026'] = ['coinbase-final-occ-national-trust-bank-charter-november-9', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'clarity-act-crypto-legislation-explained']
