@@ -76,7 +76,7 @@ def refresh():
         # two links. Complete it to three distinct valid site articles rather
         # than skipping the page and failing the entire publication batch.
         selected=[]
-        existing_related=re.search(r'<aside\b[^>]*class="[^"]*editorial-related[^"]*"[^>]*>.*?</aside>',text,re.S|re.I)
+        existing_related=re.search(r'<(?:aside|section|div)\b[^>]*class="[^"]*editorial-related[^"]*"[^>]*>.*?</(?:aside|section|div)>',text,re.S|re.I)
         if existing_related:
             links=Links();links.feed(existing_related.group())
             selected=[href.removesuffix('.html') for href in links.links if href.endswith('.html') and href.removesuffix('.html') in byid and href.removesuffix('.html')!=a['id']]
