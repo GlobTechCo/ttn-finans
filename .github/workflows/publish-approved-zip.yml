@@ -5,6 +5,7 @@ on:
     paths:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
+      - 'scripts/refresh_static_editorial.py'
   workflow_dispatch:
 permissions:
   contents: write
