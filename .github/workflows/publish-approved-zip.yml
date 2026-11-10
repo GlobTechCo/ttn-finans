@@ -6,6 +6,7 @@ on:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'scripts/refresh_static_editorial.py'
+      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -85,6 +86,7 @@ jobs:
             exit 0
           fi
           git commit -m "Publish approved article ZIP and update site indexes"
+          git pull --rebase origin main
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Request GitHub Pages branch rebuild
