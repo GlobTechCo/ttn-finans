@@ -778,3 +778,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026'] = ['softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9', 'ai-boom-capital-financing-2026', 'ai-data-center-electricity-demand-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026')
 RELATED['pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026'] = ['coinbase-final-occ-national-trust-bank-charter-november-9', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'clarity-act-crypto-legislation-explained']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('australia-ai-safety-regulator-openai-agent-breach-november-10-2026')
+RELATED['australia-ai-safety-regulator-openai-agent-breach-november-10-2026'] = ['ai-agents-circle-wallet-spending-limits-study-2026', 'ai-data-center-electricity-demand-2026', 'ai-agents-websites-block-access-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit-november-10-2026')
+RELATED['coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit-november-10-2026'] = ['coinbase-final-occ-national-trust-bank-charter-november-9', 'clarity-act-crypto-legislation-explained', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
+GROUPS.setdefault('Jobs and housing', []).append('asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026')
+RELATED['asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026'] = ['wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026', 'asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026']
