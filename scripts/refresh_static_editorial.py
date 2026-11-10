@@ -72,8 +72,17 @@ def refresh():
     topics={i:k for k,ids in groups.items() for i in ids}
     for a in articles:
         page=ROOT/(a['id']+'.html');text=page.read_text()
-        if 'class="editorial-related"' in text:continue
+        # Imported approved ZIPs can include a Related reading block with only
+        # two links. Complete it to three distinct valid site articles rather
+        # than skipping the page and failing the entire publication batch.
         selected=[]
+        existing_related=re.search(r'<aside\\b[^>]*class="[^"]*editorial-related[^"]*"[^>]*>.*?</aside>',text,re.S|re.I)
+        if existing_related:
+            links=Links();links.feed(existing_related.group())
+            selected=[href.removesuffix('.html') for href in links.links if href.endswith('.html') and href.removesuffix('.html') in byid and href.removesuffix('.html')!=a['id']]
+            selected=list(dict.fromkeys(selected))
+            if len(selected)==3:continue
+            text=text[:existing_related.start()]+text[existing_related.end():]
         # Preserve older, explicit editorial reading recommendations.
         for paragraph in re.findall(r'<p\b[^>]*>\s*Related reading:.*?</p>',text,re.S|re.I):
             links=Links();links.feed(paragraph)
