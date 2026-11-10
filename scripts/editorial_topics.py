@@ -786,3 +786,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('coinba
 RELATED['coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit-november-10-2026'] = ['coinbase-final-occ-national-trust-bank-charter-november-9', 'clarity-act-crypto-legislation-explained', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
 GROUPS.setdefault('Jobs and housing', []).append('asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026')
 RELATED['asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026'] = ['wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026', 'asia-rebounds-taiwan-short-selling-curbs-yen-intervention-november-9', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('brent-below-90-global-stocks-rise-us-cpi-day-november-10')
+RELATED['brent-below-90-global-stocks-rise-us-cpi-day-november-10'] = ['wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026', 'iran-blockade-brent-98-gulf-markets-monday-open-november-8-2026', 'asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10')
+RELATED['ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10'] = ['ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-ipo-filing-circulated-retracted-69-billion-november-10')
+RELATED['anthropic-ipo-filing-circulated-retracted-69-billion-november-10'] = ['anthropic-895-billion-compute-commitments-ipo-2026', 'google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026', 'nvidia-internal-probe-huang-foreign-intelligence-november-9']
