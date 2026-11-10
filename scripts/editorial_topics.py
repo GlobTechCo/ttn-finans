@@ -794,3 +794,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ether-
 RELATED['ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10'] = ['ether-etf-sixth-week-outflows-glamsterdam-hoodi-november-8-2026', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-ipo-filing-circulated-retracted-69-billion-november-10')
 RELATED['anthropic-ipo-filing-circulated-retracted-69-billion-november-10'] = ['anthropic-895-billion-compute-commitments-ipo-2026', 'google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026', 'nvidia-internal-probe-huang-foreign-intelligence-november-9']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tsmc-1-billion-anthropic-openai-investments-november-10-2026')
+RELATED['tsmc-1-billion-anthropic-openai-investments-november-10-2026'] = ['anthropic-ipo-filing-circulated-retracted-69-billion-november-10', 'anthropic-895-billion-compute-commitments-ipo-2026', 'google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('visa-monad-stablecoin-settlement-network-november-10-2026')
+RELATED['visa-monad-stablecoin-settlement-network-november-10-2026'] = ['stablecoins-explained-depeg-risk', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026', 'visa-q4-2026-profit-payments-volume']
+GROUPS.setdefault('Jobs and housing', []).append('us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026')
+RELATED['us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026'] = ['brent-below-90-global-stocks-rise-us-cpi-day-november-10', 'asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026', 'us-cpi-september-2026-energy']

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://globtechco.github.io/ttn-finans/</loc>
-    <lastmod>2026-11-10T12:47:00Z</lastmod>
+    <lastmod>2026-11-10T20:36:30Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tech-ai.html</loc>
-    <lastmod>2026-11-10T12:47:00Z</lastmod>
+    <lastmod>2026-11-10T20:36:30Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
-    <lastmod>2026-11-10T12:47:00Z</lastmod>
+    <lastmod>2026-11-10T20:36:30Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,7 +807,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto.html</loc>
-    <lastmod>2026-11-10T12:47:00Z</lastmod>
+    <lastmod>2026-11-10T20:36:30Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -953,4 +953,7 @@
 <url><loc>https://globtechco.github.io/ttn-finans/anthropic-ipo-filing-circulated-retracted-69-billion-november-10.html</loc><lastmod>2026-11-10T11:15:00Z</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/brent-below-90-global-stocks-rise-us-cpi-day-november-10.html</loc><lastmod>2026-11-10T11:05:00Z</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10.html</loc><lastmod>2026-11-10T11:10:00Z</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/tsmc-1-billion-anthropic-openai-investments-november-10-2026.html</loc><lastmod>2026-11-10T19:10:00Z</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026.html</loc><lastmod>2026-11-10T19:20:00Z</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/visa-monad-stablecoin-settlement-network-november-10-2026.html</loc><lastmod>2026-11-10T19:15:00Z</lastmod></url>
 </urlset>
