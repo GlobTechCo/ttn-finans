@@ -24,12 +24,12 @@ const BASE=process.env.TTN_TEST_BASE || 'https://globtechco.github.io/ttn-finans
    assert(items.every(i=>/^https?:\/\//.test(i.link)),'Only original article URLs should open');
    assert(await page.locator('#news-feed .news-item').count()>0);
    if(await page.locator('#cookie-decline').count())await page.locator('#cookie-decline').click();
-   const link=page.locator('#featured-article .open-article').first();
-   // Live sources can replace the featured story between a DOM read and click.
+   const link=page.locator('#news-feed .open-article').first();
+   // Live sources can replace the feed story between a DOM read and click.
    // Capture the URL of the element actually clicked, in the same event, so
    // the assertion still detects an incorrect modal without racing a refresh.
    await page.evaluate(()=>document.addEventListener('click',event=>{
-    const clicked=event.target.closest('#featured-article .open-article');
+    const clicked=event.target.closest('#news-feed .open-article');
     if(clicked)window.__ttnTestClickedSource=clicked.dataset.link;
    },true));
    await link.click();
