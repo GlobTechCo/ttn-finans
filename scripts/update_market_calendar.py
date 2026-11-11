@@ -4,7 +4,6 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 SOURCES = {
- 'BLS': ('https://www.bls.gov/schedule/news_release/bls.ics', 'https://www.bls.gov/schedule/news_release/'),
  'BEA': ('https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics', 'https://www.bea.gov/news/schedule'),
 }
 DEST=Path('data/market-calendar.json')
@@ -76,6 +75,7 @@ def main():
     try: old=json.loads(DEST.read_text())
     except (OSError,ValueError): old={'sources':{}}
     sources=old.get('sources',{})
+    sources.pop('BLS',None)
     success=0
     for name,(url,link) in SOURCES.items():
         try:
