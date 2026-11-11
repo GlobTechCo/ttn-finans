@@ -12,6 +12,9 @@ on:
       - 'market-tape.js'
       - 'scripts/test-crypto-section.cjs'
       - 'scripts/test-article-tickers.cjs'
+      - 'scripts/test-article-share.cjs'
+      - 'article-share.js'
+      - 'article-share.css'
       - 'scripts/article_tickers.py'
       - 'scripts/refresh_static_editorial.py'
       - 'scripts/audit_article_lengths.py'
@@ -49,6 +52,7 @@ jobs:
           trap 'kill "$server_pid"' EXIT
           TTN_TEST_BASE=http://127.0.0.1:8765/ TTN_SCREENSHOT_DIR=/tmp/ttn-crypto-browser node scripts/test-crypto-section.cjs
           TTN_TEST_BASE=http://127.0.0.1:8765/ TTN_SCREENSHOT_DIR=/tmp/ttn-crypto-browser node scripts/test-article-tickers.cjs
+          TTN_TEST_BASE=http://127.0.0.1:8765/ node scripts/test-article-share.cjs
       - uses: actions/upload-artifact@v7
         if: always()
         with:
