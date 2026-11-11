@@ -47,13 +47,11 @@ function stalled(signal, body=false) {
   let finished=false;
   const news=vm.runInContext('TTNNews.init()',s.context).then(()=>finished=true);
   await tick();
-  assert.match(s.document.getElementById('featured-article').innerHTML,/Fast financial headline/);
-  assert.match(s.document.getElementById('featured-article').innerHTML,/<h2>/);
-  assert.doesNotMatch(s.document.getElementById('featured-article').innerHTML,/<h1>/);
+  assert.match(s.document.getElementById('news-feed').innerHTML,/Fast financial headline/);
+  assert.equal(s.document.getElementById('featured-article').innerHTML,'', 'aggregator must not replace the original top story');
   assert.equal(finished,false,'slow feed must still be pending when first headline renders');
-  assert.match(s.document.getElementById('featured-article').innerHTML,/loading="eager"/);
   await news;
-  assert.match(s.document.getElementById('featured-article').innerHTML,/Fast financial headline/);
+  assert.match(s.document.getElementById('news-feed').innerHTML,/Fast financial headline/);
   // A pending price init must never prevent news init or initial summary.
   const calls=[];const a=setup(()=>{});
   a.context.TTNTickers={init:()=>{calls.push('prices');return new Promise(()=>{});}};
