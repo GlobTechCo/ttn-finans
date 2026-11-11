@@ -538,8 +538,7 @@ const TTNNews = (() => {
       const tickers = detectTickers(`${escapeAttr(item.title)} ${item.desc}`).map((t) => t.label.toLowerCase());
       return item.title.toLowerCase().includes(q) || item.desc.toLowerCase().includes(q) || tickers.some((t) => t.includes(q));
     }) : allItems;
-    renderFeatured(filtered[0]);
-    renderFeed(q ? filtered.slice(1) : filtered.slice(1, 13));
+    renderFeed(q ? filtered : filtered.slice(0, 12));
   }
 
   function renderCurrent() {

@@ -49,6 +49,7 @@
 <meta property="og:image:alt" content="TTN Finance — Markets. Technology. Global Economy.">
 <meta name="twitter:image" content="https://globtechco.github.io/ttn-finans/assets/social/ttn-finance-card-2e919b49760d.png">
 <meta name="twitter:image:alt" content="TTN Finance — Markets. Technology. Global Economy.">
+<style>.market-calendar-list{list-style:none;margin:0;padding:0}.market-calendar-list li{padding:9px 0;border-bottom:1px solid var(--border);font-size:13px;line-height:1.4;color:var(--text-dim)}.market-calendar-list a{color:var(--text);font-weight:600}.market-calendar-list time,.market-calendar-status{font-size:11px;color:var(--text-dim)}.market-calendar-status{line-height:1.5;margin-top:10px}</style>
 </head>
 <body><a class="skip-link" href="#main-content">Skip to main content</a>
 
@@ -83,20 +84,17 @@
 
 </section>
   <aside>
+    <section class="sidebar-block" aria-labelledby="market-calendar-heading">
+      <h2 class="section-title" id="market-calendar-heading" style="margin-bottom:12px;">Market Calendar</h2>
+      <ul id="market-calendar-list" class="market-calendar-list"><li>Loading calendar…</li></ul>
+      <p id="market-calendar-status" class="market-calendar-status" role="status">Checking official schedules…</p>
+      <noscript><p>View the <a href="https://www.bea.gov/news/schedule">BEA schedule</a> or <a href="https://www.bls.gov/schedule/news_release/">BLS schedule</a>.</p></noscript>
+    </section>
     <div class="sidebar-block">
       <div class="section-title" style="margin-bottom:12px;">Trending</div>
       <ul class="sidebar-list" id="trending-list">
         <li style="color:var(--text-faint);font-size:13px;">Loading…</li>
       </ul>
-    </div>
-
-    <div class="sidebar-block">
-      <div class="section-title" style="margin-bottom:12px;">About TTN</div>
-      <p style="font-size:13px;color:var(--text-dim);line-height:1.5;">
-        TTN aggregates real-time financial news and market data:
-        crypto, indices, gold, forex. Click any ticker to open
-        its interactive chart.
-      </p>
     </div>
   </aside>
 </div>
@@ -145,9 +143,11 @@
 <script src="tickers.js?v=independent-loading-20261018"></script>
 <script src="market-tape.js?v=crypto-20261021"></script>
 <script type="module" async src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
-<script src="news.js?v=rss-snapshot-20261020"></script>
+<script src="news.js?v=original-top-20261111"></script>
 <script src="home-editorial.js?v=fa928246b180"></script>
 
+<script src="top-story.js?v=20261111"></script>
+<script src="market-calendar.js?v=20261111"></script>
 <script src="app.js?v=independent-loading-20261018"></script>
 <script src="consent.js?v=integrity-20261018"></script>
 <script defer src="reader-return.js?v=20261031-2"></script>
