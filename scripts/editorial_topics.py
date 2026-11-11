@@ -814,3 +814,11 @@ RELATED['siemens-energy-record-2026-data-center-power-demand'] = ['ai-data-cente
 # Approved ZIP auto-publication
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-h200-china-procurement-export-controls-november-2026')
 RELATED['nvidia-h200-china-procurement-export-controls-november-2026'] = ['nvidia-china-workstation-gpu-orders-october-20-2026', 'china-ai-technology-export-controls-draft-2026', 'ai-chips-bottlenecks-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('easyjet-apollo-takeover-shareholder-vote-november-2026')
+RELATED['easyjet-apollo-takeover-shareholder-vote-november-2026'] = ['merger-arbitrage-deal-spread-explained', 'take-private-leveraged-buyout-explained']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('helsing-clarity-military-ai-platform-palantir-november-2026')
+RELATED['helsing-clarity-military-ai-platform-palantir-november-2026'] = ['palantir-q3-2026-record-revenue-bookings-slowdown', 'openai-agent-monitoring-security-gaps-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('deutsche-bank-digital-asset-custody-paying-clients-november-2026')
+RELATED['deutsche-bank-digital-asset-custody-paying-clients-november-2026'] = ['bitgo-global-markets-institutional-financing-derivatives-2026', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
