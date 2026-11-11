@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const mid = 'G-2VM6S0QL1H';
-const pages = ['index.html','nonfarm-payrolls-jobs-report-explained.html','pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026.html'];
+const pages = ['index.html','nonfarm-payrolls-jobs-report-explained.html','pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026.html','coreweave-q3-2026-results-ai-spending.html','siemens-energy-record-2026-data-center-power-demand.html','nvidia-h200-china-procurement-export-controls-november-2026.html'];
 (async () => {
   const browser = await chromium.launch({headless:true, args:['--no-sandbox']});
   try {

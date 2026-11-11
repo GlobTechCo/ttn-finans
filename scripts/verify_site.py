@@ -66,6 +66,10 @@ def verify():
     assert not broken,broken
     for a in articles:
         doc=docs[a['id']+'.html']
+        share_styles = [href.split('?', 1)[0].rsplit('/', 1)[-1] for href in doc.xpath("//link[@rel='stylesheet']/@href")]
+        share_scripts = [src.split('?', 1)[0].rsplit('/', 1)[-1] for src in doc.xpath('//script/@src')]
+        assert 'article-share.css' in share_styles, (a['id'], 'missing share stylesheet')
+        assert 'article-share.js' in share_scripts, (a['id'], 'missing share script')
         from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH
         ticker_labels=expected_tickers(a,doc)
         ticker_tags=doc.xpath(TAG_XPATH)

@@ -130,6 +130,16 @@ def publish(archive):
             # The site has an inline financial disclaimer, not disclaimer.html.
             # Remove this obsolete footer link rather than introducing a dead URL.
             original_html = original_html.replace(' · <a href="disclaimer.html">Disclaimer</a>', '')
+            # Preserve the shared floating copy-link control on newly imported articles.
+            share_doc = html.fromstring(original_html)
+            share_styles = [href.split("?", 1)[0].rsplit("/", 1)[-1] for href in share_doc.xpath("//link[@rel='stylesheet']/@href")]
+            share_scripts = [src.split("?", 1)[0].rsplit("/", 1)[-1] for src in share_doc.xpath("//script/@src")]
+            if "article-share.css" not in share_styles:
+                check("</head>" in original_html, "Missing head close: " + slug)
+                original_html = original_html.replace("</head>", '<link rel="stylesheet" href="article-share.css?v=20261031-compact-v2"></head>', 1)
+            if "article-share.js" not in share_scripts:
+                check("</body>" in original_html, "Missing body close: " + slug)
+                original_html = original_html.replace("</body>", '<script defer src="article-share.js?v=20261014"></script></body>', 1)
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
             entries.append(dict(
