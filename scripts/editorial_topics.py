@@ -822,3 +822,9 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['helsing-clarity-military-ai-platform-palantir-november-2026'] = ['palantir-q3-2026-record-revenue-bookings-slowdown', 'openai-agent-monitoring-security-gaps-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('deutsche-bank-digital-asset-custody-paying-clients-november-2026')
 RELATED['deutsche-bank-digital-asset-custody-paying-clients-november-2026'] = ['bitgo-global-markets-institutional-financing-derivatives-2026', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('wall-street-opens-higher-coreweave-ai-shares-november-11-2026')
+RELATED['wall-street-opens-higher-coreweave-ai-shares-november-11-2026'] = ['coreweave-q3-2026-results-ai-spending', 'us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('turkey-stablecoin-regulatory-gap-fsb-november-11-2026')
+RELATED['turkey-stablecoin-regulatory-gap-fsb-november-11-2026'] = ['visa-monad-stablecoin-settlement-network-november-10-2026', 'stablecoins-explained-depeg-risk']
