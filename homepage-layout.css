@@ -72,3 +72,7 @@
    margin:0 0 14px;
  }
 }
+
+/* Hide embedded horizontal margins in these two approved cover files. */
+.home-editorial-section .editorial-archive-media img[src*="easyjet-apollo-takeover-shareholder-vote-november-2026-cover"],
+.home-editorial-section .editorial-archive-media img[src*="nvidia-h200-china-procurement-export-controls-november-2026-cover"]{transform:scale(1.1)}
