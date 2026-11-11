@@ -806,3 +806,7 @@ RELATED['us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026'] = ['bren
 # Approved ZIP auto-publication
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('coreweave-q3-2026-results-ai-spending')
 RELATED['coreweave-q3-2026-results-ai-spending'] = ['coreweave-ai-debt-selloff-2026', 'ai-boom-capital-financing-2026', 'tsmc-1-billion-anthropic-openai-investments-november-10-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('siemens-energy-record-2026-data-center-power-demand')
+RELATED['siemens-energy-record-2026-data-center-power-demand'] = ['ai-data-center-electricity-demand-2026', 'ai-data-center-boom-power-delivery-debt-2026', 'vistra-cogentrix-gas-power-acquisition-october-2026']
