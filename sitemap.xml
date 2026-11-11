@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://globtechco.github.io/ttn-finans/</loc>
-    <lastmod>2026-11-11T09:48:15Z</lastmod>
+    <lastmod>2026-11-11T09:54:10Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tech-ai.html</loc>
-    <lastmod>2026-11-11T09:48:15Z</lastmod>
+    <lastmod>2026-11-11T09:54:10Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
-    <lastmod>2026-11-11T09:48:15Z</lastmod>
+    <lastmod>2026-11-11T09:54:10Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,7 +807,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto.html</loc>
-    <lastmod>2026-11-11T09:48:15Z</lastmod>
+    <lastmod>2026-11-11T09:54:10Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -958,4 +958,5 @@
 <url><loc>https://globtechco.github.io/ttn-finans/visa-monad-stablecoin-settlement-network-november-10-2026.html</loc><lastmod>2026-11-10T19:15:00Z</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/coreweave-q3-2026-results-ai-spending.html</loc><lastmod>2026-11-11T04:45:53-05:00</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/siemens-energy-record-2026-data-center-power-demand.html</loc><lastmod>2026-11-11T04:47:27-05:00</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/nvidia-h200-china-procurement-export-controls-november-2026.html</loc><lastmod>2026-11-11T04:53:36-05:00</lastmod></url>
 </urlset>

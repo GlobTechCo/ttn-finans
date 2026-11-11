@@ -429,3 +429,4 @@ https://globtechco.github.io/ttn-finans/us-october-cpi-0-4-core-0-3-treasury-yie
 https://globtechco.github.io/ttn-finans/visa-monad-stablecoin-settlement-network-november-10-2026.html
 https://globtechco.github.io/ttn-finans/coreweave-q3-2026-results-ai-spending.html
 https://globtechco.github.io/ttn-finans/siemens-energy-record-2026-data-center-power-demand.html
+https://globtechco.github.io/ttn-finans/nvidia-h200-china-procurement-export-controls-november-2026.html
