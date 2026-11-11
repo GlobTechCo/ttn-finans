@@ -802,3 +802,7 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('visa-m
 RELATED['visa-monad-stablecoin-settlement-network-november-10-2026'] = ['stablecoins-explained-depeg-risk', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026', 'visa-q4-2026-profit-payments-volume']
 GROUPS.setdefault('Jobs and housing', []).append('us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026')
 RELATED['us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026'] = ['brent-below-90-global-stocks-rise-us-cpi-day-november-10', 'asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026', 'us-cpi-september-2026-energy']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('coreweave-q3-2026-results-ai-spending')
+RELATED['coreweave-q3-2026-results-ai-spending'] = ['coreweave-ai-debt-selloff-2026', 'ai-boom-capital-financing-2026', 'tsmc-1-billion-anthropic-openai-investments-november-10-2026']
