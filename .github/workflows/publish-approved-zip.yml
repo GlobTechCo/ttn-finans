@@ -6,7 +6,6 @@ on:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'pub_new.zip'
-      - 'scripts/refresh_static_editorial.py'
   workflow_dispatch:
     inputs:
       archive:
@@ -33,6 +32,8 @@ jobs:
       - name: Select only the archive from this upload
         id: select
         shell: bash
+        env:
+          REQUESTED_ARCHIVE: ${{ inputs.archive }}
         run: |
           set -euo pipefail
           archives=()
@@ -45,7 +46,7 @@ jobs:
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
           else
-            file="${{ inputs.archive }}"
+            file="$REQUESTED_ARCHIVE"
             case "$file" in
               publish-queue/*.zip|TTN_Finance_*_AutoPublish_*.zip|pub_new.zip) ;;
               *) echo "::error::Choose a ZIP in publish-queue/, a matching TTN_Finance_*_AutoPublish_*.zip, or pub_new.zip"; exit 1 ;;
