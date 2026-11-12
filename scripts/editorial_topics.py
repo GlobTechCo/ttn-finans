@@ -828,3 +828,11 @@ GROUPS.setdefault('Jobs and housing', []).append('wall-street-opens-higher-corew
 RELATED['wall-street-opens-higher-coreweave-ai-shares-november-11-2026'] = ['coreweave-q3-2026-results-ai-spending', 'us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('turkey-stablecoin-regulatory-gap-fsb-november-11-2026')
 RELATED['turkey-stablecoin-regulatory-gap-fsb-november-11-2026'] = ['visa-monad-stablecoin-settlement-network-november-10-2026', 'stablecoins-explained-depeg-risk']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('dollar-19-month-high-fed-december-hike-odds-30-year-auction-november-12-2026')
+RELATED['dollar-19-month-high-fed-december-hike-odds-30-year-auction-november-12-2026'] = ['us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026', 'fed-october-2026-rate-hold-two-dissents', 'dollar-midterms-ai-growth-risk-november-4-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('msci-removes-strategy-index-november-30-bitcoin-treasury-november-12-2026')
+RELATED['msci-removes-strategy-index-november-30-bitcoin-treasury-november-12-2026'] = ['strategy-q3-2026-bitcoin-profit-cfo-transition', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026')
+RELATED['nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026'] = ['nvidia-internal-probe-huang-foreign-intelligence-november-9', 'coreweave-q3-2026-results-ai-spending', 'nvidia-h200-china-procurement-export-controls-november-2026']
