@@ -430,6 +430,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-public-ipo-filing-revenue-costs-2026.html"
     },
     {
+      "page": "anthropic-supported-regions-policy-effective-november-12-2026.html",
+      "source": "assets/editorial/anthropic-supported-regions-policy-effective-november-12-2026-cover.jpg",
+      "image": "assets/social/anthropic-supported-regions-policy-effective-november-12-2026-cover-c2d404667c88.jpeg",
+      "sha256": "c2d404667c8848a117568919610d0e2e1de750a4bd60f26331f1a50881e3d408",
+      "width": 1024,
+      "height": 572,
+      "bytes": 279662,
+      "type": "image/jpeg",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/anthropic-supported-regions-policy-effective-november-12-2026.html"
+    },
+    {
       "page": "apple-homeview-siri-ai-2026.html",
       "source": "assets/editorial/apple-homeview-siri-ai-2026.webp",
       "image": "assets/social/apple-homeview-siri-ai-2026-1515a96f7580.webp",
@@ -736,6 +747,17 @@
       "bytes": 160394,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-etf-outflows-october-30-2026.html"
+    },
+    {
+      "page": "bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html",
+      "source": "assets/editorial/bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026-cover.jpg",
+      "image": "assets/social/bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026-cover-c74ee48feabc.jpeg",
+      "sha256": "c74ee48feabc3a4b352f12b2f7ec7c99ab93d7cbf093561db983b67902464532",
+      "width": 1024,
+      "height": 572,
+      "bytes": 234745,
+      "type": "image/jpeg",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html"
     },
     {
       "page": "bitcoin-ether-etfs-1-65-billion-weekly-outflows.html",
@@ -1948,6 +1970,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/ethereum-decoupled-consensus-finality-proposal-2026.html"
     },
     {
+      "page": "ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html",
+      "source": "assets/editorial/ethereum-ethlabs-drops-quick-slots-quantum-security-2027-cover.jpg",
+      "image": "assets/social/ethereum-ethlabs-drops-quick-slots-quantum-security-2027-cover-96153809e9c7.jpeg",
+      "sha256": "96153809e9c7df5c54893c719c9bdd788606b014fdd5a4d6994a532078860402",
+      "width": 1024,
+      "height": 572,
+      "bytes": 207882,
+      "type": "image/jpeg",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html"
+    },
+    {
       "page": "etherfi-zeal-assets-wallet-migration-october-2026.html",
       "source": "assets/editorial/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1.webp",
       "image": "assets/social/etherfi-zeal-assets-wallet-migration-october-2026-cover-v1-6da9953c3da1.webp",
@@ -2851,13 +2884,13 @@
     },
     {
       "page": "meta-muse-ten-million-us-downloads-october-20-2026.html",
-      "source": "assets/editorial/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1.png",
-      "image": "assets/social/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1-1eae113506a0.png",
-      "sha256": "1eae113506a08364b2e1e27c5874814c31f480c9de7b79bdefcff7c0533d60f9",
+      "source": "assets/editorial/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1.webp",
+      "image": "assets/social/meta-muse-ten-million-us-downloads-october-20-2026-cover-v1-6033c05c2d11.webp",
+      "sha256": "6033c05c2d11fa77f90295bd62df5d99631aed547753e6131a08549f3aa070a8",
       "width": 1672,
       "height": 941,
-      "bytes": 1858843,
-      "type": "image/png",
+      "bytes": 122412,
+      "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/meta-muse-ten-million-us-downloads-october-20-2026.html"
     },
     {
@@ -2994,13 +3027,13 @@
     },
     {
       "page": "nacha-same-day-ach-growth-third-quarter-2026.html",
-      "source": "assets/editorial/nacha-same-day-ach-growth-third-quarter-2026-cover-v1.png",
-      "image": "assets/social/nacha-same-day-ach-growth-third-quarter-2026-cover-v1-980bfc7ac5b3.png",
-      "sha256": "980bfc7ac5b3810fd78be5ba68b2d902a54e35351e763cf69cfbb5f23fed3cab",
+      "source": "assets/editorial/nacha-same-day-ach-growth-third-quarter-2026-cover-v1.webp",
+      "image": "assets/social/nacha-same-day-ach-growth-third-quarter-2026-cover-v1-6bfe82406835.webp",
+      "sha256": "6bfe82406835631802f6be1d2feb96e6881f98d4192ef449c5cba2ed4f0946ce",
       "width": 1672,
       "height": 941,
-      "bytes": 1968047,
-      "type": "image/png",
+      "bytes": 157542,
+      "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/nacha-same-day-ach-growth-third-quarter-2026.html"
     },
     {
@@ -3522,13 +3555,13 @@
     },
     {
       "page": "reliable-robotics-financing-autonomous-flight-october-20-2026.html",
-      "source": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2.png",
-      "image": "assets/social/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2-7072bb0f22db.png",
-      "sha256": "7072bb0f22db42bc7a914f5315190892de7a9e152412577cfc79f800d9340969",
+      "source": "assets/editorial/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2.webp",
+      "image": "assets/social/reliable-robotics-financing-autonomous-flight-october-20-2026-cover-v2-f61876c305d2.webp",
+      "sha256": "f61876c305d2c47ba6814b014d1dc50b185b90af50f178b1f8c1fe8053e2931c",
       "width": 1672,
       "height": 940,
-      "bytes": 2268110,
-      "type": "image/png",
+      "bytes": 219804,
+      "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/reliable-robotics-financing-autonomous-flight-october-20-2026.html"
     },
     {
