@@ -66,7 +66,10 @@ def publish(archive):
             for href in set(inline_links):
                 check((ROOT / href).is_file() or href in names, "Unknown internal article link: " + href)
 
-            check(doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@src") == [cover], "Cover mismatch: " + slug)
+            hero_srcs = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@src")
+            check(len(hero_srcs) == 1, "Expected exactly one editorial cover image: " + slug)
+            hero_src = hero_srcs[0]
+            check(hero_src in names and hero_src.startswith("assets/editorial/" + slug + "-"), "Cover source is missing or does not belong to the article: " + slug)
             alt = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@alt")
             check(bool(alt and alt[0]), "Missing image alt text: " + slug)
             stem = Path(cover).stem
@@ -85,6 +88,11 @@ def publish(archive):
             check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
             new_title = html_std.escape(seo_title + seo_suffix)
             original_html = z.read(file).decode("utf-8")
+            # Normalize a validated sibling editorial hero path to the manifest cover.
+            if hero_src != cover:
+                old_src_attr = 'src="' + hero_src + '"'
+                check(original_html.count(old_src_attr) >= 1, "Could not normalize editorial cover source: " + slug)
+                original_html = original_html.replace(old_src_attr, 'src="' + cover + '"', 1)
             # Editorial correction to the November 7 Michigan SEO summary. The
             # archived 161-character sentence breached the site's 160-character
             # limit; preserve the article body and all approved images unchanged.
