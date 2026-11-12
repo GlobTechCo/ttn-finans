@@ -1,4 +1,5 @@
 name: TTN editorial quality
+# WebP derivatives are committed only after full site verification succeeds.
 on:
   pull_request:
   push:
