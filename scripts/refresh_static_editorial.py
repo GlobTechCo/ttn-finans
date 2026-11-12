@@ -129,8 +129,13 @@ def refresh():
         text=re.sub(r'<script\b[^>]*src="(?:news|config)\.js[^\"]*"[^>]*></script>\s*','',text)
         page.write_text(text)
     page=ROOT/'index.html';text=page.read_text()
+    # Match top-story.js: the lead story has its own prominent slot and must not
+    # be duplicated in one of the three homepage editorial grids.
+    now=datetime.datetime.now(datetime.timezone.utc)
+    featured=next((a for a in latest if a.get('id') and a.get('title') and a.get('image') and a.get('format') in {'news','analysis'} and dates(a)<=now),None)
+    featured_id=featured['id'] if featured else None
     for identity,section in [('ttn-articles','Market Analysis'),('tech-ai-home','Tech & AI'),('crypto-home','Crypto')]:
-        items=[a for a in latest if a['section']==section and (section!='Crypto' or a.get('format') in {'news','analysis'})][:4]
+        items=[a for a in latest if a['section']==section and a['id']!=featured_id and (section!='Crypto' or a.get('format') in {'news','analysis'})][:4]
         text=replace_container(text,identity,''.join(card(a,section) for a in items))
     fallback='<noscript><section class="editorial-nojs" aria-labelledby="nojs-latest"><h2 id="nojs-latest">Latest original reporting</h2><p>Live quotes and the external news feed require JavaScript. TTN articles and topic archives remain available below.</p><ul>'+''.join(f'<li><a href="{a["id"]}.html">{escape(a["title"])}</a></li>' for a in latest[:12])+'</ul></section></noscript>'
     replacement=marked(text,'editorial-nojs',fallback)
