@@ -69,7 +69,7 @@ def publish(archive):
             hero_srcs = [src for src in doc.xpath("//img/@src") if src.startswith("assets/editorial/" + slug + "-") and src in names]
             check(len(hero_srcs) >= 1, "No matching approved editorial cover image found in HTML: " + slug)
             hero_src = hero_srcs[0]
-            alt = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@alt")
+            alt = doc.xpath("//img[@src=$src]/@alt", src=hero_src)
             check(bool(alt and alt[0]), "Missing image alt text: " + slug)
             stem = Path(cover).stem
             sm = "assets/responsive/" + stem + "-480.webp"
