@@ -24,7 +24,10 @@ async function noOverflow(page,label) {
    await context.addInitScript(t=>{localStorage.setItem('ttn-theme',t);localStorage.setItem('ttn_cookie_consent','declined');},theme);
    const page=await context.newPage(); const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base,{waitUntil:'domcontentloaded'});
-   const expectedHomeCrypto = expected(sorted('Crypto').filter(a=>['news','analysis'].includes(a.format)).slice(0,4));
+   // The lead story is rendered separately above the home grids. Match the
+   // production top-story.js rule so the same article is not duplicated below.
+   const featuredStory = articles.filter(a=>a.id&&a.title&&a.image&&['news','analysis'].includes(a.format)&&Number.isFinite(Date.parse(a.date))&&Date.parse(a.date)<=Date.now()).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date))[0];
+   const expectedHomeCrypto = expected(sorted('Crypto').filter(a=>a.id!==featuredStory?.id&&['news','analysis'].includes(a.format)).slice(0,4));
    // The homepage ships static fallback cards and then refreshes them from articles.js.
    // Wait for the client-rendered catalog before asserting; waiting only for the first
    // static card can race the DOMContentLoaded renderer and compare stale fallback markup.
