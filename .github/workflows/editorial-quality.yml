@@ -1,5 +1,5 @@
 name: TTN editorial quality
-# WebP derivatives are committed only after full site verification succeeds.
+# WebP derivatives are committed only after full site verification succeeds; matcher hardened.
 on:
   pull_request:
   push:
