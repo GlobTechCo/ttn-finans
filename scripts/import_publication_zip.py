@@ -172,6 +172,22 @@ def publish(archive):
             else:
                 body = final_doc.xpath("//body")[0]
                 body.insert(1 if len(body) and body[0].get("class") == "skip-link" else 0, shared_header)
+            # Reuse the site's shared footer, including the cookie-preferences control.
+            template_footers = site_template.xpath("//footer")
+            check(len(template_footers) == 1, "Site footer template is unavailable")
+            shared_footer = copy.deepcopy(template_footers[0])
+            current_footers = final_doc.xpath("//footer")
+            if current_footers:
+                current_footers[0].getparent().replace(current_footers[0], shared_footer)
+            else:
+                final_doc.xpath("//body")[0].append(shared_footer)
+            # Ensure the required GA4 and consent controls load on every imported article.
+            template_scripts = site_template.xpath("//script[@src]")
+            for required in ("analytics.js", "consent.js"):
+                if not any(Path(src.split("?", 1)[0]).name == required for src in final_doc.xpath("//script/@src")):
+                    match = next((node for node in template_scripts if Path(node.get("src").split("?", 1)[0]).name == required), None)
+                    check(match is not None, "Missing site script template: " + required)
+                    final_doc.xpath("//body")[0].append(copy.deepcopy(match))
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
