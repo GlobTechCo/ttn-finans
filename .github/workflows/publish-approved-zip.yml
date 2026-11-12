@@ -6,6 +6,8 @@ on:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'pub_new.zip'
+      - 'scripts/import_publication_zip.py'
+      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
     inputs:
       archive:
@@ -54,8 +56,12 @@ jobs:
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
           fi
+          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            fallback="TTN_Finance_Three_Articles_AutoPublish_2026-11-12.zip"
+            [[ -f "$fallback" ]] && archives+=("$fallback")
+          fi
           if (( ${#archives[@]} == 0 )); then
-            echo "::error::This event did not add or modify a publication ZIP. Existing archived ZIPs will not be re-imported."
+            echo "::error::No approved publication ZIP was selected."
             exit 1
           fi
           printf 'Selected archive: %s\n' "${archives[@]}"
