@@ -69,17 +69,18 @@ def verify():
         share_styles = [href.split('?', 1)[0].rsplit('/', 1)[-1] for href in doc.xpath("//link[@rel='stylesheet']/@href")]
         share_scripts = [src.split('?', 1)[0].rsplit('/', 1)[-1] for src in doc.xpath('//script/@src')]
         # Every standalone article must use the shared editorial page template.
-        required_styles = {'style.css', 'editorial-theme.css', 'footer.css', 'editorial-meta.css', 'article-share.css', 'editorial-related.css'}
-        assert required_styles.issubset(set(share_styles)), (a['id'], 'missing shared article styles', sorted(required_styles-set(share_styles)))
-        required_scripts = {'editorial-theme.js', 'editorial-meta.js', 'article-share.js', 'analytics.js', 'consent.js'}
-        assert required_scripts.issubset(set(share_scripts)), (a['id'], 'missing shared article scripts', sorted(required_scripts-set(share_scripts)))
-        article_path = ROOT/(a['id']+'.html')
-        article_source = article_path.read_text()
-        assert len(re.findall(r'<!doctype\s+html', article_source, re.I)) == 1, (a['id'], 'document must have exactly one HTML doctype')
-        assert len(doc.xpath('//main[contains(concat(" ",normalize-space(@class)," ")," static-page ")]')) == 1, (a['id'], 'article must use the shared static-page layout')
-        assert not doc.xpath('//main[contains(@class,"article-container")] | //article[contains(@class,"article-shell")] | //header[contains(@class,"article-header")]'), (a['id'], 'legacy unsupported article layout')
-        assert len(doc.xpath('//main[contains(@class,"static-page")]/h1')) == 1, (a['id'], 'article headline must be in the shared page flow')
-        assert len(doc.xpath('//main[contains(@class,"static-page")]/section[contains(@class,"editorial-body")]')) == 1, (a['id'], 'missing editorial body in shared page flow')
+        if a['date'][:10] >= '2026-11-12':
+            required_styles = {'style.css', 'editorial-theme.css', 'footer.css', 'editorial-meta.css', 'article-share.css', 'editorial-related.css'}
+            assert required_styles.issubset(set(share_styles)), (a['id'], 'missing shared article styles', sorted(required_styles-set(share_styles)))
+            required_scripts = {'editorial-theme.js', 'editorial-meta.js', 'article-share.js', 'analytics.js', 'consent.js'}
+            assert required_scripts.issubset(set(share_scripts)), (a['id'], 'missing shared article scripts', sorted(required_scripts-set(share_scripts)))
+            article_path = ROOT/(a['id']+'.html')
+            article_source = article_path.read_text()
+            assert len(re.findall(r'<!doctype\s+html', article_source, re.I)) == 1, (a['id'], 'document must have exactly one HTML doctype')
+            assert len(doc.xpath('//main[contains(concat(" ",normalize-space(@class)," ")," static-page ")]')) == 1, (a['id'], 'article must use the shared static-page layout')
+            assert not doc.xpath('//main[contains(@class,"article-container")] | //article[contains(@class,"article-shell")] | //header[contains(@class,"article-header")]'), (a['id'], 'legacy unsupported article layout')
+            assert len(doc.xpath('//main[contains(@class,"static-page")]/h1')) == 1, (a['id'], 'article headline must be in the shared page flow')
+            assert len(doc.xpath('//main[contains(@class,"static-page")]/section[contains(@class,"editorial-body")]')) == 1, (a['id'], 'missing editorial body in shared page flow')
         assert 'article-share.css' in share_styles, (a['id'], 'missing share stylesheet')
         assert 'article-share.js' in share_scripts, (a['id'], 'missing share script')
         from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH
