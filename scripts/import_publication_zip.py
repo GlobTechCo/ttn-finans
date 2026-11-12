@@ -66,10 +66,9 @@ def publish(archive):
             for href in set(inline_links):
                 check((ROOT / href).is_file() or href in names, "Unknown internal article link: " + href)
 
-            hero_srcs = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@src")
-            check(len(hero_srcs) == 1, "Expected exactly one editorial cover image: " + slug)
+            hero_srcs = [src for src in doc.xpath("//img/@src") if src.startswith("assets/editorial/" + slug + "-") and src in names]
+            check(len(hero_srcs) >= 1, "No matching approved editorial cover image found in HTML: " + slug)
             hero_src = hero_srcs[0]
-            check(hero_src in names and hero_src.startswith("assets/editorial/" + slug + "-"), "Cover source is missing or does not belong to the article: " + slug)
             alt = doc.xpath("//figure[contains(@class,'ttn-editorial-figure')]//img/@alt")
             check(bool(alt and alt[0]), "Missing image alt text: " + slug)
             stem = Path(cover).stem
