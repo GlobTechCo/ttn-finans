@@ -57,7 +57,7 @@ html[data-theme="dark"]{--ttn-shadow:0 14px 36px rgba(0,0,0,.22)}
 body{background:var(--bg)}
 .container{gap:28px}
 .featured,.analysis-card,.news-item,.sidebar-block,.market-summary,.tech-ai-card{border-color:var(--border);box-shadow:var(--ttn-shadow)}
-.section-title{color:var(--text)}
+.section-title{color:var(--text);font-weight:700;line-height:1.2;margin-top:0}
 .topnav{box-shadow:0 1px 0 var(--border)}
 .search-box:focus-within{border-color:var(--accent)}
 /* First-party market tape. No TradingView iframe in the header. */
