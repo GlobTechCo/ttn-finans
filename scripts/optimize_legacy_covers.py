@@ -71,7 +71,7 @@ def main():
         page = ROOT / filename
         page_text = page.read_text()
         page_text, count = re.subn(
-            r'article-cards\\.js(?:\\?[^"\\s>]*)?',
+            r'article-cards[.]js(?:[?][^">]*)?',
             "article-cards.js?v=" + card_version,
             page_text,
         )
