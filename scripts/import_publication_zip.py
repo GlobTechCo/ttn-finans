@@ -153,6 +153,13 @@ def publish(archive):
             check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
             main_nodes[0].set("id", "main-content")
             main_nodes[0].set("tabindex", "-1")
+            body_nodes = final_doc.xpath("//body")
+            check(len(body_nodes) == 1, "Expected exactly one body element: " + slug)
+            first_body = body_nodes[0][0] if len(body_nodes[0]) else None
+            if first_body is None or first_body.tag.lower() != "a" or first_body.get("class") != "skip-link":
+                skip = html.Element("a", {"class": "skip-link", "href": "#main-content"})
+                skip.text = "Skip to content"
+                body_nodes[0].insert(0, skip)
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
