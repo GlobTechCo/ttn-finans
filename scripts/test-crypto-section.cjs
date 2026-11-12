@@ -88,6 +88,7 @@ async function noOverflow(page,label) {
   }
   // Open every newly imported article directly on desktop and mobile.
   const articlePages = [
+   'bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html',
    'ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html',
    'anthropic-supported-regions-policy-effective-november-12-2026.html',
    'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026.html'
