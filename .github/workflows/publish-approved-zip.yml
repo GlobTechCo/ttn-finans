@@ -7,7 +7,6 @@ on:
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'pub_new.zip'
       - 'scripts/refresh_static_editorial.py'
-      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -35,7 +34,11 @@ jobs:
           set -euo pipefail
           python -m py_compile scripts/import_publication_zip.py
           shopt -s nullglob
-          archives=(publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip pub_new.zip)
+          archives=()
+          for file in publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip; do
+            [[ -f "$file" ]] && archives+=("$file")
+          done
+          [[ -f pub_new.zip ]] && archives+=(pub_new.zip)
           echo "Pending publication archives: ${#archives[@]}"
           printf ' - %s\\n' "${archives[@]}"
           if (( ${#archives[@]} == 0 )); then
@@ -43,8 +46,10 @@ jobs:
             exit 1
           fi
           python - <<'PY'
-          import glob, json, zipfile
-          files = glob.glob("publish-queue/*.zip") + glob.glob("TTN_Finance_*_AutoPublish_*.zip") + glob.glob("pub_new.zip")
+          import glob, json, os, zipfile
+          files = glob.glob("publish-queue/*.zip") + glob.glob("TTN_Finance_*_AutoPublish_*.zip")
+          if os.path.isfile("pub_new.zip"):
+              files.append("pub_new.zip")
           for path in files:
               with zipfile.ZipFile(path) as archive:
                   manifest = json.loads(archive.read("publication-manifest.json"))
@@ -57,8 +62,13 @@ jobs:
       - name: Import approved articles
         shell: bash
         run: |
+          set -euo pipefail
           shopt -s nullglob
-          archives=(publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip pub_new.zip)
+          archives=()
+          for file in publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip; do
+            [[ -f "$file" ]] && archives+=("$file")
+          done
+          [[ -f pub_new.zip ]] && archives+=(pub_new.zip)
           if (( ${#archives[@]} == 0 )); then
             echo "::error::No approved ZIPs found in queue"
             exit 1
