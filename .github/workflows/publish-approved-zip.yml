@@ -8,6 +8,11 @@ on:
       - 'pub_new.zip'
       - 'scripts/refresh_static_editorial.py'
   workflow_dispatch:
+    inputs:
+      archive:
+        description: 'Exact ZIP path to publish (for example: publish-queue/approved.zip)'
+        required: true
+        type: string
 permissions:
   contents: write
   pages: write
@@ -25,32 +30,53 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Check pending archive and importer
+      - name: Select only the archive from this upload
+        id: select
         shell: bash
         run: |
           set -euo pipefail
-          python -m py_compile scripts/import_publication_zip.py
-          shopt -s nullglob
           archives=()
-          for file in publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip; do
-            [[ -f "$file" ]] && archives+=("$file")
-          done
-          [[ -f pub_new.zip ]] && archives+=(pub_new.zip)
-          echo "Pending publication archives: ${#archives[@]}"
-          printf ' - %s\\n' "${archives[@]}"
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            while IFS= read -r file; do
+              case "$file" in
+                publish-queue/*.zip|TTN_Finance_*_AutoPublish_*.zip|pub_new.zip)
+                  [[ -f "$file" ]] && archives+=("$file")
+                  ;;
+              esac
+            done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
+          else
+            file="${{ inputs.archive }}"
+            case "$file" in
+              publish-queue/*.zip|TTN_Finance_*_AutoPublish_*.zip|pub_new.zip) ;;
+              *) echo "::error::Choose a ZIP in publish-queue/, a matching TTN_Finance_*_AutoPublish_*.zip, or pub_new.zip"; exit 1 ;;
+            esac
+            [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
+            archives+=("$file")
+          fi
           if (( ${#archives[@]} == 0 )); then
-            echo "::error::No queued ZIP. Nothing to publish."
+            echo "::error::This event did not add or modify a publication ZIP. Existing archived ZIPs will not be re-imported."
             exit 1
           fi
-          python - <<'PY'
-          import glob, json, os, zipfile
-          files = glob.glob("publish-queue/*.zip") + glob.glob("TTN_Finance_*_AutoPublish_*.zip")
-          if os.path.isfile("pub_new.zip"):
-              files.append("pub_new.zip")
-          for path in files:
+          printf 'Selected archive: %s\n' "${archives[@]}"
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${archives[@]}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate selected archive and importer
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.select.outputs.archives }}
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/import_publication_zip.py
+          mapfile -t archives <<< "$ARCHIVES"
+          python - "${archives[@]}" <<'PY'
+          import json, sys, zipfile
+          for path in sys.argv[1:]:
               with zipfile.ZipFile(path) as archive:
                   manifest = json.loads(archive.read("publication-manifest.json"))
                   print(f"{path}: {len(manifest)} articles, {len(archive.namelist())} archive entries")
@@ -61,18 +87,11 @@ jobs:
         run: python -m pip install -r requirements-maintenance.txt
       - name: Import approved articles
         shell: bash
+        env:
+          ARCHIVES: ${{ steps.select.outputs.archives }}
         run: |
           set -euo pipefail
-          shopt -s nullglob
-          archives=()
-          for file in publish-queue/*.zip TTN_Finance_*_AutoPublish_*.zip; do
-            [[ -f "$file" ]] && archives+=("$file")
-          done
-          [[ -f pub_new.zip ]] && archives+=(pub_new.zip)
-          if (( ${#archives[@]} == 0 )); then
-            echo "::error::No approved ZIPs found in queue"
-            exit 1
-          fi
+          mapfile -t archives <<< "$ARCHIVES"
           python scripts/import_publication_zip.py "${archives[@]}"
           rm -- "${archives[@]}"
       - name: Refresh catalog, archives, homepage, social cards and sitemaps
@@ -115,8 +134,8 @@ jobs:
             echo
             echo 'The uploaded ZIP has **not** been published. Check the first failed step above for its exact error message.'
             echo
-            echo '### Archive queue'
-            find . -maxdepth 2 -name '*.zip' -print
+            echo '### Selected archive'
+            echo '${{ github.event.head_commit.message || github.event_name }}'
             echo
             echo '### Repository'
             git log -1 --oneline
