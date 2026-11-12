@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Safely import an approved TTN ZIP package; run site regeneration afterwards."""
 import datetime
+import copy
 import html as html_std
 import json
 import re
@@ -160,6 +161,17 @@ def publish(archive):
                 skip = html.Element("a", {"class": "skip-link", "href": "#main-content"})
                 skip.text = "Skip to content"
                 body_nodes[0].insert(0, skip)
+            # Reuse the site's live shared header so imported pages keep the same navigation.
+            site_template = html.parse(str(ROOT / "index.html"))
+            template_headers = site_template.xpath("//header")
+            check(len(template_headers) == 1, "Site header template is unavailable")
+            shared_header = copy.deepcopy(template_headers[0])
+            current_headers = final_doc.xpath("//header")
+            if current_headers:
+                current_headers[0].getparent().replace(current_headers[0], shared_header)
+            else:
+                body = final_doc.xpath("//body")[0]
+                body.insert(1 if len(body) and body[0].get("class") == "skip-link" else 0, shared_header)
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
