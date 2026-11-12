@@ -188,6 +188,11 @@ def publish(archive):
                     match = next((node for node in template_scripts if Path(node.get("src").split("?", 1)[0]).name == required), None)
                     check(match is not None, "Missing site script template: " + required)
                     final_doc.xpath("//body")[0].append(copy.deepcopy(match))
+            # Map generic template asset paths to the repository's real shared assets.
+            for node in final_doc.xpath("//link[@href='assets/css/main.css']"):
+                node.set("href", "style.css?v=heading-level-20261018")
+            for node in final_doc.xpath("//script[@src='assets/js/main.js']"):
+                node.set("src", "app.js?v=independent-loading-20261018")
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
