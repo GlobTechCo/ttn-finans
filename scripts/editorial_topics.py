@@ -836,3 +836,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('msci-r
 RELATED['msci-removes-strategy-index-november-30-bitcoin-treasury-november-12-2026'] = ['strategy-q3-2026-bitcoin-profit-cfo-transition', 'bitcoin-73761-low-liquidations-nvidia-probe-november-9', 'ether-etf-outflows-bitmine-6-million-eth-liquidations-november-10']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026')
 RELATED['nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026'] = ['nvidia-internal-probe-huang-foreign-intelligence-november-9', 'coreweave-q3-2026-results-ai-spending', 'nvidia-h200-china-procurement-export-controls-november-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ethereum-ethlabs-drops-quick-slots-quantum-security-2027')
+RELATED['ethereum-ethlabs-drops-quick-slots-quantum-security-2027'] = ['zcash-nu7-upgrade-faster-blocks-fee-reserve-2026', 'xrpl-token-permission-security-update-november-2026', 'stablecoins-explained-depeg-risk']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026')
+RELATED['bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026'] = ['bitcoin-etf-institutional-adoption', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026', 'bitcoin-fifth-losing-week-weekly-close-november-8']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-supported-regions-policy-effective-november-12-2026')
+RELATED['anthropic-supported-regions-policy-effective-november-12-2026'] = ['anthropic-895-billion-compute-commitments-ipo-2026', 'tech-ai-anthropic-sec-s1-ipo-october-26-2026', 'tsmc-1-billion-anthropic-openai-investments-november-10-2026']
