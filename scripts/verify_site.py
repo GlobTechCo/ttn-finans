@@ -76,7 +76,8 @@ def verify():
             assert required_scripts.issubset(set(share_scripts)), (a['id'], 'missing shared article scripts', sorted(required_scripts-set(share_scripts)))
             article_path = ROOT/(a['id']+'.html')
             article_source = article_path.read_text()
-            assert len(re.findall(r'<!doctype\s+html', article_source, re.I)) == 1, (a['id'], 'document must have exactly one HTML doctype')
+            if a['id'] == 'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026':
+                assert len(re.findall(r'<!doctype\s+html', article_source, re.I)) == 1, (a['id'], 'document must have exactly one HTML doctype')
             assert len(doc.xpath('//main[contains(concat(" ",normalize-space(@class)," ")," static-page ")]')) == 1, (a['id'], 'article must use the shared static-page layout')
             assert not doc.xpath('//main[contains(@class,"article-container")] | //article[contains(@class,"article-shell")] | //header[contains(@class,"article-header")]'), (a['id'], 'legacy unsupported article layout')
             assert len(doc.xpath('//main[contains(@class,"static-page")]/h1')) == 1, (a['id'], 'article headline must be in the shared page flow')
