@@ -147,6 +147,13 @@ def publish(archive):
             if "article-share.js" not in share_scripts:
                 check("</body>" in original_html, "Missing body close: " + slug)
                 original_html = original_html.replace("</body>", '<script defer src="article-share.js?v=20261014"></script></body>', 1)
+            # Normalize the primary landmark required by the site's accessibility verifier.
+            final_doc = html.fromstring(original_html)
+            main_nodes = final_doc.xpath("//main")
+            check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
+            main_nodes[0].set("id", "main-content")
+            main_nodes[0].set("tabindex", "-1")
+            original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
             entries.append(dict(
