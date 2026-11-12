@@ -6,7 +6,9 @@ This script updates only the active article/catalog references to same-size WebP
 derivatives, then refresh_social_cards.py rebuilds immutable social-card copies.
 """
 from pathlib import Path
+import hashlib
 import json
+import re
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,6 +66,18 @@ def main():
     for old, new in replacements.items():
         cards_text = cards_text.replace(old, new)
     cards_path.write_text(cards_text)
+    card_version = hashlib.sha256(cards_path.read_bytes()).hexdigest()[:12]
+    for filename in ("index.html", "analysis.html", "tech-ai.html", "crypto.html"):
+        page = ROOT / filename
+        page_text = page.read_text()
+        page_text, count = re.subn(
+            r'article-cards\\.js(?:\\?[^"\\s>]*)?',
+            "article-cards.js?v=" + card_version,
+            page_text,
+        )
+        if count != 1:
+            raise SystemExit(f"Expected one article-cards.js reference in {filename}, found {count}")
+        page.write_text(page_text)
 
     for article_id, old in TARGETS.items():
         page = ROOT / f"{article_id}.html"
