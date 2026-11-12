@@ -86,6 +86,40 @@ async function noOverflow(page,label) {
    console.log('PASS:',name,'home, exclusive archives, news/explainers, charts, Escape and focus');
    await context.close();
   }
+  // Open every newly imported article directly on desktop and mobile.
+  const articlePages = [
+   'ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html',
+   'anthropic-supported-regions-policy-effective-november-12-2026.html',
+   'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026.html'
+  ];
+  for (const mobile of [false,true]) for (const article of articlePages) {
+   const context=await browser.newContext({
+    viewport:mobile?{width:390,height:844}:{width:1440,height:1000},
+    isMobile:mobile,hasTouch:mobile,colorScheme:'light'
+   });
+   await context.addInitScript(()=>{localStorage.setItem('ttn-theme','light');localStorage.setItem('ttn_cookie_consent','declined');});
+   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+   const response=await page.goto(base+article,{waitUntil:'domcontentloaded'});
+   assert.equal(response?.status(),200,article+' HTTP response');
+   await page.locator('main.static-page h1').waitFor();
+   assert.equal(await page.locator('main.static-page h1').count(),1,article+' single headline');
+   assert.equal(await page.locator('main.static-page .editorial-body').count(),1,article+' editorial body');
+   assert(await page.locator('main.static-page .editorial-body').isVisible(),article+' visible article body');
+   await page.waitForFunction(()=>[...document.styleSheets].some(s=>s.href?.includes('editorial-theme.css')),{timeout:10000});
+   const image=page.locator('main.static-page figure img').first();
+   await image.waitFor();
+   await page.waitForFunction(()=>{const i=document.querySelector('main.static-page figure img');return !!i&&i.complete&&i.naturalWidth>0;},{timeout:10000});
+   assert(await page.locator('footer.ttn-footer').count(),article+' shared footer');
+   await noOverflow(page,(mobile?'mobile ':'desktop ')+article);
+   if(mobile){
+    await page.getByRole('button',{name:'Open navigation',exact:true}).click();
+    await page.locator('#nav-links').getByRole('link',{name:'Crypto',exact:true}).waitFor();
+   }
+   assert.deepEqual(errors,[],article+' JavaScript errors');
+   await page.screenshot({path:path.join(shots,(mobile?'mobile-':'desktop-')+article+'.png'),fullPage:true});
+   console.log('PASS ARTICLE:',mobile?'mobile':'desktop',article,'layout, styles, image, footer and navigation');
+   await context.close();
+  }
   // Narrow desktop header must keep the new link and search inside the viewport.
   const header=await browser.newPage({viewport:{width:1210,height:900}});
   await header.goto(base,{waitUntil:'domcontentloaded'});await noOverflow(header,'1210px header');await header.screenshot({path:path.join(shots,'narrow-desktop-home.png')});await header.close();
