@@ -105,10 +105,10 @@ async function noOverflow(page,label) {
    assert.equal(await page.locator('main.static-page h1').count(),1,article+' single headline');
    assert.equal(await page.locator('main.static-page .editorial-body').count(),1,article+' editorial body');
    assert(await page.locator('main.static-page .editorial-body').isVisible(),article+' visible article body');
-   await page.waitForFunction(()=>[...document.styleSheets].some(s=>s.href?.includes('editorial-theme.css')),{timeout:10000});
+   await page.waitForFunction(()=>[...document.styleSheets].some(s=>s.href?.includes('editorial-theme.css')),null,{timeout:10000});
    const image=page.locator('main.static-page figure img').first();
    await image.waitFor();
-   await page.waitForFunction(()=>{const i=document.querySelector('main.static-page figure img');return !!i&&i.complete&&i.naturalWidth>0;},{timeout:10000});
+   await page.waitForFunction(()=>{const i=document.querySelector('main.static-page figure img');return !!i&&i.complete&&i.naturalWidth>0;},null,{timeout:10000});
    assert(await page.locator('footer.ttn-footer').count(),article+' shared footer');
    await noOverflow(page,(mobile?'mobile ':'desktop ')+article);
    if(mobile){
