@@ -28,10 +28,19 @@ async function noOverflow(page,label) {
    // The homepage ships static fallback cards and then refreshes them from articles.js.
    // Wait for the client-rendered catalog before asserting; waiting only for the first
    // static card can race the DOMContentLoaded renderer and compare stale fallback markup.
-   await page.waitForFunction(expected => {
-    const links = [...document.querySelectorAll('#crypto-home .editorial-archive-card h3 a')].map(a => a.getAttribute('href'));
-    return links.length === expected.length && links.every((href,index) => href === expected[index]);
-   }, expectedHomeCrypto, {timeout:10000});
+   try {
+    await page.waitForFunction(expected => {
+     const links = [...document.querySelectorAll('#crypto-home .editorial-archive-card h3 a')].map(a => a.getAttribute('href'));
+     return links.length === expected.length && links.every((href,index) => href === expected[index]);
+    }, expectedHomeCrypto, {timeout:10000});
+   } catch (error) {
+    const diagnostic = await page.evaluate(() => ({
+     actual: [...document.querySelectorAll('#crypto-home .editorial-archive-card h3 a')].map(a => a.getAttribute('href')),
+     scripts: [...document.scripts].map(s => s.src).filter(Boolean),
+     readyState: document.readyState
+    }));
+    throw new Error('Crypto homepage render mismatch: '+JSON.stringify({expected:expectedHomeCrypto,...diagnostic, pageErrors:errors})+'; '+error.message);
+   }
    assert.deepEqual(await links(page,'#crypto-home'),expectedHomeCrypto);
    assert.deepEqual(await links(page,'#ttn-articles'),expected(sorted('Market Analysis').slice(0,4)));
    assert.deepEqual(await links(page,'#tech-ai-home'),expected(sorted('Tech & AI').slice(0,4)));
