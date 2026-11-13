@@ -852,3 +852,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['xfusion-1-2-billion-ai-server-ipo-2026'] = ['revolut-self-hosted-glm-ai-coding-costs-2026', 'ai-inference-unit-economics-2026', 'agility-robotics-aglt-nasdaq-digit-orders-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026')
 RELATED['trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026'] = ['stablecoins-explained-depeg-risk', 'hsbc-redcoin-payme-launch-october-2026', 'revolut-self-hosted-glm-ai-coding-costs-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('microsoft-365-outage-shared-cloud-infrastructure-2026')
+RELATED['microsoft-365-outage-shared-cloud-infrastructure-2026'] = ['enterprise-ai-data-security-2026', 'openai-agent-monitoring-security-gaps-2026', 'openai-google-cloud-model-garden-october-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('doj-seize-1-2-billion-binance-hack-2026')
+RELATED['doj-seize-1-2-billion-binance-hack-2026'] = ['binance-63-billion-heist-crypto-insurance-scrutiny-2026', 'binance-security-investigation-stablecoin-freezes-2026', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026']
+GROUPS.setdefault('Jobs and housing', []).append('bcp-investcorp-bdc-private-credit-consolidation-2026')
+RELATED['bcp-investcorp-bdc-private-credit-consolidation-2026'] = ['private-credit-shadow-banking-explained', 'credit-default-swaps-explained', 'corporate-bonds-explained']
