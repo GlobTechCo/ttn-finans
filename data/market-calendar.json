@@ -1,7 +1,7 @@
 {
   "sources": {
     "BEA": {
-      "checkedAt": "2026-11-12T23:36:38.094135Z",
+      "checkedAt": "2026-11-13T06:41:10.195626Z",
       "events": [
         {
           "title": "Personal Income and Outlays, October 2026",
@@ -42,7 +42,7 @@
       ]
     },
     "Federal Reserve": {
-      "checkedAt": "2026-11-12T23:36:38.094135Z",
+      "checkedAt": "2026-11-13T06:41:10.195626Z",
       "events": [
         {
           "title": "FOMC meeting",
@@ -105,6 +105,14 @@
           "startDate": "2027-10-26",
           "endDate": "2027-10-27",
           "time": "2027-10-28T03:59:59Z",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "title": "FOMC meeting",
+          "startDate": "2027-11-16",
+          "endDate": "2027-11-17",
+          "time": "2027-11-18T04:59:59Z",
           "source": "Federal Reserve",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
