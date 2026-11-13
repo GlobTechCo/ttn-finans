@@ -57,7 +57,7 @@ jobs:
             archives+=("$file")
           fi
           if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
-            fallback="TTN_Finance_Three_Articles_AutoPublish_2026-11-12.zip"
+            fallback="TTN_Finance_Three_Articles_AutoPublish_2026-11-13.zip"
             [[ -f "$fallback" ]] && archives+=("$fallback")
           fi
           if (( ${#archives[@]} == 0 )); then
