@@ -5,7 +5,6 @@ import copy
 import html as html_std
 import json
 import re
-import re
 import sys
 import zipfile
 from pathlib import Path

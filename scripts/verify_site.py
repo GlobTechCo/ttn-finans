@@ -66,6 +66,15 @@ def verify():
     assert not broken,broken
     for a in articles:
         doc=docs[a['id']+'.html']
+        # Audit every published article for unapproved social-share rows.
+        forbidden_share_blocks = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-share ")]')
+        forbidden_share_links = doc.xpath(
+            '//a[contains(@href,"linkedin.com/shareArticle") or '
+            'contains(@href,"linkedin.com/sharing/share-offsite") or '
+            'contains(@href,"x.com/intent/tweet") or '
+            'contains(@href,"twitter.com/intent/tweet")]'
+        )
+        assert not forbidden_share_blocks and not forbidden_share_links, (a['id'], 'unauthorized social-share UI')
         share_styles = [href.split('?', 1)[0].rsplit('/', 1)[-1] for href in doc.xpath("//link[@rel='stylesheet']/@href")]
         share_scripts = [src.split('?', 1)[0].rsplit('/', 1)[-1] for src in doc.xpath('//script/@src')]
         # Every standalone article must use the shared editorial page template.

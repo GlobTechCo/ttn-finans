@@ -34,15 +34,21 @@ def main():
             raise SystemExit(f"Missing approved original cover: {source_rel}")
         target_rel = str(Path(source_rel).with_suffix(".webp")).replace("\\", "/")
         target = ROOT / target_rel
+        article = by_id[article_id]
+        current_image = article.get("image")
+        if current_image not in (source_rel, target_rel):
+            raise SystemExit(f"Unexpected catalog image for {article_id}: {current_image}")
         with Image.open(source) as original:
             original.load()
-            original_format = original.format
             original_size = original.size
-            image = original.copy()
-        if image.mode not in ("RGB", "RGBA"):
-            image = image.convert("RGBA" if "A" in image.getbands() else "RGB")
-        target.parent.mkdir(parents=True, exist_ok=True)
-        image.save(target, "WEBP", quality=90, method=6)
+            image = original.copy() if current_image == source_rel else None
+        if image is not None:
+            if image.mode not in ("RGB", "RGBA"):
+                image = image.convert("RGBA" if "A" in image.getbands() else "RGB")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            image.save(target, "WEBP", quality=90, method=6)
+        if not target.is_file():
+            raise SystemExit(f"Missing optimized WebP derivative: {target_rel}")
         with Image.open(target) as optimized:
             optimized.verify()
         with Image.open(target) as optimized:
@@ -51,13 +57,11 @@ def main():
         original_bytes, optimized_bytes = source.stat().st_size, target.stat().st_size
         if optimized_bytes >= original_bytes or optimized_bytes > 1_000_000:
             raise SystemExit(f"Insufficient optimization for {article_id}: {original_bytes} -> {optimized_bytes}")
-        article = by_id[article_id]
-        if article.get("image") != source_rel:
-            raise SystemExit(f"Unexpected catalog image for {article_id}: {article.get('image')}")
         article["image"] = target_rel
         article["imageSrcset"] = f"{target_rel} {original_size[0]}w"
         replacements[source_rel] = target_rel
-        print(f"{article_id}: {original_bytes:,} -> {optimized_bytes:,} bytes ({optimized_bytes / original_bytes:.1%}); dimensions unchanged at {original_size[0]}x{original_size[1]}")
+        state = "already optimized" if current_image == target_rel else "optimized"
+        print(f"{article_id}: {state}; {original_bytes:,} -> {optimized_bytes:,} bytes ({optimized_bytes / original_bytes:.1%}); dimensions unchanged at {original_size[0]}x{original_size[1]}")
 
     catalog_path.write_text(prefix + "const TTN_ARTICLES = " + json.dumps(articles, ensure_ascii=False, separators=(",", ":")) + ";\n")
 
@@ -83,9 +87,10 @@ def main():
         page = ROOT / f"{article_id}.html"
         text = page.read_text()
         new = replacements[old]
-        if old not in text:
+        if old in text:
+            text = text.replace(old, new)
+        elif new not in text:
             raise SystemExit(f"Expected approved image reference missing from {page.name}")
-        text = text.replace(old, new)
         page.write_text(text)
 
     print("Original approved PNG covers preserved. Article, JSON-LD, srcset and card-catalog references now use same-dimension WebP derivatives.")
