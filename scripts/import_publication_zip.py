@@ -28,7 +28,7 @@ def publish(archive):
         check(sum(i.file_size for i in z.infolist()) <= 100_000_000, "Expanded ZIP too large")
         for i in z.infolist():
             p = Path(i.filename)
-            safe = i.filename in ("publication-manifest.json", "README-PUBLISH.txt")
+            safe = i.filename in ("publication-manifest.json", "README-PUBLISH.txt", "GEMINI_INSTRUCTIONS.txt")
             safe |= len(p.parts) == 1 and p.suffix == ".html" and bool(slug_re.fullmatch(p.stem))
             safe |= len(p.parts) == 3 and p.parts[0] == "assets" and p.parts[1] in ("social", "editorial", "responsive") and p.suffix.lower() in (".webp", ".png", ".jpg") and bool(slug_re.fullmatch(p.stem))
             check(safe and not i.is_dir() and ".." not in p.parts and "\\" not in i.filename, "Unsafe ZIP entry: " + i.filename)
