@@ -6,8 +6,6 @@ on:
       - 'publish-queue/*.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'pub_new.zip'
-      - 'scripts/import_publication_zip.py'
-      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
     inputs:
       archive:
@@ -55,10 +53,6 @@ jobs:
             esac
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
-          fi
-          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
-            fallback="TTN_Finance_Three_Articles_AutoPublish_2026-11-13.zip"
-            [[ -f "$fallback" ]] && archives+=("$fallback")
           fi
           if (( ${#archives[@]} == 0 )); then
             echo "::error::No approved publication ZIP was selected."
