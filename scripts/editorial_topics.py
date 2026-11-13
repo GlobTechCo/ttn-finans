@@ -844,3 +844,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026'] = ['bitcoin-etf-institutional-adoption', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026', 'bitcoin-fifth-losing-week-weekly-close-november-8']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('anthropic-supported-regions-policy-effective-november-12-2026')
 RELATED['anthropic-supported-regions-policy-effective-november-12-2026'] = ['anthropic-895-billion-compute-commitments-ipo-2026', 'tech-ai-anthropic-sec-s1-ipo-october-26-2026', 'tsmc-1-billion-anthropic-openai-investments-november-10-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('european-earnings-growth-stoxx-600-energy-2026')
+RELATED['european-earnings-growth-stoxx-600-energy-2026'] = ['revolut-self-hosted-glm-ai-coding-costs-2026', 'ai-inference-unit-economics-2026', 'stablecoins-explained-depeg-risk']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('xfusion-1-2-billion-ai-server-ipo-2026')
+RELATED['xfusion-1-2-billion-ai-server-ipo-2026'] = ['revolut-self-hosted-glm-ai-coding-costs-2026', 'ai-inference-unit-economics-2026', 'agility-robotics-aglt-nasdaq-digit-orders-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026')
+RELATED['trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026'] = ['stablecoins-explained-depeg-risk', 'hsbc-redcoin-payme-launch-october-2026', 'revolut-self-hosted-glm-ai-coding-costs-2026']

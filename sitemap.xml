@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://globtechco.github.io/ttn-finans/</loc>
-    <lastmod>2026-11-12T19:34:37Z</lastmod>
+    <lastmod>2026-11-13T10:15:23Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/tech-ai.html</loc>
-    <lastmod>2026-11-12T19:03:50Z</lastmod>
+    <lastmod>2026-11-13T10:15:23Z</lastmod>
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/calculators.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/analysis.html</loc>
-    <lastmod>2026-11-12T19:03:50Z</lastmod>
+    <lastmod>2026-11-13T10:15:23Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,7 +807,7 @@
   </url>
   <url>
     <loc>https://globtechco.github.io/ttn-finans/crypto.html</loc>
-    <lastmod>2026-11-12T19:03:50Z</lastmod>
+    <lastmod>2026-11-13T10:15:23Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -970,4 +970,7 @@
 <url><loc>https://globtechco.github.io/ttn-finans/anthropic-supported-regions-policy-effective-november-12-2026.html</loc><lastmod>2026-11-12T20:43:00+02:00</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html</loc><lastmod>2026-11-12T20:43:00+02:00</lastmod></url>
 <url><loc>https://globtechco.github.io/ttn-finans/ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html</loc><lastmod>2026-11-12T20:43:00+02:00</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/european-earnings-growth-stoxx-600-energy-2026.html</loc><lastmod>2026-11-13T09:58:00+00:00</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026.html</loc><lastmod>2026-11-13T09:58:00+00:00</lastmod></url>
+<url><loc>https://globtechco.github.io/ttn-finans/xfusion-1-2-billion-ai-server-ipo-2026.html</loc><lastmod>2026-11-13T09:58:00+00:00</lastmod></url>
 </urlset>
