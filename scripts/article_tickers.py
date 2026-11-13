@@ -94,9 +94,9 @@ ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD', 'NYSE:PLTR':'PLTR', 'TADAWUL:
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
 MENTIONS = {
-    'MSFT': r'\\bMicrosoft\\b',
-    'ICMB': r'\\bICMB\\b|\\bInvestcorp Credit Management BDC\\b',
-    'BCIC': r'\\bBCIC\\b|\\bBCP Investment Corporation\\b',
+    'MSFT': r'\bMicrosoft\b',
+    'ICMB': r'\bICMB\b|\bInvestcorp Credit Management BDC\b',
+    'BCIC': r'\bBCIC\b|\bBCP Investment Corporation\b',
     'VST': r'\bVistra\b',
     'S&P 500': r'\bS\s*&\s*P\s*500\b',
     'Nasdaq Composite': r'\bNasdaq\s+Composite\b',
