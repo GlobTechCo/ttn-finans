@@ -171,6 +171,37 @@ def publish(archive):
             check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
             main_nodes[0].set("id", "main-content")
             main_nodes[0].set("tabindex", "-1")
+            # Normalize Gemini's legacy article wrappers to the site's current
+            # shared static-page structure before the strict site audit.
+            main_classes = [c for c in (main_nodes[0].get("class") or "").split() if c != "article-container"]
+            if "static-page" not in main_classes:
+                main_classes.append("static-page")
+            main_nodes[0].set("class", " ".join(main_classes))
+            for wrapper in list(final_doc.xpath(
+                '//main//*[self::article or contains(concat(" ",normalize-space(@class)," ")," article-shell ") or contains(concat(" ",normalize-space(@class)," ")," article-header ")]'
+            )):
+                parent = wrapper.getparent()
+                if parent is None:
+                    continue
+                index = parent.index(wrapper)
+                for child in list(wrapper):
+                    wrapper.remove(child)
+                    parent.insert(index, child)
+                    index += 1
+                if wrapper.text:
+                    if index:
+                        previous = parent[index - 1]
+                        previous.tail = (previous.tail or "") + wrapper.text
+                    else:
+                        parent.text = (parent.text or "") + wrapper.text
+                parent.remove(wrapper)
+            # The headline and body section must be direct children of main.
+            for selector in ("//main//h1[not(parent::main)]", "//main//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ') and not(parent::main)]"):
+                for node in list(final_doc.xpath(selector)):
+                    parent = node.getparent()
+                    if parent is not None:
+                        parent.remove(node)
+                        main_nodes[0].append(node)
             body_nodes = final_doc.xpath("//body")
             check(len(body_nodes) == 1, "Expected exactly one body element: " + slug)
             first_body = body_nodes[0][0] if len(body_nodes[0]) else None
