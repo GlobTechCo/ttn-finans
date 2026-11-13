@@ -134,6 +134,14 @@ def publish(archive):
                 original_html = html.tostring(checked_doc, encoding="unicode", method="html")
                 checked_doc = html.fromstring(original_html)
                 summaries = checked_doc.xpath('//meta[@name="description"]/@content')
+            # Repair the approved TRM Labs page's undersized SEO description in-place.
+            # Keep the article body and approved images unchanged.
+            if slug == "trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026" and len(summaries) == 1 and not 70 <= len(summaries[0]) <= 160:
+                meta_nodes = checked_doc.xpath('//meta[@name="description"]')
+                meta_nodes[0].set("content", "TRM Labs has launched Beacon Concierge, a service designed to help law enforcement identify illicit crypto activity and freeze related funds.")
+                original_html = html.tostring(checked_doc, encoding="unicode", method="html")
+                checked_doc = html.fromstring(original_html)
+                summaries = checked_doc.xpath('//meta[@name="description"]/@content')
             check(len(summaries) == 1 and 70 <= len(summaries[0]) <= 160, "Invalid SEO meta description (70-160 chars): " + slug)
             # Apply the existing responsive 16:9 article image styles to every imported cover.
             # Preserve pre-existing image classes; avoid duplicate class attributes.
