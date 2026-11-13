@@ -7,10 +7,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "articles.js"
 SEARCH_BOX = re.compile(
-    r'<div\\s+class=(["\\'])search-box\\1[^>]*>.*?</div>',
+    r'<div\s+class="search-box"[^>]*>.*?</div>',
     flags=re.IGNORECASE | re.DOTALL,
 )
-HEADER = re.compile(r'<header\\b[^>]*>.*?</header>', flags=re.IGNORECASE | re.DOTALL)
+HEADER = re.compile(r'<header\b[^>]*>.*?</header>', flags=re.IGNORECASE | re.DOTALL)
 
 
 def clean_article(path: Path) -> bool:
@@ -24,7 +24,7 @@ def clean_article(path: Path) -> bool:
         return cleaned
 
     updated = HEADER.sub(clean_header, source)
-    if re.search(r'<header\\b[^>]*>.*?class=(["\\'])search-box\\1', updated, re.I | re.S):
+    if re.search(r'<header\b[^>]*>.*?class="search-box"', updated, re.I | re.S):
         raise RuntimeError(f"Search box remains in article header: {path.name}")
     if updated != source:
         path.write_text(updated, encoding="utf-8")
@@ -42,7 +42,7 @@ def main():
             changed.append(path.name)
     print(f"Checked {len(catalog)} articles; removed homepage-only search from {len(changed)} article headers.")
     if changed:
-        print("\\n".join(changed))
+        print("\n".join(changed))
 
 
 if __name__ == "__main__":
