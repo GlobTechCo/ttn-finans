@@ -206,7 +206,9 @@ def publish(archive):
                     check(match is not None, "Missing site script template: " + required)
                     final_doc.xpath("//body")[0].append(copy.deepcopy(match))
             # Map generic template asset paths to the repository's real shared assets.
-            for node in final_doc.xpath("//link[@href='assets/css/main.css']"):
+            # The live site uses style.css (singular); normalize the plural path
+            # found in approved article templates before the strict link audit.
+            for node in final_doc.xpath("//link[@href='styles.css' or starts-with(@href, 'styles.css?') or @href='assets/css/main.css']"):
                 node.set("href", "style.css?v=heading-level-20261018")
             for node in final_doc.xpath("//script[@src='assets/js/main.js']"):
                 node.set("src", "app.js?v=independent-loading-20261018")
