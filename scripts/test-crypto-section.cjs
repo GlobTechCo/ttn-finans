@@ -46,7 +46,7 @@ async function noOverflow(page,label) {
    }
    assert.deepEqual(await links(page,'#crypto-home'),expectedHomeCrypto);
    assert.deepEqual(await links(page,'#ttn-articles'),expected(sorted('Market Analysis').filter(a=>a.id!==featuredStory?.id).slice(0,4)));
-   assert.deepEqual(await links(page,'#tech-ai-home'),expected(sorted('Tech & AI').slice(0,4)));
+   assert.deepEqual(await links(page,'#tech-ai-home'),expected(sorted('Tech & AI').filter(a=>a.id!==featuredStory?.id).slice(0,4)));
    const tape=await page.locator('tv-ticker-tape').getAttribute('symbols');
    assert(tape.includes('COINBASE:SOLUSD') && tape.includes('BITSTAMP:XRPUSD'));
    await noOverflow(page,name+' home');
