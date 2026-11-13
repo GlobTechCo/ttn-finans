@@ -259,7 +259,21 @@ def publish(archive):
                 if name not in present_scripts:
                     node = html.Element("script", src=name, defer="defer")
                     body.append(node)
+            # Apply the shared editorial hero styling to the imported cover.
+            for figure in final_doc.xpath("//main//figure"):
+                classes = (figure.get("class") or "").split()
+                if "editorial-hero" in classes and "ttn-editorial-figure" not in classes:
+                    classes = [c for c in classes if c != "editorial-hero"] + ["ttn-editorial-figure"]
+                    figure.set("class", " ".join(classes))
+                for image in figure.xpath(".//img"):
+                    image_classes = (image.get("class") or "").split()
+                    if "article-hero-image" not in image_classes:
+                        image_classes.append("article-hero-image")
+                    image.set("class", " ".join(image_classes))
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
+            # lxml's HTML serializer can preserve a source closing tag from
+            # malformed template markup; source is a void HTML element.
+            original_html = original_html.replace("</source>", "")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
             entries.append(dict(
