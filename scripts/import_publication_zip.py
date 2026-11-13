@@ -167,6 +167,12 @@ def publish(archive):
                 original_html = original_html.replace("</body>", '<script defer src="article-share.js?v=20261014"></script></body>', 1)
             # Normalize the primary landmark required by the site's accessibility verifier.
             final_doc = html.fromstring(original_html)
+            # Enforce TTN editorial policy: remove unauthorized social-share rows.
+            # Preserve approved financial widgets/tickers and the site-wide copy-link control.
+            for share_block in list(final_doc.xpath("//*[contains(concat(' ', normalize-space(@class), ' '), ' editorial-share ')]")):
+                parent = share_block.getparent()
+                if parent is not None:
+                    parent.remove(share_block)
             main_nodes = final_doc.xpath("//main")
             check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
             main_nodes[0].set("id", "main-content")
