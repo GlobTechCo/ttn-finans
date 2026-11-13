@@ -66,6 +66,8 @@ def verify():
     assert not broken,broken
     for a in articles:
         doc=docs[a['id']+'.html']
+        # The homepage owns the news search; article headers must never inherit it.
+        assert not doc.xpath('//header//*[contains(concat(" ",normalize-space(@class)," ")," search-box ")]'), (a['id'], 'homepage-only search leaked into article header')
         # Audit every published article for unapproved social-share rows.
         forbidden_share_blocks = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-share ")]')
         forbidden_share_links = doc.xpath(

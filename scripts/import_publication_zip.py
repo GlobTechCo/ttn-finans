@@ -219,6 +219,9 @@ def publish(archive):
             template_headers = site_template.xpath("//header")
             check(len(template_headers) == 1, "Site header template is unavailable")
             shared_header = copy.deepcopy(template_headers[0])
+            # Article pages share the site's navigation, but the news search belongs only on the homepage.
+            for search_node in shared_header.xpath(".//*[contains(concat(' ', normalize-space(@class), ' '), ' search-box ')]"):
+                search_node.getparent().remove(search_node)
             current_headers = final_doc.xpath("//header")
             if current_headers:
                 current_headers[0].getparent().replace(current_headers[0], shared_header)

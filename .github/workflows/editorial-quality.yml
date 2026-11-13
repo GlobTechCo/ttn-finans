@@ -20,6 +20,8 @@ on:
       - 'scripts/refresh_static_editorial.py'
       - 'scripts/audit_article_lengths.py'
       - 'scripts/verify_site.py'
+      - 'scripts/import_publication_zip.py'
+      - 'scripts/remove_article_header_search.py'
       - 'scripts/refresh_social_cards.py'
       - 'scripts/optimize_legacy_covers.py'
       - 'scripts/social-card-manifest.json'
@@ -34,6 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Keep news search on homepage only
+        run: python3 scripts/remove_article_header_search.py
       - name: Enforce approved editorial lengths
         run: python3 scripts/audit_article_lengths.py
       - name: Install site verification dependencies
