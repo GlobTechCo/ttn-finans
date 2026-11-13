@@ -212,6 +212,22 @@ def publish(archive):
                 node.set("href", "style.css?v=heading-level-20261018")
             for node in final_doc.xpath("//script[@src='assets/js/main.js']"):
                 node.set("src", "app.js?v=independent-loading-20261018")
+            # Complete the shared editorial asset set when the source template
+            # contains only a partial set. These are existing site assets.
+            required_styles = ("style.css", "editorial-theme.css", "footer.css", "editorial-meta.css", "article-share.css", "editorial-related.css")
+            head = final_doc.xpath("//head")[0]
+            present_styles = {Path(href.split("?", 1)[0]).name for href in final_doc.xpath("//link[@rel='stylesheet']/@href")}
+            for name in required_styles:
+                if name not in present_styles:
+                    node = html.Element("link", rel="stylesheet", href=name)
+                    head.append(node)
+            required_scripts = ("editorial-theme.js", "editorial-meta.js", "article-share.js", "analytics.js", "consent.js")
+            present_scripts = {Path(src.split("?", 1)[0]).name for src in final_doc.xpath("//script/@src")}
+            body = final_doc.xpath("//body")[0]
+            for name in required_scripts:
+                if name not in present_scripts:
+                    node = html.Element("script", src=name, defer="defer")
+                    body.append(node)
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # These bytes replace the packaged HTML after full archive validation.
             relations[slug + ":validated-html"] = original_html
