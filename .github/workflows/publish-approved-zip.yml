@@ -8,6 +8,7 @@ on:
       - 'pub_new.zip'
       - 'TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip'
       - '.github/workflows/publish-approved-zip.yml'
+      - 'scripts/import_publication_zip.py'
   workflow_dispatch:
     inputs:
       archive:
@@ -47,7 +48,7 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
-            if git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -Fxq '.github/workflows/publish-approved-zip.yml'; then
+            if git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E -Fxq '(.github/workflows/publish-approved-zip.yml|scripts/import_publication_zip.py)'; then
               candidate='TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip'
               [[ -f "$candidate" ]] && archives+=("$candidate")
             fi
