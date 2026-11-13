@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
     'LLY': ('NYSE:LLY', 'Eli Lilly · NYSE'),
+    'ICMB': ('NASDAQ:ICMB', 'Investcorp Credit Management BDC · Nasdaq'),
+    'BCIC': ('NASDAQ:BCIC', 'BCP Investment Corporation · Nasdaq'),
     'IAG': ('BME:IAG', 'International Airlines Group · BME · EUR'),
     'WLFI': ('BINANCE:WLFIUSDT', 'WLFI / Tether · Binance'),
     'QCOM': ('NASDAQ:QCOM', 'Qualcomm · Nasdaq'),
@@ -92,6 +94,9 @@ ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD', 'NYSE:PLTR':'PLTR', 'TADAWUL:
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
 MENTIONS = {
+    'MSFT': r'\\bMicrosoft\\b',
+    'ICMB': r'\\bICMB\\b|\\bInvestcorp Credit Management BDC\\b',
+    'BCIC': r'\\bBCIC\\b|\\bBCP Investment Corporation\\b',
     'VST': r'\bVistra\b',
     'S&P 500': r'\bS\s*&\s*P\s*500\b',
     'Nasdaq Composite': r'\bNasdaq\s+Composite\b',
