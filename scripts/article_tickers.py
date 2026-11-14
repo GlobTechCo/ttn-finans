@@ -109,6 +109,25 @@ MENTIONS = {
 }
 TAG_XPATH = '//*[contains(concat(" ",normalize-space(@class)," ")," article-ticker-tag ")]'
 
+def network_only_mention(label, copy):
+    """Do not turn a blockchain-network mention into a tradable asset ticker."""
+    if label not in {'ETH', 'SOL'}:
+        return False
+    pattern = MENTIONS[label]
+    matches = list(re.finditer(pattern, copy, re.I))
+    if not matches:
+        return False
+    for match in matches:
+        context = copy[max(0, match.start() - 65):min(len(copy), match.end() + 45)]
+        network_context = re.search(r'\\b(?:blockchain|network|chain|ecosystem|protocol)\\b', context, re.I)
+        financial_context = re.search(
+            r'\\b(?:price|trading|market|coin|token|investment|investor|ETF|holdings|USD|dollar|volume|capitalization)\\b',
+            context, re.I,
+        )
+        if not network_context or financial_context:
+            return False
+    return True
+
 def expected_tickers(article, doc):
     body = doc.xpath('//section[@class="editorial-body"]')
     assert len(body) == 1, article['id']
@@ -116,6 +135,8 @@ def expected_tickers(article, doc):
     labels = list(dict.fromkeys(ALIASES.get(t,t) for t in article.get('tickers',[])))
     for label, pattern in MENTIONS.items():
         if re.search(pattern, copy, re.I) and label not in labels:
+            if network_only_mention(label, copy):
+                continue
             labels.append(label)
     # A Composite reading must not silently open the Nasdaq-100 broker CFD.
     if 'Nasdaq Composite' in labels and 'NASDAQ' in labels:
