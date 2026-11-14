@@ -868,3 +868,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('usdc-e
 RELATED['usdc-eu-significant-emt-eba-supervision-november-2026'] = ['stablecoins-explained-depeg-risk', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('payward-xstocks-tokenized-uk-eu-equities-november-2026')
 RELATED['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = ['nyse-four-transfer-agents-tokenized-stocks-2026', 'dtcc-tokenization-service-live-october-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('japan-fsa-sustainability-assurance-startup-finance-rules-november-2026')
+RELATED['japan-fsa-sustainability-assurance-startup-finance-rules-november-2026'] = ['fed-ai-financial-stability-data-center-debt-november-2026', 'usdc-eu-significant-emt-eba-supervision-november-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('paraguay-bitcoin-mining-power-contracts-ai-campus-2027')
+RELATED['paraguay-bitcoin-mining-power-contracts-ai-campus-2027'] = ['ai-data-center-electricity-demand-2026', 'fed-ai-financial-stability-data-center-debt-november-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('eu-leaders-ai-sovereignty-investment-competitiveness-november-2026')
+RELATED['eu-leaders-ai-sovereignty-investment-competitiveness-november-2026'] = ['usdc-eu-significant-emt-eba-supervision-november-2026', 'fed-ai-financial-stability-data-center-debt-november-2026']
