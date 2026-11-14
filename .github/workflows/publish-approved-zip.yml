@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'publish-queue/*.zip'
+      - 'ttn-finance-three-articles-2026-11-14.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'pub_new.zip'
       - 'TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip'
@@ -43,7 +44,7 @@ jobs:
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
             while IFS= read -r file; do
               case "$file" in
-                publish-queue/*.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip)
+                publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip)
                   [[ -f "$file" ]] && archives+=("$file")
                   ;;
               esac
@@ -55,8 +56,8 @@ jobs:
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
-              publish-queue/*.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip) ;;
-              *) echo "::error::Choose a ZIP in publish-queue/, a matching TTN_Finance_*_AutoPublish_*.zip, the approved 2026-11-13 READY ZIP, or pub_new.zip"; exit 1 ;;
+              publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip) ;;
+              *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, the approved 2026-11-13 READY ZIP, or pub_new.zip"; exit 1 ;;
             esac
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
