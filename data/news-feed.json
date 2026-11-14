@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T22:14:12.101340+00:00",
+  "generatedAt": "2026-11-14T02:29:15.979559+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,19 +35,371 @@
   ],
   "items": [
     {
-      "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
-      "desc": "Nearly 8,000 flights are delayed so far.",
+      "title": "Trump not expected to raise Alice Huang case with China’s Xi, US officials say",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/trump-not-expected-to-raise-alice-huang-case-with-chinas-xi-us-officials-say-5026922",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC212_L.jpg",
+      "pubDate": "2026-11-14T02:06:41+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Free speech nonprofit says US to end efforts to curb Facebook group and app reporting ICE activity",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/free-speech-nonprofit-says-us-to-end-efforts-to-curb-facebook-group-and-app-reporting-ice-activity-5026821",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAD009_L.jpg",
+      "pubDate": "2026-11-14T02:06:21+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "FAA lifts nationwide ground stop after outage disrupts thousands of flights",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/faa-orders-nationwide-ground-stop-citing-extraordinary-safety-concerns-5026489",
+      "image": "https://content-media.investing.com/news/LYNXMPEA7I01N_M.jpg",
+      "pubDate": "2026-11-14T02:03:25+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Owlet, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968102-owlet-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T02:01:47+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "FAA lifts rare nationwide ground stop; flights may take days to recover",
+      "desc": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
       "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-31710883",
-      "pubDate": "2026-11-13T22:10:00+00:00",
+      "image": "https://images.mktw.net/im-14527198",
+      "pubDate": "2026-11-14T02:00:00+00:00",
       "source": "MarketWatch"
     },
     {
-      "title": "FAA issues nationwide ground stop citing communication issues affecting ‘multiple’ air traffic control facilities",
-      "desc": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, \"due to extraordinary circumstances and for reasons of safety.\"",
+      "title": "4D Molecular Therapeutics, Inc. (FDMT) Presents at Stifel 2026 Healthcare Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968096-4d-molecular-therapeutics-inc-fdmt-presents-at-stifel-2026-healthcare-conference-2026?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T01:58:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "14 dividend stocks selected for long-term growth",
+      "desc": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-27014870",
+      "pubDate": "2026-11-14T01:58:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
+      "desc": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, disrupting thousands of departing of flights.",
       "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
       "image": null,
-      "pubDate": "2026-11-13T22:07:16+00:00",
+      "pubDate": "2026-11-14T01:54:38+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Federal Realty: This Dividend King Keeps Delivering",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968098-federal-realty-this-dividend-king-keeps-delivering?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T01:42:33+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "desc": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "image": null,
+      "pubDate": "2026-11-14T01:34:11+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Okeanis Eco Tankers Corp. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968101-okeanis-eco-tankers-corp-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T01:31:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "SpaceX launches Starship in key test flight of massive rocket",
+      "desc": "The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
+      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+      "image": null,
+      "pubDate": "2026-11-14T01:18:51+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Owlet, Inc. (OWLT) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967977-owlet-inc-owlt-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T01:08:59+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Denali Therapeutics Inc. (DNLI) Presents at Stifel 2026 Healthcare Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968099-denali-therapeutics-inc-dnli-presents-at-stifel-2026-healthcare-conference-2026-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T01:08:54+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "What we know about Chinese businesswoman Alice Huang",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/what-we-know-about-chinese-businesswoman-alice-huang-5026865",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAD025_L.jpg",
+      "pubDate": "2026-11-14T01:06:37+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Democratic senators order Musk to preserve records over Ukraine Starlink access, WSJ reports",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-senators-order-musk-to-preserve-spacex-records-over-ukraine-starlink-accesswsj-reports-5026793",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC20Z_L.jpg",
+      "pubDate": "2026-11-14T01:06:18+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Beasley Broadcast Group, Inc. (BBGI) Q3 2026 Earnings Call Prepared Remarks Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968026-beasley-broadcast-group-inc-bbgi-q3-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:58:56+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria (CRESY) Q1 2027 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967888-cresud-sociedad-anonima-comercial-inmobiliaria-financiera-y-agropecuaria-cresy-q1-2027?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:58:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-nvidia-tumult-keeps-investors-on-edge-5024713",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC0SD_L.jpg",
+      "pubDate": "2026-11-14T00:48:19+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "DeFi Technologies Inc. (DEFI:CA) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967935-defi-technologies-inc-defi-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:38:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Broadcom: Nvidia Has A Problem, And That Creates An Opportunity",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968075-broadcom-nvidia-has-a-problem-and-that-creates-an-opportunity?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:33:16+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveexnvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say-5026828",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAD00Q_L.jpg",
+      "pubDate": "2026-11-14T00:30:22+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "High Roller Technologies, Inc. (ROLR) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968024-high-roller-technologies-inc-rolr-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:28:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Arrive AI Inc. (ARAI) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967845-arrive-ai-inc-arai-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:18:56+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Compagnie Financière Richemont SA (CFRUY) Q2 2027 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967751-compagnie-financiere-richemont-sa-cfruy-q2-2027-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-14T00:18:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "New York sued over law requiring social media ’warning label’",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/new-york-sued-over-law-requiring-social-media-warning-label-5026808",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAD007_L.jpg",
+      "pubDate": "2026-11-14T00:18:36+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "AbCellera Biologics Inc. (ABCL) Presents at Stifel 2026 Healthcare Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968097-abcellera-biologics-inc-abcl-presents-at-stifel-2026-healthcare-conference-2026-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:59:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Sienna Senior Living Inc. (SIA:CA) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4967883-sienna-senior-living-inc-sia-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:58:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "image": null,
+      "pubDate": "2026-11-13T23:54:36+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Digi International Q4 Review: A Little Bump In The Road, But The Pivot Is Still Promising",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968025-digi-international-q4-review-a-little-bump-in-the-road-but-the-pivot-is-still-promising?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:53:21+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "OptimumBank Holdings, Inc. (OPHC) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968082-optimumbank-holdings-inc-ophc-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:48:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "adesso SE 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968094-adesso-se-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:48:01+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Harmony Gold Mining Company Limited (HMY) Presents at Investec CEO Conference - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968093-harmony-gold-mining-company-limited-hmy-presents-at-investec-ceo-conference-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:47:43+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Sendas Distribuidora S.A. (ASAIY) Analyst/Investor Day - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968092-sendas-distribuidora-s-a-asaiy-analyst-investor-day-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:47:08+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "First Quantum Minerals Ltd. (FM:CA) Presents at RBCCM Bringing the Diggers Down Under Conference - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968091-first-quantum-minerals-ltd-fm-ca-presents-at-rbccm-bringing-the-diggers-down-under-conference?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:45:16+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "First Quantum Minerals Ltd. (FM:CA) Presents at UBS London European Conference 2026 - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968090-first-quantum-minerals-ltd-fm-ca-presents-at-ubs-london-european-conference-2026-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:44:53+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Suzuki Motor Corporation 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968089-suzuki-motor-corporation-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:44:21+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Kirin Holdings Company, Limited 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968088-kirin-holdings-company-limited-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:43:50+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "PepGen Inc. (PEPG) Discusses FREEDOM2 Lowest Dose Cohort Safety, Splicing and vHOT Results - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968087-pepgen-inc-pepg-discusses-freedom2-lowest-dose-cohort-safety-splicing-and-vhot-results?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-13T23:43:33+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Soros Fund ramps up Intel stake to over $340 million in third quarter",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/soros-fund-ramps-up-intel-stake-to-over-340-million-in-third-quarter-5026774",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC20D_L.jpg",
+      "pubDate": "2026-11-13T23:42:21+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "desc": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "image": null,
+      "pubDate": "2026-11-13T23:42:18+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Exclusive-Investors flock to Anthropic IPO but question durability of AI lead",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead-5026644",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC1WL_L.jpg",
+      "pubDate": "2026-11-13T23:36:34+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+      "desc": "There is already a demographic ‘run’ on Social Security.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-49247042",
+      "pubDate": "2026-11-13T23:12:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "4 expert tips for signing up for Medicare",
+      "desc": "A day in the life of a Medicare counselor",
+      "link": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-40479843",
+      "pubDate": "2026-11-13T22:45:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+      "desc": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-33661435",
+      "pubDate": "2026-11-13T22:21:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+      "desc": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "image": null,
+      "pubDate": "2026-11-13T22:18:43+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -75,60 +427,12 @@
       "source": "MarketWatch"
     },
     {
-      "title": "QuoteMedia, Inc. (QMCI) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968012-quotemedia-inc-qmci-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:58:54+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Canada’s Stelco to recall 175 laid-off workers, restart Hamilton plant finishing lines",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/canadas-stelco-to-recall-175-laidoff-workers-restart-hamilton-plant-finishing-lines-5026395",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC1R7_L.jpg",
-      "pubDate": "2026-11-13T21:54:49+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Afya: The Drop Came From Brazil, Not From The Company (Buy Rating)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968003-afya-the-drop-came-from-brazil-not-from-the-company-buy-rating?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:48:27+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
       "desc": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
       "link": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
       "image": null,
       "pubDate": "2026-11-13T21:44:07+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "FAA orders nationwide U.S. flight ground stop over air traffic control issues",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/faa-orders-nationwide-ground-stop-citing-extraordinary-safety-concerns-5026489",
-      "image": "https://content-media.investing.com/news/LYNXMPEA7I01N_M.jpg",
-      "pubDate": "2026-11-13T21:43:51+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-nvidia-tumult-keeps-investors-on-edge-5024713",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC0SD_L.jpg",
-      "pubDate": "2026-11-13T21:36:42+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "US Congress Democrats plot ’must-have’ victories in 2027",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-congress-democrats-plot-musthave-victories-in-2027-5024779",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAC0UD_L.jpg",
-      "pubDate": "2026-11-13T21:36:27+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "‘She has a history of financial mismanagement’: My brother cut our sister out of his will. I’ll get everything. Do I tell her?",
@@ -139,84 +443,12 @@
       "source": "MarketWatch"
     },
     {
-      "title": "WCLD: Equal-Weight ETF In Cloud Computing",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968000-wcld-equal-weight-etf-in-cloud-computing?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:30:58+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 0.10%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-010-5026559",
-      "image": "https://content-media.investing.com/news/LYNXMPEA6G0NG_M.jpg",
-      "pubDate": "2026-11-13T21:30:56+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Mexico stocks lower at close of trade; S&P/BMV IPC down 1.04%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-104-5026551",
-      "image": "https://content-media.investing.com/news/The-Mexican-Stock-Exchange_M_1440048947.jpg",
-      "pubDate": "2026-11-13T21:30:29+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 0.09%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/canada-stocks-lower-at-close-of-trade-sptsx-composite-down-009-5026547",
-      "image": "https://content-media.investing.com/news/LYNXNPEC0Q0MJ_M.jpg",
-      "pubDate": "2026-11-13T21:30:03+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Newsmax: Fading The Questionable Post-Earnings Rally",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967999-newsmax-fading-the-questionable-post-earnings-rally?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:27:31+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-      "desc": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-      "image": null,
-      "pubDate": "2026-11-13T21:27:15+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "AI risks top financial stability concerns, Fed reports",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/ai-risks-top-financial-stability-concerns-fed-reports-93CH-5026543",
-      "image": "https://content-media.investing.com/news/LYNXNPEB6R0AQ_M.jpg",
-      "pubDate": "2026-11-13T21:26:26+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
       "desc": "Investors may have to sell some of their existing bets in crypto to make room in their portfolio for what could be one of the most sought-after stock offerings in history.",
       "link": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-48903389",
       "pubDate": "2026-11-13T21:26:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Colombia stocks lower at close of trade; COLCAP down 0.06%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-006-5026542",
-      "image": "https://content-media.investing.com/news/Colombian_Securities_Exchange_M_1440056295.jpg",
-      "pubDate": "2026-11-13T21:25:06+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Wall Street notches best week since August, even as Nvidia craters nearly 13%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-after-nvidia-ceo-exit-spooks-wall-st-5023780",
-      "image": "https://content-media.investing.com/news/LYNXMPEM4K17E_1200_L.jpg",
-      "pubDate": "2026-11-13T21:22:59+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
@@ -227,30 +459,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Ecopetrol S.A. (EC) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967936-ecopetrol-s-a-ec-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:19:02+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Prairie Operating Co. (PROP) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967829-prairie-operating-co-prop-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:18:57+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Bavarian Nordic A/S (BVNRY) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967824-bavarian-nordic-a-s-bvnry-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:18:53+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
       "desc": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
@@ -259,51 +467,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Okeanis Eco Tankers: Cash Flowing, Dividends Soaring, And A Bull Case Still Intact",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967998-okeanis-eco-tankers-cash-flowing-dividends-soaring-and-a-bull-case-still-intact?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:13:22+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Ocular: Maintaining 'Buy' On AXPAXLI NDA Submission Q4 2026 And DR Expansion Possibility",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967997-ocular-maintaining-buy-axpaxli-nda-submission-q4-2026-and-dr-expansion-possibility?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:13:09+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Berkshire Hathaway Laid The Blueprint For Right Capital Empire",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967996-berkshire-hathaway-laid-the-blueprint-for-right-capital-empire?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:12:45+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
       "desc": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
       "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
       "image": "https://images.mktw.net/im-47012568",
       "pubDate": "2026-11-13T21:10:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Cineverse Corp. (CNVS) Q2 2027 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967877-cineverse-corp-cnvs-q2-2027-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:09:01+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "desc": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-43763907",
-      "pubDate": "2026-11-13T21:09:00+00:00",
       "source": "MarketWatch"
     },
     {
@@ -315,54 +483,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-      "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "image": null,
-      "pubDate": "2026-11-13T21:04:43+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "GCOW: Global Defensives Have Turned Pricier As AI Loses Steam (Rating Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967994-gcow-global-defensives-have-turned-pricier-as-ai-loses-steam-rating-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T21:01:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Exchange Income Corporation (EIF:CA) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967889-exchange-income-corporation-eif-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:58:54+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "VFMF: Why The Advantage May Not Persist",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967992-vfmf-why-the-advantage-may-not-persist?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:58:51+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "1stDibs Is Getting Better, But It's Not Worthy Of A Higher Bid",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967991-1stdibs-is-getting-better-but-its-not-worthy-of-a-higher-bid?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:57:49+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Cipher Pharmaceuticals Inc. (CPH:CA) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967836-cipher-pharmaceuticals-inc-cph-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:48:55+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
       "desc": "The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO.",
       "link": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
@@ -371,108 +491,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "How to figure out a key question this open-enrollment season: Are you overpaying for health insurance?",
-      "desc": "This back-of-the-napkin calculation can help you see if you’re buying too much coverage",
-      "link": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-09785707",
-      "pubDate": "2026-11-13T20:45:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Union Pacific: The Railroad Is Delivering, But The Merger Still Sets The Price",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967988-union-pacific-the-railroad-is-delivering-but-the-merger-still-sets-the-price?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:43:25+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Safehold Delivered All The Joy Of Buying A 100 Year Bond At 1% Interest Rate",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967987-safehold-delivered-joy-of-100-year-bond-at-1-percent-interest-rate?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:41:05+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Sigma Lithium Corporation (SGML) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967995-sigma-lithium-corporation-sgml-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:39:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Milestone Scientific Inc. (MLSS) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968002-milestone-scientific-inc-mlss-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:38:54+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "REXR Q3 2026: Asset Sales Strengthen The Core, While Fixed Income Trails Peers",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967985-rexr-q3-2026-asset-sales-strengthen-core-while-fixed-income-trails-peers?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:38:01+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Moderna, Inc. (MRNA) Analyst/Investor Day - Slideshow",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968001-moderna-inc-mrna-analyst-investor-day-slideshow?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:35:56+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Banco Santander: Fundamentals Offset By Brazil Headwinds And Limited Income Appeal",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967981-banco-santander-fundamentals-offset-by-brazil-headwinds-limited-income-appeal?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:33:27+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "SpaceX: The Math Says 69% Downside",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967990-spacex-math-says-69-percent-downside?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:30:31+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Americas Gold and Silver Corporation (USA:CA) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4967926-americas-gold-and-silver-corporation-usa-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-13T20:29:07+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "Hassett denies report he's leaving White House: 'Not true'",
       "desc": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.",
       "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
       "image": null,
       "pubDate": "2026-11-13T20:27:47+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Jensen Huang was a ‘China salesman’ for Nvidia. His exit is weighing on Chinese tech stocks.",
-      "desc": "The former Nvidia CEO was an ‘influential voice’ for selling chips to Chinese companies, but now investors are preparing for more restrictions, experts say.",
-      "link": "https://www.marketwatch.com/story/jensen-huang-was-a-china-salesman-for-nvidia-his-exit-is-weighing-on-chinese-tech-stocks-e46351e4?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-85750374",
-      "pubDate": "2026-11-13T20:19:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
-      "desc": "Here’s what might be coming for Social Security, Medicare and long-term care.",
-      "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-78474852",
-      "pubDate": "2026-11-13T20:02:00+00:00",
-      "source": "MarketWatch"
     },
     {
       "title": "After Jensen Huang’s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
@@ -488,14 +512,6 @@
       "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
       "image": null,
       "pubDate": "2026-11-13T19:30:36+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
-      "desc": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family’s financial ties to the chipmaker.",
-      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "image": null,
-      "pubDate": "2026-11-13T19:11:13+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -656,22 +672,6 @@
       "link": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html",
       "image": null,
       "pubDate": "2026-11-13T13:04:00+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "CNBC's Official NHL Team Valuations 2026: How the 32 franchises stack up",
-      "desc": "The average NHL team is worth $2.71 billion, 23% more than a year ago.",
-      "link": "https://www.cnbc.com/2026/11/13/cnbcs-official-nhl-team-valuations-2026-how-the-32-clubs-stack-up.html",
-      "image": null,
-      "pubDate": "2026-11-13T12:47:16+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
-      "desc": "The DOJ said it was taking action against the North Korean government's \"schemes to fund its regime through the massive theft of cryptocurrency.\"",
-      "link": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
-      "image": null,
-      "pubDate": "2026-11-13T12:03:24+00:00",
       "source": "CNBC Markets"
     }
   ]
