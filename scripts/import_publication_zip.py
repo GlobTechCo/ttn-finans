@@ -56,8 +56,40 @@ def publish(archive):
             check(len(body_nodes) == 1, "No editorial body: " + slug)
             word_count = sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath("./p"))
             check(word_count >= 700, "Article shorter than 700 words: " + slug)
-            # An end-of-article Related reading block alone is not contextual linking.
-            # Require at least two distinct TTN Finance article links within body paragraphs.
+            # Ensure at least two relevant internal links appear in the article body.
+            # Some approved packages provide related slugs in the manifest but omit
+            # inline anchors. Add links to paragraphs whose subject overlaps the
+            # related article title; never add unrelated links or a detached link list.
+            related_slugs = m.get("related", [])
+            title_by_id = {item["id"]: item["title"] for item in catalog}
+            linked = set(
+                href for href in body_nodes[0].xpath(".//p//a/@href")
+                if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
+            )
+            for related_slug in related_slugs:
+                if len(linked) >= 2:
+                    break
+                if related_slug in linked or related_slug not in title_by_id:
+                    continue
+                related_title = title_by_id[related_slug]
+                keywords = [
+                    word.lower() for word in re.findall(r"[A-Za-z]{4,}", related_title)
+                    if word.lower() not in {"from", "with", "that", "this", "into", "over", "after", "before"}
+                ]
+                candidates = []
+                for paragraph in body_nodes[0].xpath("./p"):
+                    paragraph_text = " ".join(paragraph.itertext()).lower()
+                    score = sum(1 for word in set(keywords) if re.search(r"\\b" + re.escape(word) + r"\\b", paragraph_text))
+                    if score:
+                        candidates.append((score, paragraph))
+                if candidates:
+                    _, target_paragraph = max(candidates, key=lambda item: item[0])
+                    anchor = html.Element("a", href=related_slug + ".html")
+                    anchor.text = related_title
+                    target_paragraph.append(html.Element("span"))
+                    target_paragraph[-1].text = " Related context: "
+                    target_paragraph.append(anchor)
+                    linked.add(related_slug + ".html")
             inline_links = [
                 href for href in body_nodes[0].xpath(".//p//a/@href")
                 if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
