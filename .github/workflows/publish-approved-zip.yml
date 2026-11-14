@@ -48,7 +48,6 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
-          fi
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
