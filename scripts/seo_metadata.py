@@ -678,3 +678,11 @@ TITLES['doj-seize-1-2-billion-binance-hack-2026'] = 'DOJ Seeks $1.2B in Crypto F
 DESCRIPTIONS['doj-seize-1-2-billion-binance-hack-2026'] = 'The Justice Department obtained court authorization to seize or restrain over $1.2 billion in cryptocurrency stolen from Binance.'
 TITLES['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP to Acquire Investcorp BDC'
 DESCRIPTIONS['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP and Investcorp agreed to a BDC merger. The 90% NAV formula implies $2.49, versus market-implied consideration of about $1.38 per ICMB share.'
+
+# Reviewed November 14, 2026: latest three article SEO titles.
+TITLES['fed-ai-financial-stability-data-center-debt-november-2026'] = 'Fed Flags AI as Top Financial Stability Risk'
+DESCRIPTIONS['fed-ai-financial-stability-data-center-debt-november-2026'] = 'The Federal Reserve’s November Financial Stability Report flags AI valuations and rising data-center debt and commitments as top U.S. financial stability risks.'
+TITLES['usdc-eu-significant-emt-eba-supervision-november-2026'] = 'EBA Names USDC EU’s First Significant EMT'
+DESCRIPTIONS['usdc-eu-significant-emt-eba-supervision-november-2026'] = 'The European Banking Authority classified USDC as the EU’s first significant e-money token under MiCA, starting shared prudential oversight with France’s ACPR.'
+TITLES['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = 'Payward Adds 200+ UK and EU Stocks to xStocks'
+DESCRIPTIONS['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = 'Payward added over 200 UK and EU tokenized stocks to xStocks via GTN, pushing total assets above 1,500 while maintaining UK and U.S. investor restrictions.'
