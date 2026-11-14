@@ -44,7 +44,7 @@ jobs:
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
             while IFS= read -r file; do
               case "$file" in
-                publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip)
+                publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip)
                   [[ -f "$file" ]] && archives+=("$file")
                   ;;
               esac
