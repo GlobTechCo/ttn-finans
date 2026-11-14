@@ -675,6 +675,6 @@ DESCRIPTIONS["crypto-profit-loss-calculator"] = "Estimate a long crypto position
 TITLES['microsoft-365-outage-shared-cloud-infrastructure-2026'] = 'Microsoft Outage Exposes Cloud Dependence'
 DESCRIPTIONS['microsoft-365-outage-shared-cloud-infrastructure-2026'] = 'A global Microsoft 365 outage disrupted Outlook, Teams and Copilot, exposing the operational risks created by shared cloud infrastructure.'
 TITLES['doj-seize-1-2-billion-binance-hack-2026'] = 'DOJ Seeks $1.2B in Crypto From Binance Hack'
-DESCRIPTIONS['doj-seize-1-2-billion-binance-hack-2026'] = 'The Justice Department obtained court authorization to seize or restrain more than $1.2 billion in cryptocurrency stolen from Binance. The forfeiture process continues.'
+DESCRIPTIONS['doj-seize-1-2-billion-binance-hack-2026'] = 'The Justice Department obtained court authorization to seize or restrain over $1.2 billion in cryptocurrency stolen from Binance.'
 TITLES['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP to Acquire Investcorp BDC'
 DESCRIPTIONS['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP and Investcorp agreed to a BDC merger. The 90% NAV formula implies a $2.49 reference value, while the market-implied consideration was about $1.38 per ICMB share.'
