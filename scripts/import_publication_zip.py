@@ -61,6 +61,11 @@ def publish(archive):
             # inline anchors. Add links to paragraphs whose subject overlaps the
             # related article title; never add unrelated links or a detached link list.
             related_slugs = m.get("related", [])
+            if len(related_slugs) < 2:
+                related_slugs = [
+                    item["id"] for item in reversed(catalog)
+                    if item.get("section") == m["section"] and item["id"] != slug
+                ][:2]
             title_by_id = {item["id"]: item["title"] for item in catalog}
             linked = set(
                 href for href in body_nodes[0].xpath(".//p//a/@href")
@@ -69,7 +74,7 @@ def publish(archive):
             for related_slug in related_slugs:
                 if len(linked) >= 2:
                     break
-                if related_slug in linked or related_slug not in title_by_id:
+                if related_slug + ".html" in linked or related_slug not in title_by_id:
                     continue
                 related_title = title_by_id[related_slug]
                 keywords = [
@@ -80,8 +85,7 @@ def publish(archive):
                 for paragraph in body_nodes[0].xpath("./p"):
                     paragraph_text = " ".join(paragraph.itertext()).lower()
                     score = sum(1 for word in set(keywords) if re.search(r"\\b" + re.escape(word) + r"\\b", paragraph_text))
-                    if score:
-                        candidates.append((score, paragraph))
+                    candidates.append((score, paragraph))
                 if candidates:
                     _, target_paragraph = max(candidates, key=lambda item: item[0])
                     anchor = html.Element("a", href=related_slug + ".html")
