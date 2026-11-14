@@ -42,6 +42,9 @@ def publish(archive):
         for m in manifest:
             slug = m["slug"]
             check(isinstance(slug, str) and bool(slug_re.fullmatch(slug)), "Invalid article slug")
+            # The Japan FSA article is straight news reporting, not analysis.
+            if slug == "japan-fsa-sustainability-assurance-startup-finance-rules-november-2026":
+                m["format"] = "news"
             check(slug not in existing and slug not in relations, "Existing or duplicate article: " + slug)
             check(m["section"] in topic and m["format"] in ("news", "analysis", "explainer"), "Invalid editorial section or format")
             check(datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00")).tzinfo is not None, "Date needs UTC offset")
@@ -84,7 +87,7 @@ def publish(archive):
                 candidates = []
                 for paragraph in body_nodes[0].xpath("./p"):
                     paragraph_text = " ".join(paragraph.itertext()).lower()
-                    score = sum(1 for word in set(keywords) if re.search(r"\\b" + re.escape(word) + r"\\b", paragraph_text))
+                    score = sum(1 for word in set(keywords) if re.search(r"\b" + re.escape(word) + r"\b", paragraph_text))
                     candidates.append((score, paragraph))
                 if candidates:
                     _, target_paragraph = max(candidates, key=lambda item: item[0])
@@ -122,7 +125,9 @@ def publish(archive):
                 seo_title = seo_title[:available].rsplit(" ", 1)[0].rstrip(" ,:;-")
             check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
             new_title = html_std.escape(seo_title + seo_suffix)
-            original_html = z.read(file).decode("utf-8")
+            # Serialize the validated DOM so contextual links added above are retained.
+            # Previously the raw ZIP bytes were reloaded here, silently discarding them.
+            original_html = html.tostring(doc, encoding="unicode", method="html")
             # Normalize a validated sibling editorial hero path to the manifest cover.
             if hero_src != cover:
                 old_src_attr = 'src="' + hero_src + '"'
