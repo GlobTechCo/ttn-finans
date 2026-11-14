@@ -296,12 +296,12 @@ def publish(archive):
         check(all(r in all_ids for slug, refs in relations.items() if not slug.endswith(":validated-html") for r in refs), "Related reading points to missing articles")
         # Refuse all collisions before writing any files.
         for name in names:
-            if name in ("publication-manifest.json", "README-PUBLISH.txt"):
+            if name in ("publication-manifest.json", "README-PUBLISH.txt", "GEMINI_INSTRUCTIONS.txt"):
                 continue
             dest = ROOT / name
             check(not dest.exists() or dest.read_bytes() == z.read(name), "Would overwrite published file: " + name)
         for name in names:
-            if name in ("publication-manifest.json", "README-PUBLISH.txt"):
+            if name in ("publication-manifest.json", "README-PUBLISH.txt", "GEMINI_INSTRUCTIONS.txt"):
                 continue
             dest = ROOT / name
             dest.parent.mkdir(parents=True, exist_ok=True)
