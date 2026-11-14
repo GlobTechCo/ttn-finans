@@ -1,31 +1,21 @@
-TTN FINANCE — GEMINI IMAGE-ONLY INSTRUCTIONS
+TTN FINANCE — REPOSITORY-LEVEL GEMINI HANDOFF RULES
 
-You are editing an approved TTN Finance publication ZIP. Your task is strictly limited to replacing the three temporary placeholder cover images with three separate, realistic, professional editorial photographs.
+This file is a general handoff note only. It does not describe any specific article or cover assignment.
 
-REQUIRED OUTPUT
-- Return one complete ZIP archive, preserving the existing archive structure and every original file.
-- Produce exactly three distinct 16:9 cover images, one for each article. Do not create a collage, grid, contact sheet, or combined image.
-- For each article, replace its `assets/editorial/<slug>-cover.webp` image and create matching responsive files at `assets/responsive/<slug>-cover-960.webp` and `assets/responsive/<slug>-cover-480.webp`. Keep these exact filenames and paths.
-- Use WebP images. Preserve the 16:9 aspect ratio and make responsive versions from the approved master image.
+For each publication package, follow the GEMINI_INSTRUCTIONS.txt included inside that exact approved ZIP. Never reuse article titles, image directions, slugs, or publication details from an older package.
 
-ARTICLE COVER DIRECTIONS
-1) Microsoft 365 outage: A realistic architectural editorial photograph of a recognizable Microsoft corporate/headquarters building, with the authentic Microsoft logo/wordmark visible naturally on the building or sign. The image should communicate enterprise cloud infrastructure and business continuity through the real-world corporate setting, not through computer screens or staged office desks. No cinematic grading, no dramatic effects, no text overlay, no collage.
+GEMINI'S ROLE
+- Work only with the approved article package supplied by the user.
+- Generate or replace only the cover images explicitly requested for that package.
+- Preserve every approved article text, title, dek, slug, date, metadata field, canonical URL, internal link, related-reading entry, ticker, and file path.
+- Return the complete ZIP package to the user.
+- Do not upload, publish, commit, push, or otherwise modify the GitHub repository.
 
-2) DOJ / Binance hack: A realistic editorial photograph of the Robert F. Kennedy Department of Justice Building in Washington, D.C., with an authentic Department of Justice seal visible naturally on a sign or plaque. A subtle, physically plausible reflection of a gold Bitcoin symbol may appear in glass, but it must look like a natural photographic reflection. Do not add a Binance logo, floating coins, computer screens, text overlays, or a collage.
+IMAGE RULES
+- Generate one separate editorial image per article; never create collages, grids, or contact sheets.
+- Use realistic, restrained financial-news editorial photography and natural lighting.
+- Preserve the package's required image filenames, formats, dimensions, and directory structure.
+- Do not invent logos, labels, headline text, or visual details.
 
-3) BCP / Investcorp private-credit acquisition: A realistic financial-district editorial photograph showing modern glass financial office towers, with a visual sense of two established financial institutions converging. Keep it understated, factual and photojournalistic. Do not invent company signage or logos. No cinematic grading, text overlay, collage, or advertising treatment.
-
-GLOBAL VISUAL RULES
-- High-quality realistic professional financial-news photojournalism, comparable to Reuters, Bloomberg, Financial Times or Yahoo Finance editorial imagery.
-- Natural daylight or ordinary real-world lighting; neutral, restrained color; no cinematic look or artificial drama.
-- No people posed for advertising, no exaggerated visual metaphors, no fake logos, no warped architecture, no invented signage.
-- Do not add headline text, labels, watermarks, borders or graphic layouts.
-
-ABSOLUTE CONTENT PRESERVATION
-- Do not rewrite, shorten, expand, correct, translate or otherwise edit any article text.
-- Do not change titles, decks, HTML, metadata, publication dates, canonical URLs, JSON-LD, manifest, slugs, internal links, related-reading links, CSS/JS references, filenames or folder structure.
-- Do not add share rows, CTA blocks, registration links, advertisements or visible TradingView labels.
-- Do not remove any files. Do not publish to GitHub or modify any repository.
-- Replace image bytes only, and add the two responsive image variants for each master cover as specified.
-
-Before returning the ZIP, verify that all three master covers and all six responsive variants exist, are valid WebP files, have the correct 16:9 ratio, and that the archive still contains the original HTML files and `publication-manifest.json` unchanged. Return the completed ZIP only.
+FINAL CHECK
+Before returning the ZIP, verify that all required files are present, the approved HTML files are unchanged, and each cover and responsive variant uses the exact filenames specified by the package-specific instructions.
