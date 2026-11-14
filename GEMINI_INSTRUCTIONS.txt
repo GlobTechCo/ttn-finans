@@ -17,5 +17,10 @@ IMAGE RULES
 - Preserve the package's required image filenames, formats, dimensions, and directory structure.
 - Do not invent logos, labels, headline text, or visual details.
 
+TICKER RULES
+- Do not add a static ticker row, ticker chips, or a second ticker block above the article hero image.
+- Preserve the approved ticker metadata, but do not invent chart symbols for blockchain networks mentioned only as infrastructure. For example, mentioning Ethereum or Solana as supported networks does not by itself make ETH or SOL relevant article tickers.
+- The website generates one chart-link ticker block from the approved article metadata and editorial copy. Do not duplicate or manually recreate that block.
+
 FINAL CHECK
 Before returning the ZIP, verify that all required files are present, the approved HTML files are unchanged, and each cover and responsive variant uses the exact filenames specified by the package-specific instructions.
