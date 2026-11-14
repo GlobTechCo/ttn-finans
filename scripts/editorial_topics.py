@@ -860,3 +860,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('doj-se
 RELATED['doj-seize-1-2-billion-binance-hack-2026'] = ['binance-63-billion-heist-crypto-insurance-scrutiny-2026', 'binance-security-investigation-stablecoin-freezes-2026', 'bitcoin-selloff-binance-63-billion-impact-liquidations-2026']
 GROUPS.setdefault('Jobs and housing', []).append('bcp-investcorp-bdc-private-credit-consolidation-2026')
 RELATED['bcp-investcorp-bdc-private-credit-consolidation-2026'] = ['private-credit-shadow-banking-explained', 'credit-default-swaps-explained', 'corporate-bonds-explained']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('fed-ai-financial-stability-data-center-debt-november-2026')
+RELATED['fed-ai-financial-stability-data-center-debt-november-2026'] = ['coreweave-q3-2026-results-ai-spending', 'ai-data-center-electricity-demand-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('usdc-eu-significant-emt-eba-supervision-november-2026')
+RELATED['usdc-eu-significant-emt-eba-supervision-november-2026'] = ['stablecoins-explained-depeg-risk', 'pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('payward-xstocks-tokenized-uk-eu-equities-november-2026')
+RELATED['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = ['nyse-four-transfer-agents-tokenized-stocks-2026', 'dtcc-tokenization-service-live-october-2026']
