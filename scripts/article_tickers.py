@@ -119,9 +119,9 @@ def network_only_mention(label, copy):
         return False
     for match in matches:
         context = copy[max(0, match.start() - 65):min(len(copy), match.end() + 45)]
-        network_context = re.search(r'\b(?:blockchain|network|chain|ecosystem|protocol)\\b', context, re.I)
+        network_context = re.search(r'\b(?:blockchain|network|chain|ecosystem|protocol)\b', context, re.I)
         financial_context = re.search(
-            r'\b(?:price|trading|market|coin|token|investment|investor|ETF|holdings|USD|dollar|volume|capitalization)\\b',
+            r'\b(?:price|trading|market|coin|token|investment|investor|ETF|holdings|USD|dollar|volume|capitalization)\b',
             context, re.I,
         )
         if not network_context or financial_context:
