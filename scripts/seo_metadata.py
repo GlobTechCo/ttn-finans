@@ -677,4 +677,4 @@ DESCRIPTIONS['microsoft-365-outage-shared-cloud-infrastructure-2026'] = 'A globa
 TITLES['doj-seize-1-2-billion-binance-hack-2026'] = 'DOJ Seeks $1.2B in Crypto From Binance Hack'
 DESCRIPTIONS['doj-seize-1-2-billion-binance-hack-2026'] = 'The Justice Department obtained court authorization to seize or restrain over $1.2 billion in cryptocurrency stolen from Binance.'
 TITLES['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP to Acquire Investcorp BDC'
-DESCRIPTIONS['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP and Investcorp agreed to a BDC merger. The 90% NAV formula implies a $2.49 reference value, while the market-implied consideration was about $1.38 per ICMB share.'
+DESCRIPTIONS['bcp-investcorp-bdc-private-credit-consolidation-2026'] = 'BCP and Investcorp agreed to a BDC merger. The 90% NAV formula implies $2.49, versus market-implied consideration of about $1.38 per ICMB share.'
