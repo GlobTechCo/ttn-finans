@@ -66,7 +66,7 @@ for name, data in list(raw.items()):
     set_meta('//meta[@name="twitter:description"]', "content", description)
     published_nodes = head.xpath('./meta[@property="article:published_time"]')
     if published_nodes: published_nodes[0].set("content", published_date)
-    else: etree.SubElement(head, "meta", property="article:published_time", content="published_date")
+    else: etree.SubElement(head, "meta", property="article:published_time", content=published_date)
     canon_nodes = head.xpath('./link[@rel="canonical"]')
     if canon_nodes: canon_nodes[0].set("href", canon)
     else: etree.SubElement(head, "link", rel="canonical", href=canon)
@@ -74,7 +74,7 @@ for name, data in list(raw.items()):
     if robots: robots[0].set("content","index,follow,max-image-preview:large")
     scripts = head.xpath('./script[@type="application/ld+json"]')
     structured = json.loads(scripts[0].text) if scripts and scripts[0].text else {}
-    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":"2026-11-15T10:00:00+00:00","dateModified":"2026-11-15T10:00:00+00:00","inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base}})
+    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base}})
     if scripts: scripts[0].text = json.dumps(structured, ensure_ascii=False)
     else:
         sc=etree.SubElement(head,"script",type="application/ld+json");sc.text=json.dumps(structured,ensure_ascii=False)
@@ -88,7 +88,7 @@ for name, data in list(raw.items()):
     by=etree.SubElement(main,"p",attrib={"class":"editorial-meta","data-editorial-byline":"","data-author":"TTN Research Desk"})
     sp=etree.SubElement(by,"span",attrib={"class":"editorial-author"}); sp.text="TTN Research Desk"
     pub=etree.SubElement(by,"span",attrib={"class":"editorial-published"})
-    tm=etree.SubElement(pub,"time",datetime="2026-11-15T10:00:00+00:00"); tm.text=datetime.strptime(published_date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
+    tm=etree.SubElement(pub,"time",datetime=published_date); tm.text=datetime.strptime(published_date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
     fig=etree.SubElement(main,"figure",attrib={"class":"ttn-editorial-figure"})
     img=etree.SubElement(fig,"img",src=cover,alt=title,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
     img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
@@ -97,7 +97,7 @@ for name, data in list(raw.items()):
     body.set("class","editorial-body")
     main.append(body)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":"2026-11-15T10:00:00+00:00","cover":cover})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":published_date,"cover":cover})
     # Move package images into the importer's canonical asset folders.
     stem = slug + "-cover"
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
