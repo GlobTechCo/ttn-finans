@@ -38,8 +38,8 @@ for name, data in list(raw.items()):
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
     cover = "assets/editorial/" + slug + "-cover.webp"
-    small = "assets/responsive/" + slug + "-480.webp"
-    medium = "assets/responsive/" + slug + "-960.webp"
+    small = "assets/responsive/" + slug + "-cover-480.webp"
+    medium = "assets/responsive/" + slug + "-cover-960.webp"
     # Use a live TTN article as the structural template; all editorial content below is replaced.
     template = html.parse(str(root / "private-credit-shadow-banking-explained.html"))
     doc = template
