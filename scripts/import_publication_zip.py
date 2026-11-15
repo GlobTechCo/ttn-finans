@@ -47,7 +47,12 @@ def publish(archive):
                 m["format"] = "news"
             check(slug not in existing and slug not in relations, "Existing or duplicate article: " + slug)
             check(m["section"] in topic and m["format"] in ("news", "analysis", "explainer"), "Invalid editorial section or format")
-            check(datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00")).tzinfo is not None, "Date needs UTC offset")
+            parsed_date = datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00"))
+            check((len(m["date"]) == 10 and parsed_date.tzinfo is None) or parsed_date.tzinfo is not None, "Date must be date-only or include a timezone offset")
+            sources = m.get("sources", [])
+            check(isinstance(sources, list) and len(sources) >= 1, "Every article needs at least one source")
+            for source in sources:
+                check(isinstance(source, dict) and isinstance(source.get("label"), str) and source["label"].strip() and isinstance(source.get("url"), str) and source["url"].startswith("https://"), "Invalid article source")
             file = slug + ".html"
             cover = m["cover"]
             check(file in names and cover in names and cover.startswith("assets/editorial/" + slug + "-"), "Article/cover missing")
@@ -340,7 +345,7 @@ def publish(archive):
                 image=cover, imageSmall=sm, imageMedium=md,
                 imageSrcset=sm + " 480w, " + md + " 960w, " + cover + " 1672w",
                 imageAlt=alt[0], body=[html.tostring(el, encoding="unicode") for el in body_nodes[0]],
-                sources=[]
+                sources=sources
             ))
         all_ids = existing | {a["id"] for a in entries}
         check(all(r in all_ids for slug, refs in relations.items() if not slug.endswith(":validated-html") for r in refs), "Related reading points to missing articles")
