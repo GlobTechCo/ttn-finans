@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Enforce 700+ paragraph words for every new or substantially updated article.
+"""Enforce the 700-900 paragraph-word range for every new or substantially updated article.
 
 Count only paragraph text inside editorial-body, excluding headings, decks,
 sources, related reading and other site furniture. These are TTN editorial
@@ -79,9 +79,10 @@ def audit(root=ROOT):
         # A one-time historical shortening request; an exact-text change invalidates it.
         if review and hashlib.sha256(text.encode()).hexdigest() == review['sha256']:
             minimum = review['words']
+        maximum = 900
         rows.append(dict(id=article['id'], title=article['title'], date=article['date'],
-                         type=kind, words=words, characters=len(text), minimum=minimum,
-                         status='PASS' if words >= minimum else 'FAIL'))
+                         type=kind, words=words, characters=len(text), minimum=minimum, maximum=maximum,
+                         status='PASS' if minimum <= words <= maximum else 'FAIL'))
     return rows
 
 
@@ -99,8 +100,9 @@ def main():
         writer.writerows(rows)
     else:
         for row in failures:
-            print(f"FAIL: {row['id']}: {row['words']} < {row['minimum']} paragraph words")
-        print(f"{'FAIL' if failures else 'PASS'}: {len(rows)} articles; {len(failures)} below the applicable minimum (700 words for all new/substantially updated articles from October 30; unchanged earlier news: historical 600).")
+            reason = f"{row['words']} < {row['minimum']}" if row['words'] < row['minimum'] else f"{row['words']} > {row['maximum']}"
+            print(f"FAIL: {row['id']}: {reason} paragraph words")
+        print(f"{'FAIL' if failures else 'PASS'}: {len(rows)} articles; {len(failures)} outside the approved range (700-900 for new/substantially updated articles; unchanged earlier news retains its historical 600-word minimum, with a 900-word maximum).")
     return bool(failures)
 
 
