@@ -2,7 +2,7 @@
 """Normalize Gemini's dated three-article folder package to TTN's importer schema."""
 import json, re, sys, zipfile
 from pathlib import Path
-from lxml import html
+from lxml import html, etree
 
 archive_path = Path(sys.argv[1])
 root = Path.cwd()
@@ -54,7 +54,7 @@ for name, data in list(raw.items()):
     canon = base + slug + ".html"
     title_nodes = head.xpath("./title")
     if title_nodes: title_nodes[0].text = seo_title
-    else: html.SubElement(head, "title").text = seo_title
+    else: etree.SubElement(head, "title").text = seo_title
     set_meta('//meta[@name="description"]', "content", description)
     set_meta('//meta[@property="og:title"]', "content", title)
     set_meta('//meta[@property="og:description"]', "content", description)
