@@ -88,6 +88,9 @@ jobs:
           import json, sys, zipfile
           for path in sys.argv[1:]:
               with zipfile.ZipFile(path) as archive:
+                  print("ZIP CONTENTS:", "\\n".join(archive.namelist()))
+                  if "publication-manifest.json" not in archive.namelist():
+                      raise SystemExit("Missing publication-manifest.json; archive contents listed above.")
                   manifest = json.loads(archive.read("publication-manifest.json"))
                   print(f"{path}: {len(manifest)} articles, {len(archive.namelist())} archive entries")
                   for item in manifest:
