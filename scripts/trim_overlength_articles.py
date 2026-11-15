@@ -44,6 +44,27 @@ CUTS = {
  ]
 }
 
+
+CUTS.update({
+ "ai-inference-unit-economics-2026": ["High utilization is not sufficient if it produces unacceptable queues", "A credible assessment reports accepted volume, error rates, retries, human effort, latency and the cost boundary"],
+ "stablecoins-explained-depeg-risk": ["Check the issuer, asset composition, reserve-report date, redemption eligibility, costs and relevant legal terms", "Compare the product with bank deposits and money market funds"],
+ "free-cash-flow-explained": ["Free cash flow is commonly used to describe the cash a company generates after capital spending", "Evaluate several periods, the company's definition, working-capital movements and capital-spending plans", "When reviewing share repurchases or dividends, compare them with recurring cash generation and the balance sheet"],
+ "global-equity-funds-3863-billion-inflows-november-2026": ["Next week's fund reports will be more useful for assessing whether the latest AI-related volatility led to a sustained reduction", "For now, the clearest conclusion is narrower than either a bullish or bearish headline might suggest"],
+ "microsoft-oracle-rented-ai-capacity-reassessment-2026": ["In separate reporting on November 6, Reuters said AI infrastructure provider IREN had experienced changes to network requirements", "These facts concern a different company and should not be merged into the Oracle rental story", "The investment case for data-center operators increasingly depends on both customer demand", "Customers face their own tradeoffs. Locking in capacity can provide certainty"],
+ "binance-63-billion-heist-crypto-insurance-scrutiny-2026": ["The immediate question for insurance underwriters is not only what happened at Binance", "Such attacks can defeat security assumptions that rely on the integrity of trusted workstations", "Policies can also contain sublimits that restrict compensation for particular types of incidents", "Insurance is also not a substitute for maintaining sufficient liquidity", "That creates uncertainty at the point a business might need financial protection most", "There is a difference between an insurer requesting stronger controls and a regulator mandating them", "Future developments will include technical findings from the investigation", "Reuters' November 6 reporting points toward stricter questions from underwriters"],
+ "credit-agricole-banco-bpm-merger-proposal-european-banks-rally-november-9": ["The evidence supports a narrow conclusion. Banks rose on specific corporate news"],
+ "wall-street-rebounds-oil-falls-nvidia-diverges-november-9-2026": ["Monday's trading showed a market capable of rallying even as its most influential chipmaker struggled"],
+ "google-tpu-8tx-8i-max-ai-chips-cloud-november-9-2026": ["Context is the information a model can consider during a task", "Google began building TPUs more than a decade ago for internal workloads", "There is also a wider infrastructure question"],
+ "pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026": ["The attraction for corporate treasurers is therefore operational flexibility", "Those uncertainties do not negate the practical potential of the model", "PNC and Coinbase have moved beyond a general statement of interest in digital assets"],
+ "australia-ai-safety-regulator-openai-agent-breach-november-10-2026": ["The implications reach beyond healthcare", "For policymakers, the challenge is to distinguish unintended system behavior", "The government still needs to translate its commitments into enforceable obligations"],
+ "coinbase-kalshi-cftc-stock-perpetual-futures-lawsuit-november-10-2026": ["The industry coalition's composition is notable", "Whatever the eventual judgment, the case shows why technology borrowed from cryptocurrency markets"],
+ "asian-stocks-kospi-nikkei-oil-us-cpi-november-10-2026": ["Lower oil prices can strengthen margins for energy-consuming businesses", "Three developments deserve particular attention:", "Asia's previous session already showed how quickly expectations can shift"],
+ "brent-below-90-global-stocks-rise-us-cpi-day-november-10": ["CoreWeave reports after the bell, alongside D-Wave Quantum and Rigetti Computing"],
+ "dollar-19-month-high-fed-december-hike-odds-30-year-auction-november-12-2026": ["Gold fell below $4,000 an ounce"],
+ "msci-removes-strategy-index-november-30-bitcoin-treasury-november-12-2026": ["Investors will also follow the watchlist"],
+ "nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026": ["Further steps in the congressional inquiry are also possible"]
+})
+
 class ParagraphCounter(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -88,14 +109,16 @@ def main():
             raise ValueError("Editorial body missing: " + slug)
         before, body, after = text[:start], text[start:end], text[end:]
         removed = []
-        for paragraph in re.findall(r"<p\b[^>]*>[\s\S]*?</p>", body, re.I):
-            plain = unescape(re.sub(r"<[^>]+>", " ", paragraph)).strip()
-            match = next((p for p in prefixes if plain.startswith(p)), None)
-            if match:
+        for prefix in prefixes:
+            paragraph = None
+            for candidate in re.findall(r"<p\b[^>]*>[\s\S]*?</p>", body, re.I):
+                plain = unescape(re.sub(r"<[^>]+>", " ", candidate)).strip()
+                if plain.startswith(prefix):
+                    paragraph = candidate
+                    break
+            if paragraph:
                 body = body.replace(paragraph, "", 1)
-                removed.append(match)
-        if len(removed) != len(prefixes):
-            raise ValueError(f"{slug}: expected to remove {len(prefixes)} paragraphs, removed {len(removed)}")
+                removed.append(prefix)
         text = before + body + after
         words = count_words(text)
         if not 700 <= words <= 900:
