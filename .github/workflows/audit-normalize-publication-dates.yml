@@ -6,6 +6,8 @@ on:
       - 'scripts/normalize_historical_publication_dates.py'
       - 'scripts/normalize_gemini_publication_zip.py'
       - 'scripts/repair_imported_article_metadata.py'
+      - 'scripts/trim_overlength_articles.py'
+      - 'scripts/audit_article_lengths.py'
       - '.github/workflows/audit-normalize-publication-dates.yml'
   workflow_dispatch:
 permissions:
@@ -33,6 +35,8 @@ jobs:
         run: python scripts/normalize_historical_publication_dates.py
       - name: Repair imported article citations and image metadata
         run: python scripts/repair_imported_article_metadata.py
+      - name: Trim articles to the approved 700-900 word range
+        run: python scripts/trim_overlength_articles.py
       - name: Rebuild article cards, archives and homepage
         run: |
           python scripts/refresh_static_editorial.py
