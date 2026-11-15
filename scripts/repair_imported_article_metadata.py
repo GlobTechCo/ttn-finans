@@ -76,8 +76,11 @@ def repair_page(slug, article):
     # Calculate visible editorial-body paragraph words, excluding navigation and source list.
     body_match = re.search(r'<section\b[^>]*class=["\'][^"\']*editorial-body[^"\']*["\'][^>]*>([\s\S]*?)</section>', text, re.I)
     if body_match:
-        plain = unescape(re.sub(r'<[^>]+>', ' ', body_match.group(1)))
-        schema["wordCount"] = len(re.findall(r"\b[\w’'-]+\b", plain))
+        paragraphs = re.findall(r'<p\b[^>]*>([\s\S]*?)</p>', body_match.group(1), re.I)
+        schema["wordCount"] = sum(
+            len(unescape(re.sub(r'<[^>]+>', ' ', paragraph)).split())
+            for paragraph in paragraphs
+        )
     replacement = match.group(1) + json.dumps(schema, ensure_ascii=False, separators=(",", ":")) + match.group(3)
     text = text[:match.start()] + replacement + text[match.end():]
     text = replace_meta_tags(text, alt)
