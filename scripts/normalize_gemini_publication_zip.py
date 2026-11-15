@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Normalize Gemini's dated three-article folder package to TTN's importer schema."""
 import json, re, sys, zipfile
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from lxml import html, etree
 
@@ -66,7 +66,7 @@ for name, data in list(raw.items()):
     set_meta('//meta[@name="twitter:description"]', "content", description)
     published_nodes = head.xpath('./meta[@property="article:published_time"]')
     if published_nodes: published_nodes[0].set("content", published_date)
-    else: etree.SubElement(head, "meta", property="article:published_time", content="2026-11-15T10:00:00+00:00")
+    else: etree.SubElement(head, "meta", property="article:published_time", content="published_date")
     canon_nodes = head.xpath('./link[@rel="canonical"]')
     if canon_nodes: canon_nodes[0].set("href", canon)
     else: etree.SubElement(head, "link", rel="canonical", href=canon)
@@ -88,7 +88,7 @@ for name, data in list(raw.items()):
     by=etree.SubElement(main,"p",attrib={"class":"editorial-meta","data-editorial-byline":"","data-author":"TTN Research Desk"})
     sp=etree.SubElement(by,"span",attrib={"class":"editorial-author"}); sp.text="TTN Research Desk"
     pub=etree.SubElement(by,"span",attrib={"class":"editorial-published"})
-    tm=etree.SubElement(pub,"time",datetime="2026-11-15T10:00:00+00:00"); tm.text="Nov 15, 2026"
+    tm=etree.SubElement(pub,"time",datetime="2026-11-15T10:00:00+00:00"); tm.text=datetime.strptime(published_date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
     fig=etree.SubElement(main,"figure",attrib={"class":"ttn-editorial-figure"})
     img=etree.SubElement(fig,"img",src=cover,alt=title,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
     img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
