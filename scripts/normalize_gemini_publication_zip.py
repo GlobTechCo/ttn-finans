@@ -90,6 +90,8 @@ for name, data in list(raw.items()):
     img=etree.SubElement(fig,"img",src=cover,alt=title,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
     img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
     body=html.fromstring(body_html)
+    body.tag="section"
+    body.set("class","editorial-body")
     main.append(body)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
     articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":"2026-11-15T10:00:00+00:00","cover":cover})
