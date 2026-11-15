@@ -83,7 +83,7 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install lxml
-          echo "Converting Gemini package; enforcing SEO description limits."
+          echo "Rebuilding approved package with corrected EBA metadata."
           mapfile -t archives <<< "$ARCHIVES"
           for archive in "${archives[@]}"; do
             python scripts/normalize_gemini_publication_zip.py "$archive"
