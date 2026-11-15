@@ -29,6 +29,8 @@ for name, data in list(raw.items()):
     published_date = str(meta.get("publishedAt") or meta.get("datePublished") or meta.get("date") or date.today().isoformat()).split("T", 1)[0]
     fallback = seo_fallback.get(slug, {})
     title = meta["headline"]
+    image_alt = meta.get("imageAlt") or title
+    sources = meta.get("sources") or meta.get("citations") or source_fallback.get(slug, [])
     seo_title = meta.get("seoTitle") or fallback.get("seoTitle") or (title[:48].rsplit(" ",1)[0] + " | TTN Finance")
     description = meta.get("metaDescription") or fallback.get("metaDescription")
     fragment_name = slug + "-fragment.html"
@@ -62,6 +64,8 @@ for name, data in list(raw.items()):
     set_meta('//meta[@property="og:title"]', "content", title)
     set_meta('//meta[@property="og:description"]', "content", description)
     set_meta('//meta[@property="og:url"]', "content", canon)
+    set_meta('//meta[@property="og:image:alt"]', "content", image_alt)
+    set_meta('//meta[@name="twitter:image:alt"]', "content", image_alt)
     set_meta('//meta[@name="twitter:title"]', "content", title)
     set_meta('//meta[@name="twitter:description"]', "content", description)
     published_nodes = head.xpath('./meta[@property="article:published_time"]')
@@ -74,7 +78,7 @@ for name, data in list(raw.items()):
     if robots: robots[0].set("content","index,follow,max-image-preview:large")
     scripts = head.xpath('./script[@type="application/ld+json"]')
     structured = json.loads(scripts[0].text) if scripts and scripts[0].text else {}
-    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base}})
+    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":1672,"height":941,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
     if scripts: scripts[0].text = json.dumps(structured, ensure_ascii=False)
     else:
         sc=etree.SubElement(head,"script",type="application/ld+json");sc.text=json.dumps(structured,ensure_ascii=False)
@@ -90,14 +94,21 @@ for name, data in list(raw.items()):
     pub=etree.SubElement(by,"span",attrib={"class":"editorial-published"})
     tm=etree.SubElement(pub,"time",datetime=published_date); tm.text=datetime.strptime(published_date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
     fig=etree.SubElement(main,"figure",attrib={"class":"ttn-editorial-figure"})
-    img=etree.SubElement(fig,"img",src=cover,alt=title,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
+    img=etree.SubElement(fig,"img",src=cover,alt=image_alt,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
     img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
     body=html.fromstring(body_html)
     body.tag="section"
     body.set("class","editorial-body")
+    if sources:
+        aside=etree.SubElement(body,"aside",attrib={"class":"editorial-sources","aria-labelledby":"editorial-sources-title"})
+        etree.SubElement(aside,"h2",id="editorial-sources-title").text="Sources"
+        ul=etree.SubElement(aside,"ul")
+        for source in sources:
+            link=etree.SubElement(etree.SubElement(ul,"li"),"a",href=source["url"],target="_blank",rel="noopener noreferrer")
+            link.text=source["label"]
     main.append(body)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":published_date,"cover":cover})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
     # Move package images into the importer's canonical asset folders.
     stem = slug + "-cover"
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
