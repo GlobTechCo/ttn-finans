@@ -90,7 +90,11 @@ jobs:
               with zipfile.ZipFile(path) as archive:
                   print("ZIP CONTENTS:", "\\n".join(archive.namelist()))
                   if "publication-manifest.json" not in archive.namelist():
-                      raise SystemExit("Missing publication-manifest.json; archive contents listed above.")
+                      for name in archive.namelist():
+                          if name.endswith("-seo.json") or name.endswith("-fragment.html") or name.endswith("README.txt"):
+                              print("\\n--- FILE:", name, "---\\n")
+                              print(archive.read(name).decode("utf-8")[:12000])
+                      raise SystemExit("Missing publication-manifest.json; diagnostic package contents printed above.")
                   manifest = json.loads(archive.read("publication-manifest.json"))
                   print(f"{path}: {len(manifest)} articles, {len(archive.namelist())} archive entries")
                   for item in manifest:
