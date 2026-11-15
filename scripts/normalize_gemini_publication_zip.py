@@ -12,7 +12,7 @@ sections = {"Market Analysis":"Market Analysis","Tech & AI":"Tech & AI","Crypto"
 seo_fallback = {
  "eba-explores-alternatives-eu-deposit-insurance-cross-border-banking-november-2026": {
   "seoTitle":"EU Explores Alternatives to Common Deposit Insurance | TTN Finance",
-  "metaDescription":"European regulators are considering parent-bank guarantees, branch structures and a two-tier safety net as political disagreements continue to block a common deposit insurance system.",
+  "metaDescription":"EU regulators are weighing parent-bank guarantees, branch structures and a two-tier safety net as political disputes stall common deposit insurance.",
   "dek":"European regulators are examining narrower ways to support cross-border banks as disagreement continues to block a common EU deposit insurance system."
  }
 }
