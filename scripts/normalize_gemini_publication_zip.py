@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Normalize Gemini's dated three-article folder package to TTN's importer schema."""
 import json, re, sys, zipfile
+from datetime import date
 from pathlib import Path
 from lxml import html, etree
 
@@ -24,6 +25,8 @@ for name, data in list(raw.items()):
     meta = json.loads(data.decode("utf-8"))
     slug = meta["slug"]
     section = meta["section"]
+    # Never invent a publication clock time. Prefer a date supplied in the approved metadata.
+    published_date = str(meta.get("publishedAt") or meta.get("datePublished") or meta.get("date") or date.today().isoformat()).split("T", 1)[0]
     fallback = seo_fallback.get(slug, {})
     title = meta["headline"]
     seo_title = meta.get("seoTitle") or fallback.get("seoTitle") or (title[:48].rsplit(" ",1)[0] + " | TTN Finance")
@@ -62,7 +65,7 @@ for name, data in list(raw.items()):
     set_meta('//meta[@name="twitter:title"]', "content", title)
     set_meta('//meta[@name="twitter:description"]', "content", description)
     published_nodes = head.xpath('./meta[@property="article:published_time"]')
-    if published_nodes: published_nodes[0].set("content", "2026-11-15T10:00:00+00:00")
+    if published_nodes: published_nodes[0].set("content", published_date)
     else: etree.SubElement(head, "meta", property="article:published_time", content="2026-11-15T10:00:00+00:00")
     canon_nodes = head.xpath('./link[@rel="canonical"]')
     if canon_nodes: canon_nodes[0].set("href", canon)
