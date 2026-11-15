@@ -76,6 +76,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Normalize Gemini publication package
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.select.outputs.archives }}
+        run: |
+          set -euo pipefail
+          mapfile -t archives <<< "$ARCHIVES"
+          for archive in "${archives[@]}"; do
+            python scripts/normalize_gemini_publication_zip.py "$archive"
+          done
       - name: Validate selected archive and importer
         shell: bash
         env:
