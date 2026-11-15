@@ -83,7 +83,7 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install lxml
-          echo "Converting the uploaded folder package into the validated TTN publication schema."
+          echo "Using corrected Gemini-to-TTN package conversion."
           mapfile -t archives <<< "$ARCHIVES"
           for archive in "${archives[@]}"; do
             python scripts/normalize_gemini_publication_zip.py "$archive"
