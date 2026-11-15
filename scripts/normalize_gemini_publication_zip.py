@@ -47,9 +47,9 @@ for name, data in list(raw.items()):
     body_nodes = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
-    cover = "assets/editorial/" + slug + "-cover.webp"
-    small = "assets/responsive/" + slug + "-cover-480.webp"
-    medium = "assets/responsive/" + slug + "-cover-960.webp"
+    cover = "assets/editorial/" + slug + ".webp"
+    small = "assets/responsive/" + slug + "-480.webp"
+    medium = "assets/responsive/" + slug + "-960.webp"
     # Use a live TTN article as the structural template; all editorial content below is replaced.
     template = html.parse(str(root / "private-credit-shadow-banking-explained.html"))
     doc = template
@@ -115,8 +115,8 @@ for name, data in list(raw.items()):
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
     articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
     # Move package images into the importer's canonical asset folders.
-    stem = slug + "-cover"
-    for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
+    stem = slug
+    for suffix, dest in [("-cover.webp","assets/editorial/"+slug+".webp"),("-480.webp","assets/responsive/"+slug+"-480.webp"),("-960.webp","assets/responsive/"+slug+"-960.webp")]:
         key=slug+suffix
         if key not in raw: raise SystemExit("Missing image " + key)
         raw[dest]=raw.pop(key)
