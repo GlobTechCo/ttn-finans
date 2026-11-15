@@ -83,7 +83,7 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install lxml
-          echo "Rebuilding package with corrected responsive image names."
+          echo "Rebuilding package with consistent responsive srcset and asset names."
           mapfile -t archives <<< "$ARCHIVES"
           for archive in "${archives[@]}"; do
             python scripts/normalize_gemini_publication_zip.py "$archive"
