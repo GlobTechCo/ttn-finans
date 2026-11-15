@@ -81,8 +81,8 @@ def main():
             article["date"] = date_only
             changed.append(slug)
 
-    if len(changed) != 85:
-        raise ValueError(f"Expected 85 unsupported timestamps to normalize; found {len(changed)}")
+    if len(changed) not in (0, 85):
+        raise ValueError(f"Expected either 85 initial corrections or 0 already-normalized dates; found {len(changed)}")
     CATALOG.write_text(prefix.rstrip() + " = " + json.dumps(articles, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     print(f"PASS: normalized {len(changed)} publication dates to date-only; dateModified values preserved.")
     for slug in changed:
