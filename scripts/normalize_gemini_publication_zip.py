@@ -17,6 +17,11 @@ seo_fallback = {
   "dek":"European regulators are examining narrower ways to support cross-border banks as disagreement continues to block a common EU deposit insurance system."
  }
 }
+source_fallback = {
+ "bitcoin-four-month-low-crypto-liquidations-november-2026": [{"label":"Business Standard (Bloomberg), Bitcoin tumbles to four-month low as leveraged bets face mass liquidations","url":"https://www.business-standard.com/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html"}],
+ "eba-explores-alternatives-eu-deposit-insurance-cross-border-banking-november-2026": [{"label":"Financial Times, EU banking watchdog veers away from single deposit insurance scheme","url":"https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f"},{"label":"European Commission, European deposit insurance scheme","url":"https://finance.ec.europa.eu/banking/banking-union/european-deposit-insurance-scheme_en"},{"label":"EUR-Lex, Directive 2014/49/EU on deposit guarantee schemes","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0049"}],
+ "samsung-ai-data-center-infrastructure-expansion-november-2026": [{"label":"Financial Times, Samsung conquered AI chips. Now it wants to build data centres","url":"https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2"},{"label":"Samsung Global Newsroom, Samsung to invest USD 1 billion in Helix","url":"https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix"},{"label":"Helix Digital Infrastructure, Samsung commits USD 1 billion to Helix","url":"https://www.helixdi.com/news-insights/samsung-commits-1-billion-to-helix-digital-infrastructure-to-support-global-ai-infrastructure-buildout/"}]
+}
 with zipfile.ZipFile(archive_path, "r") as src:
     raw = {n[len(package):]: src.read(n) for n in src.namelist() if n.startswith(package) and not n.endswith("/")}
 articles = []
