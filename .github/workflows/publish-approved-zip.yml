@@ -50,6 +50,10 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
+            # The archive may have been uploaded in an earlier commit.
+            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
+              archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
+            fi
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
