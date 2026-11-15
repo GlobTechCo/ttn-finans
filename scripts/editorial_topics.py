@@ -876,3 +876,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('paragu
 RELATED['paraguay-bitcoin-mining-power-contracts-ai-campus-2027'] = ['ai-data-center-electricity-demand-2026', 'fed-ai-financial-stability-data-center-debt-november-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('eu-leaders-ai-sovereignty-investment-competitiveness-november-2026')
 RELATED['eu-leaders-ai-sovereignty-investment-competitiveness-november-2026'] = ['usdc-eu-significant-emt-eba-supervision-november-2026', 'fed-ai-financial-stability-data-center-debt-november-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-four-month-low-crypto-liquidations-november-2026')
+RELATED['bitcoin-four-month-low-crypto-liquidations-november-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('eba-explores-alternatives-eu-deposit-insurance-cross-border-banking-november-2026')
+RELATED['eba-explores-alternatives-eu-deposit-insurance-cross-border-banking-november-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('samsung-ai-data-center-infrastructure-expansion-november-2026')
+RELATED['samsung-ai-data-center-infrastructure-expansion-november-2026'] = []
