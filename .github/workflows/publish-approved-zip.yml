@@ -56,7 +56,150 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
-            if git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -Eq '^(scripts/fix_nov16_publication_order.py|.github/workflows/publish-approved-zip.yml)              maintenance=true
+            if git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -Eq '^(scripts/fix_nov16_publication_order.py|.github/workflows/publish-approved-zip.yml)
+            # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
+            fi
+            # Preserve the existing fallback for the previous approved batch.
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
+              archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
+            fi
+          else
+            file="$REQUESTED_ARCHIVE"
+            case "$file" in
+              publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|pub_new.zip) ;;
+              *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, TTN_Finance_Publication_Package_2026-11-16.zip, or pub_new.zip"; exit 1 ;;
+            esac
+            [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
+            archives+=("$file")
+          fi
+          if (( ${#archives[@]} == 0 )) && [[ "$maintenance" != true ]]; then
+            echo "::error::No approved publication ZIP was selected."
+            exit 1
+          fi
+          printf 'Selected archive: %s\n' "${archives[@]}"
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${archives[@]}"
+            echo 'EOF'
+            echo "maintenance=$maintenance"
+          } >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Normalize Gemini publication package
+        id: normalize
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.select.outputs.archives }}
+        run: |
+          set -euo pipefail
+          python -m pip install lxml pillow
+          echo "Preparing the reviewed Nov. 16 package or normalizing legacy packages."
+          mapfile -t archives <<< "$ARCHIVES"
+          normalized=()
+          for archive in "${archives[@]}"; do
+            if [[ "$(basename "$archive")" == "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              output="/tmp/ttn-nov16-import.zip"
+              python scripts/prepare_nov16_publication.py "$archive" "$output"
+              normalized+=("$output")
+            else
+              python scripts/normalize_gemini_publication_zip.py "$archive"
+              normalized+=("$archive")
+            fi
+          done
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${normalized[@]}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+      - name: Validate selected archive and importer
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/import_publication_zip.py scripts/prepare_nov16_publication.py
+          mapfile -t archives <<< "$ARCHIVES"
+          python - "${archives[@]}" <<'PY'
+          import json, sys, zipfile
+          for path in sys.argv[1:]:
+              with zipfile.ZipFile(path) as archive:
+                  print("ZIP CONTENTS:", "\\n".join(archive.namelist()))
+                  if "publication-manifest.json" not in archive.namelist():
+                      for name in archive.namelist():
+                          if name.endswith("-seo.json") or name.endswith("-fragment.html") or name.endswith("README.txt"):
+                              print("\\n--- FILE:", name, "---\\n")
+                              print(archive.read(name).decode("utf-8")[:12000])
+                      raise SystemExit("Missing publication-manifest.json; diagnostic package contents printed above.")
+                  manifest = json.loads(archive.read("publication-manifest.json"))
+                  print(f"{path}: {len(manifest)} articles, {len(archive.namelist())} archive entries")
+                  for item in manifest:
+                      print(f"  {item['section']}: {item['slug']}")
+          PY
+      - name: Install dependencies
+        run: python -m pip install -r requirements-maintenance.txt
+      - name: Import approved articles
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
+        run: |
+          set -euo pipefail
+          mapfile -t archives <<< "$ARCHIVES"
+          python scripts/import_publication_zip.py "${archives[@]}"
+          rm -- "${archives[@]}"
+      - name: Repair Nov. 16 publication chronology
+        if: contains(github.event.head_commit.message, 'chronology repair')
+        run: python scripts/fix_nov16_publication_order.py
+      - name: Refresh catalog, archives, homepage, social cards and sitemaps
+        run: |
+          python scripts/refresh_static_editorial.py
+          python scripts/refresh_seo_metadata.py
+          python scripts/refresh_social_cards.py
+      - name: Verify articles and static site
+        run: |
+          python scripts/audit_article_lengths.py
+          python scripts/verify_site.py
+          node scripts/test-independent-loading.cjs
+          node scripts/test-navigation.cjs
+      - name: Commit validated site
+        id: saved
+        run: |
+          git config user.name "ttn-publication-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Publish approved article ZIP and update site indexes"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Request GitHub Pages branch rebuild
+        if: steps.saved.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" || echo "::warning::Check Pages deployment status"
+      - name: Report failed publication stage
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo '## Automatic publication failed'
+            echo
+            echo 'The uploaded ZIP has **not** been published. Check the first failed step above for its exact error message.'
+            echo
+            echo '### Selected archive'
+            echo '${{ github.event.head_commit.message || github.event_name }}'
+            echo
+            echo '### Repository'
+            git log -1 --oneline
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+; then
+              maintenance=true
             fi
             # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
             if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
@@ -151,7 +294,7 @@ jobs:
           python scripts/import_publication_zip.py "${archives[@]}"
           rm -- "${archives[@]}"
       - name: Repair Nov. 16 publication chronology
-        if: steps.select.outputs.maintenance == 'true'
+        if: contains(github.event.head_commit.message, 'chronology repair') || contains(github.event.head_commit.message, 'Enable Nov 16 publication chronology repair')
         run: python scripts/fix_nov16_publication_order.py
       - name: Refresh catalog, archives, homepage, social cards and sitemaps
         run: |
@@ -202,6 +345,151 @@ jobs:
 ; then
               maintenance=true
             fi
+            # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
+            fi
+            # Preserve the existing fallback for the previous approved batch.
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
+              archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
+            fi
+          else
+            file="$REQUESTED_ARCHIVE"
+            case "$file" in
+              publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|pub_new.zip) ;;
+              *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, TTN_Finance_Publication_Package_2026-11-16.zip, or pub_new.zip"; exit 1 ;;
+            esac
+            [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
+            archives+=("$file")
+          fi
+          if (( ${#archives[@]} == 0 )) && [[ "$maintenance" != true ]]; then
+            echo "::error::No approved publication ZIP was selected."
+            exit 1
+          fi
+          printf 'Selected archive: %s\n' "${archives[@]}"
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${archives[@]}"
+            echo 'EOF'
+            echo "maintenance=$maintenance"
+          } >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Normalize Gemini publication package
+        id: normalize
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.select.outputs.archives }}
+        run: |
+          set -euo pipefail
+          python -m pip install lxml pillow
+          echo "Preparing the reviewed Nov. 16 package or normalizing legacy packages."
+          mapfile -t archives <<< "$ARCHIVES"
+          normalized=()
+          for archive in "${archives[@]}"; do
+            if [[ "$(basename "$archive")" == "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              output="/tmp/ttn-nov16-import.zip"
+              python scripts/prepare_nov16_publication.py "$archive" "$output"
+              normalized+=("$output")
+            else
+              python scripts/normalize_gemini_publication_zip.py "$archive"
+              normalized+=("$archive")
+            fi
+          done
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${normalized[@]}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+      - name: Validate selected archive and importer
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/import_publication_zip.py scripts/prepare_nov16_publication.py
+          mapfile -t archives <<< "$ARCHIVES"
+          python - "${archives[@]}" <<'PY'
+          import json, sys, zipfile
+          for path in sys.argv[1:]:
+              with zipfile.ZipFile(path) as archive:
+                  print("ZIP CONTENTS:", "\\n".join(archive.namelist()))
+                  if "publication-manifest.json" not in archive.namelist():
+                      for name in archive.namelist():
+                          if name.endswith("-seo.json") or name.endswith("-fragment.html") or name.endswith("README.txt"):
+                              print("\\n--- FILE:", name, "---\\n")
+                              print(archive.read(name).decode("utf-8")[:12000])
+                      raise SystemExit("Missing publication-manifest.json; diagnostic package contents printed above.")
+                  manifest = json.loads(archive.read("publication-manifest.json"))
+                  print(f"{path}: {len(manifest)} articles, {len(archive.namelist())} archive entries")
+                  for item in manifest:
+                      print(f"  {item['section']}: {item['slug']}")
+          PY
+      - name: Install dependencies
+        run: python -m pip install -r requirements-maintenance.txt
+      - name: Import approved articles
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
+        run: |
+          set -euo pipefail
+          mapfile -t archives <<< "$ARCHIVES"
+          python scripts/import_publication_zip.py "${archives[@]}"
+          rm -- "${archives[@]}"
+      - name: Repair Nov. 16 publication chronology
+        if: contains(github.event.head_commit.message, 'chronology repair')
+        run: python scripts/fix_nov16_publication_order.py
+      - name: Refresh catalog, archives, homepage, social cards and sitemaps
+        run: |
+          python scripts/refresh_static_editorial.py
+          python scripts/refresh_seo_metadata.py
+          python scripts/refresh_social_cards.py
+      - name: Verify articles and static site
+        run: |
+          python scripts/audit_article_lengths.py
+          python scripts/verify_site.py
+          node scripts/test-independent-loading.cjs
+          node scripts/test-navigation.cjs
+      - name: Commit validated site
+        id: saved
+        run: |
+          git config user.name "ttn-publication-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Publish approved article ZIP and update site indexes"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Request GitHub Pages branch rebuild
+        if: steps.saved.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" || echo "::warning::Check Pages deployment status"
+      - name: Report failed publication stage
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo '## Automatic publication failed'
+            echo
+            echo 'The uploaded ZIP has **not** been published. Check the first failed step above for its exact error message.'
+            echo
+            echo '### Selected archive'
+            echo '${{ github.event.head_commit.message || github.event_name }}'
+            echo
+            echo '### Repository'
+            git log -1 --oneline
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+; then
+              maintenance=true
+            fi
+
             # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
             if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
               archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
