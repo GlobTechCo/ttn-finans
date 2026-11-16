@@ -10,10 +10,15 @@ on:
       - 'pub_new.zip'
       - 'TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip'
       - 'TTN_Finance_Three_Articles_2026-11-15.zip'
+      - 'TTN_Finance_Publication_Package_2026-11-16.zip'
+      - '.github/workflows/publish-approved-zip.yml'
+      - 'scripts/prepare_nov16_publication.py'
+      - 'scripts/publication-source/nov16/*.md'
+      - 'scripts/publication-source/nov16/*-fragment.html'
   workflow_dispatch:
     inputs:
       archive:
-        description: 'Exact ZIP path to publish (for example: publish-queue/approved.zip)'
+        description: 'Exact ZIP path to publish (for example: publish-queue/approved.zip or TTN_Finance_Publication_Package_2026-11-16.zip)'
         required: true
         type: string
 permissions:
@@ -44,20 +49,24 @@ jobs:
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
             while IFS= read -r file; do
               case "$file" in
-                publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|pub_new.zip)
+                publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|TTN_Finance_Publication_Package_2026-11-16.zip|pub_new.zip)
                   [[ -f "$file" ]] && archives+=("$file")
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
-            # The archive may have been uploaded in an earlier commit.
+            # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
+            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
+            fi
+            # Preserve the existing fallback for the previous approved batch.
             if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
               archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
             fi
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
-              publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|pub_new.zip) ;;
-              *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, or pub_new.zip"; exit 1 ;;
+              publish-queue/*.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|pub_new.zip) ;;
+              *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, TTN_Finance_Publication_Package_2026-11-16.zip, or pub_new.zip"; exit 1 ;;
             esac
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
@@ -76,24 +85,38 @@ jobs:
         with:
           python-version: '3.12'
       - name: Normalize Gemini publication package
+        id: normalize
         shell: bash
         env:
           ARCHIVES: ${{ steps.select.outputs.archives }}
         run: |
           set -euo pipefail
           python -m pip install lxml pillow
-          echo "Rebuilding package with consistent responsive srcset and asset names."
+          echo "Preparing the reviewed Nov. 16 package or normalizing legacy packages."
           mapfile -t archives <<< "$ARCHIVES"
+          normalized=()
           for archive in "${archives[@]}"; do
-            python scripts/normalize_gemini_publication_zip.py "$archive"
+            if [[ "$(basename "$archive")" == "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+              output="/tmp/ttn-nov16-import.zip"
+              python scripts/prepare_nov16_publication.py "$archive" "$output"
+              normalized+=("$output")
+            else
+              python scripts/normalize_gemini_publication_zip.py "$archive"
+              normalized+=("$archive")
+            fi
           done
+          {
+            echo 'archives<<EOF'
+            printf '%s\n' "${normalized[@]}"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
       - name: Validate selected archive and importer
         shell: bash
         env:
-          ARCHIVES: ${{ steps.select.outputs.archives }}
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
         run: |
           set -euo pipefail
-          python -m py_compile scripts/import_publication_zip.py
+          python -m py_compile scripts/import_publication_zip.py scripts/prepare_nov16_publication.py
           mapfile -t archives <<< "$ARCHIVES"
           python - "${archives[@]}" <<'PY'
           import json, sys, zipfile
@@ -116,7 +139,7 @@ jobs:
       - name: Import approved articles
         shell: bash
         env:
-          ARCHIVES: ${{ steps.select.outputs.archives }}
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
         run: |
           set -euo pipefail
           mapfile -t archives <<< "$ARCHIVES"

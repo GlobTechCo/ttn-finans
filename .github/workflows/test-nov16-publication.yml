@@ -1,0 +1,51 @@
+name: Test Nov 16 publication package
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install publication dependencies
+        run: |
+          python -m pip install lxml pillow
+          python -m pip install -r requirements-maintenance.txt
+      - name: Build and validate importer-ready package
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/import_publication_zip.py scripts/prepare_nov16_publication.py
+          python scripts/prepare_nov16_publication.py TTN_Finance_Publication_Package_2026-11-16.zip /tmp/ttn-nov16-import.zip
+          python - <<'PY'
+          import json, zipfile
+          with zipfile.ZipFile('/tmp/ttn-nov16-import.zip') as z:
+              manifest = json.loads(z.read('publication-manifest.json'))
+              assert isinstance(manifest, list) and len(manifest) == 3
+              for item in manifest:
+                  print(item['section'], item['slug'], len(item['related']), len(item['sources']))
+          PY
+      - name: Import into temporary checkout and regenerate the site
+        run: |
+          set -euo pipefail
+          python scripts/import_publication_zip.py /tmp/ttn-nov16-import.zip
+          python scripts/refresh_static_editorial.py
+          python scripts/refresh_seo_metadata.py
+          python scripts/refresh_social_cards.py
+      - name: Run publication audits
+        run: |
+          set -euo pipefail
+          python scripts/audit_article_lengths.py
+          python scripts/verify_site.py
+          node scripts/test-independent-loading.cjs
+          node scripts/test-navigation.cjs
