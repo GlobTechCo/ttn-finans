@@ -24,6 +24,13 @@ source_fallback = {
 }
 with zipfile.ZipFile(archive_path, "r") as src:
     raw = {n[len(package):]: src.read(n) for n in src.namelist() if n.startswith(package) and not n.endswith("/")}
+    if not raw:
+        raw = {n: src.read(n) for n in src.namelist() if not n.endswith("/") and n != "README-PUBLISH.txt"}
+        print("DEBUG FLAT PACKAGE FILES:", sorted(raw))
+        for debug_name, debug_data in sorted(raw.items()):
+            if debug_name.endswith("-seo.json"):
+                print("DEBUG SEO", debug_name, debug_data.decode("utf-8"))
+        raise SystemExit("DEBUG: inspected flat archive metadata; normalizer compatibility patch pending.")
 articles = []
 for name, data in list(raw.items()):
     if not name.endswith("-seo.json"): continue
