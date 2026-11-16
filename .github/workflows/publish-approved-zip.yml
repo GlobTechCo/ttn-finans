@@ -4,14 +4,12 @@ on:
     branches: [main]
     paths:
       - 'publish-queue/*.zip'
-      - 'scripts/normalize_gemini_publication_zip.py'
       - 'ttn-finance-three-articles-2026-11-14.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'TTN_Finance_3_Articles_2026-11-14_Evening.zip'
       - 'pub_new.zip'
       - 'TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip'
       - 'TTN_Finance_Three_Articles_2026-11-15.zip'
-      - '.github/workflows/publish-approved-zip.yml'
   workflow_dispatch:
     inputs:
       archive:
