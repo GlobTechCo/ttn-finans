@@ -63,7 +63,7 @@ def sync():
 
         blocks = []
         for child in body:
-            classes = child.get("class", "").split()
+            classes = (child.get("class") or "").split()
             if child.tag == "aside" and "editorial-sources" in classes:
                 continue
             blocks.append(html.tostring(child, encoding="unicode", method="html"))
