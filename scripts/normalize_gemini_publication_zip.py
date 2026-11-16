@@ -39,6 +39,9 @@ with zipfile.ZipFile(archive_path, "r") as src:
             meta["date"] = meta.get("date") or meta.get("datePublished")
             fragment_name = slug + "-fragment.html"
             fragment_doc = html.fromstring("<div>" + raw[fragment_name].decode("utf-8") + "</div>")
+            print("DEBUG FRAGMENT CLASSES:", fragment_doc.xpath(".//@class"))
+            print("DEBUG FRAGMENT START:", raw[fragment_name].decode("utf-8")[:6500])
+            raise SystemExit("DEBUG: inspect fragment body structure.")
             body = fragment_doc.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
             sources = []
             if body:
