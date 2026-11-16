@@ -39,10 +39,11 @@ with zipfile.ZipFile(archive_path, "r") as src:
             meta["date"] = meta.get("date") or meta.get("datePublished")
             fragment_name = slug + "-fragment.html"
             fragment_doc = html.fromstring("<div>" + raw[fragment_name].decode("utf-8") + "</div>")
-            print("DEBUG FRAGMENT CLASSES:", fragment_doc.xpath(".//@class"))
-            print("DEBUG FRAGMENT START:", raw[fragment_name].decode("utf-8")[:6500])
-            raise SystemExit("DEBUG: inspect fragment body structure.")
             body = fragment_doc.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
+            if not body:
+                for heading in fragment_doc.xpath(".//h1"):
+                    heading.getparent().remove(heading)
+                body = [fragment_doc]
             sources = []
             if body:
                 seen_urls = set()
@@ -92,6 +93,10 @@ for name, data in list(raw.items()):
     dek = " ".join(dek_node[0].itertext()).strip() if dek_node else ""
     if not dek: dek = fallback.get("dek") or description
     body_nodes = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
+    if not body_nodes:
+        for heading in frag.xpath(".//h1"):
+            heading.getparent().remove(heading)
+        body_nodes = [frag]
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
     cover = "assets/editorial/" + slug + "-cover.webp"
