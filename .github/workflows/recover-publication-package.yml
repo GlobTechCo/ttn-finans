@@ -1,12 +1,12 @@
 name: Recover publication package for audit
 
 on:
-  push:
+  pull_request:
     branches:
-      - "recovery/**"
+      - main
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   unpack:
@@ -15,8 +15,7 @@ jobs:
       - name: Checkout recovery branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
-          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
       - name: Safely unpack uploaded publication ZIP
         shell: bash
         run: |
@@ -27,7 +26,7 @@ jobs:
 
           archive = Path("TTN_Finance_Publication_Package_2026-11-16.zip")
           if not archive.exists():
-              raise SystemExit("Publication ZIP is missing from this branch")
+              raise SystemExit("Publication ZIP is missing")
           root = Path("recovered").resolve()
           root.mkdir(exist_ok=True)
           rows = []
@@ -47,10 +46,10 @@ jobs:
           (root / "RECOVERY_MANIFEST.txt").write_text("\n".join(rows) + "\n", encoding="utf-8")
           print(f"Recovered {len(rows)} files")
           PY
-      - name: Commit recovered files to this isolated branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add recovered
-          git commit -m "Recover publication package contents for audit" || exit 0
-          git push origin "HEAD:${{ github.ref_name }}"
+      - name: Upload recovered files for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: ttn-publication-package-recovered
+          path: recovered/
+          if-no-files-found: error
+          retention-days: 3
