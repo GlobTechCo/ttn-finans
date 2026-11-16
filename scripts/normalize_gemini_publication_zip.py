@@ -173,6 +173,7 @@ for name, data in list(raw.items()):
         if key not in raw: raise SystemExit("Missing image " + key)
         raw[dest]=raw.pop(key)
     raw.pop(fragment_name, None)
+    raw.pop(slug + ".md", None)
     raw.pop(name, None)
 if len(articles)!=3: raise SystemExit("Expected exactly 3 article SEO records")
 raw["publication-manifest.json"]=json.dumps(articles,ensure_ascii=False,indent=2).encode()
