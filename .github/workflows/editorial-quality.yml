@@ -18,7 +18,6 @@ on:
       - 'article-share.css'
       - 'scripts/article_tickers.py'
       - 'scripts/refresh_static_editorial.py'
-      - 'scripts/sync_nov16_article_copy.py'
       - 'scripts/audit_article_lengths.py'
       - 'scripts/verify_site.py'
       - 'scripts/import_publication_zip.py'
@@ -43,10 +42,6 @@ jobs:
         run: python3 scripts/audit_article_lengths.py
       - name: Install site verification dependencies
         run: python3 -m pip install -r requirements-maintenance.txt
-      - name: Sync reviewed November 16 article edits into the canonical catalog and archives
-        run: |
-          python3 scripts/sync_nov16_article_copy.py
-          python3 scripts/refresh_static_editorial.py
       - name: Optimize legacy covers and refresh social cards
         run: |
           python3 scripts/optimize_legacy_covers.py
