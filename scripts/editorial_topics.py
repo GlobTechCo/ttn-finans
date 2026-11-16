@@ -884,3 +884,11 @@ GROUPS.setdefault('Jobs and housing', []).append('eba-explores-alternatives-eu-d
 RELATED['eba-explores-alternatives-eu-deposit-insurance-cross-border-banking-november-2026'] = []
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('samsung-ai-data-center-infrastructure-expansion-november-2026')
 RELATED['samsung-ai-data-center-infrastructure-expansion-november-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('dbs-jpmorgan-tokenised-deposit-cross-border-transfers-2026')
+RELATED['dbs-jpmorgan-tokenised-deposit-cross-border-transfers-2026'] = []
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('south-korea-crypto-travel-rule-bill-2026')
+RELATED['south-korea-crypto-travel-rule-bill-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('stark-future-1-2-billion-valuation-150-million-funding-2026')
+RELATED['stark-future-1-2-billion-valuation-150-million-funding-2026'] = []
