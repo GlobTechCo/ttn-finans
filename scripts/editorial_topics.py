@@ -892,3 +892,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('south-
 RELATED['south-korea-crypto-travel-rule-bill-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('stark-future-1-2-billion-valuation-150-million-funding-2026')
 RELATED['stark-future-1-2-billion-valuation-150-million-funding-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('wall-street-slides-treasury-yields-above-5-1-nvidia-earnings-november-16-2026')
+RELATED['wall-street-slides-treasury-yields-above-5-1-nvidia-earnings-november-16-2026'] = ['us-october-cpi-0-4-core-0-3-treasury-yields-november-10-2026', 'wall-street-week-ai-rout-jobs-report-fed-hike-bets']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-64500-crypto-stocks-fall-nasdaq-november-16-2026')
+RELATED['bitcoin-64500-crypto-stocks-fall-nasdaq-november-16-2026'] = ['bitcoin-four-month-low-crypto-liquidations-november-2026', 'bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-first-earnings-without-jensen-huang-trump-possible-return-november-16-2026')
+RELATED['nvidia-first-earnings-without-jensen-huang-trump-possible-return-november-16-2026'] = ['nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026', 'nvidia-h200-china-procurement-export-controls-november-2026']
