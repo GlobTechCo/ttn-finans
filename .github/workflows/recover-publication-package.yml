@@ -1,0 +1,56 @@
+name: Recover publication package for audit
+
+on:
+  push:
+    branches:
+      - "recovery/**"
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout recovery branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - name: Safely unpack uploaded publication ZIP
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib
+
+          archive = Path("TTN_Finance_Publication_Package_2026-11-16.zip")
+          if not archive.exists():
+              raise SystemExit("Publication ZIP is missing from this branch")
+          root = Path("recovered").resolve()
+          root.mkdir(exist_ok=True)
+          rows = []
+          with ZipFile(archive) as z:
+              for info in z.infolist():
+                  name = info.filename
+                  target = (root / name).resolve()
+                  if not target.is_relative_to(root):
+                      raise SystemExit(f"Unsafe archive path: {name}")
+                  if info.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                      continue
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  data = z.read(info)
+                  target.write_bytes(data)
+                  rows.append(f"{len(data)} bytes  {hashlib.sha256(data).hexdigest()}  {name}")
+          (root / "RECOVERY_MANIFEST.txt").write_text("\n".join(rows) + "\n", encoding="utf-8")
+          print(f"Recovered {len(rows)} files")
+          PY
+      - name: Commit recovered files to this isolated branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recovered
+          git commit -m "Recover publication package contents for audit" || exit 0
+          git push origin "HEAD:${{ github.ref_name }}"
