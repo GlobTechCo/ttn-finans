@@ -151,7 +151,7 @@ jobs:
           python scripts/import_publication_zip.py "${archives[@]}"
           rm -- "${archives[@]}"
       - name: Repair Nov. 16 publication chronology
-        if: contains(github.event.head_commit.message, 'chronology repair') || contains(github.event.head_commit.message, 'Enable Nov 16 publication chronology repair')
+        if: steps.select.outputs.maintenance == 'true'
         run: python scripts/fix_nov16_publication_order.py
       - name: Refresh catalog, archives, homepage, social cards and sitemaps
         run: |
