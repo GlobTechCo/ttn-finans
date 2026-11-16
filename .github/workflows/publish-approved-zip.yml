@@ -83,7 +83,7 @@ jobs:
           ARCHIVES: ${{ steps.select.outputs.archives }}
         run: |
           set -euo pipefail
-          python -m pip install lxml
+          python -m pip install lxml pillow
           echo "Rebuilding package with consistent responsive srcset and asset names."
           mapfile -t archives <<< "$ARCHIVES"
           for archive in "${archives[@]}"; do
