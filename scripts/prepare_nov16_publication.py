@@ -135,15 +135,15 @@ def build_page(template: str, slug: str, item: dict, fragment_text: str,
         "data-editorial-byline": "",
         "data-author": "TTN Research Desk",
     })
-    author = html.SubElement(meta, "span", {"class": "editorial-author"})
+    author = etree.SubElement(meta, "span", {"class": "editorial-author"})
     author.text = "TTN Research Desk"
-    published = html.SubElement(meta, "span", {"class": "editorial-published"})
-    time = html.SubElement(published, "time", datetime=date)
+    published = etree.SubElement(meta, "span", {"class": "editorial-published"})
+    time = etree.SubElement(published, "time", datetime=date)
     time.text = datetime.strptime(date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
     main.append(meta)
 
     figure = html.Element("figure", {"class": "ttn-editorial-figure"})
-    image = html.SubElement(figure, "img", {
+    image = etree.SubElement(figure, "img", {
         "class": "article-hero-image",
         "src": cover_path,
         "alt": seo.get("imageAlt") or title,
