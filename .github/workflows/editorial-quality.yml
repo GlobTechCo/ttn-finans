@@ -36,6 +36,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Sync reviewed November 16 article edits into the canonical catalog and archives
+        run: |
+          python3 scripts/sync_nov16_article_copy.py
+          python3 scripts/refresh_static_editorial.py
       - name: Keep news search on homepage only
         run: python3 scripts/remove_article_header_search.py
       - name: Enforce approved editorial lengths
