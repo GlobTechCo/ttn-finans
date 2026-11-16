@@ -18,6 +18,7 @@ on:
       - 'article-share.css'
       - 'scripts/article_tickers.py'
       - 'scripts/refresh_static_editorial.py'
+      - 'scripts/sync_nov16_article_copy.py'
       - 'scripts/audit_article_lengths.py'
       - 'scripts/verify_site.py'
       - 'scripts/import_publication_zip.py'
