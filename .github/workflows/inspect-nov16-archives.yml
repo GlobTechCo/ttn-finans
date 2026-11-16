@@ -1,0 +1,51 @@
+name: Inspect November 16 publication archives
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Inspect archive schemas and extract candidates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import json
+          names = [
+              "TTN_Finance_Publication_Package_2026-11-16.zip",
+              "TTN_Finance_Three_Articles_2026-11-16_FINAL.zip",
+          ]
+          root = Path("archive-inspection")
+          root.mkdir(exist_ok=True)
+          for archive in names:
+              print("\\nARCHIVE:", archive)
+              with ZipFile(archive) as z:
+                  print("ENTRIES:", len(z.namelist()))
+                  for n in z.namelist():
+                      print(" -", n)
+                  if "publication-manifest.json" in z.namelist():
+                      m = json.loads(z.read("publication-manifest.json"))
+                      print("MANIFEST TYPE:", type(m).__name__)
+                      print("MANIFEST KEYS:", list(m) if isinstance(m, dict) else len(m))
+                  folder = root / Path(archive).stem
+                  folder.mkdir(parents=True, exist_ok=True)
+                  for info in z.infolist():
+                      if info.is_dir(): continue
+                      dest = folder / info.filename
+                      dest.parent.mkdir(parents=True, exist_ok=True)
+                      dest.write_bytes(z.read(info))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nov16-archive-inspection
+          path: archive-inspection/
+          retention-days: 2
