@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
-from lxml import html
+from lxml import etree, html
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,7 +114,7 @@ def build_page(template: str, slug: str, item: dict, fragment_text: str,
     main.set("tabindex", "-1")
 
     breadcrumb = html.Element("p")
-    link = html.SubElement(breadcrumb, "a", href=section_page)
+    link = etree.SubElement(breadcrumb, "a", href=section_page)
     link.text = "← " + section
     main.append(breadcrumb)
 
