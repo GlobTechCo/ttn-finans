@@ -86,6 +86,8 @@ for name, data in list(raw.items()):
     sources = meta.get("sources") or meta.get("citations") or source_fallback.get(slug, [])
     seo_title = meta.get("seoTitle") or fallback.get("seoTitle") or (title[:48].rsplit(" ",1)[0] + " | TTN Finance")
     description = meta.get("metaDescription") or fallback.get("metaDescription")
+    if len(description) > 160:
+        description = description[:157].rsplit(" ", 1)[0].rstrip(" ,;:-.") + "."
     fragment_name = slug + "-fragment.html"
     fragment = raw[fragment_name].decode("utf-8")
     frag = html.fromstring("<div>" + fragment + "</div>")
