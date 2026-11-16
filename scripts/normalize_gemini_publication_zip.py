@@ -101,6 +101,17 @@ for name, data in list(raw.items()):
             heading.getparent().remove(heading)
         body_nodes = [frag]
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
+    if flat_package:
+        trim_order = {
+            "dbs-jpmorgan-tokenised-deposit-cross-border-transfers-2026": [15, 12, 10, 6],
+            "south-korea-crypto-travel-rule-bill-2026": [13, 8],
+            "stark-future-1-2-billion-valuation-150-million-funding-2026": [12, 7, 4],
+        }
+        paragraphs = body_nodes[0].xpath(".//p")
+        for paragraph_index in sorted(trim_order.get(slug, []), reverse=True):
+            if paragraph_index < len(paragraphs):
+                paragraph = paragraphs[paragraph_index]
+                paragraph.getparent().remove(paragraph)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
     cover = "assets/editorial/" + slug + "-cover.webp"
     small = "assets/responsive/" + slug + "-cover-480.webp"
