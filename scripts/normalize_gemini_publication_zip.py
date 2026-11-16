@@ -44,6 +44,7 @@ with zipfile.ZipFile(archive_path, "r") as src:
                 for heading in fragment_doc.xpath(".//h1"):
                     heading.getparent().remove(heading)
                 body = [fragment_doc]
+            print("ARTICLE PARAGRAPHS", slug, json.dumps([" ".join(p.itertext()).strip() for p in body[0].xpath(".//p")], ensure_ascii=False))
             sources = []
             if body:
                 seen_urls = set()
