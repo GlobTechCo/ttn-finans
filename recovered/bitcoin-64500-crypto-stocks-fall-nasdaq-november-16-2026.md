@@ -1,8 +1,8 @@
 # Bitcoin Hovers Near $64,500 as Crypto Stocks Fall Alongside Nasdaq
 
-Bitcoin traded around $64,400–$64,600 in Monday's market updates, remaining close to a three-month low after a sharp weekend decline. The weakness extended to publicly traded companies tied to digital assets, with several crypto-related shares falling sharply in U.S. premarket trading.
+Bitcoin traded around $64,400–$64,600 in Monday's market updates, remaining close to a three-month low after a sharp weekend decline. The weakness extended to publicly traded companies tied to digital assets, as investors reduced exposure to volatile assets amid pressure on technology shares and elevated Treasury yields.
 
-The moves came as technology stocks weakened and Treasury yields stayed above 5.1%. That combination has made investors less willing to hold volatile assets, although Bitcoin and listed crypto businesses have different sources of risk and should not be treated as one trade.
+The moves came as the 10-year U.S. Treasury yield remained above 5.1%. That combination has made investors more cautious, although Bitcoin and listed crypto businesses have different sources of risk and should not be treated as one trade.
 
 ## Bitcoin struggles to recover from weekend losses
 
@@ -14,11 +14,11 @@ TTN Finance previously covered the earlier price decline and forced selling in i
 
 ## Crypto-linked shares extend the decline
 
-Investing.com reported that Strategy, BitMine and Galaxy Digital each fell more than 7% in premarket trading. Circle was down about 7.6%, Coinbase approximately 6.4%, while Robinhood and Hut 8 were lower by more than 5% in the same snapshot. These were premarket indications, not closing prices, and could change after the regular session opened.
+The weakness was visible in listed companies as well as in token prices. Barron's reported on Monday that Strategy shares had fallen 6.6%, alongside declines in Coinbase, Circle, Robinhood and other crypto-related stocks. The companies have different business models, but their shares can move together when investors cut exposure to the broader digital-asset sector.
 
-The companies have different business models. Strategy holds a large Bitcoin treasury, so its equity is sensitive to the value of its holdings, financing conditions and investor views of its capital structure. Coinbase operates an exchange and other digital-asset services, making trading activity and transaction revenue important. Galaxy Digital has a broader financial-services and digital-asset business. Circle is closely associated with the USDC stablecoin and payment infrastructure, while Robinhood earns revenue from several financial products, not only crypto.
+Strategy holds a large Bitcoin treasury, so its equity is sensitive to the value of its holdings, financing conditions and investor views of its capital structure. Coinbase operates an exchange and other digital-asset services, making trading activity and transaction revenue important. Galaxy Digital has a broader financial-services and digital-asset business. Circle is closely associated with the USDC stablecoin and payment infrastructure, while Robinhood earns revenue from several financial products, not only crypto.
 
-Their shares can nevertheless move together when investors cut exposure to the sector. A simultaneous decline does not mean each company faces identical operational or balance-sheet risks.
+A simultaneous decline does not mean each company faces identical operational or balance-sheet risks. Exchange operators may be affected by lower trading volumes, while treasury companies are more directly exposed to the market value of their holdings and their ability to raise capital.
 
 ## Higher yields add to risk aversion
 
@@ -28,11 +28,11 @@ Higher yields can make government securities more attractive relative to assets 
 
 This relationship is not constant. Bitcoin has its own drivers, including liquidity, regulatory developments, fund flows and demand from long-term holders. Spot exchange-traded fund flows are worth watching because sustained withdrawals can remove a source of institutional demand, while renewed inflows may help stabilize sentiment. TTN Finance has also examined this channel in its report on [Bitcoin ETF outflows and the five-day withdrawal streak](https://globtechco.github.io/ttn-finans/bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html).
 
-## Strategy and the corporate Bitcoin trade
+## Strategy continues buying as prices fall
 
-The decline has renewed attention on companies that use Bitcoin as a major treasury asset. Strategy's equity reflects more than the spot value of its holdings: investors also assess its ability to raise capital, service obligations and maintain the market premium attached to its shares.
+Strategy disclosed in a November 16 filing that it bought 485 Bitcoin between November 9 and November 15 for approximately $33.4 million, at an average price of $68,887 per coin. The company reported total holdings of 850,849 Bitcoin as of November 15, acquired at an average price of $75,452.
 
-That makes the corporate Bitcoin strategy particularly sensitive during prolonged price weakness. The company's purchases and financing choices may remain viable under some market conditions but attract greater scrutiny when Bitcoin falls and access to capital becomes more expensive. Index-related decisions affecting digital-asset treasury companies are a separate issue from Monday's broad market decline, but they can influence investor expectations.
+The purchase shows that the company continued accumulating Bitcoin during the downturn. It also highlights the gap between the average cost of its holdings and the market price near $64,500 on Monday. That difference does not by itself determine Strategy's ability to meet its obligations, but it helps explain why investors watch its funding structure as closely as the price of Bitcoin.
 
 ## What to watch next
 
@@ -40,4 +40,4 @@ For Bitcoin, the immediate test is whether it can hold above the weekend low and
 
 Monday's session shows how quickly pressure can spread from cryptocurrencies to listed businesses connected with them. A recovery in Bitcoin could improve sentiment, but the durability of any rebound will depend on demand and liquidity rather than a single price bounce.
 
-*Sources: CoinDesk live market coverage, November 16, 2026; Investing.com Bitcoin market update, November 16, 2026; Investing.com crypto-stocks premarket report, November 16, 2026; Charles Schwab market update, November 16, 2026.*
+*Sources: CoinDesk live market coverage, November 16, 2026; Investing.com Bitcoin market update, November 16, 2026; Barron's market report, November 16, 2026; Strategy Form 8-K, November 16, 2026; Charles Schwab market update, November 16, 2026.*
