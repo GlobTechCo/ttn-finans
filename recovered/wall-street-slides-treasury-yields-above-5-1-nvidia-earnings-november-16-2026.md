@@ -26,7 +26,7 @@ Nvidia is scheduled to release its third-quarter fiscal 2027 results on Tuesday,
 
 Investors will look beyond headline revenue and earnings. Data-center demand, product availability, supply constraints, margins and the pace of customer investment are likely to shape the market's response. Management's comments about the next quarter may matter as much as the reported results: a strong performance can still disappoint if the outlook falls short of elevated expectations.
 
-The report also arrives while U.S. restrictions on advanced chip exports to China remain an important variable for Nvidia's addressable market. Any changes in licensing or enforcement could affect the company's sales opportunities and supply-chain planning.
+U.S. policy added another variable on Monday. Reuters reported that Washington had unveiled new interim rules tightening China's access to advanced AI chips from companies such as Nvidia. The measures could affect the company's addressable market and supply-chain planning, alongside any future changes in licensing or enforcement.
 
 ## What investors will watch next
 
