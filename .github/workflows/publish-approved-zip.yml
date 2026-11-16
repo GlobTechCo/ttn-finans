@@ -13,6 +13,7 @@ on:
       - 'TTN_Finance_Publication_Package_2026-11-16.zip'
       - '.github/workflows/publish-approved-zip.yml'
       - 'scripts/prepare_nov16_publication.py'
+      - 'scripts/fix_nov16_publication_order.py'
       - 'scripts/publication-source/nov16/*.md'
       - 'scripts/publication-source/nov16/*-fragment.html'
   workflow_dispatch:
@@ -46,6 +47,7 @@ jobs:
         run: |
           set -euo pipefail
           archives=()
+          maintenance=false
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
             while IFS= read -r file; do
               case "$file" in
@@ -54,12 +56,15 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
+            if git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -qx 'scripts/fix_nov16_publication_order.py'; then
+              maintenance=true
+            fi
             # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
               archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
             fi
             # Preserve the existing fallback for the previous approved batch.
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
+            if [[ "$maintenance" != true ]] && (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
               archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
             fi
           else
@@ -71,7 +76,7 @@ jobs:
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
           fi
-          if (( ${#archives[@]} == 0 )); then
+          if (( ${#archives[@]} == 0 )) && [[ "$maintenance" != true ]]; then
             echo "::error::No approved publication ZIP was selected."
             exit 1
           fi
@@ -80,6 +85,7 @@ jobs:
             echo 'archives<<EOF'
             printf '%s\n' "${archives[@]}"
             echo 'EOF'
+            echo "maintenance=$maintenance"
           } >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
@@ -145,6 +151,9 @@ jobs:
           mapfile -t archives <<< "$ARCHIVES"
           python scripts/import_publication_zip.py "${archives[@]}"
           rm -- "${archives[@]}"
+      - name: Repair Nov. 16 publication chronology
+        if: contains(github.event.head_commit.message, 'chronology repair')
+        run: python scripts/fix_nov16_publication_order.py
       - name: Refresh catalog, archives, homepage, social cards and sitemaps
         run: |
           python scripts/refresh_static_editorial.py
