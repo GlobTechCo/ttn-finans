@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Normalize Gemini's dated three-article folder package to TTN's importer schema."""
 import json, re, sys, zipfile
+from io import BytesIO
+from PIL import Image
 from datetime import date, datetime
 from pathlib import Path
 from lxml import html, etree
@@ -24,13 +26,48 @@ source_fallback = {
 }
 with zipfile.ZipFile(archive_path, "r") as src:
     raw = {n[len(package):]: src.read(n) for n in src.namelist() if n.startswith(package) and not n.endswith("/")}
-    if not raw:
+    flat_package = not bool(raw)
+    if flat_package:
         raw = {n: src.read(n) for n in src.namelist() if not n.endswith("/") and n != "README-PUBLISH.txt"}
-        print("DEBUG FLAT PACKAGE FILES:", sorted(raw))
-        for debug_name, debug_data in sorted(raw.items()):
-            if debug_name.endswith("-seo.json"):
-                print("DEBUG SEO", debug_name, debug_data.decode("utf-8"))
-        raise SystemExit("DEBUG: inspected flat archive metadata; normalizer compatibility patch pending.")
+        print("Detected flat TTN publication archive; adapting metadata and image variants.")
+        for seo_name in [n for n in raw if n.endswith("-seo.json")]:
+            meta = json.loads(raw[seo_name].decode("utf-8"))
+            slug = meta["slug"]
+            meta["headline"] = meta.get("headline") or meta.get("title")
+            meta["section"] = meta.get("section") or meta.get("category")
+            meta["metaDescription"] = meta.get("metaDescription") or meta.get("description")
+            meta["date"] = meta.get("date") or meta.get("datePublished")
+            fragment_name = slug + "-fragment.html"
+            fragment_doc = html.fromstring("<div>" + raw[fragment_name].decode("utf-8") + "</div>")
+            body = fragment_doc.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
+            sources = []
+            if body:
+                seen_urls = set()
+                for link in body[0].xpath(".//a[@href]"):
+                    href = (link.get("href") or "").strip()
+                    label = " ".join(" ".join(link.itertext()).split())
+                    if href.startswith("https://") and label and href not in seen_urls:
+                        sources.append({"label": label, "url": href})
+                        seen_urls.add(href)
+            if not sources:
+                md_name = slug + ".md"
+                md_text = raw.get(md_name, b"").decode("utf-8", errors="replace")
+                for label, href in re.findall(r"\[([^\]]+)\]\((https://[^)]+)\)", md_text):
+                    if href not in {x["url"] for x in sources}:
+                        sources.append({"label": label.strip(), "url": href.strip()})
+            meta["sources"] = meta.get("sources") or meta.get("citations") or sources
+            raw[seo_name] = json.dumps(meta, ensure_ascii=False).encode("utf-8")
+            cover_name = slug + "-cover.webp"
+            if cover_name not in raw:
+                raise SystemExit("Missing cover image: " + cover_name)
+            with Image.open(BytesIO(raw[cover_name])) as im:
+                im = im.convert("RGB")
+                for width, suffix in ((480, "-480.webp"), (960, "-960.webp")):
+                    height = round(im.height * width / im.width)
+                    resized = im.resize((width, height), Image.Resampling.LANCZOS)
+                    buffer = BytesIO()
+                    resized.save(buffer, format="WEBP", quality=86, method=6)
+                    raw[slug + suffix] = buffer.getvalue()
 articles = []
 for name, data in list(raw.items()):
     if not name.endswith("-seo.json"): continue
@@ -54,9 +91,9 @@ for name, data in list(raw.items()):
     body_nodes = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
-    cover = "assets/editorial/" + slug + ".webp"
-    small = "assets/responsive/" + slug + "-480.webp"
-    medium = "assets/responsive/" + slug + "-960.webp"
+    cover = "assets/editorial/" + slug + "-cover.webp"
+    small = "assets/responsive/" + slug + "-cover-480.webp"
+    medium = "assets/responsive/" + slug + "-cover-960.webp"
     # Use a live TTN article as the structural template; all editorial content below is replaced.
     template = html.parse(str(root / "private-credit-shadow-banking-explained.html"))
     doc = template
@@ -120,10 +157,10 @@ for name, data in list(raw.items()):
             link.text=source["label"]
     main.append(body)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news" if slug.startswith("bitcoin-") or slug.startswith("eba-") else "analysis","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
     # Move package images into the importer's canonical asset folders.
     stem = slug
-    for suffix, dest in [("-cover.webp","assets/editorial/"+slug+".webp"),("-480.webp","assets/responsive/"+slug+"-480.webp"),("-960.webp","assets/responsive/"+slug+"-960.webp")]:
+    for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
         key=slug+suffix
         if key not in raw: raise SystemExit("Missing image " + key)
         raw[dest]=raw.pop(key)
