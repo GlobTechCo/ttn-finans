@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'publish-queue/*.zip'
+      - 'scripts/normalize_gemini_publication_zip.py'
       - 'ttn-finance-three-articles-2026-11-14.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'TTN_Finance_3_Articles_2026-11-14_Evening.zip'
