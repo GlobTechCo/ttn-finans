@@ -17,6 +17,7 @@ on:
       - 'scripts/normalize_gemini_publication_zip.py'
       - 'scripts/import_publication_zip.py'
       - 'scripts/audit_article_lengths.py'
+      - 'intel-amazon-ai-spending-tech-selloff-october-2026.html'
       - 'scripts/publication-source/nov16/*.md'
       - 'scripts/publication-source/nov16/*-fragment.html'
   workflow_dispatch:
