@@ -194,7 +194,10 @@ for name, data in list(raw.items()):
     scripts = head.xpath('./script[@type="application/ld+json"]')
     structured = json.loads(scripts[0].text) if scripts and scripts[0].text else {}
     structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":1672,"height":941,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
-    if scripts: scripts[0].text = json.dumps(structured, ensure_ascii=False)
+    if scripts:
+        scripts[0].text = json.dumps(structured, ensure_ascii=False)
+        for duplicate in scripts[1:]:
+            duplicate.getparent().remove(duplicate)
     else:
         sc=etree.SubElement(head,"script",type="application/ld+json");sc.text=json.dumps(structured,ensure_ascii=False)
     main = doc.xpath("//main")[0]
