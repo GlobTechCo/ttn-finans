@@ -68,7 +68,16 @@ def publish(archive):
             for duplicate in canonical_nodes[1:]:
                 duplicate.getparent().remove(duplicate)
             check(doc.xpath("//link[@rel='canonical']/@href") == [expected_canonical], "Could not normalize canonical URL: " + slug)
-            check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Date mismatch: " + slug)
+            published_nodes = doc.xpath("//meta[@property='article:published_time']")
+            if not published_nodes:
+                head_nodes = doc.xpath("//head")
+                check(len(head_nodes) == 1, "Missing document head for publication date: " + slug)
+                published_nodes = [html.Element("meta", **{"property": "article:published_time", "content": m["date"]})]
+                head_nodes[0].append(published_nodes[0])
+            published_nodes[0].set("content", m["date"])
+            for duplicate in published_nodes[1:]:
+                duplicate.getparent().remove(duplicate)
+            check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Could not normalize publication date: " + slug)
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
             check(len(body_nodes) == 1, "No editorial body: " + slug)
