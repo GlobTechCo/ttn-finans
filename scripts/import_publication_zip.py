@@ -149,6 +149,14 @@ def publish(archive):
                 seo_title = seo_title[:available].rsplit(" ", 1)[0].rstrip(" ,:;-")
             check(len(seo_title) > 12, "SEO title cannot be shortened: " + slug)
             new_title = html_std.escape(seo_title + seo_suffix)
+            # Keep the single canonical Article JSON-LD block in the document head.
+            # Some complete Gemini HTML pages also carry an embedded schema block in the body.
+            schema_nodes = doc.xpath("//script[translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='application/ld+json']")
+            head_schema = doc.xpath("//head/script[translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='application/ld+json']")
+            keep_schema = head_schema[0] if head_schema else (schema_nodes[0] if schema_nodes else None)
+            for schema_node in schema_nodes:
+                if schema_node is not keep_schema:
+                    schema_node.getparent().remove(schema_node)
             # Serialize the validated DOM so contextual links added above are retained.
             # Previously the raw ZIP bytes were reloaded here, silently discarding them.
             original_html = html.tostring(doc, encoding="unicode", method="html")
