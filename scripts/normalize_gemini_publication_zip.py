@@ -173,6 +173,10 @@ for name, data in list(raw.items()):
                 paragraph = paragraphs[paragraph_index]
                 paragraph.getparent().remove(paragraph)
     body_html = html.tostring(body_nodes[0], encoding="unicode")
+    # Apply aliases to the final serialized body as well: the importer consumes this HTML,
+    # not the earlier parsed fragment. This catches absolute, root-relative and relative hrefs.
+    for stale_slug, canonical_slug in internal_link_aliases.items():
+        body_html = body_html.replace(stale_slug, canonical_slug)
     cover = "assets/editorial/" + slug + "-cover.webp"
     small = "assets/responsive/" + slug + "-cover-480.webp"
     medium = "assets/responsive/" + slug + "-cover-960.webp"
