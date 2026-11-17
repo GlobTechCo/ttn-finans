@@ -86,7 +86,7 @@ def refresh():
             if key not in metadata.meta:
                 tags.append((attr, key, value))
         # Always rebuild og:url from the canonical link; inherited template values can be stale.
-        text = re.sub(r'<meta\\b(?=[^>]*\\bproperty=["\\\']og:url["\\\'])[^>]*>\\s*', '', text, flags=re.I)
+        text = re.sub(r"""<meta\b(?=[^>]*\bproperty=["']og:url["'])[^>]*>\s*""", '', text, flags=re.I)
         tags.append(('property', 'og:url', metadata.canonical or (BASE if page.name == 'index.html' else BASE + page.name)))
         block = '\n'.join(f'<meta {attr}="{key}" content="{html.escape(value, quote=True)}">' for attr, key, value in tags)
         text = text.replace('</head>', block + '\n</head>')
