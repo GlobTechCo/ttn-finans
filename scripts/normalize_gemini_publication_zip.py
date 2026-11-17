@@ -4,6 +4,7 @@ import json, re, sys, zipfile
 from io import BytesIO
 from PIL import Image
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from lxml import html, etree
 
@@ -29,12 +30,33 @@ with zipfile.ZipFile(archive_path, "r") as src:
     flat_package = not bool(raw)
     if flat_package:
         raw = {n: src.read(n) for n in src.namelist() if not n.endswith("/") and n != "README-PUBLISH.txt"}
-        print("Detected flat TTN publication archive; adapting metadata and image variants.")
+        # Gemini's November 17 package uses separate articles/, pages/, covers/ and seo/ folders.
+        # Flatten those known directories into the importer's legacy slug-based file names.
+        if any(Path(n).parts and Path(n).parts[0] in {"articles", "pages", "covers", "seo"} for n in raw):
+            flattened = {"GEMINI_INSTRUCTIONS.txt": raw["GEMINI_INSTRUCTIONS.txt"]} if "GEMINI_INSTRUCTIONS.txt" in raw else {}
+            for path, data in raw.items():
+                parts = Path(path).parts
+                if len(parts) != 2:
+                    continue
+                folder, filename = parts
+                item = Path(filename)
+                if folder == "articles" and item.suffix.lower() == ".md":
+                    flattened[item.name] = data
+                elif folder == "pages" and item.suffix.lower() == ".html":
+                    flattened[item.stem + "-fragment.html"] = data
+                elif folder == "seo" and item.suffix.lower() == ".json":
+                    flattened[item.stem + "-seo.json"] = data
+                elif folder == "covers" and item.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp"):
+                    flattened[item.stem + "-cover" + item.suffix.lower()] = data
+            raw = flattened
+        print("Detected Gemini publication archive; adapting folder layout, metadata and image variants.")
         for seo_name in [n for n in raw if n.endswith("-seo.json")]:
             meta = json.loads(raw[seo_name].decode("utf-8"))
             slug = meta["slug"]
             meta["headline"] = meta.get("headline") or meta.get("title")
             meta["section"] = meta.get("section") or meta.get("category")
+            section_aliases = {"Technology": "Tech & AI", "Technology & AI": "Tech & AI", "Tech and AI": "Tech & AI", "Markets": "Market Analysis", "Finance": "Market Analysis", "Cryptocurrency": "Crypto"}
+            meta["section"] = section_aliases.get(meta["section"], meta["section"])
             meta["metaDescription"] = meta.get("metaDescription") or meta.get("description")
             meta["date"] = meta.get("date") or meta.get("datePublished")
             fragment_name = slug + "-fragment.html"
@@ -97,7 +119,7 @@ for name, data in list(raw.items()):
     slug = meta["slug"]
     section = meta["section"]
     # Never invent a publication clock time. Prefer a date supplied in the approved metadata.
-    published_date = str(meta.get("publishedAt") or meta.get("datePublished") or meta.get("date") or date.today().isoformat()).split("T", 1)[0]
+    published_date = str(meta.get("publishedAt") or meta.get("datePublished") or meta.get("date") or date.today().isoformat()).strip()
     fallback = seo_fallback.get(slug, {})
     title = meta["headline"]
     image_alt = meta.get("imageAlt") or title
@@ -180,7 +202,12 @@ for name, data in list(raw.items()):
     by=etree.SubElement(main,"p",attrib={"class":"editorial-meta","data-editorial-byline":"","data-author":"TTN Research Desk"})
     sp=etree.SubElement(by,"span",attrib={"class":"editorial-author"}); sp.text="TTN Research Desk"
     pub=etree.SubElement(by,"span",attrib={"class":"editorial-published"})
-    tm=etree.SubElement(pub,"time",datetime=published_date); tm.text=datetime.strptime(published_date, "%Y-%m-%d").strftime("%b %d, %Y").replace(" 0", " ")
+    tm=etree.SubElement(pub,"time",datetime=published_date)
+    published_dt = datetime.fromisoformat(published_date.replace("Z", "+00:00"))
+    local_dt = published_dt.astimezone(ZoneInfo("Europe/Kyiv")) if published_dt.tzinfo else published_dt
+    tm.text = local_dt.strftime("%b %-d, %Y")
+    if "T" in published_date:
+        tm.text += " · " + local_dt.strftime("%-I:%M %p %Z")
     fig=etree.SubElement(main,"figure",attrib={"class":"ttn-editorial-figure"})
     img=etree.SubElement(fig,"img",src=cover,alt=image_alt,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
     img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
