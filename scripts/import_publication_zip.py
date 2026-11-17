@@ -262,6 +262,34 @@ def publish(archive):
                     if parent is not None:
                         parent.remove(node)
                         main_nodes[0].append(node)
+            # Prevent duplicate cover/dek/source blocks when the package template
+            # already contains them and the normalizer has inserted the shared hero.
+            for section in final_doc.xpath("//main//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]"):
+                hero_stems = {
+                    Path(src.split("?", 1)[0]).stem
+                    for src in section.getparent().xpath("./figure[contains(concat(' ',normalize-space(@class),' '),' ttn-editorial-figure ')]//img/@src")
+                }
+                for figure in list(section.xpath(".//figure[contains(concat(' ',normalize-space(@class),' '),' article-cover ')]")):
+                    image_stems = {Path(src.split("?", 1)[0]).stem for src in figure.xpath(".//img/@src")}
+                    if image_stems & hero_stems:
+                        figure.getparent().remove(figure)
+                main_deks = {
+                    " ".join("".join(node.itertext()).split())
+                    for node in section.getparent().xpath("./p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]")
+                }
+                for dek in list(section.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-dek ')]")):
+                    if " ".join("".join(dek.itertext()).split()) in main_deks:
+                        dek.getparent().remove(dek)
+                for aside in section.xpath(".//aside[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]"):
+                    previous = aside.getprevious()
+                    if previous is not None and previous.tag.lower() == "ul":
+                        previous_hrefs = previous.xpath(".//a/@href")
+                        aside_hrefs = aside.xpath(".//a/@href")
+                        if previous_hrefs and previous_hrefs == aside_hrefs:
+                            previous.getparent().remove(previous)
+                            heading = aside.getprevious()
+                            if heading is not None and heading.tag.lower() == "p" and "sources" == " ".join("".join(heading.itertext()).lower().split()).strip(":"):
+                                heading.getparent().remove(heading)
             body_nodes = final_doc.xpath("//body")
             check(len(body_nodes) == 1, "Expected exactly one body element: " + slug)
             first_body = body_nodes[0][0] if len(body_nodes[0]) else None
