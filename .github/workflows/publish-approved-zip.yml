@@ -1,5 +1,5 @@
 name: Publish approved article ZIP
-# Re-run against the latest main revision whenever publication validation is corrected, including social metadata deduplication.
+# Re-run against the latest main revision whenever publication validation or canonical social metadata is corrected.
 on:
   push:
     branches: [main]
