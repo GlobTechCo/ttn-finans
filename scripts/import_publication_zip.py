@@ -57,7 +57,17 @@ def publish(archive):
             cover = m["cover"]
             check(file in names and cover in names and cover.startswith("assets/editorial/" + slug + "-"), "Article/cover missing")
             doc = html.fromstring(z.read(file))
-            check(doc.xpath("//link[@rel='canonical']/@href") == [BASE + file], "Wrong canonical URL: " + slug)
+            expected_canonical = BASE + file
+            canonical_nodes = doc.xpath("//link[@rel='canonical']")
+            if not canonical_nodes:
+                head_nodes = doc.xpath("//head")
+                check(len(head_nodes) == 1, "Missing document head for canonical URL: " + slug)
+                canonical_nodes = [html.Element("link", rel="canonical", href=expected_canonical)]
+                head_nodes[0].append(canonical_nodes[0])
+            canonical_nodes[0].set("href", expected_canonical)
+            for duplicate in canonical_nodes[1:]:
+                duplicate.getparent().remove(duplicate)
+            check(doc.xpath("//link[@rel='canonical']/@href") == [expected_canonical], "Could not normalize canonical URL: " + slug)
             check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Date mismatch: " + slug)
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
