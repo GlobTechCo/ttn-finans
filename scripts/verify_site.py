@@ -3,10 +3,23 @@
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlparse, unquote
+from datetime import datetime, timezone
 import hashlib,json,re,xml.etree.ElementTree as ET
 from lxml import html
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://globtechco.github.io/ttn-finans/'
+
+def same_timestamp(left, right):
+    """Compare ISO-8601 timestamps by instant, not by timezone spelling."""
+    def parse(value):
+        value = str(value).strip()
+        if value.endswith('Z'):
+            value = value[:-1] + '+00:00'
+        return datetime.fromisoformat(value)
+    a, b = parse(left), parse(right)
+    if a.tzinfo is None or b.tzinfo is None:
+        return a == b
+    return a.astimezone(timezone.utc) == b.astimezone(timezone.utc)
 
 def verify():
     articles=json.loads((ROOT/'articles.js').read_text().split('=',1)[1].strip().removesuffix(';'))
@@ -107,9 +120,9 @@ def verify():
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
         assert schema['articleSection']==a['section'],(a['id'],'article section')
-        assert schema['datePublished']==a['date']==cards_by_id[a['id']]['date'],(a['id'],'publication date')
+        assert same_timestamp(schema['datePublished'], a['date']) and same_timestamp(a['date'], cards_by_id[a['id']]['date']),(a['id'],'publication date')
         published=doc.xpath('//meta[@property="article:published_time"]/@content')
-        if published:assert published==[a['date']],(a['id'],'publication metadata')
+        if published:assert len(published)==1 and same_timestamp(published[0], a['date']),(a['id'],'publication metadata')
         blocks=doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," editorial-related ")]')
         assert len(blocks)==1,(a['id'],'related blocks')
         links=blocks[0].xpath('.//a/@href')
