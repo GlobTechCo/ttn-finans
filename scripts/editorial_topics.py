@@ -908,3 +908,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ethere
 RELATED['ethereum-mev-25-million-peraire-bueno-brothers-acquittal-november-17-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026')
 RELATED['new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026')
+RELATED['jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026')
+RELATED['nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026')
+RELATED['software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026'] = []
