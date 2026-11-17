@@ -63,7 +63,22 @@ with zipfile.ZipFile(archive_path, "r") as src:
             raw[seo_name] = json.dumps(meta, ensure_ascii=False).encode("utf-8")
             cover_name = slug + "-cover.webp"
             if cover_name not in raw:
-                raise SystemExit("Missing cover image: " + cover_name)
+                # Gemini's Nov. 17 package uses the original image_*.jpg names.
+                # Match the audited cover files to their article slugs before
+                # generating the canonical WebP cover and responsive variants.
+                cover_aliases = {
+                    "china-us-ai-model-distillation-domestic-rivals-chip-curbs-november-17-2026": "image_474cc8.jpg",
+                    "ethereum-mev-25-million-peraire-bueno-brothers-acquittal-november-17-2026": "image_474d25.jpg",
+                    "new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026": "image_474ceb.jpg",
+                }
+                alias = cover_aliases.get(slug)
+                source_name = next((n for n in raw if alias and Path(n).name == alias), None)
+                if source_name is None:
+                    raise SystemExit("Missing cover image: " + cover_name + " (also checked audited source alias)")
+                with Image.open(BytesIO(raw[source_name])) as source_image:
+                    converted = BytesIO()
+                    source_image.convert("RGB").save(converted, format="WEBP", quality=90, method=6)
+                    raw[cover_name] = converted.getvalue()
             with Image.open(BytesIO(raw[cover_name])) as im:
                 im = im.convert("RGB")
                 for width, suffix in ((480, "-480.webp"), (960, "-960.webp")):
