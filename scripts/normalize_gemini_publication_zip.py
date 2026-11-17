@@ -133,7 +133,12 @@ for name, data in list(raw.items()):
     frag = html.fromstring("<div>" + fragment + "</div>")
     dek_node = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-dek ')]")
     dek = " ".join(dek_node[0].itertext()).strip() if dek_node else ""
-    if not dek: dek = fallback.get("dek") or description
+    if not dek: dek = fallback.get("dek") or description or title
+    # Enforce TTN's 70-160 character description rule using the article's own approved dek.
+    if not description or len(description) < 70:
+        description = dek if len(dek) >= 70 else (title + " — " + dek)
+    if len(description) > 160:
+        description = description[:157].rsplit(" ", 1)[0].rstrip(" ,;:-.") + "."
     body_nodes = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
     if not body_nodes:
         for heading in frag.xpath(".//h1"):
