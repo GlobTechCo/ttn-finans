@@ -17,6 +17,9 @@ def same_timestamp(left, right):
             value = value[:-1] + '+00:00'
         return datetime.fromisoformat(value)
     a, b = parse(left), parse(right)
+    # Some discovery manifests intentionally store calendar dates without a clock time.
+    if len(str(left).strip()) == 10 or len(str(right).strip()) == 10:
+        return a.date() == b.date()
     if a.tzinfo is None or b.tzinfo is None:
         return a == b
     return a.astimezone(timezone.utc) == b.astimezone(timezone.utc)
