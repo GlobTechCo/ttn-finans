@@ -900,3 +900,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoi
 RELATED['bitcoin-64500-crypto-stocks-fall-nasdaq-november-16-2026'] = ['bitcoin-four-month-low-crypto-liquidations-november-2026', 'bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('nvidia-first-earnings-without-jensen-huang-trump-possible-return-november-16-2026')
 RELATED['nvidia-first-earnings-without-jensen-huang-trump-possible-return-november-16-2026'] = ['nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026', 'nvidia-h200-china-procurement-export-controls-november-2026']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('china-us-ai-model-distillation-domestic-rivals-chip-curbs-november-17-2026')
+RELATED['china-us-ai-model-distillation-domestic-rivals-chip-curbs-november-17-2026'] = []
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ethereum-mev-25-million-peraire-bueno-brothers-acquittal-november-17-2026')
+RELATED['ethereum-mev-25-million-peraire-bueno-brothers-acquittal-november-17-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026')
+RELATED['new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026'] = []
