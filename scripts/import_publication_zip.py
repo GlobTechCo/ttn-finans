@@ -109,7 +109,7 @@ def publish(archive):
                     if word.lower() not in {"from", "with", "that", "this", "into", "over", "after", "before"}
                 ]
                 candidates = []
-                for paragraph in body_nodes[0].xpath("./p"):
+                for paragraph in body_nodes[0].xpath(".//p"):
                     paragraph_text = " ".join(paragraph.itertext()).lower()
                     score = sum(1 for word in set(keywords) if re.search(r"\b" + re.escape(word) + r"\b", paragraph_text))
                     candidates.append((score, paragraph))
