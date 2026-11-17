@@ -188,21 +188,23 @@ def publish(archive):
             check(corrected_section, "Missing articleSection JSON-LD: " + slug)
             # Validate SEO metadata before committing imported files.
             checked_doc = html.fromstring(original_html)
-            summaries = checked_doc.xpath('//meta[@name="description"]/@content')
-            # Repair the approved xFusion page's undersized SEO description in-place.
-            # This keeps the article body unchanged and restores the site's 70-160
-            # character metadata requirement before the normal strict validation.
-            if slug == "xfusion-1-2-billion-ai-server-ipo-2026" and len(summaries) == 1 and not 70 <= len(summaries[0]) <= 160:
-                meta_nodes = checked_doc.xpath('//meta[@name="description"]')
-                meta_nodes[0].set("content", "China's xFusion has cleared a key review for a proposed $1.2 billion AI server IPO in Shenzhen, advancing its plan to raise capital.")
-                original_html = html.tostring(checked_doc, encoding="unicode", method="html")
-                checked_doc = html.fromstring(original_html)
-                summaries = checked_doc.xpath('//meta[@name="description"]/@content')
-            # Repair the approved TRM Labs page's undersized SEO description in-place.
-            # Keep the article body and approved images unchanged.
-            if slug == "trm-labs-beacon-concierge-law-enforcement-crypto-freezing-2026" and len(summaries) == 1 and not 70 <= len(summaries[0]) <= 160:
-                meta_nodes = checked_doc.xpath('//meta[@name="description"]')
-                meta_nodes[0].set("content", "TRM Labs has launched Beacon Concierge, a service designed to help law enforcement identify illicit crypto activity and freeze related funds.")
+            summary_nodes = checked_doc.xpath('//meta[@name="description"]')
+            summaries = [node.get("content", "") for node in summary_nodes]
+            if len(summary_nodes) != 1 or not summaries or not 70 <= len(summaries[0]) <= 160:
+                # Use the approved article dek as the SEO fallback; do not invent a new claim.
+                seo_description = " ".join(str(m.get("dek") or m.get("title") or "").split())
+                if len(seo_description) < 70:
+                    seo_description = (str(m.get("title") or "") + " — " + seo_description).strip(" —")
+                if len(seo_description) > 160:
+                    seo_description = seo_description[:157].rsplit(" ", 1)[0].rstrip(" ,;:-.") + "."
+                if summary_nodes:
+                    summary_nodes[0].set("content", seo_description)
+                    for duplicate in summary_nodes[1:]:
+                        duplicate.getparent().remove(duplicate)
+                else:
+                    head_nodes = checked_doc.xpath("//head")
+                    check(len(head_nodes) == 1, "Missing document head for SEO description: " + slug)
+                    head_nodes[0].append(html.Element("meta", name="description", content=seo_description))
                 original_html = html.tostring(checked_doc, encoding="unicode", method="html")
                 checked_doc = html.fromstring(original_html)
                 summaries = checked_doc.xpath('//meta[@name="description"]/@content')
