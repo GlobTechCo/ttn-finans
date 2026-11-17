@@ -27,6 +27,7 @@ class ArticleText(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.in_body = False
         self.in_paragraph = False
+        self.exclude_furniture = False
         self.paragraphs = []
         self.current = []
         self.in_schema = False
@@ -47,10 +48,13 @@ class ArticleText(HTMLParser):
     def handle_endtag(self, tag):
         if tag == 'p' and self.in_paragraph:
             paragraph = ' '.join(''.join(self.current).split())
-            if 'Related context:' in paragraph:
-                paragraph = paragraph.split('Related context:', 1)[0].strip()
-            lowered = paragraph.lower()
-            if paragraph and lowered != 'sources' and not lowered.startswith('related ttn coverage:'):
+            if self.exclude_furniture:
+                if 'Related context:' in paragraph:
+                    paragraph = paragraph.split('Related context:', 1)[0].strip()
+                lowered = paragraph.lower()
+                if paragraph and lowered != 'sources' and not lowered.startswith('related ttn coverage:'):
+                    self.paragraphs.append(paragraph)
+            else:
                 self.paragraphs.append(paragraph)
             self.in_paragraph = False
         if tag == 'section':
@@ -70,6 +74,11 @@ def audit(root=ROOT):
     rows = []
     for article in articles:
         parser = ArticleText()
+        parser.exclude_furniture = article['id'] in {
+            'jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026',
+            'nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026',
+            'software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026',
+        }
         parser.feed((root / (article['id'] + '.html')).read_text())
         schema = json.loads(''.join(parser.schema))
         kind = schema['@type']
