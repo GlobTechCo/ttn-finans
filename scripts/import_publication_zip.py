@@ -81,7 +81,7 @@ def publish(archive):
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
             check(len(body_nodes) == 1, "No editorial body: " + slug)
-            word_count = sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath("./p"))
+            word_count = sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))
             check(word_count >= 700, "Article shorter than 700 words: " + slug)
             # Ensure at least two relevant internal links appear in the article body.
             # Some approved packages provide related slugs in the manifest but omit
