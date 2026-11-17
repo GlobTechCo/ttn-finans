@@ -1,4 +1,5 @@
 name: Publish approved article ZIP
+# Re-run against the latest main revision whenever publication validation is corrected.
 on:
   push:
     branches: [main]
