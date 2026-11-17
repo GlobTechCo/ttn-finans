@@ -186,7 +186,10 @@ for name, data in list(raw.items()):
     head = doc.xpath("//head")[0]
     def set_meta(selector, attr, value):
         nodes = head.xpath(selector)
-        if nodes: nodes[0].set(attr, value)
+        if nodes:
+            nodes[0].set(attr, value)
+            for duplicate in nodes[1:]:
+                duplicate.getparent().remove(duplicate)
         else:
             node = html.Element("meta")
             node.set(attr, value)
