@@ -74,6 +74,8 @@ with zipfile.ZipFile(archive_path, "r") as src:
                 alias = cover_aliases.get(slug)
                 source_name = next((n for n in raw if alias and Path(n).stem == Path(alias).stem), None)
                 if source_name is None:
+                    source_name = next((n for n in raw if Path(n).stem == slug + "-cover" and Path(n).suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")), None)
+                if source_name is None:
                     image_names = [n for n in raw if Path(n).suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")]
                     raise SystemExit("Missing cover image: " + cover_name + "; checked " + str(alias) + "; available image files: " + ", ".join(image_names))
                 with Image.open(BytesIO(raw[source_name])) as source_image:
