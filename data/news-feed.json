@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T03:40:47.184472+00:00",
+  "generatedAt": "2026-11-17T12:31:21.947137+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
@@ -35,284 +35,476 @@
   ],
   "items": [
     {
-      "title": "Thrivent Mid Cap Stock Fund Q3 2026 Commentary",
+      "title": "I Sold My Entire Portfolio In My Head - I'd Rebuy These 3 First",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968870-thrivent-mid-cap-stock-fund-q3-2026-commentary?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968493-i-sold-my-entire-portfolio-in-my-head-i-would-rebuy-these-3-first?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T03:25:00+00:00",
+      "pubDate": "2026-11-17T12:30:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Soluna Holdings, Inc. (SLNH) Q3 2026 Earnings Call Transcript",
+      "title": "Healthcare Stocks Overtake Tech: 5 Strong Buys Combining Growth And Value",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968841-soluna-holdings-inc-slnh-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968787-healthcare-stocks-overtake-tech-5-strong-buys-combining-growth-and-value?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T03:22:46+00:00",
+      "pubDate": "2026-11-17T12:30:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Why is Xpeng HK stock rallying today?",
+      "title": "Aramark Defies The Odds As Shares Rise In Hopes Of Strong Growth",
       "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-xpeng-hk-stock-rallying-today-93CH-5031544",
-      "image": "https://content-media.investing.com/news/LYNXNPEB8506G_M.jpg",
-      "pubDate": "2026-11-17T03:19:51+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Baidu HK stock sliding today?",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-baidu-hk-stock-sliding-today-93CH-5031543",
-      "image": "https://content-media.investing.com/news/LYNXNPEC46038_M.jpg",
-      "pubDate": "2026-11-17T03:19:49+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München (MURGY) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968763-munchener-ruckversicherungs-gesellschaft-aktiengesellschaft-in-munchen-murgy-q3-2026-earnings?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968869-aramark-defies-the-odds-as-shares-rise-in-hopes-of-strong-growth?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T02:52:45+00:00",
+      "pubDate": "2026-11-17T12:30:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "A 450% revenue beat, a 20%+ gain: the biotech our AI models picked first",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/a-450-revenue-beat-a-20-gain-the-biotech-our-ai-models-picked-first-5031514",
-      "image": "https://content-media.investing.com/news/LYNXMPEE2R1CK_M.jpg",
-      "pubDate": "2026-11-17T02:48:19+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Davenport Core Leaders Fund Q3 2026 Commentary",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968865-davenport-core-leaders-fund-q3-2026-commentary?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T02:45:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Catapult Sports Ltd (CAZGF) Q2 2027 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968852-catapult-sports-ltd-cazgf-q2-2027-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T02:42:45+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Four US activist hedge funds exit Dick’s Sporting Goods in third quarter amid profit woes",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/four-us-activist-hedge-funds-exit-dicks-sporting-goods-in-third-quarter-amid-profit-woes-5031506",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAG04Q_L.jpg",
-      "pubDate": "2026-11-17T02:42:22+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "JD.com Q3 earnings preview: e-commerce weakness, AI growth in focus",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/jdcom-q3-earnings-preview-ecommerce-weakness-ai-growth-in-focus-93CH-5031505",
-      "image": "https://content-media.investing.com/news/moved_LYNXMPEL6O034_L.jpg",
-      "pubDate": "2026-11-17T02:40:51+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Meituan Q3 2026 Preview: Global Growth Acceleration In Focus",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968861-meituan-q3-2026-preview-global-growth-acceleration-in-focus?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T02:34:03+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "iA Financial Corporation Inc. (IAG:CA) Discusses Capital Flexibility and Acquisition Funding Following Life Insurance Change Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968748-ia-financial-corporation-inc-iag-ca-discusses-capital-flexibility-and-acquisition-funding?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T02:32:46+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Nvidia rules out Huang comeback as campaign for his return grows",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/silicon-valley-leaders-back-call-for-jensen-huangs-return-to-nvidia-5029956",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAF18K_L.jpg",
-      "pubDate": "2026-11-17T02:30:44+00:00",
-      "source": "Investing.com"
-    },
-    {
-      "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-      "desc": "“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”",
-      "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-29241577",
-      "pubDate": "2026-11-17T02:30:00+00:00",
+      "title": "Fund managers just slashed their tech bets at the fastest pace in two decades — and this is the tail risk keeping them up at night",
+      "desc": "Investors are shifting their overweight positioning away from megacap tech and getting less bearish on bonds. Yet they still maintain exceedingly low cash positions as global growth forecasts are bullish.",
+      "link": "https://www.marketwatch.com/story/fund-managers-just-slashed-their-tech-bets-at-the-fastest-pace-in-two-decades-and-this-is-the-tail-risk-keeping-them-up-at-night-60fcc160?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-50168240",
+      "pubDate": "2026-11-17T12:28:00+00:00",
       "source": "MarketWatch"
     },
     {
-      "title": "Baidu shares hit over five-year low as ad slump overshadows AI growth",
+      "title": "Can Nvidia sell investors on a future without Jensen Huang?",
+      "desc": "Co-founder Huang is gone. Can Colette Kress ease market fears? Can a new board committee? Plus, the Fed weighs AI’s economic fallout, and parents confront their kids’ gambling problems.",
+      "link": "https://www.marketwatch.com/story/can-nvidia-sell-investors-on-a-future-without-jensen-huang-3fe4bb49?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-55388062",
+      "pubDate": "2026-11-17T12:27:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "BJ's Restaurants: Winning The Traffic Game (Rating Upgrade)",
       "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-over-fiveyear-low-as-ad-slump-overshadows-ai-growth-5031486",
-      "image": "https://content-media.investing.com/news/moved_LYNXNPEK3F02U_L.jpg",
-      "pubDate": "2026-11-17T02:26:01+00:00",
+      "link": "https://seekingalpha.com/article/4969004-bjs-restaurants-winning-the-traffic-game?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:25:29+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Caribou Biosciences: Stress-Testing The Liquidation Floor And Playing The Shell Exit",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969003-caribou-biosciences-stress-testing-the-liquidation-floor-and-playing-the-shell-exit?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:24:26+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "The Fight Over Jensen Huang And Nvidia Earnings",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968979-the-fight-over-jensen-huang-and-nvidia-earnings?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:23:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Texas Instruments: Waiting For FY2027 Guidance Before Adding More (Rating Downgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969002-texas-instruments-waiting-for-fy2027-guidance-before-adding-more?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:23:22+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ukraine damages Putin’s prized Crimea bridge as Zelenskyy lauds ‘unprecedented operation’",
+      "desc": "Ukraine attacked the Kerch Bridge linking Russia to occupied Crimea for a second consecutive day, delivering a symbolic blow to President Vladimir Putin.",
+      "link": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+      "image": null,
+      "pubDate": "2026-11-17T12:23:08+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Unico Silver Limited (USLRF) Shareholder/Analyst Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969031-unico-silver-limited-uslrf-shareholder-analyst-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:22:52+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+      "desc": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
+      "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-04093243",
+      "pubDate": "2026-11-17T12:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "If I Could Only Retire On 2 REITs, I'd Buy These",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968685-if-i-could-only-retire-on-2-reits-id-buy-these?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:15:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Disney beats fourth-quarter estimates, targets $3 billion in savings through cost-cutting efforts",
+      "desc": "Investors will be looking for more insight into CEO Josh D'Amaro's strategy following several rounds of layoffs.",
+      "link": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+      "image": null,
+      "pubDate": "2026-11-17T12:14:17+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Nvidia forms export-control committee after Huang affair raises security concerns",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-board-forms-committee-for-national-security-and-export-control-oversight-5032154",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAG0TF_L.jpg",
+      "pubDate": "2026-11-17T12:12:55+00:00",
       "source": "Investing.com"
     },
     {
-      "title": "Xcel Brands, Inc. (XELB) Q3 2026 Earnings Call Transcript",
+      "title": "Kodiak Sciences Inc. (KOD) Presents at UBS Global Biopharma Conference 2026 Transcript",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968839-xcel-brands-inc-xelb-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968985-kodiak-sciences-inc-kod-presents-at-ubs-global-biopharma-conference-2026-transcript?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T02:22:45+00:00",
+      "pubDate": "2026-11-17T12:12:48+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Emera: A Merger Doesn't Make It A Bargain",
+      "title": "Beyond Tariffs: What's Driving Steel Stocks?",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968859-emera-stock-merger-doesnt-make-it-a-bargain?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968995-beyond-tariffs-what-driving-steel-stocks?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T02:18:50+00:00",
+      "pubDate": "2026-11-17T12:11:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Reliance Global Group, Inc. (XGPU) Q3 2026 Earnings Call Transcript",
+      "title": "BP: The Transformation Keeps Gaining Momentum, The Stock Still Trades At A Discount",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968853-reliance-global-group-inc-xgpu-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968994-bp-transformation-keeps-gaining-momentum-stock-still-trades-discount?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T02:02:46+00:00",
+      "pubDate": "2026-11-17T12:10:57+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Xanadu Quantum: An Early Entry Point Into Fault-Tolerant Quantum Computing",
+      "title": "National Health Investors: Short-Term SHOP Pessimism Is Creating Long-Term Value",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968857-xanadu-quantum-q3-early-entry-point-into-fault-tolerant-quantum?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968993-national-health-investors-short-term-shop-pessimism-is-creating-long-term-value?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T02:00:04+00:00",
+      "pubDate": "2026-11-17T12:08:07+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Technology One Limited 2026 Q4 - Results - Earnings Call Presentation",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968863-technology-one-limited-2026-q4-results-earnings-call-presentation?source=feed_all_articles",
+      "title": "Trump has arrived in Asia. Here’s what he said about Iran and Deutsche Bank",
+      "desc": "Trump threatens Iran and responds to a tax leak report as his Asia trip begins.",
+      "link": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
       "image": null,
-      "pubDate": "2026-11-17T01:53:36+00:00",
-      "source": "Seeking Alpha"
+      "pubDate": "2026-11-17T12:07:04+00:00",
+      "source": "CNBC Markets"
     },
     {
-      "title": "Archer Aviation: This eVTOL Pioneer Looks Like A Bargain",
+      "title": "UK designates BlackRock, Bloomberg as critical third parties",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968855-archer-aviation-stock-this-evtol-pioneer-looks-like-a-bargain?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:40:14+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "The Winners Inside SCHD - November 2026",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968854-the-winners-inside-schd-november-2026?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:36:40+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Capstone Energy+, Inc. (CEPL) Q2 2027 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968819-capstone-energy-inc-cepl-q2-2027-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:12:45+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Microsoft reports phishing attack targeting firms with fake emails",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/microsoft-reports-phishing-attack-targeting-firms-with-fake-emails-93CH-5031404",
-      "image": "https://content-media.investing.com/news/LYNXNPEB6J0AM_M.jpg",
-      "pubDate": "2026-11-17T01:11:38+00:00",
+      "link": "https://www.investing.com/news/stock-market-news/uk-designates-blackrock-bloomberg-as-critical-third-parties-5032580",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAG121_L.jpg",
+      "pubDate": "2026-11-17T12:06:57+00:00",
       "source": "Investing.com"
     },
     {
-      "title": "Harding Loevner Global Equity Q3 2026 Commentary",
+      "title": "Home Depot names insider McPhail CEO amid weak consumer spending",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968858-harding-loevner-global-equity-q3-2026-commentary?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:05:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "GO Residential Real Estate Investment Trust (GO.U:CA) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968845-go-residential-real-estate-investment-trust-go-u-ca-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:02:54+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Aqua Metals, Inc. (AQMS) Q3 2026 Earnings Call Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968792-aqua-metals-inc-aqms-q3-2026-earnings-call-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:02:49+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Tracking Berkshire Hathaway Portfolio - Q3 2026 Update",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968848-tracking-berkshire-hathaway-portfolio-q3-2026-update?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T01:01:28+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Mayne Pharma shares surge on $407 mln takeover offer from Gedeon Richter",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/mayne-pharma-shares-surge-on-407-mln-takeover-offer-from-gedeon-richter-5031389",
-      "image": "https://content-media.investing.com/news/moved_LYNXNPEC7M06Q_L.jpg",
-      "pubDate": "2026-11-17T01:01:08+00:00",
+      "link": "https://www.investing.com/news/stock-market-news/home-depot-names-finance-chief-mcphail-as-ceo-5032246",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAG0W4_L.jpg",
+      "pubDate": "2026-11-17T12:06:27+00:00",
       "source": "Investing.com"
     },
     {
-      "title": "Investors cooled on data-center stocks in third quarter, filings show",
+      "title": "My 3 Favorite Places To Buy K1-Free Big Dividends And Growth",
       "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/investors-cooled-on-data-center-stocks-in-third-quarter-filings-show-5030947",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAF1XB_L.jpg",
-      "pubDate": "2026-11-17T01:00:23+00:00",
+      "link": "https://seekingalpha.com/article/4968767-my-3-favorite-places-buy-k1-free-big-dividends-and-growth?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:05:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "CSG shares fall 7% to record low amid defense sector concerns",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/csg-shares-fall-7-to-record-low-amid-defense-sector-concerns-93CH-5032548",
+      "image": "https://content-media.investing.com/news/LYNXMPEC0409P_M.jpg",
+      "pubDate": "2026-11-17T12:02:59+00:00",
       "source": "Investing.com"
     },
     {
-      "title": "Snowflake: A Great Business With A Brutal Price Tag",
+      "title": "Why is Lumentum stock rallying today?",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968847-snowflake-a-great-business-with-a-brutal-price-tag-maintain-hold?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-rallying-today-93CH-5032547",
+      "image": "https://content-media.investing.com/news/LYNXNPEC0L0PD_M.jpg",
+      "pubDate": "2026-11-17T12:02:57+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Sirius Real Estate Limited 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969021-sirius-real-estate-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T00:59:01+00:00",
+      "pubDate": "2026-11-17T12:02:31+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Omeros Corporation (OMER) Q3 2026 Earnings Call Transcript",
+      "title": "Bernstein upgrades Maire on de-risked projects, LNG technology growth potential",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968827-omeros-corporation-omer-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/bernstein-upgrades-maire-on-derisked-projects-lng-technology-growth-potential-5032543",
+      "image": "https://content-media.investing.com/news/LYNXNPEB6R0AQ_M.jpg",
+      "pubDate": "2026-11-17T12:02:27+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Exclusive: Controlled Thermal taps BBVA to lead $420 million geothermal debt deal",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/exclusive-controlled-thermal-taps-bbva-to-lead-420-million-geothermal-debt-deal-5032529",
+      "image": "https://content-media.investing.com/news/Power Plant_800x533_L_1449414322.jpg",
+      "pubDate": "2026-11-17T12:00:33+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nike hosts first investor day in 9 years as it tries to rightsize its business",
+      "desc": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
+      "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
       "image": null,
-      "pubDate": "2026-11-17T00:52:45+00:00",
+      "pubDate": "2026-11-17T12:00:01+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Applied Optoelectronics: A Massive Earnings Surprise Is Brewing",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968969-applied-optoelectronics-a-massive-earnings-surprise-is-brewing?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T12:00:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Sterling Infrastructure: AI Bubble Bursts - Moratorium Risks Meet Growing Backlog",
+      "title": "Why is Caris Life Sciences stock rallying today?",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968844-sterling-infrastructure-stock-ai-bubble-bursts-moratorium-risks-meet-growing-backlog?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-caris-life-sciences-stock-rallying-today-93CH-5032511",
+      "image": "https://content-media.investing.com/news/LYNXNPEB7Q0U9_M.jpg",
+      "pubDate": "2026-11-17T11:59:54+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "95% of S&P 500 longs are offside, Citi warns",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/95-of-sp-500-longs-are-offside-citi-warns-5032510",
+      "image": "https://content-media.investing.com/news/LYNXNPEE9L1CO_M.jpg",
+      "pubDate": "2026-11-17T11:59:35+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US stocks with the highest debt-to-equity ratios: Birkenstock and peers",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/us-stocks-with-the-highest-debttoequity-ratios-birkenstock-and-peers-93CH-5032465",
+      "image": "https://content-media.investing.com/news/world_news_2_108x81.jpg",
+      "pubDate": "2026-11-17T11:54:23+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "EMF: Alpha Creator In Emerging Markets",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968989-emf-alpha-creator-in-emerging-markets?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T00:51:46+00:00",
+      "pubDate": "2026-11-17T11:50:45+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "Wrap Technologies, Inc. (WRAP) Q3 2026 Earnings Call Transcript",
+      "title": "Invesco Comstock Fund Q3 2026 Commentary",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968798-wrap-technologies-inc-wrap-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4969011-invesco-comstock-fund-q3-2026-commentary?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T00:42:54+00:00",
+      "pubDate": "2026-11-17T11:50:00+00:00",
       "source": "Seeking Alpha"
     },
     {
-      "title": "ReposiTrak, Inc. (TRAK) Q1 2027 Earnings Call Transcript",
+      "title": "Enbridge: The Moat Is Holding, But Growth Is Stalling (Rating Downgrade)",
       "desc": "",
-      "link": "https://seekingalpha.com/article/4968789-repositrak-inc-trak-q1-2027-earnings-call-transcript?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4968988-enbridge-the-moat-is-holding-but-growth-is-stalling?source=feed_all_articles",
       "image": null,
-      "pubDate": "2026-11-17T00:42:48+00:00",
+      "pubDate": "2026-11-17T11:47:40+00:00",
       "source": "Seeking Alpha"
+    },
+    {
+      "title": "Daré Bioscience, Inc. (DARE) Q3 2026 Earnings Call Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969006-dare-bioscience-inc-dare-q3-2026-earnings-call-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:42:55+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Incyte Corporation (INCY) Presents at Jefferies Global Healthcare Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968986-incyte-corporation-incy-presents-at-jefferies-global-healthcare-conference-2026-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:42:50+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Exelixis, Inc. (EXEL) Presents at UBS Global Biopharma Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968983-exelixis-inc-exel-presents-at-ubs-global-biopharma-conference-2026-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:42:46+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+      "desc": "Nvidia options are pricing in a bigger move than usual.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+      "image": null,
+      "pubDate": "2026-11-17T11:42:28+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "John Hancock 2030 Lifetime Blend Portfolio Q3 2026 Commentary",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969007-john-hancock-2030-lifetime-blend-portfolio-q3-2026-commentary?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:40:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Zurich Insurance Group AG (ZUR:CA) Analyst/Investor Day - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4969008-zurich-insurance-group-ag-zur-ca-analyst-investor-day-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:34:15+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+      "desc": "Home Depot named Richard McPhail as its new CEO effective next week.",
+      "link": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+      "image": null,
+      "pubDate": "2026-11-17T11:33:44+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "EyePoint, Inc. (EYPT) Presents at UBS Global Biopharma Conference 2026 Transcript",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4968997-eyepoint-inc-eypt-presents-at-ubs-global-biopharma-conference-2026-transcript?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-17T11:32:48+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+      "desc": "Iran has ratcheted up threats against U.S. forces as a third American aircraft carrier arrived in the Gulf, stoking fears of a resumption of military tensions.",
+      "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+      "image": null,
+      "pubDate": "2026-11-17T11:22:54+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "‘It is heartbreaking, exhausting and downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
+      "desc": "‘It is devastating when the people you should be able to trust become the very people you have to protect yourself from’",
+      "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-72281427",
+      "pubDate": "2026-11-17T11:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "South Korea will suspend all aircraft operation for 35 minutes and markets will open late. Here’s why",
+      "desc": "South Korea will suspend aircraft takeoffs and landings nationwide for 35 minutes on Thursday to minimize noise during a college entrance exam.",
+      "link": "https://www.cnbc.com/2026/11/17/south-korea-suspend-aircraft-exam-markets.html",
+      "image": null,
+      "pubDate": "2026-11-17T10:49:36+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Pick the two sectors where earnings growth will accelerate — as long as the 10-year stays below this key level, say strategists",
+      "desc": "Strategists at the investment bank recommend hyperscalers and the health care sector in an environment of slowing earnings growth.",
+      "link": "https://www.marketwatch.com/story/pick-the-two-sectors-where-earnings-growth-will-accelerate-as-long-as-the-10-year-stays-below-this-key-level-say-strategists-e7c13914?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-08169245",
+      "pubDate": "2026-11-17T10:47:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "JD Vance says he'll decide 'sometime next year' about 2028 presidential run",
+      "desc": "\"When I make a decision, I will be all in on whatever that decision is,\" he told Fox News.",
+      "link": "https://www.cnbc.com/2026/11/17/jd-vance-2028-presidential-run-decision.html",
+      "image": null,
+      "pubDate": "2026-11-17T10:40:56+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Tepper, Loeb among fund managers piling into Nvidia and other megacap tech on the eve of October drawdown",
+      "desc": "13-F filings with the SEC offer a snapshot of how large institutional funds were positioning for the fourth quarter. Given the blowup in the AI trade, some positions reported suggest a painful six weeks for many portfoli",
+      "link": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-69181277",
+      "pubDate": "2026-11-17T10:28:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Data center policy dominated the midterms. The 'Virginia of Europe' is the latest battleground",
+      "desc": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment.",
+      "link": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
+      "image": null,
+      "pubDate": "2026-11-17T10:25:54+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?",
+      "desc": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-71982935",
+      "pubDate": "2026-11-17T10:15:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+      "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
+      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+      "image": null,
+      "pubDate": "2026-11-17T10:08:32+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "‘Breaking Bad’ star Dean Norris is selling 11-acre California estate for $3.2 million amid divorce",
+      "desc": "Dean Norris is looking for a buyer for his 11-acre Temecula, Calif., property, listing the hilltop home for $3.2 million—after his wife, Bridget Norris, filed for divorce.",
+      "link": "https://www.marketwatch.com/story/breaking-bad-star-dean-norris-is-selling-11-acre-california-estate-for-3-2-million-amid-divorce-03963997?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-59354540",
+      "pubDate": "2026-11-17T10:01:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Supermodel Bella Hadid snaps up a charming Colorado compound for $5.5 million",
+      "desc": "Bella Hadid has purchased a creekside compound in Crested Butte, Colorado, for $5.5 million.",
+      "link": "https://www.marketwatch.com/story/supermodel-bella-hadid-snaps-up-a-charming-colorado-compound-for-5-5-million-b907958c?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-49448070",
+      "pubDate": "2026-11-17T09:57:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents",
+      "desc": "Deutsche Bank saw as much as €3.8 billion ($4.2 billion) of its market cap wiped away after a team of media organizations wrote about a trove of 15 million leaked documents.",
+      "link": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-43094003",
+      "pubDate": "2026-11-17T09:35:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+      "desc": "A 15-million-file leak details alleged control failures at Deutsche Bank, including Epstein-linked payments and a Trump tax blunder.",
+      "link": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html",
+      "image": null,
+      "pubDate": "2026-11-17T09:23:40+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+      "desc": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
+      "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+      "image": null,
+      "pubDate": "2026-11-17T08:52:45+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "desc": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "link": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "image": null,
+      "pubDate": "2026-11-17T07:07:35+00:00",
+      "source": "CNBC Markets"
     },
     {
       "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
@@ -323,14 +515,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "IDEX Corporation (IEX) Presents at RBC Global Industrials Conference 2026 Transcript",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4968728-idex-corporation-iex-presents-at-rbc-global-industrials-conference-2026-transcript?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-17T00:22:56+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
       "title": "United Airlines resolves system outage that affected departing flights",
       "desc": "The airline said there was no impact on flights in progress and there was no indication the outage was a cyberattack.",
       "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
@@ -339,27 +523,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "United Airlines resolves system outage that delayed flights Monday",
-      "desc": "The outage came just days after an FAA ground stop disrupted air travel nationally.",
-      "link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-45073447",
-      "pubDate": "2026-11-16T23:42:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
-      "desc": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
-      "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-878137",
-      "pubDate": "2026-11-16T23:28:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-      "desc": "CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "title": "Jim Cramer says Costco's hefty special dividend signals ‘more gains ahead’",
+      "desc": "Jim Cramer says investors should hold on to Costco after its $30-per-share special dividend announcement.",
+      "link": "https://www.cnbc.com/2026/11/16/costco-special-dividend-jim-cramer.html",
       "image": null,
-      "pubDate": "2026-11-16T23:23:47+00:00",
+      "pubDate": "2026-11-16T23:45:03+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -371,83 +539,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
-      "desc": "Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.",
-      "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-44598991",
-      "pubDate": "2026-11-16T23:04:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
       "desc": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
       "link": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
       "image": null,
       "pubDate": "2026-11-16T23:01:19+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
-      "desc": "There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.",
-      "link": "https://www.cnbc.com/2026/11/16/as-nike-lululemon-struggle-in-china-xiaohongshu-helps-local-brands.html",
-      "image": null,
-      "pubDate": "2026-11-16T23:00:01+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-      "desc": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
-      "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-04093243",
-      "pubDate": "2026-11-16T23:00:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-      "desc": "The dollar recently climbed to its strongest level in a year and a half.",
-      "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-819643",
-      "pubDate": "2026-11-16T22:46:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-      "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
-      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
-      "image": null,
-      "pubDate": "2026-11-16T22:37:45+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-      "desc": "Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
-      "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-96950195",
-      "pubDate": "2026-11-16T22:33:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-      "desc": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
-      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-61252759",
-      "pubDate": "2026-11-16T22:30:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.",
-      "desc": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
-      "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-91803959",
-      "pubDate": "2026-11-16T22:21:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-      "desc": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
-      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-      "image": null,
-      "pubDate": "2026-11-16T22:19:02+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -467,30 +563,6 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-      "desc": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
-      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-22072072",
-      "pubDate": "2026-11-16T22:08:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "OpenAI inks agreements with four independent evaluators to boost company's safety work",
-      "desc": "Independent evaluators have taken on outsized importance following a series of high-profile AI safety and security incidents.",
-      "link": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
-      "image": null,
-      "pubDate": "2026-11-16T21:54:18+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
-      "desc": "The rule was written by the Treasury Department and the National Security Council after criticism of Commerce Secretary Howard Lutnick.",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-      "image": null,
-      "pubDate": "2026-11-16T21:51:43+00:00",
-      "source": "CNBC Markets"
-    },
-    {
       "title": "Kalshi plans to launch stock trading soon",
       "desc": "Kalshi's interest in offering stock trading shows the platform's push into traditional financial markets.",
       "link": "https://www.cnbc.com/2026/11/16/kalshi-plans-to-launch-stock-trading-soon.html",
@@ -499,11 +571,11 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "Robert Pattinson cast as next James Bond",
-      "desc": "Pattinson has been in major films this year, including Christopher Nolan's \"The Odyssey,\" and will soon appear in \"Dune: Part Three.\"",
-      "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+      "title": "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao",
+      "desc": "Anthropic's upcoming IPO is putting finance chief Krishna Rao into the limelight.",
+      "link": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html",
       "image": null,
-      "pubDate": "2026-11-16T21:03:36+00:00",
+      "pubDate": "2026-11-16T20:44:24+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -595,83 +667,11 @@
       "source": "Business Insider"
     },
     {
-      "title": "This Anthropic proxy play is getting traders' attention – here's where they see it going",
-      "desc": "There are bullish signs surrounding the Anthropic IPO in the derivatives market.",
-      "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html",
+      "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+      "desc": "Jensen Huang resigned from Nvidia last week after 33 years as CEO.",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
       "image": null,
-      "pubDate": "2026-11-16T19:06:11+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Market's Nvidia obsession obscuring an opportunity in this name",
-      "desc": "Investors might be overlooking Disney earnings.",
-      "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
-      "image": null,
-      "pubDate": "2026-11-16T18:56:49+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump says he's OK with Jensen Huang returning as Nvidia CEO, sees no national security risk",
-      "desc": "President Trump told reporters before departing for a trip to Asia that former Nvidia CEO Jensen Huang's affair did not put U.S. national security at risk.",
-      "link": "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html",
-      "image": null,
-      "pubDate": "2026-11-16T18:55:46+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-      "desc": "",
-      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-      "image": null,
-      "pubDate": "2026-11-16T18:46:07+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-      "desc": "Following the donations, the chairman emeritus of Berkshire still owns 182,140 Class A shares -- roughly $162 billion.",
-      "link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
-      "image": null,
-      "pubDate": "2026-11-16T17:39:32+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "desc": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "image": null,
-      "pubDate": "2026-11-16T17:14:13+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "'We slept here': Flight delays linger as airlines recover from ground stop, but schedule improves Monday",
-      "desc": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
-      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
-      "image": null,
-      "pubDate": "2026-11-16T15:56:39+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "A major NFT marketplace is shutting down—5 years after the boom, there's a lesson for investors",
-      "desc": "Five years after NFTs took off, a major marketplace is shutting down—here's what the boom and bust can teach investors about risky investments.",
-      "link": "https://www.cnbc.com/make-it/2026/11/16/5-years-after-the-nft-boom-theres-a-lesson-for-investors-.html",
-      "image": null,
-      "pubDate": "2026-11-16T14:00:01+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
-      "desc": "Less than a week after Jensen Huang's abrupt departure, Nvidia interim CEO Colette Kress faces a major test with earnings.",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
-      "image": null,
-      "pubDate": "2026-11-16T13:42:43+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
-      "desc": "Commerce Secretary Howard Lutnick has drawn fire for his close relationship with Nvidia CEO Jensen Huang and the department's treatment of the company.",
-      "link": "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html",
-      "image": null,
-      "pubDate": "2026-11-16T12:13:47+00:00",
+      "pubDate": "2026-11-16T19:46:26+00:00",
       "source": "CNBC Markets"
     }
   ]
