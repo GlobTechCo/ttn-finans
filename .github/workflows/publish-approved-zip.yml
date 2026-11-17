@@ -14,6 +14,8 @@ on:
       - 'TTN_Finance_Publication_Package_2026-11-16.zip'
       - '.github/workflows/publish-approved-zip.yml'
       - 'scripts/prepare_nov16_publication.py'
+      - 'scripts/normalize_gemini_publication_zip.py'
+      - 'scripts/import_publication_zip.py'
       - 'scripts/publication-source/nov16/*.md'
       - 'scripts/publication-source/nov16/*-fragment.html'
   workflow_dispatch:
