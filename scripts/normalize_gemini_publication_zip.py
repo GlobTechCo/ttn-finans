@@ -72,9 +72,10 @@ with zipfile.ZipFile(archive_path, "r") as src:
                     "new-zealand-central-bank-private-credit-global-financial-risks-november-17-2026": "image_474ceb.jpg",
                 }
                 alias = cover_aliases.get(slug)
-                source_name = next((n for n in raw if alias and Path(n).name == alias), None)
+                source_name = next((n for n in raw if alias and Path(n).stem == Path(alias).stem), None)
                 if source_name is None:
-                    raise SystemExit("Missing cover image: " + cover_name + " (also checked audited source alias)")
+                    image_names = [n for n in raw if Path(n).suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")]
+                    raise SystemExit("Missing cover image: " + cover_name + "; checked " + str(alias) + "; available image files: " + ", ".join(image_names))
                 with Image.open(BytesIO(raw[source_name])) as source_image:
                     converted = BytesIO()
                     source_image.convert("RGB").save(converted, format="WEBP", quality=90, method=6)
