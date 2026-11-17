@@ -66,6 +66,19 @@ with zipfile.ZipFile(archive_path, "r") as src:
                 for heading in fragment_doc.xpath(".//h1"):
                     heading.getparent().remove(heading)
                 body = [fragment_doc]
+            # Correct Gemini's stale internal TTN slugs to the canonical live article URLs.
+            internal_link_aliases = {
+                "anthropic-895-billion-compute-commitments-november-16-2026.html": "anthropic-895-billion-compute-commitments-ipo-2026.html",
+                "nasdaq-earlier-ai-buildout-sell-off-november-2026.html": "nasdaq-correction-ai-buildout-selloff-november-5-2026.html",
+                "us-services-growth-slows-high-costs-complicate-fed-next-move-november-2026.html": "us-ism-services-october-2026-growth-prices-fed.html",
+                "uk-cyber-agency-ai-powered-ransomware-critical-infrastructure-november-2026.html": "uk-ai-ransomware-critical-infrastructure-2028.html",
+            }
+            for link in body[0].xpath(".//a[@href]"):
+                href = (link.get("href") or "").strip()
+                for stale_slug, canonical_slug in internal_link_aliases.items():
+                    if href.endswith("/" + stale_slug):
+                        link.set("href", base + canonical_slug)
+                        break
             sources = []
             if body:
                 seen_urls = set()
