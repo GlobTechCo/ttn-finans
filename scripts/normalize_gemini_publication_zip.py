@@ -146,15 +146,10 @@ for name, data in list(raw.items()):
         body_nodes = [frag]
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
     if flat_package:
-        if slug in {
-            "jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026",
-            "nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026",
-            "software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026",
-        }:
-            for paragraph_index, paragraph in enumerate(body_nodes[0].xpath(".//p")):
-                paragraph_text = " ".join(paragraph.itertext()).strip()
-                print(f"BODY-PARAGRAPH {slug} [{paragraph_index}] ({len(paragraph_text.split())} words): {paragraph_text}")
         trim_order = {
+            "jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026": [],
+            "nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026": [17, 14],
+            "software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026": [22, 21, 19],
             "dbs-jpmorgan-tokenised-deposit-cross-border-transfers-2026": [15, 12, 10, 6],
             "south-korea-crypto-travel-rule-bill-2026": [13, 8],
             "stark-future-1-2-billion-valuation-150-million-funding-2026": [12, 7, 4],
