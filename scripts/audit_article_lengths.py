@@ -46,7 +46,12 @@ class ArticleText(HTMLParser):
 
     def handle_endtag(self, tag):
         if tag == 'p' and self.in_paragraph:
-            self.paragraphs.append(''.join(self.current))
+            paragraph = ' '.join(''.join(self.current).split())
+            if 'Related context:' in paragraph:
+                paragraph = paragraph.split('Related context:', 1)[0].strip()
+            lowered = paragraph.lower()
+            if paragraph and lowered != 'sources' and not lowered.startswith('related ttn coverage:'):
+                self.paragraphs.append(paragraph)
             self.in_paragraph = False
         if tag == 'section':
             self.in_body = False
