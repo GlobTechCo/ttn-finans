@@ -916,3 +916,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026')
 RELATED['software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('dbs-circle-24-7-usdc-institutional-access-asia-november-18-2026')
+RELATED['dbs-circle-24-7-usdc-institutional-access-asia-november-18-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('isomorphic-labs-raises-5-billion-ai-drug-discovery-november-18-2026')
+RELATED['isomorphic-labs-raises-5-billion-ai-drug-discovery-november-18-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('south-korea-chip-boom-retail-investors-consumption-november-18-2026')
+RELATED['south-korea-chip-boom-retail-investors-consumption-november-18-2026'] = []
