@@ -108,6 +108,7 @@ def refresh():
     def card(a,section):
         image=escape(a.get('imageSmall') or a['image']);srcset=a.get('imageSrcset')
         responsive=f' srcset="{escape(srcset)}" sizes="(max-width:700px) calc(100vw - 40px), 400px"' if srcset else ''
+        # Preserve the actual publication hour in the static category archives.
         parsed=datetime.datetime.fromisoformat(a['date'].replace('Z','+00:00'))
         if parsed.tzinfo is not None:
             local=parsed.astimezone(ZoneInfo('Europe/Kyiv'))
