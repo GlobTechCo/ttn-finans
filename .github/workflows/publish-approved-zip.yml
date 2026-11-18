@@ -61,6 +61,10 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
+            # Select the explicitly uploaded November 18 package when the workflow itself is updated.
+            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip" ]]; then
+              archives+=("TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip")
+            fi
             # The uploaded November 17 Gemini package predates this trigger correction; select it when this workflow is updated.
             if (( ${#archives[@]} == 0 )) && [[ -f "ttn-finance-november-17-2026.zip" ]]; then
               archives+=("ttn-finance-november-17-2026.zip")
