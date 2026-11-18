@@ -277,7 +277,7 @@ if len(articles)!=3: raise SystemExit("Expected exactly 3 article SEO records")
 raw["publication-manifest.json"]=json.dumps(articles,ensure_ascii=False,indent=2).encode()
 # The source ZIP's README is informational only and is not imported.
 for key in list(raw):
-    if key.endswith("README.txt"): raw.pop(key)
+    if Path(key).name.lower() in {"readme.txt", "readme.md"}: raw.pop(key)
 tmp=archive_path.with_suffix(".normalized.zip")
 with zipfile.ZipFile(tmp,"w",compression=zipfile.ZIP_DEFLATED) as out:
     for name,data in raw.items(): out.writestr(name,data)
