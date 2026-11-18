@@ -11,3 +11,6 @@
 .editorial-archive-grid .article-tickers{margin-top:12px}
 .static-page>.article-dek{font-size:17px;line-height:1.65;color:var(--text-dim);margin:0 0 18px}
 @media(max-width:700px){.static-page>.article-dek{font-size:16px}.static-page>.editorial-meta{font-size:12px}.editorial-archive-content{padding:16px}}
+
+/* Defensive tablet/mobile guard: if a page template or client script repeats the article dek, keep only the first visible copy. */
+.static-page> .article-dek ~ .article-dek{display:none!important}
