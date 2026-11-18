@@ -1,5 +1,5 @@
 name: Publish approved article ZIP
-# Re-run against the latest main revision whenever publication validation or canonical social metadata is corrected.
+# Re-run against the latest main revision; serialize publication after concurrent maintenance commits.
 on:
   push:
     branches: [main]
