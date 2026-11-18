@@ -36,6 +36,15 @@ with zipfile.ZipFile(archive_path, "r") as src:
             flattened = {"GEMINI_INSTRUCTIONS.txt": raw["GEMINI_INSTRUCTIONS.txt"]} if "GEMINI_INSTRUCTIONS.txt" in raw else {}
             for path, data in raw.items():
                 parts = Path(path).parts
+                item = Path(parts[-1])
+                # Preserve root-level Gemini fragments and SEO records in hybrid packages.
+                if len(parts) == 1:
+                    flattened[item.name] = data
+                    continue
+                # Keep canonical cover assets supplied under assets/editorial or assets/responsive.
+                if len(parts) == 3 and parts[0] == "assets" and parts[1] in {"editorial", "responsive"}:
+                    flattened[item.name] = data
+                    continue
                 if len(parts) != 2:
                     continue
                 folder, filename = parts
