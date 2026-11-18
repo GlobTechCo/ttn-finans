@@ -1,4 +1,4 @@
-/* Shared publication metadata for original editorial cards and article headers. */
+/* Shared publication metadata for original editorial cards and article headers. Display publication times in U.S. Eastern Time for TTN's primary audience. */
 window.TTNEditorialMeta = (() => {
   const escape = value => String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function format(value) {
@@ -7,11 +7,11 @@ window.TTNEditorialMeta = (() => {
     const timed = /T.*(?:Z|[+-]\d{2}:?\d{2})$/i.test(value);
     const date = new Date(timed ? value : String(value).slice(0,10) + 'T12:00:00Z');
     if (!Number.isFinite(date.getTime())) return '';
-    const options = {timeZone:'Europe/Kyiv', month:'short', day:'numeric', year:'numeric'};
+    const options = {timeZone:'America/New_York', month:'short', day:'numeric', year:'numeric'};
     const label = new Intl.DateTimeFormat('en-US', options).format(date);
     if (!timed) return label;
-    const clock = new Intl.DateTimeFormat('en-US', {timeZone:'Europe/Kyiv',hour:'numeric',minute:'2-digit',hour12:true}).format(date);
-    const zone = new Intl.DateTimeFormat('en-US', {timeZone:'Europe/Kyiv',timeZoneName:'short'}).formatToParts(date).find(part => part.type === 'timeZoneName').value;
+    const clock = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York',hour:'numeric',minute:'2-digit',hour12:true}).format(date);
+    const zone = new Intl.DateTimeFormat('en-US', {timeZone:'America/New_York',timeZoneName:'short'}).formatToParts(date).find(part => part.type === 'timeZoneName').value;
     return label + ' · ' + clock + ' ' + zone;
   }
   function html(article) {
