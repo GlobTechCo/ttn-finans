@@ -244,6 +244,13 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
             raw[slug + "-seo.json"] = json.dumps(meta, ensure_ascii=False).encode("utf-8")
         print("Detected three complete flat article pages; extracted publication metadata and matched cover assets.")
 
+internal_link_aliases = {
+    "anthropic-895-billion-compute-commitments-november-16-2026.html": "anthropic-895-billion-compute-commitments-ipo-2026.html",
+    "nasdaq-earlier-ai-buildout-sell-off-november-2026.html": "nasdaq-correction-ai-buildout-selloff-november-5-2026.html",
+    "us-services-growth-slows-high-costs-complicate-fed-next-move-november-2026.html": "us-ism-services-october-2026-growth-prices-fed.html",
+    "uk-cyber-agency-ai-powered-ransomware-critical-infrastructure-november-2026.html": "uk-ai-ransomware-critical-infrastructure-2028.html",
+}
+
 articles = []
 for name, data in list(raw.items()):
     if not name.endswith("-seo.json"): continue
