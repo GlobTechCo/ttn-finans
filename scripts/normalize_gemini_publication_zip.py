@@ -292,6 +292,14 @@ for name, data in list(raw.items()):
             heading.getparent().remove(heading)
         body_nodes = [frag]
     if len(body_nodes) != 1: raise SystemExit("Missing editorial body for " + slug)
+    # Rebuild the Sources block once from normalized metadata; do not retain
+    # a source list embedded in the supplied full-page HTML and append a duplicate.
+    for old_sources in list(body_nodes[0].xpath(
+        './/*[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ")]'
+    )):
+        parent = old_sources.getparent()
+        if parent is not None:
+            parent.remove(old_sources)
     if flat_package:
         trim_order = {
             "jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026": [],
