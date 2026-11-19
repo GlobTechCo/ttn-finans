@@ -134,6 +134,116 @@ with zipfile.ZipFile(archive_path, "r") as src:
                     buffer = BytesIO()
                     resized.save(buffer, format="WEBP", quality=86, method=6)
                     raw[slug + suffix] = buffer.getvalue()
+# Compatibility path for approved flat ZIPs containing complete article HTML files
+# plus their cover images, rather than separate *-seo.json and *-fragment.html files.
+if flat_package and not any(name.endswith("-seo.json") for name in raw):
+    html_candidates = [
+        name for name in raw
+        if Path(name).suffix.lower() == ".html"
+        and len(Path(name).parts) == 1
+        and not name.endswith("-fragment.html")
+    ]
+    if len(html_candidates) == 3:
+        section_aliases = {
+            "Technology": "Tech & AI", "Technology & AI": "Tech & AI",
+            "Tech and AI": "Tech & AI", "Markets": "Market Analysis",
+            "Finance": "Market Analysis", "Cryptocurrency": "Crypto",
+        }
+        for page_name in html_candidates:
+            slug = Path(page_name).stem
+            doc = html.fromstring(raw[page_name].decode("utf-8", errors="replace"))
+            h1 = doc.xpath("(//h1)[1]")
+            if not h1:
+                raise SystemExit("Article HTML has no H1: " + page_name)
+            headline = " ".join(" ".join(h1[0].itertext()).split())
+            body_nodes = doc.xpath(
+                '//*[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]'
+            )
+            if len(body_nodes) != 1:
+                body_nodes = doc.xpath("//main")
+            if len(body_nodes) != 1:
+                raise SystemExit("Cannot identify one article body in " + page_name)
+            body = body_nodes[0]
+            for heading in body.xpath(".//h1"):
+                heading.getparent().remove(heading)
+            fragment_name = slug + "-fragment.html"
+            raw[fragment_name] = html.tostring(body, encoding="utf-8", method="html")
+            dek_nodes = doc.xpath(
+                '//*[contains(concat(" ",normalize-space(@class)," ")," article-dek ") or '
+                'contains(concat(" ",normalize-space(@class)," ")," editorial-dek ")]'
+            )
+            dek = " ".join(" ".join(dek_nodes[0].itertext()).split()) if dek_nodes else ""
+            meta_desc = doc.xpath('//meta[@name="description"]/@content | //meta[@property="og:description"]/@content')
+            seo_title = doc.xpath("//head/title/text()")
+            jsonld = []
+            for node in doc.xpath('//script[@type="application/ld+json"]'):
+                try:
+                    value = json.loads(node.text or "{}")
+                    if isinstance(value, dict):
+                        jsonld.append(value)
+                except Exception:
+                    pass
+            schema = next((x for x in jsonld if x.get("@type") in ("Article", "NewsArticle")), {})
+            section_values = (
+                doc.xpath('//meta[@property="article:section"]/@content')
+                + doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," ttn-original-badge ")]/text()')
+                + [str(schema.get("articleSection") or "")]
+            )
+            section_raw = next((str(x).strip() for x in section_values if str(x).strip()), "")
+            section = section_aliases.get(section_raw, section_raw)
+            if section not in sections:
+                raise SystemExit("Missing or invalid article section in " + page_name + ": " + section_raw)
+            published_values = (
+                doc.xpath('//meta[@property="article:published_time"]/@content')
+                + doc.xpath("//time/@datetime")
+                + [str(schema.get("datePublished") or "")]
+            )
+            published = next((str(x).strip() for x in published_values if str(x).strip()), "")
+            if not published:
+                date_match = re.search(r"20\\d{2}-\\d{2}-\\d{2}", page_name)
+                published = date_match.group(0) if date_match else date.today().isoformat()
+            image_alt = doc.xpath('(//img[@src])[1]/@alt')
+            source_links, seen_source_urls = [], set()
+            for link in body.xpath(".//a[@href]"):
+                href = (link.get("href") or "").strip()
+                label = " ".join(" ".join(link.itertext()).split())
+                if href.startswith("https://") and label and href not in seen_source_urls:
+                    source_links.append({"label": label, "url": href})
+                    seen_source_urls.add(href)
+            image_files = [
+                n for n in raw
+                if Path(n).suffix.lower() in (".webp", ".png", ".jpg", ".jpeg")
+            ]
+            cover_source = next((n for n in image_files if slug in Path(n).stem), None)
+            if cover_source is None:
+                hero_refs = doc.xpath('(//main//img[@src])[1]/@src')
+                if hero_refs:
+                    hero_name = Path(hero_refs[0].split("?", 1)[0]).name
+                    cover_source = next((n for n in image_files if Path(n).name == hero_name), None)
+            if cover_source is None:
+                raise SystemExit(
+                    "Cannot match an approved cover to " + page_name
+                    + "; image files: " + ", ".join(image_files)
+                )
+            cover_target = slug + "-cover.webp"
+            if cover_source != cover_target:
+                with Image.open(BytesIO(raw[cover_source])) as source_image:
+                    converted = BytesIO()
+                    source_image.convert("RGB").save(converted, format="WEBP", quality=90, method=6)
+                    raw[cover_target] = converted.getvalue()
+            meta = {
+                "slug": slug,
+                "headline": headline,
+                "section": section,
+                "metaDescription": (meta_desc[0] if meta_desc else ""),
+                "seoTitle": (seo_title[0] if seo_title else headline),
+                "date": published,
+                "imageAlt": (image_alt[0] if image_alt and image_alt[0].strip() else headline),
+                "sources": source_links,
+            }
+            raw[slug + "-seo.json"] = json.dumps(meta, ensure_ascii=False).encode("utf-8")
+        print("Detected three complete flat article pages; extracted publication metadata and matched cover assets.")
+
 articles = []
 for name, data in list(raw.items()):
     if not name.endswith("-seo.json"): continue
