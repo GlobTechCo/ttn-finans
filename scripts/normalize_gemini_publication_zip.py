@@ -387,6 +387,15 @@ for name, data in list(raw.items()):
             link=etree.SubElement(etree.SubElement(ul,"li"),"a",href=source["url"],target="_blank",rel="noopener noreferrer")
             link.text=source["label"]
     main.append(body)
+    # Preserve the first occurrence of each HTML id; imported source fragments can
+    # repeat IDs already present in the shared page template.
+    seen_ids = set()
+    for node in doc.xpath("//*[@id]"):
+        node_id = node.get("id")
+        if node_id in seen_ids:
+            node.attrib.pop("id", None)
+        else:
+            seen_ids.add(node_id)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
     articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
     # Move package images into the importer's canonical asset folders.
