@@ -924,3 +924,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['isomorphic-labs-raises-5-billion-ai-drug-discovery-november-18-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('south-korea-chip-boom-retail-investors-consumption-november-18-2026')
 RELATED['south-korea-chip-boom-retail-investors-consumption-november-18-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('abu-dhabi-binance-crypto-asset-freeze-november-19-2026')
+RELATED['abu-dhabi-binance-crypto-asset-freeze-november-19-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('openai-coding-agents-research-november-19-2026')
+RELATED['openai-coding-agents-research-november-19-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('unicredit-germany-commerzbank-takeover-november-19-2026')
+RELATED['unicredit-germany-commerzbank-takeover-november-19-2026'] = []
