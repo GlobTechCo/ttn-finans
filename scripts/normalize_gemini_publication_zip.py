@@ -231,6 +231,14 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                     converted = BytesIO()
                     source_image.convert("RGB").save(converted, format="WEBP", quality=90, method=6)
                     raw[cover_target] = converted.getvalue()
+            with Image.open(BytesIO(raw[cover_target])) as cover_image:
+                cover_image = cover_image.convert("RGB")
+                for width, suffix in ((480, "-480.webp"), (960, "-960.webp")):
+                    height = round(cover_image.height * width / cover_image.width)
+                    resized = cover_image.resize((width, height), Image.Resampling.LANCZOS)
+                    buffer = BytesIO()
+                    resized.save(buffer, format="WEBP", quality=86, method=6)
+                    raw[slug + suffix] = buffer.getvalue()
             meta = {
                 "slug": slug,
                 "headline": headline,
