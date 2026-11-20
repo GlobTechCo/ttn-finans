@@ -294,6 +294,27 @@ for name, data in list(raw.items()):
     frag = html.fromstring("<div>" + fragment + "</div>")
     dek_node = frag.xpath(".//*[contains(concat(' ',normalize-space(@class),' '),' editorial-dek ')]")
     dek = " ".join(dek_node[0].itertext()).strip() if dek_node else ""
+    editorial_overrides = {
+        "alibaba-ai-cloud-revenue-jumps-53-infrastructure-spending-cash-flow-november-20-2026": {
+            "dek": "Alibaba's AI cloud revenue rose 53% as capital spending climbed 60%, widening free cash outflow.",
+            "seoTitle": "Alibaba AI Cloud Revenue Jumps 53% | TTN Finance",
+            "metaDescription": "Alibaba's AI cloud revenue rose 53% to RMB60.97 billion, while capital spending climbed 60% and free cash outflow widened."
+        },
+        "eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026": {
+            "dek": "EU regulators gave Czechia and Spain two months to complete national DAC8 crypto-asset reporting rules.",
+            "seoTitle": "EU Presses Czechia, Spain on DAC8 Crypto Rules | TTN Finance",
+            "metaDescription": "The European Commission gave Czechia and Spain two months to complete DAC8 rules for reporting crypto-asset transactions."
+        },
+        "wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026": {
+            "dek": "The Dow fell 1,101 points as Wall Street extended its sell-off and investors reassessed AI valuations.",
+            "seoTitle": "Wall Street Sell-Off: Dow Drops 1,101 Points | TTN Finance",
+            "metaDescription": "The Dow fell 1,101 points, the S&P 500 logged a sixth straight loss and the Nasdaq dropped 2.3% as U.S. stocks sold off."
+        }
+    }
+    editorial_override = editorial_overrides.get(slug, {})
+    dek = editorial_override.get("dek", dek)
+    seo_title = editorial_override.get("seoTitle", seo_title)
+    description = editorial_override.get("metaDescription", description)
     if not dek: dek = fallback.get("dek") or description or title
     # Enforce TTN's 70-160 character description rule using the article's own approved dek.
     if not description or len(description) < 70:
