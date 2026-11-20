@@ -322,6 +322,11 @@ for name, data in list(raw.items()):
             "dbs-jpmorgan-tokenised-deposit-cross-border-transfers-2026": [15, 12, 10, 6],
             "south-korea-crypto-travel-rule-bill-2026": [13, 8],
             "stark-future-1-2-billion-valuation-150-million-funding-2026": [12, 7, 4],
+            # November 20: remove repetitive explanatory paragraphs while preserving
+            # every key result, regulatory deadline, cash-flow figure and conclusion.
+            "alibaba-ai-cloud-revenue-jumps-53-infrastructure-spending-cash-flow-november-20-2026": [25, 24, 20, 19, 17, 15, 14, 11, 10, 8, 6, 5],
+            "eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026": [36, 35, 32, 30, 29, 27, 26, 25, 22, 20, 19, 17, 16, 14, 5],
+            "wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026": [24, 23, 22, 21, 19, 17, 15, 14, 12, 10, 9, 6, 5, 4],
         }
         paragraphs = body_nodes[0].xpath(".//p")
         for paragraph_index in sorted(trim_order.get(slug, []), reverse=True):
