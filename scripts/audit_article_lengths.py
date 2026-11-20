@@ -97,6 +97,10 @@ def audit(root=ROOT):
         rows.append(dict(id=article['id'], title=article['title'], date=article['date'],
                          type=kind, words=words, characters=len(text), minimum=minimum, maximum=maximum,
                          status='PASS' if minimum <= words <= maximum else 'FAIL'))
+        if minimum > words or words > maximum:
+            print(f"ARTICLE_TEXT_FOR_REVIEW: {article['id']} ({words} paragraph words)")
+            print(text)
+            print("END_ARTICLE_TEXT_FOR_REVIEW")
     return rows
 
 
