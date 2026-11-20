@@ -204,7 +204,18 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                 published = date_match.group(0) if date_match else date.today().isoformat()
             image_alt = doc.xpath('(//img[@src])[1]/@alt')
             source_links, seen_source_urls = [], set()
-            for link in body.xpath(".//a[@href]"):
+            # Gemini may place its bibliography outside .editorial-body.
+            # Read article-body citations and explicit bibliography blocks
+            # from this same page; never manufacture source URLs.
+            source_nodes = list(body.xpath(".//a[@href]"))
+            source_nodes += doc.xpath(
+                '//*[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ") '
+                'or contains(concat(" ",normalize-space(@class)," ")," article-sources ") '
+                'or contains(concat(" ",normalize-space(@class)," ")," sources ") '
+                'or contains(concat(" ",normalize-space(@class)," ")," citations ") '
+                'or contains(concat(" ",normalize-space(@class)," ")," references ")]//a[@href]'
+            )
+            for link in source_nodes:
                 href = (link.get("href") or "").strip()
                 label = " ".join(" ".join(link.itertext()).split())
                 if href.startswith("https://") and label and href not in seen_source_urls:
