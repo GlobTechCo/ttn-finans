@@ -932,3 +932,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['openai-coding-agents-research-november-19-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('unicredit-germany-commerzbank-takeover-november-19-2026')
 RELATED['unicredit-germany-commerzbank-takeover-november-19-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('alibaba-ai-cloud-revenue-jumps-53-infrastructure-spending-cash-flow-november-20-2026')
+RELATED['alibaba-ai-cloud-revenue-jumps-53-infrastructure-spending-cash-flow-november-20-2026'] = []
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026')
+RELATED['eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026')
+RELATED['wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026'] = []
