@@ -16,15 +16,7 @@ on:
       - 'TTN_Finance_Publication_Package_2026-11-16.zip'
       - 'TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip'
       - 'TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip'
-      - '.github/workflows/publish-approved-zip.yml'
       - 'TTN_Finance_November_19_2026.zip'
-      - 'scripts/prepare_nov16_publication.py'
-      - 'scripts/import_publication_zip.py'
-      - 'scripts/normalize_gemini_publication_zip.py'
-      - 'scripts/audit_article_lengths.py'
-      - 'intel-amazon-ai-spending-tech-selloff-october-2026.html'
-      - 'scripts/publication-source/nov16/*.md'
-      - 'scripts/publication-source/nov16/*-fragment.html'
   workflow_dispatch:
     inputs:
       archive:
@@ -64,32 +56,10 @@ jobs:
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
-            # Select the explicitly uploaded November 18 package when the workflow itself is updated.
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_November_19_2026.zip" ]]; then
-              archives+=("TTN_Finance_November_19_2026.zip")
-            fi
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip" ]]; then
-              archives+=("TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip")
-            fi
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip" ]]; then
-              archives+=("TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip")
-            fi
-            # The uploaded November 17 Gemini package predates this trigger correction; select it when this workflow is updated.
-            if (( ${#archives[@]} == 0 )) && [[ -f "ttn-finance-november-17-2026.zip" ]]; then
-              archives+=("ttn-finance-november-17-2026.zip")
-            fi
-            # A publication workflow/source update also replays the explicitly reviewed Nov. 16 package.
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Publication_Package_2026-11-16.zip" ]]; then
-              archives+=("TTN_Finance_Publication_Package_2026-11-16.zip")
-            fi
-            # Preserve the existing fallback for the previous approved batch.
-            if (( ${#archives[@]} == 0 )) && [[ -f "TTN_Finance_Three_Articles_2026-11-15.zip" ]]; then
-              archives+=("TTN_Finance_Three_Articles_2026-11-15.zip")
-            fi
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
-              publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip) ;;
+              publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-19_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip) ;;
               *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-november-17-2026.zip, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, TTN_Finance_Publication_Package_2026-11-16.zip, TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip, TTN_Finance_November_19_2026.zip, or pub_new.zip"; exit 1 ;;
             esac
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
