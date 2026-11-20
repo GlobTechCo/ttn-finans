@@ -48,9 +48,10 @@ class ArticleText(HTMLParser):
     def handle_endtag(self, tag):
         if tag == 'p' and self.in_paragraph:
             paragraph = ' '.join(''.join(self.current).split())
+            # Inline Related context links are site furniture, not article copy.
+            if 'Related context:' in paragraph:
+                paragraph = paragraph.split('Related context:', 1)[0].strip()
             if self.exclude_furniture:
-                if 'Related context:' in paragraph:
-                    paragraph = paragraph.split('Related context:', 1)[0].strip()
                 lowered = paragraph.lower()
                 if paragraph and lowered != 'sources' and not lowered.startswith('related ttn coverage:'):
                     self.paragraphs.append(paragraph)
