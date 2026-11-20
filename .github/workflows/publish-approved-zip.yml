@@ -15,6 +15,7 @@ on:
       - 'TTN_Finance_Publication_Package_2026-11-16.zip'
       - 'TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip'
       - 'TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip'
+      - '.github/workflows/publish-approved-zip.yml'
       - 'TTN_Finance_November_19_2026.zip'
       - 'scripts/prepare_nov16_publication.py'
       - 'scripts/import_publication_zip.py'
