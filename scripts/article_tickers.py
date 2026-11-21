@@ -191,15 +191,20 @@ def refresh_article_tickers(root=ROOT):
         # Remove old blocks and put tickers immediately after article copy, before sources.
         text=re.sub(r'<div\b[^>]*class="[^"]*\barticle-tickers\b[^"]*"[^>]*>.*?</div>\s*','',text,flags=re.S)
         if labels:
-            body_start=text.index('<div class="article-body">')
-            source_pos=text.find('<aside class="editorial-sources"',body_start)
-            if source_pos >= 0:
+            section_start=text.index('<section class="editorial-body">')
+            body_start=text.find('<div class="article-body">',section_start)
+            source_pos=text.find('<aside class="editorial-sources"',section_start)
+            if body_start >= 0 and source_pos > body_start:
                 body_close=text.rfind('</div>',body_start,source_pos)
                 if body_close < body_start:
                     raise ValueError(f"Could not locate article-body end: {article['id']}")
                 insert_at=body_close+len('</div>')
+            elif source_pos >= 0:
+                # Legacy pages may not wrap copy in .article-body; sources still
+                # mark the exact end of the editorial text.
+                insert_at=source_pos
             else:
-                insert_at=text.index('</section>',text.index('<section class="editorial-body">'))+len('</section>')
+                insert_at=text.index('</section>',section_start)
             text=text[:insert_at]+ticker_block(labels)+text[insert_at:]
         if labels:
             pattern=r'<script\b[^>]*src="chart\.js[^\"]*"[^>]*></script>'
