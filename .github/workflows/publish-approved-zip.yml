@@ -72,7 +72,7 @@ jobs:
             archives+=("$file")
           fi
           if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]] && git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -F -e ".github/workflows/publish-approved-zip.yml" -e "scripts/normalize_gemini_publication_zip.py" -e "scripts/import_publication_zip.py" -e "scripts/audit_article_lengths.py" >/dev/null; then
-            file="ttn-finance-publication-2026-11-21-updated.zip"
+            file="ttn-finance-publication-2026-11-21-package2-v2.zip"
             [[ -f "$file" ]] || { echo "::error::Approved archive not found: $file"; exit 1; }
             archives+=("$file")
           fi
