@@ -940,3 +940,11 @@ GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('eu-giv
 RELATED['eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026'] = []
 GROUPS.setdefault('Jobs and housing', []).append('wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026')
 RELATED['wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026')
+RELATED['bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('global-stocks-ai-selloff-9-trillion-november-21-2026')
+RELATED['global-stocks-ai-selloff-9-trillion-november-21-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('trump-data-center-tax-threat-ai-infrastructure-november-21-2026')
+RELATED['trump-data-center-tax-threat-ai-infrastructure-november-21-2026'] = []
