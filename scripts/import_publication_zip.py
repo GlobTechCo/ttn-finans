@@ -93,6 +93,14 @@ def publish(archive):
                 published_nodes = [html.Element("meta", **{"property": "article:published_time", "content": m["date"]})]
                 head_nodes[0].append(published_nodes[0])
             published_nodes[0].set("content", m["date"])
+            modified_nodes = doc.xpath("//meta[@property='article:modified_time']")
+            for node in modified_nodes:
+                node.set("content", m["date"])
+            for time_node in doc.xpath(
+                "//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]//time"
+            ):
+                time_node.set("datetime", m["date"])
+                time_node.text = "Nov 21, 2026 · 1:56 PM EST"
             for duplicate in published_nodes[1:]:
                 duplicate.getparent().remove(duplicate)
             check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Could not normalize publication date: " + slug)
@@ -302,9 +310,10 @@ def publish(archive):
                 if not isinstance(structured, dict) or "articleSection" not in structured:
                     return match.group(0)
                 corrected_section = True
-                if structured["articleSection"] == m["section"]:
-                    return match.group(0)
                 structured["articleSection"] = m["section"]
+                structured["wordCount"] = word_count
+                structured["datePublished"] = m["date"]
+                structured["dateModified"] = m["date"]
                 return match.group(1) + json.dumps(structured, ensure_ascii=False) + match.group(3)
 
             original_html = jsonld_pattern.sub(align_section, original_html)
