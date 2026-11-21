@@ -99,6 +99,11 @@ MENTIONS = {
     'Nasdaq Composite': r'\bNasdaq\s+Composite\b',
     'Nasdaq-100': r'\bNasdaq[-\s]+100\b',
     'Dow Jones': r'\bDow(?:\s+Jones)?\s+Industrial\s+Average\b',
+    'MSFT': r'\bMicrosoft\b',
+    'GOOGL': r'\bGoogle\b|\bAlphabet\b',
+    'META': r'\bMeta\b',
+    'AAPL': r'\bApple\b',
+    'AMZN': r'\bAmazon\b',
     'BTC': r'\bBitcoin\b|\bBTC\b',
     'ETH': r'\bEthereum\b|\bEther\b|\bETH\b',
     'SOL': r'\bSolana\b',
@@ -170,11 +175,19 @@ def refresh_article_tickers(root=ROOT):
         # Existing controls can retain their familiar labels and markup. Rebuild
         # only incomplete/wrong blocks, so this is not a site-wide layout rewrite.
         actual_symbols=[s for _,s in actual]
-        if sorted(actual_symbols)!=sorted(s for _,s in expected) or len(actual_symbols)!=len(set(actual_symbols)) or any(not e.get('data-label') for e in tags):
-            text=re.sub(r'<div\b[^>]*class="article-tickers"[^>]*>.*?</div>\s*','',text,flags=re.S)
-            if labels:
-                body_end=text.index('</section>',text.index('<section class="editorial-body">'))+len('</section>')
-                text=text[:body_end]+ticker_block(labels)+text[body_end:]
+        # Remove old blocks and put tickers immediately after article copy, before sources.
+        text=re.sub(r'<div\b[^>]*class="[^"]*\barticle-tickers\b[^"]*"[^>]*>.*?</div>\s*','',text,flags=re.S)
+        if labels:
+            body_start=text.index('<div class="article-body">')
+            source_pos=text.find('<aside class="editorial-sources"',body_start)
+            if source_pos >= 0:
+                body_close=text.rfind('</div>',body_start,source_pos)
+                if body_close < body_start:
+                    raise ValueError(f"Could not locate article-body end: {article['id']}")
+                insert_at=body_close+len('</div>')
+            else:
+                insert_at=text.index('</section>',text.index('<section class="editorial-body">'))+len('</section>')
+            text=text[:insert_at]+ticker_block(labels)+text[insert_at:]
         if labels:
             pattern=r'<script\b[^>]*src="chart\.js[^\"]*"[^>]*></script>'
             script=f'<script defer src="chart.js?v={version}"></script>'
