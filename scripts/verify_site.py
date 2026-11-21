@@ -127,8 +127,8 @@ def verify():
         assert 'article-share.css' in share_styles, (a['id'], 'missing share stylesheet')
         assert 'article-share.js' in share_scripts, (a['id'], 'missing share script')
         from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH
-        site_footers=doc.xpath('//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]')
-        assert len(site_footers)==1 and not doc.xpath('//main//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]'),(a['id'],'duplicate or misplaced site footer')
+        site_footers=doc.xpath('//footer')
+        assert len(site_footers)==1 and not doc.xpath('//main//footer'),(a['id'],'duplicate or misplaced site footer')
         ticker_labels=expected_tickers(a,doc)
         ticker_tags=doc.xpath(TAG_XPATH)
         ticker_blocks=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-tickers ")]')
