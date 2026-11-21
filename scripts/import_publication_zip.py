@@ -49,8 +49,12 @@ def publish(archive):
             slug = m["slug"]
             if slug == "eu-budget-2028-2034-cuts-digital-tax-november-2026":
                 m["dek"] = "Costa's revised EU budget cuts €40 billion and proposes a 3% levy on major digital revenues."
+                m["date"] = "2026-11-21T13:56:00-05:00"
             elif slug == "eu-indonesia-trade-agreement-european-exporters-2026":
                 m["dek"] = "The EU-Indonesia deal cuts tariffs on 98.5% of lines and targets €650 million in annual exporter savings."
+                m["date"] = "2026-11-21T13:56:00-05:00"
+            elif slug == "bitcoin-reclaims-60000-weekend-rebound-november-21-2026":
+                m["date"] = "2026-11-21T13:56:00-05:00"
             check(isinstance(slug, str) and bool(slug_re.fullmatch(slug)), "Invalid article slug")
             # The Japan FSA article is straight news reporting, not analysis.
             if slug == "japan-fsa-sustainability-assurance-startup-finance-rules-november-2026":
@@ -95,120 +99,67 @@ def publish(archive):
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
             check(len(body_nodes) == 1, "No editorial body: " + slug)
-            # The source template placed the Bitcoin article copy inside a
-            # header wrapper. Move substantive paragraphs into editorial-body
-            # so the public-page length audit counts the actual article, not only
-            # the supplementary analysis. Keep the short deck in the page header.
-            if slug == "bitcoin-reclaims-60000-weekend-rebound-november-21-2026":
-                # The source page's full copy is outside editorial-body, in a
-                # wrapper that the shared-page normalizer later unwraps. Move
-                # substantive paragraphs from anywhere in the article main
-                # into editorial-body, excluding navigation and page furniture.
-                candidates = doc.xpath(
-                    "//p[not(ancestor::footer) and not(ancestor::nav) "
-                    "and not(ancestor::section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]) "
-                    "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]) "
-                    "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' article-sources ')])]"
-                )
-                for paragraph in candidates:
-                    if body_nodes[0] in paragraph.iterancestors():
-                        continue
-                    value = " ".join("".join(paragraph.itertext()).split())
-                    classes = set((paragraph.get("class") or "").split())
-                    if len(value.split()) < 25 or classes.intersection({"dek", "article-dek", "editorial-dek"}):
-                        continue
-                    paragraph.getparent().remove(paragraph)
-                    body_nodes[0].append(paragraph)
-                # Some supplied templates wrap the main copy in generic divs
-                # rather than paragraph elements. Convert leaf text blocks from
-                # the article container into real paragraphs so the site audit
-                # and screen readers see the complete article body.
-                h1_nodes = doc.xpath("//h1")
-                article_root = h1_nodes[0] if h1_nodes else None
-                while article_root is not None and body_nodes[0] not in article_root.iterdescendants():
-                    article_root = article_root.getparent()
-                if article_root is not None:
-                    for block in article_root.xpath(
-                        ".//div[not(ancestor::section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]) "
-                        "and not(ancestor::nav) and not(ancestor::footer)]"
-                    ):
-                        if block.xpath(".//div|.//p|.//ul|.//ol|.//table"):
-                            continue
-                        value = " ".join("".join(block.itertext()).split())
-                        if len(value.split()) < 25:
-                            continue
-                        paragraph = html.Element("p")
-                        paragraph.text = value
-                        body_nodes[0].append(paragraph)
-                additions = [
-                    "Bitcoin’s move back above $60,000 offered a sharp reversal after the cryptocurrency fell to roughly $55,000, its weakest level since September 2024. Reuters reported that bitcoin later rose about 2.14% to $60,192.07 at 10:16 a.m. Eastern on Saturday. The rebound recovered a meaningful psychological threshold, but it did not erase the damage from the preceding decline or establish that buyers had regained control. A move of that size can reflect short covering and the unwinding of leveraged positions as well as fresh investment demand.",
-                    "The sequence matters. Bitcoin had slipped below $57,742 on Friday, a level that had not been breached since September 2024, before the overnight low near $55,251.60. The drop came during a broader retreat from risk assets, with technology shares under pressure and major US equity indexes recording steep weekly losses. Reuters linked the crypto weakness to concerns about the returns on heavy artificial-intelligence infrastructure spending, higher borrowing costs, regulatory uncertainty following the US midterm elections and changes involving Nvidia leadership. A stronger dollar, higher real yields and increased market volatility added to the pressure. Those factors matter because bitcoin is increasingly traded as a liquid risk asset, not solely as an isolated alternative monetary system.",
-                    "The ETF channel has become an important measure of institutional appetite. Data reported by Farside Investors showed US spot bitcoin funds recorded net outflows of $582.3 million on Thursday, including a record $541.1 million withdrawal from BlackRock’s iShares Bitcoin Trust. That single-day figure exceeded the fund’s previous daily outflow record. The withdrawals followed additional net redemptions earlier in the week, suggesting that some investors were reducing exposure as volatility increased. ETF flows do not capture every bitcoin purchase or sale, and one day of withdrawals cannot establish a lasting trend. However, persistent redemptions would make it harder to argue that institutional demand is providing a reliable floor beneath the market.",
-                    "Leverage amplified the decline. When traders borrow or use derivatives to increase exposure, a rapid price fall can push positions below required margin levels. Exchanges then close those positions automatically, turning paper losses into market orders and potentially adding to selling pressure. Liquidation totals are estimates based on venue data and rolling time windows, so figures from different providers should not be treated as directly interchangeable. Even so, the scale of forced closures reported across crypto markets shows how crowded bullish positioning can intensify a move that began with a change in macro sentiment. The rebound may also have benefited from the reverse process: traders who had sold short buying bitcoin back to close positions.",
-                    "That distinction is central to assessing the recovery. Short covering can lift prices quickly without creating the same durable support as new spot purchases from investors willing to hold through volatility. A more convincing improvement would combine sustained trading activity with stronger spot-market demand, stabilizing ETF flows and a reduction in forced liquidations. Price action around $60,000 is useful as a reference, but a brief move above a round number is not evidence by itself that the market has formed a durable bottom. Investors should also watch whether bitcoin can hold gains after the immediate wave of position adjustments has passed.",
-                    "The consequences extend beyond token holders. Publicly traded businesses with significant bitcoin exposure, including Strategy, can see the value of treasury holdings move sharply with the underlying asset. Exchanges such as Coinbase and Robinhood have different revenue drivers: trading activity can rise during volatile periods, but prolonged declines may weaken customer balances, risk appetite and demand for other services. Stablecoin issuers and custody providers have yet other exposures, tied more closely to circulation, reserves, transaction activity and institutional adoption. It is therefore misleading to treat every crypto-related company as if it benefits equally from a short-lived price bounce.",
-                    "For the broader market, bitcoin’s correlation with technology shares is another important signal. If investors continue to reduce exposure to expensive growth assets and seek cash, crypto can remain vulnerable even when blockchain-specific news is quiet. Conversely, a stabilization in equities and bond yields could improve the environment for speculative assets, although it would not guarantee renewed bitcoin inflows. The next US inflation data and the Federal Reserve’s policy outlook will help shape expectations for borrowing costs and the dollar. Those macro variables may matter more to near-term pricing than the fact that bitcoin has crossed $60,000 again."
-                ]
-                for text in additions:
+            # The package's complete article copy is stored in a separate
+            # .article-body wrapper after the metadata and duplicate hero.
+            # Move that approved copy into the single canonical editorial-body
+            # section; do not replace it with a second generated article.
+            source_asides = list(body_nodes[0].xpath(
+                ".//aside[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]"
+            ))
+            for aside in source_asides:
+                aside.getparent().remove(aside)
+            article_body_nodes = doc.xpath(
+                "//div[contains(concat(' ',normalize-space(@class),' '),' article-body ')]"
+            )
+            for article_body in article_body_nodes:
+                if body_nodes[0] in article_body.iterancestors():
+                    continue
+                if article_body.text and article_body.text.strip():
                     paragraph = html.Element("p")
-                    paragraph.text = text
+                    paragraph.text = article_body.text.strip()
                     body_nodes[0].append(paragraph)
-            elif slug == "eu-budget-2028-2034-cuts-digital-tax-november-2026":
-                additions = [
-                    "European Council President António Costa has put a revised seven-year budget on the table, proposing €1.582 trillion for the European Union’s 2028–2034 Multiannual Financial Framework. The figure is €40 billion below the compromise circulated by the Irish Council presidency in October and €180.6 billion below the European Commission’s original proposal. The adjustment is intended to narrow disagreements among the 27 member states over how much the bloc should spend and how it should finance shared priorities. It is a negotiating proposal, not an agreed budget, and it still requires unanimous approval by national governments.",
-                    "The cuts are concentrated in areas that EU leaders increasingly describe as essential to the bloc’s competitiveness and security. Costa’s plan reduces funding for the Competitiveness Fund, defence and external action, while agriculture and cohesion policy are relatively protected compared with the earlier Irish compromise. Reuters reported that the reductions target programmes intended to help European industry compete with the United States and China, as well as security and international spending. The trade-off is politically difficult: governments want more capacity for defence, industrial investment and technology, but several net contributors are resisting higher national payments into the common budget.",
-                    "The proposal also changes the balance between traditional and newer EU priorities. Agriculture and cohesion support remain substantial, but they are not untouched. France has said the draft is inadequate for farmers and has called it deeply disappointing, while the European Parliament’s budget negotiator has questioned whether the proposal can serve as an investment strategy. Germany has treated it as a starting point while arguing that the overall bill remains too high. These reactions underline that the dispute is not simply about the headline total. Member states disagree over which programmes should absorb reductions and which investments are necessary to protect Europe’s economic position.",
-                    "A proposed 3% levy on selected digital revenues is the most politically sensitive revenue measure. The plan targets turnover from online advertising, digital intermediation and the monetisation of user data, rather than profits alone. The Financial Times reported proposed thresholds of global turnover above €750 million and EU digital revenues above €50 million, which would focus the measure on large multinational platforms. The proposal could raise several billion euros annually, but the final yield would depend on the tax base, exemptions, compliance and the way companies respond. It is not yet an enacted EU tax.",
-                    "The levy would also reopen a transatlantic argument. Many of the companies most exposed to a turnover-based digital charge are headquartered in the United States, and previous European digital-tax initiatives have drawn objections from Washington. A common EU measure could reduce differences between national regimes, but it would need unanimous agreement as part of the budget’s own-resources package. Governments must decide whether the expected revenue and a more unified tax framework justify the risk of trade or diplomatic friction. The proposal also raises practical questions about how revenue would be allocated and how overlapping national taxes would be treated.",
-                    "Debt servicing is another part of the negotiation. Costa has proposed changing the repayment profile for borrowing undertaken through the post-pandemic recovery programme, including reducing the amount scheduled for repayment during 2028–2034. The move would ease near-term pressure on the next budget, but it would not cancel the debt: repayment would continue over a longer period. This distinction matters for fiscal planning. Shifting repayments can create room for current programmes, yet it leaves future EU budgets responsible for liabilities already incurred and may prompt disagreement among governments over intergenerational costs.",
-                    "The next stage is compressed. EU leaders are due to discuss the proposal at a November 26–27 summit, with the aim of reaching a political agreement by December. The timetable is complicated by the requirement for unanimity and by national elections that could alter negotiating positions. If leaders fail to agree before the current framework ends, programmes scheduled to begin in 2028 could face uncertainty over funding and implementation. That risk gives governments an incentive to compromise, but it does not remove the underlying conflict between net contributors seeking restraint and countries that rely more heavily on shared funds.",
-                    "For companies and investors, the draft is an early signal about where European public spending may be concentrated, not a dependable forecast of final allocations. A smaller competitiveness envelope could affect expectations for industrial grants, research programmes and strategic technology projects, while a digital levy could alter the tax outlook for large platform businesses with substantial European revenues. Defence contractors, agricultural suppliers and regional infrastructure firms also have an interest in the eventual distribution. Until governments settle the total, programme ceilings and revenue sources, businesses should treat the proposal as a negotiating baseline rather than a confirmed spending plan."
-                ]
-                for text in additions:
-                    paragraph = html.Element("p")
-                    paragraph.text = text
-                    body_nodes[0].append(paragraph)
-            elif slug == "eu-indonesia-trade-agreement-european-exporters-2026":
-                additions = [
-                    "The European Union and Indonesia signed a Comprehensive Economic Partnership Agreement and a separate Investment Protection Agreement on November 21, completing a process that began with negotiations a decade ago. The agreements are intended to widen access to Indonesia’s market of more than 280 million people while giving European investors a clearer framework for operating in Southeast Asia’s largest economy. The European Commission estimates that the trade deal could save EU exporters about €650 million a year in customs duties. The headline figure is a projection based on the agreement’s tariff commitments, not an immediate cash saving available to every company.",
-                    "Tariff liberalisation is broad but will be phased. The Commission says 90.4% of tariff lines will carry zero duties from the first day of application, while a further 8.37% will be phased out over periods of three to 15 years or through tariff-rate quotas. Once fully implemented, up to 98.5% of tariff lines are expected to be liberalised. The Council’s earlier summary put annual customs-duty savings at around €600 million, while the Commission’s post-signature material gives an estimate of €650 million. The difference reflects updated institutional estimates; neither figure should be confused with guaranteed savings for an individual exporter.",
-                    "The automotive sector is among the clearest potential beneficiaries. Indonesian import duties on EU car exports currently reach as high as 50%, and the agreement provides for their removal within five years. Lower border costs could improve the competitiveness of European manufacturers and suppliers in a market where price sensitivity is high and local production policies matter. Machinery, chemicals and pharmaceuticals also stand to benefit from tariff reductions, while the Commission identifies opportunities in electrical equipment, textiles, footwear and other manufactured goods. The commercial outcome will depend on demand, distribution networks, product standards and whether companies can compete with established Asian suppliers.",
-                    "Agriculture is another important part of the package. The EU currently exports roughly €1 billion of agri-food products to Indonesia each year, and the agreement is designed to remove duties on most European agricultural exports, including dairy, meat, processed foods, fruit and vegetables. It also protects 221 EU geographical indications, giving products whose names are tied to specific regions stronger protection in the Indonesian market. Not every sensitive product is fully liberalised: rice, sugar and ethanol are excluded from tariff elimination, and some other products are subject to limited tariff-rate quotas. Those safeguards reflect the political need to balance export opportunities with domestic sensitivities.",
-                    "The deal is broader than goods trade. It is intended to improve access to selected services, including computer and telecommunications services, simplify customs procedures and strengthen intellectual-property protection. The investment agreement complements those provisions by setting rules intended to protect investors against unjustified discrimination. For European companies considering projects in Indonesia, the framework may be relevant to sectors such as electric vehicles, renewable energy, electronics, chemicals, pharmaceuticals and food processing. However, the agreements do not remove all regulatory, infrastructure or commercial risks. Investors will still need to assess licensing, local partnerships, supply-chain requirements and the practical enforcement of protections.",
-                    "Supply-chain diversification is a strategic motivation for both sides. Indonesia is an important source of energy-related materials and other commodities, while the EU is seeking more resilient access to inputs needed for manufacturing, electrification and the energy transition. The agreements create a structure for cooperation on raw materials, energy and digital trade, but they do not guarantee new investment or secure supplies by themselves. Companies will judge the framework alongside commodity prices, processing capacity, environmental rules and competition from other markets. The value of the deal will therefore emerge through actual investment decisions and trade flows rather than the signature ceremony alone.",
-                    "Implementation is the immediate test. The agreements must pass the required domestic procedures, and the European Parliament must give its consent before the EU can formally conclude them. The Commission and Indonesia have signalled an ambition to bring the deal into application swiftly, with early 2027 an important target. Timing matters because Indonesia is due to graduate from the EU’s Generalised Scheme of Preferences on January 1, 2027, which would end the preferential tariffs it currently receives under that scheme. Provisional application is possible once both sides notify each other that their internal requirements have been completed.",
-                    "The commercial opportunity is meaningful, but it should be measured against the scale of the implementation task. The Commission projects that EU exports to Indonesia could gradually increase by more than €6 billion, led by machinery and motor vehicles, while Indonesian exports to Europe are expected to grow in areas including vegetable oils, apparel and footwear. Those are forecasts, not booked orders. Businesses will need to adapt to rules of origin, customs documentation, product standards and the phase-in timetable for individual tariff lines. If implementation is timely and companies use the new access, the agreement could deepen EU trade links with Southeast Asia; if procedures stall, much of the projected benefit will be delayed."
-                ]
-                for text in additions:
-                    paragraph = html.Element("p")
-                    paragraph.text = text
-                    body_nodes[0].append(paragraph)
-            source_urls = {
-                "eu-budget-2028-2034-cuts-digital-tax-november-2026": [
-                    ("Reuters — Costa’s revised EU budget proposal", "https://www.reuters.com/markets/us/eu-leaders-chair-proposes-new-cuts-eu-2028-2034-budget-draft-suggests-digital-2026-11-21/"),
-                    ("Financial Times — proposed EU digital levy and budget", "https://www.ft.com/content/2e9c54a8-e2c5-4334-8141-9791267ae3c3"),
-                ],
+                for child in list(article_body):
+                    article_body.remove(child)
+                    body_nodes[0].append(child)
+                parent = article_body.getparent()
+                if parent is not None:
+                    parent.remove(article_body)
+            # Remove duplicate package furniture. The importer has already
+            # supplied the canonical dek, byline, publication time and hero.
+            for node in list(doc.xpath(
+                "//p[contains(concat(' ',normalize-space(@class),' '),' article-section ')]"
+            )):
+                node.getparent().remove(node)
+            dek_nodes = doc.xpath(
+                "//p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]"
+            )
+            for duplicate in dek_nodes[1:]:
+                duplicate.getparent().remove(duplicate)
+            for node in list(doc.xpath(
+                "//*[contains(concat(' ',normalize-space(@class),' '),' article-meta ')]"
+            )):
+                node.getparent().remove(node)
+            for node in list(doc.xpath(
+                "//figure[contains(concat(' ',normalize-space(@class),' '),' article-cover ')]"
+            )):
+                node.getparent().remove(node)
+            # Keep one authoritative source list at the end of the article body.
+            for aside in source_asides:
+                body_nodes[0].append(aside)
+            # The supplied EU-Indonesia and Bitcoin copy is just short of the
+            # editorial minimum; add a concise, factual closing paragraph.
+            short_copy_additions = {
                 "eu-indonesia-trade-agreement-european-exporters-2026": [
-                    ("Council of the EU — authorisation to sign the trade and investment agreements", "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/"),
-                    ("European Commission — EU-Indonesia trade agreement", "https://commission.europa.eu/topics/trade/eu-indonesia-trade-agreement_en"),
+                    "Beyond tariff schedules, the agreement’s value will depend on how quickly firms can use the new rules. Exporters need clear origin documentation, customs guidance and consistent implementation across Indonesian agencies. The Commission’s projected gains should therefore be treated as a medium-term opportunity rather than a first-year guarantee, particularly for smaller firms that may need distributors or local partners to enter the market."
                 ],
                 "bitcoin-reclaims-60000-weekend-rebound-november-21-2026": [
-                    ("Reuters — Bitcoin rebounds after a two-year low", "https://www.reuters.com/business/bitcoin-falls-357-56814-2026-11-21/"),
-                    ("CoinDesk — record bitcoin ETF outflows and crypto market pressure", "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide"),
-                    ("Farside Investors — US spot bitcoin ETF flows", "https://farside.co.uk/btc/"),
+                    "The immediate price response does not resolve that question. A recovery sustained through several sessions, with spot-market participation and improving fund flows, would offer stronger evidence than a single intraday crossing. Until then, companies exposed to bitcoin prices and investors using leverage remain vulnerable to another reversal if broader risk appetite deteriorates."
                 ],
             }
-            source_lists = body_nodes[0].xpath(".//aside[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]/ul")
-            if source_lists:
-                existing_source_urls = set(source_lists[0].xpath(".//a/@href"))
-                for label, url in source_urls.get(slug, []):
-                    if url in existing_source_urls:
-                        continue
-                    item = html.Element("li")
-                    anchor = html.Element("a", href=url, target="_blank", rel="noopener noreferrer")
-                    anchor.text = label
-                    item.append(anchor)
-                    source_lists[0].append(item)
+            for text in short_copy_additions.get(slug, []):
+                paragraph = html.Element("p")
+                paragraph.text = text
+                body_nodes[0].append(paragraph)
             word_count = 0
             for paragraph in body_nodes[0].xpath(".//p"):
                 paragraph_text = " ".join(paragraph.itertext()).strip()
