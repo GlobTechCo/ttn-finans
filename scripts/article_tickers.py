@@ -208,7 +208,7 @@ def refresh_article_tickers(root=ROOT):
     for article in articles:
         page=root/(article['id']+'.html');text=page.read_text();before=text
         # Collapse duplicate shared footers and keep the sole footer after </main>.
-        footer_pattern=r'<footer\b[^>]*class="[^"]*\bttn-footer\b[^"]*"[^>]*>.*?</footer>'
+        footer_pattern=r'<footer\b[^>]*>.*?</footer>'
         footer_matches=list(re.finditer(footer_pattern,text,flags=re.S|re.I))
         for match in reversed(footer_matches[:-1]):
             text=text[:match.start()]+text[match.end():]
