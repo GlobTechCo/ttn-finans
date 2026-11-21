@@ -27,6 +27,8 @@ class ArticleText(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.in_body = False
         self.body_section_depth = 0
+        self.body_root_tag = None
+        self.void_tags = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
         self.in_paragraph = False
         self.exclude_furniture = False
         self.paragraphs = []
@@ -36,12 +38,12 @@ class ArticleText(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
-        if tag == 'section':
-            if not self.in_body and 'editorial-body' in attrs.get('class', '').split():
-                self.in_body = True
-                self.body_section_depth = 1
-            elif self.in_body:
-                self.body_section_depth += 1
+        if not self.in_body and 'editorial-body' in attrs.get('class', '').split():
+            self.in_body = True
+            self.body_root_tag = tag
+            self.body_section_depth = 1
+        elif self.in_body and tag not in self.void_tags:
+            self.body_section_depth += 1
         if self.in_body and tag == 'p':
             self.in_paragraph = True
             self.current = []
@@ -63,11 +65,12 @@ class ArticleText(HTMLParser):
             else:
                 self.paragraphs.append(paragraph)
             self.in_paragraph = False
-        if tag == 'section' and self.in_body:
+        if self.in_body and tag not in self.void_tags:
             self.body_section_depth -= 1
             if self.body_section_depth <= 0:
                 self.in_body = False
                 self.body_section_depth = 0
+                self.body_root_tag = None
         if tag == 'script':
             self.in_schema = False
 
