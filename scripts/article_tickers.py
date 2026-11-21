@@ -194,7 +194,7 @@ def expected_tickers(article, doc):
 
 def matching_section_close(source, start):
     depth=0
-    for match in re.finditer(r'</?section\\b[^>]*>',source[start:],flags=re.I):
+    for match in re.finditer(r'</?section\b[^>]*>',source[start:],flags=re.I):
         if match.group(0).startswith('</'):
             depth-=1
         else:
