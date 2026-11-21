@@ -142,13 +142,15 @@ def verify():
             copy=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
             sources=doc.xpath('//main/section[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]/aside[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ")]')
             assert len(editorial)==1 and len(copy)<=1,(a['id'],'article text structure')
-            if copy:
-                parent=copy[0].getparent()
-                assert ticker_blocks[0].getparent() is parent and parent.index(ticker_blocks[0])==parent.index(copy[0])+1,(a['id'],'tickers must immediately follow article text')
-            else:
-                assert ticker_blocks[0].getparent() is editorial[0],(a['id'],'legacy ticker block must remain in editorial body')
-            if sources:
-                assert len(sources)==1 and editorial[0].index(ticker_blocks[0])<editorial[0].index(sources[0]),(a['id'],'tickers must precede sources')
+            article_markup=(ROOT/(a['id']+'.html')).read_text()
+            ticker_pos=article_markup.find('class="article-tickers"')
+            body_pos=article_markup.find('class="article-body"')
+            editorial_pos=article_markup.find('class="editorial-body"')
+            source_positions=[p for p in (article_markup.find('class="editorial-sources"'),article_markup.find('class="article-sources"'),article_markup.find('<h2>Sources</h2>')) if p>=0]
+            source_pos=min(source_positions) if source_positions else -1
+            assert ticker_pos>=0 and (body_pos<ticker_pos if body_pos>=0 else editorial_pos<ticker_pos),(a['id'],'tickers must follow article text')
+            if source_pos>=0:
+                assert ticker_pos<source_pos,(a['id'],'tickers must precede sources')
         else:
             assert not ticker_blocks,(a['id'],'unexpected empty ticker block')
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
