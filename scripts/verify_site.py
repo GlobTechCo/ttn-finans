@@ -142,9 +142,11 @@ def verify():
             copy=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
             sources=doc.xpath('//main/section[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]/aside[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ")]')
             assert len(editorial)==1 and len(copy)<=1,(a['id'],'article text structure')
-            assert ticker_blocks[0].getparent() is editorial[0],(a['id'],'ticker block must remain inside editorial body')
             if copy:
-                assert editorial[0].index(ticker_blocks[0])==editorial[0].index(copy[0])+1,(a['id'],'tickers must immediately follow article text')
+                parent=copy[0].getparent()
+                assert ticker_blocks[0].getparent() is parent and parent.index(ticker_blocks[0])==parent.index(copy[0])+1,(a['id'],'tickers must immediately follow article text')
+            else:
+                assert ticker_blocks[0].getparent() is editorial[0],(a['id'],'legacy ticker block must remain in editorial body')
             if sources:
                 assert len(sources)==1 and editorial[0].index(ticker_blocks[0])<editorial[0].index(sources[0]),(a['id'],'tickers must precede sources')
         else:
