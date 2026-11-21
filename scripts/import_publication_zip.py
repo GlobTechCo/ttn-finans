@@ -91,7 +91,8 @@ def publish(archive):
                 # substantive paragraphs from anywhere in the article main
                 # into editorial-body, excluding navigation and page furniture.
                 candidates = doc.xpath(
-                    "//main//p[not(ancestor::footer) and not(ancestor::nav) "
+                    "//p[not(ancestor::footer) and not(ancestor::nav) "
+                    "and not(ancestor::section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]) "
                     "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]) "
                     "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' article-sources ')])]"
                 )
