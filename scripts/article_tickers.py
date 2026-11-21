@@ -219,20 +219,18 @@ def refresh_article_tickers(root=ROOT):
             text=text[:match.start()]+text[match.end():]
         footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
         if footer_match:
-            main_close=text.lower().find('</main>')
-            if main_close >= 0 and footer_match.start() < main_close:
-                footer_html=footer_match.group()
-                text=text[:footer_match.start()]+text[footer_match.end():]
-                main_close=text.lower().find('</main>')+len('</main>')
-                text=text[:main_close]+'\n'+footer_html+text[main_close:]
+            footer_html=footer_match.group()
+            text=text[:footer_match.start()]+text[footer_match.end():]
         else:
             # Some legacy article pages have no footer at all. Add the canonical
             # site footer and move cookie preferences into it rather than duplicate the control.
             text=re.sub(r'<button\b[^>]*data-cookie-preferences[^>]*>.*?</button>\s*','',text,flags=re.S|re.I)
-            main_close=text.lower().find('</main>')
-            if main_close >= 0:
-                main_close+=len('</main>')
-                text=text[:main_close]+'\n'+shared_footer+text[main_close:]
+            footer_html=shared_footer
+        # Put the sole footer after article sources and related reading, immediately before body end.
+        if '</body>' in text:
+            text=text.replace('</body>','\n'+footer_html+'</body>',1)
+        else:
+            text+=footer_html
         if re.search(r'<link\b[^>]*href=["\']footer\.css(?:\?[^"\']*)?["\']',text,re.I) is None:
             text=text.replace('</head>','<link rel="stylesheet" href="footer.css"></head>',1)
         doc=html.fromstring(text);labels=expected_tickers(article,doc)
