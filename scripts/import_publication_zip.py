@@ -264,6 +264,26 @@ def publish(archive):
                 if parent is not None:
                     parent.remove(share_block)
             main_nodes = final_doc.xpath("//main")
+            if not main_nodes:
+                # Gemini's complete-page template can omit the semantic main
+                # landmark. Wrap the smallest shared ancestor of the article H1
+                # and editorial body, preserving the surrounding site header/footer.
+                h1_nodes = final_doc.xpath("//h1")
+                article_bodies = final_doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
+                check(len(h1_nodes) == 1 and len(article_bodies) == 1, "Cannot identify article content for main landmark: " + slug)
+                body_node = article_bodies[0]
+                candidate = h1_nodes[0]
+                while candidate is not None and not (candidate is body_node or body_node in candidate.iterdescendants()):
+                    candidate = candidate.getparent()
+                check(candidate is not None and candidate.tag.lower() != "body", "Cannot isolate article content for main landmark: " + slug)
+                parent = candidate.getparent()
+                check(parent is not None, "Article content has no parent for main landmark: " + slug)
+                position = parent.index(candidate)
+                main = html.Element("main")
+                parent.remove(candidate)
+                parent.insert(position, main)
+                main.append(candidate)
+                main_nodes = [main]
             check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
             main_nodes[0].set("id", "main-content")
             main_nodes[0].set("tabindex", "-1")
