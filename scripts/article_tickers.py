@@ -217,6 +217,8 @@ def refresh_article_tickers(root=ROOT):
         footer_matches=list(re.finditer(footer_pattern,text,flags=re.S|re.I))
         for match in reversed(footer_matches[:-1]):
             text=text[:match.start()]+text[match.end():]
+        year_script_pattern=r'<script\b[^>]*>\s*document\.getElementById\(["\']year["\']\)\.textContent\s*=\s*new Date\(\)\.getFullYear\(\);\s*</script>'
+        text=re.sub(year_script_pattern,'',text,flags=re.S|re.I)
         footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
         if footer_match:
             footer_html=footer_match.group()
@@ -226,11 +228,15 @@ def refresh_article_tickers(root=ROOT):
             # site footer and move cookie preferences into it rather than duplicate the control.
             text=re.sub(r'<button\b[^>]*data-cookie-preferences[^>]*>.*?</button>\s*','',text,flags=re.S|re.I)
             footer_html=shared_footer
-        # Put the sole footer after article sources and related reading, immediately before body end.
+        if 'id="year"' not in footer_html:
+            footer_html=re.sub(r'<span([^>]*)>\s*2026\s*</span>',r'<span\1 id="year">2026</span>',footer_html,count=1)
+        year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>' if 'id="year"' in footer_html else ''
+        # Put the sole footer after article sources and related reading; run its year
+        # updater after the footer exists in the document.
         if '</body>' in text:
-            text=text.replace('</body>','\n'+footer_html+'</body>',1)
+            text=text.replace('</body>','\n'+footer_html+year_script+'</body>',1)
         else:
-            text+=footer_html
+            text+=footer_html+year_script
         if re.search(r'<link\b[^>]*href=["\']footer\.css(?:\?[^"\']*)?["\']',text,re.I) is None:
             text=text.replace('</head>','<link rel="stylesheet" href="footer.css"></head>',1)
         doc=html.fromstring(text);labels=expected_tickers(article,doc)
