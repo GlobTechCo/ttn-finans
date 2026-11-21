@@ -231,7 +231,9 @@ def refresh_article_tickers(root=ROOT):
         text=re.sub(r'<div\b[^>]*class="[^"]*\barticle-tickers\b[^"]*"[^>]*>.*?</div>\s*','',text,flags=re.S)
         if labels:
             section_start=text.index('<section class="editorial-body">')
-            body_start=text.find('<div class="article-body">',section_start)
+            section_close=text.index('</section>',section_start)
+            body_match=re.search(r'<div\\b(?=[^>]*class="[^"]*\\barticle-body\\b[^"]*")[^>]*>',text[section_start:section_close])
+            body_start=section_start+body_match.start() if body_match else -1
             source_positions=[p for p in (text.find('<aside class="editorial-sources"',section_start),text.find('class="article-sources"',section_start),text.find('<h2>Sources</h2>',section_start)) if p >= 0]
             source_pos=min(source_positions) if source_positions else -1
             if body_start >= 0 and source_pos > body_start:
@@ -239,12 +241,12 @@ def refresh_article_tickers(root=ROOT):
                 if body_close < body_start:
                     raise ValueError(f"Could not locate article-body end: {article['id']}")
                 insert_at=body_close+len('</div>')
-            elif source_pos >= 0:
-                # Legacy pages may not wrap copy in .article-body; sources still
-                # mark the exact end of the editorial text.
+            elif source_pos >= 0 and source_pos < section_close:
                 insert_at=source_pos
             else:
-                insert_at=text.index('</section>',section_start)
+                # Legacy pages can keep sources outside main; the ticker still
+                # belongs immediately after the editorial copy, before section end.
+                insert_at=section_close
             text=text[:insert_at]+ticker_block(labels)+text[insert_at:]
         if labels:
             pattern=r'<script\b[^>]*src="chart\.js[^\"]*"[^>]*></script>'
