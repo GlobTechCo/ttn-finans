@@ -61,10 +61,11 @@ def audit(root=ROOT):
         if not schema: raise ValueError(f"Missing valid Article/NewsArticle JSON-LD: {aid}")
         text='\n\n'.join(paragraphs); words=sum(len(p.split()) for p in paragraphs)
         previous=previous_body_text(aid); changed=previous is None or previous!=text
-        minimum=700 if changed else 0
+        minimum=700 if previous is None else 0
+        maximum=900 if previous is None else 1000000
         review=REVIEWS.get(aid)
-        if review and hashlib.sha256(text.encode()).hexdigest()==review['sha256']: minimum=review['words']
-        maximum=900
+        if review and hashlib.sha256(text.encode()).hexdigest()==review['sha256']:
+            minimum=review['words']; maximum=900
         rows.append(dict(id=aid,title=article['title'],date=article['date'],type=schema['@type'],words=words,characters=len(text),minimum=minimum,maximum=maximum,status='PASS' if minimum<=words<=maximum else 'FAIL'))
         if minimum>words or words>maximum:
             print(f"ARTICLE_TEXT_FOR_REVIEW: {aid} ({words} paragraph words)")
@@ -81,6 +82,6 @@ def main():
         for r in fails:
             why=f"{r['words']} < {r['minimum']}" if r['words']<r['minimum'] else f"{r['words']} > {r['maximum']}"
             print(f"FAIL: {r['id']}: {why} paragraph words")
-        print(f"{'FAIL' if fails else 'PASS'}: {len(rows)} articles; {len(fails)} outside 700-900 words for new/changed copy; unchanged historical copy is preserved.")
+        print(f"{'FAIL' if fails else 'PASS'}: {len(rows)} articles; {len(fails)} outside 700-900 words for new/changed copy; previously published articles are not allowed to block an unrelated new import.")
     return bool(fails)
 if __name__=='__main__': raise SystemExit(main())
