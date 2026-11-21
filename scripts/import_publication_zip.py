@@ -128,13 +128,23 @@ def publish(archive):
                     target_paragraph[-1].text = " Related context: "
                     target_paragraph.append(anchor)
                     linked.add(related_slug + ".html")
+            # Keep article-body links strictly within the published TTN article
+            # catalog. Category/navigation links such as market-analysis.html are
+            # not article links and may not satisfy contextual related-reading rules.
+            for anchor in list(body_nodes[0].xpath(".//p//a[@href]")):
+                href = (anchor.get("href") or "").split("#", 1)[0].split("?", 1)[0]
+                if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or ""):
+                    target_slug = href[:-5]
+                    if target_slug not in title_by_id and not (ROOT / href).is_file():
+                        anchor.drop_tag()
             inline_links = [
                 href for href in body_nodes[0].xpath(".//p//a/@href")
                 if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
+                and href[:-5] in title_by_id
             ]
-            check(len(set(inline_links)) >= 2, "Missing contextual TTN Finance links inside the article body: " + slug)
+            check(len(set(inline_links)) >= 2, "Missing contextual TTN Finance article links inside the article body: " + slug)
             for href in set(inline_links):
-                check((ROOT / href).is_file() or href in names, "Unknown internal article link: " + href)
+                check(href[:-5] in title_by_id and ((ROOT / href).is_file() or href in names), "Unknown internal article link: " + href)
 
             hero_srcs = [src for src in doc.xpath("//img/@src") if src.startswith("assets/editorial/" + slug + "-") and src in names]
             check(len(hero_srcs) >= 1, "No matching approved editorial cover image found in HTML: " + slug)
