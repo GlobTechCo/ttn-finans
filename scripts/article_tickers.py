@@ -193,7 +193,8 @@ def refresh_article_tickers(root=ROOT):
         if labels:
             section_start=text.index('<section class="editorial-body">')
             body_start=text.find('<div class="article-body">',section_start)
-            source_pos=text.find('<aside class="editorial-sources"',section_start)
+            source_positions=[p for p in (text.find('<aside class="editorial-sources"',section_start),text.find('class="article-sources"',section_start),text.find('<h2>Sources</h2>',section_start)) if p >= 0]
+            source_pos=min(source_positions) if source_positions else -1
             if body_start >= 0 and source_pos > body_start:
                 body_close=text.rfind('</div>',body_start,source_pos)
                 if body_close < body_start:
