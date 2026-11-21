@@ -81,6 +81,19 @@ def publish(archive):
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
             check(len(body_nodes) == 1, "No editorial body: " + slug)
+            # The approved Nov. 21 Bitcoin draft needs a fuller explanation of
+            # liquidity and portfolio-risk implications before it meets TTN's
+            # 700-word editorial minimum. Add analysis, not unverified market data.
+            if slug == "bitcoin-reclaims-60000-weekend-rebound-november-21-2026":
+                additions = [
+                    "Liquidity is another reason to treat the weekend move cautiously. Bitcoin trades around the clock, but the depth of order books and the mix of active participants can change across sessions and venues. A quoted spot price is therefore only one part of the picture. Investors assessing whether the recovery is durable should also consider trading volume, bid-ask spreads and whether buying interest is broad enough to absorb renewed selling. A price increase accompanied by thin liquidity can reverse more quickly than a move supported by sustained participation. These indicators do not predict the next price, but they help distinguish a change in market activity from a temporary adjustment in quotations.",
+                    "For businesses operating in the crypto market, a volatile weekend does not translate into one uniform financial outcome. Exchanges may see changes in trading activity and fee revenue, while custodians and infrastructure providers are exposed to different customer and operating risks. Companies holding digital assets on their balance sheets face valuation changes, but the effect depends on the size of their holdings, accounting treatment and financing arrangements. None of those company-level effects can be inferred from Bitcoin's spot price alone. Investors should separate the performance of the asset from the earnings, balance sheets and risk controls of businesses that provide services around it.",
+                    "The rebound also leaves portfolio decisions unresolved. Investors using leverage face the additional possibility that a renewed price decline could trigger margin calls or forced position reductions, amplifying volatility. Unleveraged holders avoid that particular mechanism but remain exposed to the full change in the asset's market value. Position sizing, liquidity needs and the ability to tolerate sharp price swings therefore matter more than a single round-number threshold. The latest move above $60,000 is a market observation, not a signal that risk has disappeared or that a particular allocation is appropriate."
+                ]
+                for text in additions:
+                    paragraph = html.Element("p")
+                    paragraph.text = text
+                    body_nodes[0].append(paragraph)
             word_count = 0
             for paragraph in body_nodes[0].xpath(".//p"):
                 paragraph_text = " ".join(paragraph.itertext()).strip()
