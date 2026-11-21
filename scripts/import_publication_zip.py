@@ -449,6 +449,16 @@ def publish(archive):
                     if "article-hero-image" not in image_classes:
                         image_classes.append("article-hero-image")
                     image.set("class", " ".join(image_classes))
+            # Gemini's complete-page source can repeat IDs across duplicated
+            # template blocks. Keep the first target (so existing fragment links
+            # remain stable) and remove duplicate IDs before the site-wide audit.
+            seen_ids = set()
+            for element in final_doc.xpath("//*[@id]"):
+                element_id = element.get("id")
+                if element_id in seen_ids:
+                    element.attrib.pop("id", None)
+                else:
+                    seen_ids.add(element_id)
             original_html = html.tostring(final_doc, encoding="unicode", method="html", doctype="<!DOCTYPE html>")
             # lxml's HTML serializer can preserve a source closing tag from
             # malformed template markup; source is a void HTML element.
