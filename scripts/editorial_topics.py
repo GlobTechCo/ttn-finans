@@ -966,3 +966,8 @@ RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
 RELATED['bitcoin-reclaims-60000-weekend-rebound-november-21-2026'] = []
 RELATED['eu-budget-2028-2034-cuts-digital-tax-november-2026'] = []
 RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
+
+# Approved ZIP auto-publication
+RELATED['bitcoin-reclaims-60000-weekend-rebound-november-21-2026'] = []
+RELATED['eu-budget-2028-2034-cuts-digital-tax-november-2026'] = []
+RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
