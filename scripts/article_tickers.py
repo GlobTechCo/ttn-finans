@@ -232,7 +232,7 @@ def refresh_article_tickers(root=ROOT):
         if labels:
             section_start=text.index('<section class="editorial-body">')
             section_close=text.index('</section>',section_start)
-            body_match=re.search(r'<div\\b(?=[^>]*class="[^"]*\\barticle-body\\b[^"]*")[^>]*>',text[section_start:section_close])
+            body_match=re.search(r'<div\b(?=[^>]*class="[^"]*\barticle-body\b[^"]*")[^>]*>',text[section_start:section_close])
             body_start=section_start+body_match.start() if body_match else -1
             source_positions=[p for p in (text.find('<aside class="editorial-sources"',section_start),text.find('class="article-sources"',section_start),text.find('<h2>Sources</h2>',section_start)) if p >= 0]
             source_pos=min(source_positions) if source_positions else -1
