@@ -127,14 +127,26 @@ def verify():
         assert 'article-share.css' in share_styles, (a['id'], 'missing share stylesheet')
         assert 'article-share.js' in share_scripts, (a['id'], 'missing share script')
         from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH
+        site_footers=doc.xpath('//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]')
+        assert len(site_footers)==1 and not doc.xpath('//main//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]'),(a['id'],'duplicate or misplaced site footer')
         ticker_labels=expected_tickers(a,doc)
         ticker_tags=doc.xpath(TAG_XPATH)
+        ticker_blocks=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-tickers ")]')
         expected_symbols=sorted(INSTRUMENTS[label][0] for label in ticker_labels)
         assert sorted(t.get('data-tv') for t in ticker_tags)==expected_symbols,(a['id'],'missing or incorrect article tickers')
         if ticker_labels:
-            assert len(doc.xpath('//div[@class="article-tickers"]'))==1,(a['id'],'ticker block')
+            assert len(ticker_blocks)==1,(a['id'],'ticker block')
             assert doc.xpath('//script[starts-with(@src,"chart.js") ]'),(a['id'],'missing chart controller')
             assert all(t.get('data-label') for t in ticker_tags),(a['id'],'ticker chart labels')
+            editorial=doc.xpath('//main/section[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]')
+            copy=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
+            sources=doc.xpath('//main/section[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]/aside[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ")]')
+            assert len(editorial)==1 and len(copy)==1,(a['id'],'article text structure')
+            assert ticker_blocks[0].getparent() is editorial[0] and editorial[0].index(ticker_blocks[0])==editorial[0].index(copy[0])+1,(a['id'],'tickers must immediately follow article text')
+            if sources:
+                assert len(sources)==1 and editorial[0].index(ticker_blocks[0])<editorial[0].index(sources[0]),(a['id'],'tickers must precede sources')
+        else:
+            assert not ticker_blocks,(a['id'],'unexpected empty ticker block')
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
         assert schema['articleSection']==a['section'],(a['id'],'article section')
