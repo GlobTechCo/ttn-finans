@@ -192,6 +192,18 @@ def expected_tickers(article, doc):
         print(f"WARNING: {article['id']}: unmapped tickers {unknown}; retain article and process supported tickers")
     return [label for label in labels if label in INSTRUMENTS]
 
+def matching_section_close(source, start):
+    depth=0
+    for match in re.finditer(r'</?section\\b[^>]*>',source[start:],flags=re.I):
+        if match.group(0).startswith('</'):
+            depth-=1
+        else:
+            depth+=1
+        if depth==0:
+            return start+match.start()
+    raise ValueError('Unclosed editorial-body section')
+
+
 def ticker_block(labels):
     items=[]
     for label in labels:
@@ -250,10 +262,11 @@ def refresh_article_tickers(root=ROOT):
         text=re.sub(r'<div\b[^>]*class="[^"]*\barticle-tickers\b[^"]*"[^>]*>.*?</div>\s*','',text,flags=re.S)
         if labels:
             section_start=text.index('<section class="editorial-body">')
-            section_close=text.index('</section>',section_start)
+            section_close=matching_section_close(text,section_start)
             body_match=re.search(r'<div\b(?=[^>]*class="[^"]*\barticle-body\b[^"]*")[^>]*>',text[section_start:section_close])
             body_start=section_start+body_match.start() if body_match else -1
-            source_positions=[p for p in (text.find('<aside class="editorial-sources"',section_start),text.find('class="article-sources"',section_start),text.find('<h2>Sources</h2>',section_start)) if section_start <= p < section_close]
+            source_markers=('<aside class="editorial-sources"','<details class="editorial-sources"','<section class="article-sources"','<h2>Sources</h2>')
+            source_positions=[p for marker in source_markers if (p:=text.find(marker,section_start,section_close))>=0]
             source_pos=min(source_positions) if source_positions else -1
             if body_start >= 0 and source_pos > body_start:
                 body_close=text.rfind('</div>',body_start,source_pos)
