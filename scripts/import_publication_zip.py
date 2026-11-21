@@ -496,9 +496,7 @@ def publish(archive):
             check(len(template_footers) == 1, "Site footer template is unavailable")
             shared_footer = copy.deepcopy(template_footers[0])
             # Remove package footers and insert exactly one canonical footer after main.
-            current_footers = final_doc.xpath(
-                "//footer[contains(concat(' ',normalize-space(@class),' '),' ttn-footer ')]"
-            )
+            current_footers = final_doc.xpath("//footer")
             for old_footer in current_footers:
                 parent = old_footer.getparent()
                 if parent is not None:
