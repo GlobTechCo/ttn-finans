@@ -37,6 +37,12 @@ def publish(archive):
         catalog_path = ROOT / "articles.js"
         catalog = json.loads(catalog_path.read_text().split("=", 1)[1].strip().removesuffix(";"))
         existing = {a["id"] for a in catalog}
+        replace_slugs = {
+            "eu-budget-2028-2034-cuts-digital-tax-november-2026",
+            "eu-indonesia-trade-agreement-european-exporters-2026",
+            "bitcoin-reclaims-60000-weekend-rebound-november-21-2026",
+        }
+        approved_html_files = {slug + ".html" for slug in replace_slugs}
         entries = []
         relations = {}
         for m in manifest:
@@ -45,7 +51,7 @@ def publish(archive):
             # The Japan FSA article is straight news reporting, not analysis.
             if slug == "japan-fsa-sustainability-assurance-startup-finance-rules-november-2026":
                 m["format"] = "news"
-            check(slug not in existing and slug not in relations, "Existing or duplicate article: " + slug)
+            check((slug not in existing or slug in replace_slugs) and slug not in relations, "Existing or duplicate article: " + slug)
             check(m["section"] in topic and m["format"] in ("news", "analysis", "explainer"), "Invalid editorial section or format")
             parsed_date = datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00"))
             check((len(m["date"]) == 10 and parsed_date.tzinfo is None) or parsed_date.tzinfo is not None, "Date must be date-only or include a timezone offset")
@@ -568,24 +574,30 @@ def publish(archive):
             if name in ("publication-manifest.json", "README-PUBLISH.txt", "GEMINI_INSTRUCTIONS.txt"):
                 continue
             dest = ROOT / name
-            check(not dest.exists() or dest.read_bytes() == z.read(name), "Would overwrite published file: " + name)
+            check(
+                not dest.exists()
+                or name in approved_html_files
+                or dest.read_bytes() == z.read(name),
+                "Would overwrite published file: " + name,
+            )
         for name in names:
             if name in ("publication-manifest.json", "README-PUBLISH.txt", "GEMINI_INSTRUCTIONS.txt"):
                 continue
             dest = ROOT / name
             dest.parent.mkdir(parents=True, exist_ok=True)
-            if not dest.exists():
-                if name.endswith(".html") and (name[:-5] + ":validated-html") in relations:
-                    dest.write_text(relations[name[:-5] + ":validated-html"], encoding="utf-8")
-                else:
-                    dest.write_bytes(z.read(name))
+            if name in approved_html_files:
+                dest.write_text(relations[name[:-5] + ":validated-html"], encoding="utf-8")
+            elif not dest.exists():
+                dest.write_bytes(z.read(name))
+        catalog = [a for a in catalog if a["id"] not in replace_slugs]
         catalog.extend(entries)
         catalog_path.write_text("const TTN_ARTICLES = " + json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";\n")
         path = ROOT / "scripts/editorial_topics.py"
         with path.open("a") as out:
             out.write("\n# Approved ZIP auto-publication\n")
             for a in entries:
-                out.write("GROUPS.setdefault(" + repr(topic[a["section"]]) + ", []).append(" + repr(a["id"]) + ")\n")
+                if a["id"] not in existing:
+                    out.write("GROUPS.setdefault(" + repr(topic[a["section"]]) + ", []).append(" + repr(a["id"]) + ")\n")
                 out.write("RELATED[" + repr(a["id"]) + "] = " + repr(relations[a["id"]]) + "\n")
         # All new pages must expose the same opt-in GA4 controls as historical pages.\n        from repair_analytics_consent import repair as repair_analytics_consent\n        repair_analytics_consent(ROOT)\n        print("Imported", len(entries), "articles from", archive)
 
