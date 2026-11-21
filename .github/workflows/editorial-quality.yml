@@ -67,7 +67,7 @@ jobs:
             exit 0
           fi
           git commit -m "Optimize legacy cover delivery with WebP [skip ci]"
-          git pull --rebase origin main
+          git pull --rebase -X ours origin main
           git push origin HEAD:main
   browser:
     runs-on: ubuntu-latest
