@@ -169,7 +169,7 @@ def refresh_article_tickers(root=ROOT):
     for article in articles:
         page=root/(article['id']+'.html');text=page.read_text();before=text
         # Collapse duplicate shared footers and keep the sole footer after </main>.
-        footer_pattern=r'<footer\\b[^>]*class="[^"]*\\bttn-footer\\b[^"]*"[^>]*>.*?</footer>'
+        footer_pattern=r'<footer\b[^>]*class="[^"]*\bttn-footer\b[^"]*"[^>]*>.*?</footer>'
         footer_matches=list(re.finditer(footer_pattern,text,flags=re.S|re.I))
         for match in reversed(footer_matches[:-1]):
             text=text[:match.start()]+text[match.end():]
@@ -180,7 +180,7 @@ def refresh_article_tickers(root=ROOT):
                 footer_html=footer_match.group()
                 text=text[:footer_match.start()]+text[footer_match.end():]
                 main_close=text.lower().find('</main>')+len('</main>')
-                text=text[:main_close]+'\\n'+footer_html+text[main_close:]
+                text=text[:main_close]+'\n'+footer_html+text[main_close:]
         doc=html.fromstring(text);labels=expected_tickers(article,doc)
         tags=doc.xpath(TAG_XPATH)
         actual=[(e.get('data-label'),e.get('data-tv')) for e in tags]
