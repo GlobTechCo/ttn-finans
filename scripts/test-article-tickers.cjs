@@ -7,6 +7,8 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['eu-budget-2028-2034-cuts-digital-tax-november-2026', 'NASDAQ:MSFT'],
+  ['bitcoin-reclaims-60000-weekend-rebound-november-21-2026', 'BINANCE:BTCUSDT'],
   ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'FOREXCOM:SPXUSD'],
   ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'NASDAQ:IXIC'],
   ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'TVC:DJI'],
@@ -120,6 +122,20 @@ const cases = [
           await page.screenshot({ path: path.join(shots, name + '-article-tickers.png') });
         }
       }
+      for (const slug of [
+        'eu-budget-2028-2034-cuts-digital-tax-november-2026',
+        'eu-indonesia-trade-agreement-european-exporters-2026',
+        'bitcoin-reclaims-60000-weekend-rebound-november-21-2026',
+      ]) {
+        await page.goto(base + slug + '.html');
+        assert.equal(await page.locator('footer').count(), 1, slug + ': exactly one footer');
+        assert(await page.locator('main').evaluate(main => {
+          const footer = document.querySelector('footer');
+          return !!footer && !!(main.compareDocumentPosition(footer) & Node.DOCUMENT_POSITION_FOLLOWING);
+        }), slug + ': footer must follow main');
+      }
+      await page.goto(base + 'eu-indonesia-trade-agreement-european-exporters-2026.html');
+      assert.equal(await page.locator('.article-ticker-tag').count(), 0, 'EU-Indonesia article has no company/instrument ticker');
       await page.goto(base + 'trump-data-center-tax-threat-ai-infrastructure-november-21-2026.html');
       assert.equal(await page.locator('.article-ticker-tag').count(), 0, 'Tech & AI article should not invent unrelated tickers');
       // Gold Coast is a destination, not a mention of the gold instrument.
