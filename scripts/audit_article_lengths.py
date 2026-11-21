@@ -1,127 +1,88 @@
 #!/usr/bin/env python3
-"""Enforce the 700-900 paragraph-word range for every new or substantially updated article.
+"""Enforce TTN's 700-900 paragraph-word range for new and substantially updated articles.
 
-Count only paragraph text inside editorial-body, excluding headings, decks,
-sources, related reading and other site furniture. These are TTN editorial
-requirements, not a Google word-count requirement. The October 30 rule applies
-to publications and substantive updates from that date. Unchanged older news
-retains its historical 600-word gate; this is not permission for new short copy.
-Owner-authorized historical copy reviews are recorded in editorial_length_reviews.
-Only an exact paragraph-text digest match qualifies; a later body edit restores
-the ordinary minimum. No network requests or writes.
+Parse HTML structurally with lxml rather than a streaming HTMLParser. The
+streaming parser previously lost article text when imported pages used the
+shared template's nested main/section layout.
 """
 import argparse
 import csv
 import hashlib
-from editorial_length_reviews import REVIEWS
-from html.parser import HTMLParser
 import json
 from pathlib import Path
 import sys
+from lxml import html
+from editorial_length_reviews import REVIEWS
 
 ROOT = Path(__file__).resolve().parents[1]
-
-
-class ArticleText(HTMLParser):
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.in_body = False
-        self.body_section_depth = 0
-        self.body_root_tag = None
-        self.void_tags = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
-        self.in_paragraph = False
-        self.exclude_furniture = False
-        self.paragraphs = []
-        self.current = []
-        self.in_schema = False
-        self.schema = []
-
-    def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if not self.in_body and 'editorial-body' in attrs.get('class', '').split():
-            self.in_body = True
-            self.body_root_tag = tag
-            self.body_section_depth = 1
-        elif self.in_body and tag not in self.void_tags:
-            self.body_section_depth += 1
-        if self.in_body and tag == 'p':
-            self.in_paragraph = True
-            self.current = []
-        if tag == 'br' and self.in_paragraph:
-            self.current.append(' ')
-        if tag == 'script' and attrs.get('type') == 'application/ld+json':
-            self.in_schema = True
-
-    def handle_endtag(self, tag):
-        if tag == 'p' and self.in_paragraph:
-            paragraph = ' '.join(''.join(self.current).split())
-            # Inline Related context links are site furniture, not article copy.
-            if 'Related context:' in paragraph:
-                paragraph = paragraph.split('Related context:', 1)[0].strip()
-            if self.exclude_furniture:
-                lowered = paragraph.lower()
-                if paragraph and lowered != 'sources' and not lowered.startswith('related ttn coverage:'):
-                    self.paragraphs.append(paragraph)
-            else:
-                self.paragraphs.append(paragraph)
-            self.in_paragraph = False
-        if self.in_body and tag not in self.void_tags:
-            self.body_section_depth -= 1
-            if self.body_section_depth <= 0:
-                self.in_body = False
-                self.body_section_depth = 0
-                self.body_root_tag = None
-        if tag == 'script':
-            self.in_schema = False
-
-    def handle_data(self, data):
-        if self.in_paragraph:
-            self.current.append(data)
-        if self.in_schema:
-            self.schema.append(data)
-
+FURNITURE_IDS = {
+    'jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026',
+    'nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026',
+    'software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026',
+}
+VOID_TAGS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
 
 def audit(root=ROOT):
-    articles = json.loads((root / 'articles.js').read_text().split('=', 1)[1].strip().removesuffix(';'))
+    articles = json.loads((root / 'articles.js').read_text(encoding='utf-8').split('=', 1)[1].strip().removesuffix(';'))
     rows = []
     for article in articles:
-        parser = ArticleText()
-        parser.exclude_furniture = article['id'] in {
-            'jensen-huang-signals-return-to-nvidia-leadership-crisis-november-17-2026',
-            'nsa-classified-communications-network-outage-us-infrastructure-reliability-november-17-2026',
-            'software-outage-fears-wall-street-sell-off-technology-shares-slide-november-17-2026',
-        }
-        parser.feed((root / (article['id'] + '.html')).read_text())
-        schema = json.loads(''.join(parser.schema))
+        article_id = article['id']
+        doc = html.fromstring((root / (article_id + '.html')).read_bytes())
+        bodies = doc.xpath('//*[contains(concat(" ", normalize-space(@class), " "), " editorial-body ")]')
+        if len(bodies) != 1:
+            raise ValueError(f"Expected exactly one editorial-body container: {article_id}; found {len(bodies)}")
+        schema_nodes = doc.xpath('//script[translate(@type,"ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz")="application/ld+json"]')
+        schema = None
+        for node in schema_nodes:
+            try:
+                value = json.loads(node.text or '{}')
+            except (TypeError, ValueError):
+                continue
+            candidates = value if isinstance(value, list) else [value]
+            schema = next((item for item in candidates if isinstance(item, dict) and item.get('@type') in {'Article', 'NewsArticle'}), None)
+            if schema:
+                break
+        if not schema:
+            raise ValueError(f"Missing valid Article/NewsArticle JSON-LD: {article_id}")
         kind = schema['@type']
-        if kind not in {'Article', 'NewsArticle'}:
-            raise ValueError(f"Unrecognized article type: {article['id']}: {kind}")
         latest = max(str(schema.get('datePublished', article['date'])),
                      str(schema.get('dateModified', article.get('dateModified', article['date']))))
         minimum = 700 if kind != 'NewsArticle' or latest[:10] >= '2026-10-30' else 600
-        words = sum(len(p.split()) for p in parser.paragraphs)
-        text = '\n\n'.join(parser.paragraphs)
-        review = REVIEWS.get(article['id'])
-        # A one-time historical shortening request; an exact-text change invalidates it.
+        paragraphs = []
+        for paragraph in bodies[0].xpath('.//p'):
+            # Match the importer's editorial-word rules and exclude site furniture.
+            if paragraph.xpath('ancestor-or-self::*[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ") or contains(concat(" ",normalize-space(@class)," ")," article-sources ")]'):
+                continue
+            text = ' '.join(' '.join(paragraph.itertext()).split())
+            if text.lower() == 'sources' or text.lower().startswith('related ttn coverage:'):
+                continue
+            if 'Related context:' in text:
+                text = text.split('Related context:', 1)[0].strip()
+            if article_id in FURNITURE_IDS and text and text.lower() != 'sources' and not text.lower().startswith('related ttn coverage:'):
+                paragraphs.append(text)
+            elif article_id not in FURNITURE_IDS and text:
+                paragraphs.append(text)
+        text = '\n\n'.join(paragraphs)
+        words = sum(len(paragraph.split()) for paragraph in paragraphs)
+        review = REVIEWS.get(article_id)
         if review and hashlib.sha256(text.encode()).hexdigest() == review['sha256']:
             minimum = review['words']
         maximum = 900
-        rows.append(dict(id=article['id'], title=article['title'], date=article['date'],
-                         type=kind, words=words, characters=len(text), minimum=minimum, maximum=maximum,
-                         status='PASS' if minimum <= words <= maximum else 'FAIL'))
+        rows.append(dict(id=article_id, title=article['title'], date=article['date'],
+                         type=kind, words=words, characters=len(text), minimum=minimum,
+                         maximum=maximum, status='PASS' if minimum <= words <= maximum else 'FAIL'))
         if minimum > words or words > maximum:
-            print(f"ARTICLE_TEXT_FOR_REVIEW: {article['id']} ({words} paragraph words)")
+            print(f"ARTICLE_TEXT_FOR_REVIEW: {article_id} ({words} paragraph words)")
             print(text)
             print("END_ARTICLE_TEXT_FOR_REVIEW")
     return rows
-
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--format', choices=['text', 'json', 'csv'], default='text')
     args = parser.parse_args()
     rows = audit()
-    failures = [r for r in rows if r['status'] == 'FAIL']
+    failures = [row for row in rows if row['status'] == 'FAIL']
     if args.format == 'json':
         print(json.dumps(rows, ensure_ascii=False, indent=2))
     elif args.format == 'csv':
@@ -134,7 +95,6 @@ def main():
             print(f"FAIL: {row['id']}: {reason} paragraph words")
         print(f"{'FAIL' if failures else 'PASS'}: {len(rows)} articles; {len(failures)} outside the approved range (700-900 for new/substantially updated articles; unchanged earlier news retains its historical 600-word minimum, with a 900-word maximum).")
     return bool(failures)
-
 
 if __name__ == '__main__':
     raise SystemExit(main())
