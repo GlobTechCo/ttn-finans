@@ -47,6 +47,10 @@ def publish(archive):
         relations = {}
         for m in manifest:
             slug = m["slug"]
+            if slug == "eu-budget-2028-2034-cuts-digital-tax-november-2026":
+                m["dek"] = "Costa's revised EU budget cuts €40 billion and proposes a 3% levy on major digital revenues."
+            elif slug == "eu-indonesia-trade-agreement-european-exporters-2026":
+                m["dek"] = "The EU-Indonesia deal cuts tariffs on 98.5% of lines and targets €650 million in annual exporter savings."
             check(isinstance(slug, str) and bool(slug_re.fullmatch(slug)), "Invalid article slug")
             # The Japan FSA article is straight news reporting, not analysis.
             if slug == "japan-fsa-sustainability-assurance-startup-finance-rules-november-2026":
@@ -63,6 +67,10 @@ def publish(archive):
             cover = m["cover"]
             check(file in names and cover in names and cover.startswith("assets/editorial/" + slug + "-"), "Article/cover missing")
             doc = html.fromstring(z.read(file))
+            for dek_node in doc.xpath("//p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]"):
+                dek_node.text = m["dek"]
+                for child in list(dek_node):
+                    dek_node.remove(child)
             expected_canonical = BASE + file
             canonical_nodes = doc.xpath("//link[@rel='canonical']")
             if not canonical_nodes:
@@ -175,6 +183,32 @@ def publish(archive):
                     paragraph = html.Element("p")
                     paragraph.text = text
                     body_nodes[0].append(paragraph)
+            source_urls = {
+                "eu-budget-2028-2034-cuts-digital-tax-november-2026": [
+                    ("Reuters — Costa’s revised EU budget proposal", "https://www.reuters.com/markets/us/eu-leaders-chair-proposes-new-cuts-eu-2028-2034-budget-draft-suggests-digital-2026-11-21/"),
+                    ("Financial Times — proposed EU digital levy and budget", "https://www.ft.com/content/2e9c54a8-e2c5-4334-8141-9791267ae3c3"),
+                ],
+                "eu-indonesia-trade-agreement-european-exporters-2026": [
+                    ("Council of the EU — authorisation to sign the trade and investment agreements", "https://www.consilium.europa.eu/en/press/press-releases/2026/11/18/eu-indonesia-council-greenlights-signature-of-landmark-trade-and-investment-agreements/"),
+                    ("European Commission — EU-Indonesia trade agreement", "https://commission.europa.eu/topics/trade/eu-indonesia-trade-agreement_en"),
+                ],
+                "bitcoin-reclaims-60000-weekend-rebound-november-21-2026": [
+                    ("Reuters — Bitcoin rebounds after a two-year low", "https://www.reuters.com/business/bitcoin-falls-357-56814-2026-11-21/"),
+                    ("CoinDesk — record bitcoin ETF outflows and crypto market pressure", "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide"),
+                    ("Farside Investors — US spot bitcoin ETF flows", "https://farside.co.uk/btc/"),
+                ],
+            }
+            source_lists = body_nodes[0].xpath(".//aside[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]/ul")
+            if source_lists:
+                existing_source_urls = set(source_lists[0].xpath(".//a/@href"))
+                for label, url in source_urls.get(slug, []):
+                    if url in existing_source_urls:
+                        continue
+                    item = html.Element("li")
+                    anchor = html.Element("a", href=url, target="_blank", rel="noopener noreferrer")
+                    anchor.text = label
+                    item.append(anchor)
+                    source_lists[0].append(item)
             word_count = 0
             for paragraph in body_nodes[0].xpath(".//p"):
                 paragraph_text = " ".join(paragraph.itertext()).strip()
@@ -202,6 +236,17 @@ def publish(archive):
                 ]
                 related_slugs = (preferred + remaining)[:2]
             title_by_id = {item["id"]: item["title"] for item in catalog}
+            related_slugs = [item for item in related_slugs if item in title_by_id and item != slug]
+            if len(related_slugs) < 2:
+                preferred = [
+                    item["id"] for item in reversed(catalog)
+                    if item.get("section") == m["section"] and item["id"] != slug
+                ]
+                remaining = [
+                    item["id"] for item in reversed(catalog)
+                    if item["id"] != slug and item["id"] not in preferred
+                ]
+                related_slugs = list(dict.fromkeys(related_slugs + preferred + remaining))[:2]
             linked = set(
                 href for href in body_nodes[0].xpath(".//p//a/@href")
                 if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
