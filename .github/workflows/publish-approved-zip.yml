@@ -7,6 +7,7 @@ on:
     paths:
       - 'publish-queue/*.zip'
       - 'ttn-finance-november-17-2026.zip'
+      - 'ttn-finance-publication-2026-11-21-updated.zip'
       - 'ttn-finance-three-articles-2026-11-14.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'TTN_Finance_3_Articles_2026-11-14_Evening.zip'
@@ -51,7 +52,7 @@ jobs:
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
             while IFS= read -r file; do
               case "$file" in
-                publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip)
+                publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-publication-2026-11-21-updated.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip)
                   [[ -f "$file" ]] && archives+=("$file")
                   ;;
               esac
@@ -59,7 +60,7 @@ jobs:
           else
             file="$REQUESTED_ARCHIVE"
             case "$file" in
-              publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-19_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip) ;;
+              publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-publication-2026-11-21-updated.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-19_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|pub_new.zip) ;;
               *) echo "::error::Choose a ZIP in publish-queue/, ttn-finance-november-17-2026.zip, ttn-finance-three-articles-2026-11-14.zip, a matching TTN_Finance_*_AutoPublish_*.zip, TTN_Finance_3_Articles_2026-11-14_Evening.zip, the approved 2026-11-13 READY ZIP, TTN_Finance_Three_Articles_2026-11-15.zip, TTN_Finance_Publication_Package_2026-11-16.zip, TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip, TTN_Finance_November_19_2026.zip, or pub_new.zip"; exit 1 ;;
             esac
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
