@@ -284,6 +284,20 @@ def publish(archive):
                 parent.insert(position, main)
                 main.append(candidate)
                 main_nodes = [main]
+            if len(main_nodes) > 1:
+                # Consolidate duplicate main landmarks from the source template
+                # into one accessible landmark without dropping their contents.
+                primary_main = main_nodes[0]
+                for duplicate_main in main_nodes[1:]:
+                    duplicate_parent = duplicate_main.getparent()
+                    if duplicate_parent is not None:
+                        for child in list(duplicate_main):
+                            duplicate_main.remove(child)
+                            primary_main.append(child)
+                        if duplicate_main.text:
+                            primary_main.text = (primary_main.text or "") + duplicate_main.text
+                        duplicate_parent.remove(duplicate_main)
+                main_nodes = [primary_main]
             check(len(main_nodes) == 1, "Expected exactly one main landmark: " + slug)
             main_nodes[0].set("id", "main-content")
             main_nodes[0].set("tabindex", "-1")
