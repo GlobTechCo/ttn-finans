@@ -111,6 +111,7 @@ def publish(archive):
             linked = set(
                 href for href in body_nodes[0].xpath(".//p//a/@href")
                 if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*[.]html", href or "")
+                and href[:-5] in title_by_id
             )
             for related_slug in related_slugs:
                 if len(linked) >= 2:
