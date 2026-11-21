@@ -91,14 +91,17 @@ async function noOverflow(page,label) {
    'bitcoin-etfs-lose-1-44-billion-five-day-outflow-streak-november-2026.html',
    'ethereum-ethlabs-drops-quick-slots-quantum-security-2027.html',
    'anthropic-supported-regions-policy-effective-november-12-2026.html',
-   'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026.html'
+   'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026.html',
+   'bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026.html',
+   'global-stocks-ai-selloff-9-trillion-november-21-2026.html',
+   'trump-data-center-tax-threat-ai-infrastructure-november-21-2026.html'
   ];
-  for (const mobile of [false,true]) for (const article of articlePages) {
+  for (const mobile of [false,true]) for (const theme of ['light','dark']) for (const article of articlePages) {
    const context=await browser.newContext({
     viewport:mobile?{width:390,height:844}:{width:1440,height:1000},
-    isMobile:mobile,hasTouch:mobile,colorScheme:'light'
+    isMobile:mobile,hasTouch:mobile,colorScheme:theme
    });
-   await context.addInitScript(()=>{localStorage.setItem('ttn-theme','light');localStorage.setItem('ttn_cookie_consent','declined');});
+   await context.addInitScript(t=>{localStorage.setItem('ttn-theme',t);localStorage.setItem('ttn_cookie_consent','declined');},theme);
    const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
    const response=await page.goto(base+article,{waitUntil:'domcontentloaded'});
    assert.equal(response?.status(),200,article+' HTTP response');
@@ -107,6 +110,15 @@ async function noOverflow(page,label) {
    assert.equal(await page.locator('main.static-page .editorial-body').count(),1,article+' editorial body');
    assert(await page.locator('main.static-page .editorial-body').isVisible(),article+' visible article body');
    await page.waitForFunction(()=>[...document.styleSheets].some(s=>s.href?.includes('editorial-theme.css')),null,{timeout:10000});
+   if (article.includes('november-21-2026')) {
+    const paragraph=page.locator('main.static-page .editorial-body > .article-body > p').first();
+    const typography=await paragraph.evaluate(el=>{const s=getComputedStyle(el);return {fontFamily:s.fontFamily,fontSize:s.fontSize,color:s.color};});
+    assert(typography.fontFamily.includes('Source Serif 4'),article+' approved reading font');
+    assert.equal(typography.fontSize,'19px',article+' approved reading size');
+    assert.equal(typography.color,theme==='dark'?'rgb(213, 223, 235)':'rgb(32, 32, 32)',article+' approved theme text color');
+    const stylesheet=await page.locator('link[href*="editorial-theme.css"]').getAttribute('href');
+    assert(stylesheet.includes('20261121-nested-body-typography-v1'),article+' fresh typography stylesheet');
+   }
    const image=page.locator('main.static-page figure img').first();
    await image.waitFor();
    await page.waitForFunction(()=>{const i=document.querySelector('main.static-page figure img');return !!i&&i.complete&&i.naturalWidth>0;},null,{timeout:10000});
@@ -118,7 +130,7 @@ async function noOverflow(page,label) {
    }
    assert.deepEqual(errors,[],article+' JavaScript errors');
    await page.screenshot({path:path.join(shots,(mobile?'mobile-':'desktop-')+article+'.png'),fullPage:true});
-   console.log('PASS ARTICLE:',mobile?'mobile':'desktop',article,'layout, styles, image, footer and navigation');
+   console.log('PASS ARTICLE:',mobile?'mobile':'desktop',theme,article,'layout, approved typography, image, footer and navigation');
    await context.close();
   }
   // Narrow desktop header must keep the new link and search inside the viewport.
