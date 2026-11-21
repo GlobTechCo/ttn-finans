@@ -120,18 +120,11 @@ def publish(archive):
                 "//div[contains(concat(' ',normalize-space(@class),' '),' article-body ')]"
             )
             for article_body in article_body_nodes:
-                if body_nodes[0] in article_body.iterancestors():
-                    continue
-                if article_body.text and article_body.text.strip():
-                    paragraph = html.Element("p")
-                    paragraph.text = article_body.text.strip()
-                    body_nodes[0].append(paragraph)
-                for child in list(article_body):
-                    article_body.remove(child)
-                    body_nodes[0].append(child)
                 parent = article_body.getparent()
-                if parent is not None:
+                if parent is not None and parent is not body_nodes[0]:
                     parent.remove(article_body)
+                    body_nodes[0].append(article_body)
+            target_article_body = article_body_nodes[-1] if article_body_nodes else body_nodes[0]
             # Remove duplicate package furniture. The importer has already
             # supplied the canonical dek, byline, publication time and hero.
             for node in list(doc.xpath(
@@ -167,7 +160,7 @@ def publish(archive):
             for text in short_copy_additions.get(slug, []):
                 paragraph = html.Element("p")
                 paragraph.text = text
-                body_nodes[0].append(paragraph)
+                target_article_body.append(paragraph)
             word_count = 0
             for paragraph in body_nodes[0].xpath(".//p"):
                 paragraph_text = " ".join(paragraph.itertext()).strip()
