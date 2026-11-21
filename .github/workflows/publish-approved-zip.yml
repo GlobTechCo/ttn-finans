@@ -139,6 +139,33 @@ jobs:
                   for item in manifest:
                       print(f"  {item['section']}: {item['slug']}")
           PY
+      - name: Diagnose rejected Bitcoin article body
+        shell: bash
+        env:
+          ARCHIVES: ${{ steps.normalize.outputs.archives }}
+        run: |
+          python - <<'PY'
+          import os, zipfile, json
+          from lxml import html
+          slug = "bitcoin-reclaims-60000-weekend-rebound-november-21-2026"
+          for archive_path in os.environ["ARCHIVES"].splitlines():
+              with zipfile.ZipFile(archive_path) as z:
+                  names = z.namelist()
+                  if slug + ".html" not in names:
+                      continue
+                  doc = html.fromstring(z.read(slug + ".html"))
+                  body = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")[0]
+                  total = 0
+                  for p in body.xpath(".//p"):
+                      value = " ".join("".join(p.itertext()).split())
+                      if value.lower() == "sources" or value.lower().startswith("related ttn coverage:"):
+                          continue
+                      if "Related context:" in value:
+                          value = value.split("Related context:",1)[0]
+                      total += len(value.split())
+                      print("ARTICLE_PARAGRAPH:", value)
+                  print("BITCOIN_ARTICLE_WORD_COUNT:", total)
+          PY
       - name: Install dependencies
         run: python -m pip install -r requirements-maintenance.txt
       - name: Import approved articles
