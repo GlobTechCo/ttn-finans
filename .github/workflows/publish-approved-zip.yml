@@ -68,7 +68,7 @@ jobs:
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
           fi
-          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]] && git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -Eq '^(.github/workflows/publish-approved-zip.yml|scripts/normalize_gemini_publication_zip.py); then
+          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]] && git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -F -e ".github/workflows/publish-approved-zip.yml" -e "scripts/normalize_gemini_publication_zip.py" >/dev/null; then
             file="ttn-finance-publication-2026-11-21-updated.zip"
             [[ -f "$file" ]] || { echo "::error::Approved archive not found: $file"; exit 1; }
             archives+=("$file")
