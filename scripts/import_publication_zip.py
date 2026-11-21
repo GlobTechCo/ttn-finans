@@ -495,11 +495,18 @@ def publish(archive):
             template_footers = site_template.xpath("//footer")
             check(len(template_footers) == 1, "Site footer template is unavailable")
             shared_footer = copy.deepcopy(template_footers[0])
-            current_footers = final_doc.xpath("//footer")
-            if current_footers:
-                current_footers[0].getparent().replace(current_footers[0], shared_footer)
-            else:
-                final_doc.xpath("//body")[0].append(shared_footer)
+            # Remove package footers and insert exactly one canonical footer after main.
+            current_footers = final_doc.xpath(
+                "//footer[contains(concat(' ',normalize-space(@class),' '),' ttn-footer ')]"
+            )
+            for old_footer in current_footers:
+                parent = old_footer.getparent()
+                if parent is not None:
+                    parent.remove(old_footer)
+            body_for_footer = final_doc.xpath("//body")[0]
+            main_for_footer = final_doc.xpath("//main[@id='main-content']")
+            check(len(main_for_footer) == 1, "Expected one main landmark before footer: " + slug)
+            body_for_footer.insert(body_for_footer.index(main_for_footer[0]) + 1, shared_footer)
             # Ensure the required GA4 and consent controls load on every imported article.
             template_scripts = site_template.xpath("//script[@src]")
             for required in ("analytics.js", "consent.js"):
