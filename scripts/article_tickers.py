@@ -91,6 +91,45 @@ INSTRUMENTS = {
     'GBP/USD': ('FX:GBPUSD', 'GBP/USD · FXCM'),
 }
 ALIASES = {'EURUSD':'EUR/USD', 'GBPUSD':'GBP/USD', 'NYSE:PLTR':'PLTR', 'TADAWUL:2222':'2222', 'NDX':'Nasdaq-100', 'SPX':'S&P 500', 'UKOIL':'Brent Oil'}
+# Explicit exchange-qualified aliases and legacy instruments retained by the article catalog.
+ALIASES.update({
+    'NASDAQ:NVDA':'NVDA','NASDAQ:AMD':'AMD','NASDAQ:COIN':'COIN','NASDAQ:GOOGL':'GOOGL',
+    'NASDAQ:CRWV':'CRWV','NASDAQ:MSTR':'MSTR','NASDAQ:IBIT':'IBIT','NASDAQ:IXIC':'Nasdaq Composite',
+    'NYSE:TSM':'TSM','TVC:US10Y':'US10Y','TVC:GOLD':'GOLD',
+})
+INSTRUMENTS.update({
+    'BNB': ('BINANCE:BNBUSDT', 'BNB / Tether · Binance'),
+    'ETHA': ('NASDAQ:ETHA', 'iShares Ethereum Trust ETF · Nasdaq'),
+    'TVC:TWII': ('TVC:TWII', 'Taiwan Weighted Index · TVC'),
+    'TVC:NI225': ('TVC:NI225', 'Nikkei 225 · TVC'),
+    'TVC:UKOIL': ('TVC:UKOIL', 'Brent Crude Oil · TVC'),
+    'FX_IDC:USDJPY': ('FX_IDC:USDJPY', 'U.S. Dollar / Japanese Yen · IDC'),
+    'BITSTAMP:BTCUSD': ('BITSTAMP:BTCUSD', 'Bitcoin / U.S. Dollar · Bitstamp'),
+    'BITSTAMP:ETHUSD': ('BITSTAMP:ETHUSD', 'Ether / U.S. Dollar · Bitstamp'),
+    'COINBASE:BTCUSD': ('COINBASE:BTCUSD', 'Bitcoin / U.S. Dollar · Coinbase'),
+    'COINBASE:ETHUSD': ('COINBASE:ETHUSD', 'Ether / U.S. Dollar · Coinbase'),
+    'KRX:000660': ('KRX:000660', 'SK Hynix · Korea Exchange'),
+    'KRX:005930': ('KRX:005930', 'Samsung Electronics · Korea Exchange'),
+    'MIL:BAMI': ('MIL:BAMI', 'Banco BPM · Borsa Italiana'),
+    'EURONEXT:ACA': ('EURONEXT:ACA', 'Crédit Agricole · Euronext Paris'),
+    'MIL:UCG': ('MIL:UCG', 'UniCredit · Borsa Italiana'),
+    'TSE:9434': ('TSE:9434', 'SoftBank Corp. · Tokyo Stock Exchange'),
+    'TSE:9984': ('TSE:9984', 'SoftBank Group · Tokyo Stock Exchange'),
+    'SP:SPX': ('SP:SPX', 'S&P 500 Index · SP'),
+    'DJ:DJI': ('DJ:DJI', 'Dow Jones Industrial Average · DJ'),
+    'NYSE:CEG': ('NYSE:CEG', 'Constellation Energy · NYSE'),
+    'NASDAQ:GOOG': ('NASDAQ:GOOG', 'Alphabet Class C · Nasdaq'),
+    'NYSE:PNC': ('NYSE:PNC', 'PNC Financial Services · NYSE'),
+    'XETR:ENR': ('XETR:ENR', 'Siemens Energy · Xetra'),
+    'LSE:EZJ': ('LSE:EZJ', 'easyJet · London Stock Exchange'),
+    'NYSE:DB': ('NYSE:DB', 'Deutsche Bank ADR · NYSE'),
+    'TVC:DXY': ('TVC:DXY', 'U.S. Dollar Index · TVC'),
+    'TVC:US30Y': ('TVC:US30Y', 'U.S. 30-Year Treasury Yield · TVC'),
+    'TSE:3350': ('TSE:3350', 'Metaplanet · Tokyo Stock Exchange'),
+    'NASDAQ:NDX': ('NASDAQ:NDX', 'Nasdaq-100 Index · Nasdaq'),
+    'NASDAQ:SMH': ('NASDAQ:SMH', 'VanEck Semiconductor ETF · Nasdaq'),
+    'HIVE': ('NASDAQ:HIVE', 'HIVE Digital Technologies · Nasdaq'),
+})
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
 MENTIONS = {
