@@ -96,10 +96,17 @@ def publish(archive):
             # related article title; never add unrelated links or a detached link list.
             related_slugs = m.get("related", [])
             if len(related_slugs) < 2:
-                related_slugs = [
+                # Prefer same-section recommendations, then fill from the
+                # newest published TTN articles in other sections if needed.
+                preferred = [
                     item["id"] for item in reversed(catalog)
                     if item.get("section") == m["section"] and item["id"] != slug
-                ][:2]
+                ]
+                remaining = [
+                    item["id"] for item in reversed(catalog)
+                    if item["id"] != slug and item["id"] not in preferred
+                ]
+                related_slugs = (preferred + remaining)[:2]
             title_by_id = {item["id"]: item["title"] for item in catalog}
             linked = set(
                 href for href in body_nodes[0].xpath(".//p//a/@href")
