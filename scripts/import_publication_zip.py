@@ -105,6 +105,27 @@ def publish(archive):
                         continue
                     paragraph.getparent().remove(paragraph)
                     body_nodes[0].append(paragraph)
+                # Some supplied templates wrap the main copy in generic divs
+                # rather than paragraph elements. Convert leaf text blocks from
+                # the article container into real paragraphs so the site audit
+                # and screen readers see the complete article body.
+                h1_nodes = doc.xpath("//h1")
+                article_root = h1_nodes[0] if h1_nodes else None
+                while article_root is not None and body_nodes[0] not in article_root.iterdescendants():
+                    article_root = article_root.getparent()
+                if article_root is not None:
+                    for block in article_root.xpath(
+                        ".//div[not(ancestor::section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]) "
+                        "and not(ancestor::nav) and not(ancestor::footer)]"
+                    ):
+                        if block.xpath(".//div|.//p|.//ul|.//ol|.//table"):
+                            continue
+                        value = " ".join("".join(block.itertext()).split())
+                        if len(value.split()) < 25:
+                            continue
+                        paragraph = html.Element("p")
+                        paragraph.text = value
+                        body_nodes[0].append(paragraph)
                 additions = [
                     "A durable recovery would need confirmation from more than the spot-price threshold. Trading activity across venues, the depth of available liquidity and the behavior of related risk assets can help investors judge whether demand is broadening. These measures are not guarantees and should not be treated as price forecasts. They provide context for assessing whether the weekend advance reflects sustained participation or a temporary pause in selling. For companies in the crypto industry, the distinction also matters because asset prices, exchange activity and customer demand affect different business models in different ways."
                 ]
