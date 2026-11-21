@@ -36,6 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
       - name: Install site verification dependencies
         run: python3 -m pip install -r requirements-maintenance.txt
       - name: Keep news search on homepage only
