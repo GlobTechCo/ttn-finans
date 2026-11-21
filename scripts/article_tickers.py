@@ -205,6 +205,11 @@ def refresh_article_tickers(root=ROOT):
     articles=json.loads((root/'articles.js').read_text().split('=',1)[1].strip().removesuffix(';'))
     version=hashlib.sha256((root/'chart.js').read_bytes()).hexdigest()[:12]
     changed=[]
+    template_doc=html.parse(str(root/'index.html'))
+    template_footers=template_doc.xpath('//footer')
+    if len(template_footers)!=1:
+        raise ValueError('The canonical site footer template is missing or duplicated')
+    shared_footer=html.tostring(template_footers[0],encoding='unicode',method='html')
     for article in articles:
         page=root/(article['id']+'.html');text=page.read_text();before=text
         # Collapse duplicate shared footers and keep the sole footer after </main>.
@@ -220,6 +225,16 @@ def refresh_article_tickers(root=ROOT):
                 text=text[:footer_match.start()]+text[footer_match.end():]
                 main_close=text.lower().find('</main>')+len('</main>')
                 text=text[:main_close]+'\n'+footer_html+text[main_close:]
+        else:
+            # Some legacy article pages have no footer at all. Add the canonical
+            # site footer and move cookie preferences into it rather than duplicate the control.
+            text=re.sub(r'<button\b[^>]*data-cookie-preferences[^>]*>.*?</button>\s*','',text,flags=re.S|re.I)
+            main_close=text.lower().find('</main>')
+            if main_close >= 0:
+                main_close+=len('</main>')
+                text=text[:main_close]+'\n'+shared_footer+text[main_close:]
+        if re.search(r'<link\b[^>]*href=["\']footer\.css(?:\?[^"\']*)?["\']',text,re.I) is None:
+            text=text.replace('</head>','<link rel="stylesheet" href="footer.css"></head>',1)
         doc=html.fromstring(text);labels=expected_tickers(article,doc)
         tags=doc.xpath(TAG_XPATH)
         actual=[(e.get('data-label'),e.get('data-tv')) for e in tags]
