@@ -10,6 +10,7 @@ on:
       - 'ttn-finance-publication-2026-11-21-updated.zip'
       - '.github/workflows/publish-approved-zip.yml'
       - 'scripts/normalize_gemini_publication_zip.py'
+      - 'scripts/import_publication_zip.py'
       - 'ttn-finance-three-articles-2026-11-14.zip'
       - 'TTN_Finance_*_AutoPublish_*.zip'
       - 'TTN_Finance_3_Articles_2026-11-14_Evening.zip'
@@ -68,7 +69,7 @@ jobs:
             [[ -f "$file" ]] || { echo "::error::Selected archive does not exist: $file"; exit 1; }
             archives+=("$file")
           fi
-          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]] && git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -F -e ".github/workflows/publish-approved-zip.yml" -e "scripts/normalize_gemini_publication_zip.py" >/dev/null; then
+          if (( ${#archives[@]} == 0 )) && [[ "${GITHUB_EVENT_NAME}" == "push" ]] && git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -F -e ".github/workflows/publish-approved-zip.yml" -e "scripts/normalize_gemini_publication_zip.py" -e "scripts/import_publication_zip.py" >/dev/null; then
             file="ttn-finance-publication-2026-11-21-updated.zip"
             [[ -f "$file" ]] || { echo "::error::Approved archive not found: $file"; exit 1; }
             archives+=("$file")
