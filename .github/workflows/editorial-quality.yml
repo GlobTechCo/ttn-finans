@@ -29,6 +29,9 @@ on:
       - 'requirements-maintenance.txt'
       - '.github/workflows/editorial-quality.yml'
   workflow_dispatch:
+concurrency:
+  group: ttn-editorial-quality
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
