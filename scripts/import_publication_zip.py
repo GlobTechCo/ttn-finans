@@ -86,7 +86,18 @@ def publish(archive):
             # so the public-page length audit counts the actual article, not only
             # the supplementary analysis. Keep the short deck in the page header.
             if slug == "bitcoin-reclaims-60000-weekend-rebound-november-21-2026":
-                for paragraph in list(body_nodes[0].xpath(".//header//p")):
+                # The source page's full copy is outside editorial-body, in a
+                # wrapper that the shared-page normalizer later unwraps. Move
+                # substantive paragraphs from anywhere in the article main
+                # into editorial-body, excluding navigation and page furniture.
+                candidates = doc.xpath(
+                    "//main//p[not(ancestor::footer) and not(ancestor::nav) "
+                    "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' editorial-sources ')]) "
+                    "and not(ancestor::*[contains(concat(' ',normalize-space(@class),' '),' article-sources ')])]"
+                )
+                for paragraph in candidates:
+                    if body_nodes[0] in paragraph.iterancestors():
+                        continue
                     value = " ".join("".join(paragraph.itertext()).split())
                     classes = set((paragraph.get("class") or "").split())
                     if len(value.split()) < 25 or classes.intersection({"dek", "article-dek", "editorial-dek"}):
