@@ -131,7 +131,9 @@ def network_only_mention(label, copy):
 def expected_tickers(article, doc):
     body = doc.xpath('//section[@class="editorial-body"]')
     assert len(body) == 1, article['id']
-    copy = ' '.join([article['title'], article.get('dek',''), body[0].text_content()])
+    article_copy = body[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
+    body_text = article_copy[0].text_content() if article_copy else body[0].text_content()
+    copy = ' '.join([article['title'], article.get('dek',''), body_text])
     labels = list(dict.fromkeys(ALIASES.get(t,t) for t in article.get('tickers',[])))
     for label, pattern in MENTIONS.items():
         if re.search(pattern, copy, re.I) and label not in labels:

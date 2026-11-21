@@ -109,6 +109,21 @@ def verify():
             assert not doc.xpath('//main[contains(@class,"article-container")] | //article[contains(@class,"article-shell")] | //header[contains(@class,"article-header")]'), (a['id'], 'legacy unsupported article layout')
             assert len(doc.xpath('//main[contains(@class,"static-page")]/h1')) == 1, (a['id'], 'article headline must be in the shared page flow')
             assert len(doc.xpath('//main[contains(@class,"static-page")]/section[contains(@class,"editorial-body")]')) == 1, (a['id'], 'missing editorial body in shared page flow')
+            if a['id'] in {'global-stocks-ai-selloff-9-trillion-november-21-2026','trump-data-center-tax-threat-ai-infrastructure-november-21-2026','bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026'}:
+                assert len(doc.xpath('//main[contains(@class,"static-page")]/p[contains(concat(" ",normalize-space(@class)," ")," article-dek ")]')) == 1, (a['id'], 'duplicate or missing top deck')
+                assert len(doc.xpath('//main//p[contains(concat(" ",normalize-space(@class)," ")," editorial-meta ")]')) == 1, (a['id'], 'duplicate or missing publication metadata')
+                assert len(doc.xpath('//main//figure[contains(concat(" ",normalize-space(@class)," ")," ttn-editorial-figure ")]')) == 1, (a['id'], 'duplicate or missing hero cover')
+                assert len(doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')) == 1, (a['id'], 'duplicate or missing article copy')
+                assert len(doc.xpath('//main//section[contains(concat(" ",normalize-space(@class)," ")," editorial-body ")]/aside[contains(concat(" ",normalize-space(@class)," ")," editorial-sources ")]')) == 1, (a['id'], 'sources must follow article copy inside editorial body')
+                assert len(doc.xpath('//body/footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]')) == 1 and not doc.xpath('//main//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]'), (a['id'], 'duplicate or misplaced site footer')
+                assert not doc.xpath('//time[contains(., "EET")]'), (a['id'], 'publication time must use New York')
+                article_copy = doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')[0]
+                body_links = article_copy.xpath('.//a/@href')
+                assert len(body_links) >= 2 and all(link.endswith('.html') and (ROOT/link).is_file() for link in body_links), (a['id'], 'article context links must point to internal TTN articles')
+                deck = doc.xpath('//main/p[contains(concat(" ",normalize-space(@class)," ")," article-dek ")]')[0].text_content().split()
+                assert 15 <= len(deck) <= 18, (a['id'], 'deck must contain 15-18 words', len(deck))
+                assert len(doc.xpath('//head/title')) == 1 and len(doc.xpath('//head/title/text()')[0]) <= 65, (a['id'], 'SEO title length')
+
         assert 'article-share.css' in share_styles, (a['id'], 'missing share stylesheet')
         assert 'article-share.js' in share_scripts, (a['id'], 'missing share script')
         from article_tickers import expected_tickers, INSTRUMENTS, TAG_XPATH

@@ -36,12 +36,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Keep news search on homepage only
-        run: python3 scripts/remove_article_header_search.py
-      - name: Enforce approved editorial lengths
-        run: python3 scripts/audit_article_lengths.py
       - name: Install site verification dependencies
         run: python3 -m pip install -r requirements-maintenance.txt
+      - name: Keep news search on homepage only
+        run: python3 scripts/remove_article_header_search.py
+      - name: Refresh static editorial surfaces
+        run: python3 scripts/refresh_static_editorial.py
+      - name: Enforce approved editorial lengths
+        run: python3 scripts/audit_article_lengths.py
       - name: Optimize legacy covers and refresh social cards
         run: |
           python3 scripts/optimize_legacy_covers.py

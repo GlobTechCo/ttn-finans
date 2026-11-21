@@ -7,6 +7,13 @@ const base = process.env.TTN_TEST_BASE || 'http://127.0.0.1:8765/';
 const shots = process.env.TTN_SCREENSHOT_DIR || '/tmp/ttn-crypto-browser';
 fs.mkdirSync(shots, { recursive: true });
 const cases = [
+  ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'FOREXCOM:SPXUSD'],
+  ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'NASDAQ:IXIC'],
+  ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'TVC:DJI'],
+  ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'TVC:US10Y'],
+  ['global-stocks-ai-selloff-9-trillion-november-21-2026', 'TVC:GOLD'],
+  ['bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026', 'BINANCE:BTCUSDT'],
+  ['bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026', 'BINANCE:ETHUSDT'],
   ['brazil-election-lula-etf-real-selloff-2026', 'AMEX:EWZ'],
   ['meta-95-billion-equity-ai-financing-2026', 'NASDAQ:AMD'],
   ['meta-95-billion-equity-ai-financing-2026', 'NASDAQ:META'],
@@ -113,6 +120,8 @@ const cases = [
           await page.screenshot({ path: path.join(shots, name + '-article-tickers.png') });
         }
       }
+      await page.goto(base + 'trump-data-center-tax-threat-ai-infrastructure-november-21-2026.html');
+      assert.equal(await page.locator('.article-ticker-tag').count(), 0, 'Tech & AI article should not invent unrelated tickers');
       // Gold Coast is a destination, not a mention of the gold instrument.
       await page.goto(base + 'western-sydney-airport-passenger-opening-2026.html');
       assert.equal(await page.locator('.article-ticker-tag').count(), 0);
