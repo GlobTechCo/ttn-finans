@@ -948,3 +948,11 @@ GROUPS.setdefault('Jobs and housing', []).append('global-stocks-ai-selloff-9-tri
 RELATED['global-stocks-ai-selloff-9-trillion-november-21-2026'] = []
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('trump-data-center-tax-threat-ai-infrastructure-november-21-2026')
 RELATED['trump-data-center-tax-threat-ai-infrastructure-november-21-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('bitcoin-reclaims-60000-weekend-rebound-november-21-2026')
+RELATED['bitcoin-reclaims-60000-weekend-rebound-november-21-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('eu-budget-2028-2034-cuts-digital-tax-november-2026')
+RELATED['eu-budget-2028-2034-cuts-digital-tax-november-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('eu-indonesia-trade-agreement-european-exporters-2026')
+RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
