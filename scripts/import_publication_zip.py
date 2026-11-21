@@ -504,7 +504,7 @@ def publish(archive):
             body_for_footer = final_doc.xpath("//body")[0]
             main_for_footer = final_doc.xpath("//main[@id='main-content']")
             check(len(main_for_footer) == 1, "Expected one main landmark before footer: " + slug)
-            body_for_footer.insert(body_for_footer.index(main_for_footer[0]) + 1, shared_footer)
+            body_for_footer.append(shared_footer)
             # Ensure the required GA4 and consent controls load on every imported article.
             template_scripts = site_template.xpath("//script[@src]")
             for required in ("analytics.js", "consent.js"):
