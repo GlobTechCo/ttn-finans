@@ -42,6 +42,10 @@ def publish(archive):
             "eu-budget-2028-2034-cuts-digital-tax-november-2026",
             "eu-indonesia-trade-agreement-european-exporters-2026",
             "bitcoin-reclaims-60000-weekend-rebound-november-21-2026",
+            # Controlled correction pass for the three November 22 articles.
+            "sec-fake-crypto-platforms-37-million-fraud-november-2026",
+            "sk-hynix-mars-cxl-memory-pooling-ai-inference-2026",
+            "swiss-inflation-snb-second-round-effects-december-policy-2026",
         }
         approved_html_files = {slug + ".html" for slug in replace_slugs}
         entries = []
