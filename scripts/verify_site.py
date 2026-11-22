@@ -153,6 +153,20 @@ def verify():
                 assert ticker_pos<source_pos,(a['id'],'tickers must precede sources')
         else:
             assert not ticker_blocks,(a['id'],'unexpected empty ticker block')
+        if a['id'] in {
+            'sec-fake-crypto-platforms-37-million-fraud-november-2026',
+            'sk-hynix-mars-cxl-memory-pooling-ai-inference-2026',
+            'swiss-inflation-snb-second-round-effects-december-policy-2026',
+        }:
+            body_nodes = doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
+            related_nodes = doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," related-reading ")]')
+            assert len(body_nodes) == 1, (a['id'], 'one article-body wrapper')
+            if ticker_labels:
+                assert len(ticker_blocks) == 1 and body_nodes[0].getnext() is ticker_blocks[0], (a['id'], 'tickers must immediately follow article text')
+                if related_nodes:
+                    assert ticker_blocks[0].getnext() is related_nodes[0], (a['id'], 'related reading must follow tickers')
+            else:
+                assert not ticker_blocks, (a['id'], 'no irrelevant ticker block')
         assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
         assert schema['articleSection']==a['section'],(a['id'],'article section')
