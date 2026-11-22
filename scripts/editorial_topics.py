@@ -971,3 +971,11 @@ RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
 RELATED['bitcoin-reclaims-60000-weekend-rebound-november-21-2026'] = []
 RELATED['eu-budget-2028-2034-cuts-digital-tax-november-2026'] = []
 RELATED['eu-indonesia-trade-agreement-european-exporters-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('sec-fake-crypto-platforms-37-million-fraud-november-2026')
+RELATED['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('sk-hynix-mars-cxl-memory-pooling-ai-inference-2026')
+RELATED['sk-hynix-mars-cxl-memory-pooling-ai-inference-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('swiss-inflation-snb-second-round-effects-december-policy-2026')
+RELATED['swiss-inflation-snb-second-round-effects-december-policy-2026'] = []
