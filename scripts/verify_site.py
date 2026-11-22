@@ -109,7 +109,7 @@ def verify():
             assert not doc.xpath('//main[contains(@class,"article-container")] | //article[contains(@class,"article-shell")] | //header[contains(@class,"article-header")]'), (a['id'], 'legacy unsupported article layout')
             assert len(doc.xpath('//main[contains(@class,"static-page")]/h1')) == 1, (a['id'], 'article headline must be in the shared page flow')
             assert len(doc.xpath('//main[contains(@class,"static-page")]/section[contains(@class,"editorial-body")]')) == 1, (a['id'], 'missing editorial body in shared page flow')
-            if a['id'] in {'global-stocks-ai-selloff-9-trillion-november-21-2026','trump-data-center-tax-threat-ai-infrastructure-november-21-2026','bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026'}:
+            if a['id'] in {'global-stocks-ai-selloff-9-trillion-november-21-2026','trump-data-center-tax-threat-ai-infrastructure-november-21-2026','bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026','sec-fake-crypto-platforms-37-million-fraud-november-2026','sk-hynix-mars-cxl-memory-pooling-ai-inference-2026','swiss-inflation-snb-second-round-effects-december-policy-2026'}:
                 assert len(doc.xpath('//main[contains(@class,"static-page")]/p[contains(concat(" ",normalize-space(@class)," ")," article-dek ")]')) == 1, (a['id'], 'duplicate or missing top deck')
                 assert len(doc.xpath('//main//p[contains(concat(" ",normalize-space(@class)," ")," editorial-meta ")]')) == 1, (a['id'], 'duplicate or missing publication metadata')
                 assert len(doc.xpath('//main//figure[contains(concat(" ",normalize-space(@class)," ")," ttn-editorial-figure ")]')) == 1, (a['id'], 'duplicate or missing hero cover')
