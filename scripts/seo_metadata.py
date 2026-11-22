@@ -691,3 +691,9 @@ DESCRIPTIONS['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = 'Paywar
 # Reviewed November 22, 2026: SEC crypto-platform fraud article.
 TITLES['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = 'SEC Charges Eight Over Alleged $37M Crypto Fraud'
 DESCRIPTIONS['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = 'The SEC accused eight entities of using fake crypto investment platforms in an alleged fraud that raised more than $37 million.'
+
+TITLES['swiss-inflation-snb-second-round-effects-december-policy-2026'] = 'Swiss Inflation Puts SNB on Second-Round Watch'
+DESCRIPTIONS['swiss-inflation-snb-second-round-effects-december-policy-2026'] = 'Swiss inflation rose to 1.5% in October. The SNB is watching for second-round effects as it prepares its December rate decision.'
+
+TITLES['sk-hynix-mars-cxl-memory-pooling-ai-inference-2026'] = 'SK hynix Demonstrates CXL Memory for AI Racks'
+DESCRIPTIONS['sk-hynix-mars-cxl-memory-pooling-ai-inference-2026'] = 'SK hynix demonstrated its MARS AI rack and CXL memory-pooling technology, highlighting memory as a growing constraint in AI infrastructure.'
