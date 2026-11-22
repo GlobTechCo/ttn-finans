@@ -163,7 +163,26 @@ jobs:
             exit 0
           fi
           git commit -m "Publish approved article ZIP and update site indexes"
-          git pull --rebase origin main
+          if ! git pull --rebase origin main; then
+            conflicts="$(git diff --name-only --diff-filter=U)"
+            if [[ "$conflicts" != "sitemap.xml" ]]; then
+              echo "::error::Unexpected rebase conflict(s): $conflicts"
+              exit 1
+            fi
+            # A concurrent maintenance commit may refresh the sitemap while this
+            # publication adds article URLs. Keep the latest main sitemap, finish
+            # the rebase, then regenerate all editorial indexes from the merged catalog.
+            git checkout --ours sitemap.xml
+            git add sitemap.xml
+            GIT_EDITOR=true git rebase --continue
+            python scripts/refresh_static_editorial.py
+            python scripts/refresh_seo_metadata.py
+            python scripts/refresh_social_cards.py
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit --amend --no-edit
+            fi
+          fi
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Request GitHub Pages branch rebuild
