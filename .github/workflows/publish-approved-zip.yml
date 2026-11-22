@@ -200,8 +200,7 @@ jobs:
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Request GitHub Pages branch rebuild
-        if: steps.select.outputs.skip != 'true'
-        if: steps.saved.outputs.changed == 'true'
+        if: steps.select.outputs.skip != 'true' && steps.saved.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
