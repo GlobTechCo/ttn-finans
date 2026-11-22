@@ -312,6 +312,21 @@ for name, data in list(raw.items()):
             "dek": "The Dow fell 1,101 points as Wall Street extended its sell-off and investors reassessed AI valuations.",
             "seoTitle": "Wall Street Sell-Off: Dow Drops 1,101 Points | TTN Finance",
             "metaDescription": "The Dow fell 1,101 points, the S&P 500 logged a sixth straight loss and the Nasdaq dropped 2.3% as U.S. stocks sold off."
+        },
+        "sec-fake-crypto-platforms-37-million-fraud-november-2026": {
+            "dek": "The SEC charged eight entities over an alleged $37 million fraud involving fake advisers and cryptocurrency trading platforms.",
+            "metaDescription": "The SEC accused eight entities of using fake crypto investment platforms in an alleged fraud that raised more than $37 million.",
+            "tickers": []
+        },
+        "sk-hynix-mars-cxl-memory-pooling-ai-inference-2026": {
+            "dek": "SK hynix showed its MARS AI rack and CXL memory pooling at Supercomputing 2026, targeting memory efficiency.",
+            "metaDescription": "SK hynix demonstrated its MARS AI rack and CXL memory-pooling technology, highlighting memory as a growing constraint in AI infrastructure.",
+            "tickers": ["KRX:000660", "NASDAQ:NVDA", "NASDAQ:AMD"]
+        },
+        "swiss-inflation-snb-second-round-effects-december-policy-2026": {
+            "dek": "Swiss inflation reached 1.5% in October as the SNB monitored second-round effects ahead of its December policy decision.",
+            "metaDescription": "Swiss inflation rose to 1.5% in October. The SNB is watching for second-round effects as it prepares its December rate decision.",
+            "tickers": ["SIX:UBSG", "FX_IDC:USDCHF", "FX_IDC:EURCHF"]
         }
     }
     editorial_override = editorial_overrides.get(slug, {})
@@ -448,7 +463,7 @@ for name, data in list(raw.items()):
         else:
             seen_ids.add(node_id)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt,"tickers":editorial_override.get("tickers", [])})
     # Move package images into the importer's canonical asset folders.
     stem = slug
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
