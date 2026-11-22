@@ -218,7 +218,7 @@ def matching_section_close(source, start):
 def matching_div_close(source, start):
     """Return the position immediately after the matching closing div."""
     depth = 0
-    for match in re.finditer(r'</?div\\b[^>]*>', source[start:], flags=re.I):
+    for match in re.finditer(r'</?div\b[^>]*>', source[start:], flags=re.I):
         token = match.group(0)
         if token.startswith('</'):
             depth -= 1
