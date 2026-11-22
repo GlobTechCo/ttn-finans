@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Safely import an approved TTN ZIP package; run site regeneration afterwards."""
 import datetime
+from zoneinfo import ZoneInfo
 import copy
 import html as html_std
 import json
@@ -306,7 +307,7 @@ def publish(archive):
                 structured["articleSection"] = m["section"]
                 structured["wordCount"] = word_count
                 structured["datePublished"] = m["date"]
-                structured["dateModified"] = m["date"]
+                structured["dateModified"] = datetime.datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="seconds")
                 return match.group(1) + json.dumps(structured, ensure_ascii=False) + match.group(3)
 
             original_html = jsonld_pattern.sub(align_section, original_html)
