@@ -686,3 +686,8 @@ TITLES['usdc-eu-significant-emt-eba-supervision-november-2026'] = 'EBA Names USD
 DESCRIPTIONS['usdc-eu-significant-emt-eba-supervision-november-2026'] = 'The European Banking Authority classified USDC as the EU’s first significant e-money token under MiCA, starting shared prudential oversight with France’s ACPR.'
 TITLES['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = 'Payward Adds 200+ UK and EU Stocks to xStocks'
 DESCRIPTIONS['payward-xstocks-tokenized-uk-eu-equities-november-2026'] = 'Payward added over 200 UK and EU tokenized stocks to xStocks via GTN, pushing total assets above 1,500 while maintaining UK and U.S. investor restrictions.'
+
+
+# Reviewed November 22, 2026: SEC crypto-platform fraud article.
+TITLES['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = 'SEC Charges Eight Over Alleged $37M Crypto Fraud'
+DESCRIPTIONS['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = 'The SEC accused eight entities of using fake crypto investment platforms in an alleged fraud that raised more than $37 million.'
