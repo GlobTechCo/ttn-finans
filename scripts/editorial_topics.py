@@ -984,3 +984,8 @@ RELATED['swiss-inflation-snb-second-round-effects-december-policy-2026'] = []
 RELATED['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = []
 RELATED['sk-hynix-mars-cxl-memory-pooling-ai-inference-2026'] = []
 RELATED['swiss-inflation-snb-second-round-effects-december-policy-2026'] = []
+
+# Approved ZIP auto-publication
+RELATED['sec-fake-crypto-platforms-37-million-fraud-november-2026'] = []
+RELATED['sk-hynix-mars-cxl-memory-pooling-ai-inference-2026'] = []
+RELATED['swiss-inflation-snb-second-round-effects-december-policy-2026'] = []
