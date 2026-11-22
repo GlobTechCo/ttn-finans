@@ -215,6 +215,20 @@ def matching_section_close(source, start):
     raise ValueError('Unclosed editorial-body section')
 
 
+def matching_div_close(source, start):
+    """Return the position immediately after the matching closing div."""
+    depth = 0
+    for match in re.finditer(r'</?div\\b[^>]*>', source[start:], flags=re.I):
+        token = match.group(0)
+        if token.startswith('</'):
+            depth -= 1
+        elif not token.rstrip().endswith('/>'):
+            depth += 1
+        if depth == 0:
+            return start + match.end()
+    raise ValueError('Unclosed article-body div')
+
+
 def ticker_block(labels):
     items=[]
     for label in labels:
@@ -279,11 +293,10 @@ def refresh_article_tickers(root=ROOT):
             source_markers=('<aside class="editorial-sources"','<details class="editorial-sources"','<section class="article-sources"','<h2>Sources</h2>')
             source_positions=[p for marker in source_markers if (p:=text.find(marker,section_start,section_close))>=0]
             source_pos=min(source_positions) if source_positions else -1
-            if body_start >= 0 and source_pos > body_start:
-                body_close=text.rfind('</div>',body_start,source_pos)
-                if body_close < body_start:
-                    raise ValueError(f"Could not locate article-body end: {article['id']}")
-                insert_at=body_close+len('</div>')
+            if body_start >= 0:
+                # Insert immediately after the complete article-body wrapper,
+                # before Related Reading and Sources.
+                insert_at=matching_div_close(text, body_start)
             elif source_pos >= 0 and source_pos < section_close:
                 insert_at=source_pos
             else:
