@@ -321,12 +321,12 @@ for name, data in list(raw.items()):
         "sk-hynix-mars-cxl-memory-pooling-ai-inference-2026": {
             "dek": "SK hynix showed its MARS AI rack and CXL memory pooling at Supercomputing 2026, targeting memory efficiency.",
             "metaDescription": "SK hynix demonstrated its MARS AI rack and CXL memory-pooling technology, highlighting memory as a growing constraint in AI infrastructure.",
-            "tickers": ["KRX:000660", "NASDAQ:NVDA", "NASDAQ:AMD"]
+            "tickers": ["KRX:000660"]
         },
         "swiss-inflation-snb-second-round-effects-december-policy-2026": {
             "dek": "Swiss inflation reached 1.5% in October as the SNB monitored second-round effects ahead of its December policy decision.",
             "metaDescription": "Swiss inflation rose to 1.5% in October. The SNB is watching for second-round effects as it prepares its December rate decision.",
-            "tickers": ["SIX:UBSG", "FX_IDC:USDCHF", "FX_IDC:EURCHF"]
+            "tickers": ["FX_IDC:USDCHF", "FX_IDC:EURCHF"]
         }
     }
     editorial_override = editorial_overrides.get(slug, {})
