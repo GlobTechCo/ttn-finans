@@ -170,7 +170,9 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                 if 10 <= len(candidate.split()) <= 30:
                     deck = candidate
                     paragraphs[0].getparent().remove(paragraphs[0])
-            if not deck: raise SystemExit("Could not identify the supplied deck in " + md_name)
+            if not deck:
+                preview = [" ".join(" ".join(node.itertext()).split())[:240] for node in list(doc)[:8]]
+                raise SystemExit("Could not identify the supplied deck in " + md_name + "; opening blocks=" + repr(preview))
             sources, tickers, seen_urls = [], [], set()
             for heading in list(doc.xpath(".//h2|.//h3")):
                 heading_text = " ".join(" ".join(heading.itertext()).split()).lower().rstrip(":")
