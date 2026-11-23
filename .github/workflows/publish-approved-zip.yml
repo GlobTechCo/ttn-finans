@@ -186,19 +186,31 @@ jobs:
           git commit -m "Publish approved article ZIP and update site indexes"
           if ! git pull --rebase origin main; then
             conflicts="$(git diff --name-only --diff-filter=U)"
-            if [[ "$conflicts" != "sitemap.xml" ]]; then
-              echo "::error::Unexpected rebase conflict(s): $conflicts"
-              exit 1
-            fi
-            # A concurrent maintenance commit may refresh the sitemap while this
-            # publication adds article URLs. Keep the latest main sitemap, finish
-            # the rebase, then regenerate all editorial indexes from the merged catalog.
-            git checkout --ours sitemap.xml
-            git add sitemap.xml
+            while IFS= read -r file; do
+              [[ -n "$file" ]] || continue
+              case "$file" in
+                sitemap.xml)
+                  # Keep the latest sitemap from main, then regenerate it after the merge.
+                  git checkout --ours "$file"
+                  ;;
+                market-analysis-morgan-stanley-bullish-stocks.html|tech-ai-nvidia-reinstates-jensen-huang.html|crypto-bitcoin-seven-week-losing-streak.html)
+                  # These exact pages are being replaced by this approved correction import.
+                  # During rebase, --theirs is the publication commit being replayed.
+                  git checkout --theirs "$file"
+                  ;;
+                *)
+                  echo "::error::Unexpected rebase conflict: $file"
+                  exit 1
+                  ;;
+              esac
+              git add "$file"
+            done <<< "$conflicts"
             GIT_EDITOR=true git rebase --continue
             python scripts/refresh_static_editorial.py
             python scripts/refresh_seo_metadata.py
             python scripts/refresh_social_cards.py
+            python scripts/audit_article_lengths.py
+            python scripts/verify_site.py
             git add -A
             if ! git diff --cached --quiet; then
               git commit --amend --no-edit
