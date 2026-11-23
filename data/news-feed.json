@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T20:51:54.927889+00:00",
+  "generatedAt": "2026-11-23T01:10:25.635149+00:00",
   "sources": [
     {
       "name": "CNBC Markets",
       "ok": true,
-      "count": 25
+      "count": 23
     },
     {
       "name": "MarketWatch",
@@ -34,6 +34,142 @@
     }
   ],
   "items": [
+    {
+      "title": "Nvidia: Crisis Prices Won't Last (Rating Upgrade)",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970914-nvidia-crisis-prices-wont-last-rating-upgrade?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-23T01:00:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q3 2026 Update",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970950-cathie-wood-ark-invest-13f-portfolio-q3-2026-update?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-23T00:43:56+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Flughafen Wien Aktiengesellschaft 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970949-flughafen-wien-aktiengesellschaft-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:20:36+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAL0LD_L.jpg",
+      "pubDate": "2026-11-22T23:12:49+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Beijing to bar young ’red-chip’ firms from listing outside mainland China, sources say",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/beijing-to-bar-young-redchip-firms-from-listing-outside-mainland-china-sources-say-5044173",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAJ0M1_L.jpg",
+      "pubDate": "2026-11-22T23:12:34+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102",
+      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAL0HI_L.jpg",
+      "pubDate": "2026-11-22T23:12:22+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "C3is Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970948-c3is-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:12:03+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Cosmo N.V. (CMOPF) Presents at Jefferies London Healthcare Conference - Slideshow",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970947-cosmo-n-v-cmopf-presents-at-jefferies-london-healthcare-conference-slideshow?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:05:27+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Star Equity Holdings, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970946-star-equity-holdings-inc-2026-q3-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:04:25+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Japan Petroleum Exploration Co., Ltd. 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970945-japan-petroleum-exploration-co-ltd-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:02:13+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Denka Company Limited 2027 Q2 - Results - Earnings Call Presentation",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970944-denka-company-limited-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T23:01:03+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Goldman Sachs’ economic outlook for 2027",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-economic-outlook-for-2027-5044151",
+      "image": "https://content-media.investing.com/news/LYNXMPEM50182_1200_L.jpg",
+      "pubDate": "2026-11-22T22:24:42+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+      "desc": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+      "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-74462346",
+      "pubDate": "2026-11-22T21:51:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Why Finding Schrödinger's Cat Creates Ultra-Efficient Propellers",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970943-why-finding-schrdingers-cat-creates-ultra-efficient-propellers?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T21:30:00+00:00",
+      "source": "Seeking Alpha"
+    },
+    {
+      "title": "Ron Johnson’s Social Security gaffe buried important news",
+      "desc": "The Wisconsin Republican’s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+      "link": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+      "image": "https://images.mktw.net/im-25097163",
+      "pubDate": "2026-11-22T21:28:00+00:00",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "desc": "",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-5044127",
+      "image": "https://content-media.investing.com/news/LYNXNPEC5E0JS_M.jpg",
+      "pubDate": "2026-11-22T21:20:03+00:00",
+      "source": "Investing.com"
+    },
+    {
+      "title": "New Insurance Opportunities: Why Transparency Matters",
+      "desc": "",
+      "link": "https://seekingalpha.com/article/4970942-new-insurance-opportunities-why-transparency-matters?source=feed_all_articles",
+      "image": null,
+      "pubDate": "2026-11-22T21:00:00+00:00",
+      "source": "Seeking Alpha"
+    },
     {
       "title": "RING: Gold's Plunge Leaves Miners Undervalued",
       "desc": "",
@@ -89,14 +225,6 @@
       "image": "https://images.mktw.net/im-72441727",
       "pubDate": "2026-11-22T19:24:00+00:00",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAL0HI_L.jpg",
-      "pubDate": "2026-11-22T19:18:20+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "EQS-PVR: AT&S Austria Technologie & Systemtechnik AG: Release according to Article 135, Section 2 BörseG with the objective of Europe-wide distribution",
@@ -299,22 +427,6 @@
       "source": "MarketWatch"
     },
     {
-      "title": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?",
-      "desc": "“We have $2.9 million in retirement accounts. That includes some money that we inherited about 10 years ago.”",
-      "link": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-13717696",
-      "pubDate": "2026-11-22T16:10:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
-      "desc": "This one, simple, low-pain tax solves all the problems.",
-      "link": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
-      "image": "https://images.mktw.net/im-64310568",
-      "pubDate": "2026-11-22T16:04:00+00:00",
-      "source": "MarketWatch"
-    },
-    {
       "title": "When AI Meets The Physical World: Robotics",
       "desc": "",
       "link": "https://seekingalpha.com/article/4970937-when-ai-meets-physical-world-robotics?source=feed_all_articles",
@@ -395,76 +507,12 @@
       "source": "Seeking Alpha"
     },
     {
-      "title": "CG Oncology: The Growing Bull Case Still Has An Aggressive Valuation (Rating Upgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970928-cg-oncology-the-growing-bull-case-still-has-an-aggressive-valuation?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T14:01:36+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "’Black Friday’ brings consumer spending into focus for AI-rocked market",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/black-friday-brings-consumer-spending-into-focus-for-airocked-market-5044012",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAJ0UK_L.jpg",
-      "pubDate": "2026-11-22T14:00:24+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "26-year-old Google worker earns $323,000 a year—but lives on less than minimum wage",
       "desc": "Charles Broomfield set a post-college goal of reaching $750,000 in investments by age 30. Now 26, he expects to get there within the next year.",
       "link": "https://www.cnbc.com/make-it/2026/11/22/google-worker-earns-323000-a-yearbut-he-lives-on-minimum-wage.html",
       "image": null,
       "pubDate": "2026-11-22T14:00:01+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "A Correction Without A Cushion",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970903-a-correction-without-a-cushion?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T14:00:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "AMD: Why I'm Buying This Correction",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970927-amd-why-im-buying-this-correction?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:56:23+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "On Holding: Best In Class Margins And Strong DTC Sales",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970925-on-holding-best-in-class-margins-and-strong-dtc-sales?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:50:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Keurig Dr Pepper: An Updated Assessment (Rating Downgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970909-keurig-dr-pepper-an-updated-assessment-rating-downgrade?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:45:28+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Wall Street Week Ahead",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970920-wall-street-week-ahead?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:34:18+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "W. P. Carey: A Growing Rainy Day Stock (Rating Upgrade)",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970924-w-p-carey-a-growing-rainy-day-stock?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:31:14+00:00",
-      "source": "Seeking Alpha"
     },
     {
       "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
@@ -475,52 +523,12 @@
       "source": "CNBC Markets"
     },
     {
-      "title": "The 200-Day Average Broke - The Next 4 Weeks Are Critical",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970929-200-day-average-broke-next-4-weeks-are-critical?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:20:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Our Top 10 High Growth Dividend Stocks - November 2026",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970207-our-top-10-high-growth-dividend-stocks-november-2026?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:20:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Paychex: A 4.23% Yield And 8% Earnings Growth Deserve More Than A Market Multiple",
-      "desc": "",
-      "link": "https://seekingalpha.com/article/4970921-paychex-4-23-percent-yield-8-percent-earnings-growth-deserve-more-than-market-multiple?source=feed_all_articles",
-      "image": null,
-      "pubDate": "2026-11-22T13:15:00+00:00",
-      "source": "Seeking Alpha"
-    },
-    {
-      "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivelike-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-5043898",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAL06L_L.jpg",
-      "pubDate": "2026-11-22T13:00:57+00:00",
-      "source": "Investing.com"
-    },
-    {
       "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
       "desc": "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
       "link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
       "image": null,
       "pubDate": "2026-11-22T13:00:01+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.95%",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-195-5043961",
-      "image": "https://content-media.investing.com/news/LYNXNPED9015J_M.jpg",
-      "pubDate": "2026-11-22T12:45:03+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
@@ -537,14 +545,6 @@
       "image": null,
       "pubDate": "2026-11-22T12:10:39+00:00",
       "source": "CNBC Markets"
-    },
-    {
-      "title": "Analysis-Correction or deeper reckoning? Investors seek signs US stock selling will abate",
-      "desc": "",
-      "link": "https://www.investing.com/news/stock-market-news/analysiscorrection-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-5043939",
-      "image": "https://content-media.investing.com/trkd-images/LYNXNPEMAL07G_L.jpg",
-      "pubDate": "2026-11-22T12:06:21+00:00",
-      "source": "Investing.com"
     },
     {
       "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
@@ -592,6 +592,14 @@
       "link": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
       "image": null,
       "pubDate": "2026-11-21T14:22:04+00:00",
+      "source": "CNBC Markets"
+    },
+    {
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "desc": "Anthropic's IPO was a big public market success for the company, but Friday's selloff shows that valuing the AI stock will remain volatile for investors.",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "image": null,
+      "pubDate": "2026-11-21T14:07:53+00:00",
       "source": "CNBC Markets"
     },
     {
@@ -648,30 +656,6 @@
       "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
       "image": null,
       "pubDate": "2026-11-21T06:00:02+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-      "desc": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
-      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-      "image": null,
-      "pubDate": "2026-11-20T22:59:33+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
-      "desc": "Cybersecurity companies have been hunting for acquisitions in the AI era.",
-      "link": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
-      "image": null,
-      "pubDate": "2026-11-20T21:35:24+00:00",
-      "source": "CNBC Markets"
-    },
-    {
-      "title": "Trump says he still has confidence in Lutnick",
-      "desc": "President Donald Trump, when asked by CNBC's Eamon Javers, said he has not lost confidence in Commerce Secretary Howard Lutnick.",
-      "link": "https://www.cnbc.com/2026/11/20/trump-lutnick-commerce-china-ai.html",
-      "image": null,
-      "pubDate": "2026-11-20T20:52:08+00:00",
       "source": "CNBC Markets"
     }
   ]
