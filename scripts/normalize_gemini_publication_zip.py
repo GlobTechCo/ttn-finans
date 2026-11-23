@@ -328,7 +328,24 @@ for name, data in list(raw.items()):
             "metaDescription": "Swiss inflation rose to 1.5% in October. The SNB is watching for second-round effects as it prepares its December rate decision.",
             "tickers": ["FX_IDC:USDCHF", "FX_IDC:EURCHF"]
         }
-    }
+,        "brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026": {
+            "dek": "Brookfield's $1.7 billion PGP Glass deal expands its packaging exposure and gives Blackstone an exit from the business.",
+            "seoTitle": "Brookfield to Buy PGP Glass for $1.7B | TTN Finance",
+            "metaDescription": "Brookfield agreed to acquire PGP Glass from Blackstone for $1.7 billion, expanding its exposure to India's glass packaging market.",
+            "tickers": ["BAM", "BX"]
+        },
+        "europe-sovereign-cloud-push-us-tech-dominance-2026": {
+            "dek": "European sovereignty rules are creating cloud opportunities, but migration costs and US hyperscaler scale limit rapid market-share shifts.",
+            "seoTitle": "Europe's Sovereign Cloud Push Tests US Cloud Giants | TTN Finance",
+            "metaDescription": "European sovereign-cloud procurement is creating opportunities for regional providers, while migration costs and US hyperscaler scale limit rapid market-share shifts.",
+            "tickers": ["AMZN", "MSFT", "GOOGL"]
+        },
+        "kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026": {
+            "dek": "Kraken's Canadian-dollar Bitcoin dislocation exposed how thin local order books can amplify selling despite stable global prices.",
+            "seoTitle": "Kraken Bitcoin Flash Crash Exposes Liquidity Risk | TTN Finance",
+            "metaDescription": "A sharp Bitcoin dislocation on Kraken's Canadian-dollar market exposed fragmented liquidity, execution risk and questions about exchange safeguards.",
+            "tickers": ["BTC", "ETH", "XRP"]
+        }    }
     editorial_override = editorial_overrides.get(slug, {})
     dek = editorial_override.get("dek", dek)
     seo_title = editorial_override.get("seoTitle", seo_title)
