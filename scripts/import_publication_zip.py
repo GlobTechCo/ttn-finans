@@ -582,7 +582,7 @@ def publish(archive):
                 id=slug, title=m["title"], dek=m["dek"], section=m["section"], format=m["format"],
                 date=m["date"], author="TTN Research Desk", tickers=m.get("tickers", []),
                 image=cover, imageSmall=sm, imageMedium=md,
-                imageSrcset=sm + " 480w, " + md + " 960w, " + cover + " 1672w",
+                imageSrcset=sm + " 480w, " + md + " 960w, " + cover + " 2576w",
                 imageAlt=alt[0], body=[html.tostring(el, encoding="unicode") for el in body_nodes[0]],
                 sources=sources
             ))
