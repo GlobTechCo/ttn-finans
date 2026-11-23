@@ -327,8 +327,8 @@ for name, data in list(raw.items()):
             "dek": "Swiss inflation reached 1.5% in October as the SNB monitored second-round effects ahead of its December policy decision.",
             "metaDescription": "Swiss inflation rose to 1.5% in October. The SNB is watching for second-round effects as it prepares its December rate decision.",
             "tickers": ["FX_IDC:USDCHF", "FX_IDC:EURCHF"]
-        }
-,        "brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026": {
+        },
+        "brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026": {
             "dek": "Brookfield's $1.7 billion PGP Glass deal expands its packaging exposure and gives Blackstone an exit from the business.",
             "seoTitle": "Brookfield to Buy PGP Glass for $1.7B | TTN Finance",
             "metaDescription": "Brookfield agreed to acquire PGP Glass from Blackstone for $1.7 billion, expanding its exposure to India's glass packaging market.",
