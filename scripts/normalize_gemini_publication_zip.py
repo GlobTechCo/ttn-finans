@@ -366,6 +366,12 @@ for name, data in list(raw.items()):
             "alibaba-ai-cloud-revenue-jumps-53-infrastructure-spending-cash-flow-november-20-2026": [25, 24, 20, 19, 17, 15, 14, 11, 10, 8, 6, 5],
             "eu-gives-czechia-spain-two-months-crypto-tax-reporting-rules-dac8-november-20-2026": [36, 35, 32, 30, 29, 27, 26, 25, 22, 20, 19, 17, 16, 14, 5],
             "wall-street-sell-off-deepens-dow-plunges-1100-points-ai-fears-spread-november-20-2026": [24, 23, 22, 21, 19, 17, 15, 14, 12, 10, 9, 6, 5, 4],
+            # November 23: remove repetitive background while retaining contract
+            # values, market-share evidence, provider responses and investment implications.
+            "europe-sovereign-cloud-push-us-tech-dominance-2026": [11, 4, 2],
+            # Remove repeated liquidity explanations and duplicate conclusions while
+            # preserving the price dislocation, cross-pair data, Kraken response and risk analysis.
+            "kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026": [21, 15, 6, 4],
         }
         paragraphs = body_nodes[0].xpath(".//p")
         for paragraph_index in sorted(trim_order.get(slug, []), reverse=True):
