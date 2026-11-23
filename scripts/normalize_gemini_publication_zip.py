@@ -140,6 +140,101 @@ with zipfile.ZipFile(archive_path, "r") as src:
                     buffer = BytesIO()
                     resized.save(buffer, format="WEBP", quality=86, method=6)
                     raw[slug + suffix] = buffer.getvalue()
+
+# Compatibility path for the approved Markdown handoff package with three matched covers.
+if flat_package and not any(name.endswith("-seo.json") for name in raw):
+    markdown_files = sorted(n for n in raw if Path(n).suffix.lower() == ".md" and len(Path(n).parts) == 2 and Path(n).parts[0] == "articles")
+    if len(markdown_files) == 3:
+        import markdown as markdown_lib
+        section_by_prefix = {"market-analysis-":"Market Analysis", "tech-ai-":"Tech & AI", "crypto-":"Crypto"}
+        prepared_at = datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="seconds")
+        for md_name in markdown_files:
+            slug = Path(md_name).stem
+            section = next((v for prefix, v in section_by_prefix.items() if slug.startswith(prefix)), None)
+            if not section: raise SystemExit("Cannot determine section from filename: " + md_name)
+            md_text = raw[md_name].decode("utf-8-sig", errors="replace")
+            if md_text.startswith("---\n"):
+                closing = md_text.find("\n---", 4)
+                if closing >= 0: md_text = md_text[closing + 4:].lstrip()
+            rendered = markdown_lib.markdown(md_text, extensions=["extra", "sane_lists", "smarty"])
+            doc = html.fromstring("<div>" + rendered + "</div>")
+            h1_nodes = doc.xpath(".//h1")
+            if len(h1_nodes) != 1: raise SystemExit("Expected exactly one H1 in " + md_name)
+            headline = " ".join(" ".join(h1_nodes[0].itertext()).split())
+            h1_nodes[0].getparent().remove(h1_nodes[0])
+            paragraphs = doc.xpath(".//p")
+            deck = ""
+            if paragraphs:
+                candidate = " ".join(" ".join(paragraphs[0].itertext()).split())
+                candidate = re.sub(r"^(?:Deck|Subheadline|Standfirst)\s*:\s*", "", candidate, flags=re.I)
+                if 10 <= len(candidate.split()) <= 30:
+                    deck = candidate
+                    paragraphs[0].getparent().remove(paragraphs[0])
+            if not deck: raise SystemExit("Could not identify the supplied deck in " + md_name)
+            sources, tickers, seen_urls = [], [], set()
+            for heading in list(doc.xpath(".//h2|.//h3")):
+                heading_text = " ".join(" ".join(heading.itertext()).split()).lower().rstrip(":")
+                if heading_text in {"sources", "references", "source notes", "references and sources"}:
+                    parent = heading.getparent()
+                    siblings = list(parent)
+                    idx = siblings.index(heading) if heading in siblings else -1
+                    if idx >= 0:
+                        for sibling in siblings[idx + 1:]:
+                            if sibling.tag in {"h1","h2","h3"}: break
+                            for link in sibling.xpath(".//a[@href]"):
+                                href=(link.get("href") or "").strip(); label=" ".join(" ".join(link.itertext()).split())
+                                if href.startswith("https://") and label and href not in seen_urls:
+                                    sources.append({"label":label,"url":href}); seen_urls.add(href)
+                            parent.remove(sibling)
+                    parent.remove(heading)
+                elif heading_text in {"tradingview tickers","tickers","tradingview"}:
+                    parent=heading.getparent(); siblings=list(parent); idx=siblings.index(heading) if heading in siblings else -1
+                    if idx>=0:
+                        for sibling in siblings[idx+1:]:
+                            if sibling.tag in {"h1","h2","h3"}: break
+                            line=" ".join(" ".join(sibling.itertext()).split())
+                            tickers.extend(re.findall(r"\b(?:NASDAQ|NYSE|AMEX|LSE|HKEX|KRX|TSE|ASX|FX_IDC|BINANCE|COINBASE):[A-Z0-9._/-]+\b|\b(?:BTC|ETH|SOL|XRP)\b",line))
+                            parent.remove(sibling)
+                    parent.remove(heading)
+            for link in doc.xpath(".//a[@href]"):
+                href=(link.get("href") or "").strip(); label=" ".join(" ".join(link.itertext()).split())
+                if href.startswith("https://") and label and href not in seen_urls:
+                    sources.append({"label":label,"url":href}); seen_urls.add(href)
+            for paragraph in list(doc.xpath(".//p")):
+                line=" ".join(" ".join(paragraph.itertext()).split())
+                if re.match(r"^(?:TradingView\s+)?Tickers?\s*:",line,re.I):
+                    tickers.extend(re.findall(r"\b(?:NASDAQ|NYSE|AMEX|LSE|HKEX|KRX|TSE|ASX|FX_IDC|BINANCE|COINBASE):[A-Z0-9._/-]+\b|\b(?:BTC|ETH|SOL|XRP)\b",line))
+                    paragraph.getparent().remove(paragraph)
+            tickers=list(dict.fromkeys(tickers))
+            if not sources: raise SystemExit("No source links found in " + md_name)
+            body=html.Element("div",attrib={"class":"editorial-body"})
+            for child in list(doc): body.append(child)
+            if not body.xpath(".//p"): raise SystemExit("No article paragraphs in " + md_name)
+            word_count=sum(len(" ".join(p.itertext()).split()) for p in body.xpath(".//p"))
+            if word_count < 700 or word_count > 1100:
+                raise SystemExit(f"Article word count outside 700–1100: {slug}: {word_count}")
+            jpg="assets/editorial/"+slug+"-cover.jpg"; png="assets/editorial/"+slug+"-cover.png"
+            source_cover=jpg if jpg in raw else png if png in raw else None
+            if not source_cover: raise SystemExit("Missing exact matching cover for " + slug)
+            with Image.open(BytesIO(raw[source_cover])) as im:
+                width,height=im.size
+                if width < 1200 or height < 650 or not 1.70 <= width/height <= 1.80:
+                    raise SystemExit(f"Invalid cover dimensions for {slug}: {width}x{height}")
+                converted=BytesIO(); im.convert("RGB").save(converted,format="WEBP",quality=92,method=6)
+                raw[slug+"-cover.webp"]=converted.getvalue()
+            raw.pop(source_cover,None)
+            description=deck if len(deck)>=70 else headline+" — "+deck
+            if len(description)>160: description=description[:157].rsplit(" ",1)[0].rstrip(" ,;:-.")+"."
+            seo_title=headline
+            if len(seo_title+" | TTN Finance")>65: seo_title=seo_title[:65-len(" | TTN Finance")].rsplit(" ",1)[0].rstrip(" ,:;-")
+            meta={"slug":slug,"headline":headline,"section":section,"format":"news" if section=="Tech & AI" else "analysis",
+                  "metaDescription":description,"seoTitle":seo_title+" | TTN Finance","date":prepared_at,
+                  "imageAlt":headline,"sources":sources,"tickers":tickers}
+            raw[slug+"-fragment.html"]=html.tostring(body,encoding="utf-8",method="html")
+            raw[slug+"-seo.json"]=json.dumps(meta,ensure_ascii=False).encode("utf-8")
+            raw.pop(md_name,None)
+        print("Detected three-article Markdown handoff package; preserved article copy and matched covers.")
+
 # Compatibility path for approved flat ZIPs containing complete article HTML files
 # plus their cover images, rather than separate *-seo.json and *-fragment.html files.
 if flat_package and not any(name.endswith("-seo.json") for name in raw):
@@ -486,7 +581,7 @@ for name, data in list(raw.items()):
         else:
             seen_ids.add(node_id)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":"news","date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt,"tickers":editorial_override.get("tickers", [])})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":meta.get("format", "news"),"date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt,"tickers":meta.get("tickers") or editorial_override.get("tickers", [])})
     # Move package images into the importer's canonical asset folders.
     stem = slug
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
