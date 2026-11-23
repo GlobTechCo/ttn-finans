@@ -276,10 +276,15 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
             raw.pop(source_cover,None)
             description=deck if len(deck)>=70 else headline+" — "+deck
             if len(description)>160: description=description[:157].rsplit(" ",1)[0].rstrip(" ,;:-.")+"."
-            seo_title=headline
-            if len(seo_title+" | TTN Finance")>65: seo_title=seo_title[:65-len(" | TTN Finance")].rsplit(" ",1)[0].rstrip(" ,:;-")
+            seo_titles = {
+                "market-analysis-morgan-stanley-bullish-stocks": "Morgan Stanley Turns Bullish After Selloff | TTN Finance",
+                "tech-ai-nvidia-reinstates-jensen-huang": "Nvidia Reinstates Jensen Huang as CEO | TTN Finance",
+                "crypto-bitcoin-seven-week-losing-streak": "Bitcoin Extends Seven-Week Losing Streak | TTN Finance"
+            }
+            seo_title=seo_titles.get(slug, headline + " | TTN Finance")
+            if len(seo_title)>65: raise SystemExit("SEO title exceeds 65 characters: " + slug)
             meta={"slug":slug,"headline":headline,"section":section,"format":"news" if section=="Tech & AI" else "analysis",
-                  "metaDescription":description,"seoTitle":seo_title+" | TTN Finance","date":prepared_at,
+                  "metaDescription":description,"seoTitle":seo_title,"date":prepared_at,
                   "imageAlt":headline,"sources":sources,"tickers":tickers}
             raw[slug+"-fragment.html"]=html.tostring(body,encoding="utf-8",method="html")
             raw[slug+"-seo.json"]=json.dumps(meta,ensure_ascii=False).encode("utf-8")
@@ -585,7 +590,7 @@ for name, data in list(raw.items()):
     if robots: robots[0].set("content","index,follow,max-image-preview:large")
     scripts = head.xpath('./script[@type="application/ld+json"]')
     structured = json.loads(scripts[0].text) if scripts and scripts[0].text else {}
-    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":1672,"height":941,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
+    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":2576,"height":1438,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
     if scripts:
         scripts[0].text = json.dumps(structured, ensure_ascii=False)
         for duplicate in scripts[1:]:
@@ -609,8 +614,8 @@ for name, data in list(raw.items()):
     if "T" in published_date:
         tm.text += " · " + local_dt.strftime("%-I:%M %p %Z")
     fig=etree.SubElement(main,"figure",attrib={"class":"ttn-editorial-figure"})
-    img=etree.SubElement(fig,"img",src=cover,alt=image_alt,attrib={"class":"article-hero-image","width":"1672","height":"941","loading":"eager","fetchpriority":"high"})
-    img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 1672w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
+    img=etree.SubElement(fig,"img",src=cover,alt=image_alt,attrib={"class":"article-hero-image","width":"2576","height":"1438","loading":"eager","fetchpriority":"high"})
+    img.set("srcset",small+" 480w, "+medium+" 960w, "+cover+" 2576w"); img.set("sizes","(max-width: 900px) calc(100vw - 36px), 820px")
     body=html.fromstring(body_html)
     body.tag="section"
     body.set("class","editorial-body")
