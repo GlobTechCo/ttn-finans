@@ -1145,6 +1145,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/brokers.html"
     },
     {
+      "page": "brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026.html",
+      "source": "assets/editorial/brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026-cover.webp",
+      "image": "assets/social/brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026-cover-1f3011f6e726.webp",
+      "sha256": "1f3011f6e72664f6c89e083b8636cc0255f2445ebd66c9c9ada50cf98d1e6370",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 446380,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026.html"
+    },
+    {
       "page": "calculators.html",
       "source": "assets/editorial/dollar-cost-averaging-vs-lump-sum.webp",
       "image": "assets/social/dollar-cost-averaging-vs-lump-sum-9c25310acb39.webp",
@@ -2201,6 +2212,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/europe-chip-design-platform-525-million-startups-2026.html"
     },
     {
+      "page": "europe-sovereign-cloud-push-us-tech-dominance-2026.html",
+      "source": "assets/editorial/europe-sovereign-cloud-push-us-tech-dominance-2026-cover.webp",
+      "image": "assets/social/europe-sovereign-cloud-push-us-tech-dominance-2026-cover-3c9ef7a0c596.webp",
+      "sha256": "3c9ef7a0c596127192f69087f8979c52f365b715c80317599f67d68cda2ebe78",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 369970,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/europe-sovereign-cloud-push-us-tech-dominance-2026.html"
+    },
+    {
       "page": "european-earnings-growth-stoxx-600-energy-2026.html",
       "source": "assets/editorial/european-earnings-growth-stoxx-600-energy-2026-cover.jpg",
       "image": "assets/social/european-earnings-growth-stoxx-600-energy-2026-cover-1cd67daecb79.jpeg",
@@ -2958,6 +2980,17 @@
       "bytes": 260734,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/kotak-q2-2027-profit-margin-pressure.html"
+    },
+    {
+      "page": "kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026.html",
+      "source": "assets/editorial/kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026-cover.webp",
+      "image": "assets/social/kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026-cover-190f8fbb2b95.webp",
+      "sha256": "190f8fbb2b956112f6128c0ab891fa7bbbace2131941e96104f0bf32c11a04d3",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 250710,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026.html"
     },
     {
       "page": "kraken-hyperliquid-us-perpetuals-testnet-2026.html",
