@@ -261,6 +261,13 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                     im=im.resize((2576,1438),Image.Resampling.LANCZOS)
                 converted=BytesIO(); im.save(converted,format="WEBP",quality=92,method=6)
                 raw[slug+"-cover.webp"]=converted.getvalue()
+            with Image.open(BytesIO(raw[slug+"-cover.webp"])) as master:
+                master=master.convert("RGB")
+                for target_width,suffix in ((480,"-480.webp"),(960,"-960.webp")):
+                    target_height=round(master.height*target_width/master.width)
+                    resized=master.resize((target_width,target_height),Image.Resampling.LANCZOS)
+                    buffer=BytesIO(); resized.save(buffer,format="WEBP",quality=86,method=6)
+                    raw[slug+suffix]=buffer.getvalue()
             raw.pop(source_cover,None)
             description=deck if len(deck)>=70 else headline+" — "+deck
             if len(description)>160: description=description[:157].rsplit(" ",1)[0].rstrip(" ,;:-.")+"."
