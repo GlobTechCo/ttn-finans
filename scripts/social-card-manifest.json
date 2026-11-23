@@ -1618,6 +1618,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/crypto-binance-withdrawals-reopen-november-2026.html"
     },
     {
+      "page": "crypto-bitcoin-seven-week-losing-streak.html",
+      "source": "assets/editorial/crypto-bitcoin-seven-week-losing-streak-cover.webp",
+      "image": "assets/social/crypto-bitcoin-seven-week-losing-streak-cover-0a0a907ff1ab.webp",
+      "sha256": "0a0a907ff1ab1fa7577e6e835be847079f8e51a6d9d78404594c57ba0b1213be",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 528016,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/crypto-bitcoin-seven-week-losing-streak.html"
+    },
+    {
       "page": "crypto-converter.html",
       "source": "assets/editorial/bitcoin-halving-cycles.webp",
       "image": "assets/social/bitcoin-halving-cycles-1af85a12deb0.webp",
@@ -3068,6 +3079,17 @@
       "bytes": 412214,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/maersk-q3-2026-guidance-freight-rates-cash-flow.html"
+    },
+    {
+      "page": "market-analysis-morgan-stanley-bullish-stocks.html",
+      "source": "assets/editorial/market-analysis-morgan-stanley-bullish-stocks-cover.webp",
+      "image": "assets/social/market-analysis-morgan-stanley-bullish-stocks-cover-f80a76a12838.webp",
+      "sha256": "f80a76a128381ea849a2a6de115281c5d829e743946a42348fa61115ca8918e4",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 797330,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/market-analysis-morgan-stanley-bullish-stocks.html"
     },
     {
       "page": "market-cap-explained.html",
@@ -4564,6 +4586,17 @@
       "bytes": 237710,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/tech-ai-deepseek-superagent-research-prototype-october-2026.html"
+    },
+    {
+      "page": "tech-ai-nvidia-reinstates-jensen-huang.html",
+      "source": "assets/editorial/tech-ai-nvidia-reinstates-jensen-huang-cover.webp",
+      "image": "assets/social/tech-ai-nvidia-reinstates-jensen-huang-cover-d58854066805.webp",
+      "sha256": "d58854066805586882f899ab2c5e0e2dc7ba0a0be5611fb609ca6f3c7f4029d9",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 266082,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/tech-ai-nvidia-reinstates-jensen-huang.html"
     },
     {
       "page": "tech-ai.html",

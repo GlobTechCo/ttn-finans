@@ -1007,3 +1007,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['europe-sovereign-cloud-push-us-tech-dominance-2026'] = []
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026')
 RELATED['kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('crypto-bitcoin-seven-week-losing-streak')
+RELATED['crypto-bitcoin-seven-week-losing-streak'] = []
+GROUPS.setdefault('Jobs and housing', []).append('market-analysis-morgan-stanley-bullish-stocks')
+RELATED['market-analysis-morgan-stanley-bullish-stocks'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tech-ai-nvidia-reinstates-jensen-huang')
+RELATED['tech-ai-nvidia-reinstates-jensen-huang'] = []
