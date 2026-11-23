@@ -458,7 +458,7 @@ for name, data in list(raw.items()):
     pub=etree.SubElement(by,"span",attrib={"class":"editorial-published"})
     tm=etree.SubElement(pub,"time",datetime=published_date)
     published_dt = datetime.fromisoformat(published_date.replace("Z", "+00:00"))
-    local_dt = published_dt.astimezone(ZoneInfo("Europe/Kyiv")) if published_dt.tzinfo else published_dt
+    local_dt = published_dt.astimezone(ZoneInfo("America/New_York")) if published_dt.tzinfo else published_dt
     tm.text = local_dt.strftime("%b %-d, %Y")
     if "T" in published_date:
         tm.text += " · " + local_dt.strftime("%-I:%M %p %Z")
