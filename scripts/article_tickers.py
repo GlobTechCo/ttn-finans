@@ -132,6 +132,8 @@ INSTRUMENTS.update({
     'NASDAQ:NDX': ('NASDAQ:NDX', 'Nasdaq-100 Index · Nasdaq'),
     'NASDAQ:SMH': ('NASDAQ:SMH', 'VanEck Semiconductor ETF · Nasdaq'),
     'HIVE': ('NASDAQ:HIVE', 'HIVE Digital Technologies · Nasdaq'),
+    'BAM': ('NYSE:BAM', 'Brookfield Asset Management · NYSE'),
+    'BX': ('NYSE:BX', 'Blackstone · NYSE'),
 })
 # Match actual instrument names in editorial copy, not sources, related reading,
 # the Nasdaq exchange as a company, or Dow Jones as a news publisher.
