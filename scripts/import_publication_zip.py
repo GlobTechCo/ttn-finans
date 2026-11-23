@@ -273,7 +273,9 @@ def publish(archive):
             relations[slug] = related
             # Short SEO titles are required by the static-site audit. Preserve the visible H1.
             seo_suffix = " | TTN Finance"
-            seo_title = m["title"]
+            seo_title = str(m.get("seoTitle") or m["title"]).strip()
+            if seo_title.endswith(seo_suffix):
+                seo_title = seo_title[:-len(seo_suffix)].rstrip()
             if len(seo_title + seo_suffix) > 65:
                 available = 65 - len(seo_suffix)
                 seo_title = seo_title[:available].rsplit(" ", 1)[0].rstrip(" ,:;-")
