@@ -637,7 +637,7 @@ for name, data in list(raw.items()):
         else:
             seen_ids.add(node_id)
     raw[slug+".html"] = html.tostring(doc, encoding="utf-8", method="html", doctype="<!DOCTYPE html>")
-    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":meta.get("format", "news"),"date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt,"tickers":meta.get("tickers") or editorial_override.get("tickers", [])})
+    articles.append({"slug":slug,"title":title,"dek":dek,"section":section,"format":meta.get("format", "news"),"date":published_date,"cover":cover,"sources":sources,"imageAlt":image_alt,"tickers":meta.get("tickers") or editorial_override.get("tickers", []),"seoTitle":seo_title})
     # Move package images into the importer's canonical asset folders.
     stem = slug
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
