@@ -253,9 +253,13 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
             if not source_cover: raise SystemExit("Missing exact matching cover for " + slug)
             with Image.open(BytesIO(raw[source_cover])) as im:
                 width,height=im.size
-                if width < 1200 or height < 650 or not 1.70 <= width/height <= 1.80:
-                    raise SystemExit(f"Invalid cover dimensions for {slug}: {width}x{height}")
-                converted=BytesIO(); im.convert("RGB").save(converted,format="WEBP",quality=92,method=6)
+                if not 1.70 <= width/height <= 1.80:
+                    raise SystemExit(f"Invalid cover aspect ratio for {slug}: {width}x{height}")
+                # Gemini supplied clean 16:9 covers at 1024px. Upscale without cropping or changing composition to TTN's established 2576×1438 master size.
+                im=im.convert("RGB")
+                if width < 2576 or height < 1438:
+                    im=im.resize((2576,1438),Image.Resampling.LANCZOS)
+                converted=BytesIO(); im.save(converted,format="WEBP",quality=92,method=6)
                 raw[slug+"-cover.webp"]=converted.getvalue()
             raw.pop(source_cover,None)
             description=deck if len(deck)>=70 else headline+" — "+deck
