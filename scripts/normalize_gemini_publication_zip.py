@@ -217,6 +217,11 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                     tickers.extend(re.findall(r"\b(?:NASDAQ|NYSE|AMEX|LSE|HKEX|KRX|TSE|ASX|FX_IDC|BINANCE|COINBASE):[A-Z0-9._/-]+\b|\b(?:BTC|ETH|SOL|XRP)\b",line))
                     paragraph.getparent().remove(paragraph)
             tickers=list(dict.fromkeys(tickers))
+            # Remove the handoff's plain-text Sources line; the importer builds one canonical linked Sources block.
+            for paragraph in list(doc.xpath(".//p")):
+                line = " ".join(" ".join(paragraph.itertext()).split())
+                if re.match(r"^(?:Sources?|References?)\s*:", line, re.I):
+                    paragraph.getparent().remove(paragraph)
             if not sources:
                 source_fallback_20261123 = {
                     "market-analysis-morgan-stanley-bullish-stocks": [
@@ -229,9 +234,9 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
                         {"label":"Reuters via Yahoo Finance, Nvidia reinstates Jensen Huang as CEO","url":"https://finance.yahoo.com/news/nvidia-reinstates-jensen-huang-ceo-135916841.html"}
                     ],
                     "crypto-bitcoin-seven-week-losing-streak": [
+                        {"label":"CoinDesk, Bitcoin's losing streak is second-longest ever","url":"https://www.coindesk.com/daybook-us/2026/11/23/bitcoin-s-losing-streak-is-second-longest-ever-and-some-observers-see-more-downside"},
                         {"label":"The Block, Spot bitcoin ETFs shed $1.79 billion in past week","url":"https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857"},
-                        {"label":"Glassnode, BTC Market Pulse: Week 48","url":"https://research.glassnode.com/btc-market-pulse-week-48-2026/"},
-                        {"label":"CoinLab, Crypto market weekly review: November 16–22, 2026","url":"https://coinlab.info/en/reviews/weekly-review-2026-11-16-11-22/"}
+                        {"label":"Glassnode, BTC Market Pulse: Week 48","url":"https://research.glassnode.com/btc-market-pulse-week-48-2026/"}
                     ]
                 }
                 sources = source_fallback_20261123.get(slug, [])
