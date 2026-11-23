@@ -105,7 +105,12 @@ def publish(archive):
                 "//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]//time"
             ):
                 time_node.set("datetime", m["date"])
-                time_node.text = "Nov 21, 2026 · 1:56 PM EST"
+                display_dt = datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00"))
+                if display_dt.tzinfo is not None:
+                    display_dt = display_dt.astimezone(ZoneInfo("America/New_York"))
+                    time_node.text = display_dt.strftime("%b %-d, %Y · %-I:%M %p %Z")
+                else:
+                    time_node.text = display_dt.strftime("%b %-d, %Y")
             for duplicate in published_nodes[1:]:
                 duplicate.getparent().remove(duplicate)
             check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Could not normalize publication date: " + slug)
