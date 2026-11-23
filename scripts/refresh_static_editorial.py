@@ -59,6 +59,15 @@ def refresh():
         value=datetime.datetime.fromisoformat(article['date'])
         if value.tzinfo is None:value=value.replace(tzinfo=datetime.timezone.utc)
         return value.astimezone(datetime.timezone.utc)
+    # The November 23 approved cover masters are 2576px wide; keep their srcset descriptors accurate.
+    full_width_cover_slugs = {
+        'market-analysis-morgan-stanley-bullish-stocks',
+        'tech-ai-nvidia-reinstates-jensen-huang',
+        'crypto-bitcoin-seven-week-losing-streak',
+    }
+    for article in articles:
+        if article.get('id') in full_width_cover_slugs and article.get('imageSrcset'):
+            article['imageSrcset'] = article['imageSrcset'].replace('1672w', '2576w')
     latest=sorted(articles,key=dates,reverse=True)
     card_keys={'id','section','format','title','dek','imageAlt','author','date','tickers','image','imageSmall','imageMedium','imageSrcset'}
     cards=[{k:v for k,v in a.items() if k in card_keys} for a in articles]
