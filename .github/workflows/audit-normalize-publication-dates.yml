@@ -4,11 +4,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/normalize_historical_publication_dates.py'
-      - 'scripts/normalize_gemini_publication_zip.py'
       - 'scripts/repair_imported_article_metadata.py'
       - 'scripts/trim_overlength_articles.py'
       - 'scripts/audit_article_lengths.py'
-      - '.github/workflows/audit-normalize-publication-dates.yml'
   workflow_dispatch:
 permissions:
   contents: write
