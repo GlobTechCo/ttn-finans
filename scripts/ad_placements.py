@@ -52,7 +52,7 @@ def refresh_ad_placements(root=None):
                     at = min(candidates)[1]
                     content = content[:at]+placeholder('article-inline')+content[at:]
                     count += 1
-            text = text[:body.start()]+body[1]+content+body[3]+placeholder('article-content-end')+text[body.end():]
+            text = text[:body.start()]+body[1]+content+body[3]+placeholder('article-content-end').rstrip('\\n')+text[body.end():]
             count += 1
         elif page.name == 'index.html':
             # The feed and news rail remain untouched; locations sit between page sections.
