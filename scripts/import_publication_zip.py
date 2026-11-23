@@ -46,6 +46,10 @@ def publish(archive):
             "sec-fake-crypto-platforms-37-million-fraud-november-2026",
             "sk-hynix-mars-cxl-memory-pooling-ai-inference-2026",
             "swiss-inflation-snb-second-round-effects-december-policy-2026",
+            # Controlled correction pass for the three November 23 articles after importer QA.
+            "market-analysis-morgan-stanley-bullish-stocks",
+            "tech-ai-nvidia-reinstates-jensen-huang",
+            "crypto-bitcoin-seven-week-losing-streak",
         }
         approved_html_files = {slug + ".html" for slug in replace_slugs}
         entries = []
