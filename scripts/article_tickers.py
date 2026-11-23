@@ -149,6 +149,7 @@ MENTIONS = {
     'AAPL': r'\bApple\b',
     'AMZN': r'\bAmazon\b',
     'BTC': r'\bBitcoin\b|\bBTC\b',
+    'NVDA': r'\bNvidia\b|\bNVDA\b',
     'ETH': r'\bEthereum\b|\bEther\b|\bETH\b',
     'SOL': r'\bSolana\b',
     'XRP': r'\bXRP\b',
