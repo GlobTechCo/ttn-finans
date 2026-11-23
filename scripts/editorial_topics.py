@@ -1015,3 +1015,8 @@ GROUPS.setdefault('Jobs and housing', []).append('market-analysis-morgan-stanley
 RELATED['market-analysis-morgan-stanley-bullish-stocks'] = []
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tech-ai-nvidia-reinstates-jensen-huang')
 RELATED['tech-ai-nvidia-reinstates-jensen-huang'] = []
+
+# Approved ZIP auto-publication
+RELATED['crypto-bitcoin-seven-week-losing-streak'] = []
+RELATED['market-analysis-morgan-stanley-bullish-stocks'] = []
+RELATED['tech-ai-nvidia-reinstates-jensen-huang'] = []
