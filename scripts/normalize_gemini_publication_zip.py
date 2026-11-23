@@ -164,12 +164,21 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
             h1_nodes[0].getparent().remove(h1_nodes[0])
             paragraphs = doc.xpath(".//p")
             deck = ""
-            if paragraphs:
-                candidate = " ".join(" ".join(paragraphs[0].itertext()).split())
-                candidate = re.sub(r"^(?:Deck|Subheadline|Standfirst)\s*:\s*", "", candidate, flags=re.I)
-                if 10 <= len(candidate.split()) <= 30:
-                    deck = candidate
-                    paragraphs[0].getparent().remove(paragraphs[0])
+            # This handoff format labels the category and deck as ordinary Markdown paragraphs.
+            for paragraph in list(paragraphs[:4]):
+                line = " ".join(" ".join(paragraph.itertext()).split())
+                if re.match(r"^Category\s*:", line, re.I):
+                    paragraph.getparent().remove(paragraph)
+                elif re.match(r"^(?:Deck|Subheadline|Standfirst)\s*:", line, re.I):
+                    deck = re.sub(r"^(?:Deck|Subheadline|Standfirst)\s*:\s*", "", line, flags=re.I)
+                    paragraph.getparent().remove(paragraph)
+            if not deck:
+                for paragraph in doc.xpath(".//p")[:3]:
+                    candidate = " ".join(" ".join(paragraph.itertext()).split())
+                    if 10 <= len(candidate.split()) <= 30:
+                        deck = candidate
+                        paragraph.getparent().remove(paragraph)
+                        break
             if not deck:
                 preview = [" ".join(" ".join(node.itertext()).split())[:240] for node in list(doc)[:8]]
                 raise SystemExit("Could not identify the supplied deck in " + md_name + "; opening blocks=" + repr(preview))
