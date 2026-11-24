@@ -440,6 +440,12 @@ for name, data in list(raw.items()):
     image_alt = meta.get("imageAlt") or title
     sources = meta.get("sources") or meta.get("citations") or source_fallback.get(slug, [])
     seo_title = meta.get("seoTitle") or fallback.get("seoTitle") or (title[:48].rsplit(" ",1)[0] + " | TTN Finance")
+    seo_title_overrides = {
+        "global-banks-trading-revenue-record-301-billion-2026": "Banks’ Trading Revenue Set for Record in 2026 | TTN Finance",
+        "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026": "CrowdStrike to Buy Zscaler in $43.9 Billion Deal | TTN Finance",
+        "ecb-tokenized-securities-eurosystem-collateral-2027": "ECB to Accept Tokenized Securities as Collateral | TTN Finance",
+    }
+    seo_title = seo_title_overrides.get(slug, seo_title)
     description = meta.get("metaDescription") or fallback.get("metaDescription")
     if len(description) > 160:
         description = description[:157].rsplit(" ", 1)[0].rstrip(" ,;:-.") + "."
