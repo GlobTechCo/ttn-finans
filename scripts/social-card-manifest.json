@@ -1607,6 +1607,17 @@
       "shareUrl": "https://globtechco.github.io/ttn-finans/credit-default-swaps-explained.html"
     },
     {
+      "page": "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026.html",
+      "source": "assets/editorial/crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026-cover.webp",
+      "image": "assets/social/crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026-cover-4d50711dfacb.webp",
+      "sha256": "4d50711dfacb51120328e44a6ec776df4cd55c0aba5e4b2719fe36f412de42c5",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 281172,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026.html"
+    },
+    {
       "page": "crypto-binance-withdrawals-reopen-november-2026.html",
       "source": "assets/editorial/crypto-binance-withdrawals-reopen-november-2026-cover.webp",
       "image": "assets/social/crypto-binance-withdrawals-reopen-november-2026-cover-39016c23e6d6.webp",
@@ -2012,6 +2023,17 @@
       "bytes": 376440,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/ecb-energy-resilience-october-21-2026.html"
+    },
+    {
+      "page": "ecb-tokenized-securities-eurosystem-collateral-2027.html",
+      "source": "assets/editorial/ecb-tokenized-securities-eurosystem-collateral-2027-cover.webp",
+      "image": "assets/social/ecb-tokenized-securities-eurosystem-collateral-2027-cover-0d4528151d5c.webp",
+      "sha256": "0d4528151d5c53f18def8421611ed6bbf17f5adac018e6f02ca9f441d367821e",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 388180,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/ecb-tokenized-securities-eurosystem-collateral-2027.html"
     },
     {
       "page": "eka-robotics-series-a-tactile-ai-october-20-2026.html",
@@ -2485,6 +2507,17 @@
       "bytes": 256656,
       "type": "image/webp",
       "shareUrl": "https://globtechco.github.io/ttn-finans/germany-nvidia-industrial-ai-agreement-2026.html"
+    },
+    {
+      "page": "global-banks-trading-revenue-record-301-billion-2026.html",
+      "source": "assets/editorial/global-banks-trading-revenue-record-301-billion-2026-cover.webp",
+      "image": "assets/social/global-banks-trading-revenue-record-301-billion-2026-cover-44ff29ee35f6.webp",
+      "sha256": "44ff29ee35f69b868a4bb99095d29191d971ce401f8bd5ff3c8d3ed60d8ed5bf",
+      "width": 2576,
+      "height": 1438,
+      "bytes": 444344,
+      "type": "image/webp",
+      "shareUrl": "https://globtechco.github.io/ttn-finans/global-banks-trading-revenue-record-301-billion-2026.html"
     },
     {
       "page": "global-bond-yield-synchronization-explained.html",
