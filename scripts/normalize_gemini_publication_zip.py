@@ -540,6 +540,9 @@ for name, data in list(raw.items()):
             # Remove repeated liquidity explanations and duplicate conclusions while
             # preserving the price dislocation, cross-pair data, Kraken response and risk analysis.
             "kraken-bitcoin-flash-crash-fragmented-crypto-liquidity-2026": [21, 15, 6, 4],
+            # November 24: remove one repetitive market-context paragraph while preserving the deal terms,
+            # financial metrics, integration risks and transaction implications.
+            "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026": [12],
         }
         paragraphs = body_nodes[0].xpath(".//p")
         for paragraph_index in sorted(trim_order.get(slug, []), reverse=True):
