@@ -52,6 +52,8 @@ INSTRUMENTS = {
     'GSAT': ('NASDAQ:GSAT', 'Globalstar · Nasdaq'),
     'BA': ('NYSE:BA', 'Boeing · NYSE'),
     'CRCL': ('NYSE:CRCL', 'Circle Internet Group · NYSE'),
+    'CRWD': ('NASDAQ:CRWD', 'CrowdStrike · Nasdaq'),
+    'ZS': ('NASDAQ:ZS', 'Zscaler · Nasdaq'),
     'ACIW': ('NASDAQ:ACIW', 'ACI Worldwide · Nasdaq'),
     'KO': ('NYSE:KO', 'Coca-Cola · NYSE'),
     'GWRE': ('NYSE:GWRE', 'Guidewire Software · NYSE'),
@@ -150,6 +152,8 @@ MENTIONS = {
     'AMZN': r'\bAmazon\b',
     'BTC': r'\bBitcoin\b|\bBTC\b',
     'NVDA': r'\bNvidia\b|\bNVDA\b',
+    'CRWD': r'\bCrowdStrike\b',
+    'ZS': r'\bZscaler\b',
     'ETH': r'\bEthereum\b|\bEther\b|\bETH\b',
     'SOL': r'\bSolana\b',
     'XRP': r'\bXRP\b',
@@ -198,6 +202,10 @@ def expected_tickers(article, doc):
             if network_only_mention(label, copy):
                 continue
             labels.append(label)
+    # The ECB article explicitly distinguishes eligible tokenized securities from cryptoassets;
+    # do not add Bitcoin or Ether chart tags merely because they are mentioned as exclusions.
+    if article['id'] == 'ecb-tokenized-securities-eurosystem-collateral-2027':
+        labels = [label for label in labels if label not in {'BTC', 'ETH'}]
     # A Composite reading must not silently open the Nasdaq-100 broker CFD.
     if 'Nasdaq Composite' in labels and 'NASDAQ' in labels:
         labels.remove('NASDAQ')

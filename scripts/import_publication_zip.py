@@ -103,8 +103,14 @@ def publish(archive):
                 head_nodes[0].append(published_nodes[0])
             published_nodes[0].set("content", m["date"])
             modified_nodes = doc.xpath("//meta[@property='article:modified_time']")
+            if not modified_nodes:
+                head_nodes = doc.xpath("//head")
+                check(len(head_nodes) == 1, "Missing document head for modified date: " + slug)
+                modified_nodes = [html.Element("meta", **{"property": "article:modified_time", "content": m["date"]})]
+                head_nodes[0].append(modified_nodes[0])
             for node in modified_nodes:
-                node.set("content", m["date"])
+                if not node.get("content"):
+                    node.set("content", m["date"])
             for time_node in doc.xpath(
                 "//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]//time"
             ):

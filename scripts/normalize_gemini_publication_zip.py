@@ -502,7 +502,26 @@ for name, data in list(raw.items()):
             "seoTitle": "Kraken Bitcoin Flash Crash Exposes Liquidity Risk | TTN Finance",
             "metaDescription": "A sharp Bitcoin dislocation on Kraken's Canadian-dollar market exposed fragmented liquidity, execution risk and questions about exchange safeguards.",
             "tickers": ["BTC", "ETH", "XRP"]
-        }    }
+        },
+        "global-banks-trading-revenue-record-301-billion-2026": {
+            "dek": "Banks are projected to earn a record $301.1 billion in 2026 as volatility lifts equities and prime brokerage.",
+            "seoTitle": "Banks’ Trading Revenue Set for Record in 2026 | TTN Finance",
+            "metaDescription": "Crisil Coalition Greenwich projects global banks' markets revenue will reach $301.1 billion in 2026, driven by equities and prime brokerage.",
+            "tickers": []
+        },
+        "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026": {
+            "dek": "CrowdStrike’s proposed $43.9 billion Zscaler takeover would combine endpoint protection with cloud-based zero-trust security for enterprise customers.",
+            "seoTitle": "CrowdStrike to Buy Zscaler in $43.9 Billion Deal | TTN Finance",
+            "metaDescription": "CrowdStrike's proposed $43.9 billion all-stock Zscaler acquisition would combine endpoint protection with cloud-based zero-trust security.",
+            "tickers": ["CRWD", "ZS"]
+        },
+        "ecb-tokenized-securities-eurosystem-collateral-2027": {
+            "dek": "The ECB will accept eligible tokenized securities as collateral from June 2027, expanding institutional use of distributed ledgers.",
+            "seoTitle": "ECB to Accept Tokenized Securities as Collateral | TTN Finance",
+            "metaDescription": "From June 2027, the ECB will accept eligible DLT-issued securities under the EU pilot regime as Eurosystem collateral.",
+            "tickers": []
+        }
+    }
     editorial_override = editorial_overrides.get(slug, {})
     dek = editorial_override.get("dek", dek)
     seo_title = editorial_override.get("seoTitle", seo_title)
@@ -592,6 +611,14 @@ for name, data in list(raw.items()):
     published_nodes = head.xpath('./meta[@property="article:published_time"]')
     if published_nodes: published_nodes[0].set("content", published_date)
     else: etree.SubElement(head, "meta", property="article:published_time", content=published_date)
+    modified_date = published_date
+    if slug in {
+        "global-banks-trading-revenue-record-301-billion-2026",
+        "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026",
+        "ecb-tokenized-securities-eurosystem-collateral-2027",
+    }:
+        modified_date = datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="seconds")
+    set_meta('//meta[@property="article:modified_time"]', "content", modified_date)
     canon_nodes = head.xpath('./link[@rel="canonical"]')
     if canon_nodes: canon_nodes[0].set("href", canon)
     else: etree.SubElement(head, "link", rel="canonical", href=canon)
@@ -599,7 +626,7 @@ for name, data in list(raw.items()):
     if robots: robots[0].set("content","index,follow,max-image-preview:large")
     scripts = head.xpath('./script[@type="application/ld+json"]')
     structured = json.loads(scripts[0].text) if scripts and scripts[0].text else {}
-    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":published_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":2576,"height":1438,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
+    structured.update({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":published_date,"dateModified":modified_date,"inLanguage":"en-US","articleSection":section,"mainEntityOfPage":{"@type":"WebPage","@id":canon},"author":{"@type":"Organization","name":"TTN Research Desk"},"publisher":{"@type":"Organization","name":"TTN Finance","url":base},"citation":[s["url"] for s in sources],"image":{"@type":"ImageObject","url":base+cover,"width":2576,"height":1438,"caption":image_alt},"wordCount":sum(len(" ".join(p.itertext()).split()) for p in body_nodes[0].xpath(".//p"))})
     if scripts:
         scripts[0].text = json.dumps(structured, ensure_ascii=False)
         for duplicate in scripts[1:]:
