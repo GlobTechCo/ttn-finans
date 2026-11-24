@@ -50,6 +50,10 @@ def publish(archive):
             "market-analysis-morgan-stanley-bullish-stocks",
             "tech-ai-nvidia-reinstates-jensen-huang",
             "crypto-bitcoin-seven-week-losing-streak",
+            # Controlled November 24 correction pass for deck, SEO metadata and ticker QA.
+            "global-banks-trading-revenue-record-301-billion-2026",
+            "crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026",
+            "ecb-tokenized-securities-eurosystem-collateral-2027",
         }
         approved_html_files = {slug + ".html" for slug in replace_slugs}
         entries = []
