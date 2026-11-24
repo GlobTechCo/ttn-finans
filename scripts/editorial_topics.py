@@ -1028,3 +1028,8 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026'] = []
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('ecb-tokenized-securities-eurosystem-collateral-2027')
 RELATED['ecb-tokenized-securities-eurosystem-collateral-2027'] = []
+
+# Approved ZIP auto-publication
+RELATED['global-banks-trading-revenue-record-301-billion-2026'] = []
+RELATED['crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026'] = []
+RELATED['ecb-tokenized-securities-eurosystem-collateral-2027'] = []
