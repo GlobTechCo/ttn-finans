@@ -56,16 +56,17 @@ jobs:
           set -euo pipefail
           archives=()
           if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
-            queued_zip_changed="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^publish-queue/[^/]+\.zip
+            queued_zip_changed="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep -E '^publish-queue/[^/]+[.]zip$' || true)"
+            while IFS= read -r file; do
               case "$file" in
                 publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-publication-2026-11-21-updated.zip|ttn-finance-publication-2026-11-21-package2-v2.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|TTN_Finance_Three_Articles_2026-11-23_WITH_COVERS.zip|.github/workflows/publish-approved-zip.yml|scripts/normalize_gemini_publication_zip.py|scripts/import_publication_zip.py|scripts/article_tickers.py|pub_new.zip)
                   if [[ "$file" == ".github/workflows/publish-approved-zip.yml" || "$file" == "scripts/normalize_gemini_publication_zip.py" || "$file" == "scripts/import_publication_zip.py" || "$file" == "scripts/article_tickers.py" ]]; then
-                  if [[ -n "$queued_zip_changed" ]]; then
-                    continue
+                    if [[ -n "$queued_zip_changed" ]]; then
+                      continue
+                    fi
+                    file="TTN_Finance_Three_Articles_2026-11-23_WITH_COVERS.zip"
                   fi
-                  file="TTN_Finance_Three_Articles_2026-11-23_WITH_COVERS.zip"
-                fi
-                [[ -f "$file" ]] && archives+=("$file")
+                  [[ -f "$file" ]] && archives+=("$file")
                   ;;
               esac
             done < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA")
