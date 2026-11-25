@@ -9,6 +9,31 @@ from pathlib import Path
 from lxml import html, etree
 
 archive_path = Path(sys.argv[1])
+
+# Native TTN publication packages already use the importer's canonical schema.
+# Preserve the approved article HTML and cover bytes exactly; only legacy Gemini
+# folder packages should pass through the transformation logic below.
+with zipfile.ZipFile(archive_path, "r") as canonical_zip:
+    canonical_names = set(canonical_zip.namelist())
+    if "publication-manifest.json" in canonical_names:
+        canonical_manifest = json.loads(canonical_zip.read("publication-manifest.json"))
+        if not isinstance(canonical_manifest, list) or not 1 <= len(canonical_manifest) <= 12:
+            raise SystemExit("Invalid canonical publication manifest: expected 1 to 12 article records.")
+        for item in canonical_manifest:
+            slug = item.get("slug", "")
+            if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+                raise SystemExit("Invalid canonical article slug: " + str(slug))
+            if slug + ".html" not in canonical_names:
+                raise SystemExit("Canonical package is missing article HTML: " + slug + ".html")
+            cover = item.get("cover", "")
+            if cover not in canonical_names or not cover.startswith("assets/editorial/" + slug + "-"):
+                raise SystemExit("Canonical package is missing its matching editorial cover: " + str(cover))
+            for suffix in ("-480.webp", "-960.webp"):
+                responsive = "assets/responsive/" + Path(cover).stem + suffix
+                if responsive not in canonical_names:
+                    raise SystemExit("Canonical package is missing responsive image: " + responsive)
+        print("Native TTN publication package detected; preserving approved HTML and image bytes unchanged.")
+        raise SystemExit(0)
 root = Path.cwd()
 base = "https://globtechco.github.io/ttn-finans/"
 package = "ttn-finans-publication-package/"
