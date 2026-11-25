@@ -34,6 +34,13 @@ source_fallback = {
 with zipfile.ZipFile(archive_path, "r") as src:
     raw = {n[len(package):]: src.read(n) for n in src.namelist() if n.startswith(package) and not n.endswith("/")}
     flat_package = not bool(raw)
+    # Gemini may keep the canonical article covers inside covers/ or assets/editorial/.
+    # The importer consumes slug-cover.webp at the package root, so expose those
+    # exact-named assets without changing or recompressing their bytes.
+    for asset_name, asset_data in list(raw.items()):
+        asset_path = Path(asset_name)
+        if asset_path.suffix.lower() == ".webp" and asset_path.name.endswith("-cover.webp") and any(part in {"covers", "editorial"} for part in asset_path.parts[:-1]):
+            raw.setdefault(asset_path.name, asset_data)
     if flat_package:
         raw = {n: src.read(n) for n in src.namelist() if not n.endswith("/") and n != "README-PUBLISH.txt"}
         # Gemini's November 17 package uses separate articles/, pages/, covers/ and seo/ folders.
