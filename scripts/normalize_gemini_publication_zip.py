@@ -41,6 +41,9 @@ with zipfile.ZipFile(archive_path, "r") as src:
         asset_path = Path(asset_name)
         if asset_path.suffix.lower() == ".webp" and asset_path.name.endswith("-cover.webp") and any(part in {"covers", "editorial"} for part in asset_path.parts[:-1]):
             raw.setdefault(asset_path.name, asset_data)
+            # The importer permits canonical assets/ paths, not Gemini's covers/ folder.
+            if "covers" in asset_path.parts[:-1]:
+                raw.pop(asset_name, None)
     if flat_package:
         raw = {n: src.read(n) for n in src.namelist() if not n.endswith("/") and n != "README-PUBLISH.txt"}
         # Gemini's November 17 package uses separate articles/, pages/, covers/ and seo/ folders.
