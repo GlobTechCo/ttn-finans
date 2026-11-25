@@ -253,8 +253,8 @@ if flat_package and not any(name.endswith("-seo.json") for name in raw):
             word_count=sum(len(" ".join(p.itertext()).split()) for p in body.xpath(".//p"))
             if word_count < 700 or word_count > 1100:
                 raise SystemExit(f"Article word count outside 700–1100: {slug}: {word_count}")
-            jpgs=(slug+"-cover.jpg","assets/editorial/"+slug+"-cover.jpg"); pngs=(slug+"-cover.png","assets/editorial/"+slug+"-cover.png")
-            source_cover=next((p for p in jpgs if p in raw),None) or next((p for p in pngs if p in raw),None)
+            jpgs=(slug+"-cover.jpg","assets/editorial/"+slug+"-cover.jpg"); pngs=(slug+"-cover.png","assets/editorial/"+slug+"-cover.png"); webps=(slug+"-cover.webp","assets/editorial/"+slug+"-cover.webp")
+            source_cover=next((p for p in jpgs if p in raw),None) or next((p for p in pngs if p in raw),None) or next((p for p in webps if p in raw),None)
             if not source_cover: raise SystemExit("Missing exact matching cover for " + slug)
             with Image.open(BytesIO(raw[source_cover])) as im:
                 width,height=im.size
