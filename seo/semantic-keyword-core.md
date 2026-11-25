@@ -1,5 +1,5 @@
 # TTN Finance — Semantic Keyword Core
-**Version:** 1.0 (baseline map)  
+**Version:** 1.1 (baseline map with dated-news support URLs)  
 **Prepared:** 25 November 2026  
 **Primary language:** English (US spelling and search phrasing; international coverage)  
 **Primary SEO audience:** English-speaking readers, with the United States as the initial keyword-validation market and UK, Europe, Australia and Asia coverage retained editorially.  
@@ -96,3 +96,18 @@ For each cluster:
 ## Next evidence required
 
 The baseline map is ready for use in editorial planning. To turn it into a measured, evidence-backed keyword core, the next input is a connected Google Search Console dataset plus keyword research for the US, UK, Australia and selected European markets. Do not fabricate volume or difficulty in the meantime.
+
+
+## Dated news support URLs — November 25, 2026
+
+Three current articles have been added as supporting URLs to existing clusters, without replacing their evergreen anchor pages:
+
+- Market Analysis: the Asian equities and US tariff-risk report supports the global-markets and trade/tariffs clusters.
+- Tech & AI: Dell's AI-server backlog report supports the AI-infrastructure and Tech & AI news clusters.
+- Crypto: the November spot Bitcoin ETF flow report supports the Bitcoin ETF flows and crypto-regulation clusters.
+
+These are event-specific pages, not new evergreen landing pages. Their inclusion is a semantic mapping decision, not evidence of measured search demand. Search volumes, rankings, impressions and clicks remain unmeasured until a Search Console export is available.
+
+## Whole-site semantic audit — November 25, 2026
+
+The 26-cluster CSV was checked against the repository: every primary target and listed supporting URL exists. The published sitemap contains 500 unique URLs with no duplicates; the two additional HTML files outside the sitemap are the 404 page and the Google verification file, while the homepage is represented by the root URL. The broad archive hubs are reused as primary targets in several clusters: analysis.html serves global markets, investing basics and earnings discovery; crypto.html serves Bitcoin and Ethereum discovery; brokers.html currently covers both traditional brokers and crypto exchanges. These overlaps are intentional hub-level mappings but remain cannibalization watchpoints. Use dedicated evergreen pages or dated news URLs for narrower intents, and do not create new landing pages until query data and sufficient original content justify them.
