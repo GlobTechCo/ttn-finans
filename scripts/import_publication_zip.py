@@ -614,7 +614,11 @@ def publish(archive):
                 continue
             dest = ROOT / name
             dest.parent.mkdir(parents=True, exist_ok=True)
-            if name in approved_html_files:
+            if name.endswith(".html") and name[:-5] + ":validated-html" in relations:
+                # Always write the fully validated shared-template page, for both
+                # new articles and explicitly approved replacements. The previous
+                # branch wrote raw package HTML for new slugs, discarding the
+                # shared navigation/footer/accessibility normalization above.
                 dest.write_text(relations[name[:-5] + ":validated-html"], encoding="utf-8")
             elif not dest.exists():
                 dest.write_bytes(z.read(name))
