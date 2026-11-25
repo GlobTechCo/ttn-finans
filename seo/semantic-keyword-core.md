@@ -50,12 +50,14 @@ The site already has thematic editorial grouping in `scripts/editorial_topics.py
 
 ## Cannibalization and architecture watchlist
 
-- **Brokers vs. crypto exchanges:** both currently converge on `brokers.html`. Keep one neutral comparison hub for now, but clearly separate stock/forex brokerage intent from crypto-exchange intent in headings and sections. A separate exchange landing page should only be introduced if the site has enough original, maintained comparison content and distinct query demand.
+- **Brokers vs. crypto exchanges:** both use `brokers.html`, but the page now separates traditional brokerage/forex platforms from crypto-asset exchanges with distinct H2 sections and stable anchors (`#traditional-brokers` and `#crypto-exchanges`). Keep the shared hub until distinct query demand and enough original, maintained comparison content justify a separate exchange landing page.
 - **Bitcoin market news vs. Bitcoin ETF flows:** `crypto.html` is the broad hub; `bitcoin-etf-institutional-adoption.html` is the evergreen institutional-adoption explainer; dated ETF flow stories own their specific reporting period. Do not reuse the same evergreen slug for a new monthly flow report.
 - **AI infrastructure vs. AI chips vs. AI economics:** keep power/capacity/capex, semiconductor supply constraints, and inference/monetization economics as separate clusters. Company stories target their company and event.
 - **Inflation vs. CPI vs. PPI:** `cpi-inflation-explained.html` is the broad consumer-inflation anchor; PPI and individual data releases need their own clearly differentiated intent.
-- **Market Analysis archive vs. individual investment explainers:** `analysis.html` is a collection page, not a substitute for dedicated explainers such as bond duration, ETF mechanics, free cash flow or dollar-cost averaging.
+- **Market Analysis archive vs. individual investment explainers:** `analysis.html` is a collection page focused on equities, central banks, rates, trade, commodities and company results. Its metadata no longer positions it as a crypto archive or beginner investing guide. It is not a substitute for dedicated explainers such as bond duration, ETF mechanics, free cash flow or dollar-cost averaging.
 - **Calculators hub vs. individual calculators:** the directory targets broad calculator discovery; each tool targets one task. Avoid duplicating a full calculator on the directory page.
+
+- **Ethereum & blockchain networks:** `crypto.html` remains the broad crypto hub, with a dedicated Ethereum/network section linking to current protocol and legal coverage. Those dated articles do not replace an evergreen Ethereum explainer. Do not create a separate landing page until query data and sufficient original, maintained content justify it.
 
 ## On-page implementation standard for every new article
 
@@ -111,3 +113,11 @@ These are event-specific pages, not new evergreen landing pages. Their inclusion
 ## Whole-site semantic audit — November 25, 2026
 
 The 26-cluster CSV was checked against the repository: every primary target and listed supporting URL exists. The published sitemap contains 500 unique URLs with no duplicates; the two additional HTML files outside the sitemap are the 404 page and the Google verification file, while the homepage is represented by the root URL. The broad archive hubs are reused as primary targets in several clusters: analysis.html serves global markets, investing basics and earnings discovery; crypto.html serves Bitcoin and Ethereum discovery; brokers.html currently covers both traditional brokers and crypto exchanges. These overlaps are intentional hub-level mappings but remain cannibalization watchpoints. Use dedicated evergreen pages or dated news URLs for narrower intents, and do not create new landing pages until query data and sufficient original content justify them.
+
+
+## Hub-intent refinement — November 25, 2026
+
+- `analysis.html`: metadata and social-card copy now describe market analysis rather than mixing crypto, gold, oil and broad archive language.
+- `brokers.html`: traditional brokers and forex/CFD platforms are separated from crypto-asset exchanges with distinct section anchors. Unsupported fee, minimum-deposit and regulatory-summary figures were removed from the directory copy; readers are directed to verify current provider terms and the relevant regulator.
+- `crypto.html`: an Ethereum and blockchain networks section links to three existing Ethereum-related reports and clearly labels them as event coverage, not as a dedicated evergreen explainer. It links to the exchange section on the brokers page while distinguishing exchanges from blockchain networks.
+- Twitter Cards remain `summary_large_image` on all three hubs. Their titles and descriptions are synchronized with the revised page intent; canonical URLs and existing social images are preserved.
