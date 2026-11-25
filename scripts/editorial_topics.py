@@ -1033,3 +1033,11 @@ RELATED['ecb-tokenized-securities-eurosystem-collateral-2027'] = []
 RELATED['global-banks-trading-revenue-record-301-billion-2026'] = []
 RELATED['crowdstrike-zscaler-43-9-billion-cybersecurity-deal-2026'] = []
 RELATED['ecb-tokenized-securities-eurosystem-collateral-2027'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('crypto-bitcoin-etf-outflows-record-november-2026')
+RELATED['crypto-bitcoin-etf-outflows-record-november-2026'] = []
+GROUPS.setdefault('Jobs and housing', []).append('market-analysis-asian-stocks-us-tariff-threats-november-25-2026')
+RELATED['market-analysis-asian-stocks-us-tariff-threats-november-25-2026'] = []
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tech-ai-dell-ai-server-backlog-132-billion-q3-2026')
+RELATED['tech-ai-dell-ai-server-backlog-132-billion-q3-2026'] = []
