@@ -1041,3 +1041,7 @@ GROUPS.setdefault('Jobs and housing', []).append('market-analysis-asian-stocks-u
 RELATED['market-analysis-asian-stocks-us-tariff-threats-november-25-2026'] = []
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tech-ai-dell-ai-server-backlog-132-billion-q3-2026')
 RELATED['tech-ai-dell-ai-server-backlog-132-billion-q3-2026'] = []
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('robinhood-business-model-revenue-streams')
+RELATED['robinhood-business-model-revenue-streams'] = ['options-calls-puts-explained', 'robinhood-q3-2026-crypto-revenue-profit', 'prediction-markets-explained', 'earnings-beat-miss-explained']
