@@ -685,6 +685,19 @@ for name, data in list(raw.items()):
     stem = slug
     for suffix, dest in [("-cover.webp","assets/editorial/"+slug+"-cover.webp"),("-480.webp","assets/responsive/"+slug+"-cover-480.webp"),("-960.webp","assets/responsive/"+slug+"-cover-960.webp")]:
         key=slug+suffix
+        if key not in raw and suffix in ("-480.webp", "-960.webp"):
+            # Responsive variants are derivative assets; recreate them from the
+            # canonical master when Gemini supplies only the editorial cover.
+            master_key = "assets/editorial/" + slug + "-cover.webp"
+            if master_key in raw:
+                target_width = 480 if suffix == "-480.webp" else 960
+                with Image.open(BytesIO(raw[master_key])) as master_image:
+                    master_image = master_image.convert("RGB")
+                    target_height = round(master_image.height * target_width / master_image.width)
+                    resized = master_image.resize((target_width, target_height), Image.Resampling.LANCZOS)
+                    generated = BytesIO()
+                    resized.save(generated, format="WEBP", quality=86, method=6)
+                    raw[key] = generated.getvalue()
         if key not in raw: raise SystemExit("Missing image " + key)
         raw[dest]=raw.pop(key)
     raw.pop(fragment_name, None)
