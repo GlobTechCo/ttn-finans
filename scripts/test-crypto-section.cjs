@@ -94,7 +94,10 @@ async function noOverflow(page,label) {
    'nvidia-board-reportedly-preparing-remove-ceo-huang-november-12-2026.html',
    'bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026.html',
    'global-stocks-ai-selloff-9-trillion-november-21-2026.html',
-   'trump-data-center-tax-threat-ai-infrastructure-november-21-2026.html'
+   'trump-data-center-tax-threat-ai-infrastructure-november-21-2026.html',
+   'crypto-eba-stablecoin-defi-mica-regulatory-risks-2026.html',
+   'market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026.html',
+   'tech-ai-bank-of-england-ai-financing-financial-stability-risks-2026.html'
   ];
   for (const mobile of [false,true]) for (const theme of ['light','dark']) for (const article of articlePages) {
    const context=await browser.newContext({
@@ -107,6 +110,20 @@ async function noOverflow(page,label) {
    assert.equal(response?.status(),200,article+' HTTP response');
    await page.locator('main.static-page h1').waitFor();
    assert.equal(await page.locator('main.static-page h1').count(),1,article+' single headline');
+   if ([
+    'crypto-eba-stablecoin-defi-mica-regulatory-risks-2026.html',
+    'market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026.html',
+    'tech-ai-bank-of-england-ai-financing-financial-stability-risks-2026.html'
+   ].includes(article)) {
+    const dek = page.locator('main.static-page > .article-dek');
+    const meta = page.locator('main.static-page > .editorial-meta');
+    assert.equal(await dek.count(),1,article+' single deck');
+    assert.equal(await meta.count(),1,article+' single publication metadata row');
+    assert.equal(await dek.evaluate(el=>el.nextElementSibling?.classList.contains('editorial-meta')),true,article+' publication row directly below deck');
+    assert.equal(await page.locator('main.static-page > .article-kicker time').count(),0,article+' no date beside category');
+    const published = await meta.locator('time').innerText();
+    assert.equal(published,'Nov 26, 2026 · 7:23 AM EST',article+' New York publication date and time');
+   }
    assert.equal(await page.locator('main.static-page .editorial-body').count(),1,article+' editorial body');
    assert(await page.locator('main.static-page .editorial-body').isVisible(),article+' visible article body');
    await page.waitForFunction(()=>[...document.styleSheets].some(s=>s.href?.includes('editorial-theme.css')),null,{timeout:10000});
@@ -117,7 +134,7 @@ async function noOverflow(page,label) {
     assert.equal(typography.fontSize,'19px',article+' approved reading size');
     assert.equal(typography.color,theme==='dark'?'rgb(213, 223, 235)':'rgb(32, 32, 32)',article+' approved theme text color');
     const stylesheet=await page.locator('link[href*="editorial-theme.css"]').getAttribute('href');
-    assert(stylesheet.includes('20261121-nested-body-typography-v1'),article+' fresh typography stylesheet');
+    assert(stylesheet.includes('20261126-article-grid-fix-v1'),article+' fresh typography stylesheet');
    }
    const image=page.locator('main.static-page figure img').first();
    await image.waitFor();
