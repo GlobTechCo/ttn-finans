@@ -301,8 +301,8 @@ def refresh_article_tickers(root=ROOT):
             footer_match=footer_matches[0]
             footer_html=footer_match.group()
             footer_html=ensure_footer_year_marker(footer_html)
-                text=text[:footer_match.start()]+footer_html+text[footer_match.end():]
-                footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
+            text=text[:footer_match.start()]+footer_html+text[footer_match.end():]
+            footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
             year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>'
             year_script_pattern=r'<script>\s*document\.getElementById\("year"\)\.textContent\s*=\s*new Date\(\)\.getFullYear\(\);\s*</script>'
             if not re.match(r'\s*'+year_script_pattern,text[footer_match.end():]):
