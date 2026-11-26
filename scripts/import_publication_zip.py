@@ -199,6 +199,61 @@ def publish(archive):
             )
             for duplicate in dek_nodes[1:]:
                 duplicate.getparent().remove(duplicate)
+
+            # Canonical publication metadata belongs directly below the deck.
+            # A category kicker may contain an inline date in source packages;
+            # keep the category label there, but move the publication timestamp
+            # into the shared editorial-meta row beneath the article dek.
+            publication_dt = datetime.datetime.fromisoformat(m["date"].replace("Z", "+00:00"))
+            local_publication_dt = (
+                publication_dt.astimezone(ZoneInfo("America/New_York"))
+                if publication_dt.tzinfo is not None else publication_dt
+            )
+            publication_label = (
+                local_publication_dt.strftime("%b %-d, %Y · %-I:%M %p %Z")
+                if publication_dt.tzinfo is not None and "T" in m["date"]
+                else local_publication_dt.strftime("%b %-d, %Y")
+            )
+            for kicker in doc.xpath(
+                "//p[contains(concat(' ',normalize-space(@class),' '),' article-kicker ')]"
+            ):
+                for inline_time in list(kicker.xpath(".//time")):
+                    inline_time.getparent().remove(inline_time)
+                for child in kicker:
+                    if child.tag.lower() == "a":
+                        child.tail = None
+                kicker.text = None
+
+            metadata_nodes = doc.xpath(
+                "//main//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]"
+            )
+            metadata = metadata_nodes[0] if metadata_nodes else html.Element(
+                "p", attrib={"class": "editorial-meta", "data-author": str(m.get("author") or "TTN Finance")}
+            )
+            for duplicate in metadata_nodes[1:]:
+                duplicate.getparent().remove(duplicate)
+            metadata.clear()
+            metadata.set("class", "editorial-meta")
+            metadata.set("data-author", str(m.get("author") or "TTN Finance"))
+            author_node = html.SubElement(metadata, "span", attrib={"class": "editorial-author"})
+            author_node.text = str(m.get("author") or "TTN Finance")
+            published_wrap = html.SubElement(metadata, "span", attrib={"class": "editorial-published"})
+            published_node = html.SubElement(published_wrap, "time", datetime=m["date"])
+            published_node.text = publication_label
+            if dek_nodes:
+                dek = dek_nodes[0]
+                parent = dek.getparent()
+                if parent is not None:
+                    if metadata.getparent() is not None:
+                        metadata.getparent().remove(metadata)
+                    parent.insert(parent.index(dek) + 1, metadata)
+            else:
+                main_for_metadata = doc.xpath("//main")
+                check(len(main_for_metadata) == 1, "Cannot place publication metadata: " + slug)
+                if metadata.getparent() is not None:
+                    metadata.getparent().remove(metadata)
+                main_for_metadata[0].insert(0, metadata)
+
             for node in list(doc.xpath(
                 "//*[contains(concat(' ',normalize-space(@class),' '),' article-meta ')]"
             )):

@@ -167,7 +167,16 @@ def verify():
                     assert ticker_blocks[0].getnext() is related_nodes[0], (a['id'], 'related reading must follow tickers')
             else:
                 assert not ticker_blocks, (a['id'], 'no irrelevant ticker block')
-        assert doc.xpath('//h1')[0].text_content()==a['title'],a['id']
+        if a['date'][:10] >= '2026-11-26':
+            deck_nodes = doc.xpath('//main/p[contains(concat(" ",normalize-space(@class)," ")," article-dek ")]')
+            meta_nodes = doc.xpath('//main/p[contains(concat(" ",normalize-space(@class)," ")," editorial-meta ")]')
+            assert len(deck_nodes) == 1 and len(meta_nodes) == 1, (a['id'], 'one deck and one publication metadata row are required')
+            assert deck_nodes[0].getnext() is meta_nodes[0], (a['id'], 'publication date/time must appear directly below the deck')
+            assert len(meta_nodes[0].xpath('.//time[@datetime]')) == 1, (a['id'], 'publication time missing or duplicated')
+            displayed_time = meta_nodes[0].xpath('string(.//time)')
+            assert any(zone in displayed_time for zone in ('EST', 'EDT')), (a['id'], 'publication time must use New York timezone')
+            assert not doc.xpath('//main/p[contains(concat(" ",normalize-space(@class)," ")," article-kicker ")]//time'), (a['id'], 'date must not appear beside the category kicker')
+        assert doc.xpath('//h1')[0].text_content()==a['title']
         schema=json.loads(doc.xpath('//script[@type="application/ld+json"]/text()')[0])
         assert schema['articleSection']==a['section'],(a['id'],'article section')
         assert same_timestamp(schema['datePublished'], a['date']) and same_timestamp(a['date'], cards_by_id[a['id']]['date']),(a['id'],'publication date')
