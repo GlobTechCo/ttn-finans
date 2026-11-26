@@ -43,10 +43,12 @@ def refresh_ad_placements(root=None):
             # historical article. That operation only changes trailing whitespace
             # in otherwise untouched pages and needlessly rewrites the whole archive.
             marker_names = re.findall(r'<!-- ttn-ad:([a-z-]+):start -->', original)
-            marker_blocks = re.findall(
-                r'<!-- ttn-ad:([a-z-]+):start -->.*?<!-- ttn-ad:\1:end -->',
-                original, re.S
-            )
+            marker_blocks = [
+                match.group(0) for match in re.finditer(
+                    r'<!-- ttn-ad:([a-z-]+):start -->.*?<!-- ttn-ad:\1:end -->',
+                    original, re.S
+                )
+            ]
             cumulative = 0
             inline_candidate = False
             if total >= 600:
