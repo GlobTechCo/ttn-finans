@@ -234,6 +234,7 @@ def publish(archive):
                 duplicate.getparent().remove(duplicate)
             metadata.clear()
             metadata.set("class", "editorial-meta")
+            metadata.set("data-editorial-byline", "")
             metadata.set("data-author", str(m.get("author") or "TTN Finance"))
             author_node = html.SubElement(metadata, "span", attrib={"class": "editorial-author"})
             author_node.text = str(m.get("author") or "TTN Finance")
