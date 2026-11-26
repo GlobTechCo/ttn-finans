@@ -1,6 +1,7 @@
 name: Publish approved article ZIP
 # Re-run the November 20 package after editorial-length audit diagnostics were improved.
 # Re-run against the latest main revision; serialize publication after concurrent maintenance commits.
+# Recovery selector also retries the exact Nov. 26 archive after importer and site-QA fixes.
 on:
   push:
     branches: [main]
