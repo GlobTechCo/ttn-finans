@@ -130,7 +130,22 @@ def publish(archive):
             check(doc.xpath("//meta[@property='article:published_time']/@content") == [m["date"]], "Could not normalize publication date: " + slug)
             check(["".join(h.itertext()).strip() for h in doc.xpath("//h1")] == [m["title"]], "Headline mismatch: " + slug)
             body_nodes = doc.xpath("//section[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]")
-            check(len(body_nodes) == 1, "No editorial body: " + slug)
+            # Gemini's approved full-page HTML may keep article copy in a
+            # standalone .article-body wrapper without the canonical section.
+            # Wrap that existing copy in place; do not rewrite or regenerate it.
+            if not body_nodes:
+                legacy_bodies = doc.xpath(
+                    "//*[contains(concat(' ',normalize-space(@class),' '),' article-body ')]"
+                )
+                if len(legacy_bodies) == 1:
+                    legacy_body = legacy_bodies[0]
+                    parent = legacy_body.getparent()
+                    if parent is not None:
+                        wrapper = html.Element("section", attrib={"class": "editorial-body"})
+                        parent.replace(legacy_body, wrapper)
+                        wrapper.append(legacy_body)
+                        body_nodes = [wrapper]
+            check(len(body_nodes) == 1, "No editorial body or unique article-body wrapper: " + slug)
             # The package's complete article copy is stored in a separate
             # .article-body wrapper after the metadata and duplicate hero.
             # Move that approved copy into the single canonical editorial-body
