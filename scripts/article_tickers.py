@@ -272,29 +272,38 @@ def refresh_article_tickers(root=ROOT):
             footer_match=footer_matches[0]
             footer_html=footer_match.group()
             if 'id="year"' not in footer_html:
-                footer_html=re.sub(r'<span([^>]*)>\\s*2026\\s*</span>',r'<span\\1 id="year">2026</span>',footer_html,count=1)
+                footer_html=re.sub(
+                    r'<span([^>]*)>\s*2026\s*</span>',
+                    lambda match: '<span'+match.group(1)+' id="year">2026</span>',
+                    footer_html,count=1
+                )
                 text=text[:footer_match.start()]+footer_html+text[footer_match.end():]
                 footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
             year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>'
-            if not re.match(r'\\s*<script>document\\.getElementById\\(["\\']year["\\']\\)\\.textContent\\s*=\\s*new Date\\(\\)\\.getFullYear\\(\\);\\s*</script>',text[footer_match.end():]):
-                text=text[:footer_match.end()]+'\\n'+year_script+text[footer_match.end():]
+            year_script_pattern=r'<script>\s*document\.getElementById\("year"\)\.textContent\s*=\s*new Date\(\)\.getFullYear\(\);\s*</script>'
+            if not re.match(r'\s*'+year_script_pattern,text[footer_match.end():]):
+                text=text[:footer_match.end()]+'\n'+year_script+text[footer_match.end():]
         else:
             for match in reversed(footer_matches[:-1]):
                 text=text[:match.start()]+text[match.end():]
-            year_script_pattern=r'<script\\b[^>]*>\\s*document\\.getElementById\\(["\\']year["\\']\\)\\.textContent\\s*=\\s*new Date\\(\\)\\.getFullYear\\(\\);\\s*</script>'
+            year_script_pattern=r'<script>\s*document\.getElementById\("year"\)\.textContent\s*=\s*new Date\(\)\.getFullYear\(\);\s*</script>'
             text=re.sub(year_script_pattern,'',text,flags=re.S|re.I)
             footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
             if footer_match:
                 footer_html=footer_match.group()
                 text=text[:footer_match.start()]+text[footer_match.end():]
             else:
-                text=re.sub(r'<button\\b[^>]*data-cookie-preferences[^>]*>.*?</button>\\s*','',text,flags=re.S|re.I)
+                text=re.sub(r'<button\b[^>]*data-cookie-preferences[^>]*>.*?</button>\s*','',text,flags=re.S|re.I)
                 footer_html=shared_footer
             if 'id="year"' not in footer_html:
-                footer_html=re.sub(r'<span([^>]*)>\\s*2026\\s*</span>',r'<span\\1 id="year">2026</span>',footer_html,count=1)
+                footer_html=re.sub(
+                    r'<span([^>]*)>\s*2026\s*</span>',
+                    lambda match: '<span'+match.group(1)+' id="year">2026</span>',
+                    footer_html,count=1
+                )
             year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>' if 'id="year"' in footer_html else ''
             if '</body>' in text:
-                text=text.replace('</body>','\\n'+footer_html+year_script+'</body>',1)
+                text=text.replace('</body>','\n'+footer_html+year_script+'</body>',1)
             else:
                 text+=footer_html+year_script
         if re.search(r'<link\b[^>]*href=["\']footer\.css(?:\?[^"\']*)?["\']',text,re.I) is None:
