@@ -44,13 +44,13 @@ def refresh_ad_placements(root=None):
             # in otherwise untouched pages and needlessly rewrites the whole archive.
             marker_names = re.findall(r'<!-- ttn-ad:([a-z-]+):start -->', original)
             marker_blocks = re.findall(
-                r'<!-- ttn-ad:([a-z-]+):start -->.*?<!-- ttn-ad:\\1:end -->',
+                r'<!-- ttn-ad:([a-z-]+):start -->.*?<!-- ttn-ad:\1:end -->',
                 original, re.S
             )
             cumulative = 0
             inline_candidate = False
             if total >= 600:
-                for block in re.finditer(r'<(?:p|h[23])\\b[^>]*>.*?</(?:p|h[23])>', content, re.S):
+                for block in re.finditer(r'<(?:p|h[23])\b[^>]*>.*?</(?:p|h[23])>', content, re.S):
                     cumulative += len(html.fromstring(block[0]).text_content().split())
                     if block[0].startswith('<p') and cumulative >= 150 and total-cumulative >= 150:
                         inline_candidate = True
