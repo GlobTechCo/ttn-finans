@@ -228,16 +228,16 @@ def publish(archive):
                 "//main//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]"
             )
             metadata = metadata_nodes[0] if metadata_nodes else html.Element(
-                "p", attrib={"class": "editorial-meta", "data-author": str(m.get("author") or "TTN Finance")}
+                "p", attrib={"class": "editorial-meta", "data-author": str(m.get("author") or "TTN Research Desk")}
             )
             for duplicate in metadata_nodes[1:]:
                 duplicate.getparent().remove(duplicate)
             metadata.clear()
             metadata.set("class", "editorial-meta")
             metadata.set("data-editorial-byline", "")
-            metadata.set("data-author", str(m.get("author") or "TTN Finance"))
+            metadata.set("data-author", str(m.get("author") or "TTN Research Desk"))
             author_node = html.SubElement(metadata, "span", attrib={"class": "editorial-author"})
-            author_node.text = str(m.get("author") or "TTN Finance")
+            author_node.text = str(m.get("author") or "TTN Research Desk")
             published_wrap = html.SubElement(metadata, "span", attrib={"class": "editorial-published"})
             published_node = html.SubElement(published_wrap, "time", datetime=m["date"])
             published_node.text = publication_label
