@@ -84,6 +84,14 @@ def publish(archive):
             cover = m["cover"]
             check(file in names and cover in names and cover.startswith("assets/editorial/" + slug + "-"), "Article/cover missing")
             doc = html.fromstring(z.read(file))
+            # Normalize common Gemini-export paths to the live TTN site layout.
+            for stylesheet in doc.xpath("//link[@rel='stylesheet'][@href]"):
+                href = (stylesheet.get("href") or "").strip()
+                if href in {"assets/styles.css", "assets/style.css", "styles.css"}:
+                    stylesheet.set("href", "style.css")
+            for anchor_node in doc.xpath("//a[@href]"):
+                if (anchor_node.get("href") or "").strip() == "market-analysis.html":
+                    anchor_node.set("href", "analysis.html")
             for dek_node in doc.xpath("//p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]"):
                 dek_node.text = m["dek"]
                 for child in list(dek_node):
