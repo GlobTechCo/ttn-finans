@@ -314,7 +314,46 @@ def publish(archive):
             for href in set(inline_links):
                 check(href[:-5] in title_by_id and ((ROOT / href).is_file() or href in names), "Unknown internal article link: " + href)
 
-            hero_srcs = [src for src in doc.xpath("//img/@src") if src.startswith("assets/editorial/" + slug + "-") and src in names]
+            hero_srcs = [
+                src for src in doc.xpath("//img/@src")
+                if src.startswith("assets/editorial/" + slug + "-") and src in names
+            ]
+            if not hero_srcs:
+                # The manifest is authoritative for the approved cover. Some
+                # Gemini full-page exports omit the hero <img> or use a
+                # non-canonical relative src; bind the existing hero slot to
+                # the exact manifest asset, or insert a hero if none exists.
+                candidate_images = doc.xpath("//main//figure//img")
+                if not candidate_images:
+                    candidate_images = doc.xpath("//main//img")
+                if candidate_images:
+                    hero_image = candidate_images[0]
+                else:
+                    main_nodes = doc.xpath("//main")
+                    check(len(main_nodes) == 1, "Cannot place approved cover: missing unique main element: " + slug)
+                    hero_figure = html.Element("figure", attrib={"class": "ttn-editorial-figure"})
+                    hero_image = html.Element("img")
+                    hero_figure.append(hero_image)
+                    dek_nodes_for_hero = doc.xpath(
+                        "//p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]"
+                    )
+                    if dek_nodes_for_hero and dek_nodes_for_hero[0].getparent() is not None:
+                        parent = dek_nodes_for_hero[0].getparent()
+                        parent.insert(parent.index(dek_nodes_for_hero[0]) + 1, hero_figure)
+                    else:
+                        main_nodes[0].append(hero_figure)
+                hero_image.set("src", cover)
+                hero_image.set("alt", m.get("imageAlt") or hero_image.get("alt") or m["title"])
+                hero_image.set("width", "2576")
+                hero_image.set("height", "1438")
+                hero_image.set(
+                    "srcset",
+                    "assets/responsive/" + slug + "-cover-480.webp 480w, "
+                    "assets/responsive/" + slug + "-cover-960.webp 960w, "
+                    + cover + " 2576w"
+                )
+                hero_image.set("sizes", "(max-width: 900px) calc(100vw - 36px), 820px")
+                hero_srcs = [cover]
             check(len(hero_srcs) >= 1, "No matching approved editorial cover image found in HTML: " + slug)
             hero_src = hero_srcs[0]
             alt = doc.xpath("//img[@src=$src]/@alt", src=hero_src)
