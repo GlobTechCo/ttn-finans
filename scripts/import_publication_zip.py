@@ -179,10 +179,40 @@ def publish(archive):
                 "//*[contains(concat(' ',normalize-space(@class),' '),' article-meta ')]"
             )):
                 node.getparent().remove(node)
-            for node in list(doc.xpath(
+            article_cover_figures = list(doc.xpath(
                 "//figure[contains(concat(' ',normalize-space(@class),' '),' article-cover ')]"
-            )):
-                node.getparent().remove(node)
+            ))
+            # Some approved Gemini pages put the only hero image inside
+            # figure.article-cover. Preserve that figure when the canonical
+            # manifest cover is not already present elsewhere in the page.
+            approved_hero_prefix = "assets/editorial/" + slug + "-"
+            existing_approved_hero = doc.xpath(
+                "//img[@src=$cover or starts-with(@src,$prefix)]",
+                cover=cover, prefix=approved_hero_prefix
+            )
+            if not existing_approved_hero:
+                candidate_figures = [node for node in article_cover_figures if node.xpath(".//img")]
+                if candidate_figures:
+                    hero_figure = candidate_figures[0]
+                    hero_image = hero_figure.xpath(".//img")[0]
+                    hero_image.set("src", cover)
+                    hero_image.set("alt", m.get("imageAlt") or hero_image.get("alt") or m["title"])
+                    hero_image.set(
+                        "srcset",
+                        "assets/responsive/" + slug + "-cover-480.webp 480w, "
+                        "assets/responsive/" + slug + "-cover-960.webp 960w, "
+                        + cover + " 2576w"
+                    )
+                    hero_image.set("sizes", "(max-width: 900px) calc(100vw - 36px), 820px")
+                    for node in article_cover_figures:
+                        if node is not hero_figure:
+                            node.getparent().remove(node)
+                else:
+                    for node in article_cover_figures:
+                        node.getparent().remove(node)
+            else:
+                for node in article_cover_figures:
+                    node.getparent().remove(node)
             # Keep one authoritative source list at the end of the article body.
             for aside in source_asides:
                 body_nodes[0].append(aside)
