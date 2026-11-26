@@ -146,6 +146,22 @@ def publish(archive):
                         wrapper.append(legacy_body)
                         body_nodes = [wrapper]
             check(len(body_nodes) == 1, "No editorial body or unique article-body wrapper: " + slug)
+            # Keep exactly one editorial-body class in the finished document.
+            # Gemini exports can nest an older body container inside the wrapper;
+            # the outer section is canonical and owns the editorial styling.
+            for nested_body in doc.xpath(
+                "//*[contains(concat(' ',normalize-space(@class),' '),' editorial-body ')]"
+            ):
+                if nested_body is body_nodes[0]:
+                    continue
+                classes = [
+                    token for token in (nested_body.get("class") or "").split()
+                    if token != "editorial-body"
+                ]
+                if classes:
+                    nested_body.set("class", " ".join(classes))
+                else:
+                    nested_body.attrib.pop("class", None)
             # The package's complete article copy is stored in a separate
             # .article-body wrapper after the metadata and duplicate hero.
             # Move that approved copy into the single canonical editorial-body
