@@ -61,9 +61,9 @@ jobs:
                 publish-queue/*.zip|ttn-finance-november-17-2026.zip|ttn-finance-publication-2026-11-21-updated.zip|ttn-finance-publication-2026-11-21-package2-v2.zip|ttn-finance-three-articles-2026-11-14.zip|TTN_Finance_*_AutoPublish_*.zip|TTN_Finance_3_Articles_2026-11-14_Evening.zip|TTN_Finance_3_Approved_Articles_2026-11-13_READY.zip|TTN_Finance_Three_Articles_2026-11-15.zip|TTN_Finance_Publication_Package_2026-11-16.zip|TTN_Finance_2026-11-18_GITHUB_UPLOAD.zip|TTN_Finance_2026-11-20_GITHUB_UPLOAD.zip|TTN_Finance_November_19_2026.zip|TTN_Finance_Three_Articles_2026-11-23_WITH_COVERS.zip|pub_new.zip)
                 [[ -f "$file" ]] && archives+=("$file")
                   ;;
-                .github/workflows/publish-approved-zip.yml)
+                .github/workflows/publish-approved-zip.yml|scripts/import_publication_zip.py)
                   # One-time recovery: process the already-uploaded Nov. 26 archive
-                  # when the workflow itself is corrected; importer removes it after success.
+                  # when the importer or workflow is repaired; remove it only after successful import.
                   archive="TTN_Finance_Three_Articles_2026-11-26_FINAL.zip"
                   [[ -f "$archive" ]] && archives+=("$archive")
                   ;;
