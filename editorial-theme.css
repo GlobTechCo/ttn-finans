@@ -252,3 +252,12 @@ html[data-theme="dark"] .static-page .editorial-body > .article-body > p{
   color:#D5DFEB;
   margin-bottom:23px;
 }
+
+
+/* Article pages must not inherit the site's two-column homepage grid.
+   Without this reset, the kicker, headline, deck and hero are placed in
+   alternating grid cells, making the cover appear as a small right column. */
+.container.article-page {
+  display: block;
+  grid-template-columns: minmax(0, 1fr);
+}

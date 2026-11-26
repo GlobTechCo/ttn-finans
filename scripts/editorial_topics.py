@@ -1043,12 +1043,12 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['tech-ai-dell-ai-server-backlog-132-billion-q3-2026'] = []
 
 # Approved ZIP auto-publication
-GROUPS.setdefault('Jobs and housing', []).append('robinhood-business-model-revenue-streams')
+GROUPS.setdefault('Brokerages and financial services', []).append('robinhood-business-model-revenue-streams')
 RELATED['robinhood-business-model-revenue-streams'] = ['options-calls-puts-explained', 'robinhood-q3-2026-crypto-revenue-profit', 'prediction-markets-explained', 'earnings-beat-miss-explained']
 
 # Approved ZIP auto-publication
-GROUPS.setdefault('Jobs and housing', []).append('market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026')
-RELATED['market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026'] = ['fed-policy-2026', 'oil-shock-market-ripple', 'dxy-dollar-index-explained']
+GROUPS.setdefault('Central banks and currencies', []).append('market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026')
+RELATED['market-analysis-bank-of-korea-rate-hike-325-growth-chip-boom-2026'] = ['central-bank-policy-divergence-explained', 'fed-policy-2026', 'dxy-dollar-index-explained']
 GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('tech-ai-bank-of-england-ai-financing-financial-stability-risks-2026')
 RELATED['tech-ai-bank-of-england-ai-financing-financial-stability-risks-2026'] = ['ai-capex-nasdaq-correction', 'ai-data-center-electricity-demand-2026', 'treasury-yields-spike-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('crypto-eba-stablecoin-defi-mica-regulatory-risks-2026')
