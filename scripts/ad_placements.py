@@ -39,6 +39,27 @@ def refresh_ad_placements(root=None):
         if body:
             content = body[2]
             total = len(html.fragment_fromstring(content, create_parent='div').text_content().split())
+            # Do not strip and recreate already-correct inert placements on every
+            # historical article. That operation only changes trailing whitespace
+            # in otherwise untouched pages and needlessly rewrites the whole archive.
+            marker_names = re.findall(r'<!-- ttn-ad:([a-z-]+):start -->', original)
+            marker_blocks = re.findall(
+                r'<!-- ttn-ad:([a-z-]+):start -->.*?<!-- ttn-ad:\\1:end -->',
+                original, re.S
+            )
+            cumulative = 0
+            inline_candidate = False
+            if total >= 600:
+                for block in re.finditer(r'<(?:p|h[23])\\b[^>]*>.*?</(?:p|h[23])>', content, re.S):
+                    cumulative += len(html.fromstring(block[0]).text_content().split())
+                    if block[0].startswith('<p') and cumulative >= 150 and total-cumulative >= 150:
+                        inline_candidate = True
+                        break
+            expected_markers = ['article-content-end'] + (['article-inline'] if inline_candidate else [])
+            if (sorted(marker_names) == sorted(expected_markers)
+                    and len(marker_blocks) == len(marker_names)
+                    and all('data-ttn-ad-enabled="false"' in block for block in marker_blocks)):
+                continue
             # Longer articles get one midpoint location, with substantial copy on both sides.
             # Native templates have no layout box, focusable controls or resource requests.
             if total >= 600:
