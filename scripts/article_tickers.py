@@ -8,6 +8,34 @@ from urllib.parse import quote
 from lxml import html
 
 ROOT = Path(__file__).resolve().parents[1]
+def ensure_footer_year_marker(footer_html):
+    """Ensure the footer contains the element referenced by the year updater."""
+    if 'id="year"' in footer_html:
+        return footer_html
+    footer_html, count = re.subn(
+        r'<span([^>]*)>\s*2026\s*</span>',
+        lambda match: '<span'+match.group(1)+' id="year">2026</span>',
+        footer_html, count=1
+    )
+    if count:
+        return footer_html
+    footer_html, count = re.subn(
+        r'©\s*2026\s+TTN Finance(\.?)',
+        lambda match: '© TTN Finance <span id="year">2026</span>'+match.group(1),
+        footer_html, count=1
+    )
+    if count:
+        return footer_html
+    footer_html, count = re.subn(
+        r'©\s*TTN Finance(\.?)',
+        lambda match: '© TTN Finance <span id="year">2026</span>'+match.group(1),
+        footer_html, count=1
+    )
+    if count:
+        return footer_html
+    return footer_html.replace('</footer>', '<span id="year">2026</span></footer>', 1)
+
+
 # Preserve established instruments; identify broker CFDs and quote currencies.
 INSTRUMENTS = {
     'LLY': ('NYSE:LLY', 'Eli Lilly · NYSE'),
@@ -272,12 +300,7 @@ def refresh_article_tickers(root=ROOT):
             # historical article despite no editorial or layout change.
             footer_match=footer_matches[0]
             footer_html=footer_match.group()
-            if 'id="year"' not in footer_html:
-                footer_html=re.sub(
-                    r'<span([^>]*)>\s*2026\s*</span>',
-                    lambda match: '<span'+match.group(1)+' id="year">2026</span>',
-                    footer_html,count=1
-                )
+            footer_html=ensure_footer_year_marker(footer_html)
                 text=text[:footer_match.start()]+footer_html+text[footer_match.end():]
                 footer_match=re.search(footer_pattern,text,flags=re.S|re.I)
             year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>'
@@ -296,12 +319,7 @@ def refresh_article_tickers(root=ROOT):
             else:
                 text=re.sub(r'<button\b[^>]*data-cookie-preferences[^>]*>.*?</button>\s*','',text,flags=re.S|re.I)
                 footer_html=shared_footer
-            if 'id="year"' not in footer_html:
-                footer_html=re.sub(
-                    r'<span([^>]*)>\s*2026\s*</span>',
-                    lambda match: '<span'+match.group(1)+' id="year">2026</span>',
-                    footer_html,count=1
-                )
+            footer_html=ensure_footer_year_marker(footer_html)
             year_script='<script>document.getElementById("year").textContent = new Date().getFullYear();</script>' if 'id="year"' in footer_html else ''
             if '</body>' in text:
                 text=text.replace('</body>','\n'+footer_html+year_script+'</body>',1)
