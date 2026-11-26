@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Refresh progressive-enhancement fallbacks and contextual links.
+The generated topic archives are refreshed after editorial taxonomy corrections.
 
 Run after editing articles.js. No external requests; requires Python 3.10+.
 The runtime archive components and this script use the same section ID set.
