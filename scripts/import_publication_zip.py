@@ -751,6 +751,26 @@ def publish(archive):
                     if "article-hero-image" not in image_classes:
                         image_classes.append("article-hero-image")
                     image.set("class", " ".join(image_classes))
+            # The live site requires the publication timestamp directly below
+            # the deck. Package templates can nest or separate these nodes, so
+            # canonicalize their placement after all wrapper normalization.
+            main = main_nodes[0]
+            deck_nodes = final_doc.xpath(
+                "//main//p[contains(concat(' ',normalize-space(@class),' '),' article-dek ')]"
+            )
+            metadata_nodes = final_doc.xpath(
+                "//main//p[contains(concat(' ',normalize-space(@class),' '),' editorial-meta ')]"
+            )
+            check(len(deck_nodes) == 1 and len(metadata_nodes) == 1,
+                  "Expected one deck and one publication metadata row: " + slug)
+            deck_node, metadata_node = deck_nodes[0], metadata_nodes[0]
+            if deck_node.getparent() is not main:
+                deck_node.getparent().remove(deck_node)
+                main.append(deck_node)
+            if metadata_node.getparent() is not None:
+                metadata_node.getparent().remove(metadata_node)
+            main.insert(main.index(deck_node) + 1, metadata_node)
+
             # Gemini's complete-page source can repeat IDs across duplicated
             # template blocks. Keep the first target (so existing fragment links
             # remain stable) and remove duplicate IDs before the site-wide audit.
