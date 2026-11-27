@@ -370,7 +370,16 @@ def refresh_article_tickers(root=ROOT):
                     r'<(?:aside|section|div)\b(?=[^>]*class="[^"]*\brelated-reading\b)[^>]*>',
                     body_fragment, flags=re.I
                 )
-                insert_at=body_start+related_match.start() if related_match else body_end
+                boundary=related_match.start() if related_match else len(body_fragment)
+                paragraph_closes=list(re.finditer(r'</p\s*>', body_fragment[:boundary], flags=re.I))
+                if paragraph_closes:
+                    # Insert after the last editorial paragraph, ahead of any
+                    # related-reading panel, ad template or source block.
+                    insert_at=body_start+paragraph_closes[-1].end()
+                elif related_match:
+                    insert_at=body_start+related_match.start()
+                else:
+                    insert_at=body_end
             elif source_pos >= 0 and source_pos < section_close:
                 insert_at=source_pos
             else:
