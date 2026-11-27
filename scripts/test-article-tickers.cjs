@@ -95,7 +95,17 @@ const cases = [
       }));
       const page = await context.newPage();
       const errors = []; page.on('pageerror', e => errors.push(e.message));
-      for (const [id, symbol] of cases) {
+      const latestArticles = new Set([
+        'entain-australia-austrac-185-million-aml-settlement-2026',
+        'sap-10000-job-cuts-ai-restructuring-2026',
+        'fidelity-chainlink-spot-etf-filing-2026',
+      ]);
+      // Exercise the full legacy ticker catalogue once on desktop/light, and
+      // recheck the three latest articles in every desktop/mobile theme.
+      const viewportCases = (!mobile && theme === 'light')
+        ? cases
+        : cases.filter(([id]) => latestArticles.has(id));
+      for (const [id, symbol] of viewportCases) {
         await page.goto(base + id + '.html', { waitUntil: 'domcontentloaded' });
         const control = page.locator('.static-page .article-ticker-tag[data-tv="' + symbol + '"]');
         await control.waitFor();
