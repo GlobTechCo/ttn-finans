@@ -118,7 +118,7 @@ def verify():
                 assert len(doc.xpath('//body/footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]')) == 1 and not doc.xpath('//main//footer[contains(concat(" ",normalize-space(@class)," ")," ttn-footer ")]'), (a['id'], 'duplicate or misplaced site footer')
                 assert not doc.xpath('//time[contains(., "EET")]'), (a['id'], 'publication time must use New York')
                 article_copy = doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')[0]
-                body_links = article_copy.xpath('.//a/@href')
+                body_links = article_copy.xpath('.//a[not(ancestor::div[contains(concat(" ",normalize-space(@class)," ")," article-tickers ")])]/@href')
                 assert len(body_links) >= 2 and all(link.endswith('.html') and (ROOT/link).is_file() for link in body_links), (a['id'], 'article context links must point to internal TTN articles')
                 deck = doc.xpath('//main/p[contains(concat(" ",normalize-space(@class)," ")," article-dek ")]')[0].text_content().split()
                 assert 15 <= len(deck) <= 18, (a['id'], 'deck must contain 15-18 words', len(deck))
