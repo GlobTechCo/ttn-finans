@@ -76,6 +76,8 @@ INSTRUMENTS = {
     'LYG': ('NYSE:LYG', 'Lloyds Banking Group ADR · NYSE'),
     'F': ('NYSE:F', 'Ford Motor · NYSE'),
     'SAP': ('NYSE:SAP', 'SAP ADR · NYSE'),
+    'ENT': ('LSE:ENT', 'Entain · London Stock Exchange'),
+    'LINK': ('BINANCE:LINKUSDT', 'Chainlink / Tether · Binance'),
     'HOOD': ('NASDAQ:HOOD', 'Robinhood Markets · Nasdaq'),
     'GSAT': ('NASDAQ:GSAT', 'Globalstar · Nasdaq'),
     'BA': ('NYSE:BA', 'Boeing · NYSE'),
@@ -174,6 +176,9 @@ MENTIONS = {
     'Nasdaq Composite': r'\bNasdaq\s+Composite\b',
     'Nasdaq-100': r'\bNasdaq[-\s]+100\b',
     'Dow Jones': r'\bDow(?:\s+Jones)?\s+Industrial\s+Average\b',
+    'SAP': r'\bSAP\b',
+    'ENT': r'\bEntain\b',
+    'LINK': r'\bLINK\b',
     'MSFT': r'\bMicrosoft\b',
     'GOOGL': r'\bGoogle\b|\bAlphabet\b',
     'META': r'\bMeta\b',
@@ -211,6 +216,14 @@ def network_only_mention(label, copy):
             return False
     return True
 
+SUBJECT_TICKERS = {
+    # The instrument row must represent the subject of the story, not every
+    # asset mentioned in a comparison or a linked headline.
+    'entain-australia-austrac-185-million-aml-settlement-2026': ['ENT'],
+    'sap-10000-job-cuts-ai-restructuring-2026': ['SAP'],
+    'fidelity-chainlink-spot-etf-filing-2026': ['LINK'],
+}
+
 def expected_tickers(article, doc):
     body = doc.xpath('//section[@class="editorial-body"]')
     assert len(body) == 1, article['id']
@@ -225,6 +238,8 @@ def expected_tickers(article, doc):
     else:
         body_text = body[0].text_content()
     copy = ' '.join([article['title'], article.get('dek',''), body_text])
+    if article['id'] in SUBJECT_TICKERS:
+        return SUBJECT_TICKERS[article['id']]
     labels = list(dict.fromkeys(ALIASES.get(t,t) for t in article.get('tickers',[])))
     for label, pattern in MENTIONS.items():
         if re.search(pattern, copy, re.I) and label not in labels:
@@ -345,9 +360,17 @@ def refresh_article_tickers(root=ROOT):
             source_positions=[p for marker in source_markers if (p:=text.find(marker,section_start,section_close))>=0]
             source_pos=min(source_positions) if source_positions else -1
             if body_start >= 0:
-                # Insert immediately after the complete article-body wrapper,
-                # before Related Reading and Sources.
-                insert_at=matching_div_close(text, body_start)
+                # Place TradingView immediately after the final article paragraph.
+                # Some legacy templates keep a Related Reading aside inside
+                # .article-body, so insert before that aside rather than after
+                # the whole wrapper. Otherwise insert directly after the wrapper.
+                body_end=matching_div_close(text, body_start)
+                body_fragment=text[body_start:body_end]
+                related_match=re.search(
+                    r'<(?:aside|section|div)\\b(?=[^>]*class="[^"]*\\brelated-reading\\b)[^>]*>',
+                    body_fragment, flags=re.I
+                )
+                insert_at=body_start+related_match.start() if related_match else body_end
             elif source_pos >= 0 and source_pos < section_close:
                 insert_at=source_pos
             else:
