@@ -151,6 +151,10 @@ def verify():
             assert ticker_pos>=0 and (body_pos<ticker_pos if body_pos>=0 else editorial_pos<ticker_pos),(a['id'],'tickers must follow article text')
             if source_pos>=0:
                 assert ticker_pos<source_pos,(a['id'],'tickers must precede sources')
+            article_bodies=doc.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," article-body ")]')
+            assert len(article_bodies)==1,(a['id'],'one article-body wrapper is required when tickers are present')
+            final_paragraphs=article_bodies[0].xpath('./p[last()]')
+            assert len(final_paragraphs)==1 and final_paragraphs[0].getnext() is ticker_blocks[0],(a['id'],'TradingView tickers must immediately follow the final article paragraph')
         else:
             assert not ticker_blocks,(a['id'],'unexpected empty ticker block')
         if a['id'] in {
