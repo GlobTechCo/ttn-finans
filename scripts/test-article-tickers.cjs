@@ -168,10 +168,10 @@ const cases = [
       assert.equal(await tata.getAttribute('target'), '_blank');
       assert.equal(await tata.getAttribute('role'), null);
       assert.equal(await page.locator('#chart-panel').count(), 0);
-      await page.goto(base + cases[cases.length - 1][0] + '.html');
+      await page.goto(base + 'bitcoin-two-year-low-55830-ai-market-selloff-november-21-2026.html');
       // A second instrument must replace the first chart rather than keep a stale symbol.
-      await page.locator('.article-ticker-tag[data-tv="COINBASE:SOLUSD"]').click();
-      await page.locator('#tv-chart-container [data-chart-symbol="COINBASE:SOLUSD"]').waitFor();
+      await page.locator('.article-ticker-tag[data-tv="BINANCE:BTCUSDT"]').click();
+      await page.locator('#tv-chart-container [data-chart-symbol="BINANCE:BTCUSDT"]').waitFor();
       await page.locator('.article-ticker-tag[data-tv="BINANCE:ETHUSDT"]').click();
       await page.locator('#tv-chart-container [data-chart-symbol="BINANCE:ETHUSDT"]').waitFor();
       assert.deepEqual(errors, [], name + ' article JavaScript errors');
