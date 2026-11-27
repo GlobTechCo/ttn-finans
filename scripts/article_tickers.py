@@ -367,7 +367,7 @@ def refresh_article_tickers(root=ROOT):
                 body_end=matching_div_close(text, body_start)
                 body_fragment=text[body_start:body_end]
                 related_match=re.search(
-                    r'<(?:aside|section|div)\\b(?=[^>]*class="[^"]*\\brelated-reading\\b)[^>]*>',
+                    r'<(?:aside|section|div)\b(?=[^>]*class="[^"]*\brelated-reading\b)[^>]*>',
                     body_fragment, flags=re.I
                 )
                 insert_at=body_start+related_match.start() if related_match else body_end
