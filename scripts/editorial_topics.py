@@ -1053,3 +1053,11 @@ GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('
 RELATED['tech-ai-bank-of-england-ai-financing-financial-stability-risks-2026'] = ['ai-capex-nasdaq-correction', 'ai-data-center-electricity-demand-2026', 'treasury-yields-spike-2026']
 GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('crypto-eba-stablecoin-defi-mica-regulatory-risks-2026')
 RELATED['crypto-eba-stablecoin-defi-mica-regulatory-risks-2026'] = ['stablecoins-explained-depeg-risk', 'crypto-liquidation-leverage-explained', 'bitcoin-etf-institutional-adoption']
+
+# Approved ZIP auto-publication
+GROUPS.setdefault('Jobs and housing', []).append('entain-australia-austrac-185-million-aml-settlement-2026')
+RELATED['entain-australia-austrac-185-million-aml-settlement-2026'] = ['central-bank-policy-divergence-explained', 'brookfield-acquire-pgp-glass-blackstone-1-7-billion-2026']
+GROUPS.setdefault('AI investment, infrastructure and productivity', []).append('sap-10000-job-cuts-ai-restructuring-2026')
+RELATED['sap-10000-job-cuts-ai-restructuring-2026'] = ['tech-ai-dell-ai-server-backlog-132-billion-q3-2026', 'ai-boom-capital-financing-2026', 'ai-chips-bottlenecks-2026']
+GROUPS.setdefault('Crypto, stablecoins and market structure', []).append('fidelity-chainlink-spot-etf-filing-2026')
+RELATED['fidelity-chainlink-spot-etf-filing-2026'] = ['bitcoin-etf-institutional-adoption', 'crypto-bitcoin-etf-outflows-record-november-2026']
