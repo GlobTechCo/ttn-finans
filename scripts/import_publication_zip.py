@@ -444,7 +444,22 @@ def publish(archive):
             check(sm in names and md in names, "Responsive images missing: " + slug)
             related = m.get("related", [])
             check(isinstance(related, list) and all(isinstance(s, str) and slug_re.fullmatch(s) for s in related), "Invalid related reading")
-            relations[slug] = related
+            # Keep only references to articles already present in the live catalog.
+            # External/new/obsolete slugs in a package must not abort the entire import.
+            valid_related = list(dict.fromkeys(s for s in related if s in existing and s != slug))
+            if len(valid_related) < 2:
+                preferred = [
+                    item["id"] for item in reversed(catalog)
+                    if item.get("section") == m["section"] and item["id"] != slug
+                ]
+                remaining = [
+                    item["id"] for item in reversed(catalog)
+                    if item["id"] != slug and item["id"] not in preferred
+                ]
+                valid_related = list(dict.fromkeys(valid_related + preferred + remaining))[:2]
+            else:
+                valid_related = valid_related[:3]
+            relations[slug] = valid_related
             # Short SEO titles are required by the static-site audit. Preserve the visible H1.
             seo_suffix = " | TTN Finance"
             seo_title = str(m.get("seoTitle") or m["title"]).strip()
