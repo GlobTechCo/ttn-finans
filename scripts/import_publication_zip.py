@@ -9,7 +9,7 @@ import re
 import sys
 import zipfile
 from pathlib import Path
-from lxml import html
+from lxml import html, etree
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://globtechco.github.io/ttn-finans/"
@@ -236,10 +236,10 @@ def publish(archive):
             metadata.set("class", "editorial-meta")
             metadata.set("data-editorial-byline", "")
             metadata.set("data-author", str(m.get("author") or "TTN Research Desk"))
-            author_node = html.SubElement(metadata, "span", attrib={"class": "editorial-author"})
+            author_node = etree.SubElement(metadata, "span", attrib={"class": "editorial-author"})
             author_node.text = str(m.get("author") or "TTN Research Desk")
-            published_wrap = html.SubElement(metadata, "span", attrib={"class": "editorial-published"})
-            published_node = html.SubElement(published_wrap, "time", datetime=m["date"])
+            published_wrap = etree.SubElement(metadata, "span", attrib={"class": "editorial-published"})
+            published_node = etree.SubElement(published_wrap, "time", datetime=m["date"])
             published_node.text = publication_label
             if dek_nodes:
                 dek = dek_nodes[0]
