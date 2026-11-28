@@ -3,13 +3,13 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/google-discovery-diagnostics.yml']
+    paths: ['.github/workflows/google-discovery-diagnostics.yml', 'scripts/refresh_sitemap.py', 'scripts/verify_site.py', 'sitemap.xml']
 permissions:
   contents: read
 jobs:
   public-endpoints:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 20
     steps:
       - name: Check live sitemap, pages and Google tag without sending analytics events
         shell: bash
@@ -63,6 +63,7 @@ jobs:
               "binance-63-billion-heist-crypto-insurance-scrutiny-2026.html",
               "softbank-corp-us-ai-data-center-slowdown-bloomberg-november-9.html",
               "pnc-coinbase-usdc-corporate-payments-pilot-november-9-2026.html",
+              "credit-agricole-banco-bpm-merger-proposal-european-banks-rally-november-9.html",
           ]:
               item = fetch(BASE + path)
               body = item["body"].decode("utf-8", "replace")
@@ -73,6 +74,22 @@ jobs:
                   "preferences": "data-cookie-preferences" in body,
                   "robots_noindex": bool(re.search(r'noindex', body[:3500], re.I))
               }),flush=True)
+          # Inspect the historical URL that Search Console classified as Crawled - currently not indexed.
+          target_path="credit-agricole-banco-bpm-merger-proposal-european-banks-rally-november-9.html"
+          target=fetch(BASE+target_path)
+          target_body=target["body"].decode("utf-8","replace")
+          def meta_value(pattern):
+              match=re.search(pattern,target_body[:16000],re.I)
+              return match.group(1) if match else None
+          print("GSC_EXCLUDED_URL_DETAIL",json.dumps({
+              "url":target["url"],"status":target["status"],
+              "canonical":meta_value(r'<link[^>]+rel=["\\']canonical["\\'][^>]+href=["\\']([^"\\']+)'),
+              "robots":meta_value(r'<meta[^>]+name=["\\']robots["\\'][^>]+content=["\\']([^"\\']+)'),
+              "article_modified":meta_value(r'<meta[^>]+property=["\\']article:modified_time["\\'][^>]+content=["\\']([^"\\']+)'),
+              "has_h1":bool(re.search(r'<h1\\b',target_body,re.I)),
+              "empty_evidence_heading":"What the evidence supports" in target_body,
+              "word_count_schema":meta_value(r'"wordCount"\\s*:\\s*(\\d+)')
+          },sort_keys=True),flush=True)
           home=data["homepage"]["body"].decode("utf-8","replace")
           analytics=data["analytics"]["body"].decode("utf-8","replace")
           ids=sorted(set(re.findall(r"G-[A-Z0-9]+",analytics)))
