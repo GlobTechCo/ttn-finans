@@ -83,12 +83,12 @@ jobs:
               return match.group(1) if match else None
           print("GSC_EXCLUDED_URL_DETAIL",json.dumps({
               "url":target["url"],"status":target["status"],
-              "canonical":meta_value(r'<link[^>]+rel=["\\']canonical["\\'][^>]+href=["\\']([^"\\']+)'),
-              "robots":meta_value(r'<meta[^>]+name=["\\']robots["\\'][^>]+content=["\\']([^"\\']+)'),
-              "article_modified":meta_value(r'<meta[^>]+property=["\\']article:modified_time["\\'][^>]+content=["\\']([^"\\']+)'),
-              "has_h1":bool(re.search(r'<h1\\b',target_body,re.I)),
+              "canonical":meta_value(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)'),
+              "robots":meta_value(r'<meta[^>]+name="robots"[^>]+content="([^"]+)'),
+              "article_modified":meta_value(r'<meta[^>]+property="article:modified_time"[^>]+content="([^"]+)'),
+              "has_h1":bool(re.search(r'<h1\b',target_body,re.I)),
               "empty_evidence_heading":"What the evidence supports" in target_body,
-              "word_count_schema":meta_value(r'"wordCount"\\s*:\\s*(\\d+)')
+              "word_count_schema":meta_value(r'"wordCount"\s*:\s*(\d+)')
           },sort_keys=True),flush=True)
           home=data["homepage"]["body"].decode("utf-8","replace")
           analytics=data["analytics"]["body"].decode("utf-8","replace")
