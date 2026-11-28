@@ -100,7 +100,8 @@ def reliable_lastmod(root, page, existing=''):
         if len(stamp.strip()) == 10:
             return parsed.date().isoformat()
         assert parsed.tzinfo is not None, (page.name, 'datetime lastmod must include a timezone')
-        return parsed.isoformat(timespec='seconds').replace('+00:00', 'Z')
+        normalized = parsed.isoformat()
+        return normalized.replace('+00:00', 'Z')
     return existing
 
 
