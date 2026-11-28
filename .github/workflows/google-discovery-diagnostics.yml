@@ -32,7 +32,7 @@ jobs:
               headers = {k.lower():v for k,v in result["headers"].items()}
               print(json.dumps({"check":label,"url":result["url"],"final":result.get("final"),"status":result["status"],"bytes":len(result["body"]),"sha256":hashlib.sha256(result["body"]).hexdigest(),"content_type":headers.get("content-type"),"last_modified":headers.get("last-modified"),"cache_control":headers.get("cache-control"),"age":headers.get("age"),"x_robots_tag":headers.get("x-robots-tag"),"error":result.get("error")},sort_keys=True),flush=True)
           print("TTN_DIAGNOSTICS_START",datetime.datetime.now(datetime.timezone.utc).isoformat(),flush=True)
-          targets = [("", "homepage"),("sitemap.xml","sitemap"),("robots.txt","project-robots"),("analytics.js","analytics"),("consent.js","consent"),("google190079b83d1d8ba0.html","verification")]
+          targets = [("", "homepage"),("sitemap.xml","sitemap"),("sitemap-pages.txt","plain-sitemap"),("robots.txt","project-robots"),("analytics.js","analytics"),("consent.js","consent"),("google190079b83d1d8ba0.html","verification")]
           data = {}
           for path,label in targets:
               result=fetch(BASE+path);data[label]=result;report(result,label)
@@ -45,12 +45,17 @@ jobs:
               print("SITEMAP_SUMMARY",json.dumps({"urls":len(urls),"unique":len(set(urls)),"latest_lastmod":max(dates),"namespace":tree.tag,"all_project_urls":all(u.startswith(BASE) for u in urls),"has_latest_nacha":any("nacha-same-day-ach" in u for u in urls),"has_latest_muse":any("meta-muse-ten-million" in u for u in urls)}),flush=True)
           except Exception as error:
               urls=[];print("SITEMAP_PARSE_ERROR",str(error),flush=True)
+          try:
+              plain_urls=data["plain-sitemap"]["body"].decode("utf-8","replace").splitlines()
+              print("PLAIN_SITEMAP_SUMMARY",json.dumps({"urls":len(plain_urls),"unique":len(set(plain_urls)),"matches_xml":plain_urls==urls,"status":data["plain-sitemap"]["status"]}),flush=True)
+          except Exception as error:
+              print("PLAIN_SITEMAP_ERROR",str(error),flush=True)
           def check_page(url):
-              result=fetch(url,method="HEAD")
+              result=fetch(url,"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",method="HEAD")
               attempts=1
               while result["status"] in (None, 429, 500, 502, 503, 504) and attempts<3:
                   time.sleep(attempts)
-                  result=fetch(url,method="GET")
+                  result=fetch(url,"Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",method="GET")
                   attempts+=1
               headers={k.lower():v for k,v in result["headers"].items()}
               return {"url":url,"status":result["status"],"type":headers.get("content-type"),"x_robots_tag":headers.get("x-robots-tag"),"error":result.get("error")}
