@@ -274,6 +274,19 @@ def verify():
         if canonical==[expected]:expected_locations.add(expected)
     assert set(sitemap_locations)==expected_locations, ('Incomplete sitemap', sorted(expected_locations-set(sitemap_locations)), 'Unexpected URLs', sorted(set(sitemap_locations)-expected_locations))
     assert all(u.find('s:lastmod',ns) is not None and u.find('s:lastmod',ns).text for u in urls)
+    sitemap_lastmods = {
+        u.find('s:loc', ns).text: u.find('s:lastmod', ns).text
+        for u in urls
+    }
+    for name, doc in docs.items():
+        canonical = doc.xpath('//link[@rel="canonical"]/@href')
+        if len(canonical) != 1 or any('noindex' in value.lower() for value in doc.xpath('//meta[@name="robots"]/@content')):
+            continue
+        modified = doc.xpath('//meta[@property="article:modified_time"]/@content')
+        if modified:
+            assert len(modified) == 1, (name, 'duplicate article:modified_time')
+            assert canonical[0] in sitemap_lastmods, (name, 'canonical page missing from sitemap')
+            assert same_timestamp(sitemap_lastmods[canonical[0]], modified[0]), (name, 'sitemap lastmod must match verified article modification time')
     assert not any(u.find('s:loc',ns).text.endswith('404.html') for u in urls)
     assert (ROOT/'_config.yml').read_text().count('  - scripts')==1
     assert len(list((ROOT/'scripts').glob('*.json')))==2
