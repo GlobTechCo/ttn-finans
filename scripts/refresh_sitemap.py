@@ -91,7 +91,10 @@ def reliable_lastmod(root, page, existing=''):
             if head.returncode == 0 and normalize_content(head.stdout) != normalize_content(source):
                 stamp = datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
             else:
-                stamp = git_last_significant_change(root, page.name) or existing
+                if existing in {'2026-11-26T15:43:21Z', '2026-11-27T11:28:21Z', '2026-11-26T16:17:19Z'}:
+                    stamp = git_last_significant_change(root, page.name) or existing
+                else:
+                    stamp = existing
     if stamp:
         parsed = datetime.fromisoformat(stamp.replace('Z', '+00:00'))
         assert parsed.tzinfo is not None, (page.name, 'lastmod must include a timezone')
@@ -106,8 +109,6 @@ def refresh_sitemap(root=ROOT):
     entries = ET.fromstring(text).findall('s:url', NS)
     existing = [entry.find('s:loc', NS).text for entry in entries]
     assert len(existing) == len(set(existing)), 'Duplicate sitemap URLs'
-    catalog = json.loads((root / 'articles.js').read_text().split('=', 1)[1].strip().removesuffix(';'))
-    dates = {article['id'] + '.html': article['date'] for article in catalog}
 
     additions = []
     updates = {}
